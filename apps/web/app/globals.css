@@ -1,0 +1,34 @@
+:root {
+  --bg: #0f1115;
+  --panel: #171a21;
+  --fg: #e6e8eb;
+  --muted: #9aa3ad;
+  --accent: #4f8cff;
+  --border: #262b34;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+}
+
+a { color: var(--accent); text-decoration: none; }
+
+.container { max-width: 960px; margin: 0 auto; padding: 24px; }
+.panel { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+.row { display: flex; gap: 12px; flex-wrap: wrap; }
+input, button {
+  font-size: 14px; padding: 10px 12px; border-radius: 8px;
+  border: 1px solid var(--border); background: #11141a; color: var(--fg);
+}
+button { background: var(--accent); border: none; cursor: pointer; color: white; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+.muted { color: var(--muted); font-size: 12px; }
+.disclaimer { color: var(--muted); font-size: 11px; line-height: 1.6; border-top: 1px solid var(--border); margin-top: 32px; padding-top: 16px; }
+.nav { display: flex; gap: 16px; padding: 16px 24px; border-bottom: 1px solid var(--border); }
+.badge { font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); }

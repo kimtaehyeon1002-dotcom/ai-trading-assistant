@@ -1,0 +1,30 @@
+TradingAssistant/
+│
+├── app/
+├── config/
+├── core/
+├── services/
+│   ├── kiwoom/
+│   ├── market/
+│   ├── news/
+│   ├── github/
+│   └── report/
+│
+├── generators/
+│   ├── morning/
+│   ├── news/
+│   ├── trades/
+│   └── dashboard/
+│
+├── docs/              ← GitHub Pages
+│
+├── templates/
+├── static/
+├── data/
+│   ├── trades/
+│   ├── reports/
+│   └── cache/
+│
+├── tests/
+└── .github/
+    └── workflows/
