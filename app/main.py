@@ -1,0 +1,105 @@
+"""PySide6 데스크톱 — 정적 사이트 빌드 트리거 + Kiwoom 로그인/동기화 + docs 열기.
+
+Windows(32-bit + KOA)에서 실행. Kiwoom은 선택적: 미설치 환경에서도 빌드/미리보기는 동작한다.
+    python -m app.main
+"""
+from __future__ import annotations
+
+import webbrowser
+
+from config.settings import DOCS_DIR
+from core.dates import now_kst
+from core.logging import get_logger
+
+log = get_logger("app")
+
+
+def _run_build(target: str) -> str:
+    from generators.base import copy_static
+    from generators.dashboard.generate import generate as gen_dashboard
+    from generators.morning.generate import generate as gen_morning
+    from generators.news.generate import generate as gen_news
+    from generators.trades.generate import generate as gen_trades
+
+    fn = {"morning": gen_morning, "news": gen_news, "trades": gen_trades}.get(target)
+    if fn:
+        fn()
+    gen_dashboard()
+    copy_static()
+    return f"{target} 빌드 완료 ({now_kst():%H:%M:%S})"
+
+
+def _kiwoom_sync(start_date: str) -> str:
+    from services.kiwoom import orders
+    from services.kiwoom.api import KiwoomAPI, KiwoomError
+
+    try:
+        api = KiwoomAPI()
+    except KiwoomError as exc:
+        return f"Kiwoom 사용 불가: {exc}"
+    if not api.connect():
+        return "Kiwoom 로그인 실패"
+    from services.kiwoom.account import list_accounts
+
+    accounts = list_accounts(api)
+    if not accounts:
+        return "계좌를 찾을 수 없습니다"
+    total = orders.sync_to_journal(api, accounts[0], start_date)
+    _run_build("trades")
+    return f"동기화 완료 · 계좌 {accounts[0]} · 총 {total}건"
+
+
+def main() -> int:
+    try:
+        from PySide6.QtWidgets import (
+            QApplication,
+            QHBoxLayout,
+            QLineEdit,
+            QPlainTextEdit,
+            QPushButton,
+            QVBoxLayout,
+            QWidget,
+        )
+    except Exception as exc:  # noqa: BLE001
+        print("PySide6가 필요합니다(pip install PySide6). CLI 빌드는 python build.py 사용.", exc)
+        return 1
+
+    app = QApplication([])
+    win = QWidget()
+    win.setWindowTitle("AI Trading Assistant")
+    win.resize(560, 420)
+    root = QVBoxLayout(win)
+
+    log_view = QPlainTextEdit()
+    log_view.setReadOnly(True)
+
+    def out(msg: str) -> None:
+        log_view.appendPlainText(msg)
+
+    def make_btn(label: str, handler) -> QPushButton:
+        b = QPushButton(label)
+        b.clicked.connect(handler)
+        return b
+
+    row1 = QHBoxLayout()
+    row1.addWidget(make_btn("모닝리포트 생성", lambda: out(_run_build("morning"))))
+    row1.addWidget(make_btn("뉴스 갱신", lambda: out(_run_build("news"))))
+    row1.addWidget(make_btn("매매일지 재생성", lambda: out(_run_build("trades"))))
+    root.addLayout(row1)
+
+    row2 = QHBoxLayout()
+    start = QLineEdit(now_kst().strftime("%Y%m%d"))
+    start.setPlaceholderText("조회 시작일 YYYYMMDD")
+    row2.addWidget(start)
+    row2.addWidget(make_btn("Kiwoom 로그인+동기화", lambda: out(_kiwoom_sync(start.text().strip()))))
+    root.addLayout(row2)
+
+    root.addWidget(make_btn("docs 열기(브라우저)", lambda: webbrowser.open((DOCS_DIR / "index.html").as_uri())))
+    root.addWidget(log_view)
+
+    win.show()
+    return app.exec()
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

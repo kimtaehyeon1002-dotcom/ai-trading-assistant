@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}모닝리포트 아카이브 · {{ site.title }}{% endblock %}
+{% block content %}
+<div class="page-head"><h1>🌅 모닝리포트 아카이브</h1></div>
+<section class="panel">
+  <ul class="archive-list">
+    {% for d in dates %}
+    <li><a href="{{ root }}/morning/{{ d }}/index.html">{{ d }}</a></li>
+    {% endfor %}
+    {% if not dates %}<li class="muted">아직 생성된 리포트가 없습니다.</li>{% endif %}
+  </ul>
+</section>
+{% endblock %}

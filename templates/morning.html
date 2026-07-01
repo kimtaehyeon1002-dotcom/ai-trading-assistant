@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% from "_macros.html" import quote_table, news_item %}
+{% block title %}모닝리포트 {{ data.date }} · {{ site.title }}{% endblock %}
+{% block content %}
+<div class="page-head">
+  <h1>🌅 모닝리포트 <span class="muted">{{ data.date }}</span></h1>
+  <span class="muted">{{ data.generated_at }}</span>
+</div>
+
+<p class="headline">{{ data.summary.headline }}</p>
+
+{% for note in data.notes %}<div class="note">⚠ {{ note }}</div>{% endfor %}
+
+<section class="grid-2">
+  {{ quote_table('주요 지수', data.summary.indices) }}
+  {{ quote_table('선물', data.summary.futures) }}
+</section>
+
+<section class="grid-2">
+  <div class="panel">
+    <h3>환율</h3>
+    <table class="quote-table">
+      <thead><tr><th>통화쌍</th><th class="num">환율</th><th class="num">등락</th></tr></thead>
+      <tbody>
+        {% for f in data.summary.fx %}
+        <tr><td class="name">{{ f.pair }}</td><td class="num">{{ f.rate|price }}</td>
+          <td class="num"><span class="pct {{ f.change_pct|signclass }}">{{ f.change_pct|pct }}</span></td></tr>
+        {% endfor %}
+        {% if not data.summary.fx %}<tr><td colspan="3" class="muted">데이터 없음</td></tr>{% endif %}
+      </tbody>
+    </table>
+  </div>
+  {{ quote_table('워치리스트', data.summary.watchlist) }}
+</section>
+
+<section class="panel">
+  <h3>핵심 뉴스</h3>
+  <ul class="news-list">
+    {% for a in data.top_news %}{{ news_item(a) }}{% endfor %}
+    {% if not data.top_news %}<li class="muted">수집된 뉴스가 없습니다.</li>{% endif %}
+  </ul>
+</section>
+
+<section class="panel">
+  <h3>경제 캘린더</h3>
+  <table class="cal-table">
+    <thead><tr><th>일자</th><th>시각</th><th>국가</th><th>이벤트</th><th>중요도</th></tr></thead>
+    <tbody>
+      {% for e in data.calendar %}
+      <tr><td>{{ e.date }}</td><td>{{ e.time or '-' }}</td><td>{{ e.country }}</td><td>{{ e.title }}</td>
+        <td><span class="imp imp-{{ e.importance }}">{{ e.importance }}</span></td></tr>
+      {% endfor %}
+      {% if not data.calendar %}<tr><td colspan="5" class="muted">예정된 이벤트가 없습니다.</td></tr>{% endif %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

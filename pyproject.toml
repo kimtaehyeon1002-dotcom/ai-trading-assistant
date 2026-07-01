@@ -1,0 +1,33 @@
+[project]
+name = "trading-assistant"
+version = "0.2.0"
+description = "AI Trading Assistant — 정적 사이트(GitHub Pages) 모닝리포트/뉴스/매매일지 + Kiwoom"
+requires-python = ">=3.11"
+dependencies = [
+    "jinja2>=3.1",
+    "feedparser>=6.0",
+    "python-dateutil>=2.9",
+    "requests>=2.31",
+    "tzdata ; platform_system == 'Windows'",
+    # 시세/환율 (데이터 수집; 실패 시 폴백)
+    "yfinance>=0.2.40",
+    "finance-datareader>=0.9.90",
+    # 데스크톱 앱 + Kiwoom OpenAPI+ (Windows 32-bit 필요) — 데스크톱에서만 설치
+    "PySide6>=6.6 ; platform_system == 'Windows'",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.2"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["build"]
+
+[tool.setuptools.packages.find]
+include = ["config*", "core*", "models*", "services*", "generators*", "app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

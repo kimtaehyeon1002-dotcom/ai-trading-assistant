@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% from "_macros.html" import stat_card %}
+{% block title %}{{ site.title }} · 대시보드{% endblock %}
+{% block content %}
+<div class="page-head">
+  <h1>대시보드</h1>
+  <span class="muted">최종 갱신 {{ generated_at }}</span>
+</div>
+
+<section class="cards">
+  <a class="card" href="{{ root }}/morning/index.html">
+    <div class="card-icon">🌅</div>
+    <h3>모닝리포트</h3>
+    <p class="muted">{{ latest_morning or '아직 생성 안 됨' }}</p>
+  </a>
+  <a class="card" href="{{ root }}/news/index.html">
+    <div class="card-icon">📰</div>
+    <h3>뉴스 센터</h3>
+    <p class="muted">한국·미국·AI·반도체·매크로·속보</p>
+  </a>
+  <a class="card" href="{{ root }}/trades/index.html">
+    <div class="card-icon">📒</div>
+    <h3>매매일지</h3>
+    <p class="muted">{{ stats.n_trades }}건 · 승률 {{ stats.win_rate if stats.win_rate is not none else '—' }}%</p>
+  </a>
+</section>
+
+<h2>매매 요약</h2>
+<section class="stat-grid">
+  {{ stat_card('총 손익', stats.total_pnl|money) }}
+  {{ stat_card('승률', (stats.win_rate ~ '%') if stats.win_rate is not none else '—') }}
+  {{ stat_card('평균 수익', stats.avg_profit|money, 'up') }}
+  {{ stat_card('평균 손실', stats.avg_loss|money, 'down') }}
+</section>
+{% endblock %}

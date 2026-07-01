@@ -1,0 +1,38 @@
+{% macro pctbadge(v) %}<span class="pct {{ v|signclass }}">{{ v|pct }}</span>{% endmacro %}
+
+{% macro quote_row(q) %}
+<tr>
+  <td class="name">{{ q.name }}</td>
+  <td class="num">{{ q.price|price }}</td>
+  <td class="num">{{ pctbadge(q.change_pct) }}</td>
+</tr>
+{% endmacro %}
+
+{% macro quote_table(title, rows) %}
+<div class="panel">
+  <h3>{{ title }}</h3>
+  <table class="quote-table">
+    <thead><tr><th>종목</th><th class="num">현재가</th><th class="num">등락</th></tr></thead>
+    <tbody>
+      {% for q in rows %}{{ quote_row(q) }}{% endfor %}
+      {% if not rows %}<tr><td colspan="3" class="muted">데이터 없음</td></tr>{% endif %}
+    </tbody>
+  </table>
+</div>
+{% endmacro %}
+
+{% macro news_item(a) %}
+<li class="news-item">
+  <a class="title" href="{{ a.link }}" target="_blank" rel="noopener noreferrer">{{ a.title }}</a>
+  <div class="meta">
+    <span class="src">{{ a.source }}</span>
+    {% if a.published %}<span class="time">· {{ a.published|kst }}</span>{% endif %}
+    {% for c in a.categories %}<span class="tag tag-{{ c }}">{{ c }}</span>{% endfor %}
+  </div>
+  {% if a.summary %}<p class="summary">{{ a.summary }}</p>{% endif %}
+</li>
+{% endmacro %}
+
+{% macro stat_card(label, value, cls='') %}
+<div class="stat {{ cls }}"><span class="stat-label">{{ label }}</span><span class="stat-value">{{ value }}</span></div>
+{% endmacro %}

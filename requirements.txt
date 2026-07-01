@@ -1,0 +1,8 @@
+# 정적 사이트 생성(GitHub Actions에서 사용) — 데스크톱/Kiwoom(PySide6)은 별도
+jinja2>=3.1
+feedparser>=6.0
+python-dateutil>=2.9
+requests>=2.31
+tzdata>=2024.1  ; platform_system == 'Windows'
+yfinance>=0.2.40
+finance-datareader>=0.9.90

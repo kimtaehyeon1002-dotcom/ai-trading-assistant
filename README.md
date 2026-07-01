@@ -1,48 +1,41 @@
-# Th_bot — AI 투자 리서치 / 비서 플랫폼
+# AI Trading Assistant
 
-투자 **판단 보조** 플랫폼. 매수/매도 추천·목표주가·매매 시그널을 생성하지 않으며, 모든 LLM 출력은
-정보/분석/시나리오/리스크 + 면책 고지로 제한된다(자본시장법 컴플라이언스). 상세 설계는
-`C:\Users\1\.claude\plans\ai-cached-rossum.md` 참조.
+개인용 트레이딩 어시스턴트 — **정적 사이트(GitHub Pages)** 로 발행하는 모닝리포트 / 뉴스 센터 / 매매일지.
+서버·DB·유료 API 없이 **GitHub Actions + GitHub Pages** 로 무료 운영한다.
 
-## 현재 구현 범위 (Phase 0 + Phase 1)
+## 모듈
+- **모닝리포트** — 지수/선물/환율/핵심뉴스/경제캘린더/워치리스트 → `docs/morning/YYYY-MM-DD/index.html` (평일 06:30 KST)
+- **뉴스 센터** — 한국/미국·AI·반도체·매크로·속보 (RSS + 키워드 분류) → `docs/news/index.html` (30분마다)
+- **매매일지** — Kiwoom 체결 자동 기록, 단타/스윙/장기 분류, 승률/손익 대시보드 → `docs/trades/index.html`
 
-- **Phase 0 기반:** Docker Compose 로컬 스택(FastAPI · PostgreSQL+pgvector · Redis · Next.js),
-  JWT 인증, 핵심 테이블(`user`/`auth_credential`/`instrument`/`data_provider_source`/`agent_run`),
-  Claude API 래퍼(모델 라우팅 + `agent_run` 비용 로깅).
-- **Phase 1 데이터 추상화:** Provider 인터페이스(Quote/Financials/News/FX) + 무료 어댑터
-  (FinanceDataReader·pykrx=KR, yfinance=US, RSS=뉴스) + 정규화 스키마 + 폴백 레지스트리.
-- **Phase 2 연결 자리:** `app/agents/{tools,prompts,pipelines}`, `app/compliance`, `app/rag`,
-  `api/v1/research.py`(스텁)가 이미 골격으로 존재.
-
-## 빠른 시작 (Docker 필요)
-
+## 빌드
 ```bash
-cp .env.example .env          # 값 채우기 (특히 JWT_SECRET, ANTHROPIC_API_KEY)
-make up                       # docker compose 빌드 + 기동
-make migrate                  # Alembic 마이그레이션 (pgvector 확장 + 테이블)
-make seed                     # data_provider_source + 샘플 instrument 시드
-# API:  http://localhost:8000  (docs: /docs, health: /healthz)
-# Web:  http://localhost:3000
+pip install -r requirements.txt
+python build.py all        # morning | news | trades | dashboard | all
+python -m http.server --directory docs   # 로컬 미리보기
 ```
-
-## 검증
-
-```bash
-make test                     # pytest (auth, provider 정규화 계약)
-# 1) GET /healthz, /readyz           → 200
-# 2) POST /api/v1/auth/login         → JWT 발급, GET /api/v1/auth/me
-# 3) GET /api/v1/market/quotes/{id}  → 무료 어댑터 정규화 응답(source/is_realtime/data_delay_sec/as_of)
-# 4) Claude 래퍼 Haiku ping          → agent_run row(model/tokens/cost/latency) 적재
-```
-
-> 이 머신에 Docker/Node가 없으면 위 스택 기동은 해당 도구 설치 후 실행한다.
-> 백엔드 구문 점검만은 `python -m compileall apps/api/app`로 가능.
 
 ## 구조
+```
+build.py            CLI 엔트리(생성기 디스패치)
+config/             경로·사이트·RSS 피드·시장 유니버스
+core/               로깅·날짜(KST)·JSON IO
+models/             dataclass: Quote/NewsArticle/Trade/MorningReportData
+services/           데이터 수집 + 도메인(수집과 생성 분리)
+  market/  news/  kiwoom/  report/  github/  journal.py
+generators/         Jinja2 렌더 → docs/ (morning/news/trades/dashboard)
+templates/ static/  다크 테마 HTML/CSS/JS (No React)
+data/               trades/·reports/·cache/  (economic_calendar.json)
+app/main.py         PySide6 데스크톱(빌드 트리거 + Kiwoom 동기화)
+.github/workflows/  morning · news · trades 자동화
+```
 
-```
-apps/api   FastAPI 백엔드 (app/{api,agents,compliance,services,data_providers,rag,models,schemas,scheduler,workers,core})
-apps/web   Next.js 프론트 (반응형 웹)
-infra      docker compose / Dockerfile / env 템플릿
-scripts    seed / backfill
-```
+## GitHub Pages 설정
+1. 저장소 push 후 **Settings → Pages → Source: Deploy from a branch → `main` / `/docs`**.
+2. workflow의 `contents: write` 권한으로 생성 결과가 자동 커밋/배포된다.
+
+## Kiwoom (매매일지 자동 기록)
+키움 OpenAPI+ OCX는 **Windows 32-bit Python + KOA Studio** 설치 환경 필요.
+`python -m app.main` → 로그인 → 동기화 → `data/trades/trades.json` 갱신 → push 시 대시보드 재생성.
+
+> 정보·참고용 도구이며 투자 판단의 책임은 본인에게 있습니다.

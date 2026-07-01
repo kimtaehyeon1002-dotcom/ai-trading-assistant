@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>매매일지 · AI Trading Assistant</title>
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../index.html">📈 AI Trading Assistant</a>
+    <nav class="nav">
+      <a href="../index.html" class="">대시보드</a>
+      <a href="../morning/index.html" class="">모닝리포트</a>
+      <a href="../news/index.html" class="">뉴스</a>
+      <a href="../trades/index.html" class="active">매매일지</a>
+    </nav>
+  </header>
+
+  <main class="container">
+<div class="page-head">
+  <h1>📒 매매일지</h1>
+  <span class="muted">2026-07-01 18:12 KST</span>
+</div>
+
+<section class="stat-grid">
+  <div class="stat "><span class="stat-label">총 거래</span><span class="stat-value">5</span></div>
+
+  <div class="stat "><span class="stat-label">승률</span><span class="stat-value">60.0%</span></div>
+
+  <div class="stat "><span class="stat-label">총 손익</span><span class="stat-value">-18,410</span></div>
+
+  <div class="stat up"><span class="stat-label">평균 수익</span><span class="stat-value">41,863</span></div>
+
+  <div class="stat down"><span class="stat-label">평균 손실</span><span class="stat-value">-72,000</span></div>
+
+</section>
+
+<section class="panel">
+  <h3>카테고리별</h3>
+  <table class="quote-table">
+    <thead><tr><th>구분</th><th class="num">건수</th><th class="num">손익</th><th class="num">승률</th></tr></thead>
+    <tbody>
+      <tr><td class="name">단타</td>
+        <td class="num">2</td>
+        <td class="num"><span class="pct up">101,000</span></td>
+        <td class="num">50.0%</td></tr>
+      <tr><td class="name">스윙</td>
+        <td class="num">2</td>
+        <td class="num"><span class="pct down">-119,850</span></td>
+        <td class="num">50.0%</td></tr>
+      <tr><td class="name">장기</td>
+        <td class="num">1</td>
+        <td class="num"><span class="pct up">440</span></td>
+        <td class="num">100.0%</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="panel">
+  <div class="filterbar" id="tradeFilter">
+    <button class="chip active" data-cat="all">전체</button>
+<button class="chip" data-cat="day">단타</button><button class="chip" data-cat="swing">스윙</button><button class="chip" data-cat="long">장기</button>  </div>
+  <table class="trade-table" id="tradeTable">
+    <thead>
+      <tr><th>일자</th><th>종목</th><th>구분</th><th class="num">매수</th><th class="num">매도</th>
+        <th class="num">수량</th><th class="num">손익</th><th class="num">수익률</th><th class="num">보유일</th><th>계좌</th><th>메모</th></tr>
+    </thead>
+    <tbody>
+      <tr data-cat="day">
+        <td>2026-06-20</td>
+        <td class="name">삼성전자<span class="ticker">005930</span></td>
+        <td><span class="badge badge-day">단타</span></td>
+        <td class="num">78,000</td>
+        <td class="num">80,500</td>
+        <td class="num">50</td>
+        <td class="num"><span class="pct up">125,000</span></td>
+        <td class="num"><span class="pct up">+3.21%</span></td>
+        <td class="num">0</td>
+        <td>위탁</td>
+        <td class="memo">장중 스캘핑 익절</td>
+      </tr>
+      <tr data-cat="swing">
+        <td>2026-06-18</td>
+        <td class="name">SK하이닉스<span class="ticker">000660</span></td>
+        <td><span class="badge badge-swing">스윙</span></td>
+        <td class="num">210,000</td>
+        <td class="num">198,000</td>
+        <td class="num">10</td>
+        <td class="num"><span class="pct down">-120,000</span></td>
+        <td class="num"><span class="pct down">-5.71%</span></td>
+        <td class="num">5</td>
+        <td>위탁</td>
+        <td class="memo">스윙 손절</td>
+      </tr>
+      <tr data-cat="swing">
+        <td>2026-06-12</td>
+        <td class="name">Apple<span class="ticker">AAPL</span></td>
+        <td><span class="badge badge-swing">스윙</span></td>
+        <td class="num">195.00</td>
+        <td class="num">205.00</td>
+        <td class="num">15</td>
+        <td class="num"><span class="pct up">150</span></td>
+        <td class="num"><span class="pct up">+5.13%</span></td>
+        <td class="num">12</td>
+        <td>위탁</td>
+        <td class="memo">스윙 익절</td>
+      </tr>
+      <tr data-cat="long">
+        <td>2026-06-10</td>
+        <td class="name">Nvidia<span class="ticker">NVDA</span></td>
+        <td><span class="badge badge-long">장기</span></td>
+        <td class="num">120.00</td>
+        <td class="num">142.00</td>
+        <td class="num">20</td>
+        <td class="num"><span class="pct up">440</span></td>
+        <td class="num"><span class="pct up">+18.33%</span></td>
+        <td class="num">35</td>
+        <td>위탁</td>
+        <td class="memo">장기 보유 익절</td>
+      </tr>
+      <tr data-cat="day">
+        <td>2026-06-05</td>
+        <td class="name">LG에너지솔루션<span class="ticker">373220</span></td>
+        <td><span class="badge badge-day">단타</span></td>
+        <td class="num">350,000</td>
+        <td class="num">342,000</td>
+        <td class="num">3</td>
+        <td class="num"><span class="pct down">-24,000</span></td>
+        <td class="num"><span class="pct down">-2.29%</span></td>
+        <td class="num">0</td>
+        <td>위탁</td>
+        <td class="memo">당일 손절</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+  </main>
+
+  <footer class="footer">
+    <span>AI Trading Assistant · 정적 생성(GitHub Pages) · 정보·참고용</span>
+  </footer>
+
+  <script src="../static/js/app.js" defer></script>
+</body>
+</html>
