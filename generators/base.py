@@ -8,7 +8,7 @@ from typing import Any
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from config.settings import DOCS_DIR, SITE, STATIC_DIR, TEMPLATES_DIR
-from core.dates import fmt_kst
+from utils.dates import fmt_kst
 
 
 def _pct(v: Any) -> str:

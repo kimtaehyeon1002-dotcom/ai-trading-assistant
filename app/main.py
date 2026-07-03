@@ -8,8 +8,8 @@ from __future__ import annotations
 import webbrowser
 
 from config.settings import DOCS_DIR
-from core.dates import now_kst
-from core.logging import get_logger
+from utils.dates import now_kst
+from utils.logging import get_logger
 
 log = get_logger("app")
 
@@ -30,8 +30,9 @@ def _run_build(target: str) -> str:
 
 
 def _kiwoom_sync(start_date: str) -> str:
-    from services.kiwoom import orders
-    from services.kiwoom.api import KiwoomAPI, KiwoomError
+    from collectors.kiwoom_desktop import orders
+    from collectors.kiwoom_desktop.api import KiwoomAPI, KiwoomError
+    from repositories import trade_repository
 
     try:
         api = KiwoomAPI()
@@ -39,14 +40,15 @@ def _kiwoom_sync(start_date: str) -> str:
         return f"Kiwoom 사용 불가: {exc}"
     if not api.connect():
         return "Kiwoom 로그인 실패"
-    from services.kiwoom.account import list_accounts
+    from collectors.kiwoom_desktop.account import list_accounts
 
     accounts = list_accounts(api)
     if not accounts:
         return "계좌를 찾을 수 없습니다"
-    total = orders.sync_to_journal(api, accounts[0], start_date)
+    # 수집(raw) → 변환·병합은 repository 책임(계층 준수)
+    all_trades = trade_repository.add_from_kiwoom(orders.fetch_realized(api, accounts[0], start_date))
     _run_build("trades")
-    return f"동기화 완료 · 계좌 {accounts[0]} · 총 {total}건"
+    return f"동기화 완료 · 계좌 {accounts[0]} · 총 {len(all_trades)}건"
 
 
 def main() -> int:

@@ -1,21 +1,20 @@
-"""뉴스 센터 페이지 생성 → docs/news/index.html (카테고리별 그룹)."""
+"""뉴스 센터 생성 → docs/news/index.html (카테고리별 그룹)."""
 from __future__ import annotations
 
 from pathlib import Path
 
-from config.feeds import CATEGORY_ORDER
-from config.settings import NEWS_MAX_PER_CATEGORY
-from config.settings import DOCS_DIR
-from core.dates import fmt_kst, now_kst
-from core.logging import get_logger
+from config.keywords import CATEGORY_ORDER
+from config.settings import DOCS_DIR, NEWS_MAX_PER_CATEGORY
+from generators import pipelines
 from generators.base import render
-from services.news import collector, store
+from utils.dates import fmt_kst, now_kst
+from utils.logging import get_logger
 
 log = get_logger("gen.news")
 
 
 def generate() -> Path:
-    articles = store.merge_and_save(collector.collect())
+    articles = pipelines.get_news()
     groups: dict[str, list] = {cat: [] for cat, _ in CATEGORY_ORDER}
     for a in articles:
         for cat in a.categories:

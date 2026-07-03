@@ -27,7 +27,10 @@ build-backend = "setuptools.build_meta"
 py-modules = ["build"]
 
 [tool.setuptools.packages.find]
-include = ["config*", "core*", "models*", "services*", "generators*", "app*"]
+include = [
+    "config*", "utils*", "models*", "collectors*", "validators*",
+    "repositories*", "calculators*", "generators*", "app*",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

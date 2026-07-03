@@ -13,7 +13,7 @@ venv/
 *.local
 
 # generated data caches
-data/cache/
+cache/
 *.log
 
 # OS / editor

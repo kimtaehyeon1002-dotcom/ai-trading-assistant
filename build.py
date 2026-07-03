@@ -1,24 +1,29 @@
-"""정적 사이트 빌드 CLI — GitHub Actions/로컬에서 실행.
+"""정적 사이트 빌드 CLI — 조립 루트(composition root).
 
-  python build.py morning     # 모닝리포트 + 대시보드
-  python build.py news        # 뉴스 센터 + 대시보드
-  python build.py trades      # 매매일지 + 대시보드
-  python build.py all         # 전체
-  python build.py dashboard   # 대시보드만
+  python build.py morning | news | trades | dashboard | all
+
+의존 방향: collectors → validators → repositories → calculators → generators (역방향 금지).
+대시보드·AI Office·정적 자산은 매 빌드 갱신.
 """
 from __future__ import annotations
 
 import argparse
 
+from collectors import notion_collector
 from config.settings import ensure_dirs
-from core.logging import get_logger
 from generators.base import copy_static
-from generators.dashboard.generate import generate as gen_dashboard
-from generators.morning.generate import generate as gen_morning
-from generators.news.generate import generate as gen_news
-from generators.trades.generate import generate as gen_trades
+from utils import runlog
+from utils.logging import get_logger
 
 log = get_logger("build")
+
+
+def _sync_notion() -> None:
+    """Notion ERP 동기화 — 토큰 미설정이면 사실대로 skipped 기록(가짜 데이터 금지)."""
+    if not notion_collector.enabled():
+        runlog.note("Notion Sync", status="skipped", detail="NOTION_API_KEY/DB 미설정")
+        return
+    runlog.run_step("Notion Sync", notion_collector.collect, fallback=None)
 
 
 def main() -> None:
@@ -27,16 +32,29 @@ def main() -> None:
     args = ap.parse_args()
 
     ensure_dirs()
+    _sync_notion()
+
+    from generators.ai_office.generate import generate as gen_office
+    from generators.dashboard.generate import generate as gen_dashboard
+    from generators.morning.generate import generate as gen_morning
+    from generators.news.generate import generate as gen_news
+    from generators.trades.generate import generate as gen_trades
+
+    pages = []
     if args.target in ("morning", "all"):
-        gen_morning()
+        pages.append(gen_morning())
     if args.target in ("news", "all"):
-        gen_news()
+        pages.append(gen_news())
     if args.target in ("trades", "all"):
-        gen_trades()
-    # 대시보드는 항상 갱신(모듈 링크/지표 최신화) + 정적 자산 복사
-    gen_dashboard()
+        pages.append(gen_trades())
+
+    # 공통 마무리: 대시보드 + 정적 자산 + AI Office(실행 기록 발행)
+    pages.append(gen_dashboard())
     copy_static()
-    log.info("빌드 완료: %s", args.target)
+    runlog.note("Publisher", items=len(pages) + 1, detail="pages + static")
+    pages.append(gen_office())
+
+    log.info("빌드 완료: %s (%d pages)", args.target, len(pages))
 
 
 if __name__ == "__main__":

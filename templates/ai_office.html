@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}AI Office · {{ site.title }}{% endblock %}
+{% block content %}
+<div class="page-head">
+  <h1>🏢 AI Office</h1>
+  <span class="muted">{{ generated_at }}</span>
+</div>
+<p class="muted">각 워커는 시스템 모듈 1개의 실제 실행 기록입니다(상태·시간·건수·에러만 표시).</p>
+
+<section class="cards office-grid">
+  {% for w in workers %}
+  <div class="card worker">
+    <div class="worker-head">
+      <h3>{{ w.name }}</h3>
+      <span class="status status-{{ w.status }}">{{ w.status }}</span>
+    </div>
+    <p class="muted">{{ w.desc }}</p>
+    <ul class="worker-facts">
+      <li>마지막 실행: {{ w.last_run[:16] if w.last_run else "—" }}</li>
+      <li>처리 건수: {{ w["items"] if w["items"] is not none else "—" }}</li>
+      <li>소요 시간: {{ (w.duration_ms ~ "ms") if w.duration_ms is not none else "—" }}</li>
+      {% if w.last_error %}<li class="err">에러: {{ w.last_error }}</li>{% endif %}
+      {% if w.detail %}<li>{{ w.detail }}</li>{% endif %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>
+{% endblock %}

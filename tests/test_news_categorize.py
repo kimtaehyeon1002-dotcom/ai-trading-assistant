@@ -1,5 +1,5 @@
 from models.news import NewsArticle
-from services.news.categorize import categorize
+from calculators.news_categories import categorize
 
 
 def test_kr_semiconductor():

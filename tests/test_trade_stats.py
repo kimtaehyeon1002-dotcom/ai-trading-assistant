@@ -1,5 +1,5 @@
 from models.trade import Trade
-from services.report.trades import compute_stats
+from calculators.trade_stats import compute_stats
 
 
 def _sample():
