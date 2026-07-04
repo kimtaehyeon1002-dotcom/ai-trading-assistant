@@ -9,7 +9,7 @@ import subprocess
 from config.settings import BASE_DIR
 from utils.logging import get_logger
 
-log = get_logger("github.deploy")
+log = get_logger("app.deploy")
 
 
 def commit_and_push(message: str, paths: tuple[str, ...] = ("docs", "data")) -> bool:

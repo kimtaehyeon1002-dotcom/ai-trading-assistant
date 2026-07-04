@@ -12,8 +12,8 @@ dependencies = [
     # 시세/환율 (데이터 수집; 실패 시 폴백)
     "yfinance>=0.2.40",
     "finance-datareader>=0.9.90",
-    # 데스크톱 앱 + Kiwoom OpenAPI+ (Windows 32-bit 필요) — 데스크톱에서만 설치
-    "PySide6>=6.6 ; platform_system == 'Windows'",
+    # 데스크톱 앱 + Kiwoom OpenAPI+ (Windows 32-bit 필요) — PySide6는 32-bit wheel이 없어 PyQt5 사용
+    "PyQt5>=5.15 ; platform_system == 'Windows'",
 ]
 
 [project.optional-dependencies]

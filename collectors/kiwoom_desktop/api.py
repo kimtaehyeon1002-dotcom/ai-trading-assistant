@@ -1,6 +1,7 @@
 """Kiwoom OpenAPI+ 저수준 래퍼(QAxWidget) — 로그인/TR 요청/데이터 조회.
 
-PySide6 QtAxContainer는 Windows에서만 제공. 미가용 시 KiwoomError를 던져 상위에서 안내.
+PyQt5 QAxContainer는 Windows에서만 제공(Kiwoom OCX가 32-bit 전용이라 PySide6는 32-bit wheel이
+없어 사용 불가). 미가용 시 KiwoomError를 던져 상위에서 안내.
 TR 필드명은 KOA Studio 기준이며, 실제 값 파싱은 orders/account에서 수행한다.
 """
 from __future__ import annotations
@@ -19,11 +20,11 @@ class KiwoomError(RuntimeError):
 class KiwoomAPI:
     def __init__(self) -> None:
         try:
-            from PySide6.QtAxContainer import QAxWidget
-            from PySide6.QtCore import QEventLoop
+            from PyQt5.QAxContainer import QAxWidget
+            from PyQt5.QtCore import QEventLoop
         except Exception as exc:  # noqa: BLE001
             raise KiwoomError(
-                "Kiwoom OpenAPI+는 Windows 32-bit Python + PySide6(QtAxContainer) + KOA 설치가 필요합니다: "
+                "Kiwoom OpenAPI+는 Windows 32-bit Python + PyQt5(QAxContainer) + KOA 설치가 필요합니다: "
                 f"{exc}"
             ) from exc
 
@@ -33,8 +34,10 @@ class KiwoomAPI:
         self._login_loop = None
         self._tr_loop = None
         self._tr_meta: dict = {}
+        self._tr_fields: list[str] = []
         self.ocx.OnEventConnect.connect(self._on_event_connect)
         self.ocx.OnReceiveTrData.connect(self._on_receive_tr)
+        self.ocx.OnReceiveMsg.connect(self._on_receive_msg)
 
     # ── 로그인 ──
     def connect(self) -> bool:
@@ -57,7 +60,19 @@ class KiwoomAPI:
     def set_input(self, key: str, value: str) -> None:
         self.ocx.dynamicCall("SetInputValue(QString, QString)", key, value)
 
-    def comm_rq(self, rq_name: str, tr_code: str, prev_next: int = 0, screen: str = "0101") -> dict:
+    def comm_rq(
+        self,
+        rq_name: str,
+        tr_code: str,
+        prev_next: int = 0,
+        screen: str = "0101",
+        fields: list[str] | None = None,
+    ) -> dict:
+        """TR 요청. fields를 주면 각 행을 OnReceiveTrData '안에서' 읽어 meta['rows']로 반환.
+
+        (TR 데이터 버퍼는 콜백 종료 후 무효화되므로 밖에서 GetCommData하면 빈 값이 온다.)
+        """
+        self._tr_fields = list(fields or [])
         self.ocx.dynamicCall(
             "CommRqData(QString, QString, int, QString)", rq_name, tr_code, prev_next, screen
         )
@@ -65,9 +80,21 @@ class KiwoomAPI:
         self._tr_loop.exec()
         return self._tr_meta.get(rq_name, {})
 
+    def _on_receive_msg(self, screen, rq_name, tr_code, msg) -> None:
+        """서버 메시지(입력값 오류·조회 결과 등) — 0건 원인 파악에 필수."""
+        log.info("서버 메시지 [%s/%s] %s", rq_name, tr_code, msg)
+
     def _on_receive_tr(self, screen, rq_name, tr_code, record, prev_next, *args) -> None:
         count = int(self.ocx.dynamicCall("GetRepeatCnt(QString, QString)", tr_code, rq_name) or 0)
-        self._tr_meta[rq_name] = {"tr_code": tr_code, "count": count, "prev_next": prev_next}
+        rows: list[dict] = []
+        for i in range(count if self._tr_fields else 0):
+            rows.append({f: self.get_comm_data(tr_code, rq_name, i, f) for f in self._tr_fields})
+        self._tr_meta[rq_name] = {
+            "tr_code": tr_code,
+            "count": count,
+            "prev_next": prev_next,
+            "rows": rows,
+        }
         if self._tr_loop:
             self._tr_loop.quit()
 
@@ -78,9 +105,3 @@ class KiwoomAPI:
             )
             or ""
         ).strip()
-
-    # ── 실시간 ──
-    def set_real_reg(self, screen: str, codes: str, fids: str, opt: str = "0") -> None:
-        self.ocx.dynamicCall(
-            "SetRealReg(QString, QString, QString, QString)", screen, codes, fids, opt
-        )

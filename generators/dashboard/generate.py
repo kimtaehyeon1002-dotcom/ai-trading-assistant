@@ -6,6 +6,7 @@ from pathlib import Path
 from calculators.trade_stats import compute_stats
 from config.settings import DOCS_DIR
 from generators.base import render
+from generators.morning.generate import list_dates
 from repositories import trade_repository
 from utils.dates import fmt_kst, now_kst
 from utils.logging import get_logger
@@ -14,13 +15,8 @@ log = get_logger("gen.dashboard")
 
 
 def generate() -> Path:
-    mbase = DOCS_DIR / "morning"
-    latest = None
-    if mbase.exists():
-        dates = sorted(
-            [p.name for p in mbase.iterdir() if p.is_dir() and p.name[:1].isdigit()], reverse=True
-        )
-        latest = dates[0] if dates else None
+    dates = list_dates()
+    latest = dates[0] if dates else None
     stats = compute_stats(trade_repository.load_trades())
     ctx = {
         "active": "home",

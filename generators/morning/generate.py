@@ -64,6 +64,14 @@ def _build_data() -> MorningReportData:
     )
 
 
+def list_dates() -> list[str]:
+    """발행된 모닝리포트 날짜(YYYY-MM-DD) 최신순 — 아카이브/대시보드 공용."""
+    base = DOCS_DIR / "morning"
+    if not base.exists():
+        return []
+    return sorted((p.name for p in base.iterdir() if p.is_dir() and p.name[:1].isdigit()), reverse=True)
+
+
 def generate() -> Path:
     data = _build_data()
     out = DOCS_DIR / "morning" / data.date / "index.html"
@@ -74,10 +82,8 @@ def generate() -> Path:
 
 
 def _archive() -> None:
-    base = DOCS_DIR / "morning"
-    dates = (
-        sorted([p.name for p in base.iterdir() if p.is_dir() and p.name[:1].isdigit()], reverse=True)
-        if base.exists()
-        else []
+    render(
+        "morning_index.html",
+        {"active": "morning", "root": "..", "dates": list_dates()},
+        DOCS_DIR / "morning" / "index.html",
     )
-    render("morning_index.html", {"active": "morning", "root": "..", "dates": dates}, base / "index.html")

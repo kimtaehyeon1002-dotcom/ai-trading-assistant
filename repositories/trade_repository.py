@@ -52,11 +52,15 @@ def _num(s) -> float:
 
 
 def add_from_kiwoom(raw_rows: list[dict], account_type: str = "위탁") -> list[Trade]:
-    """Kiwoom 실현손익 raw(opt10074) → Trade 변환 후 원장 병합."""
+    """Kiwoom 실현손익 raw(opt10073) → Trade 변환 후 원장 병합."""
     trades: list[Trade] = []
+    skipped = 0
     for r in raw_rows:
         d = (r.get("일자") or "").replace("-", "")
-        ymd = f"{d[:4]}-{d[4:6]}-{d[6:8]}" if len(d) == 8 else d
+        if len(d) != 8 or not r.get("종목코드"):  # 필드 미매칭/빈 행은 원장 오염 방지 차원에서 제외
+            skipped += 1
+            continue
+        ymd = f"{d[:4]}-{d[4:6]}-{d[6:8]}"
         trades.append(
             Trade(
                 date=ymd,
@@ -69,4 +73,6 @@ def add_from_kiwoom(raw_rows: list[dict], account_type: str = "위탁") -> list[
                 account_type=account_type,
             )
         )
+    if skipped:
+        log.warning("빈/미매칭 행 %d건 제외(필드명 확인 필요)", skipped)
     return add_trades(trades)
