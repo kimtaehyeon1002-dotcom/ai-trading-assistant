@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T17:33:34.058883+09:00",
+  "updated_at": "2026-07-04T17:40:52.675256+09:00",
   "workers": {
     "Notion Sync": {
       "worker": "Notion Sync",
@@ -7,7 +7,7 @@
       "items": null,
       "detail": "NOTION_API_KEY/DB 미설정",
       "duration_ms": 0,
-      "last_run": "2026-07-04T17:33:34.015615+09:00"
+      "last_run": "2026-07-04T17:40:52.610453+09:00"
     },
     "Data Officer": {
       "worker": "Data Officer",
@@ -32,10 +32,10 @@
     },
     "Trade Manager": {
       "worker": "Trade Manager",
-      "last_run": "2026-07-04T17:33:34.030044+09:00",
+      "last_run": "2026-07-04T17:40:52.652581+09:00",
       "status": "completed",
       "items": 13,
-      "duration_ms": 4
+      "duration_ms": 0
     },
     "Publisher": {
       "worker": "Publisher",
@@ -43,7 +43,7 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-07-04T17:33:34.053102+09:00"
+      "last_run": "2026-07-04T17:40:52.671205+09:00"
     }
   }
 }
