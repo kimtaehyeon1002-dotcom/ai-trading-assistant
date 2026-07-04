@@ -1,7 +1,72 @@
 [
-  {"date": "2026-06-20", "ticker": "005930", "name": "삼성전자", "buy_price": 78000, "sell_price": 80500, "quantity": 50, "holding_days": 0, "account_type": "위탁", "memo": "장중 스캘핑 익절"},
-  {"date": "2026-06-18", "ticker": "000660", "name": "SK하이닉스", "buy_price": 210000, "sell_price": 198000, "quantity": 10, "holding_days": 5, "account_type": "위탁", "memo": "스윙 손절"},
-  {"date": "2026-06-12", "ticker": "AAPL", "name": "Apple", "buy_price": 195, "sell_price": 205, "quantity": 15, "holding_days": 12, "account_type": "위탁", "memo": "스윙 익절"},
-  {"date": "2026-06-10", "ticker": "NVDA", "name": "Nvidia", "buy_price": 120, "sell_price": 142, "quantity": 20, "holding_days": 35, "account_type": "위탁", "memo": "장기 보유 익절"},
-  {"date": "2026-06-05", "ticker": "373220", "name": "LG에너지솔루션", "buy_price": 350000, "sell_price": 342000, "quantity": 3, "holding_days": 0, "account_type": "위탁", "memo": "당일 손절"}
+  {
+    "date": "2026-06-20",
+    "ticker": "005930",
+    "name": "삼성전자",
+    "buy_price": 78000.0,
+    "sell_price": 80500.0,
+    "quantity": 50.0,
+    "holding_days": 0,
+    "account_type": "위탁",
+    "memo": "장중 스캘핑 익절",
+    "category": "day",
+    "pnl": 125000.0,
+    "profit_pct": 3.21
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "000660",
+    "name": "SK하이닉스",
+    "buy_price": 210000.0,
+    "sell_price": 198000.0,
+    "quantity": 10.0,
+    "holding_days": 5,
+    "account_type": "위탁",
+    "memo": "스윙 손절",
+    "category": "swing",
+    "pnl": -120000.0,
+    "profit_pct": -5.71
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "AAPL",
+    "name": "Apple",
+    "buy_price": 195.0,
+    "sell_price": 205.0,
+    "quantity": 15.0,
+    "holding_days": 12,
+    "account_type": "위탁",
+    "memo": "스윙 익절",
+    "category": "swing",
+    "pnl": 150.0,
+    "profit_pct": 5.13
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "buy_price": 120.0,
+    "sell_price": 142.0,
+    "quantity": 20.0,
+    "holding_days": 35,
+    "account_type": "위탁",
+    "memo": "장기 보유 익절",
+    "category": "long",
+    "pnl": 440.0,
+    "profit_pct": 18.33
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "373220",
+    "name": "LG에너지솔루션",
+    "buy_price": 350000.0,
+    "sell_price": 342000.0,
+    "quantity": 3.0,
+    "holding_days": 0,
+    "account_type": "위탁",
+    "memo": "당일 손절",
+    "category": "day",
+    "pnl": -24000.0,
+    "profit_pct": -2.29
+  }
 ]
