@@ -26,7 +26,14 @@ def _sync_notion() -> None:
     if not notion_collector.enabled():
         runlog.note("Notion Sync", status="skipped", detail="NOTION_API_KEY/DB 미설정")
         return
-    runlog.run_step("Notion Sync", notion_collector.collect, fallback=None)
+
+    def _collect_and_persist():
+        from repositories import notion_repository
+
+        raw = notion_collector.collect()
+        return notion_repository.save_normalized(raw) if raw else None
+
+    runlog.run_step("Notion Sync", _collect_and_persist, fallback=None)
 
 
 def run_build(target: str) -> list[Path]:

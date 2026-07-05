@@ -22,7 +22,8 @@ DEFAULT_START = "20260601"
 def run(start_date: str, push: bool) -> None:
     from PyQt5.QtWidgets import QApplication
 
-    QApplication([])  # OCX 호스팅용 — 창은 만들지 않는다
+    qt_app = QApplication([])  # OCX 호스팅용 — 창은 만들지 않는다
+    _ = qt_app  # 참조 유지 필수: 변수에 안 담으면 GC로 파괴되어 QWidget 생성이 즉사한다
 
     from build import run_build
     from collectors.kiwoom_desktop import orders

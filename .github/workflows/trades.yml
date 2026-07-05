@@ -18,6 +18,11 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ_NAME: Asia/Seoul
+      NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+      NOTION_DB_ASSETS: fd72dc64181e4c88b25a21886f441628
+      NOTION_DB_GOALS: 18580be0659e477b84eb1d03951161da
+      NOTION_DB_WATCHLIST: 32ddf8f8f7634c5db2cf85696fcbe276
+      NOTION_DB_CASHFLOW: 3ee0fbc7afe741b9a98606a33b60f359
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
