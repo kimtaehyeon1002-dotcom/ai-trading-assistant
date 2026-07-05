@@ -11,9 +11,15 @@ SWING = "swing"
 LONG = "long"
 CATEGORY_LABELS = {DAY: "단타", SWING: "스윙", LONG: "장기"}
 
+# 증권사 → 카테고리 (사용자 운용 원칙: 키움=단타 / KB=스윙 / 한국투자=장기)
+BROKER_CATEGORY = {"kiwoom": DAY, "kb": SWING, "hantoo": LONG}
+BROKER_LABELS = {"kiwoom": "키움증권", "kb": "KB증권", "hantoo": "한국투자증권"}
 
-def classify_category(holding_days: int) -> str:
-    """보유일수 → 단타/스윙/장기 (기준: config.settings.CLASSIFY)."""
+
+def classify_category(holding_days: int, broker: str = "") -> str:
+    """증권사 매핑 우선(운용 원칙), 없으면 보유일수 기준(config.settings.CLASSIFY)."""
+    if broker in BROKER_CATEGORY:
+        return BROKER_CATEGORY[broker]
     if holding_days <= CLASSIFY["day_max_days"]:
         return DAY
     if holding_days <= CLASSIFY["swing_max_days"]:
@@ -31,11 +37,14 @@ class Trade:
     quantity: float = 0.0
     holding_days: int = 0
     account_type: str = ""  # 위탁/CMA/ISA 등
+    broker: str = ""  # kiwoom/kb/hantoo — 카테고리 결정의 1순위
     memo: str = ""
-    category: str = ""  # 비면 holding_days로 자동 분류
+    category: str = ""  # 비면 broker→holding_days 순으로 자동 분류
 
     def __post_init__(self) -> None:
-        if not self.category:
+        if self.broker in BROKER_CATEGORY:
+            self.category = BROKER_CATEGORY[self.broker]  # 운용 원칙이 항상 우선
+        elif not self.category:
             self.category = classify_category(self.holding_days)
 
     @property
@@ -62,6 +71,7 @@ class Trade:
             "quantity": self.quantity,
             "holding_days": self.holding_days,
             "account_type": self.account_type,
+            "broker": self.broker,
             "memo": self.memo,
             "category": self.category,
             "pnl": self.pnl,
@@ -79,6 +89,7 @@ class Trade:
             quantity=float(d.get("quantity", 0) or 0),
             holding_days=int(d.get("holding_days", 0) or 0),
             account_type=d.get("account_type", ""),
+            broker=d.get("broker", ""),
             memo=d.get("memo", ""),
             category=d.get("category", ""),
         )

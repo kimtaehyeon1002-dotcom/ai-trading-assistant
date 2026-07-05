@@ -52,7 +52,7 @@ def _num(s) -> float:
 
 
 def add_from_kiwoom(raw_rows: list[dict], account_type: str = "위탁") -> list[Trade]:
-    """Kiwoom 실현손익 raw(opt10073) → Trade 변환 후 원장 병합."""
+    """Kiwoom 실현손익 raw(opt10073) → Trade 변환 후 원장 병합. broker='kiwoom' 고정(=단타)."""
     trades: list[Trade] = []
     skipped = 0
     for r in raw_rows:
@@ -71,6 +71,7 @@ def add_from_kiwoom(raw_rows: list[dict], account_type: str = "위탁") -> list[
                 quantity=_num(r.get("수량")),
                 holding_days=int(_num(r.get("보유일수"))),
                 account_type=account_type,
+                broker="kiwoom",
             )
         )
     if skipped:

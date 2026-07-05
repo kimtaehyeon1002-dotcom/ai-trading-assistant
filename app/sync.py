@@ -46,6 +46,23 @@ def run(start_date: str, push: bool) -> None:
     all_trades = trade_repository.add_from_kiwoom(
         orders.fetch_realized(api, accounts[0], start_date)
     )
+
+    # 야간선물(모닝리포트용) — 실패해도 매매 동기화는 막지 않는다
+    try:
+        from collectors import kiwoom_collector
+        from collectors.kiwoom_desktop import futures
+
+        night = futures.fetch_night_futures(api)
+        if night.get("kospi_night") or night.get("kosdaq_night"):
+            kiwoom_collector.save_night_futures(
+                kospi=night.get("kospi_night"), kosdaq=night.get("kosdaq_night")
+            )
+            log.info("야간선물 저장: %s", night)
+        else:
+            log.warning("야간선물 시세 없음(종목 미발견/휴장) — 캐시 미갱신")
+    except Exception as exc:  # noqa: BLE001
+        log.warning("야간선물 조회 실패(무시하고 계속): %s", exc)
+
     run_build("trades")
     log.info("동기화 완료 · 계좌 %s · 총 %d건", accounts[0], len(all_trades))
 

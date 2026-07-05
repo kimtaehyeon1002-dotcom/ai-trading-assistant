@@ -4,6 +4,9 @@ on:
   schedule:
     # KST 06:30 월~금 = UTC 21:30 일~목 (UTC+9)
     - cron: "30 21 * * 0-4"
+  push:
+    paths:
+      - "data/cache/**"   # 데스크톱이 야간선물 갱신 push 시 리포트 재생성
   workflow_dispatch:
 
 permissions:

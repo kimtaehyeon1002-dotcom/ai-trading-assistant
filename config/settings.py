@@ -11,6 +11,7 @@ DOCS_DIR = BASE_DIR / "docs"        # GitHub Pages (읽기 전용 발행물)
 CACHE_DIR = BASE_DIR / "cache"      # 자동 수집 데이터(JSON, 재생성 가능·미커밋)
 DATA_DIR = BASE_DIR / "data"        # 커밋되는 원장(매매 이력)
 TRADES_DIR = DATA_DIR / "trades"
+DATA_CACHE_DIR = DATA_DIR / "cache"  # 데스크톱→CI 전달 캐시(커밋됨; 예: 야간선물)
 TEMPLATES_DIR = BASE_DIR / "templates"
 STATIC_DIR = BASE_DIR / "static"
 
@@ -49,5 +50,5 @@ NOTION_DATABASES = {
 
 
 def ensure_dirs() -> None:
-    for d in (DOCS_DIR, CACHE_DIR, TRADES_DIR):
+    for d in (DOCS_DIR, CACHE_DIR, TRADES_DIR, DATA_CACHE_DIR):
         d.mkdir(parents=True, exist_ok=True)

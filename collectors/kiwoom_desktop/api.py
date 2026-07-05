@@ -87,8 +87,11 @@ class KiwoomAPI:
     def _on_receive_tr(self, screen, rq_name, tr_code, record, prev_next, *args) -> None:
         count = int(self.ocx.dynamicCall("GetRepeatCnt(QString, QString)", tr_code, rq_name) or 0)
         rows: list[dict] = []
-        for i in range(count if self._tr_fields else 0):
+        # 단일 레코드 TR(시세 등)은 반복행이 0 — index 0으로 한 행은 읽는다
+        for i in range(max(count, 1) if self._tr_fields else 0):
             rows.append({f: self.get_comm_data(tr_code, rq_name, i, f) for f in self._tr_fields})
+        if count == 0 and rows and not any(rows[0].values()):
+            rows = []  # 다중행 TR의 0건 응답 — 유령 빈 행 제거
         self._tr_meta[rq_name] = {
             "tr_code": tr_code,
             "count": count,
