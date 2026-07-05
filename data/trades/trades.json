@@ -8,11 +8,11 @@
     "quantity": 6.0,
     "holding_days": 0,
     "account_type": "위탁",
+    "broker": "kiwoom",
     "memo": "",
     "category": "day",
     "pnl": -33000.0,
-    "profit_pct": -6.49,
-    "broker": "kiwoom"
+    "profit_pct": -6.49
   },
   {
     "date": "2026-07-01",
@@ -23,11 +23,11 @@
     "quantity": 8.0,
     "holding_days": 0,
     "account_type": "위탁",
+    "broker": "kiwoom",
     "memo": "",
     "category": "day",
     "pnl": 3200.0,
-    "profit_pct": 0.46,
-    "broker": "kiwoom"
+    "profit_pct": 0.46
   },
   {
     "date": "2026-07-01",
@@ -38,11 +38,11 @@
     "quantity": 45.0,
     "holding_days": 0,
     "account_type": "위탁",
+    "broker": "kiwoom",
     "memo": "",
     "category": "day",
     "pnl": -69510.15,
-    "profit_pct": -8.73,
-    "broker": "kiwoom"
+    "profit_pct": -8.73
   },
   {
     "date": "2026-07-01",
@@ -53,11 +53,11 @@
     "quantity": 30.0,
     "holding_days": 0,
     "account_type": "위탁",
+    "broker": "kiwoom",
     "memo": "",
     "category": "day",
     "pnl": -43040.1,
-    "profit_pct": -8.11,
-    "broker": "kiwoom"
+    "profit_pct": -8.11
   },
   {
     "date": "2026-06-23",
@@ -68,11 +68,11 @@
     "quantity": 4.0,
     "holding_days": 0,
     "account_type": "위탁",
+    "broker": "kiwoom",
     "memo": "",
     "category": "day",
     "pnl": -57200.0,
-    "profit_pct": -12.57,
-    "broker": "kiwoom"
+    "profit_pct": -12.57
   },
   {
     "date": "2026-06-16",
@@ -83,11 +83,11 @@
     "quantity": 2.0,
     "holding_days": 0,
     "account_type": "위탁",
+    "broker": "kiwoom",
     "memo": "",
     "category": "day",
     "pnl": 12500.0,
-    "profit_pct": 1.84,
-    "broker": "kiwoom"
+    "profit_pct": 1.84
   },
   {
     "date": "2026-06-12",
@@ -98,11 +98,11 @@
     "quantity": 2.0,
     "holding_days": 0,
     "account_type": "위탁",
+    "broker": "kiwoom",
     "memo": "",
     "category": "day",
     "pnl": 25600.0,
-    "profit_pct": 12.81,
-    "broker": "kiwoom"
+    "profit_pct": 12.81
   },
   {
     "date": "2026-06-11",
@@ -113,11 +113,11 @@
     "quantity": 3.0,
     "holding_days": 0,
     "account_type": "위탁",
+    "broker": "kiwoom",
     "memo": "",
     "category": "day",
     "pnl": 744.99,
-    "profit_pct": 1.49,
-    "broker": "kiwoom"
+    "profit_pct": 1.49
   },
   {
     "date": "2026-06-11",
@@ -128,11 +128,11 @@
     "quantity": 9.0,
     "holding_days": 0,
     "account_type": "위탁",
+    "broker": "kiwoom",
     "memo": "",
     "category": "day",
     "pnl": 2144.97,
-    "profit_pct": 1.43,
-    "broker": "kiwoom"
+    "profit_pct": 1.43
   },
   {
     "date": "2026-06-05",
@@ -143,11 +143,11 @@
     "quantity": 20.0,
     "holding_days": 0,
     "account_type": "위탁",
+    "broker": "kiwoom",
     "memo": "",
     "category": "day",
     "pnl": -14000.0,
-    "profit_pct": -2.45,
-    "broker": "kiwoom"
+    "profit_pct": -2.45
   },
   {
     "date": "2026-06-04",
@@ -158,11 +158,11 @@
     "quantity": 50.0,
     "holding_days": 0,
     "account_type": "위탁",
+    "broker": "kiwoom",
     "memo": "",
     "category": "day",
     "pnl": 140500.0,
-    "profit_pct": 14.42,
-    "broker": "kiwoom"
+    "profit_pct": 14.42
   },
   {
     "date": "2026-06-02",
@@ -173,11 +173,11 @@
     "quantity": 3.0,
     "holding_days": 0,
     "account_type": "위탁",
+    "broker": "kiwoom",
     "memo": "",
     "category": "day",
     "pnl": 55500.0,
-    "profit_pct": 5.61,
-    "broker": "kiwoom"
+    "profit_pct": 5.61
   },
   {
     "date": "2026-06-01",
@@ -188,10 +188,10 @@
     "quantity": 29.0,
     "holding_days": 0,
     "account_type": "위탁",
+    "broker": "kiwoom",
     "memo": "",
     "category": "day",
     "pnl": 108750.0,
-    "profit_pct": 9.79,
-    "broker": "kiwoom"
+    "profit_pct": 9.79
   }
 ]
