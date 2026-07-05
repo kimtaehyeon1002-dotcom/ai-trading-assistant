@@ -1,33 +1,33 @@
 {
-  "updated_at": "2026-07-06T06:09:05.173639+09:00",
+  "updated_at": "2026-07-06T07:28:58.639317+09:00",
   "workers": {
     "Notion Sync": {
       "worker": "Notion Sync",
-      "last_run": "2026-07-06T06:08:58.465388+09:00",
+      "last_run": "2026-07-06T07:28:51.941412+09:00",
       "status": "completed",
       "items": 4,
-      "duration_ms": 2067
+      "duration_ms": 1548
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-07-06T02:52:02.714254+09:00",
+      "last_run": "2026-07-06T07:28:53.513716+09:00",
       "status": "completed",
       "items": 8,
-      "duration_ms": 3805
+      "duration_ms": 2155
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-07-06T06:09:00.558015+09:00",
+      "last_run": "2026-07-06T07:28:55.669792+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 4570
+      "duration_ms": 2919
     },
     "Theme Analyst": {
       "worker": "Theme Analyst",
-      "last_run": "2026-07-06T02:52:08.336919+09:00",
+      "last_run": "2026-07-06T07:28:58.594569+09:00",
       "status": "completed",
       "items": 3,
-      "duration_ms": 3
+      "duration_ms": 2
     },
     "Trade Manager": {
       "worker": "Trade Manager",
@@ -42,7 +42,7 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-07-06T06:09:05.173525+09:00"
+      "last_run": "2026-07-06T07:28:58.639232+09:00"
     }
   }
 }
