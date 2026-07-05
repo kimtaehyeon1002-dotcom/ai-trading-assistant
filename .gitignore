@@ -13,8 +13,8 @@ venv/
 *.local
 .claude/settings.local.json
 
-# generated data caches
-cache/
+# generated data caches (루트 cache/만 — data/cache/는 데스크톱→CI 전달용이라 커밋)
+/cache/
 *.log
 
 # OS / editor
