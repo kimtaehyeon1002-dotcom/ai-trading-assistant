@@ -1,13 +1,12 @@
 {
-  "updated_at": "2026-07-06T02:00:19.024115+09:00",
+  "updated_at": "2026-07-06T02:40:00.119266+09:00",
   "workers": {
     "Notion Sync": {
       "worker": "Notion Sync",
-      "status": "skipped",
-      "items": null,
-      "detail": "NOTION_API_KEY/DB 미설정",
-      "duration_ms": 0,
-      "last_run": "2026-07-06T02:00:11.423564+09:00"
+      "last_run": "2026-07-06T02:39:54.356684+09:00",
+      "status": "completed",
+      "items": 4,
+      "duration_ms": 1307
     },
     "Data Officer": {
       "worker": "Data Officer",
@@ -18,10 +17,10 @@
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-07-06T02:00:14.975862+09:00",
+      "last_run": "2026-07-06T02:39:55.688565+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 3998
+      "duration_ms": 4385
     },
     "Theme Analyst": {
       "worker": "Theme Analyst",
@@ -43,7 +42,7 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-07-06T02:00:19.024029+09:00"
+      "last_run": "2026-07-06T02:40:00.119163+09:00"
     }
   }
 }
