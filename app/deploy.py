@@ -23,3 +23,13 @@ def commit_and_push(message: str, paths: tuple[str, ...] = ("docs", "data")) -> 
     subprocess.run(["git", "push"], cwd=BASE_DIR, check=True)
     log.info("배포 커밋/푸시 완료")
     return True
+
+
+def main() -> None:
+    from utils.dates import now_kst
+
+    commit_and_push(f"chore(desktop): sync {now_kst():%Y-%m-%d %H:%M}")
+
+
+if __name__ == "__main__":
+    main()
