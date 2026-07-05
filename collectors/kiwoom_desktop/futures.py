@@ -1,9 +1,11 @@
-"""야간선물 시세 조회 — KRX 야간파생시장(2025-06 개설, 18:00~익일 05:00).
+"""야간선물 시세 — KRX 야간파생시장(2025-06 개설, 18:00~익일 05:00).
 
-종목코드를 하드코딩하지 않는다: 로그인 세션에서 GetFutureList/GetActPriceList 계열로
-전체 선물 코드를 받아 종목명에 '야간'이 포함된 것을 찾는다(디스커버리). 못 찾으면
-전체 리스트를 로그로 남겨 다음 세션에서 코드를 확정할 수 있게 한다.
-시세는 opt50001(선물시세정보) — 단일 레코드, 필드명은 후보 폴백(orders.py 패턴).
+2025-06 EUREX 연계 종료 후, 야간장은 **주간과 동일한 KRX 종목**을 연장 시간대에 거래한다.
+따라서 별도 '야간' 종목코드는 없다. 최근월(front-month) 코스피200/코스닥150 선물을
+야간 시간대에 조회하면 그 값이 곧 야간선물 시세다.
+
+종목코드는 하드코딩하지 않고 로그인 세션의 GetFutureList에서 종목명 패턴으로 최근월을
+자동 선택한다(월물이 롤오버되어도 안전). 시세는 opt50001(선물시세) 단일 레코드.
 """
 from __future__ import annotations
 
@@ -15,19 +17,20 @@ from utils.logging import get_logger
 log = get_logger("collectors.kiwoom_futures")
 
 TR_CODE = "opt50001"
-RQ_NAME = "opt50001_night"
+RQ_NAME = "opt50001_quote"
 
-# 표준 키 → 시세 응답에서 시도할 후보 필드명
 _FIELD_CANDIDATES: dict[str, tuple[str, ...]] = {
     "price": ("현재가",),
     "change_pct": ("등락률", "등락율"),
 }
 _ALL_FIELDS = [f for cands in _FIELD_CANDIDATES.values() for f in cands]
 
-# 야간 종목 판별용 (종목명 기준)
-_NIGHT_KEYWORD = "야간"
-_KOSPI_HINTS = ("코스피", "KOSPI", "K200", "코스피200")
-_KOSDAQ_HINTS = ("코스닥", "KOSDAQ", "KQ150", "코스닥150")
+# 종목명 패턴 → 최근월 선택. 코스피200 선물명은 접두어 없이 'F YYYYMM',
+# 코스닥150은 '코스닥 F YYYYMM'(코스닥글로벌 등 섹터물 제외).
+_FRONT_MONTH_PATTERNS: dict[str, re.Pattern] = {
+    "kospi_night": re.compile(r"^F\s+(\d{6})$"),
+    "kosdaq_night": re.compile(r"^코스닥\s+F\s+(\d{6})$"),
+}
 
 
 def _num(s: str) -> float | None:
@@ -38,7 +41,7 @@ def _num(s: str) -> float | None:
 
 
 def _list_codes(api: KiwoomAPI) -> list[str]:
-    """선물 종목코드 리스트 — 여러 API 함수를 시도(버전별 상이)."""
+    """선물 종목코드 리스트 — 버전별로 함수명이 달라 여러 개 시도."""
     codes: list[str] = []
     for call in ("GetFutureList()", "GetActPriceList()"):
         try:
@@ -55,35 +58,31 @@ def _name_of(api: KiwoomAPI, code: str) -> str:
 
 
 def _family(name: str) -> str:
-    """월물/스프레드 표기를 떼어낸 상품군 이름 — 'F 202609'/'SP2609-2612' 등 제거."""
+    """월물/스프레드 표기를 떼어낸 상품군 이름(진단 덤프용)."""
     return re.split(r"\s*(?:F|SP)\s*\d", name)[0].strip() or name
 
 
-def discover_night_codes(api: KiwoomAPI) -> dict[str, str]:
-    """{'kospi_night': code, 'kosdaq_night': code} — 종목명에 '야간' 포함된 첫 종목(최근월).
+def discover_front_month(api: KiwoomAPI) -> dict[str, str]:
+    """{'kospi_night': code, 'kosdaq_night': code} — 최근월 지수선물 코드.
 
-    못 찾으면 빈 dict + 상품군(family) 단위 전체 로그를 남긴다(코드 확정용 진단).
+    패턴 매칭 실패 시 상품군 단위 진단 덤프를 남긴다.
     """
     pairs = [(c, _name_of(api, c)) for c in _list_codes(api)]
-    night = [(c, n) for c, n in pairs if _NIGHT_KEYWORD in n]
     out: dict[str, str] = {}
-    for code, name in night:
-        if "kospi_night" not in out and any(h in name for h in _KOSPI_HINTS):
-            out["kospi_night"] = code
-        elif "kosdaq_night" not in out and any(h in name for h in _KOSDAQ_HINTS):
-            out["kosdaq_night"] = code
-    if night and not out:
-        # '야간'은 있는데 코스피/코스닥 힌트 매칭 실패 — 원본 그대로 보여준다
-        log.warning("야간 종목은 있으나 분류 실패: %s", night[:10])
-    if not out:
+    for key, pat in _FRONT_MONTH_PATTERNS.items():
+        matches = [(m.group(1), c, n) for c, n in pairs if (m := pat.match(n))]
+        if matches:
+            month, code, name = min(matches)  # 최근월(가장 작은 YYYYMM)
+            out[key] = code
+            log.info("%s 최근월: %s (%s)", key, code, name)
+
+    if len(out) < len(_FRONT_MONTH_PATTERNS):
         fams: dict[str, str] = {}
         for c, n in pairs:
-            fams.setdefault(_family(n), c)
-        log.warning("야간 종목 미발견 — 전체 %d종목, 상품군 %d개 덤프(코드 확정용):", len(pairs), len(fams))
-        for fam, c in sorted(fams.items()):
-            log.warning("  [%s] 예: %s", fam, c)
-    else:
-        log.info("야간 종목 발견: %s", {k: f"{v}({_name_of(api, v)})" for k, v in out.items()})
+            fams.setdefault(_family(n), n)
+        log.warning("일부 지수선물 미발견(found=%s) — 상품군 %d개 덤프:", list(out), len(fams))
+        for fam, sample in sorted(fams.items()):
+            log.warning("  [%s] 예: %s", fam, sample)
     return out
 
 
@@ -95,7 +94,7 @@ def fetch_quote(api: KiwoomAPI, code: str) -> dict | None:
     if not rows:
         return None
     raw = rows[0]
-    log.info("야간선물 raw(필드 검증용) %s: %s", code, raw)
+    log.info("선물 시세 raw(필드 검증용) %s: %s", code, raw)
     price = next((_num(raw[f]) for f in _FIELD_CANDIDATES["price"] if raw.get(f)), None)
     chg = next((_num(raw[f]) for f in _FIELD_CANDIDATES["change_pct"] if raw.get(f)), None)
     if price is not None:
@@ -106,7 +105,9 @@ def fetch_quote(api: KiwoomAPI, code: str) -> dict | None:
 
 
 def fetch_night_futures(api: KiwoomAPI) -> dict[str, dict | None]:
-    """야간선물 일괄 조회 — {'kospi_night': {...}|None, 'kosdaq_night': {...}|None}."""
-    codes = discover_night_codes(api)
-    return {key: (fetch_quote(api, code) if code else None) for key, code in
-            {"kospi_night": codes.get("kospi_night"), "kosdaq_night": codes.get("kosdaq_night")}.items()}
+    """야간선물(=최근월 지수선물) 일괄 조회. 야간 시간대에 실행해야 야간 시세가 잡힌다."""
+    codes = discover_front_month(api)
+    return {
+        "kospi_night": fetch_quote(api, codes["kospi_night"]) if codes.get("kospi_night") else None,
+        "kosdaq_night": fetch_quote(api, codes["kosdaq_night"]) if codes.get("kosdaq_night") else None,
+    }
