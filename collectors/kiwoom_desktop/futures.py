@@ -7,7 +7,9 @@
 """
 from __future__ import annotations
 
-from collectors.kiwoom_desktop.api import KiwoomAPI
+import re
+
+from collectors.kiwoom_desktop.api import KiwoomAPI, fix_mojibake
 from utils.logging import get_logger
 
 log = get_logger("collectors.kiwoom_futures")
@@ -49,13 +51,18 @@ def _list_codes(api: KiwoomAPI) -> list[str]:
 
 
 def _name_of(api: KiwoomAPI, code: str) -> str:
-    return (api.ocx.dynamicCall("GetMasterCodeName(QString)", code) or "").strip()
+    return fix_mojibake((api.ocx.dynamicCall("GetMasterCodeName(QString)", code) or "").strip())
+
+
+def _family(name: str) -> str:
+    """월물/스프레드 표기를 떼어낸 상품군 이름 — 'F 202609'/'SP2609-2612' 등 제거."""
+    return re.split(r"\s*(?:F|SP)\s*\d", name)[0].strip() or name
 
 
 def discover_night_codes(api: KiwoomAPI) -> dict[str, str]:
     """{'kospi_night': code, 'kosdaq_night': code} — 종목명에 '야간' 포함된 첫 종목(최근월).
 
-    못 찾으면 빈 dict + 전체 (코드, 종목명) 로그를 남긴다(코드 확정용 진단).
+    못 찾으면 빈 dict + 상품군(family) 단위 전체 로그를 남긴다(코드 확정용 진단).
     """
     pairs = [(c, _name_of(api, c)) for c in _list_codes(api)]
     night = [(c, n) for c, n in pairs if _NIGHT_KEYWORD in n]
@@ -65,10 +72,16 @@ def discover_night_codes(api: KiwoomAPI) -> dict[str, str]:
             out["kospi_night"] = code
         elif "kosdaq_night" not in out and any(h in name for h in _KOSDAQ_HINTS):
             out["kosdaq_night"] = code
+    if night and not out:
+        # '야간'은 있는데 코스피/코스닥 힌트 매칭 실패 — 원본 그대로 보여준다
+        log.warning("야간 종목은 있으나 분류 실패: %s", night[:10])
     if not out:
-        log.warning("야간 종목 미발견 — 전체 %d종목 덤프(코드 확정용):", len(pairs))
-        for c, n in pairs[:80]:
-            log.warning("  %s = %s", c, n)
+        fams: dict[str, str] = {}
+        for c, n in pairs:
+            fams.setdefault(_family(n), c)
+        log.warning("야간 종목 미발견 — 전체 %d종목, 상품군 %d개 덤프(코드 확정용):", len(pairs), len(fams))
+        for fam, c in sorted(fams.items()):
+            log.warning("  [%s] 예: %s", fam, c)
     else:
         log.info("야간 종목 발견: %s", {k: f"{v}({_name_of(api, v)})" for k, v in out.items()})
     return out

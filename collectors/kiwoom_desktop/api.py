@@ -13,6 +13,21 @@ log = get_logger("kiwoom.api")
 CONTROL = "KHOPENAPI.KHOpenAPICtrl.1"
 
 
+def fix_mojibake(s: str) -> str:
+    """OCX가 EUC-KR 문자열을 latin-1로 잘못 디코딩해 주는 경우 복원.
+
+    예: '¸®³ë°ø¾÷' → '리노공업'. 순수 ASCII(숫자/코드)는 그대로 통과.
+    """
+    if not s or all(ord(c) < 128 for c in s):
+        return s
+    try:
+        fixed = s.encode("latin-1").decode("cp949")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return s
+    # 복원 결과에 한글이 있어야 진짜 mojibake였던 것
+    return fixed if any("가" <= c <= "힣" for c in fixed) else s
+
+
 class KiwoomError(RuntimeError):
     pass
 
@@ -82,7 +97,7 @@ class KiwoomAPI:
 
     def _on_receive_msg(self, screen, rq_name, tr_code, msg) -> None:
         """서버 메시지(입력값 오류·조회 결과 등) — 0건 원인 파악에 필수."""
-        log.info("서버 메시지 [%s/%s] %s", rq_name, tr_code, msg)
+        log.info("서버 메시지 [%s/%s] %s", rq_name, tr_code, fix_mojibake(str(msg)))
 
     def _on_receive_tr(self, screen, rq_name, tr_code, record, prev_next, *args) -> None:
         count = int(self.ocx.dynamicCall("GetRepeatCnt(QString, QString)", tr_code, rq_name) or 0)
@@ -102,9 +117,10 @@ class KiwoomAPI:
             self._tr_loop.quit()
 
     def get_comm_data(self, tr_code: str, rq_name: str, index: int, field: str) -> str:
-        return (
+        raw = (
             self.ocx.dynamicCall(
                 "GetCommData(QString, QString, int, QString)", tr_code, rq_name, index, field
             )
             or ""
         ).strip()
+        return fix_mojibake(raw)
