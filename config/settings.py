@@ -35,7 +35,10 @@ CLASSIFY = {
 NEWS_MAX_PER_CATEGORY = int(os.getenv("NEWS_MAX_PER_CATEGORY", "20"))
 NEWS_FETCH_LIMIT = int(os.getenv("NEWS_FETCH_LIMIT", "40"))
 BREAKING_WINDOW_MIN = int(os.getenv("BREAKING_WINDOW_MIN", "90"))
-NIGHT_FUTURES_MAX_AGE_H = int(os.getenv("NIGHT_FUTURES_MAX_AGE_H", "24"))
+# 야간선물 신선도 한도 — 주말 갭 필수 고려: 금요일 밤 세션 데이터가 월요일 06:30 리포트에
+# 나와야 하므로 24h면 부족(일요일 새벽 동기화도 월 06:30에 28.8h로 만료됨). 60h = 금 22시
+# 동기화(56.5h) 커버, 그 이상 낡은 값은 생략.
+NIGHT_FUTURES_MAX_AGE_H = int(os.getenv("NIGHT_FUTURES_MAX_AGE_H", "60"))
 
 # ── Notion (사용자 관리 투자 데이터의 단일 진실원. 미설정 시 수집 skipped) ──
 NOTION_API_KEY = os.getenv("NOTION_API_KEY", "")

@@ -14,7 +14,8 @@
   <tbody>
     {% for q in rows %}
     <tr>
-      <td class="name">{{ q.name }} <span class="src">{{ q.source }}</span></td>
+      <td class="name">{{ q.name }} <span class="src">{{ q.source }}</span>
+        {% if q.as_of %}<span class="muted" style="font-size:.75em"> {{ q.as_of }} 기준</span>{% endif %}</td>
       <td class="num">{{ q.price|price }}</td>
       <td class="num"><span class="pct {{ q.change_pct|signclass }}">{{ q.change_pct|pct }}</span></td>
     </tr>

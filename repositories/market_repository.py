@@ -1,12 +1,22 @@
 """검증된 시장 raw → Quote 모델 + cache/market.json 기록."""
 from __future__ import annotations
 
+from datetime import datetime
+
 from collectors.kiwoom_collector import LABELS as NIGHT_LABELS
 from config.markets import MORNING_US_INDICES
 from config.settings import CACHE_DIR
 from models.market import Quote
-from utils.dates import now_kst
+from utils.dates import fmt_kst, now_kst
 from utils.jsonio import save_json
+
+
+def _as_of_kst(iso: str) -> str:
+    """ISO 타임스탬프 → 'MM-DD HH:MM' KST 표시 문자열(파싱 실패 시 빈 문자열)."""
+    try:
+        return fmt_kst(datetime.fromisoformat(iso), "%m-%d %H:%M")
+    except (ValueError, TypeError):
+        return ""
 
 _NAMES = {
     **NIGHT_LABELS,
@@ -30,6 +40,7 @@ def to_quotes(validated: dict[str, dict | None]) -> dict[str, Quote | None]:
             change_pct=e.get("change_pct"),
             currency=_CURRENCY.get(key, "USD"),
             source=e.get("source", ""),
+            as_of=_as_of_kst(e.get("as_of", "")),
         )
     return out
 

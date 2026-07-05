@@ -19,15 +19,17 @@ def test_market_drops_invalid_price():
 
 
 def test_market_night_futures_freshness():
+    from config.settings import NIGHT_FUTURES_MAX_AGE_H
+
     now = datetime.now(timezone.utc)
-    fresh = (now - timedelta(hours=2)).isoformat()
-    stale = (now - timedelta(hours=48)).isoformat()
+    fresh = (now - timedelta(hours=NIGHT_FUTURES_MAX_AGE_H - 1)).isoformat()
+    stale = (now - timedelta(hours=NIGHT_FUTURES_MAX_AGE_H + 1)).isoformat()
     raw = {
         "kospi_night": {"price": 345.0, "as_of": fresh, "source": "kiwoom"},
         "kosdaq_night": {"price": 800.0, "as_of": stale, "source": "kiwoom"},
     }
     out = v_market(raw)
-    assert out["kospi_night"] is not None
+    assert out["kospi_night"] is not None  # 한도 이내(주말 갭 포함) → 표시
     assert out["kosdaq_night"] is None  # 만료 → 표시 금지
 
 
