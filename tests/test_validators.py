@@ -25,12 +25,23 @@ def test_market_night_futures_freshness():
     fresh = (now - timedelta(hours=NIGHT_FUTURES_MAX_AGE_H - 1)).isoformat()
     stale = (now - timedelta(hours=NIGHT_FUTURES_MAX_AGE_H + 1)).isoformat()
     raw = {
-        "kospi_night": {"price": 345.0, "as_of": fresh, "source": "kiwoom"},
-        "kosdaq_night": {"price": 800.0, "as_of": stale, "source": "kiwoom"},
+        "kospi_night": {"price": 345.0, "change_pct": -0.4, "as_of": fresh, "source": "kiwoom"},
+        "kosdaq_night": {"price": 800.0, "change_pct": 1.2, "as_of": stale, "source": "kiwoom"},
     }
     out = v_market(raw)
     assert out["kospi_night"] is not None  # 한도 이내(주말 갭 포함) → 표시
     assert out["kosdaq_night"] is None  # 만료 → 표시 금지
+
+
+def test_market_night_futures_drops_flat():
+    """등락 0.0/누락 야간선물 = 마감·개장전 스냅샷 → 표시 금지(현물과 어긋난 stale 값 차단)."""
+    now = datetime.now(timezone.utc).isoformat()
+    raw = {
+        "kospi_night": {"price": 1304.0, "change_pct": 0.0, "as_of": now, "source": "kiwoom"},
+        "kosdaq_night": {"price": 1490.0, "as_of": now, "source": "kiwoom"},  # change_pct 누락
+    }
+    out = v_market(raw)
+    assert out["kospi_night"] is None and out["kosdaq_night"] is None
 
 
 def test_news_requires_title_link_and_dedups():

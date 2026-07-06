@@ -19,13 +19,15 @@ log = get_logger("collectors.kiwoom_futures")
 TR_CODE = "opt50001"
 RQ_NAME = "opt50001_quote"
 
-# 실계좌 검증(2026-07-06): 등락율 = 전일대비/기준가, 기준가 = **전일 정규장 종가**.
-# 즉 야간세션 중 등락률은 '전일종가 대비'(거래소 관례)로 당일 주간 변동을 포함하며,
-# '밤사이 변동분'이 아니다. 주간 종가는 opt50001에 없어 야간분 분리는 불가 —
-# 리포트에는 기준을 명시해 표시한다(morning notes).
+# 실계좌 검증(2026-07-06): 기준가 = **전일 정규장 종가**. 야간세션 중 등락률은 '전일종가
+# 대비'(거래소 관례)로 당일 주간 변동을 포함하며 '밤사이 변동분'이 아니다(주간 종가는
+# opt50001에 없어 야간분 분리 불가 — 리포트 morning notes에 기준 명시).
+# Kiwoom 제공 '등락율'은 야간세션 중 기준(정산가/주간종가)이 애매해 현물과 크게 벌어지는
+# 값이 나오는 사례가 있어 그대로 믿지 않고, 기준가로 등락률을 **직접 계산**한다(폴백만 등락율).
 _FIELD_CANDIDATES: dict[str, tuple[str, ...]] = {
     "price": ("현재가",),
-    "change_pct": ("등락률", "등락율"),
+    "base": ("기준가", "기준가격", "정산가"),  # 전일 정규장 종가(등락 기준가)
+    "change_pct": ("등락률", "등락율"),          # 기준가 미제공 시 폴백
 }
 _ALL_FIELDS = [f for cands in _FIELD_CANDIDATES.values() for f in cands]
 
@@ -91,7 +93,12 @@ def discover_front_month(api: KiwoomAPI) -> dict[str, str]:
 
 
 def fetch_quote(api: KiwoomAPI, code: str) -> dict | None:
-    """opt50001 단일 시세 → {'price': float, 'change_pct': float|None} | None."""
+    """opt50001 단일 시세 → {'price': float, 'change_pct': float|None} | None.
+
+    등락률은 기준가(전일 정규장 종가)로 직접 계산한다. 기준가가 없을 때만 Kiwoom '등락율'로
+    폴백. 마감·개장전엔 현재가=기준가라 등락률이 0.0이 되며, 이는 상위(sync/validator)에서
+    '유효 시세 아님'으로 걸러 직전 값을 유지한다.
+    """
     api.set_input("종목코드", code)
     meta = api.comm_rq(RQ_NAME, TR_CODE, fields=_ALL_FIELDS)
     rows = meta.get("rows", [])
@@ -100,12 +107,20 @@ def fetch_quote(api: KiwoomAPI, code: str) -> dict | None:
     raw = rows[0]
     log.info("선물 시세 raw(필드 검증용) %s: %s", code, raw)
     price = next((_num(raw[f]) for f in _FIELD_CANDIDATES["price"] if raw.get(f)), None)
-    chg = next((_num(raw[f]) for f in _FIELD_CANDIDATES["change_pct"] if raw.get(f)), None)
-    if price is not None:
-        price = abs(price)  # Kiwoom은 하락 시 가격에 '-' 부호를 붙임(등락률은 부호 유지)
+    base = next((_num(raw[f]) for f in _FIELD_CANDIDATES["base"] if raw.get(f)), None)
+    kw_chg = next((_num(raw[f]) for f in _FIELD_CANDIDATES["change_pct"] if raw.get(f)), None)
+    if price is None:
+        return None
+    price = abs(price)  # Kiwoom은 하락 시 현재가에 '-' 부호(가격은 양수로 정규화)
     if not price:
         return None
-    return {"price": price, "change_pct": chg}
+    if base and abs(base) > 0:
+        change_pct = round((price / abs(base) - 1) * 100, 2)  # 전일 정규장 종가 대비
+    else:
+        change_pct = kw_chg
+    log.info("선물 등락 %s: price=%s base=%s → chg=%s%% (kiwoom등락률=%s)",
+             code, price, base, change_pct, kw_chg)
+    return {"price": price, "change_pct": change_pct}
 
 
 def fetch_night_futures(api: KiwoomAPI) -> dict[str, dict | None]:

@@ -54,13 +54,21 @@ def run(start_date: str, push: bool) -> None:
         from collectors.kiwoom_desktop import futures
 
         night = futures.fetch_night_futures(api)
-        if night.get("kospi_night") or night.get("kosdaq_night"):
-            kiwoom_collector.save_night_futures(
-                kospi=night.get("kospi_night"), kosdaq=night.get("kosdaq_night")
-            )
-            log.info("야간선물 저장: %s", night)
+
+        # 등락 0.0/None은 마감·개장전 스냅샷(현재가=기준가)일 확률이 높다 →
+        # 직전 유효값을 덮지 않도록 해당 종목은 저장에서 제외한다.
+        def _live(leg: dict | None) -> bool:
+            return bool(leg and leg.get("price") and leg.get("change_pct") not in (None, 0.0))
+
+        kospi = night.get("kospi_night") if _live(night.get("kospi_night")) else None
+        kosdaq = night.get("kosdaq_night") if _live(night.get("kosdaq_night")) else None
+        if kospi or kosdaq:
+            kiwoom_collector.save_night_futures(kospi=kospi, kosdaq=kosdaq)
+            log.info("야간선물 저장: kospi=%s kosdaq=%s", kospi, kosdaq)
         else:
-            log.warning("야간선물 시세 없음(종목 미발견/휴장) — 캐시 미갱신")
+            log.warning(
+                "야간선물 유효 시세 없음(마감/개장전 flat 또는 종목 미발견) — 캐시 미갱신(직전 값 유지)"
+            )
     except Exception as exc:  # noqa: BLE001
         log.warning("야간선물 조회 실패(무시하고 계속): %s", exc)
 
