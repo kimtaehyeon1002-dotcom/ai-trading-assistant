@@ -19,14 +19,15 @@ log = get_logger("collectors.kiwoom_futures")
 TR_CODE = "opt50001"
 RQ_NAME = "opt50001_quote"
 
+# 실계좌 검증(2026-07-06): 등락율 = 전일대비/기준가, 기준가 = **전일 정규장 종가**.
+# 즉 야간세션 중 등락률은 '전일종가 대비'(거래소 관례)로 당일 주간 변동을 포함하며,
+# '밤사이 변동분'이 아니다. 주간 종가는 opt50001에 없어 야간분 분리는 불가 —
+# 리포트에는 기준을 명시해 표시한다(morning notes).
 _FIELD_CANDIDATES: dict[str, tuple[str, ...]] = {
     "price": ("현재가",),
     "change_pct": ("등락률", "등락율"),
 }
-# 진단용: 관측된 등락률(+5.76%)이 '야간 변동'이 아니라 '전일 종가 대비'로 보임 —
-# 기준가류 필드를 raw 로그로 관측해 야간변동 자체 계산으로 바꿀지 판단한다.
-_DIAG_FIELDS = ("기준가", "전일대비", "전일종가", "시가")
-_ALL_FIELDS = [f for cands in _FIELD_CANDIDATES.values() for f in cands] + list(_DIAG_FIELDS)
+_ALL_FIELDS = [f for cands in _FIELD_CANDIDATES.values() for f in cands]
 
 # 종목명 패턴 → 최근월 선택. 코스피200 선물명은 접두어 없이 'F YYYYMM',
 # 코스닥150은 '코스닥 F YYYYMM'(코스닥글로벌 등 섹터물 제외).

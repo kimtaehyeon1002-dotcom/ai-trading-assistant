@@ -12,7 +12,7 @@ from config.settings import DATA_CACHE_DIR
 from utils.jsonio import load_json, save_json
 
 _CACHE = DATA_CACHE_DIR / "kiwoom_night.json"
-LABELS = {"kospi_night": "코스피 야간선물", "kosdaq_night": "코스닥 야간선물"}
+LABELS = {"kospi_night": "코스피200 야간선물", "kosdaq_night": "코스닥150 야간선물"}
 
 
 def collect() -> dict[str, dict | None]:
