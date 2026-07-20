@@ -1,0 +1,197 @@
+/*
+ * base_v2.css — v2 셸 레이아웃(사이드바+헤더+12컬럼 콘텐츠 그리드).
+ * design/00 §5(그리드)·§6(사이드바)·§7(헤더). 색은 전부 tokens.css의 시맨틱 변수만 참조한다
+ * (hex 리터럴 금지 — design/20 Phase 1 DoD R6 린트).
+ * 로드 순서: tokens.css → base_v2.css(이 파일) → components.css(Phase 2+).
+ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--surface-base);
+  color: var(--text-primary);
+}
+
+body.v2 {
+  font-family: var(--font-kr);
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-lh);
+  display: grid;
+  grid-template-columns: var(--layout-sidebar-width) 1fr;
+  grid-template-rows: var(--layout-header-height) 1fr;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main";
+  min-height: 100vh;
+}
+
+body.v2[data-sidebar="collapsed"] {
+  grid-template-columns: var(--layout-sidebar-collapsed) 1fr;
+}
+
+a { color: inherit; text-decoration: none; }
+
+/* ── 사이드바 (design/00 §6) ── */
+.v2-sidebar {
+  grid-area: sidebar;
+  background: var(--surface-base);
+  border-right: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.v2-sidebar__logo {
+  height: var(--layout-header-height);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0 var(--space-5);
+  font-weight: var(--type-h3-weight);
+  font-size: var(--type-h3-size);
+  border-bottom: 1px solid var(--border-subtle);
+  white-space: nowrap;
+}
+
+.v2-nav { padding: var(--space-2) 0; }
+.v2-nav__divider { height: 1px; background: var(--border-subtle); margin: var(--space-2) var(--space-3); }
+
+.v2-nav__item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  height: 40px;
+  margin: 0 var(--space-3);
+  padding: 0 var(--space-3);
+  border-radius: var(--radius-control);
+  color: var(--text-secondary);
+  font-size: var(--type-body-size);
+  font-weight: 500;
+  transition: background var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing);
+  white-space: nowrap;
+}
+.v2-nav__item:hover { background: var(--surface-card-hover); color: var(--text-primary); }
+.v2-nav__item[aria-current="page"] {
+  background: var(--surface-selected);
+  color: var(--text-primary);
+  font-weight: 600;
+  position: relative;
+}
+.v2-nav__item[aria-current="page"]::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 10px;
+  width: 3px;
+  height: 20px;
+  border-radius: 2px;
+  background: var(--brand-primary);
+}
+.v2-nav__item--locked { color: var(--text-tertiary); }
+.v2-nav__item--locked:hover { color: var(--text-secondary); }
+.v2-nav__lock { margin-left: auto; font-size: var(--type-caption-size); color: inherit; }
+
+.v2-sidebar__footer {
+  margin-top: auto;
+  border-top: 1px solid var(--border-subtle);
+  padding: var(--space-2) 0;
+}
+.v2-sidebar__version {
+  padding: var(--space-2) var(--space-5);
+  font-size: var(--type-caption-size);
+  color: var(--text-tertiary);
+}
+
+/* ── 헤더 (design/00 §7) ── */
+.v2-header {
+  grid-area: header;
+  background: var(--surface-base);
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-6);
+  padding: 0 var(--space-8);
+}
+.v2-header__context {
+  font-size: var(--type-h3-size);
+  font-weight: var(--type-h3-weight);
+  white-space: nowrap;
+}
+.v2-header__context .v2-breadcrumb { color: var(--text-tertiary); font-size: var(--type-caption-size); font-weight: 400; margin-left: var(--space-2); }
+.v2-header__search {
+  flex: 1;
+  max-width: 360px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: var(--surface-sunken);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-control);
+  padding: 0 var(--space-3);
+  color: var(--text-tertiary);
+  font-size: var(--type-caption-size);
+}
+.v2-header__clock {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.v2-header__user {
+  width: 32px; height: 32px;
+  border-radius: var(--radius-badge);
+  background: var(--surface-card-hover);
+  display: flex; align-items: center; justify-content: center;
+  font-size: var(--type-caption-size);
+  color: var(--text-secondary);
+}
+
+/* ── 콘텐츠 영역 (design/00 §5-1) ── */
+.v2-main {
+  grid-area: main;
+  overflow-y: auto;
+}
+.v2-content {
+  max-width: var(--layout-content-max);
+  margin: 0 auto;
+  padding: var(--space-6) var(--layout-content-margin) var(--space-16);
+  display: grid;
+  grid-template-columns: repeat(var(--layout-grid-columns), 1fr);
+  gap: var(--layout-grid-gutter);
+}
+
+/* ── Stock Hub 전역 패널 마운트 지점 (design/22 §1-1, 비어 있어도 존재) ── */
+.v2-panel-slot:empty { display: none; }
+
+/* ── 그리드 스팬 유틸(12컬럼) — 카드 컴포넌트 자체는 Phase 2 components.css에서 정의 ── */
+.v2-span-3 { grid-column: span 3; }
+.v2-span-4 { grid-column: span 4; }
+.v2-span-6 { grid-column: span 6; }
+.v2-span-8 { grid-column: span 8; }
+.v2-span-12 { grid-column: span 12; }
+
+/* ── 타이포 유틸(design/00 §3-2 타입 스케일) ── */
+.v2-h1 { font-size: var(--type-h1-size); font-weight: var(--type-h1-weight); line-height: var(--type-h1-lh); margin: 0; }
+.v2-body { font-size: var(--type-body-size); line-height: var(--type-body-lh); color: var(--text-secondary); margin: var(--space-2) 0 0; }
+.v2-caption { font-size: var(--type-caption-size); line-height: var(--type-caption-lh); color: var(--text-tertiary); }
+.v2-overline {
+  font-size: var(--type-overline-size);
+  font-weight: var(--type-overline-weight);
+  line-height: var(--type-overline-lh);
+  letter-spacing: var(--type-overline-tracking);
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+.v2-body-strong { font-size: var(--type-body-size); font-weight: var(--type-body-strong-weight); color: var(--text-primary); }
+.v2-overline + .v2-h1 { margin-top: var(--space-2); } /* 라벨↔헤드라인 8px(design/07 §3-2) */
+
+/* ── 축소 대응 (design/00 §5-2) ── */
+@media (max-width: 1280px) {
+  body.v2 { grid-template-columns: var(--layout-sidebar-collapsed) 1fr; }
+  .v2-content { gap: 16px; }
+}

@@ -1,0 +1,184 @@
+/*
+ * tokens.css — 디자인 토큰 레이어 (design/00 Global Foundation, design/22 §3)
+ *
+ * 2계층 구조:
+ *   1) 원시 팔레트(private, --p-*)  — 아래 "PRIMITIVES" 블록 안에만 hex 리터럴이 존재한다.
+ *   2) 시맨틱 토큰(public, 예: --surface-card) — 컴포넌트는 이 계층만 참조한다.
+ *
+ * 매핑 규칙(design/22 §3-1): 00 문서의 점 표기(surface.card)를 하이픈으로 사상한다
+ * (--surface-card), 그룹 접두어는 유지한다. 값 나열은 00 문서가 단일 소스이며 여기서는
+ * 그 값을 변경 없이 옮긴다.
+ *
+ * 로드 순서 계약(design/22 §3-2): tokens.css → base_v2.css → components.css.
+ */
+
+/* ============================== PRIMITIVES (private) ==============================
+ * hex 리터럴은 이 블록 안에만 존재해야 한다(R6 린트 대상 — design/00 §2-6, design/20 Phase 1 DoD).
+ * 아래 시맨틱 계층·다른 v2 CSS/HTML 파일에는 hex를 직접 쓰지 않는다.
+ */
+:root {
+  /* slate(중성) — surface/text/border/skeleton 계열, 어두운 순 */
+  --p-slate-01: #0B1120;
+  --p-slate-02: #111827;
+  --p-slate-03: #1F2937;
+  --p-slate-04: #263244;
+  --p-slate-05: #273244;
+  --p-slate-06: #2A3648;
+  --p-slate-07: #2E3B4E;
+  --p-slate-08: #374151;
+  --p-slate-09: #4B5563;
+  --p-slate-10: #6B7280;
+  --p-slate-11: #94A3B8;
+  --p-slate-12: #9CA3AF;
+  --p-slate-13: #F9FAFB;
+
+  /* green(브랜드) */
+  --p-green-01: #059669;
+  --p-green-02: #10B981;
+  --p-green-03: #34D399;
+
+  /* 상태·등락·액센트 개별색 */
+  --p-red-01: #F87171;
+  --p-blue-01: #60A5FA;
+  --p-yellow-01: #FBBF24;
+  --p-violet-01: #A78BFA;
+
+  /* 차트 시리즈 전용(design/00 §2-7 — 등락·상태·브랜드와 헥스 비중복) */
+  --p-teal-01: #2DD4BF;
+  --p-fuchsia-01: #E879F9;
+  --p-orange-01: #FB923C;
+  --p-indigo-01: #818CF8;
+  /* --p-slate-11(#94A3B8)이 chart.series-5를 겸한다(00 §2-7 — 회색 계열 5번째 시리즈) */
+}
+/* ============================== END PRIMITIVES ============================== */
+
+:root {
+  /* ── 표면(Surface) — design/00 §2-1 ── */
+  --surface-base: var(--p-slate-02);
+  --surface-card: var(--p-slate-03);
+  --surface-card-hover: var(--p-slate-04);
+  --surface-elevated: var(--p-slate-06);
+  --surface-sunken: var(--p-slate-01);
+  --surface-selected: rgba(16, 185, 129, 0.08); /* brand.primary 8% */
+
+  /* ── 텍스트 — design/00 §2-2 ── */
+  --text-primary: var(--p-slate-13);
+  --text-secondary: var(--p-slate-12);
+  --text-tertiary: var(--p-slate-10);
+  --text-disabled: var(--p-slate-09);
+  --text-inverse: var(--p-slate-02);
+
+  /* ── 브랜드·액센트 — design/00 §2-3 ── */
+  --brand-primary: var(--p-green-02);
+  --brand-primary-hover: var(--p-green-03);
+  --brand-primary-pressed: var(--p-green-01);
+  --accent-yellow: var(--p-yellow-01);
+  --accent-violet: var(--p-violet-01);
+
+  /* ── 상태(Semantic) — design/00 §2-4 ── */
+  --status-success: var(--p-green-03);
+  --status-warning: var(--p-yellow-01);
+  --status-danger: var(--p-red-01);
+  --status-info: var(--p-blue-01);
+
+  /* ── 차트 시리즈 — design/00 §2-7 (등락·상태·브랜드와 헥스 비중복 전용 5색) ── */
+  --chart-series-1: var(--p-teal-01);
+  --chart-series-2: var(--p-fuchsia-01);
+  --chart-series-3: var(--p-orange-01);
+  --chart-series-4: var(--p-indigo-01);
+  --chart-series-5: var(--p-slate-11);
+
+  /* ── 보더·포커스·스켈레톤·오버레이·라이브 배지 — design/00 §2-8 ── */
+  --border-subtle: var(--p-slate-05);
+  --border-default: var(--p-slate-08);
+  --border-strong: var(--p-slate-09);
+  --focus-ring-color: var(--p-green-03);
+  --focus-ring-width: 2px;
+  --focus-ring-offset: 2px;
+  --skeleton-base: var(--p-slate-05);
+  --skeleton-highlight: var(--p-slate-07);
+  --overlay-scrim: rgba(0, 0, 0, 0.6);   /* Level 3 모달 전용 */
+  --overlay-gate: rgba(0, 0, 0, 0.4);    /* Asset/Portfolio 잠금 게이트 전용 */
+  --badge-live: var(--p-green-03);
+
+  /* ── 신선도 상태 표현 — design/00 §9-2, 4상태 정본(FRESH/DELAYED/STALE/CLOSED-SNAPSHOT) ──
+   * FRESH: 값 text-primary·배지 없음(컴포넌트에서 상태색 미사용).
+   * 판정 문턱(T·2T·3T)은 클라이언트 freshness.js 책임(design/21 §6) — 여기는 색만 정의. */
+  --freshness-delayed: var(--status-warning);   /* "지연" 아웃라인 배지 */
+  --freshness-stale-text: var(--text-secondary); /* STALE 시 값 전체 강등 */
+  --freshness-stale-badge: rgba(251, 191, 36, 0.12); /* "오래된 데이터" 배지 채움(accent.yellow 12%) */
+  --freshness-closed-text: var(--text-primary); /* CLOSED-SNAPSHOT은 값 유지, 라벨만 별도 */
+
+  /* ── 타이포그래피 — design/00 §3 ── */
+  --font-kr: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-num: "Inter", var(--font-kr);
+  --type-display-size: 32px; --type-display-weight: 700; --type-display-lh: 40px;
+  --type-h1-size: 24px; --type-h1-weight: 700; --type-h1-lh: 32px;
+  --type-h2-size: 20px; --type-h2-weight: 600; --type-h2-lh: 28px;
+  --type-h3-size: 16px; --type-h3-weight: 600; --type-h3-lh: 24px;
+  --type-body-size: 14px; --type-body-weight: 400; --type-body-lh: 22px;
+  --type-body-strong-weight: 600;
+  --type-caption-size: 12px; --type-caption-weight: 400; --type-caption-lh: 18px;
+  --type-overline-size: 11px; --type-overline-weight: 600; --type-overline-lh: 14px; --type-overline-tracking: 0.4px;
+  --type-num-display-size: 32px; --type-num-display-weight: 700; --type-num-display-lh: 40px;
+  --type-num-lg-size: 24px; --type-num-lg-weight: 600; --type-num-lg-lh: 32px;
+  --type-num-md-size: 16px; --type-num-md-weight: 500; --type-num-md-lh: 24px;
+  --type-num-sm-size: 13px; --type-num-sm-weight: 500; --type-num-sm-lh: 20px;
+  --type-num-xs-size: 12px; --type-num-xs-weight: 500; --type-num-xs-lh: 16px;
+
+  /* ── 스페이싱(4pt 스케일) — design/00 §4-1 ── */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 20px;
+  --space-6: 24px; --space-8: 32px; --space-10: 40px; --space-12: 48px; --space-16: 64px;
+
+  /* ── 라운드 — design/00 §4-2 ── */
+  --radius-card: 12px;
+  --radius-control: 8px;
+  --radius-badge: 999px;
+  --radius-inner: 6px;
+
+  /* ── 레이아웃 그리드 — design/00 §5-1 ── */
+  --layout-sidebar-width: 240px;
+  --layout-sidebar-collapsed: 64px;
+  --layout-header-height: 64px;
+  --layout-content-max: 1600px;
+  --layout-content-margin: 32px;
+  --layout-grid-columns: 12;
+  --layout-grid-gutter: 24px;
+
+  /* ── 모션 — design/00 §10-1 ── */
+  --motion-fast: 120ms;
+  --motion-base: 200ms;
+  --motion-slow: 250ms;
+  --motion-easing: cubic-bezier(0.22, 0.61, 0.36, 1); /* 감속 곡선 단일 표준 */
+}
+
+/*
+ * 등락색 모드 스코프(design/00 §2-5, design/22 §3-3) — 두 스코프 모두 Phase 1에서 즉시
+ * 실값을 채운다(라이트 테마만 스위칭 슬롯 예약, 아래 [data-theme="light"] 참조).
+ * signclass 필터가 부여하는 .up/.down 클래스는 무수정 — 색은 변수 재바인딩으로만 전환한다.
+ */
+:root,
+[data-updown="kr"] {
+  --market-up: var(--p-red-01);
+  --market-up-bg: rgba(248, 113, 113, 0.12);
+  --market-down: var(--p-blue-01);
+  --market-down-bg: rgba(96, 165, 250, 0.12);
+  --market-flat: var(--p-slate-12);
+}
+
+[data-updown="global"] {
+  --market-up: var(--p-green-03);
+  --market-up-bg: rgba(52, 211, 153, 0.12);
+  --market-down: var(--p-red-01);
+  --market-down-bg: rgba(248, 113, 113, 0.12);
+  --market-flat: var(--p-slate-12);
+}
+
+/*
+ * 라이트 테마 — 스위칭 슬롯만 예약(design/22 §3-3 C-3 결정). 00 문서가 "다크 테마 단일
+ * 운영(라이트 없음)"을 명시했으므로 값은 아직 채우지 않는다. 훗날 이 셀렉터에 시맨틱
+ * 값만 채우면 컴포넌트 수정 없이 라이트 테마가 활성화되는 것이 목표다.
+ */
+[data-theme="light"] {
+  /* 값 없음 — 슬롯 예약. 채워지기 전까지는 다크(:root) 값이 그대로 상속된다. */
+}

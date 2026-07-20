@@ -1,0 +1,226 @@
+/*
+ * components.css — 카드/배지/버튼/타임라인/신선도 컴포넌트 스타일.
+ * design/00 §8(카드 아나토미)·§9-2(신선도). 색은 전부 tokens.css 시맨틱 변수만 참조(hex 금지, R6).
+ * 로드 순서: tokens.css → base_v2.css → components.css(이 파일).
+ */
+
+/* ── 카드 공통(design/00 §8-1) ── */
+.v2-card {
+  background: var(--surface-card);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-card);
+  display: flex;
+  flex-direction: column;
+}
+.v2-card--hero { padding: var(--space-6); min-height: 320px; }
+.v2-card--standard { padding: var(--space-5); min-height: 220px; }
+.v2-card--planned { border-style: dashed; } /* design/07 §1-4 PLANNED 상태 유일 시각 신호 */
+
+.v2-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+.v2-card__title { font-size: var(--type-h3-size); font-weight: var(--type-h3-weight); line-height: var(--type-h3-lh); margin: 0; color: var(--text-primary); }
+.v2-card__meta { font-size: var(--type-caption-size); color: var(--text-tertiary); white-space: nowrap; }
+.v2-card__body { flex: 1; }
+.v2-card__footer {
+  margin-top: var(--space-4);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--border-subtle);
+  font-size: 13px;
+  color: var(--text-tertiary);
+}
+.v2-card--clickable { cursor: pointer; transition: background var(--motion-fast) var(--motion-easing); }
+.v2-card--clickable:hover { background: var(--surface-card-hover); }
+
+/* ── 배지(design/00 §9-2, P2 — 상태는 색이 아닌 텍스트+보더로) ── */
+.v2-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: var(--radius-badge);
+  font-size: var(--type-overline-size);
+  border: 1px solid var(--border-default);
+  color: var(--text-secondary);
+  background: transparent;
+  white-space: nowrap;
+}
+
+/* 신선도 배지 — freshness.js가 카드 루트에 부여하는 data-freshness 값에 따라 표시된다 */
+.v2-freshness-badge { display: none; }
+[data-freshness="delayed"] .v2-freshness-badge--delayed {
+  display: inline-flex;
+  border-color: var(--accent-yellow);
+  color: var(--accent-yellow);
+}
+[data-freshness="stale"] .v2-freshness-badge--stale {
+  display: inline-flex;
+  border-color: transparent;
+  background: var(--freshness-stale-badge);
+  color: var(--accent-yellow);
+}
+[data-freshness="stale"] .v2-freshness-affected { color: var(--freshness-stale-text) !important; }
+
+/* ── 등락(등락색은 반드시 화살표 병행 — R4) ── */
+.v2-updown.up { color: var(--market-up); }
+.v2-updown.down { color: var(--market-down); }
+.v2-updown.flat { color: var(--market-flat); }
+
+/* ── 버튼 ── */
+.v2-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-control);
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing);
+}
+.v2-btn--primary { background: var(--brand-primary); color: var(--text-inverse); }
+.v2-btn--primary:hover { background: var(--brand-primary-hover); }
+.v2-btn--ghost { background: transparent; color: var(--text-secondary); }
+.v2-btn--ghost:hover { color: var(--brand-primary-hover); }
+
+/* ── Hero 통계(design/00 §3-2 num-display/num-lg) ── */
+.v2-stat-row { display: flex; gap: var(--space-12); margin-top: var(--space-6); flex-wrap: wrap; }
+.v2-stat { display: flex; flex-direction: column; gap: var(--space-1); }
+.v2-stat__label { font-size: var(--type-caption-size); color: var(--text-secondary); }
+.v2-stat__value { font-family: var(--font-num); font-variant-numeric: tabular-nums; color: var(--text-primary); }
+.v2-stat__value--display { font-size: var(--type-num-display-size); font-weight: var(--type-num-display-weight); line-height: var(--type-num-display-lh); }
+.v2-stat__value--lg { font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); line-height: var(--type-num-lg-lh); }
+.v2-cta-row { display: flex; align-items: center; gap: var(--space-2); margin-top: var(--space-6); }
+
+/* ── TA-PREVIEW 지표 그리드 ── */
+.v2-ta-metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-6); margin: var(--space-2) 0 var(--space-4); }
+.v2-ta-metric__label { font-size: var(--type-caption-size); color: var(--text-secondary); margin-bottom: var(--space-1); }
+.v2-ta-metric__value { font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.v2-ta-metric__sub { font-size: var(--type-caption-size); color: var(--text-secondary); margin-top: var(--space-1); }
+.v2-ta-spark { display: block; margin-top: var(--space-2); }
+
+/* ── PLANNED/IN-DEV 고스트 콘텐츠 ── */
+.v2-ghost { color: var(--text-tertiary); font-size: var(--type-body-size); line-height: var(--type-body-lh); }
+.v2-ghost__example { color: var(--text-tertiary); font-size: 12px; }
+
+/* ── Hero 헤더 액션(design/01 §3-2) ── */
+.v2-hero__header { align-items: center; }
+.v2-hero__header-actions { display: flex; align-items: center; gap: var(--space-3); }
+.v2-tile__value--empty { color: var(--text-tertiary); }
+
+/* ── Hero 3열 본문(design/01 §3-2) ── */
+.v2-hero-cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-6); margin-top: var(--space-6); }
+.v2-hero-col { padding-left: var(--space-6); border-left: 1px solid var(--border-subtle); }
+.v2-hero-col:first-child { padding-left: 0; border-left: none; }
+.v2-hero-headline {
+  display: flex; align-items: center; gap: var(--space-3);
+  padding-left: var(--space-3); border-left: 3px solid var(--accent-violet);
+  font-size: var(--type-h2-size); font-weight: 700; line-height: var(--type-h2-lh); color: var(--text-primary);
+}
+.v2-hero-index { margin-bottom: var(--space-3); }
+.v2-hero-index__label { font-size: var(--type-caption-size); color: var(--text-secondary); }
+.v2-hero-index__value { font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.v2-hero-index-row { display: flex; justify-content: space-between; align-items: baseline; font-size: var(--type-num-md-size); padding: var(--space-1) 0; }
+.v2-hero-news-row { display: flex; gap: var(--space-2); padding: var(--space-1) 0; font-size: var(--type-body-size); }
+.v2-hero-news-row .n { color: var(--text-tertiary); font-size: var(--type-overline-size); flex-shrink: 0; width: 16px; }
+.v2-hero-news-row .t { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text-primary); }
+.v2-hero-news-row .tm { color: var(--text-tertiary); font-size: var(--type-caption-size); flex-shrink: 0; }
+
+/* ── 지수 타일 2x2 그리드(design/01 §3-3·§3-4, 십자 디바이더만·중첩 표면 금지) ── */
+.v2-tile-grid { display: grid; grid-template-columns: 1fr 1fr; }
+.v2-tile { padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--border-subtle); }
+.v2-tile:nth-child(odd) { border-right: 1px solid var(--border-subtle); }
+.v2-tile:nth-child(3), .v2-tile:nth-child(4) { border-bottom: none; }
+.v2-tile__label { font-size: var(--type-caption-size); color: var(--text-secondary); margin-bottom: var(--space-1); }
+.v2-tile__value { font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.v2-tile__change { font-size: 13px; font-weight: 500; margin-top: 2px; }
+
+/* ── 뉴스 리스트 행(design/01 §3-5) ── */
+.v2-news-row { display: flex; align-items: baseline; gap: var(--space-3); padding: var(--space-2) 0; border-bottom: 1px solid var(--border-subtle); }
+.v2-news-row:last-child { border-bottom: none; }
+.v2-news-row__title { flex: 1; font-size: var(--type-body-size); color: var(--text-primary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.v2-news-row__time { font-size: var(--type-caption-size); color: var(--text-tertiary); flex-shrink: 0; }
+
+/* ── 일정 행(design/01 §3-6) ── */
+.v2-sched-row { display: flex; align-items: center; gap: var(--space-3); height: 40px; }
+.v2-sched-row__time { font-size: var(--type-num-sm-size); font-variant-numeric: tabular-nums; color: var(--text-secondary); width: 48px; text-align: right; flex-shrink: 0; }
+.v2-sched-row__label { flex: 1; font-size: var(--type-body-size); color: var(--text-primary); }
+
+/* ── 탭 바(design/03 §3-1) ── */
+.v2-tabbar { display: flex; align-items: center; gap: var(--space-2); border-bottom: 1px solid var(--border-subtle); padding-bottom: 0; margin-bottom: var(--space-4); }
+.v2-tabbar__meta { margin-left: auto; }
+.v2-tabbar__btn {
+  appearance: none; background: transparent; border: none; cursor: pointer;
+  height: 40px; padding: 0 var(--space-4); border-radius: var(--radius-control) var(--radius-control) 0 0;
+  font-size: var(--type-body-size); font-weight: 500; color: var(--text-secondary);
+  border-bottom: 2px solid transparent; font-family: inherit;
+  transition: color var(--motion-fast) var(--motion-easing), background var(--motion-fast) var(--motion-easing);
+}
+.v2-tabbar__btn:hover { background: var(--surface-card-hover); color: var(--text-primary); }
+.v2-tabbar__btn[aria-current="page"] { color: var(--text-primary); font-weight: 600; border-bottom-color: var(--brand-primary); }
+.v2-tabbar__count { font-size: var(--type-overline-size); color: var(--text-tertiary); margin-left: var(--space-1); }
+
+/* ── 중요도 게이지(design/03 §1-4 — 명도 사다리, 색 아님) ── */
+.v2-level-gauge { display: inline-flex; align-items: flex-end; gap: 2px; width: 13px; height: 12px; flex-shrink: 0; }
+.v2-level-gauge__bar { width: 3px; border-radius: 1px; background: var(--border-subtle); }
+.v2-level-gauge__bar:nth-child(1) { height: 4px; }
+.v2-level-gauge__bar:nth-child(2) { height: 8px; }
+.v2-level-gauge__bar:nth-child(3) { height: 12px; }
+.lvl-l1 .v2-level-gauge__bar:nth-child(1) { background: var(--text-tertiary); }
+.lvl-l2 .v2-level-gauge__bar:nth-child(1),
+.lvl-l2 .v2-level-gauge__bar:nth-child(2) { background: var(--text-secondary); }
+.lvl-l3 .v2-level-gauge__bar { background: var(--text-primary); }
+
+/* ── 뉴스 리스트 행(design/03 §3-2) ── */
+.v2-news-list { display: flex; flex-direction: column; }
+.v2-news-list-row {
+  display: flex; align-items: baseline; gap: var(--space-3);
+  padding: var(--space-3) 0; border-bottom: 1px solid var(--border-subtle);
+  position: relative;
+}
+.v2-news-list-row:last-child { border-bottom: none; }
+.lvl-l3.v2-news-list-row { padding-left: var(--space-3); border-left: 2px solid var(--text-primary); }
+.v2-news-list-row__headline { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lvl-l3 .v2-news-list-row__headline { font-size: 15px; font-weight: 600; color: var(--text-primary); }
+.lvl-l2 .v2-news-list-row__headline { font-size: var(--type-body-size); font-weight: 500; color: var(--text-primary); }
+.lvl-l1 .v2-news-list-row__headline { font-size: var(--type-body-size); font-weight: 400; color: var(--text-secondary); }
+.v2-news-list-row__meta { display: flex; flex-direction: column; align-items: flex-end; width: 148px; flex-shrink: 0; }
+.v2-news-list-row__source { font-size: var(--type-caption-size); color: var(--text-tertiary); }
+.v2-news-list-row__time { font-size: var(--type-caption-size); font-variant-numeric: tabular-nums; color: var(--text-tertiary); }
+.v2-tag { display: inline-flex; align-items: center; height: 24px; padding: 0 var(--space-2); border-radius: var(--radius-badge); border: 1px solid var(--border-default); color: var(--text-secondary); font-size: var(--type-caption-size); margin-right: var(--space-1); }
+
+/* ── 거시지표 행(design/02 §3, design/20 Phase 6) ── */
+.v2-macro-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-4); }
+.v2-macro-item { padding: var(--space-4); border: 1px solid var(--border-subtle); border-radius: var(--radius-inner); }
+.v2-macro-item__label { font-size: var(--type-caption-size); color: var(--text-secondary); margin-bottom: var(--space-1); }
+.v2-macro-item__value { font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.v2-macro-item__row { display: flex; justify-content: space-between; align-items: baseline; margin-top: var(--space-2); font-size: var(--type-caption-size); }
+.v2-macro-item__row .k { color: var(--text-tertiary); }
+.v2-macro-item__row .v { color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+.v2-macro-item__consensus { margin-top: var(--space-2); font-size: var(--type-caption-size); color: var(--text-tertiary); }
+
+/* 발표 전/후(design/20 Phase 6 DoD 3) — freshness.js가 부여하는 data-event-state 소비 */
+.v2-event-badge { display: inline-flex; align-items: center; height: 20px; padding: 0 var(--space-2); border-radius: var(--radius-badge); font-size: var(--type-caption-size); border: 1px solid var(--border-default); color: var(--text-tertiary); }
+[data-event-state="post"] .v2-event-badge--pre { display: none; }
+[data-event-state="pre"] .v2-event-badge--post { display: none; }
+[data-event-state="pre"] .v2-event-badge--pre { display: inline-flex; }
+[data-event-state="post"] .v2-event-badge--post { display: inline-flex; color: var(--text-secondary); }
+.v2-calendar-row { display: flex; align-items: center; gap: var(--space-3); height: 40px; border-bottom: 1px solid var(--border-subtle); }
+.v2-calendar-row:last-child { border-bottom: none; }
+.v2-calendar-row__date { font-size: var(--type-num-sm-size); font-variant-numeric: tabular-nums; color: var(--text-secondary); width: 88px; flex-shrink: 0; }
+.v2-calendar-row__label { flex: 1; font-size: var(--type-body-size); color: var(--text-primary); }
+
+/* ── 타임라인(TA-ROADMAP) ── */
+.v2-timeline__row { display: flex; align-items: center; gap: var(--space-3); height: 40px; }
+.v2-timeline__dot { width: 8px; height: 8px; border-radius: 50%; border: 1px solid var(--border-strong); flex-shrink: 0; }
+.v2-timeline__dot--active { background: var(--brand-primary); border-color: var(--brand-primary); }
+.v2-timeline__label { flex: 1; font-size: var(--type-body-size); color: var(--text-primary); }
+.v2-timeline__value { font-variant-numeric: tabular-nums; font-size: var(--type-num-sm-size); color: var(--text-secondary); }
+.v2-changelog__row { padding: var(--space-2) 0; font-size: var(--type-caption-size); }
+.v2-changelog__date { color: var(--text-tertiary); font-variant-numeric: tabular-nums; margin-right: var(--space-2); }
+.v2-changelog__text { color: var(--text-secondary); }

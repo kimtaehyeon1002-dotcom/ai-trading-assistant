@@ -1,65 +1,241 @@
 <!DOCTYPE html>
-<html lang="ko" data-theme="dark">
+<html lang="ko" data-theme="dark" data-updown="kr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI Trading Assistant · 대시보드</title>
-  <link rel="stylesheet" href="./static/css/style.css">
+  <title>AI Trading Assistant</title>
+  <link rel="stylesheet" href="./static/css/tokens.css">
+  <link rel="stylesheet" href="./static/css/base_v2.css">
+  <link rel="stylesheet" href="./static/css/components.css">
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
 </head>
-<body>
-  <header class="topbar">
-    <a class="brand" href="./index.html">📈 AI Trading Assistant</a>
-    <nav class="nav">
-      <a href="./index.html" class="active">대시보드</a>
-      <a href="./morning/index.html" class="">모닝리포트</a>
-      <a href="./news/index.html" class="">뉴스</a>
-      <a href="./trades/index.html" class="">매매일지</a>
-      <a href="./ai-office/index.html" class="">AI Office</a>
-    </nav>
-  </header>
+<body class="v2">
+  <nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav">
+    <a class="v2-nav__item" href="./index.html"
+aria-current="page">Dashboard</a>
+    <a class="v2-nav__item" href="./macro/index.html"
+>Macroeconomics</a>
+    <a class="v2-nav__item" href="./news/index.html"
+>News</a>
+    <a class="v2-nav__item" href="./stock/index.html"
+>Stock</a>
+    <a class="v2-nav__item" href="./financials/index.html"
+>Financial Statements</a>
+    <a class="v2-nav__item" href="./ta/index.html"
+>Technical Analysis</a>
+    <div class="v2-nav__divider"></div>
+    <a class="v2-nav__item v2-nav__item--locked" href="./asset/index.html"
+>
+      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+    <a class="v2-nav__item v2-nav__item--locked" href="./portfolio/index.html"
+>
+      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+  </div>
+  <div class="v2-sidebar__footer">
+    <a class="v2-nav__item" href="./settings/index.html"
+>Settings</a>
+    <div class="v2-sidebar__version">AI Trading Assistant</div>
+  </div>
+</nav>
 
-  <main class="container">
-<div class="page-head">
-  <h1>대시보드</h1>
-  <span class="muted">최종 갱신 2026-07-07 08:52 KST</span>
+  <header class="v2-header">
+  <div class="v2-header__context">
+    Dashboard
+  </div>
+  <div class="v2-header__search" role="search">종목·뉴스·페이지 검색</div>
+  <div class="v2-header__clock"></div>
+  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+</header>
+
+  <main class="v2-main">
+    <div class="v2-content">
+
+<div class="v2-card v2-card--hero v2-span-12 " id="dash-hero">
+    <div class="v2-card__header v2-hero__header">
+    <h3 class="v2-card__title">Morning Report</h3>
+    <div class="v2-hero__header-actions">
+      <span class="v2-card__meta">2026-07-21 08:09 KST</span>
+<a class="v2-btn v2-btn--primary" href="./morning/2026-07-21/index.html">리포트 전문 보기</a>    </div>
+  </div>
+  <div class="v2-hero-cols">
+    <div class="v2-hero-col">
+      <div class="v2-overline">미국 증시</div>
+    </div>
+    <div class="v2-hero-col">
+      <div class="v2-overline">한국 증시</div>
+    </div>
+    <div class="v2-hero-col">
+      <div class="v2-overline">전일 핵심 뉴스</div>
+      <div class="v2-hero-news-row">
+        <span class="n">1</span>
+        <a class="t" href="https://www.marketwatch.com/story/americans-are-skipping-lettuce-and-salads-as-investigation-into-cyclospora-outbreak-continues-562499b6?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">Americans are skipping lettuce and salads as investigation into cyclospora outbreak continues</a>
+      </div>
+      <div class="v2-hero-news-row">
+        <span class="n">2</span>
+        <a class="t" href="https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">I will claim Social Security early. Why do so few people talk about the elephant in the room?</a>
+      </div>
+      <div class="v2-hero-news-row">
+        <span class="n">3</span>
+        <a class="t" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE41NXlsZWUtZFYtYzlDdzBXXzg0V1kwMHo0Wm5QeVMwVVhKUEpsOVJBZmV6cEpmeGJ5Qm5LM1RyUWdJUjZfbHFvRmdQdE03UnhIVWpWbG5Qd1hUZ0dXb2trODY5NjVtVDhaR3V6QWVWYWpHa0NiZGk3ZUFQZw?oc=5" target="_blank" rel="noopener noreferrer">[마켓무버]AI 반도체 반등에도 중동 리스크 부담…뉴욕증시 일제 하락 - 이데일리TV</a>
+      </div>
+      <div class="v2-hero-news-row">
+        <span class="n">4</span>
+        <a class="t" href="https://www.marketwatch.com/story/why-cheap-chinese-ai-models-could-actually-be-a-boon-for-nvidia-micron-and-other-chip-stocks-8dd4baba?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">Why cheap Chinese AI models could actually be a boon for Nvidia, Micron and other chip stocks</a>
+      </div>
+      <div class="v2-hero-news-row">
+        <span class="n">5</span>
+        <a class="t" href="https://www.cnbc.com/2026/07/20/trump-tariffs-canada-trade.html" target="_blank" rel="noopener noreferrer">Trump imposing 50% tariffs on certain Canadian goods over alleged trade discrimination</a>
+      </div>
+    </div>
+  </div>
+
 </div>
 
-<section class="cards">
-  <a class="card" href="./morning/index.html">
-    <div class="card-icon">🌅</div>
-    <h3>모닝리포트</h3>
-    <p class="muted">2026-07-07</p>
-  </a>
-  <a class="card" href="./news/index.html">
-    <div class="card-icon">📰</div>
-    <h3>뉴스 센터</h3>
-    <p class="muted">한국·미국·AI·반도체·매크로·속보</p>
-  </a>
-  <a class="card" href="./trades/index.html">
-    <div class="card-icon">📒</div>
-    <h3>매매일지</h3>
-    <p class="muted">13건 · 승률 61.5%</p>
-  </a>
-</section>
+<div class="v2-card v2-card--standard v2-span-6 " id="dash-kr">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">한국 지수</h3>
+    <span class="v2-card__meta">2026-07-21 08:09 KST</span>
+  </div>
+  <div class="v2-tile-grid">
+    <div class="v2-tile">
+      <div class="v2-tile__label">—</div>
+      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+    </div>
+    <div class="v2-tile">
+      <div class="v2-tile__label">—</div>
+      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+    </div>
+    <div class="v2-tile">
+      <div class="v2-tile__label">—</div>
+      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+    </div>
+    <div class="v2-tile">
+      <div class="v2-tile__label">USD/KRW 환율</div>
+      <div class="v2-tile__value">1,481</div>
+      <div class="v2-tile__change v2-updown flat"> —</div>
+    </div>
+  </div>
 
-<h2>매매 요약</h2>
-<section class="stat-grid">
-  <div class="stat "><span class="stat-label">총 손익</span><span class="stat-value">132,190</span></div>
+</div>
 
-  <div class="stat "><span class="stat-label">승률</span><span class="stat-value">61.5%</span></div>
+<div class="v2-card v2-card--standard v2-span-6 " id="dash-us">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">미국 지수</h3>
+    <span class="v2-card__meta">2026-07-21 08:09 KST</span>
+  </div>
+  <div class="v2-tile-grid">
+    <div class="v2-tile">
+      <div class="v2-tile__label">—</div>
+      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+    </div>
+    <div class="v2-tile">
+      <div class="v2-tile__label">—</div>
+      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+    </div>
+    <div class="v2-tile">
+      <div class="v2-tile__label">—</div>
+      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+    </div>
+    <div class="v2-tile">
+      <div class="v2-tile__label">—</div>
+      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+    </div>
+  </div>
 
-  <div class="stat up"><span class="stat-label">평균 수익</span><span class="stat-value">43,618</span></div>
+</div>
 
-  <div class="stat down"><span class="stat-label">평균 손실</span><span class="stat-value">-43,350</span></div>
+<div class="v2-card v2-card--standard v2-span-8 " id="dash-news">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">핵심 뉴스</h3>
+    <span class="v2-card__meta">2026-07-21 08:09 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-news-row">
+      <span class="v2-badge">속보</span>
+      <a class="v2-news-row__title" href="https://www.yna.co.kr/view/AKR20260721019500051" target="_blank" rel="noopener noreferrer">부산시·남부발전·중기청, 청년 첫경력 취업 지원 맞손</a>
+      <span class="v2-news-row__time">07-21 08:00</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">속보</span>
+      <a class="v2-news-row__title" href="https://www.yna.co.kr/view/AKR20260721020200004" target="_blank" rel="noopener noreferrer">&#39;쿠팡이츠&#39; 출신 &#39;땡겨요&#39; 팀장 영업비밀 유출 의혹…경찰 수사</a>
+      <span class="v2-news-row__time">07-21 07:59</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">속보</span>
+      <a class="v2-news-row__title" href="https://www.marketwatch.com/story/why-are-gasoline-prices-rising-faster-than-oil-prices-blame-it-on-the-crack-22b454e7?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">Why are gasoline prices rising faster than oil prices? Blame it on the ‘crack.’</a>
+      <span class="v2-news-row__time">07-21 07:55</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">속보</span>
+      <a class="v2-news-row__title" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcWRTZUpjTUIwcnVmWU9vTUhWSXpUX3otLWJ6UUdFZWxXeHBvSWo1SHNfRGQ3VjVKVEpfSnJYOHdtZUZ2ZWpjS0FLWm9qY1dCOEtIZU9UZW1UWVFHY3VITFEteWtNSTVKaWNTMnc2dDlyNFdkdmd5ME9TcDlrY2xBVVEza0pDd0NE0gGcAUFVX3lxTE5HeDRFVUdsT1FGV1U5RjVLWFRUakI0RlZWaVNzTTMyMUkzMllRdGI1SmdGRVZYY01meGpWeGUtWFNXUDUyNHF5OXBYWVVhVGdwRk1iSmZVNVd4bWNGamVxMEtJcktOSlpraVpHaGFZVjloaDBoWTdoOHk2R3IwSHoycXF4NDhoemdZLU1RQlh1LUFRTVNBTnhlLThGTA?oc=5" target="_blank" rel="noopener noreferrer">“대만 기업지배구조 변화, 한국이 참고할 사례”…MSCI가 본 증시 레벨업 조건 - 조선비즈 - Chosunbiz</a>
+      <span class="v2-news-row__time">07-21 07:50</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">속보</span>
+      <a class="v2-news-row__title" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjU3RWY0Y1RnZWcmFMdXd6eDVHWXNZWURoVk4wczB1MWY2eDdFTGJnbXZYZjBBUFM5SlRqU1FkbG80US1Cam53ZXBYMUZ5ZnFLNC00aXV0SEtGZ9IBX0FVX3lxTFAxVXk0U3U2cUpwWG1lN3RUQlQ0SDk5TXU3Q1ZHMUJReTVDa010TVl6bzhKNU5VU01WRFp5VV9Udk5YR1NMbVI4MS1zSUpZbjdnY2QyV2RfWXh5U3NHMTNz?oc=5" target="_blank" rel="noopener noreferrer">중동 불안 고조에 뉴욕증시 하락…다우 0.59%↓ - 경향신문</a>
+      <span class="v2-news-row__time">07-21 07:36</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">속보</span>
+      <a class="v2-news-row__title" href="https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">I will claim Social Security early. Why do so few people talk about the elephant in the room?</a>
+      <span class="v2-news-row__time">07-21 07:30</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">속보</span>
+      <a class="v2-news-row__title" href="https://www.yna.co.kr/view/AKR20260721015300011" target="_blank" rel="noopener noreferrer">[연합뉴스 이 시각 헤드라인] - 07:30</a>
+      <span class="v2-news-row__time">07-21 07:30</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">속보</span>
+      <a class="v2-news-row__title" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE41NXlsZWUtZFYtYzlDdzBXXzg0V1kwMHo0Wm5QeVMwVVhKUEpsOVJBZmV6cEpmeGJ5Qm5LM1RyUWdJUjZfbHFvRmdQdE03UnhIVWpWbG5Qd1hUZ0dXb2trODY5NjVtVDhaR3V6QWVWYWpHa0NiZGk3ZUFQZw?oc=5" target="_blank" rel="noopener noreferrer">[마켓무버]AI 반도체 반등에도 중동 리스크 부담…뉴욕증시 일제 하락 - 이데일리TV</a>
+      <span class="v2-news-row__time">07-21 07:28</span>
+    </div>
+  </div>
+  <div class="v2-card__footer"><a href="./news/index.html">News 전체 보기 →</a></div>
 
-</section>
+</div>
 
+<div class="v2-card v2-card--standard v2-span-4 " id="dash-schedule">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">오늘 일정</h3>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-sched-row">
+      <span class="v2-sched-row__time">05:00</span>
+      <span class="v2-sched-row__label">야간선물 세션 마감</span>
+    </div>
+    <div class="v2-sched-row">
+      <span class="v2-sched-row__time">08:30</span>
+      <span class="v2-sched-row__label">국내 증시 장전</span>
+    </div>
+    <div class="v2-sched-row">
+      <span class="v2-sched-row__time">09:00</span>
+      <span class="v2-sched-row__label">국내 증시 개장</span>
+    </div>
+    <div class="v2-sched-row">
+      <span class="v2-sched-row__time">15:30</span>
+      <span class="v2-sched-row__label">국내 증시 마감</span>
+    </div>
+    <div class="v2-sched-row">
+      <span class="v2-sched-row__time">18:00</span>
+      <span class="v2-sched-row__label">야간선물 세션 개시</span>
+    </div>
+  </div>
+
+</div>
+
+    </div>
   </main>
-
-  <footer class="footer">
-    <span>AI Trading Assistant · 정적 생성(GitHub Pages) · 정보·참고용</span>
-  </footer>
-
-  <script src="./static/js/app.js" defer></script>
+  <div class="v2-panel-slot" id="panel-slot"></div>
+  <script src="./static/js/store.js" defer></script>
+<script src="./static/js/updown.js" defer></script>
 </body>
 </html>

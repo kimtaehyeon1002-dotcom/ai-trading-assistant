@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark" data-updown="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technical Analysis · AI Trading Assistant</title>
+  <link rel="stylesheet" href="../static/css/tokens.css">
+  <link rel="stylesheet" href="../static/css/base_v2.css">
+  <link rel="stylesheet" href="../static/css/components.css">
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
+</head>
+<body class="v2">
+  <nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav">
+    <a class="v2-nav__item" href="../index.html"
+>Dashboard</a>
+    <a class="v2-nav__item" href="../macro/index.html"
+>Macroeconomics</a>
+    <a class="v2-nav__item" href="../news/index.html"
+>News</a>
+    <a class="v2-nav__item" href="../stock/index.html"
+>Stock</a>
+    <a class="v2-nav__item" href="../financials/index.html"
+>Financial Statements</a>
+    <a class="v2-nav__item" href="../ta/index.html"
+aria-current="page">Technical Analysis</a>
+    <div class="v2-nav__divider"></div>
+    <a class="v2-nav__item v2-nav__item--locked" href="../asset/index.html"
+>
+      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+    <a class="v2-nav__item v2-nav__item--locked" href="../portfolio/index.html"
+>
+      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+  </div>
+  <div class="v2-sidebar__footer">
+    <a class="v2-nav__item" href="../settings/index.html"
+>Settings</a>
+    <div class="v2-sidebar__version">AI Trading Assistant</div>
+  </div>
+</nav>
+
+  <header class="v2-header">
+  <div class="v2-header__context">
+    Technical Analysis
+  </div>
+  <div class="v2-header__search" role="search">종목·뉴스·페이지 검색</div>
+  <div class="v2-header__clock"></div>
+  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+</header>
+
+  <main class="v2-main">
+    <div class="v2-content">
+
+<div class="v2-card v2-card--hero v2-span-12 " id="ta-hero">
+    <div class="v2-card__header">
+    <div>
+      <div class="v2-overline">TECHNICAL ANALYSIS</div>
+      <h1 class="v2-h1">차트가 신호가 되는 순간을 준비하고 있습니다</h1>
+      <p class="v2-body">지표 대시보드 · 차트 패턴 인식 · 백테스트 — 3개 모듈이 순차 공개됩니다.</p>
+    </div>
+  </div>
+  <div class="v2-stat-row">
+    <div class="v2-stat">
+      <span class="v2-stat__label">첫 공개</span>
+      <span class="v2-stat__value v2-stat__value--display">2026 Q3</span>
+    </div>
+    <div class="v2-stat">
+      <span class="v2-stat__label">공개 예정 모듈</span>
+      <span class="v2-stat__value v2-stat__value--lg">3</span>
+    </div>
+    <div class="v2-stat">
+      <span class="v2-stat__label">프리뷰 지표</span>
+      <span class="v2-stat__value v2-stat__value--lg">4종</span>
+    </div>
+  </div>
+  <div class="v2-cta-row">
+    <a class="v2-btn v2-btn--primary" href="#ta-preview">프리뷰 지표 보기</a>
+    <a class="v2-btn v2-btn--ghost" href="#ta-roadmap">로드맵 →</a>
+  </div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-4 " id="ta-slot-01">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">지표 대시보드</h3>
+    <span class="v2-badge">개발 중</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-ghost">RSI · MACD · 볼린저밴드 · 20/60/120일 이동평균</p>
+  </div>
+  <div class="v2-card__footer">2026 Q3 예정 · <a href="#ta-roadmap">로드맵 보기 →</a></div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-4 v2-card--planned" id="ta-slot-02">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">차트 패턴 인식</h3>
+    <span class="v2-badge">설계 중</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-ghost">"상승 깃발형" · "이중 바닥" <span class="v2-ghost__example">(예시)</span></p>
+  </div>
+  <div class="v2-card__footer">2026 Q4 예정</div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-4 v2-card--planned" id="ta-slot-03">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">백테스트</h3>
+    <span class="v2-badge">설계 중</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-ghost">전략 수익률 +18.4% · MDD −7.2% · 승률 58% <span class="v2-ghost__example">(예시)</span></p>
+  </div>
+  <div class="v2-card__footer">2027 Q1 예정</div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-8 " id="ta-preview" data-asof="2026-07-16T06:30:00+00:00" data-fresh-max-min="1440" data-stale-min-min="4320" data-session="none">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">기술 지표 프리뷰 — KOSPI</h3>
+    <span class="v2-card__meta">
+      2026-07-16 마감 기준
+      <span class="v2-badge v2-freshness-badge v2-freshness-badge--delayed">지연</span>
+      <span class="v2-badge v2-freshness-badge v2-freshness-badge--stale">오래된 데이터</span>
+    </span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-ta-metrics">
+      <div>
+        <div class="v2-ta-metric__label">종가</div>
+        <div class="v2-ta-metric__value v2-freshness-affected">6,821</div>
+      </div>
+      <div>
+        <div class="v2-ta-metric__label">20일 이평 이격</div>
+        <div class="v2-ta-metric__value v2-freshness-affected v2-updown down">
+          ▼ −13.98%
+        </div>
+      </div>
+      <div>
+        <div class="v2-ta-metric__label">RSI(14)</div>
+        <div class="v2-ta-metric__value v2-freshness-affected">38.5</div>
+        <div class="v2-ta-metric__sub">중립</div>
+      </div>
+      <div>
+        <div class="v2-ta-metric__label">60일 추세</div>
+        <div class="v2-body-strong v2-freshness-affected">상승 유지</div>
+      </div>
+    </div>
+    <svg viewBox="0 0 952 72" width="952" height="72" role="img" aria-label="60일 KOSPI 종가 추이" class="v2-ta-spark"><polyline points="0.0,72.0 16.1,67.8 32.3,67.1 48.4,65.6 64.5,65.6 80.7,62.2 96.8,61.5 112.9,60.3 129.1,62.6 145.2,54.1 161.4,43.0 177.5,40.4 193.6,40.2 209.8,32.1 225.9,36.6 242.0,31.6 258.2,28.2 274.3,40.3 290.4,39.7 306.6,45.8 322.7,47.4 338.8,32.3 355.0,31.5 371.1,26.5 387.3,22.0 403.4,23.1 419.5,15.9 435.7,8.1 451.8,7.8 467.9,11.8 484.1,23.7 500.2,40.5 516.3,25.3 532.5,34.4 548.6,33.6 564.7,24.6 580.9,14.1 597.0,9.6 613.2,6.2 629.3,1.3 645.4,1.5 661.6,0.0 677.7,22.6 693.8,16.0 710.0,4.6 726.1,17.5 742.2,17.9 758.4,15.9 774.5,20.2 790.6,36.5 806.8,25.5 822.9,26.4 839.1,36.3 855.2,46.4 871.3,45.3 887.5,40.7 903.6,57.4 919.7,56.1 935.9,45.5 952.0,57.0" fill="none" stroke="var(--market-flat)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg>
+  </div>
+  <div class="v2-card__footer">산출 기준: 전일 정규장 종가 · 매일 07시 빌드 갱신</div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-4 " id="ta-roadmap">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">출시 로드맵</h3>
+    <span class="v2-card__meta">2026-07-21 02:10 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-timeline__row">
+      <span class="v2-timeline__dot v2-timeline__dot--active"></span>
+      <span class="v2-timeline__label">지표 대시보드</span>
+      <span class="v2-timeline__value">2026 Q3</span>
+    </div>
+    <div class="v2-timeline__row">
+      <span class="v2-timeline__dot"></span>
+      <span class="v2-timeline__label">차트 패턴 인식</span>
+      <span class="v2-timeline__value">2026 Q4</span>
+    </div>
+    <div class="v2-timeline__row">
+      <span class="v2-timeline__dot"></span>
+      <span class="v2-timeline__label">백테스트</span>
+      <span class="v2-timeline__value">2027 Q1</span>
+    </div>
+  </div>
+  <div class="v2-card__footer">
+    <div class="v2-changelog__row"><span class="v2-changelog__date">07/08</span><span class="v2-changelog__text">프리뷰 지표 4종 추가</span></div>
+    <div class="v2-changelog__row"><span class="v2-changelog__date">06/24</span><span class="v2-changelog__text">페이지 골격 공개</span></div>
+  </div>
+
+</div>
+
+    </div>
+  </main>
+  <div class="v2-panel-slot" id="panel-slot"></div>
+  <script src="../static/js/store.js" defer></script>
+<script src="../static/js/freshness.js" defer></script>
+</body>
+</html>

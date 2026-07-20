@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark" data-updown="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>v2 셸 프리뷰 · AI Trading Assistant</title>
+  <link rel="stylesheet" href="../static/css/tokens.css">
+  <link rel="stylesheet" href="../static/css/base_v2.css">
+  <link rel="stylesheet" href="../static/css/components.css">
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
+</head>
+<body class="v2">
+  <nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav">
+    <a class="v2-nav__item" href="../index.html"
+>Dashboard</a>
+    <a class="v2-nav__item" href="../macro/index.html"
+>Macroeconomics</a>
+    <a class="v2-nav__item" href="../news/index.html"
+>News</a>
+    <a class="v2-nav__item" href="../stock/index.html"
+>Stock</a>
+    <a class="v2-nav__item" href="../financials/index.html"
+>Financial Statements</a>
+    <a class="v2-nav__item" href="../ta/index.html"
+>Technical Analysis</a>
+    <div class="v2-nav__divider"></div>
+    <a class="v2-nav__item v2-nav__item--locked" href="../asset/index.html"
+>
+      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+    <a class="v2-nav__item v2-nav__item--locked" href="../portfolio/index.html"
+>
+      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+  </div>
+  <div class="v2-sidebar__footer">
+    <a class="v2-nav__item" href="../settings/index.html"
+>Settings</a>
+    <div class="v2-sidebar__version">AI Trading Assistant</div>
+  </div>
+</nav>
+
+  <header class="v2-header">
+  <div class="v2-header__context">
+    
+  </div>
+  <div class="v2-header__search" role="search">종목·뉴스·페이지 검색</div>
+  <div class="v2-header__clock"></div>
+  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+</header>
+
+  <main class="v2-main">
+    <div class="v2-content">
+<div class="v2-span-12">
+  <h1 class="v2-h1">v2 셸 프리뷰</h1>
+  <p class="v2-body">
+    이 페이지는 nav에 노출되지 않는 Phase 1 스켈레톤 라우트입니다.
+    사이드바 240px + 헤더 64px + 12컬럼 콘텐츠 그리드 + tokens.css 토큰 레이어가
+    정상적으로 렌더되는지 확인하는 용도입니다.
+  </p>
+  <p class="v2-caption">생성 시각: 2026-07-21 02:09 KST</p>
+</div>
+    </div>
+  </main>
+  <div class="v2-panel-slot" id="panel-slot"></div>
+  <script src="../static/js/store.js" defer></script>
+</body>
+</html>

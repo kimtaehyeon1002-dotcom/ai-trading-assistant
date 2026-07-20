@@ -1,0 +1,51 @@
+{
+  "close": {
+    "value": 6820.60009765625,
+    "change_abs": -463.81005859375,
+    "change_pct": -6.37,
+    "unit": "pt",
+    "as_of_iso": "2026-07-16T06:30:00+00:00",
+    "source": "yahoo",
+    "session_key": "none",
+    "expected_T_min": 1440,
+    "freshness_basis": "as_of",
+    "label": "",
+    "ref_price": 7284.41015625
+  },
+  "deviation_20d": {
+    "value": -13.98,
+    "change_abs": null,
+    "change_pct": null,
+    "unit": "%",
+    "as_of_iso": "2026-07-16T06:30:00+00:00",
+    "source": "yahoo",
+    "session_key": "none",
+    "expected_T_min": 1440,
+    "freshness_basis": "as_of",
+    "label": ""
+  },
+  "rsi_14": {
+    "value": 38.5,
+    "change_abs": null,
+    "change_pct": null,
+    "unit": "x",
+    "as_of_iso": "2026-07-16T06:30:00+00:00",
+    "source": "yahoo",
+    "session_key": "none",
+    "expected_T_min": 1440,
+    "freshness_basis": "as_of",
+    "label": "중립"
+  },
+  "trend_60d": {
+    "value": null,
+    "change_abs": null,
+    "change_pct": null,
+    "unit": "",
+    "as_of_iso": "2026-07-16T06:30:00+00:00",
+    "source": "yahoo",
+    "session_key": "none",
+    "expected_T_min": 1440,
+    "freshness_basis": "as_of",
+    "label": "상승 유지"
+  }
+}
