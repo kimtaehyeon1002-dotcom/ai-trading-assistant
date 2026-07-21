@@ -36,7 +36,7 @@ class KiwoomAPI:
     def __init__(self) -> None:
         try:
             from PyQt5.QAxContainer import QAxWidget
-            from PyQt5.QtCore import QEventLoop
+            from PyQt5.QtCore import QEventLoop, QTimer
         except Exception as exc:  # noqa: BLE001
             raise KiwoomError(
                 "Kiwoom OpenAPI+는 Windows 32-bit Python + PyQt5(QAxContainer) + KOA 설치가 필요합니다: "
@@ -44,6 +44,7 @@ class KiwoomAPI:
             ) from exc
 
         self._QEventLoop = QEventLoop
+        self._QTimer = QTimer
         self.ocx = QAxWidget(CONTROL)
         self.connected = False
         self._login_loop = None
@@ -55,10 +56,19 @@ class KiwoomAPI:
         self.ocx.OnReceiveMsg.connect(self._on_receive_msg)
 
     # ── 로그인 ──
-    def connect(self) -> bool:
+    def connect(self, timeout_ms: int = 120_000) -> bool:
+        """CommConnect → OnEventConnect 대기. AUTO 로그인(트레이 계좌비밀번호 저장) 설정 시 무입력 통과.
+
+        timeout_ms: 무인 실행 안전장치 — 로그인 창이 입력을 기다리며 방치되면(AUTO 미설정,
+        버전처리 팝업 등) 이 시간 후 False로 반환한다(무한 대기로 스케줄 실행이 밤새 걸리는 것 방지).
+        """
         self.ocx.dynamicCall("CommConnect()")
         self._login_loop = self._QEventLoop()
+        if timeout_ms > 0:
+            self._QTimer.singleShot(timeout_ms, self._login_loop.quit)
         self._login_loop.exec()
+        if not self.connected:
+            log.error("로그인 미완료(타임아웃 %ds 또는 실패) — AUTO 로그인 설정/버전처리 여부 확인", timeout_ms // 1000)
         return self.connected
 
     def _on_event_connect(self, err_code: int) -> None:
