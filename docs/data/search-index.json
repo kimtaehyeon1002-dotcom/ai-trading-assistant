@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-21T21:29:32.757178+00:00",
+  "as_of": "2026-07-21T21:41:27.908836+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,18 @@
   ],
   "news": [
     {
+      "title": "[서울데이터랩]미국 증시, 반도체 강세에 일제히 상승 마감…나스닥 1%대 오름세 - 서울신문",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NVktOcUwwUG44US1KR3M2bE9wZHU0aEh0WTd5MXpJRlJXYXRWYXc1UG9sUmIxR2R3bVk4UEdXd015U21YMlUwSThZcmJLQWRfUkFIdURHREMyWmdhLWpIZnhSbnlOeHZ1S2d2VG5IOTdXSDdqajJGV0ppbVQyUQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:35:00+00:00"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 반등에 상승 마감 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMTRwclFfTnBFeU5oajZVRmZfZlhpZFU2MEdOdFhZNzVQZWl6Q0FCYzRGdWg4MUxmdTdpTkFIVFVPZGNSTm5GZ2RLTFJkUGljdGNaazVXNDRyejR5dlBQdldNSEthWEFGY0ZfZlNPSmJJdXBzVGFRb21wRHFBTDRfUHhwRFVDdEozQlVpSlk5V2R1eC1MYVRSUFVNbTRLZ9IBsgFBVV95cUxPemRZZUt3MmMtZWRUUlNEM3RSQ3VLQ3h4RWhmRFBoTmhzdU14Z3F0SkdnNmhrS044amczZG9zTW9sdGNtOTduMVhSN2tOajNhMm9OaGgteVg3ZnJwYVRjSmdrM0duazE2QlN1ZHJJWWtHTEN5RkNWV3l3OFI4WEhReUgwSElpNGd0MjNWcTVCSjVQVUpxRVR4MUN2aTJWOWpLLUMyeTRvS1JNWmZBcUtYOGRn?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:23:00+00:00"
+    },
+    {
       "title": "OpenAI appoints two new members to board of directors",
       "link": "https://www.cnbc.com/2026/07/21/openai-appoints-two-new-members-to-board-of-directors.html",
       "source": "CNBC Finance",
@@ -528,6 +540,12 @@
       "published": "2026-07-21T20:32:01+00:00"
     },
     {
+      "title": "뉴욕증시, 실적 호조·반도체주 반등에 상승‥나스닥 1.3%↑ - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxbUpMTXM2aEFscTl2TG5WbnQtZ0t6Q2tyWlo3VzRYSy10LUdya2dLNl9lYkcxUzhJWWk5Q2Jfb2RGWFJEZDdBcGk0NDRkREpzSFVUSnhnTkJqQVhzZExsaUJpX2dqc2ZtaUdBeDNBeFg1Y1U50gF0QVVfeXFMTVltaTBvbVQ1LWhSVGhWZkhHZ2ROMkZNdWFVVWZiV2Y5Ym9VMTN4NXlVdkZ4YVdWc3BSYWppc0hWdzBTUm95VVZCTUgtcVVMTmt2ZGhtQVQ2bEFCOWZYQ2lzMGllZzg2QTNwdmdsM0hOQ2dqS1o?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T20:31:51+00:00"
+    },
+    {
       "title": "싸울수록 치솟는 ‘코인’ 몸값 … 스위스 ‘중립’ 자리 꿰찬 크립토",
       "link": "https://www.mk.co.kr/news/world/12103324",
       "source": "매일경제·증권",
@@ -634,24 +652,6 @@
       "link": "https://www.marketwatch.com/story/welcome-to-the-roaring-20s-heres-how-this-earnings-season-will-keep-the-bull-market-strong-4a70be72?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-21T19:42:00+00:00"
-    },
-    {
-      "title": "Apple prepares a new way to buy iPhones. Plus, making sense of Google's new AI models",
-      "link": "https://www.cnbc.com/2026/07/21/apple-prepares-a-new-way-to-buy-iphones-plus-making-sense-of-googles-new-ai-models.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T19:20:31+00:00"
-    },
-    {
-      "title": "BlackRock, Carhartt, Ford and Google launch skilled trades workforce initiative",
-      "link": "https://www.cnbc.com/2026/07/21/blackrock-carhartt-ford-google-skilled-trades.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T19:18:50+00:00"
-    },
-    {
-      "title": "Time for a crypto comeback? Traders bet that this stock will lead the way",
-      "link": "https://www.cnbc.com/2026/07/21/traders-bet-that-this-stock-will-lead-the-way-in-a-crypto-comeback.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T19:09:36+00:00"
     }
   ],
   "pages": [
