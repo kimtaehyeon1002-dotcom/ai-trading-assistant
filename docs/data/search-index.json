@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-21T20:07:54.189714+00:00",
+  "as_of": "2026-07-21T21:17:40.725079+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,10 +354,226 @@
   ],
   "news": [
     {
-      "title": "SpaceX sets earnings date, triggering first lock-up expiration for millions of shares",
+      "title": "‘부총리의 오른팔’ 불릴 만하네…8천만원 사업 혼자 끝낸 이 남자",
+      "link": "https://www.mk.co.kr/news/economy/12103952",
+      "source": "매일경제·증권",
+      "published": "2026-07-21T21:07:16+00:00"
+    },
+    {
+      "title": "뉴욕증시, 유가 상승에도 반도체주 반등에 강세…나스닥 1.3%↑(종합) - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfbWlJR2tXRkxNMVhWQ2hnV2J2QVRBUUsyUjB1QmRzdDBNcUU5MWo0SFhfQjNVNzk4Qk9oMU9HRDFaVmhNRXVVeHNBQndpSm8?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:06:49+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 실적 호조·반도체주 반등에 상승 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXRm94eTFKNVhjb05OVG5SaXd6NjNnMGpya2lrT0VkVThCdGpPejcxS0JNLUVwODhJd3lCTUdCX0g5MDVUc2RUejRXQ2J2RUlYQ3VsUG01QldGUHZ0cEw5OA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:04:22+00:00"
+    },
+    {
+      "title": "의료대란 기간 응급실 지킨 퇴직 보건소장에 돌아온 건 '과태료'",
+      "link": "https://www.yna.co.kr/view/AKR20260721153800530",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T21:01:04+00:00"
+    },
+    {
+      "title": "\"외환보유액에 달러·금 많으면 美 금리 인상 환율 충격 적어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260721163600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T21:01:00+00:00"
+    },
+    {
+      "title": "서울시복지재단, 장기요양 인력배치 AI 에이전트 개발",
+      "link": "https://www.yna.co.kr/view/AKR20260721150300004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T21:00:12+00:00"
+    },
+    {
+      "title": "서울시, '시민이 자주 찾는 상가임대차 상담사례' 전자책 발간",
+      "link": "https://www.yna.co.kr/view/AKR20260721152000004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T21:00:10+00:00"
+    },
+    {
+      "title": "지역 건축현안, 중앙·지방이 함께 푼다…23일 건축정책 협의회",
+      "link": "https://www.yna.co.kr/view/AKR20260721144200003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T21:00:06+00:00"
+    },
+    {
+      "title": "100대 기업 임원도 고령화…평균연령 54.2세, 10년 새 1.1세↑",
+      "link": "https://www.yna.co.kr/view/AKR20260721156700003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T21:00:05+00:00"
+    },
+    {
+      "title": "유가 하락에 6월 생산자물가 10개월 만에 보합",
+      "link": "https://www.yna.co.kr/view/AKR20260721154100002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T21:00:04+00:00"
+    },
+    {
+      "title": "5월 서울 아파트값 1.3% '껑충'…전셋값도 1.0% 상승",
+      "link": "https://www.yna.co.kr/view/AKR20260721179200004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T21:00:03+00:00"
+    },
+    {
+      "title": "5월 국내은행 대출 연체율 0.67%…9년 7개월 만에 최고",
+      "link": "https://www.yna.co.kr/view/AKR20260721172400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T21:00:01+00:00"
+    },
+    {
+      "title": "‘포모’에서 ‘조모’로 돌아선 개미들···증시 하락에 “안 사길 다행” - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZRU9kM1hRWjZzNnZtMVVGY3FyRTU1bTB0YU5XN1BQNG9Wa1NxTGhpVWlGZjRxNFpNR3ZSRmFUaTJYRUlGcUFwSURyeUszblotVnc5QS00VlZFUdIBX0FVX3lxTFA4Yk8wUXNDd0E4VEU1OTdwT2twd0RMUkg0LW5jSS16SUlLOVlFMENUYUUxTjNIUGRHWE5FaDNoVzZ5ZDQ3ZllITllyM08wbEItem83OGQzWUE0UEFZZ2Jn?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:00:00+00:00"
+    },
+    {
+      "title": "SpaceX’s stock snaps brutal losing streak ahead of key Starship rocket launch",
+      "link": "https://www.marketwatch.com/story/spacexs-stock-looks-to-snap-brutal-losing-streak-as-it-heads-for-one-of-its-best-days-yet-74220273?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T20:59:00+00:00"
+    },
+    {
+      "title": "1분기 도시가구 상위 20%만 실질소득 늘어…나머지는 모두 감소",
+      "link": "https://www.yna.co.kr/view/AKR20260721168100002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T20:59:00+00:00"
+    },
+    {
+      "title": "GDP 제조업 비중 27%, 10년간 최고…반도체 쏠림도 심화",
+      "link": "https://www.yna.co.kr/view/AKR20260721170000002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T20:57:00+00:00"
+    },
+    {
+      "title": "기준금리 3.5% 때보다 더 높은 주담대 고정금리, 왜 그럴까",
+      "link": "https://www.yna.co.kr/view/AKR20260721168700002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T20:55:00+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 알파벳 실적 앞두고 반도체주 '온기'…강세 마감 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CVWlCSlIxY25keGdtZmpyUEpSenlsT3hmNmYzd3ZOMFJkdFA2SUFNdERoQUd0THZvOUpmMVUwZDFwMkl5UTZ4LUVZamdSUU80V1djWkd4d2ZsNkZ3WTJTTUIzQjFLaDh4azJ6QUtPb3M?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T20:54:12+00:00"
+    },
+    {
+      "title": "은행권 대출 조이며…올해 비은행 주택관련대출 10.5조↑",
+      "link": "https://www.yna.co.kr/view/AKR20260721165100002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T20:53:00+00:00"
+    },
+    {
+      "title": "White House teases new trade action 'soon' as it works to re-create global tariff regime",
+      "link": "https://www.cnbc.com/2026/07/21/trump-trade-tariffs-greer-section-301.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T20:51:54+00:00"
+    },
+    {
+      "title": "Goldman Sachs creates private markets platform as rich investors seek the next SpaceX and Stripe",
+      "link": "https://www.cnbc.com/2026/07/21/goldman-sachs-private-markets-platform.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T20:51:34+00:00"
+    },
+    {
+      "title": "'빚투'에 5대銀 기타대출 목표 2.4조 초과…주담대 조인다",
+      "link": "https://www.yna.co.kr/view/AKR20260721173900002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T20:51:01+00:00"
+    },
+    {
+      "title": "Nebius stock surges nearly 19% as Nvidia discloses significant stake in neocloud",
+      "link": "https://www.cnbc.com/2026/07/21/nebius-stock-nvidia-stake-neocloud.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T20:50:50+00:00"
+    },
+    {
+      "title": "Super Micro surges 15% on new order and margin disclosure after SpaceX announcement",
+      "link": "https://www.cnbc.com/2026/07/21/super-micro-stock-spacex-announcement.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T20:49:29+00:00"
+    },
+    {
+      "title": "삼성, 오늘 런던 언팩…폴드8·첫 스마트글래스 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260721180500017",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T20:45:00+00:00"
+    },
+    {
+      "title": "뉴욕 증시, 실적 호조·반도체주 반등에 상승 마감 - YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82d2d5Vlh0ZEl0QnhlRmdOdnk2bUh5RjM3R2Y2NlN0TUJHTGM3cTRPLVVIdkFMUndNTUppbkhhUWVkYXo2TXI4XzNoWjR4Q1VnNFRxYmJRR29raWlpeUE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T20:38:00+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 반도체·실적 호조에 나스닥 329.13P↑ - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTzhxZHJrR1NpXzBGdF9YQnZyWWZTXy1TU2RzcVNEUks0MjFzN3YtWm8teWNtbzc1NDJzbG9KUVE2TEhNZFVtUEY5aG85enJPOUU5X1UxWlI3Skl2eWJGV0ViUEZiUWZfT0gtZXJUb2pfODZrOWJCLWxVbDAwRFUzVzFzVlVfYTQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T20:32:01+00:00"
+    },
+    {
+      "title": "싸울수록 치솟는 ‘코인’ 몸값 … 스위스 ‘중립’ 자리 꿰찬 크립토",
+      "link": "https://www.mk.co.kr/news/world/12103324",
+      "source": "매일경제·증권",
+      "published": "2026-07-21T20:31:00+00:00"
+    },
+    {
+      "title": "I will definitely claim Social Security early. Why do so few people talk about the elephant in the room?",
+      "link": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T20:30:00+00:00"
+    },
+    {
+      "title": "Why energy stocks still look so cheap, even after their big rally this month",
+      "link": "https://www.marketwatch.com/story/why-energy-stocks-still-look-so-cheap-even-after-their-big-rally-this-month-7f1a298b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T20:27:00+00:00"
+    },
+    {
+      "title": "SK하이닉스 ADR 14% 급등…반도체 반등에 뉴욕증시 상승[뉴욕 is] - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0weGhpSDBOQlhVX2c4a0VoYXZxQTdfXzE1WXBJempZVmJLZmIyU1kzeS1DWDh6QjZOeUUyUUZ3ajhwZWN3NnlQQVpDSDh6cmc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T20:22:42+00:00"
+    },
+    {
+      "title": "“4755조 메가프로젝트로도 역부족” … 잠재성장률 3% ‘마지막 퍼즐’은",
+      "link": "https://www.mk.co.kr/news/economy/12103701",
+      "source": "매일경제·증권",
+      "published": "2026-07-21T20:20:00+00:00"
+    },
+    {
+      "title": "GM beats on earnings, raises guidance amid 'resilient' consumer, pricing",
+      "link": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T20:19:12+00:00"
+    },
+    {
+      "title": "SpaceX snaps 7-day losing streak, sets earnings date that triggers first big share unlock",
       "link": "https://www.cnbc.com/2026/07/21/spacex-spcx-earnings-lock-up-expiration.html",
       "source": "CNBC Finance",
-      "published": "2026-07-21T20:06:08+00:00"
+      "published": "2026-07-21T20:18:25+00:00"
+    },
+    {
+      "title": "[뉴욕증시-1보] 알파벳 실적 발표 앞두고 기대감…강세 마감 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nbHBISjJaX19wWWkzWnUyRXdOcC1QOXE5WG00SnlRRVhLb1FHMmdmVlBVbFFOQ2stNjl5eEpvM3hNNVZWVzlCcnQ5VlRMT3JRWHFZa09BQkJGYmtud1NhSWgtZHp2NkxxQTdpNHlJeHfSAXRBVV95cUxQNWFXYzd2ejRrZHEwWXM0anItNmRtcjBLdGNhVzNQU09wLVJvMmJNeE9lTk5HMWdaYzBrN0dtVUN6VzJQVTd1OVRDdEJRemw3dHFRX1BCS1dmUnVQcmlBSzVzenhwMnV0ckM1TF8yTTlodFlJXw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T20:13:33+00:00"
+    },
+    {
+      "title": "Why Micron and other chip stocks are bouncing back so strongly",
+      "link": "https://www.marketwatch.com/story/why-micron-and-other-chip-stocks-are-bouncing-back-so-strongly-3f6d3cee?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T20:12:00+00:00"
+    },
+    {
+      "title": "Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.",
+      "link": "https://www.marketwatch.com/story/forget-nvidia-these-5-s-p-500-stocks-are-quietly-going-all-in-on-ai-68642f84?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T20:09:00+00:00"
     },
     {
       "title": "$100M New Jersey deli fraudster James Patten sentenced to 21 months in prison",
@@ -396,12 +612,6 @@
       "published": "2026-07-21T19:46:00+00:00"
     },
     {
-      "title": "Why Micron and other chip stocks are bouncing back so strongly",
-      "link": "https://www.marketwatch.com/story/why-micron-and-other-chip-stocks-are-bouncing-back-so-strongly-3f6d3cee?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T19:45:00+00:00"
-    },
-    {
       "title": "Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.",
       "link": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -412,12 +622,6 @@
       "link": "https://www.marketwatch.com/story/welcome-to-the-roaring-20s-heres-how-this-earnings-season-will-keep-the-bull-market-strong-4a70be72?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-21T19:42:00+00:00"
-    },
-    {
-      "title": "Goldman Sachs creates private markets platform as rich investors seek the next SpaceX and Stripe",
-      "link": "https://www.cnbc.com/2026/07/21/goldman-sachs-private-markets-platform.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T19:41:54+00:00"
     },
     {
       "title": "Apple prepares a new way to buy iPhones. Plus, making sense of Google's new AI models",
@@ -448,210 +652,6 @@
       "link": "https://www.marketwatch.com/story/an-oil-lifeline-is-under-threat-and-markets-have-yet-to-price-in-the-growing-crisis-801d53b1?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-21T19:05:00+00:00"
-    },
-    {
-      "title": "Investing experts: Why 'just buy the market' doesn't necessarily apply to bonds",
-      "link": "https://www.cnbc.com/2026/07/21/bond-investing-buy-the-market-agg-index.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T19:04:51+00:00"
-    },
-    {
-      "title": "White House teases new trade action 'soon' as it works to re-create global tariff regime",
-      "link": "https://www.cnbc.com/2026/07/21/trump-trade-tariffs-greer-section-301.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T19:00:20+00:00"
-    },
-    {
-      "title": "20억 아파트 탈세꼼수에 … 10억 추징하고 검찰에 넘겼다",
-      "link": "https://www.mk.co.kr/news/economy/12103489",
-      "source": "매일경제·증권",
-      "published": "2026-07-21T19:00:00+00:00"
-    },
-    {
-      "title": "‘I have a $2,000 deductible’: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
-      "link": "https://www.marketwatch.com/story/i-have-a-2-000-deductible-i-reported-a-cracked-windshield-on-my-hertz-rental-car-can-they-charge-me-1e07d28a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T19:00:00+00:00"
-    },
-    {
-      "title": "RFK Jr. says cyclospora outbreak is 'under control'",
-      "link": "https://www.cnbc.com/2026/07/21/cyclospora-rfk-jr-says-outbreak-is-under-control.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T18:43:24+00:00"
-    },
-    {
-      "title": "Tesla shares poised for biggest earnings move in a year",
-      "link": "https://www.cnbc.com/2026/07/21/tesla-shares-poised-for-biggest-earnings-move-in-a-year.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T18:25:07+00:00"
-    },
-    {
-      "title": "IRS chief Frank Bisignano dismisses JPMorgan spying allegations",
-      "link": "https://www.cnbc.com/2026/07/21/irs-chief-frank-bisignano-laughs-off-jpmorgan-spying-allegations.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T18:21:57+00:00"
-    },
-    {
-      "title": "Trump looks set to roll out a new set of tariffs. Will markets care?",
-      "link": "https://www.marketwatch.com/story/trump-looks-set-to-roll-out-a-new-set-of-tariffs-will-markets-care-71097833?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T18:16:00+00:00"
-    },
-    {
-      "title": "미국 증시 ‘시험대가 될 2週’… 반도체 약세·금리 인상론에 변동성 향방은 - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcGZxcVp0U2pySkNWSUM3U1ZuUzNFamZiRklZaWE0aVZSS1VRNlpDY0RCa0taVE9keGRyVUpkYXlqN094MmtmeGRpOERPakVIU1laS0ZPaVdqVzZaRmZuTnVwdFdvVWVJQVBHMGJnX0JlczZtc1lPY3c1TmlzZjQ0dVcxUlBHY0Nq?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T18:05:00+00:00"
-    },
-    {
-      "title": "빅테크 실적·유가 급등·금리 압박… 증시 흔드는 3대 변수 - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNTJjV01uOVFwN3lrVVRuamV0b1pkQjVvbHk4Z2E3Q1pCbDIyRHB2UEF1S1pCZGt4eElieUhxNWNpbVBrVGh4eGE5dVg4Q0VtOFMzd1V6ZHhzQXNQVlRzbFhvTENaMHVVRGk5V1BGMnBTVlU2NU1BZlI2NUtGMS1WUjhRQnhYa3Rr?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T18:05:00+00:00"
-    },
-    {
-      "title": "\"S&P 연말까지 8% 더 오른다\"…UBS도 증시 전망치 상향 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VVHBGdHNSTDdsQTdWN1BFTmRRNHg3V0NBN3ZVdUtvRFQ4RVJvQ2dvd2ZMdktEZzFySEZzWk5ta2FBLXdST3RSZERid1ZNb1VuMXdUbkhTTkdfOEg5U2FRVWJIOENLSGd20gFuQVVfeXFMTmtpV1RabzJ1dGhvUlFGLTVxUmk1WlV2U3ZMbVpXbnVmTkx1MmdTR1ZIN2lVS3pNR3VvMFAtZGszTmZPQnp6d3BaMFZFWkFHMERMYU56T0xTSXhNWHJXLTAzbzN1ZGxkOXpnX1FNM1E?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T17:51:44+00:00"
-    },
-    {
-      "title": "Healthcare students are turning to Kalshi and betting platforms to pay for their degrees, survey shows",
-      "link": "https://www.cnbc.com/2026/07/21/healthcare-students-turn-to-kalshi-betting-platforms-to-pay-for-degrees-survey-shows.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T17:24:57+00:00"
-    },
-    {
-      "title": "Nebius stock surges 17% as Nvidia discloses significant stake in neocloud",
-      "link": "https://www.cnbc.com/2026/07/21/nebius-stock-nvidia-stake-neocloud.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T17:22:44+00:00"
-    },
-    {
-      "title": "Bessent says U.S. could sanction China over AI model 'theft'",
-      "link": "https://www.cnbc.com/2026/07/21/bessent-china-ai-sanctions.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T17:15:10+00:00"
-    },
-    {
-      "title": "GM beats on earnings, raises guidance amid 'resilient' consumer, pricing",
-      "link": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T17:11:52+00:00"
-    },
-    {
-      "title": "The worst dotcom bubble investing mistakes are coming for your portfolio. Avoid them",
-      "link": "https://www.cnbc.com/2026/07/21/market-bubble-stock-risks-investing-mistakes.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T16:58:35+00:00"
-    },
-    {
-      "title": "Google expands Gemini lineup with cheaper models and new Mythos rival",
-      "link": "https://www.cnbc.com/2026/07/21/google-gemini-flash-ai-mythos-rival.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T16:52:46+00:00"
-    },
-    {
-      "title": "Trump imposing 50% tariffs on certain Canadian goods over alleged trade discrimination",
-      "link": "https://www.cnbc.com/2026/07/20/trump-tariffs-canada-trade.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T15:25:09+00:00"
-    },
-    {
-      "title": "GM announces new gas-powered Cadillac vehicles amid EV pullback",
-      "link": "https://www.cnbc.com/2026/07/21/gm-new-gas-powered-cadillac.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T15:03:42+00:00"
-    },
-    {
-      "title": "뉴욕 증시, 반도체주 저가 매수에 동반 상승 출발 - YTN",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FY0JGRTN4aDUyV2N4cHBLbHA2WWFRY1B0b1lKdW9PTE9BaExyandCQzk4MkRPVTBPMXVwSE9oanoxVDNqb2NueTNSRkIwNEFTWkJZM184dVhQNjVqVFE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T15:02:00+00:00"
-    },
-    {
-      "title": "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel",
-      "link": "https://www.cnbc.com/2026/07/21/nvidia-vera-cpu-ai-amd-intel.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T15:00:02+00:00"
-    },
-    {
-      "title": "Novo Nordisk sues Eli Lilly, alleging misleading GLP-1 advertising",
-      "link": "https://www.cnbc.com/2026/07/21/novo-nordisk-sues-eli-lilly-glp-1-ads.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T14:54:22+00:00"
-    },
-    {
-      "title": "Wall Street is selling more rental homes, as buying ban takes effect",
-      "link": "https://www.cnbc.com/2026/07/21/wall-street-selling-homes-real-estate.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T14:49:07+00:00"
-    },
-    {
-      "title": "As the U.S.-Iran war heats up again, these parts of the stock market and economy could be affected",
-      "link": "https://www.cnbc.com/2026/07/21/iran-war-economy-markets-trump.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T14:37:08+00:00"
-    },
-    {
-      "title": "기껏 증시 띄워놓고 ‘초과이윤 재분배’ 논의… “韓 증시가 ‘가두리’인 이유” - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNEZZZnc1cEVDWThTaHZ1TnFmTWlrdnBVSnV1Y0RvM2FaZGdPLVRXeDJ1bXdYUG5CQ0NwRkk5dFpPdUxOMVVuXzlwekRsMnUyWVUtT2xCMWo5SjRsWW54cXBtTlpjd3djcmtsYkNSSXJwSHV3Nm5tcWdBU2FXVXdFWThRbTJOZ24x0gGcAUFVX3lxTE9VTUx6SlgyQ2x0WGtkYUEwcE5DTWI0bWozUzZfZ2xyLVE5eUpycWVxbXBPR2FLUS1yUEpnb1M1UnQ3blJpUnFhTVZiNncwLVBDV25uNGJHM0U1S1d0djBXSEZLMHJhX2xOYlBEVnlzV3pGejFBa0ZDa1hmWjN3ZVB4ZU51UFlIb3l4NEwzVWhrVzN0UHRpajVXNjNCMQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T14:28:00+00:00"
-    },
-    {
-      "title": "Property taxes are poised for major midterm elections ballot battles across many U.S. states",
-      "link": "https://www.cnbc.com/2026/07/21/property-taxes-midterm-elections-ballots-issues.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T14:15:35+00:00"
-    },
-    {
-      "title": "반도체주 반등에 뉴욕증시 강세… 나스닥 0.7% 상승 - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ1lGWVBRckw3Y2JoUExHS09hMXZWTVpqZGRVckM0SGpKUGlaZFJULXN5bDItUWJXUUhuZE4zYm11R0I5WU90cHdITXkyLUpJRVlzaFJnSDlGSjRTZWJhbDlUbU9NNVJxdGJUV1NVbml3RWJjbHU1ZUc1bjBNWHVPM2MxdzZ0WVVjZG9WeXdYU0FZMlZ6b2RLX0l1X1prd9IBsgFBVV95cUxOLVhncWxQSUJuR2N2d042REcyV3Rha0s1TGpaTzFYZnFZX2N0TDJjRlQxaTl5Y19ROC1kbmFZQWVtcnRrX0hOdW05bTlhbkhBLWI1NG42WVFaQVFERFFzeXZ3d1JFWHlwWXVkV25SRk01eG1wSElDYWtISVJtOWpVcGJITllqLW5MUDh1U2NaNURWTUFMNk5VM21wWDJjSXpKNmtzUjBpMXRaeWoyc1dCd1ln?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T14:14:00+00:00"
-    },
-    {
-      "title": "[속보]뉴욕증시, 반도체 반등에 상승 출발…나스닥 1.04%↑ - 문화일보",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6YWdJQ1NuMjlWTnh3aE85NVhobVVHYkIteUc3aUJzal9WUUlUeGdIUURwT19uOUNxdW5ZYURHZC1wbW50ZldvZUhqS0dZSHRF?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T14:13:33+00:00"
-    },
-    {
-      "title": "뉴욕증시, 반도체주 저가 매수에 상승 출발 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJcUc4My1iZjZMTlpILThWUTctT3FGR2llajY2dzJXeVhDUmpQbHJLUXR5dkpacl9McjFuSGtYNElpTjdMclJhaGtqNmR2bHFiNXExVFVxcGYwbWhCMUYtTmNrT2ZUbFpfb3BpanFvZHY?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T13:56:54+00:00"
-    },
-    {
-      "title": "반도체로 지갑 두둑해진 기업들…은행 기업예금 107조원 넘겼다",
-      "link": "https://www.mk.co.kr/news/economy/12103858",
-      "source": "매일경제·증권",
-      "published": "2026-07-21T13:07:10+00:00"
-    },
-    {
-      "title": "U.S. strikes Iran and Houthis threaten Saudi Arabia shipping as mediators push 10-day ceasefire",
-      "link": "https://www.cnbc.com/2026/07/21/us-iran-war-trump-hormuz-houthis.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T13:00:19+00:00"
-    },
-    {
-      "title": "Intel's foundry lands first named customer under CEO Lip-Bu Tan, as Fortinet signs on for security chips",
-      "link": "https://www.cnbc.com/2026/07/21/intel-foundry-lands-fortinet-as-first-customer-for-security-chips.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T13:00:01+00:00"
-    },
-    {
-      "title": "All eyes are on John Healey, the UK's new finance minister. Here’s what’s at stake",
-      "link": "https://www.cnbc.com/2026/07/21/andy-burnham-john-healey-chancellor-gilts-jamie-dimon.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T12:50:41+00:00"
-    },
-    {
-      "title": "씨티, 韓 증시 '1만포인트' 전망 유지...\"코스피 50% 더 오른다\" - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45UDZRM2Y5QzNnOHJSWTZrOFVzd1l3a2xjZndGYkcySkRsVFIzWmtvZ3E0OUtJQ3Q5Rkk0QXRDZEJmcnFnOGhVMnhYWk9QcGh0akhQQjI0cjF1Y0JR?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T12:28:00+00:00"
     }
   ],
   "pages": [
