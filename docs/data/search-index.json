@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-21T22:46:15.278822+00:00",
+  "as_of": "2026-07-21T23:02:34.692712+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,10 +354,40 @@
   ],
   "news": [
     {
+      "title": "뉴욕증시, 반도체주 매수세에 상승 마감 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44S0dTV1E1ZE5XOWVTNXBuNXhSMVprMTlZRkhLUWY4RExDYjgwdmIyRW9ERTRIempCbVR3TnB3MUsxOGZDYXBTdWo5UWIwNWc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T22:52:14+00:00"
+    },
+    {
+      "title": "[3분증시] 뉴욕증시, 반도체주 반등에 일제 상승 - 연합뉴스TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zbkVacTJFLUVZdHRiWUk4alI5cU9JdEt5TWJoaG9jTU5mZi1rNEJRWjFjNnN5eHctb1NuYmhpSEpVcnRPMmlwckIyazk1dlBJaUJFNWJVY3dKRkRSUVdNdGdXZzJiVXc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T22:50:00+00:00"
+    },
+    {
+      "title": "JPMorgan's Jamie Dimon made bearish call on treasury bond market. Many investors already acted on it",
+      "link": "https://www.cnbc.com/2026/07/21/jamie-dimon-stock-bond-market-warning-treasuries.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T22:46:36+00:00"
+    },
+    {
+      "title": "코스피가 미국 증시 뒤흔드는 이유 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44R3RrMDZPd3J0NFJSU280d0xqN0w0Y2FLZkVhVHRsbVFHQUZNSndNdnh2NXlqb2lIRGFNbTdkSFNCblR5cXV4WDh1Mk9EZHByWmRhVURSQUtNQ0VRTmxEcHdmcHFZTmtUZm9DTmxfYmE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T22:40:37+00:00"
+    },
+    {
       "title": "[마켓뷰] 韓반등에 뉴욕증시도 화답…'7천피' 회복 시도하나",
       "link": "https://www.yna.co.kr/view/AKR20260722018100008",
       "source": "연합뉴스·경제",
       "published": "2026-07-21T22:38:31+00:00"
+    },
+    {
+      "title": "Prediction markets and their opponents are spending more to influence Congress in 2026",
+      "link": "https://www.cnbc.com/2026/07/21/prediction-market-kalshi-polymarket-casino-gaming-lobby-congress.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T22:38:04+00:00"
     },
     {
       "title": "The Fed rang the alarm about Anthropic's Mythos AI model — but had to go months without it",
@@ -372,16 +402,22 @@
       "published": "2026-07-21T22:30:00+00:00"
     },
     {
-      "title": "뉴욕증시, 반도체주 반등에 상승 마감 - TBS 서울",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWC1ERnJnMGhwclk5WHRyN21GQjJZZ2xyczN3a1RiU2p6a3Yxa0RwR2Y4ZjJpME9TQm8xZ0VjOXE2WnJ6NVU0VVBJNVowUUM1cEVKNDk1NDlFWW8xcTRQYkxidDBTQUVjcXZWX0xXVmlGdmEtdU0zdnVlZ25kVFdzYUV6SEZxdw?oc=5",
+      "title": "증시 오늘 '핫이슈' \"뉴욕증시, 유가 상승에도 반도체주 반등에 강세\" - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9xV2RoV3ZET0VpYU16THhkeDZHMEVzaExOQlVDLW9mMWdYdi1tdVNjWUJwendtU2psQXZFc0tGMjN1ZEc3ejJmNlBlbTZLMXJuWGc?oc=5",
       "source": "Google News",
-      "published": "2026-07-21T22:25:00+00:00"
+      "published": "2026-07-21T22:26:05+00:00"
     },
     {
       "title": "강남구청장, 압구정 재건축단지 방문…\"속도감 있게 추진\"",
       "link": "https://www.yna.co.kr/view/AKR20260722018900004",
       "source": "연합뉴스·경제",
       "published": "2026-07-21T22:17:41+00:00"
+    },
+    {
+      "title": "유가 부담 이겨낸 뉴욕증시…반도체 반등에 나스닥 1.3%↑ By EBN - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xR2ZvQUlHMW5LOTlOU0xRc3hBeW53MDlFbk9SQnotOTdRLUxXQmVRNG01LTg2YUJaZXdWZzA2YWlhT2sxVmc4emNORXE1Zy1WcXBUbUd2d2RrQmNoRFQ1Zk5MeWpyS05obUU5MWVaXzk?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T22:12:00+00:00"
     },
     {
       "title": "Super Micro’s stock soars as its margins unexpectedly double",
@@ -394,6 +430,12 @@
       "link": "https://www.cnbc.com/2026/07/21/super-micro-stock-spacex-announcement.html",
       "source": "CNBC Finance",
       "published": "2026-07-21T22:10:56+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 반도체주 강세에 나스닥 1.3%↑(상보) - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ieHpDLV9uQTRpamc2V012aVpCekg5cVJOR2lFdjNZekRWN2cyOHJweDBqYjNkckxXdWVMaThvczNCUWM5WFNkZnhsWDJHUkUxQUJhY1haMTJJZFE5cFhHWQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T22:10:05+00:00"
     },
     {
       "title": "[오늘의 글로벌마켓] 뉴욕증시, 반도체주 중심 상승세 지속...나스닥 1.3%↑ - 오피니언뉴스",
@@ -432,12 +474,6 @@
       "published": "2026-07-21T21:35:00+00:00"
     },
     {
-      "title": "유가 부담 이겨낸 뉴욕증시…반도체 반등에 나스닥 1.3%↑ - ebn.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoUjFDLTNLUl9SMWZnUmhhcktWMEprTVljMlFxTHVBaEdhakx1cjl1NHgxa0xoWHA5U0EyY2dBWnZFeWctQW9pb0xjak1na1pxd3o2NkE0UWZjV3hmRjlHbURlTFhYOGJ4?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T21:29:55+00:00"
-    },
-    {
       "title": "뉴욕증시, 반도체주 반등에 상승 마감 - 조선비즈 - Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMTRwclFfTnBFeU5oajZVRmZfZlhpZFU2MEdOdFhZNzVQZWl6Q0FCYzRGdWg4MUxmdTdpTkFIVFVPZGNSTm5GZ2RLTFJkUGljdGNaazVXNDRyejR5dlBQdldNSEthWEFGY0ZfZlNPSmJJdXBzVGFRb21wRHFBTDRfUHhwRFVDdEozQlVpSlk5V2R1eC1MYVRSUFVNbTRLZ9IBsgFBVV95cUxPemRZZUt3MmMtZWRUUlNEM3RSQ3VLQ3h4RWhmRFBoTmhzdU14Z3F0SkdnNmhrS044amczZG9zTW9sdGNtOTduMVhSN2tOajNhMm9OaGgteVg3ZnJwYVRjSmdrM0duazE2QlN1ZHJJWWtHTEN5RkNWV3l3OFI4WEhReUgwSElpNGd0MjNWcTVCSjVQVUpxRVR4MUN2aTJWOWpLLUMyeTRvS1JNWmZBcUtYOGRn?oc=5",
       "source": "Google News",
@@ -454,12 +490,6 @@
       "link": "https://www.mk.co.kr/news/economy/12103952",
       "source": "매일경제·증권",
       "published": "2026-07-21T21:07:16+00:00"
-    },
-    {
-      "title": "[속보] 뉴욕증시 상승…나스닥 1.29%↑ - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hQ3FpR0ViR3QtQWJFbFhHUXJyUFJub2lqTFZQUmpENnEtVUFpcUJTcmxPMEwtQmk4dVMtYVpWRFJSSGc2c0M2dW5UN2F4OHFxUlFqMA?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T21:05:00+00:00"
     },
     {
       "title": "[뉴욕증시] 실적 호조·반도체주 반등에 상승 - 아시아경제",
@@ -594,12 +624,6 @@
       "published": "2026-07-21T20:38:00+00:00"
     },
     {
-      "title": "Jamie Dimon's dual stock and bond market warning: Investors already acted on one of the two calls",
-      "link": "https://www.cnbc.com/2026/07/21/jamie-dimon-stock-bond-market-warning-treasuries.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T20:37:26+00:00"
-    },
-    {
       "title": "[뉴욕증시] 반도체·실적 호조에 나스닥 329.13P↑ - 글로벌이코노믹",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTzhxZHJrR1NpXzBGdF9YQnZyWWZTXy1TU2RzcVNEUks0MjFzN3YtWm8teWNtbzc1NDJzbG9KUVE2TEhNZFVtUEY5aG85enJPOUU5X1UxWlI3Skl2eWJGV0ViUEZiUWZfT0gtZXJUb2pfODZrOWJCLWxVbDAwRFUzVzFzVlVfYTQ?oc=5",
       "source": "Google News",
@@ -628,30 +652,6 @@
       "link": "https://www.marketwatch.com/story/why-energy-stocks-still-look-so-cheap-even-after-their-big-rally-this-month-7f1a298b?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-21T20:27:00+00:00"
-    },
-    {
-      "title": "SK하이닉스 ADR 14% 급등…반도체 반등에 뉴욕증시 상승[뉴욕 is] - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0weGhpSDBOQlhVX2c4a0VoYXZxQTdfXzE1WXBJempZVmJLZmIyU1kzeS1DWDh6QjZOeUUyUUZ3ajhwZWN3NnlQQVpDSDh6cmc?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T20:22:42+00:00"
-    },
-    {
-      "title": "뉴욕증시, 반도체 반등에 상승 마감…나스닥 1.29%↑ - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBELWFQMklGX0NSdkJQRHdwOC1tb2VvMm5TRzBEQi1NRURCLXBFN3UxSXFDRXJRRExjTi04R0xlT1ZwM1dabDBwRGY2cEE1MEFYZkhuSnA0WFZST2xY?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T20:22:00+00:00"
-    },
-    {
-      "title": "“4755조 메가프로젝트로도 역부족” … 잠재성장률 3% ‘마지막 퍼즐’은",
-      "link": "https://www.mk.co.kr/news/economy/12103701",
-      "source": "매일경제·증권",
-      "published": "2026-07-21T20:20:00+00:00"
-    },
-    {
-      "title": "GM beats on earnings, raises guidance amid 'resilient' consumer, pricing",
-      "link": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T20:19:12+00:00"
     }
   ],
   "pages": [
