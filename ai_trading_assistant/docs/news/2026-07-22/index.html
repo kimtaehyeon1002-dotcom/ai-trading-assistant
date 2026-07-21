@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark" data-updown="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-22 뉴스 아카이브 · AI Trading Assistant</title>
+  <link rel="stylesheet" href="../../static/css/tokens.css">
+  <link rel="stylesheet" href="../../static/css/base_v2.css">
+  <link rel="stylesheet" href="../../static/css/components.css">
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
+</head>
+<body class="v2" data-root="../..">
+  <nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav">
+    <a class="v2-nav__item" href="../../index.html"
+>Dashboard</a>
+    <a class="v2-nav__item" href="../../macro/index.html"
+>Macroeconomics</a>
+    <a class="v2-nav__item" href="../../news/index.html"
+aria-current="page">News</a>
+    <a class="v2-nav__item" href="../../stock/index.html"
+>Stock</a>
+    <a class="v2-nav__item" href="../../financials/index.html"
+>Financial Statements</a>
+    <a class="v2-nav__item" href="../../ta/index.html"
+>Technical Analysis</a>
+    <div class="v2-nav__divider"></div>
+    <a class="v2-nav__item v2-nav__item--locked" href="../../asset/index.html"
+>
+      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+    <a class="v2-nav__item v2-nav__item--locked" href="../../portfolio/index.html"
+>
+      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+  </div>
+  <div class="v2-sidebar__footer">
+    <a class="v2-nav__item" href="../../settings/index.html"
+>Settings</a>
+    <div class="v2-sidebar__version">AI Trading Assistant</div>
+  </div>
+</nav>
+
+  <header class="v2-header">
+  <div class="v2-header__context">
+    News
+  </div>
+  <div class="v2-header__search" role="search">
+    <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
+           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+    <kbd class="v2-header__search-kbd">Ctrl K</kbd>
+    <div class="v2-search-results" data-search-results hidden></div>
+  </div>
+  <div class="v2-header__clock"></div>
+  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+</header>
+
+  <main class="v2-main">
+    <div class="v2-content">
+
+<div class="v2-span-12">
+  <div class="v2-tabbar" data-tabbar="news">
+    <button class="v2-tabbar__btn" data-tab-btn="us_market" data-tabbar-of="news" aria-current="page">
+      미국시장<span class="v2-tabbar__count">0</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="kr_market" data-tabbar-of="news">
+      한국시장<span class="v2-tabbar__count">0</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="macro" data-tabbar-of="news">
+      거시경제<span class="v2-tabbar__count">0</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="breaking" data-tabbar-of="news">
+      속보<span class="v2-tabbar__count">11</span>
+    </button>
+    <span class="v2-caption v2-tabbar__meta">
+2026-07-22 아카이브    </span>
+  </div>
+</div>
+
+<div class="v2-card v2-card--standard v2-span-8 v2-card--news-list" id="news-list">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">미국시장 · 게재 0건</h3>
+    <span class="v2-card__meta">2026-07-22 01:12 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div data-tab-panel="news" data-tab="us_market">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="kr_market" style="display:none">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="macro" style="display:none">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="breaking" style="display:none">
+  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/21/bessent-china-ai-sanctions.html" target="_blank" rel="noopener noreferrer">Bessent says U.S. could sanction China over AI model &#39;theft&#39;</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-22 00:53</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/21/spacex-spcx-earnings-lock-up-expiration.html" target="_blank" rel="noopener noreferrer">SpaceX sets earnings date, triggering first lock-up expiration for millions of shares</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-22 00:34</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/trump-tariffs-canada-trade.html" target="_blank" rel="noopener noreferrer">Trump imposing 50% tariffs on certain Canadian goods over alleged trade discrimination</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-22 00:25</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/21/nebius-stock-nvidia-stake-neocloud.html" target="_blank" rel="noopener noreferrer">Nebius stock surges 13% as Nvidia discloses significant stake in neocloud</a>
+  <span><span class="v2-tag">NVIDIA</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-22 00:19</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/if-timing-the-stock-market-were-easy-the-iran-war-would-have-proven-it-its-done-the-opposite-ac090ad3?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">Pro stock pickers cannot beat simple math — war in the Middle East is proving it</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-22 00:12</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/21/gm-new-gas-powered-cadillac.html" target="_blank" rel="noopener noreferrer">GM announces new gas-powered Cadillac vehicles amid EV pullback</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-22 00:03</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/novo-nordisk-sues-eli-lilly-over-ads-comparing-glp-1-medications-6b223080?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">Novo Nordisk’s lawsuit against Eli Lilly over ads highlights intense competition in GLP-1 market</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-22 00:02</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l3">
+  <span class="v2-level-gauge" title="필수 — 지수·금리 등에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FY0JGRTN4aDUyV2N4cHBLbHA2WWFRY1B0b1lKdW9PTE9BaExyandCQzk4MkRPVTBPMXVwSE9oanoxVDNqb2NueTNSRkIwNEFTWkJZM184dVhQNjVqVFE?oc=5" target="_blank" rel="noopener noreferrer">뉴욕 증시, 반도체주 저가 매수에 동반 상승 출발 - YTN</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-22 00:02</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/welcome-to-the-roaring-20s-heres-how-this-earnings-season-will-keep-the-bull-market-strong-4a70be72?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">Think this stock market is in a bubble? These earnings numbers say otherwise.</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-22 00:01</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/21/nvidia-vera-cpu-ai-amd-intel.html" target="_blank" rel="noopener noreferrer">Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel</a>
+  <span><span class="v2-tag">NVIDIA</span><span class="v2-tag">AMD</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-22 00:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/21/google-gemini-flash-ai-mythos-rival.html" target="_blank" rel="noopener noreferrer">Google expands Gemini lineup with cheaper models and new Mythos rival</a>
+  <span><span class="v2-tag">Alphabet</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-22 00:00</span>
+  </span>
+</div>
+  </div>
+</div>
+
+  </div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-4 " id="news-briefing">
+    <div class="v2-card__header">
+    <span class="v2-overline">모닝 브리핑</span>
+    <span class="v2-card__meta">2026-07-22 01:12 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-hero-news-row">
+      <span class="n">1</span>
+      <a class="t" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FY0JGRTN4aDUyV2N4cHBLbHA2WWFRY1B0b1lKdW9PTE9BaExyandCQzk4MkRPVTBPMXVwSE9oanoxVDNqb2NueTNSRkIwNEFTWkJZM184dVhQNjVqVFE?oc=5" target="_blank" rel="noopener noreferrer">뉴욕 증시, 반도체주 저가 매수에 동반 상승 출발 - YTN</a>
+    </div>
+    <div class="v2-hero-news-row">
+      <span class="n">2</span>
+      <a class="t" href="https://www.cnbc.com/2026/07/21/bessent-china-ai-sanctions.html" target="_blank" rel="noopener noreferrer">Bessent says U.S. could sanction China over AI model &#39;theft&#39;</a>
+    </div>
+    <div class="v2-hero-news-row">
+      <span class="n">3</span>
+      <a class="t" href="https://www.cnbc.com/2026/07/21/spacex-spcx-earnings-lock-up-expiration.html" target="_blank" rel="noopener noreferrer">SpaceX sets earnings date, triggering first lock-up expiration for millions of shares</a>
+    </div>
+  </div>
+  <div class="v2-card__footer">필수 1 · 주목 10 · 참고 0</div>
+
+</div>
+
+    </div>
+  </main>
+  <div class="v2-panel-slot" id="panel-slot"></div>
+  <script src="../../static/js/store.js" defer></script>
+  <script src="../../static/js/stockhub.js" defer></script>
+  <script src="../../static/js/search.js" defer></script>
+<script src="../../static/js/tabs.js" defer></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.TATabs) window.TATabs.init("news", "us_market");
+  });
+</script>
+</body>
+</html>

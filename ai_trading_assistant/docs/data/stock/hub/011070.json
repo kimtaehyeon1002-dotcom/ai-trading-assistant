@@ -1,0 +1,17 @@
+{
+  "code": "011070",
+  "name": "LG이노텍",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 629000.0,
+    "change_pct": 4.49,
+    "volume": 196338,
+    "amount": 120586085500.0,
+    "marcap": 14886610303000.0,
+    "as_of_iso": "2026-07-21T16:13:06.416648+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:011070",
+  "related_news": []
+}

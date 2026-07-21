@@ -1,0 +1,17 @@
+{
+  "code": "GOOG",
+  "name": "Alphabet Inc. (Class C)",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 348.6099853515625,
+    "change_pct": -0.79,
+    "volume": 5292872,
+    "amount": 1845148030.3876953,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.417795+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "GOOG",
+  "related_news": []
+}

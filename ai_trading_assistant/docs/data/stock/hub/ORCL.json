@@ -1,0 +1,17 @@
+{
+  "code": "ORCL",
+  "name": "Oracle Corporation",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 125.2750015258789,
+    "change_pct": 3.21,
+    "volume": 11105623,
+    "amount": 1391256938.2708359,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.418135+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "ORCL",
+  "related_news": []
+}

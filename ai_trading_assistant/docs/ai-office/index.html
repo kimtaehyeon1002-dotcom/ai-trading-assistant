@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark" data-updown="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Office · AI Trading Assistant</title>
+  <link rel="stylesheet" href="../static/css/tokens.css">
+  <link rel="stylesheet" href="../static/css/base_v2.css">
+  <link rel="stylesheet" href="../static/css/components.css">
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
+</head>
+<body class="v2" data-root="..">
+  <nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav">
+    <a class="v2-nav__item" href="../index.html"
+>Dashboard</a>
+    <a class="v2-nav__item" href="../macro/index.html"
+>Macroeconomics</a>
+    <a class="v2-nav__item" href="../news/index.html"
+>News</a>
+    <a class="v2-nav__item" href="../stock/index.html"
+>Stock</a>
+    <a class="v2-nav__item" href="../financials/index.html"
+>Financial Statements</a>
+    <a class="v2-nav__item" href="../ta/index.html"
+>Technical Analysis</a>
+    <div class="v2-nav__divider"></div>
+    <a class="v2-nav__item v2-nav__item--locked" href="../asset/index.html"
+>
+      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+    <a class="v2-nav__item v2-nav__item--locked" href="../portfolio/index.html"
+>
+      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+  </div>
+  <div class="v2-sidebar__footer">
+    <a class="v2-nav__item" href="../settings/index.html"
+>Settings</a>
+    <div class="v2-sidebar__version">AI Trading Assistant</div>
+  </div>
+</nav>
+
+  <header class="v2-header">
+  <div class="v2-header__context">
+    
+  </div>
+  <div class="v2-header__search" role="search">
+    <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
+           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+    <kbd class="v2-header__search-kbd">Ctrl K</kbd>
+    <div class="v2-search-results" data-search-results hidden></div>
+  </div>
+  <div class="v2-header__clock"></div>
+  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+</header>
+
+  <main class="v2-main">
+    <div class="v2-content">
+
+<div class="v2-card v2-card--standard v2-span-4 " id="worker-1">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">Data Officer</h3>
+    <span class="v2-badge">completed</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-body">시장 지표 수집·검증 (collectors/market·kiwoom)</p>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-22T03:25</span></div>
+    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">22</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">895ms</span></div>
+  </div>
+
+</div>
+<div class="v2-card v2-card--standard v2-span-4 " id="worker-2">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">News Research</h3>
+    <span class="v2-badge">completed</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-body">뉴스 수집·검증·병합 (collectors/news)</p>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-22T03:25</span></div>
+    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">180</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">3140ms</span></div>
+  </div>
+
+</div>
+<div class="v2-card v2-card--standard v2-span-4 " id="worker-3">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">Theme Analyst</h3>
+    <span class="v2-badge">completed</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-body">테마 빈도 산출 (calculators/themes)</p>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-22T01:12</span></div>
+    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">3</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">3ms</span></div>
+  </div>
+
+</div>
+<div class="v2-card v2-card--standard v2-span-4 " id="worker-4">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">Trade Manager</h3>
+    <span class="v2-badge">completed</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-body">매매 원장 로드 (repositories/trade)</p>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-22T03:25</span></div>
+    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">32</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">4ms</span></div>
+  </div>
+
+</div>
+<div class="v2-card v2-card--standard v2-span-4 " id="worker-5">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">Notion Sync</h3>
+    <span class="v2-badge">skipped</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-body">Notion ERP 동기화 (collectors/notion)</p>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-22T03:25</span></div>
+    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">—</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">0ms</span></div>
+<p class="v2-body v2-fs-sub">NOTION_API_KEY/DB 미설정</p>  </div>
+
+</div>
+<div class="v2-card v2-card--standard v2-span-4 " id="worker-6">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">Publisher</h3>
+    <span class="v2-badge">completed</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-body">페이지 생성·발행 (generators)</p>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-22T03:25</span></div>
+    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">3</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">0ms</span></div>
+<p class="v2-body v2-fs-sub">pages + static</p>  </div>
+
+</div>
+
+    </div>
+  </main>
+  <div class="v2-panel-slot" id="panel-slot"></div>
+  <script src="../static/js/store.js" defer></script>
+  <script src="../static/js/stockhub.js" defer></script>
+  <script src="../static/js/search.js" defer></script>
+</body>
+</html>

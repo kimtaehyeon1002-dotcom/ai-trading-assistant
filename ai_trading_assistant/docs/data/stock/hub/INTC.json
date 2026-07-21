@@ -1,0 +1,17 @@
+{
+  "code": "INTC",
+  "name": "Intel",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 104.25,
+    "change_pct": 7.41,
+    "volume": 48256636,
+    "amount": 5030754303.0,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.417162+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "INTC",
+  "related_news": []
+}

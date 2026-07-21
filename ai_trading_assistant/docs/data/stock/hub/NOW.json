@@ -1,0 +1,17 @@
+{
+  "code": "NOW",
+  "name": "ServiceNow",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 103.12999725341797,
+    "change_pct": -1.5,
+    "volume": 4199864,
+    "amount": 433131962.784729,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T14:20:15.909434+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "NOW",
+  "related_news": []
+}

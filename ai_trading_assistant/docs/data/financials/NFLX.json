@@ -1,0 +1,143 @@
+{
+  "code": "NFLX",
+  "name": "Netflix",
+  "market": "US",
+  "as_of": "2026-07-21T16:13:42.628232+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 15.85,
+    "cagr_pct": 12.64,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 29697844000
+      },
+      {
+        "year": "2022",
+        "value": 31615550000
+      },
+      {
+        "year": "2023",
+        "value": 33723297000
+      },
+      {
+        "year": "2024",
+        "value": 39000966000
+      },
+      {
+        "year": "2025",
+        "value": 45183036000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 29.49,
+    "own_5y_avg": 12.61,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 20.86
+      },
+      {
+        "year": "2022",
+        "value": 17.82
+      },
+      {
+        "year": "2023",
+        "value": 20.62
+      },
+      {
+        "year": "2024",
+        "value": 26.71
+      },
+      {
+        "year": "2025",
+        "value": 29.49
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 108.89,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2021",
+        "value": 181.3
+      },
+      {
+        "year": "2022",
+        "value": 133.88
+      },
+      {
+        "year": "2023",
+        "value": 136.7
+      },
+      {
+        "year": "2024",
+        "value": 116.74
+      },
+      {
+        "year": "2025",
+        "value": 108.89
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 9461053000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": -1581637000
+      },
+      {
+        "year": "2017",
+        "value": -1959250000
+      },
+      {
+        "year": "2018",
+        "value": -2854425000
+      },
+      {
+        "year": "2019",
+        "value": -3140357000
+      },
+      {
+        "year": "2020",
+        "value": 1929154000
+      },
+      {
+        "year": "2021",
+        "value": -131975000
+      },
+      {
+        "year": "2022",
+        "value": 1618528000
+      },
+      {
+        "year": "2023",
+        "value": 6925749000
+      },
+      {
+        "year": "2024",
+        "value": 6921826000
+      },
+      {
+        "year": "2025",
+        "value": 9461053000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 2.53,
+    "per": 26.48,
+    "note": null
+  }
+}

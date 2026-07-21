@@ -1,0 +1,17 @@
+{
+  "code": "T",
+  "name": "AT&T",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 21.954999923706055,
+    "change_pct": 0.02,
+    "volume": 48829728,
+    "amount": 1072056674.5145874,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.418365+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "T",
+  "related_news": []
+}

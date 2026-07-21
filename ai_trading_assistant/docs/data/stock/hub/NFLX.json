@@ -1,0 +1,17 @@
+{
+  "code": "NFLX",
+  "name": "Netflix",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 66.98500061035156,
+    "change_pct": -0.91,
+    "volume": 19681844,
+    "amount": 1318388332.3528442,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.418181+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "NFLX",
+  "related_news": []
+}

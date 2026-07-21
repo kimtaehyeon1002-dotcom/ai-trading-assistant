@@ -1,0 +1,17 @@
+{
+  "code": "MSFT",
+  "name": "Microsoft",
+  "market": "US",
+  "theme": "인공지능",
+  "quote": {
+    "close": 397.9150085449219,
+    "change_pct": -1.09,
+    "volume": 10393149,
+    "amount": 4135589973.1436462,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.417208+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "MSFT",
+  "related_news": []
+}

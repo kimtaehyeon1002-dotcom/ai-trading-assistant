@@ -1,0 +1,17 @@
+{
+  "code": "010120",
+  "name": "LS ELECTRIC",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 189100.0,
+    "change_pct": 5.47,
+    "volume": 705339,
+    "amount": 130856767200.0,
+    "marcap": 28365000000000.0,
+    "as_of_iso": "2026-07-21T16:13:06.416510+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:010120",
+  "related_news": []
+}

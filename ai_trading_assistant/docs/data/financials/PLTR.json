@@ -1,0 +1,135 @@
+{
+  "code": "PLTR",
+  "name": "Palantir Technologies",
+  "market": "US",
+  "as_of": "2026-07-21T16:13:40.491846+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 56.18,
+    "cagr_pct": 32.92,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 1541889000
+      },
+      {
+        "year": "2022",
+        "value": 1905871000
+      },
+      {
+        "year": "2023",
+        "value": 2225012000
+      },
+      {
+        "year": "2024",
+        "value": 2865507000
+      },
+      {
+        "year": "2025",
+        "value": 4475446000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 31.59,
+    "own_5y_avg": -34.63,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": -26.66
+      },
+      {
+        "year": "2022",
+        "value": -8.46
+      },
+      {
+        "year": "2023",
+        "value": 5.39
+      },
+      {
+        "year": "2024",
+        "value": 10.83
+      },
+      {
+        "year": "2025",
+        "value": 31.59
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 19.12,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 41.75
+      },
+      {
+        "year": "2022",
+        "value": 31.92
+      },
+      {
+        "year": "2023",
+        "value": 27.66
+      },
+      {
+        "year": "2024",
+        "value": 24.91
+      },
+      {
+        "year": "2025",
+        "value": 19.12
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 2100591000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2018",
+        "value": -52016000
+      },
+      {
+        "year": "2019",
+        "value": -178311000
+      },
+      {
+        "year": "2020",
+        "value": -308844000
+      },
+      {
+        "year": "2021",
+        "value": 321224000
+      },
+      {
+        "year": "2022",
+        "value": 183710000
+      },
+      {
+        "year": "2023",
+        "value": 697069000
+      },
+      {
+        "year": "2024",
+        "value": 1141231000
+      },
+      {
+        "year": "2025",
+        "value": 2100591000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 0.63,
+    "per": 212.21,
+    "note": null
+  }
+}

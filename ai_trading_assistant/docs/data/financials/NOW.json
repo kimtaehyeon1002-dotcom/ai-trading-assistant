@@ -1,0 +1,143 @@
+{
+  "code": "NOW",
+  "name": "ServiceNow",
+  "market": "US",
+  "as_of": "2026-07-21T14:22:39.087661+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 20.88,
+    "cagr_pct": 22.38,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 5896000000
+      },
+      {
+        "year": "2022",
+        "value": 7245000000
+      },
+      {
+        "year": "2023",
+        "value": 8971000000
+      },
+      {
+        "year": "2024",
+        "value": 10984000000
+      },
+      {
+        "year": "2025",
+        "value": 13278000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 13.74,
+    "own_5y_avg": 1.71,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 4.36
+      },
+      {
+        "year": "2022",
+        "value": 4.9
+      },
+      {
+        "year": "2023",
+        "value": 8.49
+      },
+      {
+        "year": "2024",
+        "value": 12.42
+      },
+      {
+        "year": "2025",
+        "value": 13.74
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 100.85,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2021",
+        "value": 192.23
+      },
+      {
+        "year": "2022",
+        "value": 164.29
+      },
+      {
+        "year": "2023",
+        "value": 127.94
+      },
+      {
+        "year": "2024",
+        "value": 112.12
+      },
+      {
+        "year": "2025",
+        "value": 100.85
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 4576000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 53519000
+      },
+      {
+        "year": "2017",
+        "value": 492430000
+      },
+      {
+        "year": "2018",
+        "value": 586627000
+      },
+      {
+        "year": "2019",
+        "value": 971000000
+      },
+      {
+        "year": "2020",
+        "value": 1367000000
+      },
+      {
+        "year": "2021",
+        "value": 1799000000
+      },
+      {
+        "year": "2022",
+        "value": 2173000000
+      },
+      {
+        "year": "2023",
+        "value": 2704000000
+      },
+      {
+        "year": "2024",
+        "value": 3415000000
+      },
+      {
+        "year": "2025",
+        "value": 4576000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 1.67,
+    "per": 61.75,
+    "note": null
+  }
+}

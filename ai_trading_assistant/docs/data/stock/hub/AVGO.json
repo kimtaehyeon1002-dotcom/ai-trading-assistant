@@ -1,0 +1,17 @@
+{
+  "code": "AVGO",
+  "name": "Broadcom",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 386.54998779296875,
+    "change_pct": 2.22,
+    "volume": 6324810,
+    "amount": 2444855228.2928467,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.417494+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "AVGO",
+  "related_news": []
+}

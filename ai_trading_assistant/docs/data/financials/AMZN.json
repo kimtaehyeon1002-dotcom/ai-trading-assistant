@@ -1,0 +1,117 @@
+{
+  "code": "AMZN",
+  "name": "Amazon",
+  "market": "US",
+  "as_of": "2026-07-21T16:13:34.021197+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 12.38,
+    "cagr_pct": 11.73,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 469822000000
+      },
+      {
+        "year": "2022",
+        "value": 513983000000
+      },
+      {
+        "year": "2023",
+        "value": 574785000000
+      },
+      {
+        "year": "2024",
+        "value": 637959000000
+      },
+      {
+        "year": "2025",
+        "value": 716924000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 11.16,
+    "own_5y_avg": 5.78,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 5.3
+      },
+      {
+        "year": "2022",
+        "value": 2.38
+      },
+      {
+        "year": "2023",
+        "value": 6.41
+      },
+      {
+        "year": "2024",
+        "value": 10.75
+      },
+      {
+        "year": "2025",
+        "value": 11.16
+      }
+    ]
+  },
+  "stability": null,
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 139514000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 10466000000
+      },
+      {
+        "year": "2017",
+        "value": 18365000000
+      },
+      {
+        "year": "2018",
+        "value": 30723000000
+      },
+      {
+        "year": "2019",
+        "value": 38514000000
+      },
+      {
+        "year": "2020",
+        "value": 66064000000
+      },
+      {
+        "year": "2021",
+        "value": 46327000000
+      },
+      {
+        "year": "2022",
+        "value": 46752000000
+      },
+      {
+        "year": "2023",
+        "value": 84946000000
+      },
+      {
+        "year": "2024",
+        "value": 115877000000
+      },
+      {
+        "year": "2025",
+        "value": 139514000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 7.17,
+    "per": 34.52,
+    "note": null
+  }
+}

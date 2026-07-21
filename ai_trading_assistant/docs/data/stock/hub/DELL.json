@@ -1,0 +1,17 @@
+{
+  "code": "DELL",
+  "name": "Dell Technologies",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 401.3599853515625,
+    "change_pct": 5.1,
+    "volume": 1284775,
+    "amount": 515657275.1800537,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T14:31:22.179980+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "DELL",
+  "related_news": []
+}

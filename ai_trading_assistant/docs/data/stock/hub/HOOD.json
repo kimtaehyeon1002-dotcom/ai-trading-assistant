@@ -1,0 +1,17 @@
+{
+  "code": "HOOD",
+  "name": "Robinhood Markets",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 107.02999877929688,
+    "change_pct": 7.81,
+    "volume": 10171042,
+    "amount": 1088606612.8441772,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.418318+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "HOOD",
+  "related_news": []
+}

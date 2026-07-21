@@ -1,0 +1,17 @@
+{
+  "code": "AMAT",
+  "name": "Applied Materials",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 564.6099853515625,
+    "change_pct": 7.4,
+    "volume": 3382237,
+    "amount": 1909644783.0255127,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.417689+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "AMAT",
+  "related_news": []
+}

@@ -1,0 +1,17 @@
+{
+  "code": "006340",
+  "name": "대원전선",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 11840.0,
+    "change_pct": 8.23,
+    "volume": 11624979,
+    "amount": 136724886490.0,
+    "marcap": 928426685440.0,
+    "as_of_iso": "2026-07-21T16:13:06.416417+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:006340",
+  "related_news": []
+}

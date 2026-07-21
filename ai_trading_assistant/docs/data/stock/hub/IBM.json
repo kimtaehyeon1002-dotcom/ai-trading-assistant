@@ -1,0 +1,17 @@
+{
+  "code": "IBM",
+  "name": "IBM",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 210.96499633789062,
+    "change_pct": -0.96,
+    "volume": 5524346,
+    "amount": 1165443633.6592407,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.418273+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "IBM",
+  "related_news": []
+}

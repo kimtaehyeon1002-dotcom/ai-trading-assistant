@@ -1,0 +1,143 @@
+{
+  "code": "MMM",
+  "name": "3M",
+  "market": "US",
+  "as_of": "2026-07-21T16:13:46.157868+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 1.52,
+    "cagr_pct": -1.57,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 35355000000
+      },
+      {
+        "year": "2022",
+        "value": 26161000000
+      },
+      {
+        "year": "2023",
+        "value": 24610000000
+      },
+      {
+        "year": "2024",
+        "value": 24575000000
+      },
+      {
+        "year": "2025",
+        "value": 24948000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 18.55,
+    "own_5y_avg": 14.34,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 20.84
+      },
+      {
+        "year": "2022",
+        "value": 16.7
+      },
+      {
+        "year": "2023",
+        "value": -43.43
+      },
+      {
+        "year": "2024",
+        "value": 19.62
+      },
+      {
+        "year": "2025",
+        "value": 18.55
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 701.53,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2021",
+        "value": 212.38
+      },
+      {
+        "year": "2022",
+        "value": 215.22
+      },
+      {
+        "year": "2023",
+        "value": 950.95
+      },
+      {
+        "year": "2024",
+        "value": 936.34
+      },
+      {
+        "year": "2025",
+        "value": 701.53
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 1396000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 5242000000
+      },
+      {
+        "year": "2017",
+        "value": 4867000000
+      },
+      {
+        "year": "2018",
+        "value": 4862000000
+      },
+      {
+        "year": "2019",
+        "value": 5371000000
+      },
+      {
+        "year": "2020",
+        "value": 6612000000
+      },
+      {
+        "year": "2021",
+        "value": 5851000000
+      },
+      {
+        "year": "2022",
+        "value": 3842000000
+      },
+      {
+        "year": "2023",
+        "value": 5065000000
+      },
+      {
+        "year": "2024",
+        "value": 638000000
+      },
+      {
+        "year": "2025",
+        "value": 1396000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 6,
+    "per": 28.8,
+    "note": null
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "code": "SNDK",
+  "name": "Sandisk",
+  "market": "US",
+  "as_of": "2026-07-21T16:13:27.439444+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 10.39,
+    "cagr_pct": null,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2023",
+        "value": 6086000000
+      },
+      {
+        "year": "2024",
+        "value": 6663000000
+      },
+      {
+        "year": "2025",
+        "value": 7355000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": -18.72,
+    "own_5y_avg": -19.73,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2023",
+        "value": -33.44
+      },
+      {
+        "year": "2024",
+        "value": -7.02
+      },
+      {
+        "year": "2025",
+        "value": -18.72
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 40.9,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2024",
+        "value": 21.87
+      },
+      {
+        "year": "2025",
+        "value": 40.9
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": -120000000,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2023",
+        "value": -932000000
+      },
+      {
+        "year": "2024",
+        "value": -475000000
+      },
+      {
+        "year": "2025",
+        "value": -120000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": -11.32,
+    "per": null,
+    "note": "적자 — PER 산출 불가"
+  }
+}

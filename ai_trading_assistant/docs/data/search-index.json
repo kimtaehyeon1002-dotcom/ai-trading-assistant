@@ -1,0 +1,704 @@
+{
+  "as_of": "2026-07-21T18:25:29.147231+00:00",
+  "stocks": [
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "market": "KOSPI"
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "market": "KOSPI"
+    },
+    {
+      "code": "005935",
+      "name": "삼성전자우",
+      "market": "KOSPI"
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "market": "KOSPI"
+    },
+    {
+      "code": "475150",
+      "name": "SK이터닉스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "000250",
+      "name": "삼천당제약",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "028260",
+      "name": "삼성물산",
+      "market": "KOSPI"
+    },
+    {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "032830",
+      "name": "삼성생명",
+      "market": "KOSPI"
+    },
+    {
+      "code": "066570",
+      "name": "LG전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KOSPI"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market": "KOSPI"
+    },
+    {
+      "code": "035420",
+      "name": "NAVER",
+      "market": "KOSPI"
+    },
+    {
+      "code": "042700",
+      "name": "한미반도체",
+      "market": "KOSPI"
+    },
+    {
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "353200",
+      "name": "대덕전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006340",
+      "name": "대원전선",
+      "market": "KOSPI"
+    },
+    {
+      "code": "240810",
+      "name": "원익IPS",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "market": "KOSPI"
+    },
+    {
+      "code": "086790",
+      "name": "하나금융지주",
+      "market": "KOSPI"
+    },
+    {
+      "code": "000270",
+      "name": "기아",
+      "market": "KOSPI"
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "market": "KOSPI"
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "market": "KOSPI"
+    },
+    {
+      "code": "298040",
+      "name": "효성중공업",
+      "market": "KOSPI"
+    },
+    {
+      "code": "003280",
+      "name": "흥아해운",
+      "market": "KOSPI"
+    },
+    {
+      "code": "055550",
+      "name": "신한지주",
+      "market": "KOSPI"
+    },
+    {
+      "code": "MU",
+      "name": "Micron Technology",
+      "market": "US"
+    },
+    {
+      "code": "SNDK",
+      "name": "Sandisk",
+      "market": "US"
+    },
+    {
+      "code": "NVDA",
+      "name": "Nvidia",
+      "market": "US"
+    },
+    {
+      "code": "AMD",
+      "name": "Advanced Micro Devices",
+      "market": "US"
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla, Inc.",
+      "market": "US"
+    },
+    {
+      "code": "AAPL",
+      "name": "Apple Inc.",
+      "market": "US"
+    },
+    {
+      "code": "INTC",
+      "name": "Intel",
+      "market": "US"
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "market": "US"
+    },
+    {
+      "code": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "market": "US"
+    },
+    {
+      "code": "DHR",
+      "name": "Danaher Corporation",
+      "market": "US"
+    },
+    {
+      "code": "AMZN",
+      "name": "Amazon",
+      "market": "US"
+    },
+    {
+      "code": "MRVL",
+      "name": "Marvell Technology",
+      "market": "US"
+    },
+    {
+      "code": "AVGO",
+      "name": "Broadcom",
+      "market": "US"
+    },
+    {
+      "code": "STX",
+      "name": "Seagate Technology",
+      "market": "US"
+    },
+    {
+      "code": "WDC",
+      "name": "Western Digital",
+      "market": "US"
+    },
+    {
+      "code": "AMAT",
+      "name": "Applied Materials",
+      "market": "US"
+    },
+    {
+      "code": "META",
+      "name": "Meta Platforms",
+      "market": "US"
+    },
+    {
+      "code": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "market": "US"
+    },
+    {
+      "code": "LITE",
+      "name": "Lumentum",
+      "market": "US"
+    },
+    {
+      "code": "GEV",
+      "name": "GE Vernova",
+      "market": "US"
+    },
+    {
+      "code": "PLTR",
+      "name": "Palantir Technologies",
+      "market": "US"
+    },
+    {
+      "code": "LRCX",
+      "name": "Lam Research",
+      "market": "US"
+    },
+    {
+      "code": "ORCL",
+      "name": "Oracle Corporation",
+      "market": "US"
+    },
+    {
+      "code": "NFLX",
+      "name": "Netflix",
+      "market": "US"
+    },
+    {
+      "code": "COIN",
+      "name": "Coinbase",
+      "market": "US"
+    },
+    {
+      "code": "IBM",
+      "name": "IBM",
+      "market": "US"
+    },
+    {
+      "code": "HOOD",
+      "name": "Robinhood Markets",
+      "market": "US"
+    },
+    {
+      "code": "T",
+      "name": "AT&T",
+      "market": "US"
+    },
+    {
+      "code": "MMM",
+      "name": "3M",
+      "market": "US"
+    },
+    {
+      "code": "PANW",
+      "name": "Palo Alto Networks",
+      "market": "US"
+    },
+    {
+      "code": "TSM",
+      "name": "TSMC",
+      "market": "NYSE"
+    },
+    {
+      "code": "373220",
+      "name": "LG에너지솔루션",
+      "market": "KRX"
+    },
+    {
+      "code": "247540",
+      "name": "에코프로비엠",
+      "market": "KRX"
+    },
+    {
+      "code": "035720",
+      "name": "카카오",
+      "market": "KRX"
+    },
+    {
+      "code": "207940",
+      "name": "삼성바이오로직스",
+      "market": "KRX"
+    },
+    {
+      "code": "068270",
+      "name": "셀트리온",
+      "market": "KRX"
+    },
+    {
+      "code": "LLY",
+      "name": "Eli Lilly",
+      "market": "NYSE"
+    },
+    {
+      "code": "NVO",
+      "name": "Novo Nordisk",
+      "market": "NYSE"
+    },
+    {
+      "code": "JPM",
+      "name": "JPMorgan Chase",
+      "market": "NYSE"
+    },
+    {
+      "code": "BAC",
+      "name": "Bank of America",
+      "market": "NYSE"
+    }
+  ],
+  "news": [
+    {
+      "title": "IRS chief Frank Bisignano dismisses JPMorgan spying allegations",
+      "link": "https://www.cnbc.com/2026/07/21/irs-chief-frank-bisignano-laughs-off-jpmorgan-spying-allegations.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T18:21:57+00:00"
+    },
+    {
+      "title": "Trump looks set to roll out a new set of tariffs. Will markets care?",
+      "link": "https://www.marketwatch.com/story/trump-looks-set-to-roll-out-a-new-set-of-tariffs-will-markets-care-71097833?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T18:16:00+00:00"
+    },
+    {
+      "title": "미국 증시 ‘시험대가 될 2週’… 반도체 약세·금리 인상론에 변동성 향방은 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcGZxcVp0U2pySkNWSUM3U1ZuUzNFamZiRklZaWE0aVZSS1VRNlpDY0RCa0taVE9keGRyVUpkYXlqN094MmtmeGRpOERPakVIU1laS0ZPaVdqVzZaRmZuTnVwdFdvVWVJQVBHMGJnX0JlczZtc1lPY3c1TmlzZjQ0dVcxUlBHY0Nq?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T18:05:00+00:00"
+    },
+    {
+      "title": "빅테크 실적·유가 급등·금리 압박… 증시 흔드는 3대 변수 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNTJjV01uOVFwN3lrVVRuamV0b1pkQjVvbHk4Z2E3Q1pCbDIyRHB2UEF1S1pCZGt4eElieUhxNWNpbVBrVGh4eGE5dVg4Q0VtOFMzd1V6ZHhzQXNQVlRzbFhvTENaMHVVRGk5V1BGMnBTVlU2NU1BZlI2NUtGMS1WUjhRQnhYa3Rr?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T18:05:00+00:00"
+    },
+    {
+      "title": "\"S&P 연말까지 8% 더 오른다\"…UBS도 증시 전망치 상향 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VVHBGdHNSTDdsQTdWN1BFTmRRNHg3V0NBN3ZVdUtvRFQ4RVJvQ2dvd2ZMdktEZzFySEZzWk5ta2FBLXdST3RSZERid1ZNb1VuMXdUbkhTTkdfOEg5U2FRVWJIOENLSGd20gFuQVVfeXFMTmtpV1RabzJ1dGhvUlFGLTVxUmk1WlV2U3ZMbVpXbnVmTkx1MmdTR1ZIN2lVS3pNR3VvMFAtZGszTmZPQnp6d3BaMFZFWkFHMERMYU56T0xTSXhNWHJXLTAzbzN1ZGxkOXpnX1FNM1E?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T17:51:44+00:00"
+    },
+    {
+      "title": "Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care",
+      "link": "https://www.marketwatch.com/story/your-healthcare-could-now-cost-185-500-in-retirement-and-that-doesnt-include-long-term-care-5f4f6da8?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T17:51:00+00:00"
+    },
+    {
+      "title": "Healthcare students are turning to Kalshi and betting platforms to pay for their degrees, survey shows",
+      "link": "https://www.cnbc.com/2026/07/21/healthcare-students-turn-to-kalshi-betting-platforms-to-pay-for-degrees-survey-shows.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T17:24:57+00:00"
+    },
+    {
+      "title": "Cardinal Health's latest deals won't move the needle overnight. They still matter.",
+      "link": "https://www.cnbc.com/2026/07/21/cardinal-healths-latest-deals-wont-move-the-needle-they-still-matter.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T17:24:34+00:00"
+    },
+    {
+      "title": "Nebius stock surges 17% as Nvidia discloses significant stake in neocloud",
+      "link": "https://www.cnbc.com/2026/07/21/nebius-stock-nvidia-stake-neocloud.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T17:22:44+00:00"
+    },
+    {
+      "title": "Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.",
+      "link": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T17:19:00+00:00"
+    },
+    {
+      "title": "Bessent says U.S. could sanction China over AI model 'theft'",
+      "link": "https://www.cnbc.com/2026/07/21/bessent-china-ai-sanctions.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T17:15:10+00:00"
+    },
+    {
+      "title": "GM beats on earnings, raises guidance amid 'resilient' consumer, pricing",
+      "link": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T17:11:52+00:00"
+    },
+    {
+      "title": "Boeing and Airbus prepare for next narrow-body battle – but airlines aren’t pushing for new jets yet",
+      "link": "https://www.cnbc.com/2026/07/21/boeing-airbus-narrow-body-planes-deliveries-737max-a320.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T17:10:47+00:00"
+    },
+    {
+      "title": "It’s ‘incredibly disrespectful’ to do a virtual job interview by phone — but Gen Z is doing it anyway",
+      "link": "https://www.marketwatch.com/story/its-incredibly-disrespectful-to-do-a-virtual-job-interview-by-phone-but-gen-z-is-doing-it-anyway-0d8486d7?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T17:10:00+00:00"
+    },
+    {
+      "title": "The worst dotcom bubble investing mistakes are coming for your portfolio. Avoid them",
+      "link": "https://www.cnbc.com/2026/07/21/market-bubble-stock-risks-investing-mistakes.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T16:58:35+00:00"
+    },
+    {
+      "title": "Here’s how to time your retirement to keep your healthcare costs down",
+      "link": "https://www.marketwatch.com/story/heres-how-to-time-your-retirement-to-keep-your-healthcare-costs-down-b1a4d427?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T16:56:00+00:00"
+    },
+    {
+      "title": "An oil lifeline is under threat, and markets have yet to price in the growing crisis",
+      "link": "https://www.marketwatch.com/story/an-oil-lifeline-is-under-threat-and-markets-have-yet-to-price-in-the-growing-crisis-801d53b1?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T16:54:00+00:00"
+    },
+    {
+      "title": "Google expands Gemini lineup with cheaper models and new Mythos rival",
+      "link": "https://www.cnbc.com/2026/07/21/google-gemini-flash-ai-mythos-rival.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T16:52:46+00:00"
+    },
+    {
+      "title": "SpaceX’s stock looks to snap brutal losing streak as it heads for one of its best days yet",
+      "link": "https://www.marketwatch.com/story/spacexs-stock-looks-to-snap-brutal-losing-streak-as-it-heads-for-one-of-its-best-days-yet-74220273?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T16:44:00+00:00"
+    },
+    {
+      "title": "OpenAI, Anthropic boost lobbying as legacy tech and defense spending slips",
+      "link": "https://www.cnbc.com/2026/07/21/openai-anthropic-ai-lobbying-spending-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T16:30:11+00:00"
+    },
+    {
+      "title": "Microsoft has 3 secret weapons that could drive its stock 50% higher, analyst says",
+      "link": "https://www.marketwatch.com/story/microsoft-has-3-secret-weapons-that-could-drive-its-stock-50-higher-analyst-says-f1afb554?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T16:25:00+00:00"
+    },
+    {
+      "title": "These signs suggest investors should give the software sector a second chance",
+      "link": "https://www.marketwatch.com/story/here-are-some-signs-that-say-investors-should-give-the-software-sector-a-second-chance-f4143255?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T16:10:00+00:00"
+    },
+    {
+      "title": "SpaceX sets earnings date, triggering first lock-up expiration for millions of shares",
+      "link": "https://www.cnbc.com/2026/07/21/spacex-spcx-earnings-lock-up-expiration.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T15:34:04+00:00"
+    },
+    {
+      "title": "Trump imposing 50% tariffs on certain Canadian goods over alleged trade discrimination",
+      "link": "https://www.cnbc.com/2026/07/20/trump-tariffs-canada-trade.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T15:25:09+00:00"
+    },
+    {
+      "title": "Pro stock pickers cannot beat simple math — war in the Middle East is proving it",
+      "link": "https://www.marketwatch.com/story/if-timing-the-stock-market-were-easy-the-iran-war-would-have-proven-it-its-done-the-opposite-ac090ad3?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T15:12:00+00:00"
+    },
+    {
+      "title": "GM announces new gas-powered Cadillac vehicles amid EV pullback",
+      "link": "https://www.cnbc.com/2026/07/21/gm-new-gas-powered-cadillac.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T15:03:42+00:00"
+    },
+    {
+      "title": "Novo Nordisk’s lawsuit against Eli Lilly over ads highlights intense competition in GLP-1 market",
+      "link": "https://www.marketwatch.com/story/novo-nordisk-sues-eli-lilly-over-ads-comparing-glp-1-medications-6b223080?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T15:02:00+00:00"
+    },
+    {
+      "title": "뉴욕 증시, 반도체주 저가 매수에 동반 상승 출발 - YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FY0JGRTN4aDUyV2N4cHBLbHA2WWFRY1B0b1lKdW9PTE9BaExyandCQzk4MkRPVTBPMXVwSE9oanoxVDNqb2NueTNSRkIwNEFTWkJZM184dVhQNjVqVFE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T15:02:00+00:00"
+    },
+    {
+      "title": "Think this stock market is in a bubble? These earnings numbers say otherwise.",
+      "link": "https://www.marketwatch.com/story/welcome-to-the-roaring-20s-heres-how-this-earnings-season-will-keep-the-bull-market-strong-4a70be72?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T15:01:00+00:00"
+    },
+    {
+      "title": "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel",
+      "link": "https://www.cnbc.com/2026/07/21/nvidia-vera-cpu-ai-amd-intel.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T15:00:02+00:00"
+    },
+    {
+      "title": "Novo Nordisk sues Eli Lilly, alleging misleading GLP-1 advertising",
+      "link": "https://www.cnbc.com/2026/07/21/novo-nordisk-sues-eli-lilly-glp-1-ads.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T14:54:22+00:00"
+    },
+    {
+      "title": "Why Paramount could win if it loses the Warner Bros. Discovery deal",
+      "link": "https://www.marketwatch.com/story/why-paramount-could-win-if-it-loses-the-warner-bros-discovery-deal-5f174963?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T14:53:00+00:00"
+    },
+    {
+      "title": "Wall Street is selling more rental homes, as buying ban takes effect",
+      "link": "https://www.cnbc.com/2026/07/21/wall-street-selling-homes-real-estate.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T14:49:07+00:00"
+    },
+    {
+      "title": "As the U.S.-Iran war heats up again, these parts of the stock market and economy could be affected",
+      "link": "https://www.cnbc.com/2026/07/21/iran-war-economy-markets-trump.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T14:37:08+00:00"
+    },
+    {
+      "title": "Tesla earnings are on deck, and investors will be looking to settle this major debate",
+      "link": "https://www.marketwatch.com/story/tesla-earnings-are-on-deck-and-investors-will-be-looking-to-settle-this-major-debate-f5a11d0e?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T14:32:00+00:00"
+    },
+    {
+      "title": "기껏 증시 띄워놓고 ‘초과이윤 재분배’ 논의… “韓 증시가 ‘가두리’인 이유” - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNEZZZnc1cEVDWThTaHZ1TnFmTWlrdnBVSnV1Y0RvM2FaZGdPLVRXeDJ1bXdYUG5CQ0NwRkk5dFpPdUxOMVVuXzlwekRsMnUyWVUtT2xCMWo5SjRsWW54cXBtTlpjd3djcmtsYkNSSXJwSHV3Nm5tcWdBU2FXVXdFWThRbTJOZ24x0gGcAUFVX3lxTE9VTUx6SlgyQ2x0WGtkYUEwcE5DTWI0bWozUzZfZ2xyLVE5eUpycWVxbXBPR2FLUS1yUEpnb1M1UnQ3blJpUnFhTVZiNncwLVBDV25uNGJHM0U1S1d0djBXSEZLMHJhX2xOYlBEVnlzV3pGejFBa0ZDa1hmWjN3ZVB4ZU51UFlIb3l4NEwzVWhrVzN0UHRpajVXNjNCMQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T14:28:00+00:00"
+    },
+    {
+      "title": "Property taxes are poised for major midterm elections ballot battles across many U.S. states",
+      "link": "https://www.cnbc.com/2026/07/21/property-taxes-midterm-elections-ballots-issues.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T14:15:35+00:00"
+    },
+    {
+      "title": "‘I have a $2,000 deductible’: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
+      "link": "https://www.marketwatch.com/story/i-have-a-2-000-deductible-i-reported-a-cracked-windshield-on-my-hertz-rental-car-can-they-charge-me-1e07d28a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T14:15:00+00:00"
+    },
+    {
+      "title": "Do I use $300,000 of my $1.2 million retirement savings so my daughter can attend her dream college?",
+      "link": "https://www.marketwatch.com/story/do-i-use-300-000-of-my-1-2-million-retirement-savings-so-my-daughter-can-attend-her-dream-college-50842e7a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T14:15:00+00:00"
+    },
+    {
+      "title": "반도체주 반등에 뉴욕증시 강세… 나스닥 0.7% 상승 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ1lGWVBRckw3Y2JoUExHS09hMXZWTVpqZGRVckM0SGpKUGlaZFJULXN5bDItUWJXUUhuZE4zYm11R0I5WU90cHdITXkyLUpJRVlzaFJnSDlGSjRTZWJhbDlUbU9NNVJxdGJUV1NVbml3RWJjbHU1ZUc1bjBNWHVPM2MxdzZ0WVVjZG9WeXdYU0FZMlZ6b2RLX0l1X1prd9IBsgFBVV95cUxOLVhncWxQSUJuR2N2d042REcyV3Rha0s1TGpaTzFYZnFZX2N0TDJjRlQxaTl5Y19ROC1kbmFZQWVtcnRrX0hOdW05bTlhbkhBLWI1NG42WVFaQVFERFFzeXZ3d1JFWHlwWXVkV25SRk01eG1wSElDYWtISVJtOWpVcGJITllqLW5MUDh1U2NaNURWTUFMNk5VM21wWDJjSXpKNmtzUjBpMXRaeWoyc1dCd1ln?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T14:14:00+00:00"
+    },
+    {
+      "title": "[속보]뉴욕증시, 반도체 반등에 상승 출발…나스닥 1.04%↑ - 문화일보",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6YWdJQ1NuMjlWTnh3aE85NVhobVVHYkIteUc3aUJzal9WUUlUeGdIUURwT19uOUNxdW5ZYURHZC1wbW50ZldvZUhqS0dZSHRF?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T14:13:33+00:00"
+    },
+    {
+      "title": "Samsung Electronics shares rise as robotics move highlights push into physical AI",
+      "link": "https://www.cnbc.com/2026/07/21/samsung-electronics-sets-up-robotics-unit-amid-push-into-physical-ai-.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T14:04:35+00:00"
+    },
+    {
+      "title": "Treasury yields edge higher as investors map geopolitical risks",
+      "link": "https://www.cnbc.com/2026/07/21/treasury-yields-bonds-iran-us-politics.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T13:59:42+00:00"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 저가 매수에 상승 출발 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJcUc4My1iZjZMTlpILThWUTctT3FGR2llajY2dzJXeVhDUmpQbHJLUXR5dkpacl9McjFuSGtYNElpTjdMclJhaGtqNmR2bHFiNXExVFVxcGYwbWhCMUYtTmNrT2ZUbFpfb3BpanFvZHY?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T13:56:54+00:00"
+    },
+    {
+      "title": "The co-founder of Stocktwits dumped chip stocks before their 20% slide. Where he’s putting his money now.",
+      "link": "https://www.marketwatch.com/story/the-co-founder-of-stocktwits-dumped-chip-stocks-before-a-20-slide-where-hes-putting-his-money-now-07e8724f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T13:50:00+00:00"
+    },
+    {
+      "title": "How to deal with a micromanager",
+      "link": "https://www.marketwatch.com/story/how-to-successfully-deal-with-a-micromanaging-boss-d9151b50?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T13:49:00+00:00"
+    },
+    {
+      "title": "Greer hints new Trump tariffs coming on dozens of countries: 'Expect action soon'",
+      "link": "https://www.cnbc.com/2026/07/21/trump-trade-tariffs-greer-section-301.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T13:38:59+00:00"
+    },
+    {
+      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+      "link": "https://www.cnbc.com/2026/07/21/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T13:32:34+00:00"
+    },
+    {
+      "title": "Americans are skipping lettuce and salads as investigation into cyclospora outbreak continues",
+      "link": "https://www.marketwatch.com/story/americans-are-skipping-lettuce-and-salads-as-investigation-into-cyclospora-outbreak-continues-562499b6?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T13:32:00+00:00"
+    },
+    {
+      "title": "Time to buy the dip in momentum stocks after a punishing July drawdown? Here’s what history tells us.",
+      "link": "https://www.marketwatch.com/story/time-to-buy-the-dip-in-momentum-stocks-after-a-punishing-july-drawdown-heres-what-history-tells-us-bc5c0c4e?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T13:25:00+00:00"
+    }
+  ],
+  "pages": [
+    {
+      "key": "dashboard",
+      "label": "Dashboard",
+      "href": "/index.html"
+    },
+    {
+      "key": "macro",
+      "label": "Macroeconomics",
+      "href": "/macro/index.html"
+    },
+    {
+      "key": "news",
+      "label": "News",
+      "href": "/news/index.html"
+    },
+    {
+      "key": "stock",
+      "label": "Stock",
+      "href": "/stock/index.html"
+    },
+    {
+      "key": "financials",
+      "label": "Financial Statements",
+      "href": "/financials/index.html"
+    },
+    {
+      "key": "ta",
+      "label": "Technical Analysis",
+      "href": "/ta/index.html"
+    },
+    {
+      "key": "asset",
+      "label": "Asset",
+      "href": "/asset/index.html"
+    },
+    {
+      "key": "portfolio",
+      "label": "Portfolio",
+      "href": "/portfolio/index.html"
+    },
+    {
+      "key": "settings",
+      "label": "Settings",
+      "href": "/settings/index.html"
+    }
+  ]
+}

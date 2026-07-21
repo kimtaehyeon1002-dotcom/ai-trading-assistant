@@ -1,0 +1,17 @@
+{
+  "code": "009150",
+  "name": "삼성전기",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 1310000.0,
+    "change_pct": 2.75,
+    "volume": 649462,
+    "amount": 833967515000.0,
+    "marcap": 97848741760000.0,
+    "as_of_iso": "2026-07-21T16:13:06.415619+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:009150",
+  "related_news": []
+}

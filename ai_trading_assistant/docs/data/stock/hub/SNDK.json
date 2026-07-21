@@ -1,0 +1,17 @@
+{
+  "code": "SNDK",
+  "name": "Sandisk",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 1554.8399658203125,
+    "change_pct": 11.78,
+    "volume": 7672401,
+    "amount": 11929355708.599731,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.416926+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "SNDK",
+  "related_news": []
+}

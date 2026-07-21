@@ -1,0 +1,17 @@
+{
+  "code": "DHR",
+  "name": "Danaher Corporation",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 173.39999389648438,
+    "change_pct": -13.78,
+    "volume": 14694268,
+    "amount": 2547985981.5133057,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.417301+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "DHR",
+  "related_news": []
+}

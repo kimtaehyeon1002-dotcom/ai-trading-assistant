@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark" data-updown="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asset · AI Trading Assistant</title>
+  <link rel="stylesheet" href="../static/css/tokens.css">
+  <link rel="stylesheet" href="../static/css/base_v2.css">
+  <link rel="stylesheet" href="../static/css/components.css">
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
+</head>
+<body class="v2" data-root="..">
+  <nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav">
+    <a class="v2-nav__item" href="../index.html"
+>Dashboard</a>
+    <a class="v2-nav__item" href="../macro/index.html"
+>Macroeconomics</a>
+    <a class="v2-nav__item" href="../news/index.html"
+>News</a>
+    <a class="v2-nav__item" href="../stock/index.html"
+>Stock</a>
+    <a class="v2-nav__item" href="../financials/index.html"
+>Financial Statements</a>
+    <a class="v2-nav__item" href="../ta/index.html"
+>Technical Analysis</a>
+    <div class="v2-nav__divider"></div>
+    <a class="v2-nav__item v2-nav__item--locked" href="../asset/index.html"
+aria-current="page">
+      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+    <a class="v2-nav__item v2-nav__item--locked" href="../portfolio/index.html"
+>
+      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+  </div>
+  <div class="v2-sidebar__footer">
+    <a class="v2-nav__item" href="../settings/index.html"
+>Settings</a>
+    <div class="v2-sidebar__version">AI Trading Assistant</div>
+  </div>
+</nav>
+
+  <header class="v2-header">
+  <div class="v2-header__context">
+    Asset
+  </div>
+  <div class="v2-header__search" role="search">
+    <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
+           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+    <kbd class="v2-header__search-kbd">Ctrl K</kbd>
+    <div class="v2-search-results" data-search-results hidden></div>
+  </div>
+  <div class="v2-header__clock"></div>
+  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+</header>
+
+  <main class="v2-main">
+    <div class="v2-content">
+
+<div id="asset-gate-overlay" class="v2-gate-overlay">
+  <div class="v2-gate-modal" role="dialog" aria-modal="true" aria-labelledby="asset-gate-title">
+    <div class="v2-gate-modal__icon" aria-hidden="true">🔒</div>
+    <h2 id="asset-gate-title" class="v2-gate-modal__title">Asset 잠금 해제</h2>
+    <p class="v2-gate-modal__desc">자산 데이터는 비밀번호 확인 후 표시됩니다</p>
+    <form id="asset-gate-form" autocomplete="off">
+      <input type="password" id="asset-gate-input" class="v2-gate-modal__input" placeholder="••••••••" aria-label="비밀번호">
+      <button type="submit" class="v2-btn v2-btn--primary v2-gate-modal__submit">잠금 해제</button>
+    </form>
+    <p id="asset-gate-error" class="v2-gate-modal__error" hidden>비밀번호가 일치하지 않습니다. 다시 입력해 주세요.</p>
+    <p class="v2-gate-modal__notice">
+      이 잠금은 열람을 가리는 로컬 프라이버시 가드입니다.<br>
+      서버 인증이 아니므로 계좌 보안 수단이 아닙니다.<br>
+      해제 상태는 이 브라우저 세션 동안 유지됩니다.
+    </p>
+  </div>
+</div>
+
+
+<div id="asset-content-wrap" hidden>
+  <div class="v2-asset-utility">
+    <span>인증됨 · 이 세션 동안 유지</span>
+    <div class="v2-asset-utility__actions">
+      <button type="button" class="v2-mask-toggle" id="asset-mask-toggle" aria-pressed="false">금액 가리기</button>
+      <button type="button" class="v2-lock-btn" id="asset-lock-btn">즉시 잠금</button>
+      <span id="asset-generated-at">2026-07-22 01:14 KST</span>
+    </div>
+  </div>
+  <div id="asset-content" class="v2-fs-groups"></div>
+</div>
+
+    </div>
+  </main>
+  <div class="v2-panel-slot" id="panel-slot"></div>
+  <script src="../static/js/store.js" defer></script>
+  <script src="../static/js/stockhub.js" defer></script>
+  <script src="../static/js/search.js" defer></script>
+<script src="../static/js/asset-gate.js" defer></script>
+<script src="../static/js/asset.js" defer></script>
+</body>
+</html>

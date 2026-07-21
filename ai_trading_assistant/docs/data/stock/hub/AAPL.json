@@ -1,0 +1,17 @@
+{
+  "code": "AAPL",
+  "name": "Apple Inc.",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 329.239990234375,
+    "change_pct": 0.81,
+    "volume": 16107430,
+    "amount": 5303210095.900879,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.417109+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "AAPL",
+  "related_news": []
+}

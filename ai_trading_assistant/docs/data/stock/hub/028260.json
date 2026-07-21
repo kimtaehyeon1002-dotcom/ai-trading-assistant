@@ -1,0 +1,17 @@
+{
+  "code": "028260",
+  "name": "삼성물산",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 343500.0,
+    "change_pct": 8.19,
+    "volume": 654894,
+    "amount": 220435098156.0,
+    "marcap": 55704564073500.0,
+    "as_of_iso": "2026-07-21T16:13:06.415856+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:028260",
+  "related_news": []
+}

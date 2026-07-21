@@ -1,0 +1,116 @@
+{
+  "code": "JPM",
+  "name": "JPMorgan Chase",
+  "market": "NYSE",
+  "as_of": "2026-07-21T16:13:49.534787+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 2.75,
+    "cagr_pct": 12.34,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 121649000000
+      },
+      {
+        "year": "2022",
+        "value": 128695000000
+      },
+      {
+        "year": "2023",
+        "value": 158104000000
+      },
+      {
+        "year": "2024",
+        "value": 177556000000
+      },
+      {
+        "year": "2025",
+        "value": 182447000000
+      }
+    ]
+  },
+  "profitability": null,
+  "stability": {
+    "latest_year": "2025",
+    "value": 1120.87,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2021",
+        "value": 1172.77
+      },
+      {
+        "year": "2022",
+        "value": 1153.97
+      },
+      {
+        "year": "2023",
+        "value": 1081.96
+      },
+      {
+        "year": "2024",
+        "value": 1061.05
+      },
+      {
+        "year": "2025",
+        "value": 1120.87
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": -147782000000,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2016",
+        "value": 21884000000
+      },
+      {
+        "year": "2017",
+        "value": -10827000000
+      },
+      {
+        "year": "2018",
+        "value": 15614000000
+      },
+      {
+        "year": "2019",
+        "value": 4092000000
+      },
+      {
+        "year": "2020",
+        "value": -79910000000
+      },
+      {
+        "year": "2021",
+        "value": 78084000000
+      },
+      {
+        "year": "2022",
+        "value": 107119000000
+      },
+      {
+        "year": "2023",
+        "value": 12974000000
+      },
+      {
+        "year": "2024",
+        "value": -42012000000
+      },
+      {
+        "year": "2025",
+        "value": -147782000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 20.02,
+    "per": 17.2,
+    "note": null
+  }
+}

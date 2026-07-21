@@ -1,0 +1,17 @@
+{
+  "code": "003280",
+  "name": "흥아해운",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 1870.0,
+    "change_pct": 2.69,
+    "volume": 58643802,
+    "amount": 114860686536.0,
+    "marcap": 449594561130.0,
+    "as_of_iso": "2026-07-21T16:13:06.416787+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:003280",
+  "related_news": []
+}

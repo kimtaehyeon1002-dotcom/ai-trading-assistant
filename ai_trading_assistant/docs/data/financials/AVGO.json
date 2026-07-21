@@ -1,0 +1,143 @@
+{
+  "code": "AVGO",
+  "name": "Broadcom",
+  "market": "US",
+  "as_of": "2026-07-21T16:13:35.251253+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 23.87,
+    "cagr_pct": 24.38,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 27450000000
+      },
+      {
+        "year": "2022",
+        "value": 33203000000
+      },
+      {
+        "year": "2023",
+        "value": 35819000000
+      },
+      {
+        "year": "2024",
+        "value": 51574000000
+      },
+      {
+        "year": "2025",
+        "value": 63887000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 39.89,
+    "own_5y_avg": 28.36,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 31.03
+      },
+      {
+        "year": "2022",
+        "value": 42.84
+      },
+      {
+        "year": "2023",
+        "value": 45.25
+      },
+      {
+        "year": "2024",
+        "value": 26.1
+      },
+      {
+        "year": "2025",
+        "value": 39.89
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 110.47,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2021",
+        "value": 202.63
+      },
+      {
+        "year": "2022",
+        "value": 222.55
+      },
+      {
+        "year": "2023",
+        "value": 203.74
+      },
+      {
+        "year": "2024",
+        "value": 144.75
+      },
+      {
+        "year": "2025",
+        "value": 110.47
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 26914000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 2688000000
+      },
+      {
+        "year": "2017",
+        "value": 5482000000
+      },
+      {
+        "year": "2018",
+        "value": 8245000000
+      },
+      {
+        "year": "2019",
+        "value": 9265000000
+      },
+      {
+        "year": "2020",
+        "value": 11598000000
+      },
+      {
+        "year": "2021",
+        "value": 13321000000
+      },
+      {
+        "year": "2022",
+        "value": 16312000000
+      },
+      {
+        "year": "2023",
+        "value": 17633000000
+      },
+      {
+        "year": "2024",
+        "value": 19414000000
+      },
+      {
+        "year": "2025",
+        "value": 26914000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 4.77,
+    "per": 81.04,
+    "note": null
+  }
+}

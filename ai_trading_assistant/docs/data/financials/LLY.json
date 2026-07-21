@@ -1,0 +1,90 @@
+{
+  "code": "LLY",
+  "name": "Eli Lilly",
+  "market": "NYSE",
+  "as_of": "2026-07-21T16:13:47.972356+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 44.7,
+    "cagr_pct": 31.69,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 28318400000
+      },
+      {
+        "year": "2022",
+        "value": 28541400000
+      },
+      {
+        "year": "2023",
+        "value": 34124000000
+      },
+      {
+        "year": "2024",
+        "value": 45043000000
+      },
+      {
+        "year": "2025",
+        "value": 65179000000
+      }
+    ]
+  },
+  "profitability": null,
+  "stability": null,
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 16813000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 4851000000
+      },
+      {
+        "year": "2017",
+        "value": 5615600000
+      },
+      {
+        "year": "2018",
+        "value": 5524500000
+      },
+      {
+        "year": "2019",
+        "value": 4836600000
+      },
+      {
+        "year": "2020",
+        "value": 6499600000
+      },
+      {
+        "year": "2021",
+        "value": 7365900000
+      },
+      {
+        "year": "2022",
+        "value": 7585700000
+      },
+      {
+        "year": "2023",
+        "value": 4240000000
+      },
+      {
+        "year": "2024",
+        "value": 8818000000
+      },
+      {
+        "year": "2025",
+        "value": 16813000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 22.95,
+    "per": 50.58,
+    "note": null
+  }
+}

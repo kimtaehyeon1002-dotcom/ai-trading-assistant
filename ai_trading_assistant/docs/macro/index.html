@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark" data-updown="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Macroeconomics · AI Trading Assistant</title>
+  <link rel="stylesheet" href="../static/css/tokens.css">
+  <link rel="stylesheet" href="../static/css/base_v2.css">
+  <link rel="stylesheet" href="../static/css/components.css">
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
+</head>
+<body class="v2" data-root="..">
+  <nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav">
+    <a class="v2-nav__item" href="../index.html"
+>Dashboard</a>
+    <a class="v2-nav__item" href="../macro/index.html"
+aria-current="page">Macroeconomics</a>
+    <a class="v2-nav__item" href="../news/index.html"
+>News</a>
+    <a class="v2-nav__item" href="../stock/index.html"
+>Stock</a>
+    <a class="v2-nav__item" href="../financials/index.html"
+>Financial Statements</a>
+    <a class="v2-nav__item" href="../ta/index.html"
+>Technical Analysis</a>
+    <div class="v2-nav__divider"></div>
+    <a class="v2-nav__item v2-nav__item--locked" href="../asset/index.html"
+>
+      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+    <a class="v2-nav__item v2-nav__item--locked" href="../portfolio/index.html"
+>
+      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+  </div>
+  <div class="v2-sidebar__footer">
+    <a class="v2-nav__item" href="../settings/index.html"
+>Settings</a>
+    <div class="v2-sidebar__version">AI Trading Assistant</div>
+  </div>
+</nav>
+
+  <header class="v2-header">
+  <div class="v2-header__context">
+    Macroeconomics
+  </div>
+  <div class="v2-header__search" role="search">
+    <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
+           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+    <kbd class="v2-header__search-kbd">Ctrl K</kbd>
+    <div class="v2-search-results" data-search-results hidden></div>
+  </div>
+  <div class="v2-header__clock"></div>
+  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+</header>
+
+  <main class="v2-main">
+    <div class="v2-content">
+
+<div class="v2-card v2-card--standard v2-span-6 " id="macro-btc">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">비트코인(KRW)</h3>
+<span class="v2-card__meta">2026-07-22 01:14 KST</span>  </div>
+  <div class="v2-card__body" data-asof="2026-07-21T16:14:44.585228+00:00" data-fresh-max-min="120" data-stale-min-min="180">
+    <div class="v2-ta-metric__value v2-freshness-affected">97,449,000원</div>
+    <div class="v2-updown up">▲ +2.31%</div>
+    <div class="v2-macro-item__row"><span class="k">김치 프리미엄</span><span class="v">-1.02%</span></div>
+  </div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-6 " id="macro-base-rate">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">한국은행 기준금리</h3>
+  </div>
+  <div class="v2-card__body"><p class="v2-body">ECOS_API_KEY 미설정 — 기준금리 수집이 비활성화되어 있습니다.</p></div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-12 " id="macro-indicators">
+    <div class="v2-card__header"><h3 class="v2-card__title">경제지표</h3></div>
+  <div class="v2-card__body"><p class="v2-body">FRED_API_KEY 미설정 — 경제지표 수집이 비활성화되어 있습니다.</p></div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-12 " id="macro-calendar">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">경제일정</h3>
+    <span class="v2-card__meta">2026-07-22 01:14 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-calendar-row" data-event-at="2026-01-28T19:00:00+00:00">
+      <span class="v2-calendar-row__date">2026-01-28</span>
+      <span class="v2-calendar-row__label">FOMC 금리 결정</span>
+      <span class="v2-event-badge v2-event-badge--pre">발표전</span>
+      <span class="v2-event-badge v2-event-badge--post">발표됨</span>
+    </div>
+    <div class="v2-calendar-row" data-event-at="2026-03-18T18:00:00+00:00">
+      <span class="v2-calendar-row__date">2026-03-18</span>
+      <span class="v2-calendar-row__label">FOMC 금리 결정 (경제전망 포함)</span>
+      <span class="v2-event-badge v2-event-badge--pre">발표전</span>
+      <span class="v2-event-badge v2-event-badge--post">발표됨</span>
+    </div>
+    <div class="v2-calendar-row" data-event-at="2026-04-29T18:00:00+00:00">
+      <span class="v2-calendar-row__date">2026-04-29</span>
+      <span class="v2-calendar-row__label">FOMC 금리 결정</span>
+      <span class="v2-event-badge v2-event-badge--pre">발표전</span>
+      <span class="v2-event-badge v2-event-badge--post">발표됨</span>
+    </div>
+    <div class="v2-calendar-row" data-event-at="2026-06-17T18:00:00+00:00">
+      <span class="v2-calendar-row__date">2026-06-17</span>
+      <span class="v2-calendar-row__label">FOMC 금리 결정 (경제전망 포함)</span>
+      <span class="v2-event-badge v2-event-badge--pre">발표전</span>
+      <span class="v2-event-badge v2-event-badge--post">발표됨</span>
+    </div>
+    <div class="v2-calendar-row" data-event-at="2026-07-29T18:00:00+00:00">
+      <span class="v2-calendar-row__date">2026-07-29</span>
+      <span class="v2-calendar-row__label">FOMC 금리 결정</span>
+      <span class="v2-event-badge v2-event-badge--pre">발표전</span>
+      <span class="v2-event-badge v2-event-badge--post">발표됨</span>
+    </div>
+    <div class="v2-calendar-row" data-event-at="2026-09-16T18:00:00+00:00">
+      <span class="v2-calendar-row__date">2026-09-16</span>
+      <span class="v2-calendar-row__label">FOMC 금리 결정 (경제전망 포함)</span>
+      <span class="v2-event-badge v2-event-badge--pre">발표전</span>
+      <span class="v2-event-badge v2-event-badge--post">발표됨</span>
+    </div>
+    <div class="v2-calendar-row" data-event-at="2026-10-28T18:00:00+00:00">
+      <span class="v2-calendar-row__date">2026-10-28</span>
+      <span class="v2-calendar-row__label">FOMC 금리 결정</span>
+      <span class="v2-event-badge v2-event-badge--pre">발표전</span>
+      <span class="v2-event-badge v2-event-badge--post">발표됨</span>
+    </div>
+    <div class="v2-calendar-row" data-event-at="2026-12-09T19:00:00+00:00">
+      <span class="v2-calendar-row__date">2026-12-09</span>
+      <span class="v2-calendar-row__label">FOMC 금리 결정 (경제전망 포함)</span>
+      <span class="v2-event-badge v2-event-badge--pre">발표전</span>
+      <span class="v2-event-badge v2-event-badge--post">발표됨</span>
+    </div>
+  </div>
+
+</div>
+
+    </div>
+  </main>
+  <div class="v2-panel-slot" id="panel-slot"></div>
+  <script src="../static/js/store.js" defer></script>
+  <script src="../static/js/stockhub.js" defer></script>
+  <script src="../static/js/search.js" defer></script>
+<script src="../static/js/freshness.js" defer></script>
+</body>
+</html>

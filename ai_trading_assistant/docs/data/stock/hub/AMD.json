@@ -1,0 +1,17 @@
+{
+  "code": "AMD",
+  "name": "Advanced Micro Devices",
+  "market": "US",
+  "theme": "반도체",
+  "quote": {
+    "close": 534.280029296875,
+    "change_pct": 6.1,
+    "volume": 12996109,
+    "amount": 6943561497.265381,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T16:13:06.417018+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "AMD",
+  "related_news": []
+}

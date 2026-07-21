@@ -1,0 +1,443 @@
+/*
+ * components.css — 카드/배지/버튼/타임라인/신선도 컴포넌트 스타일.
+ * design/00 §8(카드 아나토미)·§9-2(신선도). 색은 전부 tokens.css 시맨틱 변수만 참조(hex 금지, R6).
+ * 로드 순서: tokens.css → base_v2.css → components.css(이 파일).
+ */
+
+/* ── 카드 공통(design/00 §8-1) ── */
+.v2-card {
+  background: var(--surface-card);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-card);
+  display: flex;
+  flex-direction: column;
+}
+.v2-card--hero { padding: var(--space-6); min-height: 320px; }
+.v2-card--standard { padding: var(--space-5); min-height: 220px; }
+.v2-card--planned { border-style: dashed; } /* design/07 §1-4 PLANNED 상태 유일 시각 신호 */
+
+.v2-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+.v2-card__title { font-size: var(--type-h3-size); font-weight: var(--type-h3-weight); line-height: var(--type-h3-lh); margin: 0; color: var(--text-primary); }
+.v2-card__meta { font-size: var(--type-caption-size); color: var(--text-tertiary); white-space: nowrap; }
+.v2-card__body { flex: 1; }
+.v2-card__footer {
+  margin-top: var(--space-4);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--border-subtle);
+  font-size: 13px;
+  color: var(--text-tertiary);
+}
+.v2-card--clickable { cursor: pointer; transition: background var(--motion-fast) var(--motion-easing); }
+.v2-card--clickable:hover { background: var(--surface-card-hover); }
+
+/* ── 배지(design/00 §9-2, P2 — 상태는 색이 아닌 텍스트+보더로) ── */
+.v2-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: var(--radius-badge);
+  font-size: var(--type-overline-size);
+  border: 1px solid var(--border-default);
+  color: var(--text-secondary);
+  background: transparent;
+  white-space: nowrap;
+}
+
+/* 신선도 배지 — freshness.js가 카드 루트에 부여하는 data-freshness 값에 따라 표시된다 */
+.v2-freshness-badge { display: none; }
+[data-freshness="delayed"] .v2-freshness-badge--delayed {
+  display: inline-flex;
+  border-color: var(--accent-yellow);
+  color: var(--accent-yellow);
+}
+[data-freshness="stale"] .v2-freshness-badge--stale {
+  display: inline-flex;
+  border-color: transparent;
+  background: var(--freshness-stale-badge);
+  color: var(--accent-yellow);
+}
+[data-freshness="stale"] .v2-freshness-affected { color: var(--freshness-stale-text) !important; }
+
+/* ── 등락(등락색은 반드시 화살표 병행 — R4) ── */
+.v2-updown.up { color: var(--market-up); }
+.v2-updown.down { color: var(--market-down); }
+.v2-updown.flat { color: var(--market-flat); }
+
+/* ── 버튼 ── */
+.v2-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-control);
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing);
+}
+.v2-btn--primary { background: var(--brand-primary); color: var(--text-inverse); }
+.v2-btn--primary:hover { background: var(--brand-primary-hover); }
+.v2-btn--ghost { background: transparent; color: var(--text-secondary); }
+.v2-btn--ghost:hover { color: var(--brand-primary-hover); }
+
+/* ── Hero 통계(design/00 §3-2 num-display/num-lg) ── */
+.v2-stat-row { display: flex; gap: var(--space-12); margin-top: var(--space-6); flex-wrap: wrap; }
+.v2-stat { display: flex; flex-direction: column; gap: var(--space-1); }
+.v2-stat__label { font-size: var(--type-caption-size); color: var(--text-secondary); }
+.v2-stat__value { font-family: var(--font-num); font-variant-numeric: tabular-nums; color: var(--text-primary); }
+.v2-stat__value--display { font-size: var(--type-num-display-size); font-weight: var(--type-num-display-weight); line-height: var(--type-num-display-lh); }
+.v2-stat__value--lg { font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); line-height: var(--type-num-lg-lh); }
+.v2-cta-row { display: flex; align-items: center; gap: var(--space-2); margin-top: var(--space-6); }
+
+/* ── TA-PREVIEW 지표 그리드 ── */
+.v2-ta-metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-6); margin: var(--space-2) 0 var(--space-4); }
+.v2-ta-metric__label { font-size: var(--type-caption-size); color: var(--text-secondary); margin-bottom: var(--space-1); }
+.v2-ta-metric__value { font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.v2-ta-metric__sub { font-size: var(--type-caption-size); color: var(--text-secondary); margin-top: var(--space-1); }
+.v2-ta-spark { display: block; margin-top: var(--space-2); }
+
+/* ── PLANNED/IN-DEV 고스트 콘텐츠 ── */
+.v2-ghost { color: var(--text-tertiary); font-size: var(--type-body-size); line-height: var(--type-body-lh); }
+.v2-ghost__example { color: var(--text-tertiary); font-size: 12px; }
+
+/* ── Hero 헤더 액션(design/01 §3-2) ── */
+.v2-hero__header { align-items: center; }
+.v2-hero__header-actions { display: flex; align-items: center; gap: var(--space-3); }
+.v2-tile__value--empty { color: var(--text-tertiary); }
+
+/* ── Hero 3열 본문(design/01 §3-2) ── */
+.v2-hero-cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-6); margin-top: var(--space-6); }
+.v2-hero-col { padding-left: var(--space-6); border-left: 1px solid var(--border-subtle); }
+.v2-hero-col:first-child { padding-left: 0; border-left: none; }
+.v2-hero-headline {
+  display: flex; align-items: center; gap: var(--space-3);
+  padding-left: var(--space-3); border-left: 3px solid var(--accent-violet);
+  font-size: var(--type-h2-size); font-weight: 700; line-height: var(--type-h2-lh); color: var(--text-primary);
+}
+.v2-hero-index { margin-bottom: var(--space-3); }
+.v2-hero-index__label { font-size: var(--type-caption-size); color: var(--text-secondary); }
+.v2-hero-index__value { font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.v2-hero-index-row { display: flex; justify-content: space-between; align-items: baseline; font-size: var(--type-num-md-size); padding: var(--space-1) 0; }
+.v2-hero-news-row { display: flex; gap: var(--space-2); padding: var(--space-1) 0; font-size: var(--type-body-size); }
+.v2-hero-news-row .n { color: var(--text-tertiary); font-size: var(--type-overline-size); flex-shrink: 0; width: 16px; }
+.v2-hero-news-row .t { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text-primary); }
+.v2-hero-news-row .tm { color: var(--text-tertiary); font-size: var(--type-caption-size); flex-shrink: 0; }
+
+/* ── 지수 타일 2x2 그리드(design/01 §3-3·§3-4, 십자 디바이더만·중첩 표면 금지) ── */
+.v2-tile-grid { display: grid; grid-template-columns: 1fr 1fr; }
+.v2-tile { padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--border-subtle); }
+.v2-tile:nth-child(odd) { border-right: 1px solid var(--border-subtle); }
+.v2-tile:nth-child(3), .v2-tile:nth-child(4) { border-bottom: none; }
+.v2-tile__label { font-size: var(--type-caption-size); color: var(--text-secondary); margin-bottom: var(--space-1); }
+.v2-tile__value { font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.v2-tile__change { font-size: 13px; font-weight: 500; margin-top: 2px; }
+
+/* ── 뉴스 리스트 행(design/01 §3-5) ── */
+.v2-news-row { display: flex; align-items: baseline; gap: var(--space-3); padding: var(--space-2) 0; border-bottom: 1px solid var(--border-subtle); }
+.v2-news-row:last-child { border-bottom: none; }
+.v2-news-row__title { flex: 1; font-size: var(--type-body-size); color: var(--text-primary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.v2-news-row__time { font-size: var(--type-caption-size); color: var(--text-tertiary); flex-shrink: 0; }
+
+/* ── 일정 행(design/01 §3-6) ── */
+.v2-sched-row { display: flex; align-items: center; gap: var(--space-3); height: 40px; }
+.v2-sched-row__time { font-size: var(--type-num-sm-size); font-variant-numeric: tabular-nums; color: var(--text-secondary); width: 48px; text-align: right; flex-shrink: 0; }
+.v2-sched-row__label { flex: 1; font-size: var(--type-body-size); color: var(--text-primary); }
+
+/* ── 탭 바(design/03 §3-1) ── */
+.v2-tabbar { display: flex; align-items: center; gap: var(--space-2); border-bottom: 1px solid var(--border-subtle); padding-bottom: 0; margin-bottom: var(--space-4); }
+.v2-tabbar__meta { margin-left: auto; }
+.v2-tabbar__btn {
+  appearance: none; background: transparent; border: none; cursor: pointer;
+  height: 40px; padding: 0 var(--space-4); border-radius: var(--radius-control) var(--radius-control) 0 0;
+  font-size: var(--type-body-size); font-weight: 500; color: var(--text-secondary);
+  border-bottom: 2px solid transparent; font-family: inherit;
+  transition: color var(--motion-fast) var(--motion-easing), background var(--motion-fast) var(--motion-easing);
+}
+.v2-tabbar__btn:hover { background: var(--surface-card-hover); color: var(--text-primary); }
+.v2-tabbar__btn[aria-current="page"] { color: var(--text-primary); font-weight: 600; border-bottom-color: var(--brand-primary); }
+.v2-tabbar__count { font-size: var(--type-overline-size); color: var(--text-tertiary); margin-left: var(--space-1); }
+
+/* ── 중요도 게이지(design/03 §1-4 — 명도 사다리, 색 아님) ── */
+.v2-level-gauge { display: inline-flex; align-items: flex-end; gap: 2px; width: 13px; height: 12px; flex-shrink: 0; }
+.v2-level-gauge__bar { width: 3px; border-radius: 1px; background: var(--border-subtle); }
+.v2-level-gauge__bar:nth-child(1) { height: 4px; }
+.v2-level-gauge__bar:nth-child(2) { height: 8px; }
+.v2-level-gauge__bar:nth-child(3) { height: 12px; }
+.lvl-l1 .v2-level-gauge__bar:nth-child(1) { background: var(--text-tertiary); }
+.lvl-l2 .v2-level-gauge__bar:nth-child(1),
+.lvl-l2 .v2-level-gauge__bar:nth-child(2) { background: var(--text-secondary); }
+.lvl-l3 .v2-level-gauge__bar { background: var(--text-primary); }
+
+/* ── 뉴스 리스트 행(design/03 §3-2) ── */
+.v2-news-list { display: flex; flex-direction: column; }
+.v2-news-list-row {
+  display: flex; align-items: baseline; gap: var(--space-3);
+  padding: var(--space-3) 0; border-bottom: 1px solid var(--border-subtle);
+  position: relative;
+}
+.v2-news-list-row:last-child { border-bottom: none; }
+.lvl-l3.v2-news-list-row { padding-left: var(--space-3); border-left: 2px solid var(--text-primary); }
+.v2-news-list-row__headline { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lvl-l3 .v2-news-list-row__headline { font-size: 15px; font-weight: 600; color: var(--text-primary); }
+.lvl-l2 .v2-news-list-row__headline { font-size: var(--type-body-size); font-weight: 500; color: var(--text-primary); }
+.lvl-l1 .v2-news-list-row__headline { font-size: var(--type-body-size); font-weight: 400; color: var(--text-secondary); }
+.v2-news-list-row__meta { display: flex; flex-direction: column; align-items: flex-end; width: 148px; flex-shrink: 0; }
+.v2-news-list-row__source { font-size: var(--type-caption-size); color: var(--text-tertiary); }
+.v2-news-list-row__time { font-size: var(--type-caption-size); font-variant-numeric: tabular-nums; color: var(--text-tertiary); }
+.v2-tag { display: inline-flex; align-items: center; height: 24px; padding: 0 var(--space-2); border-radius: var(--radius-badge); border: 1px solid var(--border-default); color: var(--text-secondary); font-size: var(--type-caption-size); margin-right: var(--space-1); }
+
+/* ── 거시지표 행(design/02 §3, design/20 Phase 6) ── */
+.v2-macro-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-4); }
+.v2-macro-item { padding: var(--space-4); border: 1px solid var(--border-subtle); border-radius: var(--radius-inner); }
+.v2-macro-item__label { font-size: var(--type-caption-size); color: var(--text-secondary); margin-bottom: var(--space-1); }
+.v2-macro-item__value { font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.v2-macro-item__row { display: flex; justify-content: space-between; align-items: baseline; margin-top: var(--space-2); font-size: var(--type-caption-size); }
+.v2-macro-item__row .k { color: var(--text-tertiary); }
+.v2-macro-item__row .v { color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+.v2-macro-item__consensus { margin-top: var(--space-2); font-size: var(--type-caption-size); color: var(--text-tertiary); }
+
+/* 발표 전/후(design/20 Phase 6 DoD 3) — freshness.js가 부여하는 data-event-state 소비 */
+.v2-event-badge { display: inline-flex; align-items: center; height: 20px; padding: 0 var(--space-2); border-radius: var(--radius-badge); font-size: var(--type-caption-size); border: 1px solid var(--border-default); color: var(--text-tertiary); }
+[data-event-state="post"] .v2-event-badge--pre { display: none; }
+[data-event-state="pre"] .v2-event-badge--post { display: none; }
+[data-event-state="pre"] .v2-event-badge--pre { display: inline-flex; }
+[data-event-state="post"] .v2-event-badge--post { display: inline-flex; color: var(--text-secondary); }
+.v2-calendar-row { display: flex; align-items: center; gap: var(--space-3); height: 40px; border-bottom: 1px solid var(--border-subtle); }
+.v2-calendar-row:last-child { border-bottom: none; }
+.v2-calendar-row__date { font-size: var(--type-num-sm-size); font-variant-numeric: tabular-nums; color: var(--text-secondary); width: 88px; flex-shrink: 0; }
+.v2-calendar-row__label { flex: 1; font-size: var(--type-body-size); color: var(--text-primary); }
+
+/* ── TOP30 랭킹 테이블(design/04, design/21 §7-1) ── */
+.v2-rank-table { width: 100%; border-collapse: collapse; }
+.v2-rank-table th { text-align: left; font-size: var(--type-caption-size); color: var(--text-tertiary); font-weight: 500; padding: var(--space-2) var(--space-2); border-bottom: 1px solid var(--border-subtle); }
+.v2-rank-table th.num, .v2-rank-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.v2-rank-row { cursor: pointer; transition: background var(--motion-fast) var(--motion-easing); }
+.v2-rank-row:hover, .v2-rank-row:focus-visible { background: var(--surface-card-hover); }
+.v2-rank-row td { padding: var(--space-2); border-bottom: 1px solid var(--border-subtle); font-size: var(--type-body-size); color: var(--text-primary); }
+.v2-rank-row__name { display: block; }
+.v2-rank-row__code { display: block; font-size: var(--type-overline-size); color: var(--text-tertiary); }
+.v2-rank-caption { margin-top: var(--space-3); font-size: var(--type-caption-size); color: var(--text-tertiary); }
+
+/* ── Stock Hub 전역 패널(design/05) ── */
+.v2-hub-panel {
+  width: 480px;
+  height: 100%;
+  background: var(--surface-overlay-panel);
+  border-left: 1px solid var(--border-strong);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+@media (max-width: 1280px) { .v2-hub-panel { width: 440px; } }
+.v2-hub-panel__header {
+  position: sticky; top: 0; z-index: 1;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 72px; padding: 0 var(--space-6);
+  background: var(--surface-overlay-panel);
+  border-bottom: 1px solid var(--border-subtle);
+}
+.v2-hub-panel__name { font-size: var(--type-h2-size); font-weight: var(--type-h2-weight); color: var(--text-primary); }
+.v2-hub-panel__meta { font-size: var(--type-caption-size); color: var(--text-secondary); margin-left: var(--space-3); }
+.v2-hub-panel__close {
+  width: 32px; height: 32px; display: inline-flex; align-items: center; justify-content: center;
+  background: transparent; border: none; color: var(--text-secondary); cursor: pointer; font-size: 16px;
+  border-radius: var(--radius-inner);
+}
+.v2-hub-panel__close:hover { color: var(--text-primary); background: var(--surface-overlay-panel-hover); }
+.v2-hub-panel__body { padding: var(--space-5) var(--space-6); }
+.v2-hub-panel__price { font-family: var(--font-num); font-size: var(--type-num-display-size); font-weight: var(--type-num-display-weight); color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.v2-hub-panel__asof { font-size: var(--type-caption-size); color: var(--text-tertiary); margin-top: var(--space-2); }
+.v2-hub-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-3); margin-top: var(--space-5); }
+.v2-hub-stat__label { font-size: var(--type-caption-size); color: var(--text-secondary); }
+.v2-hub-stat__value { font-size: var(--type-num-md-size); font-weight: var(--type-num-md-weight); color: var(--text-primary); font-variant-numeric: tabular-nums; margin-top: var(--space-1); }
+.v2-hub-actions { display: flex; gap: var(--space-3); margin-top: var(--space-5); }
+.v2-hub-section { padding: var(--space-5) var(--space-6); border-top: 1px solid var(--border-subtle); }
+.v2-hub-section__title { font-size: var(--type-h3-size); font-weight: var(--type-h3-weight); color: var(--text-primary); margin: 0 0 var(--space-3); }
+.v2-hub-news-row { display: block; padding: var(--space-2) 0; border-bottom: 1px solid var(--border-subtle); }
+.v2-hub-news-row:last-child { border-bottom: none; }
+.v2-hub-news-row__title { font-size: var(--type-body-size); color: var(--text-primary); display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.v2-hub-news-row__meta { font-size: var(--type-caption-size); color: var(--text-tertiary); }
+.v2-hub-empty { color: var(--text-tertiary); font-size: var(--type-body-size); }
+
+/* ── 글로벌 검색 결과(design/00 §7-2, Level 2 오버레이) ── */
+.v2-search-results {
+  position: absolute;
+  top: calc(100% + var(--space-2));
+  left: 0;
+  width: 560px;
+  max-height: 70vh;
+  overflow-y: auto;
+  background: var(--surface-elevated);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-card);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  z-index: 50;
+  padding: var(--space-3) 0;
+}
+.v2-search-results[hidden] { display: none; }
+.v2-search-group__title { padding: var(--space-2) var(--space-4); font-size: var(--type-overline-size); color: var(--text-tertiary); text-transform: uppercase; letter-spacing: var(--type-overline-tracking); }
+.v2-search-item {
+  display: flex; align-items: center; justify-content: space-between; gap: var(--space-3);
+  padding: var(--space-2) var(--space-4);
+  cursor: pointer; text-decoration: none; color: var(--text-primary);
+}
+.v2-search-item[aria-selected="true"], .v2-search-item:hover { background: var(--surface-card-hover); }
+.v2-search-item__main { display: flex; align-items: baseline; gap: var(--space-2); overflow: hidden; }
+.v2-search-item__title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: var(--type-body-size); }
+.v2-search-item__sub { font-size: var(--type-caption-size); color: var(--text-tertiary); flex-shrink: 0; }
+.v2-search-item__value { font-size: var(--type-num-sm-size); font-variant-numeric: tabular-nums; flex-shrink: 0; }
+.v2-search-empty { padding: var(--space-4); font-size: var(--type-body-size); color: var(--text-tertiary); }
+
+/* ── Financial Statements 지표 카드(design/06) ── */
+.v2-fs-title { font-size: var(--type-h1-size); font-weight: var(--type-h1-weight); color: var(--text-primary); margin: 0; }
+.v2-fs-intro { margin-top: var(--space-2); }
+.v2-fs-table { margin-top: var(--space-5); }
+.v2-fs-strip {
+  display: flex; align-items: baseline; gap: var(--space-4); flex-wrap: wrap;
+  padding: var(--space-3) 0; border-bottom: 1px solid var(--border-subtle); margin-bottom: var(--space-6);
+}
+.v2-fs-strip__name { font-size: var(--type-h2-size); font-weight: var(--type-h2-weight); color: var(--text-primary); }
+.v2-fs-strip__meta { font-size: var(--type-caption-size); color: var(--text-tertiary); }
+.v2-fs-back { font-size: var(--type-caption-size); color: var(--text-secondary); cursor: pointer; background: none; border: none; padding: 0; }
+.v2-fs-groups { display: grid; grid-template-columns: repeat(12, 1fr); gap: var(--space-6); }
+.v2-fs-value { font-family: var(--font-num); font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); color: var(--text-primary); font-variant-numeric: tabular-nums; margin-top: var(--space-2); }
+.v2-fs-sub { margin-top: var(--space-2); }
+.v2-fs-badge {
+  display: inline-flex; align-items: center; gap: var(--space-1); margin-left: var(--space-2);
+  padding: 2px 8px; border-radius: var(--radius-badge); font-size: var(--type-overline-size);
+  border: 1px solid var(--border-default); color: var(--text-secondary);
+}
+.v2-fs-badge--good { background: var(--fs-judgment-good-bg); border-color: transparent; color: var(--status-success); }
+.v2-fs-badge--caution { background: var(--fs-judgment-caution-bg); border-color: transparent; color: var(--status-warning); }
+
+/* ── 매매일지 필터 칩(design/20 Phase 8 /trades v2) ── */
+.v2-filterbar { display: flex; gap: var(--space-2); margin-bottom: var(--space-4); flex-wrap: wrap; }
+.v2-filter-chip {
+  height: 32px; padding: 0 var(--space-3); border-radius: var(--radius-badge);
+  border: 1px solid var(--border-default); background: transparent; color: var(--text-secondary);
+  font-size: var(--type-caption-size); cursor: pointer; font-family: inherit;
+  transition: background var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing);
+}
+.v2-filter-chip:hover { background: var(--surface-card-hover); color: var(--text-primary); }
+.v2-filter-chip[aria-pressed="true"] { background: var(--surface-selected); border-color: var(--brand-primary); color: var(--text-primary); }
+
+/* ── Asset/Portfolio 게이트(design/08 §2-1, Level 3) ── */
+.v2-gate-overlay {
+  position: fixed; top: var(--layout-header-height); left: 0; right: 0; bottom: 0;
+  background: var(--overlay-gate);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 60;
+}
+.v2-gate-overlay[hidden] { display: none; }
+.v2-gate-modal {
+  width: 420px; padding: var(--space-6);
+  background: var(--surface-elevated); border: 1px solid var(--border-strong);
+  border-radius: var(--radius-card); box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55);
+  text-align: center;
+}
+.v2-gate-modal__icon { font-size: 32px; color: var(--text-tertiary); margin-bottom: var(--space-3); }
+.v2-gate-modal__title { font-size: var(--type-h2-size); font-weight: var(--type-h2-weight); color: var(--text-primary); margin: 0 0 var(--space-2); }
+.v2-gate-modal__desc { font-size: var(--type-body-size); color: var(--text-secondary); margin: 0 0 var(--space-5); }
+.v2-gate-modal__input {
+  width: 100%; height: 40px; padding: 0 var(--space-3); box-sizing: border-box;
+  background: var(--surface-sunken); border: 1px solid var(--border-default); border-radius: var(--radius-control);
+  color: var(--text-primary); font-size: var(--type-body-size); font-family: var(--font-kr);
+  margin-bottom: var(--space-3);
+}
+.v2-gate-modal__input:focus { outline: none; border-color: var(--focus-ring-color); box-shadow: 0 0 0 var(--focus-ring-offset) var(--surface-elevated), 0 0 0 calc(var(--focus-ring-offset) + var(--focus-ring-width)) var(--focus-ring-color); }
+.v2-gate-modal__input--error { border-color: var(--status-danger); }
+.v2-gate-modal__submit { width: 100%; height: 40px; }
+.v2-gate-modal__error { color: var(--status-danger); font-size: var(--type-caption-size); margin: var(--space-2) 0 0; text-align: left; }
+.v2-gate-modal__notice { color: var(--text-tertiary); font-size: var(--type-caption-size); line-height: 1.6; margin: var(--space-4) 0 0; }
+.v2-gate-lock-toggle { display: inline-flex; align-items: center; gap: var(--space-2); }
+
+/* ── 자산 유틸리티 바 + 마스킹(design/08 §1-2·§1-3) ── */
+.v2-asset-utility { display: flex; align-items: center; justify-content: space-between; grid-column: 1 / -1; margin-bottom: var(--space-2); font-size: var(--type-caption-size); color: var(--text-tertiary); }
+.v2-asset-utility__actions { display: flex; align-items: center; gap: var(--space-4); }
+.v2-mask-toggle, .v2-lock-btn {
+  height: 32px; padding: 0 var(--space-3); border-radius: var(--radius-control);
+  border: 1px solid var(--border-default); background: transparent; color: var(--text-secondary);
+  font-size: var(--type-caption-size); cursor: pointer; font-family: inherit;
+}
+.v2-mask-toggle:hover, .v2-lock-btn:hover { background: var(--surface-card-hover); color: var(--text-primary); }
+.v2-mask-toggle[aria-pressed="true"] { border-color: var(--brand-primary); color: var(--brand-primary); }
+
+/* 금액 가리기(design/08 §1-3) — 고정 6도트, 콤마·공백 없음. 상대값(%)은 별도 마크업이라 영향 없음 */
+.v2-amount__masked { display: none; }
+[data-masked="1"] .v2-amount__real { display: none; }
+[data-masked="1"] .v2-amount__masked { display: inline; }
+
+/* ── Settings(design/10) ── */
+.v2-settings-nav { position: sticky; top: var(--space-6); display: flex; flex-direction: column; gap: var(--space-1); }
+.v2-settings-nav__item {
+  height: 36px; display: flex; align-items: center; padding: 0 var(--space-3);
+  border-radius: var(--radius-control); font-size: 13px; font-weight: 500; color: var(--text-secondary);
+  border-left: 2px solid transparent; cursor: pointer; text-decoration: none;
+}
+.v2-settings-nav__item:hover { background: var(--surface-card-hover); color: var(--text-primary); }
+.v2-settings-nav__item--active { border-left-color: var(--brand-primary); color: var(--text-primary); font-weight: 600; }
+.v2-settings-stack { display: flex; flex-direction: column; gap: var(--space-6); }
+
+.v2-setting-row { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-4); min-height: 56px; padding: var(--space-3) 0; border-bottom: 1px solid var(--border-subtle); }
+.v2-setting-row:last-child { border-bottom: none; }
+.v2-setting-row__label { font-size: var(--type-body-size); font-weight: 500; color: var(--text-primary); }
+.v2-setting-row__desc { font-size: var(--type-caption-size); color: var(--text-secondary); margin-top: 4px; }
+.v2-setting-row__control { flex-shrink: 0; display: flex; align-items: center; gap: var(--space-2); }
+.v2-setting-saved { font-size: var(--type-caption-size); color: var(--status-success); }
+
+.v2-toggle { position: relative; width: 40px; height: 24px; border-radius: var(--radius-badge); background: var(--surface-sunken); border: 1px solid var(--border-default); cursor: pointer; flex-shrink: 0; }
+.v2-toggle::after { content: ""; position: absolute; top: 1px; left: 1px; width: 20px; height: 20px; border-radius: 999px; background: var(--text-secondary); transition: transform var(--motion-fast) var(--motion-easing); }
+.v2-toggle[aria-checked="true"] { background: var(--brand-primary); border-color: var(--brand-primary); }
+.v2-toggle[aria-checked="true"]::after { transform: translateX(16px); background: var(--text-inverse); }
+
+.v2-segmented { display: inline-flex; height: 36px; background: var(--surface-sunken); border: 1px solid var(--border-default); border-radius: var(--radius-control); overflow: hidden; }
+.v2-segmented__opt { padding: 0 var(--space-4); font-size: 13px; font-weight: 500; color: var(--text-secondary); background: transparent; border: none; cursor: pointer; font-family: inherit; }
+.v2-segmented__opt[aria-pressed="true"] { background: var(--surface-selected); color: var(--text-primary); font-weight: 600; }
+
+.v2-radio-preview { width: 100%; max-width: 500px; padding: var(--space-4); border-radius: var(--radius-control); background: var(--surface-sunken); border: 1px solid var(--border-default); cursor: pointer; text-align: left; font-family: inherit; }
+.v2-radio-preview--selected { border-color: var(--brand-primary); background: var(--surface-selected); }
+.v2-radio-preview__title { font-size: 13px; font-weight: 600; color: var(--text-primary); display: flex; justify-content: space-between; }
+.v2-radio-preview__sample { display: flex; gap: var(--space-4); margin-top: var(--space-2); font-size: var(--type-num-md-size); font-variant-numeric: tabular-nums; }
+.v2-radio-preview__caption { margin-top: var(--space-2); font-size: var(--type-caption-size); color: var(--text-tertiary); }
+.v2-radio-preview-row { display: flex; gap: var(--space-4); flex-wrap: wrap; }
+
+.v2-accordion-header { display: flex; align-items: center; justify-content: space-between; height: 64px; cursor: pointer; }
+.v2-accordion-header__chevron { display: inline-block; transition: transform var(--motion-fast) var(--motion-easing); color: var(--text-secondary); margin-right: var(--space-2); }
+.v2-accordion--open .v2-accordion-header__chevron { transform: rotate(90deg); }
+.v2-accordion-body { display: none; }
+.v2-accordion--open .v2-accordion-body { display: block; }
+.v2-accordion-status--warn { color: var(--accent-yellow); }
+.v2-accordion-status--ok { color: var(--text-tertiary); }
+
+.v2-theme-chip { display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 var(--space-3); border-radius: var(--radius-badge); border: 1px solid var(--border-default); color: var(--text-secondary); font-size: var(--type-caption-size); background: transparent; cursor: pointer; font-family: inherit; }
+.v2-theme-chip--suggest { color: var(--text-tertiary); border-style: dashed; }
+.v2-theme-chip__remove { font-size: 11px; }
+.v2-theme-input { height: 36px; padding: 0 var(--space-3); background: var(--surface-sunken); border: 1px solid var(--border-default); border-radius: var(--radius-control); color: var(--text-primary); font-family: var(--font-kr); font-size: var(--type-caption-size); }
+.v2-reset-btn { background: none; border: none; color: var(--status-danger); font-size: var(--type-body-size); cursor: pointer; font-family: inherit; }
+.v2-setting-row--block { display: block; }
+.v2-radio-preview-row { margin-top: var(--space-3); }
+.v2-radio-preview__sample--kr-up { color: var(--preview-kr-up); }
+.v2-radio-preview__sample--kr-down { color: var(--preview-kr-down); }
+.v2-radio-preview__sample--global-up { color: var(--preview-global-up); }
+.v2-radio-preview__sample--global-down { color: var(--preview-global-down); }
+.v2-theme-chips { margin: var(--space-3) 0; display: flex; gap: var(--space-2); flex-wrap: wrap; }
+.v2-theme-add-form { display: flex; gap: var(--space-2); }
+
+/* ── 타임라인(TA-ROADMAP) ── */
+.v2-timeline__row { display: flex; align-items: center; gap: var(--space-3); height: 40px; }
+.v2-timeline__dot { width: 8px; height: 8px; border-radius: 50%; border: 1px solid var(--border-strong); flex-shrink: 0; }
+.v2-timeline__dot--active { background: var(--brand-primary); border-color: var(--brand-primary); }
+.v2-timeline__label { flex: 1; font-size: var(--type-body-size); color: var(--text-primary); }
+.v2-timeline__value { font-variant-numeric: tabular-nums; font-size: var(--type-num-sm-size); color: var(--text-secondary); }
+.v2-changelog__row { padding: var(--space-2) 0; font-size: var(--type-caption-size); }
+.v2-changelog__date { color: var(--text-tertiary); font-variant-numeric: tabular-nums; margin-right: var(--space-2); }
+.v2-changelog__text { color: var(--text-secondary); }

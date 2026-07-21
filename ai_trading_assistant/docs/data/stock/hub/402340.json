@@ -1,0 +1,17 @@
+{
+  "code": "402340",
+  "name": "SK스퀘어",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 1253000.0,
+    "change_pct": 6.46,
+    "volume": 686825,
+    "amount": 838828383000.0,
+    "marcap": 165343857658000.0,
+    "as_of_iso": "2026-07-21T16:13:06.415546+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:402340",
+  "related_news": []
+}

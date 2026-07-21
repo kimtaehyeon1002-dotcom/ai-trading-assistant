@@ -1,0 +1,17 @@
+{
+  "code": "012330",
+  "name": "현대모비스",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 479500.0,
+    "change_pct": 1.48,
+    "volume": 324162,
+    "amount": 154012295500.0,
+    "marcap": 43506273548500.0,
+    "as_of_iso": "2026-07-21T16:13:06.416280+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:012330",
+  "related_news": []
+}

@@ -1,0 +1,143 @@
+{
+  "code": "NVDA",
+  "name": "Nvidia",
+  "market": "US",
+  "as_of": "2026-07-21T16:13:28.260919+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2026",
+    "value": 65.47,
+    "cagr_pct": 100.05,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 26914000000
+      },
+      {
+        "year": "2023",
+        "value": 26974000000
+      },
+      {
+        "year": "2024",
+        "value": 60922000000
+      },
+      {
+        "year": "2025",
+        "value": 130497000000
+      },
+      {
+        "year": "2026",
+        "value": 215938000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2026",
+    "value": 60.38,
+    "own_5y_avg": 24.52,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 37.31
+      },
+      {
+        "year": "2023",
+        "value": 15.66
+      },
+      {
+        "year": "2024",
+        "value": 54.12
+      },
+      {
+        "year": "2025",
+        "value": 62.42
+      },
+      {
+        "year": "2026",
+        "value": 60.38
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2026",
+    "value": 31.48,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 66.04
+      },
+      {
+        "year": "2023",
+        "value": 86.34
+      },
+      {
+        "year": "2024",
+        "value": 52.93
+      },
+      {
+        "year": "2025",
+        "value": 40.68
+      },
+      {
+        "year": "2026",
+        "value": 31.48
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2026",
+    "value": 102718000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2017",
+        "value": 1672000000
+      },
+      {
+        "year": "2018",
+        "value": 3502000000
+      },
+      {
+        "year": "2019",
+        "value": 3743000000
+      },
+      {
+        "year": "2020",
+        "value": 4761000000
+      },
+      {
+        "year": "2021",
+        "value": 5822000000
+      },
+      {
+        "year": "2022",
+        "value": 9108000000
+      },
+      {
+        "year": "2023",
+        "value": 5641000000
+      },
+      {
+        "year": "2024",
+        "value": 28090000000
+      },
+      {
+        "year": "2025",
+        "value": 64089000000
+      },
+      {
+        "year": "2026",
+        "value": 102718000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2026",
+    "eps": 4.9,
+    "per": 42.06,
+    "note": null
+  }
+}

@@ -1,0 +1,1783 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark" data-updown="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-20 뉴스 아카이브 · AI Trading Assistant</title>
+  <link rel="stylesheet" href="../../static/css/tokens.css">
+  <link rel="stylesheet" href="../../static/css/base_v2.css">
+  <link rel="stylesheet" href="../../static/css/components.css">
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
+</head>
+<body class="v2" data-root="../..">
+  <nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav">
+    <a class="v2-nav__item" href="../../index.html"
+>Dashboard</a>
+    <a class="v2-nav__item" href="../../macro/index.html"
+>Macroeconomics</a>
+    <a class="v2-nav__item" href="../../news/index.html"
+aria-current="page">News</a>
+    <a class="v2-nav__item" href="../../stock/index.html"
+>Stock</a>
+    <a class="v2-nav__item" href="../../financials/index.html"
+>Financial Statements</a>
+    <a class="v2-nav__item" href="../../ta/index.html"
+>Technical Analysis</a>
+    <div class="v2-nav__divider"></div>
+    <a class="v2-nav__item v2-nav__item--locked" href="../../asset/index.html"
+>
+      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+    <a class="v2-nav__item v2-nav__item--locked" href="../../portfolio/index.html"
+>
+      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+  </div>
+  <div class="v2-sidebar__footer">
+    <a class="v2-nav__item" href="../../settings/index.html"
+>Settings</a>
+    <div class="v2-sidebar__version">AI Trading Assistant</div>
+  </div>
+</nav>
+
+  <header class="v2-header">
+  <div class="v2-header__context">
+    News
+  </div>
+  <div class="v2-header__search" role="search">
+    <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
+           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+    <kbd class="v2-header__search-kbd">Ctrl K</kbd>
+    <div class="v2-search-results" data-search-results hidden></div>
+  </div>
+  <div class="v2-header__clock"></div>
+  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+</header>
+
+  <main class="v2-main">
+    <div class="v2-content">
+
+<div class="v2-span-12">
+  <div class="v2-tabbar" data-tabbar="news">
+    <button class="v2-tabbar__btn" data-tab-btn="us_market" data-tabbar-of="news" aria-current="page">
+      미국시장<span class="v2-tabbar__count">21</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="kr_market" data-tabbar-of="news">
+      한국시장<span class="v2-tabbar__count">103</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="macro" data-tabbar-of="news">
+      거시경제<span class="v2-tabbar__count">11</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="breaking" data-tabbar-of="news">
+      속보<span class="v2-tabbar__count">0</span>
+    </button>
+    <span class="v2-caption v2-tabbar__meta">
+2026-07-20 아카이브    </span>
+  </div>
+</div>
+
+<div class="v2-card v2-card--standard v2-span-8 v2-card--news-list" id="news-list">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">미국시장 · 게재 21건</h3>
+    <span class="v2-card__meta">2026-07-22 01:12 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div data-tab-panel="news" data-tab="us_market">
+  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/treasury-yields-wall-street-iran-war-tensions.html" target="_blank" rel="noopener noreferrer">U.S. Treasury yields edge higher as Wall Street monitors Middle East tensions</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 23:51</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/south-korean-stocks-werent-a-big-deal-in-your-emerging-markets-fund-artificial-intelligence-changed-that-21308089?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">South Korean stocks weren’t a big deal in your emerging-markets fund. Artificial intelligence changed that.</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-20 23:37</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/ryanair-q1-earnings-iran-war-summer-fares.html" target="_blank" rel="noopener noreferrer">Ryanair says &#39;no shortage&#39; of travelers despite Iran war denting profit</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 23:29</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/can-the-magnificent-seven-save-a-stock-market-that-might-be-doomed-without-them-f88988f3?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">Can the ‘Magnificent Seven’ save a stock market that might be doomed without them?</a>
+  <span><span class="v2-tag">NVIDIA</span><span class="v2-tag">Apple</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-20 23:15</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/uk-prime-minister-burnham-trump-poverty-stricken-disaster.html" target="_blank" rel="noopener noreferrer">UK&#39;s Andy Burnham becomes PM as Trump slams Britain as &#39;Poverty Stricken Disaster&#39;</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 23:09</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/boeing-ceo-ortberg-airbus-farnborough-737max.html" target="_blank" rel="noopener noreferrer">Boeing CEO says company still needs &#39;a couple more years&#39; to repair finances before new jet</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 23:01</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/as-the-battle-for-ai-supremacy-intensifies-trump-white-house-reportedly-contemplates-a-ban-on-chinese-models-c8d9a0a0?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">As the battle for AI supremacy intensifies, Trump White House reportedly contemplates a ban on Chinese models</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-20 22:44</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/trump-government-company-ownership-americans-wary-cnbc-poll.html" target="_blank" rel="noopener noreferrer">Voters wary of government ownership in companies as Trump administration takes equity stakes</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 22:14</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html" target="_blank" rel="noopener noreferrer">Jim Cramer&#39;s top 10 things to watch in the stock market Monday</a>
+  <span><span class="v2-tag">NVIDIA</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 21:53</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/kalshi-traders-think-coinbases-trading-volume-will-fall-again.html" target="_blank" rel="noopener noreferrer">Coinbase trading results may fall short of expectations, according to prediction markets</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 21:41</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/give-me-my-money-back-south-korean-traders-leveraged-bets-unravel.html" target="_blank" rel="noopener noreferrer">&#39;Give me my money back&#39;: South Korean traders&#39; leveraged SK Hynix, Samsung bets unravel after sell-off</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 21:35</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html" target="_blank" rel="noopener noreferrer">TSMC is accelerating Arizona factory build-out to capitalize on AI &#39;megatrend,&#39; CFO says</a>
+  <span><span class="v2-tag">TSMC</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 21:34</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/bezos-cuspai-new-chip-materials-nvidia.html" target="_blank" rel="noopener noreferrer">Bezos backs CuspAI as startup teams up with Nvidia to hunt for chipmaking materials</a>
+  <span><span class="v2-tag">NVIDIA</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 18:58</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/china-automotive-car-worst-year-sales-fall-20percent.html" target="_blank" rel="noopener noreferrer">China&#39;s car market heads for worst year since 2021 as sales plunge 20%</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 17:43</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/samsung-biologics-polypeptide-group-deal-switzerland.html" target="_blank" rel="noopener noreferrer">Samsung Biologics makes $1.8 billion all-cash offer for Switzerland&#39;s PolyPeptide Group</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 17:04</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/from-super-el-nio-to-europes-heatwave-how-to-trade-extreme-weather.html" target="_blank" rel="noopener noreferrer">From &#39;Super El Niño&#39; to Europe’s extreme heatwave: How this year&#39;s weather shocks are rattling commodity markets</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 14:54</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/world-cup-fifa-football-winner-tournament-spain.html" target="_blank" rel="noopener noreferrer">FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 14:45</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/20/nato-russia-ukraine-war-missile-attacks-drone-europe-defense-.html" target="_blank" rel="noopener noreferrer">Russia pounds Kyiv as NATO military chief warns Moscow would &#39;lose a lot&#39; by attacking Baltics</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 13:49</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/19/ice-assault-claims-fbi.html" target="_blank" rel="noopener noreferrer">FBI will no longer investigate ICE confrontations, The New York Times reports</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 04:51</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/19/the-odyssey-box-office-christopher-nolan-and-universal-opening-weekend.html" target="_blank" rel="noopener noreferrer">Universal and Christopher Nolan&#39;s &#39;The Odyssey&#39; sails to $124.5 million opening</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-20 01:28</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/is-there-a-deadline-to-claim-the-1-000-trump-account-contribution-for-my-kid-1b70141c?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">Is there a deadline to claim the $1,000 ‘Trump account’ contribution for my kid?</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-20 00:43</span>
+  </span>
+</div>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="kr_market" style="display:none">
+  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1qQXlVTkJpV3F6OWNuOVdHSmI4Yzd5a1FEbU5zeENMeHgwckpaaVRvbFo5elhYUDhDSXBnOG04SDVWaEthWFJqSE41YkZxM3JfT2hmWGVHdnRGeWdlSFFKWHZkNk4tZDFhdEMxckNn?oc=5" target="_blank" rel="noopener noreferrer">미국 뉴욕증시, 다우 나스닥 혼조세...반도체주 반등 - gukjenews.com</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 23:57</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720171100008" target="_blank" rel="noopener noreferrer">&#34;이런 말씀 죄송, 레버리지 투자 말아야&#34;…운용사 대표의 이례적 메시지</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 23:13</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720171800072" target="_blank" rel="noopener noreferrer">미·이란 충돌격화에 美 휘발윳값 반등…갤런당 4달러 다시 돌파</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 23:09</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9mMVY1WGtEbkhjNFNZV1hwdF9WR3NIc041Z2kxMFVsWE5aQlVILWdJX2JQTGF2Qm9zeFJRUVJPNThIN1R1b1J5R2FSTWlZYTQyblNXbFhISEc0bWxsbWFIajU1dFM1NnVzQ29xU3dDZ1k?oc=5" target="_blank" rel="noopener noreferrer">뉴욕증시, 반도체주 저가매수에 상승 출발 - 연합인포맥스</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 23:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMingFBVV95cUxOc3lROG9NZThOQkFnN09VR2RnbWxhVWVMN0FtZTRFZ2FkdUdRYUdnWG5yelJaUFN6T2ZaUFFFWE1uM1lvb05uZEwyT1p5Wk5uQ3hyUjlBNWRTTUJMWm5Zc0MxMDI5REhuNFg1MDR6T2QwTVpfcGFqYUphQkF5RmhBUkNUck1ySU1ub3pOd0lNZEYyU0pCLWhXRVRZbG5MQdIBsgFBVV95cUxPTFFUOXpqRU9uQlA2YU9rTkJCb3pXcnpMRWtTRV9qOS1zVnpLcmdBdGRkZ2Jhbmhua1VRWU55cXpvZXdCYVlUeExYM2pPNHAzRURSVWJHdnlGTFBxVzNhbE5yVkV4NVBFWkh6dXlEeDRJZkFVX2lNRVdUSzRWZjY5LUlWQUtRRHZ6bnlYa0RfRXBqN2p2a1Nfb1FTWkVvcEJCVXdsMmktblBLVGtSUHpuQ0V3?oc=5" target="_blank" rel="noopener noreferrer">뉴욕증시, 반도체 반등에 상승 출발… 나스닥 1.06%↑ - 조선비즈 - Chosunbiz</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 22:56</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE04OC04NHY3Z2tCQUVjSEw5UUFFZHBUM0dWM19wQ1gyWWZKMXFnd0FNY0p1NkNoMEhTeTJwcjNDZEZCREZqOHRKb1lYcW5ySTloRHc?oc=5" target="_blank" rel="noopener noreferrer">[속보] 뉴욕증시, 반도체 반등에 상승 출발…나스닥 1.06%↑ - 매일경제 마켓</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 22:47</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE90WmV6azN3YUpLeHFOaUhHbGZneS1Mck9obVhoSzVUcUpDX1Z6Q1hsRU5WN2EwMG9wZTB6dXJyNk1vUzFwcFlzZ0tGQlhWQ3VoZEE?oc=5" target="_blank" rel="noopener noreferrer">[속보] 뉴욕증시, 반도체 반등에 3대 주가지수 상승 출발 - 매일경제</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 22:47</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102829" target="_blank" rel="noopener noreferrer">“원금 녹아 내린다”…‘ETF 아버지’ 배재규 “비난 하겠지만 지금이라도 멈춰야”</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 22:40</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720166100017" target="_blank" rel="noopener noreferrer">[인사] 과학기술정보통신부</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 20:56</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102777" target="_blank" rel="noopener noreferrer">주가 폭락에 ‘레버리지 ETF’ 경고등 켠 여당…“집중 모니터링, 추가 대책 강구”</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 20:36</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102757" target="_blank" rel="noopener noreferrer">“주가 급락에 6억 성과급? 못 참아”…삼성전자 소액주주 국민연금에 서한 발송</a>
+  <span><span class="v2-tag">삼성전자</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 19:44</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5za0RQMzFDZEVTbUlDb2t5R0k4bTRfR01PV1VRRDJuLWtmR3VLdjZMSVN0Vm8td1YtQm9nVWtZam4wUmo2TkY1S0t6Q01BUHRDX3JuSVcxd1lnQjJYYnFCUktxR3ppTVBVYTFtOUItM18?oc=5" target="_blank" rel="noopener noreferrer">[亞증시-종합] 기술주 매물에 혼조…상해·홍콩↑·日 휴장 - 연합인포맥스</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 19:17</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102731" target="_blank" rel="noopener noreferrer">집 살 때, 전세 구할 때…“하반기 대출 문턱 더 높아진다” [머니 이기자]</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 19:01</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE96WlRlejhkYVJDNWkwQ0JVcHlMNEFDc1JWWFptR0V5LUZvYWVpTTBmNTR1UnQ0eVJ6V1o0UGlQVFpuQjQ0N2t0aEhyeFZZNUtid2pONmRaaUZtd0U?oc=5" target="_blank" rel="noopener noreferrer">[시사플랫폼] “우리 증시 변곡점 돌입…빅테크 기업실적에 따라 증시 영향” - KBS 뉴스</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 18:56</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720154251008" target="_blank" rel="noopener noreferrer">덕산넵코어스·DTS, 상장예심 통과…&#39;중복상장 예외허용 1호&#39;(종합)</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 18:27</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE5hU00xTWYwMElZa1c5VWZuWkxORjE5RjAxODFxVmJJeThIcHZMd29jRFJkRW02b0JCYjJyTXo3TjkwNjdSOUc1TFpuWVluRHpaUUpmQ05pQlpiY1FZNUhWdmNHOV92QVNRSXVZbXlR?oc=5" target="_blank" rel="noopener noreferrer">韓증시 변동성 사상최고...글로벌 투자생태계 교란 - 아시아투데이</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 18:18</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5BYWgwcDRXWTdfSDlYLUxaVnVjaFBJVHpCQ1QzNTFDUEJNUVRjVmI2Z1JBS0dHZjlNQ2pWYWpDTGoxNGtEOXVFNjNLTVFncnotalBIRDl0dDJ1T3ZLWGlibTJVVm44TG11QXd4SVBBakY?oc=5" target="_blank" rel="noopener noreferrer">[중국증시-마감] 기술주 차익실현에 혼조…상하이↑·선전↓ - 연합인포맥스</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 18:18</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MaldrZDVWQ1JvNS1xc2Y0dmphZmJGTEVmSFBBdnRFUGZBM1ppSG9ONS1Ma3RBVWk5SlI5VElXWGdCWHZISFJxeEpiSmVvNHM?oc=5" target="_blank" rel="noopener noreferrer">증시 흔든 레버리지 ETF…김용범 책임론 확산 - v.daum.net</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 18:13</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE1MSkNqLVQwUW4zQlpsVVlJbmRXWGtvQ1VPdHVJWXAxdmxnOWNObHBWMnZiLWkzdjllT3BPSi1COEE1NGs0OHc?oc=5" target="_blank" rel="noopener noreferrer">증시 흔든 레버리지 ETF…김용범 책임론 확산 - v.daum.net</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 18:13</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720154200008" target="_blank" rel="noopener noreferrer">덕산넵코어스, 코스닥 상장예심 통과…&#39;중복상장 예외허용 1호&#39;</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 18:08</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720077551017" target="_blank" rel="noopener noreferrer">이해진, 캐나다· 미국 방문…투자 유치에 젠슨황 회동할듯(종합)</a>
+  <span><span class="v2-tag">NAVER</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 18:06</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720151700030" target="_blank" rel="noopener noreferrer">농식품부 &#34;여름철 채소·과일 가격 하락…계란값도 안정세&#34;</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 18:01</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720148500011" target="_blank" rel="noopener noreferrer">[연합뉴스 이 시각 헤드라인] - 18:00</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 18:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WRm5zTDNvcmpMWmUzdkhTck5QcFZWSk1kLTdNS21oWkg5NmpIelU1cDRQMk0tMDJXYlpXRG1FTjFpa2cxU19UbTgyOWg5dkNpVFRxUVlDcDAxeG14dkE?oc=5" target="_blank" rel="noopener noreferrer">증시 동반 매도 사이드카...&#34;키미 쇼크에 폭락&#34; - YTN</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 17:53</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Gal91ekRQVzJQbU52a0tSYk02UjhXZWVJWlJiZHNnQkx1WUtkRlpUdkhzWFdOaG9DVWg2UDlncjN6Y2dYMjlERXgwSEdmOEV3V0JYZVBRRlRBOXdkY0xTRNIBYEFVX3lxTE5Gal91ekRQVzJQbU52a0tSYk02UjhXZWVJWlJiZHNnQkx1WUtkRlpUdkhzWFdOaG9DVWg2UDlncjN6Y2dYMjlERXgwSEdmOEV3V0JYZVBRRlRBOXdkY0xTRA?oc=5" target="_blank" rel="noopener noreferrer">中국유기업들, 잇따라 자사주 매입·증시 지분 확대 발표 - 연합뉴스</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 17:50</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wTmF2cm5PQUNMcGxSbE5VT2l2OWdTQTcyRXdrX0xPa0ZWUDlyQnhKajliUkJjM0JCQ3NUWnFVdmd5NE9yQ3czcU9GYmc4dHFQdWc?oc=5" target="_blank" rel="noopener noreferrer">KB금융·신한지주 … 증시 먹구름 뚫는 은행株 - 매일경제 마켓</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 17:47</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2c09qZTM2YTVhZXhIeElwM01uOEd1b3lrNUlrRlV0MGFQcEF0cUZ4VkRRWnRZZzh6b3lxNHpza2ptaDFMcDhQeWg3RmY4VUxZeXNVaWlJbnhzOG9MODFhY3dBUTI?oc=5" target="_blank" rel="noopener noreferrer">증시 타고 커진 변액보험…하반기 변동성 관리 관건 - 서울경제TV</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 17:47</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102661" target="_blank" rel="noopener noreferrer">[포토] 구윤철 부총리 취임 1주년</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 17:46</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102662" target="_blank" rel="noopener noreferrer">&#39;기준 중위소득&#39; 계산법 대수술… 기초연금 수급 대상 달라질 듯</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 17:46</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102663" target="_blank" rel="noopener noreferrer">공장용지 &#39;제조 면적&#39; 규제 27년만에 손본다</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 17:46</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102659" target="_blank" rel="noopener noreferrer">&#34;홍해 긴장, 전시 수준으로 회귀&#34; … 국내 선사 운항 자제령</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 17:46</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720150100002" target="_blank" rel="noopener noreferrer">신복위 조직개편…미래사업추진단·금융소비자보호부 신설</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 17:46</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102388" target="_blank" rel="noopener noreferrer">[단독] 정부, 국내 선박 홍해 통항 자제 권고…유조선은 제외</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 17:40</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720146000053" target="_blank" rel="noopener noreferrer">&#34;우수 인재 오게 하려면&#34;…추경호, 공공기관장 연봉 손질 추진</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 17:39</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720144100008" target="_blank" rel="noopener noreferrer">&#39;홈플러스 사태&#39; MBK, 오스템임플란트도 구조조정 논란(종합)</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 17:39</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102618" target="_blank" rel="noopener noreferrer">중동 불안에… 정부 &#34;홍해 통항 자제&#34;</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 17:38</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102611" target="_blank" rel="noopener noreferrer">[포토] 산은·신보, 한화 방산·조선업 지원</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 17:36</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102610" target="_blank" rel="noopener noreferrer">금융지주 회장 3연임 제동…승계구도 지각변동 예고</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 17:36</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102607" target="_blank" rel="noopener noreferrer">&#34;우체국서 은행 대출도&#34;… 은행대리업 첫발</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 17:36</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102608" target="_blank" rel="noopener noreferrer">SC제일銀 신규 주담대 제한 … 지역본부별로 총량제 도입</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 17:36</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720039600530" target="_blank" rel="noopener noreferrer">정부 복지사업 &#39;잣대&#39; 기준중위소득 새 산정방식 이달 말 결정</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 17:33</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720146800008" target="_blank" rel="noopener noreferrer">&#39;전기차 충전기 운영&#39; 에버온 등 코스닥 상장예심 신청</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 17:25</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU01yTTdFeGdRUXIwWFI5YTZLb0F0cFpwc1RJYmNwVTQ3cGZwejc3VmFXcVZXdUhtS1ZONjV4RDYwZTRoVktYWXBHaGlmWmdrMkRyaWZvVUhpQzd0Nk54VVJFS3BDa3p0MEplaUVPRFhYTGxyYUVjbjRHQ2Z0d3Z3WG1ES2FoT2xy0gGcAUFVX3lxTE8ybkZDNUtXMV9XZjRhQnpUU2VGeXN5Q3VnWno0SzY1V3U0dG1PX0dBMG5xMXozRnJ4YVhfOFF6T2tIWjhzN2JaUE13Vkh0MHJmUHo0NENobmFabm9lbzJLM3pUbHlQNVkwM3g2dnZYY3VFWFBGcE5YdE1OLWptM3RsNnNoeFlWcGsxS3FqRlp4X1YxcExmbGU1S1JHMw?oc=5" target="_blank" rel="noopener noreferrer">증시 널뛰자 초단타 활개… 거래소, 고빈도매매 증시 영향 분석 - 조선비즈 - Chosunbiz</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 17:23</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720146900003" target="_blank" rel="noopener noreferrer">중동 긴장 고조에 서울 휘발유·경윳값 한 달만에 다시 상승</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 17:22</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBTzdBemRabnc0cmVicnNUTDRiU0VTdGZzWWpJQVRVQm9VZzdZcnpsb2JiZnFKLUl3WGlURFV6WURJd08teFlvcGt4aHJjY1dKT3VFYjVWbEdCY0FJREVVNTg3ZUdHemc?oc=5" target="_blank" rel="noopener noreferrer">[퇴근길머니] 코스피 동향에 전세계 ’주목’…대출 한도 ’벌써 끝’ - 연합뉴스TV</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 17:22</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMieEFVX3lxTE1Ic3Q1UDVaZ1lMRzczXzJXYVdHdlE4V3pSMEd5d08yMUl5NnB3Wi1aaldScGJmQmh3N3F6SXJmc1V0RmhHbGdScFdmbjBRRHU5MW1BS21EZDlQYUY5MU9QQmYtYnZlWkdrWEtDM3dOYWZmbmFyOVp6aQ?oc=5" target="_blank" rel="noopener noreferrer">오늘의 증시 - MBC 뉴스</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 17:05</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720137500003" target="_blank" rel="noopener noreferrer">WTO 수입허가위 의장에 유미진 제네바대표부 서기관…한국 최초</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 17:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720114100030" target="_blank" rel="noopener noreferrer">농식품부, 그린바이오 2031년 10조 목표…매출 100억 기업 300개</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 17:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBManpWZ0hKOHBNNmgwN0Vjd2daWEo0cktVUFRRVEpudmE3bGZqU0MxVjlUNVlnQTRRSXZteTlLTHd0UWh1a3dLMDFNQURwclNVazBLeV9R?oc=5" target="_blank" rel="noopener noreferrer">코스피, 주요국 증시 중 한 달 수익률 ‘꼴찌’…6500선 턱걸이 - 중앙일보</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 16:54</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720139200062" target="_blank" rel="noopener noreferrer">춘천바이오산업진흥원, 바이오인재 양성 &#39;부트캠프&#39; 운영</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:51</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE04UDl5eklIbHVOcU1LNHBKNmJISkdwY3VfenBxNHFrVTBWWU5TZGpfUmFJSFZ4YUkzVjctZERzbzNURnFNVGtqM0lva01tQmZ6MENfY2xEeVBlRU1DcE9VWW9SZ3dVRFlBbWRmZA?oc=5" target="_blank" rel="noopener noreferrer">글로벌 투자자들, 코스피에 시선집중…‘AI 투자 바로미터’ 된 한국 증시 - 재외동포신문</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 16:48</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720136400017" target="_blank" rel="noopener noreferrer">삼천당제약 &#34;FDA서 제네릭 개발전략 검토 답변서 받아&#34;</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:44</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720136200062" target="_blank" rel="noopener noreferrer">&#39;쫀득 달달&#39; 정선 찰옥수수 22∼30일 수도권 직거래 판매</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:41</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720136300017" target="_blank" rel="noopener noreferrer">게임업계 취업 길잡이 &#39;게임 일을 너무 하고 싶다&#39; 출간</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:38</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE1udXY0dU9PUmphaTUwTUxPYkJKU2NIeFFnZzh4YzhoeUwyaml0LTJPZHRMYXJ1cjRtamI0N29xZ0N1TXFWNU0wa2tVY1BkVmc?oc=5" target="_blank" rel="noopener noreferrer">레버리지ETF 대책에도 출렁이는 증시 ...외신 &#34;도박장 변질&#34; 경고 - v.daum.net</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 16:37</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720137300008" target="_blank" rel="noopener noreferrer">제이케이시냅스, 30억원 유상증자…휴림로봇에 제3자배정</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:34</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMid0FVX3lxTE54WERLaE9BYkpMOTdPZjVPbzhoX045dWxsSFJDd0YydXZWVTBNWjk0QlBDdm1qUG1wZEJsMnozZmpjOXRpdkw4VGs2bXh0ZklFS3B3Rk1jT2puX1VKeVNOQkpFZEp2QlBQYURvWmdYdXdHbnIwN2NB?oc=5" target="_blank" rel="noopener noreferrer">레버리지ETF 대책에도 출렁이는 증시 ...외신 &#34;도박장 변질&#34; 경고 - OhmyNews</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 16:33</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720133500008" target="_blank" rel="noopener noreferrer">잇단 급락에 코스피 하루 거래대금 23%↓…40조원 아래로</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:30</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720118900030" target="_blank" rel="noopener noreferrer">농식품부, 식량자급률 제고 대책 마련…올해 말까지 목표 재조정</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:30</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720133700002" target="_blank" rel="noopener noreferrer">지난달 카드론 잔액 42조9천억원…3천440억원 감소</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:27</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720127400008" target="_blank" rel="noopener noreferrer">가비아 공개매수 제동?…얼라인 &#34;이해상충 우려, 검증해야&#34;</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:24</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720132000004" target="_blank" rel="noopener noreferrer">용산국제업무지구 글로벌기업 유치 조사 지연…주택규모 갈등 탓</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:20</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720132900008" target="_blank" rel="noopener noreferrer">[인사] IBK투자증권</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:16</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720131900505" target="_blank" rel="noopener noreferrer">[인사] SGI서울보증</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:15</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720126100008" target="_blank" rel="noopener noreferrer">한국거래소, 청소년 금융교육 위해 7천만원 후원</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:15</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720132300008" target="_blank" rel="noopener noreferrer">엑시온그룹, 80억원 유상증자…뉴퍼시픽투자조합에 제3자배정</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:14</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720131600008" target="_blank" rel="noopener noreferrer">주연테크, 10억 유상증자…화평홀딩스에 제3자배정</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:14</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720129800004" target="_blank" rel="noopener noreferrer">법원 &#34;법무법인 아닌 용역업체가 법률사무 수행해 용역계약 무효&#34;</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:14</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720094300008" target="_blank" rel="noopener noreferrer">단일종목 레버리지 대책발표 후 첫날…거래대금 여전히 12조 넘어</a>
+  <span><span class="v2-tag">삼성전자</span><span class="v2-tag">SK하이닉스</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:12</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102499" target="_blank" rel="noopener noreferrer">권대영 “못 갚는 빚도 무조건 상환? 잔인해…금융사도 연체 책임 나눠야”</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 16:10</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720082651008" target="_blank" rel="noopener noreferrer">&#39;제헌절 연휴 美증시 파고&#39;에 코스피 출렁…다음 지지선 6,500?(종합)</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBOFgwSHBibXJHdk1oMFVVM0RwMGVmZUJJNmtwODRSVTBPNkJMbzIxckpKRkxrbEluZkZUZGFreWlBaHhLdlpXcXJYOWlKUGVEZWNaQzlCMGE1MjExaGpLbtIBYEFVX3lxTFBBOFgwSHBibXJHdk1oMFVVM0RwMGVmZUJJNmtwODRSVTBPNkJMbzIxckpKRkxrbEluZkZUZGFreWlBaHhLdlpXcXJYOWlKUGVEZWNaQzlCMGE1MjExaGpLbg?oc=5" target="_blank" rel="noopener noreferrer">&#39;제헌절 연휴 美증시 파고&#39;에 코스피 출렁…다음 지지선 6,500?(종합) - 연합뉴스</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 16:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BUGtJRWxGM1g0cF9pYXRzM3cyWWpNWGxhdnMtOHRfOWc3ekp4ZWo1TDU5clIyMVJsUDU1dTlWU1ZtUWphSUlOM2EtcVloOUFCeEliQUkzZ0lHcldtMmNEVEttZG9FWG1q0gFuQVVfeXFMTVB0cFNFbmpfcjhORVByb3pJcnQtMGpCYlRYVmJkUGpteEhiRlMxa2hDV1Q0dFNENlZxc1FKZnF5WW5EZ0Y4ZENuMnd5UHhSbFBvek5sQ2hqVFhzSlZVZ3RnWHAwdjhBcHctcEo4WWc?oc=5" target="_blank" rel="noopener noreferrer">&#34;삼전닉스 레버리지, 변동성 높였다&#34;...카지노판 된 증시? 외신 쓴소리 - 머니투데이 - 머니투데이</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 16:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FN1k1dDVkVXN0cFAyNXFlc3hORkVnUHYwZHlla0R0b3FPU25UeDVOWTVuT3pXNVQySzJ1OUFxX2RNRFRYX0dWU0tpUXdQZ1R2cmNXOA?oc=5" target="_blank" rel="noopener noreferrer">&#39;검은 월요일&#39; 된 국내 증시...기관 1조 쏟아내며 &#39;매도 폭탄&#39; - 이투데이</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 16:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMicEFVX3lxTFA4VWVyS2N5VEdkVmlDV1d2TWFfeUtJc3o5dUJCRVVRY2d1TDFmdVN2aTZsV2tjeGZ5SzZ0cVdsYkJwVWJHZ2VzU2JzUXc4QzhRUlFIZFliNmZkVnA5Um9pdG1kRXpwLWZXeU9vbC11ejI?oc=5" target="_blank" rel="noopener noreferrer">[증시-마감] 코스피 4.46% 급락…6,500선 간신히 사수 - 연합인포맥스</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 15:58</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720036952008" target="_blank" rel="noopener noreferrer">반도체 피크아웃 우려 지속…삼전·닉스 4%대 급락(종합2보)</a>
+  <span><span class="v2-tag">삼성전자</span><span class="v2-tag">SK하이닉스</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 15:56</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vbFJiSTZTYkNndlhoQWtGSGhjOW5nUjRhM1pocm1vRF9QRWs3WFJaeHlmU25GTEl1QU9lWW42a1dwZ3dIOUxoVHE4dUotU3lGdmNXdUY2U0g1VEEzNWpQadIBeEFVX3lxTE8wSGE0TXVWRmRvb2hRbml6OFphMFVNZ0ViR3NGeXFGenJ0RVJDTWwyWjduT3hlSzhjdVFlaU42YlFIM25USkNrYmM0OGp2S3plR000SXBSVExENGEtQU9vdktiNlI4WXUybGtjSWQ4bjZuVGhlaGxJRg?oc=5" target="_blank" rel="noopener noreferrer">AI 바로미터 된 K-증시…외신 &#34;레버리지 광풍에 카지노 됐다&#34; - 뉴시스</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 15:21</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE10cW5WMTRZM0kyc1ZMdFZ4SGFmblhEN1BhMVJGaElQaHZJYUdLdm81cW5ZNlRUUC1JYlRLRVlzVktGNmZiY2tUN0ZjRlNsR0FvMXBpcHhiMmwxNG9pREE?oc=5" target="_blank" rel="noopener noreferrer">증시 급락에 2거래일 연속 동반 &#39;매도 사이드카&#39; - YTN</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 14:54</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMidkFVX3lxTE5ydUFrWEtCMnQzN2R4VjdVdnJRWU1vSWptZUlFV193X0tKcDZaX2ZDSlpVX2lfTGNkQ2hZWDhPSlk4S1ROSGhyQmlwRVpzSG42aUF3eHkxX0t3djRSQWdKNVotcEl1QUpwT1VDX2ItMVFpVVYtVGc?oc=5" target="_blank" rel="noopener noreferrer">증시 급락에 2거래일 연속 동반 &#39;매도 사이드카&#39; - YTN</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 14:54</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PeTdVNzJsaXhmanVrNFMzS2w2NHA5S2JGd09ZTUdSdVQzc2kyaWp4ZW1hUzYzbXpMaUUwem05UFdfZm51LUVERzA2cUhyc2d5SFA3eE9nTkg5UQ?oc=5" target="_blank" rel="noopener noreferrer">&#34;K증시 도박장 됐다&#34;…&#39;삼전닉스 레버리지&#39;에 외신도 쓴소리 - 한국경제</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 14:52</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102392" target="_blank" rel="noopener noreferrer">개도국에 AI 데이터센터 깐다…정부 ‘K-AI 패키지’ 지원</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 14:43</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PY3h6WHNrVzdHUlVta1dHMEE1QjJtaElCQk91TXlKc2R3YnpVTkdaZnlxZlVSblJOY215S2l1dVpkZFd4ZExyVGRZcVcwRDdwZ05NSGRKTFd5VEk?oc=5" target="_blank" rel="noopener noreferrer">하반기 증시 어떻게 되나…“6000은 ‘바닥’…빅테크 실적 확인 뒤 반등” - 에너지경제신문</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 14:39</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/it/12102325" target="_blank" rel="noopener noreferrer">라온시큐어, NH농협손보에 양자내성암호 공급…금융권 수주 확대</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 13:22</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nLVBWenFUbEt5VEItcmY2NFVBUWtva0IyZ05CaTVSUWVBMXZLQlliZ1oxMnA2SE5BOS16QUhTLXU2b3AzS05rZ3U0WU94TFlycDc4Z1AzWEhFOVM5Vng0S9IBYEFVX3lxTE9nLVBWenFUbEt5VEItcmY2NFVBUWtva0IyZ05CaTVSUWVBMXZLQlliZ1oxMnA2SE5BOS16QUhTLXU2b3AzS05rZ3U0WU94TFlycDc4Z1AzWEhFOVM5Vng0Sw?oc=5" target="_blank" rel="noopener noreferrer">하반기 증시 전망 발표하는 김병연 NH투자증권 투자전략총괄 이사 - 연합뉴스</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 12:14</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQTVhBYnl2bXR1bXRCZmZwVGMzSTRHYzNpVlN5ME1QMFJOT2xtUWlPNUhzMkNHT2JlQ3RkQjduTGxucndRYnFMY2hidjgxLUhVZTU4YU82bXAxM1pWUXZYcXk5d1lVR2FCRG9YWTNZb1ZESTl2Y3RKZm5QbTNwWktPemNWNlBiT2dCNzd3ekNLaGxtX0VHUktV?oc=5" target="_blank" rel="noopener noreferrer">7.20(월) 미 증시 트렌드 진단 - 네이버 프리미엄콘텐츠</a>
+  <span><span class="v2-tag">NAVER</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 12:10</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMieEFVX3lxTFA5dFhJUG9DdkNvWkNRdVQ1SnNISEFicTFrekN0bmZlRk5INnJxZUE5dklFT21tWENNWVg4Q185RndqQ0Qwc3VfV2FXNXpSZHNIb09NZ21NcUloLVdTbENZVW9OOERaeWJrMTktdi02ZG1peHdoaVc3VQ?oc=5" target="_blank" rel="noopener noreferrer">증시 동반 사이드카‥중동·기술주 &#39;악재&#39; - MBC 뉴스</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 12:09</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102167" target="_blank" rel="noopener noreferrer">병원과 손잡는 금융…은행은 왜 의료에 꽂혔나 [금융가 톺아보기]</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 10:27</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102164" target="_blank" rel="noopener noreferrer">이제 외국인 관강객도 본인 앱서 생성한 QR로 결제 가능해진다</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 10:26</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5GRV92M0FUU3JRS2Z6WGlzZ1c2WlhXRlVEYVlpb3U2d3JCd3M5SnpWdDR5cU5EeGRVbnRBTVhSbnhUTzliNXNQTG5CYVItZktBTG5aWkI4Slo1V3IxblIyZXhOcmJ6a3pyRUdRdHNBTXg?oc=5" target="_blank" rel="noopener noreferrer">외풍·수급 악재 직면한 韓증시…&#34;이익조정비율 상향 금융·소비주 주목&#34; By EBN - Investing.com 한국어</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 10:12</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1BS1RDbmF0WFNHZUxHYV9rWnlBM3dBWm16VG5EZ1BhRVI0akU0VWdXam9HUy1UUEFjM1lSbjdPV25PUFZxeUlSUS0ycm9yNzRiVUotcWRGa2JyQWtGblBzbm01U1BDcWdaRWdTUkhIM3FyYW130gF0QVVfeXFMTXYtVVl4TVY4cjljU08zZkpCTHNHNVJwTG92YTRDTkwxaFhMUzhCWld2MGRWX0lfWlVUVzBDejFic2lMWE55U19KakQwbnFBSm1iN0pKblY4VTJWc3VLRW1PRUt3VjYzbDZmOHBLVHJvWTZtdEE?oc=5" target="_blank" rel="noopener noreferrer">코스피 2%대 하락한 6,643으로 출발‥미 증시 약세·중동 불안 영향 - MBC 뉴스</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 09:32</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBicm1QajVIU3dsRzNGV3JJY1JhRGJzdF9VaG9LVkJPZEkxd3JqR1pKUVdicV9RS3lpVlVoNzltc1ZnX25GMGNHMThNS1RYVDR6V0ZYMUROczhxQXUwWGc?oc=5" target="_blank" rel="noopener noreferrer">반도체주 약세에 급락한 코스피...오늘 증시는? - YTN</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 09:06</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE01Slg3MzRhS3FXSjhaalJkanR0NmxmODdUam9IbFNMVzd6WWdzU04zdC1fRUh1SjFha3BMSHNhYUJBT0xaRmJWdGxaV0puNlJCYlh6RzlnTENSajA3ODBoTURJVVhudTVwWWIwSWNvSmc?oc=5" target="_blank" rel="noopener noreferrer">연휴동안 더 식은 글로벌AI 랠리…한국증시 방향성 베팅 &#39;경계등&#39; - 연합인포맥스</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 09:04</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2Ml9oQ2luMWdOQ2k0VXo3QVN2NXlLSXlVa0x4M1FJQXdXbzlxbG9BSDI5Z0hjeTVxUnBiNzNEZlhhRFlLckU2SDFlRmdrR1Q1Qlc0?oc=5" target="_blank" rel="noopener noreferrer">美 증시 약세 영향에…삼전·닉스 프리장서 5%대 하락 [코주부] - 네이트</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 08:21</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSMVNScmpKOXJFaGFSekVweHFTWENlR0otbXpKTnpLU2dUWTdUaUlwdkJiYmJoLVJZbmQ0Vjl5RFNYaEg2RU85SWlsY1R3QkU?oc=5" target="_blank" rel="noopener noreferrer">[굿모닝 증시]연휴 중 반도체주 급락…코스피, 6000선 시험대 - v.daum.net</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 08:08</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiRkFVX3lxTFAyUElIRWs3blI0SGNUdzNqLXAzcU9CcmNDSVZzWFpfWk5KSW5WT2xGSHFaS1FYQm9HM192MUdZQkZ2RlhZYWc?oc=5" target="_blank" rel="noopener noreferrer">“주식 창 못 열겠네요”…오늘 증시, ‘이중 악재’ 터진다? [잇슈 머니] - v.daum.net</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 07:20</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102022" target="_blank" rel="noopener noreferrer">뉴욕개미 원화계좌로 삼전 산다…서울개미도 한밤환전해 애플 줍줍</a>
+  <span><span class="v2-tag">Apple</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 06:10</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KR04zbDZ4SHo3Rmh1Z2w4MmdhVXgtcU5UUUxtZXVsVjBMX2Qwa1JOMk0zMk5JNDNYbWR5Z1dkLVJpZmVMVGpSV0REUE9wSVFUQ2JsbHFaRUpDNDVjblE?oc=5" target="_blank" rel="noopener noreferrer">‘증시 도박판’ 만든 레버리지 뒷북 규제, 3000만원 벽 세웠다 - 주간경향</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 06:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12101673" target="_blank" rel="noopener noreferrer">집 살 때, 전세 구할 때 ... “하반기 대출 문턱 더 높아진다”</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 05:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JV2NQZWpNNVJZRXJ1aFRGdkoycFhHV0JKVlNVQU1feGxqaW5XYmVnVWhwR2x0bnJSWnhwdm94akRpS2NJR3A3enFzdm1kOTBWQWMxNl9EN2lZNkJ0?oc=5" target="_blank" rel="noopener noreferrer">[중국증시 주간 포인트] ①7월 LPR, 432조 역RP 만기 도래, 7월 하순 중앙정치국회의와 다수 정책 기자회견, AI·자동차·항공우주 산업 이벤트 - 뉴스핌</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 02:11</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE55RXNoWkEtZjJ4MHFfLWxHQ2dMZU5SRV9LTTZwR1h5T3hJSzExUFVFZXJSYjNqVmZseFZHNUZzeXZ4X0swT2pFU3YxMGdfY2dzb0dEQkVMM0RKVy1j?oc=5" target="_blank" rel="noopener noreferrer">[중국증시 주간 포인트] ②AMD &#39;어드밴싱 AI&#39; 컨퍼런스, 딥시크 V4 출시, CXMT 청약 당첨결과, 전력전자 가격 인상, 기술∙신에너지 기업 2Q 실적 발표 - 뉴스핌</a>
+  <span><span class="v2-tag">AMD</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 02:11</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPZmc5YXlTTXY5MWp3WHkwcjhRTGJWNkhtWDA4bEROenpQSGVfZ3NLaThtcVFnRTZIZUNXRUxfUXR1QTE1aFdNbl91RjVkRnZMMVYzZ2NGVmc0cFlKS2Y2VXlJTzFVWi1EYWhjRU5EMzAxVXNOYzVDY01FRU5YMnRKNA?oc=5" target="_blank" rel="noopener noreferrer">&#34;증시 널뛸 땐 일부 수익 실현, 여름 조정장 대비 현금 보유&#34; - 조선일보</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 00:37</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMigAFBVV95cUxQZEIwUnRrbm9vcUdpTU9jdnd1bE9lV2lCc0UwaEw5VzlGcWVid3J4Q0pEQlZxblVVUFJ5bnlBejl6cXhYVHIweEVmV0EtcEVpUGZ5RlhnSE9WYUd2SUV5aFNhclRxcGYxQmQya0w0TTlkQnVhdGtoem1nenBCd184RA?oc=5" target="_blank" rel="noopener noreferrer">중국 AI ‘키미 K3’ 충격… 증시 더 흔들리나 - 조선일보</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 00:31</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMidkFVX3lxTE13bTNTRVZ0TTRPSmdVMjFFUDVWWjFPdEM2NF9KSXVoM3hYTjhKNV9raVNrRFpGRV9NclJjNEhLckQ0Y2FFaDF1S0RsaFMwd19Pb2Jkb0dQc2Rvci1ubm1idENRNy1yZzktV1RXN0Jyb3U2aURzRGfSAWZBVV95cUxPd0FwZ2ladF9VTENRSUdGNmpWRzFETFFfWlpLUmp3NTJ2VW14ZmI3Ty1WNHYzRkdqbHktVEVrUk0zWm1yTlk3QTVzWmRzWUJ2UDhVVG9fNmZNQk5nOGMwMzV1eEtaaUE?oc=5" target="_blank" rel="noopener noreferrer">증시 빚투 늘자… 5대은행 가계대출 年목표치보다 3500억 초과 - 동아일보</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-20 00:30</span>
+  </span>
+</div>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="macro" style="display:none">
+  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102612" target="_blank" rel="noopener noreferrer">[표] 외국환율고시표</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 17:36</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102609" target="_blank" rel="noopener noreferrer">고유가에 운행 줄자 … 車보험 &#39;반짝흑자&#39;</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 17:36</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720142200001" target="_blank" rel="noopener noreferrer">李대통령, 분당 집 29억에 매도…매수자 사정고려 17억 근저당</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 17:04</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720140400064" target="_blank" rel="noopener noreferrer">[청주소식] 공공근로사업 참여자 260명 모집</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 17:02</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720138551008" target="_blank" rel="noopener noreferrer">유가 급등에 국고채 금리 일제히 상승…3년물 연 3.895%(종합)</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:48</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720138500008" target="_blank" rel="noopener noreferrer">국고채 금리 일제히 상승…3년물 연 3.895%</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 16:43</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260720120400008" target="_blank" rel="noopener noreferrer">&#34;2분기 GDP·7월 CPI 방향성 엇갈릴 것…통화정책 긴장 지속&#34;</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">07-20 15:57</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102310" target="_blank" rel="noopener noreferrer">“휴대폰 빌려 쓰다 3400만원 독촉장”…신종사기에 고소위기 몰린 피해자들</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 12:55</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102275" target="_blank" rel="noopener noreferrer">휴대폰 10대 렌탈시켜 연 160% 뜯었다…금감원, 신종사기 경고</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 12:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102215" target="_blank" rel="noopener noreferrer">2년차 들어서는 구윤철 “하반기 경제 현안 산적…국민 체감 변화에 역량 집중해달라”</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 11:09</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12102169" target="_blank" rel="noopener noreferrer">토스-SBI저축은행 손잡고 중금리 대출 선보인다</a>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">07-20 10:28</span>
+  </span>
+</div>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="breaking" style="display:none">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+  </div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-4 " id="news-briefing">
+    <div class="v2-card__header">
+    <span class="v2-overline">모닝 브리핑</span>
+    <span class="v2-card__meta">2026-07-22 01:12 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-hero-news-row">
+      <span class="n">1</span>
+      <a class="t" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1qQXlVTkJpV3F6OWNuOVdHSmI4Yzd5a1FEbU5zeENMeHgwckpaaVRvbFo5elhYUDhDSXBnOG04SDVWaEthWFJqSE41YkZxM3JfT2hmWGVHdnRGeWdlSFFKWHZkNk4tZDFhdEMxckNn?oc=5" target="_blank" rel="noopener noreferrer">미국 뉴욕증시, 다우 나스닥 혼조세...반도체주 반등 - gukjenews.com</a>
+    </div>
+    <div class="v2-hero-news-row">
+      <span class="n">2</span>
+      <a class="t" href="https://www.marketwatch.com/story/south-korean-stocks-werent-a-big-deal-in-your-emerging-markets-fund-artificial-intelligence-changed-that-21308089?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">South Korean stocks weren’t a big deal in your emerging-markets fund. Artificial intelligence changed that.</a>
+    </div>
+    <div class="v2-hero-news-row">
+      <span class="n">3</span>
+      <a class="t" href="https://www.cnbc.com/2026/07/20/ryanair-q1-earnings-iran-war-summer-fares.html" target="_blank" rel="noopener noreferrer">Ryanair says &#39;no shortage&#39; of travelers despite Iran war denting profit</a>
+    </div>
+  </div>
+  <div class="v2-card__footer">필수 0 · 주목 46 · 참고 89</div>
+
+</div>
+
+    </div>
+  </main>
+  <div class="v2-panel-slot" id="panel-slot"></div>
+  <script src="../../static/js/store.js" defer></script>
+  <script src="../../static/js/stockhub.js" defer></script>
+  <script src="../../static/js/search.js" defer></script>
+<script src="../../static/js/tabs.js" defer></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.TATabs) window.TATabs.init("news", "us_market");
+  });
+</script>
+</body>
+</html>
