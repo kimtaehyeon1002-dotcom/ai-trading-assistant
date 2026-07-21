@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T06:28:00.741787+09:00",
+  "generated_at": "2026-07-22T06:29:32.754480+09:00",
   "sources": {
     "Notion Sync": {
       "status": "skipped",
@@ -10,21 +10,21 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-22T06:27:58.000344+09:00",
+      "last_built": "2026-07-22T06:29:22.536644+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 676
+      "duration_ms": 5511
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-22T06:27:58.678849+09:00",
+      "last_built": "2026-07-22T06:29:28.049010+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 2005
+      "duration_ms": 4536
     },
     "Theme Analyst": {
       "status": "completed",
-      "last_built": "2026-07-22T05:07:54.026746+09:00",
+      "last_built": "2026-07-22T06:29:32.594551+09:00",
       "expected_T_min": 30,
       "items": 3,
       "duration_ms": 2
@@ -38,17 +38,17 @@
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-22T06:28:00.721209+09:00",
+      "last_built": "2026-07-22T06:29:32.747441+09:00",
       "expected_T_min": null,
-      "items": 3,
+      "items": 2,
       "duration_ms": 0
     },
     "TA Analyst": {
       "status": "completed",
-      "last_built": "2026-07-22T05:07:54.034255+09:00",
+      "last_built": "2026-07-22T06:29:32.601973+09:00",
       "expected_T_min": 1440,
       "items": 120,
-      "duration_ms": 80
+      "duration_ms": 81
     },
     "Macro FRED": {
       "status": "completed",
@@ -136,16 +136,16 @@
     },
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-07-22T06:27:57.944790+09:00",
+      "last_built": "2026-07-22T06:29:22.506528+09:00",
       "expected_T_min": null,
       "items": 1,
-      "duration_ms": 3
+      "duration_ms": 1
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-22T06:27:58.000344+09:00",
+      "last_built": "2026-07-22T06:29:32.720802+09:00",
       "expected_T_min": null,
-      "items": 19,
+      "items": 1,
       "duration_ms": 0
     }
   }
