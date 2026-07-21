@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T06:17:40.703063+09:00",
+  "updated_at": "2026-07-22T06:17:41.719092+09:00",
   "workers": {
     "Notion Sync": {
       "worker": "Notion Sync",
@@ -43,7 +43,7 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-07-22T06:17:40.703063+09:00"
+      "last_run": "2026-07-22T06:17:41.719092+09:00"
     },
     "TA Analyst": {
       "worker": "TA Analyst",
@@ -149,7 +149,7 @@
       "items": 19,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-07-22T06:17:37.486975+09:00"
+      "last_run": "2026-07-22T06:17:41.689570+09:00"
     }
   }
 }
