@@ -10,7 +10,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from collectors import notion_collector
+from collectors import obsidian_collector
 from config.settings import ensure_dirs
 from generators.base import copy_static
 from utils import runlog
@@ -21,19 +21,33 @@ log = get_logger("build")
 TARGETS = ("morning", "news", "trades", "dashboard", "all")
 
 
-def _sync_notion() -> None:
-    """Notion ERP 동기화 — 토큰 미설정이면 사실대로 skipped 기록(가짜 데이터 금지)."""
-    if not notion_collector.enabled():
-        runlog.note("Notion Sync", status="skipped", detail="NOTION_API_KEY/DB 미설정")
+def _sync_vault() -> None:
+    """Obsidian vault(워치리스트) 동기화 — 폴더 미존재/빈 폴더면 사실대로 skipped 기록."""
+    if not obsidian_collector.enabled():
+        runlog.note("Vault Sync", status="skipped", detail="vault/00_Watchlist 없음/비어있음")
         return
 
     def _collect_and_persist():
-        from repositories import notion_repository
+        from repositories import obsidian_repository
 
-        raw = notion_collector.collect()
-        return notion_repository.save_normalized(raw) if raw else None
+        raw = obsidian_collector.collect()
+        return obsidian_repository.save_normalized(raw) if raw else None
 
-    runlog.run_step("Notion Sync", _collect_and_persist, fallback=None)
+    runlog.run_step("Vault Sync", _collect_and_persist, fallback=None)
+
+
+def _vault_write(fn) -> int:
+    """vault_journal 쓰기 함수 1개 실행 → 기록된 노트 개수(부분 실패 허용, 사실대로 로그)."""
+    try:
+        result = fn()
+    except Exception as exc:  # noqa: BLE001 - 저널 write-back 실패가 빌드 전체를 막지 않음
+        log.warning("vault_journal.%s 실패: %s", fn.__name__, exc)
+        return 0
+    if result is None:
+        return 0
+    if isinstance(result, list):
+        return len(result)
+    return 1
 
 
 def run_build(target: str) -> list[Path]:
@@ -42,8 +56,9 @@ def run_build(target: str) -> list[Path]:
         raise ValueError(f"알 수 없는 target: {target} (choices: {TARGETS})")
 
     ensure_dirs()
-    _sync_notion()
+    _sync_vault()
 
+    from generators import vault_journal
     from generators.ai_office.generate import generate as gen_office
     from generators.dashboard.generate import generate as gen_dashboard
     from generators.morning.generate import generate as gen_morning
@@ -51,12 +66,19 @@ def run_build(target: str) -> list[Path]:
     from generators.trades.generate import generate as gen_trades
 
     pages: list[Path] = []
+    vault_notes = 0
     if target in ("morning", "all"):
         pages.append(gen_morning())
+        vault_notes += _vault_write(vault_journal.write_morning)
     if target in ("news", "all"):
         pages.append(gen_news())
+        vault_notes += _vault_write(vault_journal.write_news)
     if target in ("trades", "all"):
         pages.append(gen_trades())
+        vault_notes += _vault_write(vault_journal.write_trades)
+
+    if vault_notes or vault_journal.enabled():
+        runlog.note("Vault Journal", items=vault_notes, detail="10_Journal/ write-back")
 
     # 공통 마무리: 대시보드 + 정적 자산 + AI Office(실행 기록 발행)
     pages.append(gen_dashboard())

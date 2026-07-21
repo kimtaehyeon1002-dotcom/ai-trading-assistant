@@ -17,6 +17,11 @@ venv/
 /cache/
 *.log
 
+# Obsidian vault — 기기 로컬 상태만 제외 (플러그인 설정 .obsidian/*.json은 커밋해 기기 간 공유)
+vault/.obsidian/workspace*
+vault/.obsidian/cache/
+vault/.trash/
+
 # OS / editor
 .DS_Store
 Thumbs.db

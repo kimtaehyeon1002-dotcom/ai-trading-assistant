@@ -1,6 +1,6 @@
 """매매 원장 — data/trades/trades.json ↔ Trade 모델. Kiwoom raw 변환도 여기서.
 
-Notion ERP(계좌 원장)로 이관 전까지의 커밋되는 로컬 원장. GitHub Pages에는 쓰지 않는다.
+커밋되는 로컬 원장. GitHub Pages에는 쓰지 않는다(vault/10_Journal/trades/가 저널 발행 채널).
 """
 from __future__ import annotations
 
