@@ -2,99 +2,11 @@
   "code": "HOOD",
   "name": "Robinhood Markets",
   "market": "US",
-  "as_of": "2026-07-21T16:13:44.557402+00:00",
-  "source": "edgar",
-  "growth": {
-    "latest_year": "2025",
-    "value": 51.58,
-    "cagr_pct": 48.79,
-    "judgment": "good",
-    "series": [
-      {
-        "year": "2021",
-        "value": 1815000000
-      },
-      {
-        "year": "2022",
-        "value": 1358000000
-      },
-      {
-        "year": "2023",
-        "value": 1865000000
-      },
-      {
-        "year": "2024",
-        "value": 2951000000
-      },
-      {
-        "year": "2025",
-        "value": 4473000000
-      }
-    ]
-  },
+  "as_of": "2026-07-21T22:08:50.225729+00:00",
+  "source": "none",
+  "growth": null,
   "profitability": null,
-  "stability": {
-    "latest_year": "2025",
-    "value": 316.75,
-    "judgment": "caution",
-    "series": [
-      {
-        "year": "2022",
-        "value": 235.49
-      },
-      {
-        "year": "2023",
-        "value": 163.2
-      },
-      {
-        "year": "2024",
-        "value": 228.49
-      },
-      {
-        "year": "2025",
-        "value": 316.75
-      }
-    ]
-  },
-  "cashflow": {
-    "latest_year": "2025",
-    "value": 1638000000,
-    "judgment": "neutral",
-    "series": [
-      {
-        "year": "2019",
-        "value": 1260085000
-      },
-      {
-        "year": "2020",
-        "value": 1876000000
-      },
-      {
-        "year": "2021",
-        "value": -885000000
-      },
-      {
-        "year": "2022",
-        "value": -852000000
-      },
-      {
-        "year": "2023",
-        "value": 1181000000
-      },
-      {
-        "year": "2024",
-        "value": -157000000
-      },
-      {
-        "year": "2025",
-        "value": 1638000000
-      }
-    ]
-  },
-  "valuation": {
-    "latest_year": "2025",
-    "eps": 2.05,
-    "per": 52.21,
-    "note": null
-  }
+  "stability": null,
+  "cashflow": null,
+  "valuation": null
 }

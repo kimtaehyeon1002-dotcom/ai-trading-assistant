@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-21T21:55:47.494151+00:00",
+  "as_of": "2026-07-21T22:09:04.491031+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,24 @@
   ],
   "news": [
     {
+      "title": "RFK Jr. says cyclospora outbreak is 'under control'",
+      "link": "https://www.cnbc.com/2026/07/21/cyclospora-rfk-jr-says-outbreak-is-under-control.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T22:06:30+00:00"
+    },
+    {
+      "title": "The Fed rang the alarm about Anthropic's Mythos AI model — but had to go months without it",
+      "link": "https://www.cnbc.com/2026/07/21/fed-mythos-ai-cybersecurity-banks-project-glasswing.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T22:05:33+00:00"
+    },
+    {
+      "title": "[글로벌증시] 뉴욕증시, 실적 호조·반도체주 반등에 상승 - 연합뉴스 한민족센터",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LR3BxWjV1ZDdVR0k0ODZKOURhN0xPNzc2N0locEVPc0dNcDBTWW9zcnF4QUdpUlFwLVZFLTNfRTB2ZGJVenFGdF9PRlc1Zm1tckVRVTJqcEx6Qm5Qcl9QMS13dGUwSGhfa0Rsbk85X0M1MnRy?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:49:56+00:00"
+    },
+    {
       "title": "BlackRock, Carhartt, Ford and Google launch skilled trades workforce initiative",
       "link": "https://www.cnbc.com/2026/07/21/blackrock-carhartt-ford-google-skilled-trades.html",
       "source": "CNBC Finance",
@@ -364,6 +382,12 @@
       "link": "https://www.cnbc.com/2026/07/21/super-micro-stock-spacex-announcement.html",
       "source": "CNBC Finance",
       "published": "2026-07-21T21:48:04+00:00"
+    },
+    {
+      "title": "[2분 뉴욕증시] 불안 요인 많지만...힘낸 반도체 덕에 3대 지수 반등 - YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zT2QwejQtQVBJbnlnZmlUdGxLc1llaFpQYmxxNk9veklfeXRTaWxsSEVQbEhJVlJKRk9faU94V01hMm1wcEpKSFE0QmFtZWR2WXdDNlVMamlfNlpWRnc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:45:00+00:00"
     },
     {
       "title": "[서울데이터랩]미국 증시, 반도체 강세에 일제히 상승 마감…나스닥 1%대 오름세 - 서울신문",
@@ -576,12 +600,6 @@
       "published": "2026-07-21T20:22:42+00:00"
     },
     {
-      "title": "반도체가 뉴욕 증시 반등 이끌었다…나스닥 1.3%↑ - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOHBka2JmYl9sZG45YkhGSXBkOVRybms1RHdvY2RaQndTNC1lRlJuLU5jbThUWDFWUHAwWmZSMHhIa2tSQWRaM2dxZDVFZkZkMlpoZmxfSTMxMmQ1QXhtTnV0QUR5VzlMYnJoWHlERENwSTZrN01jZ29iZ1A3WHNlSkZTOGI4dkgxR1B6WW5OVDQ3bkVqeWdoNFQ2RGpkZw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T20:22:00+00:00"
-    },
-    {
       "title": "“4755조 메가프로젝트로도 역부족” … 잠재성장률 3% ‘마지막 퍼즐’은",
       "link": "https://www.mk.co.kr/news/economy/12103701",
       "source": "매일경제·증권",
@@ -592,12 +610,6 @@
       "link": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html",
       "source": "CNBC Finance",
       "published": "2026-07-21T20:19:12+00:00"
-    },
-    {
-      "title": "SpaceX snaps 7-day losing streak, sets earnings date that triggers first big share unlock",
-      "link": "https://www.cnbc.com/2026/07/21/spacex-spcx-earnings-lock-up-expiration.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T20:18:25+00:00"
     },
     {
       "title": "[뉴욕증시-1보] 알파벳 실적 발표 앞두고 기대감…강세 마감 - 연합인포맥스",
@@ -640,18 +652,6 @@
       "link": "https://www.marketwatch.com/story/we-have-8-million-in-traditional-iras-should-we-tap-them-to-buy-a-house-and-take-the-tax-hit-c2478daa?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-21T20:00:00+00:00"
-    },
-    {
-      "title": "Why Paramount could win if it loses the Warner Bros. Discovery deal",
-      "link": "https://www.marketwatch.com/story/why-paramount-could-win-if-it-loses-the-warner-bros-discovery-deal-5f174963?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T19:49:00+00:00"
-    },
-    {
-      "title": "Pro stock pickers cannot beat simple math — war in the Middle East is proving it",
-      "link": "https://www.marketwatch.com/story/if-timing-the-stock-market-were-easy-the-iran-war-would-have-proven-it-its-done-the-opposite-ac090ad3?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T19:46:00+00:00"
     }
   ],
   "pages": [

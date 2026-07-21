@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T06:55:47.491355+09:00",
+  "generated_at": "2026-07-22T07:09:04.488295+09:00",
   "sources": {
     "Notion Sync": {
       "status": "skipped",
@@ -10,17 +10,17 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-22T06:55:37.811394+09:00",
+      "last_built": "2026-07-22T07:08:50.256464+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 4983
+      "duration_ms": 10286
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-22T06:55:42.829521+09:00",
+      "last_built": "2026-07-22T07:09:00.543864+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 4626
+      "duration_ms": 3905
     },
     "Theme Analyst": {
       "status": "completed",
@@ -38,7 +38,7 @@
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-22T06:55:47.483814+09:00",
+      "last_built": "2026-07-22T07:09:04.480225+09:00",
       "expected_T_min": null,
       "items": 3,
       "duration_ms": 0
@@ -94,17 +94,17 @@
     },
     "FS DART corpCode": {
       "status": "completed",
-      "last_built": "2026-07-22T01:13:25.433460+09:00",
+      "last_built": "2026-07-22T07:08:49.994344+09:00",
       "expected_T_min": null,
       "items": null,
       "duration_ms": 0
     },
     "FS EDGAR CIK맵": {
       "status": "completed",
-      "last_built": "2026-07-22T01:13:25.600310+09:00",
+      "last_built": "2026-07-22T07:08:50.004860+09:00",
       "expected_T_min": null,
-      "items": 10426,
-      "duration_ms": 509
+      "items": null,
+      "duration_ms": 212
     },
     "Asset Kiwoom": {
       "status": "completed",
@@ -136,7 +136,7 @@
     },
     "Vault Sync": {
       "status": "skipped",
-      "last_built": "2026-07-22T06:55:36.666700+09:00",
+      "last_built": "2026-07-22T07:08:49.957137+09:00",
       "expected_T_min": null,
       "items": null,
       "duration_ms": 0
