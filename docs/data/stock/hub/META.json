@@ -4,12 +4,12 @@
   "market": "US",
   "theme": "인공지능",
   "quote": {
-    "close": 647.010009765625,
-    "change_pct": 0.18,
-    "volume": 2863318,
-    "amount": 1852595407.1420898,
+    "close": 643.8099975585938,
+    "change_pct": -0.32,
+    "volume": 8401169,
+    "amount": 5408756593.3793335,
     "marcap": null,
-    "as_of_iso": "2026-07-21T16:13:06.417749+00:00",
+    "as_of_iso": "2026-07-21T22:42:35.231138+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "META",

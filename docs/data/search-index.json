@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-21T22:26:11.229543+00:00",
+  "as_of": "2026-07-21T22:42:43.183525+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -157,13 +157,13 @@
       "market": "US"
     },
     {
-      "code": "SNDK",
-      "name": "Sandisk",
+      "code": "NVDA",
+      "name": "Nvidia",
       "market": "US"
     },
     {
-      "code": "NVDA",
-      "name": "Nvidia",
+      "code": "SNDK",
+      "name": "Sandisk",
       "market": "US"
     },
     {
@@ -172,13 +172,13 @@
       "market": "US"
     },
     {
-      "code": "TSLA",
-      "name": "Tesla, Inc.",
+      "code": "AAPL",
+      "name": "Apple Inc.",
       "market": "US"
     },
     {
-      "code": "AAPL",
-      "name": "Apple Inc.",
+      "code": "TSLA",
+      "name": "Tesla, Inc.",
       "market": "US"
     },
     {
@@ -197,18 +197,8 @@
       "market": "US"
     },
     {
-      "code": "DHR",
-      "name": "Danaher Corporation",
-      "market": "US"
-    },
-    {
       "code": "AMZN",
       "name": "Amazon",
-      "market": "US"
-    },
-    {
-      "code": "MRVL",
-      "name": "Marvell Technology",
       "market": "US"
     },
     {
@@ -217,18 +207,8 @@
       "market": "US"
     },
     {
-      "code": "STX",
-      "name": "Seagate Technology",
-      "market": "US"
-    },
-    {
-      "code": "WDC",
-      "name": "Western Digital",
-      "market": "US"
-    },
-    {
-      "code": "AMAT",
-      "name": "Applied Materials",
+      "code": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
       "market": "US"
     },
     {
@@ -237,13 +217,48 @@
       "market": "US"
     },
     {
-      "code": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
+      "code": "STX",
+      "name": "Seagate Technology",
+      "market": "US"
+    },
+    {
+      "code": "MRVL",
+      "name": "Marvell Technology",
+      "market": "US"
+    },
+    {
+      "code": "DHR",
+      "name": "Danaher Corporation",
+      "market": "US"
+    },
+    {
+      "code": "AMAT",
+      "name": "Applied Materials",
+      "market": "US"
+    },
+    {
+      "code": "WDC",
+      "name": "Western Digital",
+      "market": "US"
+    },
+    {
+      "code": "NFLX",
+      "name": "Netflix",
+      "market": "US"
+    },
+    {
+      "code": "LRCX",
+      "name": "Lam Research",
       "market": "US"
     },
     {
       "code": "LITE",
       "name": "Lumentum",
+      "market": "US"
+    },
+    {
+      "code": "ORCL",
+      "name": "Oracle Corporation",
       "market": "US"
     },
     {
@@ -257,23 +272,13 @@
       "market": "US"
     },
     {
-      "code": "LRCX",
-      "name": "Lam Research",
+      "code": "T",
+      "name": "AT&T",
       "market": "US"
     },
     {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
-      "market": "US"
-    },
-    {
-      "code": "NFLX",
-      "name": "Netflix",
-      "market": "US"
-    },
-    {
-      "code": "COIN",
-      "name": "Coinbase",
+      "code": "CAT",
+      "name": "Caterpillar Inc.",
       "market": "US"
     },
     {
@@ -282,18 +287,13 @@
       "market": "US"
     },
     {
-      "code": "HOOD",
-      "name": "Robinhood Markets",
+      "code": "WMT",
+      "name": "Walmart",
       "market": "US"
     },
     {
-      "code": "T",
-      "name": "AT&T",
-      "market": "US"
-    },
-    {
-      "code": "MMM",
-      "name": "3M",
+      "code": "COIN",
+      "name": "Coinbase",
       "market": "US"
     },
     {
@@ -354,6 +354,24 @@
   ],
   "news": [
     {
+      "title": "The Fed rang the alarm about Anthropic's Mythos AI model — but had to go months without it",
+      "link": "https://www.cnbc.com/2026/07/21/fed-mythos-ai-cybersecurity-banks-project-glasswing.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T22:34:35+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
+      "link": "https://www.yna.co.kr/view/AKR20260722018500011",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T22:30:00+00:00"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 반등에 상승 마감 - TBS 서울",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWC1ERnJnMGhwclk5WHRyN21GQjJZZ2xyczN3a1RiU2p6a3Yxa0RwR2Y4ZjJpME9TQm8xZ0VjOXE2WnJ6NVU0VVBJNVowUUM1cEVKNDk1NDlFWW8xcTRQYkxidDBTQUVjcXZWX0xXVmlGdmEtdU0zdnVlZ25kVFdzYUV6SEZxdw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T22:25:00+00:00"
+    },
+    {
       "title": "강남구청장, 압구정 재건축단지 방문…\"속도감 있게 추진\"",
       "link": "https://www.yna.co.kr/view/AKR20260722018900004",
       "source": "연합뉴스·경제",
@@ -372,6 +390,12 @@
       "published": "2026-07-21T22:10:56+00:00"
     },
     {
+      "title": "[오늘의 글로벌마켓] 뉴욕증시, 반도체주 중심 상승세 지속...나스닥 1.3%↑ - 오피니언뉴스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kVlFNeU8wcTVIdG5MbjhqOUNSR3ptVmplcXNCNnoxbmc4V0Jaa25yTWppN1pBQ2lLRVF2ZGRfem04V0Q4OVF5dXhDMDJYUjFPSl83SUNSREx6UVBDQk1FTTV2SjRxVXQ4aElXN0ZLN2I?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T22:08:56+00:00"
+    },
+    {
       "title": "[머니톡스] 워런버핏이나 피터린치라면?…\"심리를 지배하라\"",
       "link": "https://www.yna.co.kr/view/AKR20260721127600546",
       "source": "연합뉴스·경제",
@@ -384,16 +408,34 @@
       "published": "2026-07-21T22:06:30+00:00"
     },
     {
-      "title": "The Fed rang the alarm about Anthropic's Mythos AI model — but had to go months without it",
-      "link": "https://www.cnbc.com/2026/07/21/fed-mythos-ai-cybersecurity-banks-project-glasswing.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T22:05:33+00:00"
+      "title": "[글로벌증시] 뉴욕증시, 실적 호조·반도체주 반등에 상승 - 연합뉴스 한민족센터",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LR3BxWjV1ZDdVR0k0ODZKOURhN0xPNzc2N0locEVPc0dNcDBTWW9zcnF4QUdpUlFwLVZFLTNfRTB2ZGJVenFGdF9PRlc1Zm1tckVRVTJqcEx6Qm5Qcl9QMS13dGUwSGhfa0Rsbk85X0M1MnRy?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:49:56+00:00"
     },
     {
       "title": "BlackRock, Carhartt, Ford and Google launch skilled trades workforce initiative",
       "link": "https://www.cnbc.com/2026/07/21/blackrock-carhartt-ford-google-skilled-trades.html",
       "source": "CNBC Finance",
       "published": "2026-07-21T21:48:38+00:00"
+    },
+    {
+      "title": "[서울데이터랩]미국 증시, 반도체 강세에 일제히 상승 마감…나스닥 1%대 오름세 - 서울신문",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NVktOcUwwUG44US1KR3M2bE9wZHU0aEh0WTd5MXpJRlJXYXRWYXc1UG9sUmIxR2R3bVk4UEdXd015U21YMlUwSThZcmJLQWRfUkFIdURHREMyWmdhLWpIZnhSbnlOeHZ1S2d2VG5IOTdXSDdqajJGV0ppbVQyUQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:35:00+00:00"
+    },
+    {
+      "title": "유가 부담 이겨낸 뉴욕증시…반도체 반등에 나스닥 1.3%↑ - ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoUjFDLTNLUl9SMWZnUmhhcktWMEprTVljMlFxTHVBaEdhakx1cjl1NHgxa0xoWHA5U0EyY2dBWnZFeWctQW9pb0xjak1na1pxd3o2NkE0UWZjV3hmRjlHbURlTFhYOGJ4?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:29:55+00:00"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 반등에 상승 마감 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMTRwclFfTnBFeU5oajZVRmZfZlhpZFU2MEdOdFhZNzVQZWl6Q0FCYzRGdWg4MUxmdTdpTkFIVFVPZGNSTm5GZ2RLTFJkUGljdGNaazVXNDRyejR5dlBQdldNSEthWEFGY0ZfZlNPSmJJdXBzVGFRb21wRHFBTDRfUHhwRFVDdEozQlVpSlk5V2R1eC1MYVRSUFVNbTRLZ9IBsgFBVV95cUxPemRZZUt3MmMtZWRUUlNEM3RSQ3VLQ3h4RWhmRFBoTmhzdU14Z3F0SkdnNmhrS044amczZG9zTW9sdGNtOTduMVhSN2tOajNhMm9OaGgteVg3ZnJwYVRjSmdrM0duazE2QlN1ZHJJWWtHTEN5RkNWV3l3OFI4WEhReUgwSElpNGd0MjNWcTVCSjVQVUpxRVR4MUN2aTJWOWpLLUMyeTRvS1JNWmZBcUtYOGRn?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:23:00+00:00"
     },
     {
       "title": "OpenAI appoints two new members to board of directors",
@@ -406,6 +448,18 @@
       "link": "https://www.mk.co.kr/news/economy/12103952",
       "source": "매일경제·증권",
       "published": "2026-07-21T21:07:16+00:00"
+    },
+    {
+      "title": "[속보] 뉴욕증시 상승…나스닥 1.29%↑ - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hQ3FpR0ViR3QtQWJFbFhHUXJyUFJub2lqTFZQUmpENnEtVUFpcUJTcmxPMEwtQmk4dVMtYVpWRFJSSGc2c0M2dW5UN2F4OHFxUlFqMA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:05:00+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 실적 호조·반도체주 반등에 상승 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXRm94eTFKNVhjb05OVG5SaXd6NjNnMGpya2lrT0VkVThCdGpPejcxS0JNLUVwODhJd3lCTUdCX0g5MDVUc2RUejRXQ2J2RUlYQ3VsUG01QldGUHZ0cEw5OA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:04:22+00:00"
     },
     {
       "title": "의료대란 기간 응급실 지킨 퇴직 보건소장에 돌아온 건 '과태료'",
@@ -462,6 +516,12 @@
       "published": "2026-07-21T21:00:01+00:00"
     },
     {
+      "title": "‘포모’에서 ‘조모’로 돌아선 개미들···증시 하락에 “안 사길 다행” - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZRU9kM1hRWjZzNnZtMVVGY3FyRTU1bTB0YU5XN1BQNG9Wa1NxTGhpVWlGZjRxNFpNR3ZSRmFUaTJYRUlGcUFwSURyeUszblotVnc5QS00VlZFUdIBX0FVX3lxTFA4Yk8wUXNDd0E4VEU1OTdwT2twd0RMUkg0LW5jSS16SUlLOVlFMENUYUUxTjNIUGRHWE5FaDNoVzZ5ZDQ3ZllITllyM08wbEItem83OGQzWUE0UEFZZ2Jn?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T21:00:00+00:00"
+    },
+    {
       "title": "1분기 도시가구 상위 20%만 실질소득 늘어…나머지는 모두 감소",
       "link": "https://www.yna.co.kr/view/AKR20260721168100002",
       "source": "연합뉴스·경제",
@@ -516,10 +576,28 @@
       "published": "2026-07-21T20:45:00+00:00"
     },
     {
+      "title": "뉴욕 증시, 실적 호조·반도체주 반등에 상승 마감 - YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82d2d5Vlh0ZEl0QnhlRmdOdnk2bUh5RjM3R2Y2NlN0TUJHTGM3cTRPLVVIdkFMUndNTUppbkhhUWVkYXo2TXI4XzNoWjR4Q1VnNFRxYmJRR29raWlpeUE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T20:38:00+00:00"
+    },
+    {
       "title": "Jamie Dimon's dual stock and bond market warning: Investors already acted on one of the two calls",
       "link": "https://www.cnbc.com/2026/07/21/jamie-dimon-stock-bond-market-warning-treasuries.html",
       "source": "CNBC Finance",
       "published": "2026-07-21T20:37:26+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 반도체·실적 호조에 나스닥 329.13P↑ - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTzhxZHJrR1NpXzBGdF9YQnZyWWZTXy1TU2RzcVNEUks0MjFzN3YtWm8teWNtbzc1NDJzbG9KUVE2TEhNZFVtUEY5aG85enJPOUU5X1UxWlI3Skl2eWJGV0ViUEZiUWZfT0gtZXJUb2pfODZrOWJCLWxVbDAwRFUzVzFzVlVfYTQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T20:32:01+00:00"
+    },
+    {
+      "title": "뉴욕증시, 실적 호조·반도체주 반등에 상승‥나스닥 1.3%↑ - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxbUpMTXM2aEFscTl2TG5WbnQtZ0t6Q2tyWlo3VzRYSy10LUdya2dLNl9lYkcxUzhJWWk5Q2Jfb2RGWFJEZDdBcGk0NDRkREpzSFVUSnhnTkJqQVhzZExsaUJpX2dqc2ZtaUdBeDNBeFg1Y1U50gF0QVVfeXFMTVltaTBvbVQ1LWhSVGhWZkhHZ2ROMkZNdWFVVWZiV2Y5Ym9VMTN4NXlVdkZ4YVdWc3BSYWppc0hWdzBTUm95VVZCTUgtcVVMTmt2ZGhtQVQ2bEFCOWZYQ2lzMGllZzg2QTNwdmdsM0hOQ2dqS1o?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T20:31:51+00:00"
     },
     {
       "title": "싸울수록 치솟는 ‘코인’ 몸값 … 스위스 ‘중립’ 자리 꿰찬 크립토",
@@ -540,6 +618,12 @@
       "published": "2026-07-21T20:27:00+00:00"
     },
     {
+      "title": "SK하이닉스 ADR 14% 급등…반도체 반등에 뉴욕증시 상승[뉴욕 is] - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0weGhpSDBOQlhVX2c4a0VoYXZxQTdfXzE1WXBJempZVmJLZmIyU1kzeS1DWDh6QjZOeUUyUUZ3ajhwZWN3NnlQQVpDSDh6cmc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T20:22:42+00:00"
+    },
+    {
       "title": "“4755조 메가프로젝트로도 역부족” … 잠재성장률 3% ‘마지막 퍼즐’은",
       "link": "https://www.mk.co.kr/news/economy/12103701",
       "source": "매일경제·증권",
@@ -552,6 +636,12 @@
       "published": "2026-07-21T20:19:12+00:00"
     },
     {
+      "title": "[뉴욕증시-1보] 알파벳 실적 발표 앞두고 기대감…강세 마감 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nbHBISjJaX19wWWkzWnUyRXdOcC1QOXE5WG00SnlRRVhLb1FHMmdmVlBVbFFOQ2stNjl5eEpvM3hNNVZWVzlCcnQ5VlRMT3JRWHFZa09BQkJGYmtud1NhSWgtZHp2NkxxQTdpNHlJeHfSAXRBVV95cUxQNWFXYzd2ejRrZHEwWXM0anItNmRtcjBLdGNhVzNQU09wLVJvMmJNeE9lTk5HMWdaYzBrN0dtVUN6VzJQVTd1OVRDdEJRemw3dHFRX1BCS1dmUnVQcmlBSzVzenhwMnV0ckM1TF8yTTlodFlJXw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-21T20:13:33+00:00"
+    },
+    {
       "title": "Why Micron and other chip stocks are bouncing back so strongly",
       "link": "https://www.marketwatch.com/story/why-micron-and-other-chip-stocks-are-bouncing-back-so-strongly-3f6d3cee?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -562,96 +652,6 @@
       "link": "https://www.marketwatch.com/story/forget-nvidia-these-5-s-p-500-stocks-are-quietly-going-all-in-on-ai-68642f84?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-21T20:09:00+00:00"
-    },
-    {
-      "title": "$100M New Jersey deli fraudster James Patten sentenced to 21 months in prison",
-      "link": "https://www.cnbc.com/2026/07/21/new-jersey-deli-fraud-james-patten-sentenced.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T20:03:51+00:00"
-    },
-    {
-      "title": "Bets against SpaceX grow to 32% of float as Elon Musk warns short sellers won't survive",
-      "link": "https://www.cnbc.com/2026/07/21/bets-against-spacex-grow-to-32percent-of-float-as-elon-musk-warns-short-sellers-wont-survive.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T20:01:39+00:00"
-    },
-    {
-      "title": "미·이란 충돌 격화에 홍해 봉쇄 위협까지…국제유가 2%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260722007500072",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-21T20:00:43+00:00"
-    },
-    {
-      "title": "We have $8 million in traditional IRAs. Should we tap them to buy a house — and take the tax hit?",
-      "link": "https://www.marketwatch.com/story/we-have-8-million-in-traditional-iras-should-we-tap-them-to-buy-a-house-and-take-the-tax-hit-c2478daa?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T20:00:00+00:00"
-    },
-    {
-      "title": "Why Paramount could win if it loses the Warner Bros. Discovery deal",
-      "link": "https://www.marketwatch.com/story/why-paramount-could-win-if-it-loses-the-warner-bros-discovery-deal-5f174963?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T19:49:00+00:00"
-    },
-    {
-      "title": "Pro stock pickers cannot beat simple math — war in the Middle East is proving it",
-      "link": "https://www.marketwatch.com/story/if-timing-the-stock-market-were-easy-the-iran-war-would-have-proven-it-its-done-the-opposite-ac090ad3?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T19:46:00+00:00"
-    },
-    {
-      "title": "Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.",
-      "link": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T19:42:00+00:00"
-    },
-    {
-      "title": "Apple prepares a new way to buy iPhones. Plus, making sense of Google's new AI models",
-      "link": "https://www.cnbc.com/2026/07/21/apple-prepares-a-new-way-to-buy-iphones-plus-making-sense-of-googles-new-ai-models.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T19:20:31+00:00"
-    },
-    {
-      "title": "Time for a crypto comeback? Traders bet that this stock will lead the way",
-      "link": "https://www.cnbc.com/2026/07/21/traders-bet-that-this-stock-will-lead-the-way-in-a-crypto-comeback.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T19:09:36+00:00"
-    },
-    {
-      "title": "Investing experts: Why 'just buy the market' doesn't necessarily apply to bonds",
-      "link": "https://www.cnbc.com/2026/07/21/bond-investing-buy-the-market-agg-index.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T19:04:51+00:00"
-    },
-    {
-      "title": "20억 아파트 탈세꼼수에 … 10억 추징하고 검찰에 넘겼다",
-      "link": "https://www.mk.co.kr/news/economy/12103489",
-      "source": "매일경제·증권",
-      "published": "2026-07-21T19:00:00+00:00"
-    },
-    {
-      "title": "Tesla shares poised for biggest earnings move in a year",
-      "link": "https://www.cnbc.com/2026/07/21/tesla-shares-poised-for-biggest-earnings-move-in-a-year.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T18:25:07+00:00"
-    },
-    {
-      "title": "IRS chief Frank Bisignano dismisses JPMorgan spying allegations",
-      "link": "https://www.cnbc.com/2026/07/21/irs-chief-frank-bisignano-laughs-off-jpmorgan-spying-allegations.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T18:21:57+00:00"
-    },
-    {
-      "title": "Healthcare students are turning to Kalshi and betting platforms to pay for their degrees, survey shows",
-      "link": "https://www.cnbc.com/2026/07/21/healthcare-students-turn-to-kalshi-betting-platforms-to-pay-for-degrees-survey-shows.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T17:24:57+00:00"
-    },
-    {
-      "title": "Bessent says U.S. could sanction China over AI model 'theft'",
-      "link": "https://www.cnbc.com/2026/07/21/bessent-china-ai-sanctions.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T17:15:10+00:00"
     }
   ],
   "pages": [

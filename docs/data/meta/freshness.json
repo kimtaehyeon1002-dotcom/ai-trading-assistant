@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T07:26:11.227601+09:00",
+  "generated_at": "2026-07-22T07:42:43.180784+09:00",
   "sources": {
     "Notion Sync": {
       "status": "skipped",
@@ -10,17 +10,17 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-22T07:25:44.686978+09:00",
+      "last_built": "2026-07-22T07:42:35.273786+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 14877
+      "duration_ms": 3483
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-22T07:25:59.565353+09:00",
+      "last_built": "2026-07-22T07:42:38.758222+09:00",
       "expected_T_min": 30,
-      "items": 140,
-      "duration_ms": 11430
+      "items": 180,
+      "duration_ms": 4387
     },
     "Theme Analyst": {
       "status": "completed",
@@ -38,9 +38,9 @@
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-22T07:26:11.221261+09:00",
+      "last_built": "2026-07-22T07:42:43.173356+09:00",
       "expected_T_min": null,
-      "items": 2,
+      "items": 3,
       "duration_ms": 0
     },
     "TA Analyst": {
@@ -73,24 +73,24 @@
     },
     "Stock KR Ranking": {
       "status": "completed",
-      "last_built": "2026-07-22T01:12:47.337231+09:00",
+      "last_built": "2026-07-22T07:42:04.770869+09:00",
       "expected_T_min": null,
       "items": 2872,
-      "duration_ms": 981
+      "duration_ms": 1906
     },
     "Stock US Ranking": {
       "status": "completed",
-      "last_built": "2026-07-22T01:12:48.319300+09:00",
+      "last_built": "2026-07-22T07:42:06.678755+09:00",
       "expected_T_min": null,
       "items": 503,
-      "duration_ms": 17561
+      "duration_ms": 28326
     },
     "Stock Hub 보조시세": {
       "status": "completed",
-      "last_built": "2026-07-22T01:13:05.886670+09:00",
+      "last_built": "2026-07-22T07:42:35.010360+09:00",
       "expected_T_min": null,
       "items": 2,
-      "duration_ms": 526
+      "duration_ms": 220
     },
     "FS DART corpCode": {
       "status": "completed",
@@ -135,11 +135,11 @@
       "duration_ms": 0
     },
     "Vault Sync": {
-      "status": "completed",
-      "last_built": "2026-07-22T07:25:44.662564+09:00",
+      "status": "skipped",
+      "last_built": "2026-07-22T07:42:04.734067+09:00",
       "expected_T_min": null,
-      "items": 1,
-      "duration_ms": 1
+      "items": null,
+      "duration_ms": 0
     },
     "Vault Journal": {
       "status": "completed",

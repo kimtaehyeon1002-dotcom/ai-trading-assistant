@@ -1,0 +1,17 @@
+{
+  "code": "CAT",
+  "name": "Caterpillar Inc.",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 889.969970703125,
+    "change_pct": 2.97,
+    "volume": 3165402,
+    "amount": 2817112725.2036133,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T22:42:35.231228+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "CAT",
+  "related_news": []
+}

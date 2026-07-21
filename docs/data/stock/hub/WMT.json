@@ -1,0 +1,17 @@
+{
+  "code": "WMT",
+  "name": "Walmart",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 110.38999938964844,
+    "change_pct": -1.61,
+    "volume": 22290938,
+    "amount": 2460696632.214691,
+    "marcap": null,
+    "as_of_iso": "2026-07-21T22:42:35.231242+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "WMT",
+  "related_news": []
+}

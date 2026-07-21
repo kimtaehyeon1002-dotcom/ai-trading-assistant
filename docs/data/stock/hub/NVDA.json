@@ -4,12 +4,12 @@
   "market": "US",
   "theme": "반도체",
   "quote": {
-    "close": 206.07989501953125,
-    "change_pct": 1.38,
-    "volume": 46839360,
-    "amount": 9652650391.582031,
+    "close": 207.2899932861328,
+    "change_pct": 1.97,
+    "volume": 108223095,
+    "amount": 22433564635.954514,
     "marcap": null,
-    "as_of_iso": "2026-07-21T16:13:06.416972+00:00",
+    "as_of_iso": "2026-07-21T22:42:35.231069+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "NVDA",

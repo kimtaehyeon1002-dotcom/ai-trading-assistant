@@ -155,13 +155,13 @@
     "market": "US"
   },
   {
-    "code": "SNDK",
-    "name": "Sandisk",
+    "code": "NVDA",
+    "name": "Nvidia",
     "market": "US"
   },
   {
-    "code": "NVDA",
-    "name": "Nvidia",
+    "code": "SNDK",
+    "name": "Sandisk",
     "market": "US"
   },
   {
@@ -170,13 +170,13 @@
     "market": "US"
   },
   {
-    "code": "TSLA",
-    "name": "Tesla, Inc.",
+    "code": "AAPL",
+    "name": "Apple Inc.",
     "market": "US"
   },
   {
-    "code": "AAPL",
-    "name": "Apple Inc.",
+    "code": "TSLA",
+    "name": "Tesla, Inc.",
     "market": "US"
   },
   {
@@ -195,18 +195,8 @@
     "market": "US"
   },
   {
-    "code": "DHR",
-    "name": "Danaher Corporation",
-    "market": "US"
-  },
-  {
     "code": "AMZN",
     "name": "Amazon",
-    "market": "US"
-  },
-  {
-    "code": "MRVL",
-    "name": "Marvell Technology",
     "market": "US"
   },
   {
@@ -215,18 +205,8 @@
     "market": "US"
   },
   {
-    "code": "STX",
-    "name": "Seagate Technology",
-    "market": "US"
-  },
-  {
-    "code": "WDC",
-    "name": "Western Digital",
-    "market": "US"
-  },
-  {
-    "code": "AMAT",
-    "name": "Applied Materials",
+    "code": "GOOG",
+    "name": "Alphabet Inc. (Class C)",
     "market": "US"
   },
   {
@@ -235,13 +215,48 @@
     "market": "US"
   },
   {
-    "code": "GOOG",
-    "name": "Alphabet Inc. (Class C)",
+    "code": "STX",
+    "name": "Seagate Technology",
+    "market": "US"
+  },
+  {
+    "code": "MRVL",
+    "name": "Marvell Technology",
+    "market": "US"
+  },
+  {
+    "code": "DHR",
+    "name": "Danaher Corporation",
+    "market": "US"
+  },
+  {
+    "code": "AMAT",
+    "name": "Applied Materials",
+    "market": "US"
+  },
+  {
+    "code": "WDC",
+    "name": "Western Digital",
+    "market": "US"
+  },
+  {
+    "code": "NFLX",
+    "name": "Netflix",
+    "market": "US"
+  },
+  {
+    "code": "LRCX",
+    "name": "Lam Research",
     "market": "US"
   },
   {
     "code": "LITE",
     "name": "Lumentum",
+    "market": "US"
+  },
+  {
+    "code": "ORCL",
+    "name": "Oracle Corporation",
     "market": "US"
   },
   {
@@ -255,23 +270,13 @@
     "market": "US"
   },
   {
-    "code": "LRCX",
-    "name": "Lam Research",
+    "code": "T",
+    "name": "AT&T",
     "market": "US"
   },
   {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
-    "market": "US"
-  },
-  {
-    "code": "NFLX",
-    "name": "Netflix",
-    "market": "US"
-  },
-  {
-    "code": "COIN",
-    "name": "Coinbase",
+    "code": "CAT",
+    "name": "Caterpillar Inc.",
     "market": "US"
   },
   {
@@ -280,18 +285,13 @@
     "market": "US"
   },
   {
-    "code": "HOOD",
-    "name": "Robinhood Markets",
+    "code": "WMT",
+    "name": "Walmart",
     "market": "US"
   },
   {
-    "code": "T",
-    "name": "AT&T",
-    "market": "US"
-  },
-  {
-    "code": "MMM",
-    "name": "3M",
+    "code": "COIN",
+    "name": "Coinbase",
     "market": "US"
   },
   {
