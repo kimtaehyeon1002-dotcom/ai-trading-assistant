@@ -1,0 +1,48 @@
+name: Asset
+
+on:
+  schedule:
+    # 4계좌 자동 수집(design/20 Phase 8) — 일1회. 05:30 KST = 전일 20:30 UTC.
+    # stock.yml의 KR 마감 배치(06:35 UTC) 이후로 잡아 Stock Hub 종가를 최대한 재사용한다.
+    - cron: "30 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-commit
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ_NAME: Asia/Seoul
+      ASSET_PASSPHRASE: ${{ secrets.ASSET_PASSPHRASE }}
+      ASSET_GOAL_KRW: ${{ secrets.ASSET_GOAL_KRW }}
+      KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
+      KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+      KIS_ACCOUNT_FOREIGN: ${{ secrets.KIS_ACCOUNT_FOREIGN }}
+      KIS_ACCOUNT_ISA: ${{ secrets.KIS_ACCOUNT_ISA }}
+      BYBIT_API_KEY: ${{ secrets.BYBIT_API_KEY }}
+      BYBIT_API_SECRET: ${{ secrets.BYBIT_API_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python build.py asset
+      # design/20 Phase 8 DoD 1·6 — 자산 절대값 평문 유출 최종 방어선(로컬 pre-commit 훅은
+      # 클론마다 수동 설치라 누락될 수 있고, 이 bot 커밋은 애초에 훅을 거치지 않는다).
+      - name: Guard against plaintext asset leakage
+        uses: ./.github/actions/guard-plaintext
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "chore(asset): update $(date -u +%H:%MZ)"
+          git pull --rebase --autostash || true
+          git push
