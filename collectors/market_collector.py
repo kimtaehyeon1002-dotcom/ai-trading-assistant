@@ -2,15 +2,29 @@
 
 반환은 raw dict(모델 변환은 repositories/). 실패 항목은 None(추정 금지).
 실행당 1회만 다운로드(메모이즈).
+
+yfinance 미설치 환경(데스크톱 32비트 키움 venv)에서는 CI가 커밋해 둔 마지막 시세
+(data/cache/market_last.json)를 재사용한다 — 각 항목에 원 수집 시각(as_of)이 찍혀 있어
+freshness 배지가 나이를 정직하게 표시한다(추정이 아니라 시점 명시된 사실 데이터).
+데스크톱 빌드가 대시보드를 '데이터 없음'으로 덮어쓰는 문제의 근본 해결(kiwoom_night.json의
+데스크톱→CI 전달과 대칭 구조, 방향만 반대).
 """
 from __future__ import annotations
 
 import importlib.util
+from datetime import datetime, timedelta, timezone
 
 from config.markets import EXTENDED_SYMBOLS, MORNING_US_INDICES, WTI_SYMBOL
+from config.settings import DATA_CACHE_DIR
+from utils.jsonio import load_json, save_json
 from utils.logging import get_logger
 
 log = get_logger("collectors.market")
+
+# CI(yfinance 가용)→데스크톱 전달 캐시. 정상 시 news cron(30분)마다 갱신되므로 나이 ≤0.5h;
+# 상한은 CI 장애·주말 정지 대비 여유치다(이보다 낡으면 빈 타일이 낫다 — 팩트 우선).
+_LAST_CACHE = DATA_CACHE_DIR / "market_last.json"
+MARKET_LAST_MAX_AGE_H = 26
 
 _memo: dict | None = None
 _yf_available: bool | None = None
@@ -77,25 +91,70 @@ def _usdkrw() -> dict | None:
     return _entry(price, chg, prev, "yahoo") if price is not None else None
 
 
+def _save_last(out: dict[str, dict | None]) -> None:
+    """라이브 Yahoo 수집 결과를 커밋 캐시에 기록(CI에서 실행 — 워크플로가 data/를 커밋).
+
+    usdkrw는 제외(항상 라이브 소스가 있음). 유효 항목이 하나도 없으면 기존 캐시를 덮지 않는다.
+    """
+    now = datetime.now(timezone.utc).isoformat()
+    entries = {k: {**e, "as_of": now} for k, e in out.items()
+               if k != "usdkrw" and isinstance(e, dict)}
+    if not entries:
+        return
+    try:
+        save_json(_LAST_CACHE, {"as_of": now, "entries": entries})
+    except OSError as exc:
+        log.warning("market_last.json 기록 실패(빌드는 계속): %s", exc)
+
+
+def _load_last() -> dict[str, dict]:
+    """커밋 캐시에서 마지막 Yahoo 시세를 읽는다 — 상한보다 낡았거나 없으면 {}(빈 타일 유지)."""
+    data = load_json(_LAST_CACHE, default=None)
+    if not isinstance(data, dict):
+        return {}
+    try:
+        as_of = datetime.fromisoformat(data.get("as_of", ""))
+    except ValueError:
+        return {}
+    if as_of.tzinfo is None:
+        as_of = as_of.replace(tzinfo=timezone.utc)
+    age = datetime.now(timezone.utc) - as_of
+    if age > timedelta(hours=MARKET_LAST_MAX_AGE_H):
+        log.warning("market_last.json 만료(%.1fh 경과, 상한 %dh) — 캐시 재사용 안 함",
+                    age.total_seconds() / 3600, MARKET_LAST_MAX_AGE_H)
+        return {}
+    entries = data.get("entries")
+    return entries if isinstance(entries, dict) else {}
+
+
 def collect() -> dict[str, dict | None]:
     """모닝리포트 8지표 + 확장 유니버스(design/20 Phase 3) → raw {price, change_pct, source} | None."""
     global _memo
     if _memo is not None:
         return _memo
 
-    if not _yahoo_available():
-        log.info("yfinance 미설치 — Yahoo 시세 수집 스킵(시세는 GitHub Actions에서 수집). "
-                 "환율은 Frankfurter/ExchangeRate-API로 계속 수집한다.")
+    live = _yahoo_available()
+    cached: dict[str, dict] = {}
+    if not live:
+        cached = _load_last()
+        log.info("yfinance 미설치 — Yahoo 라이브 수집 스킵, 커밋 캐시 재사용 %d항목(as_of는 "
+                 "항목별 유지 → freshness 배지가 나이 표시). 환율은 라이브 수집.", len(cached))
+
+    def _yahoo_or_cache(key: str, symbol: str) -> dict | None:
+        if not live:
+            return cached.get(key)
+        price, chg, prev = _yahoo(symbol)
+        return _entry(price, chg, prev, "yahoo") if price is not None else None
 
     out: dict[str, dict | None] = {"usdkrw": _usdkrw()}
-    price, chg, prev = _yahoo(WTI_SYMBOL)
-    out["wti"] = _entry(price, chg, prev, "yahoo") if price is not None else None
+    out["wti"] = _yahoo_or_cache("wti", WTI_SYMBOL)
     for key, symbol, _label in MORNING_US_INDICES:
-        price, chg, prev = _yahoo(symbol)
-        out[key] = _entry(price, chg, prev, "yahoo") if price is not None else None
+        out[key] = _yahoo_or_cache(key, symbol)
     for key, symbol, _label in EXTENDED_SYMBOLS:
-        price, chg, prev = _yahoo(symbol)
-        out[key] = _entry(price, chg, prev, "yahoo") if price is not None else None
+        out[key] = _yahoo_or_cache(key, symbol)
+
+    if live:
+        _save_last(out)
 
     _memo = out
     return out

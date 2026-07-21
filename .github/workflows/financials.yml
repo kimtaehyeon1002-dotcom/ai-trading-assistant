@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs
+          git add docs data
           git diff --cached --quiet || git commit -m "chore(financials): update $(date -u +\%Y-\%m-\%d)"
           git pull --rebase --autostash || true
           git push
