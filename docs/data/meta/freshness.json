@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T08:50:49.609174+09:00",
+  "generated_at": "2026-07-22T08:51:27.614411+09:00",
   "sources": {
     "Notion Sync": {
       "status": "skipped",
@@ -10,24 +10,24 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-22T08:50:44.569748+09:00",
+      "last_built": "2026-07-22T08:51:17.932162+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 940
+      "duration_ms": 5347
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-22T08:50:45.512179+09:00",
+      "last_built": "2026-07-22T08:51:23.280051+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 2140
+      "duration_ms": 4122
     },
     "Theme Analyst": {
       "status": "completed",
-      "last_built": "2026-07-22T07:26:11.000513+09:00",
+      "last_built": "2026-07-22T08:51:27.411023+09:00",
       "expected_T_min": 30,
       "items": 3,
-      "duration_ms": 1
+      "duration_ms": 2
     },
     "Trade Manager": {
       "status": "completed",
@@ -38,17 +38,17 @@
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-22T08:50:49.598666+09:00",
+      "last_built": "2026-07-22T08:51:27.607316+09:00",
       "expected_T_min": null,
-      "items": 3,
+      "items": 2,
       "duration_ms": 0
     },
     "TA Analyst": {
       "status": "completed",
-      "last_built": "2026-07-22T07:26:11.006166+09:00",
+      "last_built": "2026-07-22T08:51:27.418269+09:00",
       "expected_T_min": 1440,
       "items": 120,
-      "duration_ms": 164
+      "duration_ms": 123
     },
     "Macro FRED": {
       "status": "completed",
@@ -136,16 +136,16 @@
     },
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-07-22T08:50:44.515563+09:00",
+      "last_built": "2026-07-22T08:51:17.901711+09:00",
       "expected_T_min": null,
       "items": 1,
-      "duration_ms": 2
+      "duration_ms": 1
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-22T08:50:49.569629+09:00",
+      "last_built": "2026-07-22T08:51:27.578937+09:00",
       "expected_T_min": null,
-      "items": 20,
+      "items": 1,
       "duration_ms": 0
     }
   }
