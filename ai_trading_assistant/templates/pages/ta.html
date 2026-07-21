@@ -1,0 +1,149 @@
+{% extends "base_v2.html" %}
+{% import "_macros_v2/card.html" as cardm %}
+{#
+  Technical Analysis — design/07. Coming Soon이지만 "예약된 페이지"로 설계(§1-1).
+  design/20 Phase 2 수직 슬라이스 파일럿: TA-PREVIEW만 실데이터, 나머지는 정적 예고 콘텐츠.
+#}
+{% block title %}Technical Analysis · {{ site.title }}{% endblock %}
+{% block content %}
+
+{% call cardm.card_shell('hero', span='v2-span-12', card_id='ta-hero') %}
+  <div class="v2-card__header">
+    <div>
+      <div class="v2-overline">TECHNICAL ANALYSIS</div>
+      <h1 class="v2-h1">차트가 신호가 되는 순간을 준비하고 있습니다</h1>
+      <p class="v2-body">지표 대시보드 · 차트 패턴 인식 · 백테스트 — 3개 모듈이 순차 공개됩니다.</p>
+    </div>
+  </div>
+  <div class="v2-stat-row">
+    <div class="v2-stat">
+      <span class="v2-stat__label">첫 공개</span>
+      <span class="v2-stat__value v2-stat__value--display">2026 Q3</span>
+    </div>
+    <div class="v2-stat">
+      <span class="v2-stat__label">공개 예정 모듈</span>
+      <span class="v2-stat__value v2-stat__value--lg">3</span>
+    </div>
+    <div class="v2-stat">
+      <span class="v2-stat__label">프리뷰 지표</span>
+      <span class="v2-stat__value v2-stat__value--lg">4종</span>
+    </div>
+  </div>
+  <div class="v2-cta-row">
+    <a class="v2-btn v2-btn--primary" href="#ta-preview">프리뷰 지표 보기</a>
+    <a class="v2-btn v2-btn--ghost" href="#ta-roadmap">로드맵 →</a>
+  </div>
+{% endcall %}
+
+{% call cardm.card_shell('standard', span='v2-span-4', card_id='ta-slot-01') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">지표 대시보드</h3>
+    <span class="v2-badge">개발 중</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-ghost">RSI · MACD · 볼린저밴드 · 20/60/120일 이동평균</p>
+  </div>
+  <div class="v2-card__footer">2026 Q3 예정 · <a href="#ta-roadmap">로드맵 보기 →</a></div>
+{% endcall %}
+
+{% call cardm.card_shell('standard', span='v2-span-4', extra_class='v2-card--planned', card_id='ta-slot-02') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">차트 패턴 인식</h3>
+    <span class="v2-badge">설계 중</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-ghost">"상승 깃발형" · "이중 바닥" <span class="v2-ghost__example">(예시)</span></p>
+  </div>
+  <div class="v2-card__footer">2026 Q4 예정</div>
+{% endcall %}
+
+{% call cardm.card_shell('standard', span='v2-span-4', extra_class='v2-card--planned', card_id='ta-slot-03') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">백테스트</h3>
+    <span class="v2-badge">설계 중</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-ghost">전략 수익률 +18.4% · MDD −7.2% · 승률 58% <span class="v2-ghost__example">(예시)</span></p>
+  </div>
+  <div class="v2-card__footer">2027 Q1 예정</div>
+{% endcall %}
+
+{% if preview %}
+{% call cardm.card_shell('standard', span='v2-span-8', card_id='ta-preview', freshness=freshness) %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">기술 지표 프리뷰 — KOSPI</h3>
+    <span class="v2-card__meta">
+      {{ preview.close.as_of_iso[:10] }} 마감 기준
+      <span class="v2-badge v2-freshness-badge v2-freshness-badge--delayed">지연</span>
+      <span class="v2-badge v2-freshness-badge v2-freshness-badge--stale">오래된 데이터</span>
+    </span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-ta-metrics">
+      <div>
+        <div class="v2-ta-metric__label">종가</div>
+        <div class="v2-ta-metric__value v2-freshness-affected">{{ preview.close.value|price }}</div>
+      </div>
+      <div>
+        <div class="v2-ta-metric__label">20일 이평 이격</div>
+        <div class="v2-ta-metric__value v2-freshness-affected v2-updown {{ preview.deviation_20d.value|signclass }}">
+          {{ preview.deviation_20d.value|arrow }} {{ preview.deviation_20d.value|pctv2 }}
+        </div>
+      </div>
+      <div>
+        <div class="v2-ta-metric__label">RSI(14)</div>
+        <div class="v2-ta-metric__value v2-freshness-affected">{{ preview.rsi_14.value if preview.rsi_14.value is not none else "—" }}</div>
+        <div class="v2-ta-metric__sub">{{ preview.rsi_14.label }}</div>
+      </div>
+      <div>
+        <div class="v2-ta-metric__label">60일 추세</div>
+        <div class="v2-body-strong v2-freshness-affected">{{ preview.trend_60d.label }}</div>
+      </div>
+    </div>
+    {{ sparkline_svg | safe }}
+  </div>
+  <div class="v2-card__footer">산출 기준: 전일 정규장 종가 · 매일 07시 빌드 갱신</div>
+{% endcall %}
+{% else %}
+{% call cardm.card_shell('standard', span='v2-span-8', card_id='ta-preview') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">기술 지표 프리뷰 — KOSPI</h3>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-body">지표를 계산하지 못했습니다 — 다음 빌드에서 다시 시도합니다.</p>
+  </div>
+{% endcall %}
+{% endif %}
+
+{% call cardm.card_shell('standard', span='v2-span-4', card_id='ta-roadmap') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">출시 로드맵</h3>
+    <span class="v2-card__meta">{{ generated_at }}</span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-timeline__row">
+      <span class="v2-timeline__dot v2-timeline__dot--active"></span>
+      <span class="v2-timeline__label">지표 대시보드</span>
+      <span class="v2-timeline__value">2026 Q3</span>
+    </div>
+    <div class="v2-timeline__row">
+      <span class="v2-timeline__dot"></span>
+      <span class="v2-timeline__label">차트 패턴 인식</span>
+      <span class="v2-timeline__value">2026 Q4</span>
+    </div>
+    <div class="v2-timeline__row">
+      <span class="v2-timeline__dot"></span>
+      <span class="v2-timeline__label">백테스트</span>
+      <span class="v2-timeline__value">2027 Q1</span>
+    </div>
+  </div>
+  <div class="v2-card__footer">
+    <div class="v2-changelog__row"><span class="v2-changelog__date">07/08</span><span class="v2-changelog__text">프리뷰 지표 4종 추가</span></div>
+    <div class="v2-changelog__row"><span class="v2-changelog__date">06/24</span><span class="v2-changelog__text">페이지 골격 공개</span></div>
+  </div>
+{% endcall %}
+
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}/static/js/freshness.js" defer></script>
+{% endblock %}

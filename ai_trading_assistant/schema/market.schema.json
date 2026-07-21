@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "market.schema.json",
+  "title": "market.json 컨테이너 (design/20 Phase 0, design/21 §1-2)",
+  "description": "cache/market.json 최상위 형태: {as_of: 문자열(레거시 표시용), 심볼키: envelope|null, ...}. 항목 단위 검증은 envelope.schema.json으로 위임한다.",
+  "type": "object",
+  "required": ["as_of"],
+  "properties": {
+    "as_of": { "type": "string" }
+  },
+  "additionalProperties": {
+    "oneOf": [
+      { "$ref": "envelope.schema.json" },
+      { "type": "null" }
+    ]
+  }
+}

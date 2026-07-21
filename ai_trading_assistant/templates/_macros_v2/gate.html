@@ -1,0 +1,22 @@
+{# 비밀번호 게이트 모달(design/08 §2-1, design/09 §2-1) — Asset·Portfolio 공유 컴포넌트.
+   폼 id는 페이지마다 유니크해야 하므로 prefix를 받는다(예: "asset", "portfolio"). #}
+
+{% macro gate_modal(prefix, title) %}
+<div id="{{ prefix }}-gate-overlay" class="v2-gate-overlay">
+  <div class="v2-gate-modal" role="dialog" aria-modal="true" aria-labelledby="{{ prefix }}-gate-title">
+    <div class="v2-gate-modal__icon" aria-hidden="true">🔒</div>
+    <h2 id="{{ prefix }}-gate-title" class="v2-gate-modal__title">{{ title }} 잠금 해제</h2>
+    <p class="v2-gate-modal__desc">자산 데이터는 비밀번호 확인 후 표시됩니다</p>
+    <form id="{{ prefix }}-gate-form" autocomplete="off">
+      <input type="password" id="{{ prefix }}-gate-input" class="v2-gate-modal__input" placeholder="••••••••" aria-label="비밀번호">
+      <button type="submit" class="v2-btn v2-btn--primary v2-gate-modal__submit">잠금 해제</button>
+    </form>
+    <p id="{{ prefix }}-gate-error" class="v2-gate-modal__error" hidden>비밀번호가 일치하지 않습니다. 다시 입력해 주세요.</p>
+    <p class="v2-gate-modal__notice">
+      이 잠금은 열람을 가리는 로컬 프라이버시 가드입니다.<br>
+      서버 인증이 아니므로 계좌 보안 수단이 아닙니다.<br>
+      해제 상태는 이 브라우저 세션 동안 유지됩니다.
+    </p>
+  </div>
+</div>
+{% endmacro %}

@@ -1,0 +1,44 @@
+{# 사이드바·헤더 nav 렌더 — config/nav.py 컨텍스트를 소비한다(design/22 §4-2). #}
+
+{% macro sidebar(nav, root) %}
+<nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 {{ site.title }}</div>
+  <div class="v2-nav">
+    {% for item in nav.main_items %}
+    <a class="v2-nav__item" href="{{ root }}{{ item.href }}"
+       {% if item.key == nav.active %}aria-current="page"{% endif %}>{{ item.label }}</a>
+    {% endfor %}
+    <div class="v2-nav__divider"></div>
+    {% for item in nav.locked_items %}
+    <a class="v2-nav__item v2-nav__item--locked" href="{{ root }}{{ item.href }}"
+       {% if item.key == nav.active %}aria-current="page"{% endif %}>
+      {{ item.label }}<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+    {% endfor %}
+  </div>
+  <div class="v2-sidebar__footer">
+    <a class="v2-nav__item" href="{{ root }}{{ nav.settings_item.href }}"
+       {% if nav.settings_item.key == nav.active %}aria-current="page"{% endif %}>{{ nav.settings_item.label }}</a>
+    <div class="v2-sidebar__version">{{ site.title }}</div>
+  </div>
+</nav>
+{% endmacro %}
+
+{% macro header(nav) %}
+{% set _main_label = nav.main_items | selectattr('key', 'equalto', nav.active) | map(attribute='label') | first %}
+{% set _locked_label = nav.locked_items | selectattr('key', 'equalto', nav.active) | map(attribute='label') | first %}
+{% set _label = _main_label or _locked_label or (nav.settings_item.label if nav.settings_item.key == nav.active else "") %}
+<header class="v2-header">
+  <div class="v2-header__context">
+    {{ _label }}
+  </div>
+  <div class="v2-header__search" role="search">
+    <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
+           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+    <kbd class="v2-header__search-kbd">Ctrl K</kbd>
+    <div class="v2-search-results" data-search-results hidden></div>
+  </div>
+  <div class="v2-header__clock"></div>
+  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+</header>
+{% endmacro %}

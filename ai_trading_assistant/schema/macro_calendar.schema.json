@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "macro_calendar.schema.json",
+  "title": "docs/data/macro/calendar.json 컨테이너 (design/20 Phase 6)",
+  "type": "object",
+  "required": ["as_of", "events"],
+  "properties": {
+    "as_of": { "type": "string" },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "label", "source"],
+        "properties": {
+          "date": { "type": "string" },
+          "time": { "type": ["string", "null"] },
+          "timezone": { "type": ["string", "null"] },
+          "event_at_utc": { "type": "string" },
+          "label": { "type": "string" },
+          "source": { "enum": ["fomc", "fred"] },
+          "series_id": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,117 @@
+{% extends "base_v2.html" %}
+{% import "_macros_v2/card.html" as cardm %}
+{#
+  Macroeconomics — design/02, design/20 Phase 6(독립 트랙). FRED/ECOS 키가 없으면 해당 섹션은
+  카드째 생략된다(결측 문법, 빈칸 렌더 금지) — "확보된 지표만 정직하게 보여준다".
+#}
+{% block title %}Macroeconomics · {{ site.title }}{% endblock %}
+{% block content %}
+
+{% set btc = indicators.get('BTC_KRW') %}
+{% set base_rate = indicators.get('BOK_BASE_RATE') %}
+{% if btc or base_rate %}
+{% call cardm.card_shell('standard', span='v2-span-6', card_id='macro-btc') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">비트코인(KRW)</h3>
+    {% if btc %}<span class="v2-card__meta">{{ generated_at }}</span>{% endif %}
+  </div>
+  {% if btc %}
+  <div class="v2-card__body" data-asof="{{ btc.envelope.as_of_iso }}" data-fresh-max-min="{{ freshness.fresh_max_min }}" data-stale-min-min="{{ freshness.stale_min_min }}">
+    <div class="v2-ta-metric__value v2-freshness-affected">{{ btc.envelope.value|money }}원</div>
+    <div class="v2-updown {{ btc.envelope.change_pct|signclass }}">{{ btc.envelope.change_pct|arrow }} {{ btc.envelope.change_pct|pctv2 }}</div>
+    {% if btc.kimchi_premium_pct is not none %}
+    <div class="v2-macro-item__row"><span class="k">김치 프리미엄</span><span class="v">{{ btc.kimchi_premium_pct }}%</span></div>
+    {% endif %}
+  </div>
+  {% else %}
+  <div class="v2-card__body"><p class="v2-body">Upbit 수집 실패 — 다음 빌드에서 재시도합니다.</p></div>
+  {% endif %}
+{% endcall %}
+
+{% call cardm.card_shell('standard', span='v2-span-6', card_id='macro-base-rate') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">한국은행 기준금리</h3>
+    {% if base_rate %}<span class="v2-card__meta">{{ generated_at }}</span>{% endif %}
+  </div>
+  {% if base_rate %}
+  <div class="v2-card__body" data-asof="{{ base_rate.envelope.as_of_iso }}" data-fresh-max-min="{{ freshness.fresh_max_min }}" data-stale-min-min="{{ freshness.stale_min_min }}">
+    <div class="v2-ta-metric__value v2-freshness-affected">{{ base_rate.envelope.value }}%</div>
+    {% if base_rate.envelope.change_abs is not none %}
+    <div class="v2-macro-item__row"><span class="k">전월 대비</span><span class="v">{{ base_rate.envelope.change_abs|pctv2 }}p</span></div>
+    {% endif %}
+  </div>
+  {% else %}
+  <div class="v2-card__body"><p class="v2-body">ECOS_API_KEY 미설정 — 기준금리 수집이 비활성화되어 있습니다.</p></div>
+  {% endif %}
+{% endcall %}
+{% endif %}
+
+{% if fred_enabled %}
+{% call cardm.card_shell('standard', span='v2-span-12', card_id='macro-indicators') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">경제지표</h3>
+    <span class="v2-card__meta">{{ generated_at }}</span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-macro-grid">
+      {% for sid in fred_series %}
+      {% set item = indicators.get(sid) %}
+      {% if item %}
+      <div class="v2-macro-item" data-asof="{{ item.envelope.as_of_iso }}" data-fresh-max-min="{{ freshness.fresh_max_min }}" data-stale-min-min="{{ freshness.stale_min_min }}">
+        <div class="v2-macro-item__label">{{ fred_labels[sid] }}</div>
+        <div class="v2-macro-item__value v2-freshness-affected">{{ item.envelope.value }}</div>
+        <div class="v2-macro-item__row">
+          <span class="k">전기 대비</span>
+          <span class="v v2-updown {{ item.envelope.change_pct|signclass }}">{{ item.envelope.change_pct|arrow }} {{ item.envelope.change_pct|pctv2 if item.envelope.change_pct is not none else '—' }}</span>
+        </div>
+        {% if item.yoy %}
+        <div class="v2-macro-item__row">
+          <span class="k">전년동월비</span>
+          <span class="v v2-updown {{ item.yoy.change_pct|signclass }}">{{ item.yoy.change_pct|arrow }} {{ item.yoy.change_pct|pctv2 }}</span>
+        </div>
+        {% endif %}
+        {% if item.consensus %}
+        <div class="v2-macro-item__consensus">예상 {{ item.consensus.value }} ({{ item.consensus.as_of }} 등록)</div>
+        {% endif %}
+        {% if item.next_release %}
+        <div class="v2-macro-item__row"><span class="k">다음 발표</span><span class="v">{{ item.next_release }}</span></div>
+        {% endif %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endcall %}
+{% else %}
+{% call cardm.card_shell('standard', span='v2-span-12', card_id='macro-indicators') %}
+  <div class="v2-card__header"><h3 class="v2-card__title">경제지표</h3></div>
+  <div class="v2-card__body"><p class="v2-body">FRED_API_KEY 미설정 — 경제지표 수집이 비활성화되어 있습니다.</p></div>
+{% endcall %}
+{% endif %}
+
+{% call cardm.card_shell('standard', span='v2-span-12', card_id='macro-calendar') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">경제일정</h3>
+    <span class="v2-card__meta">{{ generated_at }}</span>
+  </div>
+  <div class="v2-card__body">
+    {% for e in calendar_events %}
+    <div class="v2-calendar-row"{% if e.event_at_utc %} data-event-at="{{ e.event_at_utc }}"{% endif %}>
+      <span class="v2-calendar-row__date">{{ e.date }}</span>
+      <span class="v2-calendar-row__label">{{ e.label }}</span>
+      {% if e.event_at_utc %}
+      <span class="v2-event-badge v2-event-badge--pre">발표전</span>
+      <span class="v2-event-badge v2-event-badge--post">발표됨</span>
+      {% endif %}
+    </div>
+    {% endfor %}
+    {% if not calendar_events %}
+    <p class="v2-body">예정된 일정이 없습니다.</p>
+    {% endif %}
+  </div>
+{% endcall %}
+
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}/static/js/freshness.js" defer></script>
+{% endblock %}

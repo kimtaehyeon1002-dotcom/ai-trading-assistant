@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rankings.schema.json",
+  "title": "docs/data/stock/rankings.json 컨테이너 (design/20 Phase 7, design/21 §7-1)",
+  "description": "KR/US 거래대금 TOP30 테이블. 미국은 무료 전종목 스냅샷이 없어 population이 전체 시장이 아니라 랭킹 후보 유니버스(S&P500) 크기다 — 모집단 캡션 규칙(design/21 §8).",
+  "type": "object",
+  "required": ["as_of", "kr", "us"],
+  "properties": {
+    "as_of": { "type": "string", "format": "date-time" },
+    "kr": { "$ref": "#/$defs/market_table" },
+    "us": { "$ref": "#/$defs/market_table" }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "market_table": {
+      "type": ["object", "null"],
+      "required": ["population", "as_of_iso", "session_key", "expected_T_min", "rows"],
+      "properties": {
+        "population": { "type": "integer", "minimum": 0 },
+        "as_of_iso": { "type": "string", "format": "date-time" },
+        "session_key": {
+          "enum": ["kr_regular", "kr_night", "us_regular", "globex", "fx", "crypto_24h", "none"]
+        },
+        "expected_T_min": { "type": "integer", "minimum": 1 },
+        "rows": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/row" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "row": {
+      "type": "object",
+      "required": ["rank", "code", "name", "market", "theme", "close", "change_pct", "volume", "amount", "marcap"],
+      "properties": {
+        "rank": { "type": "integer", "minimum": 1 },
+        "code": { "type": "string" },
+        "name": { "type": "string" },
+        "market": { "type": "string" },
+        "theme": { "type": ["string", "null"] },
+        "close": { "type": "number" },
+        "change_pct": { "type": ["number", "null"] },
+        "volume": { "type": ["integer", "null"] },
+        "amount": { "type": "number" },
+        "marcap": { "type": ["number", "null"] }
+      },
+      "additionalProperties": false
+    }
+  }
+}

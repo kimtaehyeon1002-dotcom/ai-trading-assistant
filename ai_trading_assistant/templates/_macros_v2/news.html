@@ -1,0 +1,33 @@
+{# 뉴스 행·탭 패널 매크로 — News 메인(index.html)과 날짜 아카이브가 공유한다(design/03 §3-2). #}
+
+{% macro article_row(a) %}
+<div class="v2-news-list-row lvl-{{ a.level|lower }}">
+  <span class="v2-level-gauge" title="{{ '필수 — 지수·금리 등에 직접 영향' if a.level == 'L3' else ('주목 — 주요 종목·섹터에 직접 영향' if a.level == 'L2' else '참고 — 배경·후속 보도') }}">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <a class="v2-news-list-row__headline" href="{{ a.link }}" target="_blank" rel="noopener noreferrer">{{ a.title }}</a>
+  {% if a.impact_tags %}
+  <span>{% for t in a.impact_tags[:2] %}<span class="v2-tag">{{ t.name }}</span>{% endfor %}</span>
+  {% endif %}
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">{{ a.source }}</span>
+    <span class="v2-news-list-row__time">{{ a.published|kst }}</span>
+  </span>
+</div>
+{% endmacro %}
+
+{% macro tab_panel(group, tab_key, articles, active) %}
+<div data-tab-panel="{{ group }}" data-tab="{{ tab_key }}"{% if not active %} style="display:none"{% endif %}>
+  {% if articles %}
+  <div class="v2-news-list">
+    {% for a in articles %}{{ article_row(a) }}{% endfor %}
+  </div>
+  {% else %}
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+  {% endif %}
+</div>
+{% endmacro %}

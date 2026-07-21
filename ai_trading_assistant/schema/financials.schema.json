@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "financials.schema.json",
+  "title": "docs/data/financials/<code>.json 컨테이너 (design/06, design/20 Phase 7)",
+  "description": "종목 단건 재무 5개 지표 카드(성장성/수익성/안정성/현금흐름/밸류에이션). 업종 평균 무료 소스가 없어 자사 5년 단독 판정으로 축소한다(design/21 §159). 그룹별 지표가 없으면 해당 키는 null(결측 문법).",
+  "type": "object",
+  "required": ["code", "name", "market", "as_of", "source", "growth", "profitability", "stability", "cashflow", "valuation"],
+  "properties": {
+    "code": { "type": "string" },
+    "name": { "type": "string" },
+    "market": { "type": "string" },
+    "as_of": { "type": "string", "format": "date-time" },
+    "source": { "enum": ["edgar", "dart", "none"] },
+    "growth": { "oneOf": [{ "$ref": "#/$defs/growth" }, { "type": "null" }] },
+    "profitability": { "oneOf": [{ "$ref": "#/$defs/profitability" }, { "type": "null" }] },
+    "stability": { "oneOf": [{ "$ref": "#/$defs/stability" }, { "type": "null" }] },
+    "cashflow": { "oneOf": [{ "$ref": "#/$defs/cashflow" }, { "type": "null" }] },
+    "valuation": { "oneOf": [{ "$ref": "#/$defs/valuation" }, { "type": "null" }] }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "series_row": {
+      "type": "object",
+      "required": ["year", "value"],
+      "properties": { "year": { "type": "string" }, "value": { "type": "number" } },
+      "additionalProperties": false
+    },
+    "judgment": { "enum": ["good", "neutral", "caution"] },
+    "growth": {
+      "type": "object",
+      "required": ["latest_year", "value", "cagr_pct", "judgment", "series"],
+      "properties": {
+        "latest_year": { "type": "string" },
+        "value": { "type": "number" },
+        "cagr_pct": { "type": ["number", "null"] },
+        "judgment": { "$ref": "#/$defs/judgment" },
+        "series": { "type": "array", "items": { "$ref": "#/$defs/series_row" } }
+      },
+      "additionalProperties": false
+    },
+    "profitability": {
+      "type": "object",
+      "required": ["latest_year", "value", "own_5y_avg", "judgment", "series"],
+      "properties": {
+        "latest_year": { "type": "string" },
+        "value": { "type": "number" },
+        "own_5y_avg": { "type": "number" },
+        "judgment": { "$ref": "#/$defs/judgment" },
+        "series": { "type": "array", "items": { "$ref": "#/$defs/series_row" } }
+      },
+      "additionalProperties": false
+    },
+    "stability": {
+      "type": "object",
+      "required": ["latest_year", "value", "judgment", "series"],
+      "properties": {
+        "latest_year": { "type": "string" },
+        "value": { "type": "number" },
+        "judgment": { "$ref": "#/$defs/judgment" },
+        "series": { "type": "array", "items": { "$ref": "#/$defs/series_row" } }
+      },
+      "additionalProperties": false
+    },
+    "cashflow": {
+      "type": "object",
+      "required": ["latest_year", "value", "judgment", "series"],
+      "properties": {
+        "latest_year": { "type": "string" },
+        "value": { "type": "number" },
+        "judgment": { "$ref": "#/$defs/judgment" },
+        "series": { "type": "array", "items": { "$ref": "#/$defs/series_row" } }
+      },
+      "additionalProperties": false
+    },
+    "valuation": {
+      "type": "object",
+      "required": ["latest_year", "eps", "per", "note"],
+      "properties": {
+        "latest_year": { "type": "string" },
+        "eps": { "type": "number" },
+        "per": { "type": ["number", "null"] },
+        "note": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    }
+  }
+}

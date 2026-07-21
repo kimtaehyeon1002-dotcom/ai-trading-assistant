@@ -1,0 +1,39 @@
+name: Financial Statements
+
+on:
+  schedule:
+    # 분기 공시 주기 데이터라 일1회면 충분(design/06 §1-5, generators/registry.py 주석 참조)
+    # 05:00 KST = 전일 20:00 UTC. stock.yml의 KR 마감 배치(06:35 UTC) 이후에 실행되어야
+    # Stock Hub 종가(PER 산출 재료)가 최신 상태다.
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-commit
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ_NAME: Asia/Seoul
+      DART_API_KEY: ${{ secrets.DART_API_KEY }}
+      EDGAR_USER_AGENT: ${{ secrets.EDGAR_USER_AGENT }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python build.py financials
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "chore(financials): update $(date -u +\%Y-\%m-\%d)"
+          git pull --rebase --autostash || true
+          git push

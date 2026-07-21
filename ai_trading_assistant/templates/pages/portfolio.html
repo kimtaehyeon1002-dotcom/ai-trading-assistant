@@ -1,0 +1,31 @@
+{% extends "base_v2.html" %}
+{% import "_macros_v2/gate.html" as gatem %}
+{#
+  Portfolio — design/09, design/20 Phase 8. Asset과 같은 암호문(assets.enc.json)·같은 게이트
+  세션을 공유한다(design/08 §1) — Asset에서 이미 해제했다면 이 페이지는 재인증 없이 바로
+  열린다. 종목 단면(계좌 탭 → 보유종목 테이블)에 집중하고, 계좌 합계/목표는 Asset이 담당한다
+  (design/09 §1-1 페이지 골격 — 역할 분리).
+#}
+{% block title %}Portfolio · {{ site.title }}{% endblock %}
+{% block content %}
+
+{{ gatem.gate_modal('portfolio', 'Portfolio') }}
+
+<div id="portfolio-content-wrap" hidden>
+  <div class="v2-asset-utility">
+    <span>인증됨 · 이 세션 동안 유지</span>
+    <div class="v2-asset-utility__actions">
+      <button type="button" class="v2-mask-toggle" id="portfolio-mask-toggle" aria-pressed="false">금액 가리기</button>
+      <button type="button" class="v2-lock-btn" id="portfolio-lock-btn">즉시 잠금</button>
+      <span>{{ generated_at }}</span>
+    </div>
+  </div>
+  <div class="v2-filterbar" data-account-tabs role="tablist" aria-label="계좌 선택"></div>
+  <div id="portfolio-content"></div>
+</div>
+
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}/static/js/asset-gate.js" defer></script>
+<script src="{{ root }}/static/js/portfolio.js" defer></script>
+{% endblock %}

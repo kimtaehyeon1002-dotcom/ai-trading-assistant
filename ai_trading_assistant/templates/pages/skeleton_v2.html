@@ -1,0 +1,18 @@
+{% extends "base_v2.html" %}
+{#
+  Phase 1 검증용 v2 스켈레톤 라우트 — nav에는 노출되지 않는다(design/20 Phase 1 DoD #2).
+  base_v2 셸 + tokens.css가 실제로 렌더되는지 확인하는 용도이며, 실제 페이지 콘텐츠는
+  Phase 2(TA 수직 슬라이스 파일럿)부터 이 자리를 대체한다.
+#}
+{% block title %}v2 셸 프리뷰 · {{ site.title }}{% endblock %}
+{% block content %}
+<div class="v2-span-12">
+  <h1 class="v2-h1">v2 셸 프리뷰</h1>
+  <p class="v2-body">
+    이 페이지는 nav에 노출되지 않는 Phase 1 스켈레톤 라우트입니다.
+    사이드바 240px + 헤더 64px + 12컬럼 콘텐츠 그리드 + tokens.css 토큰 레이어가
+    정상적으로 렌더되는지 확인하는 용도입니다.
+  </p>
+  <p class="v2-caption">생성 시각: {{ generated_at }}</p>
+</div>
+{% endblock %}

@@ -1,0 +1,86 @@
+{% extends "base_v2.html" %}
+{% import "_macros_v2/card.html" as cardm %}
+{#
+  매매일지 v2(design/20 Phase 8 "공개 v2 치환") — URL 유지(/trades/index.html), 게이트 없음.
+  이미 청산된 매매 기록·통계라 개인 잔고와 달리 암호화 대상이 아니다(design/20 §254).
+  config/nav.py의 승격된 6개 메뉴에는 없는 페이지라(design/00 §6-1 메뉴 확정 목록) 사이드바
+  강조 없이 렌더된다 — /ai-office와 동일한 "기존 URL 보존, 신규 IA 미노출" 처리(design/20 §4).
+#}
+{% block title %}매매일지 · {{ site.title }}{% endblock %}
+{% block content %}
+
+{% call cardm.card_shell('standard', span='v2-span-12', card_id='trades-summary') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">매매일지 요약</h3>
+    <span class="v2-card__meta">{{ generated_at }}</span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-stat-row">
+      <div class="v2-stat"><span class="v2-stat__label">총 거래</span><span class="v2-stat__value v2-stat__value--lg">{{ stats.n_trades }}</span></div>
+      <div class="v2-stat"><span class="v2-stat__label">승률</span><span class="v2-stat__value v2-stat__value--lg">{{ (stats.win_rate|string + '%') if stats.win_rate is not none else '—' }}</span></div>
+      <div class="v2-stat"><span class="v2-stat__label">총 손익</span><span class="v2-stat__value v2-stat__value--lg v2-updown {{ stats.total_pnl|signclass }}">{{ stats.total_pnl|money }}</span></div>
+      <div class="v2-stat"><span class="v2-stat__label">평균 수익</span><span class="v2-stat__value v2-stat__value--lg v2-updown up">{{ stats.avg_profit|money if stats.avg_profit is not none else '—' }}</span></div>
+      <div class="v2-stat"><span class="v2-stat__label">평균 손실</span><span class="v2-stat__value v2-stat__value--lg v2-updown down">{{ stats.avg_loss|money if stats.avg_loss is not none else '—' }}</span></div>
+    </div>
+  </div>
+{% endcall %}
+
+{% call cardm.card_shell('standard', span='v2-span-12', card_id='trades-by-category') %}
+  <div class="v2-card__header"><h3 class="v2-card__title">카테고리별</h3></div>
+  <div class="v2-card__body">
+    <table class="v2-rank-table">
+      <thead><tr><th>구분</th><th class="num">건수</th><th class="num">손익</th><th class="num">승률</th></tr></thead>
+      <tbody>
+        {% for cat, label in labels.items() %}
+        {% set c = stats.by_category.get(cat) %}
+        <tr>
+          <td>{{ label }}</td>
+          <td class="num">{{ c.n if c else 0 }}</td>
+          <td class="num v2-updown {{ (c.pnl if c else 0)|signclass }}">{{ (c.pnl if c else 0)|money }}</td>
+          <td class="num">{{ (c.win_rate|string + '%') if c and c.win_rate is not none else '—' }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endcall %}
+
+{% call cardm.card_shell('standard', span='v2-span-12', card_id='trades-history') %}
+  <div class="v2-card__header"><h3 class="v2-card__title">매매 이력</h3></div>
+  <div class="v2-card__body">
+    <div class="v2-filterbar" data-trade-filter role="group" aria-label="카테고리 필터">
+      <button type="button" class="v2-filter-chip" data-cat="all" aria-pressed="true">전체</button>
+      {% for cat, label in labels.items() %}
+      <button type="button" class="v2-filter-chip" data-cat="{{ cat }}" aria-pressed="false">{{ label }}</button>
+      {% endfor %}
+    </div>
+    <table class="v2-rank-table" data-trade-table>
+      <thead>
+        <tr><th>일자</th><th>종목</th><th>구분</th><th class="num">매수</th><th class="num">매도</th>
+          <th class="num">수량</th><th class="num">손익</th><th class="num">수익률</th><th class="num">보유일</th><th>계좌</th></tr>
+      </thead>
+      <tbody>
+        {% for t in trades %}
+        <tr data-cat="{{ t.category }}">
+          <td>{{ t.date }}</td>
+          <td><span class="v2-rank-row__name">{{ t.name or t.ticker }}</span><span class="v2-rank-row__code">{{ t.ticker }}</span></td>
+          <td><span class="v2-tag">{{ labels.get(t.category, t.category) }}</span></td>
+          <td class="num">{{ t.buy_price|price }}</td>
+          <td class="num">{{ t.sell_price|price }}</td>
+          <td class="num">{{ t.quantity|money }}</td>
+          <td class="num v2-updown {{ t.pnl|signclass }}">{{ t.pnl|money }}</td>
+          <td class="num v2-updown {{ t.profit_pct|signclass }}">{{ t.profit_pct|pctv2 }}</td>
+          <td class="num">{{ t.holding_days }}</td>
+          <td>{{ t.account_type }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% if not trades %}<p class="v2-body">기록된 매매가 없습니다. Kiwoom 동기화 후 표시됩니다.</p>{% endif %}
+  </div>
+{% endcall %}
+
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}/static/js/trades.js" defer></script>
+{% endblock %}

@@ -1,0 +1,69 @@
+{% extends "base_v2.html" %}
+{% import "_macros_v2/card.html" as cardm %}
+{% import "_macros_v2/news.html" as newsm %}
+{#
+  News v2 — design/03. 4탭 배타 매핑(속보만 통합). archive_date가 있으면 날짜 아카이브 모드
+  (design/20 Phase 5 "morning 일자 디렉터리 패턴"). 탭 전환 스크립트는 아카이브에서도 그대로
+  로드한다 — 로드하지 않으면 기본 탭 외 3개 패널이 영구히 display:none으로 묻혀 열람 자체가
+  불가능해지므로(실제로 발견된 버그, 브라우저 검증 중 수정), "정적 스냅샷"은 데이터 갱신이
+  없다는 뜻이지 탭 전환 UI가 없다는 뜻이 아니다.
+#}
+{% block title %}{% if archive_date %}{{ archive_date }} 뉴스 아카이브{% else %}News{% endif %} · {{ site.title }}{% endblock %}
+{% block content %}
+
+<div class="v2-span-12">
+  <div class="v2-tabbar" data-tabbar="news">
+    {% for key in tabs %}
+    <button class="v2-tabbar__btn" data-tab-btn="{{ key }}" data-tabbar-of="news"{% if key == default_tab %} aria-current="page"{% endif %}>
+      {{ tab_labels[key] }}<span class="v2-tabbar__count">{{ counts[key] }}</span>
+    </button>
+    {% endfor %}
+    <span class="v2-caption v2-tabbar__meta">
+      {% if archive_date %}{{ archive_date }} 아카이브{% else %}수집 {{ generated_at }} · 오늘 수집 {{ collected_total }}건 → 게재 {{ published_total }}건{% endif %}
+    </span>
+  </div>
+</div>
+
+{% call cardm.card_shell('standard', span='v2-span-8', card_id='news-list', extra_class='v2-card--news-list') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">{{ tab_labels[default_tab] }} · 게재 {{ counts[default_tab] }}건</h3>
+    <span class="v2-card__meta">{{ generated_at }}</span>
+  </div>
+  <div class="v2-card__body">
+    {% for key in tabs %}
+    {{ newsm.tab_panel('news', key, by_tab[key], key == default_tab) }}
+    {% endfor %}
+  </div>
+  {% if not archive_date %}
+  <div class="v2-card__footer"><a href="{{ root }}/news/{{ today }}/index.html">지난 뉴스 아카이브 ({{ today }}) →</a></div>
+  {% endif %}
+{% endcall %}
+
+{% call cardm.card_shell('standard', span='v2-span-4', card_id='news-briefing') %}
+  <div class="v2-card__header">
+    <span class="v2-overline">모닝 브리핑</span>
+    <span class="v2-card__meta">{{ generated_at }}</span>
+  </div>
+  <div class="v2-card__body">
+    {% for a in briefing %}
+    <div class="v2-hero-news-row">
+      <span class="n">{{ loop.index }}</span>
+      <a class="t" href="{{ a.link }}" target="_blank" rel="noopener noreferrer">{{ a.title }}</a>
+    </div>
+    {% endfor %}
+    {% if not briefing %}
+    <p class="v2-body">브리핑에 실을 만한 기사가 아직 없습니다.</p>
+    {% endif %}
+  </div>
+  <div class="v2-card__footer">필수 {{ level_counts.L3 }} · 주목 {{ level_counts.L2 }} · 참고 {{ level_counts.L1 }}</div>
+{% endcall %}
+
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}/static/js/tabs.js" defer></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.TATabs) window.TATabs.init("news", "{{ default_tab }}");
+  });
+</script>
+{% endblock %}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "search_index.schema.json",
+  "title": "docs/data/search-index.json 컨테이너 (design/00 §7-2, design/20 Phase 7)",
+  "description": "헤더 글로벌 검색(Ctrl/⌘+K)이 소비하는 3그룹 인덱스 — 종목/뉴스/페이지. 클라이언트가 그룹당 최대 5건으로 필터링한다.",
+  "type": "object",
+  "required": ["as_of", "stocks", "news", "pages"],
+  "properties": {
+    "as_of": { "type": "string", "format": "date-time" },
+    "stocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "name", "market"],
+        "properties": {
+          "code": { "type": "string" },
+          "name": { "type": "string" },
+          "market": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "news": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "link", "source", "published"],
+        "properties": {
+          "title": { "type": "string" },
+          "link": { "type": "string" },
+          "source": { "type": "string" },
+          "published": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "label", "href"],
+        "properties": {
+          "key": { "type": "string" },
+          "label": { "type": "string" },
+          "href": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

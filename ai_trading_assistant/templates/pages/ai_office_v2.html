@@ -1,0 +1,28 @@
+{% extends "base_v2.html" %}
+{% import "_macros_v2/card.html" as cardm %}
+{#
+  AI Office v2(design/20 Phase 9) — 빌드 워커 실행 기록(사실만: 상태/시간/건수/에러).
+  config/nav.py의 승격된 메뉴에는 없는 페이지라(design/00 §6-1) /trades·/settings와 달리
+  사이드바 강조 없이 렌더된다 — 기존 URL 보존 원칙(design/20 §4)에 따른 orphan 페이지.
+#}
+{% block title %}AI Office · {{ site.title }}{% endblock %}
+{% block content %}
+
+{% for w in workers %}
+{% call cardm.card_shell('standard', span='v2-span-4', card_id='worker-' ~ loop.index) %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">{{ w.name }}</h3>
+    <span class="v2-badge">{{ w.status }}</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-body">{{ w.desc }}</p>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">{{ w.last_run[:16] if w.last_run else "—" }}</span></div>
+    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">{{ w["items"] if w["items"] is not none else "—" }}</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">{{ (w.duration_ms ~ "ms") if w.duration_ms is not none else "—" }}</span></div>
+    {% if w.last_error %}<p class="v2-body v2-fs-sub">에러: {{ w.last_error }}</p>{% endif %}
+    {% if w.detail %}<p class="v2-body v2-fs-sub">{{ w.detail }}</p>{% endif %}
+  </div>
+{% endcall %}
+{% endfor %}
+
+{% endblock %}

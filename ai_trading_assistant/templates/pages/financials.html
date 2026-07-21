@@ -1,0 +1,31 @@
+{% extends "base_v2.html" %}
+{#
+  Financial Statements — design/06, design/20 Phase 7. 상태 A(목록)/상태 B(분석)를 페이지 이동
+  없이 해시(#code=<종목코드>)로 전환한다(financials.js). 15장 원안을 그룹당 대표 지표 1개(5장)로
+  1차 축소했다 — 업종 평균 무료 소스가 없어 자사 5년 단독 판정으로 축소한 것과 같은 원칙
+  (design/21 §159)의 연장이다.
+#}
+{% block title %}Financial Statements · {{ site.title }}{% endblock %}
+{% block content %}
+
+<div id="fs-browse">
+  <h1 class="v2-fs-title">Financial Statements</h1>
+  <p class="v2-body v2-fs-intro">종목을 클릭하면 재무 5개 지표 카드로 진단합니다.</p>
+  <table class="v2-rank-table v2-fs-table">
+    <thead><tr><th>종목</th><th>시장</th></tr></thead>
+    <tbody>
+      {% for e in universe %}
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="{{ e.code }}" tabindex="0" role="button">
+        <td><span class="v2-rank-row__name">{{ e.name }}</span><span class="v2-rank-row__code">{{ e.code }}</span></td>
+        <td>{{ e.market }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<div id="fs-detail" hidden></div>
+
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}/static/js/financials.js" defer></script>
+{% endblock %}

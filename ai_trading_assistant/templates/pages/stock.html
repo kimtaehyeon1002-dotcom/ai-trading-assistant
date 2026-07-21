@@ -1,0 +1,35 @@
+{% extends "base_v2.html" %}
+{% import "_macros_v2/card.html" as cardm %}
+{% import "_macros_v2/stock.html" as stockm %}
+{#
+  Stock — design/04, design/20 Phase 7. KR/US 거래대금 TOP30 두 테이블(design/21 §7-1).
+  미국은 전종목 무료 스냅샷이 없어 S&P500 유니버스 내 TOP30으로 축소하고 모집단 캡션으로
+  고지한다(design/21 §8 "정직한 축소"). 행 클릭 → Stock Hub(data-hub-trigger, Phase 7 후속 작업).
+#}
+{% block title %}Stock · {{ site.title }}{% endblock %}
+{% block content %}
+
+{% call cardm.card_shell('standard', span='v2-span-6', card_id='stock-kr-ranking', freshness=freshness_kr) %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">한국 거래대금 TOP30</h3>
+    <span class="v2-card__meta">{{ generated_at }}</span>
+  </div>
+  <div class="v2-card__body">
+    {{ stockm.rank_table(kr, '한국', 'kr') }}
+  </div>
+{% endcall %}
+
+{% call cardm.card_shell('standard', span='v2-span-6', card_id='stock-us-ranking', freshness=freshness_us) %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">미국 거래대금 TOP30</h3>
+    <span class="v2-card__meta">{{ generated_at }}</span>
+  </div>
+  <div class="v2-card__body">
+    {{ stockm.rank_table(us, '미국', 'us') }}
+  </div>
+{% endcall %}
+
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}/static/js/freshness.js" defer></script>
+{% endblock %}

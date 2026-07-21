@@ -1,0 +1,46 @@
+name: Stock Ranking
+
+on:
+  schedule:
+    # KR 장중(design/21 §277 "KR 장중 cron 09:00~15:30 KST 30~60분") — 매시 정각, 월~금
+    # 09:00~15:00 KST = UTC 00:00~06:00(같은 요일, KST=UTC+9라 날짜 이월 없음)
+    - cron: "0 0-6 * * 1-5"
+    # KR 마감 1회 — 15:35 KST = UTC 06:35, 월~금
+    - cron: "35 6 * * 1-5"
+    # US 마감 후 1회(KST 새벽) — 22:00 UTC(EDT 종가+2h/EST 종가+1h 이후로 양쪽 서머타임 모두 커버)
+    # = 07:00 KST 다음날, 월~금 UTC 실행이 화~토 07:00 KST에 해당(미국 월~금 장 다음날 새벽)
+    - cron: "0 22 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-commit
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ_NAME: Asia/Seoul
+      NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+      NOTION_DB_ASSETS: fd72dc64181e4c88b25a21886f441628
+      NOTION_DB_GOALS: 18580be0659e477b84eb1d03951161da
+      NOTION_DB_WATCHLIST: 32ddf8f8f7634c5db2cf85696fcbe276
+      NOTION_DB_CASHFLOW: 3ee0fbc7afe741b9a98606a33b60f359
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python build.py stock
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "chore(stock): update $(date -u +%H:%MZ)"
+          git pull --rebase --autostash || true
+          git push

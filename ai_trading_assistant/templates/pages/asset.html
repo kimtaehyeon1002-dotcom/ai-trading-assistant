@@ -1,0 +1,30 @@
+{% extends "base_v2.html" %}
+{% import "_macros_v2/gate.html" as gatem %}
+{#
+  Asset — design/08, design/20 Phase 8. 이 템플릿은 실제 숫자를 전혀 담지 않는다 — 게이트
+  모달(잠금 해제 폼)과 빈 콘텐츠 마운트만 서버 렌더링하고, 인증(WebCrypto 복호화 성공) 후
+  실제 카드는 전부 static/js/asset.js가 클라이언트에서 채운다(design/20 Phase 8 DoD 1).
+  Asset·Portfolio는 같은 게이트 세션(sessionStorage)을 공유한다(design/08 §1 사이드바 특이사항).
+#}
+{% block title %}Asset · {{ site.title }}{% endblock %}
+{% block content %}
+
+{{ gatem.gate_modal('asset', 'Asset') }}
+
+<div id="asset-content-wrap" hidden>
+  <div class="v2-asset-utility">
+    <span>인증됨 · 이 세션 동안 유지</span>
+    <div class="v2-asset-utility__actions">
+      <button type="button" class="v2-mask-toggle" id="asset-mask-toggle" aria-pressed="false">금액 가리기</button>
+      <button type="button" class="v2-lock-btn" id="asset-lock-btn">즉시 잠금</button>
+      <span id="asset-generated-at">{{ generated_at }}</span>
+    </div>
+  </div>
+  <div id="asset-content" class="v2-fs-groups"></div>
+</div>
+
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}/static/js/asset-gate.js" defer></script>
+<script src="{{ root }}/static/js/asset.js" defer></script>
+{% endblock %}

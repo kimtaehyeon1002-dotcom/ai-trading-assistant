@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ta_preview.schema.json",
+  "title": "docs/data/ta/preview.json 컨테이너 (design/20 Phase 2, design/21 §2-7)",
+  "description": "TA-PREVIEW 카드가 소비하는 4개 지표(종가/20일 이격/RSI(14)/60일 추세)의 Envelope 맵.",
+  "type": "object",
+  "required": ["close", "deviation_20d", "rsi_14", "trend_60d"],
+  "properties": {
+    "close": { "oneOf": [{ "$ref": "envelope.schema.json" }, { "type": "null" }] },
+    "deviation_20d": { "oneOf": [{ "$ref": "envelope.schema.json" }, { "type": "null" }] },
+    "rsi_14": { "oneOf": [{ "$ref": "envelope.schema.json" }, { "type": "null" }] },
+    "trend_60d": { "oneOf": [{ "$ref": "envelope.schema.json" }, { "type": "null" }] }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,7 @@
+{# 카드 셸 매크로 — 등급(hero/standard)별 타이포 위계를 강제한다(design/00 §8-2, design/22 §4-3). #}
+
+{% macro card_shell(grade='standard', span='v2-span-4', extra_class='', card_id=None, freshness=None) %}
+<div class="v2-card v2-card--{{ grade }} {{ span }} {{ extra_class }}"{% if card_id %} id="{{ card_id }}"{% endif %}{% if freshness %} data-asof="{{ freshness.as_of_iso }}" data-fresh-max-min="{{ freshness.fresh_max_min }}" data-stale-min-min="{{ freshness.stale_min_min }}" data-session="{{ freshness.session_key }}"{% endif %}>
+  {{ caller() }}
+</div>
+{% endmacro %}

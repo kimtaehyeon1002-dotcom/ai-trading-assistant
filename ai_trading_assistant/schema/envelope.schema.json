@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "envelope.schema.json",
+  "title": "Envelope — 전 페이지 공유 값 봉투 (design/20 Phase 0, design/21 §1)",
+  "description": "값(value) + 기준시각(as_of_iso) + 신선도 판정 메타(session_key/expected_T_min/freshness_basis)를 한 몸으로 묶는 표준 규격. 클라이언트 freshness.js가 FRESH/DELAYED/STALE/CLOSED-SNAPSHOT을 판정하는 입력.",
+  "type": "object",
+  "required": [
+    "value",
+    "change_abs",
+    "change_pct",
+    "unit",
+    "as_of_iso",
+    "source",
+    "session_key",
+    "expected_T_min",
+    "freshness_basis"
+  ],
+  "properties": {
+    "value": { "type": ["number", "null"] },
+    "change_abs": { "type": ["number", "null"] },
+    "change_pct": { "type": ["number", "null"] },
+    "unit": { "type": "string" },
+    "as_of_iso": { "type": "string", "format": "date-time" },
+    "source": { "type": "string" },
+    "session_key": {
+      "enum": ["kr_regular", "kr_night", "us_regular", "globex", "fx", "crypto_24h", "none"]
+    },
+    "expected_T_min": { "type": "integer", "minimum": 1 },
+    "freshness_basis": { "enum": ["as_of", "collected_at"] },
+    "ref_price": { "type": ["number", "null"] },
+    "label": { "type": "string" }
+  },
+  "additionalProperties": false
+}

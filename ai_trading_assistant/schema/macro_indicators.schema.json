@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "macro_indicators.schema.json",
+  "title": "docs/data/macro/indicators.json 컨테이너 (design/20 Phase 6, design/21 §2-2)",
+  "description": "지표별 {envelope(최신 관측치), yoy(전년동월비), consensus(수동 예상치, 미입력 시 키 생략), next_release}.",
+  "type": "object",
+  "additionalProperties": {
+    "oneOf": [
+      {
+        "type": "object",
+        "required": ["envelope", "yoy", "next_release"],
+        "properties": {
+          "envelope": { "$ref": "envelope.schema.json" },
+          "yoy": {
+            "oneOf": [
+              { "type": "null" },
+              {
+                "type": "object",
+                "required": ["change_abs", "change_pct", "prior_value", "prior_date"],
+                "properties": {
+                  "change_abs": { "type": "number" },
+                  "change_pct": { "type": "number" },
+                  "prior_value": { "type": "number" },
+                  "prior_date": { "type": "string" }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "consensus": {
+            "type": "object",
+            "required": ["value", "as_of"],
+            "properties": {
+              "value": { "type": "number" },
+              "as_of": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          "next_release": { "type": ["string", "null"] },
+          "kimchi_premium_pct": { "type": ["number", "null"] }
+        },
+        "additionalProperties": false
+      },
+      { "type": "null" }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# env / secrets
+.env
+*.local
+.claude/settings.local.json
+
+# generated data caches (루트 cache/만 — data/cache/는 데스크톱→CI 전달용이라 커밋)
+/cache/
+*.log
+
+# 자산 스냅샷 원장(design/20 Phase 8) — 계좌 절대금액이 담긴 로컬 전용 원장.
+# data/cache/와 달리 이 디렉터리는 절대 커밋하지 않는다(오커밋 1회 = git 히스토리 영구 사고).
+# 공개 채널에는 assets.enc.json(암호화 산출물)만 나간다 — 이 파일은 원문이 아니므로 허용.
+data/snapshots/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

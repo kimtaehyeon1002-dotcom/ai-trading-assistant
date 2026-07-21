@@ -1,0 +1,154 @@
+{% extends "base_v2.html" %}
+{% import "_macros_v2/card.html" as cardm %}
+{#
+  Settings — design/10(제안 문서). 저장 버튼 없음, 모든 컨트롤은 즉시 적용(localStorage/
+  sessionStorage). ①표시(등락모드·마스킹기본값·모션줄이기)는 실제 전 페이지 효과를 갖는다
+  (등락모드→updown.js, 모션줄이기→base_v2.html 부트 스니펫이 이미 소비). ②시계·시간대·
+  ⑤관심테마는 이 개정 시점 기준 소비처(듀얼 시계 표시·News 필터 우선순위)가 아직 구현되지
+  않아 저장만 하고 정직하게 "준비 중" 캡션을 붙인다(design/10 §7-9 "실제로 존재하지 않는
+  기능을 임의로 언급하지 않는다" 원칙의 연장).
+#}
+{% block title %}Settings · {{ site.title }}{% endblock %}
+{% block content %}
+
+<div class="v2-span-3">
+  <nav class="v2-settings-nav" aria-label="Settings 섹션">
+    <a class="v2-settings-nav__item" href="#display">표시</a>
+    <a class="v2-settings-nav__item" href="#clock">시계·시간대</a>
+    <a class="v2-settings-nav__item" href="#security">보안</a>
+    <a class="v2-settings-nav__item" href="#data">데이터 갱신 안내</a>
+    <a class="v2-settings-nav__item" href="#themes">관심 테마</a>
+    <a class="v2-settings-nav__item" href="#reset">초기화</a>
+  </nav>
+</div>
+
+<div class="v2-span-9 v2-settings-stack">
+
+  {% call cardm.card_shell('standard', span='v2-span-12', card_id='display') %}
+    <div class="v2-card__header"><h3 class="v2-card__title">표시</h3></div>
+    <div class="v2-card__body">
+      <div class="v2-setting-row v2-setting-row--block">
+        <span class="v2-setting-row__label">등락 색상 모드</span>
+        <p class="v2-setting-row__desc">바꾸기 전에 아래 미리보기로 결과를 확인하세요</p>
+        <div class="v2-radio-preview-row" data-updown-radio>
+          <button type="button" class="v2-radio-preview" data-mode="kr">
+            <div class="v2-radio-preview__title">한국 모드(기본)<span data-check-kr></span></div>
+            <div class="v2-radio-preview__sample"><span class="v2-radio-preview__sample--kr-up">▲ +1.24%</span><span class="v2-radio-preview__sample--kr-down">▼ −0.86%</span></div>
+            <div class="v2-radio-preview__caption">국내 HTS 관습 · 빨강 상승/파랑 하락</div>
+          </button>
+          <button type="button" class="v2-radio-preview" data-mode="global">
+            <div class="v2-radio-preview__title">글로벌 모드<span data-check-global></span></div>
+            <div class="v2-radio-preview__sample"><span class="v2-radio-preview__sample--global-up">▲ +1.24%</span><span class="v2-radio-preview__sample--global-down">▼ −0.86%</span></div>
+            <div class="v2-radio-preview__caption">해외 플랫폼 관습 · 초록 상승/빨강 하락</div>
+          </button>
+        </div>
+        <span class="v2-setting-saved" id="updown-saved" hidden>적용됨</span>
+      </div>
+      <div class="v2-setting-row">
+        <div><span class="v2-setting-row__label">금액 가리기 기본값</span>
+          <p class="v2-setting-row__desc">Asset·Portfolio 진입 시 금액을 가린 채로 시작합니다(Shift+H로 언제든 전환)</p></div>
+        <div class="v2-setting-row__control"><button type="button" class="v2-toggle" id="mask-default-toggle" role="switch" aria-checked="false"></button></div>
+      </div>
+      <div class="v2-setting-row">
+        <div><span class="v2-setting-row__label">모션 줄이기</span>
+          <p class="v2-setting-row__desc">펄스·시머 등 반복 애니메이션을 정적 표현으로 대체합니다</p></div>
+        <div class="v2-setting-row__control">
+          <div class="v2-segmented" data-reduce-motion-segmented>
+            <button type="button" class="v2-segmented__opt" data-value="0">보통</button>
+            <button type="button" class="v2-segmented__opt" data-value="1">항상 줄이기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endcall %}
+
+  {% call cardm.card_shell('standard', span='v2-span-12', card_id='clock') %}
+    <div class="v2-card__header"><h3 class="v2-card__title">시계·시간대</h3></div>
+    <div class="v2-card__body">
+      <div class="v2-setting-row">
+        <div><span class="v2-setting-row__label">시간 표기</span>
+          <p class="v2-setting-row__desc">저장은 되지만 아직 헤더 시계에 반영되지 않습니다(준비 중)</p></div>
+        <div class="v2-setting-row__control">
+          <div class="v2-segmented" data-clock-format-segmented>
+            <button type="button" class="v2-segmented__opt" data-value="24">24시간</button>
+            <button type="button" class="v2-segmented__opt" data-value="12">12시간</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endcall %}
+
+  {% call cardm.card_shell('standard', span='v2-span-12', card_id='security') %}
+    <div class="v2-card__header"><h3 class="v2-card__title">보안</h3></div>
+    <div class="v2-card__body">
+      <p class="v2-body">ⓘ 이 잠금은 '열람 가림' 수준의 프라이버시 보호입니다. 비밀번호는 데스크톱 앱에서만
+        설정하며(암호화 passphrase), 이 브라우저는 그 비밀번호로 복호화를 시도할 뿐입니다.</p>
+      <div class="v2-setting-row">
+        <span class="v2-setting-row__label">Asset/Portfolio 잠금 상태</span>
+        <div class="v2-setting-row__control"><span id="gate-status-caption" class="v2-body">확인 중…</span></div>
+      </div>
+      <div class="v2-setting-row">
+        <div><span class="v2-setting-row__label">유휴 자동 잠금</span>
+          <p class="v2-setting-row__desc">지정한 시간 동안 조작이 없으면 Asset·Portfolio를 자동으로 잠급니다</p></div>
+        <div class="v2-setting-row__control">
+          <div class="v2-segmented" data-idle-lock-segmented>
+            <button type="button" class="v2-segmented__opt" data-value="10">10분</button>
+            <button type="button" class="v2-segmented__opt" data-value="30">30분(기본)</button>
+            <button type="button" class="v2-segmented__opt" data-value="0">세션 종료 시만</button>
+          </div>
+        </div>
+      </div>
+      <div class="v2-setting-row">
+        <span class="v2-setting-row__label">지금 잠그기</span>
+        <div class="v2-setting-row__control"><button type="button" class="v2-btn v2-btn--ghost" id="lock-now-btn">지금 잠그기</button></div>
+      </div>
+    </div>
+  {% endcall %}
+
+  {% call cardm.card_shell('standard', span='v2-span-12', card_id='data') %}
+    <div class="v2-card__body">
+      <div class="v2-accordion" id="freshness-accordion">
+        <div class="v2-accordion-header" data-accordion-toggle>
+          <div><span class="v2-accordion-header__chevron">▸</span><strong>데이터 갱신 안내</strong></div>
+          <span id="freshness-summary" class="v2-body">불러오는 중…</span>
+        </div>
+        <div class="v2-accordion-body">
+          <p class="v2-body">이 제품의 데이터는 배치 생성됩니다. 아래는 각 소스의 마지막 생성 기록입니다.</p>
+          <table class="v2-rank-table">
+            <thead><tr><th>소스</th><th>상태</th><th class="num">건수</th><th class="num">마지막 생성</th></tr></thead>
+            <tbody id="freshness-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  {% endcall %}
+
+  {% call cardm.card_shell('standard', span='v2-span-12', card_id='themes') %}
+    <div class="v2-card__header"><h3 class="v2-card__title">관심 테마</h3><span class="v2-card__meta" id="themes-count"></span></div>
+    <div class="v2-card__body">
+      <p class="v2-body">저장은 되지만 News 필터 우선순위에는 아직 반영되지 않습니다(준비 중).</p>
+      <div id="themes-chips" class="v2-theme-chips"></div>
+      <form id="theme-add-form" class="v2-theme-add-form">
+        <input type="text" class="v2-theme-input" id="theme-input" placeholder="테마 추가">
+      </form>
+    </div>
+  {% endcall %}
+
+  {% call cardm.card_shell('standard', span='v2-span-12', card_id='reset') %}
+    <div class="v2-card__header"><h3 class="v2-card__title">설정 초기화</h3></div>
+    <div class="v2-card__body">
+      <div class="v2-setting-row">
+        <p class="v2-body">모든 설정을 기본값으로 되돌립니다 · 비밀번호와 매매일지는 유지됩니다</p>
+        <button type="button" class="v2-reset-btn" id="reset-btn">기본값으로 되돌리기</button>
+      </div>
+    </div>
+  {% endcall %}
+
+</div>
+
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}/static/js/updown.js" defer></script>
+<script src="{{ root }}/static/js/asset-gate.js" defer></script>
+<script src="{{ root }}/static/js/settings.js" defer></script>
+{% endblock %}

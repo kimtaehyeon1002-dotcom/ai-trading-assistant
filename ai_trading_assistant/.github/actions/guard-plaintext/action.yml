@@ -1,0 +1,13 @@
+name: "Plaintext Asset Guard"
+description: >
+  자산 절대금액 평문 패턴이 docs/ 발행물에 남아있는지 검사한다(design/20 Phase 8 DoD 1·6).
+  pre-commit 훅(.githooks/pre-commit)과 동일한 scripts/check_no_plaintext_assets.py를 재사용한다 —
+  github-actions bot 커밋은 로컬 훅을 거치지 않으므로 이 스텝이 최종 방어선이다.
+runs:
+  using: composite
+  steps:
+    - name: Scan docs/ for plaintext asset patterns
+      shell: bash
+      run: |
+        files=$(git ls-files --others --cached --exclude-standard docs/)
+        python scripts/check_no_plaintext_assets.py $files

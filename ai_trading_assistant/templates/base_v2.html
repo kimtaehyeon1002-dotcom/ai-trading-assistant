@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{#
+  base_v2.html — v2 셸(design/22 §1-1·§4-1). v1 셸은 Phase 9에서 소스 은퇴 완료(git 히스토리
+  참조). 블록: title / head_extra / content / panel_slot / scripts.
+#}
+{% import "_macros_v2/nav.html" as navm %}
+<html lang="ko" data-theme="dark" data-updown="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ site.title }}{% endblock %}</title>
+  <link rel="stylesheet" href="{{ root }}/static/css/tokens.css">
+  <link rel="stylesheet" href="{{ root }}/static/css/base_v2.css">
+  <link rel="stylesheet" href="{{ root }}/static/css/components.css">
+  {% block head_extra %}{% endblock %}
+  {#
+    인라인 부트 스니펫(design/22 §5-1) — 저장된 테마·등락 모드를 첫 페인트 전에 적용해
+    FOUC를 막는다. 외부 파일(src=)로 분리하면 네트워크 왕복이 첫 페인트보다 늦게 끝날 수
+    있어 목적을 달성하지 못하므로 의도적으로 인라인 <script>로 둔다(빌드 스텝이 없는
+    프로젝트 특성상 이것이 유일하게 신뢰 가능한 "동기 실행" 지점이다). 로직은 store.js의
+    theme/updownMode/reduceMotion 키와 동일 네임스페이스("ta:")를 공유한다.
+  #}
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
+</head>
+<body class="v2" data-root="{{ root }}">
+  {{ navm.sidebar(nav, root) }}
+  {{ navm.header(nav) }}
+  <main class="v2-main">
+    <div class="v2-content">
+      {% block content %}{% endblock %}
+    </div>
+  </main>
+  <div class="v2-panel-slot" id="panel-slot">{% block panel_slot %}{% endblock %}</div>
+  <script src="{{ root }}/static/js/store.js" defer></script>
+  {#
+    Stock Hub는 전역 오버레이 컴포넌트(design/05 §1-1 "Dashboard/News/Stock/Portfolio 등
+    모든 페이지")라 base_v2.html에서 무조건 로드한다 — store.js와 동일 원칙(design/22 §5-1).
+  #}
+  <script src="{{ root }}/static/js/stockhub.js" defer></script>
+  {#
+    글로벌 검색(Ctrl/⌘+K)도 헤더가 모든 v2 페이지에 공통이므로 전역 로드한다(design/00 §7-2).
+  #}
+  <script src="{{ root }}/static/js/search.js" defer></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

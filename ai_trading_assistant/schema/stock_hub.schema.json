@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "stock_hub.schema.json",
+  "title": "docs/data/stock/hub/<code>.json 컨테이너 (design/05, design/20 Phase 7)",
+  "description": "Stock Hub 전역 패널이 소비하는 종목 단건 요약. 유니버스에 포함된 종목만 이 파일이 존재한다 — 없으면(404) 유니버스 밖 종목으로 판정한다(design/21 §8).",
+  "type": "object",
+  "required": ["code", "name", "market", "theme", "quote", "tradingview_symbol", "related_news"],
+  "properties": {
+    "code": { "type": "string" },
+    "name": { "type": "string" },
+    "market": { "type": "string" },
+    "theme": { "type": ["string", "null"] },
+    "quote": {
+      "type": ["object", "null"],
+      "required": ["close", "change_pct", "volume", "amount", "marcap", "as_of_iso", "session_key"],
+      "properties": {
+        "close": { "type": "number" },
+        "change_pct": { "type": ["number", "null"] },
+        "volume": { "type": ["integer", "null"] },
+        "amount": { "type": "number" },
+        "marcap": { "type": ["number", "null"] },
+        "as_of_iso": { "type": "string", "format": "date-time" },
+        "session_key": {
+          "enum": ["kr_regular", "kr_night", "us_regular", "globex", "fx", "crypto_24h", "none"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "tradingview_symbol": { "type": ["string", "null"] },
+    "related_news": {
+      "type": "array",
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["title", "link", "source", "published"],
+        "properties": {
+          "title": { "type": "string" },
+          "link": { "type": "string" },
+          "source": { "type": "string" },
+          "published": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

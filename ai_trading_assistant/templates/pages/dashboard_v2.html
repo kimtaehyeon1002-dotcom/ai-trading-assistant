@@ -1,0 +1,141 @@
+{% extends "base_v2.html" %}
+{% import "_macros_v2/card.html" as cardm %}
+{#
+  Dashboard v2 — design/01. 정확히 5개 카드(Hero/한국지수/미국지수/핵심뉴스/오늘일정)만 존재한다
+  (design/01 §3-1 "문서 간 일관성 계약" — 관심종목 등 opt-in 카드는 여기 없음).
+  design/20 Phase 4 DoD: 자산(Notion ERP) 절대값은 이 페이지 어디에도 렌더하지 않는다.
+#}
+{% block title %}{{ site.title }}{% endblock %}
+{% block content %}
+
+{% call cardm.card_shell('hero', span='v2-span-12', card_id='dash-hero') %}
+  <div class="v2-card__header v2-hero__header">
+    <h3 class="v2-card__title">Morning Report</h3>
+    <div class="v2-hero__header-actions">
+      <span class="v2-card__meta">{{ generated_at }}</span>
+      {% if latest_morning %}<a class="v2-btn v2-btn--primary" href="{{ root }}/morning/{{ latest_morning }}/index.html">리포트 전문 보기</a>{% endif %}
+    </div>
+  </div>
+  {% if headline %}
+  <div class="v2-hero-headline">{{ headline }}</div>
+  {% endif %}
+  <div class="v2-hero-cols">
+    <div class="v2-hero-col">
+      <div class="v2-overline">미국 증시</div>
+      {% for key in ('sp500', 'nasdaq', 'dow') %}
+      {% set q = market.get(key) %}
+      {% if q %}
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">{{ q.name }}</span>
+        <span>
+          <span class="v2-stat__value">{{ q.price|price }}</span>
+          <span class="v2-updown {{ q.change_pct|signclass }}">{{ q.change_pct|arrow }} {{ q.change_pct|pctv2 }}</span>
+        </span>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <div class="v2-hero-col">
+      <div class="v2-overline">한국 증시</div>
+      {% for key in ('kospi', 'kosdaq', 'kospi_night') %}
+      {% set q = market.get(key) %}
+      {% if q %}
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">{{ q.name }}</span>
+        <span>
+          <span class="v2-stat__value">{{ q.price|price }}</span>
+          <span class="v2-updown {{ q.change_pct|signclass }}">{{ q.change_pct|arrow }} {{ q.change_pct|pctv2 }}</span>
+        </span>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <div class="v2-hero-col">
+      <div class="v2-overline">전일 핵심 뉴스</div>
+      {% for a in top_news %}
+      <div class="v2-hero-news-row">
+        <span class="n">{{ loop.index }}</span>
+        <a class="t" href="{{ a.link }}" target="_blank" rel="noopener noreferrer">{{ a.title }}</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endcall %}
+
+{% call cardm.card_shell('standard', span='v2-span-6', card_id='dash-kr') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">한국 지수</h3>
+    <span class="v2-card__meta">{{ generated_at }}</span>
+  </div>
+  <div class="v2-tile-grid">
+    {% for key, q in kr_tiles %}
+    <div class="v2-tile">
+      {% if q %}
+      <div class="v2-tile__label">{{ q.name }}</div>
+      <div class="v2-tile__value">{{ q.price|price }}</div>
+      <div class="v2-tile__change v2-updown {{ q.change_pct|signclass }}">{{ q.change_pct|arrow }} {{ q.change_pct|pctv2 }}</div>
+      {% else %}
+      <div class="v2-tile__label">—</div>
+      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+{% endcall %}
+
+{% call cardm.card_shell('standard', span='v2-span-6', card_id='dash-us') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">미국 지수</h3>
+    <span class="v2-card__meta">{{ generated_at }}</span>
+  </div>
+  <div class="v2-tile-grid">
+    {% for key, q in us_tiles %}
+    <div class="v2-tile">
+      {% if q %}
+      <div class="v2-tile__label">{{ q.name }}</div>
+      <div class="v2-tile__value">{{ q.price|price }}</div>
+      <div class="v2-tile__change v2-updown {{ q.change_pct|signclass }}">{{ q.change_pct|arrow }} {{ q.change_pct|pctv2 }}</div>
+      {% else %}
+      <div class="v2-tile__label">—</div>
+      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+{% endcall %}
+
+{% call cardm.card_shell('standard', span='v2-span-8', card_id='dash-news') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">핵심 뉴스</h3>
+    <span class="v2-card__meta">{{ generated_at }}</span>
+  </div>
+  <div class="v2-card__body">
+    {% for a, label in recent_news %}
+    <div class="v2-news-row">
+      <span class="v2-badge">{{ label }}</span>
+      <a class="v2-news-row__title" href="{{ a.link }}" target="_blank" rel="noopener noreferrer">{{ a.title }}</a>
+      <span class="v2-news-row__time">{{ a.published|kst }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="v2-card__footer"><a href="{{ root }}/news/index.html">News 전체 보기 →</a></div>
+{% endcall %}
+
+{% call cardm.card_shell('standard', span='v2-span-4', card_id='dash-schedule') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">오늘 일정</h3>
+  </div>
+  <div class="v2-card__body">
+    {% for s in schedule %}
+    <div class="v2-sched-row">
+      <span class="v2-sched-row__time">{{ s.time }}</span>
+      <span class="v2-sched-row__label">{{ s.label }}</span>
+    </div>
+    {% endfor %}
+  </div>
+{% endcall %}
+
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}/static/js/updown.js" defer></script>
+{% endblock %}
