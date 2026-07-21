@@ -14,6 +14,10 @@ TRADES_DIR = DATA_DIR / "trades"
 DATA_CACHE_DIR = DATA_DIR / "cache"  # 데스크톱→CI 전달 캐시(커밋됨; 예: 야간선물)
 TEMPLATES_DIR = BASE_DIR / "templates"
 STATIC_DIR = BASE_DIR / "static"
+# Obsidian vault = 별도 저장소 TH_DATA. 로컬=형제 폴더(../TH_DATA), CI=듀얼 checkout 후
+# TH_DATA_DIR 환경변수로 주입. 폴더 없으면 수집/write-back 모두 skipped(가짜 데이터 금지).
+VAULT_DIR = Path(os.getenv("TH_DATA_DIR") or (BASE_DIR.parent / "TH_DATA"))
+VAULT_WATCHLIST_DIR = VAULT_DIR / "00_Watchlist"
 
 # ── 타임존 ──
 TIMEZONE = ZoneInfo(os.getenv("TZ_NAME", "Asia/Seoul"))
@@ -39,17 +43,6 @@ BREAKING_WINDOW_MIN = int(os.getenv("BREAKING_WINDOW_MIN", "90"))
 # 나와야 하므로 24h면 부족(일요일 새벽 동기화도 월 06:30에 28.8h로 만료됨). 60h = 금 22시
 # 동기화(56.5h) 커버, 그 이상 낡은 값은 생략.
 NIGHT_FUTURES_MAX_AGE_H = int(os.getenv("NIGHT_FUTURES_MAX_AGE_H", "60"))
-
-# ── Notion (사용자 관리 투자 데이터의 단일 진실원. 미설정 시 수집 skipped) ──
-NOTION_API_KEY = os.getenv("NOTION_API_KEY", "")
-NOTION_VERSION = os.getenv("NOTION_VERSION", "2022-06-28")
-# 이름 → database_id (환경변수로 지정; 비면 해당 DB 수집 생략)
-NOTION_DATABASES = {
-    "assets": os.getenv("NOTION_DB_ASSETS", ""),
-    "goals": os.getenv("NOTION_DB_GOALS", ""),
-    "watchlist": os.getenv("NOTION_DB_WATCHLIST", ""),
-    "cashflow": os.getenv("NOTION_DB_CASHFLOW", ""),
-}
 
 
 def ensure_dirs() -> None:

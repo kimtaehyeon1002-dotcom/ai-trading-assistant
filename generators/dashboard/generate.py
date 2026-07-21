@@ -8,7 +8,7 @@ from calculators.trade_stats import compute_stats
 from config.settings import DOCS_DIR
 from generators.base import render
 from generators.morning.generate import list_dates
-from repositories import notion_repository, trade_repository
+from repositories import obsidian_repository, trade_repository
 from utils.dates import fmt_kst, now_kst
 from utils.logging import get_logger
 
@@ -19,7 +19,7 @@ def generate() -> Path:
     dates = list_dates()
     latest = dates[0] if dates else None
     stats = compute_stats(trade_repository.load_trades())
-    erp = erp_stats.summarize(notion_repository.load_normalized())
+    erp = erp_stats.summarize(obsidian_repository.load_normalized())
     ctx = {
         "active": "home",
         "root": ".",

@@ -17,6 +17,9 @@ venv/
 /cache/
 *.log
 
+# Obsidian vault는 별도 저장소(TH_DATA) — CI 듀얼 checkout 폴더는 중첩 repo라 추적 제외
+/TH_DATA/
+
 # OS / editor
 .DS_Store
 Thumbs.db

@@ -1,4 +1,5 @@
-"""Notion ERP 집계 — 순수 계산(자산 합계/목표 진행률/현금흐름 최근 내역)."""
+"""ERP(자산/목표/워치리스트/현금흐름) 집계 — 순수 계산. 현재 실공급원은 vault(워치리스트)뿐이나
+계약은 4개 DB 전체(자산/목표/워치리스트/현금흐름)를 지원한다(repositories.obsidian_repository 참고)."""
 from __future__ import annotations
 
 

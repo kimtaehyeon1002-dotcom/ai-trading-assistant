@@ -34,13 +34,15 @@
 </section>
 
 {% if erp %}
-<h2>자산 현황 <span class="muted" style="font-size:.75em">Notion · {{ erp.as_of[:16]|replace('T', ' ') }}</span></h2>
+{% if erp.assets_by_type %}
+<h2>자산 현황 <span class="muted" style="font-size:.75em">Obsidian · {{ erp.as_of[:16]|replace('T', ' ') }}</span></h2>
 <section class="stat-grid">
   {{ stat_card('총 자산', erp.total_assets|money ~ '원') }}
   {% for type, amt in erp.assets_by_type.items() %}
   {{ stat_card(type, amt|money ~ '원') }}
   {% endfor %}
 </section>
+{% endif %}
 
 {% if erp.goals %}
 <h2>목표</h2>
@@ -62,7 +64,7 @@
 {% endif %}
 
 {% if erp.watchlist %}
-<h2>워치리스트</h2>
+<h2>워치리스트 <span class="muted" style="font-size:.75em">Obsidian · {{ erp.as_of[:16]|replace('T', ' ') }}</span></h2>
 <section class="cards">
   {% for w in erp.watchlist %}
   <div class="card">
