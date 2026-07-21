@@ -17,6 +17,10 @@ TRADES_DIR = DATA_DIR / "trades"
 DATA_CACHE_DIR = DATA_DIR / "cache"  # 데스크톱→CI 전달 캐시(커밋됨; 예: 야간선물)
 TEMPLATES_DIR = BASE_DIR / "templates"
 STATIC_DIR = BASE_DIR / "static"
+# Obsidian vault = 별도 저장소 TH_DATA. 로컬=형제 폴더(../TH_DATA), CI=듀얼 checkout 후
+# TH_DATA_DIR 환경변수로 주입. 폴더 없으면 수집/write-back 모두 skipped(가짜 데이터 금지).
+VAULT_DIR = Path(os.getenv("TH_DATA_DIR") or (BASE_DIR.parent / "TH_DATA"))
+VAULT_WATCHLIST_DIR = VAULT_DIR / "00_Watchlist"
 
 # ── 타임존 ──
 TIMEZONE = ZoneInfo(os.getenv("TZ_NAME", "Asia/Seoul"))
@@ -68,16 +72,8 @@ ASSET_PASSPHRASE = os.getenv("ASSET_PASSPHRASE", "")
 # 미설정(0)이면 목표 달성률 카드를 생략한다(결측 문법).
 ASSET_GOAL_KRW = float(os.getenv("ASSET_GOAL_KRW", "0") or 0)
 
-# ── Notion (사용자 관리 투자 데이터의 단일 진실원. 미설정 시 수집 skipped) ──
-NOTION_API_KEY = os.getenv("NOTION_API_KEY", "")
-NOTION_VERSION = os.getenv("NOTION_VERSION", "2022-06-28")
-# 이름 → database_id (환경변수로 지정; 비면 해당 DB 수집 생략)
-NOTION_DATABASES = {
-    "assets": os.getenv("NOTION_DB_ASSETS", ""),
-    "goals": os.getenv("NOTION_DB_GOALS", ""),
-    "watchlist": os.getenv("NOTION_DB_WATCHLIST", ""),
-    "cashflow": os.getenv("NOTION_DB_CASHFLOW", ""),
-}
+# Notion 연동은 Obsidian vault(TH_DATA)로 이관 완료 — 관련 설정은 제거됐다.
+# (1회성 이관 스크립트 migrate_notion_watchlist.py는 환경변수를 직접 읽는다.)
 
 
 def ensure_dirs() -> None:

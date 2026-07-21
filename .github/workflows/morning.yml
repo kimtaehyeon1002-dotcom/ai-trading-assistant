@@ -21,19 +21,23 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ_NAME: Asia/Seoul
-      NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-      NOTION_DB_ASSETS: fd72dc64181e4c88b25a21886f441628
-      NOTION_DB_GOALS: 18580be0659e477b84eb1d03951161da
-      NOTION_DB_WATCHLIST: 32ddf8f8f7634c5db2cf85696fcbe276
-      NOTION_DB_CASHFLOW: 3ee0fbc7afe741b9a98606a33b60f359
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        # TH_DATA(Obsidian vault, private) 브릿지 — 토큰 미설정/만료여도 Pages 빌드는 계속
+        continue-on-error: true
+        with:
+          repository: kimtaehyeon1002-dotcom/TH_DATA
+          token: ${{ secrets.TH_DATA_TOKEN }}
+          path: TH_DATA
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python build.py morning
-      - name: Commit & push
+        env:
+          TH_DATA_DIR: ${{ github.workspace }}/TH_DATA
+      - name: Commit & push (pages)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -41,3 +45,14 @@ jobs:
           git diff --cached --quiet || git commit -m "chore(morning): report $(TZ=Asia/Seoul date +%Y-%m-%d)"
           git pull --rebase --autostash || true
           git push
+      - name: Commit & push (TH_DATA vault)
+        run: |
+          if [ -d TH_DATA/.git ]; then
+            cd TH_DATA
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git diff --cached --quiet || git commit -m "bot(vault): morning $(TZ=Asia/Seoul date +%Y-%m-%d)"
+            git pull --rebase --autostash || true
+            git push
+          fi

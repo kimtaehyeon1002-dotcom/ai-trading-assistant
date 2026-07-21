@@ -22,6 +22,9 @@ venv/
 # 공개 채널에는 assets.enc.json(암호화 산출물)만 나간다 — 이 파일은 원문이 아니므로 허용.
 data/snapshots/
 
+# Obsidian vault는 별도 저장소(TH_DATA) — CI 듀얼 checkout 폴더는 중첩 repo라 추적 제외
+/TH_DATA/
+
 # OS / editor
 .DS_Store
 Thumbs.db

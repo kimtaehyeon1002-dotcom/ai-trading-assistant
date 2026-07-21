@@ -29,7 +29,8 @@ WORKERS: list[tuple[str, str]] = [
     ("News Research", "뉴스 수집·검증·병합 (collectors/news)"),
     ("Theme Analyst", "테마 빈도 산출 (calculators/themes)"),
     ("Trade Manager", "매매 원장 로드 (repositories/trade)"),
-    ("Notion Sync", "Notion ERP 동기화 (collectors/notion)"),
+    ("Vault Sync", "Obsidian vault 워치리스트 동기화 (collectors/obsidian)"),
+    ("Vault Journal", "Obsidian vault 저널 write-back (generators/vault_journal)"),
     ("Publisher", "페이지 생성·발행 (generators)"),
 ]
 

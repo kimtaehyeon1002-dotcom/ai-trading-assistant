@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-21T18:25:29.147231+00:00",
+  "as_of": "2026-07-21T20:06:18.581684+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,132 @@
   ],
   "news": [
     {
+      "title": "$100M New Jersey deli fraudster James Patten sentenced to 21 months in prison",
+      "link": "https://www.cnbc.com/2026/07/21/new-jersey-deli-fraud-james-patten-sentenced.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T20:03:51+00:00"
+    },
+    {
+      "title": "Bets against SpaceX grow to 32% of float as Elon Musk warns short sellers won't survive",
+      "link": "https://www.cnbc.com/2026/07/21/bets-against-spacex-grow-to-32percent-of-float-as-elon-musk-warns-short-sellers-wont-survive.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T20:01:39+00:00"
+    },
+    {
+      "title": "미·이란 충돌 격화에 홍해 봉쇄 위협까지…국제유가 2%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260722007500072",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-21T20:00:43+00:00"
+    },
+    {
+      "title": "We have $8 million in traditional IRAs. Should we tap them to buy a house — and take the tax hit?",
+      "link": "https://www.marketwatch.com/story/we-have-8-million-in-traditional-iras-should-we-tap-them-to-buy-a-house-and-take-the-tax-hit-c2478daa?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T20:00:00+00:00"
+    },
+    {
+      "title": "Why Paramount could win if it loses the Warner Bros. Discovery deal",
+      "link": "https://www.marketwatch.com/story/why-paramount-could-win-if-it-loses-the-warner-bros-discovery-deal-5f174963?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T19:49:00+00:00"
+    },
+    {
+      "title": "Pro stock pickers cannot beat simple math — war in the Middle East is proving it",
+      "link": "https://www.marketwatch.com/story/if-timing-the-stock-market-were-easy-the-iran-war-would-have-proven-it-its-done-the-opposite-ac090ad3?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T19:46:00+00:00"
+    },
+    {
+      "title": "Why Micron and other chip stocks are bouncing back so strongly",
+      "link": "https://www.marketwatch.com/story/why-micron-and-other-chip-stocks-are-bouncing-back-so-strongly-3f6d3cee?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T19:45:00+00:00"
+    },
+    {
+      "title": "Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.",
+      "link": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T19:42:00+00:00"
+    },
+    {
+      "title": "Think this stock market is in a bubble? These earnings numbers say otherwise.",
+      "link": "https://www.marketwatch.com/story/welcome-to-the-roaring-20s-heres-how-this-earnings-season-will-keep-the-bull-market-strong-4a70be72?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T19:42:00+00:00"
+    },
+    {
+      "title": "Goldman Sachs creates private markets platform as rich investors seek the next SpaceX and Stripe",
+      "link": "https://www.cnbc.com/2026/07/21/goldman-sachs-private-markets-platform.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T19:41:54+00:00"
+    },
+    {
+      "title": "Apple prepares a new way to buy iPhones. Plus, making sense of Google's new AI models",
+      "link": "https://www.cnbc.com/2026/07/21/apple-prepares-a-new-way-to-buy-iphones-plus-making-sense-of-googles-new-ai-models.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T19:20:31+00:00"
+    },
+    {
+      "title": "BlackRock, Carhartt, Ford and Google launch skilled trades workforce initiative",
+      "link": "https://www.cnbc.com/2026/07/21/blackrock-carhartt-ford-google-skilled-trades.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T19:18:50+00:00"
+    },
+    {
+      "title": "Do I use $300,000 of my $1.2 million retirement savings so my daughter can attend her dream college?",
+      "link": "https://www.marketwatch.com/story/do-i-use-300-000-of-my-1-2-million-retirement-savings-so-my-daughter-can-attend-her-dream-college-50842e7a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T19:15:00+00:00"
+    },
+    {
+      "title": "Time for a crypto comeback? Traders bet that this stock will lead the way",
+      "link": "https://www.cnbc.com/2026/07/21/traders-bet-that-this-stock-will-lead-the-way-in-a-crypto-comeback.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T19:09:36+00:00"
+    },
+    {
+      "title": "An oil lifeline is under threat, and markets have yet to price in the growing crisis",
+      "link": "https://www.marketwatch.com/story/an-oil-lifeline-is-under-threat-and-markets-have-yet-to-price-in-the-growing-crisis-801d53b1?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T19:05:00+00:00"
+    },
+    {
+      "title": "Investing experts: Why 'just buy the market' doesn't necessarily apply to bonds",
+      "link": "https://www.cnbc.com/2026/07/21/bond-investing-buy-the-market-agg-index.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T19:04:51+00:00"
+    },
+    {
+      "title": "White House teases new trade action 'soon' as it works to re-create global tariff regime",
+      "link": "https://www.cnbc.com/2026/07/21/trump-trade-tariffs-greer-section-301.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T19:00:20+00:00"
+    },
+    {
+      "title": "‘I have a $2,000 deductible’: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
+      "link": "https://www.marketwatch.com/story/i-have-a-2-000-deductible-i-reported-a-cracked-windshield-on-my-hertz-rental-car-can-they-charge-me-1e07d28a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-21T19:00:00+00:00"
+    },
+    {
+      "title": "20억 아파트 탈세꼼수에 … 10억 추징하고 검찰에 넘겼다",
+      "link": "https://www.mk.co.kr/news/economy/12103489",
+      "source": "매일경제·증권",
+      "published": "2026-07-21T19:00:00+00:00"
+    },
+    {
+      "title": "RFK Jr. says cyclospora outbreak is 'under control'",
+      "link": "https://www.cnbc.com/2026/07/21/cyclospora-rfk-jr-says-outbreak-is-under-control.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T18:43:24+00:00"
+    },
+    {
+      "title": "Tesla shares poised for biggest earnings move in a year",
+      "link": "https://www.cnbc.com/2026/07/21/tesla-shares-poised-for-biggest-earnings-move-in-a-year.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-21T18:25:07+00:00"
+    },
+    {
       "title": "IRS chief Frank Bisignano dismisses JPMorgan spying allegations",
       "link": "https://www.cnbc.com/2026/07/21/irs-chief-frank-bisignano-laughs-off-jpmorgan-spying-allegations.html",
       "source": "CNBC Finance",
@@ -408,12 +534,6 @@
       "published": "2026-07-21T17:22:44+00:00"
     },
     {
-      "title": "Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.",
-      "link": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T17:19:00+00:00"
-    },
-    {
       "title": "Bessent says U.S. could sanction China over AI model 'theft'",
       "link": "https://www.cnbc.com/2026/07/21/bessent-china-ai-sanctions.html",
       "source": "CNBC Finance",
@@ -448,12 +568,6 @@
       "link": "https://www.marketwatch.com/story/heres-how-to-time-your-retirement-to-keep-your-healthcare-costs-down-b1a4d427?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-21T16:56:00+00:00"
-    },
-    {
-      "title": "An oil lifeline is under threat, and markets have yet to price in the growing crisis",
-      "link": "https://www.marketwatch.com/story/an-oil-lifeline-is-under-threat-and-markets-have-yet-to-price-in-the-growing-crisis-801d53b1?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T16:54:00+00:00"
     },
     {
       "title": "Google expands Gemini lineup with cheaper models and new Mythos rival",
@@ -498,12 +612,6 @@
       "published": "2026-07-21T15:25:09+00:00"
     },
     {
-      "title": "Pro stock pickers cannot beat simple math — war in the Middle East is proving it",
-      "link": "https://www.marketwatch.com/story/if-timing-the-stock-market-were-easy-the-iran-war-would-have-proven-it-its-done-the-opposite-ac090ad3?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T15:12:00+00:00"
-    },
-    {
       "title": "GM announces new gas-powered Cadillac vehicles amid EV pullback",
       "link": "https://www.cnbc.com/2026/07/21/gm-new-gas-powered-cadillac.html",
       "source": "CNBC Finance",
@@ -522,12 +630,6 @@
       "published": "2026-07-21T15:02:00+00:00"
     },
     {
-      "title": "Think this stock market is in a bubble? These earnings numbers say otherwise.",
-      "link": "https://www.marketwatch.com/story/welcome-to-the-roaring-20s-heres-how-this-earnings-season-will-keep-the-bull-market-strong-4a70be72?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T15:01:00+00:00"
-    },
-    {
       "title": "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel",
       "link": "https://www.cnbc.com/2026/07/21/nvidia-vera-cpu-ai-amd-intel.html",
       "source": "CNBC Finance",
@@ -540,12 +642,6 @@
       "published": "2026-07-21T14:54:22+00:00"
     },
     {
-      "title": "Why Paramount could win if it loses the Warner Bros. Discovery deal",
-      "link": "https://www.marketwatch.com/story/why-paramount-could-win-if-it-loses-the-warner-bros-discovery-deal-5f174963?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T14:53:00+00:00"
-    },
-    {
       "title": "Wall Street is selling more rental homes, as buying ban takes effect",
       "link": "https://www.cnbc.com/2026/07/21/wall-street-selling-homes-real-estate.html",
       "source": "CNBC Finance",
@@ -556,102 +652,6 @@
       "link": "https://www.cnbc.com/2026/07/21/iran-war-economy-markets-trump.html",
       "source": "CNBC Finance",
       "published": "2026-07-21T14:37:08+00:00"
-    },
-    {
-      "title": "Tesla earnings are on deck, and investors will be looking to settle this major debate",
-      "link": "https://www.marketwatch.com/story/tesla-earnings-are-on-deck-and-investors-will-be-looking-to-settle-this-major-debate-f5a11d0e?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T14:32:00+00:00"
-    },
-    {
-      "title": "기껏 증시 띄워놓고 ‘초과이윤 재분배’ 논의… “韓 증시가 ‘가두리’인 이유” - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNEZZZnc1cEVDWThTaHZ1TnFmTWlrdnBVSnV1Y0RvM2FaZGdPLVRXeDJ1bXdYUG5CQ0NwRkk5dFpPdUxOMVVuXzlwekRsMnUyWVUtT2xCMWo5SjRsWW54cXBtTlpjd3djcmtsYkNSSXJwSHV3Nm5tcWdBU2FXVXdFWThRbTJOZ24x0gGcAUFVX3lxTE9VTUx6SlgyQ2x0WGtkYUEwcE5DTWI0bWozUzZfZ2xyLVE5eUpycWVxbXBPR2FLUS1yUEpnb1M1UnQ3blJpUnFhTVZiNncwLVBDV25uNGJHM0U1S1d0djBXSEZLMHJhX2xOYlBEVnlzV3pGejFBa0ZDa1hmWjN3ZVB4ZU51UFlIb3l4NEwzVWhrVzN0UHRpajVXNjNCMQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T14:28:00+00:00"
-    },
-    {
-      "title": "Property taxes are poised for major midterm elections ballot battles across many U.S. states",
-      "link": "https://www.cnbc.com/2026/07/21/property-taxes-midterm-elections-ballots-issues.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T14:15:35+00:00"
-    },
-    {
-      "title": "‘I have a $2,000 deductible’: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
-      "link": "https://www.marketwatch.com/story/i-have-a-2-000-deductible-i-reported-a-cracked-windshield-on-my-hertz-rental-car-can-they-charge-me-1e07d28a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T14:15:00+00:00"
-    },
-    {
-      "title": "Do I use $300,000 of my $1.2 million retirement savings so my daughter can attend her dream college?",
-      "link": "https://www.marketwatch.com/story/do-i-use-300-000-of-my-1-2-million-retirement-savings-so-my-daughter-can-attend-her-dream-college-50842e7a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T14:15:00+00:00"
-    },
-    {
-      "title": "반도체주 반등에 뉴욕증시 강세… 나스닥 0.7% 상승 - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ1lGWVBRckw3Y2JoUExHS09hMXZWTVpqZGRVckM0SGpKUGlaZFJULXN5bDItUWJXUUhuZE4zYm11R0I5WU90cHdITXkyLUpJRVlzaFJnSDlGSjRTZWJhbDlUbU9NNVJxdGJUV1NVbml3RWJjbHU1ZUc1bjBNWHVPM2MxdzZ0WVVjZG9WeXdYU0FZMlZ6b2RLX0l1X1prd9IBsgFBVV95cUxOLVhncWxQSUJuR2N2d042REcyV3Rha0s1TGpaTzFYZnFZX2N0TDJjRlQxaTl5Y19ROC1kbmFZQWVtcnRrX0hOdW05bTlhbkhBLWI1NG42WVFaQVFERFFzeXZ3d1JFWHlwWXVkV25SRk01eG1wSElDYWtISVJtOWpVcGJITllqLW5MUDh1U2NaNURWTUFMNk5VM21wWDJjSXpKNmtzUjBpMXRaeWoyc1dCd1ln?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T14:14:00+00:00"
-    },
-    {
-      "title": "[속보]뉴욕증시, 반도체 반등에 상승 출발…나스닥 1.04%↑ - 문화일보",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6YWdJQ1NuMjlWTnh3aE85NVhobVVHYkIteUc3aUJzal9WUUlUeGdIUURwT19uOUNxdW5ZYURHZC1wbW50ZldvZUhqS0dZSHRF?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T14:13:33+00:00"
-    },
-    {
-      "title": "Samsung Electronics shares rise as robotics move highlights push into physical AI",
-      "link": "https://www.cnbc.com/2026/07/21/samsung-electronics-sets-up-robotics-unit-amid-push-into-physical-ai-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T14:04:35+00:00"
-    },
-    {
-      "title": "Treasury yields edge higher as investors map geopolitical risks",
-      "link": "https://www.cnbc.com/2026/07/21/treasury-yields-bonds-iran-us-politics.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T13:59:42+00:00"
-    },
-    {
-      "title": "뉴욕증시, 반도체주 저가 매수에 상승 출발 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJcUc4My1iZjZMTlpILThWUTctT3FGR2llajY2dzJXeVhDUmpQbHJLUXR5dkpacl9McjFuSGtYNElpTjdMclJhaGtqNmR2bHFiNXExVFVxcGYwbWhCMUYtTmNrT2ZUbFpfb3BpanFvZHY?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T13:56:54+00:00"
-    },
-    {
-      "title": "The co-founder of Stocktwits dumped chip stocks before their 20% slide. Where he’s putting his money now.",
-      "link": "https://www.marketwatch.com/story/the-co-founder-of-stocktwits-dumped-chip-stocks-before-a-20-slide-where-hes-putting-his-money-now-07e8724f?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T13:50:00+00:00"
-    },
-    {
-      "title": "How to deal with a micromanager",
-      "link": "https://www.marketwatch.com/story/how-to-successfully-deal-with-a-micromanaging-boss-d9151b50?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T13:49:00+00:00"
-    },
-    {
-      "title": "Greer hints new Trump tariffs coming on dozens of countries: 'Expect action soon'",
-      "link": "https://www.cnbc.com/2026/07/21/trump-trade-tariffs-greer-section-301.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T13:38:59+00:00"
-    },
-    {
-      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
-      "link": "https://www.cnbc.com/2026/07/21/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-21T13:32:34+00:00"
-    },
-    {
-      "title": "Americans are skipping lettuce and salads as investigation into cyclospora outbreak continues",
-      "link": "https://www.marketwatch.com/story/americans-are-skipping-lettuce-and-salads-as-investigation-into-cyclospora-outbreak-continues-562499b6?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T13:32:00+00:00"
-    },
-    {
-      "title": "Time to buy the dip in momentum stocks after a punishing July drawdown? Here’s what history tells us.",
-      "link": "https://www.marketwatch.com/story/time-to-buy-the-dip-in-momentum-stocks-after-a-punishing-july-drawdown-heres-what-history-tells-us-bc5c0c4e?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T13:25:00+00:00"
     }
   ],
   "pages": [
