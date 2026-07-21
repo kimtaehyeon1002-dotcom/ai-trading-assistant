@@ -1,4 +1,4 @@
-"""1회성 마이그레이션: Notion 워치리스트 DB → vault/00_Watchlist/*.md
+"""1회성 마이그레이션: Notion 워치리스트 DB → TH_DATA/00_Watchlist/*.md
 
     NOTION_API_KEY=... NOTION_DB_WATCHLIST=... python migrate_notion_watchlist.py
 

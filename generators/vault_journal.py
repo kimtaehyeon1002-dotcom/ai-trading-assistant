@@ -1,9 +1,9 @@
-"""Obsidian vault 저널 write-back — 봇 전용 vault/10_Journal/ 자동 생성.
+"""Obsidian vault(TH_DATA 별도 저장소) 저널 write-back — 봇 전용 10_Journal/ 자동 생성.
 
 이미 계산되는 파이프라인 결과를 재사용해 vault 노트로 렌더한다(collectors는 실행당
 메모이즈되므로 pipelines 재호출에 추가 API 비용이 없다 — generators/pipelines.py 참고).
-vault/20_Memory/ 종목·테마 스텁은 **파일이 없을 때만** 생성하고 기존 파일은 절대
-덮어쓰지 않는다(사용자 가필 보호, vault/README.md 계약).
+20_Memory/ 종목·테마 스텁은 **파일이 없을 때만** 생성하고 기존 파일은 절대
+덮어쓰지 않는다(사용자 가필 보호, TH_DATA/README.md 계약).
 
 호출부(build.py)가 target별로 morning/news/trades 각각 호출한다 — 이 모듈 자체는 어떤
 target이 실행 중인지 모른다.

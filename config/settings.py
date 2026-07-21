@@ -14,7 +14,9 @@ TRADES_DIR = DATA_DIR / "trades"
 DATA_CACHE_DIR = DATA_DIR / "cache"  # 데스크톱→CI 전달 캐시(커밋됨; 예: 야간선물)
 TEMPLATES_DIR = BASE_DIR / "templates"
 STATIC_DIR = BASE_DIR / "static"
-VAULT_DIR = BASE_DIR / "vault"       # Obsidian vault(커밋됨) — 워치리스트/장기기억
+# Obsidian vault = 별도 저장소 TH_DATA. 로컬=형제 폴더(../TH_DATA), CI=듀얼 checkout 후
+# TH_DATA_DIR 환경변수로 주입. 폴더 없으면 수집/write-back 모두 skipped(가짜 데이터 금지).
+VAULT_DIR = Path(os.getenv("TH_DATA_DIR") or (BASE_DIR.parent / "TH_DATA"))
 VAULT_WATCHLIST_DIR = VAULT_DIR / "00_Watchlist"
 
 # ── 타임존 ──

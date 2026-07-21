@@ -17,10 +17,8 @@ venv/
 /cache/
 *.log
 
-# Obsidian vault — 기기 로컬 상태만 제외 (플러그인 설정 .obsidian/*.json은 커밋해 기기 간 공유)
-vault/.obsidian/workspace*
-vault/.obsidian/cache/
-vault/.trash/
+# Obsidian vault는 별도 저장소(TH_DATA) — CI 듀얼 checkout 폴더는 중첩 repo라 추적 제외
+/TH_DATA/
 
 # OS / editor
 .DS_Store

@@ -1,4 +1,7 @@
-"""Obsidian vault 수집 — 워치리스트(vault/00_Watchlist/*.md)의 단일 진실원.
+"""Obsidian vault 수집 — 워치리스트(TH_DATA/00_Watchlist/*.md)의 단일 진실원.
+
+vault는 별도 저장소(TH_DATA)다. 경로는 config.settings.VAULT_DIR(로컬=../TH_DATA,
+CI=TH_DATA_DIR 환경변수)로 주입된다.
 
 다운로드 없음, 로컬 파일 스캔만(정규화는 repositories/obsidian_repository). vault 폴더가
 없거나 비어 있으면 None 반환(= skipped, 가짜 데이터 생성 금지). 결과는

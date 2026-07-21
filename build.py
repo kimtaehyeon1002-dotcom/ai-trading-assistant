@@ -24,7 +24,7 @@ TARGETS = ("morning", "news", "trades", "dashboard", "all")
 def _sync_vault() -> None:
     """Obsidian vault(워치리스트) 동기화 — 폴더 미존재/빈 폴더면 사실대로 skipped 기록."""
     if not obsidian_collector.enabled():
-        runlog.note("Vault Sync", status="skipped", detail="vault/00_Watchlist 없음/비어있음")
+        runlog.note("Vault Sync", status="skipped", detail="TH_DATA/00_Watchlist 없음/비어있음")
         return
 
     def _collect_and_persist():
