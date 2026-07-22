@@ -1,0 +1,17 @@
+{
+  "code": "UNH",
+  "name": "UnitedHealth Group",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 436.3500061035156,
+    "change_pct": 3.51,
+    "volume": 6830300,
+    "amount": 2980401446.688843,
+    "marcap": null,
+    "as_of_iso": "2026-07-22T05:48:57.879715+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "UNH",
+  "related_news": []
+}

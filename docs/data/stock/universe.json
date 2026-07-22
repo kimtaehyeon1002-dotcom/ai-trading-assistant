@@ -10,11 +10,6 @@
     "market": "KOSPI"
   },
   {
-    "code": "475150",
-    "name": "SK이터닉스",
-    "market": "KOSPI"
-  },
-  {
     "code": "009150",
     "name": "삼성전기",
     "market": "KOSPI"
@@ -22,6 +17,11 @@
   {
     "code": "402340",
     "name": "SK스퀘어",
+    "market": "KOSPI"
+  },
+  {
+    "code": "475150",
+    "name": "SK이터닉스",
     "market": "KOSPI"
   },
   {
@@ -45,9 +45,9 @@
     "market": "KOSDAQ GLOBAL"
   },
   {
-    "code": "277810",
-    "name": "레인보우로보틱스",
-    "market": "KOSDAQ"
+    "code": "006340",
+    "name": "대원전선",
+    "market": "KOSPI"
   },
   {
     "code": "036930",
@@ -60,29 +60,14 @@
     "market": "KOSPI"
   },
   {
-    "code": "454910",
-    "name": "두산로보틱스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "006340",
-    "name": "대원전선",
-    "market": "KOSPI"
-  },
-  {
-    "code": "353200",
-    "name": "대덕전자",
-    "market": "KOSPI"
-  },
-  {
-    "code": "042700",
-    "name": "한미반도체",
-    "market": "KOSPI"
-  },
-  {
-    "code": "080220",
-    "name": "제주반도체",
+    "code": "277810",
+    "name": "레인보우로보틱스",
     "market": "KOSDAQ"
+  },
+  {
+    "code": "012450",
+    "name": "한화에어로스페이스",
+    "market": "KOSPI"
   },
   {
     "code": "034020",
@@ -95,19 +80,9 @@
     "market": "KOSPI"
   },
   {
-    "code": "058610",
-    "name": "에스피지",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "012450",
-    "name": "한화에어로스페이스",
+    "code": "042700",
+    "name": "한미반도체",
     "market": "KOSPI"
-  },
-  {
-    "code": "108490",
-    "name": "로보티즈",
-    "market": "KOSDAQ"
   },
   {
     "code": "035420",
@@ -115,28 +90,18 @@
     "market": "KOSPI"
   },
   {
-    "code": "006400",
-    "name": "삼성SDI",
+    "code": "080220",
+    "name": "제주반도체",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "353200",
+    "name": "대덕전자",
     "market": "KOSPI"
   },
   {
-    "code": "002990",
-    "name": "금호건설",
-    "market": "KOSPI"
-  },
-  {
-    "code": "000150",
-    "name": "두산",
-    "market": "KOSPI"
-  },
-  {
-    "code": "042660",
-    "name": "한화오션",
-    "market": "KOSPI"
-  },
-  {
-    "code": "010120",
-    "name": "LS ELECTRIC",
+    "code": "454910",
+    "name": "두산로보틱스",
     "market": "KOSPI"
   },
   {
@@ -145,8 +110,43 @@
     "market": "KOSPI"
   },
   {
-    "code": "010170",
-    "name": "대한광통신",
+    "code": "042660",
+    "name": "한화오션",
+    "market": "KOSPI"
+  },
+  {
+    "code": "058610",
+    "name": "에스피지",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "011070",
+    "name": "LG이노텍",
+    "market": "KOSPI"
+  },
+  {
+    "code": "105560",
+    "name": "KB금융",
+    "market": "KOSPI"
+  },
+  {
+    "code": "000150",
+    "name": "두산",
+    "market": "KOSPI"
+  },
+  {
+    "code": "010120",
+    "name": "LS ELECTRIC",
+    "market": "KOSPI"
+  },
+  {
+    "code": "006400",
+    "name": "삼성SDI",
+    "market": "KOSPI"
+  },
+  {
+    "code": "108490",
+    "name": "로보티즈",
     "market": "KOSDAQ"
   },
   {
@@ -220,13 +220,13 @@
     "market": "US"
   },
   {
-    "code": "MRVL",
-    "name": "Marvell Technology",
+    "code": "DHR",
+    "name": "Danaher Corporation",
     "market": "US"
   },
   {
-    "code": "DHR",
-    "name": "Danaher Corporation",
+    "code": "MRVL",
+    "name": "Marvell Technology",
     "market": "US"
   },
   {
@@ -250,8 +250,8 @@
     "market": "US"
   },
   {
-    "code": "LITE",
-    "name": "Lumentum",
+    "code": "GEV",
+    "name": "GE Vernova",
     "market": "US"
   },
   {
@@ -260,8 +260,13 @@
     "market": "US"
   },
   {
-    "code": "GEV",
-    "name": "GE Vernova",
+    "code": "LITE",
+    "name": "Lumentum",
+    "market": "US"
+  },
+  {
+    "code": "T",
+    "name": "AT&T",
     "market": "US"
   },
   {
@@ -270,8 +275,13 @@
     "market": "US"
   },
   {
-    "code": "T",
-    "name": "AT&T",
+    "code": "UNH",
+    "name": "UnitedHealth Group",
+    "market": "US"
+  },
+  {
+    "code": "TXN",
+    "name": "Texas Instruments",
     "market": "US"
   },
   {
@@ -287,16 +297,6 @@
   {
     "code": "WMT",
     "name": "Walmart",
-    "market": "US"
-  },
-  {
-    "code": "COIN",
-    "name": "Coinbase",
-    "market": "US"
-  },
-  {
-    "code": "PANW",
-    "name": "Palo Alto Networks",
     "market": "US"
   },
   {
@@ -347,11 +347,6 @@
   {
     "code": "055550",
     "name": "신한지주",
-    "market": "KRX"
-  },
-  {
-    "code": "105560",
-    "name": "KB금융",
     "market": "KRX"
   },
   {

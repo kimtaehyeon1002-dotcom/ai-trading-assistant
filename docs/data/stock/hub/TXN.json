@@ -1,0 +1,17 @@
+{
+  "code": "TXN",
+  "name": "Texas Instruments",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 291.29998779296875,
+    "change_pct": 2.55,
+    "volume": 10191500,
+    "amount": 2968783825.592041,
+    "marcap": null,
+    "as_of_iso": "2026-07-22T05:48:57.879722+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "TXN",
+  "related_news": []
+}
