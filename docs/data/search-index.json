@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-22T18:03:03.303322+00:00",
+  "as_of": "2026-07-22T19:35:16.626585+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -364,28 +364,100 @@
   ],
   "news": [
     {
-      "title": "‘I have a $2,000 deductible’: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
-      "link": "https://www.marketwatch.com/story/i-have-a-2-000-deductible-i-reported-a-cracked-windshield-on-my-hertz-rental-car-can-they-charge-me-1e07d28a?mod=mw_rss_topstories",
+      "title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
+      "link": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "2026-07-22T18:00:00+00:00"
-    },
-    {
-      "title": "This is the stock to buy after OpenAI's AI agent goes rogue in a cybersecurity test",
-      "link": "https://www.cnbc.com/2026/07/22/this-is-the-stock-to-buy-after-openais-ai-agent-goes-rogue-in-a-cybersecurity-test.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T17:57:40+00:00"
-    },
-    {
-      "title": "Senate panel advances China auto bill that could bar Mercedes-Benz from U.S.",
-      "link": "https://www.cnbc.com/2026/07/22/ted-cruz-china-auto-bill-mercedes-benz-gm.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T17:52:23+00:00"
+      "published": "2026-07-22T19:30:00+00:00"
     },
     {
       "title": "EU antitrust regulators clear Paramount-WBD merger as it faces challenge by U.S. states",
       "link": "https://www.cnbc.com/2026/07/22/european-commission-paramount-wbd-approval.html",
       "source": "CNBC Finance",
-      "published": "2026-07-22T17:51:00+00:00"
+      "published": "2026-07-22T19:19:42+00:00"
+    },
+    {
+      "title": "Amazon cuts some jobs in its artificial general intelligence unit",
+      "link": "https://www.cnbc.com/2026/07/22/amazon-lays-off-some-employees-in-its-agi-unit.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T19:19:01+00:00"
+    },
+    {
+      "title": "The super rich use 401(k)s and IRAs to sidestep taxes on millions of dollars. This proposed law would cut them off.",
+      "link": "https://www.marketwatch.com/story/the-super-rich-use-401-k-s-and-iras-to-sidestep-taxes-on-millions-of-dollars-this-proposed-law-would-cut-them-off-04b37e9a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-22T19:15:00+00:00"
+    },
+    {
+      "title": "Here’s how to use salary-transparency laws to get paid more",
+      "link": "https://www.marketwatch.com/story/heres-how-to-use-salary-transparency-laws-to-get-paid-more-a941c75f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-22T19:03:00+00:00"
+    },
+    {
+      "title": "Analysis: Iran war energy shock hits the U.S. economy as gas and diesel prices climb",
+      "link": "https://www.cnbc.com/2026/07/22/iran-war-energy-markets-gas-diesel-prices-us-economy-analysis.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T18:59:33+00:00"
+    },
+    {
+      "title": "Senate crypto bill would ban federal officials — including presidents — from issuing digital assets",
+      "link": "https://www.cnbc.com/2026/07/22/senate-crypto-bill-would-ban-federal-officials-from-issuing-digital-assets.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T18:59:05+00:00"
+    },
+    {
+      "title": "J&J gets a big win on its new robotic surgical system — plus, a flood of earnings",
+      "link": "https://www.cnbc.com/2026/07/22/jj-gets-a-big-win-on-its-new-robotic-surgical-system-plus-a-flood-of-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T18:57:50+00:00"
+    },
+    {
+      "title": "The chip sector’s recent calm is masking a turbulent outlook in the options market",
+      "link": "https://www.marketwatch.com/story/the-chip-sectors-recent-calm-is-masking-a-turbulent-outlook-in-the-options-market-2ffc098a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-22T18:57:00+00:00"
+    },
+    {
+      "title": "Houthis deploy missiles and drones to attack ships in southern Red Sea, naval group says",
+      "link": "https://www.cnbc.com/2026/07/22/houthis-red-sea-bab-el-mandeb-saudi-oil-iran.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T18:45:55+00:00"
+    },
+    {
+      "title": "OpenAI cyber models broke out of training environment to hack Hugging Face",
+      "link": "https://www.cnbc.com/2026/07/22/open-ai-cyber-models-hack-hugging-face.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T18:37:37+00:00"
+    },
+    {
+      "title": "This ‘intrinsic value’ small-cap stock strategy keeps benefiting from deep research",
+      "link": "https://www.marketwatch.com/story/this-intrinsic-value-small-cap-stock-strategy-keeps-benefiting-from-deep-research-56e868a4?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-22T18:20:00+00:00"
+    },
+    {
+      "title": "U.S. Secret Service official: 'Threat environment is the highest we've ever seen'",
+      "link": "https://www.cnbc.com/2026/07/22/secret-service-threat-trump-white-house-drones.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T18:11:36+00:00"
+    },
+    {
+      "title": "Americans are skipping lettuce and salads as investigation into cyclospora outbreak continues",
+      "link": "https://www.marketwatch.com/story/americans-are-skipping-lettuce-and-salads-as-investigation-into-cyclospora-outbreak-continues-562499b6?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-22T18:10:00+00:00"
+    },
+    {
+      "title": "Senate panel advances China auto bill that could bar Mercedes-Benz from U.S.",
+      "link": "https://www.cnbc.com/2026/07/22/ted-cruz-china-auto-bill-mercedes-benz-gm.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T18:05:37+00:00"
+    },
+    {
+      "title": "‘I have a $2,000 deductible’: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
+      "link": "https://www.marketwatch.com/story/i-have-a-2-000-deductible-i-reported-a-cracked-windshield-on-my-hertz-rental-car-can-they-charge-me-1e07d28a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-22T18:00:00+00:00"
     },
     {
       "title": "Intel earnings will pit red-hot AI demand against a sluggish PC market",
@@ -394,28 +466,10 @@
       "published": "2026-07-22T17:46:00+00:00"
     },
     {
-      "title": "OpenAI cyber models broke out of training environment to hack Hugging Face",
-      "link": "https://www.cnbc.com/2026/07/22/open-ai-cyber-models-hack-hugging-face.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T17:42:33+00:00"
-    },
-    {
-      "title": "Senate crypto bill would ban federal officials — including presidents — from issuing digital assets",
-      "link": "https://www.cnbc.com/2026/07/22/senate-crypto-bill-would-ban-federal-officials-from-issuing-digital-assets.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T17:35:04+00:00"
-    },
-    {
-      "title": "Amazon cuts some jobs in its artificial general intelligence unit",
-      "link": "https://www.cnbc.com/2026/07/22/amazon-lays-off-some-employees-in-its-agi-unit.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T17:26:30+00:00"
-    },
-    {
-      "title": "Houthis deploy missiles and drones to attack ships in southern Red Sea, naval group says",
-      "link": "https://www.cnbc.com/2026/07/22/houthis-red-sea-bab-el-mandeb-saudi-oil-iran.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T17:25:05+00:00"
+      "title": "뉴욕증시, 혼조세로 전환…나스닥 0.19%↓ - 블루밍비트",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uTUtYZ3NKc0xWcDVDVzAtcVU2MHhkUVBNLXFsME1SOE5xT2JOV2hBMHNISnh0WmxfcVFuemc2OUoyajFINnUxbDAxMjRrSTBH?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T17:37:54+00:00"
     },
     {
       "title": "This the best way to ask strangers on the internet for financial advice",
@@ -448,30 +502,6 @@
       "published": "2026-07-22T16:57:55+00:00"
     },
     {
-      "title": "Can you beat the market? Maybe with this strategy.",
-      "link": "https://www.marketwatch.com/story/this-could-be-the-right-time-to-buy-a-momentum-fund-05e7a1fa?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-22T16:33:00+00:00"
-    },
-    {
-      "title": "This is the ideal retirement strategy if you want to keep your healthcare costs down",
-      "link": "https://www.marketwatch.com/story/heres-how-to-time-your-retirement-to-keep-your-healthcare-costs-down-b1a4d427?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-22T16:31:00+00:00"
-    },
-    {
-      "title": "Do I use $300,000 of my $1.2 million retirement savings so my daughter can attend her dream college?",
-      "link": "https://www.marketwatch.com/story/do-i-use-300-000-of-my-1-2-million-retirement-savings-so-my-daughter-can-attend-her-dream-college-50842e7a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-22T16:30:00+00:00"
-    },
-    {
-      "title": "Global oil prices hold gains after topping $95 a barrel for the first time in 6 weeks as hopes dim for de-escalation of Iran war",
-      "link": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-22T16:28:00+00:00"
-    },
-    {
       "title": "Tesla set to report second-quarter results after the bell",
       "link": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html",
       "source": "CNBC Finance",
@@ -484,12 +514,6 @@
       "published": "2026-07-22T16:00:01+00:00"
     },
     {
-      "title": "My second husband and I have kids from previous relationships. Should my house go to him or my children if I die first?",
-      "link": "https://www.marketwatch.com/story/i-have-children-from-my-first-marriage-should-my-second-husband-inherit-my-house-if-i-die-d9bd8687?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-22T16:00:00+00:00"
-    },
-    {
       "title": "Congressional stock trading curb due to get House vote amid public support for a ban",
       "link": "https://www.cnbc.com/2026/07/22/house-congressional-stock-trading.html",
       "source": "CNBC Finance",
@@ -500,12 +524,6 @@
       "link": "https://www.cnbc.com/2026/07/22/under-the-radar-beverage-name-captures-traders-attention.html",
       "source": "CNBC Finance",
       "published": "2026-07-22T15:55:40+00:00"
-    },
-    {
-      "title": "I will definitely claim Social Security early. Why do so few people talk about the elephant in the room?",
-      "link": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-22T15:45:00+00:00"
     },
     {
       "title": "Reddit stock sinks on report it may not renew Google AI content deal",
@@ -526,10 +544,28 @@
       "published": "2026-07-22T15:02:45+00:00"
     },
     {
+      "title": "뉴욕증시, 중동 갈등 격화에 혼조 출발… 나스닥 0.39% ↓ - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZlV3YnlFcUloV3hyc0RrcTNQLVBlalZxRFZ6WHItMlU2M2gzZmtmMlZTY2lONk9Ld1hUU1NTSjVtTnA5VnNMSW45ZjNTUlpPdWpRa2Rtd0xfVzJaN3lUNjdtTm5zVHdLM0Q2b19vV0pVT2dQMjB4TlgwWGdzc01FbDdqd1RiSmd2Q2RVcVlzbDRfeDZPX0lCTDl3T1lBUdIBsgFBVV95cUxNUnVJWEJZVFFwUjBoTXdQMTFQMFJqdDJodkJsUHo2bEt0cW95MXUteElab1hfZFhyNlpWbW1CbTAwazlOWU9kQlVVY3JPVUJCYkxwZXA5WDJ5cm9NYlZYb3NndWNxUVdtMVZlRnJFc3MyUk5xY2dZVTBQZVZiQktJazgxYmxtSElwTWhpX3FYTVJHMGF6cG8yenZsMFI0RjNKTHJLb0EyTVhuX3liR2NWLURn?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T14:33:00+00:00"
+    },
+    {
       "title": "Trump's push for American-made AI chips hits TSMC's margins",
       "link": "https://www.cnbc.com/2026/07/22/trump-pressure-ai-chips-us-tsmc-margins.html",
       "source": "CNBC Finance",
       "published": "2026-07-22T14:31:06+00:00"
+    },
+    {
+      "title": "빅테크 실적 앞두고 유가 급등세에 美증시 혼조…나스닥 0.4%↓ - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xejh2UDFWbkxEZUltLWsweDBGR3NaQ3FNSGh3ZXhQaWx4ZlRnSFJadUtTcnJQcU5TSG5WREdmTm1GVGtWWHZ6ZDFEVFRMNFI1anBrR083aHBKUQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T14:15:48+00:00"
+    },
+    {
+      "title": "뉴욕증시, 중동 갈등·빅테크 어닝 경계감 속 혼조 출발 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1neVdoUjRoOEFDSWthQnlxTGI0X01ZTGVFQ3BoQWRNZm9DN2FRcTNobGhFa1U5clluNWEya05RbE9uNFVsU09EN0JYelpFZ1g4eFRwY2Rjc1MwYWpCU2locVhpaTRLRmZjZjlLWUsxNjQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T14:02:17+00:00"
     },
     {
       "title": "AMD to invest up to $5 billion in Anthropic as part of computing power deal",
@@ -538,10 +574,22 @@
       "published": "2026-07-22T13:58:10+00:00"
     },
     {
+      "title": "“오르면 팔지 말라, 내리면 사달라”…국민연금은 증시 '호구'일까 - 마켓인",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LdkpZTVlTV1lWM2RhYnVwUlZJNzkyanhpM1hLbURGYkt2SzVjN0xHZHBra3dXT193UG5nd1lCejNfSDM5TXRXbFowaG1VeTU5bFZpNUhhdWt0UzJJRjhtb2FkZTYyWU04MHVJbl9qalRlZw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T13:50:51+00:00"
+    },
+    {
       "title": "Citizens United provision allowing foreign campaign contributions draws Democratic bill",
       "link": "https://www.cnbc.com/2026/07/22/citizens-united-foreign-campaign-contributions-raskin-whitehouse-bill.html",
       "source": "CNBC Finance",
       "published": "2026-07-22T13:36:02+00:00"
+    },
+    {
+      "title": "뉴욕증시 개장 전 특징주...슈퍼마이크로·델·오클로·로켓랩↑ VS 페가시스템즈·GE버노바↓ - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xbG9VeXVTMU5uWVcwM0g5dTFzVGV1SnRNZmNkVUNlcEpBUk4yeXVxSkZiZUtuYUwwSkduS09WVTNOdjZuNWZtNlN1QTJhalJUeFFlc3JxRlNHd3lq?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T13:21:00+00:00"
     },
     {
       "title": "Trump's generic drug tariffs: What they could mean for medicine prices, manufacturers and supply",
@@ -574,10 +622,22 @@
       "published": "2026-07-22T12:46:34+00:00"
     },
     {
+      "title": "뉴욕증시 프리뷰, 유가 급등·반도체 약세에 주가 선물 하락...알파벳·테슬라 실적 경계심↑ - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01aWI4d2hUbzV4dUV2Y0MtNXBaN0tsUExsRklfQlNRYW9DZkJxTHhGQ2RWTVNpX2EtanE4ZkRUSi02VmQ3Nl93d0hnRlN3OVp2Y21mUlAtMUxfU2dk?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T12:46:00+00:00"
+    },
+    {
       "title": "Fidelity says 2026 retirees may spend $185,500 on healthcare. One category may push those costs higher",
       "link": "https://www.cnbc.com/2026/07/22/retirement-health-costs-fidelity.html",
       "source": "CNBC Finance",
       "published": "2026-07-22T12:35:01+00:00"
+    },
+    {
+      "title": "해외 투자은행들도 “삼전닉스 레버리지, 증시 변동성 초래 요인” - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pUmhLajJYajRHYlRUSGpyaHJ4cXU0OW4zYnJuR2pVT0ZUX3VNQU5oMWNseXVscERoMW5oTW54OUQ4czlZWGVVOENma1FrUEJVVW8wQVNMSUVSMjl3eWZOQlZPSXUyS1E?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T12:18:01+00:00"
     },
     {
       "title": "Renting a yacht in the Mediterranean this summer just got cheaper",
@@ -598,70 +658,10 @@
       "published": "2026-07-22T11:00:01+00:00"
     },
     {
-      "title": "국토장관 \"기업 시간표 맞춰 산단 조성 신속 추진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722168800003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T10:43:26+00:00"
-    },
-    {
-      "title": "“4755조 메가프로젝트로도 역부족”…잠재성장률 3% ‘마지막 퍼즐’은 [나현준의 뉴스해부]",
-      "link": "https://www.mk.co.kr/news/economy/12104763",
-      "source": "매일경제·증권",
-      "published": "2026-07-22T10:02:54+00:00"
-    },
-    {
-      "title": "한국노총 울산본부·고려아연 노사, 고용안정 협력 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260722166100057",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T09:27:56+00:00"
-    },
-    {
-      "title": "한국수력원자력, 하반기 신입사원 229명 채용",
-      "link": "https://www.yna.co.kr/view/AKR20260722162000003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T09:02:27+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
-      "link": "https://www.yna.co.kr/view/AKR20260722152700011",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T09:00:01+00:00"
-    },
-    {
-      "title": "송미령 장관 \"농업 현장 맞춤형 AI 연구개발 투자 확대할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722124500030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T09:00:00+00:00"
-    },
-    {
-      "title": "[표] 외국환율고시표",
-      "link": "https://www.mk.co.kr/news/economy/12104734",
-      "source": "매일경제·증권",
-      "published": "2026-07-22T08:58:42+00:00"
-    },
-    {
-      "title": "[포토] 해양환경공단 주거래은행에 Sh수협은행",
-      "link": "https://www.mk.co.kr/news/economy/12104735",
-      "source": "매일경제·증권",
-      "published": "2026-07-22T08:58:42+00:00"
-    },
-    {
-      "title": "통신사·경찰·은행 실시간 공조 … 보이스피싱·노쇼사기 막는다",
-      "link": "https://www.mk.co.kr/news/economy/12104731",
-      "source": "매일경제·증권",
-      "published": "2026-07-22T08:58:41+00:00"
-    },
-    {
-      "title": "NH농협, 1000억 출연 … 미소금융재단 만든다",
-      "link": "https://www.mk.co.kr/news/economy/12104732",
-      "source": "매일경제·증권",
-      "published": "2026-07-22T08:58:41+00:00"
-    },
-    {
-      "title": "은행 연체율 10년만에 최고…中企는 1% 넘어",
-      "link": "https://www.mk.co.kr/news/economy/12104733",
-      "source": "매일경제·증권",
-      "published": "2026-07-22T08:58:41+00:00"
+      "title": "겹악재에 쉽지 않은 증시, 급기야 개인 투자자금 순증도 유출 전환되는가? - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwMFFKeWVHUFNRRUdjeE9kREtRMUhyTWszR2dNN0VFMFQ1dHBOY1FURFAzZHl5RVRCOXp5NmhjOU5BRUdwbVFlUnVRZzgyY3k2M29Da05fY1FpSEFFa2YzSw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T10:45:15+00:00"
     }
   ],
   "pages": [
