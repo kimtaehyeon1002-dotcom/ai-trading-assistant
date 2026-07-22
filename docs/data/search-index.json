@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-22T00:57:11.954297+00:00",
+  "as_of": "2026-07-22T01:45:04.414192+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,28 +354,196 @@
   ],
   "news": [
     {
+      "title": "\"부산항 크루즈 관광객 급증, 항만 보안인력은 부족\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722066400051",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:40:33+00:00"
+    },
+    {
+      "title": "$100M New Jersey deli fraudster James Patten sentenced to 21 months in prison",
+      "link": "https://www.cnbc.com/2026/07/21/new-jersey-deli-fraud-james-patten-sentenced.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T01:39:40+00:00"
+    },
+    {
+      "title": "월가 \"韓 증시 급락세 마무리 국면…레버리지 청산도 막바지\" - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mMzFZYlA4dzZTR1Bnc3hPaDF2T0tOaDVhZnp0eWFwbFlCYThrT2FnQi1md2dwU0N5UWlYZUUzeG9Nci1Gc21YRW1WOUt1eERWZUZiNGNYNVBWdHVJOEk3NG1xMXpGUzZhaC1WVWhOQmnSAXRBVV95cUxPM2EzcVcwU0VyWlB1T0lzWDRhMDlkUXVnWmxydWVnS0dtOHhrSG9nUEp5T1hQSjVFT2QtaS1OZDN3anF3VW1qOTVpcjloTk5kVUstS0Z3RUx6TWxqeFIxeFZaRDVTaEZVRFluX1NJMDJDR04tRA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T01:35:47+00:00"
+    },
+    {
+      "title": "동부건설 \"수주 확대 수익으로 전환\"…하반기 경영전략회의",
+      "link": "https://www.yna.co.kr/view/AKR20260722070100003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:35:27+00:00"
+    },
+    {
+      "title": "대구 NC아울렛 엑스코점 14년 만에 철수…\"임대차 협상 결렬\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722069200053",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:33:51+00:00"
+    },
+    {
+      "title": "성신양회, 1대1 매칭그랜트 도입…임직원 기부에 회사도 참여",
+      "link": "https://www.yna.co.kr/view/AKR20260722066900003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:33:50+00:00"
+    },
+    {
+      "title": "카드업 1년간 스테이블코인 결제 검증…기술적 구현 가능성 확인",
+      "link": "https://www.yna.co.kr/view/AKR20260722067900002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:33:40+00:00"
+    },
+    {
+      "title": "미국발 훈풍에 삼전닉스 이틀째 급등…'반도체 조정' 끝나나",
+      "link": "https://www.yna.co.kr/view/AKR20260722067000008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:33:37+00:00"
+    },
+    {
+      "title": "하나금융, '학교 밖 청소년'에 1인당 300만원 장학금",
+      "link": "https://www.yna.co.kr/view/AKR20260722065000002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:32:14+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
+      "link": "https://www.yna.co.kr/view/AKR20260722061200011",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:30:01+00:00"
+    },
+    {
+      "title": "상반기 국내유입 마약밀수 3천358만명분 적발…역대 최대",
+      "link": "https://www.yna.co.kr/view/AKR20260722063500002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:30:00+00:00"
+    },
+    {
+      "title": "현대엔지니어링, '10명 사상' 안성 교량사고로 영업정지 3개월(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260722039851003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:29:55+00:00"
+    },
+    {
+      "title": "Mamdani says New York lacks authority to arrest Netanyahu, calls him ‘war criminal’",
+      "link": "https://www.cnbc.com/2026/07/20/trump-netanyahu-arrest-mamdani-new-york-israel.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T01:20:27+00:00"
+    },
+    {
+      "title": "매일유업 제품 8종, 미국 올리브영 패서디나점·온라인몰 입점",
+      "link": "https://www.yna.co.kr/view/AKR20260722057300030",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:20:14+00:00"
+    },
+    {
+      "title": "구윤철 \"3대 메가프로젝트 성공 위해 국책硏 합동 연구지원\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722063100002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:17:51+00:00"
+    },
+    {
+      "title": "Trump plans steep tariffs on generic drugs starting in 2028 to spur U.S. production",
+      "link": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T01:17:37+00:00"
+    },
+    {
+      "title": "평창군, 제3농공단지 본격 추진…기업 유치·고용 안정 탄력",
+      "link": "https://www.yna.co.kr/view/AKR20260722060100062",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:17:32+00:00"
+    },
+    {
+      "title": "[게시판] 한투증권, 랩어카운트 가입 시 현금 지급 이벤트",
+      "link": "https://www.yna.co.kr/view/AKR20260722062800008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:16:01+00:00"
+    },
+    {
+      "title": "[게시판] LS, 고용부 주관 'K-뉴딜 아카데미' 교육생 모집",
+      "link": "https://www.yna.co.kr/view/AKR20260722054200003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:12:02+00:00"
+    },
+    {
+      "title": "메트라이프생명의 상생보험…의료인 전용 ‘의료천사보험’ 출시",
+      "link": "https://www.mk.co.kr/news/economy/12104129",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T01:11:29+00:00"
+    },
+    {
+      "title": "삼성중공업, 미국 원전 설계사와 부유식 원자력발전 플랫폼 개발",
+      "link": "https://www.yna.co.kr/view/AKR20260722056400003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:11:19+00:00"
+    },
+    {
+      "title": "“막다른 길에 몰렸습니다”…은행 대출 연체율 10년만에 최고 찍었다",
+      "link": "https://www.mk.co.kr/news/economy/12104128",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T01:11:18+00:00"
+    },
+    {
+      "title": "카드소비 데이터, 외국인 이민정책 연구에 활용된다",
+      "link": "https://www.mk.co.kr/news/economy/12104127",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T01:10:46+00:00"
+    },
+    {
+      "title": "메리츠증권, '만기 도래' 국채 30년 ETN 2종 재상장",
+      "link": "https://www.yna.co.kr/view/AKR20260722058700008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:05:14+00:00"
+    },
+    {
+      "title": "상반기 자동차보험 누적 손해율 84.5%…작년보다 1.9%p↑",
+      "link": "https://www.yna.co.kr/view/AKR20260722056700002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:05:00+00:00"
+    },
+    {
+      "title": "'서울 마지막 판자촌' 구룡마을에 2천세대 규모 공공주택 공급",
+      "link": "https://www.yna.co.kr/view/AKR20260721164700004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:00:09+00:00"
+    },
+    {
+      "title": "K-컬처 기업에 1천500억 전략 투자…'K-컬처 밸류업 펀드' 조성",
+      "link": "https://www.yna.co.kr/view/AKR20260722037600005",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:00:07+00:00"
+    },
+    {
+      "title": "2분기 다단계 업체 총 119개사…신규 등록 6곳, 폐업 3곳",
+      "link": "https://www.yna.co.kr/view/AKR20260722036900002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:00:05+00:00"
+    },
+    {
+      "title": "[게시판] 재경부·KDI, AGI 시대 '경제교육 국제 콘퍼런스'",
+      "link": "https://www.yna.co.kr/view/AKR20260722047500002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:00:01+00:00"
+    },
+    {
+      "title": "한양증권, 연 8% 특판 RP 출시…1천계좌 선착순",
+      "link": "https://www.yna.co.kr/view/AKR20260722054500008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T00:55:27+00:00"
+    },
+    {
       "title": "상반기 상장사 M&A '한파'…주식매수청구대금 83% 급감",
       "link": "https://www.yna.co.kr/view/AKR20260722053600008",
       "source": "연합뉴스·경제",
       "published": "2026-07-22T00:54:06+00:00"
     },
     {
-      "title": "출발증시 1부 - 한국경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQelN5Sm1NcHR0eDhoT1NGa2hURE9uQ1BfczdjS081NVFVYWQycGphZnQwUmpGU0hXR2RFZUcwSElONzRkTzVaRl9YTDE3b01MZlJFQ19jZXFpQU5SZXdSU09qYTMtcGFMV2FoaVlNcFR4WWpod3MyX2JQNW9Bb2UyeXZQTTNtVlFOT2dxdGE5eWVfd3UxR2s3b2hQa1daUTVFa3Zn?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T00:52:53+00:00"
-    },
-    {
       "title": "[무안소식] 전남농협, 상호금융 역량 강화 교육",
       "link": "https://www.yna.co.kr/view/AKR20260722049200054",
       "source": "연합뉴스·경제",
       "published": "2026-07-22T00:51:36+00:00"
-    },
-    {
-      "title": "Mamdani says New York City lacks authority to arrest Netanyahu, calls him ‘war criminal’",
-      "link": "https://www.cnbc.com/2026/07/20/trump-netanyahu-arrest-mamdani-new-york-israel.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T00:47:49+00:00"
     },
     {
       "title": "\"왜 얇은 사각형일까\"…동원F&B, 문세윤 목소리로 '김' 알린다",
@@ -388,6 +556,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260722050700008",
       "source": "연합뉴스·경제",
       "published": "2026-07-22T00:43:12+00:00"
+    },
+    {
+      "title": "오늘의 증시 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9acWdSVGR4LWhJMElBdG1xMXM0WUtyTFJSX21zM1plZno1LXBCb3dBSHVzR28yM2VjbXlHZFlBdDJDSlRzdVFGa0I0WVBTM0VlTk9hX3VjWkpBYmFXbC1KZWdveWRzdnVIVHB5VHVFWGpHajZ6ZXlV?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T00:42:29+00:00"
     },
     {
       "title": "미래운용, 미국 S&P500·나스닥100 ETF 순자산 30조원 돌파",
@@ -412,6 +586,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260722045500054",
       "source": "연합뉴스·경제",
       "published": "2026-07-22T00:39:03+00:00"
+    },
+    {
+      "title": "미래에셋운용, 미국 대표지수 ETF 2종 순자산 30조 돌파 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUDVxUjFFSTBQZ0hHV3FkUFVOalBqTXExV2VrV2NJaXl6VkMxTzRXSWdUU3JxcUFmQnRfT3o1WEQyZWJDVkxKeENJTDNvQWJENlc5VnZnOG1RcUdJWUtXLUtrS1FjRDRGS2g3QUVOZjR6VmluQkZaalBQYVFuRnlhVTM5YmQ3N0pE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T00:38:31+00:00"
     },
     {
       "title": "[게시판] 케이뱅크, '코드K 정기예금' 이벤트",
@@ -462,196 +642,16 @@
       "published": "2026-07-22T00:30:24+00:00"
     },
     {
+      "title": "日 증시, 美 반도체 강세에 상승 출발…닛케이 67,000선 회복 - KB Think",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBuZF9nUUQ3U0ZQdTVsb29JYkhWbzlxQ1VHa1FnM0t6Yk1iNUVrQUU0RmJvejd6OWIzMExFWk8yWnZzTmVpOE5XZEk0RlNhbmhwVlJSR0g2czRXSjJHNmR6Q1NOY0N0ZklyY29nal95R01ndw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T00:30:04+00:00"
+    },
+    {
       "title": "건설대금 체불 막는다…'발주자 직접 지급' 전자지급시스템 구축",
       "link": "https://www.yna.co.kr/view/AKR20260721165900003",
       "source": "연합뉴스·경제",
       "published": "2026-07-22T00:30:01+00:00"
-    },
-    {
-      "title": "[특징주] 로봇주, 삼성전자 로봇사업 강화에 장 초반 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260722044800008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:29:25+00:00"
-    },
-    {
-      "title": "웅진씽크빅, 태백시 아동 디지털 학습환경 조성 지원",
-      "link": "https://www.yna.co.kr/view/AKR20260722043600030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:29:21+00:00"
-    },
-    {
-      "title": "부산교육청, 장애인 일자리 40% 확대…학교·산하기관 배치",
-      "link": "https://www.yna.co.kr/view/AKR20260722042600051",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:27:49+00:00"
-    },
-    {
-      "title": "[게시판] 코웨이, '제29회 올해의 에너지위너상'서 대상 수상",
-      "link": "https://www.yna.co.kr/view/AKR20260722043000030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:27:27+00:00"
-    },
-    {
-      "title": "LH, 비주택 용도변경 리모델링 매입약정 사업자 공모",
-      "link": "https://www.yna.co.kr/view/AKR20260722038100003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:20:26+00:00"
-    },
-    {
-      "title": "[특징주] 삼전 5%대 급등…하이닉스 8%↑, 장중 '200만닉스'",
-      "link": "https://www.yna.co.kr/view/AKR20260722041000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:19:42+00:00"
-    },
-    {
-      "title": "신한은행, 서울시립대와 상호공동발전 업무협약",
-      "link": "https://www.yna.co.kr/view/AKR20260722041500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:18:26+00:00"
-    },
-    {
-      "title": "디지털자산 추적대회 '스캔' 개최…총상금 2비트코인",
-      "link": "https://www.yna.co.kr/view/AKR20260722040100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:16:27+00:00"
-    },
-    {
-      "title": "무신사, 'ESG 위원회' 신설…리스크 관리·환경 경영 강화",
-      "link": "https://www.yna.co.kr/view/AKR20260722035000030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:15:49+00:00"
-    },
-    {
-      "title": "현대엔지니어링, 안성 교량 붕괴 사고로 영업정지 3개월",
-      "link": "https://www.yna.co.kr/view/AKR20260722039800003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:14:21+00:00"
-    },
-    {
-      "title": "코스맥스펫, 증평 신공장 가동…생산능력 4배 확대",
-      "link": "https://www.yna.co.kr/view/AKR20260722039600030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:13:56+00:00"
-    },
-    {
-      "title": "관악구, 신림10구역 재개발 조합설립추진위 승인",
-      "link": "https://www.yna.co.kr/view/AKR20260722039000004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:11:46+00:00"
-    },
-    {
-      "title": "코스피 장초반 5%대 급등에 매수 사이드카 발동",
-      "link": "https://www.yna.co.kr/view/AKR20260722038351008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:10:25+00:00"
-    },
-    {
-      "title": "한투운용 \"ACE 라이프자산주주가치액티브, 3개월 초과성과 1위\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722035600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:08:23+00:00"
-    },
-    {
-      "title": "[속보] 코스피 급등에 매수 사이드카 발동",
-      "link": "https://www.yna.co.kr/view/AKR20260722038300008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:06:29+00:00"
-    },
-    {
-      "title": "[속보] 코스피, 5%대 급등…장중 7,000선 회복",
-      "link": "https://www.yna.co.kr/view/AKR20260722037200008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:02:38+00:00"
-    },
-    {
-      "title": "KB국민은행 예·적금 금리 0.20∼0.30%p 인상",
-      "link": "https://www.yna.co.kr/view/AKR20260722037100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:01:41+00:00"
-    },
-    {
-      "title": "S&P, 삼성전자 등급전망 '긍정적' 상향…\"메모리 최대 수혜\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722034000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:00:32+00:00"
-    },
-    {
-      "title": "보험 교차모집인·유치원 방과후강사 고용보험 적용 입법예고",
-      "link": "https://www.yna.co.kr/view/AKR20260721142500530",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:00:03+00:00"
-    },
-    {
-      "title": "재경차관 \"외환 수급 쏠림 완화\"…수출기업에 환전 등 역할 당부",
-      "link": "https://www.yna.co.kr/view/AKR20260722031300002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:00:01+00:00"
-    },
-    {
-      "title": "Nike to cut off thousands of online distributors in China, restructure digital footprint",
-      "link": "https://www.cnbc.com/2026/07/21/nike-to-cut-off-thousands-of-online-distributors-in-china.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T00:00:01+00:00"
-    },
-    {
-      "title": "This is the ideal retirement strategy if you want to keep your healthcare costs down",
-      "link": "https://www.marketwatch.com/story/heres-how-to-time-your-retirement-to-keep-your-healthcare-costs-down-b1a4d427?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-21T23:56:00+00:00"
-    },
-    {
-      "title": "반도체 반등에 뉴욕증시 강세…유가 상승에도 3대 지수↑ - 서울경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45dl92SjM1cFd3WHBTYlFhSVR6YUw1WFVpcFFHbE9VQnJHS1BxZzRsaGNTUVZOcXUwc1ZtOVcwVktXUV9tRm5iTi1Ka1NfMjltcGpKS2RuTXg1MGZoNUFFWlVLcGk?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T23:54:36+00:00"
-    },
-    {
-      "title": "관광공사, '관광 글로벌 비즈니스 데이' 개최…6개국 270명 참석",
-      "link": "https://www.yna.co.kr/view/AKR20260722030500030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-21T23:49:56+00:00"
-    },
-    {
-      "title": "뉴욕증시 반도체 강세와 스페이스X 첫 분기실적 발표까지 이시각 주요뉴스 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WNzNHb3F3YU1kdXNkdHd1Unh1bjJXQmJTTjB3WmZESHNrMTdaMDMyckI5empHeWlTaDNmTGUtUEg4YmdFeXJJdzBuVDhjRldGSjBEQ1BMZEItS1A0RHVuRnVQVFVYSWxGM3ZRZGZSQknSAXRBVV95cUxNTmdXenpwYzVfUm9sZUd1dklLLUs2dmNrTjFFcTN3S3ZLVzVQandBbGF5YVBlc2RsMlktREVLYkQ0ajBpa2QzZkNBandtaUtfakFwLVpRM1FjYzBoUzlCVXQzSUdhcnEyYzZjSE5acHZkbjRCQg?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T23:44:40+00:00"
-    },
-    {
-      "title": "삼성전자서비스, 서비스 품질 가전 16년·모바일IT AS 15년 1위",
-      "link": "https://www.yna.co.kr/view/AKR20260722027300003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-21T23:43:58+00:00"
-    },
-    {
-      "title": "경북농업인단체협의회 \"농협중앙회 경북 이전해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722030100053",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-21T23:42:58+00:00"
-    },
-    {
-      "title": "[어제장 오늘장] 120일선 깨고 단비 같은 반등…증시 바닥 확인했나 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RbWctTFZ5aG1oQmppZlJYODFQZ3ZlZnAtekFkYVBKLUtRUVNQOWI5d2hkT3VMUFlSVWViOWtkWU92SXBEZnJGUmtsM3Z3alk?oc=5",
-      "source": "Google News",
-      "published": "2026-07-21T23:40:14+00:00"
-    },
-    {
-      "title": "키움증권 \"롯데렌탈, 코스피 조정장 헤지 종목 부각…목표가↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722030800008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-21T23:38:57+00:00"
-    },
-    {
-      "title": "롯데호텔앤리조트, 유네스코 세계유산위 지원…현장 180명 투입",
-      "link": "https://www.yna.co.kr/view/AKR20260722028800030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-21T23:38:14+00:00"
-    },
-    {
-      "title": "대신증권 \"CJ ENM, TV 광고회복 지연…목표주가 하향\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722030700008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-21T23:36:47+00:00"
     }
   ],
   "pages": [
