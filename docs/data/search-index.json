@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-22T10:02:10.963830+00:00",
+  "as_of": "2026-07-22T10:15:36.537890+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -364,6 +364,24 @@
   ],
   "news": [
     {
+      "title": "“4755조 메가프로젝트로도 역부족”…잠재성장률 3% ‘마지막 퍼즐’은 [나현준의 뉴스해부]",
+      "link": "https://www.mk.co.kr/news/economy/12104763",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T10:02:54+00:00"
+    },
+    {
+      "title": "The ECB is expected to hold rates. But analysts say hawkish hints could be coming — and a hike isn’t impossible",
+      "link": "https://www.marketwatch.com/story/the-ecb-is-expected-to-hold-rates-but-analysts-say-hawkish-hints-could-be-coming-and-a-hike-isnt-impossible-b92463bf?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-22T10:01:00+00:00"
+    },
+    {
+      "title": "This could be the right time to buy a momentum fund",
+      "link": "https://www.marketwatch.com/story/this-could-be-the-right-time-to-buy-a-momentum-fund-05e7a1fa?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-22T10:00:00+00:00"
+    },
+    {
       "title": "Goldman Sachs and Morgan Stanley had a monster quarter. Analysts say these giants could be next.",
       "link": "https://www.marketwatch.com/story/goldman-sachs-and-morgan-stanley-had-a-monster-quarter-analysts-say-these-giants-could-be-next-47b42e15?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -430,16 +448,22 @@
       "published": "2026-07-22T09:00:00+00:00"
     },
     {
+      "title": "[표] 외국환율고시표",
+      "link": "https://www.mk.co.kr/news/economy/12104734",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T08:58:42+00:00"
+    },
+    {
       "title": "[포토] 해양환경공단 주거래은행에 Sh수협은행",
       "link": "https://www.mk.co.kr/news/economy/12104735",
       "source": "매일경제·증권",
       "published": "2026-07-22T08:58:42+00:00"
     },
     {
-      "title": "[표] 외국환율고시표",
-      "link": "https://www.mk.co.kr/news/economy/12104734",
+      "title": "통신사·경찰·은행 실시간 공조 … 보이스피싱·노쇼사기 막는다",
+      "link": "https://www.mk.co.kr/news/economy/12104731",
       "source": "매일경제·증권",
-      "published": "2026-07-22T08:58:42+00:00"
+      "published": "2026-07-22T08:58:41+00:00"
     },
     {
       "title": "NH농협, 1000억 출연 … 미소금융재단 만든다",
@@ -450,12 +474,6 @@
     {
       "title": "은행 연체율 10년만에 최고…中企는 1% 넘어",
       "link": "https://www.mk.co.kr/news/economy/12104733",
-      "source": "매일경제·증권",
-      "published": "2026-07-22T08:58:41+00:00"
-    },
-    {
-      "title": "통신사·경찰·은행 실시간 공조 … 보이스피싱·노쇼사기 막는다",
-      "link": "https://www.mk.co.kr/news/economy/12104731",
       "source": "매일경제·증권",
       "published": "2026-07-22T08:58:41+00:00"
     },
@@ -490,7 +508,7 @@
       "published": "2026-07-22T08:58:17+00:00"
     },
     {
-      "title": "AI 도입 10년후 미래 분석하니…일자리 年26만개↓·매출 20%↑",
+      "title": "AI 도입 10년후 미래 분석하니 일자리 年26만개↓·매출 20%↑",
       "link": "https://www.mk.co.kr/news/economy/12104718",
       "source": "매일경제·증권",
       "published": "2026-07-22T08:58:16+00:00"
@@ -502,14 +520,14 @@
       "published": "2026-07-22T08:58:00+00:00"
     },
     {
-      "title": "\"체납자 530만명 집중관리… 국세청이 '통합재정수입기관' 되겠다\"",
-      "link": "https://www.mk.co.kr/news/economy/12104686",
+      "title": "\"기업이 세무조사 시기 선택 … 현장 상주조사도 최소화했다\"",
+      "link": "https://www.mk.co.kr/news/economy/12104687",
       "source": "매일경제·증권",
       "published": "2026-07-22T08:55:25+00:00"
     },
     {
-      "title": "\"기업이 세무조사 시기 선택 … 현장 상주조사도 최소화했다\"",
-      "link": "https://www.mk.co.kr/news/economy/12104687",
+      "title": "\"체납자 530만명 집중관리… 국세청이 '통합재정수입기관' 되겠다\"",
+      "link": "https://www.mk.co.kr/news/economy/12104686",
       "source": "매일경제·증권",
       "published": "2026-07-22T08:55:25+00:00"
     },
@@ -538,7 +556,7 @@
       "published": "2026-07-22T08:24:57+00:00"
     },
     {
-      "title": "호황에 취해 잊었다...정부의 관여는 ‘불확실성’임을 [논설실 pICK]",
+      "title": "호황에 취해 잠시 잊었다...정부의 관심은 어찌됐든 ‘불확실성’임을 [논설실 Pick]",
       "link": "https://www.mk.co.kr/news/economy/12104615",
       "source": "매일경제·증권",
       "published": "2026-07-22T08:23:47+00:00"
@@ -628,12 +646,6 @@
       "published": "2026-07-22T07:57:16+00:00"
     },
     {
-      "title": "[뉴욕증시 전략] 반도체주 급반등에 뉴욕증시 상승…빅테크 실적 시험대 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96eWVvN1AtV3ZfSEhFUWZnek5jMVVEczVkY3BvQVVYeDZIZ0JCTi1pallabmNLZEpwcm1zaFROR2lUZ1pHYUtuZGg5VVUwVGs?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T07:57:12+00:00"
-    },
-    {
       "title": "대법 \"2018년 이후 '제휴사 포인트 결제액'은 부가세 부과 가능\"",
       "link": "https://www.yna.co.kr/view/AKR20260722143300004",
       "source": "연합뉴스·경제",
@@ -650,18 +662,6 @@
       "link": "https://www.mk.co.kr/news/economy/12104559",
       "source": "매일경제·증권",
       "published": "2026-07-22T07:51:50+00:00"
-    },
-    {
-      "title": "아직 불안한 반도체 투심…삼전닉스 6~9% 급등했다 '반납'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260722067051008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T07:51:29+00:00"
-    },
-    {
-      "title": "국고채 금리 일제히 상승…3년물 연 3.913%",
-      "link": "https://www.yna.co.kr/view/AKR20260722145100008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T07:42:34+00:00"
     }
   ],
   "pages": [
