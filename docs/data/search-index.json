@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-22T22:12:04.882328+00:00",
+  "as_of": "2026-07-22T22:32:17.085457+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -364,6 +364,30 @@
   ],
   "news": [
     {
+      "title": "Tesla misses on earnings, as free cash flow turns negative and margins slide",
+      "link": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T22:30:40+00:00"
+    },
+    {
+      "title": "[오늘의 글로벌마켓] 뉴욕증시, 알파벳 등 실적 앞두고 3대지수 약세 - 오피니언뉴스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tYm4xbWtqTmdTcjh5bWNiUUU5b1hUWWZoMTJiLUd2ZDI2M2tUWkwtb1R4YzM3Y1RUaGdUZXJRVmxnWmNyLWVGNDBFMHZBdXBSSkdPNlRYaW94WnBFTnA5LUl4TGRXY3RFd1NEWDlpMHg?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T22:13:58+00:00"
+    },
+    {
+      "title": "[증시전략] 알파벳 2분기 자본지출 449억달러, 예상치 소폭 상회 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TRjc5TGE1Ul9BZ1M5U0ZudGhSSEtXVTd6THotVGdHU0ljQUcyLUlFX01qZHN2OHpoTVFHZ24xZkwyeTZjZm8xczlweDdRQU0?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T22:13:15+00:00"
+    },
+    {
+      "title": "뉴욕증시, 美·이란 충돌 속 국제유가 급등에 하락 마감 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRXR5YU9JQXI0TVdLU21HN0NTUVQ0OVhyX1M4aGt3WmZMeGs3YjQyRWVzU3NGSU82S1M5Sm9SSzE0YmhZOWhGSFhmRXpZSjVpbFo3QzdES05QWnBSSExIYUxsbi1jdy1INDBFaGUzV1dfYmRNaVNZTGt6cW14MHc5UGpWTnE3ZkpHZ2hIUVlacTltZ3hGclVaOXhZNWc2d9IBsgFBVV95cUxQc09CbVpSN1I2WFlpVHU4djZGR3ZKSmdWdjZCNndRQWVTRExBbldpVmRtRjZyLUFkbjMtZjFkRmluOW1OeTVDRkFhWHY3TkR1SUdPanlpNU53cTJHTEdhd3hKN3RZU2FDN2haZXZOWkUwUWJyX0xPYzJIQjA5MWJDekhBOUFMM2VlYXZ5LW5qX3pseGNZSEVyTFREQlVvTy1KclZrd3ZwSjBMVVVJWnhuaGFB?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T22:11:00+00:00"
+    },
+    {
       "title": "Southwest Airlines' third-quarter forecast falls short as fuel bill climbs",
       "link": "https://www.cnbc.com/2026/07/22/southwest-airlines-luv-2q-2026-earnings.html",
       "source": "CNBC Finance",
@@ -412,16 +436,16 @@
       "published": "2026-07-22T21:34:26+00:00"
     },
     {
+      "title": "[2분 뉴욕증시] 중동은 불안하고 유가는 오르고...3대 지수 모두 하락 - YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9RV1BzS1hsaE1abEZtTXdkLUZvcjc0U01uYlVuNTdZa1I4ZUt4TmVmTjhncnY0RnhPRXlvSTE3cU8tQVV4ZHExTl96SnNaRUlNMzUwQjlHRGJCanpDalE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T21:20:00+00:00"
+    },
+    {
       "title": "Senate panel advances China auto bill that could bar Mercedes-Benz from U.S.",
       "link": "https://www.cnbc.com/2026/07/22/ted-cruz-china-auto-bill-mercedes-benz-gm.html",
       "source": "CNBC Finance",
       "published": "2026-07-22T21:16:56+00:00"
-    },
-    {
-      "title": "[N2 모닝 경제 브리핑-7월 23일] 美 증시, 알파벳 실적 경계감 속 소폭 하락…나스닥 0.57% ↓ - 뉴스투데이",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkNmw0bXktaG5tSGlfZ0lCMVQycDZaMU8xUnFYNVFYdTdORklmYUF5RFZrZXJoOUt6R3hPZUhyeXlIMHFKbG9SWG1LN2VVNVkxRUpvbmxmU0NCS1FScUE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T21:08:00+00:00"
     },
     {
       "title": "식품·외식업 임금, 타 업종 60∼80%…전문대졸 이상 격차 커져",
@@ -496,12 +520,6 @@
       "published": "2026-07-22T20:57:20+00:00"
     },
     {
-      "title": "Tesla misses on earnings, as free cash flow turns negative and margins slide",
-      "link": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T20:55:53+00:00"
-    },
-    {
       "title": "Reddit stock sinks on report it may not renew Google AI content deal",
       "link": "https://www.cnbc.com/2026/07/22/reddit-stock-google-ai-content-deal.html",
       "source": "CNBC Finance",
@@ -520,12 +538,6 @@
       "published": "2026-07-22T20:51:01+00:00"
     },
     {
-      "title": "[뉴욕증시] 유가 급등에 금리 인상 공포 재발…나스닥 146P 하락 - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeFpGa1FaMXRWUTVmaEI2X19Ld25icV9vNHNoVkpHZzhnYmRwcV81OER3b09zcFVfbGxiQmYtNEpCQnJ0WUJmbzhNc2FpdElYWFZjWFhnMGsyenYxdjVQcEZnQ3c5ZFdVdkFKUTMwdE9TZDVYb0tTUnNaamRZb0c1LWg4T0QxaC13?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T20:49:27+00:00"
-    },
-    {
       "title": "국제유가 급등‥뉴욕증시 일제히 약세 - MBC 뉴스",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xWWdVTmd3WnJvR1BzQkZ6eVJpS2M2QWE0SlhTY3JsMVh1alNIUUFoZHBzUFpVT1RSTFBnQldwVjg0QlBNN3g0LUFKZnRUdnhsb3JDOVpvdndGbkVPSkZZTmtmeHFicE9pSU9uT1ZkcU1JMW5X0gF0QVVfeXFMUDVLWGhVVHZQbk9yT2Z4S1FfSzRrWmE3NzFXV3Yyc19sXzhwSDZfUkl6UExuZGhzWVc1SFZDaGltcG9OLUlVZ19hRndWR0N6cDhadnh3Mm45d2RLb0thYkpoQzhJRVpmUXQ2NHN3NWdYdUUwckU?oc=5",
       "source": "Google News",
@@ -542,6 +554,12 @@
       "link": "https://www.cnbc.com/2026/07/22/senate-crypto-bill-would-ban-federal-officials-from-issuing-digital-assets.html",
       "source": "CNBC Finance",
       "published": "2026-07-22T20:43:35+00:00"
+    },
+    {
+      "title": "뉴욕증시 반등 하루만에 약세...미국, 11일 연속 공습에 유가 $95 터치도 [월가월부] - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMV3pWSmVYZEJ0U0tsZGd1RldVcGdKRmpEYXVKY2N6TllQMV81aTJOM2Q0MDhna1JIZjVpOW4yejhyVGx5U2d0WFdOeUxsc1k?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T20:39:00+00:00"
     },
     {
       "title": "[뉴욕증시] 반등 하루 만에 다시 약세…스페이스X, 6.7% 급락 - v.daum.net",
@@ -568,10 +586,28 @@
       "published": "2026-07-22T20:22:56+00:00"
     },
     {
+      "title": "뉴욕증시, 국제유가 급등에 약세…나스닥 0.6%↓ - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1IcVFOMXcyU3pBZkVSd3QzUklaS3B2R1JrazROaDEwOTdWbkZnaXB0VUpEOXlWbktsbHYzTlcyYkxDc0pLdGJYU0FIWk9hRmJJWlpmbVc0bDJIMFHSAWBBVV95cUxNQjNUcjBSZFFzRmVNUFJJMjJfaTFFR3dYV1pJbGhoZ2pxTEhmSGx0Wnp1anNDaVNpV0ZzbE5lLWVzXzlnOFVyVGl6M0YwbFE5V3Y2TXJXMDVZbmIyRUZYNEM?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T20:21:23+00:00"
+    },
+    {
+      "title": "뉴욕증시, 국제유가 급등에 약세…나스닥 0.6%↓ - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE91Tzg4MEVIaWJPQXd6V3BjMUwxRVQxQ0EwUzc4bTJyNEhaT045a1BEa1V2ZWNwblJyMjNhQ1pJcDdBZVdvdXJXdkU5aEpYd084aEE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T20:21:23+00:00"
+    },
+    {
       "title": "ServiceNow’s stock rises as earnings show momentum in cybersecurity",
       "link": "https://www.marketwatch.com/story/servicenows-stock-gains-as-earnings-show-momentum-in-cybersecurity-86e7a038?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-22T20:19:00+00:00"
+    },
+    {
+      "title": "美 초장기 국채 금리 5% 이상 고공 비행...뉴욕 증시 보합세 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ1VWMkptWDBadHBlcHlxVi1NdUlQWjh5NVh3alBPQlpmZnlaT2dVRFR3S3JGOXRibnhZeE00S0EyYURieHgxazc2S3ZtcDdVS1ZGeDFBejctd2ttSXpNZHoyWU9rTTFvVjB4WkcwdFRUbXlMcldOcE9OZVpXbkliUEdsS0FfTDlsSzRvbVo3Q0lNUDdvcGtfYlZEM1U3QQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T20:18:00+00:00"
     },
     {
       "title": "미·이란 강대강 대치에 국제유가 급등…브렌트유 94달러대",
@@ -626,42 +662,6 @@
       "link": "https://www.marketwatch.com/story/more-than-70-of-recent-home-buyers-were-counting-on-mortgage-rates-to-drop-now-theyre-stuck-1d0dab60?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-22T19:36:00+00:00"
-    },
-    {
-      "title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
-      "link": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-22T19:30:00+00:00"
-    },
-    {
-      "title": "EU antitrust regulators clear Paramount-WBD merger as it faces challenge by U.S. states",
-      "link": "https://www.cnbc.com/2026/07/22/european-commission-paramount-wbd-approval.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T19:19:42+00:00"
-    },
-    {
-      "title": "J&J gets a big win on its new robotic surgical system — plus, a flood of earnings",
-      "link": "https://www.cnbc.com/2026/07/22/jj-gets-a-big-win-on-its-new-robotic-surgical-system-plus-a-flood-of-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T18:57:50+00:00"
-    },
-    {
-      "title": "Houthis deploy missiles and drones to attack ships in southern Red Sea, naval group says",
-      "link": "https://www.cnbc.com/2026/07/22/houthis-red-sea-bab-el-mandeb-saudi-oil-iran.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T18:45:55+00:00"
-    },
-    {
-      "title": "OpenAI cyber models broke out of training environment to hack Hugging Face",
-      "link": "https://www.cnbc.com/2026/07/22/open-ai-cyber-models-hack-hugging-face.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T18:37:37+00:00"
-    },
-    {
-      "title": "뉴욕증시, 혼조세로 전환…나스닥 0.19%↓ - 블루밍비트",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uTUtYZ3NKc0xWcDVDVzAtcVU2MHhkUVBNLXFsME1SOE5xT2JOV2hBMHNISnh0WmxfcVFuemc2OUoyajFINnUxbDAxMjRrSTBH?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T17:37:54+00:00"
     }
   ],
   "pages": [
