@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T08:51:27.607432+09:00",
+  "updated_at": "2026-07-22T09:57:11.944352+09:00",
   "workers": {
     "Notion Sync": {
       "worker": "Notion Sync",
@@ -11,17 +11,17 @@
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-07-22T08:51:17.932162+09:00",
+      "last_run": "2026-07-22T09:57:07.164155+09:00",
       "status": "completed",
       "items": 22,
-      "duration_ms": 5347
+      "duration_ms": 4752
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-07-22T08:51:23.280051+09:00",
+      "last_run": "2026-07-22T09:57:02.394505+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 4122
+      "duration_ms": 4695
     },
     "Theme Analyst": {
       "worker": "Theme Analyst",
@@ -40,10 +40,10 @@
     "Publisher": {
       "worker": "Publisher",
       "status": "completed",
-      "items": 2,
+      "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-07-22T08:51:27.607316+09:00"
+      "last_run": "2026-07-22T09:57:11.944236+09:00"
     },
     "TA Analyst": {
       "worker": "TA Analyst",
@@ -138,7 +138,7 @@
     },
     "Vault Sync": {
       "worker": "Vault Sync",
-      "last_run": "2026-07-22T08:51:17.901711+09:00",
+      "last_run": "2026-07-22T09:57:02.359902+09:00",
       "status": "completed",
       "items": 1,
       "duration_ms": 1
@@ -149,7 +149,7 @@
       "items": 1,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-07-22T08:51:27.578937+09:00"
+      "last_run": "2026-07-22T09:57:07.164137+09:00"
     }
   }
 }
