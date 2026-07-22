@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T17:26:21.908295+09:00",
+  "updated_at": "2026-07-22T18:13:17.387368+09:00",
   "workers": {
     "Notion Sync": {
       "worker": "Notion Sync",
@@ -11,17 +11,17 @@
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-07-22T17:26:09.923156+09:00",
+      "last_run": "2026-07-22T18:13:10.666221+09:00",
       "status": "completed",
       "items": 22,
       "duration_ms": 2954
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-07-22T17:26:12.878683+09:00",
+      "last_run": "2026-07-22T18:13:13.621450+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 9000
+      "duration_ms": 3737
     },
     "Theme Analyst": {
       "worker": "Theme Analyst",
@@ -43,7 +43,7 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-07-22T17:26:21.908160+09:00"
+      "last_run": "2026-07-22T18:13:17.387234+09:00"
     },
     "TA Analyst": {
       "worker": "TA Analyst",
@@ -75,24 +75,24 @@
     },
     "Stock KR Ranking": {
       "worker": "Stock KR Ranking",
-      "last_run": "2026-07-22T17:25:44.753418+09:00",
+      "last_run": "2026-07-22T18:12:46.626262+09:00",
       "status": "completed",
       "items": 2872,
-      "duration_ms": 1893
+      "duration_ms": 1741
     },
     "Stock US Ranking": {
       "worker": "Stock US Ranking",
-      "last_run": "2026-07-22T17:25:46.647693+09:00",
+      "last_run": "2026-07-22T18:12:48.369165+09:00",
       "status": "completed",
       "items": 503,
-      "duration_ms": 23044
+      "duration_ms": 22033
     },
     "Stock Hub 보조시세": {
       "worker": "Stock Hub 보조시세",
-      "last_run": "2026-07-22T17:26:09.696466+09:00",
+      "last_run": "2026-07-22T18:13:10.407158+09:00",
       "status": "completed",
       "items": 2,
-      "duration_ms": 181
+      "duration_ms": 211
     },
     "FS DART corpCode": {
       "worker": "FS DART corpCode",
@@ -142,7 +142,7 @@
       "items": null,
       "detail": "TH_DATA/00_Watchlist 없음/비어있음",
       "duration_ms": 0,
-      "last_run": "2026-07-22T17:25:44.717633+09:00"
+      "last_run": "2026-07-22T18:12:46.591010+09:00"
     },
     "Vault Journal": {
       "worker": "Vault Journal",
