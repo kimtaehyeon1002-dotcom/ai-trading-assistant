@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-22T17:50:18.535763+00:00",
+  "as_of": "2026-07-22T18:03:03.303322+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -364,28 +364,40 @@
   ],
   "news": [
     {
+      "title": "‘I have a $2,000 deductible’: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
+      "link": "https://www.marketwatch.com/story/i-have-a-2-000-deductible-i-reported-a-cracked-windshield-on-my-hertz-rental-car-can-they-charge-me-1e07d28a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-22T18:00:00+00:00"
+    },
+    {
+      "title": "This is the stock to buy after OpenAI's AI agent goes rogue in a cybersecurity test",
+      "link": "https://www.cnbc.com/2026/07/22/this-is-the-stock-to-buy-after-openais-ai-agent-goes-rogue-in-a-cybersecurity-test.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T17:57:40+00:00"
+    },
+    {
+      "title": "Senate panel advances China auto bill that could bar Mercedes-Benz from U.S.",
+      "link": "https://www.cnbc.com/2026/07/22/ted-cruz-china-auto-bill-mercedes-benz-gm.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T17:52:23+00:00"
+    },
+    {
+      "title": "EU antitrust regulators clear Paramount-WBD merger as it faces challenge by U.S. states",
+      "link": "https://www.cnbc.com/2026/07/22/european-commission-paramount-wbd-approval.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T17:51:00+00:00"
+    },
+    {
       "title": "Intel earnings will pit red-hot AI demand against a sluggish PC market",
       "link": "https://www.marketwatch.com/story/intel-earnings-will-pit-red-hot-ai-demand-against-a-sluggish-pc-market-6b9984fe?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-22T17:46:00+00:00"
     },
     {
-      "title": "EU antitrust regulators clear Paramount-WBD merger as it faces challenge by U.S. states",
-      "link": "https://www.cnbc.com/2026/07/22/european-commission-paramount-wbd-approval.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T17:45:29+00:00"
-    },
-    {
       "title": "OpenAI cyber models broke out of training environment to hack Hugging Face",
       "link": "https://www.cnbc.com/2026/07/22/open-ai-cyber-models-hack-hugging-face.html",
       "source": "CNBC Finance",
       "published": "2026-07-22T17:42:33+00:00"
-    },
-    {
-      "title": "GE Vernova sellers blinded by an earnings miss should focus on strong demand instead",
-      "link": "https://www.cnbc.com/2026/07/22/ge-vernova-sellers-blinded-by-an-earnings-miss-should-focus-on-strong-demand-instead.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T17:38:03+00:00"
     },
     {
       "title": "Senate crypto bill would ban federal officials — including presidents — from issuing digital assets",
@@ -496,12 +508,6 @@
       "published": "2026-07-22T15:45:00+00:00"
     },
     {
-      "title": "Fed’s favorite inflation tracker is getting an overhaul — just as the central bank weighs interest-rate hikes. What’s going on?",
-      "link": "https://www.marketwatch.com/story/feds-favorite-inflation-tracker-is-getting-an-overhaul-just-as-the-central-bank-weighs-interest-rate-hikes-whats-going-on-3ecb3a1c?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-22T15:44:00+00:00"
-    },
-    {
       "title": "Reddit stock sinks on report it may not renew Google AI content deal",
       "link": "https://www.cnbc.com/2026/07/22/reddit-stock-google-ai-content-deal.html",
       "source": "CNBC Finance",
@@ -520,28 +526,10 @@
       "published": "2026-07-22T15:02:45+00:00"
     },
     {
-      "title": "뉴욕증시, 중동 갈등 격화에 혼조 출발… 나스닥 0.39% ↓ - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZlV3YnlFcUloV3hyc0RrcTNQLVBlalZxRFZ6WHItMlU2M2gzZmtmMlZTY2lONk9Ld1hUU1NTSjVtTnA5VnNMSW45ZjNTUlpPdWpRa2Rtd0xfVzJaN3lUNjdtTm5zVHdLM0Q2b19vV0pVT2dQMjB4TlgwWGdzc01FbDdqd1RiSmd2Q2RVcVlzbDRfeDZPX0lCTDl3T1lBUdIBsgFBVV95cUxNUnVJWEJZVFFwUjBoTXdQMTFQMFJqdDJodkJsUHo2bEt0cW95MXUteElab1hfZFhyNlpWbW1CbTAwazlOWU9kQlVVY3JPVUJCYkxwZXA5WDJ5cm9NYlZYb3NndWNxUVdtMVZlRnJFc3MyUk5xY2dZVTBQZVZiQktJazgxYmxtSElwTWhpX3FYTVJHMGF6cG8yenZsMFI0RjNKTHJLb0EyTVhuX3liR2NWLURn?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T14:33:00+00:00"
-    },
-    {
       "title": "Trump's push for American-made AI chips hits TSMC's margins",
       "link": "https://www.cnbc.com/2026/07/22/trump-pressure-ai-chips-us-tsmc-margins.html",
       "source": "CNBC Finance",
       "published": "2026-07-22T14:31:06+00:00"
-    },
-    {
-      "title": "빅테크 실적 앞두고 유가 급등세에 美증시 혼조…나스닥 0.4%↓ - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xejh2UDFWbkxEZUltLWsweDBGR3NaQ3FNSGh3ZXhQaWx4ZlRnSFJadUtTcnJQcU5TSG5WREdmTm1GVGtWWHZ6ZDFEVFRMNFI1anBrR083aHBKUQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T14:15:48+00:00"
-    },
-    {
-      "title": "뉴욕증시, 중동 갈등·빅테크 어닝 경계감 속 혼조 출발 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1neVdoUjRoOEFDSWthQnlxTGI0X01ZTGVFQ3BoQWRNZm9DN2FRcTNobGhFa1U5clluNWEya05RbE9uNFVsU09EN0JYelpFZ1g4eFRwY2Rjc1MwYWpCU2locVhpaTRLRmZjZjlLWUsxNjQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T14:02:17+00:00"
     },
     {
       "title": "AMD to invest up to $5 billion in Anthropic as part of computing power deal",
@@ -550,28 +538,10 @@
       "published": "2026-07-22T13:58:10+00:00"
     },
     {
-      "title": "“오르면 팔지 말라, 내리면 사달라”…국민연금은 증시 '호구'일까 - 마켓인",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LdkpZTVlTV1lWM2RhYnVwUlZJNzkyanhpM1hLbURGYkt2SzVjN0xHZHBra3dXT193UG5nd1lCejNfSDM5TXRXbFowaG1VeTU5bFZpNUhhdWt0UzJJRjhtb2FkZTYyWU04MHVJbl9qalRlZw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T13:50:51+00:00"
-    },
-    {
       "title": "Citizens United provision allowing foreign campaign contributions draws Democratic bill",
       "link": "https://www.cnbc.com/2026/07/22/citizens-united-foreign-campaign-contributions-raskin-whitehouse-bill.html",
       "source": "CNBC Finance",
       "published": "2026-07-22T13:36:02+00:00"
-    },
-    {
-      "title": "[속보]뉴욕증시, 美-이란 충돌 속 하락 출발…나스닥 0.5%↓ - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9mSVNRMENlR2dPa3c3N3dfdEFhU19DYVVaLVVYZHpWck5KWUFEVE5ZQTZxN1ZNaUtBN1ZjRWVoY04tWGhTVk51YUVsRGRvRncxZm1Sc1E0VVhKTVJwU2VzOdIBeEFVX3lxTE93N3pLSjJmdFRoLUpQTFBrWFdDdVpmbXh0eGRNcWlqSGY0MTdKQjd4MFFCdGNEVUNtSTdHb2pkZ3ZvNTltTHhqek1lOXhVZ1FjOXpZNTczM1lYWVEzcmxfWkp1b1Y0eXlwUDQzN243dnhNSXkxYWE5TQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T13:35:14+00:00"
-    },
-    {
-      "title": "뉴욕증시 개장 전 특징주...슈퍼마이크로·델·오클로·로켓랩↑ VS 페가시스템즈·GE버노바↓ - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xbG9VeXVTMU5uWVcwM0g5dTFzVGV1SnRNZmNkVUNlcEpBUk4yeXVxSkZiZUtuYUwwSkduS09WVTNOdjZuNWZtNlN1QTJhalJUeFFlc3JxRlNHd3lq?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T13:21:00+00:00"
     },
     {
       "title": "Trump's generic drug tariffs: What they could mean for medicine prices, manufacturers and supply",
@@ -610,12 +580,6 @@
       "published": "2026-07-22T12:35:01+00:00"
     },
     {
-      "title": "해외 투자은행들도 “삼전닉스 레버리지, 증시 변동성 초래 요인” - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pUmhLajJYajRHYlRUSGpyaHJ4cXU0OW4zYnJuR2pVT0ZUX3VNQU5oMWNseXVscERoMW5oTW54OUQ4czlZWGVVOENma1FrUEJVVW8wQVNMSUVSMjl3eWZOQlZPSXUyS1E?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T12:18:01+00:00"
-    },
-    {
       "title": "Renting a yacht in the Mediterranean this summer just got cheaper",
       "link": "https://www.cnbc.com/2026/07/22/mediterranean-yacht-rentals.html",
       "source": "CNBC Finance",
@@ -634,22 +598,10 @@
       "published": "2026-07-22T11:00:01+00:00"
     },
     {
-      "title": "겹악재에 쉽지 않은 증시, 급기야 개인 투자자금 순증도 유출 전환되는가? - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwMFFKeWVHUFNRRUdjeE9kREtRMUhyTWszR2dNN0VFMFQ1dHBOY1FURFAzZHl5RVRCOXp5NmhjOU5BRUdwbVFlUnVRZzgyY3k2M29Da05fY1FpSEFFa2YzSw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T10:45:15+00:00"
-    },
-    {
       "title": "국토장관 \"기업 시간표 맞춰 산단 조성 신속 추진\"",
       "link": "https://www.yna.co.kr/view/AKR20260722168800003",
       "source": "연합뉴스·경제",
       "published": "2026-07-22T10:43:26+00:00"
-    },
-    {
-      "title": "[亞증시-종합] 일본·중국 혼조세…대만↑·홍콩↓ - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CbGh5eGFYd2ZfN05pSlNRa1Qya05FMndCSnFEZ2hNeUF6TlR3MzBKYmhkYlNfNGFBZF9IMWRYSFFHaGpRaFJmb2RWM0pISVUyd0JOQmR3OGFJcEgwWkhSQjdvT3dscUM1R1Z3dHVqREY?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T10:36:44+00:00"
     },
     {
       "title": "“4755조 메가프로젝트로도 역부족”…잠재성장률 3% ‘마지막 퍼즐’은 [나현준의 뉴스해부]",
@@ -658,10 +610,58 @@
       "published": "2026-07-22T10:02:54+00:00"
     },
     {
-      "title": "[중국증시-마감] 숨 고르기 장세 속 지수별 혼조 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12dFpjTnd6M0VJWG9EdkMwVkFCa244a1dLVVdycW1vRy1iRnl1M0JiRG8yS2dkNDY0dklUQ0N3c0hJY01fWUVzcHRheWFmUzlxdUFZcTlseVpfWE5GRGNjS0tUOVB2M3NZZVpDWW9FTWI?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T09:28:09+00:00"
+      "title": "한국노총 울산본부·고려아연 노사, 고용안정 협력 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260722166100057",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T09:27:56+00:00"
+    },
+    {
+      "title": "한국수력원자력, 하반기 신입사원 229명 채용",
+      "link": "https://www.yna.co.kr/view/AKR20260722162000003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T09:02:27+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
+      "link": "https://www.yna.co.kr/view/AKR20260722152700011",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T09:00:01+00:00"
+    },
+    {
+      "title": "송미령 장관 \"농업 현장 맞춤형 AI 연구개발 투자 확대할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722124500030",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T09:00:00+00:00"
+    },
+    {
+      "title": "[표] 외국환율고시표",
+      "link": "https://www.mk.co.kr/news/economy/12104734",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T08:58:42+00:00"
+    },
+    {
+      "title": "[포토] 해양환경공단 주거래은행에 Sh수협은행",
+      "link": "https://www.mk.co.kr/news/economy/12104735",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T08:58:42+00:00"
+    },
+    {
+      "title": "통신사·경찰·은행 실시간 공조 … 보이스피싱·노쇼사기 막는다",
+      "link": "https://www.mk.co.kr/news/economy/12104731",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T08:58:41+00:00"
+    },
+    {
+      "title": "NH농협, 1000억 출연 … 미소금융재단 만든다",
+      "link": "https://www.mk.co.kr/news/economy/12104732",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T08:58:41+00:00"
+    },
+    {
+      "title": "은행 연체율 10년만에 최고…中企는 1% 넘어",
+      "link": "https://www.mk.co.kr/news/economy/12104733",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T08:58:41+00:00"
     }
   ],
   "pages": [
