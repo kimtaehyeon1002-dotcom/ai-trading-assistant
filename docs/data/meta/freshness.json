@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T23:12:36.820278+09:00",
+  "generated_at": "2026-07-22T23:12:39.103862+09:00",
   "sources": {
     "Notion Sync": {
       "status": "skipped",
@@ -38,7 +38,7 @@
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-22T23:12:36.796092+09:00",
+      "last_built": "2026-07-22T23:12:39.093489+09:00",
       "expected_T_min": null,
       "items": 3,
       "duration_ms": 0
@@ -143,9 +143,9 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-22T23:12:33.243530+09:00",
+      "last_built": "2026-07-22T23:12:39.067430+09:00",
       "expected_T_min": null,
-      "items": 1,
+      "items": 20,
       "duration_ms": 0
     }
   }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T23:12:36.805434+09:00",
+  "updated_at": "2026-07-22T23:12:39.097454+09:00",
   "workers": {
     "Notion Sync": {
       "worker": "Notion Sync",
@@ -43,7 +43,7 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-07-22T23:12:36.796092+09:00"
+      "last_run": "2026-07-22T23:12:39.093489+09:00"
     },
     "TA Analyst": {
       "worker": "TA Analyst",
@@ -146,10 +146,10 @@
     "Vault Journal": {
       "worker": "Vault Journal",
       "status": "completed",
-      "items": 1,
+      "items": 20,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-07-22T23:12:33.243530+09:00"
+      "last_run": "2026-07-22T23:12:39.067430+09:00"
     }
   }
 }
