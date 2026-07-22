@@ -1,0 +1,17 @@
+{
+  "code": "000150",
+  "name": "두산",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 1297000.0,
+    "change_pct": 15.49,
+    "volume": 44380,
+    "amount": 56870809500.0,
+    "marcap": 21003403995000.0,
+    "as_of_iso": "2026-07-22T02:29:18.471637+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:000150",
+  "related_news": []
+}

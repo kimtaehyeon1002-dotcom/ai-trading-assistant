@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-22T01:45:04.414192+00:00",
+  "as_of": "2026-07-22T02:29:26.833018+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -12,13 +12,18 @@
       "market": "KOSPI"
     },
     {
-      "code": "402340",
-      "name": "SK스퀘어",
+      "code": "475150",
+      "name": "SK이터닉스",
       "market": "KOSPI"
     },
     {
       "code": "009150",
       "name": "삼성전기",
+      "market": "KOSPI"
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
       "market": "KOSPI"
     },
     {
@@ -32,78 +37,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "475150",
-      "name": "SK이터닉스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "000250",
-      "name": "삼천당제약",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "028260",
-      "name": "삼성물산",
-      "market": "KOSPI"
-    },
-    {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "032830",
-      "name": "삼성생명",
-      "market": "KOSPI"
-    },
-    {
       "code": "066570",
       "name": "LG전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KOSPI"
-    },
-    {
-      "code": "034020",
-      "name": "두산에너빌리티",
-      "market": "KOSPI"
-    },
-    {
-      "code": "035420",
-      "name": "NAVER",
-      "market": "KOSPI"
-    },
-    {
-      "code": "042700",
-      "name": "한미반도체",
-      "market": "KOSPI"
-    },
-    {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "012330",
-      "name": "현대모비스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "353200",
-      "name": "대덕전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "KOSPI"
-    },
-    {
-      "code": "006340",
-      "name": "대원전선",
       "market": "KOSPI"
     },
     {
@@ -112,44 +47,109 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
+      "code": "277810",
+      "name": "레인보우로보틱스",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "454910",
+      "name": "두산로보틱스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006340",
+      "name": "대원전선",
+      "market": "KOSPI"
+    },
+    {
+      "code": "353200",
+      "name": "대덕전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "042700",
+      "name": "한미반도체",
+      "market": "KOSPI"
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market": "KOSPI"
+    },
+    {
+      "code": "028260",
+      "name": "삼성물산",
+      "market": "KOSPI"
+    },
+    {
+      "code": "058610",
+      "name": "에스피지",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "108490",
+      "name": "로보티즈",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "035420",
+      "name": "NAVER",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KOSPI"
+    },
+    {
+      "code": "002990",
+      "name": "금호건설",
+      "market": "KOSPI"
+    },
+    {
+      "code": "000150",
+      "name": "두산",
+      "market": "KOSPI"
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "market": "KOSPI"
+    },
+    {
       "code": "010120",
       "name": "LS ELECTRIC",
       "market": "KOSPI"
     },
     {
-      "code": "086790",
-      "name": "하나금융지주",
+      "code": "017670",
+      "name": "SK텔레콤",
       "market": "KOSPI"
     },
     {
-      "code": "000270",
-      "name": "기아",
-      "market": "KOSPI"
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "market": "KOSPI"
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "market": "KOSPI"
-    },
-    {
-      "code": "298040",
-      "name": "효성중공업",
-      "market": "KOSPI"
-    },
-    {
-      "code": "003280",
-      "name": "흥아해운",
-      "market": "KOSPI"
-    },
-    {
-      "code": "055550",
-      "name": "신한지주",
-      "market": "KOSPI"
+      "code": "010170",
+      "name": "대한광통신",
+      "market": "KOSDAQ"
     },
     {
       "code": "MU",
@@ -342,6 +342,21 @@
       "market": "NYSE"
     },
     {
+      "code": "000270",
+      "name": "기아",
+      "market": "KRX"
+    },
+    {
+      "code": "055550",
+      "name": "신한지주",
+      "market": "KRX"
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KRX"
+    },
+    {
       "code": "JPM",
       "name": "JPMorgan Chase",
       "market": "NYSE"
@@ -354,16 +369,130 @@
   ],
   "news": [
     {
+      "title": "These Japanese AI winners don’t make chips. They make toilets, glass fiber and seasoning",
+      "link": "https://www.cnbc.com/2026/07/22/japanese-ai-winners-toilets-fiberglass-and-seasoning.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T02:25:18+00:00"
+    },
+    {
+      "title": "Google expands Gemini lineup with cheaper models and new Mythos rival",
+      "link": "https://www.cnbc.com/2026/07/21/google-gemini-flash-ai-mythos-rival.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T02:21:42+00:00"
+    },
+    {
+      "title": "NH투자증권＂퇴직연금 DC·IRP 5년 수익률 증권업 1위\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722079200008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T02:18:01+00:00"
+    },
+    {
+      "title": "구로차량기지 동쪽 신통기획 확정…최고 40층, 총 1500세대",
+      "link": "https://www.yna.co.kr/view/AKR20260722044000004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T02:15:01+00:00"
+    },
+    {
+      "title": "양재생 부산상의 회장 \"해양수도 부산 실현에 앞장서겠다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722080100051",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T02:14:54+00:00"
+    },
+    {
+      "title": "경남도, 공공기관 정규직 42명 통합채용…8월 18일부터 원서접수",
+      "link": "https://www.yna.co.kr/view/AKR20260722080500052",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T02:14:25+00:00"
+    },
+    {
+      "title": "세스코, 의정부에 'EVC센터' 개소…발달장애인 28명 신규 채용",
+      "link": "https://www.yna.co.kr/view/AKR20260722076900030",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T02:06:35+00:00"
+    },
+    {
+      "title": "$100M New Jersey deli fraudster James Patten sentenced to 21 months in prison",
+      "link": "https://www.cnbc.com/2026/07/21/new-jersey-deli-fraud-james-patten-sentenced.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T02:04:23+00:00"
+    },
+    {
+      "title": "오세훈, '아파트 근저당 매도' 李대통령에 \"시민들도 사정이 있다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722073900004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T02:01:10+00:00"
+    },
+    {
+      "title": "KDI \"10년 후 AI로 연간 일자리 25.6만개 감소…생산성은 향상\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722075400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T02:00:18+00:00"
+    },
+    {
+      "title": "제주국제크루즈포럼 23일 개막…아시아 크루즈 산업 협력 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260722031800051",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T02:00:07+00:00"
+    },
+    {
+      "title": "창원시, 재건축·재개발 신속 추진…원스톱 통합심의 시행",
+      "link": "https://www.yna.co.kr/view/AKR20260722050400052",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T02:00:06+00:00"
+    },
+    {
+      "title": "시도지사 만난 박홍근, 지역 전략산업 연계 프로젝트 발굴 당부",
+      "link": "https://www.yna.co.kr/view/AKR20260722058400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T02:00:04+00:00"
+    },
+    {
+      "title": "폐교를 어린이 놀이터로…국토부, 지역수요맞춤지원 15곳 선정",
+      "link": "https://www.yna.co.kr/view/AKR20260722048800003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T02:00:04+00:00"
+    },
+    {
+      "title": "산업부·지방정부, 권역별 성장엔진 육성계획 수립 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260722064300003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T02:00:02+00:00"
+    },
+    {
+      "title": "'특별성과 포상금' 제도 모범 운영 금융위원회에 포상",
+      "link": "https://www.yna.co.kr/view/AKR20260722064100530",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T02:00:01+00:00"
+    },
+    {
+      "title": "신복위, 법무사협회 찾아 \"정확한 채무조정 제도 안내 중요\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722075900002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:59:05+00:00"
+    },
+    {
+      "title": "삼성 폴더블 1위 유지 전망…애플 첫 진출에 경쟁 격화",
+      "link": "https://www.yna.co.kr/view/AKR20260722072500017",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:51:13+00:00"
+    },
+    {
+      "title": "진천 성석지구 도시개발사업 순항…\"연말까지 보상률 90% 달성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722073500064",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T01:50:31+00:00"
+    },
+    {
       "title": "\"부산항 크루즈 관광객 급증, 항만 보안인력은 부족\"",
       "link": "https://www.yna.co.kr/view/AKR20260722066400051",
       "source": "연합뉴스·경제",
       "published": "2026-07-22T01:40:33+00:00"
     },
     {
-      "title": "$100M New Jersey deli fraudster James Patten sentenced to 21 months in prison",
-      "link": "https://www.cnbc.com/2026/07/21/new-jersey-deli-fraud-james-patten-sentenced.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T01:39:40+00:00"
+      "title": "'천덕꾸러기' 삼전닉스 레버리지, 집중포화…환율 못 잡고 증시만 흔들 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9qUXVFQWVOSjFteE4yT092bUt4MV8tSXl4QWVjbmt3YnhoTVBzTXAwZHhqRDJjbW5DRTYwbjh4WUxLbFpNNXFHamJlSmR3c0k?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T01:36:51+00:00"
     },
     {
       "title": "월가 \"韓 증시 급락세 마무리 국면…레버리지 청산도 막바지\" - 연합인포맥스",
@@ -378,7 +507,7 @@
       "published": "2026-07-22T01:35:27+00:00"
     },
     {
-      "title": "대구 NC아울렛 엑스코점 14년 만에 철수…\"임대차 협상 결렬\"",
+      "title": "대구 NC아울렛 엑스코점 14년 만에 철수…\"임대차 협상 난항\"",
       "link": "https://www.yna.co.kr/view/AKR20260722069200053",
       "source": "연합뉴스·경제",
       "published": "2026-07-22T01:33:51+00:00"
@@ -454,6 +583,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260722060100062",
       "source": "연합뉴스·경제",
       "published": "2026-07-22T01:17:32+00:00"
+    },
+    {
+      "title": "“300만 닉스 전망 때 안 사서 다행”…증시 약세에 포모 아닌 조모 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yNGVFUHdLQTdMbzlGcWpEbzBhZzFVSWxLWG9xdHVFbFg0Zk8wNGUwSkZFeFBJT1prU1FDTmEyZWxZRk96THVjaG9ra0ZCVEM4TXc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T01:16:52+00:00"
     },
     {
       "title": "[게시판] 한투증권, 랩어카운트 가입 시 현금 지급 이벤트",
@@ -532,126 +667,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260722054500008",
       "source": "연합뉴스·경제",
       "published": "2026-07-22T00:55:27+00:00"
-    },
-    {
-      "title": "상반기 상장사 M&A '한파'…주식매수청구대금 83% 급감",
-      "link": "https://www.yna.co.kr/view/AKR20260722053600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:54:06+00:00"
-    },
-    {
-      "title": "[무안소식] 전남농협, 상호금융 역량 강화 교육",
-      "link": "https://www.yna.co.kr/view/AKR20260722049200054",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:51:36+00:00"
-    },
-    {
-      "title": "\"왜 얇은 사각형일까\"…동원F&B, 문세윤 목소리로 '김' 알린다",
-      "link": "https://www.yna.co.kr/view/AKR20260722049700030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:47:28+00:00"
-    },
-    {
-      "title": "카카오페이증권, 올해 결혼한 부부에 국내주식 제공 이벤트",
-      "link": "https://www.yna.co.kr/view/AKR20260722050700008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:43:12+00:00"
-    },
-    {
-      "title": "오늘의 증시 - MBC 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9acWdSVGR4LWhJMElBdG1xMXM0WUtyTFJSX21zM1plZno1LXBCb3dBSHVzR28yM2VjbXlHZFlBdDJDSlRzdVFGa0I0WVBTM0VlTk9hX3VjWkpBYmFXbC1KZWdveWRzdnVIVHB5VHVFWGpHajZ6ZXlV?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T00:42:29+00:00"
-    },
-    {
-      "title": "미래운용, 미국 S&P500·나스닥100 ETF 순자산 30조원 돌파",
-      "link": "https://www.yna.co.kr/view/AKR20260722048700008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:41:17+00:00"
-    },
-    {
-      "title": "놀유니버스, 플랫폼 통합 앞두고 이벤트…최대 100만포인트 지급",
-      "link": "https://www.yna.co.kr/view/AKR20260722048500030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:41:05+00:00"
-    },
-    {
-      "title": "은행 중기대출 연체율 1%, 11년 만에 최고…전체도 9년 7개월 만(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260721172451002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:40:13+00:00"
-    },
-    {
-      "title": "금호타이어 '청소년 희망의 공부방' 11년째 지원",
-      "link": "https://www.yna.co.kr/view/AKR20260722045500054",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:39:03+00:00"
-    },
-    {
-      "title": "미래에셋운용, 미국 대표지수 ETF 2종 순자산 30조 돌파 - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUDVxUjFFSTBQZ0hHV3FkUFVOalBqTXExV2VrV2NJaXl6VkMxTzRXSWdUU3JxcUFmQnRfT3o1WEQyZWJDVkxKeENJTDNvQWJENlc5VnZnOG1RcUdJWUtXLUtrS1FjRDRGS2g3QUVOZjR6VmluQkZaalBQYVFuRnlhVTM5YmQ3N0pE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T00:38:31+00:00"
-    },
-    {
-      "title": "[게시판] 케이뱅크, '코드K 정기예금' 이벤트",
-      "link": "https://www.yna.co.kr/view/AKR20260722049000002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:38:28+00:00"
-    },
-    {
-      "title": "충북교육청, 시카고한국교육원과 국제교육 협력 강화 협약",
-      "link": "https://www.yna.co.kr/view/AKR20260722040300064",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:37:05+00:00"
-    },
-    {
-      "title": "Japan exports and imports grow at fastest pace in June since November 2022, beating estimates",
-      "link": "https://www.cnbc.com/2026/07/22/japan-june-exports-trade-data.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T00:36:15+00:00"
-    },
-    {
-      "title": "노원 상계주공6단지 정비계획안 공람…\"최고 59층 3천573세대로\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722046300004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:33:43+00:00"
-    },
-    {
-      "title": "Super Micro’s stock soars as its margins unexpectedly double",
-      "link": "https://www.marketwatch.com/story/super-micros-stock-soars-as-its-margins-unexpectedly-double-8aa83784?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-22T00:33:00+00:00"
-    },
-    {
-      "title": "[게시판] 신한카드, 이민정책연구원·SKT·KCB와 이민정책 지원 협력",
-      "link": "https://www.yna.co.kr/view/AKR20260722044500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:31:27+00:00"
-    },
-    {
-      "title": "[게시판] NH농협카드, 주력 카드 58종 모바일 카드 발급 확대",
-      "link": "https://www.yna.co.kr/view/AKR20260722041800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:31:02+00:00"
-    },
-    {
-      "title": "Sony’s 'ironic' PlayStation disc decision upends gamer conventions and threatens a $7 billion resale market",
-      "link": "https://www.cnbc.com/2026/07/22/sonys-playstation-disc-decision-threatens-a-7-billion-resale-market-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T00:30:24+00:00"
-    },
-    {
-      "title": "日 증시, 美 반도체 강세에 상승 출발…닛케이 67,000선 회복 - KB Think",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBuZF9nUUQ3U0ZQdTVsb29JYkhWbzlxQ1VHa1FnM0t6Yk1iNUVrQUU0RmJvejd6OWIzMExFWk8yWnZzTmVpOE5XZEk0RlNhbmhwVlJSR0g2czRXSjJHNmR6Q1NOY0N0ZklyY29nal95R01ndw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T00:30:04+00:00"
-    },
-    {
-      "title": "건설대금 체불 막는다…'발주자 직접 지급' 전자지급시스템 구축",
-      "link": "https://www.yna.co.kr/view/AKR20260721165900003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T00:30:01+00:00"
     }
   ],
   "pages": [

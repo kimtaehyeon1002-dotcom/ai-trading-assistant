@@ -1,15 +1,15 @@
 {
   "code": "105560",
   "name": "KB금융",
-  "market": "KOSPI",
+  "market": "KRX",
   "theme": "금융",
   "quote": {
-    "close": 174000.0,
-    "change_pct": 3.08,
-    "volume": 1022673,
-    "amount": 174477668333.0,
-    "marcap": 61715665716000.0,
-    "as_of_iso": "2026-07-21T22:42:35.230938+00:00",
+    "close": 175700.0,
+    "change_pct": 0.98,
+    "volume": 273617,
+    "amount": 48355222800.0,
+    "marcap": 62318634863800.0,
+    "as_of_iso": "2026-07-22T02:29:18.471875+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:105560",
