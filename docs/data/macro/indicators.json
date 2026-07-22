@@ -5,5 +5,21 @@
   "UNRATE": null,
   "PAYEMS": null,
   "BOK_BASE_RATE": null,
-  "BTC_KRW": null
+  "BTC_KRW": {
+    "envelope": {
+      "value": 96302000.0,
+      "change_abs": -898000.0,
+      "change_pct": -0.92,
+      "unit": "KRW",
+      "as_of_iso": "2026-07-22T16:17:22.016205+00:00",
+      "source": "upbit",
+      "session_key": "crypto_24h",
+      "expected_T_min": 60,
+      "freshness_basis": "as_of",
+      "label": "비트코인(KRW)"
+    },
+    "yoy": null,
+    "next_release": null,
+    "kimchi_premium_pct": -1.4
+  }
 }
