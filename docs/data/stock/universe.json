@@ -40,8 +40,18 @@
     "market": "KOSPI"
   },
   {
+    "code": "012330",
+    "name": "현대모비스",
+    "market": "KOSPI"
+  },
+  {
     "code": "240810",
     "name": "원익IPS",
+    "market": "KOSDAQ GLOBAL"
+  },
+  {
+    "code": "036930",
+    "name": "주성엔지니어링",
     "market": "KOSDAQ GLOBAL"
   },
   {
@@ -50,13 +60,8 @@
     "market": "KOSPI"
   },
   {
-    "code": "036930",
-    "name": "주성엔지니어링",
-    "market": "KOSDAQ GLOBAL"
-  },
-  {
-    "code": "012330",
-    "name": "현대모비스",
+    "code": "034020",
+    "name": "두산에너빌리티",
     "market": "KOSPI"
   },
   {
@@ -65,13 +70,8 @@
     "market": "KOSDAQ"
   },
   {
-    "code": "012450",
-    "name": "한화에어로스페이스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "034020",
-    "name": "두산에너빌리티",
+    "code": "042700",
+    "name": "한미반도체",
     "market": "KOSPI"
   },
   {
@@ -80,8 +80,8 @@
     "market": "KOSPI"
   },
   {
-    "code": "042700",
-    "name": "한미반도체",
+    "code": "012450",
+    "name": "한화에어로스페이스",
     "market": "KOSPI"
   },
   {
@@ -90,39 +90,14 @@
     "market": "KOSPI"
   },
   {
-    "code": "080220",
-    "name": "제주반도체",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "353200",
-    "name": "대덕전자",
-    "market": "KOSPI"
-  },
-  {
-    "code": "454910",
-    "name": "두산로보틱스",
-    "market": "KOSPI"
-  },
-  {
     "code": "017670",
     "name": "SK텔레콤",
     "market": "KOSPI"
   },
   {
-    "code": "042660",
-    "name": "한화오션",
-    "market": "KOSPI"
-  },
-  {
-    "code": "058610",
-    "name": "에스피지",
+    "code": "080220",
+    "name": "제주반도체",
     "market": "KOSDAQ"
-  },
-  {
-    "code": "011070",
-    "name": "LG이노텍",
-    "market": "KOSPI"
   },
   {
     "code": "105560",
@@ -130,8 +105,8 @@
     "market": "KOSPI"
   },
   {
-    "code": "000150",
-    "name": "두산",
+    "code": "353200",
+    "name": "대덕전자",
     "market": "KOSPI"
   },
   {
@@ -140,14 +115,39 @@
     "market": "KOSPI"
   },
   {
+    "code": "042660",
+    "name": "한화오션",
+    "market": "KOSPI"
+  },
+  {
     "code": "006400",
     "name": "삼성SDI",
     "market": "KOSPI"
   },
   {
-    "code": "108490",
-    "name": "로보티즈",
+    "code": "011070",
+    "name": "LG이노텍",
+    "market": "KOSPI"
+  },
+  {
+    "code": "454910",
+    "name": "두산로보틱스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "034730",
+    "name": "SK",
+    "market": "KOSPI"
+  },
+  {
+    "code": "058610",
+    "name": "에스피지",
     "market": "KOSDAQ"
+  },
+  {
+    "code": "000150",
+    "name": "두산",
+    "market": "KOSPI"
   },
   {
     "code": "MU",

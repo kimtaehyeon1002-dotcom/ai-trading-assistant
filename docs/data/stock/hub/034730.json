@@ -1,0 +1,17 @@
+{
+  "code": "034730",
+  "name": "SK",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 624000.0,
+    "change_pct": 4.7,
+    "volume": 200588,
+    "amount": 128946830500.0,
+    "marcap": 45241686672000.0,
+    "as_of_iso": "2026-07-22T08:26:09.878700+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:034730",
+  "related_news": []
+}

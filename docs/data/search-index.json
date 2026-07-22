@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-22T07:35:15.506028+00:00",
+  "as_of": "2026-07-22T08:26:21.920238+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -42,8 +42,18 @@
       "market": "KOSPI"
     },
     {
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "KOSPI"
+    },
+    {
       "code": "240810",
       "name": "원익IPS",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "036930",
+      "name": "주성엔지니어링",
       "market": "KOSDAQ GLOBAL"
     },
     {
@@ -52,13 +62,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "012330",
-      "name": "현대모비스",
+      "code": "034020",
+      "name": "두산에너빌리티",
       "market": "KOSPI"
     },
     {
@@ -67,13 +72,8 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "034020",
-      "name": "두산에너빌리티",
+      "code": "042700",
+      "name": "한미반도체",
       "market": "KOSPI"
     },
     {
@@ -82,8 +82,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "042700",
-      "name": "한미반도체",
+      "code": "012450",
+      "name": "한화에어로스페이스",
       "market": "KOSPI"
     },
     {
@@ -92,39 +92,14 @@
       "market": "KOSPI"
     },
     {
-      "code": "080220",
-      "name": "제주반도체",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "353200",
-      "name": "대덕전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "454910",
-      "name": "두산로보틱스",
-      "market": "KOSPI"
-    },
-    {
       "code": "017670",
       "name": "SK텔레콤",
       "market": "KOSPI"
     },
     {
-      "code": "042660",
-      "name": "한화오션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "058610",
-      "name": "에스피지",
+      "code": "080220",
+      "name": "제주반도체",
       "market": "KOSDAQ"
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "market": "KOSPI"
     },
     {
       "code": "105560",
@@ -132,8 +107,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "000150",
-      "name": "두산",
+      "code": "353200",
+      "name": "대덕전자",
       "market": "KOSPI"
     },
     {
@@ -142,14 +117,39 @@
       "market": "KOSPI"
     },
     {
+      "code": "042660",
+      "name": "한화오션",
+      "market": "KOSPI"
+    },
+    {
       "code": "006400",
       "name": "삼성SDI",
       "market": "KOSPI"
     },
     {
-      "code": "108490",
-      "name": "로보티즈",
+      "code": "011070",
+      "name": "LG이노텍",
+      "market": "KOSPI"
+    },
+    {
+      "code": "454910",
+      "name": "두산로보틱스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "034730",
+      "name": "SK",
+      "market": "KOSPI"
+    },
+    {
+      "code": "058610",
+      "name": "에스피지",
       "market": "KOSDAQ"
+    },
+    {
+      "code": "000150",
+      "name": "두산",
+      "market": "KOSPI"
     },
     {
       "code": "MU",
@@ -364,6 +364,156 @@
   ],
   "news": [
     {
+      "title": "What is Pickaxe Mountain, the Iranian nuclear facility Trump is threatening to strike?",
+      "link": "https://www.cnbc.com/2026/07/22/pickaxe-mountain-location-nuclear-iran-trump.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T08:24:03+00:00"
+    },
+    {
+      "title": "인텔이 꿰찬 3개의 복주머니, ‘ASML·이석희·트럼프’ [논설실 pICK]",
+      "link": "https://www.mk.co.kr/news/economy/12104615",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T08:23:47+00:00"
+    },
+    {
+      "title": "법정이자율 초과 이자 강요·폭행한 50대 경찰 조사",
+      "link": "https://www.yna.co.kr/view/AKR20260722151900055",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T08:17:55+00:00"
+    },
+    {
+      "title": "환율 하락하니 다시 美 증시로···서학개미 순매수 증가세 By 투데이코리아 - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFMWV6czFtWVU2aDRCeTByS21pSXlZM1c3TGtRS0RNbHBwblRadFZBdFhSRTBTQmJoa2U3YWdRMjQ2cjUydHA5QjRod0gwS1Y2Rk1YUnpJWmpaZUlvTkF6d0ZpT05qUXBSd1FXbEk3RDE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T08:13:00+00:00"
+    },
+    {
+      "title": "Oil prices jump 4% as Rubio says Iran 'not serious' about peace talks",
+      "link": "https://www.cnbc.com/2026/07/22/oil-prices-iran-war-macro-rubio-brent-wti.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T08:12:19+00:00"
+    },
+    {
+      "title": "There’s a mathematical formula to determining when Trump will TACO — and here’s when a pivot is expected",
+      "link": "https://www.marketwatch.com/story/theres-a-mathematical-formula-to-determining-when-trump-will-taco-and-heres-when-a-pivot-is-expected-3d49a664?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-22T08:10:00+00:00"
+    },
+    {
+      "title": "유가 등에 국고채 금리 일제히 상승…10년물 연고점 경신(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260722145151008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T08:08:01+00:00"
+    },
+    {
+      "title": "동해·묵호항 상반기 물동량 1천313만t…전년 대비 3.6% 증가",
+      "link": "https://www.yna.co.kr/view/AKR20260722147900062",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T08:07:07+00:00"
+    },
+    {
+      "title": "\"TSMC 최대 10% 가격인상\" 반도체주 상승반납…증시 혼조[Asia마감] - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tRDdiOWp1UTFPR0p6cWhtTHNLSGwwZTBoci0zcmk3Y3lJdFJPcWlYSm05amRWcXRyNUpyYi03cEZTVHVUTmRpdGpjVXRQRkVNeVJISlRjSllZcFVSZE02ZUstV2lfRDJv?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T08:03:19+00:00"
+    },
+    {
+      "title": "[포토] \"꿈 잃지말렴\"… 하나금융, 학교 밖 청소년 장학금",
+      "link": "https://www.mk.co.kr/news/economy/12104575",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T08:01:03+00:00"
+    },
+    {
+      "title": "신용정보원장에 유수영 …  재정경제부 출신 첫 내정",
+      "link": "https://www.mk.co.kr/news/economy/12104571",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T08:01:01+00:00"
+    },
+    {
+      "title": "[동정] 홍문표 aT 사장, 최재구 예산군수 면담",
+      "link": "https://www.yna.co.kr/view/AKR20260722148000030",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T08:00:00+00:00"
+    },
+    {
+      "title": "코카콜라음료, 내달 1일 편의점 출고가 평균 7.2% 인상",
+      "link": "https://www.yna.co.kr/view/AKR20260722148100030",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T07:58:31+00:00"
+    },
+    {
+      "title": "에이치엘지노믹스, 코스닥 신규 상장…24일 거래 개시",
+      "link": "https://www.yna.co.kr/view/AKR20260722148500008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T07:57:16+00:00"
+    },
+    {
+      "title": "대법 \"2018년 이후 '제휴사 포인트 결제액'은 부가세 부과 가능\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722143300004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T07:56:49+00:00"
+    },
+    {
+      "title": "Here’s the surprising twist to the news OpenAI products went rogue and tried to steal an exam",
+      "link": "https://www.marketwatch.com/story/heres-the-surprising-twist-to-the-news-openai-products-went-rogue-and-tried-to-steal-an-exam-660e0128?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-22T07:55:00+00:00"
+    },
+    {
+      "title": "“집값 뛰고 증시 랠리, 부자됐어요”…1인당 가계순자산 2.7억, 일본 추월",
+      "link": "https://www.mk.co.kr/news/economy/12104559",
+      "source": "매일경제·증권",
+      "published": "2026-07-22T07:51:50+00:00"
+    },
+    {
+      "title": "아직 불안한 반도체 투심…삼전닉스 6~9% 급등했다 '반납'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260722067051008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T07:51:29+00:00"
+    },
+    {
+      "title": "국고채 금리 일제히 상승…3년물 연 3.913%",
+      "link": "https://www.yna.co.kr/view/AKR20260722145100008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T07:42:34+00:00"
+    },
+    {
+      "title": "한미 관세당국, 마약 밀반입 차단까지 협력 범위 넓힌다",
+      "link": "https://www.yna.co.kr/view/AKR20260722143000002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T07:38:53+00:00"
+    },
+    {
+      "title": "KB국민은행 사외이사 후보에 정윤경 성균관대 교수",
+      "link": "https://www.yna.co.kr/view/AKR20260722144600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T07:38:26+00:00"
+    },
+    {
+      "title": "\"대전 유등교 가설교량 건설 과정서 절차 누락 공무원 송치\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722142800063",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T07:36:55+00:00"
+    },
+    {
+      "title": "부산은행, 김해공항 철수하나…7년만에 임대 계약 미연장",
+      "link": "https://www.yna.co.kr/view/AKR20260722100200051",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T07:31:24+00:00"
+    },
+    {
+      "title": "무역협회 윤진식 \"미국 비자제도 개선 위해 정부와 협력\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722140500003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T07:28:57+00:00"
+    },
+    {
+      "title": "[중국증시-마감] 숨 고르기 장세 속 지수별 혼조 - KB Think",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE52ZXhGaTFmd2xiSkNxZWZFTXNEWlE1cUJVUDdPNVpjRTZibTFoeEV6RERtVjhjLUswZWFJQnpnd1NJa0NDRXQ3ZlJ4QXZpeVd6SnFzenNWeEJQN1QtNVNUMDAyWjRqaEVpS1RVV1ZBeUpWUQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T07:28:09+00:00"
+    },
+    {
       "title": "민경선 고양시장, 추미애 경기지사에 '핵심 정책건의서' 전달",
       "link": "https://www.yna.co.kr/view/AKR20260722139500060",
       "source": "연합뉴스·경제",
@@ -398,12 +548,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260722136900055",
       "source": "연합뉴스·경제",
       "published": "2026-07-22T07:10:03+00:00"
-    },
-    {
-      "title": "What is Pickaxe Mountain, the Iranian nuclear facility Trump is threatening to strike?",
-      "link": "https://www.cnbc.com/2026/07/22/pickaxe-mountain-location-nuclear-iran-trump.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T07:08:25+00:00"
     },
     {
       "title": "[증시-마감] '매수 사이드카' 터졌던 코스피, 6,700선 후퇴 마감 - 연합인포맥스",
@@ -518,150 +662,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260722128200002",
       "source": "연합뉴스·경제",
       "published": "2026-07-22T06:30:41+00:00"
-    },
-    {
-      "title": "노동부, 경기도와 '중앙-지방 노동감독 협업' MOU",
-      "link": "https://www.yna.co.kr/view/AKR20260722073300530",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T06:30:01+00:00"
-    },
-    {
-      "title": "성우하이텍 \"성우하이텍 멕시코에 1천33억원 출자\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722123100008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T06:29:27+00:00"
-    },
-    {
-      "title": "Trump plans generic drug tariffs from 2028 with two-year delay testing U.S. onshoring push",
-      "link": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T06:28:08+00:00"
-    },
-    {
-      "title": "강원도, 축구장 895개 규모의 군사시설보호구역 해제 '환영'",
-      "link": "https://www.yna.co.kr/view/AKR20260722124100062",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T06:22:20+00:00"
-    },
-    {
-      "title": "BNK부산은행 “산업·해양·포용금융 실현”…기업 성장단계별 지원",
-      "link": "https://www.mk.co.kr/news/economy/12104421",
-      "source": "매일경제·증권",
-      "published": "2026-07-22T06:19:59+00:00"
-    },
-    {
-      "title": "“이사 코앞인데 대출 접수조차 안돼요”…무주택 실수요자 ‘잔금 대란’ 공포",
-      "link": "https://www.mk.co.kr/news/economy/12104419",
-      "source": "매일경제·증권",
-      "published": "2026-07-22T06:18:48+00:00"
-    },
-    {
-      "title": "[대구소식] 외식 창업 '키워드림 아카데미' 2기 수강생 모집",
-      "link": "https://www.yna.co.kr/view/AKR20260722121500053",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T06:16:01+00:00"
-    },
-    {
-      "title": "증시 호황·집값 오르며 작년 1인 가계순자산 2.7억 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YcVQ3XzhNNlhYWGU1Z3ExMmNod25PVDlCLXVrNjVQNlRta2Y1UTU5bVoxaE44Vnh2V0JoZFpNcXhjMTU5REtzR2wyR0poanM?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T06:13:04+00:00"
-    },
-    {
-      "title": "Sh수협은행, 해양환경공단 주거래은행 업무협약",
-      "link": "https://www.yna.co.kr/view/AKR20260722116600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T06:11:24+00:00"
-    },
-    {
-      "title": "Japan exports and imports in June grow at fastest pace since November 2022, beating estimates",
-      "link": "https://www.cnbc.com/2026/07/22/japan-june-exports-trade-data.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T06:02:49+00:00"
-    },
-    {
-      "title": "창원시, 중장년 구직자 재취업 돕는다…AI 활용 교육 실시",
-      "link": "https://www.yna.co.kr/view/AKR20260722118300052",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T06:00:33+00:00"
-    },
-    {
-      "title": "[게시판] 토스뱅크, 아이카드 첫 발급 고객에 롯데월드 45% 할인쿠폰",
-      "link": "https://www.yna.co.kr/view/AKR20260722118000002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T05:58:52+00:00"
-    },
-    {
-      "title": "Wall Street can wait: Why one U.S. biotech firm is listing in Hong Kong first",
-      "link": "https://www.cnbc.com/2026/07/22/axiom-aiosciences-ipo-listing-hong-kong.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T05:58:51+00:00"
-    },
-    {
-      "title": "농협은행, 전남광주시 챔피언스시티 개발 사업 금융주선",
-      "link": "https://www.yna.co.kr/view/AKR20260722115800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T05:57:47+00:00"
-    },
-    {
-      "title": "BNK부산은행 \"산업·해양·포용적 가치금융 실현 초점\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722115100051",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T05:52:22+00:00"
-    },
-    {
-      "title": "용인 반도체 전력 공급 11년 앞당긴다…‘K-반도체’ 골든타임 사수",
-      "link": "https://www.mk.co.kr/news/economy/12104367",
-      "source": "매일경제·증권",
-      "published": "2026-07-22T05:51:00+00:00"
-    },
-    {
-      "title": "[테마시황] 미 증시 반도체·기술주 상승에 국내 SOFC·광통신 테마 동반 랠리 By 인포스탁데일리 - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XQTdVRG4weWVQcDlaOXhWTE1jZDRwb01qREVWblVTcXkwajVub1NKX2hlT2NuRkJQZGJ4RzVuOTBvVEFFNDNqbTZjN0RNaXMwNUxlbllZY3RVRnpkTVpydWhYaDVsck9Bd212dnJQeGg?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T05:45:00+00:00"
-    },
-    {
-      "title": "국민연금 위탁운용사 스타우드 캐피털, 전주 사무소 개소",
-      "link": "https://www.yna.co.kr/view/AKR20260722114000530",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T05:41:49+00:00"
-    },
-    {
-      "title": "PEF협의회, 협회로 전환 추진…규제 움직임엔 \"적극 소통할것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722106700008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T05:38:02+00:00"
-    },
-    {
-      "title": "[게시판] 코스콤, 안양시 주거취약계층에 제습기 지원",
-      "link": "https://www.yna.co.kr/view/AKR20260722111500008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T05:35:44+00:00"
-    },
-    {
-      "title": "본격 회복 신호?…반토막 난 로봇주, 삼성전자발 호재에 '들썩'",
-      "link": "https://www.yna.co.kr/view/AKR20260722110500008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T05:33:55+00:00"
-    },
-    {
-      "title": "[게시판] 신한은행 \"서비스품질지수 은행산업 16년 연속 1위\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722112300002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T05:31:46+00:00"
-    },
-    {
-      "title": "KB국민은행, 삼성물산 등과 입주민 전용 '종합자산관리 서비스'",
-      "link": "https://www.yna.co.kr/view/AKR20260722111600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T05:31:13+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
-      "link": "https://www.yna.co.kr/view/AKR20260722107900011",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-22T05:30:00+00:00"
     }
   ],
   "pages": [
