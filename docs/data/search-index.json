@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-22T22:35:04.690893+00:00",
+  "as_of": "2026-07-22T22:49:36.274536+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -177,16 +177,6 @@
       "market": "US"
     },
     {
-      "code": "TSLA",
-      "name": "Tesla, Inc.",
-      "market": "US"
-    },
-    {
-      "code": "INTC",
-      "name": "Intel",
-      "market": "US"
-    },
-    {
       "code": "MSFT",
       "name": "Microsoft",
       "market": "US"
@@ -197,13 +187,18 @@
       "market": "US"
     },
     {
+      "code": "TSLA",
+      "name": "Tesla, Inc.",
+      "market": "US"
+    },
+    {
       "code": "AMZN",
       "name": "Amazon",
       "market": "US"
     },
     {
-      "code": "AVGO",
-      "name": "Broadcom",
+      "code": "INTC",
+      "name": "Intel",
       "market": "US"
     },
     {
@@ -217,58 +212,18 @@
       "market": "US"
     },
     {
+      "code": "AVGO",
+      "name": "Broadcom",
+      "market": "US"
+    },
+    {
+      "code": "SMCI",
+      "name": "Supermicro",
+      "market": "US"
+    },
+    {
       "code": "STX",
       "name": "Seagate Technology",
-      "market": "US"
-    },
-    {
-      "code": "DHR",
-      "name": "Danaher Corporation",
-      "market": "US"
-    },
-    {
-      "code": "MRVL",
-      "name": "Marvell Technology",
-      "market": "US"
-    },
-    {
-      "code": "AMAT",
-      "name": "Applied Materials",
-      "market": "US"
-    },
-    {
-      "code": "WDC",
-      "name": "Western Digital",
-      "market": "US"
-    },
-    {
-      "code": "NFLX",
-      "name": "Netflix",
-      "market": "US"
-    },
-    {
-      "code": "LRCX",
-      "name": "Lam Research",
-      "market": "US"
-    },
-    {
-      "code": "GEV",
-      "name": "GE Vernova",
-      "market": "US"
-    },
-    {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
-      "market": "US"
-    },
-    {
-      "code": "LITE",
-      "name": "Lumentum",
-      "market": "US"
-    },
-    {
-      "code": "T",
-      "name": "AT&T",
       "market": "US"
     },
     {
@@ -277,8 +232,48 @@
       "market": "US"
     },
     {
-      "code": "UNH",
-      "name": "UnitedHealth Group",
+      "code": "GEV",
+      "name": "GE Vernova",
+      "market": "US"
+    },
+    {
+      "code": "T",
+      "name": "AT&T",
+      "market": "US"
+    },
+    {
+      "code": "MRVL",
+      "name": "Marvell Technology",
+      "market": "US"
+    },
+    {
+      "code": "APP",
+      "name": "AppLovin",
+      "market": "US"
+    },
+    {
+      "code": "BAC",
+      "name": "Bank of America",
+      "market": "US"
+    },
+    {
+      "code": "LITE",
+      "name": "Lumentum",
+      "market": "US"
+    },
+    {
+      "code": "DELL",
+      "name": "Dell Technologies",
+      "market": "US"
+    },
+    {
+      "code": "NOW",
+      "name": "ServiceNow",
+      "market": "US"
+    },
+    {
+      "code": "NFLX",
+      "name": "Netflix",
       "market": "US"
     },
     {
@@ -287,8 +282,8 @@
       "market": "US"
     },
     {
-      "code": "CAT",
-      "name": "Caterpillar Inc.",
+      "code": "WDC",
+      "name": "Western Digital",
       "market": "US"
     },
     {
@@ -297,8 +292,13 @@
       "market": "US"
     },
     {
-      "code": "WMT",
-      "name": "Walmart",
+      "code": "JPM",
+      "name": "JPMorgan Chase",
+      "market": "US"
+    },
+    {
+      "code": "AMAT",
+      "name": "Applied Materials",
       "market": "US"
     },
     {
@@ -350,24 +350,38 @@
       "code": "055550",
       "name": "신한지주",
       "market": "KRX"
-    },
-    {
-      "code": "JPM",
-      "name": "JPMorgan Chase",
-      "market": "NYSE"
-    },
-    {
-      "code": "BAC",
-      "name": "Bank of America",
-      "market": "NYSE"
     }
   ],
   "news": [
+    {
+      "title": "I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit?",
+      "link": "https://www.marketwatch.com/story/i-wanted-to-transfer-17-000-in-credit-card-debt-why-did-wells-fargo-offer-me-only-a-4-000-credit-limit-7ad0a3f0?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-22T22:46:00+00:00"
+    },
+    {
+      "title": "Southwest Airlines' third-quarter forecast falls short as fuel bill climbs",
+      "link": "https://www.cnbc.com/2026/07/22/southwest-airlines-luv-2q-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T22:45:52+00:00"
+    },
+    {
+      "title": "IBM lowers full-year forecast after earnings warning",
+      "link": "https://www.cnbc.com/2026/07/22/ibm-q2-earnings-report-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-22T22:37:42+00:00"
+    },
     {
       "title": "Tesla misses on earnings, as free cash flow turns negative and margins slide",
       "link": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html",
       "source": "CNBC Finance",
       "published": "2026-07-22T22:30:40+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
+      "link": "https://www.yna.co.kr/view/AKR20260723017500011",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-22T22:30:00+00:00"
     },
     {
       "title": "My second husband and I have kids from previous relationships. Should my house go to him or my children if I die first?",
@@ -400,12 +414,6 @@
       "published": "2026-07-22T22:11:00+00:00"
     },
     {
-      "title": "Southwest Airlines' third-quarter forecast falls short as fuel bill climbs",
-      "link": "https://www.cnbc.com/2026/07/22/southwest-airlines-luv-2q-2026-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T22:09:28+00:00"
-    },
-    {
       "title": "John Paulson says we are in the early stages of a long-term bull market for gold",
       "link": "https://www.cnbc.com/2026/07/22/john-paulson-says-we-are-in-early-stages-of-a-long-term-bull-market-for-gold.html",
       "source": "CNBC Finance",
@@ -430,16 +438,16 @@
       "published": "2026-07-22T21:56:58+00:00"
     },
     {
+      "title": "구글 2분기 실적 호조·테슬라는 부진...증시 분수령 - YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44elR6LTBqRkZuSzRSLTc3UlBMQ3FKNGs4RXE4V3BXNEdXOE9Lb2NpZFlIUUxpTURrdnZRS0tRV0lnWkRhSE1vTm55R3dJZU02Ull6X0lfb1ZxNDBzOUE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-22T21:50:00+00:00"
+    },
+    {
       "title": "IBM just cut its outlook, but not by as much as investors feared",
       "link": "https://www.marketwatch.com/story/ibm-just-cut-its-outlook-why-its-stock-is-bouncing-anyway-9d36e22a?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-22T21:39:00+00:00"
-    },
-    {
-      "title": "IBM lowers full-year forecast after earnings warning",
-      "link": "https://www.cnbc.com/2026/07/22/ibm-q2-earnings-report-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T21:38:52+00:00"
     },
     {
       "title": "Analysis: Iran war energy shock hits the U.S. economy as gas and diesel prices climb",
@@ -598,12 +606,6 @@
       "published": "2026-07-22T20:22:56+00:00"
     },
     {
-      "title": "뉴욕증시, 국제유가 급등에 약세…나스닥 0.6%↓ - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1IcVFOMXcyU3pBZkVSd3QzUklaS3B2R1JrazROaDEwOTdWbkZnaXB0VUpEOXlWbktsbHYzTlcyYkxDc0pLdGJYU0FIWk9hRmJJWlpmbVc0bDJIMFHSAWBBVV95cUxNQjNUcjBSZFFzRmVNUFJJMjJfaTFFR3dYV1pJbGhoZ2pxTEhmSGx0Wnp1anNDaVNpV0ZzbE5lLWVzXzlnOFVyVGl6M0YwbFE5V3Y2TXJXMDVZbmIyRUZYNEM?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T20:21:23+00:00"
-    },
-    {
       "title": "뉴욕증시, 국제유가 급등에 약세…나스닥 0.6%↓ - 매일경제 마켓",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE91Tzg4MEVIaWJPQXd6V3BjMUwxRVQxQ0EwUzc4bTJyNEhaT045a1BEa1V2ZWNwblJyMjNhQ1pJcDdBZVdvdXJXdkU5aEpYd084aEE?oc=5",
       "source": "Google News",
@@ -614,12 +616,6 @@
       "link": "https://www.marketwatch.com/story/servicenows-stock-gains-as-earnings-show-momentum-in-cybersecurity-86e7a038?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-22T20:19:00+00:00"
-    },
-    {
-      "title": "美 초장기 국채 금리 5% 이상 고공 비행...뉴욕 증시 보합세 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ1VWMkptWDBadHBlcHlxVi1NdUlQWjh5NVh3alBPQlpmZnlaT2dVRFR3S3JGOXRibnhZeE00S0EyYURieHgxazc2S3ZtcDdVS1ZGeDFBejctd2ttSXpNZHoyWU9rTTFvVjB4WkcwdFRUbXlMcldOcE9OZVpXbkliUEdsS0FfTDlsSzRvbVo3Q0lNUDdvcGtfYlZEM1U3QQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-22T20:18:00+00:00"
     },
     {
       "title": "미·이란 강대강 대치에 국제유가 급등…브렌트유 94달러대",
@@ -656,12 +652,6 @@
       "link": "https://www.marketwatch.com/story/owning-a-pet-has-become-a-luxury-vets-worry-about-higher-prices-and-shrinking-pet-population-survey-finds-dca5ad2b?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-22T19:56:00+00:00"
-    },
-    {
-      "title": "Amazon cuts some jobs in its artificial general intelligence unit",
-      "link": "https://www.cnbc.com/2026/07/22/amazon-lays-off-some-employees-in-its-agi-unit.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-22T19:50:16+00:00"
     }
   ],
   "pages": [

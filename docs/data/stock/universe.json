@@ -175,16 +175,6 @@
     "market": "US"
   },
   {
-    "code": "TSLA",
-    "name": "Tesla, Inc.",
-    "market": "US"
-  },
-  {
-    "code": "INTC",
-    "name": "Intel",
-    "market": "US"
-  },
-  {
     "code": "MSFT",
     "name": "Microsoft",
     "market": "US"
@@ -195,13 +185,18 @@
     "market": "US"
   },
   {
+    "code": "TSLA",
+    "name": "Tesla, Inc.",
+    "market": "US"
+  },
+  {
     "code": "AMZN",
     "name": "Amazon",
     "market": "US"
   },
   {
-    "code": "AVGO",
-    "name": "Broadcom",
+    "code": "INTC",
+    "name": "Intel",
     "market": "US"
   },
   {
@@ -215,58 +210,18 @@
     "market": "US"
   },
   {
+    "code": "AVGO",
+    "name": "Broadcom",
+    "market": "US"
+  },
+  {
+    "code": "SMCI",
+    "name": "Supermicro",
+    "market": "US"
+  },
+  {
     "code": "STX",
     "name": "Seagate Technology",
-    "market": "US"
-  },
-  {
-    "code": "DHR",
-    "name": "Danaher Corporation",
-    "market": "US"
-  },
-  {
-    "code": "MRVL",
-    "name": "Marvell Technology",
-    "market": "US"
-  },
-  {
-    "code": "AMAT",
-    "name": "Applied Materials",
-    "market": "US"
-  },
-  {
-    "code": "WDC",
-    "name": "Western Digital",
-    "market": "US"
-  },
-  {
-    "code": "NFLX",
-    "name": "Netflix",
-    "market": "US"
-  },
-  {
-    "code": "LRCX",
-    "name": "Lam Research",
-    "market": "US"
-  },
-  {
-    "code": "GEV",
-    "name": "GE Vernova",
-    "market": "US"
-  },
-  {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
-    "market": "US"
-  },
-  {
-    "code": "LITE",
-    "name": "Lumentum",
-    "market": "US"
-  },
-  {
-    "code": "T",
-    "name": "AT&T",
     "market": "US"
   },
   {
@@ -275,8 +230,48 @@
     "market": "US"
   },
   {
-    "code": "UNH",
-    "name": "UnitedHealth Group",
+    "code": "GEV",
+    "name": "GE Vernova",
+    "market": "US"
+  },
+  {
+    "code": "T",
+    "name": "AT&T",
+    "market": "US"
+  },
+  {
+    "code": "MRVL",
+    "name": "Marvell Technology",
+    "market": "US"
+  },
+  {
+    "code": "APP",
+    "name": "AppLovin",
+    "market": "US"
+  },
+  {
+    "code": "BAC",
+    "name": "Bank of America",
+    "market": "US"
+  },
+  {
+    "code": "LITE",
+    "name": "Lumentum",
+    "market": "US"
+  },
+  {
+    "code": "DELL",
+    "name": "Dell Technologies",
+    "market": "US"
+  },
+  {
+    "code": "NOW",
+    "name": "ServiceNow",
+    "market": "US"
+  },
+  {
+    "code": "NFLX",
+    "name": "Netflix",
     "market": "US"
   },
   {
@@ -285,8 +280,8 @@
     "market": "US"
   },
   {
-    "code": "CAT",
-    "name": "Caterpillar Inc.",
+    "code": "WDC",
+    "name": "Western Digital",
     "market": "US"
   },
   {
@@ -295,8 +290,13 @@
     "market": "US"
   },
   {
-    "code": "WMT",
-    "name": "Walmart",
+    "code": "JPM",
+    "name": "JPMorgan Chase",
+    "market": "US"
+  },
+  {
+    "code": "AMAT",
+    "name": "Applied Materials",
     "market": "US"
   },
   {
@@ -348,15 +348,5 @@
     "code": "055550",
     "name": "신한지주",
     "market": "KRX"
-  },
-  {
-    "code": "JPM",
-    "name": "JPMorgan Chase",
-    "market": "NYSE"
-  },
-  {
-    "code": "BAC",
-    "name": "Bank of America",
-    "market": "NYSE"
   }
 ]

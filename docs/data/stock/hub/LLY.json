@@ -4,12 +4,12 @@
   "market": "NYSE",
   "theme": "바이오",
   "quote": {
-    "close": 1175.4100341796875,
-    "change_pct": 2.49,
-    "volume": 2090700,
-    "amount": 2457429758.4594727,
+    "close": 1163.010009765625,
+    "change_pct": -1.05,
+    "volume": 1551867,
+    "amount": 1804836854.8249512,
     "marcap": null,
-    "as_of_iso": "2026-07-22T09:13:10.619584+00:00",
+    "as_of_iso": "2026-07-22T22:49:22.952246+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "LLY",
