@@ -15,6 +15,36 @@
     "profit_pct": 4.3
   },
   {
+    "date": "2026-07-22",
+    "ticker": "010170",
+    "name": "대한광통신",
+    "buy_price": 11020.0,
+    "sell_price": 10950.0,
+    "quantity": 10.0,
+    "holding_days": 0,
+    "account_type": "위탁",
+    "broker": "kiwoom",
+    "memo": "",
+    "category": "day",
+    "pnl": -700.0,
+    "profit_pct": -0.64
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "240810",
+    "name": "원익IPS",
+    "buy_price": 115900.0,
+    "sell_price": 123700.0,
+    "quantity": 5.0,
+    "holding_days": 0,
+    "account_type": "위탁",
+    "broker": "kiwoom",
+    "memo": "",
+    "category": "day",
+    "pnl": 39000.0,
+    "profit_pct": 6.73
+  },
+  {
     "date": "2026-07-21",
     "ticker": "005935",
     "name": "삼성전자우",
