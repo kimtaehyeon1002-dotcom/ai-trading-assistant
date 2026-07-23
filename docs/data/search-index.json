@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T08:12:06.326647+00:00",
+  "as_of": "2026-07-23T08:27:10.155538+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -52,19 +52,19 @@
       "market": "KOSPI"
     },
     {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006360",
+      "name": "GS건설",
+      "market": "KOSPI"
+    },
+    {
       "code": "036930",
       "name": "주성엔지니어링",
       "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "439960",
-      "name": "코스모로보틱스",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "042700",
-      "name": "한미반도체",
-      "market": "KOSPI"
     },
     {
       "code": "017670",
@@ -72,8 +72,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "010120",
-      "name": "LS ELECTRIC",
+      "code": "042700",
+      "name": "한미반도체",
       "market": "KOSPI"
     },
     {
@@ -82,13 +82,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "277810",
-      "name": "레인보우로보틱스",
-      "market": "KOSDAQ"
+      "code": "096770",
+      "name": "SK이노베이션",
+      "market": "KOSPI"
     },
     {
-      "code": "006360",
-      "name": "GS건설",
+      "code": "006400",
+      "name": "삼성SDI",
       "market": "KOSPI"
     },
     {
@@ -97,9 +97,9 @@
       "market": "KOSPI"
     },
     {
-      "code": "096770",
-      "name": "SK이노베이션",
-      "market": "KOSPI"
+      "code": "439960",
+      "name": "코스모로보틱스",
+      "market": "KOSDAQ"
     },
     {
       "code": "012450",
@@ -107,8 +107,23 @@
       "market": "KOSPI"
     },
     {
+      "code": "277810",
+      "name": "레인보우로보틱스",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "105560",
       "name": "KB금융",
+      "market": "KOSPI"
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "322000",
+      "name": "HD현대에너지솔루션",
       "market": "KOSPI"
     },
     {
@@ -117,34 +132,19 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "042660",
-      "name": "한화오션",
-      "market": "KOSPI"
-    },
-    {
       "code": "012330",
       "name": "현대모비스",
       "market": "KOSPI"
     },
     {
-      "code": "119850",
-      "name": "지엔씨에너지",
-      "market": "KOSDAQ"
+      "code": "011070",
+      "name": "LG이노텍",
+      "market": "KOSPI"
     },
     {
       "code": "240810",
       "name": "원익IPS",
       "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "080220",
-      "name": "제주반도체",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "market": "KOSPI"
     },
     {
       "code": "095610",
@@ -312,11 +312,6 @@
       "market": "KRX"
     },
     {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "KRX"
-    },
-    {
       "code": "247540",
       "name": "에코프로비엠",
       "market": "KRX"
@@ -359,6 +354,48 @@
   ],
   "news": [
     {
+      "title": "UniCredit CEO tells CNBC acquisition of Commerzbank could happen in fourth quarter",
+      "link": "https://www.cnbc.com/2026/07/23/unicredit-commerzbank-takeover-acquisition-2q-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T08:23:04+00:00"
+    },
+    {
+      "title": "오늘의 증시 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00V3FucmFzUDBEVjIxNWlDYnJpb1laMWpwX3lkVUNBaTU2R09xY3Q4RVhwR3hFV0VDSFNmWnNjU255cmJJaUVFc1pBVGFqZG8?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T08:16:16+00:00"
+    },
+    {
+      "title": "Houthis claim strikes on Saudi Arabian oil tankers as Rubio says Iran not ready to make a deal",
+      "link": "https://www.cnbc.com/2026/07/23/iran-war-us-trump-houthis-red-sea-oil.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T08:15:42+00:00"
+    },
+    {
+      "title": "\"데이터 강한 K보험…동남아서 승부해볼만\"",
+      "link": "https://www.mk.co.kr/news/economy/12105651",
+      "source": "매일경제·증권",
+      "published": "2026-07-23T08:13:57+00:00"
+    },
+    {
+      "title": "증시 호황에 KB·신한금융 ‘실적 신기록’…‘통큰 배당’ 선물 풀었다 - 중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oQVNJR3NiWWowSWYtTVNPX2RXOGR4RXVDYVhUZlZUaVVEaFNyVzZLQTFfOWhfaWFXVWo1bEpmRXd5bjk4U2ZxY3JKdmV3bWFPRXF2c1h3?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T08:13:52+00:00"
+    },
+    {
+      "title": "2분기 깜짝 성장률에도 국고채 금리 보합권 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260723159751008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T08:09:43+00:00"
+    },
+    {
+      "title": "亞 증시 동반상승…AI 인프라 기대에 반도체주 강세[Asia마감] - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5Ul9MRnRlRk5yMEtodUVBM1lya2dkYTB6Q2NodlFxMW5Fc2s0bzlzQzB4YmZVR0lyMmhTX1N0YXA0YXRGZHJBVWptNW5pRm1WY1ZzOExjWEE5UDhjSkQ4c2NwUkVMbXU40gFuQVVfeXFMTmNJaWQ4MzNBUXZuc2x3T1J2aVc3U1FtVi13cUN6UjNJQmN0bkszT3VLampSSU43WmFrMnFYaU9DVHRhTW9aQVptVEZ3ZExpWi1nWE1leDFiSUdES2ttRDJHT1YzTDkxUmFuM2w1dHc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T08:08:56+00:00"
+    },
+    {
       "title": "[동정] 인태연 소진공 이사장, 대전 태평시장 찾아 시장 활성화 논의",
       "link": "https://www.yna.co.kr/view/AKR20260723163400030",
       "source": "연합뉴스·경제",
@@ -369,6 +406,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260723162100030",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T08:05:56+00:00"
+    },
+    {
+      "title": "오늘의 증시 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wbW91YmlRY0tBR0MySVZFUndSNVJXZ2NXRUdIelI5M1NnZG43eTduUnU3Y0dERzk4S21jTF9ST3M1dmRMbUxOMWVBV3pDTEdjWWR5QzhwVDk3N2dZV0pNWGpPcjVINF9vSVgtQnE4MW5zSFItc2x5UA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T08:05:44+00:00"
     },
     {
       "title": "코스트코 청주점 입점 무산 위기 맞나…땅값 문제로 삐걱",
@@ -395,10 +438,16 @@
       "published": "2026-07-23T07:56:00+00:00"
     },
     {
-      "title": "UniCredit CEO tells CNBC full acquisition of Commerzbank could happen in fourth quarter",
-      "link": "https://www.cnbc.com/2026/07/23/unicredit-commerzbank-takeover-acquisition-2q-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T07:50:44+00:00"
+      "title": "롤러코스피에 지쳤나…증시 대기 자금 5개월만에 최저 - 노컷뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1yQ1BRUnNkYkxYVnpVWTN4Q0pCWDdSRGU0X2NjejkyYy1ENF8tVkVwaUxjY3FnTU96NlIyX3Q5Mi0wU0UtRHlLdy1UYXFFTVdQZVE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T07:53:00+00:00"
+    },
+    {
+      "title": "[증시 인사이트] 코스닥, 장중 한때 매수 사이드카 발동…780선 회복 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUUlFvdmMzMU1Ha1FkWDduUHJXSXIwVmp0Qms2cXRVVHotU3JqTmF0VkQwYU51NjlCUWZaZVRhak5ZREt0ai01THZ3RkR0WWs?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T07:50:35+00:00"
     },
     {
       "title": "대통령 이어 총리 주재 '부동산정책 대토론회' 27일 개최",
@@ -411,12 +460,6 @@
       "link": "https://www.mk.co.kr/news/economy/12105616",
       "source": "매일경제·증권",
       "published": "2026-07-23T07:46:52+00:00"
-    },
-    {
-      "title": "韓 증시 돌아온 외국인에 원-달러 1460원대 급락…원-엔 900원 밑으로 - 중앙일보",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5DR3VObkhMTF94QW1aTUwtRmEwUERaRk91dGtHa2lOQUpERFRGaC1yTGtwNjFyOUNablVVeC1NZjcwdVBrVVhCdWFramk5MXN1OWM1dzJR?oc=5",
-      "source": "Google News",
-      "published": "2026-07-23T07:46:22+00:00"
     },
     {
       "title": "춘천 수열에너지 클러스터, AI 데이터센터 투자처 급부상",
@@ -435,12 +478,6 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EcmVEa3RTRTdPNHB4NVFTMm9zMEgzX29MaWE4RENJekNNaVpsdlpaM2E4VVE5NTNGNnhoTEFyVnBxTmR1LVZTYXZweGtXNEg1UDlrTmFn?oc=5",
       "source": "Google News",
       "published": "2026-07-23T07:42:33+00:00"
-    },
-    {
-      "title": "Houthis claim strikes on Saudi Arabian oil tankers in Red Sea as Iran conflict expands",
-      "link": "https://www.cnbc.com/2026/07/23/iran-war-us-trump-houthis-red-sea-oil.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T07:38:43+00:00"
     },
     {
       "title": "[중국증시-마감] 알파벳 실적發 亞 강세 동참해 상승 - KB Think",
@@ -525,12 +562,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260723056151008",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T07:06:58+00:00"
-    },
-    {
-      "title": "증시 활황에…KB증권 상반기 영업익 '역대최대' - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PSkRnU2tVS0NQRFJWeGp4R0ZxR2laTExPQTVxZElXZGRUY3Z0S0hWNk5EX0hiMUw1dUE1OGptdjNhbzFoekk4bVZqNDVtbEk?oc=5",
-      "source": "Google News",
-      "published": "2026-07-23T07:04:53+00:00"
     },
     {
       "title": "광주 중앙공원 주주권 소송 파기환송심, 롯데건설 승소",
@@ -621,42 +652,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260723129951002",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T06:42:01+00:00"
-    },
-    {
-      "title": "외국환시세(7월23일·15:30 기준가)",
-      "link": "https://www.yna.co.kr/view/AKR20260723141800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T06:38:05+00:00"
-    },
-    {
-      "title": "신스틸 \"멕시코 종속회사 주식 178억원에 추가취득…지분율 100%\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723139500008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T06:36:39+00:00"
-    },
-    {
-      "title": "[속보] 코스피, 4.4% 급등 '7천피' 탈환…코스닥도 5%대↑",
-      "link": "https://www.yna.co.kr/view/AKR20260723141000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T06:34:58+00:00"
-    },
-    {
-      "title": "[외환] 원/달러 환율 13.3원 내린 1,466.8원(15:30 기준가)",
-      "link": "https://www.yna.co.kr/view/AKR20260723139900002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T06:34:41+00:00"
-    },
-    {
-      "title": "청년 10명중 9명 취업 사교육…64% \"비용 부담에 경제적 어려움\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723133600530",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T06:24:59+00:00"
-    },
-    {
-      "title": "광양경자청, 관할 지자체장 연쇄 회동…\"미래산업 경쟁력 강화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723129600054",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T06:19:20+00:00"
     }
   ],
   "pages": [
