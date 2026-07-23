@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T20:15:04.624108+00:00",
+  "as_of": "2026-07-23T20:38:38.732673+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,28 +354,88 @@
   ],
   "news": [
     {
+      "title": "Intel's stock jumps 11% as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
+      "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T20:35:58+00:00"
+    },
+    {
+      "title": "Cerebras stock gains on AMD partnership",
+      "link": "https://www.cnbc.com/2026/07/23/cerebras-stock-gains-on-amd-partnership.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T20:33:12+00:00"
+    },
+    {
+      "title": "Japan’s $1.8 trillion pension giant might bring money home. That could jolt U.S. stocks and the Fed.",
+      "link": "https://www.marketwatch.com/story/japans-1-8-trillion-pension-giant-might-bring-money-home-that-could-jolt-u-s-stocks-and-the-fed-908c66d5?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T20:31:00+00:00"
+    },
+    {
+      "title": "DOJ withdraws subpoenas to NY Times reporters in Trump plane probe",
+      "link": "https://www.cnbc.com/2026/07/23/doj-subpoenas-new-york-times-trump-plane.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T20:27:11+00:00"
+    },
+    {
+      "title": "Tesla, Alphabet lose hundreds of billions in value in post-earnings stock plunge",
+      "link": "https://www.cnbc.com/2026/07/23/tesla-tsla-alphabet-googl-stock-today.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T20:26:38+00:00"
+    },
+    {
+      "title": "“국민연금만 믿었다간 큰일” … 연 19% 대박 낸 퇴직연금 굴리기 비결",
+      "link": "https://www.mk.co.kr/news/economy/12105611",
+      "source": "매일경제·증권",
+      "published": "2026-07-23T20:26:00+00:00"
+    },
+    {
+      "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
+      "link": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T20:25:28+00:00"
+    },
+    {
+      "title": "T-Mobile’s stock sinks despite customers pouring into premium plans",
+      "link": "https://www.marketwatch.com/story/t-mobile-earnings-rise-as-customers-pour-into-premium-plans-dbed96b8?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T20:24:00+00:00"
+    },
+    {
+      "title": "As the S&P 500 sells off, traders eye key 'risk pivot' level",
+      "link": "https://www.cnbc.com/2026/07/23/as-the-sp-500-sells-off-traders-eye-key-risk-pivot-level.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T20:22:32+00:00"
+    },
+    {
+      "title": "뉴욕증시, AI 투자 우려·유가 100달러 돌파에 하락…나스닥 2.15%↓ - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lc1VLZGxFbG43WnFvcm1GeFcxX1JPNDJjMTJ6bVpBeGRRTHFLUVVGblQ0aW5yeGEwSmY1UlFhcUNnUjdnNktkT2RTcm9YLUtVRG1vdEZBeC1tamE0?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T20:21:00+00:00"
+    },
+    {
+      "title": "The rising cost of capital for companies today is starting to spook the stock market: ‘The worry is the spending might not pay off’",
+      "link": "https://www.marketwatch.com/story/the-rising-cost-of-capital-for-companies-today-is-starting-to-spook-the-stock-market-the-worry-is-the-spending-might-not-pay-off-de4c69e4?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T20:20:00+00:00"
+    },
+    {
+      "title": "Alphabet’s massive profit growth is ‘illusory’, as SpaceX and Anthropic help mask a historic cash drain",
+      "link": "https://www.marketwatch.com/story/alphabets-massive-profit-growth-is-just-an-illusion-as-spacex-and-anthropic-help-mask-a-historic-cash-drain-ffff172d?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T20:17:00+00:00"
+    },
+    {
       "title": "American Airlines stock tumbles 8% as fuel spike further postpones turnaround",
       "link": "https://www.cnbc.com/2026/07/23/american-airlines-aal-2q-2026-earnings.html",
       "source": "CNBC Finance",
       "published": "2026-07-23T20:14:12+00:00"
     },
     {
-      "title": "Tesla , Alphabet lose hundreds of billions in value in post-earnings stock plunge",
-      "link": "https://www.cnbc.com/2026/07/23/tesla-tsla-alphabet-googl-stock-today.html",
+      "title": "Southwest Airlines put Texas jet fuel on a boat to LA for the first time amid supply worries",
+      "link": "https://www.cnbc.com/2026/07/23/southwest-shipped-jet-fuel-from-texas-to-california-amid-supply-crunch.html",
       "source": "CNBC Finance",
-      "published": "2026-07-23T20:13:42+00:00"
-    },
-    {
-      "title": "DOJ withdraws subpoenas to NY Times reporters in Trump plane probe",
-      "link": "https://www.cnbc.com/2026/07/23/doj-subpoenas-new-york-times-trump-plane.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T20:13:23+00:00"
-    },
-    {
-      "title": "Intel blows past estimates, recording fastest sales growth in almost 15 years on 'unprecedented' demand",
-      "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T20:13:19+00:00"
+      "published": "2026-07-23T20:12:42+00:00"
     },
     {
       "title": "Brent crude crosses $100 after tankers reportedly struck off Saudi Arabia",
@@ -396,12 +456,6 @@
       "published": "2026-07-23T20:09:13+00:00"
     },
     {
-      "title": "As the S&P 500 sells off, traders eye key 'risk pivot' level",
-      "link": "https://www.cnbc.com/2026/07/23/as-the-sp-500-sells-off-traders-eye-key-risk-pivot-level.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T20:08:52+00:00"
-    },
-    {
       "title": "홍해까지 막힐라…브렌트유 7%↑, 두달 만에 종가 100달러 돌파",
       "link": "https://www.yna.co.kr/view/AKR20260724006200072",
       "source": "연합뉴스·경제",
@@ -412,12 +466,6 @@
       "link": "https://www.cnbc.com/2026/07/23/amazon-microsoft-cloud-gaming.html",
       "source": "CNBC Finance",
       "published": "2026-07-23T20:06:50+00:00"
-    },
-    {
-      "title": "[속보] 테슬라 14.51% 급락… 뉴욕증시 일제 하락 마감 - 국민일보",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94Y1hMQWZXQVlEaTdmY19HdGZEU1ZmN29uSUQxdllzYVpXbVZUSkRhdFMzV0NGcG5Tc1BQMG1EeGVaZjhqUlRxUnJCNS1jb3BCeWlKbmxsbmc3UFBtRFhCb0lOSWpkdTFlMlNCRW5iZEFpWUxFOU1SRHZR0gFsQVVfeXFMUFdvdDh0cEo4eHVaQTRHRzFCTDhOODQ4SzhCYzUwNVFZWlYycENaUmRnZkx6U3pzbmRFeXk1U3BobmxaTVlVSVl4eDRmMDZVQkw2bFBhYmhkS0RBR2xVMTNtcFMzM05hUFdtOVBh?oc=5",
-      "source": "Google News",
-      "published": "2026-07-23T20:03:00+00:00"
     },
     {
       "title": "주가 물었더니 반도체값 답한 신현송 … “소득 13.2% 뛰어 금리 올렸다”",
@@ -468,36 +516,6 @@
       "published": "2026-07-23T19:08:00+00:00"
     },
     {
-      "title": "The rising cost of capital for companies today is starting to spook the stock market: ‘The worry is the spending might not pay off’",
-      "link": "https://www.marketwatch.com/story/the-rising-cost-of-capital-for-companies-today-is-starting-to-spook-the-stock-market-the-worry-is-the-spending-might-not-pay-off-de4c69e4?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T18:58:00+00:00"
-    },
-    {
-      "title": "These 16 states are offering tax holidays as back-to-school costs soar to over $800 per student",
-      "link": "https://www.marketwatch.com/story/these-16-states-are-offering-tax-holidays-as-back-to-school-costs-soar-to-over-800-per-student-0ec92464?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T18:51:00+00:00"
-    },
-    {
-      "title": "The stock market’s calm surface is cracking. Here’s how to prepare for an August shock.",
-      "link": "https://www.marketwatch.com/story/the-stock-markets-calm-surface-is-cracking-heres-how-to-prepare-for-an-august-shock-7d655813?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T18:47:00+00:00"
-    },
-    {
-      "title": "Cerebras stock gains on AMD partnership",
-      "link": "https://www.cnbc.com/2026/07/23/cerebras-stock-gains-on-amd-partnership.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T18:42:57+00:00"
-    },
-    {
-      "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
-      "link": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T18:42:20+00:00"
-    },
-    {
       "title": "Congress splits on war powers resolutions to force Trump to abandon Iran war",
       "link": "https://www.cnbc.com/2026/07/23/congress-pushes-war-powers-resolutions-tells-trump-to-abandon-iran-war.html",
       "source": "CNBC Finance",
@@ -508,12 +526,6 @@
       "link": "https://www.cnbc.com/2026/07/23/wall-street-stumbles-as-oil-surges-and-lilly-takes-a-new-path-on-next-gen-obesity-drug.html",
       "source": "CNBC Finance",
       "published": "2026-07-23T18:35:53+00:00"
-    },
-    {
-      "title": "My second husband and I have kids from previous relationships. Should my house go to him or my children if I die first?",
-      "link": "https://www.marketwatch.com/story/i-have-children-from-my-first-marriage-should-my-second-husband-inherit-my-house-if-i-die-d9bd8687?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T18:30:00+00:00"
     },
     {
       "title": "House lawmakers grill former JPMorgan executive Jes Staley over Epstein ties",
@@ -582,16 +594,16 @@
       "published": "2026-07-23T15:00:01+00:00"
     },
     {
-      "title": "Comcast earnings highlight NBCUniversal strength ahead of planned split",
-      "link": "https://www.cnbc.com/2026/07/23/comcast-earnings-nbcuniversal-strength-split.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T14:53:53+00:00"
-    },
-    {
       "title": "Cyclospora outbreak tests RFK Jr.'s promise to overhaul food system, rebuild trust in CDC",
       "link": "https://www.cnbc.com/2026/07/23/cyclospora-outbreak-tests-rfk-jr-response-funding-cuts.html",
       "source": "CNBC Finance",
       "published": "2026-07-23T14:48:08+00:00"
+    },
+    {
+      "title": "국제 유가 다시 100달러 돌파…파랗게 질린 뉴욕 증시 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWldQbFVBS1l5SWh3QjlUb1FnWjBqdGRRdjloUHk2cWlURGt5R1gtY3F3YVRTSnZhSWpvNEs1aTJFX2l2cndPQWJCLUhINmdmVThjaVBKemRlMnY0eEd0TzF5WkJtWVpMU0pERHhWMldJYTByT0NiREowRm51bUp4NTExYzUzdko4T0lfYk9uamI4NnRUc2I4WjdBYUZCUQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T14:28:30+00:00"
     },
     {
       "title": "Tech reporter Joanna Stern asked AI to do 'almost everything' for a year—the No. 1 tool she'll keep using",
@@ -640,18 +652,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260723195251072",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T13:30:24+00:00"
-    },
-    {
-      "title": "Traders see September rate hike as European Central Bank mulls energy price spike",
-      "link": "https://www.cnbc.com/2026/07/23/interest-rate-hike-iran-european-central-bank.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T13:25:57+00:00"
-    },
-    {
-      "title": "[속보] 브렌트유 배럴당 100달러 재돌파…5월 26일 이후 처음",
-      "link": "https://www.mk.co.kr/news/economy/12106036",
-      "source": "매일경제·증권",
-      "published": "2026-07-23T13:16:01+00:00"
     }
   ],
   "pages": [
