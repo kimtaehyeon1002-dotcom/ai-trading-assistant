@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T05:52:48.367540+00:00",
+  "as_of": "2026-07-23T06:36:02.740813+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -359,22 +359,124 @@
   ],
   "news": [
     {
+      "title": "청년 10명중 9명 취업 사교육…64% \"비용 부담에 경제적 어려움\"",
+      "link": "https://www.yna.co.kr/view/AKR20260723133600530",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T06:24:59+00:00"
+    },
+    {
+      "title": "Oil prices climb after tanker struck off Saudi Arabia, Trump escalates Iran threats",
+      "link": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T06:23:06+00:00"
+    },
+    {
+      "title": "광양경자청, 관할 지자체장 연쇄 회동…\"미래산업 경쟁력 강화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260723129600054",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T06:19:20+00:00"
+    },
+    {
+      "title": "박현주 \"미래에셋 새 일원 코빗, Digital X로 새출발\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260723043151002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T06:18:07+00:00"
+    },
+    {
+      "title": "KB금융 2분기 순익 1조9천922억원, 14.6%↑…역대 최대(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260723123100002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T06:17:52+00:00"
+    },
+    {
+      "title": "금융당국, 코인원 대주주 변경 신고 수리…한투·OKX 합류",
+      "link": "https://www.yna.co.kr/view/AKR20260723136000002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T06:16:18+00:00"
+    },
+    {
+      "title": "2026 오송화장품뷰티엑스포 D-90…K-뷰티의 모든 것 담는다",
+      "link": "https://www.yna.co.kr/view/AKR20260723128600064",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T06:10:12+00:00"
+    },
+    {
+      "title": "동탄·기흥·구리 등 아파트값 오름폭 둔화…서울도 관망세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260723094851003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T06:01:55+00:00"
+    },
+    {
+      "title": "'먹는 위고비'라더니…다이어트 식품 허위광고 무더기 적발(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260723084851017",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T06:00:26+00:00"
+    },
+    {
+      "title": "재경부, 런던·싱가포르서 투자설명회…글로벌 협의체 가동 계획",
+      "link": "https://www.yna.co.kr/view/AKR20260723115100002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T06:00:01+00:00"
+    },
+    {
+      "title": "[게시판] 데이터처, 지역통계·데이터 발전 포럼…5극3특 성장 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260723127400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T06:00:01+00:00"
+    },
+    {
+      "title": "경기도의회 민주·국힘, '7조원대 채무' 원인·대책 두고 공방",
+      "link": "https://www.yna.co.kr/view/AKR20260723127500061",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T05:57:53+00:00"
+    },
+    {
+      "title": "원/엔 900원선 아래로…1년 8개월 만에 최저",
+      "link": "https://www.yna.co.kr/view/AKR20260723129900002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T05:57:47+00:00"
+    },
+    {
+      "title": "강원농협, 도청과 함께 지역 농산물 가격안정 총력",
+      "link": "https://www.yna.co.kr/view/AKR20260723129200062",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T05:55:01+00:00"
+    },
+    {
+      "title": "시중은행, 예금토큰 결제 인프라 확대 사업 참여(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260723063951002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T05:46:48+00:00"
+    },
+    {
+      "title": "법인시장 연내 본격 개방 기대감…\"가이드라인 논의 중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260723098900002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T05:46:40+00:00"
+    },
+    {
+      "title": "李대통령 \"전세대출 규제 강화해야…왜 유주택자까지 빌려주나\"",
+      "link": "https://www.yna.co.kr/view/AKR20260723124500001",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T05:46:26+00:00"
+    },
+    {
       "title": "“비밀번호 누르다 아차, 450만원 털렸다”…해외서 카드사고, 보상 못 받을수도",
       "link": "https://www.mk.co.kr/news/economy/12105407",
       "source": "매일경제·증권",
       "published": "2026-07-23T05:45:26+00:00"
     },
     {
-      "title": "Oil prices climb after tanker struck off Saudi Arabia, Trump escalates Iran threats",
-      "link": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T05:43:59+00:00"
-    },
-    {
       "title": "[특징주] LS일렉트릭, 2분기 사상 최대 실적에 15%대 급등",
       "link": "https://www.yna.co.kr/view/AKR20260723126800008",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T05:40:25+00:00"
+    },
+    {
+      "title": "[셀럽의 한 수] FOMC·국민연금·환율 하반기 증시 핵심 변수는? - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jQ0FtQ0tCVThxSGFxcEJSOUEtb0szTGZZQTJXWDBQaHdiUGZFWkFiV2hpdV9fODF6S1FoNkFMcFlaem0xc3lRYWVxcFhWZGs?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T05:40:15+00:00"
     },
     {
       "title": "2분기 '깜짝 성장'에…씨티 \"한은, 8월 금리인상 가능성 커져\"",
@@ -555,108 +657,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260723101400001",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T03:42:33+00:00"
-    },
-    {
-      "title": "알파벳 AI 지출 확대에 아시아 증시 상승…유가 급등이 상승폭 제한 - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5neFNKWVBBMDBERXkzWjZ2NmxrRnpjdnhRdjE3aV9oX2dEYXg5Ym1Wa0QxY3NHTTZPamtYRE5LbEJaenJqOXVMWlFwdWdvRC1ZWHFOMGFKR3NmV0lEa2dkOHVRVkNWTmY2S1FMMFl6YzA?oc=5",
-      "source": "Google News",
-      "published": "2026-07-23T03:40:00+00:00"
-    },
-    {
-      "title": "Chip firm priced as China's most valuable company before its IPO brings scrutiny to crypto platform",
-      "link": "https://www.cnbc.com/2026/07/23/chip-firm-priced-as-most-valuable-china-firm-pre-ipo-on-crypto-site.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T03:28:22+00:00"
-    },
-    {
-      "title": "카카오페이증권 \"해외투자자 韓주식 24시간거래 위한 토큰화 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723098600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T03:23:22+00:00"
-    },
-    {
-      "title": "유가 안정에 車5부제 할인특약 내주 운영 종료",
-      "link": "https://www.yna.co.kr/view/AKR20260723097800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T03:14:30+00:00"
-    },
-    {
-      "title": "'미리 보는 내년 봄여름 K패션'…LF 헤지스, 글로벌 수주회 개최",
-      "link": "https://www.yna.co.kr/view/AKR20260722161300030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T03:11:06+00:00"
-    },
-    {
-      "title": "김성주이사장 “기승전 국민연금? 증시안전판·증폭기 아냐” - 문화일보",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yWHRDVl92enhaU0FaajVJdWNEeWNoUmlfc2xxcnZBbGllVTFqbEQ0V0l0ZzB3bWc3clE3NWk3Wm0yUDNmc2FDWEgzUk9sRWFK?oc=5",
-      "source": "Google News",
-      "published": "2026-07-23T03:04:55+00:00"
-    },
-    {
-      "title": "李대통령 \"똘똘한 한채, 심각한 문제…주거·투기 구분않은 탓\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260723091051001",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T03:03:33+00:00"
-    },
-    {
-      "title": "렌터카 피해 절반이 '계약 분쟁'…\"특가 상품 환불 불가 유의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722123600030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T03:00:54+00:00"
-    },
-    {
-      "title": "[게시판] 2025년 기준 경제총조사 마무리…연말 공표",
-      "link": "https://www.yna.co.kr/view/AKR20260723043000002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T03:00:51+00:00"
-    },
-    {
-      "title": "\"해외 ATM 이용시 비번 노출 유의하세요…도난시 보상 어려워\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723067800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T03:00:24+00:00"
-    },
-    {
-      "title": "상반기 중소기업 수출 640억달러 역대 최대…화장품 30.7% 증가",
-      "link": "https://www.yna.co.kr/view/AKR20260723048600030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T03:00:11+00:00"
-    },
-    {
-      "title": "중기부·국가데이터처, '스마트 제조 기술 산업 특수분류' 제정",
-      "link": "https://www.yna.co.kr/view/AKR20260723066600030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T03:00:10+00:00"
-    },
-    {
-      "title": "한은 \"촬영소품·페이크머니 등 '가짜돈' 사용 늘어\"…유의 당부",
-      "link": "https://www.yna.co.kr/view/AKR20260723085000002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T03:00:09+00:00"
-    },
-    {
-      "title": "'64억원 체납자' 잠가둔 여행 가방에 10억원어치 돈뭉치 가득",
-      "link": "https://www.yna.co.kr/view/AKR20260723072200002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T03:00:03+00:00"
-    },
-    {
-      "title": "졸업 후 미취업 청년 48.6%, 1년 넘게 백수…금융위기 후 최고",
-      "link": "https://www.yna.co.kr/view/AKR20260723089100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T03:00:02+00:00"
-    },
-    {
-      "title": "[써보니] 갤럭시 Z 폴드8…화면비 변화가 가장 먼저 눈길",
-      "link": "https://www.yna.co.kr/view/AKR20260723095700017",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T02:53:24+00:00"
-    },
-    {
-      "title": "\"민간건설임대 사업자 집단 육성…3기 신도시 등 속도 내야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723094600003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T02:49:12+00:00"
     }
   ],
   "pages": [
