@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T20:38:38.732673+00:00",
+  "as_of": "2026-07-23T21:02:43.857691+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,84 @@
   ],
   "news": [
     {
+      "title": "“증권사 버스 탔습니다”…사상 최대실적 KB·신한, 상반기 순익이 무려",
+      "link": "https://www.mk.co.kr/news/economy/12106246",
+      "source": "매일경제·증권",
+      "published": "2026-07-23T21:00:49+00:00"
+    },
+    {
+      "title": "내년 원전4기 대책없이 ‘정년퇴임’…연장절차 시작도 못했다",
+      "link": "https://www.mk.co.kr/news/economy/12106244",
+      "source": "매일경제·증권",
+      "published": "2026-07-23T21:00:29+00:00"
+    },
+    {
+      "title": "세종이전기업 종사자 특별공급 14세대 신청받았더니…사실상 '0'",
+      "link": "https://www.yna.co.kr/view/AKR20260723164200063",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T21:00:06+00:00"
+    },
+    {
+      "title": "우수 중견회계법인, 대형사 감사 맡는다…군 상향 특례 도입",
+      "link": "https://www.yna.co.kr/view/AKR20260723190000002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T21:00:01+00:00"
+    },
+    {
+      "title": "인플레 우려에 미 주택담보대출 금리 11개월 만에 최고",
+      "link": "https://www.yna.co.kr/view/AKR20260724008900072",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T20:57:21+00:00"
+    },
+    {
+      "title": "DOJ withdraws subpoenas to NY Times reporters in Trump plane probe",
+      "link": "https://www.cnbc.com/2026/07/23/doj-subpoenas-new-york-times-trump-plane.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T20:55:42+00:00"
+    },
+    {
+      "title": "S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft",
+      "link": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T20:47:00+00:00"
+    },
+    {
+      "title": "트럼프 “대규모 공격” 전운 고조에...유가 100달러, 나스닥 -2% [월가월부]",
+      "link": "https://www.mk.co.kr/news/economy/12106225",
+      "source": "매일경제·증권",
+      "published": "2026-07-23T20:45:18+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 유가 100달러 돌파에 3대 지수 와르르...테슬라 14.52% 폭락 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQXlTRDlvZlh3NTJpczFHV3pPdGpvZVc2OENDV2xWYkxZdEQ3SnE3aGZ2RjJKNGNnY2FwSGUyWERrakx4ZTluTGRQcjZBTE1qTlh1NnNMZ2VTY1pGVEpFWGJNN2t4R2FIb2VuRGpYSk9UZVY3b3V2SzVoQldfV20wNVdUR2JWTWZy?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T20:45:18+00:00"
+    },
+    {
+      "title": "Southwest Airlines put Texas jet fuel on a boat to LA for the first time amid supply worries",
+      "link": "https://www.cnbc.com/2026/07/23/southwest-shipped-jet-fuel-from-texas-to-california-amid-supply-crunch.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T20:45:13+00:00"
+    },
+    {
+      "title": "Lockheed Martin’s stock skyrockets as push to build more missiles faster pays off",
+      "link": "https://www.marketwatch.com/story/lockheed-martins-stock-leaps-as-push-to-build-more-missiles-faster-pays-off-9d7e2091?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T20:41:00+00:00"
+    },
+    {
+      "title": "뉴욕증시, 중동 긴장·고유가에 일제히 하락…나스닥 2.2%↓ - 헤럴드경제",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ieXV2dGJ6OHJQa19MMDRIc3lGbHB1YTJkQXFjMTdqWVUzOTZJdndPcXp3TXJ2TVZDZERaSWNFR0hBcGRHRW9YN0xiaWE2UWRhMi1ZNEJR?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T20:39:00+00:00"
+    },
+    {
+      "title": "[2보] 미 재무부, 한국 등 10개국 환율 관찰대상국 유지",
+      "link": "https://www.yna.co.kr/view/AKR20260724006951072",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T20:36:04+00:00"
+    },
+    {
       "title": "Intel's stock jumps 11% as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
       "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
       "source": "CNBC Finance",
@@ -370,12 +448,6 @@
       "link": "https://www.marketwatch.com/story/japans-1-8-trillion-pension-giant-might-bring-money-home-that-could-jolt-u-s-stocks-and-the-fed-908c66d5?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-23T20:31:00+00:00"
-    },
-    {
-      "title": "DOJ withdraws subpoenas to NY Times reporters in Trump plane probe",
-      "link": "https://www.cnbc.com/2026/07/23/doj-subpoenas-new-york-times-trump-plane.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T20:27:11+00:00"
     },
     {
       "title": "Tesla, Alphabet lose hundreds of billions in value in post-earnings stock plunge",
@@ -430,12 +502,6 @@
       "link": "https://www.cnbc.com/2026/07/23/american-airlines-aal-2q-2026-earnings.html",
       "source": "CNBC Finance",
       "published": "2026-07-23T20:14:12+00:00"
-    },
-    {
-      "title": "Southwest Airlines put Texas jet fuel on a boat to LA for the first time amid supply worries",
-      "link": "https://www.cnbc.com/2026/07/23/southwest-shipped-jet-fuel-from-texas-to-california-amid-supply-crunch.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T20:12:42+00:00"
     },
     {
       "title": "Brent crude crosses $100 after tankers reportedly struck off Saudi Arabia",
@@ -502,18 +568,6 @@
       "link": "https://www.marketwatch.com/story/oil-nears-100-a-barrel-after-houthis-claim-strikes-on-saudi-arabian-tankers-4d9949c2?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-23T19:18:00+00:00"
-    },
-    {
-      "title": "Most FDA advisers say the BPC-157 and KPV peptides should be made available in the U.S. Here’s what happens next.",
-      "link": "https://www.marketwatch.com/story/peptides-could-soon-become-widely-available-in-the-u-s-heres-what-happens-next-ead02287?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T19:14:00+00:00"
-    },
-    {
-      "title": "More than 70% of recent home buyers were counting on mortgage rates to drop. Now they’re stuck.",
-      "link": "https://www.marketwatch.com/story/more-than-70-of-recent-home-buyers-were-counting-on-mortgage-rates-to-drop-now-theyre-stuck-1d0dab60?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T19:08:00+00:00"
     },
     {
       "title": "Congress splits on war powers resolutions to force Trump to abandon Iran war",
@@ -598,60 +652,6 @@
       "link": "https://www.cnbc.com/2026/07/23/cyclospora-outbreak-tests-rfk-jr-response-funding-cuts.html",
       "source": "CNBC Finance",
       "published": "2026-07-23T14:48:08+00:00"
-    },
-    {
-      "title": "국제 유가 다시 100달러 돌파…파랗게 질린 뉴욕 증시 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWldQbFVBS1l5SWh3QjlUb1FnWjBqdGRRdjloUHk2cWlURGt5R1gtY3F3YVRTSnZhSWpvNEs1aTJFX2l2cndPQWJCLUhINmdmVThjaVBKemRlMnY0eEd0TzF5WkJtWVpMU0pERHhWMldJYTByT0NiREowRm51bUp4NTExYzUzdko4T0lfYk9uamI4NnRUc2I4WjdBYUZCUQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-23T14:28:30+00:00"
-    },
-    {
-      "title": "Tech reporter Joanna Stern asked AI to do 'almost everything' for a year—the No. 1 tool she'll keep using",
-      "link": "https://www.cnbc.com/2026/07/23/joanna-stern-used-ai-for-almost-everything-for-a-year-the-no-1-tool-shell-keep-using.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T14:25:01+00:00"
-    },
-    {
-      "title": "뉴욕증시, AI 자본지출 우려·유가 상승에 하락 출발 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByTEhISHJ6bzh6R2xFcmh5ZGl4QUJvMDhaV1p5RTJaM216MDFCZHlwMHJneXNNNFhQTHk4OUJiQzR6QWxYWTZwZTlLOE5LWWNLV1ZkM1JRMUhvRUNuekJkQlFjU0t4UmdvTE1iTEQyN1o?oc=5",
-      "source": "Google News",
-      "published": "2026-07-23T14:00:09+00:00"
-    },
-    {
-      "title": "워싱턴에 한미 조선협력센터 개소…'마스가' 속도 낸다",
-      "link": "https://www.yna.co.kr/view/AKR20260723167200003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T14:00:00+00:00"
-    },
-    {
-      "title": "미·이란 충돌에 홍해 유조선 피격까지…브렌트유 100달러 돌파(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260723195252072",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T13:54:24+00:00"
-    },
-    {
-      "title": "Eli Lilly says it will file for approval of next-generation obesity drug in 2027 as it clears two more trials",
-      "link": "https://www.cnbc.com/2026/07/23/eli-lilly-will-file-for-approval-of-retatrutide-obesity-drug-in-2027.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T13:52:00+00:00"
-    },
-    {
-      "title": "유가 급등·알파벳 테슬라 급락…뉴욕증시 하락 출발 - MTN 머니투데이방송",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aYWJMdDZkOXdSaFlURUxNTC1JOFJqbnBpSDJhUzFmQ1FlcGtoWjh2N2ZGV2QxekUwSUxwU2ZuYmEyMzJ0SS1mNUxSRzhfcHdFaTltcV9xNDdfYXV4Mm1wbjR3ZTI?oc=5",
-      "source": "Google News",
-      "published": "2026-07-23T13:44:51+00:00"
-    },
-    {
-      "title": "유가 급등에 미국채 금리도 상승세…10년물 4.7% 돌파",
-      "link": "https://www.yna.co.kr/view/AKR20260723196200072",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T13:40:51+00:00"
-    },
-    {
-      "title": "[2보] 중동 긴장 고조에 브렌트유 두달만에 100달러 돌파",
-      "link": "https://www.yna.co.kr/view/AKR20260723195251072",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T13:30:24+00:00"
     }
   ],
   "pages": [
