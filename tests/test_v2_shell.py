@@ -5,9 +5,9 @@ import re
 from pathlib import Path
 
 from config import nav
-from config.settings import ensure_dirs, TEMPLATES_DIR
+from config.settings import TEMPLATES_DIR
 from generators import registry
-from generators.skeleton_v2 import generate as gen_v2_skeleton
+from generators import skeleton_v2
 
 ROOT = Path(__file__).resolve().parent.parent
 HEX_RE = re.compile(r"#[0-9a-fA-F]{3,6}\b")
@@ -82,9 +82,11 @@ def test_v2_skeleton_not_exposed_in_nav_items():
     assert "__v2_preview__" not in keys
 
 
-def test_v2_skeleton_page_renders_shell():
-    ensure_dirs()
-    out = gen_v2_skeleton()
+def test_v2_skeleton_page_renders_shell(monkeypatch, tmp_path):
+    # 발행물 docs/를 건드리지 않도록 출력 루트를 tmp_path로 돌린다(다른 테스트와 동일한 관례).
+    monkeypatch.setattr(skeleton_v2, "DOCS_DIR", tmp_path)
+    out = skeleton_v2.generate()
+    assert tmp_path in out.parents
     html = out.read_text(encoding="utf-8")
     assert 'class="v2-sidebar"' in html
     assert 'class="v2-header"' in html
