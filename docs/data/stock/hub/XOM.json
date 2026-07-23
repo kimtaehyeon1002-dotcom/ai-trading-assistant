@@ -1,0 +1,17 @@
+{
+  "code": "XOM",
+  "name": "ExxonMobil",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 156.88999938964844,
+    "change_pct": 1.58,
+    "volume": 15764898,
+    "amount": 2473354837.59787,
+    "marcap": null,
+    "as_of_iso": "2026-07-23T22:44:27.010436+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "XOM",
+  "related_news": []
+}

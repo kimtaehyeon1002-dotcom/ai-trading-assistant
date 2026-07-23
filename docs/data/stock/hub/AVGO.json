@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 396.80999755859375,
-    "change_pct": 2.67,
-    "volume": 16910400,
-    "amount": 6710215782.714844,
+    "close": 392.4700012207031,
+    "change_pct": -1.09,
+    "volume": 16307026,
+    "amount": 6400018514.126038,
     "marcap": null,
-    "as_of_iso": "2026-07-23T09:12:31.406735+00:00",
+    "as_of_iso": "2026-07-23T22:44:27.010320+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "AVGO",

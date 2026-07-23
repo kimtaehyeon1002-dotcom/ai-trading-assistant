@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 127.05000305175781,
-    "change_pct": 4.67,
-    "volume": 27596900,
-    "amount": 3506186229.219055,
+    "close": 120.04000091552734,
+    "change_pct": -4.61,
+    "volume": 29755325,
+    "amount": 3571829240.2418137,
     "marcap": null,
-    "as_of_iso": "2026-07-22T09:13:10.619434+00:00",
+    "as_of_iso": "2026-07-23T22:44:27.010368+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "ORCL",

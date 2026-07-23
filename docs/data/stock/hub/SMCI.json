@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 30.559999465942383,
-    "change_pct": 19.84,
-    "volume": 162695900,
-    "amount": 4971986617.111015,
+    "close": 31.200000762939453,
+    "change_pct": 2.09,
+    "volume": 84323133,
+    "amount": 2630881813.933445,
     "marcap": null,
-    "as_of_iso": "2026-07-23T09:12:31.406742+00:00",
+    "as_of_iso": "2026-07-23T22:44:27.010422+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "SMCI",

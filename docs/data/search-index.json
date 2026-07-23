@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T22:31:42.473401+00:00",
+  "as_of": "2026-07-23T22:44:38.124662+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -157,18 +157,13 @@
       "market": "US"
     },
     {
+      "code": "TSLA",
+      "name": "Tesla, Inc.",
+      "market": "US"
+    },
+    {
       "code": "NVDA",
       "name": "Nvidia",
-      "market": "US"
-    },
-    {
-      "code": "SNDK",
-      "name": "Sandisk",
-      "market": "US"
-    },
-    {
-      "code": "AMD",
-      "name": "Advanced Micro Devices",
       "market": "US"
     },
     {
@@ -177,13 +172,28 @@
       "market": "US"
     },
     {
+      "code": "SNDK",
+      "name": "Sandisk",
+      "market": "US"
+    },
+    {
+      "code": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "market": "US"
+    },
+    {
+      "code": "AMD",
+      "name": "Advanced Micro Devices",
+      "market": "US"
+    },
+    {
       "code": "AAPL",
       "name": "Apple Inc.",
       "market": "US"
     },
     {
-      "code": "TSLA",
-      "name": "Tesla, Inc.",
+      "code": "INTC",
+      "name": "Intel",
       "market": "US"
     },
     {
@@ -197,16 +207,6 @@
       "market": "US"
     },
     {
-      "code": "INTC",
-      "name": "Intel",
-      "market": "US"
-    },
-    {
-      "code": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "market": "US"
-    },
-    {
       "code": "META",
       "name": "Meta Platforms",
       "market": "US"
@@ -217,8 +217,23 @@
       "market": "US"
     },
     {
-      "code": "SMCI",
-      "name": "Supermicro",
+      "code": "NOW",
+      "name": "ServiceNow",
+      "market": "US"
+    },
+    {
+      "code": "STX",
+      "name": "Seagate Technology",
+      "market": "US"
+    },
+    {
+      "code": "JPM",
+      "name": "JPMorgan Chase",
+      "market": "US"
+    },
+    {
+      "code": "LITE",
+      "name": "Lumentum",
       "market": "US"
     },
     {
@@ -232,18 +247,8 @@
       "market": "US"
     },
     {
-      "code": "STX",
-      "name": "Seagate Technology",
-      "market": "US"
-    },
-    {
-      "code": "T",
-      "name": "AT&T",
-      "market": "US"
-    },
-    {
-      "code": "NOW",
-      "name": "ServiceNow",
+      "code": "ORCL",
+      "name": "Oracle Corporation",
       "market": "US"
     },
     {
@@ -252,33 +257,18 @@
       "market": "US"
     },
     {
-      "code": "APP",
-      "name": "AppLovin",
-      "market": "US"
-    },
-    {
-      "code": "LITE",
-      "name": "Lumentum",
-      "market": "US"
-    },
-    {
-      "code": "DELL",
-      "name": "Dell Technologies",
-      "market": "US"
-    },
-    {
-      "code": "BAC",
-      "name": "Bank of America",
-      "market": "US"
-    },
-    {
       "code": "TXN",
       "name": "Texas Instruments",
       "market": "US"
     },
     {
-      "code": "NFLX",
-      "name": "Netflix",
+      "code": "TMO",
+      "name": "Thermo Fisher Scientific",
+      "market": "US"
+    },
+    {
+      "code": "AMAT",
+      "name": "Applied Materials",
       "market": "US"
     },
     {
@@ -292,13 +282,23 @@
       "market": "US"
     },
     {
-      "code": "JPM",
-      "name": "JPMorgan Chase",
+      "code": "NFLX",
+      "name": "Netflix",
       "market": "US"
     },
     {
-      "code": "AMAT",
-      "name": "Applied Materials",
+      "code": "SMCI",
+      "name": "Supermicro",
+      "market": "US"
+    },
+    {
+      "code": "LRCX",
+      "name": "Lam Research",
+      "market": "US"
+    },
+    {
+      "code": "XOM",
+      "name": "ExxonMobil",
       "market": "US"
     },
     {
@@ -350,9 +350,32 @@
       "code": "055550",
       "name": "신한지주",
       "market": "KRX"
+    },
+    {
+      "code": "BAC",
+      "name": "Bank of America",
+      "market": "NYSE"
     }
   ],
   "news": [
+    {
+      "title": "IBM's Krishna tries to reassure investors that AI won't disrupt company's software unit",
+      "link": "https://www.cnbc.com/2026/07/23/ibms-krishna-argues-that-ai-wont-disrupt-software-unit.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T22:40:53+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
+      "link": "https://www.yna.co.kr/view/AKR20260724016300011",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T22:30:00+00:00"
+    },
+    {
+      "title": "중동發 유가 쇼크에 뉴욕증시 급락 … AI 투자부담까지 덮쳤다 - 뉴데일리",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwYmRiTjhWQjBuR2w5TDV5WC0xam5Rc3VZckg1Sl9hSFRlZXZvU1dEU21va0dteEJvQ3pxNWJMdk43VXUydzMweDlzUlhaX3BTaG5qMDhvOGdMSzlzVHlEc1lYa0VCRmc3MEhudnpVbUN2VnZLQ000QlREd9IBgAFBVV95cUxQenBrS0NtTDZ3cmtOSTlva1lDWjRqcTlvcVFNUDVrc2xSbG1WOTJKZXE0MC0weTdPM1ZNbG1JNzlSb1hzaEwwSjFUUXNlOU5zRjdJZmcyb2x2YnIyVHZKSDJMclU4eUh4UDRfV1lBM1NRU29CeTNHOFROQlFpWHFhaw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T22:20:30+00:00"
+    },
     {
       "title": "Intel's stock jumps as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
       "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
@@ -634,24 +657,6 @@
       "link": "https://www.cnbc.com/2026/07/23/as-the-sp-500-sells-off-traders-eye-key-risk-pivot-level.html",
       "source": "CNBC Finance",
       "published": "2026-07-23T20:22:32+00:00"
-    },
-    {
-      "title": "American Airlines stock tumbles 8% as fuel spike further postpones turnaround",
-      "link": "https://www.cnbc.com/2026/07/23/american-airlines-aal-2q-2026-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T20:14:12+00:00"
-    },
-    {
-      "title": "Brent crude crosses $100 after tankers reportedly struck off Saudi Arabia",
-      "link": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T20:12:13+00:00"
-    },
-    {
-      "title": "[1보] 미 재무부, 韓 환율 관찰대상국 지위 유지",
-      "link": "https://www.yna.co.kr/view/AKR20260724006900072",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T20:10:15+00:00"
     }
   ],
   "pages": [

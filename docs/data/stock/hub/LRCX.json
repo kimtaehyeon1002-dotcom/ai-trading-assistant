@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 322.0,
-    "change_pct": 4.97,
-    "volume": 11926300,
-    "amount": 3840268600.0,
+    "close": 319.7799987792969,
+    "change_pct": 0.15,
+    "volume": 8048639,
+    "amount": 2573793769.595001,
     "marcap": null,
-    "as_of_iso": "2026-07-22T09:13:10.619420+00:00",
+    "as_of_iso": "2026-07-23T22:44:27.010429+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "LRCX",

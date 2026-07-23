@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 294.19000244140625,
-    "change_pct": 0.99,
-    "volume": 10684500,
-    "amount": 3143273081.085205,
+    "close": 284.989990234375,
+    "change_pct": -3.13,
+    "volume": 11734143,
+    "amount": 3344113298.97876,
     "marcap": null,
-    "as_of_iso": "2026-07-23T09:12:31.406821+00:00",
+    "as_of_iso": "2026-07-23T22:44:27.010382+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "TXN",

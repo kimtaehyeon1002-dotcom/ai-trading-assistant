@@ -155,18 +155,13 @@
     "market": "US"
   },
   {
+    "code": "TSLA",
+    "name": "Tesla, Inc.",
+    "market": "US"
+  },
+  {
     "code": "NVDA",
     "name": "Nvidia",
-    "market": "US"
-  },
-  {
-    "code": "SNDK",
-    "name": "Sandisk",
-    "market": "US"
-  },
-  {
-    "code": "AMD",
-    "name": "Advanced Micro Devices",
     "market": "US"
   },
   {
@@ -175,13 +170,28 @@
     "market": "US"
   },
   {
+    "code": "SNDK",
+    "name": "Sandisk",
+    "market": "US"
+  },
+  {
+    "code": "GOOG",
+    "name": "Alphabet Inc. (Class C)",
+    "market": "US"
+  },
+  {
+    "code": "AMD",
+    "name": "Advanced Micro Devices",
+    "market": "US"
+  },
+  {
     "code": "AAPL",
     "name": "Apple Inc.",
     "market": "US"
   },
   {
-    "code": "TSLA",
-    "name": "Tesla, Inc.",
+    "code": "INTC",
+    "name": "Intel",
     "market": "US"
   },
   {
@@ -195,16 +205,6 @@
     "market": "US"
   },
   {
-    "code": "INTC",
-    "name": "Intel",
-    "market": "US"
-  },
-  {
-    "code": "GOOG",
-    "name": "Alphabet Inc. (Class C)",
-    "market": "US"
-  },
-  {
     "code": "META",
     "name": "Meta Platforms",
     "market": "US"
@@ -215,8 +215,23 @@
     "market": "US"
   },
   {
-    "code": "SMCI",
-    "name": "Supermicro",
+    "code": "NOW",
+    "name": "ServiceNow",
+    "market": "US"
+  },
+  {
+    "code": "STX",
+    "name": "Seagate Technology",
+    "market": "US"
+  },
+  {
+    "code": "JPM",
+    "name": "JPMorgan Chase",
+    "market": "US"
+  },
+  {
+    "code": "LITE",
+    "name": "Lumentum",
     "market": "US"
   },
   {
@@ -230,18 +245,8 @@
     "market": "US"
   },
   {
-    "code": "STX",
-    "name": "Seagate Technology",
-    "market": "US"
-  },
-  {
-    "code": "T",
-    "name": "AT&T",
-    "market": "US"
-  },
-  {
-    "code": "NOW",
-    "name": "ServiceNow",
+    "code": "ORCL",
+    "name": "Oracle Corporation",
     "market": "US"
   },
   {
@@ -250,33 +255,18 @@
     "market": "US"
   },
   {
-    "code": "APP",
-    "name": "AppLovin",
-    "market": "US"
-  },
-  {
-    "code": "LITE",
-    "name": "Lumentum",
-    "market": "US"
-  },
-  {
-    "code": "DELL",
-    "name": "Dell Technologies",
-    "market": "US"
-  },
-  {
-    "code": "BAC",
-    "name": "Bank of America",
-    "market": "US"
-  },
-  {
     "code": "TXN",
     "name": "Texas Instruments",
     "market": "US"
   },
   {
-    "code": "NFLX",
-    "name": "Netflix",
+    "code": "TMO",
+    "name": "Thermo Fisher Scientific",
+    "market": "US"
+  },
+  {
+    "code": "AMAT",
+    "name": "Applied Materials",
     "market": "US"
   },
   {
@@ -290,13 +280,23 @@
     "market": "US"
   },
   {
-    "code": "JPM",
-    "name": "JPMorgan Chase",
+    "code": "NFLX",
+    "name": "Netflix",
     "market": "US"
   },
   {
-    "code": "AMAT",
-    "name": "Applied Materials",
+    "code": "SMCI",
+    "name": "Supermicro",
+    "market": "US"
+  },
+  {
+    "code": "LRCX",
+    "name": "Lam Research",
+    "market": "US"
+  },
+  {
+    "code": "XOM",
+    "name": "ExxonMobil",
     "market": "US"
   },
   {
@@ -348,5 +348,10 @@
     "code": "055550",
     "name": "신한지주",
     "market": "KRX"
+  },
+  {
+    "code": "BAC",
+    "name": "Bank of America",
+    "market": "NYSE"
   }
 ]
