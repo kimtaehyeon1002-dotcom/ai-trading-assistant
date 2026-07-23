@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T22:10:48.102293+00:00",
+  "as_of": "2026-07-23T22:24:32.258106+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,36 @@
   ],
   "news": [
     {
+      "title": "Intel's stock jumps as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
+      "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T22:17:09+00:00"
+    },
+    {
+      "title": "강남구, 일원한솔 재건축추진위 10일만에 승인…처리기간 대폭 단축",
+      "link": "https://www.yna.co.kr/view/AKR20260724014800004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T22:14:54+00:00"
+    },
+    {
+      "title": "[오늘의 글로벌마켓] 뉴욕증시, 유가 급등 및 기술주 약세 속 3대지수 하락 - 오피니언뉴스",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MTGY1eGdHLUhVdEQzUmZUUGpQV1REcjhuSy1mZ1I3V2xJVDFlbkM4MGdkSHZzTmFjSDd1UkRzVkZaenNrdFNZa1dSbHpkYXJ6dlc4ODRPYzVNcXJCc3pYQ0psR2duYU9yNFhJTFoyX0NkUQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T22:12:41+00:00"
+    },
+    {
+      "title": "The August stock-market slump is a myth — so why does Wall Street keep repeating it?",
+      "link": "https://www.marketwatch.com/story/the-august-stock-market-slump-is-a-myth-so-why-does-wall-street-keep-repeating-it-bc47db44?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T22:12:00+00:00"
+    },
+    {
+      "title": "Most FDA advisers say peptides like BPC-157 and TB-500 should be made available in the U.S. Here’s what happens next.",
+      "link": "https://www.marketwatch.com/story/peptides-could-soon-become-widely-available-in-the-u-s-heres-what-happens-next-ead02287?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T22:08:00+00:00"
+    },
+    {
       "title": "S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft",
       "link": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -364,6 +394,12 @@
       "link": "https://www.marketwatch.com/story/yes-the-ai-stock-selloff-looks-terrifying-but-it-might-actually-save-the-bull-market-3bef59be?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-23T22:02:00+00:00"
+    },
+    {
+      "title": "[글로벌증시] 중동 긴장과 유가상승 속 나스닥 2% 넘게 급락 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SQXFybFRKNFdtblV6VjgyaTJWcWVLc0NTM2twTHRxUXFBQ0NYMGVjMFVCVTVTcG9aYTVQQ0lsNTBlZVZqZ3ExUWhJQ0E4Y2s?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T21:59:00+00:00"
     },
     {
       "title": "AMD’s rivalry with Nvidia is increasingly moving into a new realm",
@@ -384,10 +420,16 @@
       "published": "2026-07-23T21:56:31+00:00"
     },
     {
-      "title": "Most FDA advisers say peptides like BPC-157 and TB-500 should be made available in the U.S. Here’s what happens next.",
-      "link": "https://www.marketwatch.com/story/peptides-could-soon-become-widely-available-in-the-u-s-heres-what-happens-next-ead02287?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T21:55:00+00:00"
+      "title": "뉴욕증시, 중동 긴장·고유가에 일제히 하락 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV1FPeEpXWkNQVnloN3ZNYmVpMzBrTXp1ckNxZU5taS0waEN5ZEhnbmUxZ0M4eEVmcHJKYVU1MXoyNjNrZFlGckF5dmZDWE5IWVF2cll1ZnR5YlVwQTRwVmpRUGk3enplX3p4UF9FaVJTQ2pWOEpxWFFaM1RnMC0xQ2V3Z3huSGxkdE94MVIxVWxWekIwZk9KbVU0VU5GZ9IBsgFBVV95cUxQdnAtQUkwZHozdU1SSGtGQU1BVmRDaVM1dTNTM01lUXUyMndrSUR4QTBVMnFzQkNpeTUtM3Ezb2V3YjZVeHVMUnhWc0NTVGdJQjNrREd5SDYyT3B6SjlrWWEwakxiZnNTazMzdjZLLTEzR1FvRFNzdEtVbjJQc0htVkVKOURGZEtmbGd3YjdXak8tOVlKSWRRRVA0X2VjcGhuNUhfQ1JucDI4cDl0X250ZENR?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T21:56:00+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 국제유가 다시 배럴당 100달러로…나스닥 2.2%↓ - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5INWRnVWNuNEc2Y2g2Vk1nVWZzQUtFYVR6Z1hxSlFlZDBEUWUxR1Fxdnl5Ulg4LXBlVkxOWUNsSjBMTXk0SFpDczJ4cWhpSVpNN2FLVkRCNmc5dWNCTnZZMQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T21:55:02+00:00"
     },
     {
       "title": "The stock market’s calm is cracking. Here’s how to prepare for an August shock.",
@@ -430,12 +472,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260723120000030",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T21:30:02+00:00"
-    },
-    {
-      "title": "Intel's stock jumps as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
-      "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T21:25:26+00:00"
     },
     {
       "title": "‘원화 계속 약세’ 콕 집은 美…한국 ‘환율 관찰대상국’에 또 올려",
@@ -558,12 +594,6 @@
       "published": "2026-07-23T20:45:13+00:00"
     },
     {
-      "title": "Lockheed Martin’s stock skyrockets as push to build more missiles faster pays off",
-      "link": "https://www.marketwatch.com/story/lockheed-martins-stock-leaps-as-push-to-build-more-missiles-faster-pays-off-9d7e2091?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T20:41:00+00:00"
-    },
-    {
       "title": "[2보] 미 재무부, 한국 등 10개국 환율 관찰대상국 유지",
       "link": "https://www.yna.co.kr/view/AKR20260724006951072",
       "source": "연합뉴스·경제",
@@ -606,12 +636,6 @@
       "published": "2026-07-23T20:22:32+00:00"
     },
     {
-      "title": "뉴욕증시, AI 투자 우려·유가 100달러 돌파에 하락…나스닥 2.15%↓ - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lc1VLZGxFbG43WnFvcm1GeFcxX1JPNDJjMTJ6bVpBeGRRTHFLUVVGblQ0aW5yeGEwSmY1UlFhcUNnUjdnNktkT2RTcm9YLUtVRG1vdEZBeC1tamE0?oc=5",
-      "source": "Google News",
-      "published": "2026-07-23T20:21:00+00:00"
-    },
-    {
       "title": "American Airlines stock tumbles 8% as fuel spike further postpones turnaround",
       "link": "https://www.cnbc.com/2026/07/23/american-airlines-aal-2q-2026-earnings.html",
       "source": "CNBC Finance",
@@ -628,30 +652,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260724006900072",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T20:10:15+00:00"
-    },
-    {
-      "title": "홍해까지 막힐라…브렌트유 7%↑, 두달 만에 종가 100달러 돌파",
-      "link": "https://www.yna.co.kr/view/AKR20260724006200072",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T20:08:40+00:00"
-    },
-    {
-      "title": "Amazon and Microsoft pivot cloud gaming strategies to target different players",
-      "link": "https://www.cnbc.com/2026/07/23/amazon-microsoft-cloud-gaming.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T20:06:50+00:00"
-    },
-    {
-      "title": "주가 물었더니 반도체값 답한 신현송 … “소득 13.2% 뛰어 금리 올렸다”",
-      "link": "https://www.mk.co.kr/news/economy/12105416",
-      "source": "매일경제·증권",
-      "published": "2026-07-23T20:00:00+00:00"
-    },
-    {
-      "title": "IBM's Krishna tries to reassure investors that AI won't disrupt company's software unit",
-      "link": "https://www.cnbc.com/2026/07/23/ibms-krishna-argues-that-ai-wont-disrupt-software-unit.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T19:19:26+00:00"
     }
   ],
   "pages": [
