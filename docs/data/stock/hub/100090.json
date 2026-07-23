@@ -1,0 +1,17 @@
+{
+  "code": "100090",
+  "name": "SK오션플랜트",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 18535.0,
+    "change_pct": 28.45,
+    "volume": 9683686,
+    "amount": 166840666745.0,
+    "marcap": 1158032121015.0,
+    "as_of_iso": "2026-07-23T05:52:41.234351+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:100090",
+  "related_news": []
+}

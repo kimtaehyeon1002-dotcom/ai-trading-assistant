@@ -1,0 +1,17 @@
+{
+  "code": "028050",
+  "name": "삼성E&A",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 48400.0,
+    "change_pct": 17.19,
+    "volume": 4730759,
+    "amount": 217980309025.0,
+    "marcap": 9486400000000.0,
+    "as_of_iso": "2026-07-23T05:52:41.234301+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:028050",
+  "related_news": []
+}

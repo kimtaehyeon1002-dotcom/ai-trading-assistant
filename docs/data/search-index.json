@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T05:45:10.490669+00:00",
+  "as_of": "2026-07-23T05:52:48.367540+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -27,11 +27,6 @@
       "market": "KOSPI"
     },
     {
-      "code": "006340",
-      "name": "대원전선",
-      "market": "KOSPI"
-    },
-    {
       "code": "005935",
       "name": "삼성전자우",
       "market": "KOSPI"
@@ -42,9 +37,14 @@
       "market": "KOSPI"
     },
     {
-      "code": "439960",
-      "name": "코스모로보틱스",
-      "market": "KOSDAQ"
+      "code": "006340",
+      "name": "대원전선",
+      "market": "KOSPI"
+    },
+    {
+      "code": "028050",
+      "name": "삼성E&A",
+      "market": "KOSPI"
     },
     {
       "code": "005380",
@@ -52,8 +52,33 @@
       "market": "KOSPI"
     },
     {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "439960",
+      "name": "코스모로보틱스",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "042700",
       "name": "한미반도체",
+      "market": "KOSPI"
+    },
+    {
+      "code": "017670",
+      "name": "SK텔레콤",
+      "market": "KOSPI"
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "market": "KOSPI"
+    },
+    {
+      "code": "100090",
+      "name": "SK오션플랜트",
       "market": "KOSPI"
     },
     {
@@ -62,68 +87,13 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "066570",
-      "name": "LG전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "080220",
-      "name": "제주반도체",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "market": "KOSPI"
-    },
-    {
       "code": "006360",
       "name": "GS건설",
       "market": "KOSPI"
     },
     {
-      "code": "196170",
-      "name": "알테오젠",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "017670",
-      "name": "SK텔레콤",
-      "market": "KOSPI"
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "market": "KOSPI"
-    },
-    {
-      "code": "240810",
-      "name": "원익IPS",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "000500",
-      "name": "가온전선",
-      "market": "KOSPI"
-    },
-    {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KOSPI"
-    },
-    {
-      "code": "058610",
-      "name": "에스피지",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "002990",
-      "name": "금호건설",
+      "code": "066570",
+      "name": "LG전자",
       "market": "KOSPI"
     },
     {
@@ -132,14 +102,19 @@
       "market": "KOSPI"
     },
     {
-      "code": "012330",
-      "name": "현대모비스",
+      "code": "012450",
+      "name": "한화에어로스페이스",
       "market": "KOSPI"
     },
     {
-      "code": "028260",
-      "name": "삼성물산",
+      "code": "105560",
+      "name": "KB금융",
       "market": "KOSPI"
+    },
+    {
+      "code": "196170",
+      "name": "알테오젠",
+      "market": "KOSDAQ GLOBAL"
     },
     {
       "code": "042660",
@@ -147,9 +122,34 @@
       "market": "KOSPI"
     },
     {
-      "code": "024060",
-      "name": "흥구석유",
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "119850",
+      "name": "지엔씨에너지",
       "market": "KOSDAQ"
+    },
+    {
+      "code": "240810",
+      "name": "원익IPS",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "market": "KOSPI"
+    },
+    {
+      "code": "095610",
+      "name": "테스",
+      "market": "KOSDAQ GLOBAL"
     },
     {
       "code": "MU",
@@ -172,23 +172,23 @@
       "market": "US"
     },
     {
-      "code": "AAPL",
-      "name": "Apple Inc.",
-      "market": "US"
-    },
-    {
-      "code": "MSFT",
-      "name": "Microsoft",
-      "market": "US"
-    },
-    {
       "code": "GOOGL",
       "name": "Alphabet Inc. (Class A)",
       "market": "US"
     },
     {
+      "code": "AAPL",
+      "name": "Apple Inc.",
+      "market": "US"
+    },
+    {
       "code": "TSLA",
       "name": "Tesla, Inc.",
+      "market": "US"
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft",
       "market": "US"
     },
     {
@@ -222,8 +222,8 @@
       "market": "US"
     },
     {
-      "code": "STX",
-      "name": "Seagate Technology",
+      "code": "GEV",
+      "name": "GE Vernova",
       "market": "US"
     },
     {
@@ -232,13 +232,18 @@
       "market": "US"
     },
     {
-      "code": "GEV",
-      "name": "GE Vernova",
+      "code": "STX",
+      "name": "Seagate Technology",
       "market": "US"
     },
     {
       "code": "T",
       "name": "AT&T",
+      "market": "US"
+    },
+    {
+      "code": "NOW",
+      "name": "ServiceNow",
       "market": "US"
     },
     {
@@ -252,11 +257,6 @@
       "market": "US"
     },
     {
-      "code": "BAC",
-      "name": "Bank of America",
-      "market": "US"
-    },
-    {
       "code": "LITE",
       "name": "Lumentum",
       "market": "US"
@@ -267,18 +267,18 @@
       "market": "US"
     },
     {
-      "code": "NOW",
-      "name": "ServiceNow",
-      "market": "US"
-    },
-    {
-      "code": "NFLX",
-      "name": "Netflix",
+      "code": "BAC",
+      "name": "Bank of America",
       "market": "US"
     },
     {
       "code": "TXN",
       "name": "Texas Instruments",
+      "market": "US"
+    },
+    {
+      "code": "NFLX",
+      "name": "Netflix",
       "market": "US"
     },
     {
@@ -358,6 +358,12 @@
     }
   ],
   "news": [
+    {
+      "title": "“비밀번호 누르다 아차, 450만원 털렸다”…해외서 카드사고, 보상 못 받을수도",
+      "link": "https://www.mk.co.kr/news/economy/12105407",
+      "source": "매일경제·증권",
+      "published": "2026-07-23T05:45:26+00:00"
+    },
     {
       "title": "Oil prices climb after tanker struck off Saudi Arabia, Trump escalates Iran threats",
       "link": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html",
@@ -651,12 +657,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260723094600003",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T02:49:12+00:00"
-    },
-    {
-      "title": "카카오·토스, 미국 서클과 원화 스테이블코인 협력(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260723058351017",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T02:44:53+00:00"
     }
   ],
   "pages": [
