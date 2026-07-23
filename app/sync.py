@@ -53,22 +53,30 @@ def run(start_date: str, push: bool) -> None:
         from collectors import kiwoom_collector
         from collectors.kiwoom_desktop import futures
 
-        night = futures.fetch_night_futures(api)
-
-        # 등락 0.0/None은 마감·개장전 스냅샷(현재가=기준가)일 확률이 높다 →
-        # 직전 유효값을 덮지 않도록 해당 종목은 저장에서 제외한다.
-        def _live(leg: dict | None) -> bool:
-            return bool(leg and leg.get("price") and leg.get("change_pct") not in (None, 0.0))
-
-        kospi = night.get("kospi_night") if _live(night.get("kospi_night")) else None
-        kosdaq = night.get("kosdaq_night") if _live(night.get("kosdaq_night")) else None
-        if kospi or kosdaq:
-            kiwoom_collector.save_night_futures(kospi=kospi, kosdaq=kosdaq)
-            log.info("야간선물 저장: kospi=%s kosdaq=%s", kospi, kosdaq)
+        in_session, session_note = futures.night_session_state()
+        if not in_session:
+            # 창 밖 조회는 마감 스냅샷(현재가=기준가)만 돌려주므로 시도 자체를 하지 않는다.
+            # 사유를 캐시에 남겨야 "왜 어제 값이 그대로인가"를 나중에 되짚을 수 있다.
+            log.info("야간선물 수집 스킵 — %s", session_note)
+            kiwoom_collector.save_skip_reason(session_note)
         else:
-            log.warning(
-                "야간선물 유효 시세 없음(마감/개장전 flat 또는 종목 미발견) — 캐시 미갱신(직전 값 유지)"
-            )
+            log.info("야간선물 수집 시도 — %s", session_note)
+            night = futures.fetch_night_futures(api)
+
+            # 세션 중인데도 등락 0.0/None이면 종목 미발견·호가 공백 등 비정상 →
+            # 직전 유효값을 덮지 않도록 해당 종목은 저장에서 제외한다.
+            def _live(leg: dict | None) -> bool:
+                return bool(leg and leg.get("price") and leg.get("change_pct") not in (None, 0.0))
+
+            kospi = night.get("kospi_night") if _live(night.get("kospi_night")) else None
+            kosdaq = night.get("kosdaq_night") if _live(night.get("kosdaq_night")) else None
+            if kospi or kosdaq:
+                kiwoom_collector.save_night_futures(kospi=kospi, kosdaq=kosdaq)
+                log.info("야간선물 저장: kospi=%s kosdaq=%s", kospi, kosdaq)
+            else:
+                reason = f"세션 중이나 유효 시세 없음(flat 또는 종목 미발견) — {session_note}"
+                log.warning("%s — 캐시 미갱신(직전 값 유지)", reason)
+                kiwoom_collector.save_skip_reason(reason)
     except Exception as exc:  # noqa: BLE001
         log.warning("야간선물 조회 실패(무시하고 계속): %s", exc)
 

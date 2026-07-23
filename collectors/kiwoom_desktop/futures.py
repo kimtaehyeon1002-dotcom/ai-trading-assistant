@@ -12,6 +12,8 @@ from __future__ import annotations
 import re
 
 from collectors.kiwoom_desktop.api import KiwoomAPI, fix_mojibake
+from config.calendar import KR_NIGHT_CLOSE, KR_NIGHT_OPEN, is_kr_night_session
+from utils.dates import now_kst
 from utils.logging import get_logger
 
 log = get_logger("collectors.kiwoom_futures")
@@ -130,3 +132,17 @@ def fetch_night_futures(api: KiwoomAPI) -> dict[str, dict | None]:
         "kospi_night": fetch_quote(api, codes["kospi_night"]) if codes.get("kospi_night") else None,
         "kosdaq_night": fetch_quote(api, codes["kosdaq_night"]) if codes.get("kosdaq_night") else None,
     }
+
+
+def night_session_state() -> tuple[bool, str]:
+    """(세션 중인가, 사람이 읽는 상태 문구) — 수집 시도 전 세션 창 판정(design/23 P2).
+
+    창 밖(05:00~18:00)에 조회하면 opt50001은 현재가=기준가인 flat 스냅샷을 돌려주고,
+    그것은 '야간 시세가 없는 것'이지 '변동이 0인 것'이 아니다. 두 경우가 로그에서 구분되지
+    않아 원인 파악이 늦어졌으므로, 세션 창을 먼저 판정해 사유를 분리해 기록한다.
+    """
+    now = now_kst()
+    if is_kr_night_session(now):
+        return True, f"야간 세션 중({KR_NIGHT_OPEN}~{KR_NIGHT_CLOSE} KST, 현재 {now:%H:%M})"
+    return False, (f"야간 세션 아님(창 {KR_NIGHT_OPEN}~{KR_NIGHT_CLOSE} KST, 현재 {now:%H:%M}) "
+                   f"— 조회해도 마감 스냅샷만 나온다")

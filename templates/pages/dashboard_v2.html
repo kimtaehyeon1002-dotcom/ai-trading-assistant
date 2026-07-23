@@ -37,7 +37,7 @@
     </div>
     <div class="v2-hero-col">
       <div class="v2-overline">한국 증시</div>
-      {% for key in ('kospi', 'kosdaq', 'kospi_night') %}
+      {% for key in ('kospi', 'kosdaq', 'kospi_night', 'kosdaq_night') %}
       {% set q = market.get(key) %}
       {% if q %}
       <div class="v2-hero-index-row">
@@ -74,6 +74,10 @@
       <div class="v2-tile__label">{{ q.name }}</div>
       <div class="v2-tile__value">{{ q.price|price }}</div>
       <div class="v2-tile__change v2-updown {{ q.change_pct|signclass }}">{{ q.change_pct|arrow }} {{ q.change_pct|pctv2 }}</div>
+      {# 기준 시각 상시 표기(design/23 P5) — 값의 나이를 배지 없이도 바로 알 수 있어야 한다 #}
+      <div class="v2-tile__asof">
+        {{ q.as_of }}{% if q.quality == 'degraded' %} · <span class="v2-tile__warn" title="두 소스의 등락률이 어긋납니다">소스 불일치</span>{% endif %}
+      </div>
       {% else %}
       <div class="v2-tile__label">—</div>
       <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
@@ -95,6 +99,10 @@
       <div class="v2-tile__label">{{ q.name }}</div>
       <div class="v2-tile__value">{{ q.price|price }}</div>
       <div class="v2-tile__change v2-updown {{ q.change_pct|signclass }}">{{ q.change_pct|arrow }} {{ q.change_pct|pctv2 }}</div>
+      {# 기준 시각 상시 표기(design/23 P5) — 값의 나이를 배지 없이도 바로 알 수 있어야 한다 #}
+      <div class="v2-tile__asof">
+        {{ q.as_of }}{% if q.quality == 'degraded' %} · <span class="v2-tile__warn" title="두 소스의 등락률이 어긋납니다">소스 불일치</span>{% endif %}
+      </div>
       {% else %}
       <div class="v2-tile__label">—</div>
       <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>

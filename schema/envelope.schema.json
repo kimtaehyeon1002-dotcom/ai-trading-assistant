@@ -28,7 +28,11 @@
     "expected_T_min": { "type": "integer", "minimum": 1 },
     "freshness_basis": { "enum": ["as_of", "collected_at"] },
     "ref_price": { "type": ["number", "null"] },
-    "label": { "type": "string" }
+    "label": { "type": "string" },
+    "quality": {
+      "description": "독립 2소스 교차검증 결과(design/23 D). verified=허용오차 이내 일치, degraded=소스 간 불일치(값은 유지하되 표시단 경고), unverified=대조 소스 없음.",
+      "enum": ["verified", "degraded", "unverified"]
+    }
   },
   "additionalProperties": false
 }

@@ -49,6 +49,10 @@ def to_quotes(validated: dict[str, dict | None]) -> dict[str, Quote | None]:
         prev = e.get("previous_close")
         prev_scaled = (prev * scale) if isinstance(prev, (int, float)) else None
         change_abs = (price - prev_scaled) if prev_scaled is not None else None
+        # 표시용 as_of와 판정용 as_of_iso는 반드시 같은 시각이어야 한다. 종전에는 표시용만
+        # e["as_of"]에서 뽑아, 그 필드가 없는 라이브 수집분(Yahoo)은 화면에 기준 시각이
+        # 아예 비었다 — 값의 나이를 눈으로 확인할 수단이 없었다(design/23 P5).
+        as_of_iso = e.get("as_of") or now_iso
         out[key] = Quote(
             symbol=key,
             name=_NAMES.get(key, key),
@@ -56,10 +60,11 @@ def to_quotes(validated: dict[str, dict | None]) -> dict[str, Quote | None]:
             change_pct=e.get("change_pct"),
             currency=_CURRENCY.get(key, "USD"),
             source=e.get("source", ""),
-            as_of=_as_of_kst(e.get("as_of", "")),
-            as_of_iso=e.get("as_of") or now_iso,
+            as_of=_as_of_kst(as_of_iso),
+            as_of_iso=as_of_iso,
             change_abs=change_abs,
             session_key=session_key,
+            quality=e.get("quality", "unverified"),
         )
     return out
 
@@ -83,6 +88,7 @@ def to_envelope_dict(quotes: dict[str, Quote | None]) -> dict:
             "expected_T_min": expected_t,
             "freshness_basis": "as_of",
             "label": q.name,
+            "quality": q.quality,
         }
         if q.ref_price is not None:
             env["ref_price"] = q.ref_price

@@ -42,10 +42,17 @@ CLASSIFY = {
 NEWS_MAX_PER_CATEGORY = int(os.getenv("NEWS_MAX_PER_CATEGORY", "20"))
 NEWS_FETCH_LIMIT = int(os.getenv("NEWS_FETCH_LIMIT", "40"))
 BREAKING_WINDOW_MIN = int(os.getenv("BREAKING_WINDOW_MIN", "90"))
-# 야간선물 신선도 한도 — 주말 갭 필수 고려: 금요일 밤 세션 데이터가 월요일 06:30 리포트에
-# 나와야 하므로 24h면 부족(일요일 새벽 동기화도 월 06:30에 28.8h로 만료됨). 60h = 금 22시
-# 동기화(56.5h) 커버, 그 이상 낡은 값은 생략.
-NIGHT_FUTURES_MAX_AGE_H = int(os.getenv("NIGHT_FUTURES_MAX_AGE_H", "60"))
+# 야간선물 표시 만료 — 평일/주말 이원화(design/23 P2).
+# 종전에는 평일에도 60h를 적용해, 이틀 전 야간 세션 값이 "오늘 새벽 시세"인 양 대시보드에
+# 남는 결함이 있었다(실제 사고: 07-22 23:12 값 -0.06%가 07-24 06:04 리포트까지 생존).
+#   평일 20h — 정상 경로를 모두 덮는 최소치: 세션 개시(18:00) 직후 수집분이 다음 날 06:30
+#              리포트에 실릴 때가 12.5h로 최장이다. 반대로 '어제 새벽' 값(≥25.8h)은 확실히
+#              탈락시킨다(한 세션 낡은 값 차단이 이 문턱의 존재 이유).
+#   주말 60h — 금요일 밤 세션(토 05:00 마감) 값이 월요일 06:30 리포트에 실려야 한다.
+#              금 22:30 수집분 기준 56h → 60h. 이 한도는 구간에 토·일이 낀 경우에만 적용된다.
+# 공휴일 연휴는 등재된 holidays가 없어 커버하지 않는다 — 낡은 값을 보여주느니 빈칸이 낫다.
+NIGHT_FUTURES_MAX_AGE_H = int(os.getenv("NIGHT_FUTURES_MAX_AGE_H", "20"))
+NIGHT_FUTURES_MAX_AGE_WEEKEND_H = int(os.getenv("NIGHT_FUTURES_MAX_AGE_WEEKEND_H", "60"))
 
 # ── 거시경제(design/20 Phase 6) — 무료 키 발급 필요, 미설정 시 해당 수집기 skipped ──
 FRED_API_KEY = os.getenv("FRED_API_KEY", "")  # https://fred.stlouisfed.org (Federal Reserve)

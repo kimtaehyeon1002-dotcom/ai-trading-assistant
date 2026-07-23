@@ -14,7 +14,13 @@ from __future__ import annotations
 import importlib.util
 from datetime import datetime, timedelta, timezone
 
-from config.markets import EXTENDED_SYMBOLS, MORNING_US_INDICES, WTI_SYMBOL
+from config.markets import (
+    CROSS_CHECK_CODES,
+    CROSS_CHECK_TOLERANCE_PP,
+    EXTENDED_SYMBOLS,
+    MORNING_US_INDICES,
+    WTI_SYMBOL,
+)
 from config.settings import DATA_CACHE_DIR
 from utils.jsonio import load_json, save_json
 from utils.logging import get_logger
@@ -28,6 +34,7 @@ MARKET_LAST_MAX_AGE_H = 26
 
 _memo: dict | None = None
 _yf_available: bool | None = None
+_fdr_ok: bool | None = None
 
 
 def _yahoo_available() -> bool:
@@ -37,6 +44,21 @@ def _yahoo_available() -> bool:
     if _yf_available is None:
         _yf_available = importlib.util.find_spec("yfinance") is not None
     return _yf_available
+
+
+# fast_info 키는 yfinance 버전에 따라 snake_case/camelCase가 갈린다. 실측(yfinance 1.5.1)에서는
+# camelCase만 값이 있고 snake_case는 전부 None을 돌려준다 — 한쪽만 보면 전 심볼이 조용히
+# 결측되므로 후보를 명시해 순서대로 찾는다(이 폴백은 장식이 아니라 필수다).
+_PRICE_KEYS = ("lastPrice", "last_price")
+_PREV_KEYS = ("previousClose", "previous_close", "regularMarketPreviousClose")
+
+
+def _first(fi, keys: tuple[str, ...]) -> float | None:
+    for k in keys:
+        v = fi.get(k)
+        if v is not None:
+            return float(v)
+    return None
 
 
 def _yahoo(symbol: str) -> tuple[float | None, float | None, float | None]:
@@ -50,15 +72,73 @@ def _yahoo(symbol: str) -> tuple[float | None, float | None, float | None]:
         import yfinance as yf
 
         fi = yf.Ticker(symbol).fast_info
-        price = fi.get("last_price") or fi.get("lastPrice")
-        prev = fi.get("previous_close") or fi.get("previousClose")
+        price = _first(fi, _PRICE_KEYS)
+        prev = _first(fi, _PREV_KEYS)
         if price is None:
             return None, None, None
         pct = round((price / prev - 1) * 100, 2) if prev else None
-        return float(price), pct, (float(prev) if prev else None)
+        return price, pct, prev
     except Exception as exc:  # noqa: BLE001
         log.warning("yahoo 실패 %s: %s", symbol, exc)
         return None, None, None
+
+
+def _fdr_available() -> bool:
+    """FinanceDataReader(교차검증 소스) 설치 여부 — 32비트 키움 venv엔 없다(pandas 휠 부재)."""
+    global _fdr_ok
+    if _fdr_ok is None:
+        _fdr_ok = importlib.util.find_spec("FinanceDataReader") is not None
+    return _fdr_ok
+
+
+def _fdr_quote(code: str) -> tuple[float | None, float | None]:
+    """(최근 종가, 전일대비%) — FinanceDataReader 일봉 2개로 close-to-close 계산."""
+    try:
+        import FinanceDataReader as fdr
+
+        closes = fdr.DataReader(code).get("Close")
+        closes = closes.dropna() if closes is not None else None
+        if closes is None or len(closes) < 2:
+            return None, None
+        last, prev = float(closes.iloc[-1]), float(closes.iloc[-2])
+        return last, (round((last / prev - 1) * 100, 2) if prev else None)
+    except Exception as exc:  # noqa: BLE001
+        log.warning("fdr 실패 %s: %s", code, exc)
+        return None, None
+
+
+def _cross_check(out: dict[str, dict | None]) -> None:
+    """Yahoo 값을 독립 소스와 대조해 quality를 부착한다(out을 제자리 수정).
+
+    verified   — 두 소스 등락률이 허용오차 이내(값을 믿을 근거가 생김)
+    degraded   — 어긋남. 값은 남기되 표시단이 경고할 수 있게 표시한다(임의로 어느 쪽이 옳다고
+                 판정하지 않는다 — 둘 중 무엇이 맞는지는 여기서 알 수 없다)
+    unverified — 대조 소스가 없거나 대조 대상이 아님(종전과 동일한 신뢰수준)
+    Yahoo가 결측이면 대조 소스 값으로 채운다(가짜가 아니라 실제 2차 소스 값이다).
+    """
+    if not _fdr_available():
+        log.info("FinanceDataReader 미설치 — 교차검증 스킵(모든 값 unverified)")
+        return
+    for key, code in CROSS_CHECK_CODES.items():
+        ref_price, ref_pct = _fdr_quote(code)
+        entry = out.get(key)
+        if entry is None:
+            if ref_price is not None:
+                out[key] = {"price": ref_price, "change_pct": ref_pct,
+                            "source": "finance-datareader", "quality": "unverified"}
+                log.info("%s Yahoo 결측 → 교차 소스(%s) 값 사용: %s (%s%%)",
+                         key, code, ref_price, ref_pct)
+            continue
+        if ref_pct is None or entry.get("change_pct") is None:
+            entry["quality"] = "unverified"
+            continue
+        gap = abs(entry["change_pct"] - ref_pct)
+        if gap > CROSS_CHECK_TOLERANCE_PP:
+            entry["quality"] = "degraded"
+            log.warning("교차검증 불일치 %s: yahoo %.2f%% vs %s %.2f%% (차 %.2f%%p > %.1f%%p)",
+                        key, entry["change_pct"], code, ref_pct, gap, CROSS_CHECK_TOLERANCE_PP)
+        else:
+            entry["quality"] = "verified"
 
 
 def _entry(price: float, chg: float | None, prev: float | None, source: str) -> dict:
@@ -154,6 +234,7 @@ def collect() -> dict[str, dict | None]:
         out[key] = _yahoo_or_cache(key, symbol)
 
     if live:
+        _cross_check(out)  # 캐시 재사용분은 이미 수집 당시 판정된 quality를 갖고 있다
         _save_last(out)
 
     _memo = out

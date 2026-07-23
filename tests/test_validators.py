@@ -18,19 +18,68 @@ def test_market_drops_invalid_price():
     assert out["wti"] is None and out["usdkrw"] is None  # NaN/음수 가격 거부
 
 
-def test_market_night_futures_freshness():
-    from config.settings import NIGHT_FUTURES_MAX_AGE_H
+# ---------- 야간선물 표시 만료: 평일 20h / 주말 경유 60h(design/23 P2) ----------
+# 시각은 전부 KST로 고정 주입한다 — 주말 규칙이 있어 "실행 시점의 요일"에 결과가 달라지면
+# 테스트가 요일 따라 깜빡인다(2026-07-22=수, 07-24=금, 07-18=토, 07-20=월).
 
-    now = datetime.now(timezone.utc)
-    fresh = (now - timedelta(hours=NIGHT_FUTURES_MAX_AGE_H - 1)).isoformat()
-    stale = (now - timedelta(hours=NIGHT_FUTURES_MAX_AGE_H + 1)).isoformat()
-    raw = {
-        "kospi_night": {"price": 345.0, "change_pct": -0.4, "as_of": fresh, "source": "kiwoom"},
-        "kosdaq_night": {"price": 800.0, "change_pct": 1.2, "as_of": stale, "source": "kiwoom"},
-    }
-    out = v_market(raw)
-    assert out["kospi_night"] is not None  # 한도 이내(주말 갭 포함) → 표시
-    assert out["kosdaq_night"] is None  # 만료 → 표시 금지
+_KST = timezone(timedelta(hours=9))
+
+
+def _night(as_of: datetime, change_pct: float = -0.4) -> dict:
+    return {"price": 345.0, "change_pct": change_pct,
+            "as_of": as_of.isoformat(), "source": "kiwoom"}
+
+
+def test_night_futures_kept_same_morning():
+    """정상 경로 — 새벽 수집분이 같은 날 아침 리포트에 실린다(1.8h)."""
+    out = v_market({"kospi_night": _night(datetime(2026, 7, 24, 4, 40, tzinfo=_KST))},
+                   now=datetime(2026, 7, 24, 6, 30, tzinfo=_KST))
+    assert out["kospi_night"] is not None
+
+
+def test_night_futures_kept_from_session_open():
+    """세션 개시(18:00) 직후 수집분이 다음 날 아침에 실리는 경우가 평일 최장(12.5h)."""
+    out = v_market({"kospi_night": _night(datetime(2026, 7, 23, 18, 5, tzinfo=_KST))},
+                   now=datetime(2026, 7, 24, 6, 30, tzinfo=_KST))
+    assert out["kospi_night"] is not None
+
+
+def test_night_futures_drops_previous_session_on_weekday():
+    """한 세션 낡은 값(어제 새벽, 25.8h)은 평일 한도 20h를 넘어 탈락한다."""
+    out = v_market({"kospi_night": _night(datetime(2026, 7, 23, 4, 40, tzinfo=_KST))},
+                   now=datetime(2026, 7, 24, 6, 30, tzinfo=_KST))
+    assert out["kospi_night"] is None
+
+
+def test_night_futures_drops_two_day_old_weekday_regression():
+    """실제 사고 재현(design/23 P2): 수요일 밤 23:12 값이 금요일 06:04 리포트에 생존했다.
+
+    31h · 구간에 주말 없음 → 탈락해야 한다(종전 60h 단일 한도에서는 통과했다).
+    """
+    out = v_market({"kospi_night": _night(datetime(2026, 7, 22, 23, 12, tzinfo=_KST), -0.06)},
+                   now=datetime(2026, 7, 24, 6, 4, tzinfo=_KST))
+    assert out["kospi_night"] is None
+
+
+def test_night_futures_kept_over_weekend():
+    """금요일 밤 세션(토 04:40 수집) 값은 월요일 아침 리포트까지 살아야 한다(49.8h)."""
+    out = v_market({"kospi_night": _night(datetime(2026, 7, 18, 4, 40, tzinfo=_KST))},
+                   now=datetime(2026, 7, 20, 6, 30, tzinfo=_KST))
+    assert out["kospi_night"] is not None
+
+
+def test_night_futures_drops_beyond_weekend_cap():
+    """목요일 밤 세션(금 04:40) 값은 월요일 아침엔 73.8h — 주말 한도 60h도 넘어 탈락."""
+    out = v_market({"kospi_night": _night(datetime(2026, 7, 17, 4, 40, tzinfo=_KST))},
+                   now=datetime(2026, 7, 20, 6, 30, tzinfo=_KST))
+    assert out["kospi_night"] is None
+
+
+def test_night_futures_requires_as_of():
+    """타임스탬프 없는 값은 나이를 알 수 없다 → 표시 금지."""
+    out = v_market({"kospi_night": {"price": 345.0, "change_pct": -0.4, "source": "kiwoom"}},
+                   now=datetime(2026, 7, 24, 6, 30, tzinfo=_KST))
+    assert out["kospi_night"] is None
 
 
 def test_market_night_futures_drops_flat():

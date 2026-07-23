@@ -13,7 +13,7 @@ from pathlib import Path
 
 from calculators import news_categories, news_rank
 from config import nav
-from config.calendar import SESSIONS
+from config.calendar import KR_NIGHT_CLOSE, KR_NIGHT_OPEN, SESSIONS
 from config.settings import DOCS_DIR
 from generators import pipelines
 from generators.base import render
@@ -21,7 +21,11 @@ from generators.morning.generate import list_dates
 from models.market import Quote
 from utils.dates import fmt_kst, now_kst
 
-_KR_TILE_KEYS = ("kospi", "kosdaq", "kospi_night", "usdkrw")
+# 주간지수 → 야간선물 → 환율 순(2열 그리드에서 행 단위로 짝이 맞는다).
+# kosdaq_night 누락은 design/23 P3 — 수집·저장은 정상인데 표시면에만 키가 없어
+# "코스닥 야간선물이 어디에도 안 보이던" 결함이었다(모닝 dated 페이지 은퇴 후
+# 대시보드가 유일한 표시면이므로 여기 없으면 사이트 전체에 없다).
+_KR_TILE_KEYS = ("kospi", "kosdaq", "kospi_night", "kosdaq_night", "usdkrw")
 _US_TILE_KEYS = ("sp500", "nasdaq", "dow", "vix")
 
 
@@ -57,8 +61,8 @@ def _schedule_rows() -> list[dict]:
     rows = [
         {"time": kr.regular_open, "label": "국내 증시 개장"},
         {"time": kr.regular_close, "label": "국내 증시 마감"},
-        {"time": "18:00", "label": "야간선물 세션 개시"},
-        {"time": "05:00", "label": "야간선물 세션 마감"},
+        {"time": KR_NIGHT_OPEN, "label": "야간선물 세션 개시"},
+        {"time": KR_NIGHT_CLOSE, "label": "야간선물 세션 마감"},
     ]
     if kr.pre_open:
         rows.insert(0, {"time": kr.pre_open, "label": "국내 증시 장전"})

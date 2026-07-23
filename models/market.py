@@ -18,6 +18,7 @@ class Quote:
     change_abs: float | None = None  # 절대 등락폭(가능한 소스만)
     session_key: str = "none"  # kr_regular|kr_night|us_regular|globex|fx|crypto_24h|none
     ref_price: float | None = None  # 기준가(야간선물·마감 스냅샷 등락률 산출 근거)
+    quality: str = "unverified"  # verified|degraded|unverified — 2소스 교차검증 결과(design/23 D)
 
     @property
     def up(self) -> bool | None:

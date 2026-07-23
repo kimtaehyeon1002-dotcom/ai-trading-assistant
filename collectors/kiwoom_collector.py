@@ -33,4 +33,16 @@ def save_night_futures(kospi: dict | None = None, kosdaq: dict | None = None) ->
         data["kospi_night"] = {**kospi, "as_of": now}
     if kosdaq:
         data["kosdaq_night"] = {**kosdaq, "as_of": now}
+    data.pop("last_skip", None)  # 갱신 성공 — 직전 스킵 사유는 더 이상 유효하지 않다
+    save_json(_CACHE, data)
+
+
+def save_skip_reason(reason: str) -> None:
+    """시세를 갱신하지 못한 사유를 기록(값은 건드리지 않는다) — design/23 P2 진단용.
+
+    "값이 왜 어제 것 그대로인가"의 답이 로그 파일에만 있으면 CI/리포트 쪽에서 확인할 수
+    없어, 값과 같은 캐시 파일에 마지막 스킵 사유·시각을 남긴다.
+    """
+    data = load_json(_CACHE, default={}) or {}
+    data["last_skip"] = {"reason": reason, "at": datetime.now(timezone.utc).isoformat()}
     save_json(_CACHE, data)

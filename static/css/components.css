@@ -131,14 +131,22 @@
 .v2-hero-news-row .t { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text-primary); }
 .v2-hero-news-row .tm { color: var(--text-tertiary); font-size: var(--type-caption-size); flex-shrink: 0; }
 
-/* ── 지수 타일 2x2 그리드(design/01 §3-3·§3-4, 십자 디바이더만·중첩 표면 금지) ── */
+/* ── 지수 타일 2열 그리드(design/01 §3-3·§3-4, 십자 디바이더만·중첩 표면 금지) ──
+   타일 개수는 카드마다 다르다(한국 5 / 미국 4) — 3·4번째를 마지막 행으로 하드코딩하지 않고
+   개수와 무관하게 성립하는 규칙으로 둔다(design/23 P3에서 KR이 4→5개가 됐다). */
 .v2-tile-grid { display: grid; grid-template-columns: 1fr 1fr; }
 .v2-tile { padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--border-subtle); }
 .v2-tile:nth-child(odd) { border-right: 1px solid var(--border-subtle); }
-.v2-tile:nth-child(3), .v2-tile:nth-child(4) { border-bottom: none; }
+/* 마지막 행(짝수 개면 마지막 두 개, 홀수 개면 마지막 하나)은 아래 테두리 없음 */
+.v2-tile:last-child,
+.v2-tile:nth-last-child(2):nth-child(odd) { border-bottom: none; }
+/* 홀수 개일 때 마지막 타일이 한 행을 다 차지(반쪽 빈칸 방지) */
+.v2-tile:last-child:nth-child(odd) { grid-column: 1 / -1; border-right: none; }
 .v2-tile__label { font-size: var(--type-caption-size); color: var(--text-secondary); margin-bottom: var(--space-1); }
 .v2-tile__value { font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); color: var(--text-primary); font-variant-numeric: tabular-nums; }
 .v2-tile__change { font-size: 13px; font-weight: 500; margin-top: 2px; }
+.v2-tile__asof { font-size: var(--type-caption-size); color: var(--text-tertiary); margin-top: var(--space-1); font-variant-numeric: tabular-nums; }
+.v2-tile__warn { color: var(--market-down); font-weight: 500; }
 
 /* ── 뉴스 리스트 행(design/01 §3-5) ── */
 .v2-news-row { display: flex; align-items: baseline; gap: var(--space-3); padding: var(--space-2) 0; border-bottom: 1px solid var(--border-subtle); }

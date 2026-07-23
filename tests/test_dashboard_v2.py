@@ -19,14 +19,17 @@ _ASSET_LEAK_RE = re.compile(r"[0-9]{3}[,0-9]*원|총자산|목표금액")
 
 def _sample_context():
     q = Quote(symbol="sp500", name="S&P500", price=7492.0, change_pct=0.46)
+    kosdaq_n = Quote(symbol="kosdaq_night", name="코스닥150 야간선물", price=1356.0, change_pct=1.7)
     news = NewsArticle(title="샘플 기사", link="https://example.com/1", categories=["breaking"])
     return {
         "root": ".",
         "nav": nav_context(active="dashboard"),
         "generated_at": "2026-07-21 09:00 KST",
         "headline": "미국 3대 지수 상승 마감 · 코스피 ▲ 0.50%",
-        "market": {"sp500": q, "nasdaq": q, "dow": q, "kospi": q, "kosdaq": q, "kospi_night": None, "usdkrw": q, "vix": q},
-        "kr_tiles": [("kospi", q), ("kosdaq", q), ("kospi_night", None), ("usdkrw", q)],
+        "market": {"sp500": q, "nasdaq": q, "dow": q, "kospi": q, "kosdaq": q,
+                   "kospi_night": None, "kosdaq_night": kosdaq_n, "usdkrw": q, "vix": q},
+        "kr_tiles": [("kospi", q), ("kosdaq", q), ("kospi_night", None),
+                     ("kosdaq_night", kosdaq_n), ("usdkrw", q)],
         "us_tiles": [("sp500", q), ("nasdaq", q), ("dow", q), ("vix", q)],
         "top_news": [news],
         "recent_news": [(news, "속보")],
@@ -99,6 +102,54 @@ def test_rendered_dashboard_is_v2_shell_with_exactly_five_cards(tmp_path):
         assert f'id="{card_id}"' in html, f"{card_id} 카드 누락"
     # design/01 §3-1 "정확히 5개" 계약 — opt-in 카드(관심종목 등)는 없어야 한다
     assert html.count('class="v2-card ') == 5
+
+
+# ---------- 야간선물 표시면(design/23 P3) ----------
+
+def test_kr_tile_keys_include_both_night_futures():
+    """수집·저장되는 야간선물 2종은 반드시 표시 대상에 포함된다.
+
+    모닝 dated 페이지 은퇴 후 대시보드가 유일한 표시면이라, 여기서 키가 빠지면
+    데이터가 정상 수집돼도 사이트 어디에도 나타나지 않는다(실제 결함 이력).
+    """
+    from generators.dashboard_v2.generate import _KR_TILE_KEYS
+    assert "kospi_night" in _KR_TILE_KEYS
+    assert "kosdaq_night" in _KR_TILE_KEYS
+
+
+def test_rendered_dashboard_shows_kosdaq_night(tmp_path):
+    out = render("pages/dashboard_v2.html", _sample_context(), tmp_path / "index.html")
+    html = out.read_text(encoding="utf-8")
+    assert "코스닥150 야간선물" in html
+
+
+def test_rendered_tiles_show_as_of(tmp_path):
+    """타일마다 기준 시각이 상시 표기된다(design/23 P5) — 배지에 마우스를 올리지 않아도 보인다."""
+    ctx = _sample_context()
+    ctx["kr_tiles"] = [("kospi", Quote(symbol="kospi", name="KOSPI", price=7096.9,
+                                       change_pct=4.4, as_of="07-24 06:30"))]
+    out = render("pages/dashboard_v2.html", ctx, tmp_path / "index.html")
+    assert "07-24 06:30" in out.read_text(encoding="utf-8")
+
+
+def test_rendered_tile_flags_degraded_quality(tmp_path):
+    """두 소스가 어긋난 값은 숫자를 지우지 않되 화면에 불일치를 알린다."""
+    ctx = _sample_context()
+    ctx["kr_tiles"] = [("kospi", Quote(symbol="kospi", name="KOSPI", price=7096.9,
+                                       change_pct=4.4, as_of="07-24 06:30",
+                                       quality="degraded"))]
+    html = render("pages/dashboard_v2.html", ctx, tmp_path / "index.html").read_text(encoding="utf-8")
+    assert "소스 불일치" in html
+    assert "7,096.9" in html or "7,097" in html  # 값 자체는 유지
+
+
+def test_rendered_tile_omits_warning_when_verified(tmp_path):
+    ctx = _sample_context()
+    ctx["kr_tiles"] = [("kospi", Quote(symbol="kospi", name="KOSPI", price=7096.9,
+                                       change_pct=4.4, as_of="07-24 06:30",
+                                       quality="verified"))]
+    html = render("pages/dashboard_v2.html", ctx, tmp_path / "index.html").read_text(encoding="utf-8")
+    assert "소스 불일치" not in html
 
 
 def test_rendered_dashboard_updown_script_loaded(tmp_path):
