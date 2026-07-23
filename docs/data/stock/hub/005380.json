@@ -4,12 +4,12 @@
   "market": "KOSPI",
   "theme": "자동차",
   "quote": {
-    "close": 418000.0,
-    "change_pct": 4.76,
-    "volume": 877549,
-    "amount": 372819042000.0,
-    "marcap": 85588746188000.0,
-    "as_of_iso": "2026-07-22T22:49:22.951768+00:00",
+    "close": 429500.0,
+    "change_pct": 2.75,
+    "volume": 254933,
+    "amount": 108915725750.0,
+    "marcap": 87943460497000.0,
+    "as_of_iso": "2026-07-23T02:34:35.421371+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:005380",

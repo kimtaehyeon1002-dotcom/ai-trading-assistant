@@ -1,0 +1,17 @@
+{
+  "code": "000500",
+  "name": "가온전선",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 211250.0,
+    "change_pct": 0.84,
+    "volume": 267775,
+    "amount": 56400205700.0,
+    "marcap": 6290519478750.0,
+    "as_of_iso": "2026-07-23T02:34:35.421456+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:000500",
+  "related_news": []
+}

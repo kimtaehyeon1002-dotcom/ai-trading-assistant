@@ -1,15 +1,15 @@
 {
   "code": "006400",
   "name": "삼성SDI",
-  "market": "KOSPI",
+  "market": "KRX",
   "theme": "2차전지",
   "quote": {
-    "close": 419000.0,
-    "change_pct": 0.6,
-    "volume": 321001,
-    "amount": 137590718000.0,
-    "marcap": 33765337070000.0,
-    "as_of_iso": "2026-07-22T22:49:22.951903+00:00",
+    "close": 436000.0,
+    "change_pct": 4.06,
+    "volume": 102176,
+    "amount": 44161415250.0,
+    "marcap": 35135291080000.0,
+    "as_of_iso": "2026-07-23T02:34:35.421738+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:006400",
