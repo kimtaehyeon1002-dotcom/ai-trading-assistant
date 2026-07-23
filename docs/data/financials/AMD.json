@@ -2,11 +2,116 @@
   "code": "AMD",
   "name": "Advanced Micro Devices",
   "market": "US",
-  "as_of": "2026-07-23T22:10:33.785863+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
+  "as_of": "2026-07-23T22:31:04.199667+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 34.34,
+    "cagr_pct": 13.64,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 16434000000
+      },
+      {
+        "year": "2022",
+        "value": 23601000000
+      },
+      {
+        "year": "2023",
+        "value": 22680000000
+      },
+      {
+        "year": "2024",
+        "value": 25785000000
+      },
+      {
+        "year": "2025",
+        "value": 34639000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 10.66,
+    "own_5y_avg": 7.15,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 22.2
+      },
+      {
+        "year": "2022",
+        "value": 5.36
+      },
+      {
+        "year": "2023",
+        "value": 1.77
+      },
+      {
+        "year": "2024",
+        "value": 7.37
+      },
+      {
+        "year": "2025",
+        "value": 10.66
+      }
+    ]
+  },
   "stability": null,
-  "cashflow": null,
-  "valuation": null
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 6735000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 4000000
+      },
+      {
+        "year": "2017",
+        "value": -101000000
+      },
+      {
+        "year": "2018",
+        "value": -129000000
+      },
+      {
+        "year": "2019",
+        "value": 276000000
+      },
+      {
+        "year": "2020",
+        "value": 777000000
+      },
+      {
+        "year": "2021",
+        "value": 3220000000
+      },
+      {
+        "year": "2022",
+        "value": 3115000000
+      },
+      {
+        "year": "2023",
+        "value": 1121000000
+      },
+      {
+        "year": "2024",
+        "value": 2405000000
+      },
+      {
+        "year": "2025",
+        "value": 6735000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 2.65,
+    "per": 208.43,
+    "note": null
+  }
 }

@@ -2,11 +2,116 @@
   "code": "INTC",
   "name": "Intel",
   "market": "US",
-  "as_of": "2026-07-23T22:10:33.787926+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
+  "as_of": "2026-07-23T22:31:06.980187+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": -0.47,
+    "cagr_pct": -5.71,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2021",
+        "value": 79024000000
+      },
+      {
+        "year": "2022",
+        "value": 63054000000
+      },
+      {
+        "year": "2023",
+        "value": 54228000000
+      },
+      {
+        "year": "2024",
+        "value": 53101000000
+      },
+      {
+        "year": "2025",
+        "value": 52853000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": -4.19,
+    "own_5y_avg": 14.71,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2021",
+        "value": 24.62
+      },
+      {
+        "year": "2022",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "value": 0.17
+      },
+      {
+        "year": "2024",
+        "value": -21.99
+      },
+      {
+        "year": "2025",
+        "value": -4.19
+      }
+    ]
+  },
   "stability": null,
-  "cashflow": null,
-  "valuation": null
+  "cashflow": {
+    "latest_year": "2025",
+    "value": -4949000000,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2012",
+        "value": 7857000000
+      },
+      {
+        "year": "2017",
+        "value": 10332000000
+      },
+      {
+        "year": "2018",
+        "value": 14251000000
+      },
+      {
+        "year": "2019",
+        "value": 16932000000
+      },
+      {
+        "year": "2020",
+        "value": 21605000000
+      },
+      {
+        "year": "2021",
+        "value": 10723000000
+      },
+      {
+        "year": "2022",
+        "value": -9411000000
+      },
+      {
+        "year": "2023",
+        "value": -14279000000
+      },
+      {
+        "year": "2024",
+        "value": -15656000000
+      },
+      {
+        "year": "2025",
+        "value": -4949000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": -0.06,
+    "per": null,
+    "note": "적자 — PER 산출 불가"
+  }
 }

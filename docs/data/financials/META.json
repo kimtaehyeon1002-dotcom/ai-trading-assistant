@@ -2,11 +2,142 @@
   "code": "META",
   "name": "Meta Platforms",
   "market": "US",
-  "as_of": "2026-07-23T22:10:33.788602+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null
+  "as_of": "2026-07-23T22:31:07.743075+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 22.17,
+    "cagr_pct": 19.89,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 117929000000
+      },
+      {
+        "year": "2022",
+        "value": 116609000000
+      },
+      {
+        "year": "2023",
+        "value": 134902000000
+      },
+      {
+        "year": "2024",
+        "value": 164501000000
+      },
+      {
+        "year": "2025",
+        "value": 200966000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 41.44,
+    "own_5y_avg": 39.4,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 39.65
+      },
+      {
+        "year": "2022",
+        "value": 24.82
+      },
+      {
+        "year": "2023",
+        "value": 34.66
+      },
+      {
+        "year": "2024",
+        "value": 42.18
+      },
+      {
+        "year": "2025",
+        "value": 41.44
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 68.48,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 32.92
+      },
+      {
+        "year": "2022",
+        "value": 47.74
+      },
+      {
+        "year": "2023",
+        "value": 49.92
+      },
+      {
+        "year": "2024",
+        "value": 51.15
+      },
+      {
+        "year": "2025",
+        "value": 68.48
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 46109000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 11617000000
+      },
+      {
+        "year": "2017",
+        "value": 17483000000
+      },
+      {
+        "year": "2018",
+        "value": 15359000000
+      },
+      {
+        "year": "2019",
+        "value": 21212000000
+      },
+      {
+        "year": "2020",
+        "value": 23584000000
+      },
+      {
+        "year": "2021",
+        "value": 38993000000
+      },
+      {
+        "year": "2022",
+        "value": 19289000000
+      },
+      {
+        "year": "2023",
+        "value": 44068000000
+      },
+      {
+        "year": "2024",
+        "value": 54072000000
+      },
+      {
+        "year": "2025",
+        "value": 46109000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 23.49,
+    "per": 26.7,
+    "note": null
+  }
 }

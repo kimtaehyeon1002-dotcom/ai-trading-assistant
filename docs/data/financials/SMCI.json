@@ -2,11 +2,142 @@
   "code": "SMCI",
   "name": "Supermicro",
   "market": "US",
-  "as_of": "2026-07-23T22:10:33.789284+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null
+  "as_of": "2026-07-23T22:31:08.683945+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 46.59,
+    "cagr_pct": 61.71,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 3557422000
+      },
+      {
+        "year": "2022",
+        "value": 5196099000
+      },
+      {
+        "year": "2023",
+        "value": 7123482000
+      },
+      {
+        "year": "2024",
+        "value": 14989251000
+      },
+      {
+        "year": "2025",
+        "value": 21972042000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 5.7,
+    "own_5y_avg": 5.15,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2021",
+        "value": 3.48
+      },
+      {
+        "year": "2022",
+        "value": 6.45
+      },
+      {
+        "year": "2023",
+        "value": 10.68
+      },
+      {
+        "year": "2024",
+        "value": 8.08
+      },
+      {
+        "year": "2025",
+        "value": 5.7
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 122.45,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2021",
+        "value": 104.5
+      },
+      {
+        "year": "2022",
+        "value": 124.81
+      },
+      {
+        "year": "2023",
+        "value": 86.34
+      },
+      {
+        "year": "2024",
+        "value": 81.38
+      },
+      {
+        "year": "2025",
+        "value": 122.45
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 1532310000,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2016",
+        "value": 73879000
+      },
+      {
+        "year": "2017",
+        "value": -125553000
+      },
+      {
+        "year": "2018",
+        "value": 59523000
+      },
+      {
+        "year": "2019",
+        "value": 237705000
+      },
+      {
+        "year": "2020",
+        "value": -74672000
+      },
+      {
+        "year": "2021",
+        "value": 64939000
+      },
+      {
+        "year": "2022",
+        "value": -485983000
+      },
+      {
+        "year": "2023",
+        "value": 626787000
+      },
+      {
+        "year": "2024",
+        "value": -2610251000
+      },
+      {
+        "year": "2025",
+        "value": 1532310000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 1.68,
+    "per": 18.19,
+    "note": null
+  }
 }

@@ -101,3 +101,20 @@ def test_v2_skeleton_page_renders_shell(monkeypatch, tmp_path):
 def test_templates_dir_has_v2_shell_files():
     assert (TEMPLATES_DIR / "base_v2.html").exists()
     assert (TEMPLATES_DIR / "_macros_v2" / "nav.html").exists()
+
+
+# {% block content %}는 base_v2.html의 .v2-content(12컬럼 그리드) 안에 그대로 삽입된다. 그 안에서
+# card_shell 매크로를 거치지 않고 직접 <div id="...">를 쓰면(JS가 나중에 채우는 "wrap/browse/detail"
+# 컨테이너 등) grid-column 지정이 없어 기본값(1칸)만 차지해 카드 전체가 세로로 눌리는 실제 버그가
+# 있었다(Asset/Portfolio/Financial Statements 3개 페이지, 2026-07-24 실사용 중 발견). 재발 방지.
+_WRAP_DIV_RE = re.compile(r'<div\s+id="[a-z0-9_-]*(?:wrap|browse|detail)[a-z0-9_-]*"[^>]*>')
+
+
+def test_content_block_wrapper_divs_have_grid_span():
+    for path in (TEMPLATES_DIR / "pages").glob("*.html"):
+        text = path.read_text(encoding="utf-8")
+        if "{% block content %}" not in text:
+            continue
+        body = text.split("{% block content %}", 1)[1].split("{% endblock %}", 1)[0]
+        for tag in _WRAP_DIV_RE.findall(body):
+            assert "v2-span-" in tag, f"{path.name}: 그리드 span 없는 최상위 wrap div — {tag}"

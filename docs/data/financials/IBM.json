@@ -2,11 +2,115 @@
   "code": "IBM",
   "name": "IBM",
   "market": "US",
-  "as_of": "2026-07-23T22:10:33.793961+00:00",
-  "source": "none",
-  "growth": null,
+  "as_of": "2026-07-23T22:31:17.754778+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 7.62,
+    "cagr_pct": 3.72,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 57350000000
+      },
+      {
+        "year": "2022",
+        "value": 60530000000
+      },
+      {
+        "year": "2023",
+        "value": 61860000000
+      },
+      {
+        "year": "2024",
+        "value": 62753000000
+      },
+      {
+        "year": "2025",
+        "value": 67535000000
+      }
+    ]
+  },
   "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null
+  "stability": {
+    "latest_year": "2025",
+    "value": 364.92,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2021",
+        "value": 597.88
+      },
+      {
+        "year": "2022",
+        "value": 479.5
+      },
+      {
+        "year": "2023",
+        "value": 499.84
+      },
+      {
+        "year": "2024",
+        "value": 402.03
+      },
+      {
+        "year": "2025",
+        "value": 364.92
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 12102000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 13517000000
+      },
+      {
+        "year": "2017",
+        "value": 13495000000
+      },
+      {
+        "year": "2018",
+        "value": 11852000000
+      },
+      {
+        "year": "2019",
+        "value": 12484000000
+      },
+      {
+        "year": "2020",
+        "value": 15579000000
+      },
+      {
+        "year": "2021",
+        "value": 10734000000
+      },
+      {
+        "year": "2022",
+        "value": 9089000000
+      },
+      {
+        "year": "2023",
+        "value": 12686000000
+      },
+      {
+        "year": "2024",
+        "value": 12397000000
+      },
+      {
+        "year": "2025",
+        "value": 12102000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 11.17,
+    "per": 18.42,
+    "note": null
+  }
 }

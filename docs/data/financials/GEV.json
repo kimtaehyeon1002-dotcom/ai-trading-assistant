@@ -2,11 +2,102 @@
   "code": "GEV",
   "name": "GE Vernova",
   "market": "US",
-  "as_of": "2026-07-23T22:10:33.789589+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null
+  "as_of": "2026-07-23T22:31:09.106248+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 8.97,
+    "cagr_pct": 8.68,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 29654000000
+      },
+      {
+        "year": "2023",
+        "value": 33239000000
+      },
+      {
+        "year": "2024",
+        "value": 34935000000
+      },
+      {
+        "year": "2025",
+        "value": 38068000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 3.65,
+    "own_5y_avg": -1.88,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": -9.72
+      },
+      {
+        "year": "2023",
+        "value": -2.78
+      },
+      {
+        "year": "2024",
+        "value": 1.35
+      },
+      {
+        "year": "2025",
+        "value": 3.65
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 453.75,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2023",
+        "value": 508.91
+      },
+      {
+        "year": "2024",
+        "value": 428.37
+      },
+      {
+        "year": "2025",
+        "value": 453.75
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 4987000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": -114000000
+      },
+      {
+        "year": "2023",
+        "value": 1186000000
+      },
+      {
+        "year": "2024",
+        "value": 2583000000
+      },
+      {
+        "year": "2025",
+        "value": 4987000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 17.69,
+    "per": 55.68,
+    "note": null
+  }
 }

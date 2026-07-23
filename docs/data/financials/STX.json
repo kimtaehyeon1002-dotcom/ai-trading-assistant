@@ -2,11 +2,142 @@
   "code": "STX",
   "name": "Seagate Technology",
   "market": "US",
-  "as_of": "2026-07-23T22:10:33.790317+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null
+  "as_of": "2026-07-23T22:31:09.997085+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 38.86,
+    "cagr_pct": -7.94,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 10681000000
+      },
+      {
+        "year": "2022",
+        "value": 11661000000
+      },
+      {
+        "year": "2023",
+        "value": 7384000000
+      },
+      {
+        "year": "2024",
+        "value": 6551000000
+      },
+      {
+        "year": "2025",
+        "value": 9097000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 20.78,
+    "own_5y_avg": 11.65,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 13.97
+      },
+      {
+        "year": "2022",
+        "value": 16.77
+      },
+      {
+        "year": "2023",
+        "value": -4.63
+      },
+      {
+        "year": "2024",
+        "value": 6.9
+      },
+      {
+        "year": "2025",
+        "value": 20.78
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": -1871.08,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 1274.8
+      },
+      {
+        "year": "2022",
+        "value": 8105.5
+      },
+      {
+        "year": "2023",
+        "value": -730.19
+      },
+      {
+        "year": "2024",
+        "value": -619.05
+      },
+      {
+        "year": "2025",
+        "value": -1871.08
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 818000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 1093000000
+      },
+      {
+        "year": "2017",
+        "value": 1482000000
+      },
+      {
+        "year": "2018",
+        "value": 1747000000
+      },
+      {
+        "year": "2019",
+        "value": 1159000000
+      },
+      {
+        "year": "2020",
+        "value": 1129000000
+      },
+      {
+        "year": "2021",
+        "value": 1128000000
+      },
+      {
+        "year": "2022",
+        "value": 1276000000
+      },
+      {
+        "year": "2023",
+        "value": 626000000
+      },
+      {
+        "year": "2024",
+        "value": 664000000
+      },
+      {
+        "year": "2025",
+        "value": 818000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 6.77,
+    "per": 134.14,
+    "note": null
+  }
 }

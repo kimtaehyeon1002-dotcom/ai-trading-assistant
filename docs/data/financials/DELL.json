@@ -2,11 +2,142 @@
   "code": "DELL",
   "name": "Dell Technologies",
   "market": "US",
-  "as_of": "2026-07-23T22:10:33.792288+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null
+  "as_of": "2026-07-23T22:31:13.277080+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2026",
+    "value": 18.8,
+    "cagr_pct": 3.53,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 101197000000
+      },
+      {
+        "year": "2023",
+        "value": 102301000000
+      },
+      {
+        "year": "2024",
+        "value": 88425000000
+      },
+      {
+        "year": "2025",
+        "value": 95567000000
+      },
+      {
+        "year": "2026",
+        "value": 113538000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2026",
+    "value": 7.18,
+    "own_5y_avg": 3.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "value": 5.64
+      },
+      {
+        "year": "2024",
+        "value": 6.12
+      },
+      {
+        "year": "2025",
+        "value": 6.53
+      },
+      {
+        "year": "2026",
+        "value": 7.18
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2026",
+    "value": -4200.65,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": -5597.33
+      },
+      {
+        "year": "2023",
+        "value": -2967.2
+      },
+      {
+        "year": "2024",
+        "value": -3783.48
+      },
+      {
+        "year": "2025",
+        "value": -5474.56
+      },
+      {
+        "year": "2026",
+        "value": -4200.65
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2026",
+    "value": 8552000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2017",
+        "value": 1668000000
+      },
+      {
+        "year": "2018",
+        "value": 5631000000
+      },
+      {
+        "year": "2019",
+        "value": 5494000000
+      },
+      {
+        "year": "2020",
+        "value": 6715000000
+      },
+      {
+        "year": "2021",
+        "value": 9325000000
+      },
+      {
+        "year": "2022",
+        "value": 7511000000
+      },
+      {
+        "year": "2023",
+        "value": 562000000
+      },
+      {
+        "year": "2024",
+        "value": 5920000000
+      },
+      {
+        "year": "2025",
+        "value": 1869000000
+      },
+      {
+        "year": "2026",
+        "value": 8552000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2026",
+    "eps": 8.68,
+    "per": 50.9,
+    "note": null
+  }
 }

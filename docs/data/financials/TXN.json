@@ -2,11 +2,142 @@
   "code": "TXN",
   "name": "Texas Instruments",
   "market": "US",
-  "as_of": "2026-07-23T22:10:33.792980+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null
+  "as_of": "2026-07-23T22:31:15.852560+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 13.05,
+    "cagr_pct": -4.07,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 18344000000
+      },
+      {
+        "year": "2022",
+        "value": 20028000000
+      },
+      {
+        "year": "2023",
+        "value": 17519000000
+      },
+      {
+        "year": "2024",
+        "value": 15641000000
+      },
+      {
+        "year": "2025",
+        "value": 17682000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 34.06,
+    "own_5y_avg": 41.04,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2021",
+        "value": 48.84
+      },
+      {
+        "year": "2022",
+        "value": 50.63
+      },
+      {
+        "year": "2023",
+        "value": 41.85
+      },
+      {
+        "year": "2024",
+        "value": 34.94
+      },
+      {
+        "year": "2025",
+        "value": 34.06
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 112.53,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2021",
+        "value": 85.07
+      },
+      {
+        "year": "2022",
+        "value": 86.64
+      },
+      {
+        "year": "2023",
+        "value": 91.44
+      },
+      {
+        "year": "2024",
+        "value": 110.08
+      },
+      {
+        "year": "2025",
+        "value": 112.53
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 2603000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 4083000000
+      },
+      {
+        "year": "2017",
+        "value": 4668000000
+      },
+      {
+        "year": "2018",
+        "value": 6058000000
+      },
+      {
+        "year": "2019",
+        "value": 5802000000
+      },
+      {
+        "year": "2020",
+        "value": 5490000000
+      },
+      {
+        "year": "2021",
+        "value": 6294000000
+      },
+      {
+        "year": "2022",
+        "value": 5923000000
+      },
+      {
+        "year": "2023",
+        "value": 1349000000
+      },
+      {
+        "year": "2024",
+        "value": 1498000000
+      },
+      {
+        "year": "2025",
+        "value": 2603000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 5.45,
+    "per": 53.98,
+    "note": null
+  }
 }

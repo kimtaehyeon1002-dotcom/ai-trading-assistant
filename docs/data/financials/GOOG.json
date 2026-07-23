@@ -2,11 +2,142 @@
   "code": "GOOG",
   "name": "Alphabet Inc. (Class C)",
   "market": "US",
-  "as_of": "2026-07-23T22:10:33.788229+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null
+  "as_of": "2026-07-23T22:31:07.291746+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 15.09,
+    "cagr_pct": 11.82,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2020",
+        "value": 182527000000
+      },
+      {
+        "year": "2021",
+        "value": 257637000000
+      },
+      {
+        "year": "2023",
+        "value": 307394000000
+      },
+      {
+        "year": "2024",
+        "value": 350018000000
+      },
+      {
+        "year": "2025",
+        "value": 402836000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 32.03,
+    "own_5y_avg": 26.2,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2020",
+        "value": 22.59
+      },
+      {
+        "year": "2021",
+        "value": 30.55
+      },
+      {
+        "year": "2023",
+        "value": 27.42
+      },
+      {
+        "year": "2024",
+        "value": 32.11
+      },
+      {
+        "year": "2025",
+        "value": 32.03
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 43.35,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 42.77
+      },
+      {
+        "year": "2022",
+        "value": 42.6
+      },
+      {
+        "year": "2023",
+        "value": 42.0
+      },
+      {
+        "year": "2024",
+        "value": 38.5
+      },
+      {
+        "year": "2025",
+        "value": 43.35
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 73266000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 25824000000
+      },
+      {
+        "year": "2017",
+        "value": 23907000000
+      },
+      {
+        "year": "2018",
+        "value": 22832000000
+      },
+      {
+        "year": "2019",
+        "value": 30972000000
+      },
+      {
+        "year": "2020",
+        "value": 42843000000
+      },
+      {
+        "year": "2021",
+        "value": 67012000000
+      },
+      {
+        "year": "2022",
+        "value": 60010000000
+      },
+      {
+        "year": "2023",
+        "value": 69495000000
+      },
+      {
+        "year": "2024",
+        "value": 72764000000
+      },
+      {
+        "year": "2025",
+        "value": 73266000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 10.81,
+    "per": 31.63,
+    "note": null
+  }
 }
