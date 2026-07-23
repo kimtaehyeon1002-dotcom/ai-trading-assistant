@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T11:27:45.286340+00:00",
+  "as_of": "2026-07-23T13:07:34.902253+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,10 +354,106 @@
   ],
   "news": [
     {
-      "title": "Houthis claim strikes on Saudi oil tankers as Rubio says Iran not ready to make a deal",
+      "title": "Trump says Saudi nuclear deal contingent on relations with Israel, does not include enrichment",
+      "link": "https://www.cnbc.com/2026/07/23/trump-saudi-arabia-nuclear-power.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T13:00:08+00:00"
+    },
+    {
+      "title": "10-year Treasury yield tops 4.7%, highest since January 2025",
+      "link": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T12:58:02+00:00"
+    },
+    {
+      "title": "Southwest Airlines' third-quarter forecast falls short as fuel bill climbs",
+      "link": "https://www.cnbc.com/2026/07/22/southwest-airlines-luv-2q-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T12:51:17+00:00"
+    },
+    {
+      "title": "American Airlines slashes 2026 earnings outlook as fuel costs spike",
+      "link": "https://www.cnbc.com/2026/07/23/american-airlines-aal-2q-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T12:44:51+00:00"
+    },
+    {
+      "title": "Comcast earnings highlight NBCUniversal strength ahead of planned split",
+      "link": "https://www.cnbc.com/2026/07/23/comcast-earnings-nbcuniversal-strength-split.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T12:43:58+00:00"
+    },
+    {
+      "title": "UniCredit CEO tells CNBC acquisition of Commerzbank could happen in fourth quarter",
+      "link": "https://www.cnbc.com/2026/07/23/unicredit-commerzbank-takeover-acquisition-2q-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T12:39:43+00:00"
+    },
+    {
+      "title": "AI stocks are echoing a 1990s market split. JPMorgan warns the next few weeks are critical.",
+      "link": "https://www.marketwatch.com/story/ai-stocks-are-echoing-a-1990s-market-split-jpmorgan-warns-the-next-few-weeks-are-critical-408ed725?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T12:38:00+00:00"
+    },
+    {
+      "title": "Trump says U.S. will hold Iran responsible for Houthi attacks after oil tankers targeted in Red Sea",
       "link": "https://www.cnbc.com/2026/07/23/iran-war-us-trump-houthis-red-sea-oil.html",
       "source": "CNBC Finance",
-      "published": "2026-07-23T11:25:40+00:00"
+      "published": "2026-07-23T12:36:17+00:00"
+    },
+    {
+      "title": "AARP to Congress: 'We strongly object to fast-tracking Social Security changes'",
+      "link": "https://www.cnbc.com/2026/07/23/aarp-opposes-bipartisan-social-security-reform-proposal.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T12:35:01+00:00"
+    },
+    {
+      "title": "Cyclospora outbreak tests RFK Jr.'s promise to overhaul food system, rebuild trust in CDC",
+      "link": "https://www.cnbc.com/2026/07/23/cyclospora-outbreak-tests-rfk-jr-response-funding-cuts.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T12:32:10+00:00"
+    },
+    {
+      "title": "Japan’s $1.8 trillion pension giant might bring money home. That could jolt U.S. stocks and the Fed.",
+      "link": "https://www.marketwatch.com/story/japans-1-8-trillion-pension-giant-might-bring-money-home-that-could-jolt-u-s-stocks-and-the-fed-908c66d5?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T12:16:00+00:00"
+    },
+    {
+      "title": "Russia’s Amazon-style retail giant Wildberries is now in Ukraine’s crosshairs. Here's why",
+      "link": "https://www.cnbc.com/2026/07/23/ukraine-russia-war-wildberries-drones-amazon.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T12:13:43+00:00"
+    },
+    {
+      "title": "Ozempic face? Botox boom boosted by 'sagging face' trend, Swiss firm says",
+      "link": "https://www.cnbc.com/2026/07/23/botox-galderma-ozempic-face-glp1.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T11:57:31+00:00"
+    },
+    {
+      "title": "Lockheed Martin’s stock leaps as push to build more missiles faster pays off",
+      "link": "https://www.marketwatch.com/story/lockheed-martins-stock-leaps-as-push-to-build-more-missiles-faster-pays-off-9d7e2091?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T11:56:00+00:00"
+    },
+    {
+      "title": "China's Geely to make EVs at Ford plant in Spain under new joint venture",
+      "link": "https://www.cnbc.com/2026/07/23/ford-china-geely-ev-europe.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T11:49:29+00:00"
+    },
+    {
+      "title": "40대 여행가방서 10억 돈뭉치…해먹은 돈 반의 반도 안된다는데",
+      "link": "https://www.mk.co.kr/news/economy/12105939",
+      "source": "매일경제·증권",
+      "published": "2026-07-23T11:39:43+00:00"
+    },
+    {
+      "title": "A tax break for preserving land has drawn IRS scrutiny. Here’s when it still makes sense",
+      "link": "https://www.cnbc.com/2026/07/23/conservation-easements-tax-incentives-irs-crackdown.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T11:30:01+00:00"
     },
     {
       "title": "Senate panel advances China auto bill that could bar Mercedes-Benz from U.S.",
@@ -370,18 +466,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260723190100002",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T11:18:18+00:00"
-    },
-    {
-      "title": "Comcast earnings highlight NBCUniversal strength ahead of planned split",
-      "link": "https://www.cnbc.com/2026/07/23/comcast-earnings-nbcuniversal-strength-split.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T11:17:21+00:00"
-    },
-    {
-      "title": "American Airlines slashes 2026 earnings outlook as fuel costs spike",
-      "link": "https://www.cnbc.com/2026/07/23/american-airlines-aal-2q-2026-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T11:17:16+00:00"
     },
     {
       "title": "Moonshot AI accessed Nvidia's chips despite Chinese export ban, White House official says",
@@ -400,18 +484,6 @@
       "link": "https://www.marketwatch.com/story/the-u-s-premium-for-sk-hynix-is-set-to-stay-after-korean-regulatory-ruling-bde1ddb6?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-23T11:04:00+00:00"
-    },
-    {
-      "title": "AI stocks are echoing a 1990s market split. JPMorgan warns the next few weeks are critical.",
-      "link": "https://www.marketwatch.com/story/ai-stocks-are-echoing-a-1990s-market-split-jpmorgan-warns-the-next-few-weeks-are-critical-408ed725?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T11:01:00+00:00"
-    },
-    {
-      "title": "China's Geely to make EVs at Ford plant in Spain under new joint venture",
-      "link": "https://www.cnbc.com/2026/07/23/ford-china-geely-ev-europe.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T11:00:40+00:00"
     },
     {
       "title": "\"국민연금은 증시 부양·주가 방어용 아냐\"…김성주 작심발언 - 한국경제",
@@ -442,12 +514,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260723186100004",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T10:49:50+00:00"
-    },
-    {
-      "title": "Ozempic face? Botox maker reports boost from 'sagging face' trend",
-      "link": "https://www.cnbc.com/2026/07/23/botox-galderma-ozempic-face-glp1.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T10:48:47+00:00"
     },
     {
       "title": "Eli Lilly says it will file for approval of next-generation obesity drug in 2027 as it clears two more trials",
@@ -486,12 +552,6 @@
       "published": "2026-07-23T09:57:00+00:00"
     },
     {
-      "title": "Russia’s Amazon-style retail giant Wildberries is now in Ukraine’s crosshairs. Here's why",
-      "link": "https://www.cnbc.com/2026/07/23/ukraine-russia-war-wildberries-drones-amazon.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T09:54:53+00:00"
-    },
-    {
       "title": "Why beat-and-raise earnings reports are no longer enough to push the stock market higher",
       "link": "https://www.marketwatch.com/story/why-beat-and-raise-earnings-reports-are-no-longer-enough-to-push-the-stock-market-higher-d6b2cae4?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -528,12 +588,6 @@
       "published": "2026-07-23T09:34:00+00:00"
     },
     {
-      "title": "‘It would feel like a burden’: My stepmother, 96, owns the house I grew up in. Is it wrong to tell her I don’t want to inherit it?",
-      "link": "https://www.marketwatch.com/story/it-would-feel-like-a-burden-my-stepmother-96-owns-the-house-i-grew-up-in-is-it-wrong-to-tell-her-i-dont-want-to-inherit-it-9d5810c2?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T09:31:00+00:00"
-    },
-    {
       "title": "증시 랠리에 금융지주 또 최대 실적…KB, 리딩금융 수성 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBocTlYNGEwQTdJcFBvRnFRZk5MSmpmM3NjbVAtdDJJeklSOWJ4V1RtQ3dub1lrcHBaRVZ0RllfcTlic1FHMUJHYzJnenk0bTg?oc=5",
       "source": "Google News",
@@ -546,22 +600,10 @@
       "published": "2026-07-23T09:13:38+00:00"
     },
     {
-      "title": "The late James Van Der Beek’s former Beverly Hills home up for rent for $13,950 a month",
-      "link": "https://www.marketwatch.com/story/the-late-james-van-der-beeks-former-beverly-hills-home-up-for-rent-for-13-950-a-month-c6caf118?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T09:01:00+00:00"
-    },
-    {
       "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
       "link": "https://www.yna.co.kr/view/AKR20260723172900011",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T09:00:01+00:00"
-    },
-    {
-      "title": "UniCredit CEO tells CNBC acquisition of Commerzbank could happen in fourth quarter",
-      "link": "https://www.cnbc.com/2026/07/23/unicredit-commerzbank-takeover-acquisition-2q-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T08:57:36+00:00"
     },
     {
       "title": "반도체의 힘…韓 2분기 성장률 0.6%",
@@ -576,6 +618,12 @@
       "published": "2026-07-23T08:50:56+00:00"
     },
     {
+      "title": "하나·농협銀 예금금리 인상 1년 만기상품 연 3%대로 쑥",
+      "link": "https://www.mk.co.kr/news/economy/12105767",
+      "source": "매일경제·증권",
+      "published": "2026-07-23T08:50:55+00:00"
+    },
+    {
       "title": "트립닷컴서 신한카드 쓰면 최대 20% 호텔숙박비 할인",
       "link": "https://www.mk.co.kr/news/economy/12105768",
       "source": "매일경제·증권",
@@ -584,12 +632,6 @@
     {
       "title": "대출규제 풍선효과에…당국, 車담대도 조인다",
       "link": "https://www.mk.co.kr/news/economy/12105769",
-      "source": "매일경제·증권",
-      "published": "2026-07-23T08:50:55+00:00"
-    },
-    {
-      "title": "하나·농협銀 예금금리 인상 1년 만기상품 연 3%대로 쑥",
-      "link": "https://www.mk.co.kr/news/economy/12105767",
       "source": "매일경제·증권",
       "published": "2026-07-23T08:50:55+00:00"
     },
@@ -610,48 +652,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260723175300003",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T08:46:36+00:00"
-    },
-    {
-      "title": "한은, 8월 최대 6.8조원 규모 통화안정증권 발행",
-      "link": "https://www.yna.co.kr/view/AKR20260723171400002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T08:44:23+00:00"
-    },
-    {
-      "title": "증권사 어닝시즌 개막…KB·NH 최대 실적에 '호실적 랠리' 기대",
-      "link": "https://www.yna.co.kr/view/AKR20260723173300008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T08:40:31+00:00"
-    },
-    {
-      "title": "‘비은행 약진’ JB금융지주, 2분기 순익 역대 최대 2196억원",
-      "link": "https://www.mk.co.kr/news/economy/12105737",
-      "source": "매일경제·증권",
-      "published": "2026-07-23T08:40:14+00:00"
-    },
-    {
-      "title": "국세청·관세청, 고액체납자 은닉재산 압류",
-      "link": "https://www.mk.co.kr/news/economy/12105730",
-      "source": "매일경제·증권",
-      "published": "2026-07-23T08:39:26+00:00"
-    },
-    {
-      "title": "AI · 무인매장 반영 경제총조사 마무리",
-      "link": "https://www.mk.co.kr/news/economy/12105731",
-      "source": "매일경제·증권",
-      "published": "2026-07-23T08:39:26+00:00"
-    },
-    {
-      "title": "총수일가 보유한 회사에 CVC 우회투자 막는다",
-      "link": "https://www.mk.co.kr/news/economy/12105727",
-      "source": "매일경제·증권",
-      "published": "2026-07-23T08:39:25+00:00"
-    },
-    {
-      "title": "수출·내수 쌍끌이…\"올 성장률 3%도 가능\"",
-      "link": "https://www.mk.co.kr/news/economy/12105728",
-      "source": "매일경제·증권",
-      "published": "2026-07-23T08:39:25+00:00"
     }
   ],
   "pages": [
