@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T17:09:34.268241+00:00",
+  "as_of": "2026-07-23T17:36:36.724368+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,42 @@
   ],
   "news": [
     {
+      "title": "Russia’s Amazon-style retail giant Wildberries is now in Ukraine’s crosshairs. Here's why",
+      "link": "https://www.cnbc.com/2026/07/23/ukraine-russia-war-wildberries-drones-amazon.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T17:32:54+00:00"
+    },
+    {
+      "title": "House lawmakers grill former JPMorgan executive Jes Staley over Epstein ties",
+      "link": "https://www.cnbc.com/2026/07/23/comer-jes-staley-jpmorgan-jeffrey-epstein-red-flags.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T17:30:55+00:00"
+    },
+    {
+      "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
+      "link": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T17:15:03+00:00"
+    },
+    {
+      "title": "I am a 63-year-old semiretired physician. If I have saved $2 million for retirement, should Social Security be optional?",
+      "link": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T17:15:00+00:00"
+    },
+    {
+      "title": "JPMorgan report finds dramatic jump in AI-themed ETFs — despite rough quarter",
+      "link": "https://www.cnbc.com/2026/07/23/jpmorgan-dramatic-jump-in-ai-etfs-despite-rough-quarter.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T17:10:06+00:00"
+    },
+    {
+      "title": "Most FDA advisers say the BPC-157 peptide should be made available in the U.S. Here’s what happens next.",
+      "link": "https://www.marketwatch.com/story/peptides-could-soon-become-widely-available-in-the-u-s-heres-what-happens-next-ead02287?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T17:08:00+00:00"
+    },
+    {
       "title": "'The Odyssey' is cleaning up for IMAX. Expect the momentum to continue",
       "link": "https://www.cnbc.com/2026/07/23/the-odyssey-imax-ticket-sales-revenue.html",
       "source": "CNBC Finance",
@@ -396,12 +432,6 @@
       "published": "2026-07-23T16:56:57+00:00"
     },
     {
-      "title": "Most FDA advisors say the BPC-157 peptide should be made available in the U.S. Here’s what happens next.",
-      "link": "https://www.marketwatch.com/story/peptides-could-soon-become-widely-available-in-the-u-s-heres-what-happens-next-ead02287?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T16:51:00+00:00"
-    },
-    {
       "title": "Global oil tops $100 after Houthis strike Saudi tankers and Trump threatens ‘military punishment’ on Iran",
       "link": "https://www.marketwatch.com/story/oil-nears-100-a-barrel-after-houthis-claim-strikes-on-saudi-arabian-tankers-4d9949c2?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -438,10 +468,10 @@
       "published": "2026-07-23T16:29:00+00:00"
     },
     {
-      "title": "As defense spending surges, these stocks could make you the most money",
-      "link": "https://www.marketwatch.com/story/as-defense-spending-surges-these-stocks-could-make-you-the-most-money-f78b3131?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T16:27:00+00:00"
+      "title": "Cramer has a problem with Alphabet. Plus, updates on 2 industrials",
+      "link": "https://www.cnbc.com/2026/07/23/cramer-has-a-problem-with-alphabet-plus-updates-on-2-industrials-.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T16:24:46+00:00"
     },
     {
       "title": "Google Cloud CEO Kurian says customers are spending 50% more as segment blows away expectations",
@@ -456,12 +486,6 @@
       "published": "2026-07-23T16:12:17+00:00"
     },
     {
-      "title": "House lawmakers grill former JPMorgan executive Jes Staley over Epstein ties",
-      "link": "https://www.cnbc.com/2026/07/23/comer-jes-staley-jpmorgan-jeffrey-epstein-red-flags.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T16:06:05+00:00"
-    },
-    {
       "title": "Tesla falls 13%, Alphabet sinks 7% as AI spending concerns spook investors",
       "link": "https://www.cnbc.com/2026/07/23/tesla-tsla-alphabet-googl-stock-today.html",
       "source": "CNBC Finance",
@@ -472,12 +496,6 @@
       "link": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
       "source": "CNBC Finance",
       "published": "2026-07-23T15:46:18+00:00"
-    },
-    {
-      "title": "We're ready to move on from Dover after the industrial conglomerate's weak quarter",
-      "link": "https://www.cnbc.com/2026/07/23/were-ready-to-move-on-from-dover-after-the-industrials-weak-quarter.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T15:41:48+00:00"
     },
     {
       "title": "Albertsons stock plunges as it says weaker grocery spending will cut into sales and earnings",
@@ -600,12 +618,6 @@
       "published": "2026-07-23T12:55:23+00:00"
     },
     {
-      "title": "UniCredit CEO tells CNBC acquisition of Commerzbank could happen in fourth quarter",
-      "link": "https://www.cnbc.com/2026/07/23/unicredit-commerzbank-takeover-acquisition-2q-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T12:39:43+00:00"
-    },
-    {
       "title": "Trump says U.S. will hold Iran responsible for Houthi attacks after oil tankers targeted in Red Sea",
       "link": "https://www.cnbc.com/2026/07/23/iran-war-us-trump-houthis-red-sea-oil.html",
       "source": "CNBC Finance",
@@ -616,12 +628,6 @@
       "link": "https://www.cnbc.com/2026/07/23/aarp-opposes-bipartisan-social-security-reform-proposal.html",
       "source": "CNBC Finance",
       "published": "2026-07-23T12:35:01+00:00"
-    },
-    {
-      "title": "Russia’s Amazon-style retail giant Wildberries is now in Ukraine’s crosshairs. Here's why",
-      "link": "https://www.cnbc.com/2026/07/23/ukraine-russia-war-wildberries-drones-amazon.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T12:13:43+00:00"
     },
     {
       "title": "China's Geely to make EVs at Ford plant in Spain under new joint venture",
@@ -646,12 +652,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260723190100002",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T11:18:18+00:00"
-    },
-    {
-      "title": "Moonshot AI accessed Nvidia's chips despite Chinese export ban, White House official says",
-      "link": "https://www.cnbc.com/2026/07/23/moonshot-kimi-nvidia-ai-chips-export-ban.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T11:13:44+00:00"
     }
   ],
   "pages": [
