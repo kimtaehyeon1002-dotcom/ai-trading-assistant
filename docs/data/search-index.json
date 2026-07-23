@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T13:07:34.902253+00:00",
+  "as_of": "2026-07-23T13:24:45.027810+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,16 +354,28 @@
   ],
   "news": [
     {
+      "title": "The FDA is about to decide which peptides could soon become widely available in the U.S. Here’s what happens next.",
+      "link": "https://www.marketwatch.com/story/peptides-could-soon-become-widely-available-in-the-u-s-heres-what-happens-next-ead02287?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T13:18:00+00:00"
+    },
+    {
+      "title": "10-year Treasury yield rises to highest since January 2025 as surging oil rekindles inflation fear",
+      "link": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T13:17:25+00:00"
+    },
+    {
+      "title": "[속보] 브렌트유 배럴당 100달러 재돌파…5월 26일 이후 처음",
+      "link": "https://www.mk.co.kr/news/economy/12106036",
+      "source": "매일경제·증권",
+      "published": "2026-07-23T13:16:01+00:00"
+    },
+    {
       "title": "Trump says Saudi nuclear deal contingent on relations with Israel, does not include enrichment",
       "link": "https://www.cnbc.com/2026/07/23/trump-saudi-arabia-nuclear-power.html",
       "source": "CNBC Finance",
       "published": "2026-07-23T13:00:08+00:00"
-    },
-    {
-      "title": "10-year Treasury yield tops 4.7%, highest since January 2025",
-      "link": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T12:58:02+00:00"
     },
     {
       "title": "Southwest Airlines' third-quarter forecast falls short as fuel bill climbs",
@@ -546,12 +558,6 @@
       "published": "2026-07-23T09:58:43+00:00"
     },
     {
-      "title": "증시 활황에 증권결제대금 작년 대비 41%↑…펀드 배당금 70% 급증 - 국제신문",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcFVlZTRtQ2JpNTFfaXZPTm9hS2FoMU00ZEtpSlNyMW5EcHVyZXZMQWtzb0VYODd6a1NWMno5cjRhRmZzNTVlVXpnLXNtdU1uSmNZMmV2bVlhR2J2OU9jcTFiekpaYjBTSmdWdVk2bEZMbmRUbXVjcGVIS2R4MTBpMkdMRjlpV2U1OUFoeUNB?oc=5",
-      "source": "Google News",
-      "published": "2026-07-23T09:57:00+00:00"
-    },
-    {
       "title": "Why beat-and-raise earnings reports are no longer enough to push the stock market higher",
       "link": "https://www.marketwatch.com/story/why-beat-and-raise-earnings-reports-are-no-longer-enough-to-push-the-stock-market-higher-d6b2cae4?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -570,22 +576,10 @@
       "published": "2026-07-23T09:38:19+00:00"
     },
     {
-      "title": "U.S. oil tops $90, Brent above $98 after tankers struck off Saudi Arabia",
-      "link": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T09:36:14+00:00"
-    },
-    {
       "title": "[중국증시-마감] 알파벳 실적發 亞 강세 동참해 상승 - 연합인포맥스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zVERWMFExY3Y2RzlPU2h5ZS02QnRIRU9TOEJsSVoxRnhoa2xHWkpIVUJ4QUZXZTNoeHppenBNNXprTUNXcjJWdVM5M3ptYWszd3U1MzlRU3ZkNzVELVdZV3NUdlZWVVA2czY3S0plXzI?oc=5",
       "source": "Google News",
       "published": "2026-07-23T09:35:59+00:00"
-    },
-    {
-      "title": "Surging IPO activity is one of the four horsemen of a market bubble, according to this portfolio manager",
-      "link": "https://www.marketwatch.com/story/surging-ipo-activity-is-one-of-the-fourhorsemen-of-a-market-bubble-according-to-this-portfolio-manager-35a1ab02?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T09:34:00+00:00"
     },
     {
       "title": "증시 랠리에 금융지주 또 최대 실적…KB, 리딩금융 수성 - v.daum.net",
@@ -652,6 +646,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260723175300003",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T08:46:36+00:00"
+    },
+    {
+      "title": "한은, 8월 최대 6.8조원 규모 통화안정증권 발행",
+      "link": "https://www.yna.co.kr/view/AKR20260723171400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T08:44:23+00:00"
     }
   ],
   "pages": [
