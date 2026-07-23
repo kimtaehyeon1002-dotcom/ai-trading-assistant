@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T07:29:39.933828+09:00",
+  "updated_at": "2026-07-24T07:31:42.462546+09:00",
   "workers": {
     "Notion Sync": {
       "worker": "Notion Sync",
@@ -11,17 +11,17 @@
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-07-24T07:29:28.669259+09:00",
+      "last_run": "2026-07-24T07:31:23.849907+09:00",
       "status": "completed",
       "items": 22,
-      "duration_ms": 6674
+      "duration_ms": 15308
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-07-24T07:29:35.344267+09:00",
+      "last_run": "2026-07-24T07:31:39.209384+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 4421
+      "duration_ms": 3219
     },
     "Theme Analyst": {
       "worker": "Theme Analyst",
@@ -40,10 +40,10 @@
     "Publisher": {
       "worker": "Publisher",
       "status": "completed",
-      "items": 2,
+      "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-07-24T07:29:39.933714+09:00"
+      "last_run": "2026-07-24T07:31:42.462419+09:00"
     },
     "TA Analyst": {
       "worker": "TA Analyst",
@@ -110,38 +110,39 @@
     },
     "Asset Kiwoom": {
       "worker": "Asset Kiwoom",
-      "last_run": "2026-07-24T07:09:03.729840+09:00",
+      "last_run": "2026-07-24T07:31:23.844278+09:00",
       "status": "completed",
       "items": null,
       "duration_ms": 3
     },
     "Asset KIS 위탁": {
       "worker": "Asset KIS 위탁",
-      "last_run": "2026-07-24T07:09:03.735343+09:00",
+      "last_run": "2026-07-24T07:31:23.849879+09:00",
       "status": "completed",
       "items": null,
       "duration_ms": 0
     },
     "Asset KIS ISA": {
       "worker": "Asset KIS ISA",
-      "last_run": "2026-07-24T07:09:03.735358+09:00",
+      "last_run": "2026-07-24T07:31:23.849893+09:00",
       "status": "completed",
       "items": null,
       "duration_ms": 0
     },
     "Asset BYBIT": {
       "worker": "Asset BYBIT",
-      "last_run": "2026-07-24T07:09:03.735365+09:00",
+      "last_run": "2026-07-24T07:31:23.849900+09:00",
       "status": "completed",
       "items": null,
       "duration_ms": 0
     },
     "Vault Sync": {
       "worker": "Vault Sync",
-      "last_run": "2026-07-24T07:29:28.638381+09:00",
-      "status": "completed",
-      "items": 1,
-      "duration_ms": 1
+      "status": "skipped",
+      "items": null,
+      "detail": "TH_DATA/00_Watchlist 없음/비어있음",
+      "duration_ms": 0,
+      "last_run": "2026-07-24T07:31:23.799858+09:00"
     },
     "Vault Journal": {
       "worker": "Vault Journal",

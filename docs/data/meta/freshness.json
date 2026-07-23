@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T07:29:39.941170+09:00",
+  "generated_at": "2026-07-24T07:31:42.470651+09:00",
   "sources": {
     "Notion Sync": {
       "status": "skipped",
@@ -10,17 +10,17 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-24T07:29:28.669259+09:00",
+      "last_built": "2026-07-24T07:31:23.849907+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 6674
+      "duration_ms": 15308
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-24T07:29:35.344267+09:00",
+      "last_built": "2026-07-24T07:31:39.209384+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 4421
+      "duration_ms": 3219
     },
     "Theme Analyst": {
       "status": "completed",
@@ -38,9 +38,9 @@
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-24T07:29:39.933714+09:00",
+      "last_built": "2026-07-24T07:31:42.462419+09:00",
       "expected_T_min": null,
-      "items": 2,
+      "items": 3,
       "duration_ms": 0
     },
     "TA Analyst": {
@@ -108,38 +108,38 @@
     },
     "Asset Kiwoom": {
       "status": "completed",
-      "last_built": "2026-07-24T07:09:03.729840+09:00",
+      "last_built": "2026-07-24T07:31:23.844278+09:00",
       "expected_T_min": null,
       "items": null,
       "duration_ms": 3
     },
     "Asset KIS 위탁": {
       "status": "completed",
-      "last_built": "2026-07-24T07:09:03.735343+09:00",
+      "last_built": "2026-07-24T07:31:23.849879+09:00",
       "expected_T_min": null,
       "items": null,
       "duration_ms": 0
     },
     "Asset KIS ISA": {
       "status": "completed",
-      "last_built": "2026-07-24T07:09:03.735358+09:00",
+      "last_built": "2026-07-24T07:31:23.849893+09:00",
       "expected_T_min": null,
       "items": null,
       "duration_ms": 0
     },
     "Asset BYBIT": {
       "status": "completed",
-      "last_built": "2026-07-24T07:09:03.735365+09:00",
+      "last_built": "2026-07-24T07:31:23.849900+09:00",
       "expected_T_min": null,
       "items": null,
       "duration_ms": 0
     },
     "Vault Sync": {
-      "status": "completed",
-      "last_built": "2026-07-24T07:29:28.638381+09:00",
+      "status": "skipped",
+      "last_built": "2026-07-24T07:31:23.799858+09:00",
       "expected_T_min": null,
-      "items": 1,
-      "duration_ms": 1
+      "items": null,
+      "duration_ms": 0
     },
     "Vault Journal": {
       "status": "completed",
