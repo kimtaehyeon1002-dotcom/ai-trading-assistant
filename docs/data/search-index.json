@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T17:36:36.724368+00:00",
+  "as_of": "2026-07-23T18:59:55.899602+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,22 +354,106 @@
   ],
   "news": [
     {
-      "title": "Russia’s Amazon-style retail giant Wildberries is now in Ukraine’s crosshairs. Here's why",
-      "link": "https://www.cnbc.com/2026/07/23/ukraine-russia-war-wildberries-drones-amazon.html",
+      "title": "Brent crude crosses $100 after tankers reportedly struck off Saudi Arabia",
+      "link": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html",
       "source": "CNBC Finance",
-      "published": "2026-07-23T17:32:54+00:00"
+      "published": "2026-07-23T18:56:46+00:00"
     },
     {
-      "title": "House lawmakers grill former JPMorgan executive Jes Staley over Epstein ties",
-      "link": "https://www.cnbc.com/2026/07/23/comer-jes-staley-jpmorgan-jeffrey-epstein-red-flags.html",
+      "title": "These 16 states are offering tax holidays as back-to-school costs soar to over $800 per student",
+      "link": "https://www.marketwatch.com/story/these-16-states-are-offering-tax-holidays-as-back-to-school-costs-soar-to-over-800-per-student-0ec92464?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T18:51:00+00:00"
+    },
+    {
+      "title": "The stock market’s calm surface is cracking. Here’s how to prepare for an August shock.",
+      "link": "https://www.marketwatch.com/story/the-stock-markets-calm-surface-is-cracking-heres-how-to-prepare-for-an-august-shock-7d655813?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T18:47:00+00:00"
+    },
+    {
+      "title": "Cerebras stock gains on AMD partnership",
+      "link": "https://www.cnbc.com/2026/07/23/cerebras-stock-gains-on-amd-partnership.html",
       "source": "CNBC Finance",
-      "published": "2026-07-23T17:30:55+00:00"
+      "published": "2026-07-23T18:42:57+00:00"
     },
     {
       "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
       "link": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
       "source": "CNBC Finance",
-      "published": "2026-07-23T17:15:03+00:00"
+      "published": "2026-07-23T18:42:20+00:00"
+    },
+    {
+      "title": "Congress splits on war powers resolutions to force Trump to abandon Iran war",
+      "link": "https://www.cnbc.com/2026/07/23/congress-pushes-war-powers-resolutions-tells-trump-to-abandon-iran-war.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T18:39:06+00:00"
+    },
+    {
+      "title": "Wall Street stumbles as oil surges, and Lilly takes a new path on next-gen obesity drug",
+      "link": "https://www.cnbc.com/2026/07/23/wall-street-stumbles-as-oil-surges-and-lilly-takes-a-new-path-on-next-gen-obesity-drug.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T18:35:53+00:00"
+    },
+    {
+      "title": "My second husband and I have kids from previous relationships. Should my house go to him or my children if I die first?",
+      "link": "https://www.marketwatch.com/story/i-have-children-from-my-first-marriage-should-my-second-husband-inherit-my-house-if-i-die-d9bd8687?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T18:30:00+00:00"
+    },
+    {
+      "title": "House lawmakers grill former JPMorgan executive Jes Staley over Epstein ties",
+      "link": "https://www.cnbc.com/2026/07/23/comer-jes-staley-jpmorgan-jeffrey-epstein-red-flags.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T18:15:58+00:00"
+    },
+    {
+      "title": "Tesla falls 14%, Alphabet sinks 6% as AI spending concerns spook investors",
+      "link": "https://www.cnbc.com/2026/07/23/tesla-tsla-alphabet-googl-stock-today.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T18:00:12+00:00"
+    },
+    {
+      "title": "I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit?",
+      "link": "https://www.marketwatch.com/story/i-wanted-to-transfer-17-000-in-credit-card-debt-why-did-wells-fargo-offer-me-only-a-4-000-credit-limit-7ad0a3f0?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T18:00:00+00:00"
+    },
+    {
+      "title": "'The Odyssey' is cleaning up for Imax. Expect the momentum to continue",
+      "link": "https://www.cnbc.com/2026/07/23/the-odyssey-imax-ticket-sales-revenue.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T17:57:35+00:00"
+    },
+    {
+      "title": "AT&T won’t need to worry about SpaceX for ‘years,’ analyst says",
+      "link": "https://www.marketwatch.com/story/at-t-wont-need-to-worry-about-spacex-for-years-analyst-says-1d84e1a5?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T17:57:00+00:00"
+    },
+    {
+      "title": "Russia’s Amazon-style retail giant Wildberries is now in Ukraine’s crosshairs. Here's why",
+      "link": "https://www.cnbc.com/2026/07/23/ukraine-russia-war-wildberries-drones-amazon.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T17:51:52+00:00"
+    },
+    {
+      "title": "Still waiting for the free $1,000 to hit your child’s ‘Trump account’? Here’s what to know.",
+      "link": "https://www.marketwatch.com/story/still-waiting-for-the-free-1-000-to-hit-your-trump-account-heres-what-to-know-acc5c789?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T17:49:00+00:00"
+    },
+    {
+      "title": "American Airlines stock tumbles 9% as fuel spike further postpones turnaround",
+      "link": "https://www.cnbc.com/2026/07/23/american-airlines-aal-2q-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T17:47:45+00:00"
+    },
+    {
+      "title": "Brent crude tops $100 a barrel. How the next stop could be $120",
+      "link": "https://www.cnbc.com/2026/07/23/brent-crude-tops-100-a-barrel-how-the-next-stop-could-be-120.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T17:43:52+00:00"
     },
     {
       "title": "I am a 63-year-old semiretired physician. If I have saved $2 million for retirement, should Social Security be optional?",
@@ -390,12 +474,6 @@
       "published": "2026-07-23T17:08:00+00:00"
     },
     {
-      "title": "'The Odyssey' is cleaning up for IMAX. Expect the momentum to continue",
-      "link": "https://www.cnbc.com/2026/07/23/the-odyssey-imax-ticket-sales-revenue.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T17:06:05+00:00"
-    },
-    {
       "title": "The rising cost of capital for companies today is starting to spook the stock market: ‘The worry is the spending might not pay off’",
       "link": "https://www.marketwatch.com/story/the-rising-cost-of-capital-for-companies-today-is-starting-to-spook-the-stock-market-the-worry-is-the-spending-might-not-pay-off-de4c69e4?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -414,64 +492,10 @@
       "published": "2026-07-23T17:02:35+00:00"
     },
     {
-      "title": "The super rich use 401(k)s and IRAs to sidestep taxes on millions of dollars. This proposed law would cut them off.",
-      "link": "https://www.marketwatch.com/story/the-super-rich-use-401-k-s-and-iras-to-sidestep-taxes-on-millions-of-dollars-this-proposed-law-would-cut-them-off-04b37e9a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T17:02:00+00:00"
-    },
-    {
-      "title": "Congress splits on war powers resolutions to force Trump to abandon Iran war",
-      "link": "https://www.cnbc.com/2026/07/23/congress-pushes-war-powers-resolutions-tells-trump-to-abandon-iran-war.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T17:00:53+00:00"
-    },
-    {
-      "title": "Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'",
-      "link": "https://www.cnbc.com/2026/07/23/short-sighted-stock-market-can-no-longer-brush-off-war-investors-say.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T16:56:57+00:00"
-    },
-    {
-      "title": "Global oil tops $100 after Houthis strike Saudi tankers and Trump threatens ‘military punishment’ on Iran",
-      "link": "https://www.marketwatch.com/story/oil-nears-100-a-barrel-after-houthis-claim-strikes-on-saudi-arabian-tankers-4d9949c2?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T16:50:00+00:00"
-    },
-    {
-      "title": "Are you looking for financial advice? This is the best way to ask for it.",
-      "link": "https://www.marketwatch.com/story/how-to-ask-strangers-on-the-internet-for-financial-advice-ba5b3fb7?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T16:37:00+00:00"
-    },
-    {
-      "title": "Lockheed Martin’s stock has best day in 25 years as push to build more missiles faster pays off",
-      "link": "https://www.marketwatch.com/story/lockheed-martins-stock-leaps-as-push-to-build-more-missiles-faster-pays-off-9d7e2091?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T16:31:00+00:00"
-    },
-    {
-      "title": "‘I have a $2,000 deductible’: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
-      "link": "https://www.marketwatch.com/story/i-have-a-2-000-deductible-i-reported-a-cracked-windshield-on-my-hertz-rental-car-can-they-charge-me-1e07d28a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T16:30:00+00:00"
-    },
-    {
       "title": "Google slapped with $1 billion fine under landmark EU digital law",
       "link": "https://www.cnbc.com/2026/07/23/google-1-billion-eu-fine-dma.html",
       "source": "CNBC Finance",
       "published": "2026-07-23T16:29:24+00:00"
-    },
-    {
-      "title": "The August stock-market slump is a myth — so why does Wall Street keep repeating it?",
-      "link": "https://www.marketwatch.com/story/the-august-stock-market-slump-is-a-myth-so-why-does-wall-street-keep-repeating-it-bc47db44?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T16:29:00+00:00"
-    },
-    {
-      "title": "Cramer has a problem with Alphabet. Plus, updates on 2 industrials",
-      "link": "https://www.cnbc.com/2026/07/23/cramer-has-a-problem-with-alphabet-plus-updates-on-2-industrials-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T16:24:46+00:00"
     },
     {
       "title": "Google Cloud CEO Kurian says customers are spending 50% more as segment blows away expectations",
@@ -486,18 +510,6 @@
       "published": "2026-07-23T16:12:17+00:00"
     },
     {
-      "title": "Tesla falls 13%, Alphabet sinks 7% as AI spending concerns spook investors",
-      "link": "https://www.cnbc.com/2026/07/23/tesla-tsla-alphabet-googl-stock-today.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T15:57:35+00:00"
-    },
-    {
-      "title": "10-year Treasury yield rises to highest since January 2025 as surging oil rekindles inflation fear",
-      "link": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T15:46:18+00:00"
-    },
-    {
       "title": "Albertsons stock plunges as it says weaker grocery spending will cut into sales and earnings",
       "link": "https://www.cnbc.com/2026/07/23/albertsons-stock-plunges-on-lowered-outlook-softened-grocery-trends.html",
       "source": "CNBC Finance",
@@ -508,12 +520,6 @@
       "link": "https://www.cnbc.com/2026/07/22/alphabet-tesla-test-investor-patience-ai-spending-overshadows-growth.html",
       "source": "CNBC Finance",
       "published": "2026-07-23T15:26:07+00:00"
-    },
-    {
-      "title": "American Airlines stock tumbles 8% as fuel spike further postpones turnaround",
-      "link": "https://www.cnbc.com/2026/07/23/american-airlines-aal-2q-2026-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T15:25:14+00:00"
     },
     {
       "title": "[재산공개] 신현송 한은 총재 82억…취임 후 첫 신고",
@@ -552,16 +558,16 @@
       "published": "2026-07-23T14:25:01+00:00"
     },
     {
+      "title": "뉴욕증시, AI 자본지출 우려·유가 상승에 하락 출발 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByTEhISHJ6bzh6R2xFcmh5ZGl4QUJvMDhaV1p5RTJaM216MDFCZHlwMHJneXNNNFhQTHk4OUJiQzR6QWxYWTZwZTlLOE5LWWNLV1ZkM1JRMUhvRUNuekJkQlFjU0t4UmdvTE1iTEQyN1o?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T14:00:09+00:00"
+    },
+    {
       "title": "워싱턴에 한미 조선협력센터 개소…'마스가' 속도 낸다",
       "link": "https://www.yna.co.kr/view/AKR20260723167200003",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T14:00:00+00:00"
-    },
-    {
-      "title": "뉴욕증시, AI 자본지출 우려·유가 상승에 하락 출발 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FaGNDZ21TMm1Ub21sdzdjVmFTUko1bWo5MFhxYkJwUXhaRm1Wc2xBM1YtalhLazRjOXMtRjN5eHRKWlQ1QnozQzMtMzJ3dDVRR3hFSmc0Ni1xc256cG10UNIBYEFVX3lxTE9FaGNDZ21TMm1Ub21sdzdjVmFTUko1bWo5MFhxYkJwUXhaRm1Wc2xBM1YtalhLazRjOXMtRjN5eHRKWlQ1QnozQzMtMzJ3dDVRR3hFSmc0Ni1xc256cG10UA?oc=5",
-      "source": "Google News",
-      "published": "2026-07-23T13:59:59+00:00"
     },
     {
       "title": "미·이란 충돌에 홍해 유조선 피격까지…브렌트유 100달러 돌파(종합)",
@@ -586,12 +592,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260723196200072",
       "source": "연합뉴스·경제",
       "published": "2026-07-23T13:40:51+00:00"
-    },
-    {
-      "title": "Brent crude tops $100 a barrel. How the next stop could be $120",
-      "link": "https://www.cnbc.com/2026/07/23/brent-crude-tops-100-a-barrel-how-the-next-stop-could-be-120.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T13:36:29+00:00"
     },
     {
       "title": "[2보] 중동 긴장 고조에 브렌트유 두달만에 100달러 돌파",
