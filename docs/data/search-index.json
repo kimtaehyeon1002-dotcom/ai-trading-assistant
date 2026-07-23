@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T11:00:50.137367+00:00",
+  "as_of": "2026-07-23T11:27:45.286340+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,84 @@
   ],
   "news": [
     {
+      "title": "Houthis claim strikes on Saudi oil tankers as Rubio says Iran not ready to make a deal",
+      "link": "https://www.cnbc.com/2026/07/23/iran-war-us-trump-houthis-red-sea-oil.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T11:25:40+00:00"
+    },
+    {
+      "title": "Senate panel advances China auto bill that could bar Mercedes-Benz from U.S.",
+      "link": "https://www.cnbc.com/2026/07/22/ted-cruz-china-auto-bill-mercedes-benz-gm.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T11:21:17+00:00"
+    },
+    {
+      "title": "국민성장펀드, LG디스플레이에 1조원대 저리대출",
+      "link": "https://www.yna.co.kr/view/AKR20260723190100002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-23T11:18:18+00:00"
+    },
+    {
+      "title": "Comcast earnings highlight NBCUniversal strength ahead of planned split",
+      "link": "https://www.cnbc.com/2026/07/23/comcast-earnings-nbcuniversal-strength-split.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T11:17:21+00:00"
+    },
+    {
+      "title": "American Airlines slashes 2026 earnings outlook as fuel costs spike",
+      "link": "https://www.cnbc.com/2026/07/23/american-airlines-aal-2q-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T11:17:16+00:00"
+    },
+    {
+      "title": "Moonshot AI accessed Nvidia's chips despite Chinese export ban, White House official says",
+      "link": "https://www.cnbc.com/2026/07/23/moonshot-kimi-nvidia-ai-chips-export-ban.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T11:13:44+00:00"
+    },
+    {
+      "title": "Oil nears $100 a barrel after Houthis claim strikes on Saudi Arabian tankers",
+      "link": "https://www.marketwatch.com/story/oil-nears-100-a-barrel-after-houthis-claim-strikes-on-saudi-arabian-tankers-4d9949c2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T11:07:00+00:00"
+    },
+    {
+      "title": "The U.S. premium for SK Hynix is set to stay after Korean regulatory ruling",
+      "link": "https://www.marketwatch.com/story/the-u-s-premium-for-sk-hynix-is-set-to-stay-after-korean-regulatory-ruling-bde1ddb6?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T11:04:00+00:00"
+    },
+    {
+      "title": "AI stocks are echoing a 1990s market split. JPMorgan warns the next few weeks are critical.",
+      "link": "https://www.marketwatch.com/story/ai-stocks-are-echoing-a-1990s-market-split-jpmorgan-warns-the-next-few-weeks-are-critical-408ed725?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T11:01:00+00:00"
+    },
+    {
+      "title": "China's Geely to make EVs at Ford plant in Spain under new joint venture",
+      "link": "https://www.cnbc.com/2026/07/23/ford-china-geely-ev-europe.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T11:00:40+00:00"
+    },
+    {
+      "title": "\"국민연금은 증시 부양·주가 방어용 아냐\"…김성주 작심발언 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PV2l6SjZoNE42a0hfZ09ZNmdfMkZXakdlSVoySl9vcnlaQlFqWTR3NjlvakdXZkdmWnpiRGlIVlY4MUZscHhjbS1rZjZuVDRnQ1VuRmZmc3VCdw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-23T11:00:04+00:00"
+    },
+    {
+      "title": "IRS chief Frank Bisignano may have misled Congress, Democrats say",
+      "link": "https://www.cnbc.com/2026/07/23/frank-bisignano-irs-misled-congress-warren-democrats.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-23T11:00:01+00:00"
+    },
+    {
+      "title": "I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit?",
+      "link": "https://www.marketwatch.com/story/i-wanted-to-transfer-17-000-in-credit-card-debt-why-did-wells-fargo-offer-me-only-a-4-000-credit-limit-7ad0a3f0?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-23T11:00:00+00:00"
+    },
+    {
       "title": "Google slapped with $1 billion fine under landmark EU digital law",
       "link": "https://www.cnbc.com/2026/07/23/google-1-billion-eu-fine-dma.html",
       "source": "CNBC Finance",
@@ -480,12 +558,6 @@
       "published": "2026-07-23T09:00:01+00:00"
     },
     {
-      "title": "I will definitely claim Social Security early. Why do so few people talk about the elephant in the room?",
-      "link": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T09:00:00+00:00"
-    },
-    {
       "title": "UniCredit CEO tells CNBC acquisition of Commerzbank could happen in fourth quarter",
       "link": "https://www.cnbc.com/2026/07/23/unicredit-commerzbank-takeover-acquisition-2q-earnings.html",
       "source": "CNBC Finance",
@@ -580,78 +652,6 @@
       "link": "https://www.mk.co.kr/news/economy/12105728",
       "source": "매일경제·증권",
       "published": "2026-07-23T08:39:25+00:00"
-    },
-    {
-      "title": "'수명 만료' 원전 4기 더 있는데 … 계속운전 인허가는 제자리걸음",
-      "link": "https://www.mk.co.kr/news/economy/12105729",
-      "source": "매일경제·증권",
-      "published": "2026-07-23T08:39:25+00:00"
-    },
-    {
-      "title": "[도쿄증시-마감] 알파벳발 반도체 강세에 상승 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BZURxclpNWTMwZ1JyOG9sUGlUajVCcGljUlBrY1lVdXNtSUhrQXZnbmlpaUtKY0NFZklZSmlSeTdaZngzMTZxSU9GY3kwMFJlaDVyTHpHdkpKN2hUVmJ0NmlfOEN5cEd5U1FxNUR5UEY?oc=5",
-      "source": "Google News",
-      "published": "2026-07-23T08:38:16+00:00"
-    },
-    {
-      "title": "현대카드 상반기 순익 1852억…전년 대비 12% 늘어",
-      "link": "https://www.mk.co.kr/news/economy/12105712",
-      "source": "매일경제·증권",
-      "published": "2026-07-23T08:37:13+00:00"
-    },
-    {
-      "title": "Texas Instruments shares are sliding, and its rival is doing even worse. What’s going on in the world of analog semiconductors.",
-      "link": "https://www.marketwatch.com/story/texas-instruments-shares-are-sliding-and-its-rival-is-doing-even-worse-whats-going-on-in-the-world-of-analog-semiconductors-e999a8ac?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-23T08:36:00+00:00"
-    },
-    {
-      "title": "양도세 감면혜택 '평생 횟수제' 도입 주장에 … 李 \"일리있는 지적\"",
-      "link": "https://www.mk.co.kr/news/economy/12105708",
-      "source": "매일경제·증권",
-      "published": "2026-07-23T08:34:04+00:00"
-    },
-    {
-      "title": "금융硏, 고액 주담대 '1% 부담금' 제안 … 비거주 1주택자 전세대출은 더 조일듯",
-      "link": "https://www.mk.co.kr/news/economy/12105709",
-      "source": "매일경제·증권",
-      "published": "2026-07-23T08:34:04+00:00"
-    },
-    {
-      "title": "바이오헬스산업 이끌 '보건의료 국가대표기술' 선정·지원",
-      "link": "https://www.yna.co.kr/view/AKR20260723171700530",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T08:32:11+00:00"
-    },
-    {
-      "title": "SK텔레콤 \"계열사 에스케이하이퍼 주식 3천300억원에 취득\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723172600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T08:32:02+00:00"
-    },
-    {
-      "title": "IPARK현대산업개발 2분기 영업익 1천227억원…작년 대비 53%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260723171600003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-23T08:31:55+00:00"
-    },
-    {
-      "title": "訪美 김정관 \"1호 대미투자는 에너지 관련 프로젝트 … 내달말 발표\"",
-      "link": "https://www.mk.co.kr/news/economy/12105686",
-      "source": "매일경제·증권",
-      "published": "2026-07-23T08:28:12+00:00"
-    },
-    {
-      "title": "오늘의 증시 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00V3FucmFzUDBEVjIxNWlDYnJpb1laMWpwX3lkVUNBaTU2R09xY3Q4RVhwR3hFV0VDSFNmWnNjU255cmJJaUVFc1pBVGFqZG8?oc=5",
-      "source": "Google News",
-      "published": "2026-07-23T08:16:16+00:00"
-    },
-    {
-      "title": "Houthis claim strikes on Saudi Arabian oil tankers as Rubio says Iran not ready to make a deal",
-      "link": "https://www.cnbc.com/2026/07/23/iran-war-us-trump-houthis-red-sea-oil.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-23T08:15:42+00:00"
     }
   ],
   "pages": [
