@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-24T07:36:32.051685+00:00",
+  "as_of": "2026-07-24T08:08:12.798895+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,54 @@
   ],
   "news": [
     {
+      "title": "서민금융진흥원 대구경북본부, 피해 예방 ‘불법사금융 NO!’ 캠페인",
+      "link": "https://www.mk.co.kr/news/economy/12106803",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T07:58:48+00:00"
+    },
+    {
+      "title": "우리투자, 2분기 영업익 7%↓…상반기 기준 작년 연간실적 초과",
+      "link": "https://www.yna.co.kr/view/AKR20260724132200008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-24T07:58:09+00:00"
+    },
+    {
+      "title": "Volkswagen CFO addresses plant closures, job losses as profits sink",
+      "link": "https://www.cnbc.com/2026/07/24/volkswagen-earnings-autos-germany.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T07:56:12+00:00"
+    },
+    {
+      "title": "국고채 금리 일제히 상승…3년물 연 3.959%",
+      "link": "https://www.yna.co.kr/view/AKR20260724144200008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-24T07:46:08+00:00"
+    },
+    {
+      "title": "용인시-농협은행, '어르신 보이스피싱 피해액 70% 보상' 협약",
+      "link": "https://www.yna.co.kr/view/AKR20260724144100061",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-24T07:45:24+00:00"
+    },
+    {
+      "title": "현대차그룹, 탈북 청소년 대안학교 세운다",
+      "link": "https://www.mk.co.kr/news/economy/12106787",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T07:43:28+00:00"
+    },
+    {
+      "title": "“휘발유 122원·경유 145원 싸게”... 정부, 유류세 인하 9월 말까지 연장",
+      "link": "https://www.mk.co.kr/news/economy/12106780",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T07:38:25+00:00"
+    },
+    {
+      "title": "닭 사육 ‘2억 마리’ 사상 첫 돌파...축산 지도 바꾼 고령화",
+      "link": "https://www.mk.co.kr/news/economy/12106779",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T07:37:05+00:00"
+    },
+    {
       "title": "홈플러스 회생 폐지 이후 23일까지 1천935건 노동상담 접수",
       "link": "https://www.yna.co.kr/view/AKR20260724137900002",
       "source": "연합뉴스·경제",
@@ -390,12 +438,6 @@
       "published": "2026-07-24T07:17:58+00:00"
     },
     {
-      "title": "Volkswagen profits slump as it flags full-year revenue squeeze ahead of restructuring",
-      "link": "https://www.cnbc.com/2026/07/24/volkswagen-earnings-autos-germany.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T07:16:47+00:00"
-    },
-    {
       "title": "무안군, 군공항 이전 후보지 선정회의 또 불참…회의 연기(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260724059551054",
       "source": "연합뉴스·경제",
@@ -420,7 +462,7 @@
       "published": "2026-07-24T07:07:07+00:00"
     },
     {
-      "title": "우리금융, 동양생명 자회사로 품는다…주식교환 이사회 승인(종합)",
+      "title": "우리금융, 동양생명 완전자회사로 품는다…주식교환 이사회 승인(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260724081551002",
       "source": "연합뉴스·경제",
       "published": "2026-07-24T07:05:09+00:00"
@@ -564,6 +606,12 @@
       "published": "2026-07-24T06:09:38+00:00"
     },
     {
+      "title": "하나증권, 상반기 영업익 3453억…증시 활황에 191%↑ - 아이뉴스24",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE56aG1jU25fODlFckhuejFENExkTnFlRUkxWUdVOU50QTNkWGNkTkpuOWhFb09HN3dZUnYwc0ZTZ2djb3hMbWo0YnpFRQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T06:02:36+00:00"
+    },
+    {
       "title": "\"올 추석엔 제주 '탐나는전' 적립률 상향 어려워\"",
       "link": "https://www.yna.co.kr/view/AKR20260724110700056",
       "source": "연합뉴스·경제",
@@ -604,54 +652,6 @@
       "link": "https://www.mk.co.kr/news/economy/12106632",
       "source": "매일경제·증권",
       "published": "2026-07-24T05:39:09+00:00"
-    },
-    {
-      "title": "이천 '임금님표 쌀' 일본 시장 첫 진출…900㎏ 수출",
-      "link": "https://www.yna.co.kr/view/AKR20260724107200061",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T05:37:07+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
-      "link": "https://www.yna.co.kr/view/AKR20260724104300011",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T05:30:00+00:00"
-    },
-    {
-      "title": "[글로벌 증시 따라잡기] 중동 전쟁 재격화, 나스닥 2%대 하락…내용은? - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5XYnk0Tng2dVY0OEY2LVlUZEo5b3ZtMVN3X1dKMkR0Z0FNeXFsMnExN1ZrcnZaVlV1QXJyN3ZIOGY1Vm4xbDk2Z0dSaUlQNjQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T05:25:17+00:00"
-    },
-    {
-      "title": "[오후장 체크포인트] 중동발 유가 쇼크 속 국내증시 급락…\"우려 과도\" - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1eEdUUThYOWg3SlUya3ZWRXdNNzlrU2dsWnlWelM5OUFKNmtkaUJjWUR1VmJEcTRkR2dybURveDh3U1pCMW1hbmJMOWR0SGs?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T05:25:16+00:00"
-    },
-    {
-      "title": "창신메모리 상장 임박…中증시, 단기 유동성 부담 커지나 - KB Think",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YVWRvT2p0eU41NFR5OWJoT0tHbW10b1UtcWpZWkRxWWtfZkZ4cnRkeEFYZHZXaUVuUklOZ3pQMF9IdHoyUy1kWjBqUFBTVzZEbVlNNUVtdDk1ckdHV1ZTMGNxQ1o0bm1fcFg1M2Jhb0hkZw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T05:24:00+00:00"
-    },
-    {
-      "title": "식품가 도미노 인상…농심·비알코리아·CJ푸드빌 가세(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260724065552030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T05:23:30+00:00"
-    },
-    {
-      "title": "국민 41.5% “증시 변동성, 금융위기 수준”…레버리지 ETF 도입엔 63.7% 부정 [여론조사] - 유교신문",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44a2hLU0tuYlhaQXZiYnUweUF4MXNLalJQX0N0aVZZbXdsWk52UE11YzJpZHRIRkdtSFNKM3ZzMFpkVWNUZWhDT2FKRl9NdUlzV1VocTZZbkxVU1Q4WVE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T05:22:21+00:00"
-    },
-    {
-      "title": "산업부, 복수국간 그린경제협정 가입 시동…공청회 개최",
-      "link": "https://www.yna.co.kr/view/AKR20260724104000003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T05:19:37+00:00"
     }
   ],
   "pages": [
