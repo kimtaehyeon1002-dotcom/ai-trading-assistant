@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-24T15:57:24.633315+00:00",
+  "as_of": "2026-07-24T17:45:50.116203+00:00",
   "stocks": [
     {
       "code": "MU",
@@ -239,16 +239,118 @@
   ],
   "news": [
     {
+      "title": "Why there are still more Trump tariffs expected — even after this past week’s rollouts",
+      "link": "https://www.marketwatch.com/story/why-there-are-still-more-trump-tariffs-expected-even-after-this-past-weeks-rollouts-86b623f6?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T17:41:00+00:00"
+    },
+    {
+      "title": "CDC says massive cyclospora outbreak is now in nine states",
+      "link": "https://www.cnbc.com/2026/07/24/cyclospora-cdc-says-outbreak-is-in-nine-states.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T17:32:22+00:00"
+    },
+    {
+      "title": "Treasury yields slide as oil prices fall amid hopes for new U.S.-Iran peace talks",
+      "link": "https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T17:31:56+00:00"
+    },
+    {
       "title": "Nvidia, Microsoft, Meta warn against 'premature restrictions' of open-weight models",
       "link": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
       "source": "CNBC Finance",
-      "published": "2026-07-24T15:47:40+00:00"
+      "published": "2026-07-24T17:26:32+00:00"
     },
     {
-      "title": "How you can get financial advice from MarketWatch tailored to your needs",
-      "link": "https://www.marketwatch.com/story/how-you-can-get-financial-advice-from-marketwatch-tailored-to-your-needs-4fc0fef8?mod=mw_rss_topstories",
+      "title": "FDA advisers vote against sleep peptide as they debate safety and health claims",
+      "link": "https://www.marketwatch.com/story/fda-advisers-vote-against-sleep-peptide-as-they-debate-safety-and-health-claims-2bc85739?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "2026-07-24T15:42:00+00:00"
+      "published": "2026-07-24T17:26:00+00:00"
+    },
+    {
+      "title": "Anthropic's new AI model rivals Fable 5 and is cheaper as businesses fret about costs",
+      "link": "https://www.cnbc.com/2026/07/24/anthropic-claude-opus-5-ai-fable-5-cost.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T17:20:47+00:00"
+    },
+    {
+      "title": "SpaceX is banking on a successful Starship launch to stem the stock’s bleeding",
+      "link": "https://www.marketwatch.com/story/spacex-is-banking-on-a-successful-starship-launch-to-stem-the-stocks-bleeding-5ef18578?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T17:17:00+00:00"
+    },
+    {
+      "title": "Don’t rush to save Social Security, AARP tells Congress: ‘It should be debated openly — not through an accelerated process’",
+      "link": "https://www.marketwatch.com/story/dont-rush-to-save-social-security-aarp-tells-congress-it-should-be-debated-openly-not-through-an-accelerated-process-96cfb75d?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T17:05:00+00:00"
+    },
+    {
+      "title": "유럽증시, 주요 기업들 실적 발표 소화하며 일제히 상승… 독일 SAP 10% 급등 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuUmJ6WWRhRjhaTmFLWjd6SE5iNEF5UVk5d3loSVJvSXVuUkdLcUZOOFB5a3FzQlZyY213Yjd0c3JYRDVGSkNkeWxXZVMxdG5mcm5XLU9oSXQwb3hf?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T17:02:00+00:00"
+    },
+    {
+      "title": "Verizon’s stock rises after earnings — and a surprise entry into a new AI business area",
+      "link": "https://www.marketwatch.com/story/verizons-stock-rises-as-earnings-show-the-company-is-no-longer-a-hunting-ground-f63476b6?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T16:55:00+00:00"
+    },
+    {
+      "title": "한국증시 10거래일 연속 사이드카…레버리지 보완책 31일부터 시행 - 중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xWDdvMVpxTnlNSWVmMjZIUkVKbXZWSkdNMEhzOVZWMDVCZWgtbGs0MWdVSVdORWNxNzFBZjBzbXcxWV85RTJrUC1ZaDMwRXI2TjlUZk9B?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T16:48:19+00:00"
+    },
+    {
+      "title": "Why we would buy the Intel dip but can't get behind the Dover bounce",
+      "link": "https://www.cnbc.com/2026/07/24/why-we-would-buy-the-intel-dip-but-cant-get-behind-the-dover-bounce.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T16:38:28+00:00"
+    },
+    {
+      "title": "I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit?",
+      "link": "https://www.marketwatch.com/story/i-wanted-to-transfer-17-000-in-credit-card-debt-why-did-wells-fargo-offer-me-only-a-4-000-credit-limit-7ad0a3f0?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T16:30:00+00:00"
+    },
+    {
+      "title": "College kids are moving into retirement communities for reasons beyond ‘cheap rent’",
+      "link": "https://www.marketwatch.com/story/college-kids-are-moving-into-retirement-communities-for-reasons-beyond-cheap-rent-577dc94b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T16:22:00+00:00"
+    },
+    {
+      "title": "Still waiting for the free $1,000 to hit your child’s ‘Trump account’? Here’s what to know.",
+      "link": "https://www.marketwatch.com/story/still-waiting-for-the-free-1-000-to-hit-your-trump-account-heres-what-to-know-acc5c789?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T16:21:00+00:00"
+    },
+    {
+      "title": "Are 7% mortgage rates next? The Treasury market is flashing a warning sign for home buyers.",
+      "link": "https://www.marketwatch.com/story/the-treasury-market-is-flashing-a-warning-sign-for-home-buyers-are-7-mortgage-rates-next-58b5b3b1?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T16:20:00+00:00"
+    },
+    {
+      "title": "Trump considers ‘massive attack’ on Iran; Pakistan reportedly seeks to restart stalled peace talks",
+      "link": "https://www.cnbc.com/2026/07/24/us-iran-war-trump-hormuz-houthis.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T16:04:46+00:00"
+    },
+    {
+      "title": "Do I use $300,000 of my $1.2 million retirement savings so my daughter can attend her dream college?",
+      "link": "https://www.marketwatch.com/story/do-i-use-300-000-of-my-1-2-million-retirement-savings-so-my-daughter-can-attend-her-dream-college-50842e7a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T16:01:00+00:00"
+    },
+    {
+      "title": "중동 긴장에 유가 100달러 재돌파… 아시아 증시 휘청 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQalFOeHpqaEJ4eGhhTzVzY2lqT3MtSUI0V2xNbkJoLTFJZmNpbl9uWFZXaTBzLXB5cUllM2NodzdiWEdwTGVhcF9NMWRoQjd0UWVjS0NnUWFNTG1aMUtpZUdEZWJKZ2ZaVlJKOEN5WTkzLUN6LU1UUWVCQW00ZEVZaQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T15:53:00+00:00"
     },
     {
       "title": "Pentagon lowers official Iran war death toll, omitting four killed this month",
@@ -257,58 +359,10 @@
       "published": "2026-07-24T15:41:39+00:00"
     },
     {
-      "title": "I will definitely claim Social Security early. Why do so few people talk about the elephant in the room?",
-      "link": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T15:30:00+00:00"
-    },
-    {
       "title": "Why Costco keeps gas prices so low—it's 'straight out of the retail playbook,' expert says",
       "link": "https://www.cnbc.com/2026/07/24/why-costco-keeps-gas-prices-so-low.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T15:29:49+00:00"
-    },
-    {
-      "title": "The bond market hasn’t been this calm since the dot-com bust and the financial crisis. History warns of a rude awakening.",
-      "link": "https://www.marketwatch.com/story/the-bond-market-hasnt-been-this-calm-since-the-dot-com-bust-and-the-financial-crisis-history-warns-of-a-rude-awakening-5597c25d?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T15:22:00+00:00"
-    },
-    {
-      "title": "‘We are not romantically involved’: I’m marrying my platonic best friend of 20 years. Should I leave him my home?",
-      "link": "https://www.marketwatch.com/story/we-are-not-romantically-involved-im-marrying-my-platonic-best-friend-of-20-years-should-i-leave-him-my-home-3faa0a77?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T15:15:00+00:00"
-    },
-    {
-      "title": "Treasury yields retreat, 10-year stays near January 2025 highs",
-      "link": "https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T15:01:24+00:00"
-    },
-    {
-      "title": "U.S. economy had begun to speed up — until Iran peace talks failed and oil prices surged again",
-      "link": "https://www.marketwatch.com/story/u-s-economy-began-to-speed-up-until-iran-peace-talks-failed-and-oil-prices-surged-again-3fce66b2?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T14:43:00+00:00"
-    },
-    {
-      "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
-      "link": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T14:31:00+00:00"
-    },
-    {
-      "title": "I lost my job, my emergency fund is running out and now I have to move back in with my parents. What did I do wrong?",
-      "link": "https://www.marketwatch.com/story/i-lost-my-job-my-emergency-fund-is-running-out-and-now-i-have-to-move-back-in-with-my-parents-what-did-i-do-wrong-cf1c0f9f?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T14:25:00+00:00"
-    },
-    {
-      "title": "‘I’m still confused’: I sold $80,000 in shares on June 30, so why didn’t I receive my dividend?",
-      "link": "https://www.marketwatch.com/story/im-still-confused-i-sold-80-000-in-shares-on-june-30-so-why-didnt-i-receive-my-dividend-d066016c?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T14:15:00+00:00"
     },
     {
       "title": "Oracle signs 10-year software contract with Pentagon worth up to $7 billion",
@@ -317,16 +371,16 @@
       "published": "2026-07-24T14:12:15+00:00"
     },
     {
+      "title": "Trump imposes 'sweeping' new tariffs on 60 trade partners as global duties expire",
+      "link": "https://www.cnbc.com/2026/07/23/trump-tariffs-trade-deadline.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T14:11:56+00:00"
+    },
+    {
       "title": "Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'",
       "link": "https://www.cnbc.com/2026/07/23/short-sighted-stock-market-can-no-longer-brush-off-war-investors-say.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T14:10:40+00:00"
-    },
-    {
-      "title": "Intel earnings show just how dramatically the company has come back from being ‘near-dead’",
-      "link": "https://www.marketwatch.com/story/intel-earnings-show-just-how-dramatically-the-company-has-come-back-from-being-near-dead-37f81c38?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T14:10:00+00:00"
     },
     {
       "title": "Intel rides AI boom to fastest revenue growth in almost 15 years, but shares sink",
@@ -339,12 +393,6 @@
       "link": "https://www.mk.co.kr/news/economy/12107089",
       "source": "매일경제·증권",
       "published": "2026-07-24T14:00:01+00:00"
-    },
-    {
-      "title": "Pay raises keep shrinking. Here’s how much smaller they’ll be next year.",
-      "link": "https://www.marketwatch.com/story/pay-raises-keep-shrinking-heres-how-much-smaller-theyll-be-next-year-3fa51395?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T14:00:00+00:00"
     },
     {
       "title": "뉴욕증시, 인텔 실적·중동 갈등 소화하며 혼조 출발 - 연합인포맥스",
@@ -369,12 +417,6 @@
       "link": "https://www.cnbc.com/2026/07/24/russia-ukraine-war-zelenskyy-putin-oil.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T13:09:21+00:00"
-    },
-    {
-      "title": "The Club's top 10 things to watch in the stock market Friday",
-      "link": "https://www.cnbc.com/2026/07/24/the-clubs-top-10-things-to-watch-in-the-stock-market-friday.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T13:06:26+00:00"
     },
     {
       "title": "How a Chinese AI model stopped OpenAI’s ‘unprecedented’ cyber attack",
@@ -405,12 +447,6 @@
       "link": "https://www.mk.co.kr/news/economy/12107028",
       "source": "매일경제·증권",
       "published": "2026-07-24T12:00:36+00:00"
-    },
-    {
-      "title": "Trump considering a ‘massive attack’ on Iran as Tehran labels UK ‘accomplice’ to America",
-      "link": "https://www.cnbc.com/2026/07/24/us-iran-war-trump-hormuz-houthis.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T11:57:15+00:00"
     },
     {
       "title": "러, 기준금리 14.0%로 인하…10차례 잇달아 내려",
@@ -467,6 +503,12 @@
       "published": "2026-07-24T10:00:00+00:00"
     },
     {
+      "title": "[올댓차이나] 홍콩 증시, 중동정세 긴박에 반락 마감…H주 0.98%↓ - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JWDJtUkdBTXB5czcwXy14WFlkaFhDc3dtSjdleFNKRGJ5NTVlanFhSWtSdlZsanFWYzBkbVdHODQxRmFWb1JYU211cnlDVkFwV3NQYlllZGViUk5SN0N5ZtIBeEFVX3lxTE5mN1lnY3AzaVZIcERvSXJKbzg2RURjMzQwY19pb2xfWXJTdkdXYzJEUXJlQ3BMUjNhaUtCLXBXcDFIN0xOUXlxUDhwQURLLUtyb0lfUFVqQzNMN3VDUFRudnl6VDRQcFB4YUZuTzIxU2FYX0pJMGxmbg?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T09:58:51+00:00"
+    },
+    {
       "title": "증시랠리에 '함박웃음'…4대금융 상반기 순익 11.3조 '역대최대' - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WS2VTbzhFc0lUalJXdXRxeWxMSjRNRkZMYWNWRXo4TUJpN1J4X0VnZjlTRFh3ZUNmUVo2ZFhHYXI2NFI1blAteGhEaU1Oelk?oc=5",
       "source": "Google News",
@@ -495,48 +537,6 @@
       "link": "https://www.mk.co.kr/news/economy/12106950",
       "source": "매일경제·증권",
       "published": "2026-07-24T09:05:28+00:00"
-    },
-    {
-      "title": "오세훈 시장, 김윤덕 국토부장관 만나 주택공급 방안 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260724162500004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T09:02:32+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
-      "link": "https://www.yna.co.kr/view/AKR20260724155900011",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T09:00:00+00:00"
-    },
-    {
-      "title": "[표] 외국환율고시표",
-      "link": "https://www.mk.co.kr/news/economy/12106934",
-      "source": "매일경제·증권",
-      "published": "2026-07-24T08:56:39+00:00"
-    },
-    {
-      "title": "[단독] \"불법사금융 신고하세요\" 금융위, 포상금제도 운영",
-      "link": "https://www.mk.co.kr/news/economy/12106932",
-      "source": "매일경제·증권",
-      "published": "2026-07-24T08:56:38+00:00"
-    },
-    {
-      "title": "[포토] 펫보험 마케팅 돌입한 NH농협손보",
-      "link": "https://www.mk.co.kr/news/economy/12106933",
-      "source": "매일경제·증권",
-      "published": "2026-07-24T08:56:38+00:00"
-    },
-    {
-      "title": "증권 끌고 은행 밀고…5대금융 13조 최대순익",
-      "link": "https://www.mk.co.kr/news/economy/12106929",
-      "source": "매일경제·증권",
-      "published": "2026-07-24T08:56:37+00:00"
-    },
-    {
-      "title": "고용노동부, 교원노조법 개정 추진",
-      "link": "https://www.mk.co.kr/news/economy/12106930",
-      "source": "매일경제·증권",
-      "published": "2026-07-24T08:56:37+00:00"
     }
   ],
   "pages": [
