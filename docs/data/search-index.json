@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-24T20:10:57.040408+00:00",
+  "as_of": "2026-07-24T21:11:06.334217+00:00",
   "stocks": [
     {
       "code": "MU",
@@ -239,34 +239,82 @@
   ],
   "news": [
     {
+      "title": "Why bond investors are pushing up some of your interest rates",
+      "link": "https://www.cnbc.com/2026/07/24/treasury-yields-fed-mortgage-rates.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T21:09:24+00:00"
+    },
+    {
+      "title": "다시 증시를 덮친 전쟁…블랙데이 살아남은 주식은?[김근희의 증시 랩업] - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YbE5BbWRwTUdaQk81M0tkT2hDcVNPUlFXd0p5QkJrbmlKcHVPTlgxWGhBYzFWRFl5T0lERDliV0lsNUctYjRzbkRBMDI2ZndGaEZ5V2huUVZiYmtCaC1QSUhUejVWYnp30gFuQVVfeXFMTllyTnVvTnFyMFdxcTZkUEQwMXVzVWh1RnRqX1JfT0pQMVpsZ1RXajFCcVpVczY1cmZhX1g4a0xVcWQxQUFOZFY5b1ZUUzhiU3lCSWZWWDFYa0RDWW51b1g2NFdmV01sQWNJb1NoNmc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T21:00:00+00:00"
+    },
+    {
+      "title": "Paramount agrees to delay WBD acquisition to as late as June 2027 amid legal challenge",
+      "link": "https://www.cnbc.com/2026/07/24/paramount-wbd-merger-delay.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T20:58:47+00:00"
+    },
+    {
+      "title": "뉴욕증시, 이란 불확실성 속 혼조 마감…유가는 100$ 아래로 - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ORWJGLUZGVzM2aHdvWUdyd0pFQ3VmMWNjbnNsVUZ5eFhFOURlN0VXLTdIZFdCcDIxclF5NUJuVk5VV2ZtSzV3cGM4d2JMVjJnU1FwWkRoVFQ0VGFOZ2dDSNIBeEFVX3lxTE1NQlRrX05OUHh1Zzl3a3pWR3BaUUczTEZOQ1FCV1l0aUI0eUI1MzBIWF84VjJ2dUF6SkJLM3VGdzRmQjNVcEo4WUd2dnQ3NGpuazc0WDNUZjhZcVF2NlVEU1BtdWtEcER5U0VmTjIwUUU0OE5rR3VYaw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T20:38:29+00:00"
+    },
+    {
+      "title": "Moody's says 'unprecedented' AI spending threatens credit quality of Amazon, Meta, Alphabet and others",
+      "link": "https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T20:33:21+00:00"
+    },
+    {
+      "title": "FDA advisers say six popular peptides can be compounded. Here are the issues they considered.",
+      "link": "https://www.marketwatch.com/story/fda-advisers-vote-against-sleep-peptide-as-they-debate-safety-and-health-claims-2bc85739?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T20:26:00+00:00"
+    },
+    {
+      "title": "Trump defends DOJ subpoenas of NY Times reporters; Google also was targeted",
+      "link": "https://www.cnbc.com/2026/07/24/trump-doj-subpoenas-new-york-times-google.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T20:23:12+00:00"
+    },
+    {
+      "title": "Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight",
+      "link": "https://www.cnbc.com/2026/07/24/tesla-tsla-spacex-spcx-stock-starship-test-flight-musk-bad-week.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T20:20:05+00:00"
+    },
+    {
+      "title": "뉴욕증시, 유가 하락·반도체 약세 속 혼조 마감…내주 FOMC 대기 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CSVFfMTU3RFJodk5xU01IdGNmLVl4YjlUX0RST1RtVGZSMjE1ZXhETTUzVGFJM2ZvQ082dXJKTFZoU09URk1DSlNPTzI3MU1KTDEzaVIzWk42Wmhu?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T20:18:00+00:00"
+    },
+    {
+      "title": "[뉴욕증시-1보] 반도체만 콕 집어서 투매…혼조 마감 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvSEZRdHpCMVA3cDY4VjdrREJVMnVFdTNFQkhzNUxpV0RyMlZmQ0VvWXFlRHVnNmU5dGpzdGYxTXRmdmp0OFVIS0NpYXM1Znk3N3JzTUtROUtwUFNUc0ZLSDhQSEFUQkNROUp1Q0hwbkPSAXRBVV95cUxQVVFsR3IzV1dUZkFZWndZNGRIMWIxWGxpTVdXVF9XOV82dGR0QzVITWx0RDB5c3hqWXRSSG5KbU44U2xsVVh0WTlvbFhKOWwwRkFFZmpMTHFsUXJWN1l3a1dwcVpFN3hkX1NxT1BJd2pmbndEdg?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T20:12:42+00:00"
+    },
+    {
+      "title": "I’m 38, lost my job, and have to move back in with my parents. What did I do wrong?",
+      "link": "https://www.marketwatch.com/story/i-lost-my-job-my-emergency-fund-is-running-out-and-now-i-have-to-move-back-in-with-my-parents-what-did-i-do-wrong-cf1c0f9f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T20:11:00+00:00"
+    },
+    {
       "title": "Bond market anxiety is growing over AI capex budgets",
       "link": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T20:07:36+00:00"
     },
     {
-      "title": "Paramount agrees to delay WBD acquisition to as late as June 2027 amid legal challenge",
-      "link": "https://www.cnbc.com/2026/07/24/paramount-wbd-merger-delay.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T20:06:10+00:00"
-    },
-    {
       "title": "Treasury yields slide as oil prices fall amid hopes for new U.S.-Iran peace talks",
       "link": "https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T20:04:44+00:00"
-    },
-    {
-      "title": "Trump defends DOJ subpoenas of NY Times reporters; Google also was targeted",
-      "link": "https://www.cnbc.com/2026/07/24/trump-doj-subpoenas-new-york-times-google.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T20:02:44+00:00"
-    },
-    {
-      "title": "유가, 中·파키스탄 중재설에 6일만에 하락…브렌트유 3.9%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260725004700072",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T19:58:36+00:00"
     },
     {
       "title": "Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets",
@@ -317,6 +365,12 @@
       "published": "2026-07-24T19:12:00+00:00"
     },
     {
+      "title": "증시 아직 덜 빠졌다?...실적 좋아도 주가 못 오르는 이유 [월가 백브리핑] - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80X0k0S2RSTUpyV1JyQ3lrUWVJQkdaMlVXXzJHUmpiTnNHT2xSNmRzZ19NOUdXVy1LRDNuNl9lUWRBMDBFRERvdFJTM1FZN2VJWlB3QVdwS183Zw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T19:06:46+00:00"
+    },
+    {
       "title": "‘I’m still confused’: I sold $80,000 in shares on June 30, so why didn’t I receive my dividend?",
       "link": "https://www.marketwatch.com/story/im-still-confused-i-sold-80-000-in-shares-on-june-30-so-why-didnt-i-receive-my-dividend-d066016c?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -357,30 +411,6 @@
       "link": "https://www.marketwatch.com/story/why-micron-and-other-major-chip-stocks-are-falling-even-as-the-rest-of-tech-holds-up-506851dc?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-24T18:37:00+00:00"
-    },
-    {
-      "title": "Farmers are already set for a $55 billion payday — why does Washington want to give them more?",
-      "link": "https://www.marketwatch.com/story/farmers-are-already-set-for-a-55-billion-payday-why-does-washington-want-to-give-them-even-more-b81b3f09?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T18:31:00+00:00"
-    },
-    {
-      "title": "Can AI-powered ETFs beat the stock market?",
-      "link": "https://www.marketwatch.com/story/can-ai-powered-etfs-beat-the-stock-market-c5be6a9b?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T18:31:00+00:00"
-    },
-    {
-      "title": "Why bond investors are pushing up some of your interest rates",
-      "link": "https://www.cnbc.com/2026/07/24/treasury-yields-fed-mortgage-rates.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T18:29:56+00:00"
-    },
-    {
-      "title": "Moody's says 'unprecedented' AI spending threatens credit quality of Amazon, Meta, Alphabet and others",
-      "link": "https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T18:20:17+00:00"
     },
     {
       "title": "Nvidia, Microsoft, Meta warn against 'premature restrictions' of open-weight models",
@@ -437,12 +467,6 @@
       "published": "2026-07-24T15:29:49+00:00"
     },
     {
-      "title": "뉴욕증시, 혼조 출발… 인텔, 호실적 불구 2% 넘게 하락 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hTDFZck9tNV9raHNlRVp6Mm1fcEdXWS1kMTFjTkhkRmpsZW52NjBSV1VmX21lRHVBcUtIX3BHYlljM1NRT0FYaGtlNkJ4ak0?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T14:15:29+00:00"
-    },
-    {
       "title": "Oracle signs 10-year software contract with Pentagon worth up to $7 billion",
       "link": "https://www.cnbc.com/2026/07/23/oracle-wins-10-year-pentagon-software-contract-worth-up-to-7-billion.html",
       "source": "CNBC Finance",
@@ -479,12 +503,6 @@
       "published": "2026-07-24T13:42:00+00:00"
     },
     {
-      "title": "뉴욕증시 개장 전 특징주...인텔·오라클·앰코테크놀로지↑ VS 데커스아웃도어·맥스리니어↑ - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52TDE0Zmx0bDNLVVBIbEE0MW9mek9va2NJYWxSVllRRGVaQ2p3R1FGa2N0cFNSNWZ5ZXVsbWwtWGo1VHFEVklYTU9Dc3IzUDlpY0x5SGVwZVJza1Zh?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T13:38:00+00:00"
-    },
-    {
       "title": "뉴욕증시 프리뷰, 미 선물 반등에도 경계감 여전…AI 투자 우려·중동 리스크·관세 변수 '첩첩산중' - 뉴스핌",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ESkxuU0FCV1VGUW9sRFdhXzFIbnFnS3AzWjkzRFlRQVZfaGVjZUJjVU5PWWJqck5XcmdBVHE5c2dSM2tDRkF0TV9Qekx3djZQNklNamwwMlVObG1O?oc=5",
       "source": "Google News",
@@ -519,24 +537,6 @@
       "link": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T12:09:09+00:00"
-    },
-    {
-      "title": "러시아산 LNG 수입 EU 제재 면제... 韓 LNG 200만t 수입 ‘청신호’",
-      "link": "https://www.mk.co.kr/news/economy/12107028",
-      "source": "매일경제·증권",
-      "published": "2026-07-24T12:00:36+00:00"
-    },
-    {
-      "title": "러, 기준금리 14.0%로 인하…10차례 잇달아 내려",
-      "link": "https://www.yna.co.kr/view/AKR20260724174200108",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T11:08:35+00:00"
-    },
-    {
-      "title": "中매체 “레버리지 기반 한국증시 축제 막내려” - 문화일보",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1paDdpYVE1djNhY2tfM1RXdG9Yek5oZmVCM2oyNHhNTXc0NHV0V2M5QmhiU0wyQndBdDJ0NWc0andhLTNtN1dBV1F3Zk9GWF9y?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T11:04:07+00:00"
     }
   ],
   "pages": [
