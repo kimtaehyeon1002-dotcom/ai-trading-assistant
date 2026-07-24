@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-24T14:21:55.972252+00:00",
+  "as_of": "2026-07-24T14:45:35.676994+00:00",
   "stocks": [
     {
       "code": "MU",
@@ -239,16 +239,34 @@
   ],
   "news": [
     {
+      "title": "U.S. economy had begun to speed up — until Iran peace talks failed and oil prices surged again",
+      "link": "https://www.marketwatch.com/story/u-s-economy-began-to-speed-up-until-iran-peace-talks-failed-and-oil-prices-surged-again-3fce66b2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T14:43:00+00:00"
+    },
+    {
+      "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
+      "link": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T14:31:00+00:00"
+    },
+    {
+      "title": "I lost my job, my emergency fund is running out and now I have to move back in with my parents. What did I do wrong?",
+      "link": "https://www.marketwatch.com/story/i-lost-my-job-my-emergency-fund-is-running-out-and-now-i-have-to-move-back-in-with-my-parents-what-did-i-do-wrong-cf1c0f9f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T14:25:00+00:00"
+    },
+    {
       "title": "Treasury yields retreat, 10-year hovers around January 2025 highs",
       "link": "https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html",
       "source": "CNBC Finance",
-      "published": "2026-07-24T14:17:16+00:00"
+      "published": "2026-07-24T14:23:14+00:00"
     },
     {
-      "title": "뉴욕증시, 혼조 출발… 인텔, 호실적 불구 2% 넘게 하락 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hTDFZck9tNV9raHNlRVp6Mm1fcEdXWS1kMTFjTkhkRmpsZW52NjBSV1VmX21lRHVBcUtIX3BHYlljM1NRT0FYaGtlNkJ4ak0?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T14:15:29+00:00"
+      "title": "Nvidia, Microsoft, Meta warn against 'premature restrictions' of open-weight models",
+      "link": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T14:15:47+00:00"
     },
     {
       "title": "‘I’m still confused’: I sold $80,000 in shares on June 30, so why didn’t I receive my dividend?",
@@ -279,12 +297,6 @@
       "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T14:05:35+00:00"
-    },
-    {
-      "title": "U.S. economy began to speed up — until Iran peace talks failed and oil prices surged again",
-      "link": "https://www.marketwatch.com/story/u-s-economy-began-to-speed-up-until-iran-peace-talks-failed-and-oil-prices-surged-again-3fce66b2?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T14:03:00+00:00"
     },
     {
       "title": "EU, 러시아산 LNG 韓수입 제재 면제",
@@ -335,6 +347,12 @@
       "published": "2026-07-24T13:30:00+00:00"
     },
     {
+      "title": "하나증권, 상반기 순익 2731억…증시 호황에 156% 급증 - 아시아타임즈",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnZ1JWWDdYQ2NSUTg5UE80SEtrc1F2SlFaOXdBZkU5c0JfME5GVWRUN2JKTFk5N0tVQUJmbV9ickxXSFpVX2x6d01GQ2U4NGNUY2paak1lWjN6cWRyeHc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T13:16:00+00:00"
+    },
+    {
       "title": "Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities",
       "link": "https://www.cnbc.com/2026/07/24/russia-ukraine-war-zelenskyy-putin-oil.html",
       "source": "CNBC Finance",
@@ -351,18 +369,6 @@
       "link": "https://www.cnbc.com/2026/07/24/chinese-ai-model-openai-cyber-attack.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T13:01:54+00:00"
-    },
-    {
-      "title": "My second husband and I have kids from previous relationships. Should my house go to him or my children if I die first?",
-      "link": "https://www.marketwatch.com/story/i-have-children-from-my-first-marriage-should-my-second-husband-inherit-my-house-if-i-die-d9bd8687?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T13:00:00+00:00"
-    },
-    {
-      "title": "A panicking Fed is just what the bond market needs, says Bank of America’s chief strategist",
-      "link": "https://www.marketwatch.com/story/a-panicking-fed-is-just-what-the-bond-market-needs-says-bank-of-americas-chief-strategist-c780884c?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T12:53:00+00:00"
     },
     {
       "title": "바클레이즈 \"빅테크 실적과 연준이 여름 증시 방향 결정\" - Investing.com 한국어",
@@ -531,12 +537,6 @@
       "link": "https://www.mk.co.kr/news/economy/12106931",
       "source": "매일경제·증권",
       "published": "2026-07-24T08:56:37+00:00"
-    },
-    {
-      "title": "삼천리 \"자회사 성경식품 주식 500억원에 추가취득\"",
-      "link": "https://www.yna.co.kr/view/AKR20260724161600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T08:56:16+00:00"
     }
   ],
   "pages": [
