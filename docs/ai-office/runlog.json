@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T04:38:08.502608+09:00",
+  "updated_at": "2026-07-25T05:10:57.029797+09:00",
   "workers": {
     "Notion Sync": {
       "worker": "Notion Sync",
@@ -11,17 +11,17 @@
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-07-25T04:37:59.435145+09:00",
+      "last_run": "2026-07-25T05:10:43.441054+09:00",
       "status": "completed",
       "items": 22,
-      "duration_ms": 9037
+      "duration_ms": 9212
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-07-25T04:37:55.338967+09:00",
+      "last_run": "2026-07-25T05:10:52.690862+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 4023
+      "duration_ms": 4308
     },
     "Theme Analyst": {
       "worker": "Theme Analyst",
@@ -43,7 +43,7 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-07-25T04:38:08.502497+09:00"
+      "last_run": "2026-07-25T05:10:57.029678+09:00"
     },
     "TA Analyst": {
       "worker": "TA Analyst",
@@ -54,24 +54,24 @@
     },
     "Macro FRED": {
       "worker": "Macro FRED",
-      "last_run": "2026-07-25T03:11:31.019062+09:00",
+      "last_run": "2026-07-25T05:10:42.254982+09:00",
       "status": "completed",
       "items": 5,
       "duration_ms": 0
     },
     "Macro ECOS": {
       "worker": "Macro ECOS",
-      "last_run": "2026-07-25T03:11:31.019180+09:00",
+      "last_run": "2026-07-25T05:10:42.255122+09:00",
       "status": "completed",
       "items": null,
       "duration_ms": 0
     },
     "Macro Upbit": {
       "worker": "Macro Upbit",
-      "last_run": "2026-07-25T03:11:31.019201+09:00",
+      "last_run": "2026-07-25T05:10:42.255152+09:00",
       "status": "completed",
       "items": 3,
-      "duration_ms": 1440
+      "duration_ms": 1185
     },
     "Stock KR Ranking": {
       "worker": "Stock KR Ranking",
@@ -138,10 +138,11 @@
     },
     "Vault Sync": {
       "worker": "Vault Sync",
-      "last_run": "2026-07-25T04:37:55.303794+09:00",
-      "status": "completed",
-      "items": 1,
-      "duration_ms": 1
+      "status": "skipped",
+      "items": null,
+      "detail": "TH_DATA/00_Watchlist 없음/비어있음",
+      "duration_ms": 0,
+      "last_run": "2026-07-25T05:10:42.212736+09:00"
     },
     "Vault Journal": {
       "worker": "Vault Journal",
