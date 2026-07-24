@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-24T05:11:45.968532+00:00",
+  "as_of": "2026-07-24T05:50:22.459389+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -17,9 +17,9 @@
       "market": "KOSPI"
     },
     {
-      "code": "950160",
-      "name": "코오롱티슈진",
-      "market": "KOSDAQ"
+      "code": "402340",
+      "name": "SK스퀘어",
+      "market": "KOSPI"
     },
     {
       "code": "009150",
@@ -27,9 +27,14 @@
       "market": "KOSPI"
     },
     {
-      "code": "402340",
-      "name": "SK스퀘어",
+      "code": "322000",
+      "name": "HD현대에너지솔루션",
       "market": "KOSPI"
+    },
+    {
+      "code": "950160",
+      "name": "코오롱티슈진",
+      "market": "KOSDAQ"
     },
     {
       "code": "0156T0",
@@ -37,63 +42,8 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "322000",
-      "name": "HD현대에너지솔루션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "028050",
-      "name": "삼성E&A",
-      "market": "KOSPI"
-    },
-    {
       "code": "005935",
       "name": "삼성전자우",
-      "market": "KOSPI"
-    },
-    {
-      "code": "010060",
-      "name": "OCI홀딩스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "017670",
-      "name": "SK텔레콤",
-      "market": "KOSPI"
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "market": "KOSPI"
-    },
-    {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "market": "KOSPI"
-    },
-    {
-      "code": "207940",
-      "name": "삼성바이오로직스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "119850",
-      "name": "지엔씨에너지",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "079550",
-      "name": "LIG디펜스앤에어로스페이스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "096770",
-      "name": "SK이노베이션",
       "market": "KOSPI"
     },
     {
@@ -102,28 +52,43 @@
       "market": "KOSPI"
     },
     {
-      "code": "035420",
-      "name": "NAVER",
+      "code": "005380",
+      "name": "현대차",
       "market": "KOSPI"
     },
     {
-      "code": "277810",
-      "name": "레인보우로보틱스",
-      "market": "KOSDAQ"
+      "code": "010060",
+      "name": "OCI홀딩스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "207940",
+      "name": "삼성바이오로직스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "017670",
+      "name": "SK텔레콤",
+      "market": "KOSPI"
+    },
+    {
+      "code": "028050",
+      "name": "삼성E&A",
+      "market": "KOSPI"
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "market": "KOSPI"
+    },
+    {
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "market": "KOSPI"
     },
     {
       "code": "066570",
       "name": "LG전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "009830",
-      "name": "한화솔루션",
       "market": "KOSPI"
     },
     {
@@ -132,23 +97,58 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
+      "code": "079550",
+      "name": "LIG디펜스앤에어로스페이스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "035420",
+      "name": "NAVER",
+      "market": "KOSPI"
+    },
+    {
+      "code": "096770",
+      "name": "SK이노베이션",
+      "market": "KOSPI"
+    },
+    {
       "code": "105560",
       "name": "KB금융",
       "market": "KOSPI"
     },
     {
-      "code": "006340",
-      "name": "대원전선",
+      "code": "009830",
+      "name": "한화솔루션",
       "market": "KOSPI"
     },
     {
-      "code": "460930",
-      "name": "현대힘스",
+      "code": "119850",
+      "name": "지엔씨에너지",
       "market": "KOSDAQ"
     },
     {
       "code": "006400",
       "name": "삼성SDI",
+      "market": "KOSPI"
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market": "KOSPI"
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "086790",
+      "name": "하나금융지주",
       "market": "KOSPI"
     },
     {
@@ -187,13 +187,13 @@
       "market": "US"
     },
     {
-      "code": "AAPL",
-      "name": "Apple Inc.",
+      "code": "INTC",
+      "name": "Intel",
       "market": "US"
     },
     {
-      "code": "INTC",
-      "name": "Intel",
+      "code": "AAPL",
+      "name": "Apple Inc.",
       "market": "US"
     },
     {
@@ -237,6 +237,11 @@
       "market": "US"
     },
     {
+      "code": "ORCL",
+      "name": "Oracle Corporation",
+      "market": "US"
+    },
+    {
       "code": "GEV",
       "name": "GE Vernova",
       "market": "US"
@@ -244,11 +249,6 @@
     {
       "code": "PLTR",
       "name": "Palantir Technologies",
-      "market": "US"
-    },
-    {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
       "market": "US"
     },
     {
@@ -354,6 +354,90 @@
   ],
   "news": [
     {
+      "title": "Trump's new global tariff draws rebukes from trade partners over forced-labor justification",
+      "link": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T05:47:21+00:00"
+    },
+    {
+      "title": "“번호 줄게요, 언제든 연락해요”...한국기업에 러브콜 보낸 캄보디아 2인자",
+      "link": "https://www.mk.co.kr/news/economy/12106640",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T05:47:01+00:00"
+    },
+    {
+      "title": "경제 비관론 ‘끝판왕’이었는데…닥터둠 “AI가 트럼프 악재 누른다”",
+      "link": "https://www.mk.co.kr/news/economy/12106638",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T05:44:10+00:00"
+    },
+    {
+      "title": "100억 맡기면 금리 1%p 더 얹어준다…법인 특별금리, 개인의 최대 14배",
+      "link": "https://www.mk.co.kr/news/economy/12106632",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T05:39:09+00:00"
+    },
+    {
+      "title": "이천 '임금님표 쌀' 일본 시장 첫 진출…900㎏ 수출",
+      "link": "https://www.yna.co.kr/view/AKR20260724107200061",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-24T05:37:07+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
+      "link": "https://www.yna.co.kr/view/AKR20260724104300011",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-24T05:30:00+00:00"
+    },
+    {
+      "title": "[글로벌 증시 따라잡기] 중동 전쟁 재격화, 나스닥 2%대 하락…내용은? - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5XYnk0Tng2dVY0OEY2LVlUZEo5b3ZtMVN3X1dKMkR0Z0FNeXFsMnExN1ZrcnZaVlV1QXJyN3ZIOGY1Vm4xbDk2Z0dSaUlQNjQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T05:25:17+00:00"
+    },
+    {
+      "title": "[오후장 체크포인트] 중동발 유가 쇼크 속 국내증시 급락…\"우려 과도\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1eEdUUThYOWg3SlUya3ZWRXdNNzlrU2dsWnlWelM5OUFKNmtkaUJjWUR1VmJEcTRkR2dybURveDh3U1pCMW1hbmJMOWR0SGs?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T05:25:16+00:00"
+    },
+    {
+      "title": "식품가 도미노 인상…농심·비알코리아·CJ푸드빌 가세(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260724065552030",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-24T05:23:30+00:00"
+    },
+    {
+      "title": "국민 41.5% “증시 변동성, 금융위기 수준”…레버리지 ETF 도입엔 63.7% 부정 [여론조사] - 유교신문",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44a2hLU0tuYlhaQXZiYnUweUF4MXNLalJQX0N0aVZZbXdsWk52UE11YzJpZHRIRkdtSFNKM3ZzMFpkVWNUZWhDT2FKRl9NdUlzV1VocTZZbkxVU1Q4WVE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T05:22:21+00:00"
+    },
+    {
+      "title": "산업부, 복수국간 그린경제협정 가입 시동…공청회 개최",
+      "link": "https://www.yna.co.kr/view/AKR20260724104000003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-24T05:19:37+00:00"
+    },
+    {
+      "title": "바이오의약품 CDMO 수출 지원체계 마련…시설기준 구체화",
+      "link": "https://www.yna.co.kr/view/AKR20260724092700017",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-24T05:16:51+00:00"
+    },
+    {
+      "title": "현대차그룹, 탈북 청소년 대안학교 세운다",
+      "link": "https://www.mk.co.kr/news/economy/12106596",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T05:11:59+00:00"
+    },
+    {
+      "title": "레버리지 예탁금 3천만 원 상향‥증시 급락 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tUE5vcjdVRHVsZzBiTmRnczZ4RE5XMTFrUS1nVkNUbE5GQTVnbnVkQnFhZUZMTU9JVDc3WkxFUVVNZkNWd29SYTRjcnVDZFhKQ3VkeW0yRklJOUxucHJuU0E4dzhnenVEeW10MDhybTkzQlpBMnRpcg?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T05:09:54+00:00"
+    },
+    {
       "title": "한투증권, 현대커머셜 발행 '위안화 김치본드' 인수 참여",
       "link": "https://www.yna.co.kr/view/AKR20260724099100008",
       "source": "연합뉴스·경제",
@@ -442,6 +526,18 @@
       "link": "https://www.yna.co.kr/view/AKR20260724094800504",
       "source": "연합뉴스·경제",
       "published": "2026-07-24T04:54:04+00:00"
+    },
+    {
+      "title": "중동 정세에 국제유가 급등하며 국내 증시 하락‥코스피·코스닥 매도 사이드카 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zRUYweGV0NmcyUE1NRWlYYm5kTlNOcW84QmNibW53VDNHQnh3Z3JXOUpaZDRUd1RMYnM5c3hqb1NsSC1fTVMtNG5rYmpHRUY4eWNKWVVfWktLSzl1cTNjSEgweDhsVjUzRlRHckItSTFlbzBt0gF0QVVfeXFMT3QwSHVUeGxMdGhQVERjM21oSGlRQU9TaDc5NEVkaTVycS1MWnplaVN2d2R6cE4wcUh0dUQxZlM5VFhWZXJYLUlmX2l0bVZZeUNGRk5JbVBFMm1BSDZBZEM1cTJ2VGFkSjRkOU1KYUxjaWVvYXY?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T04:48:49+00:00"
+    },
+    {
+      "title": "'중동리스크'에 무너진 韓증시…코스피·코스닥 매도사이드카 - 대한경제",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1OQ2xuYjEtbTBraE9TWlY5ZldtaVg2WE50MjZwYlhxX3UtTE92U1NOVVk1NTlqU290SUNXQ1NYSXV1ZG05bzB6WWZpZzA5MHpaVXRoWW9hWnFXNUFHRHdvVVloZy1rR1I0cU1xajlqRm9NVjg?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T04:47:20+00:00"
     },
     {
       "title": "정부, 정유사 8월 선박운영계획 점검…원유 도입 지연 우려",
@@ -534,18 +630,6 @@
       "published": "2026-07-24T03:17:27+00:00"
     },
     {
-      "title": "Trump's new global tariff draws rebukes from trade partners over forced-labor justification",
-      "link": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T03:15:46+00:00"
-    },
-    {
-      "title": "기술주 급락 후 미국 증시 선물 안정세…관세·이란 긴장 주목 - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GNlJHdEE4U2JxRklxM0V6VV9WNHNMUEJ0MjZWZV8yanlYU1A2dTNjdmdfekxhb3NhVkRCTHljcFRNSWZ2SFRINE9hSnBoenJFaDhKcjhYeHhpVnpmaW9BMi05MmlsbkMydnotcXltVjM?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T03:07:00+00:00"
-    },
-    {
       "title": "‘도박판 증시’방지…3배 높인 레버리지 문턱 - 문화일보",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB3M1Z1MXhWYklGSjZ6SW50dHdNenB4Z1RiRHZYb05TcHZLWkNLZ2tnb2ZwcTVObmFqeHRDVnNERUs5TF9NR0R3Vlg5MU5hLThw?oc=5",
       "source": "Google News",
@@ -568,90 +652,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260724053800030",
       "source": "연합뉴스·경제",
       "published": "2026-07-24T03:00:01+00:00"
-    },
-    {
-      "title": "유가 급등에 코스피·코스닥 주르륵…잇달아 매도 사이드카(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260724075851008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T02:58:39+00:00"
-    },
-    {
-      "title": "12.5% 발표에도 끝나지 않은 대미관세 협상…15% 사수할까",
-      "link": "https://www.yna.co.kr/view/AKR20260724080100003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T02:56:33+00:00"
-    },
-    {
-      "title": "동양생명 주총서 주식교환안 가결…우리금융 자회사 편입 속도",
-      "link": "https://www.yna.co.kr/view/AKR20260724081500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T02:47:13+00:00"
-    },
-    {
-      "title": "정부 \"미측, 한국 관세 15% 상한선 준수 입장 재확인\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260724049251003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T02:43:05+00:00"
-    },
-    {
-      "title": "교수노조 정치활동금지 위헌 결정…노동장관 \"법개정 조속 추진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260724080200530",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T02:43:00+00:00"
-    },
-    {
-      "title": "국고채 금리 일제히 상승…3년물 장중 연 3.963%",
-      "link": "https://www.yna.co.kr/view/AKR20260724081100008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T02:42:37+00:00"
-    },
-    {
-      "title": "U.S., other nations back open-source AI with 'strong security' at China summit",
-      "link": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T02:42:21+00:00"
-    },
-    {
-      "title": "[충주소식] 충주상공회의소·지역 기업인 초청 조찬간담회",
-      "link": "https://www.yna.co.kr/view/AKR20260724080300064",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T02:41:17+00:00"
-    },
-    {
-      "title": "대전시 '노스펙 방식' 5급 청년특보 공모에 47명 지원",
-      "link": "https://www.yna.co.kr/view/AKR20260724078800063",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T02:32:04+00:00"
-    },
-    {
-      "title": "코스피, 4%대로 낙폭 확대…매도 사이드카 발동",
-      "link": "https://www.yna.co.kr/view/AKR20260724075800008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T02:30:45+00:00"
-    },
-    {
-      "title": "日 증시, 美 기술주 투매에 하락…닛케이 64,000선 후퇴 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0VlVOVE5zeGJoeDdUbmJNZmRuTVcwNk9jenZCWWRPcjliNGJPcjI5ZWY1U1RlSXMtdGJnMjE2TVJ6NmtiNndkT20zeHd4bTJkVTRxbWUtM2JrNHBUTlVwOXktd0dMWDhPRUFfZ01YS2U?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T02:27:18+00:00"
-    },
-    {
-      "title": "압류 막는 '생계비계좌' 250만원 넘는 입금액은 자동 분리 송금",
-      "link": "https://www.yna.co.kr/view/AKR20260724060700004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T02:24:48+00:00"
-    },
-    {
-      "title": "Japan core inflation rate in June creeps up from 4-year low as higher oil prices bite",
-      "link": "https://www.cnbc.com/2026/07/24/japan-cpi-june-inflation-oil-prices-yen.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T02:24:48+00:00"
-    },
-    {
-      "title": "U.S. to see higher generic drug prices thanks to tariffs, CEO of leading India pharma firm warns",
-      "link": "https://www.cnbc.com/2026/07/24/us-to-see-higher-generic-drug-prices-on-tariffs-indian-pharma-ceo.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T02:24:40+00:00"
     }
   ],
   "pages": [
