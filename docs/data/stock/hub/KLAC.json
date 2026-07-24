@@ -1,0 +1,17 @@
+{
+  "code": "KLAC",
+  "name": "KLA Corporation",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 210.52000427246094,
+    "change_pct": -3.75,
+    "volume": 11291350,
+    "amount": 2377055050.241852,
+    "marcap": null,
+    "as_of_iso": "2026-07-24T22:49:40.569684+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KLAC",
+  "related_news": []
+}

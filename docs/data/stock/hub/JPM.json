@@ -4,12 +4,12 @@
   "market": "US",
   "theme": "금융",
   "quote": {
-    "close": 349.8999938964844,
-    "change_pct": 0.49,
-    "volume": 10909100,
-    "amount": 3817094023.4161377,
+    "close": 353.2099914550781,
+    "change_pct": 0.95,
+    "volume": 7513084,
+    "amount": 2653696335.441284,
     "marcap": null,
-    "as_of_iso": "2026-07-24T09:06:30.028489+00:00",
+    "as_of_iso": "2026-07-24T22:49:40.569656+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "JPM",

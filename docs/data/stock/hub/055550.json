@@ -3,7 +3,15 @@
   "name": "신한지주",
   "market": "KRX",
   "theme": "금융",
-  "quote": null,
+  "quote": {
+    "close": 104400.0,
+    "change_pct": 0.58,
+    "volume": 1087479,
+    "amount": 113110041250.0,
+    "marcap": 49553915288400.0,
+    "as_of_iso": "2026-07-24T22:49:40.569745+00:00",
+    "session_key": "none"
+  },
   "tradingview_symbol": "KRX:055550",
   "related_news": []
 }

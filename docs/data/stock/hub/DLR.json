@@ -1,0 +1,17 @@
+{
+  "code": "DLR",
+  "name": "Digital Realty",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 199.0800018310547,
+    "change_pct": 11.01,
+    "volume": 10741889,
+    "amount": 2138495281.7889862,
+    "marcap": null,
+    "as_of_iso": "2026-07-24T22:49:40.569703+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "DLR",
+  "related_news": []
+}
