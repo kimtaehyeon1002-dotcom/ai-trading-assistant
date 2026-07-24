@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-24T22:12:36.124527+00:00",
+  "as_of": "2026-07-24T22:34:33.566026+00:00",
   "stocks": [
     {
       "code": "MU",
@@ -239,6 +239,18 @@
   ],
   "news": [
     {
+      "title": "‘It’s nothing personal’: Should I tell my 96-year-old stepmother that I don’t want her inheritance?",
+      "link": "https://www.marketwatch.com/story/it-would-feel-like-a-burden-my-stepmother-96-owns-the-house-i-grew-up-in-is-it-wrong-to-tell-her-i-dont-want-to-inherit-it-9d5810c2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T22:30:00+00:00"
+    },
+    {
+      "title": "[오늘의 글로벌마켓] 뉴욕증시, 국제유가 하락에도 반도체주 약세에 혼조세 - 오피니언뉴스",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1UQkF3VkI5NVZVcXZVUVQ5ay1kWkJHcjJvMHhsdTBMMnhVUFBEZEtaTFI2MDF6U1JJdm5wbV9yMTcxQXR4WGZnSXBMN2hUY2hPcl9KQmxxVzBCcHN3aTNlRDZEeFREZm1CZmFVUGNUQTNyQQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T22:17:20+00:00"
+    },
+    {
       "title": "‘We are not romantically involved’: I’m marrying my platonic best friend of 20 years. Should I leave him my home?",
       "link": "https://www.marketwatch.com/story/we-are-not-romantically-involved-im-marrying-my-platonic-best-friend-of-20-years-should-i-leave-him-my-home-3faa0a77?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -261,6 +273,18 @@
       "link": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-24T21:45:00+00:00"
+    },
+    {
+      "title": "뉴욕 증시, 유가 하락에도 반도체 매도세에 혼조 마감 [데일리국제금융] - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00Vm1lU2ZOcy1LSFFVa1d3SnRRaFFkUnVSQ25qTzV2eEJoNUZ6cGh3TWhVQ3AxbHZTRG5XNFdoWHJlU3ZiTmRIVVpDbmEwUndPbnfSAVNBVV95cUxQYlp4RVR6bFhqbUpPRHh0WkxtQVdYRE9fWEppVndUM2JMclVkOGVSdWtJU3kzbklmQUpiVnBLNENSRDlkaGJnNC1WTEF5RTN0UjgyWQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T21:38:50+00:00"
+    },
+    {
+      "title": "뉴욕증시, 이란 정세 주목하며 혼조세…나스닥 0.64%↓[상보] - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tRnNmWjI1UHM0RmxYWHNzMU9YY0JnZlhZakI2Y0FGWEgxU0lQRGJEY0w1OC1pNkdfTXEyZ1RCOVR5MW5QRHl4STZlUEJvVGM?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T21:38:00+00:00"
     },
     {
       "title": "The stock market is completely unprepared for a 6% yield on the 30-year Treasury",
@@ -314,7 +338,7 @@
       "title": "뉴욕 증시, 혼조세 마감… 인텔 7.9%·SK하이닉스 8.8% 급락 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE56SUFDeFh0Z19SM0l3TmFsdTVzQXg3a2E0OW5zSWZzam1ScDBMR2pGeDRMTjF3N2t3aVpkUEliMm1xd0I2UHBTQU1ndlBsbVU?oc=5",
       "source": "Google News",
-      "published": "2026-07-24T21:19:07+00:00"
+      "published": "2026-07-24T21:19:00+00:00"
     },
     {
       "title": "“증시 오르든지 내리든지 우린 버니까”…5대금융 13조 벌었다",
@@ -359,12 +383,6 @@
       "published": "2026-07-24T20:41:08+00:00"
     },
     {
-      "title": "뉴욕증시, 이란 불확실성 속 혼조 마감…유가는 100$ 아래로 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ORWJGLUZGVzM2aHdvWUdyd0pFQ3VmMWNjbnNsVUZ5eFhFOURlN0VXLTdIZFdCcDIxclF5NUJuVk5VV2ZtSzV3cGM4d2JMVjJnU1FwWkRoVFQ0VGFOZ2dDSNIBeEFVX3lxTE1NQlRrX05OUHh1Zzl3a3pWR3BaUUczTEZOQ1FCV1l0aUI0eUI1MzBIWF84VjJ2dUF6SkJLM3VGdzRmQjNVcEo4WUd2dnQ3NGpuazc0WDNUZjhZcVF2NlVEU1BtdWtEcER5U0VmTjIwUUU0OE5rR3VYaw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T20:38:29+00:00"
-    },
-    {
       "title": "Moody's says 'unprecedented' AI spending threatens credit quality of Amazon, Meta, Alphabet and others",
       "link": "https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html",
       "source": "CNBC Finance",
@@ -393,12 +411,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvSEZRdHpCMVA3cDY4VjdrREJVMnVFdTNFQkhzNUxpV0RyMlZmQ0VvWXFlRHVnNmU5dGpzdGYxTXRmdmp0OFVIS0NpYXM1Znk3N3JzTUtROUtwUFNUc0ZLSDhQSEFUQkNROUp1Q0hwbkPSAXRBVV95cUxQVVFsR3IzV1dUZkFZWndZNGRIMWIxWGxpTVdXVF9XOV82dGR0QzVITWx0RDB5c3hqWXRSSG5KbU44U2xsVVh0WTlvbFhKOWwwRkFFZmpMTHFsUXJWN1l3a1dwcVpFN3hkX1NxT1BJd2pmbndEdg?oc=5",
       "source": "Google News",
       "published": "2026-07-24T20:12:42+00:00"
-    },
-    {
-      "title": "I’m 38, lost my job, and have to move back in with my parents. What did I do wrong?",
-      "link": "https://www.marketwatch.com/story/i-lost-my-job-my-emergency-fund-is-running-out-and-now-i-have-to-move-back-in-with-my-parents-what-did-i-do-wrong-cf1c0f9f?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T20:11:00+00:00"
     },
     {
       "title": "Bond market anxiety is growing over AI capex budgets",
@@ -525,18 +537,6 @@
       "link": "https://www.cnbc.com/2026/07/23/short-sighted-stock-market-can-no-longer-brush-off-war-investors-say.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T14:10:40+00:00"
-    },
-    {
-      "title": "Intel rides AI boom to fastest revenue growth in almost 15 years, but shares sink",
-      "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T14:05:35+00:00"
-    },
-    {
-      "title": "EU, 러시아산 LNG 韓수입 제재 면제",
-      "link": "https://www.mk.co.kr/news/economy/12107089",
-      "source": "매일경제·증권",
-      "published": "2026-07-24T14:00:01+00:00"
     }
   ],
   "pages": [
