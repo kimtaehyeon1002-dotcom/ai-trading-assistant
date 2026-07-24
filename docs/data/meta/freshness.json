@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T17:08:12.796192+09:00",
+  "generated_at": "2026-07-24T17:25:42.765057+09:00",
   "sources": {
     "Notion Sync": {
       "status": "skipped",
@@ -10,17 +10,17 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-24T17:08:03.831545+09:00",
+      "last_built": "2026-07-24T17:25:32.949074+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 5348
+      "duration_ms": 5643
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-24T17:08:09.214619+09:00",
+      "last_built": "2026-07-24T17:25:38.593441+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 3546
+      "duration_ms": 4135
     },
     "Theme Analyst": {
       "status": "completed",
@@ -38,7 +38,7 @@
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-24T17:08:12.788837+09:00",
+      "last_built": "2026-07-24T17:25:42.757511+09:00",
       "expected_T_min": null,
       "items": 3,
       "duration_ms": 0
@@ -73,24 +73,24 @@
     },
     "Stock KR Ranking": {
       "status": "completed",
-      "last_built": "2026-07-24T14:49:07.513866+09:00",
+      "last_built": "2026-07-24T17:24:59.901242+09:00",
       "expected_T_min": null,
       "items": 2872,
-      "duration_ms": 1492
+      "duration_ms": 1946
     },
     "Stock US Ranking": {
       "status": "completed",
-      "last_built": "2026-07-24T14:49:09.007708+09:00",
+      "last_built": "2026-07-24T17:25:01.848544+09:00",
       "expected_T_min": null,
       "items": 503,
-      "duration_ms": 54230
+      "duration_ms": 30871
     },
     "Stock Hub 보조시세": {
       "status": "completed",
-      "last_built": "2026-07-24T14:50:03.242350+09:00",
+      "last_built": "2026-07-24T17:25:32.724541+09:00",
       "expected_T_min": null,
       "items": 2,
-      "duration_ms": 1423
+      "duration_ms": 181
     },
     "FS DART corpCode": {
       "status": "completed",
@@ -136,7 +136,7 @@
     },
     "Vault Sync": {
       "status": "skipped",
-      "last_built": "2026-07-24T17:08:02.796694+09:00",
+      "last_built": "2026-07-24T17:24:59.863127+09:00",
       "expected_T_min": null,
       "items": null,
       "duration_ms": 0
