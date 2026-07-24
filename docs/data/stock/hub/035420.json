@@ -1,17 +1,9 @@
 {
   "code": "035420",
   "name": "NAVER",
-  "market": "KOSPI",
+  "market": "KRX",
   "theme": "인공지능",
-  "quote": {
-    "close": 207000.0,
-    "change_pct": -5.91,
-    "volume": 711046,
-    "amount": 147394469000.0,
-    "marcap": 32487458094000.0,
-    "as_of_iso": "2026-07-24T08:25:32.907055+00:00",
-    "session_key": "none"
-  },
+  "quote": null,
   "tradingview_symbol": "KRX:035420",
   "related_news": []
 }

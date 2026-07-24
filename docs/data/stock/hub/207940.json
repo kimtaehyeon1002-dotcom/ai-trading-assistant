@@ -1,17 +1,9 @@
 {
   "code": "207940",
   "name": "삼성바이오로직스",
-  "market": "KOSPI",
+  "market": "KRX",
   "theme": "바이오",
-  "quote": {
-    "close": 1528000.0,
-    "change_pct": 10.8,
-    "volume": 161796,
-    "amount": 241846088500.0,
-    "marcap": 70732573128000.0,
-    "as_of_iso": "2026-07-24T08:25:32.907001+00:00",
-    "session_key": "none"
-  },
+  "quote": null,
   "tradingview_symbol": "KRX:207940",
   "related_news": []
 }

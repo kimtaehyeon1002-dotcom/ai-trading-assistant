@@ -3,15 +3,7 @@
   "name": "셀트리온",
   "market": "KRX",
   "theme": "바이오",
-  "quote": {
-    "close": 177700.0,
-    "change_pct": 3.19,
-    "volume": 614921,
-    "amount": 108656110350.0,
-    "marcap": 41324793556200.0,
-    "as_of_iso": "2026-07-24T08:25:32.907341+00:00",
-    "session_key": "none"
-  },
+  "quote": null,
   "tradingview_symbol": "KRX:068270",
   "related_news": []
 }

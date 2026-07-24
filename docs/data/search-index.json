@@ -1,156 +1,6 @@
 {
-  "as_of": "2026-07-24T08:25:42.767838+00:00",
+  "as_of": "2026-07-24T09:06:47.856760+00:00",
   "stocks": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "475150",
-      "name": "SK이터닉스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "market": "KOSPI"
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "market": "KOSPI"
-    },
-    {
-      "code": "322000",
-      "name": "HD현대에너지솔루션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "950160",
-      "name": "코오롱티슈진",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "0156T0",
-      "name": "에이치엘지노믹스",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "005935",
-      "name": "삼성전자우",
-      "market": "KOSPI"
-    },
-    {
-      "code": "100090",
-      "name": "SK오션플랜트",
-      "market": "KOSPI"
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "market": "KOSPI"
-    },
-    {
-      "code": "010060",
-      "name": "OCI홀딩스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "207940",
-      "name": "삼성바이오로직스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "017670",
-      "name": "SK텔레콤",
-      "market": "KOSPI"
-    },
-    {
-      "code": "028050",
-      "name": "삼성E&A",
-      "market": "KOSPI"
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "market": "KOSPI"
-    },
-    {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "066570",
-      "name": "LG전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "079550",
-      "name": "LIG디펜스앤에어로스페이스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "035420",
-      "name": "NAVER",
-      "market": "KOSPI"
-    },
-    {
-      "code": "096770",
-      "name": "SK이노베이션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KOSPI"
-    },
-    {
-      "code": "009830",
-      "name": "한화솔루션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "119850",
-      "name": "지엔씨에너지",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "KOSPI"
-    },
-    {
-      "code": "012330",
-      "name": "현대모비스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "034020",
-      "name": "두산에너빌리티",
-      "market": "KOSPI"
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "086790",
-      "name": "하나금융지주",
-      "market": "KOSPI"
-    },
     {
       "code": "MU",
       "name": "Micron Technology",
@@ -302,6 +152,16 @@
       "market": "US"
     },
     {
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "KRX"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "market": "KRX"
+    },
+    {
       "code": "TSM",
       "name": "TSMC",
       "market": "NYSE"
@@ -312,13 +172,28 @@
       "market": "KRX"
     },
     {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KRX"
+    },
+    {
       "code": "247540",
       "name": "에코프로비엠",
       "market": "KRX"
     },
     {
+      "code": "035420",
+      "name": "NAVER",
+      "market": "KRX"
+    },
+    {
       "code": "035720",
       "name": "카카오",
+      "market": "KRX"
+    },
+    {
+      "code": "207940",
+      "name": "삼성바이오로직스",
       "market": "KRX"
     },
     {
@@ -337,6 +212,11 @@
       "market": "NYSE"
     },
     {
+      "code": "005380",
+      "name": "현대차",
+      "market": "KRX"
+    },
+    {
       "code": "000270",
       "name": "기아",
       "market": "KRX"
@@ -347,12 +227,137 @@
       "market": "KRX"
     },
     {
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KRX"
+    },
+    {
       "code": "BAC",
       "name": "Bank of America",
       "market": "NYSE"
     }
   ],
   "news": [
+    {
+      "title": "[단독] 월세가격까지 치솟자…정부, 월세 세액공제 혜택 늘린다",
+      "link": "https://www.mk.co.kr/news/economy/12106950",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T09:05:28+00:00"
+    },
+    {
+      "title": "Hollywood home of Martin Short’s late daughter is listed for $1.8 million",
+      "link": "https://www.marketwatch.com/story/hollywood-home-of-martin-shorts-late-daughter-is-listed-for-1-8-million-632e4a12?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T09:03:00+00:00"
+    },
+    {
+      "title": "오세훈 시장, 김윤덕 국토부장관 만나 주택공급 방안 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260724162500004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-24T09:02:32+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
+      "link": "https://www.yna.co.kr/view/AKR20260724155900011",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-24T09:00:00+00:00"
+    },
+    {
+      "title": "[표] 외국환율고시표",
+      "link": "https://www.mk.co.kr/news/economy/12106934",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T08:56:39+00:00"
+    },
+    {
+      "title": "[포토] 펫보험 마케팅 돌입한 NH농협손보",
+      "link": "https://www.mk.co.kr/news/economy/12106933",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T08:56:38+00:00"
+    },
+    {
+      "title": "\"불법사금융 신고하세요\" … 금융위, 포상금제도 운영",
+      "link": "https://www.mk.co.kr/news/economy/12106932",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T08:56:38+00:00"
+    },
+    {
+      "title": "증권 끌고 은행 밀고…5대금융 13조 최대순익",
+      "link": "https://www.mk.co.kr/news/economy/12106929",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T08:56:37+00:00"
+    },
+    {
+      "title": "고용노동부, 교원노조법 개정 추진",
+      "link": "https://www.mk.co.kr/news/economy/12106930",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T08:56:37+00:00"
+    },
+    {
+      "title": "美, 韓 '환율관찰대상국' 유지 … \"원화약세, 경제체력 대비 과도\"",
+      "link": "https://www.mk.co.kr/news/economy/12106931",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T08:56:37+00:00"
+    },
+    {
+      "title": "삼천리 \"자회사 성경식품 주식 500억원에 추가취득\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724161600008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-24T08:56:16+00:00"
+    },
+    {
+      "title": "韓총리 취임後 전북 첫방문…\"새만금에 무한한 가능성과 책임감\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724158900001",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-24T08:53:56+00:00"
+    },
+    {
+      "title": "\"문 잠그고 복도 감시\"…부산 외국인 선원 추락사 관련 5명 입건(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260724037751051",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-24T08:51:23+00:00"
+    },
+    {
+      "title": "금융 해킹시도 매일 9만건 … 인간 통제 벗어난 AI 해킹엔 무방비",
+      "link": "https://www.mk.co.kr/news/economy/12106908",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T08:50:35+00:00"
+    },
+    {
+      "title": "\"금융시스템 전체 무너질라\" … 美·英·日선 국가가 나섰다",
+      "link": "https://www.mk.co.kr/news/economy/12106906",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T08:50:34+00:00"
+    },
+    {
+      "title": "\"AI로 AI 막는다\" 금융권 대응 나서",
+      "link": "https://www.mk.co.kr/news/economy/12106907",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T08:50:34+00:00"
+    },
+    {
+      "title": "월세 세액공제 늘린다",
+      "link": "https://www.mk.co.kr/news/economy/12106887",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T08:47:18+00:00"
+    },
+    {
+      "title": "반도체값이 만든 ‘소득 13.2% 급증’…일자리 줄었는데 금리 올린 한은 [BOK WATCHER]",
+      "link": "https://www.mk.co.kr/news/economy/12106875",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T08:40:04+00:00"
+    },
+    {
+      "title": "월세 70만원 세입자…年170만원 세액공제",
+      "link": "https://www.mk.co.kr/news/economy/12106873",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T08:38:00+00:00"
+    },
+    {
+      "title": "구리·니켈 등 광물값 치솟자 … 현대차, 공급망 밀착관리나서",
+      "link": "https://www.mk.co.kr/news/economy/12106866",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T08:35:13+00:00"
+    },
     {
       "title": "강원대·춘천시, '거점국립대 패키지 지원사업' 공동 추진 협약",
       "link": "https://www.yna.co.kr/view/AKR20260724150800062",
@@ -384,6 +389,12 @@
       "published": "2026-07-24T08:08:55+00:00"
     },
     {
+      "title": "오늘의 증시 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SVEM2M3RzVWVvWEhRbTF5VUF2b0Zucm0tRFhJNU5ua3c4R3FQeXNRdGl5UXRwS1pFZ05vU2hRZnZEOTkycHk2VWkyNWI1Uk5QM0lHRk9ubG1WMjNqZmFuZm9wWGh5bWRBa1hCbXZhTWdYRmxSVkNVbQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T08:06:19+00:00"
+    },
+    {
       "title": "Wise Group shares tank after U.S. bank charter rejected. What’s next for the fintech.",
       "link": "https://www.marketwatch.com/story/wise-group-shares-tank-after-u-s-bank-charter-rejected-whats-next-for-the-fintech-91be430f?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -406,6 +417,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260724148000052",
       "source": "연합뉴스·경제",
       "published": "2026-07-24T08:03:23+00:00"
+    },
+    {
+      "title": "올해만 사이드카 41번 ‘롤러코스피’…증시 전문가들 “추격 매도 경계해야” - 이코노미스트",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1yb1F3UWpaYkNhbmg2VlBIY3BQeEdBN2d0ck5VZEVKR21OSVpXYldGU01hM2FUSEh0U2RFa1U0b3B0OGRsaVZsdV91WDFVOEhlMGEwYzZMSWotQW1FbjM2U3d3?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T08:01:00+00:00"
     },
     {
       "title": "서민금융진흥원 대구경북본부, 피해 예방 ‘불법사금융 NO!’ 캠페인",
@@ -450,13 +467,19 @@
       "published": "2026-07-24T07:43:28+00:00"
     },
     {
+      "title": "삼성생명, 10년 만에 뉴욕·런던 법인 되찾는다",
+      "link": "https://www.mk.co.kr/news/economy/12106782",
+      "source": "매일경제·증권",
+      "published": "2026-07-24T07:42:24+00:00"
+    },
+    {
       "title": "“휘발유 122원·경유 145원 싸게”... 정부, 유류세 인하 9월 말까지 연장",
       "link": "https://www.mk.co.kr/news/economy/12106780",
       "source": "매일경제·증권",
       "published": "2026-07-24T07:38:25+00:00"
     },
     {
-      "title": "닭 사육 ‘2억 마리’ 사상 첫 돌파...축산 지도 바꾼 고령화",
+      "title": "“한국인들은 전생에 닭하고 원수졌나”…사육 2억마리 첫 돌파",
       "link": "https://www.mk.co.kr/news/economy/12106779",
       "source": "매일경제·증권",
       "published": "2026-07-24T07:37:05+00:00"
@@ -514,144 +537,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260724135300056",
       "source": "연합뉴스·경제",
       "published": "2026-07-24T07:08:28+00:00"
-    },
-    {
-      "title": "South Korea's president invokes dramatic Japan realty crash to push domestic property agenda",
-      "link": "https://www.cnbc.com/2026/07/24/south-korea-property-bubble-japan-lost-decades.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T07:07:07+00:00"
-    },
-    {
-      "title": "7천피 무너진 코스피…다음주(27~31일) 주목해야 할 증시 이벤트는? - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQb1IySW1mdGRCaW9GYW5KNGVjV2lfSFdTWmtMQUNYODJKUEpRSzRuNEdjeERKdW9lRDBwRjZ4aGJ4RFhZUllWNlZBLWhmajVfU1BmcVNJZUJEdw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T07:05:31+00:00"
-    },
-    {
-      "title": "우리금융, 동양생명 완전자회사로 품는다…주식교환 이사회 승인(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260724081551002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T07:05:09+00:00"
-    },
-    {
-      "title": "강달러도 누른 하이닉스 효과…환율 0.2원 내린 1,466.6원",
-      "link": "https://www.yna.co.kr/view/AKR20260724129300002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T07:04:39+00:00"
-    },
-    {
-      "title": "[증시-마감] AI 비용·확전 우려에 코스피 5.7% 급락…6,690대 후퇴 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBucW9WMGkzWWFlOGZqeHp6LWhPOGp0N1ZFdDJBdFZfbGlNMlFnWTJ6MFNXRVd1eWtQdUhhc1JJVE1VUFNEeURTSUZmNTA2TmpQazVYVW91MlR5TktCajZha0dkX2J5SUV6YWZGTmt1b3c?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T07:04:00+00:00"
-    },
-    {
-      "title": "농협금융 상반기 순익 1조7천791억원, 9.2%↑…역대 최대",
-      "link": "https://www.yna.co.kr/view/AKR20260724128500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T07:03:47+00:00"
-    },
-    {
-      "title": "No.1 경제·증권 채널 : @HKWOWTV - 한국경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRHNCelZxQ3FrVVhBUFB4aHJRc2lNN2VoVkxxM05lOXNCanNhZGltcjlyUVA2MWxXVzJTMHJjdDA2UzQzMy0xTl9UenVNWjZTZkVZSkk0bzRQODNOcUVXYU9qcjcyVjIxcjByRDBsV3k0TVpYd21oeG5BaGc4Q0ttQmNkeFpTb21HaGt6ZjJpUjU1amZwX0ppdmJyRnEzMTQtT0Z3?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T07:01:04+00:00"
-    },
-    {
-      "title": "삼전·닉스, 7∼8%대 급락…외국인·기관 모두 던졌다(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260724046151008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T07:00:09+00:00"
-    },
-    {
-      "title": "우리금융 2분기 순이익 1조46억원, 7.4%↑…역대 두 번째(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260724125600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T06:56:33+00:00"
-    },
-    {
-      "title": "유가 상승에 증시 충격…코스피·코스닥 5%대 하락 마감 - KBS 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wY0dtRU9paEJ4eHplOWRvNGoydVlsZGc2alVFWUdWSldvUzdvS1pPRlB2QmVZMnVhUGlVQVRTeU1wZy15dmNOanQ2Ny1rejhMS1I2bWZVc3lWVXc?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T06:51:00+00:00"
-    },
-    {
-      "title": "[특징주] 삼성E&A, 2분기 호실적에 하락장서도 2% 상승 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260724038751008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T06:44:22+00:00"
-    },
-    {
-      "title": "[도쿄증시-마감] 닛케이 2%대 하락…주요 반도체주 일제히 약세 - KB Think",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tT0tjQ01ROGEzOWRDVjhEeVdXV3Q1RFN6VUxkZXJFTXdTeUtpcTRGdUQ0eXFHR3FXbWhGWWNnYmJpVmdrZzhUb3kzTDZyM2dWV1pQak1zNFJTQU9EZ1F6RU1zaWpzcDFwX0s4LW5oaDdNQQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T06:42:59+00:00"
-    },
-    {
-      "title": "충남도, '202조 첨단산업 투자 지원' 전담조직 가동",
-      "link": "https://www.yna.co.kr/view/AKR20260724123700063",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T06:38:06+00:00"
-    },
-    {
-      "title": "'검은 금요일' 맞은 증시…코스피 -5.72%·코스닥 -5.32% 마감(2보) - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WcXYzZmVYcExiR0dmRVVRcGZabU5rWDVVdGVNU3ZNdG9LeEg1YVoyYWpYRXVXR1VEOFd6NWJYMnp1NDdfT3VYM0N4S2ZVRE1SWXJvVXJNM0hfS0lWc2lr?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T06:37:35+00:00"
-    },
-    {
-      "title": "또 '블랙데이'…코스피 5.7%·코스닥 5.3% 급락 마감",
-      "link": "https://www.yna.co.kr/view/AKR20260724124500008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T06:36:58+00:00"
-    },
-    {
-      "title": "[마켓뷰] 공포가 덮친 증시… 코스피 6600선으로 ‘털썩’ - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbmkybU02clFMQktaV05MSElRclZhY0JUM05SN2NWcG1rSU5wSnFzZlBnYzNXdkpVanM2dW9seGdsTWVSaEQtNEtnX20xSVNSa3V3dzRoanhZS0JJby1yMG5NZTJETWU1MzMxc3lqU2JDQTJwOHBycDlOTFFhWTFQSHZWM2FNVk1X0gGcAUFVX3lxTFA3NXpIOFoySjlpcllVS0tLNHd6ei1kbjB6ci0tQXptZ1BpbU9Ocy1raWtYcEYyeld4ZnZ6Mk5JdTNRRFQ3aGNWU2JDejN1bTlpWTJlc1d5SXFlUFRfMlNVbjM0bGVZMEJwa1U3MUp2Sk85ellpTkZKN0wtMV9Pc1pCVXBPMk1OS2RfaE40dEZoZGZ4eFVWX1RYQlNGVg?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T06:36:00+00:00"
-    },
-    {
-      "title": "외국환시세(7월24일·15:30 기준가)",
-      "link": "https://www.yna.co.kr/view/AKR20260724124300002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T06:35:38+00:00"
-    },
-    {
-      "title": "중동전쟁 장기화에 中企피해 1천19건…\"물류비 상승·수익 악화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260724121900030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T06:35:05+00:00"
-    },
-    {
-      "title": "창원 재건축 조합장 '20억 성과금' 추진 논란…\"과도\" vs \"적정\"",
-      "link": "https://www.yna.co.kr/view/AKR20260724112200052",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T06:31:36+00:00"
-    },
-    {
-      "title": "[외환] 원/달러 환율 0.2원 내린 1,466.6원(15:30 기준가)",
-      "link": "https://www.yna.co.kr/view/AKR20260724122500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T06:30:44+00:00"
-    },
-    {
-      "title": "[게시판] 방사청, 방위사업관계법 개선방안 토론회",
-      "link": "https://www.yna.co.kr/view/AKR20260724092500504",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T06:30:00+00:00"
-    },
-    {
-      "title": "[게시판] 지평주조·지평, ''K-막걸리 글로벌화' 협약",
-      "link": "https://www.yna.co.kr/view/AKR20260724116700030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T06:15:05+00:00"
-    },
-    {
-      "title": "U.S. to see higher generic drug prices thanks to tariffs, CEO of leading India pharma firm warns",
-      "link": "https://www.cnbc.com/2026/07/24/us-to-see-higher-generic-drug-prices-on-tariffs-indian-pharma-ceo.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T06:13:54+00:00"
     }
   ],
   "pages": [
