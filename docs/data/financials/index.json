@@ -1,157 +1,12 @@
 [
   {
-    "code": "000660",
-    "name": "SK하이닉스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "005930",
-    "name": "삼성전자",
-    "market": "KOSPI"
-  },
-  {
-    "code": "475150",
-    "name": "SK이터닉스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "009150",
-    "name": "삼성전기",
-    "market": "KOSPI"
-  },
-  {
-    "code": "402340",
-    "name": "SK스퀘어",
-    "market": "KOSPI"
-  },
-  {
-    "code": "005935",
-    "name": "삼성전자우",
-    "market": "KOSPI"
-  },
-  {
-    "code": "035420",
-    "name": "NAVER",
-    "market": "KOSPI"
-  },
-  {
-    "code": "006340",
-    "name": "대원전선",
-    "market": "KOSPI"
-  },
-  {
-    "code": "028050",
-    "name": "삼성E&A",
-    "market": "KOSPI"
-  },
-  {
-    "code": "005380",
-    "name": "현대차",
-    "market": "KOSPI"
-  },
-  {
-    "code": "010120",
-    "name": "LS ELECTRIC",
-    "market": "KOSPI"
-  },
-  {
-    "code": "006360",
-    "name": "GS건설",
-    "market": "KOSPI"
-  },
-  {
-    "code": "036930",
-    "name": "주성엔지니어링",
-    "market": "KOSDAQ GLOBAL"
-  },
-  {
-    "code": "017670",
-    "name": "SK텔레콤",
-    "market": "KOSPI"
-  },
-  {
-    "code": "042700",
-    "name": "한미반도체",
-    "market": "KOSPI"
-  },
-  {
-    "code": "100090",
-    "name": "SK오션플랜트",
-    "market": "KOSPI"
-  },
-  {
-    "code": "096770",
-    "name": "SK이노베이션",
-    "market": "KOSPI"
-  },
-  {
-    "code": "006400",
-    "name": "삼성SDI",
-    "market": "KOSPI"
-  },
-  {
-    "code": "066570",
-    "name": "LG전자",
-    "market": "KOSPI"
-  },
-  {
-    "code": "439960",
-    "name": "코스모로보틱스",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "012450",
-    "name": "한화에어로스페이스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "277810",
-    "name": "레인보우로보틱스",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "105560",
-    "name": "KB금융",
-    "market": "KOSPI"
-  },
-  {
-    "code": "042660",
-    "name": "한화오션",
-    "market": "KOSPI"
-  },
-  {
-    "code": "322000",
-    "name": "HD현대에너지솔루션",
-    "market": "KOSPI"
-  },
-  {
-    "code": "196170",
-    "name": "알테오젠",
-    "market": "KOSDAQ GLOBAL"
-  },
-  {
-    "code": "012330",
-    "name": "현대모비스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "011070",
-    "name": "LG이노텍",
-    "market": "KOSPI"
-  },
-  {
-    "code": "240810",
-    "name": "원익IPS",
-    "market": "KOSDAQ GLOBAL"
-  },
-  {
-    "code": "095610",
-    "name": "테스",
-    "market": "KOSDAQ GLOBAL"
-  },
-  {
     "code": "MU",
     "name": "Micron Technology",
+    "market": "US"
+  },
+  {
+    "code": "TSLA",
+    "name": "Tesla, Inc.",
     "market": "US"
   },
   {
@@ -160,8 +15,18 @@
     "market": "US"
   },
   {
+    "code": "GOOGL",
+    "name": "Alphabet Inc. (Class A)",
+    "market": "US"
+  },
+  {
     "code": "SNDK",
     "name": "Sandisk",
+    "market": "US"
+  },
+  {
+    "code": "GOOG",
+    "name": "Alphabet Inc. (Class C)",
     "market": "US"
   },
   {
@@ -170,18 +35,13 @@
     "market": "US"
   },
   {
-    "code": "GOOGL",
-    "name": "Alphabet Inc. (Class A)",
+    "code": "INTC",
+    "name": "Intel",
     "market": "US"
   },
   {
     "code": "AAPL",
     "name": "Apple Inc.",
-    "market": "US"
-  },
-  {
-    "code": "TSLA",
-    "name": "Tesla, Inc.",
     "market": "US"
   },
   {
@@ -195,16 +55,6 @@
     "market": "US"
   },
   {
-    "code": "INTC",
-    "name": "Intel",
-    "market": "US"
-  },
-  {
-    "code": "GOOG",
-    "name": "Alphabet Inc. (Class C)",
-    "market": "US"
-  },
-  {
     "code": "META",
     "name": "Meta Platforms",
     "market": "US"
@@ -215,8 +65,28 @@
     "market": "US"
   },
   {
-    "code": "SMCI",
-    "name": "Supermicro",
+    "code": "NOW",
+    "name": "ServiceNow",
+    "market": "US"
+  },
+  {
+    "code": "STX",
+    "name": "Seagate Technology",
+    "market": "US"
+  },
+  {
+    "code": "JPM",
+    "name": "JPMorgan Chase",
+    "market": "US"
+  },
+  {
+    "code": "LITE",
+    "name": "Lumentum",
+    "market": "US"
+  },
+  {
+    "code": "ORCL",
+    "name": "Oracle Corporation",
     "market": "US"
   },
   {
@@ -230,43 +100,8 @@
     "market": "US"
   },
   {
-    "code": "STX",
-    "name": "Seagate Technology",
-    "market": "US"
-  },
-  {
-    "code": "T",
-    "name": "AT&T",
-    "market": "US"
-  },
-  {
-    "code": "NOW",
-    "name": "ServiceNow",
-    "market": "US"
-  },
-  {
     "code": "MRVL",
     "name": "Marvell Technology",
-    "market": "US"
-  },
-  {
-    "code": "APP",
-    "name": "AppLovin",
-    "market": "US"
-  },
-  {
-    "code": "LITE",
-    "name": "Lumentum",
-    "market": "US"
-  },
-  {
-    "code": "DELL",
-    "name": "Dell Technologies",
-    "market": "US"
-  },
-  {
-    "code": "BAC",
-    "name": "Bank of America",
     "market": "US"
   },
   {
@@ -275,8 +110,13 @@
     "market": "US"
   },
   {
-    "code": "NFLX",
-    "name": "Netflix",
+    "code": "TMO",
+    "name": "Thermo Fisher Scientific",
+    "market": "US"
+  },
+  {
+    "code": "AMAT",
+    "name": "Applied Materials",
     "market": "US"
   },
   {
@@ -290,14 +130,34 @@
     "market": "US"
   },
   {
-    "code": "JPM",
-    "name": "JPMorgan Chase",
+    "code": "NFLX",
+    "name": "Netflix",
     "market": "US"
   },
   {
-    "code": "AMAT",
-    "name": "Applied Materials",
+    "code": "SMCI",
+    "name": "Supermicro",
     "market": "US"
+  },
+  {
+    "code": "LRCX",
+    "name": "Lam Research",
+    "market": "US"
+  },
+  {
+    "code": "XOM",
+    "name": "ExxonMobil",
+    "market": "US"
+  },
+  {
+    "code": "005930",
+    "name": "삼성전자",
+    "market": "KRX"
+  },
+  {
+    "code": "000660",
+    "name": "SK하이닉스",
+    "market": "KRX"
   },
   {
     "code": "TSM",
@@ -310,8 +170,18 @@
     "market": "KRX"
   },
   {
+    "code": "006400",
+    "name": "삼성SDI",
+    "market": "KRX"
+  },
+  {
     "code": "247540",
     "name": "에코프로비엠",
+    "market": "KRX"
+  },
+  {
+    "code": "035420",
+    "name": "NAVER",
     "market": "KRX"
   },
   {
@@ -340,6 +210,11 @@
     "market": "NYSE"
   },
   {
+    "code": "005380",
+    "name": "현대차",
+    "market": "KRX"
+  },
+  {
     "code": "000270",
     "name": "기아",
     "market": "KRX"
@@ -348,5 +223,15 @@
     "code": "055550",
     "name": "신한지주",
     "market": "KRX"
+  },
+  {
+    "code": "105560",
+    "name": "KB금융",
+    "market": "KRX"
+  },
+  {
+    "code": "BAC",
+    "name": "Bank of America",
+    "market": "NYSE"
   }
 ]
