@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-24T17:45:50.116203+00:00",
+  "as_of": "2026-07-24T18:11:54.121328+00:00",
   "stocks": [
     {
       "code": "MU",
@@ -239,10 +239,40 @@
   ],
   "news": [
     {
+      "title": "Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants",
+      "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-eu-trade-google-apple-tech.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T18:08:57+00:00"
+    },
+    {
+      "title": "Jensen Huang has a high-stakes message for AI policymakers",
+      "link": "https://www.marketwatch.com/story/jensen-huang-has-a-high-stakes-message-for-ai-policymakers-aa60017b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T18:06:00+00:00"
+    },
+    {
+      "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
+      "link": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-24T18:01:00+00:00"
+    },
+    {
+      "title": "Nvidia, Microsoft, Meta warn against 'premature restrictions' of open-weight models",
+      "link": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T17:55:37+00:00"
+    },
+    {
       "title": "Why there are still more Trump tariffs expected — even after this past week’s rollouts",
       "link": "https://www.marketwatch.com/story/why-there-are-still-more-trump-tariffs-expected-even-after-this-past-weeks-rollouts-86b623f6?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-24T17:41:00+00:00"
+    },
+    {
+      "title": "Moody's says 'unprecedented' AI spending threatens credit quality of Amazon, Meta, Alphabet and others",
+      "link": "https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T17:37:49+00:00"
     },
     {
       "title": "CDC says massive cyclospora outbreak is now in nine states",
@@ -257,10 +287,10 @@
       "published": "2026-07-24T17:31:56+00:00"
     },
     {
-      "title": "Nvidia, Microsoft, Meta warn against 'premature restrictions' of open-weight models",
-      "link": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "title": "Trader who successfully shorted Tesla into earnings now sets sights on this high flyer",
+      "link": "https://www.cnbc.com/2026/07/24/trader-who-successfully-shorted-tesla-into-earnings-now-sets-sights-on-this-high-flyer-.html",
       "source": "CNBC Finance",
-      "published": "2026-07-24T17:26:32+00:00"
+      "published": "2026-07-24T17:28:15+00:00"
     },
     {
       "title": "FDA advisers vote against sleep peptide as they debate safety and health claims",
@@ -329,22 +359,10 @@
       "published": "2026-07-24T16:21:00+00:00"
     },
     {
-      "title": "Are 7% mortgage rates next? The Treasury market is flashing a warning sign for home buyers.",
-      "link": "https://www.marketwatch.com/story/the-treasury-market-is-flashing-a-warning-sign-for-home-buyers-are-7-mortgage-rates-next-58b5b3b1?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T16:20:00+00:00"
-    },
-    {
       "title": "Trump considers ‘massive attack’ on Iran; Pakistan reportedly seeks to restart stalled peace talks",
       "link": "https://www.cnbc.com/2026/07/24/us-iran-war-trump-hormuz-houthis.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T16:04:46+00:00"
-    },
-    {
-      "title": "Do I use $300,000 of my $1.2 million retirement savings so my daughter can attend her dream college?",
-      "link": "https://www.marketwatch.com/story/do-i-use-300-000-of-my-1-2-million-retirement-savings-so-my-daughter-can-attend-her-dream-college-50842e7a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-24T16:01:00+00:00"
     },
     {
       "title": "중동 긴장에 유가 100달러 재돌파… 아시아 증시 휘청 - 조선일보",
@@ -519,24 +537,6 @@
       "link": "https://www.mk.co.kr/news/economy/12106954",
       "source": "매일경제·증권",
       "published": "2026-07-24T09:33:08+00:00"
-    },
-    {
-      "title": "[중국증시-마감] 중동 불확실성·대형 IPO 부담 속 하락 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Jd3hERW8xbHdvU3BHYmktZy1sXzhBb202TnZ4Rm1TS2Z2eHBQV1UzN09QSzZGUHQ4MTFxOXRodlRWNDVGSGc5R1FBT202eGNnTUJDUS0wWDhuUFlkanNiSnJCQllENUVQS0xBMVpydFc?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T09:21:12+00:00"
-    },
-    {
-      "title": "5대금융 상반기 순이익 13조 넘겨…'역대 최대' 실적 행렬",
-      "link": "https://www.yna.co.kr/view/AKR20260723180200002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-24T09:10:41+00:00"
-    },
-    {
-      "title": "[단독] 월세가격까지 치솟자…정부, 월세 세액공제 혜택 늘린다",
-      "link": "https://www.mk.co.kr/news/economy/12106950",
-      "source": "매일경제·증권",
-      "published": "2026-07-24T09:05:28+00:00"
     }
   ],
   "pages": [
