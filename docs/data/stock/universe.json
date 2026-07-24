@@ -15,6 +15,11 @@
     "market": "KOSPI"
   },
   {
+    "code": "950160",
+    "name": "코오롱티슈진",
+    "market": "KOSDAQ"
+  },
+  {
     "code": "009150",
     "name": "삼성전기",
     "market": "KOSPI"
@@ -25,18 +30,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "005935",
-    "name": "삼성전자우",
-    "market": "KOSPI"
+    "code": "0156T0",
+    "name": "에이치엘지노믹스",
+    "market": "KOSDAQ"
   },
   {
-    "code": "035420",
-    "name": "NAVER",
-    "market": "KOSPI"
-  },
-  {
-    "code": "006340",
-    "name": "대원전선",
+    "code": "322000",
+    "name": "HD현대에너지솔루션",
     "market": "KOSPI"
   },
   {
@@ -45,8 +45,28 @@
     "market": "KOSPI"
   },
   {
+    "code": "005935",
+    "name": "삼성전자우",
+    "market": "KOSPI"
+  },
+  {
+    "code": "010060",
+    "name": "OCI홀딩스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "017670",
+    "name": "SK텔레콤",
+    "market": "KOSPI"
+  },
+  {
     "code": "005380",
     "name": "현대차",
+    "market": "KOSPI"
+  },
+  {
+    "code": "012450",
+    "name": "한화에어로스페이스",
     "market": "KOSPI"
   },
   {
@@ -55,28 +75,18 @@
     "market": "KOSPI"
   },
   {
-    "code": "006360",
-    "name": "GS건설",
+    "code": "207940",
+    "name": "삼성바이오로직스",
     "market": "KOSPI"
   },
   {
-    "code": "036930",
-    "name": "주성엔지니어링",
-    "market": "KOSDAQ GLOBAL"
+    "code": "119850",
+    "name": "지엔씨에너지",
+    "market": "KOSDAQ"
   },
   {
-    "code": "017670",
-    "name": "SK텔레콤",
-    "market": "KOSPI"
-  },
-  {
-    "code": "042700",
-    "name": "한미반도체",
-    "market": "KOSPI"
-  },
-  {
-    "code": "100090",
-    "name": "SK오션플랜트",
+    "code": "079550",
+    "name": "LIG디펜스앤에어로스페이스",
     "market": "KOSPI"
   },
   {
@@ -85,23 +95,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "006400",
-    "name": "삼성SDI",
+    "code": "100090",
+    "name": "SK오션플랜트",
     "market": "KOSPI"
   },
   {
-    "code": "066570",
-    "name": "LG전자",
-    "market": "KOSPI"
-  },
-  {
-    "code": "439960",
-    "name": "코스모로보틱스",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "012450",
-    "name": "한화에어로스페이스",
+    "code": "035420",
+    "name": "NAVER",
     "market": "KOSPI"
   },
   {
@@ -110,8 +110,8 @@
     "market": "KOSDAQ"
   },
   {
-    "code": "105560",
-    "name": "KB금융",
+    "code": "066570",
+    "name": "LG전자",
     "market": "KOSPI"
   },
   {
@@ -120,34 +120,34 @@
     "market": "KOSPI"
   },
   {
-    "code": "322000",
-    "name": "HD현대에너지솔루션",
+    "code": "009830",
+    "name": "한화솔루션",
     "market": "KOSPI"
   },
   {
-    "code": "196170",
-    "name": "알테오젠",
+    "code": "036930",
+    "name": "주성엔지니어링",
     "market": "KOSDAQ GLOBAL"
   },
   {
-    "code": "012330",
-    "name": "현대모비스",
+    "code": "105560",
+    "name": "KB금융",
     "market": "KOSPI"
   },
   {
-    "code": "011070",
-    "name": "LG이노텍",
+    "code": "006340",
+    "name": "대원전선",
     "market": "KOSPI"
   },
   {
-    "code": "240810",
-    "name": "원익IPS",
-    "market": "KOSDAQ GLOBAL"
+    "code": "460930",
+    "name": "현대힘스",
+    "market": "KOSDAQ"
   },
   {
-    "code": "095610",
-    "name": "테스",
-    "market": "KOSDAQ GLOBAL"
+    "code": "006400",
+    "name": "삼성SDI",
+    "market": "KOSPI"
   },
   {
     "code": "MU",
@@ -317,11 +317,6 @@
   {
     "code": "035720",
     "name": "카카오",
-    "market": "KRX"
-  },
-  {
-    "code": "207940",
-    "name": "삼성바이오로직스",
     "market": "KRX"
   },
   {

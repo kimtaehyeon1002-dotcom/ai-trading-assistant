@@ -1,0 +1,17 @@
+{
+  "code": "009830",
+  "name": "한화솔루션",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 30850.0,
+    "change_pct": 2.83,
+    "volume": 2348570,
+    "amount": 71362039650.0,
+    "marcap": 5302884735600.0,
+    "as_of_iso": "2026-07-24T02:31:25.743181+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:009830",
+  "related_news": []
+}
