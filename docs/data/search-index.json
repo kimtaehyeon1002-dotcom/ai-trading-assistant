@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-25T20:06:30.766454+00:00",
+  "as_of": "2026-07-25T20:59:30.536236+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,10 +349,28 @@
   ],
   "news": [
     {
+      "title": "Saudi military strikes Houthi targets in Yemen after Iran-backed militia attacked Red Sea shipping",
+      "link": "https://www.cnbc.com/2026/07/25/saudi-military-strikes-iran-backed-houthi-targets-yemen.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-25T20:29:41+00:00"
+    },
+    {
+      "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
+      "link": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-25T20:15:00+00:00"
+    },
+    {
       "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
       "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-25T20:00:00+00:00"
+    },
+    {
+      "title": "Here are 4 forces that drove a tough week for stocks",
+      "link": "https://www.cnbc.com/2026/07/25/here-are-4-forces-that-drove-a-tough-week-for-stocks.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-25T19:56:55+00:00"
     },
     {
       "title": "Yes, the AI stock selloff looks terrifying. But it might actually save the bull market.",
@@ -401,12 +419,6 @@
       "link": "https://www.marketwatch.com/story/welcome-to-the-roaring-20s-heres-how-this-earnings-season-will-keep-the-bull-market-strong-4a70be72?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-25T17:48:00+00:00"
-    },
-    {
-      "title": "Before you ask AI to invest your life savings, you need to understand its hidden biases",
-      "link": "https://www.marketwatch.com/story/can-ai-replace-your-financial-adviser-why-bots-still-cant-match-human-judgment-ddb5903a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-25T17:36:00+00:00"
     },
     {
       "title": "Imax 70 mm screenings become the biggest star for Christopher Nolan’s ‘The Odyssey’",
@@ -475,16 +487,16 @@
       "published": "2026-07-25T11:00:05+00:00"
     },
     {
-      "title": "Saudi military strikes Houthi targets in Yemen after the Iran-backed militia attacked Red Sea shipping",
-      "link": "https://www.cnbc.com/2026/07/25/saudi-military-strikes-iran-backed-houthi-targets-yemen.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-25T10:22:58+00:00"
-    },
-    {
       "title": "정의선 “AI팩토리·도시 통합...엔비디아와 로봇 플랫폼 구축”",
       "link": "https://www.mk.co.kr/news/economy/12107347",
       "source": "매일경제·증권",
       "published": "2026-07-25T09:14:59+00:00"
+    },
+    {
+      "title": "Nvidia locks down memory supply from SK Hynix as part of $500 billion AI deal",
+      "link": "https://www.cnbc.com/2026/07/25/nvidia-locks-down-memory-from-sk-hynix-as-part-of-500-billion-ai-deal.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-25T08:49:00+00:00"
     },
     {
       "title": "“보험금 청구 간편해졌네”…지급 속도 빨라지고 서류 절차도 축소",
@@ -523,12 +535,6 @@
       "published": "2026-07-25T05:29:38+00:00"
     },
     {
-      "title": "(뉴욕증시) 유가 하락에도 반도체 약세에 혼조...나스닥 0.6%↓ - 경제 - koreadailytimes.com",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1YOEFhZjVOUHhXMllWWmNPcVdXUkhvNmFlcUJmQ1Jxem9RQzRJY3pPcU9CQmY3OGs4ZEVrM09zd2UyX3cxOUtlag?oc=5",
-      "source": "Google News",
-      "published": "2026-07-25T04:52:10+00:00"
-    },
-    {
       "title": "“여름 휴가, 카드만 잘 써도 돈 아낀다”…워터파크 입장료 반값에 즐기는 법은?",
       "link": "https://www.mk.co.kr/news/economy/12107252",
       "source": "매일경제·증권",
@@ -565,22 +571,10 @@
       "published": "2026-07-25T01:55:50+00:00"
     },
     {
-      "title": "[뉴욕 증시] 반도체 중심 기술주↓·전통주↑...뉴욕 3대 지수 혼조세 - 한양경제",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zNFF2czVYTjBKVDVfVzEtNV9iNll6cTNqUU0teWpnRHJhMkRyNUZCSWxwdzBMNExZNlM1VHJya0FMa0tkam5OX3duRzVQYks4d09MRUhxWHI1aWNvWm5zOWgxN1R2aVAteFJQMFNYZjc?oc=5",
-      "source": "Google News",
-      "published": "2026-07-25T01:29:05+00:00"
-    },
-    {
       "title": "반도체주 매도세에…뉴욕증시 혼조 마감 - 연합뉴스 한민족센터",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RWlRfX0tYZEgyamhlMEpVWkI3dW5yd0dNaUxlbmVUT2EzY0ZYSURLNjVueVFCRGxQcmlYcktiZk1ucl8yVllIOHpEWlVCdnFjUmJDXzAwLXZWQi16R1o5amZRT2NZZDRHYmNOdFNxOGliaUhy?oc=5",
       "source": "Google News",
       "published": "2026-07-25T01:18:09+00:00"
-    },
-    {
-      "title": "“개미는 충동적 도박꾼”…英 이코노미스트의 한국 증시 경고 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Sd19WQk13N2RwMkRnMXA3SWd6d0l6RGFGSGNmeElYTFhoMmJ6OVRRNkxQUmN3Zk9ud0szOVVyNUJSTXNSWDBMN2lNSDZxVEE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-25T01:12:49+00:00"
     },
     {
       "title": "예탁금 줄고 서학개미 순매수 4배 급증…국내 증시 이탈 가속화 - BBS불교방송",
@@ -625,12 +619,6 @@
       "published": "2026-07-24T21:48:45+00:00"
     },
     {
-      "title": "Paramount agrees to delay WBD acquisition to as late as June 2027 amid legal challenge",
-      "link": "https://www.cnbc.com/2026/07/24/paramount-wbd-merger-delay.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T21:24:09+00:00"
-    },
-    {
       "title": "“증시 오르든지 내리든지 우린 버니까”…5대금융 13조 벌었다",
       "link": "https://www.mk.co.kr/news/economy/12107171",
       "source": "매일경제·증권",
@@ -647,6 +635,18 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHQ1huMFFXd0ZxbUJ4SGtqMmR6dWZ6bHBFNWNDcmxOcFNBMUozTFdYRV9fczFaU0xUQ2xhOEpVenBrdUt5ODZQanZIQVBHMUpacTk2WmY2c0tkd9IBWEFVX3lxTE5ad2J0YWc2MHctV1hVcE1LUnBYZG52TTV6VlNiU1FYZy10b1NwbmxXVUdZNm1udUtSeHNxMDQ3OVY3Sm4yTUtHQ2ZVc2tFZlg5MUg2bzJWbVk?oc=5",
       "source": "Google News",
       "published": "2026-07-24T21:00:00+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 반도체만 콕 집어서 투매…혼조 마감 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OallnQUxPZzVoWjRxNHozZHFDZW42TWJ6WUFPMk1pWk9iSEdYcHhaYTFqbWdlRlFJSVNnMUYzS21BWDBfTC05TmpCbG9tdm5XUXNuZ0VNbU1jajZSMHh3QnhvdUIwNzJlaTBJYWhqYjQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T20:56:28+00:00"
+    },
+    {
+      "title": "Trump defends DOJ subpoenas of NY Times reporters; Google also was targeted",
+      "link": "https://www.cnbc.com/2026/07/24/trump-doj-subpoenas-new-york-times-google.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T20:23:12+00:00"
     }
   ],
   "pages": [
