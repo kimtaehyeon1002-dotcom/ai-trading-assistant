@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-25T00:09:35.169253+00:00",
+  "as_of": "2026-07-25T02:25:25.196097+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,10 +349,70 @@
   ],
   "news": [
     {
+      "title": "SpaceX launches massive Starship rocket in first test flight since IPO",
+      "link": "https://www.cnbc.com/2026/07/24/spacex-launches-massive-starship-rocket-in-first-test-flight-since-ipo.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-25T02:17:11+00:00"
+    },
+    {
+      "title": "“국장 못 믿겠다” 해외로 쏠린 개미…이달 순매수 4배 폭증",
+      "link": "https://www.mk.co.kr/news/economy/12107229",
+      "source": "매일경제·증권",
+      "published": "2026-07-25T01:55:50+00:00"
+    },
+    {
+      "title": "[뉴욕 증시] 반도체 중심 기술주↓·전통주↑...뉴욕 3대 지수 혼조세 - 한양경제",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zNFF2czVYTjBKVDVfVzEtNV9iNll6cTNqUU0teWpnRHJhMkRyNUZCSWxwdzBMNExZNlM1VHJya0FMa0tkam5OX3duRzVQYks4d09MRUhxWHI1aWNvWm5zOWgxN1R2aVAteFJQMFNYZjc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T01:29:05+00:00"
+    },
+    {
+      "title": "반도체주 매도세에…뉴욕증시 혼조 마감 - 연합뉴스 한민족센터",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RWlRfX0tYZEgyamhlMEpVWkI3dW5yd0dNaUxlbmVUT2EzY0ZYSURLNjVueVFCRGxQcmlYcktiZk1ucl8yVllIOHpEWlVCdnFjUmJDXzAwLXZWQi16R1o5amZRT2NZZDRHYmNOdFNxOGliaUhy?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T01:18:09+00:00"
+    },
+    {
+      "title": "월요일 급락, 회복, 금요일 폭락… 롤러코스피 ‘검은 패턴’ [주간 증시해설서] - 더스쿠프",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MdlpIMWxpZGUzLUR3cEN6WWdCV3ZzaEZDdGVURGxTRk1ZUGhFWjlSeVo3ejhIRWVrSHgybHdlMlFKWEpmd1pJQ2NoRzFQT1V1Ul9naEhqTk9Xbno2NmdJSFAyN0lfUHEzaUVnQnlB?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T00:49:09+00:00"
+    },
+    {
+      "title": "[해외시황] 뉴욕증시, 유가 하락에도 반도체주 약세에 '혼조'…나스닥 0.64%↓ - 프라임경제",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yZ0o1TUJDTnczel9XMm01SDQ1V2FOdmV5U2RCMkRfdmVUeFJsQm1Pd0V2bUoxblVTUlQ5Vlo3NGM3ZkoyQVk3cDRWYTloUWhOR05NaEcxcUMzdzRCd0lCZ1NnLTBwYzR2TnJXTjNTWENBQQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T00:36:45+00:00"
+    },
+    {
+      "title": "[뉴욕증시]유가 하락에도 반도체 매도에 혼조세 마감…나스닥 0.64%↓ - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0YkNFLURDa1BOc2hTbXJWMGpZVzVfMUd6aG9JLUIzTlh0NExxS09EczFMM3d2TTlFWmc2SHZNWmJGektEWXJoWjZ1YkI5MWpZSlJSa1VkY0ZMR2lLNVFYVw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T00:31:58+00:00"
+    },
+    {
+      "title": "Trump sued hours after new tariffs take effect, as experts say they may not hold up",
+      "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-lawsuit-301-ieepa.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-25T00:18:53+00:00"
+    },
+    {
+      "title": "미국 증시, 유가 하락에도 반도체주 급락에 혼조세 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNm5BclR1XzZfeDFFdGE2ZWhBLXBvNURwZllxUXhoeHJ3NGZ2SVI0c2VMTjVhUk9ESjhOR0lyVWxOUXdEdkYwRVIzZkZtUHRnUDJ3N3lxcUlRREZ6dHJiUU5JclVwYmxiMHI3T3RRR2dPOEc5MDRwVnpVT20wdmxySEhWa3JZa29FWUtRQVNB?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T00:13:00+00:00"
+    },
+    {
       "title": "뉴욕증시 혼조 마감…반도체주 약세에 나스닥 0.64%↓ - 서울경제TV",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE16dGVzQUFoaDR1QUZUM0h3WkpLSW1GNWNUVzUwTHEzUU8xX3ZsM2QtRlRjM0tUZVdRY3p5ZV8wYlVqd1ozY0JKYUJ2OGN4ckd3d0NiVkY3blZHc0dPQmZjZVJHNTQ?oc=5",
       "source": "Google News",
       "published": "2026-07-24T23:58:46+00:00"
+    },
+    {
+      "title": "국내증시 출렁에 국장 이탈?…서학개미 이달 순매수 4배 늘었다 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGdGFVT3BMa3UyT3EtSXR2NFU0TEQzZnZKUmlZdzVQVzJGT0lzUmVlcTlodWVWTV95LXlXLTlVQXFiVjlVdlYzbncxdFBxU1dSaDBObUQ4TE1RQnpvWEpDV9IBYEFVX3lxTFBGdGFVT3BMa3UyT3EtSXR2NFU0TEQzZnZKUmlZdzVQVzJGT0lzUmVlcTlodWVWTV95LXlXLTlVQXFiVjlVdlYzbncxdFBxU1dSaDBObUQ4TE1RQnpvWEpDVw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T23:00:03+00:00"
     },
     {
       "title": "Moody's says 'unprecedented' AI spending threatens credit quality of Amazon, Meta, Alphabet and others",
@@ -379,12 +439,6 @@
       "published": "2026-07-24T22:17:20+00:00"
     },
     {
-      "title": "미국증시 S&P500 '소폭 반등'...항공주 '활짝' vs 광통신주 '급락' - 초이스경제",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01T3ozMW1MSURKQXR1UjhsWGtqa05kMEVYVTNkOVFJaDBIVEhRMFNyN0RyQ0w1dHlmNGUtVVZ6ZTNQcHQ2TXhIYXFMcWVZMllBdGJfUDJDalQ4bDRLbzdBOFFadVhscmpxdU8zemNETdIBc0FVX3lxTE93bEFPaXJnLWNEY1lsLVg4MUIzc1ptLW9EVEtvVmswXy1nVzZydnM2X05udHFsa2Qyb2tfMjZraTN0WU43WWxGZk9SeGI0d0FaNVFBd2ZZOWx5YWFDZHpXRkVXdXlTaHg1d0Z0NjF4N2pOMmM?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T22:11:12+00:00"
-    },
-    {
       "title": "‘We are not romantically involved’: I’m marrying my platonic best friend of 20 years. Should I leave him my home?",
       "link": "https://www.marketwatch.com/story/we-are-not-romantically-involved-im-marrying-my-platonic-best-friend-of-20-years-should-i-leave-him-my-home-3faa0a77?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -397,6 +451,12 @@
       "published": "2026-07-24T21:57:01+00:00"
     },
     {
+      "title": "Uber and Waymo to end exclusivity arrangement in Atlanta and Austin",
+      "link": "https://www.cnbc.com/2026/07/24/uber-and-waymo-to-end-exclusivity-arrangement-in-atlanta-and-austin.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T21:48:45+00:00"
+    },
+    {
       "title": "Would you take $65,000 today, or flip a coin for a chance to win $1.3 million?",
       "link": "https://www.marketwatch.com/story/would-you-take-65-000-today-or-flip-a-coin-for-a-chance-to-win-1-3-million-d134961a?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -407,12 +467,6 @@
       "link": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-24T21:45:00+00:00"
-    },
-    {
-      "title": "뉴욕 증시, 유가 하락에도 반도체 매도세에 혼조 마감 [데일리국제금융] - 서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00Vm1lU2ZOcy1LSFFVa1d3SnRRaFFkUnVSQ25qTzV2eEJoNUZ6cGh3TWhVQ3AxbHZTRG5XNFdoWHJlU3ZiTmRIVVpDbmEwUndPbnfSAVNBVV95cUxQYlp4RVR6bFhqbUpPRHh0WkxtQVdYRE9fWEppVndUM2JMclVkOGVSdWtJU3kzbklmQUpiVnBLNENSRDlkaGJnNC1WTEF5RTN0UjgyWQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T21:38:50+00:00"
     },
     {
       "title": "뉴욕증시, 이란 정세 주목하며 혼조세…나스닥 0.64%↓[상보] - v.daum.net",
@@ -451,12 +505,6 @@
       "published": "2026-07-24T21:24:09+00:00"
     },
     {
-      "title": "[서울데이터랩] 미국 증시, 다우 상승·나스닥 약세로 혼조…반도체주 급락에 기술주 부담 - 서울신문",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CckVCNDloWFRQV1VWNzZic04zLTRhRUVMVmZTeTc5SUhodUJ6b2xVbmlsRnhVTTd3UmtYTGtXOWd5RVFtVzM2UlJKVWJWVXZ3dTBMRGk5bENNM2hnRlNDSEF6NzVQMWdtQ2ZaX0FpQ2R1NUJ4ZlpXNnAzYkJQQQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T21:23:49+00:00"
-    },
-    {
       "title": "Pay raises keep shrinking. Here’s how much smaller they’ll be next year.",
       "link": "https://www.marketwatch.com/story/pay-raises-keep-shrinking-heres-how-much-smaller-theyll-be-next-year-3fa51395?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -469,10 +517,10 @@
       "published": "2026-07-24T21:21:00+00:00"
     },
     {
-      "title": "뉴욕 증시, 혼조세 마감… 인텔 7.9%·SK하이닉스 8.8% 급락 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE56SUFDeFh0Z19SM0l3TmFsdTVzQXg3a2E0OW5zSWZzam1ScDBMR2pGeDRMTjF3N2t3aVpkUEliMm1xd0I2UHBTQU1ndlBsbVU?oc=5",
+      "title": "“증시 오르든지 내리든지 우린 버니까”…5대금융 13조 벌었다 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUYlVfUlFmZk1fMU5OaWdzbkVYVE1HNGk2d3VMcDJwYTEta1FNc1NEMzhJaVBvUVBsaHp5TV9kOXBNd3kzVXE5SUVBRU0zbWM?oc=5",
       "source": "Google News",
-      "published": "2026-07-24T21:19:00+00:00"
+      "published": "2026-07-24T21:15:00+00:00"
     },
     {
       "title": "“증시 오르든지 내리든지 우린 버니까”…5대금융 13조 벌었다",
@@ -511,16 +559,16 @@
       "published": "2026-07-24T21:00:00+00:00"
     },
     {
+      "title": "[뉴욕증시] 반도체만 콕 집어서 투매…혼조 마감 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OallnQUxPZzVoWjRxNHozZHFDZW42TWJ6WUFPMk1pWk9iSEdYcHhaYTFqbWdlRlFJSVNnMUYzS21BWDBfTC05TmpCbG9tdm5XUXNuZ0VNbU1jajZSMHh3QnhvdUIwNzJlaTBJYWhqYjQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T20:56:28+00:00"
+    },
+    {
       "title": "[뉴욕증시] 다우·S&P500 반등…반도체 약세 속 나스닥만 하락 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBOTUZKTURNdGluUTVSbGR0UHBZU1c0aEtLZzBEc28tOGJGLS1keVplTVJfbF8xTFBMZWF4NUFtNUJocFVwV2tFQW0yQ1VWN1E?oc=5",
       "source": "Google News",
       "published": "2026-07-24T20:41:08+00:00"
-    },
-    {
-      "title": "뉴욕증시, 이란 불확실성 속 혼조 마감…유가는 100$ 아래로 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ORWJGLUZGVzM2aHdvWUdyd0pFQ3VmMWNjbnNsVUZ5eFhFOURlN0VXLTdIZFdCcDIxclF5NUJuVk5VV2ZtSzV3cGM4d2JMVjJnU1FwWkRoVFQ0VGFOZ2dDSNIBeEFVX3lxTE1NQlRrX05OUHh1Zzl3a3pWR3BaUUczTEZOQ1FCV1l0aUI0eUI1MzBIWF84VjJ2dUF6SkJLM3VGdzRmQjNVcEo4WUd2dnQ3NGpuazc0WDNUZjhZcVF2NlVEU1BtdWtEcER5U0VmTjIwUUU0OE5rR3VYaw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T20:38:29+00:00"
     },
     {
       "title": "FDA advisers say six popular peptides can be compounded. Here are the issues they considered.",
@@ -557,12 +605,6 @@
       "link": "https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T20:04:44+00:00"
-    },
-    {
-      "title": "[속보][뉴욕증시] 다우S&P500 반등…애플, 3.5% 급등 - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiYTdnYjNpQUpfZnNPd280YWZ4ZlliQkhxckJfdmFqTmJyT0N2NzBwSklQNFFPTGpxX2dEYXRhaEZkbXU2VUlRWmVubEJFSjJlX19JMTBOWk5fZw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T20:02:44+00:00"
     },
     {
       "title": "Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets",
@@ -605,48 +647,6 @@
       "link": "https://www.cnbc.com/2026/07/24/oil-tanker-red-sea-hormuz-black-sea-iran-ukraine.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T18:47:41+00:00"
-    },
-    {
-      "title": "Nvidia, Microsoft, Meta warn against 'premature restrictions' of open-weight models",
-      "link": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T17:55:37+00:00"
-    },
-    {
-      "title": "Trader who successfully shorted Tesla into earnings now sets sights on this high flyer",
-      "link": "https://www.cnbc.com/2026/07/24/trader-who-successfully-shorted-tesla-into-earnings-now-sets-sights-on-this-high-flyer-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T17:28:15+00:00"
-    },
-    {
-      "title": "Anthropic's new AI model rivals Fable 5 and is cheaper as businesses fret about costs",
-      "link": "https://www.cnbc.com/2026/07/24/anthropic-claude-opus-5-ai-fable-5-cost.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T17:20:47+00:00"
-    },
-    {
-      "title": "한국증시 10거래일 연속 사이드카…레버리지 보완책 31일부터 시행 - 중앙일보",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xWDdvMVpxTnlNSWVmMjZIUkVKbXZWSkdNMEhzOVZWMDVCZWgtbGs0MWdVSVdORWNxNzFBZjBzbXcxWV85RTJrUC1ZaDMwRXI2TjlUZk9B?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T16:48:19+00:00"
-    },
-    {
-      "title": "중동 긴장에 유가 100달러 재돌파… 아시아 증시 휘청 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQalFOeHpqaEJ4eGhhTzVzY2lqT3MtSUI0V2xNbkJoLTFJZmNpbl9uWFZXaTBzLXB5cUllM2NodzdiWEdwTGVhcF9NMWRoQjd0UWVjS0NnUWFNTG1aMUtpZUdEZWJKZ2ZaVlJKOEN5WTkzLUN6LU1UUWVCQW00ZEVZaQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T15:53:00+00:00"
-    },
-    {
-      "title": "Pentagon lowers official Iran war death toll, omitting four killed this month",
-      "link": "https://www.cnbc.com/2026/07/24/pentagon-removed-four-official-iran-war-death-toll.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T15:41:39+00:00"
-    },
-    {
-      "title": "Why Costco keeps gas prices so low—it's 'straight out of the retail playbook,' expert says",
-      "link": "https://www.cnbc.com/2026/07/24/why-costco-keeps-gas-prices-so-low.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T15:29:49+00:00"
     }
   ],
   "pages": [
