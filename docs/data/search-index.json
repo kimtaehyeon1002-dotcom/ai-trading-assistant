@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-25T06:23:26.495656+00:00",
+  "as_of": "2026-07-25T07:51:13.715689+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,10 +349,34 @@
   ],
   "news": [
     {
+      "title": "李대통령 \"韓 주가 조정 중\"…젠슨 황 \"증시 다시 오를 것\" 화답 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE02VDFfOVI0bFpibWlIUmdBcHNDVnlLYjdNdF81WEstRFpZVlE0M2lERzY1aFdsbTFIS3dBZXpJUUxVWVFjZDBUOW5yaFdxNXc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T07:01:28+00:00"
+    },
+    {
+      "title": "李 대통령 “요즘 주가 조정” 말하자…젠슨 황 “곧 다시 오를 겁니다”",
+      "link": "https://www.mk.co.kr/news/economy/12107275",
+      "source": "매일경제·증권",
+      "published": "2026-07-25T06:28:50+00:00"
+    },
+    {
       "title": "외국인은 코스피, 개미는 월가…국경은 달라도 종착지는 반도체 - 에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rTFRralhINTZCRUY1R0JlcU9CdXVTUF9qY1VocjA0andOODc0cTJHZmtBcV8zVVJIVnpPVnlHSkJOX3RFYTQ2UTZyNlhnbVRoUF9sOUZQamdaWk5iUDFCUm12aw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5VZk9rckk2ajFPLUlxNjY5ck1aQ1FIT2RvbEZ5YzY2R0ptQjFrY1R3SXVIQ21Tc1RORUREdkZJLThmNmRvekpmMjBXeF9oY0p3X0FrS3liR2R2Q1U?oc=5",
       "source": "Google News",
       "published": "2026-07-25T06:00:00+00:00"
+    },
+    {
+      "title": "Finland’s radical answer to renewable energy’s biggest headache: The world’s largest sand battery",
+      "link": "https://www.cnbc.com/2026/07/25/finland-sand-battery-renewable-energy-storage.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-25T05:29:38+00:00"
+    },
+    {
+      "title": "\"주가 다시 오를 겁니다\"…젠슨 황 한마디에 웃음 터진 '샌프란 깐부회동' - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53QVJRb1ZCSXpxb2I2MlNUaUpJYWh4Qm8xZ05VaHZuU1lZcGMtQlFVU3BWdC1weWlrUGRJS2lONmx0MUJzdk1uUE9Ea08wbGc0SDJlLVAxSEx1RE1nOVRaN0hST2kwT2lpVWRXRGhjWmY?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T05:15:10+00:00"
     },
     {
       "title": "(뉴욕증시) 유가 하락에도 반도체 약세에 혼조...나스닥 0.6%↓ - 경제 - koreadailytimes.com",
@@ -373,6 +397,12 @@
       "published": "2026-07-25T03:11:00+00:00"
     },
     {
+      "title": "“삼전닉스 비중 줄여라”…갈아타는 월가, ‘엑시트 코리아’ 본격화? [머니+] - 에너지경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JanFCU09USjE0SHZKWGE2T29WU2tRdnFqTEY4WkduZURmN3VhTjQtMkdqZUtNeWtkbWdTTXBNb28tX1F0RjZPTFVXVjRQYjhpQ3BPc2UydEpTLXM?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T03:09:20+00:00"
+    },
+    {
       "title": "[7월 넷째 주 세계경제동향 브리핑] 코스피 6,600선 후퇴…한미 증시 동반 약세 - 기호일보",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kMjQ3NGVKd0VXR2FqSXI3LWdJNmdSTTlhQ2pUV3FZdWlPdlpuRXJTcTNaN2lBUkNRNE85X2gtMXNWTURvZmh1aGlSeDJiVGZMVWhncHYtdFpObk5QcUdHUzktRE4xWVpnVWVHZkZXbw?oc=5",
       "source": "Google News",
@@ -383,12 +413,6 @@
       "link": "https://www.cnbc.com/2026/07/24/spacex-launches-massive-starship-rocket-in-first-test-flight-since-ipo.html",
       "source": "CNBC Finance",
       "published": "2026-07-25T02:17:11+00:00"
-    },
-    {
-      "title": "국내 증시 흔들리자 미국 대표지수 ETF로 자금 유입 - 아시아투데이",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UU3VyRmhVWVh6X2VESkI4UVBkQXJVVFpHZVZ1azU1eHZ3SkRVVzhLNHBweC1wQkhMNkFfRjZuUVRCVXdaUnNFVDViYzYzZThlNXBkTk52WjNIX1NfMnpYWmdObFg0NWpiYVdOaEZR?oc=5",
-      "source": "Google News",
-      "published": "2026-07-25T02:04:42+00:00"
     },
     {
       "title": "“국장 못 믿겠다” 해외로 쏠린 개미…이달 순매수 4배 폭증",
@@ -415,10 +439,22 @@
       "published": "2026-07-25T01:12:49+00:00"
     },
     {
+      "title": "예탁금 줄고 서학개미 순매수 4배 급증…국내 증시 이탈 가속화 - BBS불교방송",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1taEk0ZDFBZl9CaEhOR2U0NEhTTlpCdU9kaXZ5SE9HZ2ZxbDJ1QUhiOTEwbmhNQ1VtY1B3VjZMeFJWZmYySlBkWnFFNFhZQzFDMFJqNnZKd3pBMXZlRGNtWi1WQWNZNkZWVi1R?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T01:09:06+00:00"
+    },
+    {
       "title": "월요일 급락, 회복, 금요일 폭락… 롤러코스피 ‘검은 패턴’ [주간 증시해설서] - 더스쿠프",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MdlpIMWxpZGUzLUR3cEN6WWdCV3ZzaEZDdGVURGxTRk1ZUGhFWjlSeVo3ejhIRWVrSHgybHdlMlFKWEpmd1pJQ2NoRzFQT1V1Ul9naEhqTk9Xbno2NmdJSFAyN0lfUHEzaUVnQnlB?oc=5",
       "source": "Google News",
       "published": "2026-07-25T00:49:09+00:00"
+    },
+    {
+      "title": "국장 흔들리자 다시 미장으로… 서학개미 순매수 한 달 새 4배 - 경북매일",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NYUlwZmVfM1YxWEpGQ3d6MnZ1Y21iODd0TE5SbjlKajZRT25VUnJ0RTFYcW1FcDZwVC10LXRHYkRWZmppUkFDV2FCckJaQjdjSHRWMUpUWXpoUQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T00:37:00+00:00"
     },
     {
       "title": "[해외시황] 뉴욕증시, 유가 하락에도 반도체주 약세에 '혼조'…나스닥 0.64%↓ - 프라임경제",
@@ -431,6 +467,12 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0YkNFLURDa1BOc2hTbXJWMGpZVzVfMUd6aG9JLUIzTlh0NExxS09EczFMM3d2TTlFWmc2SHZNWmJGektEWXJoWjZ1YkI5MWpZSlJSa1VkY0ZMR2lLNVFYVw?oc=5",
       "source": "Google News",
       "published": "2026-07-25T00:31:58+00:00"
+    },
+    {
+      "title": "미국 증시, 유가 하락에도 반도체주 급락에 혼조세 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNm5BclR1XzZfeDFFdGE2ZWhBLXBvNURwZllxUXhoeHJ3NGZ2SVI0c2VMTjVhUk9ESjhOR0lyVWxOUXdEdkYwRVIzZkZtUHRnUDJ3N3lxcUlRREZ6dHJiUU5JclVwYmxiMHI3T3RRR2dPOEc5MDRwVnpVT20wdmxySEhWa3JZa29FWUtRQVNB?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T00:20:39+00:00"
     },
     {
       "title": "Trump sued hours after new tariffs take effect, as experts say they may not hold up",
@@ -505,12 +547,6 @@
       "published": "2026-07-24T21:45:00+00:00"
     },
     {
-      "title": "뉴욕 증시, 유가 하락에도 반도체 매도세에 혼조 마감 [데일리국제금융] - 서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00Vm1lU2ZOcy1LSFFVa1d3SnRRaFFkUnVSQ25qTzV2eEJoNUZ6cGh3TWhVQ3AxbHZTRG5XNFdoWHJlU3ZiTmRIVVpDbmEwUndPbnfSAVNBVV95cUxQYlp4RVR6bFhqbUpPRHh0WkxtQVdYRE9fWEppVndUM2JMclVkOGVSdWtJU3kzbklmQUpiVnBLNENSRDlkaGJnNC1WTEF5RTN0UjgyWQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T21:38:50+00:00"
-    },
-    {
       "title": "뉴욕증시, 이란 정세 주목하며 혼조세…나스닥 0.64%↓[상보] - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tRnNmWjI1UHM0RmxYWHNzMU9YY0JnZlhZakI2Y0FGWEgxU0lQRGJEY0w1OC1pNkdfTXEyZ1RCOVR5MW5QRHl4STZlUEJvVGM?oc=5",
       "source": "Google News",
@@ -551,6 +587,12 @@
       "link": "https://www.marketwatch.com/story/these-16-states-are-offering-tax-holidays-as-back-to-school-costs-soar-to-over-800-per-student-0ec92464?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-24T21:21:00+00:00"
+    },
+    {
+      "title": "뉴욕 증시, 혼조세 마감… 인텔 7.9%·SK하이닉스 8.8% 급락 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBpOFF0UC1aTjFwdzFmVlpGYVV6cU01bU1ZaE1LOGJmU1JoQUFGVUhDZWJEVmVheDdKVmZxY1RaNDNrM2RsVUE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T21:19:07+00:00"
     },
     {
       "title": "“증시 오르든지 내리든지 우린 버니까”…5대금융 13조 벌었다",
@@ -605,48 +647,6 @@
       "link": "https://www.cnbc.com/2026/07/24/trump-doj-subpoenas-new-york-times-google.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T20:23:12+00:00"
-    },
-    {
-      "title": "뉴욕증시, 유가 하락·반도체 약세 속 혼조 마감…내주 FOMC 대기 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CSVFfMTU3RFJodk5xU01IdGNmLVl4YjlUX0RST1RtVGZSMjE1ZXhETTUzVGFJM2ZvQ082dXJKTFZoU09URk1DSlNPTzI3MU1KTDEzaVIzWk42Wmhu?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T20:18:00+00:00"
-    },
-    {
-      "title": "[뉴욕증시-1보] 반도체만 콕 집어서 투매…혼조 마감 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvSEZRdHpCMVA3cDY4VjdrREJVMnVFdTNFQkhzNUxpV0RyMlZmQ0VvWXFlRHVnNmU5dGpzdGYxTXRmdmp0OFVIS0NpYXM1Znk3N3JzTUtROUtwUFNUc0ZLSDhQSEFUQkNROUp1Q0hwbkPSAXRBVV95cUxQVVFsR3IzV1dUZkFZWndZNGRIMWIxWGxpTVdXVF9XOV82dGR0QzVITWx0RDB5c3hqWXRSSG5KbU44U2xsVVh0WTlvbFhKOWwwRkFFZmpMTHFsUXJWN1l3a1dwcVpFN3hkX1NxT1BJd2pmbndEdg?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T20:12:42+00:00"
-    },
-    {
-      "title": "Bond market anxiety is growing over AI capex budgets",
-      "link": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T20:07:36+00:00"
-    },
-    {
-      "title": "Treasury yields slide as oil prices fall amid hopes for new U.S.-Iran peace talks",
-      "link": "https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T20:04:44+00:00"
-    },
-    {
-      "title": "[속보][뉴욕증시] 다우S&P500 반등…애플, 3.5% 급등 - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiYTdnYjNpQUpfZnNPd280YWZ4ZlliQkhxckJfdmFqTmJyT0N2NzBwSklQNFFPTGpxX2dEYXRhaEZkbXU2VUlRWmVubEJFSjJlX19JMTBOWk5fZw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T20:02:44+00:00"
-    },
-    {
-      "title": "Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets",
-      "link": "https://www.cnbc.com/2026/07/24/odds-that-the-straits-traffic-returns-to-normal-drop-on-kalshi.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T19:58:24+00:00"
-    },
-    {
-      "title": "CDC says massive cyclospora outbreak is now in nine states",
-      "link": "https://www.cnbc.com/2026/07/24/cyclospora-cdc-says-outbreak-is-in-nine-states.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T19:53:01+00:00"
     }
   ],
   "pages": [
