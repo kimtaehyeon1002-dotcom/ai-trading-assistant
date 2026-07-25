@@ -4,12 +4,12 @@
   "market": "US",
   "theme": "인공지능",
   "quote": {
-    "close": 319.739990234375,
-    "change_pct": 0.65,
+    "close": 317.69000244140625,
+    "change_pct": null,
     "volume": 31306769,
-    "amount": 10010026014.329834,
+    "amount": 9945847520.042542,
     "marcap": null,
-    "as_of_iso": "2026-07-24T22:49:40.569587+00:00",
+    "as_of_iso": "2026-07-25T08:52:53.227304+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "GOOGL",

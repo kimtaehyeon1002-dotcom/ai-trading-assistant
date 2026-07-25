@@ -200,23 +200,23 @@
     "market": "US"
   },
   {
-    "code": "GOOG",
-    "name": "Alphabet Inc. (Class C)",
-    "market": "US"
-  },
-  {
     "code": "META",
     "name": "Meta Platforms",
     "market": "US"
   },
   {
-    "code": "AVGO",
-    "name": "Broadcom",
+    "code": "GOOG",
+    "name": "Alphabet Inc. (Class C)",
     "market": "US"
   },
   {
     "code": "ORCL",
     "name": "Oracle Corporation",
+    "market": "US"
+  },
+  {
+    "code": "AVGO",
+    "name": "Broadcom",
     "market": "US"
   },
   {
@@ -235,28 +235,13 @@
     "market": "US"
   },
   {
-    "code": "LRCX",
-    "name": "Lam Research",
-    "market": "US"
-  },
-  {
     "code": "LITE",
     "name": "Lumentum",
     "market": "US"
   },
   {
-    "code": "JPM",
-    "name": "JPMorgan Chase",
-    "market": "US"
-  },
-  {
-    "code": "NOW",
-    "name": "ServiceNow",
-    "market": "US"
-  },
-  {
-    "code": "PLTR",
-    "name": "Palantir Technologies",
+    "code": "LRCX",
+    "name": "Lam Research",
     "market": "US"
   },
   {
@@ -265,8 +250,18 @@
     "market": "US"
   },
   {
-    "code": "NFLX",
-    "name": "Netflix",
+    "code": "JPM",
+    "name": "JPMorgan Chase",
+    "market": "US"
+  },
+  {
+    "code": "PLTR",
+    "name": "Palantir Technologies",
+    "market": "US"
+  },
+  {
+    "code": "HOOD",
+    "name": "Robinhood Markets",
     "market": "US"
   },
   {
@@ -275,8 +270,13 @@
     "market": "US"
   },
   {
-    "code": "HOOD",
-    "name": "Robinhood Markets",
+    "code": "NOW",
+    "name": "ServiceNow",
+    "market": "US"
+  },
+  {
+    "code": "NFLX",
+    "name": "Netflix",
     "market": "US"
   },
   {
@@ -290,13 +290,13 @@
     "market": "US"
   },
   {
-    "code": "DLR",
-    "name": "Digital Realty",
+    "code": "CSCO",
+    "name": "Cisco",
     "market": "US"
   },
   {
-    "code": "CSCO",
-    "name": "Cisco",
+    "code": "WMT",
+    "name": "Walmart",
     "market": "US"
   },
   {

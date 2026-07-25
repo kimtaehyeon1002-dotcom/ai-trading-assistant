@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 114.16999816894531,
-    "change_pct": 1.25,
+    "close": 112.76000213623047,
+    "change_pct": null,
     "volume": 18398153,
-    "amount": 2100517094.3219757,
+    "amount": 2074575771.582695,
     "marcap": null,
-    "as_of_iso": "2026-07-24T22:49:40.569708+00:00",
+    "as_of_iso": "2026-07-25T08:52:53.227478+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "CSCO",
