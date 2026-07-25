@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-25T02:25:25.196097+00:00",
+  "as_of": "2026-07-25T03:50:24.424282+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,10 +349,22 @@
   ],
   "news": [
     {
+      "title": "\"보고서 한 장에 증시 출렁…해외 IB 리포트, 얼마나 맞았나\" By EBN - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RdTdIN05wNGE2dFlwM0Y2R0pqWGk4SkhmRzRBUGFSeU1EVjQwQXpNYy1pOGlaRW5YRFJwOE1EeC1WNVpTQnlvYXRTS1Vna2drOFlyNmRXV1IwUzd0ekppaXBFODhlbmdBMTRQNVFUdXc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T03:11:00+00:00"
+    },
+    {
       "title": "SpaceX launches massive Starship rocket in first test flight since IPO",
       "link": "https://www.cnbc.com/2026/07/24/spacex-launches-massive-starship-rocket-in-first-test-flight-since-ipo.html",
       "source": "CNBC Finance",
       "published": "2026-07-25T02:17:11+00:00"
+    },
+    {
+      "title": "국내 증시 흔들리자 미국 대표지수 ETF로 자금 유입 - 아시아투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UU3VyRmhVWVh6X2VESkI4UVBkQXJVVFpHZVZ1azU1eHZ3SkRVVzhLNHBweC1wQkhMNkFfRjZuUVRCVXdaUnNFVDViYzYzZThlNXBkTk52WjNIX1NfMnpYWmdObFg0NWpiYVdOaEZR?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T02:04:42+00:00"
     },
     {
       "title": "“국장 못 믿겠다” 해외로 쏠린 개미…이달 순매수 4배 폭증",
@@ -395,12 +407,6 @@
       "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-lawsuit-301-ieepa.html",
       "source": "CNBC Finance",
       "published": "2026-07-25T00:18:53+00:00"
-    },
-    {
-      "title": "미국 증시, 유가 하락에도 반도체주 급락에 혼조세 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNm5BclR1XzZfeDFFdGE2ZWhBLXBvNURwZllxUXhoeHJ3NGZ2SVI0c2VMTjVhUk9ESjhOR0lyVWxOUXdEdkYwRVIzZkZtUHRnUDJ3N3lxcUlRREZ6dHJiUU5JclVwYmxiMHI3T3RRR2dPOEc5MDRwVnpVT20wdmxySEhWa3JZa29FWUtRQVNB?oc=5",
-      "source": "Google News",
-      "published": "2026-07-25T00:13:00+00:00"
     },
     {
       "title": "뉴욕증시 혼조 마감…반도체주 약세에 나스닥 0.64%↓ - 서울경제TV",
@@ -517,15 +523,15 @@
       "published": "2026-07-24T21:21:00+00:00"
     },
     {
-      "title": "“증시 오르든지 내리든지 우린 버니까”…5대금융 13조 벌었다 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUYlVfUlFmZk1fMU5OaWdzbkVYVE1HNGk2d3VMcDJwYTEta1FNc1NEMzhJaVBvUVBsaHp5TV9kOXBNd3kzVXE5SUVBRU0zbWM?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T21:15:00+00:00"
-    },
-    {
       "title": "“증시 오르든지 내리든지 우린 버니까”…5대금융 13조 벌었다",
       "link": "https://www.mk.co.kr/news/economy/12107171",
       "source": "매일경제·증권",
+      "published": "2026-07-24T21:12:13+00:00"
+    },
+    {
+      "title": "“증시 오르든지 내리든지 우린 버니까”…5대금융 13조 벌었다 - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5RU9abFN6VWV4ZDZZWncySEk4V1JkUTJiaEhYQ1pJRF9SZjV1SWlQNWpOcDU0QjFrQ1Ntd1ZES2RhSXpYOFVjdkFJSEprWndVdUM0WA?oc=5",
+      "source": "Google News",
       "published": "2026-07-24T21:12:13+00:00"
     },
     {
@@ -536,7 +542,7 @@
     },
     {
       "title": "뉴욕증시, 유가 하락에도 반도체 약세에 혼조…나스닥 0.6%↓(종합) - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaUVkzNElxei1CVEMtRjQ4eUdxd2hjcW5VQVJpSjc4Nk5IR0p3OXQyQUpTUGYxMWRPdmttQnF2eEFKMU1WX0N4d3hOMVd5a20xdWlkUkZFWnE2ejTSAWBBVV95cUxPaUwtU1FuTGJyMkJEYTFZSGRsckthaU8xV1FZWl8yUTloZ0w4VDZYOWRPdmhXWnlDSkEzRUw0TFk4RDRNUUx4b2VRbVI1YkFEbmtpbExRVHpxbHcxaVJLTEk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pTC1TUW5MYnIyQkRhMVlIZGxyS2FpTzFXUVlaXzJROWhnTDhUNlg5ZE92aFdaeUNKQTNFTDRMWThENE1RTHhvZVFtUjViQURua2lsTFFUenFsdzFpUktMSdIBYEFVX3lxTE9pTC1TUW5MYnIyQkRhMVlIZGxyS2FpTzFXUVlaXzJROWhnTDhUNlg5ZE92aFdaeUNKQTNFTDRMWThENE1RTHhvZVFtUjViQURua2lsTFFUenFsdzFpUktMSQ?oc=5",
       "source": "Google News",
       "published": "2026-07-24T21:09:03+00:00"
     },
@@ -547,14 +553,14 @@
       "published": "2026-07-24T21:07:15+00:00"
     },
     {
-      "title": "[속보] 뉴욕증시 혼조…다우 0.46%↑ - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5wZDFKcm1oSUhGSnp1X2ZYVkNfQVJpTU8xYTRVMllqMzU4cXk5Zkpib2lackZNemlXWGt3X3RoRzNhSDI5OUg5ZVNBaVhJSk9xMFZJWg?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T21:06:00+00:00"
-    },
-    {
       "title": "다시 증시를 덮친 전쟁…블랙데이 살아남은 주식은?[김근희의 증시 랩업] - 머니투데이 - 머니투데이",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YbE5BbWRwTUdaQk81M0tkT2hDcVNPUlFXd0p5QkJrbmlKcHVPTlgxWGhBYzFWRFl5T0lERDliV0lsNUctYjRzbkRBMDI2ZndGaEZ5V2huUVZiYmtCaC1QSUhUejVWYnp30gFuQVVfeXFMTllyTnVvTnFyMFdxcTZkUEQwMXVzVWh1RnRqX1JfT0pQMVpsZ1RXajFCcVpVczY1cmZhX1g4a0xVcWQxQUFOZFY5b1ZUUzhiU3lCSWZWWDFYa0RDWW51b1g2NFdmV01sQWNJb1NoNmc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T21:00:00+00:00"
+    },
+    {
+      "title": "[주간증시전망] AI 투자 지속성 시험대…FOMC·SK하이닉스 실적이 분수령 - 아주경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHQ1huMFFXd0ZxbUJ4SGtqMmR6dWZ6bHBFNWNDcmxOcFNBMUozTFdYRV9fczFaU0xUQ2xhOEpVenBrdUt5ODZQanZIQVBHMUpacTk2WmY2c0tkd9IBWEFVX3lxTE5ad2J0YWc2MHctV1hVcE1LUnBYZG52TTV6VlNiU1FYZy10b1NwbmxXVUdZNm1udUtSeHNxMDQ3OVY3Sm4yTUtHQ2ZVc2tFZlg5MUg2bzJWbVk?oc=5",
       "source": "Google News",
       "published": "2026-07-24T21:00:00+00:00"
     },
@@ -607,6 +613,12 @@
       "published": "2026-07-24T20:04:44+00:00"
     },
     {
+      "title": "[속보][뉴욕증시] 다우S&P500 반등…애플, 3.5% 급등 - 파이낸셜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiYTdnYjNpQUpfZnNPd280YWZ4ZlliQkhxckJfdmFqTmJyT0N2NzBwSklQNFFPTGpxX2dEYXRhaEZkbXU2VUlRWmVubEJFSjJlX19JMTBOWk5fZw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T20:02:44+00:00"
+    },
+    {
       "title": "Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets",
       "link": "https://www.cnbc.com/2026/07/24/odds-that-the-straits-traffic-returns-to-normal-drop-on-kalshi.html",
       "source": "CNBC Finance",
@@ -635,18 +647,6 @@
       "link": "https://www.cnbc.com/2026/07/24/oil-price-trump-hormuz-red-sea-iran-war.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T19:12:09+00:00"
-    },
-    {
-      "title": "Trump considers ‘massive attack’ on Iran; Pakistan reportedly seeks to restart stalled peace talks",
-      "link": "https://www.cnbc.com/2026/07/24/us-iran-war-trump-hormuz-houthis.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T18:48:10+00:00"
-    },
-    {
-      "title": "Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea",
-      "link": "https://www.cnbc.com/2026/07/24/oil-tanker-red-sea-hormuz-black-sea-iran-ukraine.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T18:47:41+00:00"
     }
   ],
   "pages": [
