@@ -29,11 +29,23 @@ jobs:
       BYBIT_API_SECRET: ${{ secrets.BYBIT_API_SECRET }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        # TH_DATA(Obsidian vault, private) 브릿지 — 워치리스트 읽기 전용(이 타깃은 저널을 쓰지
+        # 않으므로 push 스텝 없음). checkout이 없으면 build.py의 Vault Sync가 skipped로 기록돼
+        # AI Office에 실제와 다른 상태가 발행된다. 토큰 미설정/만료여도 Pages 빌드는 계속한다.
+        # 평문 가드(guard-plaintext)는 `git ls-files docs/` 범위라 TH_DATA를 스캔하지 않는다.
+        continue-on-error: true
+        with:
+          repository: kimtaehyeon1002-dotcom/TH_DATA
+          token: ${{ secrets.TH_DATA_TOKEN }}
+          path: TH_DATA
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python build.py asset
+        env:
+          TH_DATA_DIR: ${{ github.workspace }}/TH_DATA
       # design/20 Phase 8 DoD 1·6 — 자산 절대값 평문 유출 최종 방어선(로컬 pre-commit 훅은
       # 클론마다 수동 설치라 누락될 수 있고, 이 bot 커밋은 애초에 훅을 거치지 않는다).
       - name: Guard against plaintext asset leakage

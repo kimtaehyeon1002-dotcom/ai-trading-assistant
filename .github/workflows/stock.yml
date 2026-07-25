@@ -24,18 +24,25 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ_NAME: Asia/Seoul
-      NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-      NOTION_DB_ASSETS: fd72dc64181e4c88b25a21886f441628
-      NOTION_DB_GOALS: 18580be0659e477b84eb1d03951161da
-      NOTION_DB_WATCHLIST: 32ddf8f8f7634c5db2cf85696fcbe276
-      NOTION_DB_CASHFLOW: 3ee0fbc7afe741b9a98606a33b60f359
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        # TH_DATA(Obsidian vault, private) 브릿지 — 워치리스트 읽기 전용(이 타깃은 저널을 쓰지
+        # 않으므로 push 스텝 없음). stock은 유니버스(TOP30×2 ∪ 테마 ∪ 워치리스트, design/21 §8)에
+        # 워치리스트를 병합하므로, checkout이 없으면 관심종목이 유니버스에서 조용히 누락된다.
+        # 토큰 미설정/만료여도 Pages 빌드는 계속한다(누락은 Vault Sync=skipped로 드러난다).
+        continue-on-error: true
+        with:
+          repository: kimtaehyeon1002-dotcom/TH_DATA
+          token: ${{ secrets.TH_DATA_TOKEN }}
+          path: TH_DATA
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python build.py stock
+        env:
+          TH_DATA_DIR: ${{ github.workspace }}/TH_DATA
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"

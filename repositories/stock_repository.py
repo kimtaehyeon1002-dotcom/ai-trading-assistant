@@ -53,7 +53,7 @@ def build_universe(
     us_rows: list[dict] | None,
     watchlist_rows: list[dict] | None = None,
 ) -> list[tuple[str, str, str]]:
-    """유니버스 = TOP30×2 ∪ 테마 종목 ∪ Notion watchlist(design/21 §8). (code, name, market) 중복 제거.
+    """유니버스 = TOP30×2 ∪ 테마 종목 ∪ vault 워치리스트(design/21 §8). (code, name, market) 중복 제거.
 
     Stock Hub/Financials/Portfolio가 "유니버스 내 종목인가"를 판정할 때 이 목록의 code 집합을 쓴다.
     """

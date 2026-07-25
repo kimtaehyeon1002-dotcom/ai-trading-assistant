@@ -1,11 +1,10 @@
 """Dashboard v2 생성 → docs/index.html (v2 셸, 5카드: Hero/한국지수/미국지수/핵심뉴스/오늘일정).
 
-design/01. 자산(Notion ERP) 콘텐츠는 이 페이지에 존재하지 않는다 — design/20 Phase 4 DoD
+design/01. 자산(ERP) 콘텐츠는 이 페이지에 존재하지 않는다 — design/20 Phase 4 DoD
 "자산 절대값·역산 가능값 grep 0건"을 코드 구조로 보장한다(애초에 관련 데이터를 취득하지 않음).
 
-v1 생성기(generators/dashboard/generate.py)·템플릿(templates/dashboard.html)은 롤백 대상으로
-그대로 보존한다 — 되돌리려면 build.py의 import 한 줄만 v1으로 바꾸면 된다(design/20 Phase 4
-리스크·롤백: "생성기 파일 교체 단위").
+v1 생성기(generators/dashboard/)·템플릿(templates/dashboard.html)은 Phase 9 v1 셸 은퇴로
+소스에서 제거됐다 — 롤백이 필요하면 git 히스토리에서 복원한다.
 """
 from __future__ import annotations
 
@@ -52,10 +51,10 @@ def _headline(market: dict[str, Quote | None]) -> str | None:
 
 
 def _schedule_rows() -> list[dict]:
-    """세션 룰(config/calendar) 기반 오늘 일정 — Notion 일정 DB 연동 전까지의 사실 기반 최소 구현.
+    """세션 룰(config/calendar) 기반 오늘 일정 — 외부 일정 소스 연동 전까지의 사실 기반 최소 구현.
 
-    design/21 §2-1: "세션 룰(config) + Notion 일정 DB, 현행 세션 룰만" — Notion 미설정(이 환경
-    포함) 상태에서도 항상 사실에 근거한 행만 표시한다(추정·가짜 일정 금지).
+    design/21 §2-1이 상정한 외부 일정 DB는 연동돼 있지 않다(Notion 연동은 vault 이관으로 폐기).
+    소스가 없는 상태에서도 항상 사실에 근거한 행만 표시한다(추정·가짜 일정 금지).
     """
     kr = SESSIONS["kr"]
     rows = [

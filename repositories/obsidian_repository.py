@@ -1,8 +1,8 @@
 """Obsidian vault 정규화 — frontmatter(이미 평평함) → cache/vault_erp.json 영속.
 
-계약은 기존 notion_repository와 동일한 모양({as_of, databases:{...}})을 유지해
-calculators/erp_stats 이하가 무수정으로 소비한다. vault 폴더가 비어 있어 수집이
-skipped여도 마지막 캐시를 유지한다(대시보드가 최근 상태를 계속 표시).
+반환 계약은 {as_of, databases:{...}} — 이 모양을 유지하는 한 소비자(calculators/erp_stats,
+generators/stock의 유니버스 병합)는 수집 소스 교체에 영향받지 않는다. vault 폴더가 비어 있어
+수집이 skipped여도 마지막 캐시를 유지한다(소비자가 최근 상태를 계속 사용).
 """
 from __future__ import annotations
 
