@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-25T22:26:57.815669+00:00",
+  "as_of": "2026-07-25T22:43:44.574718+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,10 +349,22 @@
   ],
   "news": [
     {
+      "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
+      "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-25T22:30:00+00:00"
+    },
+    {
       "title": "[뉴욕증시-주간전망] FOMC와 빅테크 실적의 원투펀치…K.O. 뜰까 - 연합인포맥스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OMDB4SmJFREJRWWMwNkZwOHhSU2w2QjVIcVNfbi05Wkp4aE80X3NsV29ZcVZ2OTl4VmdWVWVzbDQzelJqMjQzX0Nrd2Uyb2F4anhYdUtRaldaRDRqWVV5NzdrbERGQ3R5WHFOeEY5czQ?oc=5",
       "source": "Google News",
       "published": "2026-07-25T22:00:16+00:00"
+    },
+    {
+      "title": "“韓증시는 카지노…도박꾼 된 개미들, 깊이 빠져들었다” 삼전닉스 레버리지 ‘저격’ - 서울신문",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xLS1CSnktZ2dScWY5ZFYwTEEtUDlGdlJJeDNTZ2NJbkZnRDZFbk5tU1M0aVMwU2x6WkRSQzdQMzg0eUNPYm5rX004aUNJcXQ0UTFZbVcyTU1XUG1CV0Y3bHE0RHNHWEU1QXdMNWZkRjdkMzBHcVNB?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T21:58:22+00:00"
     },
     {
       "title": "빅테크 실적 릴레이… FOMC도 변수 [주간증시전망] - IT조선",
@@ -363,12 +375,6 @@
     {
       "title": "(주간증시전망)AI 투자 확대 기조 확인 구간…미 빅테크·삼전·하닉 실적 주목 - 뉴스토마토",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE03Z0lfdHNPM3dDNk5QMWxwVGRxX2RNRDg0NFk5T0l2eTVFMmlKZEIzM3FrNkt3dVJPcGxqMVB6XzZUUGtnSmtfT0doOFFSVG5wemZrVUJmaFA5bkE5V2dMaw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-25T21:00:00+00:00"
-    },
-    {
-      "title": "[주간증시전망] 美 빅테크 이어 SK하이닉스도 실적 발표… FOMC 개최 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSkFfdzM4RVI4d2ZmeUZkNENxZEl4dHVOY2NBNFNCRDJ2ak9KaEVwUHJ5dm16a21CcWdMWDVTS0tiZHNjQTVydzRmUGNQVzFBNUNJMG0xSHdxblRMRlZGaG5hdkQyYnhOendjd3NUMDhsazF1YTd1ZGd5S0FFOVpEMktEZ2p1WEl5?oc=5",
       "source": "Google News",
       "published": "2026-07-25T21:00:00+00:00"
     },
@@ -395,12 +401,6 @@
       "link": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-25T20:15:00+00:00"
-    },
-    {
-      "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
-      "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-25T20:00:00+00:00"
     },
     {
       "title": "Here are 4 forces that drove a tough week for stocks",
@@ -613,12 +613,6 @@
       "published": "2026-07-25T00:36:45+00:00"
     },
     {
-      "title": "뉴욕증시, 유가 하락에도 혼조 마감…반도체주 약세에 나스닥 0.64%↓ - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IMVB0OUM3U2VNMXNGV3k4NXlhNjQ3cUxTV1BrNEhHYUFtRjNkOW0yVFhUNXotVHNTMmdYRmFuOEw5dDRRdzdOZ0UxdUNna3g4WXpKUjB6dWJzZ9IBX0FVX3lxTE41Szhub1BjVWtSVXY4b1pTc1o5LW9qdzFiWjB3UkNKRXhkdGFScXRFRWoyVF9acFVadWp0dUt2TjlpNHUtX3ZZSTFBQWZUdS1hamlTS3Q5XzBJaE9qSmo4?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T22:39:00+00:00"
-    },
-    {
       "title": "Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight",
       "link": "https://www.cnbc.com/2026/07/24/tesla-tsla-spacex-spcx-stock-starship-test-flight-musk-bad-week.html",
       "source": "CNBC Finance",
@@ -629,6 +623,12 @@
       "link": "https://www.cnbc.com/2026/07/24/uber-and-waymo-to-end-exclusivity-arrangement-in-atlanta-and-austin.html",
       "source": "CNBC Finance",
       "published": "2026-07-24T21:48:45+00:00"
+    },
+    {
+      "title": "뉴욕 증시, 혼조세 마감… 인텔 7.9%·SK하이닉스 8.8% 급락 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE56SUFDeFh0Z19SM0l3TmFsdTVzQXg3a2E0OW5zSWZzam1ScDBMR2pGeDRMTjF3N2t3aVpkUEliMm1xd0I2UHBTQU1ndlBsbVU?oc=5",
+      "source": "Google News",
+      "published": "2026-07-24T21:19:07+00:00"
     },
     {
       "title": "“증시 오르든지 내리든지 우린 버니까”…5대금융 13조 벌었다",
@@ -643,10 +643,10 @@
       "published": "2026-07-24T21:09:24+00:00"
     },
     {
-      "title": "뉴욕증시, 유가 하락에도 반도체 약세에 혼조…나스닥 0.6%↓(종합) - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaUVkzNElxei1CVEMtRjQ4eUdxd2hjcW5VQVJpSjc4Nk5IR0p3OXQyQUpTUGYxMWRPdmttQnF2eEFKMU1WX0N4d3hOMVd5a20xdWlkUkZFWnE2ejTSAWBBVV95cUxPaUwtU1FuTGJyMkJEYTFZSGRsckthaU8xV1FZWl8yUTloZ0w4VDZYOWRPdmhXWnlDSkEzRUw0TFk4RDRNUUx4b2VRbVI1YkFEbmtpbExRVHpxbHcxaVJLTEk?oc=5",
-      "source": "Google News",
-      "published": "2026-07-24T21:09:03+00:00"
+      "title": "Trump defends DOJ subpoenas of NY Times reporters; Google also was targeted",
+      "link": "https://www.cnbc.com/2026/07/24/trump-doj-subpoenas-new-york-times-google.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-24T20:23:12+00:00"
     }
   ],
   "pages": [

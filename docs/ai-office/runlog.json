@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T07:26:57.808371+09:00",
+  "updated_at": "2026-07-26T07:43:44.567462+09:00",
   "workers": {
     "Notion Sync": {
       "worker": "Notion Sync",
@@ -11,17 +11,17 @@
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-07-26T07:26:37.158212+09:00",
+      "last_run": "2026-07-26T07:43:31.138789+09:00",
       "status": "completed",
       "items": 22,
-      "duration_ms": 15983
+      "duration_ms": 9982
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-07-26T07:26:53.178349+09:00",
+      "last_run": "2026-07-26T07:43:41.147683+09:00",
       "status": "completed",
       "items": 140,
-      "duration_ms": 4611
+      "duration_ms": 3398
     },
     "Theme Analyst": {
       "worker": "Theme Analyst",
@@ -43,7 +43,7 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-07-26T07:26:57.808286+09:00"
+      "last_run": "2026-07-26T07:43:44.567368+09:00"
     },
     "TA Analyst": {
       "worker": "TA Analyst",
@@ -54,24 +54,24 @@
     },
     "Macro FRED": {
       "worker": "Macro FRED",
-      "last_run": "2026-07-26T06:44:20.085933+09:00",
+      "last_run": "2026-07-26T07:43:29.905469+09:00",
       "status": "completed",
       "items": 5,
       "duration_ms": 0
     },
     "Macro ECOS": {
       "worker": "Macro ECOS",
-      "last_run": "2026-07-26T06:44:20.086020+09:00",
+      "last_run": "2026-07-26T07:43:29.905581+09:00",
       "status": "completed",
       "items": null,
       "duration_ms": 0
     },
     "Macro Upbit": {
       "worker": "Macro Upbit",
-      "last_run": "2026-07-26T06:44:20.086036+09:00",
+      "last_run": "2026-07-26T07:43:29.905597+09:00",
       "status": "completed",
       "items": 3,
-      "duration_ms": 979
+      "duration_ms": 1233
     },
     "Stock KR Ranking": {
       "worker": "Stock KR Ranking",
@@ -138,10 +138,10 @@
     },
     "Vault Sync": {
       "worker": "Vault Sync",
-      "last_run": "2026-07-26T07:26:37.127863+09:00",
+      "last_run": "2026-07-26T07:43:29.874328+09:00",
       "status": "completed",
       "items": 1,
-      "duration_ms": 0
+      "duration_ms": 1
     },
     "Vault Journal": {
       "worker": "Vault Journal",
@@ -149,7 +149,7 @@
       "items": 0,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-07-26T07:26:53.177821+09:00"
+      "last_run": "2026-07-26T07:43:41.146977+09:00"
     }
   }
 }
