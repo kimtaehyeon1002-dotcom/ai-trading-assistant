@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-25T22:03:50.282358+00:00",
+  "as_of": "2026-07-25T22:26:57.815669+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,20 +349,26 @@
   ],
   "news": [
     {
+      "title": "[뉴욕증시-주간전망] FOMC와 빅테크 실적의 원투펀치…K.O. 뜰까 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OMDB4SmJFREJRWWMwNkZwOHhSU2w2QjVIcVNfbi05Wkp4aE80X3NsV29ZcVZ2OTl4VmdWVWVzbDQzelJqMjQzX0Nrd2Uyb2F4anhYdUtRaldaRDRqWVV5NzdrbERGQ3R5WHFOeEY5czQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-25T22:00:16+00:00"
+    },
+    {
       "title": "빅테크 실적 릴레이… FOMC도 변수 [주간증시전망] - IT조선",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1T1EtdE56c3NUUElTdnhORjNfRVo0TGZfdnBaci16d295Y1FNY1VYSUMzV1NzWGlTR2VIQXB0bW9zMmxUbk1ySmtjUkZvekp1M2Y1WHhMRE1RNTZMdGc5c0ZoS29BVk1kQjRVUW93NzDSAXRBVV95cUxPdDc1aVFqckJsYmItdzBfUWhSaHhRc3g3QlZMTlIyTXZVZWVnT2NOTGwzTXpuTHFQdXNTVzFkTF9UdUhqTGJzcFJtWVVuclU5dUc1cW02T01LSE1nS0k2Nl9iejF5Y01TaVhjOGpuQ2VIUm9mSw?oc=5",
       "source": "Google News",
       "published": "2026-07-25T21:10:00+00:00"
     },
     {
-      "title": "[주간증시전망] 美 빅테크 이어 SK하이닉스도 실적 발표… FOMC 개최 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSkFfdzM4RVI4d2ZmeUZkNENxZEl4dHVOY2NBNFNCRDJ2ak9KaEVwUHJ5dm16a21CcWdMWDVTS0tiZHNjQTVydzRmUGNQVzFBNUNJMG0xSHdxblRMRlZGaG5hdkQyYnhOendjd3NUMDhsazF1YTd1ZGd5S0FFOVpEMktEZ2p1WEl5?oc=5",
+      "title": "(주간증시전망)AI 투자 확대 기조 확인 구간…미 빅테크·삼전·하닉 실적 주목 - 뉴스토마토",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE03Z0lfdHNPM3dDNk5QMWxwVGRxX2RNRDg0NFk5T0l2eTVFMmlKZEIzM3FrNkt3dVJPcGxqMVB6XzZUUGtnSmtfT0doOFFSVG5wemZrVUJmaFA5bkE5V2dMaw?oc=5",
       "source": "Google News",
       "published": "2026-07-25T21:00:00+00:00"
     },
     {
-      "title": "(주간증시전망)AI 투자 확대 기조 확인 구간…미 빅테크·삼전·하닉 실적 주목 - 뉴스토마토",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE03Z0lfdHNPM3dDNk5QMWxwVGRxX2RNRDg0NFk5T0l2eTVFMmlKZEIzM3FrNkt3dVJPcGxqMVB6XzZUUGtnSmtfT0doOFFSVG5wemZrVUJmaFA5bkE5V2dMaw?oc=5",
+      "title": "[주간증시전망] 美 빅테크 이어 SK하이닉스도 실적 발표… FOMC 개최 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSkFfdzM4RVI4d2ZmeUZkNENxZEl4dHVOY2NBNFNCRDJ2ak9KaEVwUHJ5dm16a21CcWdMWDVTS0tiZHNjQTVydzRmUGNQVzFBNUNJMG0xSHdxblRMRlZGaG5hdkQyYnhOendjd3NUMDhsazF1YTd1ZGd5S0FFOVpEMktEZ2p1WEl5?oc=5",
       "source": "Google News",
       "published": "2026-07-25T21:00:00+00:00"
     },
@@ -575,12 +581,6 @@
       "link": "https://www.cnbc.com/2026/07/24/spacex-launches-massive-starship-rocket-in-first-test-flight-since-ipo.html",
       "source": "CNBC Finance",
       "published": "2026-07-25T02:17:11+00:00"
-    },
-    {
-      "title": "국내 증시 흔들리자 미국 대표지수 ETF로 자금 유입 - 아시아투데이",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UU3VyRmhVWVh6X2VESkI4UVBkQXJVVFpHZVZ1azU1eHZ3SkRVVzhLNHBweC1wQkhMNkFfRjZuUVRCVXdaUnNFVDViYzYzZThlNXBkTk52WjNIX1NfMnpYWmdObFg0NWpiYVdOaEZR?oc=5",
-      "source": "Google News",
-      "published": "2026-07-25T02:04:42+00:00"
     },
     {
       "title": "“국장 못 믿겠다” 해외로 쏠린 개미…이달 순매수 4배 폭증",
