@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T08:52:43.134197+09:00",
+  "generated_at": "2026-07-26T10:51:07.427051+09:00",
   "sources": {
     "Notion Sync": {
       "status": "skipped",
@@ -10,17 +10,17 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-26T08:52:24.102011+09:00",
+      "last_built": "2026-07-26T10:50:53.054492+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 8946
+      "duration_ms": 10907
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-26T08:52:33.085459+09:00",
+      "last_built": "2026-07-26T10:51:03.999022+09:00",
       "expected_T_min": 30,
-      "items": 100,
-      "duration_ms": 10014
+      "items": 140,
+      "duration_ms": 3391
     },
     "Theme Analyst": {
       "status": "completed",
@@ -38,7 +38,7 @@
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-26T08:52:43.126297+09:00",
+      "last_built": "2026-07-26T10:51:07.419040+09:00",
       "expected_T_min": null,
       "items": 3,
       "duration_ms": 0
@@ -52,24 +52,24 @@
     },
     "Macro FRED": {
       "status": "completed",
-      "last_built": "2026-07-26T08:52:22.816934+09:00",
+      "last_built": "2026-07-26T10:50:51.789101+09:00",
       "expected_T_min": null,
       "items": 5,
       "duration_ms": 0
     },
     "Macro ECOS": {
       "status": "completed",
-      "last_built": "2026-07-26T08:52:22.817035+09:00",
+      "last_built": "2026-07-26T10:50:51.789192+09:00",
       "expected_T_min": null,
       "items": null,
       "duration_ms": 0
     },
     "Macro Upbit": {
       "status": "completed",
-      "last_built": "2026-07-26T08:52:22.817054+09:00",
+      "last_built": "2026-07-26T10:50:51.789218+09:00",
       "expected_T_min": null,
       "items": 3,
-      "duration_ms": 1284
+      "duration_ms": 1265
     },
     "Stock KR Ranking": {
       "status": "completed",
@@ -136,14 +136,14 @@
     },
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-07-26T08:52:22.777783+09:00",
+      "last_built": "2026-07-26T10:50:51.751390+09:00",
       "expected_T_min": null,
       "items": 1,
       "duration_ms": 1
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-26T08:52:33.084581+09:00",
+      "last_built": "2026-07-26T10:51:03.998141+09:00",
       "expected_T_min": null,
       "items": 0,
       "duration_ms": 0
