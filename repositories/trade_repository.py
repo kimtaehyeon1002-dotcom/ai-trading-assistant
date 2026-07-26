@@ -26,7 +26,9 @@ def save_trades(trades: list[Trade]) -> None:
 
 
 def _key(t: Trade) -> tuple:
-    return (t.date, t.ticker, round(t.sell_price, 4), round(t.quantity, 4))
+    # buy_price 포함 — 동일 일자/종목/체결가/수량이라도 매입단가가 다르면(분할 매수 후 별개 청산 등)
+    # 별개 체결로 취급해야 정당한 두 번째 매매가 dedup으로 유실되지 않는다.
+    return (t.date, t.ticker, round(t.buy_price, 4), round(t.sell_price, 4), round(t.quantity, 4))
 
 
 def add_trades(new: list[Trade]) -> list[Trade]:

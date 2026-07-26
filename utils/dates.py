@@ -22,8 +22,9 @@ def to_kst(dt: datetime) -> datetime:
 
 
 def within_minutes(dt: datetime, minutes: int) -> bool:
-    """dt가 현재로부터 minutes 이내인가(속보 판정용)."""
-    return (now_kst() - to_kst(dt)) <= timedelta(minutes=minutes)
+    """dt가 현재로부터 minutes 이내(과거)인가(속보 판정용) — 미래 dt(오배치 타임스탬프)는 항상 False."""
+    delta = now_kst() - to_kst(dt)
+    return timedelta(0) <= delta <= timedelta(minutes=minutes)
 
 
 def fmt_kst(dt: datetime, pattern: str = "%Y-%m-%d %H:%M") -> str:

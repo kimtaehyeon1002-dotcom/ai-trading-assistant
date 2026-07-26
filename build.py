@@ -65,7 +65,9 @@ def run_build(target: str) -> list[Path]:
     ensure_dirs()
     _sync_vault()
 
-    from generators import vault_journal
+    from generators import pipelines, vault_journal
+
+    pipelines.clear_cache()
     from generators.ai_office.generate import generate as gen_office
     # design/20 Phase 4: Dashboard가 v2로 치환됐다. v1 생성기(generators/dashboard)·템플릿
     # (dashboard.html)은 Phase 9 v1 셸 은퇴로 소스에서 제거됐다 — 필요 시 git 히스토리에서 복원한다.

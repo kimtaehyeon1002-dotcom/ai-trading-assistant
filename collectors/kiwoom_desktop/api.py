@@ -92,17 +92,24 @@ class KiwoomAPI:
         prev_next: int = 0,
         screen: str = "0101",
         fields: list[str] | None = None,
+        timeout_ms: int = 30_000,
     ) -> dict:
         """TR 요청. fields를 주면 각 행을 OnReceiveTrData '안에서' 읽어 meta['rows']로 반환.
 
         (TR 데이터 버퍼는 콜백 종료 후 무효화되므로 밖에서 GetCommData하면 빈 값이 온다.)
+        timeout_ms: connect()와 동일한 무인 실행 안전장치 — 서버 응답이 없으면(연결 끊김 등)
+        무한 대기 대신 timeout 후 빈 결과(meta 미기록 → {})로 반환한다.
         """
         self._tr_fields = list(fields or [])
         self.ocx.dynamicCall(
             "CommRqData(QString, QString, int, QString)", rq_name, tr_code, prev_next, screen
         )
         self._tr_loop = self._QEventLoop()
+        if timeout_ms > 0:
+            self._QTimer.singleShot(timeout_ms, self._tr_loop.quit)
         self._tr_loop.exec()
+        if rq_name not in self._tr_meta:
+            log.error("TR 응답 타임아웃(%ds) rq=%s tr=%s", timeout_ms // 1000, rq_name, tr_code)
         return self._tr_meta.get(rq_name, {})
 
     def _on_receive_msg(self, screen, rq_name, tr_code, msg) -> None:

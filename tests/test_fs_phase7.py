@@ -52,6 +52,22 @@ def test_operating_margin_matches_years_and_own_avg():
     assert r["own_5y_avg"] == round((y2022 + y2023) / 2, 2)
 
 
+def test_operating_margin_own_avg_excludes_years_beyond_5y_window():
+    # 10년치 이력이 있어도 own_5y_avg는 최근 5년만 평균해야 한다(design/06 "자사 5년 단독 판정").
+    revenue = _series([(str(2014 + i), 100.0) for i in range(10)])
+    old_margins = [30.0] * 5  # 2014~2018: 마진 30%
+    recent_margins = [10.0] * 4 + [12.0]  # 2019~2023: 마진 10%, 마지막 해만 12%
+    operating_income = _series(
+        [(str(2014 + i), old_margins[i]) for i in range(5)]
+        + [(str(2019 + i), recent_margins[i]) for i in range(5)]
+    )
+    r = fs.operating_margin(_financials(revenue=revenue, operating_income=operating_income))
+    assert r["latest_year"] == "2023"
+    assert r["value"] == 12.0
+    assert r["own_5y_avg"] == round((10.0 * 4 + 12.0) / 5, 2)
+    assert r["judgment"] == "good"  # 오래된 30% 평균이 섞이면 "caution"으로 뒤집힌다
+
+
 def test_debt_ratio_absolute_thresholds():
     good = fs.debt_ratio(_financials(liabilities=_series([("2023", 50.0)]), equity=_series([("2023", 100.0)])))
     neutral = fs.debt_ratio(_financials(liabilities=_series([("2023", 150.0)]), equity=_series([("2023", 100.0)])))

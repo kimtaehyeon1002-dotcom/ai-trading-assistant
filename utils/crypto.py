@@ -14,9 +14,12 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
-# OWASP 2023 PBKDF2-HMAC-SHA256 권장 하한. WebCrypto deriveKey에도 동일 값을 넘겨야 한다
-# (static/js/asset-gate.js와 파라미터가 어긋나면 절대 복호화되지 않는다 — 이 상수가 유일 진실원).
-PBKDF2_ITERATIONS = 210_000
+# OWASP Password Storage Cheat Sheet PBKDF2-HMAC-SHA256 권장 하한(2023년 210,000은
+# SHA-512 기준이었고 SHA-256 기준은 600,000 — 이 모듈은 SHA256을 쓰므로 그 값을 따른다).
+# 새로 암호화하는 자산 데이터에만 적용되며, 기존 파일은 envelope에 저장된 자신의 iterations로
+# 복호화되므로 하위호환에 영향 없다. WebCrypto deriveKey도 envelope.iterations를 그대로 읽어
+# 쓰므로(static/js/asset-gate.js) 이 상수를 바꿔도 양쪽 파라미터는 항상 일치한다.
+PBKDF2_ITERATIONS = 600_000
 _SALT_LEN = 16
 _IV_LEN = 12
 _KEY_LEN_BITS = 256

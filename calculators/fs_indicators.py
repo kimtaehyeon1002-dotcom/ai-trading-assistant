@@ -47,13 +47,14 @@ def operating_margin(financials: dict) -> dict | None:
     ]
     if not margins:
         return None
-    latest = margins[-1]
-    own_avg = round(sum(m["value"] for m in margins) / len(margins), 2)
+    window = margins[-5:]
+    latest = window[-1]
+    own_avg = round(sum(m["value"] for m in window) / len(window), 2)
     delta = round(latest["value"] - own_avg, 2)
     judgment = "good" if delta >= 1 else ("caution" if delta <= -1 else "neutral")
     return {
         "latest_year": latest["year"], "value": latest["value"], "own_5y_avg": own_avg,
-        "judgment": judgment, "series": margins[-5:],
+        "judgment": judgment, "series": window,
     }
 
 
