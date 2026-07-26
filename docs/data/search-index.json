@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-26T20:32:10.062729+00:00",
+  "as_of": "2026-07-26T21:50:32.748944+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,6 +349,18 @@
   ],
   "news": [
     {
+      "title": "코스피 6천대면 거저 아닌가요…은행 대기자금 41조, 다시 증시로",
+      "link": "https://www.mk.co.kr/news/economy/12107914",
+      "source": "매일경제·증권",
+      "published": "2026-07-26T21:19:21+00:00"
+    },
+    {
+      "title": "Here are the 3 big things we're watching in the stock market in the week ahead",
+      "link": "https://www.cnbc.com/2026/07/26/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-26T20:50:54+00:00"
+    },
+    {
       "title": "I will definitely claim Social Security early. Why do so few people talk about the elephant in the room?",
       "link": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -361,28 +373,10 @@
       "published": "2026-07-26T19:30:00+00:00"
     },
     {
-      "title": "\"널뛰는 증시? 오히려 좋아\"…발 빠른 '옥석 가리기' 액티브ETF 뜬다 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqRDBYS2lOT0l0T3NvWk9yTmp6V3ZIY3JLemdxUThfdF9MYlNXQl83Q1dvUGdNRXh0QlNCTWNtSVRfLUxUd2NMZHJBdmJ2TGc4dkdqaWtPY0M0Z3lkWW9nOExyOTlrdzlY0gFuQVVfeXFMTXlDQk0wbmhMaU1PTWtZZjJEQWVxbURxeEZLdHRwQ250dGI3dmlGSkZiSEczQmFiSnd6VlI0YXpsZkRCR2h4NTQ3TDBFbzlqNkRIV2I3dG5jamNOa05vUHhfSGNadlMxY2RZQkF2LUE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T19:22:00+00:00"
-    },
-    {
       "title": "There’s a technical ‘triple threat’ for stocks, but also places investors can hide",
       "link": "https://www.marketwatch.com/story/theres-a-technical-triple-threat-for-stocks-but-also-places-investors-can-hide-59108c6b?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-26T19:15:00+00:00"
-    },
-    {
-      "title": "'삼전닉스' 도전...창신메모리, 오늘 中 증시 데뷔 - SBS Biz",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnMDc1cGluSmZ6RFFCZk5MMTJiUWpaU3lRZFAzSVJtVkJLaFVFYVgxMldNUjZYLU40alhGcHNJbVM4NFU5VmlnNC1XS2xraEZmRzVj0gFYQVVfeXFMTldRVFl4UlpnNWFCZDNNRHRGWjB0MFBpTGw1MlFuczNOcHl4LUFZM1RsbU02Z1E4RXRkMktGa3UwR01BNC1BYklrc1hoTGhSaEdfdkZGM3p3cw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T19:11:00+00:00"
-    },
-    {
-      "title": "증시 훈풍 탄 5대 금융, 상반기에만 13조 벌었다 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sWlpzZjlWY1puTTR0WDVWSmN1Y2IzcHdOa1JuazltVjhHOUZ1TVBJT0xKdUwyd0hteFl1bWxFRGlSckZfTlMxNzJNWVI4bzJ6MmxQNDh3cGthbzlEV1dTNndhRFU2Tmo1bHdz0gFwQVVfeXFMUFBuT2p6a2Zfa20wX1FqdXM0Qkg4R3E4T2VqV0l0X0NwTHVISUFJQWt4YlRaUTNIR0NocEFpcDh3YWJOcXAyaXY1dG9adERkTHFwZ2xhS3RVVVlCZlQtTnA3eWVORDhuWG9OSmd4MGdxMQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T19:05:00+00:00"
     },
     {
       "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
@@ -397,40 +391,10 @@
       "published": "2026-07-26T18:30:00+00:00"
     },
     {
-      "title": "AI 온오프가 뉴욕증시 흔든다…S&P500 종목 분산 52일로 급증 - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeHBSbHB3Y3dWZmRPVUFGNWlJUGFRRlMzZnRNZUdDajhmVjk0cHdMWGJnYlk3MHZtM2JSd2xIYkZyM2ppQWs0RW1vNW9kT1cwRGd0NmozdGVtQ2NHMDByemc3RDhXMWVJTWswTDdja2pGTGJhb0ZrV0lVaGxhT1BiZWlhbVVESkxT?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T18:15:00+00:00"
-    },
-    {
       "title": "Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'",
       "link": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html",
       "source": "CNBC Finance",
       "published": "2026-07-26T17:11:36+00:00"
-    },
-    {
-      "title": "\"수급 꼬이며 하락한 증시, 단기 저점은 6300선 안팎\" - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV1ZjX0ZJV1FpaXVpaUhCQ0tDWXNWNmFCd1BCc2p6X3hQT0h6VG9wVEwydnZqTHZPakxiRFpmYVVWNzRDVkhMVnRWYnRUNXBQSHlKamIzcG9SdWpzRlZFTzNaSTVwM3JmWWgxMnVObVVPckxkcER5WFVmUFRrZVpQXw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T15:35:00+00:00"
-    },
-    {
-      "title": "코스피 급락에… 서학 개미, 다시 美 증시로 - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTFZDZHBIb0djVjJxMUktaE0tSC1FZzNfWFBwdmtKUHJPcEVfandZUXNDM1Y0X1VtNGRQcFZabTJOWW9xQ1VRWWxLOVRyaUFWRXo5RTZ0TmxhUTlBRFNQRHB6bE1JeDNPLWhwZVdZMHNmbGhQVnA1UEJrVVEyZHJLTHJ5SkVaODNn0gGcAUFVX3lxTE85OUhyanV1RGh4Mk5pVlhpTHh5YUFpTFlfenI4eE84S3p0R1h3d1RYcmNBZlRBTThNcWFTem04MjRWbFprWUJxd2xBRk1RY3g1ZWtqUjdKTXI5LVFUZWhXYXgwWDAwZE14em5iZ05GdzVndEVpbk5oU3BFS19QTXliUDZVS0lVQTdIR0M4NXRIaWw1UDJMSHlhT1UwVA?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T15:32:00+00:00"
-    },
-    {
-      "title": "코스피 급락에… 서학 개미, 다시 美 증시로 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWU4yeS1aMzRvWVp1b2hfVHE4TUdveHl5YUhCbThoNzlnb1hPV0VsU1p4cDZlTzV2d2VYcUpjWHFMaDVyTktvbGJ0Y3daZXFnb2lpbFlFRDhLTjFsS1ByQUkwam5aVHhUVzRUM0tOTm10dGM3XzI1amsyMWtsdVNubTBpTlNaNWNxUTVJ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T15:32:00+00:00"
-    },
-    {
-      "title": "[중국증시 주간 포인트] 각국 기준금리 발표, 7월 중앙정치국회의, CXMT∙중제욱창 상장, 삼성∙SK하이닉스∙ MAG7 실적, 산화지르코늄 등 제품가격 인상, 고체 리튬배터리 표준, 차이나조이 개막 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VcU1waU9XWmMycWY2SDZPaUZsY3lkNEE2T2owdVpWYzdqOC1YZVkzVHFldmhWRU03d0MtdGRHSGwxT3pjLVJUcDByT0ptX0xNemhOSlhnNDFFUzNJ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T15:04:00+00:00"
     },
     {
       "title": "We have $8 million in traditional IRAs. Should we tap them to buy a house — and take the tax hit?",
@@ -443,12 +407,6 @@
       "link": "https://www.cnbc.com/2026/07/26/gen-x-investors-dotcom-bubble-retirement-portfolio.html",
       "source": "CNBC Finance",
       "published": "2026-07-26T14:44:29+00:00"
-    },
-    {
-      "title": "‘삼전·닉스’ 영향 받나…‘몸값 125조’ 메모리 공룡, 中증시 상장 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1NaTlITHRkQi0xMnN1VFRMRlB0cjJ1T1QtakdpNFdBVHJXa2VkWUFHekxXU3hLYy1aS0lSUFFoYVl4MWFxbzFiSXNNQktQREE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T14:13:37+00:00"
     },
     {
       "title": "Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks",
@@ -481,34 +439,10 @@
       "published": "2026-07-26T13:30:02+00:00"
     },
     {
-      "title": "'몸값 125조' 메모리 공룡 CXMT, 中 증시 상장…삼전닉스에 도전장 - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkelpYaXQ5c2R5ekREMk9ZM1R5QmNrb2N5Qkw5Z0kzRThFTTE2WGNYanoxdTlIamxTb1pyTWROLXNTZm1qUXZiRFpMNGozSUpHQXZybmZWS1c1dw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T13:02:10+00:00"
-    },
-    {
       "title": "‘We are not romantically involved’: I’m marrying my platonic best friend of 20 years. Should I leave him my home?",
       "link": "https://www.marketwatch.com/story/we-are-not-romantically-involved-im-marrying-my-platonic-best-friend-of-20-years-should-i-leave-him-my-home-3faa0a77?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-26T13:00:00+00:00"
-    },
-    {
-      "title": "[증시 예보] “떨리다 못해 무서울 지경” 드디어 ‘삼전닉스’ 실적 나온다…‘이번 주’가 분수령 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5paExyY0Y0S1lnZUMtRXR1N3l2Q2JuVk9ydUlja3htTlVpdDZWcjRWeXZDM1EyOXJpSldvZHF5aGhLdkt5TzQ5RzVtR2tWakE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T12:41:38+00:00"
-    },
-    {
-      "title": "[증시 예보] “떨리다 못해 무서울 지경” 드디어 ‘삼전닉스’ 실적 나온다…‘이번 주’가 분수령 - 헤럴드경제",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BR3NmSnBMLXVJdTQ2YXdnOW55cmV1b1VYVGdYVU1xNHV2czN5aG9NLTN3YzdnRk8wLTVxdV9GTV9KRENrcEh3R1BLTlJHR05SNzRsY25R?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T12:40:00+00:00"
-    },
-    {
-      "title": "“하루도 안 빼고…”롤러코스터 증시에 지난주 1주일 내내 사이드카 경보음 - 문화일보",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43MGJuYUQ2X1J4RklWQ0VMZVpyOXZmN21mbFVyV1RMUzdzdnRDUnJDMG1kb0V4RWhzSDRvUmdkeFQzOV9YUHpuVXZkS2dwSlA2?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T12:35:38+00:00"
     },
     {
       "title": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
@@ -521,12 +455,6 @@
       "link": "https://www.cnbc.com/2026/07/26/new-uk-prime-minister-burnham-says-he-would-be-prepared-to-call-out-trump.html",
       "source": "CNBC Finance",
       "published": "2026-07-26T12:17:14+00:00"
-    },
-    {
-      "title": "유가, 하반기 증시 핵심 변수로…물가 계속 오르면 8월 또 금리인상 가능성 - 동아일보",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zRHUxOWlhNklMTjFpLXl4bXhaTmVId192d0NxbnpHUFdCOUZ4enQ1Q1c0NnFQNGJyTWRGSzVKMDNiWEplM0dmQXc1RDJhbTFEWWl1Qm1DVlFJSVFvdmE0VmwzV0hLcUpFY0IyaHJVT1Y5UzhMTHfSAWZBVV95cUxPdkxKY0JHZE14ajc1enFMQTlXeGFiNTdpazIxRHhUeGRqTnFYRHhScWE1dFJNdWVXOGNITUJmX3hDMzRoRzBhdzNhaS0zYk1waTRyQk9uUDhsMEZaUEY1dkN2WXRscEE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T12:02:15+00:00"
     },
     {
       "title": "100 days until midterm election: DCCC Chair DelBene says Democrats have the momentum",
@@ -553,32 +481,14 @@
       "published": "2026-07-26T11:07:03+00:00"
     },
     {
-      "title": "[주간 증시전망] 레버리지 자금 쏠림 현상 완화 기대 - 전북일보 인터넷신문",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB0MDF0V205Y0JOcURSX2lrbmlRYUJnVmFFTjhOek1fXzhiM09uTUkwVjd6bHd1aW5ja1RGeVhxRUxINUZGdi1lV0thRXNvWWRtaGJEaNIBWEFVX3lxTE94Si1tblBVQkUxRG9wNmRLLVRaQzZlU0dkWE1TSklyandwMEx1bkRRZ3NKelVURTVFd3pBc0UyQlBZLS1xYnlCNnJqcmFNRUlwaFQ2MWpFeVk?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T09:50:03+00:00"
-    },
-    {
-      "title": "‘삼성·하이닉스 추격’ 中 CXMT, 내일 증시 입성…시총 1위 등극할까 - 경북매일",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9COGltcVk5QXhVMFRsWHdUVlhKb3FkMDhESm40NGdhaUVsY2h0M2ZuWXY1MUNQZTgzOEJoZjdrblY4NkE1bWpXckU4d3NObVB2U2dSUGdWejA4QQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T09:41:00+00:00"
-    },
-    {
-      "title": "[이번주 증시] 'AI 랠리' 이어질까…코스피 향방 가를 '슈퍼위크' - 뉴시안",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wRmhaX3ZkNkhjSGVCSEVlbGxXNXlkS2pJc09fRTNKWEN5TzIyNFB1bnVWX1NVOHc4bkhWSEYxWS1GUDFOSkVvNVJXZHZjRUN3TzRtbjlxN0ZUMDB1a25YMjZMazhoSmZhZWfSAW5BVV95cUxNNHdnUzZEd0tZOVU1UDQxZzk1Yjc5NDF4eWRMbnFYSExGd3RoR0tSdkNjMElieVF6NUZDVWtwZmdoT0FSbDUxbGRSVmY0cGx3dUF2MUVmQUhiSVFBT1h4NHhnelpWWnU0bzRXbDhkQQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T09:18:43+00:00"
-    },
-    {
-      "title": "워싱턴서 발로 뛴 여한구 \"韓, 美기업 차별 안해\"",
-      "link": "https://www.mk.co.kr/news/economy/12107786",
+      "title": "'유명무실' 기금평가, 내년부터 확 바뀐다",
+      "link": "https://www.mk.co.kr/news/economy/12107787",
       "source": "매일경제·증권",
       "published": "2026-07-26T08:35:47+00:00"
     },
     {
-      "title": "'유명무실' 기금평가, 내년부터 확 바뀐다",
-      "link": "https://www.mk.co.kr/news/economy/12107787",
+      "title": "워싱턴서 발로 뛴 여한구 \"韓, 美기업 차별 안해\"",
+      "link": "https://www.mk.co.kr/news/economy/12107786",
       "source": "매일경제·증권",
       "published": "2026-07-26T08:35:47+00:00"
     },
@@ -647,6 +557,96 @@
       "link": "https://www.mk.co.kr/news/economy/12107730",
       "source": "매일경제·증권",
       "published": "2026-07-26T08:23:10+00:00"
+    },
+    {
+      "title": "현대차그룹, 엔비디아 손잡고 '휴머노이드 로봇 생태계' 만든다",
+      "link": "https://www.mk.co.kr/news/economy/12107695",
+      "source": "매일경제·증권",
+      "published": "2026-07-26T08:12:39+00:00"
+    },
+    {
+      "title": "8월 제조업 전망, 3개월 만에 기준치 하회…수출전망은 ‘맑음’",
+      "link": "https://www.mk.co.kr/news/economy/12107632",
+      "source": "매일경제·증권",
+      "published": "2026-07-26T07:19:35+00:00"
+    },
+    {
+      "title": "임광현 “강남서 한 채 장특공제 200억 넘기도…역진성 끝판왕”",
+      "link": "https://www.mk.co.kr/news/economy/12107597",
+      "source": "매일경제·증권",
+      "published": "2026-07-26T05:28:27+00:00"
+    },
+    {
+      "title": "Cocoa prices are easing. So why is chocolate still so expensive?",
+      "link": "https://www.cnbc.com/2026/07/26/cocoa-prices-chocolate-lindt-barry-callebaut-nestle.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-26T05:00:01+00:00"
+    },
+    {
+      "title": "얼라인이 쏘아 올린 BNK·JB금융 합병론…영·호남 지역사회 ‘부글부글’",
+      "link": "https://www.mk.co.kr/news/economy/12107560",
+      "source": "매일경제·증권",
+      "published": "2026-07-26T04:04:25+00:00"
+    },
+    {
+      "title": "보험료 인하·정비원가 상승…상반기 車보험 6년만에 ‘적자’",
+      "link": "https://www.mk.co.kr/news/economy/12107541",
+      "source": "매일경제·증권",
+      "published": "2026-07-26T02:31:02+00:00"
+    },
+    {
+      "title": "국민銀, JP모간과 블록체인 기반 수출입 결제 인프라 도입",
+      "link": "https://www.mk.co.kr/news/economy/12107519",
+      "source": "매일경제·증권",
+      "published": "2026-07-26T01:31:29+00:00"
+    },
+    {
+      "title": "많이 벌면 건보료 월 600까지 늘린다… 최저 보험료도 두 배 인상 ‘대수술’",
+      "link": "https://www.mk.co.kr/news/economy/12107504",
+      "source": "매일경제·증권",
+      "published": "2026-07-26T00:33:29+00:00"
+    },
+    {
+      "title": "Imax 70 mm screenings become the biggest star for Christopher Nolan’s ‘The Odyssey’",
+      "link": "https://www.cnbc.com/2026/07/25/the-odyssey-imax-70mm-screenings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-25T16:26:11+00:00"
+    },
+    {
+      "title": "How a 70-year-old beekeeper is keeping his family honey farm afloat: 'It's a legacy that I feel responsible for'",
+      "link": "https://www.cnbc.com/2026/07/25/how-this-70-year-old-honey-bee-farmer-is-keeping-his-family-farm-alive.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-25T14:48:15+00:00"
+    },
+    {
+      "title": "Trump sued hours after new tariffs take effect, as experts say they may not hold up",
+      "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-lawsuit-301-ieepa.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-25T14:23:53+00:00"
+    },
+    {
+      "title": "From Silicon Valley to DC, the tech world is suddenly obsessed with one concept in AI: Distillation",
+      "link": "https://www.cnbc.com/2026/07/25/hat-is-distillation-and-why-is-everyone-so-obsessed-with-it-this-week.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-25T14:03:03+00:00"
+    },
+    {
+      "title": "Does crypto make your portfolio less risky? Only if you do it right, experts say",
+      "link": "https://www.cnbc.com/2026/07/25/crypto-diversified-investment-portfolio.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-25T13:30:01+00:00"
+    },
+    {
+      "title": "“60만전자·420만닉스 시대 온다”… 전문가들이 꼽은 역대급 매수 기회 ‘이것’",
+      "link": "https://www.mk.co.kr/news/economy/12107415",
+      "source": "매일경제·증권",
+      "published": "2026-07-25T12:36:52+00:00"
+    },
+    {
+      "title": "Buffett favors an estate tax, but like virtually all billionaires, he won't be paying it",
+      "link": "https://www.cnbc.com/2026/07/25/buffett-favors-an-estate-tax-but-like-virtually-all-billionaires-he-wont-be-paying-it.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-25T12:28:33+00:00"
     }
   ],
   "pages": [
