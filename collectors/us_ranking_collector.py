@@ -97,7 +97,7 @@ def collect_quotes(symbols: list[str]) -> dict[str, dict]:
             change_pct = round((close / prev - 1) * 100, 2) if prev else None
             out[symbol] = {
                 "close": close, "change_pct": change_pct, "volume": volume,
-                "amount": (close * volume) if volume else close,
+                "amount": (close * volume) if volume else None,  # 결측 추정 금지(정직한 None)
             }
         except Exception:  # noqa: BLE001 - 심볼 단위 스킵
             continue

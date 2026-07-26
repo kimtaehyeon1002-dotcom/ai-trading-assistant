@@ -122,6 +122,15 @@ def build_hub_entries(
     us_by_code = {r["code"]: r for r in (us_rows or [])}
     supplementary_us_quotes = supplementary_us_quotes or {}
 
+    news_by_ticker: dict[str, list[dict]] = {}
+    for a in articles:
+        item = {"title": a.title, "link": a.link, "source": a.source,
+                "published": a.published.isoformat() if a.published else None}
+        for t in a.impact_tags:
+            ticker = t.get("ticker")
+            if ticker:
+                news_by_ticker.setdefault(ticker, []).append(item)
+
     entries: dict[str, dict] = {}
     for code, name, market in universe:
         if market in KR_MARKETS:
@@ -130,12 +139,7 @@ def build_hub_entries(
             row = us_by_code.get(code) or supplementary_us_quotes.get(code)
             quote = _quote_from_row(row, "none") if row else None
 
-        related = [
-            {"title": a.title, "link": a.link, "source": a.source,
-             "published": a.published.isoformat() if a.published else None}
-            for a in articles
-            if any(t.get("ticker") == code for t in a.impact_tags)
-        ][:5]
+        related = news_by_ticker.get(code, [])[:5]
 
         entries[code] = {
             "code": code,

@@ -54,9 +54,9 @@ def collect_base_rate(start: str, end: str) -> list[dict] | None:
 
 
 def collect() -> dict | None:
-    from datetime import datetime
+    from utils.dates import now_kst
 
-    now = datetime.now()
+    now = now_kst()
     start = f"{now.year - 2}{now.month:02d}"
     end = f"{now.year}{now.month:02d}"
     obs = collect_base_rate(start, end)

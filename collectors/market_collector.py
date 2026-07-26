@@ -96,7 +96,8 @@ def _fdr_quote(code: str) -> tuple[float | None, float | None]:
     try:
         import FinanceDataReader as fdr
 
-        closes = fdr.DataReader(code).get("Close")
+        start = (datetime.now(timezone.utc) - timedelta(days=10)).strftime("%Y-%m-%d")
+        closes = fdr.DataReader(code, start=start).get("Close")
         closes = closes.dropna() if closes is not None else None
         if closes is None or len(closes) < 2:
             return None, None
@@ -193,8 +194,8 @@ def _load_last() -> dict[str, dict]:
     if not isinstance(data, dict):
         return {}
     try:
-        as_of = datetime.fromisoformat(data.get("as_of", ""))
-    except ValueError:
+        as_of = datetime.fromisoformat(data.get("as_of") or "")
+    except (ValueError, TypeError):
         return {}
     if as_of.tzinfo is None:
         as_of = as_of.replace(tzinfo=timezone.utc)
