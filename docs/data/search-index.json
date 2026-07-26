@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-26T12:59:03.390990+00:00",
+  "as_of": "2026-07-26T14:28:29.958013+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,6 +349,60 @@
   ],
   "news": [
     {
+      "title": "Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks",
+      "link": "https://www.cnbc.com/2026/07/26/best-ai-stocks-market-sp500.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-26T14:12:20+00:00"
+    },
+    {
+      "title": "Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'",
+      "link": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-26T14:12:17+00:00"
+    },
+    {
+      "title": "How AI wealth could be distributed to all Americans",
+      "link": "https://www.cnbc.com/2026/07/26/how-can-ai-wealth-be-shared-with-all-americans.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-26T14:06:53+00:00"
+    },
+    {
+      "title": "The S&P 500’s earnings growth has gone bonkers thanks to one company",
+      "link": "https://www.marketwatch.com/story/the-s-p-500s-earnings-growth-has-gone-bonkers-thanks-to-one-company-1c45b2ba?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-26T14:00:00+00:00"
+    },
+    {
+      "title": "Some high-earning investors will soon owe taxes on years of deferred capital gains",
+      "link": "https://www.cnbc.com/2026/07/26/opportunity-zone-investors-face-deferred-capital-gains-tax-bill.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-26T13:30:02+00:00"
+    },
+    {
+      "title": "'몸값 125조' 메모리 공룡 CXMT, 中 증시 상장…심전닉스에 도전장 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkelpYaXQ5c2R5ekREMk9ZM1R5QmNrb2N5Qkw5Z0kzRThFTTE2WGNYanoxdTlIamxTb1pyTWROLXNTZm1qUXZiRFpMNGozSUpHQXZybmZWS1c1dw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-26T13:02:10+00:00"
+    },
+    {
+      "title": "‘We are not romantically involved’: I’m marrying my platonic best friend of 20 years. Should I leave him my home?",
+      "link": "https://www.marketwatch.com/story/we-are-not-romantically-involved-im-marrying-my-platonic-best-friend-of-20-years-should-i-leave-him-my-home-3faa0a77?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-26T13:00:00+00:00"
+    },
+    {
+      "title": "There’s a technical ‘triple threat’ for stocks, but also places investors can hide",
+      "link": "https://www.marketwatch.com/story/theres-a-technical-triple-threat-for-stocks-but-also-places-investors-can-hide-59108c6b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-26T13:00:00+00:00"
+    },
+    {
+      "title": "[증시 예보] “떨리다 못해 무서울 지경” 드디어 ‘삼전닉스’ 실적 나온다…‘이번 주’가 분수령 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5paExyY0Y0S1lnZUMtRXR1N3l2Q2JuVk9ydUlja3htTlVpdDZWcjRWeXZDM1EyOXJpSldvZHF5aGhLdkt5TzQ5RzVtR2tWakE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-26T12:41:00+00:00"
+    },
+    {
       "title": "[증시 예보] “떨리다 못해 무서울 지경” 드디어 ‘삼전닉스’ 실적 나온다…‘이번 주’가 분수령 - 헤럴드경제",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BR3NmSnBMLXVJdTQ2YXdnOW55cmV1b1VYVGdYVU1xNHV2czN5aG9NLTN3YzdnRk8wLTVxdV9GTV9KRENrcEh3R1BLTlJHR05SNzRsY25R?oc=5",
       "source": "Google News",
@@ -385,6 +439,12 @@
       "published": "2026-07-26T12:02:15+00:00"
     },
     {
+      "title": "100 days until midterm election: DCCC Chair DelBene says Democrats have the momentum",
+      "link": "https://www.cnbc.com/2026/07/26/election-midterms-dccc-chair-delbene-democrats.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-26T12:00:01+00:00"
+    },
+    {
       "title": "‘I’m still confused’: I sold $80,000 in shares on June 30, so why didn’t I receive my dividend?",
       "link": "https://www.marketwatch.com/story/im-still-confused-i-sold-80-000-in-shares-on-june-30-so-why-didnt-i-receive-my-dividend-d066016c?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -413,12 +473,6 @@
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1JTFdyZlVITFVhVVUzVkUybzM4Z2w0ZmFXRm1aajZOdHBhbFV0aVVwVmZaNjNLelVFb0lhT3VRcnhtV00wZEtwUXRQcm5KV0dKeDFMRHFFdTNaaWdRcmx1b2tqOWtpMnZlWkV3U3NrX3JvaHpMVU1Z?oc=5",
       "source": "Google News",
       "published": "2026-07-26T10:33:00+00:00"
-    },
-    {
-      "title": "Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'",
-      "link": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-26T10:14:39+00:00"
     },
     {
       "title": "CXMT, 내일 중국 증시 데뷔…올해 아시아 증시 최대 IPO - KBS 뉴스",
@@ -523,6 +577,12 @@
       "published": "2026-07-26T08:12:39+00:00"
     },
     {
+      "title": "호실적에 배당도 짭짤…'롤러코스피' 피난처된 증권·금융株 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QUzNsVDRFaVVWd3N1LWpuN0hEY3BuT0JwZXlGLVdGa1pMZ0ZFdmRlSE96Xzgwa1J4bTNYa0VHZllBMTBZVG8wTFNlSzZtdTJxeUE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-26T07:55:25+00:00"
+    },
+    {
       "title": "\"하루도 안 빼고 사이드카\"…롤러코스터 증시에 일주일 내내 경보음 - 뉴시스",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04OVBNbWx3cDZrd1U1WVNJcUgzOUk0LVgyRHZpWE9DMjBHeW5yMFVoRVdTVzBBcEdfRGNNOGZQa244cWJ1NUpYVV82YmRlNkE2dUxqLXFELUVQQ0pnNHgwdNIBeEFVX3lxTFA4Q0U2UVpieThSZVFvT0dQbHBIZ0FqNzNzWnFQZ3FKZ3U5RHNjdWdWc2ZZQXZod0gwQ1BIc2dsXzNyRkZpR3NWcS1SelIyRHM2Q0hMYndRbzdRUFpMeHQ3VTBRTlVGRzRJOEFGNTJEMWVUUzkzeWVLMg?oc=5",
       "source": "Google News",
@@ -539,6 +599,12 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xUURwOWZjdHNWcGF2VXBlTDdRNDBfRFBwR2o1c2JLTjMwZlBHLURhemFiWlVaYUhaV0RCQUxZQmRTdTB2VGtyeTJ5azJZeldzMFZSSFphMnl3VElzV3Rob19OdDl4MkRE?oc=5",
       "source": "Google News",
       "published": "2026-07-26T07:15:49+00:00"
+    },
+    {
+      "title": "증시랠리에 5대금융 실적잔치…비은행 체급이 순위 갈랐다 - 아주경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZckFZb1Aza0FDbUx2LV90X0hMbnBxcFA4UGdvX3c5TGFteHJhZE1uZ293Y3k4b1M1NF9NOU9pMHRJUjNLa0Z5OWRYOUFNVEF5a080WUNxczVRZ9IBWEFVX3lxTE5tTklweG9xNW5faS1sbUszb1UyTjVnLUtSNDRqcXNRU0EyZklEczdZRlc0VWdnbFV3TW5ENUh5SVJGUDNtcVZuTkNHNkJHbm4zVHE0M0tuQjQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-26T06:00:00+00:00"
     },
     {
       "title": "[이번주 증시] 국내외 기업 실적에 주목...FOMC도 관건 - 오피니언뉴스",
@@ -565,12 +631,6 @@
       "published": "2026-07-26T05:00:00+00:00"
     },
     {
-      "title": "해외주식 팔아 국내로 옮긴다면…RIA 세제 혜택 '결제일' 확인해야 - MTN 머니투데이방송",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmR0FjbEVENE5DRWRLRG0waWRPLW15MFVwQzlMM1VMWkVJeFU0cnphSHM1RmRPN2pOelpkVlYwQ2EyclRxR1NTSjM4aHRvR0pVQnFWbW43SEx1YlNWczAxVnFZbks?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T04:54:42+00:00"
-    },
-    {
       "title": "이번주 증시 국내외 주요 기업 실적 발표 주목 - 연합뉴스",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xSFZ1dGdRNGF4OUM3MFBrZjFDSzlhWDRiT3kzNjN6X0VGREJUWVgzRXhpRFM2SFhiUUxydTFzeVUyOGJvb1ZDRmZwai12ajlQZGtsamc5eF8tcWpEbk9Rb9IBYEFVX3lxTE5xSFZ1dGdRNGF4OUM3MFBrZjFDSzlhWDRiT3kzNjN6X0VGREJUWVgzRXhpRFM2SFhiUUxydTFzeVUyOGJvb1ZDRmZwai12ajlQZGtsamc5eF8tcWpEbk9Rbw?oc=5",
       "source": "Google News",
@@ -587,66 +647,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hYmN3ZUlPYTRzSjhwVS1vRER0RFFPQ2Z5cFo1aGV3MENlcncwcl8wdkZBbWVzTTNjMll4S01sZzhQYm15aFk2TlpWenZnQmdHYWhnYm1XSTRpWXh1aTdfb3ZhZnB1aU8yRXhvWWVhS2Y?oc=5",
       "source": "Google News",
       "published": "2026-07-26T04:06:00+00:00"
-    },
-    {
-      "title": "얼라인이 쏘아 올린 BNK·JB금융 합병론…영·호남 지역사회 ‘부글부글’",
-      "link": "https://www.mk.co.kr/news/economy/12107560",
-      "source": "매일경제·증권",
-      "published": "2026-07-26T04:04:25+00:00"
-    },
-    {
-      "title": "[외환-주간] 어느새 1,450원대…수급·美日 통화정책은 어디로 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PRjNyWDQyS1BvaWl4ZjItSFRMWFFCZGdMY3Bwb1dtS2JrYm5QNmd1TzhPTWdvd1ltb25lUkFvWGg4UlQ2aXJ2VUh2SVdfbU5LZFZ4M2NmR05fSWJ6akxpRW1PczYydExmeXhhV1phVk8?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T04:00:19+00:00"
-    },
-    {
-      "title": "[주간증시전망] 줄잇는 빅테크 실적 발표…7000피 안착 시험대 - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZWg3Q1ZnaFlkY3FGcUYxa2NGel82U0hxZnlGNEhvazVNTzZyR0dnWE5URXFiN1B6bmNFdHU1a0VFbXBGN1R3NkJKakV0VlRKRDhrZ1pPbjl0SldTZ1dWN25GbWllTzF3SE00UlhqZmduY2hRaTFyVFdsYXNVbjFsN3RQUWhMZVk?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T03:00:00+00:00"
-    },
-    {
-      "title": "보험료 인하·정비원가 상승…상반기 車보험 6년만에 ‘적자’",
-      "link": "https://www.mk.co.kr/news/economy/12107541",
-      "source": "매일경제·증권",
-      "published": "2026-07-26T02:31:02+00:00"
-    },
-    {
-      "title": "국민銀, JP모간과 블록체인 기반 수출입 결제 인프라 도입",
-      "link": "https://www.mk.co.kr/news/economy/12107519",
-      "source": "매일경제·증권",
-      "published": "2026-07-26T01:31:29+00:00"
-    },
-    {
-      "title": "[주간증시전망] 美 빅테크 이어 SK하이닉스도 실적 발표… FOMC 개최 - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSkFfdzM4RVI4d2ZmeUZkNENxZEl4dHVOY2NBNFNCRDJ2ak9KaEVwUHJ5dm16a21CcWdMWDVTS0tiZHNjQTVydzRmUGNQVzFBNUNJMG0xSHdxblRMRlZGaG5hdkQyYnhOendjd3NUMDhsazF1YTd1ZGd5S0FFOVpEMktEZ2p1WEl50gGcAUFVX3lxTE5BODcyNkhEaHM3MWkwSE9ZU3RrRDlGOVY1ZmRyVmJBQ3dwdVQzeVlDbUdmOWszR21rVHZmTGFFa0k4Q2ZMRlE1QWp4WHhUNXFKZHcxTXU0TEs5T0tHdzNZaDJuWWpTVk14dm5xUmpDSjBHdThCQ3BwdFRhdmVYaDd1RW9yZ05UM2F1RHFsY0VfdEpOR1cyMTljcUJWcQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T01:10:00+00:00"
-    },
-    {
-      "title": "많이 벌면 건보료 월 600까지 늘린다… 최저 보험료도 두 배 인상 ‘대수술’",
-      "link": "https://www.mk.co.kr/news/economy/12107504",
-      "source": "매일경제·증권",
-      "published": "2026-07-26T00:33:29+00:00"
-    },
-    {
-      "title": "뉴욕증시, 중동 리스크·연준 결정·빅테크 실적에 변동성 커지나 - 산경투데이",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Lbk51cFlGS3JQN2FnNXBXaGhXdjBINUF2Yy11bTJKMWI0elItZzhtbF9WR1E0NGUxSUtldm4teEZNZUVLNEVidnNLaFVTRGRVZXI0VFU0VjlORkxibjhYZURkSXJCOTJ0N004NzFDLUbSAXRBVV95cUxNSmFEbTVYaWhPcTlPTVFPZzZpOGctOUlZX2lqekQzTVJoLXpaSGpZQS1tU2dxUk5pczUycV9uT0hkWXhaVTNTcXc1MmwtN0xZNlp2RFJpU1dtSjFOa2s5cy1QMGQ5MVRMT0RNcEwyaHlrN0cyNA?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T00:10:28+00:00"
-    },
-    {
-      "title": "급락 뒤 맞는 실적의 시간…중동·FOMC 넘어 반도체가 증시 방향 가른다 [주간증시] - 에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03SzR0RXBVSTZwbWQ0MUp4OVl4bXNMNk1HOUFfeEIwZ1lZYU9fUlRsQW1oTFQ0YTFJSlkzTkMzVmdQc2VRWWE3OTlZQnkxRGpsRnN6WG9FZUc3em8?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T00:00:00+00:00"
-    },
-    {
-      "title": "한 달간 코스피 하락률 25%, 증권가 “이제 바닥권”…근거는? [증시레이더] - 디지털데일리",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zdmpEY2N5NmxWbENMWi1xS0Itc2tjS0xaTlFwSDg2WXU5SXl1anEwb2pRaW1iaHZlakxobmxsRmxrLVFqRFczTGN2bENKMTBWN0tlZzIwV0c3bEljb3NZSE42M1Q?oc=5",
-      "source": "Google News",
-      "published": "2026-07-25T23:56:43+00:00"
     }
   ],
   "pages": [
