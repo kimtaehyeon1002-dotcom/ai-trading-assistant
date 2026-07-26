@@ -30,7 +30,10 @@ def commit_and_push(message: str, paths: tuple[str, ...] = ("docs", "data")) -> 
     # --autostash: 커밋 대상(docs/data) 밖의 unstaged 변경이 있어도 rebase가 거부하지 않게
     # (개발 중 소스 수정이 워킹트리에 남아 있으면 이게 없을 때 배포가 통째로 실패한다)
     _git("fetch", "origin")
-    rebased = _git("rebase", "--autostash", "-X", "theirs", "origin/main", check=False)
+    # rebase 중 -X ours/theirs는 merge와 반대: ours=흡수 대상(origin/main), theirs=재생되는
+    # 로컬 커밋. 원격을 우선하려면 ours를 지정해야 한다(직접 검증 완료 — 문서 의도와 반대로
+    # 동작하던 기존 -X theirs는 원격의 최신 발행물을 로컬 구버전으로 되돌릴 수 있었다).
+    rebased = _git("rebase", "--autostash", "-X", "ours", "origin/main", check=False)
     if rebased.returncode != 0:
         _git("rebase", "--abort", check=False)
         log.error("원격 변경 흡수(rebase) 실패 — 수동 확인 필요")

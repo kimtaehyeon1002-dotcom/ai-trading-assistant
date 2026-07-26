@@ -26,7 +26,7 @@ def save_trades(trades: list[Trade]) -> None:
 
 
 def _key(t: Trade) -> tuple:
-    return (t.date, t.ticker, round(t.sell_price, 4), round(t.quantity, 4))
+    return (t.date, t.ticker, round(t.buy_price, 4), round(t.sell_price, 4), round(t.quantity, 4))
 
 
 def add_trades(new: list[Trade]) -> list[Trade]:
