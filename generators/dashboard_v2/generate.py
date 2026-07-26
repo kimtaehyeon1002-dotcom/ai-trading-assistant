@@ -8,6 +8,7 @@ v1 생성기(generators/dashboard/)·템플릿(templates/dashboard.html)은 Phas
 """
 from __future__ import annotations
 
+from datetime import datetime, timezone
 from pathlib import Path
 
 from calculators import news_categories, news_rank
@@ -19,6 +20,10 @@ from generators.base import render
 from generators.morning.generate import list_dates
 from models.market import Quote
 from utils.dates import fmt_kst, now_kst
+
+# published 결측 기사를 "최신"이 아니라 "최고령" 취급 — calculators/news_rank.py,
+# calculators/news_levels.py, repositories/news_repository.py와 동일 관례.
+_OLD_PUBLISHED = datetime(1970, 1, 1, tzinfo=timezone.utc)
 
 # 주간지수 → 야간선물 → 환율 순(2열 그리드에서 행 단위로 짝이 맞는다).
 # kosdaq_night 누락은 design/23 P3 — 수집·저장은 정상인데 표시면에만 키가 없어
@@ -72,7 +77,7 @@ def _build_context() -> dict:
     market = pipelines.get_market()
     news = pipelines.get_news()
     top5 = news_rank.top(news, 5)
-    recent = sorted(news, key=lambda a: a.published or now_kst(), reverse=True)[:8]
+    recent = sorted(news, key=lambda a: a.published or _OLD_PUBLISHED, reverse=True)[:8]
     dates = list_dates()
 
     return {

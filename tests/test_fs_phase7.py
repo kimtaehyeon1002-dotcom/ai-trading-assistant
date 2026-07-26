@@ -61,6 +61,36 @@ def test_debt_ratio_absolute_thresholds():
     assert caution["judgment"] == "caution"
 
 
+def test_debt_ratio_negative_equity_is_caution_not_good():
+    """자본잠식(자기자본 음수)이면 비율이 음수로 나와 <100 조건에 걸려 '양호'로 오판되면 안 된다."""
+    r = fs.debt_ratio(_financials(liabilities=_series([("2023", 200.0)]), equity=_series([("2023", -50.0)])))
+    assert r["value"] == -400.0
+    assert r["judgment"] == "caution"
+
+
+def test_operating_margin_own_avg_only_uses_recent_5_years():
+    """own_5y_avg는 이름 그대로 최근 5년만 반영해야 한다 — 그 이전 이상치 연도가 섞여 들면 안 된다."""
+    financials = _financials(
+        revenue=_series([(str(y), 100.0) for y in range(2017, 2024)]),
+        operating_income=_series(
+            [("2017", 50.0), ("2018", 50.0)]  # 이상치: 50% 마진(오래된 연도, 5년 밖)
+            + [(str(y), 10.0) for y in range(2019, 2024)]  # 최근 5년: 10% 마진
+        ),
+    )
+    r = fs.operating_margin(financials)
+    assert r["own_5y_avg"] == 10.0
+
+
+def test_free_cash_flow_neutral_when_fewer_than_3_years_even_if_positive():
+    """3년 연속 양수 판정은 실제로 3년치 데이터가 있을 때만 '양호'로 표시해야 한다."""
+    r = fs.free_cash_flow(_financials(
+        operating_cf=_series([("2023", 20.0)]),
+        capex=_series([("2023", 5.0)]),
+    ))
+    assert r["value"] == 15.0
+    assert r["judgment"] == "neutral"
+
+
 def test_free_cash_flow_good_when_all_recent_positive():
     r = fs.free_cash_flow(_financials())
     assert r["value"] == 20.0 - 7.0

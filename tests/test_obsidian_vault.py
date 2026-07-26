@@ -40,6 +40,24 @@ def test_obsidian_collector_scans_vault(tmp_path, monkeypatch):
     assert raw == {"watchlist": [{"종목명": "삼성전자", "티커": "005930", "시장": "KRX"}]}
 
 
+def test_obsidian_collector_skips_undecodable_note_without_crashing(tmp_path, monkeypatch):
+    """UTF-8이 아닌 바이트로 저장된 노트 1개가 UnicodeDecodeError로 전체 스캔을 중단시키면 안 된다."""
+    from collectors import obsidian_collector
+
+    watchlist_dir = tmp_path / "00_Watchlist"
+    watchlist_dir.mkdir()
+    (watchlist_dir / "정상.md").write_text(
+        '---\n종목명: 삼성전자\n티커: "005930"\n---\n메모\n', encoding="utf-8"
+    )
+    (watchlist_dir / "깨진인코딩.md").write_bytes("종목명: 카카오".encode("euc-kr"))
+
+    monkeypatch.setattr(obsidian_collector, "VAULT_WATCHLIST_DIR", watchlist_dir)
+    monkeypatch.setattr(obsidian_collector, "_CACHE", tmp_path / "cache" / "vault_watchlist.json")
+
+    raw = obsidian_collector.collect()
+    assert raw == {"watchlist": [{"종목명": "삼성전자", "티커": "005930"}]}
+
+
 def test_obsidian_collector_disabled_when_empty(tmp_path, monkeypatch):
     from collectors import obsidian_collector
 

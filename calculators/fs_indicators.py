@@ -48,7 +48,8 @@ def operating_margin(financials: dict) -> dict | None:
     if not margins:
         return None
     latest = margins[-1]
-    own_avg = round(sum(m["value"] for m in margins) / len(margins), 2)
+    recent5 = margins[-5:]
+    own_avg = round(sum(m["value"] for m in recent5) / len(recent5), 2)
     delta = round(latest["value"] - own_avg, 2)
     judgment = "good" if delta >= 1 else ("caution" if delta <= -1 else "neutral")
     return {
@@ -71,7 +72,9 @@ def debt_ratio(financials: dict) -> dict | None:
     if not ratios:
         return None
     latest = ratios[-1]
-    if latest["value"] < 100:
+    if latest["value"] < 0:
+        judgment = "caution"  # 자본잠식(자기자본 음수) — 절대 기준선 미달보다 나쁜 최악 상태
+    elif latest["value"] < 100:
         judgment = "good"
     elif latest["value"] <= 200:
         judgment = "neutral"
@@ -92,7 +95,7 @@ def free_cash_flow(financials: dict) -> dict | None:
     recent3 = rows[-3:]
     if latest["value"] < 0:
         judgment = "caution"
-    elif all(r["value"] >= 0 for r in recent3):
+    elif len(rows) >= 3 and all(r["value"] >= 0 for r in recent3):
         judgment = "good"
     else:
         judgment = "neutral"

@@ -11,7 +11,9 @@ from datetime import datetime, timezone
 from config.settings import CACHE_DIR
 from models.news import NewsArticle
 from utils.jsonio import load_json, save_json
+from utils.logging import get_logger
 
+log = get_logger("repositories.news")
 _STORE = CACHE_DIR / "news_articles.json"
 _OLD = datetime(1970, 1, 1, tzinfo=timezone.utc)
 _TAG = re.compile(r"<[^>]+>")
@@ -41,7 +43,15 @@ def load_store() -> list[NewsArticle]:
     raw = load_json(_STORE, default=[])
     if not isinstance(raw, list):  # 스키마 오염 방어
         return []
-    return [NewsArticle.from_dict(d) for d in raw if isinstance(d, dict)]
+    out = []
+    for d in raw:
+        if not isinstance(d, dict):
+            continue
+        try:
+            out.append(NewsArticle.from_dict(d))
+        except (ValueError, TypeError) as exc:  # 레코드 1건 오염이 news/stock hub/검색색인 빌드 전체를 죽이지 않도록
+            log.warning("news_articles.json 레코드 파싱 실패(건너뜀): %s", exc)
+    return out
 
 
 def merge_and_save(new: list[NewsArticle], keep: int = 400) -> list[NewsArticle]:

@@ -62,6 +62,31 @@ def test_ecos_collect_none_without_key(monkeypatch):
     assert ecos_collector.collect() is None
 
 
+def test_ecos_row_count_covers_full_requested_month_span():
+    """25개월 구간(-2y~현재월)을 요청하면 응답 행 수 파라미터도 25 이상이어야 최신 관측치가 안 잘린다."""
+    assert ecos_collector._month_span("202407", "202607") == 25
+
+
+def test_ecos_url_requests_enough_rows_for_range(monkeypatch):
+    monkeypatch.setattr(ecos_collector, "ECOS_API_KEY", "test-key")
+    captured = {}
+
+    class _Resp:
+        def raise_for_status(self):
+            return None
+
+        def json(self):
+            return {"StatisticSearch": {"row": [{"TIME": "202607", "DATA_VALUE": "3.0"}]}}
+
+    def _fake_get(url, timeout=None):
+        captured["url"] = url
+        return _Resp()
+
+    monkeypatch.setattr("requests.get", _fake_get)
+    ecos_collector.collect_base_rate("202407", "202607")
+    assert "/1/25/" in captured["url"], captured["url"]
+
+
 # ---------- validators/macro_validator.py ----------
 
 def test_validator_rejects_short_or_bad_observations():

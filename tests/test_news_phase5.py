@@ -7,6 +7,7 @@ from calculators.news_categories import primary_category, primary_label
 from calculators.news_entities import assign as assign_impact_tags
 from calculators.news_entities import extract_impact_tags
 from calculators.news_levels import L3_DAILY_CAP, assign_levels
+from calculators.news_rank import top as news_rank_top
 from models.news import NewsArticle
 from repositories import news_repository
 
@@ -105,6 +106,18 @@ def test_low_score_articles_stay_l1():
     assert a.level == "L1"
 
 
+# ---------- TOP N 선정(calculators/news_rank.py) ----------
+
+def test_news_rank_top_treats_missing_published_as_oldest_not_newest():
+    """published 결측 기사가 '지금 막 발행'으로 취급되면 동점 가중치 구간에서 실제 최신 기사를
+    밀어낸다 — news_levels.py/news_repository.py와 동일하게 '가장 오래된' 취급이어야 한다."""
+    now = datetime.now(timezone.utc)
+    dated = _article(title="실제 최신", link="http://x/dated", published=now)
+    undated = NewsArticle(title="시각 결측", link="http://x/undated", published=None)
+    ranked = news_rank_top([undated, dated], n=2)
+    assert ranked[0].title == "실제 최신"
+
+
 # ---------- 관련 종목 태깅 ----------
 
 def test_extract_impact_tags_matches_curated_entity():
@@ -143,6 +156,23 @@ def test_merge_preserves_first_seen_at_across_rebuilds(tmp_path, monkeypatch):
 
 
 # ---------- NewsArticle 하위호환(design/20 Phase 5 체크리스트 2) ----------
+
+def test_load_store_skips_malformed_record_instead_of_crashing(tmp_path, monkeypatch):
+    """저장소의 레코드 1건이 파싱 불가(예: 손상된 published 문자열)여도 news/stock hub/검색색인
+    빌드 전체가 죽지 않고 나머지 정상 레코드는 로드돼야 한다."""
+    monkeypatch.setattr(news_repository, "_STORE", tmp_path / "news_articles.json")
+    good = _article(title="정상", link="http://x/good")
+    news_repository.merge_and_save([good])
+
+    import json
+    store_path = tmp_path / "news_articles.json"
+    records = json.loads(store_path.read_text(encoding="utf-8"))
+    records.append({"title": "손상", "link": "http://x/broken", "published": "not-a-real-timestamp"})
+    store_path.write_text(json.dumps(records), encoding="utf-8")
+
+    loaded = news_repository.load_store()
+    assert [a.title for a in loaded] == ["정상"]
+
 
 def test_news_article_from_dict_backward_compatible_without_new_fields():
     old_dict = {"title": "t", "link": "http://x/1", "source": "s", "categories": ["macro"]}

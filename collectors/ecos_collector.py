@@ -22,13 +22,23 @@ def enabled() -> bool:
     return bool(ECOS_API_KEY)
 
 
+def _month_span(start: str, end: str) -> int:
+    """'YYYYMM' 두 값 사이의 월 개수(양끝 포함) — ECOS 응답 행 수 파라미터 산정용."""
+    start_y, start_m = int(start[:4]), int(start[4:6])
+    end_y, end_m = int(end[:4]), int(end[4:6])
+    return (end_y - start_y) * 12 + (end_m - start_m) + 1
+
+
 def collect_base_rate(start: str, end: str) -> list[dict] | None:
     """[{'date': 'YYYYMM', 'value': float}, ...] 오름차순 — 실패 시 None. start/end: 'YYYYMM'."""
     if not enabled():
         return None
     import requests
 
-    url = f"{_BASE}/StatisticSearch/{ECOS_API_KEY}/json/kr/1/24/{BASE_RATE_STAT_CODE}/M/{start}/{end}"
+    # 행 개수는 요청 구간의 실제 개월 수만큼 요청해야 한다 — 고정 24였을 때는 25개월 구간(-2y~현재월)
+    # 요청 시 최신(현재월) 관측치가 응답에서 잘려나가는 결함이 있었다.
+    row_count = max(_month_span(start, end), 1)
+    url = f"{_BASE}/StatisticSearch/{ECOS_API_KEY}/json/kr/1/{row_count}/{BASE_RATE_STAT_CODE}/M/{start}/{end}"
     try:
         r = requests.get(url, timeout=10)
         r.raise_for_status()
