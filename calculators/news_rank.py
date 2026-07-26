@@ -1,8 +1,11 @@
 """TOP N 뉴스 선정 — 속보/매크로/반도체·AI 가중 후 최신순."""
 from __future__ import annotations
 
+from datetime import datetime, timezone
+
 from models.news import NewsArticle
-from utils.dates import now_kst
+
+_OLD = datetime(1970, 1, 1, tzinfo=timezone.utc)
 
 
 def top(news: list[NewsArticle], n: int = 7) -> list[NewsArticle]:
@@ -16,5 +19,5 @@ def top(news: list[NewsArticle], n: int = 7) -> list[NewsArticle]:
             w += 1
         return w
 
-    ranked = sorted(news, key=lambda a: (weight(a), a.published or now_kst()), reverse=True)
+    ranked = sorted(news, key=lambda a: (weight(a), a.published or _OLD), reverse=True)
     return ranked[:n]

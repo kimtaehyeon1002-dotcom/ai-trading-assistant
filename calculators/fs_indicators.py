@@ -92,7 +92,7 @@ def free_cash_flow(financials: dict) -> dict | None:
     recent3 = rows[-3:]
     if latest["value"] < 0:
         judgment = "caution"
-    elif all(r["value"] >= 0 for r in recent3):
+    elif len(recent3) >= 3 and all(r["value"] >= 0 for r in recent3):
         judgment = "good"
     else:
         judgment = "neutral"
@@ -103,7 +103,7 @@ def valuation_per(financials: dict, close_price: float | None) -> dict | None:
     """PER = 종가 ÷ 최근 EPS. 판정 미적용(design/06 §1-6) — 5년 밴드는 장기 주가 이력이 별도로
     필요해 이 1차 구현에서는 생략하고 단순 배수만 제공한다(정직한 축소, 캡션으로 고지)."""
     eps_series = financials.get("eps") or []
-    if not eps_series or not close_price:
+    if not eps_series or close_price is None or close_price <= 0:
         return None
     latest_eps = eps_series[-1]["value"]
     if latest_eps <= 0:

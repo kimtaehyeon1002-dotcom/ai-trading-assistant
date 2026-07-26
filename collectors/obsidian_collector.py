@@ -32,7 +32,7 @@ def collect() -> dict[str, list[dict]] | None:
     for path in sorted(VAULT_WATCHLIST_DIR.glob("*.md")):
         try:
             fm, _ = parse_frontmatter(path.read_text(encoding="utf-8"))
-        except OSError as exc:  # noqa: BLE001 - 노트 1개 실패로 전체 중단 금지
+        except (OSError, UnicodeDecodeError) as exc:  # noqa: BLE001 - 노트 1개 실패로 전체 중단 금지
             log.warning("vault 노트 읽기 실패 %s: %s", path.name, exc)
             continue
         if fm:

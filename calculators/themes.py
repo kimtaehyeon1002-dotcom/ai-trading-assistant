@@ -10,7 +10,7 @@ def extract_themes(articles: list[NewsArticle], top_n: int = 3) -> list[dict]:
     counts: dict[str, int] = {}
     samples: dict[str, str] = {}
     for a in articles:
-        text = f"{a.title} {a.summary}".lower()
+        text = a.searchable_text
         for theme, keywords in THEME_KEYWORDS.items():
             if any(k in text for k in keywords):
                 counts[theme] = counts.get(theme, 0) + 1

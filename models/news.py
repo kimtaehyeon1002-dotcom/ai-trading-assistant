@@ -25,6 +25,11 @@ class NewsArticle:
     def id(self) -> str:
         return hashlib.sha256(self.link.encode("utf-8")).hexdigest()[:16]
 
+    @property
+    def searchable_text(self) -> str:
+        """제목+요약 소문자 결합 — 카테고리/테마/종목 태깅 키워드 매칭에 공용 사용."""
+        return f"{self.title} {self.summary}".lower()
+
     def to_dict(self) -> dict:
         return {
             "id": self.id,

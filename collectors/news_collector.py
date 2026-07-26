@@ -7,6 +7,8 @@ from __future__ import annotations
 import calendar as _cal
 from datetime import datetime, timezone
 
+import requests
+
 from config.feeds import SOURCES
 from config.settings import NEWS_FETCH_LIMIT
 from utils.logging import get_logger
@@ -14,6 +16,7 @@ from utils.logging import get_logger
 log = get_logger("collectors.news")
 
 _memo: list[dict] | None = None
+_FETCH_TIMEOUT = 10
 
 
 def collect() -> list[dict]:
@@ -31,7 +34,9 @@ def collect() -> list[dict]:
     rows: list[dict] = []
     for src in SOURCES:
         try:
-            parsed = feedparser.parse(src["url"])
+            resp = requests.get(src["url"], timeout=_FETCH_TIMEOUT)
+            resp.raise_for_status()
+            parsed = feedparser.parse(resp.content)
             for e in parsed.entries[:NEWS_FETCH_LIMIT]:
                 published = None
                 if getattr(e, "published_parsed", None):

@@ -74,6 +74,16 @@ def test_free_cash_flow_caution_when_latest_negative():
     assert r["judgment"] == "caution"
 
 
+def test_free_cash_flow_neutral_when_history_shorter_than_3y():
+    r = fs.free_cash_flow(_financials(operating_cf=_series([("2023", 5.0)]), capex=_series([("2023", 1.0)])))
+    assert r["value"] == 4.0
+    assert r["judgment"] == "neutral"
+
+
+def test_valuation_per_none_with_negative_close_price():
+    assert fs.valuation_per(_financials(), close_price=-44.0) is None
+
+
 def test_valuation_per_computed_and_no_judgment_key():
     r = fs.valuation_per(_financials(), close_price=44.0)
     assert r["per"] == round(44.0 / 2.2, 2)

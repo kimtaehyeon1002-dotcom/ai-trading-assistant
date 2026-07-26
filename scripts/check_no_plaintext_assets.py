@@ -21,7 +21,7 @@ SENSITIVE_KEYS = (
     "cash_balance", "eval_amount", "krw_amount", "usd_amount", "usdt_amount",
     "account_value", "realized_pnl_amount",
 )
-_KEY_NUMBER_RE = re.compile(r'"(' + "|".join(SENSITIVE_KEYS) + r')"\s*:\s*-?\d{4,}(\.\d+)?')
+_KEY_NUMBER_RE = re.compile(r'"(' + "|".join(SENSITIVE_KEYS) + r')"\s*:\s*-?\d+(\.\d+)?')
 _SNAPSHOT_PATH_RE = re.compile(r"(^|/)data/snapshots/")
 
 # 내용(원시 금액 패턴) 스캔 제외 대상 — 테스트 픽스처와 가드 자신의 소스는 합성(가짜) 금액을

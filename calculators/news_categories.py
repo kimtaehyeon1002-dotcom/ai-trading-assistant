@@ -14,7 +14,7 @@ def categorize(article: NewsArticle) -> list[str]:
     elif article.region == "US":
         cats.append("us_market")
 
-    text = f"{article.title} {article.summary}".lower()
+    text = article.searchable_text
     for cat, keywords in CATEGORY_KEYWORDS.items():
         if any(k in text for k in keywords):
             cats.append(cat)

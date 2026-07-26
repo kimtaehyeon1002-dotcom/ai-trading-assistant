@@ -12,6 +12,16 @@ def test_flags_sensitive_key_with_raw_number(tmp_path):
     assert "balance" in violations[0]
 
 
+def test_flags_sensitive_key_with_small_raw_number(tmp_path):
+    """3자리 이하 숫자(예: USD 소액 잔고)도 원시 금액이면 걸려야 한다(회귀 — 이전에는
+    정수부 4자리 미만 값이 조용히 통과했다)."""
+    bad = tmp_path / "bad_small.json"
+    bad.write_text('{"usd_amount": 999.5}', encoding="utf-8")
+    violations = check_paths([str(bad)])
+    assert len(violations) == 1
+    assert "usd_amount" in violations[0]
+
+
 def test_allows_percentage_and_ciphertext_fields(tmp_path):
     good = tmp_path / "good.json"
     good.write_text('{"balance_pct": 50.2, "ciphertext": "aGVsbG8="}', encoding="utf-8")

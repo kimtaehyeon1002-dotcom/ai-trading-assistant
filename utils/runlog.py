@@ -60,3 +60,10 @@ def note(worker: str, *, status: str = "completed", items: int | None = None, de
 
 def records() -> dict[str, dict]:
     return dict(_records)
+
+
+def reset() -> None:
+    """다음 run_build() 호출을 위해 기록을 비운다(같은 프로세스에서 재빌드 시 이전 타임스탬프가
+    새 실행에 이월되는 것 방지 — 예: app/deploy.commit_and_push의 rebuild가 app/sync.run의
+    최초 빌드 직후 같은 프로세스에서 다시 run_build를 호출하는 경우)."""
+    _records.clear()

@@ -96,7 +96,8 @@ def _fdr_quote(code: str) -> tuple[float | None, float | None]:
     try:
         import FinanceDataReader as fdr
 
-        closes = fdr.DataReader(code).get("Close")
+        start = (datetime.now(timezone.utc) - timedelta(days=10)).strftime("%Y-%m-%d")
+        closes = fdr.DataReader(code, start=start).get("Close")
         closes = closes.dropna() if closes is not None else None
         if closes is None or len(closes) < 2:
             return None, None

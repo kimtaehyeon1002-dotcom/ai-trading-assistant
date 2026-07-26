@@ -63,6 +63,7 @@ def run_build(target: str) -> list[Path]:
         raise ValueError(f"알 수 없는 target: {target} (choices: {TARGETS})")
 
     ensure_dirs()
+    runlog.reset()
     _sync_vault()
 
     from generators import vault_journal

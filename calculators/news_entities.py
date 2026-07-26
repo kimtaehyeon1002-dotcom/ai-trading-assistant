@@ -7,7 +7,7 @@ from models.news import NewsArticle
 
 def extract_impact_tags(article: NewsArticle) -> list[dict]:
     """제목+요약에서 매칭된 종목을 [{ticker, name, market}, ...]로 반환(티커 중복 제거)."""
-    text = f"{article.title} {article.summary}".lower()
+    text = article.searchable_text
     seen: set[str] = set()
     tags: list[dict] = []
     for name, (ticker, display, market) in ENTITIES.items():

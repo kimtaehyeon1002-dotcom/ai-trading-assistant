@@ -15,7 +15,7 @@ def yoy_change(observations: list[dict]) -> dict | None:
     latest = observations[-1]
     latest_date = date.fromisoformat(latest["date"])
     target_year = latest_date.year - 1
-    for obs in observations:
+    for obs in reversed(observations):
         d = date.fromisoformat(obs["date"])
         if d.year == target_year and d.month == latest_date.month:
             prior_value = obs["value"]
@@ -34,7 +34,7 @@ def yoy_change(observations: list[dict]) -> dict | None:
 
 def kimchi_premium_pct(btc_krw: float | None, btc_usd: float | None, usdkrw: float | None) -> float | None:
     """(BTC/KRW 실거래가 ÷ (BTC/USD × USD/KRW 환산가) − 1) × 100. 재료 중 하나라도 없으면 None."""
-    if not btc_krw or not btc_usd or not usdkrw:
+    if not btc_krw or not btc_usd or not usdkrw or btc_krw < 0 or btc_usd < 0 or usdkrw < 0:
         return None
     implied_krw = btc_usd * usdkrw
     if not implied_krw:

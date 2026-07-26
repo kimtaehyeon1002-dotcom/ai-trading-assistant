@@ -35,6 +35,16 @@ def test_yoy_change_none_with_insufficient_data():
     assert yoy_change(_obs([("2026-07-01", 100.0)])) is None
 
 
+def test_yoy_change_uses_latest_revision_on_duplicate_month():
+    obs = _obs([
+        ("2025-07-01", 100.0), ("2025-07-02", 101.0), ("2026-07-01", 108.0),
+    ])
+    result = yoy_change(obs)
+    assert result is not None
+    assert result["prior_date"] == "2025-07-02"
+    assert result["prior_value"] == 101.0
+
+
 def test_kimchi_premium_calculation():
     # BTC/USD=65000, USD/KRW=1400 → 환산 91,000,000. 실거래 92,000,000 → 프리미엄 약 +1.10%
     pct = kimchi_premium_pct(92_000_000, 65_000, 1400)
