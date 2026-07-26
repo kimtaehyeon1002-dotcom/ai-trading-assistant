@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-26T09:19:29.659341+00:00",
+  "as_of": "2026-07-26T10:29:43.987640+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,6 +349,24 @@
   ],
   "news": [
     {
+      "title": "Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'",
+      "link": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-26T10:14:39+00:00"
+    },
+    {
+      "title": "CXMT, 내일 중국 증시 데뷔…올해 아시아 증시 최대 IPO - KBS 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lNzFIY1dsNEF5WFh1WFFicTV2dG1TeDFnNDZPT3pZQW9GUXUzbUxuQzQ2Y1kzRVBzUmI1T2ZWU2JVNFo1cXl6VkpQM0pYSXpTd1NDa2JTcjFTMk0?oc=5",
+      "source": "Google News",
+      "published": "2026-07-26T10:04:00+00:00"
+    },
+    {
+      "title": "[이번주 증시] 'AI 랠리' 이어질까…코스피 향방 가를 '슈퍼위크' - 뉴시안",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wRmhaX3ZkNkhjSGVCSEVlbGxXNXlkS2pJc09fRTNKWEN5TzIyNFB1bnVWX1NVOHc4bkhWSEYxWS1GUDFOSkVvNVJXZHZjRUN3TzRtbjlxN0ZUMDB1a25YMjZMazhoSmZhZWfSAW5BVV95cUxNNHdnUzZEd0tZOVU1UDQxZzk1Yjc5NDF4eWRMbnFYSExGd3RoR0tSdkNjMElieVF6NUZDVWtwZmdoT0FSbDUxbGRSVmY0cGx3dUF2MUVmQUhiSVFBT1h4NHhnelpWWnU0bzRXbDhkQQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-26T09:18:43+00:00"
+    },
+    {
       "title": "'유명무실' 기금평가, 내년부터 확 바뀐다",
       "link": "https://www.mk.co.kr/news/economy/12107787",
       "source": "매일경제·증권",
@@ -361,7 +379,7 @@
       "published": "2026-07-26T08:35:47+00:00"
     },
     {
-      "title": "① 지방 메가특구가 기회 … 청년고용 대반전 계기로",
+      "title": "①지방 메가특구가 기회 … 청년고용 대반전 계기로",
       "link": "https://www.mk.co.kr/news/economy/12107785",
       "source": "매일경제·증권",
       "published": "2026-07-26T08:35:46+00:00"
@@ -457,12 +475,6 @@
       "published": "2026-07-26T07:15:10+00:00"
     },
     {
-      "title": "[자막뉴스] 증시 난장판 속에 웃는 곳 따로 있다…5대 금융, 상반기 순익 13조 역대 최대 - news.sbs.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9jQ3JEMGRjN19JM2UwRjBWdlRTUmJJSV9UenE0eUt6ZUpmbGw5aU02dGVxd3d6cGhRVFdLUjB0amprZ1lSUG56OGJEX29GdVN1Vjhzcm9tcHJJckZNWWcxT0JGUThBQ3RGd1E?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T06:39:00+00:00"
-    },
-    {
       "title": "증시랠리에 5대금융 실적잔치…비은행 체급이 순위 갈랐다 - 아주경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZckFZb1Aza0FDbUx2LV90X0hMbnBxcFA4UGdvX3c5TGFteHJhZE1uZ293Y3k4b1M1NF9NOU9pMHRJUjNLa0Z5OWRYOUFNVEF5a080WUNxczVRZ9IBWEFVX3lxTE5tTklweG9xNW5faS1sbUszb1UyTjVnLUtSNDRqcXNRU0EyZklEczdZRlc0VWdnbFV3TW5ENUh5SVJGUDNtcVZuTkNHNkJHbm4zVHE0M0tuQjQ?oc=5",
       "source": "Google News",
@@ -494,7 +506,7 @@
     },
     {
       "title": "이번주 증시 국내외 주요 기업 실적 발표 주목 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85OV9WMF9hNU1DU2trZnBmSi1jVlc2c0s2MkRjdXpKNHhnVkRFVmVDdGdVaVVlYjF6c2h6SnJNdWZpTGo5T2ZRM2x2a3plMFZOWFFxTERZeHE1SzDSAWBBVV95cUxOcUhWdXRnUTRheDlDNzBQa2YxQ0s5YVg0Yk95MzYzel9FRkRCVFlYM0V4aURTNkhYYlFMcnUxc3lVMjhib29WQ0ZmcGotdmo5UGRrbGpnOXhfLXFqRG5PUW8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xSFZ1dGdRNGF4OUM3MFBrZjFDSzlhWDRiT3kzNjN6X0VGREJUWVgzRXhpRFM2SFhiUUxydTFzeVUyOGJvb1ZDRmZwai12ajlQZGtsamc5eF8tcWpEbk9Rb9IBYEFVX3lxTE5xSFZ1dGdRNGF4OUM3MFBrZjFDSzlhWDRiT3kzNjN6X0VGREJUWVgzRXhpRFM2SFhiUUxydTFzeVUyOGJvb1ZDRmZwai12ajlQZGtsamc5eF8tcWpEbk9Rbw?oc=5",
       "source": "Google News",
       "published": "2026-07-26T04:49:45+00:00"
     },
@@ -503,12 +515,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83UXBtN2lnUHY4bHItSXJwcEMwYzJ1ZlR1R1R0UW9QdDFtR2VlZkJnUGg4S1pGVFRMTjZiR2VmWUJsLTNjZl9KbW9EOFNRRzZ3cGU2SE55UkNnd9IBWEFVX3lxTE9uOXlRWXJVd0dFczVSVXdVc0R1UWhmYWVITU1ya3B4TWV3cElPbVdScWVMb21CQXNCejZuSzgySmp6MzBGVUJNMVlFUlFBOExfVTJST3Rtano?oc=5",
       "source": "Google News",
       "published": "2026-07-26T04:44:46+00:00"
-    },
-    {
-      "title": "중동 변수에 숨죽인 증시…AI 실적 시즌이 가른다 [주간 증시 전망] - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oNTlaODE4LXZZWU9QWExRU3o2X0dJalk3VWV2MnQwY1pzSlNsQWJmOENMazNGLTBvOTc3Qk85bjY5Y2Ixb3lBTDBYTEYtNWE5QUVQOGZUbjYzQQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T04:11:48+00:00"
     },
     {
       "title": "CXMT, 98억 달러 IPO 후 상하이 증시 역사적 데뷔 예상 - Investing.com 한국어",
@@ -533,12 +539,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zTnI2Y083cmRteUtYR2gwODRoRkJQN2MtSDdBMnZwNTcxNFMtTTd6cXJvNjB2TEZzZnZMRDU1a3NBczdMbXJMT3NlY2lHMjlMTHprMGhKaDJfd0Noc2xWYkE3SW5YWl8wdV9BRGRwdlQ?oc=5",
       "source": "Google News",
       "published": "2026-07-26T03:56:31+00:00"
-    },
-    {
-      "title": "[이슈&논란] \"한국 주식 = 카지노\" 오명 벗을까…韓 증시, 사상 최악 변동성에 규제 초강수 - 뉴스스페이스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vZ256cjE0eGZrekpOR1V0aVhjdXFDdjlBazE3ZnpOQjlNYWMxc3NUQUJkcnFiYXlWcFJHTzJJd0xsWmN1dGJGOGV2VXIwNEVRbUM3MnBJOVFCSnhKYzdwRA?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T03:20:46+00:00"
     },
     {
       "title": "[주간증시전망] 줄잇는 빅테크 실적 발표…7000피 안착 시험대 - 글로벌이코노믹",
@@ -631,12 +631,6 @@
       "published": "2026-07-25T21:20:01+00:00"
     },
     {
-      "title": "빅테크 실적 릴레이… FOMC도 변수 [주간증시전망] - IT조선",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1T1EtdE56c3NUUElTdnhORjNfRVo0TGZfdnBaci16d295Y1FNY1VYSUMzV1NzWGlTR2VIQXB0bW9zMmxUbk1ySmtjUkZvekp1M2Y1WHhMRE1RNTZMdGc5c0ZoS29BVk1kQjRVUW93NzDSAXRBVV95cUxPdDc1aVFqckJsYmItdzBfUWhSaHhRc3g3QlZMTlIyTXZVZWVnT2NOTGwzTXpuTHFQdXNTVzFkTF9UdUhqTGJzcFJtWVVuclU5dUc1cW02T01LSE1nS0k2Nl9iejF5Y01TaVhjOGpuQ2VIUm9mSw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-25T21:10:00+00:00"
-    },
-    {
       "title": "(주간증시전망)AI 투자 확대 기조 확인 구간…미 빅테크·삼전·하닉 실적 주목 - 뉴스토마토",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE03Z0lfdHNPM3dDNk5QMWxwVGRxX2RNRDg0NFk5T0l2eTVFMmlKZEIzM3FrNkt3dVJPcGxqMVB6XzZUUGtnSmtfT0doOFFSVG5wemZrVUJmaFA5bkE5V2dMaw?oc=5",
       "source": "Google News",
@@ -647,6 +641,12 @@
       "link": "https://www.marketwatch.com/story/i-wanted-to-transfer-17-000-in-credit-card-debt-why-did-wells-fargo-offer-me-only-a-4-000-credit-limit-7ad0a3f0?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-25T21:00:00+00:00"
+    },
+    {
+      "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
+      "link": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-25T20:15:00+00:00"
     }
   ],
   "pages": [
