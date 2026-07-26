@@ -34,7 +34,7 @@ def test_envelope_uses_fresh_salt_and_iv_each_call():
 def test_envelope_records_owasp_iteration_count():
     envelope = encrypt({"x": 1}, "pass")
     assert envelope["iterations"] == PBKDF2_ITERATIONS
-    assert PBKDF2_ITERATIONS >= 210_000
+    assert PBKDF2_ITERATIONS >= 600_000
 
 
 def test_envelope_has_no_plaintext_leak_in_json_keys():

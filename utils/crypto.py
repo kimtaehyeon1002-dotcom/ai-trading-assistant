@@ -14,9 +14,9 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
-# OWASP 2023 PBKDF2-HMAC-SHA256 권장 하한. WebCrypto deriveKey에도 동일 값을 넘겨야 한다
+# OWASP 2023 PBKDF2-HMAC-SHA256 권장 하한(600,000). WebCrypto deriveKey에도 동일 값을 넘겨야 한다
 # (static/js/asset-gate.js와 파라미터가 어긋나면 절대 복호화되지 않는다 — 이 상수가 유일 진실원).
-PBKDF2_ITERATIONS = 210_000
+PBKDF2_ITERATIONS = 600_000
 _SALT_LEN = 16
 _IV_LEN = 12
 _KEY_LEN_BITS = 256
