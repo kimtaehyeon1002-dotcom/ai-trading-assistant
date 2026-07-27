@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-26T23:52:57.502596+00:00",
+  "as_of": "2026-07-27T01:58:42.069293+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,28 +349,118 @@
   ],
   "news": [
     {
+      "title": "China memory chipmaker CXMT skyrockets 470% in Shanghai debut",
+      "link": "https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T01:58:11+00:00"
+    },
+    {
+      "title": "장특공제 한도 만지고 다주택자 퇴로 열고?…김용범 “정책 반영 고민”",
+      "link": "https://www.mk.co.kr/news/economy/12108120",
+      "source": "매일경제·증권",
+      "published": "2026-07-27T01:36:53+00:00"
+    },
+    {
+      "title": "“10만원 연체했는데 신용점수 55점 깍여”...벼랑 끝 몰리는 취약계층",
+      "link": "https://www.mk.co.kr/news/economy/12108102",
+      "source": "매일경제·증권",
+      "published": "2026-07-27T01:17:43+00:00"
+    },
+    {
+      "title": "“요즘 2030은 술도 많이 안 하잖아”...젊은 지방간 환자 급증, 주범은?",
+      "link": "https://www.mk.co.kr/news/economy/12108101",
+      "source": "매일경제·증권",
+      "published": "2026-07-27T01:16:32+00:00"
+    },
+    {
+      "title": "지난주 뉴욕 증시 반도체 하락 마감 딛고 코스피 1% 안팎 상승 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hVlhabGk3OTdMX2RRNV8tVThySHJicmY4cE10ZXFlNm42Vm8ybjBFdHlYNWFnYjZZcG95SVFPTUQtSHBWeEFERzd0MW91bHRsejNlRUIwR05FRS1SSmUxTURGRHVRczRVWmxNcmdNTUF1M0E10gF0QVVfeXFMUGZHLWFiMmpFb0lWdXhvYTZFSVo1eC1HcjV3OHhZZks5REhOekpWOXp4NHZrZE1CQ2owc09xbVNIYTJ4TXJrUDdLcG5sS1JMQmhndkVYemVVeW1BcGZ0R3VvcWRIZUdUMVhPQUFVOGx4VkUtRHY?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T00:57:52+00:00"
+    },
+    {
+      "title": "골드만 \"美중간선거 앞두고 증시 변동성 확대 전망\" - KB Think",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9nQ2Q5UTlraFdhRGtaUENsMktUMS1jMUY1Vk5WYUZ0NWZzV2hTbFhMbDM1ekZKcFk4YkpxY1NYLXV4SjBIcFA0T2NUX2hfdkhFX0tENjZzSTM2eVRFNmxDRTl3OXRDSVJ3cEJsZHJ2a3JMUQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T00:57:44+00:00"
+    },
+    {
       "title": "Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week",
       "link": "https://www.marketwatch.com/story/oil-prices-sink-stock-futures-rally-as-u-s-and-iran-pause-attacks-wall-street-awaits-busy-week-75030e00?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "2026-07-26T23:45:00+00:00"
+      "published": "2026-07-27T00:57:00+00:00"
     },
     {
-      "title": "신한투자 \"하나금융지주, 밸류업 2.0 긍정적…주주환원 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260727020600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T23:42:08+00:00"
+      "title": "출발증시 1부 - 한국경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ2hON0wtSklxaklJRVhUbkFGaDA4SmZkelc4Q1FvNzNYMzdQUzJRdUJKcjY0NDBWWjJkaGNYR1NlanozSDVpaHNocUZySUMzQldDX1llb3Y3QlhmQ0ZocGQtcThQdkl4Rk1BR01OdG56Tm1oRzlRN2h5TjdFQnN6R09zNXdWOXk4ZjdlQzlUSE0tbGFlSmM4MlB6NEg4SWJhenZV?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T00:55:49+00:00"
     },
     {
-      "title": "[게시판] 수출입은행, 취약계층 폭염 대응에 5억9천만원 지원",
-      "link": "https://www.yna.co.kr/view/AKR20260727022700002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T23:40:53+00:00"
+      "title": "증시 훈풍 올라탄 은행계 증권사, 순이익 2배 '껑충' - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM3pTMWRtRXVwVXpENlpkZC1jSENnZE5pcDNBZXk0T2tUbXZsUks3QzhvNHdtZ1VrdUVwY3RkUE1rSmE5Nkdmd21YbG00clI4RmNXT3RDaXdka0hvbXFEWmNLa0ljejhYM1B1Q3NFSnlUS2tOXzlmTDk1SlBzSFB1eGptRVduYm5D?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T00:49:45+00:00"
     },
     {
-      "title": "삼성증권 \"SKT 설립 SK하이퍼, 'AI 허브' 핵심 역할 전망\"",
-      "link": "https://www.yna.co.kr/view/AKR20260727021800008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T23:40:06+00:00"
+      "title": "日 증시, 美 빅테크 AI 과잉 투자에 '싸늘'… 잉여현금흐름 적자에 경고음 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcXZRcHZ4VGJaQTJ5d01jN1ozWG1YNUtOZDM5NXJsRDV1UGF6QXdBbFQzclVFMG9sbjNSVmZFQ3lUemhSLWsxaTZYSTVySnBLVEY0eE5Zak8wamVRYXpYNmF1UW12ZGpGRzdRY1F0am1yX0ZKMGF6VHdYb2NKR1BoQ0FKSUhtbUty?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T00:49:28+00:00"
+    },
+    {
+      "title": "오늘의 증시 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zaC1yWlpWaUFuV3Z4a2I2b203X2hzMk9ZMHA5N3o0QkNuWGltWkxubm1XVGpKSFR1WUY1eUk2ajljTFZ1UVRpbHRUZUNHby1FQUxQdnVRT3NkRFpYMDlGLWNHSDRhMnY1QU51N2VHRXI3ajlkbTk0?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T00:41:16+00:00"
+    },
+    {
+      "title": "오르면 팔고 내리면 사고…롤러코스터 증시에 엇갈린 개인·외국인 투자자 - 매일신문",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RdkNTeEtEXy1zVUQ4Y0JrN3BEckp5d2hCS0ZzeWlMeHNSZnRjQUtybHE1aTZzYk1DN2VobU9TWlQtcVRoVV9oSEZ6aWxDMkpaYWExbUpTZ3hydzNCV2piUkF3?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T00:37:03+00:00"
+    },
+    {
+      "title": "국내 증시 조정에 `빚투`도 최저…증권가의 `장밋빛 전망`은 여전 - 매일신문",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5c3FXSXBkRG9NMzRfMndSNUlBak5lME9UYjhOUHlldHV5SkpLR2dNTjhHQktTeUhuYTRLeUIzTk5wMGh0LUdWYWtVQTRXWll0cTRLVTRhT19tWHZRcUl2OXN3?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T00:36:14+00:00"
+    },
+    {
+      "title": "Singapore tightens monetary policy as rising oil prices rekindle inflation risk",
+      "link": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T00:34:22+00:00"
+    },
+    {
+      "title": "증시 변동성 커질수록 '인기'…KB운용 커버드콜 ETF 수익률 두각 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMUJOWk93UXNmdGotS2FZWG5UOHNieFA2a3p3MGdkdVpnYkdkOWpGTi1ObG1OcmFHQ2pwMnBZRGNpenlUc1A4ZnlzTF94Nk1fMi0yTGhaVDNlZXE5dDdHMm9CZ2tvdW12YjZqal9mamNBX2ZEajYtZkk2M2h4a0tpOFlCQnFlTmVW?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T00:27:02+00:00"
+    },
+    {
+      "title": "CXMT, 中 증시 데뷔⋯ D램 ‘빅4’ 존재감 키운다 - 브릿지경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLbzBlSmlualFVOGZUWS1FOC1DNDFQTlBIY01IMUVZR2hEWGZVNkVobkRRRHc0S0JpTU9GandReFFCd2NKa01LaUw5TkRwMk5lcVE1WDRZWWVqQQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T00:17:00+00:00"
+    },
+    {
+      "title": "[0727개장체크] 美증시, 반도체 업종 매도세 집중되며 혼조세 - 인포스탁데일리",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JY3JiTnlCNzhNZGt5bjdYMklaRGVOUVhHOGhKTmhQU0g5LS1hMGtBN0t3eEg1V21qTGtfZjZpVHNmN0NJZk1JRXN4S3h4RGlJOXppQmlIcHhiNjZURjdiWW4tQUtGbm5vajJxM0RlYURMOFFNaEE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T00:16:52+00:00"
+    },
+    {
+      "title": "Oil slides 5% as Iran reportedly signals halt to attacks if U.S. pause holds",
+      "link": "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-26T23:58:00+00:00"
+    },
+    {
+      "title": "삼성·SK 추격 CXMT, 오늘 中증시 데뷔…12조 조달해 D램 ‘총공세’ - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82Vm84UWJZbXF0cE00dFlBeFI3aGQ0QkpodzJFblJCUFZCYVMzTk1BVW1ESTYwdFJVWkdZV0NDelBreUMyN25mckFxSXdRTjg?oc=5",
+      "source": "Google News",
+      "published": "2026-07-26T23:47:09+00:00"
     },
     {
       "title": "Here's the tech stock to buy in a market losing patience with tech",
@@ -379,28 +469,10 @@
       "published": "2026-07-26T23:39:46+00:00"
     },
     {
-      "title": "키움증권 \"현대모비스, A/S 부문이 2분기 실적 만회…목표가↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260727020400008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T23:38:28+00:00"
-    },
-    {
-      "title": "iM증권 \"하이퍼스케일러 신용 리스크, 과도한 수준 아냐\"",
-      "link": "https://www.yna.co.kr/view/AKR20260727022600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T23:38:07+00:00"
-    },
-    {
       "title": "[증시 포인트] 코스피 반등 전망...반도체 업종 주목 - 오피니언뉴스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qWTM1aWJoNHplVGl6RDZ5Z3FuZ0xMbkgxWlJHcXc2eEJZemc1YlNjaFgxV0gzR0dkYVpYanZJcVhPTlkzRkkzTXMzS091NXVTNFVTRjJaUDkxYW80Q3JPTHBfZ2xVZkp4TkNGN3dndTk?oc=5",
       "source": "Google News",
       "published": "2026-07-26T23:35:46+00:00"
-    },
-    {
-      "title": "증권가, 기아 목표가 줄줄이 하향…\"2분기 실적 기대치 하회\"",
-      "link": "https://www.yna.co.kr/view/AKR20260727022000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T23:35:19+00:00"
     },
     {
       "title": "유가 5% 급락에 나스닥 선물 1%↑…뉴욕증시 '안도 랠리' 예고 - 뉴스1",
@@ -409,16 +481,10 @@
       "published": "2026-07-26T23:34:45+00:00"
     },
     {
-      "title": "중진공, 반부패 청렴 정책 점검 회의…이행현황·우수 사례 공유",
-      "link": "https://www.yna.co.kr/view/AKR20260727018200030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T23:33:37+00:00"
-    },
-    {
-      "title": "신한투자 \"삼성중공업, 일회성 비용에 실적 부진…목표가↓\"",
-      "link": "https://www.yna.co.kr/view/AKR20260727020300008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T23:33:01+00:00"
+      "title": "[개장] 뉴욕증시, 중동 긴장 재고조 속 FOMC와 빅테크 실적 대기 By 알파경제 alphabiz - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CR2hydGtMcm9VZXRFbDN6cm1wNEZpM092WUlKN1hrcVlSaGY5M3Z2aWdSYWxidTZyRXJOSmRzVXlZem9odEtNeFhzeUQ3ZHFqTVF0c1YtWTYwQ1VCLWU4VVRDdDZuSlBEWXlKZzk3TW0?oc=5",
+      "source": "Google News",
+      "published": "2026-07-26T23:22:00+00:00"
     },
     {
       "title": "[AI MY 뉴스] 27일 중국증시 슈퍼위크 도래 '정치국회의·CXMT·유가·FOMC 체크포인트' - 뉴스핌",
@@ -427,44 +493,8 @@
       "published": "2026-07-26T23:22:00+00:00"
     },
     {
-      "title": "[개장] 뉴욕증시, 중동 긴장 재고조 속 FOMC와 빅테크 실적 대기 By 알파경제 alphabiz - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CR2hydGtMcm9VZXRFbDN6cm1wNEZpM092WUlKN1hrcVlSaGY5M3Z2aWdSYWxidTZyRXJOSmRzVXlZem9odEtNeFhzeUQ3ZHFqTVF0c1YtWTYwQ1VCLWU4VVRDdDZuSlBEWXlKZzk3TW0?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T23:22:00+00:00"
-    },
-    {
-      "title": "DS투자증권, 현대로템 목표가↓…\"2027년 실적전망치 하향조정\"",
-      "link": "https://www.yna.co.kr/view/AKR20260727016600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T23:20:01+00:00"
-    },
-    {
-      "title": "[증시키워드] '블랙데이' 기술주 동반 폭락…삼성전자·SK하이닉스 급락 - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95YlkwakREU2M0eDJwR0ROa1MxWGxyc1pQQWVmWDVEUzBNOS1MVGd2RjJOdTlrb2VhcWlBSnJKdHR3THJ6NDczNDZZUXJ1bWh3MXNMbQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T23:17:00+00:00"
-    },
-    {
-      "title": "[시황] 미국증시, 유가 하락에도 반도체 약세에 혼조 마감 - 버핏연구소",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uRUNqVWpJZTNZdVZ4MVc2dVlNNWZUazJWSWdKUHJJQ0lZcTF2Mk56YlpXN0g4dmE5RmV1aHRYSXNFZjE4YWRZc1M3U0I0cWhqRlBaT2lxUGRJdHJ6UnNodmxB?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T23:03:23+00:00"
-    },
-    {
-      "title": "파이브가이즈 매각 다음 달 윤곽…H&Q, 밸류에이션 재평가",
-      "link": "https://www.yna.co.kr/view/AKR20260725000900008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T23:00:04+00:00"
-    },
-    {
       "title": "[주간증시전망] FOMC·빅테크 실적···코스피 '검증 주간' - 서울파이낸스",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FeWN3N3RYdGpDYkZ0THB3QXpVa25EdzFIRnVkX3otU1hhRGVndDE0bXFjWWw0YmxxLVdxelNScDdBb1VpVFhBVnhMV2g1VzJOSGc5ZFp1VmZnQzlsZVktRjhTdm14N05SYUE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T23:00:00+00:00"
-    },
-    {
-      "title": "[주간증시전망] SK하이닉스 실적·FOMC…코스피 6400~7150선 - 자본시장뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NODlvQmtRbTllZWUxV25WaV93ZjFtZVYydkpaWklmU244MHNiRDJ3VWtrMGkyTDFjNUE3ZkdaMzJSb0dFdmJtUDBmbjdKQnlhVnZISVlvelROVHJGV3FJcnBwTTdJV1U?oc=5",
       "source": "Google News",
       "published": "2026-07-26T23:00:00+00:00"
     },
@@ -475,28 +505,10 @@
       "published": "2026-07-26T22:58:00+00:00"
     },
     {
-      "title": "부산시, 551억원 규모 미래산업 전환펀드 2호 결성",
-      "link": "https://www.yna.co.kr/view/AKR20260727013700051",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T22:56:00+00:00"
-    },
-    {
-      "title": "[굿모닝 증시]삼전닉스 실적 주간…코스피 상방 잠재력 커졌다 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1bnBfaE9ZMU5hZ2N4czY0WTZfMGFwUk5xcTR6MTl1MUNKWGxvYTl5SUkzck9aV0ZhTnBZcEVpRXgwN2hpbmMzZm5ic3kyQ0k?oc=5",
+      "title": "\"하루 3% 널뛰기에 멀미 난다\"…국장 손절하고 美 증시로 달아난 개미들 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBaZnFhaUoyWFdSc2tiN1BTZEpHTUJnbXBYOGNaeEI3emNkX2c2OFQxazE0U1BQcVhwbzNBZGppYmRtbHBjR1paNF9mNHNqUHM?oc=5",
       "source": "Google News",
-      "published": "2026-07-26T22:53:00+00:00"
-    },
-    {
-      "title": "日 증시, 美 빅테크 AI 과잉 투자에 '싸늘'… 잉여현금흐름 적자에 경고음 - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcXZRcHZ4VGJaQTJ5d01jN1ozWG1YNUtOZDM5NXJsRDV1UGF6QXdBbFQzclVFMG9sbjNSVmZFQ3lUemhSLWsxaTZYSTVySnBLVEY0eE5Zak8wamVRYXpYNmF1UW12ZGpGRzdRY1F0am1yX0ZKMGF6VHdYb2NKR1BoQ0FKSUhtbUty?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T22:52:36+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
-      "link": "https://www.yna.co.kr/view/AKR20260727007700011",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T22:30:01+00:00"
+      "published": "2026-07-26T22:51:28+00:00"
     },
     {
       "title": "[서학개미 브리핑] 투자자 예탁금 100조원선 유지…美증시 순매수액 4배↑ - v.daum.net",
@@ -524,20 +536,14 @@
     },
     {
       "title": "매경이 전하는 세상의 지식 (매-세-지, 7월 27일)",
-      "link": "https://www.mk.co.kr/news/economy/12107809",
-      "source": "매일경제·증권",
-      "published": "2026-07-26T22:00:00+00:00"
-    },
-    {
-      "title": "매경이 전하는 세상의 지식 (매-세-지, 7월 27일)",
       "link": "https://www.mk.co.kr/news/economy/12107800",
       "source": "매일경제·증권",
       "published": "2026-07-26T22:00:00+00:00"
     },
     {
-      "title": "FOMC·MS·메타·아마존 실적…뉴욕증시 '운명의 한 주'[월가프리뷰] - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01TV9wMmRoSXlHTU9UUzZJd1I1c0RvUGVxME1EY0pHSmJpLXA0RU8xbHNBcGlaaEEtRkphUVoyenBUbFhrWlNpZFR1MmNLLWRFYlg2OUd6VFVLT3R5bUJPLWprMDcyVGM?oc=5",
-      "source": "Google News",
+      "title": "매경이 전하는 세상의 지식 (매-세-지, 7월 27일)",
+      "link": "https://www.mk.co.kr/news/economy/12107809",
+      "source": "매일경제·증권",
       "published": "2026-07-26T22:00:00+00:00"
     },
     {
@@ -565,70 +571,16 @@
       "published": "2026-07-26T21:19:21+00:00"
     },
     {
-      "title": "비아파트 빠른 공급 밀지만 시장은 미지근…\"주거환경 개선부터\"",
-      "link": "https://www.yna.co.kr/view/AKR20260726035300003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T21:07:01+00:00"
-    },
-    {
       "title": "[뉴욕증시 주간전망] 빅테크 실적·연준 회의…시장 향방 가를 '운명의 5일' - 글로벌이코노믹",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNM29WamRfNUJBcHN0S2p4VURxZGZfalktZlo1OTdxNEtZa1RpZ0dHYXVtbDRCTWJZTzZ4M1FWSzF1NTBWa1VOUElKQlVFOEFTUFFIZzBIbzB5VzBmQkVzT2hYdTBybFVfaG1aQUVyRzlKV1F0anJtaVlqSlItVEt2TXBxczh1OFpE?oc=5",
       "source": "Google News",
       "published": "2026-07-26T21:02:02+00:00"
     },
     {
-      "title": "[삶-특집] \"수익률 높으면 리스크도 크다…퇴직금 80% 날린 사람들 많아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260726050300546",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T21:01:11+00:00"
-    },
-    {
-      "title": "건설근로자공제회, 휴가지원 1천명 추가 모집…국내 40만원 이용",
-      "link": "https://www.yna.co.kr/view/AKR20260725045600530",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T21:00:08+00:00"
-    },
-    {
-      "title": "재개발·재건축 궁금증 해소…서울시, 정비사업 시민 아카데미",
-      "link": "https://www.yna.co.kr/view/AKR20260726026100004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T21:00:06+00:00"
-    },
-    {
-      "title": "도로 아래 공간 주차장으로…서울시, 입체적 공간 활용 시행",
-      "link": "https://www.yna.co.kr/view/AKR20260726030800004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T21:00:05+00:00"
-    },
-    {
-      "title": "서울시, 8∼9월 5개 권역별 중장년 채용박람회 개최",
-      "link": "https://www.yna.co.kr/view/AKR20260726031100004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T21:00:05+00:00"
-    },
-    {
-      "title": "한·방글라데시, 서울서 포괄적경제동반자협정 5차 공식협상",
-      "link": "https://www.yna.co.kr/view/AKR20260726036800003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T21:00:03+00:00"
-    },
-    {
-      "title": "[게시판] 산업부, 우리은행과 '라이징 리더스 300' 하반기 모집",
-      "link": "https://www.yna.co.kr/view/AKR20260726037000003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T21:00:02+00:00"
-    },
-    {
-      "title": "성과보상체계 이견 못 좁힌 카카오뱅크…인뱅 첫 파업 사례될까",
-      "link": "https://www.yna.co.kr/view/AKR20260726046800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T20:53:00+00:00"
-    },
-    {
-      "title": "홍콩 ELS 과징금, 이달 또 넘긴다…롯데카드 제재는 마무리",
-      "link": "https://www.yna.co.kr/view/AKR20260725052300002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-26T20:51:01+00:00"
+      "title": "요동치는 증시 '안전망'…VI·사이드카·서킷브레이커 차이는[금알못] - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBEdkU0VDZiVXVtMEk2S2hvUDhtcXM2RHJJMUtrcjNGbGh4VVJhSFBiS2ttVEh3RzN3Tl8zVkxJM21JTFJuSG5Ccmo3cHYxdW9NX3hVSVRYTVhYcnFjVXVwcNIBeEFVX3lxTE11YkZNdmFBSTM3enp4Sm5MdFpkZUpwY2s2VFVrY3h6Y1V3YTc5TVZ5UDFoNUY5eHVZTGswRkpwZlVrUlktQ083YU9yREw2dzBqeUxkcHpwZFgzR2RGWFBmdzFzTnVNbVFocWVJc2l6YWtkc1l6aThPdA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-26T21:00:00+00:00"
     },
     {
       "title": "Here are the 3 big things we're watching in the stock market in the week ahead",
@@ -647,6 +599,54 @@
       "link": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-26T20:00:00+00:00"
+    },
+    {
+      "title": "‘It’s nothing personal’: Should I tell my 96-year-old stepmother that I don’t want her inheritance?",
+      "link": "https://www.marketwatch.com/story/it-would-feel-like-a-burden-my-stepmother-96-owns-the-house-i-grew-up-in-is-it-wrong-to-tell-her-i-dont-want-to-inherit-it-9d5810c2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-26T19:30:00+00:00"
+    },
+    {
+      "title": "There’s a technical ‘triple threat’ for stocks, but also places investors can hide",
+      "link": "https://www.marketwatch.com/story/theres-a-technical-triple-threat-for-stocks-but-also-places-investors-can-hide-59108c6b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-26T19:15:00+00:00"
+    },
+    {
+      "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
+      "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-26T19:01:00+00:00"
+    },
+    {
+      "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
+      "link": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-26T18:30:00+00:00"
+    },
+    {
+      "title": "AI 온오프가 뉴욕증시 흔든다…S&P500 종목 분산 52일로 급증 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeHBSbHB3Y3dWZmRPVUFGNWlJUGFRRlMzZnRNZUdDajhmVjk0cHdMWGJnYlk3MHZtM2JSd2xIYkZyM2ppQWs0RW1vNW9kT1cwRGd0NmozdGVtQ2NHMDByemc3RDhXMWVJTWswTDdja2pGTGJhb0ZrV0lVaGxhT1BiZWlhbVVESkxT?oc=5",
+      "source": "Google News",
+      "published": "2026-07-26T18:15:00+00:00"
+    },
+    {
+      "title": "Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'",
+      "link": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-26T17:11:36+00:00"
+    },
+    {
+      "title": "\"수급 꼬이며 하락한 증시, 단기 저점은 6300선 안팎\" - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV1ZjX0ZJV1FpaXVpaUhCQ0tDWXNWNmFCd1BCc2p6X3hQT0h6VG9wVEwydnZqTHZPakxiRFpmYVVWNzRDVkhMVnRWYnRUNXBQSHlKamIzcG9SdWpzRlZFTzNaSTVwM3JmWWgxMnVObVVPckxkcER5WFVmUFRrZVpQXw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-26T15:35:00+00:00"
+    },
+    {
+      "title": "코스피 급락에… 서학 개미, 다시 美 증시로 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTFZDZHBIb0djVjJxMUktaE0tSC1FZzNfWFBwdmtKUHJPcEVfandZUXNDM1Y0X1VtNGRQcFZabTJOWW9xQ1VRWWxLOVRyaUFWRXo5RTZ0TmxhUTlBRFNQRHB6bE1JeDNPLWhwZVdZMHNmbGhQVnA1UEJrVVEyZHJLTHJ5SkVaODNn0gGcAUFVX3lxTE85OUhyanV1RGh4Mk5pVlhpTHh5YUFpTFlfenI4eE84S3p0R1h3d1RYcmNBZlRBTThNcWFTem04MjRWbFprWUJxd2xBRk1RY3g1ZWtqUjdKTXI5LVFUZWhXYXgwWDAwZE14em5iZ05GdzVndEVpbk5oU3BFS19QTXliUDZVS0lVQTdIR0M4NXRIaWw1UDJMSHlhT1UwVA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-26T15:32:00+00:00"
     }
   ],
   "pages": [
