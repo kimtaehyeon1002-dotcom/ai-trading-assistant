@@ -1,9 +1,10 @@
 """계좌 정보 — 계좌목록·잔고(design/20 Phase 8).
 
-⚠ fetch_balance()는 실제 Kiwoom OCX 세션(Windows 32-bit + HTS 로그인)으로 검증하지 못했다 —
-이 개발 환경엔 그 실행 조건 자체가 없다(orders.py의 TR 패턴을 그대로 따랐을 뿐). 실계좌 연동
-전 KOA Studio로 opw00018 응답 필드를 반드시 실측 확인해야 한다(다른 수집기의 "미검증" 고지와
-같은 원칙이나, 이건 네트워크 키가 아니라 OCX 세션 자체가 없어 한 단계 더 불확실하다).
+fetch_balance()는 2026-07-27 실계좌(Windows 32-bit + HTS 로그인)로 검증 완료. 최초 시도 시
+입력필드에 없는 "상장폐지조회구분"을 잘못 넣어 [400721] 조회구분을 확인하세요 오류가 났다 —
+실제 opw00018 필수 입력은 계좌번호/비밀번호/비밀번호입력매체구분/조회구분(1=합산,2=개별)이며
+개별 종목 행이 필요해 "2"로 고정했다. summary/holding 필드명 후보는 실응답으로 확인됨(4계좌
+전량 확보 로그 참고).
 """
 from __future__ import annotations
 
@@ -61,8 +62,8 @@ def fetch_balance(api: KiwoomAPI, account: str) -> dict | None:
     try:
         api.set_input("계좌번호", account)
         api.set_input("비밀번호", "")
-        api.set_input("상장폐지조회구분", "0")
         api.set_input("비밀번호입력매체구분", "00")
+        api.set_input("조회구분", "2")  # 1=합산, 2=개별(보유종목별 행 필요 → design/09 테이블)
         meta = api.comm_rq(_BALANCE_RQ_NAME, _BALANCE_TR_CODE,
                             fields=[f for c in {**_SUMMARY_FIELD_CANDIDATES, **_HOLDING_FIELD_CANDIDATES}.values() for f in c])
     except Exception as exc:  # noqa: BLE001
