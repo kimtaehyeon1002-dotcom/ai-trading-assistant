@@ -1,144 +1,144 @@
 {
-  "as_of": "2026-07-27T03:40:22.767713+00:00",
+  "as_of": "2026-07-27T05:50:29.547519+00:00",
   "entries": {
     "wti": {
-      "price": 85.30999755859375,
-      "change_pct": -4.48,
+      "price": 84.72000122070312,
+      "change_pct": -0.58,
       "source": "yahoo",
-      "previous_close": 89.30999755859375,
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "previous_close": 85.20999908447266,
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "nasdaq": {
-      "price": 24975.8203125,
+      "price": 24975.824,
       "change_pct": -0.64,
       "source": "yahoo",
       "previous_close": 25137.693,
-      "quality": "verified",
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "quality": "degraded",
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "sp500": {
-      "price": 7411.97998046875,
+      "price": 7411.98,
       "change_pct": 0.05,
       "source": "yahoo",
       "previous_close": 7408.3,
-      "quality": "verified",
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "quality": "degraded",
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "dow": {
       "price": 51947.25,
       "change_pct": 0.46,
       "source": "yahoo",
       "previous_close": 51711.65,
-      "quality": "verified",
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "quality": "degraded",
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "sox": {
-      "price": 11818.8798828125,
+      "price": 11818.886,
       "change_pct": -4.25,
       "source": "yahoo",
       "previous_close": 12343.837,
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "kospi": {
-      "price": 6690.14990234375,
-      "change_pct": -0.42,
+      "price": 6744.97021484375,
+      "change_pct": 0.39,
       "source": "yahoo",
       "previous_close": 6718.5,
-      "quality": "verified",
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "quality": "degraded",
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "kosdaq": {
-      "price": 764.6599731445312,
-      "change_pct": 2.09,
+      "price": 764.8099975585938,
+      "change_pct": 2.11,
       "source": "yahoo",
       "previous_close": 748.989990234375,
       "quality": "verified",
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "vix": {
-      "price": 18.579999923706055,
+      "price": 18.58,
       "change_pct": -0.64,
       "source": "yahoo",
       "previous_close": 18.700000762939453,
-      "quality": "verified",
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "quality": "degraded",
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "move": {
       "price": 76.8175,
       "change_pct": -4.07,
       "source": "yahoo",
       "previous_close": 80.0783,
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "dxy": {
-      "price": 101.21299743652344,
-      "change_pct": -0.25,
+      "price": 101.19999694824219,
+      "change_pct": -0.01,
       "source": "yahoo",
-      "previous_close": 101.46499633789062,
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "previous_close": 101.20899963378906,
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "gold": {
-      "price": 4087.199951171875,
-      "change_pct": 0.4,
+      "price": 4090.5,
+      "change_pct": -0.05,
       "source": "yahoo",
-      "previous_close": 4070.800048828125,
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "previous_close": 4092.5,
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "copper": {
-      "price": 6.355000019073486,
-      "change_pct": -0.04,
+      "price": 6.349999904632568,
+      "change_pct": 0.06,
       "source": "yahoo",
-      "previous_close": 6.357500076293945,
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "previous_close": 6.3460001945495605,
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "natgas": {
-      "price": 2.8329999446868896,
-      "change_pct": -1.9,
+      "price": 2.8269999027252197,
+      "change_pct": 0.35,
       "source": "yahoo",
-      "previous_close": 2.888000011444092,
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "previous_close": 2.816999912261963,
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "nq_futures": {
-      "price": 28616.25,
-      "change_pct": 1.18,
+      "price": 28699.5,
+      "change_pct": 0.3,
       "source": "yahoo",
-      "previous_close": 28282.25,
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "previous_close": 28613.5,
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "us10y": {
-      "price": 4.678999900817871,
+      "price": 4.679,
       "change_pct": -0.51,
       "source": "yahoo",
       "previous_close": 4.703000068664551,
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "usdjpy": {
-      "price": 163.5959930419922,
+      "price": 163.593994140625,
       "change_pct": -0.12,
       "source": "yahoo",
       "previous_close": 163.79100036621094,
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "eurusd": {
-      "price": 1.1406410932540894,
-      "change_pct": 0.27,
+      "price": 1.1409013271331787,
+      "change_pct": 0.3,
       "source": "yahoo",
       "previous_close": 1.1375269889831543,
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "usdcny": {
-      "price": 6.768799781799316,
-      "change_pct": -0.04,
+      "price": 6.768199920654297,
+      "change_pct": -0.05,
       "source": "yahoo",
       "previous_close": 6.771399974822998,
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     },
     "btc": {
-      "price": 65235.2890625,
-      "change_pct": -0.15,
+      "price": 65311.30078125,
+      "change_pct": -0.04,
       "source": "yahoo",
       "previous_close": 65336.30859375,
-      "as_of": "2026-07-27T03:40:22.767713+00:00"
+      "as_of": "2026-07-27T05:50:29.547519+00:00"
     }
   }
 }
