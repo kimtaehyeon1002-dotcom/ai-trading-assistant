@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27T14:49:26.286078+00:00",
+  "as_of": "2026-07-27T15:37:53.183148+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,10 +349,70 @@
   ],
   "news": [
     {
-      "title": "Sam Altman to meet with Trump administration, Senators this week. Here's what he plans to say",
+      "title": "Comey asks judge to dismiss Trump 'seashells' case citing lack of 'true threat'",
+      "link": "https://www.cnbc.com/2026/07/27/james-comey-trump-seashells-threat.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T15:35:48+00:00"
+    },
+    {
+      "title": "Should you get paid to care for a family member?",
+      "link": "https://www.marketwatch.com/story/should-you-get-paid-to-care-for-a-family-member-70958828?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T15:28:00+00:00"
+    },
+    {
+      "title": "Sam Altman to meet with Trump administration, senators this week. Here's what he plans to say",
       "link": "https://www.cnbc.com/2026/07/27/altman-trump-china-open-weight-ai.html",
       "source": "CNBC Finance",
-      "published": "2026-07-27T14:33:10+00:00"
+      "published": "2026-07-27T15:24:16+00:00"
+    },
+    {
+      "title": "The AI boom shows no sign of slowing — and the U.S. economy is reaping the benefits",
+      "link": "https://www.marketwatch.com/story/the-ai-boom-shows-no-sign-of-slowing-and-the-u-s-economy-is-reaping-the-benefits-1728c4e5?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T15:22:00+00:00"
+    },
+    {
+      "title": "美증시, 반도체주식 급락에 나스닥 하락 전환 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vaENkanIxYUI0ZTMwal9SLW9yVlVMTnVqd3pnNWtycmpkTXJ3OURyYkt4Y1BsUThneGxLeFE0NmRVSUNVX0FQcDVnVXZHTlZYRG5hYkxtWU53Zw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T15:18:56+00:00"
+    },
+    {
+      "title": "College kids are moving into retirement communities for reasons beyond ‘cheap rent’",
+      "link": "https://www.marketwatch.com/story/college-kids-are-moving-into-retirement-communities-for-reasons-beyond-cheap-rent-577dc94b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T15:09:00+00:00"
+    },
+    {
+      "title": "FedEx is chasing the GLP-1 boom. Why healthcare logistics means big business",
+      "link": "https://www.cnbc.com/2026/07/27/fedex-is-chasing-the-glp-1-boom-why-healthcare-logistics-means-big-business.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T15:08:24+00:00"
+    },
+    {
+      "title": "This small-cap stock strategy shines by riding the beat-and-raise trend",
+      "link": "https://www.marketwatch.com/story/this-small-cap-stock-strategy-shines-by-riding-the-beat-and-raise-trend-24bee883?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T15:08:00+00:00"
+    },
+    {
+      "title": "NBCUniversal and YouTube ink deal to embed Peacock in the video platform for premium subscribers",
+      "link": "https://www.cnbc.com/2026/07/27/nbcuniversal-youtube-peacock-premium-subscribers.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T15:02:01+00:00"
+    },
+    {
+      "title": "잘 벌어도 '폭락'…빅테크·반도체 운명 가를 ‘AI 투자 청구서’[이번주 美 증시는] - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5POGEycmJpYXU3STU4QzNLT2o1MnlmenMzUUxxWjF6SWJENXdvREhFVUdFQkw0TnVRMG1nd1NnZDkyOTBOU1dQRy1odVJ1aFg0N040?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T15:00:46+00:00"
+    },
+    {
+      "title": "Do I need to hire a broker to find an apartment in New York City?",
+      "link": "https://www.marketwatch.com/story/do-i-need-to-hire-a-broker-to-find-an-apartment-in-new-york-city-f5f9cf34?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T14:51:00+00:00"
     },
     {
       "title": "For 44 years, this investor held aces in the long-bond game. He just folded.",
@@ -397,7 +457,7 @@
       "published": "2026-07-27T14:11:47+00:00"
     },
     {
-      "title": "Policy uncertainty is muddling retirement planning — and advisers are just as confused",
+      "title": "Policy uncertainty is making it hard to plan for retirement — and advisers are just as confused",
       "link": "https://www.marketwatch.com/story/policy-uncertainty-is-muddling-retirement-planning-and-advisers-are-just-as-confused-3381f10e?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-27T14:00:00+00:00"
@@ -439,24 +499,6 @@
       "published": "2026-07-27T13:39:00+00:00"
     },
     {
-      "title": "잘 벌어도 '폭락'…빅테크·반도체 운명 가를 ‘AI 투자 청구서’[이번주 美 증시는] - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5POGEycmJpYXU3STU4QzNLT2o1MnlmenMzUUxxWjF6SWJENXdvREhFVUdFQkw0TnVRMG1nd1NnZDkyOTBOU1dQRy1odVJ1aFg0N040?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T13:30:46+00:00"
-    },
-    {
-      "title": "Oil prices see largest one-day declines in two months after U.S. and Iran pause strikes",
-      "link": "https://www.marketwatch.com/story/oil-prices-see-largest-one-day-declines-in-two-months-amid-pause-in-strikes-d819160a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T13:27:00+00:00"
-    },
-    {
-      "title": "These risk strategists have a new formula for the Iran ‘TACO’ trade. It seems to be working.",
-      "link": "https://www.marketwatch.com/story/strategists-mathematical-formula-for-trumps-tacos-borne-out-by-weekend-ceasefire-9459c85d?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T13:02:00+00:00"
-    },
-    {
       "title": "Spain and France wildfires force more than 300,000 to flee as Macron calls crisis meeting",
       "link": "https://www.cnbc.com/2026/07/27/wildfires-spain-france-bordeaux-heatwave.html",
       "source": "CNBC Finance",
@@ -467,12 +509,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KRmJqckpmQUgyanlEYl96R3NSOTJIc3BNNW54NXRaWEV3ak9odGdzc1hDNXVncEU1R2VvenFxNHVMY08weWcyYXVweHM5QlZkYS1tZzhNNGFZdTFR?oc=5",
       "source": "Google News",
       "published": "2026-07-27T12:58:00+00:00"
-    },
-    {
-      "title": "We're buying more of a slumping industrial stock and a hard-hit chipmaker",
-      "link": "https://www.cnbc.com/2026/07/27/were-buying-more-of-a-slumping-industrial-stock-and-a-hard-hit-chipmaker.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T12:53:43+00:00"
     },
     {
       "title": "Why Trump's new tariff blitz is very different this time around",
@@ -491,24 +527,6 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55bTFMOVhVc2tRMHBiaHkxMHdhZDhOVHNLWnE0NEtYWkpwcUdPdjNDb2JGNUFESVUtcHRLTzFhU2xIdTl4VXhDcUFlSUk1c2hEc2tQa2hsdUFSSUR2UnJadnFObEI?oc=5",
       "source": "Google News",
       "published": "2026-07-27T12:12:04+00:00"
-    },
-    {
-      "title": "Would you take $65,000 today, or flip a coin for a chance to win $1.3 million?",
-      "link": "https://www.marketwatch.com/story/would-you-take-65-000-today-or-flip-a-coin-for-a-chance-to-win-1-3-million-d134961a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T12:06:00+00:00"
-    },
-    {
-      "title": "Here’s how to use the salary ranges in job postings to get paid more",
-      "link": "https://www.marketwatch.com/story/heres-how-to-use-salary-transparency-laws-to-get-paid-more-a941c75f?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T12:01:00+00:00"
-    },
-    {
-      "title": "He brought AI to Wall Street in 1994 — but won’t trust ChatGPT with his money",
-      "link": "https://www.marketwatch.com/story/he-brought-ai-to-wall-street-in-1994-but-wont-trust-chatgpt-with-his-money-b8abc031?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T11:50:00+00:00"
     },
     {
       "title": "Nvidia, SpaceX, Microsoft launch AI safety initiative as OpenAI cyberattack fallout continues",
@@ -557,6 +575,12 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sM09ld3VFTkd5TXlOQXNTTUh6MTVUQ1dCNlZtZUZJQXE0SHhZWjZkTC1YSGM3VDhsQTRfbHlJMVNJWVJ5S0NjaVhNSjVGRXFWVFozbjhXS3Y5aVQ5LXB1QUZPb1VqNXpTa2Z2TTkyTENhdw?oc=5",
       "source": "Google News",
       "published": "2026-07-27T09:07:23+00:00"
+    },
+    {
+      "title": "중국 CXMT, 상하이 증시 상장 첫날 466% 폭등…중국 시총 1위 등극 - AI타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52azRCZU85NVhWTS1saGVyc1NkVHYxV3NNeS1yQk0xc2FZTEFLMXpsbTllMlVDUWxCU0FSTHBpN0ZjQXJ5MHdzUlBBS1F3cFNqLXFKS2VwRmJfT1ItRTd3eFRLWm85OWFUR3c?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T09:05:12+00:00"
     },
     {
       "title": "[단독] 초중고에 배정되는 교육세…1조 유아·대학교육 위해 운용 추진",
@@ -623,30 +647,6 @@
       "link": "https://www.mk.co.kr/news/economy/12108629",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:39:12+00:00"
-    },
-    {
-      "title": "[포토] 여성기업 성장 지원 나선 한화손보",
-      "link": "https://www.mk.co.kr/news/economy/12108588",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T08:23:09+00:00"
-    },
-    {
-      "title": "[표] 외국환율고시표",
-      "link": "https://www.mk.co.kr/news/economy/12108589",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T08:23:09+00:00"
-    },
-    {
-      "title": "\"단골 많은 가게, 대출 더 해드려요\"",
-      "link": "https://www.mk.co.kr/news/economy/12108587",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T08:23:08+00:00"
-    },
-    {
-      "title": "기은 상반기 당기순익 1.4조…중기대출 잔액은 270조 돌파",
-      "link": "https://www.mk.co.kr/news/economy/12108586",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T08:23:08+00:00"
     }
   ],
   "pages": [
