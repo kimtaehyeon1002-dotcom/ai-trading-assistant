@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 70.08999633789062,
-    "change_pct": 1.74,
-    "volume": 37522600,
-    "amount": 2629958896.588135,
+    "close": 70.4000015258789,
+    "change_pct": null,
+    "volume": 38903619,
+    "amount": 2738814836.9622116,
     "marcap": null,
-    "as_of_iso": "2026-07-27T10:28:32.313728+00:00",
+    "as_of_iso": "2026-07-27T22:47:32.188693+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "NFLX",

@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 762.989990234375,
-    "change_pct": -8.47,
-    "volume": 3645300,
-    "amount": 2781327411.401367,
+    "close": 711.9600219726562,
+    "change_pct": null,
+    "volume": 3709999,
+    "amount": 2641370969.5585327,
     "marcap": null,
-    "as_of_iso": "2026-07-27T10:28:32.313721+00:00",
+    "as_of_iso": "2026-07-27T22:47:32.188699+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "LITE",

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T07:32:59.132733+09:00",
+  "generated_at": "2026-07-28T07:48:01.804354+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-07-28T07:32:32.375256+09:00",
+      "last_built": "2026-07-28T07:47:01.305812+09:00",
       "expected_T_min": null,
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-28T07:32:32.407449+09:00",
+      "last_built": "2026-07-28T07:47:32.235046+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 9614
+      "duration_ms": 8584
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,30 +52,30 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-28T07:32:59.096548+09:00",
+      "last_built": "2026-07-28T07:47:32.235030+09:00",
       "expected_T_min": null,
-      "items": 1,
+      "items": 0,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-28T07:32:42.023105+09:00",
+      "last_built": "2026-07-28T07:47:40.819898+09:00",
       "expected_T_min": 30,
-      "items": 140,
-      "duration_ms": 2351
+      "items": 100,
+      "duration_ms": 10114
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-07-28T07:32:44.375911+09:00",
+      "last_built": "2026-07-28T07:47:50.935028+09:00",
       "expected_T_min": null,
-      "items": 140,
-      "duration_ms": 9992
+      "items": 100,
+      "duration_ms": 10834
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-28T07:32:59.125205+09:00",
+      "last_built": "2026-07-28T07:48:01.796431+09:00",
       "expected_T_min": null,
-      "items": 2,
+      "items": 3,
       "duration_ms": 0
     },
     "Trade Manager": {
@@ -133,6 +133,27 @@
       "expected_T_min": null,
       "items": null,
       "duration_ms": 292
+    },
+    "Stock KR Ranking": {
+      "status": "completed",
+      "last_built": "2026-07-28T07:47:01.345692+09:00",
+      "expected_T_min": null,
+      "items": 2873,
+      "duration_ms": 1538
+    },
+    "Stock US Ranking": {
+      "status": "completed",
+      "last_built": "2026-07-28T07:47:02.885427+09:00",
+      "expected_T_min": null,
+      "items": 503,
+      "duration_ms": 29103
+    },
+    "Stock Hub 보조시세": {
+      "status": "completed",
+      "last_built": "2026-07-28T07:47:31.993553+09:00",
+      "expected_T_min": null,
+      "items": 2,
+      "duration_ms": 194
     }
   }
 }

@@ -165,13 +165,8 @@
     "market": "US"
   },
   {
-    "code": "TSLA",
-    "name": "Tesla, Inc.",
-    "market": "US"
-  },
-  {
-    "code": "INTC",
-    "name": "Intel",
+    "code": "AMD",
+    "name": "Advanced Micro Devices",
     "market": "US"
   },
   {
@@ -180,8 +175,13 @@
     "market": "US"
   },
   {
-    "code": "AMD",
-    "name": "Advanced Micro Devices",
+    "code": "TSLA",
+    "name": "Tesla, Inc.",
+    "market": "US"
+  },
+  {
+    "code": "INTC",
+    "name": "Intel",
     "market": "US"
   },
   {
@@ -215,18 +215,13 @@
     "market": "US"
   },
   {
+    "code": "PLTR",
+    "name": "Palantir Technologies",
+    "market": "US"
+  },
+  {
     "code": "ORCL",
     "name": "Oracle Corporation",
-    "market": "US"
-  },
-  {
-    "code": "STX",
-    "name": "Seagate Technology",
-    "market": "US"
-  },
-  {
-    "code": "MRVL",
-    "name": "Marvell Technology",
     "market": "US"
   },
   {
@@ -235,33 +230,18 @@
     "market": "US"
   },
   {
-    "code": "NOW",
-    "name": "ServiceNow",
-    "market": "US"
-  },
-  {
     "code": "LRCX",
     "name": "Lam Research",
     "market": "US"
   },
   {
-    "code": "LITE",
-    "name": "Lumentum",
+    "code": "MRVL",
+    "name": "Marvell Technology",
     "market": "US"
   },
   {
-    "code": "NFLX",
-    "name": "Netflix",
-    "market": "US"
-  },
-  {
-    "code": "JPM",
-    "name": "JPMorgan Chase",
-    "market": "US"
-  },
-  {
-    "code": "PLTR",
-    "name": "Palantir Technologies",
+    "code": "STX",
+    "name": "Seagate Technology",
     "market": "US"
   },
   {
@@ -270,8 +250,23 @@
     "market": "US"
   },
   {
+    "code": "NOW",
+    "name": "ServiceNow",
+    "market": "US"
+  },
+  {
     "code": "WDC",
     "name": "Western Digital",
+    "market": "US"
+  },
+  {
+    "code": "NFLX",
+    "name": "Netflix",
+    "market": "US"
+  },
+  {
+    "code": "LITE",
+    "name": "Lumentum",
     "market": "US"
   },
   {
@@ -280,23 +275,28 @@
     "market": "US"
   },
   {
-    "code": "LLY",
-    "name": "Lilly (Eli)",
-    "market": "US"
-  },
-  {
     "code": "TXN",
     "name": "Texas Instruments",
     "market": "US"
   },
   {
-    "code": "HOOD",
-    "name": "Robinhood Markets",
+    "code": "BAC",
+    "name": "Bank of America",
     "market": "US"
   },
   {
-    "code": "IBM",
-    "name": "IBM",
+    "code": "CAT",
+    "name": "Caterpillar Inc.",
+    "market": "US"
+  },
+  {
+    "code": "XOM",
+    "name": "ExxonMobil",
+    "market": "US"
+  },
+  {
+    "code": "WMT",
+    "name": "Walmart",
     "market": "US"
   },
   {
@@ -330,6 +330,11 @@
     "market": "KRX"
   },
   {
+    "code": "LLY",
+    "name": "Eli Lilly",
+    "market": "NYSE"
+  },
+  {
     "code": "NVO",
     "name": "Novo Nordisk",
     "market": "NYSE"
@@ -340,8 +345,8 @@
     "market": "KRX"
   },
   {
-    "code": "BAC",
-    "name": "Bank of America",
+    "code": "JPM",
+    "name": "JPMorgan Chase",
     "market": "NYSE"
   }
 ]

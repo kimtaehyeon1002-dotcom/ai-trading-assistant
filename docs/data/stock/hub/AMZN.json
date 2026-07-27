@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 232.11000061035156,
-    "change_pct": -0.66,
-    "volume": 34965800,
-    "amount": 8115911859.341431,
+    "close": 231.38999938964844,
+    "change_pct": null,
+    "volume": 34898916,
+    "amount": 8075260151.939392,
     "marcap": null,
-    "as_of_iso": "2026-07-27T10:28:32.313650+00:00",
+    "as_of_iso": "2026-07-27T22:47:32.188606+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "AMZN",
