@@ -4,12 +4,12 @@
   "market": "KOSPI",
   "theme": "바이오",
   "quote": {
-    "close": 1542500.0,
-    "change_pct": 1.61,
-    "volume": 40378,
-    "amount": 62358507500.0,
-    "marcap": 71403791917500.0,
-    "as_of_iso": "2026-07-27T06:28:44.905414+00:00",
+    "close": 1545000.0,
+    "change_pct": 1.78,
+    "volume": 99652,
+    "amount": 154032159500.0,
+    "marcap": 71519519295000.0,
+    "as_of_iso": "2026-07-27T10:28:32.313476+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:207940",

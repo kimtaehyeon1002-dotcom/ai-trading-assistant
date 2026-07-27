@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27T09:31:39.999445+00:00",
+  "as_of": "2026-07-27T10:28:43.770864+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -9,16 +9,6 @@
     {
       "code": "005930",
       "name": "삼성전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "475150",
-      "name": "SK이터닉스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "035420",
-      "name": "NAVER",
       "market": "KOSPI"
     },
     {
@@ -32,6 +22,21 @@
       "market": "KOSPI"
     },
     {
+      "code": "475150",
+      "name": "SK이터닉스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "035420",
+      "name": "NAVER",
+      "market": "KOSPI"
+    },
+    {
+      "code": "005935",
+      "name": "삼성전자우",
+      "market": "KOSPI"
+    },
+    {
       "code": "017670",
       "name": "SK텔레콤",
       "market": "KOSPI"
@@ -42,8 +47,8 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "005935",
-      "name": "삼성전자우",
+      "code": "005380",
+      "name": "현대차",
       "market": "KOSPI"
     },
     {
@@ -57,23 +62,18 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "005380",
-      "name": "현대차",
+      "code": "042660",
+      "name": "한화오션",
       "market": "KOSPI"
     },
     {
-      "code": "319400",
-      "name": "현대무벡스",
-      "market": "KOSDAQ"
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "market": "KOSPI"
     },
     {
-      "code": "439960",
-      "name": "코스모로보틱스",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "064350",
-      "name": "현대로템",
+      "code": "207940",
+      "name": "삼성바이오로직스",
       "market": "KOSPI"
     },
     {
@@ -82,33 +82,43 @@
       "market": "KOSPI"
     },
     {
-      "code": "012330",
-      "name": "현대모비스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "market": "KOSPI"
-    },
-    {
-      "code": "010060",
-      "name": "OCI홀딩스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "322000",
-      "name": "HD현대에너지솔루션",
-      "market": "KOSPI"
-    },
-    {
       "code": "066570",
       "name": "LG전자",
       "market": "KOSPI"
     },
     {
-      "code": "207940",
-      "name": "삼성바이오로직스",
+      "code": "319400",
+      "name": "현대무벡스",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "064350",
+      "name": "현대로템",
+      "market": "KOSPI"
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "market": "KOSPI"
+    },
+    {
+      "code": "000270",
+      "name": "기아",
+      "market": "KOSPI"
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KOSPI"
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
       "market": "KOSPI"
     },
     {
@@ -122,34 +132,24 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "010060",
+      "name": "OCI홀딩스",
+      "market": "KOSPI"
+    },
+    {
       "code": "009830",
       "name": "한화솔루션",
       "market": "KOSPI"
     },
     {
-      "code": "000270",
-      "name": "기아",
-      "market": "KOSPI"
-    },
-    {
-      "code": "003490",
-      "name": "대한항공",
-      "market": "KOSPI"
-    },
-    {
-      "code": "042700",
-      "name": "한미반도체",
-      "market": "KOSPI"
-    },
-    {
-      "code": "196170",
-      "name": "알테오젠",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "477850",
-      "name": "마키나락스",
+      "code": "439960",
+      "name": "코스모로보틱스",
       "market": "KOSDAQ"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market": "KOSPI"
     },
     {
       "code": "MU",
@@ -252,13 +252,13 @@
       "market": "US"
     },
     {
-      "code": "JPM",
-      "name": "JPMorgan Chase",
+      "code": "NFLX",
+      "name": "Netflix",
       "market": "US"
     },
     {
-      "code": "NFLX",
-      "name": "Netflix",
+      "code": "JPM",
+      "name": "JPMorgan Chase",
       "market": "US"
     },
     {
@@ -342,17 +342,48 @@
       "market": "KRX"
     },
     {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KRX"
-    },
-    {
       "code": "BAC",
       "name": "Bank of America",
       "market": "NYSE"
     }
   ],
   "news": [
+    {
+      "title": "‘It’s a high price to pay’: My adviser says I don’t need a withdrawal plan for my $2.3 million portfolio. Is he right?",
+      "link": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T10:15:00+00:00"
+    },
+    {
+      "title": "Oil prices see largest one-day declines in two months amid pause in strikes",
+      "link": "https://www.marketwatch.com/story/oil-prices-see-largest-one-day-declines-in-two-months-amid-pause-in-strikes-d819160a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T10:06:00+00:00"
+    },
+    {
+      "title": "U.S. and Iran pause fighting to give peace talks 'space.' Here's where negotiations stand",
+      "link": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T09:55:17+00:00"
+    },
+    {
+      "title": "Fivefold increase for Chinese chip maker CXMT in Shanghai debut",
+      "link": "https://www.marketwatch.com/story/fivefold-increase-for-chinese-chip-maker-cxmt-in-shanghai-debut-2861827e?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T09:51:00+00:00"
+    },
+    {
+      "title": "[증시 이야기] 상처는 눈을 가릴 뿐, 가치를 바꾸지 않는다 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5SQnpkM3V3T0xVRFdRY2NoNUxRd1RLQXNDdGN1aGF6Z2VpV1o3T0IwczJSVHBJSFdUV01oN2ZBR3o5MUZRb3VjV1hOQ2tHY1E?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T09:40:08+00:00"
+    },
+    {
+      "title": "Cocoa prices are easing. So why is chocolate still so expensive?",
+      "link": "https://www.cnbc.com/2026/07/26/cocoa-prices-chocolate-lindt-barry-callebaut-nestle.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T09:39:57+00:00"
+    },
     {
       "title": "Spain and France wildfires force more than 300,000 to flee as Macron calls crisis meeting",
       "link": "https://www.cnbc.com/2026/07/27/wildfires-spain-france-bordeaux-heatwave.html",
@@ -364,6 +395,12 @@
       "link": "https://www.marketwatch.com/story/i-feel-lucky-im-71-and-inherited-20-000-what-should-i-do-with-this-money-1ab90925?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-27T09:15:00+00:00"
+    },
+    {
+      "title": "[오늘의증시] AI 동맹에 반도체·코스닥 ‘활짝’…코스피 6755선 회복 - 경인방송 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBxbXJiak1BMlA4NXJCaGkySVRJT1o5Z3J2MEt2NFhvS1FyRnNqTFg0aVFuRGRkSWJYclh1TFBGNGFCZVh5UVNaTTdCWVY0WklHN2llZGlGcVh2Y0tiZ3M5RHJXOUbSAWhBVV95cUxNTWIybnhGRDRQRjVmbFFrYWhMQ1ZQRkVwRjNIbzJxVFdoY1ZfYXg2YzlZYklDckMwSzBQcGtHVE1KV2h3RzAyb0dqdlE2LXQyYTFhdXpQTDlwNUcyLWRKaGtTaVVacjlvSQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T09:09:15+00:00"
     },
     {
       "title": "증시 흔들려도 금융주는 버텼다…호실적 타고 배당 기대 '쑥' - 인더스트리뉴스",
@@ -390,7 +427,7 @@
       "published": "2026-07-27T08:57:56+00:00"
     },
     {
-      "title": "초중고에 배정되는 교육세 1조 … 유아·대학교육 위해 운용 추진",
+      "title": "[단독] 초중고에 배정되는 교육세 1조 … 유아·대학교육 위해 운용 추진",
       "link": "https://www.mk.co.kr/news/economy/12108708",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:57:55+00:00"
@@ -424,6 +461,12 @@
       "link": "https://www.mk.co.kr/news/economy/12108685",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:53:52+00:00"
+    },
+    {
+      "title": "Finland’s radical answer to renewable energy’s biggest headache: The world’s largest sand battery",
+      "link": "https://www.cnbc.com/2026/07/25/finland-sand-battery-renewable-energy-storage.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T08:46:51+00:00"
     },
     {
       "title": "'메가 프로젝트' 반영 미루고 … 천연가스 수요 줄어든다는 정부",
@@ -492,12 +535,6 @@
       "published": "2026-07-27T08:18:00+00:00"
     },
     {
-      "title": "U.S. and Iran pause fighting to give peace talks 'space.' Here's where negotiations stand",
-      "link": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T08:07:20+00:00"
-    },
-    {
       "title": "오늘의 증시 - MBC 뉴스",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NMGkwdjhiRGc3NnVCLWhzTHByVFZzVlZUWGpOTFZJalQtTGwwY1d1TEN0a0pETFhMTWFCeGVPSnNfRE5ScmVGQXVpZHVWTjdrck9wakxOR2JFS1VPemF1cW1vYnFWU3E5Um15cjJfendNbE9ra0o3Rg?oc=5",
       "source": "Google News",
@@ -534,12 +571,6 @@
       "published": "2026-07-27T07:38:13+00:00"
     },
     {
-      "title": "[중국증시 마감] CXMT '슈퍼 데뷔', AI·반도체 랠리에 4대지수 상승 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZRlJoVFg1VUpoV05ueE9SMlQtMDNCb3ExbG92NXh4ZHpDNVZhQUJHNlFmWUVmNHBQeDlqaXhDUEd3QkFxeXRpdTNPbHVCcE9TUDBhblZjdjM5NmQ4?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T07:23:00+00:00"
-    },
-    {
       "title": "금융인재개발원, 사회금융교육강사 우수 인증 8월 본격 시행",
       "link": "https://www.mk.co.kr/news/economy/12108467",
       "source": "매일경제·증권",
@@ -556,12 +587,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWZzJKVUtHVjJrLU40Ty16a05Pd1BOaG5Wai1GUEhBQWhWdXVlRlRTU013QmN5d1ZZQlNreU1pVnNCNXdCMDcyX0VYNG92dEx6SG9VcWtSbEk4Rkw0MDVFanNkbTFwX2N0NVBJOTJpWEo?oc=5",
       "source": "Google News",
       "published": "2026-07-27T07:01:34+00:00"
-    },
-    {
-      "title": "홍콩 증시 레버리지 배율 '매일' 바꾼 D·A·I·L·Y 원칙 뭐길래 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IbmpUYVduSjhqUTY3SWh1S1JIU3hmcFdycGRIdU16cDVPV0RlV2FBY1RIT1NhLWNRYXduMW9LQy0zUUpUUlJNM2tSb19fY0xEUjR6d05BVzBqU0E1Nm02VHVwdnlERkky0gFuQVVfeXFMUFhEMUpYcVN1VXRnRjRJa2NKNWUyM0JTRG9vOEcwdDJKQmp3N2dGZ2ppUkUtXzc0elg2NlJYU1pJNnpjWDRRZjRLTG9yU0ZRZm5SUEhFRkgtZU5XWnVqeFBuMy1Yemk2NVNBWTVub3c?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T06:48:36+00:00"
     },
     {
       "title": "[증시 레이더] 코스피, 장중 2% 급락 딛고 6,755 마감 - 포커스온경제",
@@ -583,7 +608,7 @@
     },
     {
       "title": "AI는 숨 고르고, 정책은 전면으로…글로벌 증시 셈법 바뀌나 [글로벌 레이더] - 에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PdVZzRG16T2djUHdrOHR3bmQ0YmJ1bDhIRUJrazhnY0VrVTBkR1pRUFpTYl9rTjRwajVFNVdHbnVNTVNkbk85LU5DeWR6QnczUlBvbGw5eGdISXV1aE0zVUhjZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCWW42N3VxZWxiS0tXLXVKTUNlV2pNaEtjV0xfSGJtRGp6SnFBNGZxRzJOcmtuRnpYLWc2R1otNGc5LXp2TWo3SXY5YW9YMzZYT2NUUnppS21VLVE?oc=5",
       "source": "Google News",
       "published": "2026-07-27T06:13:57+00:00"
     },
@@ -622,36 +647,6 @@
       "link": "https://www.mk.co.kr/news/economy/12108367",
       "source": "매일경제·증권",
       "published": "2026-07-27T05:37:54+00:00"
-    },
-    {
-      "title": "‘사자’ 돌아선 국민연금, 하방 버팀목될까… 증시 부양은 ‘글쎄’ - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORnE1aTJQOHdjUmFWaWRaaS1hTmxDeVZBNVdVY0hLUFB5WW1rRzdhNTJCN1FQVjBjQWlSRWVIcS10VlpGMDU3aGxPT1dORnJGa1N1TDlsc1pxdzhrTEF2cEt2c0VTRGhkS3lfLTg3LVN2U29pNGRoUHh4NG9qN3FtelZpRkhycEJY?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T05:35:38+00:00"
-    },
-    {
-      "title": "[오후장 체크포인트] 금리인상 가리키는 매크로 환경…한국증시는 어디로?\" - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xYWtGR3JQQk1nU3NtLWE0UlphSHdPeTRIY2l4dWVtdHlQUkM5YUpUSEk4TGhuWGlZNlJMcENZVFV5R3J1VUNkdlk4ZnNia0U?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T05:25:39+00:00"
-    },
-    {
-      "title": "삼성카드, 상반기 순익 3105억…전년 대비 7.5% 감소",
-      "link": "https://www.mk.co.kr/news/economy/12108334",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T05:11:18+00:00"
-    },
-    {
-      "title": "New UK Prime Minister Burnham says he would be prepared to call out Trump",
-      "link": "https://www.cnbc.com/2026/07/26/new-uk-prime-minister-burnham-says-he-would-be-prepared-to-call-out-trump.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T05:06:47+00:00"
-    },
-    {
-      "title": "Why Trump's new tariff blitz is very different this time round",
-      "link": "https://www.cnbc.com/2026/07/27/donald-trump-tariffs-trade-war-iran.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T05:04:43+00:00"
     }
   ],
   "pages": [
