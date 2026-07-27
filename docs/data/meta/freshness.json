@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-27T23:26:30.401781+09:00",
+  "generated_at": "2026-07-27T23:28:47.340396+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-07-27T23:26:21.590002+09:00",
+      "last_built": "2026-07-27T23:28:05.885604+09:00",
       "expected_T_min": null,
       "items": 1,
-      "duration_ms": 2
+      "duration_ms": 1
     },
     "Asset Kiwoom": {
       "status": "completed",
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-27T23:26:21.664342+09:00",
+      "last_built": "2026-07-27T23:28:05.912104+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 758
+      "duration_ms": 18903
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,28 +52,28 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-27T23:26:30.363609+09:00",
+      "last_built": "2026-07-27T23:28:47.313059+09:00",
       "expected_T_min": null,
-      "items": 22,
+      "items": 1,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-27T23:26:22.425170+09:00",
+      "last_built": "2026-07-27T23:28:24.815918+09:00",
       "expected_T_min": 30,
-      "items": 180,
-      "duration_ms": 2031
+      "items": 140,
+      "duration_ms": 2806
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-07-27T23:26:24.460873+09:00",
+      "last_built": "2026-07-27T23:28:27.622928+09:00",
       "expected_T_min": null,
-      "items": 400,
-      "duration_ms": 2632
+      "items": 140,
+      "duration_ms": 13212
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-27T23:26:30.392727+09:00",
+      "last_built": "2026-07-27T23:28:47.334811+09:00",
       "expected_T_min": null,
       "items": 2,
       "duration_ms": 0
@@ -84,6 +84,20 @@
       "expected_T_min": null,
       "items": 44,
       "duration_ms": 4
+    },
+    "Theme Analyst": {
+      "status": "completed",
+      "last_built": "2026-07-27T23:28:40.839087+09:00",
+      "expected_T_min": 30,
+      "items": 3,
+      "duration_ms": 1
+    },
+    "TA Analyst": {
+      "status": "completed",
+      "last_built": "2026-07-27T23:28:40.844674+09:00",
+      "expected_T_min": 1440,
+      "items": 120,
+      "duration_ms": 72
     }
   }
 }

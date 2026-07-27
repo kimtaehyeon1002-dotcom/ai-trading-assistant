@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-27T23:26:30.392727+09:00",
+  "updated_at": "2026-07-27T23:28:47.334892+09:00",
   "workers": {
     "Vault Sync": {
       "worker": "Vault Sync",
-      "last_run": "2026-07-27T23:26:21.590002+09:00",
+      "last_run": "2026-07-27T23:28:05.885604+09:00",
       "status": "completed",
       "items": 1,
-      "duration_ms": 2
+      "duration_ms": 1
     },
     "Asset Kiwoom": {
       "worker": "Asset Kiwoom",
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-07-27T23:26:21.664342+09:00",
+      "last_run": "2026-07-27T23:28:05.912104+09:00",
       "status": "completed",
       "items": 22,
-      "duration_ms": 758
+      "duration_ms": 18903
     },
     "Asset Publish": {
       "worker": "Asset Publish",
@@ -54,24 +54,24 @@
     "Vault Journal": {
       "worker": "Vault Journal",
       "status": "completed",
-      "items": 22,
+      "items": 1,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-07-27T23:26:30.363609+09:00"
+      "last_run": "2026-07-27T23:28:47.313059+09:00"
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-07-27T23:26:22.425170+09:00",
+      "last_run": "2026-07-27T23:28:24.815918+09:00",
       "status": "completed",
-      "items": 180,
-      "duration_ms": 2031
+      "items": 140,
+      "duration_ms": 2806
     },
     "Translator": {
       "worker": "Translator",
-      "last_run": "2026-07-27T23:26:24.460873+09:00",
+      "last_run": "2026-07-27T23:28:27.622928+09:00",
       "status": "completed",
-      "items": 400,
-      "duration_ms": 2632
+      "items": 140,
+      "duration_ms": 13212
     },
     "Publisher": {
       "worker": "Publisher",
@@ -79,7 +79,7 @@
       "items": 2,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-07-27T23:26:30.392727+09:00"
+      "last_run": "2026-07-27T23:28:47.334811+09:00"
     },
     "Trade Manager": {
       "worker": "Trade Manager",
@@ -87,6 +87,20 @@
       "status": "completed",
       "items": 44,
       "duration_ms": 4
+    },
+    "Theme Analyst": {
+      "worker": "Theme Analyst",
+      "last_run": "2026-07-27T23:28:40.839087+09:00",
+      "status": "completed",
+      "items": 3,
+      "duration_ms": 1
+    },
+    "TA Analyst": {
+      "worker": "TA Analyst",
+      "last_run": "2026-07-27T23:28:40.844674+09:00",
+      "status": "completed",
+      "items": 120,
+      "duration_ms": 72
     }
   }
 }
