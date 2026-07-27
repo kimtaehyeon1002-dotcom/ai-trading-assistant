@@ -31,18 +31,31 @@ def _deploy() -> str:
     return "커밋+푸시 완료" if pushed else "변경 없음 — 커밋 생략"
 
 
+def _login() -> tuple[object | None, str]:
+    """공유 세션 로그인 — 이미 로그인돼 있으면 재사용(OCX는 프로세스당 1세션)."""
+    from collectors.kiwoom_desktop import api as kiwoom_api
+
+    api = kiwoom_api.shared()
+    if api is not None:
+        return api, ""
+    try:
+        api = kiwoom_api.KiwoomAPI()
+    except kiwoom_api.KiwoomError as exc:
+        return None, f"Kiwoom 사용 불가: {exc}"
+    if not api.connect():
+        return None, "Kiwoom 로그인 실패"
+    kiwoom_api.set_shared(api)
+    return api, ""
+
+
 def _kiwoom_sync(start_date: str) -> str:
     from collectors.kiwoom_desktop import orders
     from collectors.kiwoom_desktop.account import list_accounts
-    from collectors.kiwoom_desktop.api import KiwoomAPI, KiwoomError
     from repositories import trade_repository
 
-    try:
-        api = KiwoomAPI()
-    except KiwoomError as exc:
-        return f"Kiwoom 사용 불가: {exc}"
-    if not api.connect():
-        return "Kiwoom 로그인 실패"
+    api, err = _login()
+    if api is None:
+        return err
 
     accounts = list_accounts(api)
     if not accounts:
@@ -51,6 +64,21 @@ def _kiwoom_sync(start_date: str) -> str:
     all_trades = trade_repository.add_from_kiwoom(orders.fetch_realized(api, accounts[0], start_date))
     _run_build("trades")
     return f"동기화 완료 · 계좌 {accounts[0]} · 총 {len(all_trades)}건"
+
+
+def _asset_sync() -> str:
+    """자산 4계좌 동기화 — 데스크톱 전용(design/21 §281: 자격증명·평문 원장을 CI에 두지 않음).
+
+    키움은 OCX 세션, KIS·Bybit는 환경변수 키가 있어야 수집된다. 확보되지 않은 계좌는
+    결측으로 남고(가짜 값 금지), 4계좌 전부 결측이면 발행 자체를 건너뛴다.
+    """
+    api, err = _login()
+    if api is None:
+        # 키움 없이도 KIS·Bybit 3계좌는 수집 가능하므로 중단하지 않고 사유만 남긴다.
+        log.info("키움 세션 없이 자산 동기화 진행: %s", err)
+    _run_build("asset")
+    _run_build("portfolio")
+    return f"자산 동기화 완료 ({now_kst():%H:%M:%S}) — 계좌별 확보 여부는 AI Office 참고"
 
 
 def main() -> int:
@@ -96,6 +124,7 @@ def main() -> int:
     start.setPlaceholderText("조회 시작일 YYYYMMDD")
     row2.addWidget(start)
     row2.addWidget(make_btn("Kiwoom 로그인+동기화", lambda: out(_kiwoom_sync(start.text().strip()))))
+    row2.addWidget(make_btn("자산 동기화(4계좌)", lambda: out(_asset_sync())))
     root.addLayout(row2)
 
     row3 = QHBoxLayout()

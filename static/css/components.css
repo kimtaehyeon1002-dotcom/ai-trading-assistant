@@ -387,6 +387,62 @@
 [data-masked="1"] .v2-amount__real { display: none; }
 [data-masked="1"] .v2-amount__masked { display: inline; }
 
+/* 게이트 뒤 콘텐츠는 v2-span-12 래퍼 안에 들어가므로, 그 안에서 12컬럼을 다시 연다
+   (카드가 v2-span-4/8로 배치되려면 부모가 12컬럼 그리드여야 한다) */
+.v2-subgrid { display: grid; grid-template-columns: repeat(12, 1fr); gap: var(--layout-grid-gutter); align-items: start; }
+
+/* ── 계좌 배분 스택 바(AccountAllocationBar — 00 §8-5 전역 컴포넌트 계약) ──
+   Asset §3-5와 Portfolio §3-1이 같은 위젯을 상속한다. 색은 chart.series-1~5 고정 배정이며
+   비중 큰 순으로 좌→우. 구성 비율이지 등락이 아니므로 ▲▼·±부호를 절대 병행하지 않는다. */
+.v2-alloc-bar { display: flex; width: 100%; height: 24px; border-radius: var(--radius-inner); overflow: hidden; gap: 1px; background: var(--surface-sunken); }
+.v2-alloc-bar--slim { height: 12px; }
+.v2-alloc-bar__seg { min-width: 2px; transition: filter var(--motion-fast) var(--motion-easing); }
+.v2-alloc-bar__seg:hover { filter: brightness(1.25); }
+.v2-alloc-legend { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); margin-top: var(--space-3); font-size: var(--type-caption-size); color: var(--text-secondary); }
+.v2-alloc-legend__item { display: inline-flex; align-items: center; gap: var(--space-2); }
+.v2-alloc-legend__chip { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+.v2-alloc-legend__pct { color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.v2-alloc-note { margin: var(--space-3) 0 0; font-size: var(--type-caption-size); color: var(--text-tertiary); }
+
+/* 목표 진행 바(design/08 §3-3) — brand.primary는 이 페이지 유일한 브랜드 모먼트 */
+.v2-goal-bar { width: 100%; height: 8px; border-radius: 999px; background: var(--surface-sunken); overflow: hidden; margin: var(--space-4) 0; }
+.v2-goal-bar__fill { height: 100%; background: var(--brand-primary); border-radius: 999px; }
+.v2-kv-row { display: flex; justify-content: space-between; align-items: baseline; padding: var(--space-1) 0; font-size: var(--type-body-size); }
+.v2-kv-row__k { color: var(--text-secondary); }
+.v2-kv-row__v { color: var(--text-primary); font-variant-numeric: tabular-nums; }
+
+/* 해석 레이어 — 점(dot) 모티프(design/08 §3-3·§6-5: Asset은 좌측 바 대신 점만 쓴다) */
+.v2-insight-dot { display: flex; align-items: baseline; gap: var(--space-2); margin-top: var(--space-3); font-size: var(--type-caption-size); color: var(--text-secondary); }
+.v2-insight-dot::before { content: ""; width: 6px; height: 6px; border-radius: 999px; background: var(--accent-violet); flex-shrink: 0; transform: translateY(-1px); }
+
+/* 통화별 웰(design/08 §2-4) — 원 통화가 1차, 환산은 secondary로 강등 */
+.v2-ccy-well { background: var(--surface-sunken); border-radius: var(--radius-inner); padding: var(--space-2) var(--space-3); margin-top: var(--space-3); }
+.v2-ccy-well__row { display: flex; justify-content: space-between; align-items: baseline; height: 36px; }
+.v2-ccy-well__label { font-size: var(--type-overline-size); font-weight: 600; color: var(--text-secondary); letter-spacing: 0.04em; }
+.v2-ccy-well__native { color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.v2-ccy-well__conv { color: var(--text-secondary); font-size: var(--type-caption-size); margin-left: var(--space-2); }
+
+/* 자산 추이(design/08 §3-6) — 단일 계열이라 chart.series가 아닌 market.* 를 방향에 따라 배정 */
+.v2-trend { display: block; width: 100%; height: auto; margin-top: var(--space-2); }
+.v2-trend__goal { stroke: var(--border-strong); stroke-dasharray: 4 4; }
+.v2-trend-empty { font-size: var(--type-caption-size); color: var(--text-tertiary); margin: var(--space-4) 0 0; }
+
+/* 결측 고지 — 부분 확보 상태를 총자산인 양 읽지 않게 하는 캡션 */
+.v2-partial-note { display: block; margin-top: var(--space-1); font-size: var(--type-caption-size); color: var(--accent-yellow); }
+
+/* 보유종목 비중 마이크로 바(design/09 §3-4) — 색이 아닌 길이로 비교(R2) */
+.v2-weight-cell { display: flex; align-items: center; gap: var(--space-2); justify-content: flex-end; }
+.v2-weight-bar { width: 60px; height: 4px; border-radius: 2px; background: var(--surface-sunken); overflow: hidden; flex-shrink: 0; }
+.v2-weight-bar__fill { height: 100%; background: var(--border-strong); }
+
+/* 보유종목 합계 푸터(design/09 §3-4) */
+.v2-rank-table tfoot td { padding: var(--space-3) var(--space-2); font-size: var(--type-body-size); font-weight: 600; color: var(--text-primary); border-top: 1px solid var(--border-subtle); }
+
+/* PositionBlock(design/09 §3-6 ③) — Portfolio 전용, 2열 라벨-값 그리드 */
+.v2-position-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3) var(--space-4); }
+.v2-position-grid__label { display: block; font-size: var(--type-caption-size); color: var(--text-secondary); margin-bottom: var(--space-1); }
+.v2-position-grid__value { color: var(--text-primary); font-variant-numeric: tabular-nums; }
+
 /* ── Settings(design/10) ── */
 .v2-settings-nav { position: sticky; top: var(--space-6); display: flex; flex-direction: column; gap: var(--space-1); }
 .v2-settings-nav__item {

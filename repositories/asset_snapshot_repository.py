@@ -20,14 +20,24 @@ def _read_all() -> list[dict]:
     return load_json(_FILE, default=[]) or []
 
 
-def append_snapshot(total_assets_krw: float, accounts_krw: dict[str, float | None]) -> None:
-    """오늘 날짜로 1행 append(같은 날 재실행 시 마지막 값을 덮어써 하루 여러 빌드에 대응)."""
+def append_snapshot(total_assets_krw: float | None, accounts_krw: dict[str, float | None]) -> bool:
+    """오늘 날짜로 1행 append(같은 날 재실행 시 마지막 값을 덮어써 하루 여러 빌드에 대응).
+
+    **완전한 행만 기록한다.** total이 None(확보 0건)이면 거부하고, 계좌 일부가 결측인 날은
+    호출자가 아예 부르지 않는다(generators/asset). 결측분만큼 낮은 합계가 원장에 남으면
+    다음 날 전일 대비가 그 값을 기준으로 계산돼, 수집 실패가 자산 급락으로 둔갑한다.
+    빠진 날은 행이 없는 채로 두고 추이 차트가 그 구간을 비우는 편이 정직하다.
+    반환=기록 여부.
+    """
+    if total_assets_krw is None:
+        return False
     today = now_kst().strftime("%Y-%m-%d")
     rows = [r for r in _read_all() if r["date"] != today]
     rows.append({"date": today, "total_assets_krw": total_assets_krw, "accounts": accounts_krw})
     rows.sort(key=lambda r: r["date"])
     SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
     save_json(_FILE, rows)
+    return True
 
 
 def history(days: int = 90) -> list[dict]:

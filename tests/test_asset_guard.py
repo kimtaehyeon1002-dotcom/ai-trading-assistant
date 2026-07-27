@@ -12,6 +12,36 @@ def test_flags_sensitive_key_with_raw_number(tmp_path):
     assert "balance" in violations[0]
 
 
+def test_flags_real_payload_field_names(tmp_path):
+    """★회귀: 초기 가드는 어간 뒤 닫는 따옴표를 요구해 실제 필드(balance_krw 등)를 전부 놓쳤다.
+
+    repositories/asset_repository.py가 실제로 쓰는 이름들이므로, 이 케이스가 깨지면
+    "최후 방어선"이 실전에서 무효라는 뜻이다(design/20 Phase 8 DoD 1·6)."""
+    real_fields = [
+        '{"balance_krw": 84120000}',
+        '{"total_assets_krw": 167504000}',
+        '{"goal_amount_krw": 250000000}',
+        '{"eval_pnl_krw": 9340000}',
+        '{"value_krw": 10116000}',
+        '{"usd_value": 12845.20}',
+        '{"amount_krw": 116570000}',
+    ]
+    for i, content in enumerate(real_fields):
+        bad = tmp_path / f"bad{i}.json"
+        bad.write_text(content, encoding="utf-8")
+        assert check_paths([str(bad)]), f"놓침: {content}"
+
+
+def test_allows_relative_value_fields(tmp_path):
+    """D안(상대값만 공개)이 성립하려면 %·비중 키는 통과해야 한다."""
+    good = tmp_path / "public.json"
+    good.write_text(
+        '{"weight_pct": 15.7, "change_pct": -0.39, "goal_progress_pct": 67.0, "eval_pnl_pct": 12.49}',
+        encoding="utf-8",
+    )
+    assert check_paths([str(good)]) == []
+
+
 def test_allows_percentage_and_ciphertext_fields(tmp_path):
     good = tmp_path / "good.json"
     good.write_text('{"balance_pct": 50.2, "ciphertext": "aGVsbG8="}', encoding="utf-8")

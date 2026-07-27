@@ -37,3 +37,11 @@ def test_previous_snapshot_none_when_no_history(tmp_path, monkeypatch):
     monkeypatch.setattr(snap, "SNAPSHOT_DIR", tmp_path)
     monkeypatch.setattr(snap, "_FILE", tmp_path / "history.json")
     assert snap.previous_snapshot() is None
+
+
+def test_append_refuses_none_total(tmp_path, monkeypatch):
+    """확보 0건(total=None)을 기록하면 다음 날 전일 대비가 그 값을 기준으로 계산된다."""
+    monkeypatch.setattr(snap, "SNAPSHOT_DIR", tmp_path)
+    monkeypatch.setattr(snap, "_FILE", tmp_path / "history.json")
+    assert snap.append_snapshot(None, {"kiwoom": None}) is False
+    assert snap.history() == []

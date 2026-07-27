@@ -3,12 +3,14 @@
 // 프라이버시 가드다(design/08 §5-1 정직한 고지, 보안 수단이라 과신하지 않는다).
 // Asset·Portfolio는 이 모듈이 공유하는 sessionStorage로 게이트 세션을 공유한다(design/08 §1
 // "Asset·Portfolio는 동일 게이트 세션을 공유한다") — 한쪽에서 해제하면 다른 쪽도 재인증 없이 열린다.
+// 게이트 UI 동작(포커스 트랩·Esc·마스킹·유휴 잠금)도 두 페이지가 같아야 하므로 여기 모은다.
 // 외부 라이브러리 0(WebCrypto SubtleCrypto 네이티브 API만 사용).
 (function (global) {
   "use strict";
 
   var doc = global.document;
   var SESSION_KEY = "ta:assetPassphrase";
+  var MASK_KEY = "ta:assetMasked";
 
   function siteRoot() {
     return doc.body.getAttribute("data-root") || ".";
@@ -78,5 +80,77 @@
     try { global.sessionStorage.removeItem(SESSION_KEY); } catch (e) { /* noop */ }
   }
 
-  global.TAAssetGate = { unlock: unlock, tryAutoUnlock: tryAutoUnlock, lock: lock, fetchEnvelope: fetchEnvelope };
+  // ── 마스킹 상태 ──
+  // 세션에 명시 선택이 없으면 Settings의 "금액 가리기 기본값"(localStorage, TAStore)을 따른다.
+  // 이 폴백이 없던 동안 Settings 스위치는 아무 효과가 없었다 — 켜져 있다고 안내하면서
+  // 실제로는 동작하지 않는 스위치를 두지 않는다.
+  function masked() {
+    var v = null;
+    try { v = global.sessionStorage.getItem(MASK_KEY); } catch (e) { /* noop */ }
+    if (v === "1") return true;
+    if (v === "0") return false;
+    return !!(global.TAStore && global.TAStore.maskDefault && global.TAStore.maskDefault());
+  }
+
+  function setMasked(on) {
+    try { global.sessionStorage.setItem(MASK_KEY, on ? "1" : "0"); } catch (e) { /* noop */ }
+  }
+
+  // ── 사이드바 자물쇠(design/08 §1: 인증 후 열린 자물쇠로 교체) ──
+  function paintNavLocks(unlocked) {
+    var locks = doc.querySelectorAll(".v2-nav__lock");
+    for (var i = 0; i < locks.length; i++) {
+      locks[i].textContent = unlocked ? "🔓" : "🔒";
+      locks[i].setAttribute("title", unlocked ? "잠금 해제됨 · 이 세션 동안 유지" : "비밀번호 잠금");
+    }
+  }
+
+  // ── 게이트 모달 UI 배선(포커스 트랩·Esc·자동 포커스, design/08 §2-1) ──
+  var FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
+  function bindModal(overlay, input, onEscape) {
+    function focusables() {
+      return Array.prototype.filter.call(overlay.querySelectorAll(FOCUSABLE), function (el) {
+        return el.offsetParent !== null;
+      });
+    }
+    overlay.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") { if (onEscape) onEscape(); return; }
+      if (e.key !== "Tab") return;
+      var items = focusables();
+      if (!items.length) return;
+      var first = items[0], last = items[items.length - 1];
+      if (e.shiftKey && doc.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && doc.activeElement === last) { e.preventDefault(); first.focus(); }
+    });
+    if (input && !overlay.hidden) input.focus();
+  }
+
+  // ── 유휴 자동 잠금(Settings "유휴 자동 잠금", design/08 §7-2) ──
+  function startIdleLock(onLock) {
+    var minutes = (global.TAStore && global.TAStore.idleLockMinutes) ? global.TAStore.idleLockMinutes() : 0;
+    if (!minutes || minutes <= 0) return function () {};
+    var timer = null;
+    function reset() {
+      if (timer) global.clearTimeout(timer);
+      timer = global.setTimeout(onLock, minutes * 60 * 1000);
+    }
+    ["mousemove", "keydown", "click", "scroll", "touchstart"].forEach(function (evt) {
+      doc.addEventListener(evt, reset, { passive: true });
+    });
+    reset();
+    return function () { if (timer) global.clearTimeout(timer); };
+  }
+
+  global.TAAssetGate = {
+    unlock: unlock,
+    tryAutoUnlock: tryAutoUnlock,
+    lock: lock,
+    fetchEnvelope: fetchEnvelope,
+    masked: masked,
+    setMasked: setMasked,
+    paintNavLocks: paintNavLocks,
+    bindModal: bindModal,
+    startIdleLock: startIdleLock,
+  };
 })(window);

@@ -52,4 +52,25 @@ CI에도 동일 검사(`.github/actions/guard-plaintext`)가 최종 방어선으
 `run_desktop.bat`(또는 `python -m app.main`) → 로그인 → 동기화 → `data/trades/trades.json` 갱신
 → 「커밋+푸시(배포)」 버튼 → push가 trades workflow를 트리거해 대시보드 재생성.
 
+## Asset/Portfolio 자산 수집 (데스크톱 전용)
+4계좌(키움 · 한투 위탁 · 한투 ISA · BYBIT) 잔고 수집은 **데스크톱에서만** 실행한다 —
+계좌 자격증명과 평문 자산 원장을 CI에 두지 않기 위한 결정이다(design/21 §281). GitHub Actions에는
+자산 워크플로가 없고, 데스크톱이 만든 암호문(`docs/data/asset/assets.enc.json`)만 push된다.
+
+1. `.env.example`을 `.env`로 복사하고 값을 채운다(`.env`는 gitignore 대상 — 절대 커밋되지 않는다).
+   - `ASSET_PASSPHRASE` = 게이트 비밀번호 겸 암호화 키. 바꾸면 데스크톱에서 재발행해야 한다.
+   - **KIS 앱키는 계좌마다 따로 발급해야 한다** — 앱키는 발급 시 연결한 계좌에만 유효하다(실측
+     확인: 위탁 앱키로 ISA를 조회하면 상품코드를 무엇으로 바꿔도 `INVALID_CHECK_ACNO`).
+     위탁 = `KIS_APP_KEY/SECRET` + `KIS_ACCOUNT_FOREIGN`,
+     ISA = `KIS_ISA_APP_KEY/SECRET` + `KIS_ACCOUNT_ISA`(ISA 키를 비우면 공용 키로 폴백).
+     계좌번호는 하이픈 포함/미포함 아무 형식이나 된다.
+   - `BYBIT_API_KEY/SECRET` — 키 타입은 **HMAC**(RSA 아님), 권한은 **Read-Only**로 발급할 것.
+2. `python -m app.sync`(매매 동기화에 이어 자산까지) 또는 `python -m app.main` → 「자산 동기화(4계좌)」.
+3. 「커밋+푸시(배포)」로 암호문을 발행한다.
+
+수집 실패 시 원칙: 확보되지 않은 계좌는 **결측**으로 남고 가짜 값을 만들지 않는다. 4계좌 전부
+실패하면 발행 자체를 건너뛰어 직전 발행물을 유지하고, 신선도 규칙(24h 기준 DELAYED→STALE)이
+화면에서 낡음을 드러낸다. 일부만 실패한 날은 발행하되 **스냅샷 원장 기록은 보류**한다 —
+결측분만큼 낮은 합계가 원장에 남으면 다음 날 전일 대비가 수집 실패를 자산 급락으로 보여준다.
+
 > 정보·참고용 도구이며 투자 판단의 책임은 본인에게 있습니다.

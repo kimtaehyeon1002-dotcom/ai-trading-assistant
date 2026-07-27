@@ -1,151 +1,81 @@
 {
-  "generated_at": "2026-07-27T23:25:13.232234+09:00",
+  "generated_at": "2026-07-27T23:11:58.375526+09:00",
   "sources": {
-    "Notion Sync": {
-      "status": "skipped",
-      "last_built": "2026-07-22T03:25:24.981022+09:00",
+    "Vault Sync": {
+      "status": "completed",
+      "last_built": "2026-07-27T23:10:59.289199+09:00",
       "expected_T_min": null,
-      "items": null,
-      "duration_ms": 0
-    },
-    "Data Officer": {
-      "status": "completed",
-      "last_built": "2026-07-27T23:24:58.888931+09:00",
-      "expected_T_min": 30,
-      "items": 22,
-      "duration_ms": 10197
-    },
-    "News Research": {
-      "status": "completed",
-      "last_built": "2026-07-27T23:25:09.087627+09:00",
-      "expected_T_min": 30,
-      "items": 140,
-      "duration_ms": 4107
-    },
-    "Theme Analyst": {
-      "status": "completed",
-      "last_built": "2026-07-27T07:28:23.022433+09:00",
-      "expected_T_min": 30,
-      "items": 3,
-      "duration_ms": 1
-    },
-    "Trade Manager": {
-      "status": "completed",
-      "last_built": "2026-07-27T23:24:58.843249+09:00",
-      "expected_T_min": null,
-      "items": 35,
-      "duration_ms": 0
-    },
-    "Publisher": {
-      "status": "completed",
-      "last_built": "2026-07-27T23:25:13.223964+09:00",
-      "expected_T_min": null,
-      "items": 3,
-      "duration_ms": 0
-    },
-    "TA Analyst": {
-      "status": "completed",
-      "last_built": "2026-07-27T07:28:23.027406+09:00",
-      "expected_T_min": 1440,
-      "items": 121,
-      "duration_ms": 82
-    },
-    "Macro FRED": {
-      "status": "completed",
-      "last_built": "2026-07-27T21:50:57.711906+09:00",
-      "expected_T_min": null,
-      "items": 5,
-      "duration_ms": 0
-    },
-    "Macro ECOS": {
-      "status": "completed",
-      "last_built": "2026-07-27T21:50:57.712004+09:00",
-      "expected_T_min": null,
-      "items": null,
-      "duration_ms": 0
-    },
-    "Macro Upbit": {
-      "status": "completed",
-      "last_built": "2026-07-27T21:50:57.712025+09:00",
-      "expected_T_min": null,
-      "items": 3,
-      "duration_ms": 1130
-    },
-    "Stock KR Ranking": {
-      "status": "completed",
-      "last_built": "2026-07-27T19:28:04.382597+09:00",
-      "expected_T_min": null,
-      "items": 2873,
-      "duration_ms": 1676
-    },
-    "Stock US Ranking": {
-      "status": "completed",
-      "last_built": "2026-07-27T19:28:06.060386+09:00",
-      "expected_T_min": null,
-      "items": 503,
-      "duration_ms": 25996
-    },
-    "Stock Hub 보조시세": {
-      "status": "completed",
-      "last_built": "2026-07-27T19:28:32.061763+09:00",
-      "expected_T_min": null,
-      "items": 2,
-      "duration_ms": 251
-    },
-    "FS DART corpCode": {
-      "status": "completed",
-      "last_built": "2026-07-27T07:06:01.781179+09:00",
-      "expected_T_min": null,
-      "items": null,
-      "duration_ms": 0
-    },
-    "FS EDGAR CIK맵": {
-      "status": "completed",
-      "last_built": "2026-07-27T07:06:02.200937+09:00",
-      "expected_T_min": null,
-      "items": null,
-      "duration_ms": 227
+      "items": 1,
+      "duration_ms": 9
     },
     "Asset Kiwoom": {
       "status": "completed",
-      "last_built": "2026-07-27T07:29:51.856281+09:00",
+      "last_built": "2026-07-27T23:10:59.338862+09:00",
       "expected_T_min": null,
       "items": null,
-      "duration_ms": 3
+      "duration_ms": 6
     },
     "Asset KIS 위탁": {
       "status": "completed",
-      "last_built": "2026-07-27T07:29:51.861790+09:00",
+      "last_built": "2026-07-27T23:10:59.347512+09:00",
       "expected_T_min": null,
-      "items": null,
-      "duration_ms": 0
+      "items": 6,
+      "duration_ms": 701
     },
     "Asset KIS ISA": {
       "status": "completed",
-      "last_built": "2026-07-27T07:29:51.861808+09:00",
+      "last_built": "2026-07-27T23:11:00.049209+09:00",
       "expected_T_min": null,
-      "items": null,
-      "duration_ms": 0
+      "items": 9,
+      "duration_ms": 526
     },
     "Asset BYBIT": {
       "status": "completed",
-      "last_built": "2026-07-27T07:29:51.861815+09:00",
+      "last_built": "2026-07-27T23:11:00.575702+09:00",
       "expected_T_min": null,
-      "items": null,
-      "duration_ms": 0
+      "items": 2,
+      "duration_ms": 295
     },
-    "Vault Sync": {
+    "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-27T23:24:58.808647+09:00",
+      "last_built": "2026-07-27T23:11:00.871380+09:00",
+      "expected_T_min": 30,
+      "items": 22,
+      "duration_ms": 21991
+    },
+    "Asset Publish": {
+      "status": "completed",
+      "last_built": "2026-07-27T23:11:22.889758+09:00",
       "expected_T_min": null,
-      "items": 1,
-      "duration_ms": 1
+      "items": 3,
+      "duration_ms": 0
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-27T23:24:58.888909+09:00",
+      "last_built": "2026-07-27T23:11:58.346207+09:00",
       "expected_T_min": null,
       "items": 20,
+      "duration_ms": 0
+    },
+    "News Research": {
+      "status": "completed",
+      "last_built": "2026-07-27T23:11:22.900318+09:00",
+      "expected_T_min": 30,
+      "items": 180,
+      "duration_ms": 2435
+    },
+    "Translator": {
+      "status": "completed",
+      "last_built": "2026-07-27T23:11:25.351119+09:00",
+      "expected_T_min": null,
+      "items": 400,
+      "duration_ms": 32925
+    },
+    "Publisher": {
+      "status": "completed",
+      "last_built": "2026-07-27T23:11:58.368179+09:00",
+      "expected_T_min": null,
+      "items": 3,
       "duration_ms": 0
     }
   }

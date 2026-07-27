@@ -23,20 +23,27 @@ log = get_logger("gen.asset")
 
 
 def _kiwoom_balance() -> dict | None:
+    """키움 잔고 — app/sync.py가 등록한 공유 세션을 우선 재사용(로그인 1회 원칙)."""
     try:
+        from collectors.kiwoom_desktop import api as kiwoom_api
         from collectors.kiwoom_desktop.account import fetch_balance, list_accounts
-        from collectors.kiwoom_desktop.api import KiwoomAPI, KiwoomError
     except Exception as exc:  # noqa: BLE001 - PyQt5/OCX 임포트 자체가 없는 환경(CI 등)
         log.info("Kiwoom 모듈 사용 불가(비-Windows 환경 등): %s", exc)
         return None
-    try:
-        api = KiwoomAPI()
-    except KiwoomError as exc:
-        log.info("Kiwoom 미가용(CI 등 데스크톱 세션 없음): %s", exc)
-        return None
-    if not api.connect():
-        log.warning("Kiwoom 로그인 실패")
-        return None
+
+    api = kiwoom_api.shared()
+    if api is None:
+        # 공유 세션 없음 = 단독 CLI 빌드. 자체 로그인을 시도하되, 데스크톱 세션이 없는
+        # 환경(CI 등)에서는 이 계좌만 결측으로 남기고 나머지 3계좌 수집을 계속한다.
+        try:
+            api = kiwoom_api.KiwoomAPI()
+        except kiwoom_api.KiwoomError as exc:
+            log.info("Kiwoom 미가용(데스크톱 세션 없음): %s", exc)
+            return None
+        if not api.connect():
+            log.warning("Kiwoom 로그인 실패")
+            return None
+
     accounts = list_accounts(api)
     if not accounts:
         return None
@@ -67,16 +74,30 @@ def generate() -> Path:
     ]
 
     payload = asset_repository.build_payload(accounts)
+    covered, missing = payload["covered_roles"], payload["missing_roles"]
     published = asset_repository.persist_encrypted(payload)
+
     if published:
-        asset_snapshot_repository.append_snapshot(
-            payload["total_assets_krw"],
-            {a["role"]: a["balance_krw"] for a in accounts},
-        )
-        log.info("Asset 암호화 발행 완료 — 총자산 계좌 %d개 중 %d개 확보",
-                  len(accounts), sum(1 for a in accounts if a["balance_krw"] is not None))
+        # 완전 수집(4계좌 전량)일 때만 원장에 남긴다 — 부분 결측 합계를 기록하면 다음 날
+        # 전일 대비가 결측을 자산 급락으로 보여준다(design/08 §S3 기준 병기 원칙의 연장).
+        if missing:
+            log.warning("Asset 발행(부분 확보 %s · 결측 %s) — 스냅샷 원장 기록 보류",
+                        ",".join(covered), ",".join(missing))
+        else:
+            asset_snapshot_repository.append_snapshot(
+                payload["total_assets_krw"],
+                {a["role"]: a["balance_krw"] for a in accounts},
+            )
+            log.info("Asset 암호화 발행 완료 — 4계좌 전량 확보, 스냅샷 원장 기록")
+    elif not covered:
+        log.warning("Asset 계좌 4개 전부 결측 — 발행 skip(직전 발행물 유지, 신선도 규칙이 강등)")
     else:
         log.info("ASSET_PASSPHRASE 미설정 — Asset 암호화 발행 skip(결측 문법)")
+
+    runlog.note("Asset Publish",
+                items=len(covered),
+                detail=f"확보 {','.join(covered) or '없음'} · 결측 {','.join(missing) or '없음'}"
+                       f" · 발행 {'O' if published else 'X'}")
 
     out = DOCS_DIR / "asset" / "index.html"
     return render(

@@ -20,11 +20,13 @@
       <span id="asset-generated-at">{{ generated_at }}</span>
     </div>
   </div>
-  <div id="asset-content" class="v2-fs-groups"></div>
+  <div id="asset-content" class="v2-subgrid"></div>
 </div>
 
 {% endblock %}
 {% block scripts %}
+<script src="{{ root }}/static/js/freshness.js" defer></script>
+<script src="{{ root }}/static/js/asset-format.js" defer></script>
 <script src="{{ root }}/static/js/asset-gate.js" defer></script>
 <script src="{{ root }}/static/js/asset.js" defer></script>
 {% endblock %}

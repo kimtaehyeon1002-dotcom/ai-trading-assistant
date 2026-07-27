@@ -14,14 +14,27 @@ import subprocess
 import sys
 from pathlib import Path
 
-# design/20 Phase 8: 총자산·계좌 잔고·목표금액·투입원금 등 절대 금액을 담는 필드명.
+# design/20 Phase 8: 총자산·계좌 잔고·목표금액·투입원금 등 절대 금액을 담는 필드명의 **어간**.
+# 실제 payload 필드는 통화 접미사가 붙는다(balance_krw, total_assets_krw, usd_value …) —
+# 초기 구현은 어간 뒤에 닫는 따옴표를 요구해 `"balance_krw": 84120000`을 전부 놓쳤다.
+# 그래서 여기서는 어간 뒤에 `_krw`·`_usd`·`_amount` 같은 접미사가 붙어도 잡도록 한다.
 # 신규 필드를 repositories/asset_repository.py에 추가할 때 이 목록도 함께 갱신해야 한다.
-SENSITIVE_KEYS = (
+SENSITIVE_KEY_STEMS = (
     "balance", "total_assets", "goal_amount", "principal", "invested_principal",
-    "cash_balance", "eval_amount", "krw_amount", "usd_amount", "usdt_amount",
-    "account_value", "realized_pnl_amount",
+    "cash_balance", "deposit", "eval_amount", "eval_pnl", "purchase_amount",
+    "krw_amount", "usd_amount", "usdt_amount", "amount_krw", "amount_usd",
+    "account_value", "value_krw", "value_usd", "usd_value", "krw_value",
+    "realized_pnl_amount", "avg_price", "market_value",
 )
-_KEY_NUMBER_RE = re.compile(r'"(' + "|".join(SENSITIVE_KEYS) + r')"\s*:\s*-?\d{4,}(\.\d+)?')
+# 하위 호환(이 이름으로 참조하는 외부 코드가 있을 수 있다)
+SENSITIVE_KEYS = SENSITIVE_KEY_STEMS
+# 어간 + 선택적 접미사(_krw, _usd, _usdt, _amount, _value …) + 4자리 이상 원시 숫자.
+# `balance_pct`·`weight_pct` 같은 상대값 키는 접미사 화이트리스트에 없으므로 걸리지 않는다
+# (D안 "상대값만 공개"가 성립하려면 이 오탐 방지가 필수다).
+_SUFFIX = r"(?:_(?:krw|usd|usdt|amount|value|total|sum))*"
+_KEY_NUMBER_RE = re.compile(
+    r'"(' + "|".join(SENSITIVE_KEY_STEMS) + r')' + _SUFFIX + r'"\s*:\s*-?\d{4,}(?:\.\d+)?'
+)
 _SNAPSHOT_PATH_RE = re.compile(r"(^|/)data/snapshots/")
 
 # 내용(원시 금액 패턴) 스캔 제외 대상 — 테스트 픽스처와 가드 자신의 소스는 합성(가짜) 금액을

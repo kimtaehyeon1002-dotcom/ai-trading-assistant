@@ -27,18 +27,20 @@ def run(start_date: str, push: bool) -> None:
 
     from build import run_build
     from collectors.kiwoom_desktop import orders
+    from collectors.kiwoom_desktop import api as kiwoom_api
     from collectors.kiwoom_desktop.account import list_accounts
-    from collectors.kiwoom_desktop.api import KiwoomAPI, KiwoomError
     from repositories import trade_repository
 
     try:
-        api = KiwoomAPI()
-    except KiwoomError as exc:
+        api = kiwoom_api.KiwoomAPI()
+    except kiwoom_api.KiwoomError as exc:
         log.error("Kiwoom 사용 불가: %s", exc)
         return
     if not api.connect():
         log.error("Kiwoom 로그인 실패")
         return
+    # 아래 run_build("asset")의 키움 잔고 조회가 이 세션을 재사용한다(로그인 1회 원칙).
+    kiwoom_api.set_shared(api)
     accounts = list_accounts(api)
     if not accounts:
         log.error("계좌를 찾을 수 없습니다")
@@ -81,6 +83,17 @@ def run(start_date: str, push: bool) -> None:
         log.warning("야간선물 조회 실패(무시하고 계속): %s", exc)
 
     run_build("trades")
+
+    # 자산 4계좌(키움 TR + KIS REST ×2 + Bybit REST)는 데스크톱에서만 수집한다 —
+    # 계좌 자격증명·평문 원장을 CI에 두지 않는다는 결정(design/21 §281)이고, 전일 대비·
+    # 90일 추이의 재료인 data/snapshots/ 로컬 원장도 이 실행에서만 누적된다.
+    # 실패해도 매매 동기화 결과는 이미 커밋 가능한 상태이므로 여기서 막지 않는다.
+    try:
+        run_build("asset")
+        run_build("portfolio")
+    except Exception as exc:  # noqa: BLE001
+        log.warning("자산 동기화 실패(매매일지는 정상 발행됨): %s", exc)
+
     log.info("동기화 완료 · 계좌 %s · 총 %d건", accounts[0], len(all_trades))
 
     if push:

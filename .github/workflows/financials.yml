@@ -40,6 +40,11 @@ jobs:
       - run: python build.py financials
         env:
           TH_DATA_DIR: ${{ github.workspace }}/TH_DATA
+      # 자산 절대값 평문 유출 최종 방어선(design/20 Phase 8 DoD 1·6 — 전 워크플로 공통 단계).
+      # 자산 수집 자체는 데스크톱 전용이지만, 평문이 어느 경로로 docs/에 섞여 들어오든
+      # 푸시 직전에 걸러야 하므로 docs를 커밋하는 모든 워크플로가 이 스텝을 갖는다.
+      - name: Guard against plaintext asset leakage
+        uses: ./.github/actions/guard-plaintext
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"

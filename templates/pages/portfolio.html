@@ -20,12 +20,15 @@
       <span>{{ generated_at }}</span>
     </div>
   </div>
+  <div id="portfolio-hero" class="v2-subgrid"></div>
   <div class="v2-filterbar" data-account-tabs role="tablist" aria-label="계좌 선택"></div>
-  <div id="portfolio-content"></div>
+  <div id="portfolio-content" class="v2-subgrid"></div>
 </div>
 
 {% endblock %}
 {% block scripts %}
+<script src="{{ root }}/static/js/freshness.js" defer></script>
+<script src="{{ root }}/static/js/asset-format.js" defer></script>
 <script src="{{ root }}/static/js/asset-gate.js" defer></script>
 <script src="{{ root }}/static/js/portfolio.js" defer></script>
 {% endblock %}

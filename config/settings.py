@@ -5,6 +5,34 @@ import os
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+
+def _load_dotenv(path: Path) -> None:
+    """`.env`(gitignored) → os.environ. 이미 설정된 환경변수가 항상 우선한다.
+
+    자산 4계좌 수집이 데스크톱 전용이 되면서(design/21 §281) KIS·Bybit 자격증명과
+    ASSET_PASSPHRASE를 로컬에 둘 자리가 필요해졌다. 외부 의존성(python-dotenv)을 더하지
+    않고 KEY=VALUE 한 줄 파싱만 한다 — 값에 '#'이 들어갈 수 있으므로 주석 제거는 줄 첫
+    글자 기준으로만 판단하고, 감싼 따옴표만 벗긴다.
+    """
+    try:
+        text = path.read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError):
+        return
+    for line in text.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        key = key.strip()
+        value = value.strip()
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+            value = value[1:-1]
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+
+_load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+
 # ── 경로 ──
 # 발행 채널 정책(design/21 §7): docs/**=재조회 가능한 클라이언트 fetch 대상(누적 저장소 금지,
 # 담당 워크플로 주기로 재조회). data/**=소급 불가 히스토리 원장만(최소 필드 append). 자산 평문
@@ -68,11 +96,18 @@ DART_API_KEY = os.getenv("DART_API_KEY", "")  # https://opendart.fss.or.kr
 EDGAR_USER_AGENT = os.getenv("EDGAR_USER_AGENT", "AI-Trading-Assistant contact@example.com")
 
 # ── Asset/Portfolio 4계좌 자동 수집(design/20 Phase 8) — 미설정 시 결측(가짜 데이터 금지) ──
-# 한국투자(KIS) — 위탁(미국주식 전용) + ISA(ETF)는 계좌번호만 다르고 API는 공유
+# 한국투자(KIS) — 위탁(미국주식)·ISA(ETF)를 **계좌마다 별도 앱키**로 조회한다.
+# 원래는 "앱키 1개 + 계좌번호만 분리"를 가정했으나, 실키 검증(2026-07-26)에서 위탁 앱키로 ISA
+# 계좌를 조회하면 상품코드를 무엇으로 바꿔도 INVALID_CHECK_ACNO로 거부됐다 — KIS 앱키는 발급 시
+# 연결한 계좌에만 유효하다. 그래서 계좌별 자격증명을 따로 받는다.
+# ISA 전용 키가 비어 있으면 공용(KIS_APP_KEY)으로 폴백한다 — 두 계좌가 한 앱키에 묶인 사용자도
+# 설정 변경 없이 그대로 동작하게 하기 위한 하위 호환이다.
 KIS_APP_KEY = os.getenv("KIS_APP_KEY", "")
 KIS_APP_SECRET = os.getenv("KIS_APP_SECRET", "")
 KIS_ACCOUNT_FOREIGN = os.getenv("KIS_ACCOUNT_FOREIGN", "")  # 위탁(미국주식) 계좌번호
 KIS_ACCOUNT_ISA = os.getenv("KIS_ACCOUNT_ISA", "")  # ISA(ETF) 계좌번호
+KIS_ISA_APP_KEY = os.getenv("KIS_ISA_APP_KEY", "")  # 비우면 KIS_APP_KEY로 폴백
+KIS_ISA_APP_SECRET = os.getenv("KIS_ISA_APP_SECRET", "")
 BYBIT_API_KEY = os.getenv("BYBIT_API_KEY", "")
 BYBIT_API_SECRET = os.getenv("BYBIT_API_SECRET", "")
 

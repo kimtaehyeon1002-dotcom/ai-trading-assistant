@@ -134,3 +134,20 @@ class KiwoomAPI:
             or ""
         ).strip()
         return fix_mojibake(raw)
+
+
+# ── 프로세스 공유 세션 ──
+# OCX 로그인은 프로세스당 한 번뿐이어야 한다. app/sync.py가 로그인 직후 여기 등록하면
+# 이후 build.py의 asset 타깃(잔고 조회)이 같은 세션을 재사용한다 — 두 번째 KiwoomAPI()를
+# 만들면 로그인 창이 다시 뜨거나 OCX가 충돌한다. 등록이 없으면(순수 CLI 빌드) 각자
+# 자체 생성을 시도하고, 실패 시 해당 계좌만 결측 처리된다.
+_shared: KiwoomAPI | None = None
+
+
+def set_shared(api: KiwoomAPI | None) -> None:
+    global _shared
+    _shared = api
+
+
+def shared() -> KiwoomAPI | None:
+    return _shared
