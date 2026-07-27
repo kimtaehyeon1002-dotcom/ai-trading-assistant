@@ -1,0 +1,17 @@
+{
+  "code": "018260",
+  "name": "삼성에스디에스",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 220000.0,
+    "change_pct": 5.01,
+    "volume": 283171,
+    "amount": 61447321750.0,
+    "marcap": 17023116000000.0,
+    "as_of_iso": "2026-07-27T02:44:37.555496+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:018260",
+  "related_news": []
+}

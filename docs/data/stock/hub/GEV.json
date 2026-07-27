@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 1031.18994140625,
-    "change_pct": null,
-    "volume": 2144480,
-    "amount": 2211366205.546875,
+    "close": 1014.75,
+    "change_pct": -1.59,
+    "volume": 2487700,
+    "amount": 2524393575.0,
     "marcap": null,
-    "as_of_iso": "2026-07-25T08:52:53.227465+00:00",
+    "as_of_iso": "2026-07-27T02:44:37.555713+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "GEV",

@@ -1,0 +1,17 @@
+{
+  "code": "064350",
+  "name": "현대로템",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 130000.0,
+    "change_pct": -17.93,
+    "volume": 574143,
+    "amount": 77922221100.0,
+    "marcap": 14188498090000.0,
+    "as_of_iso": "2026-07-27T02:44:37.555440+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:064350",
+  "related_news": []
+}

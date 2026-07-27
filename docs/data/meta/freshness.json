@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T10:58:42.067163+09:00",
+  "generated_at": "2026-07-27T11:44:46.484421+09:00",
   "sources": {
     "Notion Sync": {
       "status": "skipped",
@@ -10,17 +10,17 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-27T10:58:31.679163+09:00",
+      "last_built": "2026-07-27T11:44:37.600613+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 7036
+      "duration_ms": 5384
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-27T10:58:38.752156+09:00",
+      "last_built": "2026-07-27T11:44:42.986239+09:00",
       "expected_T_min": 30,
       "items": 140,
-      "duration_ms": 3278
+      "duration_ms": 3460
     },
     "Theme Analyst": {
       "status": "completed",
@@ -38,7 +38,7 @@
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-27T10:58:42.058891+09:00",
+      "last_built": "2026-07-27T11:44:46.476457+09:00",
       "expected_T_min": null,
       "items": 3,
       "duration_ms": 0
@@ -73,24 +73,24 @@
     },
     "Stock KR Ranking": {
       "status": "completed",
-      "last_built": "2026-07-25T17:52:26.734048+09:00",
+      "last_built": "2026-07-27T11:44:04.322655+09:00",
       "expected_T_min": null,
-      "items": 2872,
-      "duration_ms": 1451
+      "items": 2873,
+      "duration_ms": 1672
     },
     "Stock US Ranking": {
       "status": "completed",
-      "last_built": "2026-07-25T17:52:28.186836+09:00",
+      "last_built": "2026-07-27T11:44:05.996712+09:00",
       "expected_T_min": null,
       "items": 503,
-      "duration_ms": 24835
+      "duration_ms": 31348
     },
     "Stock Hub 보조시세": {
       "status": "completed",
-      "last_built": "2026-07-25T17:52:53.027476+09:00",
+      "last_built": "2026-07-27T11:44:37.349844+09:00",
       "expected_T_min": null,
       "items": 2,
-      "duration_ms": 199
+      "duration_ms": 205
     },
     "FS DART corpCode": {
       "status": "completed",
@@ -136,14 +136,14 @@
     },
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-07-27T10:58:30.465907+09:00",
+      "last_built": "2026-07-27T11:44:04.283320+09:00",
       "expected_T_min": null,
       "items": 1,
       "duration_ms": 1
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-27T10:58:38.751344+09:00",
+      "last_built": "2026-07-27T11:44:37.600586+09:00",
       "expected_T_min": null,
       "items": 0,
       "duration_ms": 0

@@ -1,0 +1,17 @@
+{
+  "code": "003490",
+  "name": "대한항공",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 26550.0,
+    "change_pct": 4.32,
+    "volume": 2098551,
+    "amount": 56368688725.0,
+    "marcap": 9776258549550.0,
+    "as_of_iso": "2026-07-27T02:44:37.555526+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:003490",
+  "related_news": []
+}

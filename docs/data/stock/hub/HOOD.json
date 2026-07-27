@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 101.58000183105469,
-    "change_pct": null,
-    "volume": 24329433,
-    "amount": 2471383848.6885223,
+    "close": 94.91000366210938,
+    "change_pct": -6.57,
+    "volume": 24356300,
+    "amount": 2311656522.1954346,
     "marcap": null,
-    "as_of_iso": "2026-07-25T08:52:53.227400+00:00",
+    "as_of_iso": "2026-07-27T02:44:37.555749+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "HOOD",
