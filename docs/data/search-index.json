@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27T22:53:09.621696+00:00",
+  "as_of": "2026-07-27T22:54:02.631814+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,15 +354,27 @@
   ],
   "news": [
     {
+      "title": "[0728개장체크] 美증시, 유가 급락에도 반도체 약세에 혼조 마감 - 인포스탁데일리",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9maFNveHVBQm56b0R0a3EyREFFcTVaWllxeW1SSE9XbkJ1NkNXM2t4eHBkNERFV1lCa0RNTjZCNHJoZVlOTk1pQkhVNHhxYld2cmdzMlRwUnlxckFHZE04Z0tRQ0FJd2NEY21JcFpCaUxYWnM2SUE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T22:49:15+00:00"
+    },
+    {
+      "title": "뉴욕증시, 유가 급락에도 반도체주 약세···S&P500은 ‘보합’ - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52ZExTNDV3ZFVwdmc5SU5uUTBEbVhJSzRqS0ZNVDJiYVZRM1lGZTAtOWJ4cjVDcENLQ1Q3OVp5Y2xNamh5djJHS0hFMTJyc3NadkZ4VW01VVJXZ9IBX0FVX3lxTFBkUTJyNFF3dVA4S1BqQWdhVnJBc19Jdnh1ZnVVSVJQaXhyZERPUUhVTVlZZmFsVUtLcHZjUXJ6d3g5aEVXaXF4em5uVkFOZXlDWmswaTZhaFJVd3VkVFBz?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T22:44:00+00:00"
+    },
+    {
+      "title": "뉴욕증시, 유가 급락에도 혼조 마감…반도체주 하락 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45eHEwZU8wT2wwNG1MZWhlVHRSNGlZSHhEUDRKSTRjWW5RdjJkMlhmcVQtUXZwUTN6Z2JIZmJ6TlhoZVBuZ1ZZLTBxTGVRMjQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T22:36:10+00:00"
+    },
+    {
       "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
       "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "2026-07-27T22:30:00+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
-      "link": "https://www.yna.co.kr/view/AKR20260728013200011",
-      "source": "연합뉴스·경제",
       "published": "2026-07-27T22:30:00+00:00"
     },
     {
@@ -384,22 +396,10 @@
       "published": "2026-07-27T22:20:01+00:00"
     },
     {
-      "title": "[우분투칼럼] 에너지 위기 속 아프리카에 무슨 일이…경윳값 158배 격차",
-      "link": "https://www.yna.co.kr/view/AKR20260716078000898",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-27T22:00:05+00:00"
-    },
-    {
       "title": "‘It’s a high price to pay’: My adviser says I don’t need a withdrawal plan for my $2.3 million portfolio. Is he right?",
       "link": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-27T22:00:00+00:00"
-    },
-    {
-      "title": "[오늘의 글로벌마켓] 뉴욕증시, 유가 급락·반도체주는 약세...3대지수 혼조세 - 오피니언뉴스",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE51VUh1ei1FVU9wb1gwd0tGZDFBYXRBV1poTWpabWxIMTRlMEFvRXZNZEg1MEVNWWw0UkZyVlI3VTV3ZE56MEVKMURLUHFxLWg1M21ndkczeFRQNFlaZ2dvRkpfRGFVRzRNUTVwTlJoRHF3UQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T21:53:05+00:00"
     },
     {
       "title": "‘I feel lucky’: I’m 71 and inherited $20,000. What should I do with this money?",
@@ -498,36 +498,6 @@
       "published": "2026-07-27T21:02:00+00:00"
     },
     {
-      "title": "고용정보원, 르완다 현지연수…고용서비스 종사자 전문성 강화",
-      "link": "https://www.yna.co.kr/view/AKR20260727132700530",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-27T21:00:08+00:00"
-    },
-    {
-      "title": "서울시, 오는 29일 '제3차 도시철도망 구축계획' 시민 공청회",
-      "link": "https://www.yna.co.kr/view/AKR20260727135600004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-27T21:00:07+00:00"
-    },
-    {
-      "title": "6월 서울 소상공인 체감경기·매출 반등했지만, 소득은 줄어",
-      "link": "https://www.yna.co.kr/view/AKR20260727144700004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-27T21:00:04+00:00"
-    },
-    {
-      "title": "중동 긴장 재고조에 국내기업 경기전망 악화…석화 업종 먹구름",
-      "link": "https://www.yna.co.kr/view/AKR20260727146200003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-27T21:00:03+00:00"
-    },
-    {
-      "title": "주택가격전망 4년10개월 만에 최고…소비심리 석달째 개선",
-      "link": "https://www.yna.co.kr/view/AKR20260727086900002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-27T21:00:02+00:00"
-    },
-    {
       "title": "뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락 - KBS 뉴스",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaUUpUdFpHNG1vbzhIMWpfd0hwOHNSWTM2SnctNE1NcFR3TGtmS2ZyaDJTWG96bG50NEJGNzJxVFhETXBmNzhJN3pEZ01HVDI5RnNZc0toMElJODg?oc=5",
       "source": "Google News",
@@ -538,12 +508,6 @@
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd0tyQjAxVElFZVZHN2hkWjVUT2xCcHk0ZklQd2lXQjNzNE55RUxzVnd0RVNsWnVfa2gwVW5tdFlfNDRKaF9jMG9NakJqbjZtUURXWVg5QTVKdkFHeWs3ci1rVkJNVDFtMmU5and5ajRDb2RQRG9qc1QxTWRqQ0pQMWlaODgtN1lKMzh2clRPeVBGektFbzk3eDBDSV9pdw?oc=5",
       "source": "Google News",
       "published": "2026-07-27T20:54:00+00:00"
-    },
-    {
-      "title": "대부업 대출 증가세 지속…시장 정상화 vs. 풍선효과",
-      "link": "https://www.yna.co.kr/view/AKR20260726042200002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-27T20:53:00+00:00"
     },
     {
       "title": "From 'oil' to 'shock',  here's what Kalshi traders expect Fed Chairman Kevin Warsh will say this week",
@@ -574,12 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oOFV0TUlSUjhkaS05TWxiWTNkWlRiVVVqcWZETUlKMUNsRTR4ZmZxcVFVeHlTcUZrbjNlYl9vb3JvR1kwdmR1Uk9WXzl3dWs?oc=5",
       "source": "Google News",
       "published": "2026-07-27T20:51:06+00:00"
-    },
-    {
-      "title": "4대 카드사 상반기 당기순익 약 1조, 4.2%↑…연체율 개선",
-      "link": "https://www.yna.co.kr/view/AKR20260727163800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-27T20:51:01+00:00"
     },
     {
       "title": "[뉴욕증시] 유가 급락에 다우 262p↑…반도체 약세에 나스닥↓ - 글로벌이코노믹",
@@ -642,16 +600,58 @@
       "published": "2026-07-27T19:46:20+00:00"
     },
     {
-      "title": "JP모건 \"S&P500 지수 상당한 상승 여력\"…증시 강세 전망 - 연합뉴스 한민족센터",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2bG5nMW5mMlI5TUlwRHRfLXNPVmR6UkJ0YTVjWmkyNXpMcjlhZ0x5bHRKMDNUbEpVdUJHOThXMTJyX0FUYkJjYlFjOEtYRnhKVTlPdUxxOUktN01nYWpiODJya1hXcEZTNTRDdjBvRnNvYTVm?oc=5",
+      "title": "JP모건 \"S&P500 지수 상당한 상승 여력\"…증시 강세 전망 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3R2JXemlYOWtyU1gwR0x2aDdjUkhRMzhIdTd4d1BOME5mb1JxM0w4dXp0Y2lmckpMVmNMcUFyOGVLaWxhWEFWQkhJZGtpbUE?oc=5",
       "source": "Google News",
-      "published": "2026-07-27T19:40:17+00:00"
+      "published": "2026-07-27T19:41:52+00:00"
     },
     {
       "title": "2배 레버리지에 ‘홀짝판’ 된 증시… 43회 멈추고 1.8조 강제청산 - 동아일보",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sQ3MzbzktbUhEMTBGWEt4Q2hldWNWRjlMc1BneXFwb3hQUHlpdW9qMDBsbUM0MzV3dWxlX21BblBqN2E3a3JZX0s2RTJkX1NhVFBSVndIaUxTbGdrT285QzBucWFpdkhyeFdZVUtuUTZ5SW5lVVHSAWZBVV95cUxNSnRUYzhFSWtYVVV0MXAxemNyLWpaYThZQ1ZBZUUzR3BJS2ZnaHF0eFJZaFZwUHo0WDVOSmluSHowckE1ZzlyS3E2c0FLWFFhSkpkOWd1SC0zd2ktWXRWMjVlR010REE?oc=5",
       "source": "Google News",
       "published": "2026-07-27T19:30:00+00:00"
+    },
+    {
+      "title": "Op-ed: Over 2,000 proposals aim to govern AI. Not a single one addresses a long-term regulatory framework",
+      "link": "https://www.cnbc.com/2026/07/27/ai-industry-risk-future-regulation.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T19:22:12+00:00"
+    },
+    {
+      "title": "Crypto stocks rally thanks to rotation from AI infrastructure; bitcoin miners lag",
+      "link": "https://www.cnbc.com/2026/07/27/crypto-stocks-rally-thanks-to-rotation-from-ai-infrastructure-bitcoin-miners-lag.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T19:14:30+00:00"
+    },
+    {
+      "title": "Netanyahu, Zelenskyy come to DC for Graham's funeral, meetings with Trump amid wars",
+      "link": "https://www.cnbc.com/2026/07/27/trump-netanyahu-zelenskyy-iran-war-lindsey-graham-funeral.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T19:08:10+00:00"
+    },
+    {
+      "title": "Trump backs 'fantastic' Warsh while calling for lower rates and citing 'bad intentions' of other Fed officials",
+      "link": "https://www.cnbc.com/2026/07/27/trump-warsh-interest-rates.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T18:15:18+00:00"
+    },
+    {
+      "title": "CME launches single stock futures enabling investors to trade SpaceX, Micron and others 23 hours a day",
+      "link": "https://www.cnbc.com/2026/07/27/cme-launches-single-stock-futures-enabling-investors-to-trade-spacex-micron-23-hours-a-day.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T18:06:35+00:00"
+    },
+    {
+      "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles",
+      "link": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T17:43:48+00:00"
+    },
+    {
+      "title": "Amazon seeks federal approval to launch 5,105 satellites for direct-to-device network",
+      "link": "https://www.cnbc.com/2026/07/27/amazon-satellite-internet-network.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T17:42:47+00:00"
     }
   ],
   "pages": [
