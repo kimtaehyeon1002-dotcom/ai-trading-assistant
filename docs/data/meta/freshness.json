@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-27T23:25:25.029288+09:00",
+  "generated_at": "2026-07-27T23:26:27.577112+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-07-27T23:25:19.275550+09:00",
+      "last_built": "2026-07-27T23:25:55.274965+09:00",
       "expected_T_min": null,
       "items": 1,
-      "duration_ms": 4
+      "duration_ms": 1
     },
     "Asset Kiwoom": {
       "status": "completed",
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-27T23:25:19.353489+09:00",
+      "last_built": "2026-07-27T23:25:55.307685+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 1289
+      "duration_ms": 10009
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,30 +52,30 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-27T23:25:24.981699+09:00",
+      "last_built": "2026-07-27T23:26:27.539852+09:00",
       "expected_T_min": null,
-      "items": 22,
+      "items": 1,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-27T23:25:20.644581+09:00",
+      "last_built": "2026-07-27T23:26:05.317458+09:00",
       "expected_T_min": 30,
-      "items": 180,
-      "duration_ms": 2429
+      "items": 140,
+      "duration_ms": 2856
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-07-27T23:25:23.080199+09:00",
+      "last_built": "2026-07-27T23:26:08.175109+09:00",
       "expected_T_min": null,
-      "items": 400,
-      "duration_ms": 0
+      "items": 140,
+      "duration_ms": 13798
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-27T23:25:25.015736+09:00",
+      "last_built": "2026-07-27T23:26:27.569428+09:00",
       "expected_T_min": null,
-      "items": 3,
+      "items": 2,
       "duration_ms": 0
     },
     "Trade Manager": {
@@ -84,6 +84,20 @@
       "expected_T_min": null,
       "items": 44,
       "duration_ms": 5
+    },
+    "Theme Analyst": {
+      "status": "completed",
+      "last_built": "2026-07-27T23:26:21.978156+09:00",
+      "expected_T_min": 30,
+      "items": 3,
+      "duration_ms": 1
+    },
+    "TA Analyst": {
+      "status": "completed",
+      "last_built": "2026-07-27T23:26:21.984979+09:00",
+      "expected_T_min": 1440,
+      "items": 120,
+      "duration_ms": 54
     }
   }
 }
