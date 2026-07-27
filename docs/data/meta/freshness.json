@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T00:37:53.180253+09:00",
+  "generated_at": "2026-07-28T02:03:52.201386+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-07-28T00:37:28.649623+09:00",
+      "last_built": "2026-07-28T02:02:34.629861+09:00",
       "expected_T_min": null,
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-28T00:37:29.664977+09:00",
+      "last_built": "2026-07-28T02:03:45.422410+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 8242
+      "duration_ms": 6741
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,28 +52,28 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-28T00:37:37.944225+09:00",
+      "last_built": "2026-07-28T02:03:45.422389+09:00",
       "expected_T_min": null,
-      "items": 0,
+      "items": 1,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-28T00:37:37.945180+09:00",
+      "last_built": "2026-07-28T02:02:34.665714+09:00",
       "expected_T_min": 30,
       "items": 140,
-      "duration_ms": 2750
+      "duration_ms": 2564
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-07-28T00:37:40.696339+09:00",
+      "last_built": "2026-07-28T02:02:37.231192+09:00",
       "expected_T_min": null,
       "items": 140,
-      "duration_ms": 12447
+      "duration_ms": 26307
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-28T00:37:53.171782+09:00",
+      "last_built": "2026-07-28T02:03:52.193562+09:00",
       "expected_T_min": null,
       "items": 3,
       "duration_ms": 0

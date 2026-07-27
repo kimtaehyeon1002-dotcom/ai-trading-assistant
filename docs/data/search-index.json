@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27T15:37:53.183148+00:00",
+  "as_of": "2026-07-27T17:03:52.203803+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,16 +349,124 @@
   ],
   "news": [
     {
+      "title": "JetBlue overhauls fare options, from basic first to flexible economy. Here's what to know",
+      "link": "https://www.cnbc.com/2026/07/27/jetblue-new-fare-options-basic-economy-first-class.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T17:00:01+00:00"
+    },
+    {
       "title": "Comey asks judge to dismiss Trump 'seashells' case citing lack of 'true threat'",
       "link": "https://www.cnbc.com/2026/07/27/james-comey-trump-seashells-threat.html",
       "source": "CNBC Finance",
-      "published": "2026-07-27T15:35:48+00:00"
+      "published": "2026-07-27T16:54:29+00:00"
+    },
+    {
+      "title": "This small-cap fund is built to win the earnings-report games companies play",
+      "link": "https://www.marketwatch.com/story/this-small-cap-stock-strategy-shines-by-riding-the-beat-and-raise-trend-24bee883?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T16:48:00+00:00"
+    },
+    {
+      "title": "Netanyahu, Zelenskyy come to DC for Graham's funeral, meetings with Trump amid wars",
+      "link": "https://www.cnbc.com/2026/07/27/trump-netanyahu-zelenskyy-iran-war-lindsey-graham-funeral.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T16:38:39+00:00"
+    },
+    {
+      "title": "Sen. McConnell still not cleared to go back to work as he recovers from fall, doctors say",
+      "link": "https://www.cnbc.com/2026/07/27/mcconnell-fall-hospital-senate-recovery.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T16:36:30+00:00"
+    },
+    {
+      "title": "SpaceX’s stock falls to a new low despite a near-flawless Starship flight",
+      "link": "https://www.marketwatch.com/story/spacexs-stock-falls-to-a-new-low-despite-a-near-flawless-starship-flight-034a99ab?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T16:36:00+00:00"
+    },
+    {
+      "title": "‘I feel lucky’: I’m 71 and inherited $20,000. What should I do with this money?",
+      "link": "https://www.marketwatch.com/story/i-feel-lucky-im-71-and-inherited-20-000-what-should-i-do-with-this-money-1ab90925?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T16:33:00+00:00"
+    },
+    {
+      "title": "He brought AI to Wall Street in 1994 — but won’t trust ChatGPT with his money",
+      "link": "https://www.marketwatch.com/story/he-brought-ai-to-wall-street-in-1994-but-wont-trust-chatgpt-with-his-money-b8abc031?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T16:31:00+00:00"
+    },
+    {
+      "title": "잘 벌어도 '폭락'…빅테크·반도체 운명 가를 ‘AI 투자 청구서’[이번주 美 증시는] - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5POGEycmJpYXU3STU4QzNLT2o1MnlmenMzUUxxWjF6SWJENXdvREhFVUdFQkw0TnVRMG1nd1NnZDkyOTBOU1dQRy1odVJ1aFg0N040?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T16:30:46+00:00"
+    },
+    {
+      "title": "Big Tech is forcing consumers to pay for its AI boom. Voters are pushing back.",
+      "link": "https://www.marketwatch.com/story/is-your-ai-data-center-stock-vulnerable-to-voter-backlash-use-this-5-part-test-to-find-out-36f039fa?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T16:18:00+00:00"
+    },
+    {
+      "title": "Micron and other chip stocks fall as China steals the spotlight",
+      "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-fall-as-china-steals-the-spotlight-cff9d73c?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T16:17:00+00:00"
+    },
+    {
+      "title": "Why Boeing and Corning are moving in opposite directions and what to expect next",
+      "link": "https://www.cnbc.com/2026/07/27/why-boeing-corning-are-moving-in-opposite-directions-and-whats-next.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T16:09:09+00:00"
+    },
+    {
+      "title": "NBCUniversal and YouTube ink deal to embed Peacock in the video platform for premium subscribers",
+      "link": "https://www.cnbc.com/2026/07/27/nbcuniversal-youtube-peacock-premium-subscribers.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T15:54:52+00:00"
+    },
+    {
+      "title": "Amazon seeks federal approval to launch 5,105 satellites for direct-to-device network",
+      "link": "https://www.cnbc.com/2026/07/27/amazon-satellite-internet-network.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T15:53:18+00:00"
+    },
+    {
+      "title": "CME launches single stock futures enabling investors to trade SpaceX, Micron and others 23 hours a day",
+      "link": "https://www.cnbc.com/2026/07/27/cme-launches-single-stock-futures-enabling-investors-to-trade-spacex-micron-23-hours-a-day.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T15:50:20+00:00"
+    },
+    {
+      "title": "Consolidated food supply may be worsening cyclospora outbreaks, experts say",
+      "link": "https://www.cnbc.com/2026/07/27/cyclospora-outbreak-food-industry-consolidation.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T15:49:31+00:00"
+    },
+    {
+      "title": "미국·이란, 공습 중단 ‘사흘째’…국제유가 하락·세계 증시 상승 - VOA 한국어 홈페이지",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5rRWhCQ0gxbnJmSVBHTGxIdFB5UkJJRTV3U2xOU3o2YjNqVFpkMENzX0ptWlQ4bl9JVG12SjlXb2tBTjRBeVM5OWdlQ29hVEU1Zlg0eFBNVm9uc2Jya2kwVzRRbVpIUy04blJDejBKdXJ2TEZUdmxNVkZB0gF8QVVfeXFMTl9oUFJmdUtYMG9LS2EtUm5KYzExZXc4UkNObnM5b05UZ0pLTzlTUUl4b3BlUmhLSnRPbFppdE5aRWdLNjl6M2Q2STQ4ZkFDRnp6UUxWT1M2WkpKcEM0T3RyT0Z5cDJDZ09CTFliMlpwR0ZQS0tVZk41T3J3cw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T15:44:42+00:00"
+    },
+    {
+      "title": "Your retirement math may have a surprising flaw",
+      "link": "https://www.marketwatch.com/story/your-retirement-math-may-have-a-surprising-flaw-2d8f58d8?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T15:42:00+00:00"
     },
     {
       "title": "Should you get paid to care for a family member?",
       "link": "https://www.marketwatch.com/story/should-you-get-paid-to-care-for-a-family-member-70958828?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-27T15:28:00+00:00"
+    },
+    {
+      "title": "Oil prices slide, Brent crude below $90 as pause to U.S.-Iran hostilities appears to hold",
+      "link": "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T15:27:45+00:00"
     },
     {
       "title": "Sam Altman to meet with Trump administration, senators this week. Here's what he plans to say",
@@ -385,52 +493,10 @@
       "published": "2026-07-27T15:09:00+00:00"
     },
     {
-      "title": "FedEx is chasing the GLP-1 boom. Why healthcare logistics means big business",
-      "link": "https://www.cnbc.com/2026/07/27/fedex-is-chasing-the-glp-1-boom-why-healthcare-logistics-means-big-business.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T15:08:24+00:00"
-    },
-    {
-      "title": "This small-cap stock strategy shines by riding the beat-and-raise trend",
-      "link": "https://www.marketwatch.com/story/this-small-cap-stock-strategy-shines-by-riding-the-beat-and-raise-trend-24bee883?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T15:08:00+00:00"
-    },
-    {
-      "title": "NBCUniversal and YouTube ink deal to embed Peacock in the video platform for premium subscribers",
-      "link": "https://www.cnbc.com/2026/07/27/nbcuniversal-youtube-peacock-premium-subscribers.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T15:02:01+00:00"
-    },
-    {
-      "title": "잘 벌어도 '폭락'…빅테크·반도체 운명 가를 ‘AI 투자 청구서’[이번주 美 증시는] - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5POGEycmJpYXU3STU4QzNLT2o1MnlmenMzUUxxWjF6SWJENXdvREhFVUdFQkw0TnVRMG1nd1NnZDkyOTBOU1dQRy1odVJ1aFg0N040?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T15:00:46+00:00"
-    },
-    {
-      "title": "Do I need to hire a broker to find an apartment in New York City?",
-      "link": "https://www.marketwatch.com/story/do-i-need-to-hire-a-broker-to-find-an-apartment-in-new-york-city-f5f9cf34?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T14:51:00+00:00"
-    },
-    {
-      "title": "For 44 years, this investor held aces in the long-bond game. He just folded.",
-      "link": "https://www.marketwatch.com/story/for-44-years-this-investor-held-aces-in-the-long-bond-game-he-just-folded-dcd39375?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T14:26:00+00:00"
-    },
-    {
       "title": "[뉴욕증시]중동 긴장 완화에 유가 하락…일제히 상승 중 - 아시아경제",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GTDYyelFqd05OUXlMUE1CdHBFa1lpLWY4Z3g4MlBOQm5DVEVxQVQwbWlXall1UE40dHAzb09XYW9OQWJoMWtwZHRMNVdrSzhoU3pmbmVnMVRGVXR4QUxuaA?oc=5",
       "source": "Google News",
       "published": "2026-07-27T14:22:49+00:00"
-    },
-    {
-      "title": "Singapore tightens monetary policy in surprise move as rising oil prices rekindle inflation risk",
-      "link": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T14:22:15+00:00"
     },
     {
       "title": "Europe wildfire in pictures: Gigantic fire cloud engulfing France, Spain regions",
@@ -445,28 +511,22 @@
       "published": "2026-07-27T14:19:43+00:00"
     },
     {
-      "title": "Could voter rage over AI data centers tank your utility stocks? Run this 5-part risk test to find out.",
-      "link": "https://www.marketwatch.com/story/is-your-ai-data-center-stock-vulnerable-to-voter-backlash-use-this-5-part-test-to-find-out-36f039fa?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T14:15:00+00:00"
+      "title": "U.S. and Iran pause fighting to give peace talks 'space.' Here's where negotiations stand",
+      "link": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T14:14:38+00:00"
     },
     {
-      "title": "FOMC와 실적발표 몰린 주…국제유가 급락에 美증시 상승 - 한국경제",
+      "title": "FOMC와 실적발표 몰린 주…美 증시, 국제유가 급락에 상승 - 한국경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14M0Uxc3Npb2tabW9YZFQxMjFOUmdIckpPdDFRd2Job1VhZTI1dlBQOXhMZ2l4aE5GMUpJTUczb1QtWDFyWDBEY3czNmpnTVhFdE1UckNzSk1fdw?oc=5",
       "source": "Google News",
       "published": "2026-07-27T14:11:47+00:00"
     },
     {
-      "title": "Policy uncertainty is making it hard to plan for retirement — and advisers are just as confused",
-      "link": "https://www.marketwatch.com/story/policy-uncertainty-is-muddling-retirement-planning-and-advisers-are-just-as-confused-3381f10e?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T14:00:00+00:00"
-    },
-    {
-      "title": "뉴욕증시, 미-이란 긴장 완화에 상승 출발 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05OWs2T1dGTks5a1cwbTFfc2hITTFvcTZ5d2VGTU9KbDJGRkUwSGNRcEF4alJLVEh4ZkdyMzcyM2luVUVCSzd2TVp6Z1ZPUVdtdnJRdG1wN3EtQ0p3VkU4c2otSXIxcDZTTFR3eU92NEo?oc=5",
+      "title": "뉴욕증시, 미-이란 긴장 완화에 상승 출발 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jMTkzVjZTMEd4OFd5NzdoT3N1U0hMd1RxMTB2QVFQZmNZOEN4VkVNbk0wZ19mQ0FwUkNuWHFnek83bkdjb1VwZFNzZzY4ZkdxUHYxSWVCMTM2djjSAWBBVV95cUxNMkdBU1FsZ0VTMFVwSG5NZEc4azFFeUFGYkI3MkNwVHdUYXR1V1pRTTdmdjQ0Y05aVFBSSE1qVlBBeHFWRWxidUoybmV2enhMQkxIekFoWE9nUGRCYkRZa0k?oc=5",
       "source": "Google News",
-      "published": "2026-07-27T13:59:47+00:00"
+      "published": "2026-07-27T13:59:31+00:00"
     },
     {
       "title": "“단골 많은 사장님은 인정해줘야”…매출 적어도 소상공인 대출 OK",
@@ -475,28 +535,10 @@
       "published": "2026-07-27T13:53:42+00:00"
     },
     {
-      "title": "Investors are playing it safe — just like in 2021. Here’s how AI makes this time different.",
-      "link": "https://www.marketwatch.com/story/the-s-p-500-is-echoing-its-2021-setup-according-to-morgan-stanley-fe4b61d0?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T13:51:00+00:00"
-    },
-    {
-      "title": "Money, success and unshakeable resilience: 4 generations discuss their visions of the American Dream",
-      "link": "https://www.cnbc.com/2026/07/26/how-different-generations-are-rewriting-the-american-dream-today.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T13:44:31+00:00"
-    },
-    {
       "title": "美 증시 3대 지수 장 초반 강세… 다우존스 1%대 상승 출발 - 조선비즈 - Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOUlXVWRNNVVnNV85R3pQaVVRbE84Y0hlNWM5YjdiWHFzVXlCRktNekNEMy1YS0lFWDF0N1ZyakNPQW9rbm9HUTZKSkp0UlRZRXZfSEtJYTJReXd3N3dWLWh2aU5iZUNjQ2xqa0k5c05GLTB1OFF4RG56MlZ5SWoxTVF3V2JidXFiS091Rk1uSTRsMnRBZ2ZhTkJlejRZZ9IBsgFBVV95cUxQUzdWYVZmYlRRMUk2Y1lHZWZmbEpwYXBER19pcGxxMlVndVBiVXV3U0J3MGstWXRsazgxYlBlZ1R6dGp0NXl3R2p0QzlrVW84VEZQRHlweVhXcWUtbjdzTDhpTmVhcjZBd2tBNEFFNUFBZWloUV9FSUtwS3Q4Q09Ud09uamo0WVJmVE5rT3dZUkhHcjVSeXN5MlB6UFdSMC00d2p6dGlqV2hMR3daaXo1eFdB?oc=5",
       "source": "Google News",
       "published": "2026-07-27T13:42:00+00:00"
-    },
-    {
-      "title": "Navigating the Fed’s next move? Here’s why these trades may be an investor’s best weapon.",
-      "link": "https://www.marketwatch.com/story/navigating-the-feds-next-move-why-these-trades-may-be-an-investors-best-weapon-7a7e80c0?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T13:39:00+00:00"
     },
     {
       "title": "Spain and France wildfires force more than 300,000 to flee as Macron calls crisis meeting",
@@ -527,12 +569,6 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55bTFMOVhVc2tRMHBiaHkxMHdhZDhOVHNLWnE0NEtYWkpwcUdPdjNDb2JGNUFESVUtcHRLTzFhU2xIdTl4VXhDcUFlSUk1c2hEc2tQa2hsdUFSSUR2UnJadnFObEI?oc=5",
       "source": "Google News",
       "published": "2026-07-27T12:12:04+00:00"
-    },
-    {
-      "title": "Nvidia, SpaceX, Microsoft launch AI safety initiative as OpenAI cyberattack fallout continues",
-      "link": "https://www.cnbc.com/2026/07/27/nvidia-ai-initiative-openai-cyber-attack.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T11:32:45+00:00"
     },
     {
       "title": "Apple options are doing something unusual into earnings",
@@ -611,42 +647,6 @@
       "link": "https://www.mk.co.kr/news/economy/12108687",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:53:53+00:00"
-    },
-    {
-      "title": "\"성과 나누는 무노조 기업이 노사 대화 더 활발\"",
-      "link": "https://www.mk.co.kr/news/economy/12108685",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T08:53:52+00:00"
-    },
-    {
-      "title": "Finland’s radical answer to renewable energy’s biggest headache: The world’s largest sand battery",
-      "link": "https://www.cnbc.com/2026/07/25/finland-sand-battery-renewable-energy-storage.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T08:46:51+00:00"
-    },
-    {
-      "title": "탈탄소에 천연가스 수요 준다는 정부 … 메가프로젝트 아직 반영 못해",
-      "link": "https://www.mk.co.kr/news/economy/12108660",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T08:45:36+00:00"
-    },
-    {
-      "title": "AI 전력수요 폭발하는데 … 송전망 54개 중 20개 지연",
-      "link": "https://www.mk.co.kr/news/economy/12108659",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T08:45:35+00:00"
-    },
-    {
-      "title": "[도쿄증시-마감] 중동 긴장 완화에 상승…반도체주는 약세 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EOTVqT2ttaWhpdU9hQ1ZVR2J5Qm42b3V2bnMtVEJUUWIyM0RhRmJuY2ZNbjN0dzVUQ0ZpZGVHYzdNcWZKb2NlMjdidXNza2R1VVdrQW1fSWR3N0JFdXliQXlLTHdlWXcxd2wwVjNLdDQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T08:44:11+00:00"
-    },
-    {
-      "title": "“단일 레버리지, 주가 폭락 주범이었는데”…메리츠가 본 회전율 감소 효과",
-      "link": "https://www.mk.co.kr/news/economy/12108629",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T08:39:12+00:00"
     }
   ],
   "pages": [

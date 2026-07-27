@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark" data-updown="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-28 뉴스 아카이브 · AI Trading Assistant</title>
+  <link rel="stylesheet" href="../../static/css/tokens.css">
+  <link rel="stylesheet" href="../../static/css/base_v2.css">
+  <link rel="stylesheet" href="../../static/css/components.css">
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
+</head>
+<body class="v2" data-root="../..">
+  <nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav">
+    <a class="v2-nav__item" href="../../index.html"
+>Dashboard</a>
+    <a class="v2-nav__item" href="../../macro/index.html"
+>Macroeconomics</a>
+    <a class="v2-nav__item" href="../../news/index.html"
+aria-current="page">News</a>
+    <a class="v2-nav__item" href="../../stock/index.html"
+>Stock</a>
+    <a class="v2-nav__item" href="../../financials/index.html"
+>Financial Statements</a>
+    <a class="v2-nav__item" href="../../ta/index.html"
+>Technical Analysis</a>
+    <div class="v2-nav__divider"></div>
+    <a class="v2-nav__item v2-nav__item--locked" href="../../asset/index.html"
+>
+      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+    <a class="v2-nav__item v2-nav__item--locked" href="../../portfolio/index.html"
+>
+      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+  </div>
+  <div class="v2-sidebar__footer">
+    <a class="v2-nav__item" href="../../settings/index.html"
+>Settings</a>
+    <div class="v2-sidebar__version">AI Trading Assistant</div>
+  </div>
+</nav>
+
+  <header class="v2-header">
+  <div class="v2-header__context">
+    News
+  </div>
+  <div class="v2-header__search" role="search">
+    <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
+           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+    <kbd class="v2-header__search-kbd">Ctrl K</kbd>
+    <div class="v2-search-results" data-search-results hidden></div>
+  </div>
+  <div class="v2-header__clock"></div>
+  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+</header>
+
+  <main class="v2-main">
+    <div class="v2-content">
+
+<div class="v2-span-12">
+  <div class="v2-tabbar" data-tabbar="news">
+    <button class="v2-tabbar__btn" data-tab-btn="us_market" data-tabbar-of="news" aria-current="page">
+      미국시장<span class="v2-tabbar__count">5</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="kr_market" data-tabbar-of="news">
+      한국시장<span class="v2-tabbar__count">1</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="macro" data-tabbar-of="news">
+      거시경제<span class="v2-tabbar__count">0</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="breaking" data-tabbar-of="news">
+      속보<span class="v2-tabbar__count">18</span>
+    </button>
+    <span class="v2-caption v2-tabbar__meta">
+2026-07-28 아카이브    </span>
+  </div>
+</div>
+
+<div class="v2-card v2-card--standard v2-span-8 v2-card--news-list" id="news-list">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">미국시장 · 게재 5건</h3>
+    <span class="v2-card__meta">2026-07-28 02:03 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div data-tab-panel="news" data-tab="us_market">
+  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/should-you-get-paid-to-care-for-a-family-member-70958828?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">가족을 돌보기 위해 돈을 받아야 합니까?</a>
+    <div class="v2-news-list-row__summary">가족 간병인으로 봉사하는 것은 단지 피곤한 일이 아닙니다. 재정적으로도 파괴적일 수 있습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-28 00:28</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html" target="_blank" rel="noopener noreferrer">유가 하락, 미국-이란 적대행위 중단으로 브렌트유 가격 90달러 이하로 하락</a>
+    <div class="v2-news-list-row__summary">이란이 미국의 적대 행위 중단이 유지되는 한 공격을 중단하겠다고 밝힌 이후 유가는 하락했습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-28 00:27</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/27/altman-trump-china-open-weight-ai.html" target="_blank" rel="noopener noreferrer">샘 알트먼이 이번 주 트럼프 행정부와 상원의원들을 만날 예정이다. 그가 말하려는 내용은 다음과 같습니다</a>
+    <div class="v2-news-list-row__summary">Altman은 회사의 향후 AI 모델 제품군의 기능을 미리 살펴보고 사이버 보안 및 개방형 모델에 대한 질문에 답변할 예정입니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-28 00:24</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/the-ai-boom-shows-no-sign-of-slowing-and-the-u-s-economy-is-reaping-the-benefits-1728c4e5?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">AI 붐은 둔화될 기미가 보이지 않으며, 미국 경제는 그 혜택을 누리고 있습니다.</a>
+    <div class="v2-news-list-row__summary">인공 지능을 구축하는 데 필요한 컴퓨터 메모리 및 기타 기술에 대한 수요가 2분기에 다시 급증했으며 경제 성장이 다시 평균 이상으로 증가할 수 있습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-28 00:22</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/college-kids-are-moving-into-retirement-communities-for-reasons-beyond-cheap-rent-577dc94b?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">대학생들은 &#39;저렴한 임대료&#39; 이상의 이유로 은퇴자 커뮤니티로 이사하고 있습니다.</a>
+    <div class="v2-news-list-row__summary">학생들은 게임의 밤을 계획하고 체육 수업을 가르치면서 세대 간 유대를 형성하고 있지만 &#34;7시 30분이나 8시가 되면 이곳은 꽤 조용해집니다.&#34;</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-28 00:09</span>
+  </span>
+</div>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="kr_market" style="display:none">
+  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vaENkanIxYUI0ZTMwal9SLW9yVlVMTnVqd3pnNWtycmpkTXJ3OURyYkt4Y1BsUThneGxLeFE0NmRVSUNVX0FQcDVnVXZHTlZYRG5hYkxtWU53Zw?oc=5" target="_blank" rel="noopener noreferrer">美증시, 반도체주식 급락에 나스닥 하락 전환 - 한국경제</a>
+    <div class="v2-news-list-row__summary">美증시, 반도체주식 급락에 나스닥 하락 전환  한국경제</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-28 00:18</span>
+  </span>
+</div>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="macro" style="display:none">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="breaking" style="display:none">
+  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/27/jetblue-new-fare-options-basic-economy-first-class.html" target="_blank" rel="noopener noreferrer">JetBlue는 기본 우선부터 유연한 경제까지 요금 옵션을 점검합니다. 알아야 할 사항은 다음과 같습니다.</a>
+    <div class="v2-news-list-row__summary">JetBlue는 &#34;핵심&#34; 제품을 없애고 이코노미 항공권을 새로운 이름으로 내놓고 있습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-28 02:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/27/james-comey-trump-seashells-threat.html" target="_blank" rel="noopener noreferrer">코미, 판사에게 &#39;진정한 위협&#39;이 없다며 트럼프 &#39;조개껍질 사건&#39; 기각 요청</a>
+    <div class="v2-news-list-row__summary">제임스 코미 전 FBI 국장은 &#39;8647&#39;이라는 메시지를 담은 조개껍질 사진을 인스타그램에 올려 도널드 트럼프 대통령을 살해하겠다고 협박한 혐의로 기소됐다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-28 01:54</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/this-small-cap-stock-strategy-shines-by-riding-the-beat-and-raise-trend-24bee883?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">이 소액 펀드는 게임 회사가 플레이하는 수익 보고서에서 승리하기 위해 만들어졌습니다.</a>
+    <div class="v2-news-list-row__summary">Calamos Investments의 Brandon Nelson은 지속 가능한 성장과 이익 마진 개선에 준비된 회사를 식별할 때 수익 시즌의 비트 앤 레이즈 패턴을 고려합니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-28 01:48</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/27/trump-netanyahu-zelenskyy-iran-war-lindsey-graham-funeral.html" target="_blank" rel="noopener noreferrer">네타냐후와 젤렌스키, 그레이엄의 장례식을 위해 DC에 오고 전쟁 중에 트럼프와 만남</a>
+    <div class="v2-news-list-row__summary">많은 사람들이 전쟁 중에 도널드 트럼프 대통령을 만나고 싶어하는 가운데 린지 그레이엄 상원의원의 장례식을 통해 세계 지도자들이 워싱턴으로 모였습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-28 01:38</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/27/mcconnell-fall-hospital-senate-recovery.html" target="_blank" rel="noopener noreferrer">매코넬 상원의원은 낙상에서 회복되어도 직장 복귀 허가를 받지 못했다고 의사들이 밝혔습니다.</a>
+    <div class="v2-news-list-row__summary">McConnell의 사무실은 연례 켄터키 피크닉에 참석할 수 없는 것에 대해 사과하는 상원의원의 서면 성명이 포함된 보도 자료를 공유했습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-28 01:36</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/spacexs-stock-falls-to-a-new-low-despite-a-near-flawless-starship-flight-034a99ab?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">거의 완벽한 스타쉽 비행에도 불구하고 SpaceX의 주가는 새로운 최저치로 떨어졌습니다.</a>
+    <div class="v2-news-list-row__summary">다음 주 SpaceX의 수익 보고서는 일부 내부자가 곧 주식을 처분할 수 있기 때문에 추가적인 판매 물결을 촉발할 수 있습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-28 01:36</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/i-feel-lucky-im-71-and-inherited-20-000-what-should-i-do-with-this-money-1ab90925?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">&#39;운이 좋다&#39;: 저는 71세이고 20,000달러를 상속받았습니다. 이 돈으로 무엇을 해야 할까요?</a>
+    <div class="v2-news-list-row__summary">“저는 IRA, 고수익 저축 계좌, CD 4개, 당좌 예금 계좌를 가지고 있습니다.”</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-28 01:33</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/he-brought-ai-to-wall-street-in-1994-but-wont-trust-chatgpt-with-his-money-b8abc031?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">그는 1994년에 월스트리트에 AI를 도입했지만 ChatGPT를 그의 돈으로 신뢰하지 않을 것입니다.</a>
+    <div class="v2-news-list-row__summary">Vasant Dhar는 최초의 AI 기반 헤지 펀드 중 하나를 구축했습니다. 그가 투자자들이 기술에 대해 알기를 원하는 내용은 다음과 같습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-28 01:31</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE5POGEycmJpYXU3STU4QzNLT2o1MnlmenMzUUxxWjF6SWJENXdvREhFVUdFQkw0TnVRMG1nd1NnZDkyOTBOU1dQRy1odVJ1aFg0N040?oc=5" target="_blank" rel="noopener noreferrer">잘 벌어도 &#39;폭락&#39;…빅테크·반도체 운명 가를 ‘AI 투자 청구서’[이번주 美 증시는] - 머니투데이</a>
+    <div class="v2-news-list-row__summary">잘 벌어도 &#39;폭락&#39;…빅테크·반도체 운명 가를 ‘AI 투자 청구서’[이번주 美 증시는]  머니투데이</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-28 01:30</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/is-your-ai-data-center-stock-vulnerable-to-voter-backlash-use-this-5-part-test-to-find-out-36f039fa?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">Big Tech는 소비자에게 AI 붐에 대한 비용을 지불하도록 강요하고 있습니다. 유권자들이 반발하고 있습니다.</a>
+    <div class="v2-news-list-row__summary">주 규제 당국은 Big Tech가 자체 그리드 구축에 대한 비용을 지불하도록 하여 전통적인 유틸리티 주식을 정치적 평가에 노출시켰습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-28 01:18</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/micron-and-other-chip-stocks-fall-as-china-steals-the-spotlight-cff9d73c?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">중국이 주목을 받자 마이크론과 기타 칩 주가 하락</a>
+    <div class="v2-news-list-row__summary">CXMT는 상하이에서 강력한 공개 데뷔를 했으며 이제 투자자들은 중국의 칩 산업을 더욱 경쟁력 있게 만들 수 있는 제조 혁신에 대한 전망을 저울질하고 있습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-28 01:17</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/27/why-boeing-corning-are-moving-in-opposite-directions-and-whats-next.html" target="_blank" rel="noopener noreferrer">보잉과 코닝이 반대 방향으로 움직이는 이유와 향후 예상</a>
+    <div class="v2-news-list-row__summary">Investing Club은 매주 평일 오전 10시 20분(ET)에 &#34;아침 모임&#34;을 개최합니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-28 01:09</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/27/nbcuniversal-youtube-peacock-premium-subscribers.html" target="_blank" rel="noopener noreferrer">NBCUniversal과 YouTube 잉크 계약으로 프리미엄 구독자를 위한 비디오 플랫폼에 Peacock을 포함</a>
+    <div class="v2-news-list-row__summary">2027년 초부터 YouTube Premium 구독자는 스포츠, 영화를 포함한 Peacock 콘텐츠 전체를 받게 됩니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-28 00:54</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l3">
+  <span class="v2-level-gauge" title="필수 — 지수·금리 등에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/27/amazon-satellite-internet-network.html" target="_blank" rel="noopener noreferrer">Amazon, Direct-to-Device 네트워크를 위해 5,105개의 위성을 발사하기 위해 연방 승인을 구합니다.</a>
+    <div class="v2-news-list-row__summary">제안된 네트워크는 Amazon이 4월에 약 116억 달러에 인수할 계획이라고 발표한 Globalstar의 자산에 부분적으로 의존할 것입니다.</div>
+  </div>
+  <span><span class="v2-tag">Amazon</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-28 00:53</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/27/cme-launches-single-stock-futures-enabling-investors-to-trade-spacex-micron-23-hours-a-day.html" target="_blank" rel="noopener noreferrer">CME, 투자자들이 SpaceX, Micron 등을 하루 23시간 거래할 수 있도록 단일 주식 선물 출시</a>
+    <div class="v2-news-list-row__summary">CME 그룹은 월요일 55개 미국 주식에 대한 현금 결제 단일 주식 선물과 22개 종목에 대한 소규모 계약을 출시했습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-28 00:50</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/27/cyclospora-outbreak-food-industry-consolidation.html" target="_blank" rel="noopener noreferrer">전문가들은 통합된 식량 공급이 원포자충 발생을 악화시킬 수 있다고 말합니다.</a>
+    <div class="v2-news-list-row__summary">전문가들은 식품 산업의 통합이 원포자충 발병을 증폭시켜 오염된 농산물이 더 멀리 퍼질 수 있다고 말합니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">07-28 00:49</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiekFVX3lxTE5rRWhCQ0gxbnJmSVBHTGxIdFB5UkJJRTV3U2xOU3o2YjNqVFpkMENzX0ptWlQ4bl9JVG12SjlXb2tBTjRBeVM5OWdlQ29hVEU1Zlg0eFBNVm9uc2Jya2kwVzRRbVpIUy04blJDejBKdXJ2TEZUdmxNVkZB0gF8QVVfeXFMTl9oUFJmdUtYMG9LS2EtUm5KYzExZXc4UkNObnM5b05UZ0pLTzlTUUl4b3BlUmhLSnRPbFppdE5aRWdLNjl6M2Q2STQ4ZkFDRnp6UUxWT1M2WkpKcEM0T3RyT0Z5cDJDZ09CTFliMlpwR0ZQS0tVZk41T3J3cw?oc=5" target="_blank" rel="noopener noreferrer">미국·이란, 공습 중단 ‘사흘째’…국제유가 하락·세계 증시 상승 - VOA 한국어 홈페이지</a>
+    <div class="v2-news-list-row__summary">미국·이란, 공습 중단 ‘사흘째’…국제유가 하락·세계 증시 상승  VOA 한국어 홈페이지</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">07-28 00:44</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/your-retirement-math-may-have-a-surprising-flaw-2d8f58d8?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">당신의 은퇴 계산에는 놀라운 결함이 있을 수 있다</a>
+    <div class="v2-news-list-row__summary">노후 건강 관리 및 주택 충격에 대비하여 은퇴 계획을 스트레스 테스트하십시오.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">07-28 00:42</span>
+  </span>
+</div>
+  </div>
+</div>
+
+  </div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-4 " id="news-briefing">
+    <div class="v2-card__header">
+    <span class="v2-overline">모닝 브리핑</span>
+    <span class="v2-card__meta">2026-07-28 02:03 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-hero-news-row">
+      <span class="n">1</span>
+      <a class="t" href="https://www.cnbc.com/2026/07/27/amazon-satellite-internet-network.html" target="_blank" rel="noopener noreferrer">Amazon seeks federal approval to launch 5,105 satellites for direct-to-device network</a>
+    </div>
+    <div class="v2-hero-news-row">
+      <span class="n">2</span>
+      <a class="t" href="https://www.marketwatch.com/story/this-small-cap-stock-strategy-shines-by-riding-the-beat-and-raise-trend-24bee883?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">This small-cap fund is built to win the earnings-report games companies play</a>
+    </div>
+    <div class="v2-hero-news-row">
+      <span class="n">3</span>
+      <a class="t" href="https://www.marketwatch.com/story/he-brought-ai-to-wall-street-in-1994-but-wont-trust-chatgpt-with-his-money-b8abc031?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">He brought AI to Wall Street in 1994 — but won’t trust ChatGPT with his money</a>
+    </div>
+  </div>
+  <div class="v2-card__footer">필수 1 · 주목 13 · 참고 10</div>
+
+</div>
+
+    </div>
+  </main>
+  <div class="v2-panel-slot" id="panel-slot"></div>
+  <script src="../../static/js/store.js" defer></script>
+  <script src="../../static/js/stockhub.js" defer></script>
+  <script src="../../static/js/search.js" defer></script>
+<script src="../../static/js/tabs.js" defer></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.TATabs) window.TATabs.init("news", "us_market");
+  });
+</script>
+</body>
+</html>
