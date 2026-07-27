@@ -1,8 +1,8 @@
 """로컬에서 docs/data를 커밋/푸시(선택). GitHub Pages는 /docs 를 서빙하도록 설정.
 
 CI(뉴스 워크플로)가 30분마다 자동 푸시하므로, 데스크톱 수동 배포는 푸시 전에 원격 변경을
-rebase로 흡수해야 한다(안 그러면 non-fast-forward로 거부됨). 생성물(docs) 충돌은 원격을
-받아들인 뒤 data/trades.json(진실원)으로 재빌드해 해소한다.
+rebase로 흡수해야 한다(안 그러면 non-fast-forward로 거부됨). 생성물(docs) 충돌은 -X theirs로
+자동 해소한 뒤 data/trades.json(진실원)으로 재빌드해 정정한다.
 
 흡수와 푸시 사이에도 CI가 먼저 푸시할 수 있다(뉴스 30분·매크로 60분 + 이 push가 깨우는
 trades/morning 워크플로 자신). 한 번 거부됐다고 배포를 포기하면 동기화 결과가 로컬에만
@@ -28,7 +28,9 @@ def _git(*args: str, check: bool = True) -> subprocess.CompletedProcess:
 
 def _absorb_and_rebuild(message: str, paths: tuple[str, ...]) -> None:
     """원격 변경을 rebase로 흡수하고 진실원으로 재빌드해 생성물 충돌을 정정한다."""
-    # 원격의 뉴스 자동커밋을 흡수(생성물 충돌은 원격 우선 → 아래서 재빌드로 정정).
+    # 원격의 뉴스 자동커밋을 흡수한다. 생성물 충돌은 -X theirs = 재적용되는 이번 배포의
+    # 커밋으로 해소되고(rebase에서 ours=원격, theirs=재적용 커밋), 그 결과가 낡았을 수 있으니
+    # 아래에서 진실원으로 재빌드해 정정한다.
     # --autostash: 커밋 대상(docs/data) 밖의 unstaged 변경이 있어도 rebase가 거부하지 않게
     # (개발 중 소스 수정이 워킹트리에 남아 있으면 이게 없을 때 배포가 통째로 실패한다)
     _git("fetch", "origin")
