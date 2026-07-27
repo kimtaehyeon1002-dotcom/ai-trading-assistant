@@ -10,11 +10,6 @@
     "market": "KOSPI"
   },
   {
-    "code": "475150",
-    "name": "SK이터닉스",
-    "market": "KOSPI"
-  },
-  {
     "code": "402340",
     "name": "SK스퀘어",
     "market": "KOSPI"
@@ -25,63 +20,8 @@
     "market": "KOSPI"
   },
   {
-    "code": "322000",
-    "name": "HD현대에너지솔루션",
-    "market": "KOSPI"
-  },
-  {
-    "code": "005935",
-    "name": "삼성전자우",
-    "market": "KOSPI"
-  },
-  {
-    "code": "0156T0",
-    "name": "에이치엘지노믹스",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "950160",
-    "name": "코오롱티슈진",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "017670",
-    "name": "SK텔레콤",
-    "market": "KOSPI"
-  },
-  {
-    "code": "100090",
-    "name": "SK오션플랜트",
-    "market": "KOSPI"
-  },
-  {
-    "code": "005380",
-    "name": "현대차",
-    "market": "KOSPI"
-  },
-  {
-    "code": "010060",
-    "name": "OCI홀딩스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "207940",
-    "name": "삼성바이오로직스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "012450",
-    "name": "한화에어로스페이스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "010120",
-    "name": "LS ELECTRIC",
-    "market": "KOSPI"
-  },
-  {
-    "code": "028050",
-    "name": "삼성E&A",
+    "code": "475150",
+    "name": "SK이터닉스",
     "market": "KOSPI"
   },
   {
@@ -90,48 +30,23 @@
     "market": "KOSPI"
   },
   {
-    "code": "066570",
-    "name": "LG전자",
+    "code": "005935",
+    "name": "삼성전자우",
     "market": "KOSPI"
   },
   {
-    "code": "036930",
-    "name": "주성엔지니어링",
-    "market": "KOSDAQ GLOBAL"
-  },
-  {
-    "code": "000270",
-    "name": "기아",
+    "code": "017670",
+    "name": "SK텔레콤",
     "market": "KOSPI"
   },
   {
-    "code": "012330",
-    "name": "현대모비스",
-    "market": "KOSPI"
+    "code": "950160",
+    "name": "코오롱티슈진",
+    "market": "KOSDAQ"
   },
   {
-    "code": "105560",
-    "name": "KB금융",
-    "market": "KOSPI"
-  },
-  {
-    "code": "096770",
-    "name": "SK이노베이션",
-    "market": "KOSPI"
-  },
-  {
-    "code": "009830",
-    "name": "한화솔루션",
-    "market": "KOSPI"
-  },
-  {
-    "code": "079550",
-    "name": "LIG디펜스앤에어로스페이스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "006400",
-    "name": "삼성SDI",
+    "code": "005380",
+    "name": "현대차",
     "market": "KOSPI"
   },
   {
@@ -140,13 +55,98 @@
     "market": "KOSPI"
   },
   {
-    "code": "086790",
-    "name": "하나금융지주",
+    "code": "036930",
+    "name": "주성엔지니어링",
+    "market": "KOSDAQ GLOBAL"
+  },
+  {
+    "code": "042660",
+    "name": "한화오션",
     "market": "KOSPI"
   },
   {
-    "code": "034730",
-    "name": "SK",
+    "code": "012450",
+    "name": "한화에어로스페이스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "207940",
+    "name": "삼성바이오로직스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "316140",
+    "name": "우리금융지주",
+    "market": "KOSPI"
+  },
+  {
+    "code": "066570",
+    "name": "LG전자",
+    "market": "KOSPI"
+  },
+  {
+    "code": "319400",
+    "name": "현대무벡스",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "064350",
+    "name": "현대로템",
+    "market": "KOSPI"
+  },
+  {
+    "code": "012330",
+    "name": "현대모비스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "011070",
+    "name": "LG이노텍",
+    "market": "KOSPI"
+  },
+  {
+    "code": "000270",
+    "name": "기아",
+    "market": "KOSPI"
+  },
+  {
+    "code": "105560",
+    "name": "KB금융",
+    "market": "KOSPI"
+  },
+  {
+    "code": "010120",
+    "name": "LS ELECTRIC",
+    "market": "KOSPI"
+  },
+  {
+    "code": "018260",
+    "name": "삼성에스디에스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "0218L0",
+    "name": "네오뷰",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "010060",
+    "name": "OCI홀딩스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "009830",
+    "name": "한화솔루션",
+    "market": "KOSPI"
+  },
+  {
+    "code": "439960",
+    "name": "코스모로보틱스",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "034020",
+    "name": "두산에너빌리티",
     "market": "KOSPI"
   },
   {
@@ -200,23 +200,23 @@
     "market": "US"
   },
   {
-    "code": "META",
-    "name": "Meta Platforms",
-    "market": "US"
-  },
-  {
     "code": "GOOG",
     "name": "Alphabet Inc. (Class C)",
     "market": "US"
   },
   {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
+    "code": "META",
+    "name": "Meta Platforms",
     "market": "US"
   },
   {
     "code": "AVGO",
     "name": "Broadcom",
+    "market": "US"
+  },
+  {
+    "code": "ORCL",
+    "name": "Oracle Corporation",
     "market": "US"
   },
   {
@@ -235,8 +235,8 @@
     "market": "US"
   },
   {
-    "code": "LITE",
-    "name": "Lumentum",
+    "code": "NOW",
+    "name": "ServiceNow",
     "market": "US"
   },
   {
@@ -245,8 +245,13 @@
     "market": "US"
   },
   {
-    "code": "WDC",
-    "name": "Western Digital",
+    "code": "LITE",
+    "name": "Lumentum",
+    "market": "US"
+  },
+  {
+    "code": "NFLX",
+    "name": "Netflix",
     "market": "US"
   },
   {
@@ -260,8 +265,13 @@
     "market": "US"
   },
   {
-    "code": "HOOD",
-    "name": "Robinhood Markets",
+    "code": "GEV",
+    "name": "GE Vernova",
+    "market": "US"
+  },
+  {
+    "code": "WDC",
+    "name": "Western Digital",
     "market": "US"
   },
   {
@@ -270,13 +280,8 @@
     "market": "US"
   },
   {
-    "code": "NOW",
-    "name": "ServiceNow",
-    "market": "US"
-  },
-  {
-    "code": "NFLX",
-    "name": "Netflix",
+    "code": "LLY",
+    "name": "Lilly (Eli)",
     "market": "US"
   },
   {
@@ -285,18 +290,13 @@
     "market": "US"
   },
   {
-    "code": "GEV",
-    "name": "GE Vernova",
+    "code": "HOOD",
+    "name": "Robinhood Markets",
     "market": "US"
   },
   {
-    "code": "CSCO",
-    "name": "Cisco",
-    "market": "US"
-  },
-  {
-    "code": "WMT",
-    "name": "Walmart",
+    "code": "IBM",
+    "name": "IBM",
     "market": "US"
   },
   {
@@ -307,6 +307,11 @@
   {
     "code": "373220",
     "name": "LG에너지솔루션",
+    "market": "KRX"
+  },
+  {
+    "code": "006400",
+    "name": "삼성SDI",
     "market": "KRX"
   },
   {
@@ -323,11 +328,6 @@
     "code": "068270",
     "name": "셀트리온",
     "market": "KRX"
-  },
-  {
-    "code": "LLY",
-    "name": "Eli Lilly",
-    "market": "NYSE"
   },
   {
     "code": "NVO",
