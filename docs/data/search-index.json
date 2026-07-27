@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27T17:30:50.270180+00:00",
+  "as_of": "2026-07-27T18:58:07.191598+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,10 +349,100 @@
   ],
   "news": [
     {
-      "title": "유럽증시, 미·이란 '공격 멈춤'에 따른 유가 하락으로 일제히 올라… 여행·레저 2%↑ - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1WX2lYTjhUd3hqWGxDVXlocFctcjVDODlJRjdGWnYwMEZJaWVhWThaRUQ2RzYtMk9NQXk3VEpQWldSLVBGYkNqWjBqalVqdUtfdG4tRlVjaXNYa01D?oc=5",
+      "title": "Crypto stocks rally thanks to rotation from AI infrastructure; bitcoin miners lag",
+      "link": "https://www.cnbc.com/2026/07/27/crypto-stocks-rally-thanks-to-rotation-from-ai-infrastructure-bitcoin-miners-lag.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T18:54:17+00:00"
+    },
+    {
+      "title": "More tech pain means gains elsewhere. What's winning in Monday's mixed market",
+      "link": "https://www.cnbc.com/2026/07/27/more-tech-pain-means-gains-elsewhere-what-is-winning-in-the-mixed-market.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T18:40:09+00:00"
+    },
+    {
+      "title": "‘We are not romantically involved’: I’m marrying my platonic best friend of 20 years. Should I leave him my home?",
+      "link": "https://www.marketwatch.com/story/we-are-not-romantically-involved-im-marrying-my-platonic-best-friend-of-20-years-should-i-leave-him-my-home-3faa0a77?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T18:30:00+00:00"
+    },
+    {
+      "title": "Trump backs 'fantastic' Warsh while calling for lower rates and citing 'bad intentions' of other Fed officials",
+      "link": "https://www.cnbc.com/2026/07/27/trump-warsh-interest-rates.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T18:15:18+00:00"
+    },
+    {
+      "title": "CME launches single stock futures enabling investors to trade SpaceX, Micron and others 23 hours a day",
+      "link": "https://www.cnbc.com/2026/07/27/cme-launches-single-stock-futures-enabling-investors-to-trade-spacex-micron-23-hours-a-day.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T18:06:35+00:00"
+    },
+    {
+      "title": "Oil prices slide, Brent crude below $90 as pause to U.S.-Iran hostilities appears to hold",
+      "link": "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T18:03:47+00:00"
+    },
+    {
+      "title": "잘 벌어도 '폭락'…빅테크·반도체 운명 가를 ‘AI 투자 청구서’[이번주 美 증시는] - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5POGEycmJpYXU3STU4QzNLT2o1MnlmenMzUUxxWjF6SWJENXdvREhFVUdFQkw0TnVRMG1nd1NnZDkyOTBOU1dQRy1odVJ1aFg0N040?oc=5",
       "source": "Google News",
-      "published": "2026-07-27T17:26:00+00:00"
+      "published": "2026-07-27T18:00:46+00:00"
+    },
+    {
+      "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
+      "link": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T18:00:00+00:00"
+    },
+    {
+      "title": "Should you get paid to care for a family member?",
+      "link": "https://www.marketwatch.com/story/should-you-get-paid-to-care-for-a-family-member-70958828?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T17:56:00+00:00"
+    },
+    {
+      "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles",
+      "link": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T17:43:48+00:00"
+    },
+    {
+      "title": "Amazon seeks federal approval to launch 5,105 satellites for direct-to-device network",
+      "link": "https://www.cnbc.com/2026/07/27/amazon-satellite-internet-network.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T17:42:47+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 유가 7% 급락에도 반도체 투매…나스닥 장중 0.63%↓ - 녹색경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VYjVtZWVveHY4dThiMnlIVUdKR1dLTWpxdU5VN1drSzBoU1dUY0w1ajVrTUFlSmVPVWJwc2pKWlMyUF9RWDJhM3NGS0xEbmctRGtES1FYckpCS3VFczdKZWs5bmJsVXpQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T17:41:48+00:00"
+    },
+    {
+      "title": "Comey asks judge to dismiss Trump 'seashells' case citing lack of 'true threat'",
+      "link": "https://www.cnbc.com/2026/07/27/james-comey-trump-seashells-threat.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T17:39:33+00:00"
+    },
+    {
+      "title": "Netanyahu, Zelenskyy come to DC for Graham's funeral, meetings with Trump amid wars",
+      "link": "https://www.cnbc.com/2026/07/27/trump-netanyahu-zelenskyy-iran-war-lindsey-graham-funeral.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T17:37:01+00:00"
+    },
+    {
+      "title": "Nvidia and OpenAI in talks for up to $250 billion dollar backstop to fund AI infrastructure plans",
+      "link": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T17:32:53+00:00"
+    },
+    {
+      "title": "‘It’s a high price to pay’: My adviser says I don’t need a withdrawal plan for my $2.3 million portfolio. Is he right?",
+      "link": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T17:30:00+00:00"
     },
     {
       "title": "Netflix woes setting up for a Hollywood ending, says trader Mike Khouw",
@@ -367,22 +457,10 @@
       "published": "2026-07-27T17:25:00+00:00"
     },
     {
-      "title": "Trump backs 'fantastic' Warsh while calling for lower rates and citing 'bad intentions' of other Fed officials",
-      "link": "https://www.cnbc.com/2026/07/27/trump-warsh-interest-rates.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T17:22:22+00:00"
-    },
-    {
       "title": "Consolidated food supply may be worsening cyclospora outbreaks, experts say",
       "link": "https://www.cnbc.com/2026/07/27/cyclospora-outbreak-food-industry-consolidation.html",
       "source": "CNBC Finance",
       "published": "2026-07-27T17:19:29+00:00"
-    },
-    {
-      "title": "Netanyahu, Zelenskyy come to DC for Graham's funeral, meetings with Trump amid wars",
-      "link": "https://www.cnbc.com/2026/07/27/trump-netanyahu-zelenskyy-iran-war-lindsey-graham-funeral.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T17:17:23+00:00"
     },
     {
       "title": "Trump Account signups reach 7 million — Bessent says it's 'the most successful launch in government history'",
@@ -409,12 +487,6 @@
       "published": "2026-07-27T17:00:01+00:00"
     },
     {
-      "title": "Comey asks judge to dismiss Trump 'seashells' case citing lack of 'true threat'",
-      "link": "https://www.cnbc.com/2026/07/27/james-comey-trump-seashells-threat.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T16:54:29+00:00"
-    },
-    {
       "title": "This small-cap fund is built to win the earnings-report games companies play",
       "link": "https://www.marketwatch.com/story/this-small-cap-stock-strategy-shines-by-riding-the-beat-and-raise-trend-24bee883?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -439,28 +511,10 @@
       "published": "2026-07-27T16:31:00+00:00"
     },
     {
-      "title": "잘 벌어도 '폭락'…빅테크·반도체 운명 가를 ‘AI 투자 청구서’[이번주 美 증시는] - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5POGEycmJpYXU3STU4QzNLT2o1MnlmenMzUUxxWjF6SWJENXdvREhFVUdFQkw0TnVRMG1nd1NnZDkyOTBOU1dQRy1odVJ1aFg0N040?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T16:30:46+00:00"
-    },
-    {
       "title": "Big Tech is forcing consumers to pay for its AI boom. Voters are pushing back.",
       "link": "https://www.marketwatch.com/story/is-your-ai-data-center-stock-vulnerable-to-voter-backlash-use-this-5-part-test-to-find-out-36f039fa?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-27T16:18:00+00:00"
-    },
-    {
-      "title": "Micron and other chip stocks fall as China steals the spotlight",
-      "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-fall-as-china-steals-the-spotlight-cff9d73c?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T16:17:00+00:00"
-    },
-    {
-      "title": "Why Boeing and Corning are moving in opposite directions and what to expect next",
-      "link": "https://www.cnbc.com/2026/07/27/why-boeing-corning-are-moving-in-opposite-directions-and-whats-next.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T16:09:09+00:00"
     },
     {
       "title": "NBCUniversal and YouTube ink deal to embed Peacock in the video platform for premium subscribers",
@@ -469,52 +523,16 @@
       "published": "2026-07-27T15:54:52+00:00"
     },
     {
-      "title": "Amazon seeks federal approval to launch 5,105 satellites for direct-to-device network",
-      "link": "https://www.cnbc.com/2026/07/27/amazon-satellite-internet-network.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T15:53:18+00:00"
-    },
-    {
-      "title": "CME launches single stock futures enabling investors to trade SpaceX, Micron and others 23 hours a day",
-      "link": "https://www.cnbc.com/2026/07/27/cme-launches-single-stock-futures-enabling-investors-to-trade-spacex-micron-23-hours-a-day.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T15:50:20+00:00"
-    },
-    {
       "title": "미국·이란, 공습 중단 ‘사흘째’…국제유가 하락·세계 증시 상승 - VOA 한국어 홈페이지",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5rRWhCQ0gxbnJmSVBHTGxIdFB5UkJJRTV3U2xOU3o2YjNqVFpkMENzX0ptWlQ4bl9JVG12SjlXb2tBTjRBeVM5OWdlQ29hVEU1Zlg0eFBNVm9uc2Jya2kwVzRRbVpIUy04blJDejBKdXJ2TEZUdmxNVkZB0gF8QVVfeXFMTl9oUFJmdUtYMG9LS2EtUm5KYzExZXc4UkNObnM5b05UZ0pLTzlTUUl4b3BlUmhLSnRPbFppdE5aRWdLNjl6M2Q2STQ4ZkFDRnp6UUxWT1M2WkpKcEM0T3RyT0Z5cDJDZ09CTFliMlpwR0ZQS0tVZk41T3J3cw?oc=5",
       "source": "Google News",
       "published": "2026-07-27T15:44:42+00:00"
     },
     {
-      "title": "Your retirement math may have a surprising flaw",
-      "link": "https://www.marketwatch.com/story/your-retirement-math-may-have-a-surprising-flaw-2d8f58d8?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T15:42:00+00:00"
-    },
-    {
-      "title": "Should you get paid to care for a family member?",
-      "link": "https://www.marketwatch.com/story/should-you-get-paid-to-care-for-a-family-member-70958828?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T15:28:00+00:00"
-    },
-    {
-      "title": "Oil prices slide, Brent crude below $90 as pause to U.S.-Iran hostilities appears to hold",
-      "link": "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T15:27:45+00:00"
-    },
-    {
       "title": "Sam Altman to meet with Trump administration, senators this week. Here's what he plans to say",
       "link": "https://www.cnbc.com/2026/07/27/altman-trump-china-open-weight-ai.html",
       "source": "CNBC Finance",
       "published": "2026-07-27T15:24:16+00:00"
-    },
-    {
-      "title": "The AI boom shows no sign of slowing — and the U.S. economy is reaping the benefits",
-      "link": "https://www.marketwatch.com/story/the-ai-boom-shows-no-sign-of-slowing-and-the-u-s-economy-is-reaping-the-benefits-1728c4e5?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T15:22:00+00:00"
     },
     {
       "title": "美증시, 반도체주식 급락에 나스닥 하락 전환 - 한국경제",
@@ -539,12 +557,6 @@
       "link": "https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html",
       "source": "CNBC Finance",
       "published": "2026-07-27T14:19:43+00:00"
-    },
-    {
-      "title": "U.S. and Iran pause fighting to give peace talks 'space.' Here's where negotiations stand",
-      "link": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T14:14:38+00:00"
     },
     {
       "title": "FOMC와 실적발표 몰린 주…美 증시, 국제유가 급락에 상승 - 한국경제",
@@ -625,12 +637,6 @@
       "published": "2026-07-27T09:40:08+00:00"
     },
     {
-      "title": "Cocoa prices are easing. So why is chocolate still so expensive?",
-      "link": "https://www.cnbc.com/2026/07/26/cocoa-prices-chocolate-lindt-barry-callebaut-nestle.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T09:39:57+00:00"
-    },
-    {
       "title": "[오늘의증시] AI 동맹에 반도체·코스닥 ‘활짝’…코스피 6755선 회복 - 경인방송 뉴스",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBxbXJiak1BMlA4NXJCaGkySVRJT1o5Z3J2MEt2NFhvS1FyRnNqTFg0aVFuRGRkSWJYclh1TFBGNGFCZVh5UVNaTTdCWVY0WklHN2llZGlGcVh2Y0tiZ3M5RHJXOUbSAWhBVV95cUxNTWIybnhGRDRQRjVmbFFrYWhMQ1ZQRkVwRjNIbzJxVFdoY1ZfYXg2YzlZYklDckMwSzBQcGtHVE1KV2h3RzAyb0dqdlE2LXQyYTFhdXpQTDlwNUcyLWRKaGtTaVVacjlvSQ?oc=5",
       "source": "Google News",
@@ -641,12 +647,6 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sM09ld3VFTkd5TXlOQXNTTUh6MTVUQ1dCNlZtZUZJQXE0SHhZWjZkTC1YSGM3VDhsQTRfbHlJMVNJWVJ5S0NjaVhNSjVGRXFWVFozbjhXS3Y5aVQ5LXB1QUZPb1VqNXpTa2Z2TTkyTENhdw?oc=5",
       "source": "Google News",
       "published": "2026-07-27T09:07:23+00:00"
-    },
-    {
-      "title": "중국 CXMT, 상하이 증시 상장 첫날 466% 폭등…중국 시총 1위 등극 - AI타임스",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52azRCZU85NVhWTS1saGVyc1NkVHYxV3NNeS1yQk0xc2FZTEFLMXpsbTllMlVDUWxCU0FSTHBpN0ZjQXJ5MHdzUlBBS1F3cFNqLXFKS2VwRmJfT1ItRTd3eFRLWm85OWFUR3c?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T09:05:12+00:00"
     }
   ],
   "pages": [
