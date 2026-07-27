@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27T05:50:32.387760+00:00",
+  "as_of": "2026-07-27T06:28:52.691208+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,42 @@
   ],
   "news": [
     {
+      "title": "AI는 숨 고르고, 정책은 전면으로…글로벌 증시 셈법 바뀌나 [글로벌 레이더] - 에너지경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PdVZzRG16T2djUHdrOHR3bmQ0YmJ1bDhIRUJrazhnY0VrVTBkR1pRUFpTYl9rTjRwajVFNVdHbnVNTVNkbk85LU5DeWR6QnczUlBvbGw5eGdISXV1aE0zVUhjZw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T06:13:57+00:00"
+    },
+    {
+      "title": "페퍼저축銀 최대주주 영국에서 한국 법인으로…경영 국내 일원화",
+      "link": "https://www.mk.co.kr/news/economy/12108403",
+      "source": "매일경제·증권",
+      "published": "2026-07-27T06:12:23+00:00"
+    },
+    {
+      "title": "‘D램 굴기’ CXMT, 화려한 데뷔…中 증시 1위 직행 - 중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WVHpaVnBhQk1vQl9VeWZ0bWI5bXk0d0hMQmVoVU5COXR3RVd5ekdtYTdncnRLTXZXQTJqYmhKWHNQaU9BWmhDVHJyU2ExTUtFOE5EYjFB?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T06:11:19+00:00"
+    },
+    {
+      "title": "원화값 1450원대 회복했지만…FOMC 경계감에 상승폭 반납",
+      "link": "https://www.mk.co.kr/news/economy/12108395",
+      "source": "매일경제·증권",
+      "published": "2026-07-27T06:03:25+00:00"
+    },
+    {
+      "title": "“재방문 많이 한 식당, 대출유리” 새 소상공인 신용평가 8월부터 시범운영",
+      "link": "https://www.mk.co.kr/news/economy/12108392",
+      "source": "매일경제·증권",
+      "published": "2026-07-27T05:56:39+00:00"
+    },
+    {
+      "title": "카카오페이손해보험, 갤럭시 파손 보장 기간 3년→5년으로 확대",
+      "link": "https://www.mk.co.kr/news/economy/12108390",
+      "source": "매일경제·증권",
+      "published": "2026-07-27T05:55:21+00:00"
+    },
+    {
       "title": "자동차 사고 보험금 두고 민원·소송 증가…보험료 할증 원인 된다는데",
       "link": "https://www.mk.co.kr/news/economy/12108367",
       "source": "매일경제·증권",
@@ -456,6 +492,12 @@
       "published": "2026-07-27T03:02:00+00:00"
     },
     {
+      "title": "\"美증시에 키옥시아 레버리지 ETF 9개 대기중\" - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93TWRXOTFVcmIybEpFWVo0X29nMm5yVDVndmFPbkVRalZqNk13a0h3cGo0MUk4ZXl0aU45WlQ3UVZkYkdFY21JRWpERlBUUmRkUUxTZkJ2Y2pHeVlqeVBhU9IBYEFVX3lxTE93TWRXOTFVcmIybEpFWVo0X29nMm5yVDVndmFPbkVRalZqNk13a0h3cGo0MUk4ZXl0aU45WlQ3UVZkYkdFY21JRWpERlBUUmRkUUxTZkJ2Y2pHeVlqeVBhUw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T02:57:12+00:00"
+    },
+    {
       "title": "亞 증시 혼조세 속 중국 창신 메모리 주가 470% 폭등[Asia오전] - 머니투데이 - 머니투데이",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12eUs0ZmhjM1hTU2JRRDNPeEVtZWxNYnMtc0NFaVk5dDFUMUdHclNsQ1hRZlJTNkxiRDMybENnQVVoRVJZVVlEMXlrN2wxLTJocGFJbHZFVVJyYmdDVk8xLWpheGY4cURH0gFuQVVfeXFMTkR1TGhwMXVjdTh3OUZlV0UzcDN2aFRoRXNaeVJzSUNqZUpocG5QV291eVhfbGR3aFdROHBQRkZTckRxQllkMWpBUUJEaE5WdThwRFpaVGk0ZmZ5a1BadWZtdjVWbF9qelFsVGpmWWc?oc=5",
       "source": "Google News",
@@ -478,12 +520,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LWmJMUGhOZDZUVnlKLTl1RXVzVFB5Z2tnSmIwRmdqWEJhbldiaEdHNDdLMjdWOGJmdG90OXZscjJ5aXFXWDE3Qld0RmxTcDNZX1ZWM2JUNEYtWVFHbjR4eURDRWpLQVZPSWMyb2RkNU0?oc=5",
       "source": "Google News",
       "published": "2026-07-27T02:14:55+00:00"
-    },
-    {
-      "title": "홍콩증시 '레버리지·인버스 ETF' 배율 매일 조정…\"변동성 대응\" - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nUnZZZmRHdVhnVk1RdjBiTlNXMVNQelAxcTBvX2xkYnk0MmxOSTZYSmFkbmlDTE9nYTlRaWdEQjNTQV8wY1ktb2RHbk9IX1lleS1hd1BsRFRPUmZxNlJYM1NfdEJ3eHBL0gFuQVVfeXFMUGFFSDBzQXlCZHdqNWVabGRtRjAwbGlmeFdfd0xGRjBzS01HSXpsUTRkbGR6QUkwRllMNlQtUGNjNWU4RGpNb2xOSkh2VHpOckhwdU1FRFpnMklTS045Q0ExdlFkQ1BmWUxKN05Yb0E?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T02:12:32+00:00"
     },
     {
       "title": "‘中반도체 첨병’ CXMT 상하이증시 상장…단숨에 中본토 시총 1위 - KBS 뉴스",
@@ -546,12 +582,6 @@
       "published": "2026-07-27T00:55:49+00:00"
     },
     {
-      "title": "증시 훈풍 올라탄 은행계 증권사, 순이익 2배 '껑충' - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM3pTMWRtRXVwVXpENlpkZC1jSENnZE5pcDNBZXk0T2tUbXZsUks3QzhvNHdtZ1VrdUVwY3RkUE1rSmE5Nkdmd21YbG00clI4RmNXT3RDaXdka0hvbXFEWmNLa0ljejhYM1B1Q3NFSnlUS2tOXzlmTDk1SlBzSFB1eGptRVduYm5D?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T00:49:45+00:00"
-    },
-    {
       "title": "국내 증시 조정에 `빚투`도 최저…증권가의 `장밋빛 전망`은 여전 - 매일신문",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5c3FXSXBkRG9NMzRfMndSNUlBak5lME9UYjhOUHlldHV5SkpLR2dNTjhHQktTeUhuYTRLeUIzTk5wMGh0LUdWYWtVQTRXWll0cTRLVTRhT19tWHZRcUl2OXN3?oc=5",
       "source": "Google News",
@@ -594,12 +624,6 @@
       "published": "2026-07-26T22:27:12+00:00"
     },
     {
-      "title": "[이 시각 세계] CXMT, 오늘 중국 본토 증시 데뷔 - MBC 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8za1ptME42NFY5WHlGN2hYdUtTcFhuaXVyQzRiNlJtNW9LU3JvRzRqYWJuTXE5bmt4cE1pby16c0R3NzlMRTNnU1g4X29ZMnAtZmtWRFFkUl9BZk5ZTWZBaXltNExobGlSTU1weWt1aGNkYlc1WXlqVldR?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T22:21:04+00:00"
-    },
-    {
       "title": "[증시전략] 빅테크 실적·FOMC 회의·중동까지…역대급 변동성 예고 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB6SUpNU18tWGQ2dlh1c3JKUHQ0ZWhWdnhzXzRDN3h3NGRxR2lGVUd2VmZ2ZEo1VktPcnBZRjBiTlFEdUMtV3ZiT1VYSHROQkE?oc=5",
       "source": "Google News",
@@ -628,30 +652,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11Z05iWVZaSVpHNURFdmo0SjRHMkRNZWxfN3M1OVQ2SkY2TXV0R04wZ0dBWHFqWGdxY0R0NzE3TjFfQmwzYktybTZLb1pJNm8?oc=5",
       "source": "Google News",
       "published": "2026-07-26T21:30:10+00:00"
-    },
-    {
-      "title": "중간선거는 증시에 부담이 될까? - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NR09sOFZIZklVMS13M0NmaGNEdzZheGtKQTJiWFNtUjJvMm9rWkhJckd1SUJnTENQVjA3UVN3RmZzUlBLNURLQURVb2V3VFBVektYei13QVJQQ05hdXVxRzQ2UzN3T3pYYXBjZXQwZXI?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T21:24:00+00:00"
-    },
-    {
-      "title": "코스피 6천대면 거저 아닌가요…은행 대기자금 41조, 다시 증시로",
-      "link": "https://www.mk.co.kr/news/economy/12107914",
-      "source": "매일경제·증권",
-      "published": "2026-07-26T21:19:21+00:00"
-    },
-    {
-      "title": "요동치는 증시 '안전망'…VI·사이드카·서킷브레이커 차이는[금알못] - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBEdkU0VDZiVXVtMEk2S2hvUDhtcXM2RHJJMUtrcjNGbGh4VVJhSFBiS2ttVEh3RzN3Tl8zVkxJM21JTFJuSG5Ccmo3cHYxdW9NX3hVSVRYTVhYcnFjVXVwcNIBeEFVX3lxTE11YkZNdmFBSTM3enp4Sm5MdFpkZUpwY2s2VFVrY3h6Y1V3YTc5TVZ5UDFoNUY5eHVZTGswRkpwZlVrUlktQ083YU9yREw2dzBqeUxkcHpwZFgzR2RGWFBmdzFzTnVNbVFocWVJc2l6YWtkc1l6aThPdA?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T21:00:00+00:00"
-    },
-    {
-      "title": "Here are the 3 big things we're watching in the stock market in the week ahead",
-      "link": "https://www.cnbc.com/2026/07/26/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-26T20:50:54+00:00"
     }
   ],
   "pages": [
