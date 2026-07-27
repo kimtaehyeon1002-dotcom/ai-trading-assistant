@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27T11:31:38.152202+00:00",
+  "as_of": "2026-07-27T12:51:07.946104+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,16 +349,88 @@
   ],
   "news": [
     {
-      "title": "Navigating the Fed’s next move? Why these trades may be an investor’s best weapon.",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+      "link": "https://www.cnbc.com/2026/07/27/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T12:48:22+00:00"
+    },
+    {
+      "title": "Federal Reserve is likely to hold interest rates steady. Here's what that means for consumers",
+      "link": "https://www.cnbc.com/2026/07/27/fed-interest-rates-july.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T12:15:01+00:00"
+    },
+    {
+      "title": "[오승호 칼럼] K-증시, 국격에 맞게 주식 관련 세제 정상화해야 - 디지털데일리",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55bTFMOVhVc2tRMHBiaHkxMHdhZDhOVHNLWnE0NEtYWkpwcUdPdjNDb2JGNUFESVUtcHRLTzFhU2xIdTl4VXhDcUFlSUk1c2hEc2tQa2hsdUFSSUR2UnJadnFObEI?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T12:12:04+00:00"
+    },
+    {
+      "title": "Would you take $65,000 today, or flip a coin for a chance to win $1.3 million?",
+      "link": "https://www.marketwatch.com/story/would-you-take-65-000-today-or-flip-a-coin-for-a-chance-to-win-1-3-million-d134961a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T12:06:00+00:00"
+    },
+    {
+      "title": "잘 벌어도 '폭락'…빅테크·반도체 운명 가를 ‘AI 투자 청구서’[이번주 美 증시는] - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5POGEycmJpYXU3STU4QzNLT2o1MnlmenMzUUxxWjF6SWJENXdvREhFVUdFQkw0TnVRMG1nd1NnZDkyOTBOU1dQRy1odVJ1aFg0N040?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T12:05:07+00:00"
+    },
+    {
+      "title": "Here’s how to use the salary ranges in job postings to get paid more",
+      "link": "https://www.marketwatch.com/story/heres-how-to-use-salary-transparency-laws-to-get-paid-more-a941c75f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T12:01:00+00:00"
+    },
+    {
+      "title": "For 44 years, this investor held aces in the long-bond game. He just folded.",
+      "link": "https://www.marketwatch.com/story/for-44-years-this-investor-held-aces-in-the-long-bond-game-he-just-folded-dcd39375?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T12:00:00+00:00"
+    },
+    {
+      "title": "U.S. and Iran pause fighting to give peace talks 'space.' Here's where negotiations stand",
+      "link": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T11:56:56+00:00"
+    },
+    {
+      "title": "He brought AI to Wall Street in 1994 — but won’t trust ChatGPT with his money",
+      "link": "https://www.marketwatch.com/story/he-brought-ai-to-wall-street-in-1994-but-wont-trust-chatgpt-with-his-money-b8abc031?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T11:50:00+00:00"
+    },
+    {
+      "title": "Is your AI data-center stock vulnerable to voter backlash? Use this 5-part test to find out.",
+      "link": "https://www.marketwatch.com/story/is-your-ai-data-center-stock-vulnerable-to-voter-backlash-use-this-5-part-test-to-find-out-36f039fa?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T11:43:00+00:00"
+    },
+    {
+      "title": "Europe wildfire in pictures: Gigantic fire cloud engulfing France, Spain regions",
+      "link": "https://www.cnbc.com/2026/07/27/wildfire-pictures-spain-france-bordeaux-heatwave.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T11:40:01+00:00"
+    },
+    {
+      "title": "Nvidia, SpaceX, Microsoft launch AI safety initiative as OpenAI cyberattack fallout continues",
+      "link": "https://www.cnbc.com/2026/07/27/nvidia-ai-initiative-openai-cyber-attack.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T11:32:45+00:00"
+    },
+    {
+      "title": "Navigating the Fed’s next move? Here’s why these trades may be an investor’s best weapon.",
       "link": "https://www.marketwatch.com/story/navigating-the-feds-next-move-why-these-trades-may-be-an-investors-best-weapon-7a7e80c0?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-27T11:22:00+00:00"
     },
     {
-      "title": "Nvidia, SpaceX, Microsoft launch AI safety initiative as OpenAI cyber attack fallout continues",
-      "link": "https://www.cnbc.com/2026/07/27/nvidia-ai-initiative-openai-cyber-attack.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T11:04:48+00:00"
+      "title": "[인도증시] 유가 하락에 투심 개선, 6거래일 만 상승...IT지수 ↑ - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52TkFhU1B1cy1aRlF2eWQ3aDdOdEFpUVZiR2pSanRUVDFnVGFXbmc0NEZmd0xNSDJ0WDdldEpmMHBsNE85dzdORmlSVVRrQTZSaUpPa3dOTi00OWJf?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T11:04:00+00:00"
     },
     {
       "title": "Apple options are doing something unusual into earnings",
@@ -385,12 +457,6 @@
       "published": "2026-07-27T10:15:00+00:00"
     },
     {
-      "title": "[올댓차이나] 홍콩 증시, 중동 긴장완화에 반등 마감…H주 1.14%↑ - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rR0s0dHE1cXpCNy1mS1VIZXlCYWtDcjJ1Z2JEaWZNbjZIVy1FZW4wSzU3Mm1BNVJUNUc0b2xGbmxXNWduY1FvREREMC1IXzc4SjltV1BkV3RDMnE4Y2F4btIBeEFVX3lxTE5wbUpGTmVvbjdMcDdHQU1CRVdPRDd6dE1nNng3U0RLSGYzMmdZbnN6SWlleHBiblFmRGRrMkVIRGh4NDF1VUxMdXZ6TlE0M0w0R3Q4aHF1VTl4V2VncjdkNWpjeTRVM2tYdnRuSHZhbFZ1UE1wQVVlNg?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T10:13:20+00:00"
-    },
-    {
       "title": "Oil prices see largest one-day declines in two months amid pause in strikes",
       "link": "https://www.marketwatch.com/story/oil-prices-see-largest-one-day-declines-in-two-months-amid-pause-in-strikes-d819160a?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -401,12 +467,6 @@
       "link": "https://www.cnbc.com/2026/07/27/ford-vehicle-customization-bronco.html",
       "source": "CNBC Finance",
       "published": "2026-07-27T10:00:01+00:00"
-    },
-    {
-      "title": "U.S. and Iran pause fighting to give peace talks 'space.' Here's where negotiations stand",
-      "link": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T09:55:17+00:00"
     },
     {
       "title": "Fivefold increase for Chinese chip maker CXMT in Shanghai debut",
@@ -449,18 +509,6 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sM09ld3VFTkd5TXlOQXNTTUh6MTVUQ1dCNlZtZUZJQXE0SHhZWjZkTC1YSGM3VDhsQTRfbHlJMVNJWVJ5S0NjaVhNSjVGRXFWVFozbjhXS3Y5aVQ5LXB1QUZPb1VqNXpTa2Z2TTkyTENhdw?oc=5",
       "source": "Google News",
       "published": "2026-07-27T09:07:23+00:00"
-    },
-    {
-      "title": "A look at Cher’s $85 million Malibu home, after she spent $1 million in legal fees in lawsuit",
-      "link": "https://www.marketwatch.com/story/a-look-at-chers-85-million-malibu-home-after-she-spent-1-million-in-legal-fees-in-lawsuit-6b42822c?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T09:03:00+00:00"
-    },
-    {
-      "title": "‘Ransom Canyon’ star Josh Duhamel: The self-described ‘doomsday prepper’ quickly sells $3.4 million L.A. home",
-      "link": "https://www.marketwatch.com/story/ransom-canyon-starjosh-duhamel-the-self-described-doomsday-prepper-quickly-sells-3-4-million-l-a-home-49acb826?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T09:02:00+00:00"
     },
     {
       "title": "초중고에 배정되는 교육세 1조…유아·대학교육 위해 운용 추진",
@@ -599,54 +647,6 @@
       "link": "https://www.mk.co.kr/news/economy/12108517",
       "source": "매일경제·증권",
       "published": "2026-07-27T07:38:13+00:00"
-    },
-    {
-      "title": "금융인재개발원, 사회금융교육강사 우수 인증 8월 본격 시행",
-      "link": "https://www.mk.co.kr/news/economy/12108467",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T07:11:16+00:00"
-    },
-    {
-      "title": "유럽 증시 급등…미·이란 긴장 완화에 유가 급락 - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10aGxvYTlubUVtQy1QbE9IQzBSaTZqakFhOFBMeV9JaW5HZGNxajE3UkRRNVV6ZWM1WWdoRW1QZmlVSVR6dG81TDhic014b1haV01FSDFKOVYtbWhObnlxdnRwV1drQjNfLU5UU19jRXY?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T07:09:00+00:00"
-    },
-    {
-      "title": "[증시-마감] 코스피, 장중 등락 끝에 1% 상승…6,750선 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWZzJKVUtHVjJrLU40Ty16a05Pd1BOaG5Wai1GUEhBQWhWdXVlRlRTU013QmN5d1ZZQlNreU1pVnNCNXdCMDcyX0VYNG92dEx6SG9VcWtSbEk4Rkw0MDVFanNkbTFwX2N0NVBJOTJpWEo?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T07:01:34+00:00"
-    },
-    {
-      "title": "[증시 레이더] 코스피, 장중 2% 급락 딛고 6,755 마감 - 포커스온경제",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42dG82RGVWWi1zMUROdUo1TjVaS3BNamd0SDZndlJNdm9BWkNPY3dpOHdNSlVoUm9UcDJweFpNcFYxMm8wOEJsUW9jQW0wZTNmUm1RekNYRkdJNUhXWFE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T06:47:39+00:00"
-    },
-    {
-      "title": "“미국 돈 보이면 꽉 잡고 안 푼다”…기업 달러예금 역대 최대",
-      "link": "https://www.mk.co.kr/news/economy/12108429",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T06:34:46+00:00"
-    },
-    {
-      "title": "AI는 숨 고르고, 정책은 전면으로…글로벌 증시 셈법 바뀌나 [글로벌 레이더] - 에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCWW42N3VxZWxiS0tXLXVKTUNlV2pNaEtjV0xfSGJtRGp6SnFBNGZxRzJOcmtuRnpYLWc2R1otNGc5LXp2TWo3SXY5YW9YMzZYT2NUUnppS21VLVE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T06:13:57+00:00"
-    },
-    {
-      "title": "‘D램 굴기’ CXMT, 화려한 데뷔…中 증시 1위 직행 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5nRkJ0cVhHMXRYSXZCTFNhV2t0ckdVcVRIU1FoeFlzb29RZVdfUmh6d3FZM2N3MXZoQ1FYUHlKOVYwR0VYaXVoWTBwZDFoQVU?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T06:13:07+00:00"
-    },
-    {
-      "title": "페퍼저축銀 최대주주 영국에서 한국 법인으로…경영 국내 일원화",
-      "link": "https://www.mk.co.kr/news/economy/12108403",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T06:12:23+00:00"
     }
   ],
   "pages": [
