@@ -5,8 +5,9 @@ collectors가 실행당 메모이즈하므로 한 실행에서 같은 데이터�
 """
 from __future__ import annotations
 
-from calculators import news_categories
+from calculators import news_categories, news_translate
 from collectors import kiwoom_collector, market_collector, news_collector
+from config.settings import NEWS_MAX_TRANSLATE_PER_RUN
 from models.market import Quote
 from models.news import NewsArticle
 from repositories import market_repository, news_repository
@@ -27,8 +28,14 @@ def get_market() -> dict[str, Quote | None]:
 
 
 def get_news() -> list[NewsArticle]:
-    """뉴스: 수집 → 검증(중복/결측/타임스탬프) → 모델 병합 저장 → 카테고리 부여."""
+    """뉴스: 수집 → 검증(중복/결측/타임스탬프) → 모델 병합 → 한글 번역 → 저장 → 카테고리 부여."""
     raw = runlog.run_step("News Research", news_collector.collect, fallback=[]) or []
     validated = news_validator.validate(raw)
-    merged = news_repository.merge_and_save(news_repository.to_articles(validated))
+    merged = news_repository.merge(news_repository.to_articles(validated))
+    runlog.run_step(
+        "Translator",
+        lambda: news_translate.translate_missing(merged, NEWS_MAX_TRANSLATE_PER_RUN),
+        fallback=merged,
+    )
+    news_repository.save(merged)
     return news_categories.assign(merged)

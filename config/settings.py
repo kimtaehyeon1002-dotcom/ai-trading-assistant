@@ -42,6 +42,10 @@ CLASSIFY = {
 NEWS_MAX_PER_CATEGORY = int(os.getenv("NEWS_MAX_PER_CATEGORY", "20"))
 NEWS_FETCH_LIMIT = int(os.getenv("NEWS_FETCH_LIMIT", "40"))
 BREAKING_WINDOW_MIN = int(os.getenv("BREAKING_WINDOW_MIN", "90"))
+# 실행당 신규 번역 상한(design/24 Phase A 확장) — 무료 비공식 번역 엔드포인트라 요청이 많으면
+# 느려지거나 차단될 수 있다. 상한을 두어 한 번의 빌드가 오래 걸리지 않게 하고, 못 채운 나머지는
+# 다음 실행(뉴스 cron 30분 간격)이 이어받는다(이미 번역된 기사는 재번역하지 않으므로 손실 없음).
+NEWS_MAX_TRANSLATE_PER_RUN = int(os.getenv("NEWS_MAX_TRANSLATE_PER_RUN", "40"))
 # 야간선물 표시 만료 — 평일/주말 이원화(design/23 P2).
 # 종전에는 평일에도 60h를 적용해, 이틀 전 야간 세션 값이 "오늘 새벽 시세"인 양 대시보드에
 # 남는 결함이 있었다(실제 사고: 07-22 23:12 값 -0.06%가 07-24 06:04 리포트까지 생존).

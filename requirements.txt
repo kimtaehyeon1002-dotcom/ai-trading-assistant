@@ -7,3 +7,4 @@ tzdata>=2024.1  ; platform_system == 'Windows'
 yfinance>=0.2.40
 finance-datareader>=0.9.90
 cryptography>=42
+deep-translator>=1.11  # 뉴스 한글 번역(design/24) — 무료 비공식 Google 번역, API 키 불필요

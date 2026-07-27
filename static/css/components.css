@@ -187,16 +187,19 @@
 /* ── 뉴스 리스트 행(design/03 §3-2) ── */
 .v2-news-list { display: flex; flex-direction: column; }
 .v2-news-list-row {
-  display: flex; align-items: baseline; gap: var(--space-3);
+  display: flex; align-items: flex-start; gap: var(--space-3);
   padding: var(--space-3) 0; border-bottom: 1px solid var(--border-subtle);
   position: relative;
 }
 .v2-news-list-row:last-child { border-bottom: none; }
 .lvl-l3.v2-news-list-row { padding-left: var(--space-3); border-left: 2px solid var(--text-primary); }
-.v2-news-list-row__headline { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* 헤드라인+한줄요약을 세로로 묶는 본문 열(design/24 Phase A) — 번역본 우선 표시 */
+.v2-news-list-row__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.v2-news-list-row__headline { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .lvl-l3 .v2-news-list-row__headline { font-size: 15px; font-weight: 600; color: var(--text-primary); }
 .lvl-l2 .v2-news-list-row__headline { font-size: var(--type-body-size); font-weight: 500; color: var(--text-primary); }
 .lvl-l1 .v2-news-list-row__headline { font-size: var(--type-body-size); font-weight: 400; color: var(--text-secondary); }
+.v2-news-list-row__summary { font-size: 13px; color: var(--text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .v2-news-list-row__meta { display: flex; flex-direction: column; align-items: flex-end; width: 148px; flex-shrink: 0; }
 .v2-news-list-row__source { font-size: var(--type-caption-size); color: var(--text-tertiary); }
 .v2-news-list-row__time { font-size: var(--type-caption-size); font-variant-numeric: tabular-nums; color: var(--text-tertiary); }

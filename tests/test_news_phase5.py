@@ -142,6 +142,44 @@ def test_merge_preserves_first_seen_at_across_rebuilds(tmp_path, monkeypatch):
     assert second[0].first_seen_at == original_seen, "재병합 시 first_seen_at을 덮어쓰면 안 된다"
 
 
+# ---------- merge()/save() 분리 + 번역 캐시 이어받기(design/24) ----------
+
+def test_merge_does_not_write_store(tmp_path, monkeypatch):
+    """merge()만으로는 저장소에 쓰지 않는다 — pipelines.get_news()가 그 사이에 번역을 끼워 넣는다."""
+    store = tmp_path / "news_articles.json"
+    monkeypatch.setattr(news_repository, "_STORE", store)
+    news_repository.merge([_article(link="http://x/1")])
+    assert not store.exists()
+
+
+def test_save_persists_what_merge_returned(tmp_path, monkeypatch):
+    store = tmp_path / "news_articles.json"
+    monkeypatch.setattr(news_repository, "_STORE", store)
+    merged = news_repository.merge([_article(title="기사", link="http://x/1")])
+    news_repository.save(merged)
+    assert store.exists()
+    reloaded = news_repository.load_store()
+    assert reloaded[0].title == "기사"
+
+
+def test_merge_carries_forward_translation_cache(tmp_path, monkeypatch):
+    """RSS에서 매번 새로 만들어지는 객체는 title_ko가 없다 — 저장소의 번역 캐시를 이어받아야
+    매 수집 주기마다 이미 번역된 기사를 재번역하는 비용이 발생하지 않는다(design/24)."""
+    store = tmp_path / "news_articles.json"
+    monkeypatch.setattr(news_repository, "_STORE", store)
+
+    a1 = _article(title="Fed cuts rates", link="http://x/stable")
+    a1.lang = "en"
+    first = news_repository.merge([a1])
+    first[0].title_ko, first[0].summary_ko = "연준 금리 인하", ""
+    news_repository.save(first)
+
+    a2 = _article(title="Fed cuts rates", link="http://x/stable")  # 같은 링크 = 재수집 시 새 객체
+    a2.lang = "en"
+    second = news_repository.merge([a2])
+    assert second[0].title_ko == "연준 금리 인하", "저장소의 번역 캐시를 이어받지 못했다"
+
+
 # ---------- NewsArticle 하위호환(design/20 Phase 5 체크리스트 2) ----------
 
 def test_news_article_from_dict_backward_compatible_without_new_fields():
