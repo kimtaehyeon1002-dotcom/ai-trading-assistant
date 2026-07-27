@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27T06:28:52.691208+00:00",
+  "as_of": "2026-07-27T07:38:57.221203+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,60 @@
   ],
   "news": [
     {
+      "title": "Spain and France wildfires force more than 300,000 to flee as Macron calls crisis meeting",
+      "link": "https://www.cnbc.com/2026/07/27/wildfires-spain-france-bordeaux-heatwave.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T07:20:18+00:00"
+    },
+    {
+      "title": "금융인재개발원, 사회금융교육강사 우수 인증 8월 본격 시행",
+      "link": "https://www.mk.co.kr/news/economy/12108467",
+      "source": "매일경제·증권",
+      "published": "2026-07-27T07:11:16+00:00"
+    },
+    {
+      "title": "유럽 증시 급등…미·이란 긴장 완화에 유가 급락 - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10aGxvYTlubUVtQy1QbE9IQzBSaTZqakFhOFBMeV9JaW5HZGNxajE3UkRRNVV6ZWM1WWdoRW1QZmlVSVR6dG81TDhic014b1haV01FSDFKOVYtbWhObnlxdnRwV1drQjNfLU5UU19jRXY?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T07:09:00+00:00"
+    },
+    {
+      "title": "[증시-마감] 코스피, 장중 등락 끝에 1% 상승…6,750선 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWZzJKVUtHVjJrLU40Ty16a05Pd1BOaG5Wai1GUEhBQWhWdXVlRlRTU013QmN5d1ZZQlNreU1pVnNCNXdCMDcyX0VYNG92dEx6SG9VcWtSbEk4Rkw0MDVFanNkbTFwX2N0NVBJOTJpWEo?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T07:01:34+00:00"
+    },
+    {
+      "title": "No.1 경제·증권 채널 : @HKWOWTV - 한국경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUJxNjNTVkVCY3EwY2dzYWVXY2tRaGlfaEJVQnhFeVFQQXE2dTZTV3lnMFRtdWdsa3VDOGRoNGh4SWItRzlCNHladFNVd094N3IwZGFSenV0Snh2S3JHUHZhLWx1dzltbVVQQUtqN3VlV1BjVi16Z3l6MEF5bTV6ZGcycXotYUp5MXZNMTRteVJFQVU0cXBjUjRIRWliUHpTYVdr?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T06:54:53+00:00"
+    },
+    {
+      "title": "홍콩 증시 레버리지 배율 '매일' 바꾼 D·A·I·L·Y 원칙 뭐길래 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IbmpUYVduSjhqUTY3SWh1S1JIU3hmcFdycGRIdU16cDVPV0RlV2FBY1RIT1NhLWNRYXduMW9LQy0zUUpUUlJNM2tSb19fY0xEUjR6d05BVzBqU0E1Nm02VHVwdnlERkky0gFuQVVfeXFMUFhEMUpYcVN1VXRnRjRJa2NKNWUyM0JTRG9vOEcwdDJKQmp3N2dGZ2ppUkUtXzc0elg2NlJYU1pJNnpjWDRRZjRLTG9yU0ZRZm5SUEhFRkgtZU5XWnVqeFBuMy1Yemk2NVNBWTVub3c?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T06:48:36+00:00"
+    },
+    {
+      "title": "[증시 레이더] 코스피, 장중 2% 급락 딛고 6,755 마감 - 포커스온경제",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42dG82RGVWWi1zMUROdUo1TjVaS3BNamd0SDZndlJNdm9BWkNPY3dpOHdNSlVoUm9UcDJweFpNcFYxMm8wOEJsUW9jQW0wZTNmUm1RekNYRkdJNUhXWFE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T06:47:39+00:00"
+    },
+    {
+      "title": "“미국 돈 보이면 꽉 잡고 안 푼다”…기업 달러예금 역대 최대",
+      "link": "https://www.mk.co.kr/news/economy/12108429",
+      "source": "매일경제·증권",
+      "published": "2026-07-27T06:34:46+00:00"
+    },
+    {
+      "title": "Oil slides 6% as Iran reportedly signals halt to attacks if U.S. pause holds",
+      "link": "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T06:31:21+00:00"
+    },
+    {
       "title": "AI는 숨 고르고, 정책은 전면으로…글로벌 증시 셈법 바뀌나 [글로벌 레이더] - 에너지경제신문",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PdVZzRG16T2djUHdrOHR3bmQ0YmJ1bDhIRUJrazhnY0VrVTBkR1pRUFpTYl9rTjRwajVFNVdHbnVNTVNkbk85LU5DeWR6QnczUlBvbGw5eGdISXV1aE0zVUhjZw?oc=5",
       "source": "Google News",
@@ -432,12 +486,6 @@
       "published": "2026-07-27T04:59:47+00:00"
     },
     {
-      "title": "Oil slides 5% as Iran reportedly signals halt to attacks if U.S. pause holds",
-      "link": "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T04:51:30+00:00"
-    },
-    {
       "title": "뉴욕증시, 이번 주 4대 복합 변수 시험대 - 글로벌이코노믹",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPakRhbDZITTdNSGQtQzVHd3hiZDV0cVNxQVhwTE1OSjlfVV95MlI4aWJ1MGRnU2Nmend0b0pXZHJ3dVIwbGJxRGYxNFIyN1cwRUI5RS1aY2t5SmxBblZKSHBkVXBhcGk0VkdULTZRWG9PS0szMTNkaEJrclJ0LXFiTmt2aE5ORm05?oc=5",
       "source": "Google News",
@@ -498,12 +546,6 @@
       "published": "2026-07-27T02:57:12+00:00"
     },
     {
-      "title": "亞 증시 혼조세 속 중국 창신 메모리 주가 470% 폭등[Asia오전] - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12eUs0ZmhjM1hTU2JRRDNPeEVtZWxNYnMtc0NFaVk5dDFUMUdHclNsQ1hRZlJTNkxiRDMybENnQVVoRVJZVVlEMXlrN2wxLTJocGFJbHZFVVJyYmdDVk8xLWpheGY4cURH0gFuQVVfeXFMTkR1TGhwMXVjdTh3OUZlV0UzcDN2aFRoRXNaeVJzSUNqZUpocG5QV291eVhfbGR3aFdROHBQRkZTckRxQllkMWpBUUJEaE5WdThwRFpaVGk0ZmZ5a1BadWZtdjVWbF9qelFsVGpmWWc?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T02:56:06+00:00"
-    },
-    {
       "title": "CXMT, 中증시 성공적 데뷔…본토 시총 1위 우뚝 - 전자신문",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3elI5VE1jdzBrY2IyRFJsQ0sxSzFLYnlidWxtUWxuNTFSQy1Ud3NzaGM3UEVrT2p0U3U3TS1LUThTRmgzMTB6NlAwekQ4UQ?oc=5",
       "source": "Google News",
@@ -546,6 +588,12 @@
       "published": "2026-07-27T01:36:53+00:00"
     },
     {
+      "title": "출발증시 1부 - 한국경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ2hON0wtSklxaklJRVhUbkFGaDA4SmZkelc4Q1FvNzNYMzdQUzJRdUJKcjY0NDBWWjJkaGNYR1NlanozSDVpaHNocUZySUMzQldDX1llb3Y3QlhmQ0ZocGQtcThQdkl4Rk1BR01OdG56Tm1oRzlRN2h5TjdFQnN6R09zNXdWOXk4ZjdlQzlUSE0tbGFlSmM4MlB6NEg4SWJhenZV?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T01:24:29+00:00"
+    },
+    {
       "title": "“10만원 연체했는데 신용점수 55점 깎여”...벼랑 끝 몰리는 취약계층",
       "link": "https://www.mk.co.kr/news/economy/12108102",
       "source": "매일경제·증권",
@@ -576,22 +624,10 @@
       "published": "2026-07-27T00:57:44+00:00"
     },
     {
-      "title": "출발증시 1부 - 한국경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ2hON0wtSklxaklJRVhUbkFGaDA4SmZkelc4Q1FvNzNYMzdQUzJRdUJKcjY0NDBWWjJkaGNYR1NlanozSDVpaHNocUZySUMzQldDX1llb3Y3QlhmQ0ZocGQtcThQdkl4Rk1BR01OdG56Tm1oRzlRN2h5TjdFQnN6R09zNXdWOXk4ZjdlQzlUSE0tbGFlSmM4MlB6NEg4SWJhenZV?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T00:55:49+00:00"
-    },
-    {
       "title": "국내 증시 조정에 `빚투`도 최저…증권가의 `장밋빛 전망`은 여전 - 매일신문",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5c3FXSXBkRG9NMzRfMndSNUlBak5lME9UYjhOUHlldHV5SkpLR2dNTjhHQktTeUhuYTRLeUIzTk5wMGh0LUdWYWtVQTRXWll0cTRLVTRhT19tWHZRcUl2OXN3?oc=5",
       "source": "Google News",
       "published": "2026-07-27T00:36:14+00:00"
-    },
-    {
-      "title": "[0727개장체크] 美증시, 반도체 업종 매도세 집중되며 혼조세 - 인포스탁데일리",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JY3JiTnlCNzhNZGt5bjdYMklaRGVOUVhHOGhKTmhQU0g5LS1hMGtBN0t3eEg1V21qTGtfZjZpVHNmN0NJZk1JRXN4S3h4RGlJOXppQmlIcHhiNjZURjdiWW4tQUtGbm5vajJxM0RlYURMOFFNaEE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T00:16:52+00:00"
     },
     {
       "title": "Here's the tech stock to buy in a market losing patience with tech",
@@ -616,42 +652,6 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA4aVpUalg2b3h4V3NQWXJuSnRXMmtMRmMxcXBsRVB3dG8yanlTOUVJU08wajNVRC13TS1GS2xySUpxajV0Q2VzQkNPOS0yOGU3YkJNcg?oc=5",
       "source": "Google News",
       "published": "2026-07-26T22:58:00+00:00"
-    },
-    {
-      "title": "[서학개미 브리핑] 투자자 예탁금 100조원선 유지…美증시 순매수액 4배↑ - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CSzFmX05WeEx1VWZJX3VLSThRQ2wxWmZ6R19Rdlk2Yk5fWVFCOXFwS29ZRUlRUmVQRnNsV2JxN0NVUFk2em10aUw2TWFPZzg?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T22:27:12+00:00"
-    },
-    {
-      "title": "[증시전략] 빅테크 실적·FOMC 회의·중동까지…역대급 변동성 예고 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB6SUpNU18tWGQ2dlh1c3JKUHQ0ZWhWdnhzXzRDN3h3NGRxR2lGVUd2VmZ2ZEo1VktPcnBZRjBiTlFEdUMtV3ZiT1VYSHROQkE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T22:10:18+00:00"
-    },
-    {
-      "title": "매경이 전하는 세상의 지식 (매-세-지, 7월 27일)",
-      "link": "https://www.mk.co.kr/news/economy/12107800",
-      "source": "매일경제·증권",
-      "published": "2026-07-26T22:00:00+00:00"
-    },
-    {
-      "title": "매경이 전하는 세상의 지식 (매-세-지, 7월 27일)",
-      "link": "https://www.mk.co.kr/news/economy/12107809",
-      "source": "매일경제·증권",
-      "published": "2026-07-26T22:00:00+00:00"
-    },
-    {
-      "title": "美 기업 실적낙관 15년 만에 최고, 증시는 제자리 - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ1NfZVg0dTBuRUJ0Q2l2Tml2VllYTmhOZXF0NWNrMlNYYl9VNEwwR2ZYOGpyZS1Ec3loTVF1Zk5QYW5HRi0tRDhuZkNuSXkyc3RBUUJFT0ZDSFhyZzZQaDRxRHhXVlg1bDFQT0dQc0V6VmcyeXJQcW9zUGdUQmZxS1hDNGQ5ckls?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T21:36:59+00:00"
-    },
-    {
-      "title": "[외신 헤드라인] 창신메모리, 오늘 中 본토 증시 상장 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11Z05iWVZaSVpHNURFdmo0SjRHMkRNZWxfN3M1OVQ2SkY2TXV0R04wZ0dBWHFqWGdxY0R0NzE3TjFfQmwzYktybTZLb1pJNm8?oc=5",
-      "source": "Google News",
-      "published": "2026-07-26T21:30:10+00:00"
     }
   ],
   "pages": [
