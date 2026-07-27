@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27T10:28:43.770864+00:00",
+  "as_of": "2026-07-27T11:31:38.152202+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,16 +349,58 @@
   ],
   "news": [
     {
+      "title": "Navigating the Fed’s next move? Why these trades may be an investor’s best weapon.",
+      "link": "https://www.marketwatch.com/story/navigating-the-feds-next-move-why-these-trades-may-be-an-investors-best-weapon-7a7e80c0?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T11:22:00+00:00"
+    },
+    {
+      "title": "Nvidia, SpaceX, Microsoft launch AI safety initiative as OpenAI cyber attack fallout continues",
+      "link": "https://www.cnbc.com/2026/07/27/nvidia-ai-initiative-openai-cyber-attack.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T11:04:48+00:00"
+    },
+    {
+      "title": "Apple options are doing something unusual into earnings",
+      "link": "https://www.cnbc.com/2026/07/27/apple-options-are-doing-something-unusual-into-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T10:58:27+00:00"
+    },
+    {
+      "title": "Why Trump's new tariff blitz is very different this time around",
+      "link": "https://www.cnbc.com/2026/07/27/donald-trump-tariffs-trade-war-iran.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T10:47:12+00:00"
+    },
+    {
+      "title": "[亞증시-종합] CXMT 466% 급등 마감…中·홍콩 상승 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aMmN5d1ZZZzJGMExyU3ZmTzR6blBibmdOLVZlUklwWVp5ZU1GN21oTnE5NkQzUzZpeUVWNlBxR0pCVnZRTmdvZ2NxTkJGcGxaSWFUb3U2clRoQUd0dFlPMndTN3djUUt6dUY5RXQxN3E?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T10:18:00+00:00"
+    },
+    {
       "title": "‘It’s a high price to pay’: My adviser says I don’t need a withdrawal plan for my $2.3 million portfolio. Is he right?",
       "link": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-27T10:15:00+00:00"
     },
     {
+      "title": "[올댓차이나] 홍콩 증시, 중동 긴장완화에 반등 마감…H주 1.14%↑ - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rR0s0dHE1cXpCNy1mS1VIZXlCYWtDcjJ1Z2JEaWZNbjZIVy1FZW4wSzU3Mm1BNVJUNUc0b2xGbmxXNWduY1FvREREMC1IXzc4SjltV1BkV3RDMnE4Y2F4btIBeEFVX3lxTE5wbUpGTmVvbjdMcDdHQU1CRVdPRDd6dE1nNng3U0RLSGYzMmdZbnN6SWlleHBiblFmRGRrMkVIRGh4NDF1VUxMdXZ6TlE0M0w0R3Q4aHF1VTl4V2VncjdkNWpjeTRVM2tYdnRuSHZhbFZ1UE1wQVVlNg?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T10:13:20+00:00"
+    },
+    {
       "title": "Oil prices see largest one-day declines in two months amid pause in strikes",
       "link": "https://www.marketwatch.com/story/oil-prices-see-largest-one-day-declines-in-two-months-amid-pause-in-strikes-d819160a?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-27T10:06:00+00:00"
+    },
+    {
+      "title": "Ford wants more customers to customize vehicles to boost profits as it eyes 'Nike shoe drop' moments",
+      "link": "https://www.cnbc.com/2026/07/27/ford-vehicle-customization-bronco.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T10:00:01+00:00"
     },
     {
       "title": "U.S. and Iran pause fighting to give peace talks 'space.' Here's where negotiations stand",
@@ -421,25 +463,19 @@
       "published": "2026-07-27T09:02:00+00:00"
     },
     {
-      "title": "공급 확대 요청에 … 국토장관 \"그린벨트 해제 강한 열망\"",
-      "link": "https://www.mk.co.kr/news/economy/12108710",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T08:57:56+00:00"
-    },
-    {
-      "title": "[단독] 초중고에 배정되는 교육세 1조 … 유아·대학교육 위해 운용 추진",
+      "title": "초중고에 배정되는 교육세 1조…유아·대학교육 위해 운용 추진",
       "link": "https://www.mk.co.kr/news/economy/12108708",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:57:55+00:00"
     },
     {
-      "title": "'전기먹는 하마' 데이터센터…전력사용 매년 10%씩 늘었다",
+      "title": "'전기먹는 하마' 데이터센터 … 전력사용 매년 10%씩 늘었다",
       "link": "https://www.mk.co.kr/news/economy/12108703",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:56:44+00:00"
     },
     {
-      "title": "韓, 환율 방어에 280억弗 풀어 … 美재무부 \"개입 규모 세계 3위\"",
+      "title": "韓, 환율 방어에 280억弗 풀어…美재무부 \"개입 규모 세계 3위\"",
       "link": "https://www.mk.co.kr/news/economy/12108688",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:53:54+00:00"
@@ -451,7 +487,7 @@
       "published": "2026-07-27T08:53:53+00:00"
     },
     {
-      "title": "해상풍력 발전단가 인하 '가속' 2035년 kWh당 300원→150원으로",
+      "title": "해상풍력 발전단가 인하 '가속'…2035년 kwh당 300원→150원으로",
       "link": "https://www.mk.co.kr/news/economy/12108687",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:53:53+00:00"
@@ -469,7 +505,7 @@
       "published": "2026-07-27T08:46:51+00:00"
     },
     {
-      "title": "'메가 프로젝트' 반영 미루고 … 천연가스 수요 줄어든다는 정부",
+      "title": "탈탄소에 천연가스 수요 준다는 정부 … 메가프로젝트 아직 반영 못해",
       "link": "https://www.mk.co.kr/news/economy/12108660",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:45:36+00:00"
@@ -505,8 +541,8 @@
       "published": "2026-07-27T08:23:09+00:00"
     },
     {
-      "title": "\"단골 많은 가게, 대출 더 해드려요\"",
-      "link": "https://www.mk.co.kr/news/economy/12108587",
+      "title": "\"늘어난 이익만큼 취약층 더 지원\" …은행 법정출연금 수술대 오르나",
+      "link": "https://www.mk.co.kr/news/economy/12108585",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:23:08+00:00"
     },
@@ -517,8 +553,8 @@
       "published": "2026-07-27T08:23:08+00:00"
     },
     {
-      "title": "\"늘어난 이익만큼 취약층 더 지원\" …은행 법정출연금 수술대 오르나",
-      "link": "https://www.mk.co.kr/news/economy/12108585",
+      "title": "\"단골 많은 가게, 대출 더 해드려요\"",
+      "link": "https://www.mk.co.kr/news/economy/12108587",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:23:08+00:00"
     },
@@ -527,12 +563,6 @@
       "link": "https://www.mk.co.kr/news/economy/12108584",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:23:07+00:00"
-    },
-    {
-      "title": "[亞증시-종합] CXMT 466% 급등 마감…中·홍콩 상승 - KB Think",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PZlpsVnYtSnVqZXFWdXBPNGlwSW52ZV90dVdHeFl6cERPQlNrTktoV2JNZW0xUnhlc1FYb1BXazk2R2h5R2RkMUF3LXR2TkdwaklzcXY3SEI5azFBQjMydndleG1yOVlMbWRvaUlOX242Zw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T08:18:00+00:00"
     },
     {
       "title": "오늘의 증시 - MBC 뉴스",
@@ -601,12 +631,6 @@
       "published": "2026-07-27T06:34:46+00:00"
     },
     {
-      "title": "中 CXMT, 상장 첫날 상하이증시 시총 1위…메모리 빅3 위협 - MTN 머니투데이방송",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DWEo0RjE4VVdBMWkxT2laQnNXdkRNd1QtR3lUS1ZmM1BrYlFicFRyUTZ1S1BXOGdQQjJVc2Jrb3VwMnpLMlNIRHF2cXdtdmoxTlQyMlR1SkFHRTVMVGxUYzZNb00?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T06:30:35+00:00"
-    },
-    {
       "title": "AI는 숨 고르고, 정책은 전면으로…글로벌 증시 셈법 바뀌나 [글로벌 레이더] - 에너지경제신문",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCWW42N3VxZWxiS0tXLXVKTUNlV2pNaEtjV0xfSGJtRGp6SnFBNGZxRzJOcmtuRnpYLWc2R1otNGc5LXp2TWo3SXY5YW9YMzZYT2NUUnppS21VLVE?oc=5",
       "source": "Google News",
@@ -623,30 +647,6 @@
       "link": "https://www.mk.co.kr/news/economy/12108403",
       "source": "매일경제·증권",
       "published": "2026-07-27T06:12:23+00:00"
-    },
-    {
-      "title": "원화값 1450원대 회복했지만…FOMC 경계감에 상승폭 반납",
-      "link": "https://www.mk.co.kr/news/economy/12108395",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T06:03:25+00:00"
-    },
-    {
-      "title": "“재방문 많이 한 식당, 대출유리” 새 소상공인 신용평가 8월부터 시범운영",
-      "link": "https://www.mk.co.kr/news/economy/12108392",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T05:56:39+00:00"
-    },
-    {
-      "title": "카카오페이손해보험, 갤럭시 파손 보장 기간 3년→5년으로 확대",
-      "link": "https://www.mk.co.kr/news/economy/12108390",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T05:55:21+00:00"
-    },
-    {
-      "title": "자동차 사고 보험금 두고 민원·소송 증가…보험료 할증 원인 된다는데",
-      "link": "https://www.mk.co.kr/news/economy/12108367",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T05:37:54+00:00"
     }
   ],
   "pages": [
