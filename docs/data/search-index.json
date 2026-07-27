@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27T23:36:47.509037+00:00",
+  "as_of": "2026-07-27T23:56:15.006116+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,16 +354,46 @@
   ],
   "news": [
     {
+      "title": "[0728개장체크] 美증시, 유가 급락에도 반도체 약세에 혼조 마감 By 인포스탁데일리 - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qTEVvNEdTLUd2THhoSEcxVkhRaE54Q2N6OXdrM2xCcEIwVk1KbE95TEV2bkw0cjVkWTctMmZ4Z0Rway1tRlMzNHdlVjhLYURfdU4tX3JlOGQ5c1BxR2VNbTU0eGp1dV9Ia2hGYUkyVWQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T23:46:00+00:00"
+    },
+    {
+      "title": "[개장] 뉴욕증시, 반도체주 부진 속 혼조 마감..엔비디아 5%↓ By 알파경제 alphabiz - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE43ZGVoOGRvRVM3aXctcllYaVRHd1BVXzNFUnY1UnE3MHVRbjNOeWw0TlZtN3VUZ2s1c1VHZVkxLTJHaUFWYmNuWnJXeUZacGhVWnZyTGhFbHJ0SktxcTA0Mm0tM2lGZll1M3RlMzFCU0Y?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T23:46:00+00:00"
+    },
+    {
+      "title": "뉴욕증시 혼조 마감…나스닥 0.18% 하락 - 서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1iNnV0V2FmT3ByQnl3OVZnTEpVbHcwbUJoT1l0a1ptT0VvVXhtbHpWNUE1bThSdlVsaFZMSUR5OWE0RmhkdUtwdXo2Wm0wQzVOS1Fya3Z3dWJJVXZPRmJpWU5UN0E?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T23:40:21+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 반도체주 매도세에 혼조…나스닥 0.18%↓ - 신아일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vU3pUb1EzdFpnZmpfUzlNcEsxdEwzNmtBSWVWWjhPNk96aUlqRzYyYml5RG1oZjJVRnhQUlpEaHJKWHVhN3BFR1ZiMlBnSThzRmZ6dmM1bUVJRzdjV05Wc1JrNC10VGJOSDZILVJUOVQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T23:31:58+00:00"
+    },
+    {
       "title": "[증시 포인트] 하락 출발 전망...반도체주, 변동성 확대 가능성 - 오피니언뉴스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6WDMyUUh3SFdOc1lZUl9LenRIRGwzR0RMVkZsalpaQXVLSTRJWmh5MDExNktUS3haNUFHcUVkeDlfb2VRYUp5YVFHMWQ0TkRDbkkzd0FPOUpQck15aVNvQl9zeV9TQjRhWkE0VWVzRkM?oc=5",
       "source": "Google News",
       "published": "2026-07-27T23:25:14+00:00"
     },
     {
-      "title": "[모닝 리포트] \"미 반도체 약세에 국내 증시 하락 출발 예상\" - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPU1c3WWstX1RDczNKVU8wUWVQTUwxRVhWQjhYbnozRW9DenN0MHdkN3RyblZCaXA4Wm8taGd1MmNPand5blN1NHpoakE5a19WUXpWRkpaLTh1bS1K?oc=5",
+      "title": "뉴욕증시, 유가 급락에도 혼조 마감... 엔비디아 5% ↓ - 조세일보",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YUWlDLTFrS3dpazdhYkRaRTNuUnhQMGo0cjg0TzZERVpLUWFDR3BkdFg4MHgtaHpnQmt1WEZ4WlNETHpydTFKZlJpWkhFTkh2ZV85cTNQQkhpWFZyNWoyaG5WV0lDNTZTZ0dYV2doQXVsLUgw?oc=5",
       "source": "Google News",
-      "published": "2026-07-27T23:04:00+00:00"
+      "published": "2026-07-27T23:25:00+00:00"
+    },
+    {
+      "title": "[굿모닝 증시]美 반도체주 급락…국내 증시 하락출발 전망 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkZmhOUFNSUjQ4Y1g2dVB5dk10YWc3cWp0Z3V0V2NFWDhySFMzbkNDbDUtV2xDa1F2ZEJ6X0xMa1hyaGdvWmZYS29ZallsU2s?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T23:05:27+00:00"
     },
     {
       "title": "CNBC's The China Connection newsletter: A U.S.-China debate that's becoming bigger than tariffs",
@@ -382,18 +412,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qbFl6X1Y1N1M5ZDNsUDhidW1PTTd0VldySS1TU3JJYWJ0VFFxdjhWSTE5QWhRYllLeU1JN2lRemtpeVpGUDh3dmx0ZU10d0htQjZUM3RlZm56QQ?oc=5",
       "source": "Google News",
       "published": "2026-07-27T22:53:26+00:00"
-    },
-    {
-      "title": "[0728개장체크] 美증시, 유가 급락에도 반도체 약세에 혼조 마감 - 인포스탁데일리",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9maFNveHVBQm56b0R0a3EyREFFcTVaWllxeW1SSE9XbkJ1NkNXM2t4eHBkNERFV1lCa0RNTjZCNHJoZVlOTk1pQkhVNHhxYld2cmdzMlRwUnlxckFHZE04Z0tRQ0FJd2NEY21JcFpCaUxYWnM2SUE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T22:49:15+00:00"
-    },
-    {
-      "title": "유가 급락 속 뉴욕증시 혼조 마감 - MBC 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBTUklGWWQxeVRUU1ZEN2h3Z29QTG13VXp1aVVaRmVEb0tjWDhjYmMzM2xDM3FQLXJlNlZ5Y29ReGs3SjJMOVJUbU5ZUDdXNVJfRmJuYUhjSW9KZ2UyaGM0LXM0OHp0eTJtU1ZvWG10YUVSaS1obDdOTzB3?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T22:44:37+00:00"
     },
     {
       "title": "뉴욕증시, 유가 급락에도 반도체주 약세···S&P500은 ‘보합’ - 경향신문",
@@ -444,12 +462,6 @@
       "published": "2026-07-27T21:53:05+00:00"
     },
     {
-      "title": "[글로벌증시] 뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락 - 연합뉴스TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xSG1UWEVTRDFqRXJXaHVkM0dYYlhoNGswbk1uS0NVNlhvZzN5bjk3ekNfejVSV2ZybmVDejZRRV9MR2NtMDVNd0Vod3VHYnhyNzlHVVk5WkFTTEs4aXJMLW1VdDJIYVE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T21:49:00+00:00"
-    },
-    {
       "title": "‘I feel lucky’: I’m 71 and inherited $20,000. What should I do with this money?",
       "link": "https://www.marketwatch.com/story/i-feel-lucky-im-71-and-inherited-20-000-what-should-i-do-with-this-money-1ab90925?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -498,12 +510,6 @@
       "published": "2026-07-27T21:21:00+00:00"
     },
     {
-      "title": "[서울데이터랩]미국 증시 혼조 출발…다우 강세·나스닥 약세, 반도체주 조정 - 서울신문",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00bV9XTVhxRUpCVVJnaVAyYm9vcXBlOWVPNmVsZU44OWpaRHp4Y05UZlFkOTdPUHVRRG85ZDQtMDFNMnhxR1NpUUNzN3c1ZzhpcmJJdExHZC14eUlYdFEwTUZXLUpwZzA0YXI4blJ2RloyWGtocWdFTDBoYi1qUQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T21:20:58+00:00"
-    },
-    {
       "title": "Apple ends day as world's most valuable company, passing Nvidia",
       "link": "https://www.cnbc.com/2026/07/27/apple-most-valuable-company-nvidia.html",
       "source": "CNBC Finance",
@@ -544,6 +550,12 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaUUpUdFpHNG1vbzhIMWpfd0hwOHNSWTM2SnctNE1NcFR3TGtmS2ZyaDJTWG96bG50NEJGNzJxVFhETXBmNzhJN3pEZ01HVDI5RnNZc0toMElJODg?oc=5",
       "source": "Google News",
       "published": "2026-07-27T20:59:00+00:00"
+    },
+    {
+      "title": "시가총액 1위로 올라선 애플, 혼조세 보인 뉴욕 증시 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd0tyQjAxVElFZVZHN2hkWjVUT2xCcHk0ZklQd2lXQjNzNE55RUxzVnd0RVNsWnVfa2gwVW5tdFlfNDRKaF9jMG9NakJqbjZtUURXWVg5QTVKdkFHeWs3ci1rVkJNVDFtMmU5and5ajRDb2RQRG9qc1QxTWRqQ0pQMWlaODgtN1lKMzh2clRPeVBGektFbzk3eDBDSV9pdw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T20:54:00+00:00"
     },
     {
       "title": "From 'oil' to 'shock',  here's what Kalshi traders expect Fed Chairman Kevin Warsh will say this week",
@@ -640,18 +652,6 @@
       "link": "https://www.cnbc.com/2026/07/27/ai-industry-risk-future-regulation.html",
       "source": "CNBC Finance",
       "published": "2026-07-27T19:22:12+00:00"
-    },
-    {
-      "title": "Crypto stocks rally thanks to rotation from AI infrastructure; bitcoin miners lag",
-      "link": "https://www.cnbc.com/2026/07/27/crypto-stocks-rally-thanks-to-rotation-from-ai-infrastructure-bitcoin-miners-lag.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T19:14:30+00:00"
-    },
-    {
-      "title": "Netanyahu, Zelenskyy come to DC for Graham's funeral, meetings with Trump amid wars",
-      "link": "https://www.cnbc.com/2026/07/27/trump-netanyahu-zelenskyy-iran-war-lindsey-graham-funeral.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T19:08:10+00:00"
     }
   ],
   "pages": [
