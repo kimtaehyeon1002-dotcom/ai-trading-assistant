@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T05:39:27.018513+09:00",
+  "generated_at": "2026-07-28T06:03:00.185994+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-07-28T05:39:00.787923+09:00",
+      "last_built": "2026-07-28T06:02:34.546705+09:00",
       "expected_T_min": null,
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-28T05:39:18.606379+09:00",
+      "last_built": "2026-07-28T06:02:35.667307+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 8375
+      "duration_ms": 7630
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,28 +52,28 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-28T05:39:18.606366+09:00",
+      "last_built": "2026-07-28T06:02:43.333305+09:00",
       "expected_T_min": null,
-      "items": 1,
+      "items": 0,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-28T05:39:00.824659+09:00",
+      "last_built": "2026-07-28T06:02:43.334209+09:00",
       "expected_T_min": 30,
       "items": 140,
-      "duration_ms": 2867
+      "duration_ms": 3055
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-07-28T05:39:03.692969+09:00",
+      "last_built": "2026-07-28T06:02:46.390585+09:00",
       "expected_T_min": null,
       "items": 140,
-      "duration_ms": 10165
+      "duration_ms": 13762
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-28T05:39:27.010758+09:00",
+      "last_built": "2026-07-28T06:03:00.178124+09:00",
       "expected_T_min": null,
       "items": 3,
       "duration_ms": 0
@@ -101,24 +101,24 @@
     },
     "Macro FRED": {
       "status": "completed",
-      "last_built": "2026-07-28T04:12:56.812358+09:00",
+      "last_built": "2026-07-28T06:02:34.587733+09:00",
       "expected_T_min": null,
       "items": 5,
       "duration_ms": 0
     },
     "Macro ECOS": {
       "status": "completed",
-      "last_built": "2026-07-28T04:12:56.812462+09:00",
+      "last_built": "2026-07-28T06:02:34.587842+09:00",
       "expected_T_min": null,
       "items": null,
       "duration_ms": 0
     },
     "Macro Upbit": {
       "status": "completed",
-      "last_built": "2026-07-28T04:12:56.812480+09:00",
+      "last_built": "2026-07-28T06:02:34.587866+09:00",
       "expected_T_min": null,
       "items": 3,
-      "duration_ms": 1128
+      "duration_ms": 1079
     }
   }
 }
