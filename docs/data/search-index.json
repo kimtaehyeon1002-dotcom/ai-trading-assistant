@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27T14:11:58.383926+00:00",
+  "as_of": "2026-07-27T14:25:23.139877+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,6 +349,36 @@
   ],
   "news": [
     {
+      "title": "Singapore tightens monetary policy in surprise move as rising oil prices rekindle inflation risk",
+      "link": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T14:22:15+00:00"
+    },
+    {
+      "title": "Sam Altman to meet with Trump administration, Senators this week. Here's what he plans to say",
+      "link": "https://www.cnbc.com/2026/07/27/altman-trump-china-open-weight-ai.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T14:21:48+00:00"
+    },
+    {
+      "title": "Europe wildfire in pictures: Gigantic fire cloud engulfing France, Spain regions",
+      "link": "https://www.cnbc.com/2026/07/27/wildfire-pictures-spain-france-bordeaux-heatwave.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T14:20:42+00:00"
+    },
+    {
+      "title": "Chipmaker CXMT’s 466% market debut surge makes it the most valuable China-listed company",
+      "link": "https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T14:19:43+00:00"
+    },
+    {
+      "title": "Could voter rage over AI data centers tank your utility stocks? Run this 5-part risk test to find out.",
+      "link": "https://www.marketwatch.com/story/is-your-ai-data-center-stock-vulnerable-to-voter-backlash-use-this-5-part-test-to-find-out-36f039fa?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-27T14:15:00+00:00"
+    },
+    {
       "title": "Policy uncertainty is muddling retirement planning — and advisers are just as confused",
       "link": "https://www.marketwatch.com/story/policy-uncertainty-is-muddling-retirement-planning-and-advisers-are-just-as-confused-3381f10e?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -415,12 +445,6 @@
       "published": "2026-07-27T13:00:29+00:00"
     },
     {
-      "title": "Europe wildfire in pictures: Gigantic fire cloud engulfing France, Spain regions",
-      "link": "https://www.cnbc.com/2026/07/27/wildfire-pictures-spain-france-bordeaux-heatwave.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T12:59:37+00:00"
-    },
-    {
       "title": "뉴욕증시 프리뷰, 유가 급락에 주가선물 상승…FOMC·빅테크 실적 대기 - 뉴스핌",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KRmJqckpmQUgyanlEYl96R3NSOTJIc3BNNW54NXRaWEV3ak9odGdzc1hDNXVncEU1R2VvenFxNHVMY08weWcyYXVweHM5QlZkYS1tZzhNNGFZdTFR?oc=5",
       "source": "Google News",
@@ -473,12 +497,6 @@
       "link": "https://www.marketwatch.com/story/he-brought-ai-to-wall-street-in-1994-but-wont-trust-chatgpt-with-his-money-b8abc031?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-27T11:50:00+00:00"
-    },
-    {
-      "title": "Is your AI data-center stock vulnerable to voter backlash? Use this 5-part test to find out.",
-      "link": "https://www.marketwatch.com/story/is-your-ai-data-center-stock-vulnerable-to-voter-backlash-use-this-5-part-test-to-find-out-36f039fa?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-27T11:43:00+00:00"
     },
     {
       "title": "Nvidia, SpaceX, Microsoft launch AI safety initiative as OpenAI cyberattack fallout continues",
@@ -613,7 +631,7 @@
       "published": "2026-07-27T09:00:00+00:00"
     },
     {
-      "title": "초중고에 배정되는 교육세 1조…유아·대학교육 위해 운용 추진",
+      "title": "[단독] 초중고에 배정되는 교육세…1조 유아·대학교육 위해 운용 추진",
       "link": "https://www.mk.co.kr/news/economy/12108708",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:57:55+00:00"
@@ -623,24 +641,6 @@
       "link": "https://www.mk.co.kr/news/economy/12108703",
       "source": "매일경제·증권",
       "published": "2026-07-27T08:56:44+00:00"
-    },
-    {
-      "title": "韓, 환율 방어에 280억弗 풀어…美재무부 \"개입 규모 세계 3위\"",
-      "link": "https://www.mk.co.kr/news/economy/12108688",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T08:53:54+00:00"
-    },
-    {
-      "title": "韓 제조업, 10년새 수도권으로 더 쏠렸다",
-      "link": "https://www.mk.co.kr/news/economy/12108686",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T08:53:53+00:00"
-    },
-    {
-      "title": "해상풍력 발전단가 인하 '가속'…2035년 kwh당 300원→150원으로",
-      "link": "https://www.mk.co.kr/news/economy/12108687",
-      "source": "매일경제·증권",
-      "published": "2026-07-27T08:53:53+00:00"
     }
   ],
   "pages": [

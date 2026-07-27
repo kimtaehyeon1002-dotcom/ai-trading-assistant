@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-27T23:11:58.375526+09:00",
+  "generated_at": "2026-07-27T23:25:23.131365+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-07-27T23:10:59.289199+09:00",
+      "last_built": "2026-07-27T23:25:19.275550+09:00",
       "expected_T_min": null,
       "items": 1,
-      "duration_ms": 9
+      "duration_ms": 4
     },
     "Asset Kiwoom": {
       "status": "completed",
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-27T23:11:00.871380+09:00",
+      "last_built": "2026-07-27T23:25:19.353489+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 21991
+      "duration_ms": 1289
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,31 +52,38 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-27T23:11:58.346207+09:00",
+      "last_built": "2026-07-27T23:25:19.353489+09:00",
       "expected_T_min": null,
-      "items": 20,
+      "items": 22,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-27T23:11:22.900318+09:00",
+      "last_built": "2026-07-27T23:25:20.644581+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 2435
+      "duration_ms": 2429
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-07-27T23:11:25.351119+09:00",
+      "last_built": "2026-07-27T23:25:23.080199+09:00",
       "expected_T_min": null,
       "items": 400,
-      "duration_ms": 32925
+      "duration_ms": 0
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-27T23:11:58.368179+09:00",
+      "last_built": "2026-07-27T23:25:23.118338+09:00",
       "expected_T_min": null,
       "items": 3,
       "duration_ms": 0
+    },
+    "Trade Manager": {
+      "status": "completed",
+      "last_built": "2026-07-27T23:25:19.315230+09:00",
+      "expected_T_min": null,
+      "items": 44,
+      "duration_ms": 5
     }
   }
 }
