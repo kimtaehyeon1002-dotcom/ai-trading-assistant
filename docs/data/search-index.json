@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27T22:14:14.368899+00:00",
+  "as_of": "2026-07-27T22:32:59.135119+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,16 +349,28 @@
   ],
   "news": [
     {
+      "title": "Trump administration asks Supreme Court to intervene to allow mail-in voting restrictions",
+      "link": "https://www.cnbc.com/2026/07/27/trump-supreme-court-mail-in-voting-restrictions.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T22:23:50+00:00"
+    },
+    {
+      "title": "뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락 - TBS 서울",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVDI2a2tvMnNSZVRiN3F5VnVHb0JXU2o2Tm5sbkpub1Q0UjNwUkszMjBhcFRJLXluQV92c1Y3VXlja2tMSW1ndmRvX0dvQ2FmbjBRT3FxV3hUZkpjQVlnb0wyYjZhZ21jUUZEMEY2d3B4a2JZUDRGbUl5eU05TDlFeTJoeTlKZHNm?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T22:23:00+00:00"
+    },
+    {
+      "title": "Jim Cramer warns AI's circular financing frenzy echoes the dot-com bubble",
+      "link": "https://www.cnbc.com/2026/07/27/jim-cramer-warns-ai-circular-financing-echoes-dot-com-bubble.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-27T22:20:01+00:00"
+    },
+    {
       "title": "‘It’s a high price to pay’: My adviser says I don’t need a withdrawal plan for my $2.3 million portfolio. Is he right?",
       "link": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-27T22:00:00+00:00"
-    },
-    {
-      "title": "Trump administration asks Supreme Court to intervene to allow mail-in voting restrictions",
-      "link": "https://www.cnbc.com/2026/07/27/trump-supreme-court-mail-in-voting-restrictions.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T21:56:00+00:00"
     },
     {
       "title": "[글로벌증시] 뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락 - 연합뉴스TV",
@@ -499,6 +511,12 @@
       "published": "2026-07-27T20:51:06+00:00"
     },
     {
+      "title": "[뉴욕증시] 유가 급락에 다우 262p↑…반도체 약세에 나스닥↓ - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOEtaVnRrSFRHdWpWbFpCdGVzT1lVSzc2aHl5dlBId01qU2JKakc3MGh4emZyVHRhajFiNi02dkowSXhEZkJRM21FdHhrS0pyb3FuR3lSVUU3VUExNkNCS0FhZll5VjZtd2NvMWZBeDFVR2UzYU9VMk1tMklHZnVZSHhfcE1DbE4y?oc=5",
+      "source": "Google News",
+      "published": "2026-07-27T20:45:15+00:00"
+    },
+    {
       "title": "SpaceX’s stock falls to a new low despite a near-flawless Starship flight",
       "link": "https://www.marketwatch.com/story/spacexs-stock-falls-to-a-new-low-despite-a-near-flawless-starship-flight-034a99ab?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -619,12 +637,6 @@
       "published": "2026-07-27T17:39:33+00:00"
     },
     {
-      "title": "유럽증시, 미·이란 '공격 멈춤'에 따른 유가 하락으로 일제히 올라… 여행·레저 2%↑ - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1WX2lYTjhUd3hqWGxDVXlocFctcjVDODlJRjdGWnYwMEZJaWVhWThaRUQ2RzYtMk9NQXk3VEpQWldSLVBGYkNqWjBqalVqdUtfdG4tRlVjaXNYa01D?oc=5",
-      "source": "Google News",
-      "published": "2026-07-27T17:26:00+00:00"
-    },
-    {
       "title": "Netflix woes setting up for a Hollywood ending, says trader Mike Khouw",
       "link": "https://www.cnbc.com/2026/07/27/netflix-woes-setting-up-for-a-hollywood-ending-says-trader-mike-khouw.html",
       "source": "CNBC Finance",
@@ -635,18 +647,6 @@
       "link": "https://www.cnbc.com/2026/07/27/bessent-trump-account-signups-reach-7-million.html",
       "source": "CNBC Finance",
       "published": "2026-07-27T17:16:40+00:00"
-    },
-    {
-      "title": "JetBlue overhauls fare options, from basic first to flexible economy. Here's what to know",
-      "link": "https://www.cnbc.com/2026/07/27/jetblue-new-fare-options-basic-economy-first-class.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T17:14:58+00:00"
-    },
-    {
-      "title": "Sen. McConnell still not cleared to go back to work as he recovers from fall, doctors say",
-      "link": "https://www.cnbc.com/2026/07/27/mcconnell-fall-hospital-senate-recovery.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-27T17:13:36+00:00"
     }
   ],
   "pages": [
