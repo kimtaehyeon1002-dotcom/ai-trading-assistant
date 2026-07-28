@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28T22:48:36.677926+00:00",
+  "as_of": "2026-07-28T23:52:02.611911+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,16 +354,148 @@
   ],
   "news": [
     {
+      "title": "SpaceX, Blue Origin could get quicker launch approval under FAA move to waive environmental rules",
+      "link": "https://www.cnbc.com/2026/07/28/space-launches-faa-environmental-spacex-blue-origin-sean-duffy.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T23:49:14+00:00"
+    },
+    {
+      "title": "Senate confirms Jay Clayton as Trump's director of national intelligence, replacing Pulte",
+      "link": "https://www.cnbc.com/2026/07/28/jay-clayton-bill-pulte-senate-vote-trump-spy-chief.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T23:44:00+00:00"
+    },
+    {
+      "title": "NH투자 \"ESR켄달스퀘어리츠, 고배당 주가 지지…목표가는↓\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729029000008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T23:39:36+00:00"
+    },
+    {
+      "title": "중기부, 브라질서 'K-뷰티 글로우 위크'…중남미 진출 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260729027100030",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T23:39:09+00:00"
+    },
+    {
+      "title": "[0729개장체크] 美 증시, 반도체 매수세 지속에도 유가·금리 급락에 혼조 마감 By 인포스탁데일리 - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YcHNvZGFLM2w3czhkZnBJXzVBQk9qTVJQVWFhVXlmdHFHeGlZemhFVVY2Zm1WLUFVWHFPNktNZUlETnFZbF9YTUQ2MjVuZmd6bEd1eXhVYl8xTHpCU3J2UXg2MVNheTF2N0RYMWdOUlA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T23:34:00+00:00"
+    },
+    {
+      "title": "키움증권 \"하이브 주가하락, 펀더멘털 대비 과도해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729028000008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T23:31:54+00:00"
+    },
+    {
+      "title": "iM증권 \"반도체 수출 위축 가능성 낮아…코스피 하락폭 과도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729027600008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T23:31:02+00:00"
+    },
+    {
+      "title": "SK Hynix second-quarter profit surges to a new high — but misses estimates",
+      "link": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T23:25:26+00:00"
+    },
+    {
+      "title": "바클레이즈 \"소비증대 미미하고 증시서 800조 증발…백투백 어려울것\" - KB Think",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vZTJEODc4Wld5b2VTM0M4RVlsOFFLOFJEYk9LR1VxMGJFM09sdWQzN2wzTGJtaFVWUDNaNl9DbC1xOEUtVXNYRVYxTUtkNHpCdjd3Q2N3cUh5YjZ0NWFVVnJlOFVhajZyUHN5TTVkMVROdw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T23:16:22+00:00"
+    },
+    {
+      "title": "KB증권 \"한화시스템, 하반기 수익 둔화 전망…목표가↓\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729026500008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T23:14:40+00:00"
+    },
+    {
+      "title": "짐 크레이머 \"한·미 증시 동조화 심화가 월가 부진의 원인\" - 더구루",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE00bFlKN2w1WDByYXRTQmRtRUM2azktZGhYZWZGeVJzTTRCajl5Q1RlLWJGRGlSTU9rRV9YLU9aWm54RWphTk9QRGNjbm9lYWxEQm96UGV1NEh1Q3o5b2RNbFRvdw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T23:14:34+00:00"
+    },
+    {
+      "title": "IBK증권, HD현대일렉 목표가↓…\"업종 전반 밸류에이션 조정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729025200008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T23:13:11+00:00"
+    },
+    {
+      "title": "[마켓뷰] 美반도체 약세 지속…코스피, 폭락 딛고 반등 시도하나",
+      "link": "https://www.yna.co.kr/view/AKR20260729024800008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T23:11:36+00:00"
+    },
+    {
+      "title": "관악구, '한국전자전'에 관악S밸리관 운영…참가 스타트업 모집",
+      "link": "https://www.yna.co.kr/view/AKR20260729025600004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T23:09:40+00:00"
+    },
+    {
+      "title": "셀트리온 \"비만치료제 후보물질 비임상 결과 연내 공개\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729023700017",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T23:04:05+00:00"
+    },
+    {
+      "title": "[3분증시] 뉴욕증시, 중동 리스크 완화에 혼조 마감 - 연합뉴스TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBuT2VPek9WVUtLVFhrNHV3OXNLeTJkS09KZUxUbUtqSVJXYm5VS3BMc3F4WGpWdHZsN2s1cnBJYS1MajV5N1JjdXRzdXM2LUxUVHBrb2V1Y0JUS1RjaXE1WlE1c2V0VDA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T23:01:00+00:00"
+    },
+    {
+      "title": "김용범 \"韓 증시변동성 도드라지는 요인, 금융위 통해 점검\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5BRUlhSTRnZkJHLTI5WEFhU0JqQlBMOTRhTl9XTTFRZFl1TUZhdUlnR1RMUjYwLU05ZF94cmJTWERyZ0p1ekhPY0JxLWl0R1U?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T22:58:48+00:00"
+    },
+    {
+      "title": "BNK부산은행, 상생금융·폭염 취약계층 6억7천만원 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260729021900051",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T22:58:01+00:00"
+    },
+    {
+      "title": "Ford raises guidance after Q2 earnings beat, says F-Series recovery is on track",
+      "link": "https://www.cnbc.com/2026/07/28/ford-motor-f-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T22:49:50+00:00"
+    },
+    {
+      "title": "'증시 급락'에 김용범 \"증시 안정화 대책 국면은 아냐…변동성 키우는 구조 점검할 것\" - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zZDJBdDF0WVh5dEVhWjVwRnVCalZOMVRWNU1aaWJVekxHMFFWZVJMT0dyTGtTTnRMaHZ0dVdDZGJwQXMzUFdZdEkzTGpaV2ozRTNxcU5VXzJYZmVnWVRzQw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T22:48:37+00:00"
+    },
+    {
+      "title": "김용범, 증시 급락에 “中 창신·노광 쇼크…변동성 점검할 것” - 중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3RVN2VnJDNW56VUZxMzM4V0xuQlVOZkwxMUtMbzFQanJwTHJvTjktV00xN3VYRlN1TWNmQUllLW4xUmVGTjZiWm56eTNkcHVuNDRqMjVn?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T22:45:26+00:00"
+    },
+    {
+      "title": "[증시키워드] SK하이닉스, 실적 발표 앞두고 급락…컨퍼런스 콜에 '촉각' - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCM09YTDBFX0pabHJqQkI3R2I5SVptZkFuWE5nLUxEVXBlME80TzJFTTc2cHdoczBjcHlPUm5lTFZJUnFqSVNvSzN2b25KWUZ2TjZJeA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T22:45:00+00:00"
+    },
+    {
+      "title": "韓-브라질 기업인 한자리에…\"양국은 시대적 파트너, 원팀 희망\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260729007651001",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T22:44:38+00:00"
+    },
+    {
       "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
       "link": "https://www.yna.co.kr/view/AKR20260729015900011",
       "source": "연합뉴스·경제",
       "published": "2026-07-28T22:30:00+00:00"
-    },
-    {
-      "title": "널뛰기 증시에 더 두둑해지는 잔고…커버드콜ETF 찾는 개미들 [실전재테크] - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1TR2Z6TnVYUGpaMEY2RS1JTHdMbFBVWXpyMExxXzIzRXdndEpRZnplVHhBX2MzUnlERHJobXZ6MkhzUkFHTk5ud2pCcUdKNVE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T22:20:00+00:00"
     },
     {
       "title": "Seagate’s earnings are welcome news for the battered AI trade",
@@ -396,12 +528,6 @@
       "published": "2026-07-28T22:03:07+00:00"
     },
     {
-      "title": "엔비디아 팔고 코카콜라 샀다…돈의 흐름 바뀐 뉴욕증시 [7/29 G모닝]│Global Money Club - 중앙일보",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UX0o0bUJpWktKM2wwS1RkM3FZQVN4cmZGd1lFUmVsTlZxY1lzUGYtZEtzSHFyUHFEMVlDTE1tOEY2NTRqNW81UnZmU2pLTzAyWVZHN3BzWTM1Mmc?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T22:02:00+00:00"
-    },
-    {
       "title": "[만나보니] \"AI 승부처는 버티컬AI…금융AI 국가대표 키워야\"",
       "link": "https://www.yna.co.kr/view/AKR20260728144800017",
       "source": "연합뉴스·경제",
@@ -414,10 +540,10 @@
       "published": "2026-07-28T21:56:00+00:00"
     },
     {
-      "title": "뉴욕증시, 유가 하락에 반도체 조정 혼조 마감... 다우 1.03%↑ - 조세일보",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JZ2ZfVE94SkQxNHRCSFZ1eERTS3lES3dwaFYwU0dXUlMzY2xFel85YVkyc3U2RE1kcWo1bDd5V294M0xBUElrVUprVWtxN0cyWWV1WGtXUUFNQzhVQllF?oc=5",
+      "title": "'롤러코스피' 한국 증시, 정확한 투자의 길잡이가 절실할때 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNODhPYVIzaUkyeDl0Njk4YWlBb0s3MF9NbEJYdnRvcUpDZmhrTGtXbTltRmRJNzhSeHlfcUxVZWFuejd5Rk5tdlBRQlJFamwzeHVWWm83eGVpajMyNWVDYmdIOTEtTjdG0gFuQVVfeXFMTWxVZ1BmQXdqXzBYeV8yS2JKcEFESmdIa2J1Y3dFeS1jR3I0RkNtUURvRGQwVGJSeDFOdVlvY2xwYXpoeHRoanVJZGRTcmw2bHhrcnFzNl80TEV1eXVUb3BzT1NybVhjdk5mZUlyUHc?oc=5",
       "source": "Google News",
-      "published": "2026-07-28T21:50:00+00:00"
+      "published": "2026-07-28T21:55:00+00:00"
     },
     {
       "title": "[글로벌증시] 뉴욕증시, 유가하락 속 반도체 조정에 혼조 마감 - 연합뉴스 한민족센터",
@@ -432,12 +558,6 @@
       "published": "2026-07-28T21:48:00+00:00"
     },
     {
-      "title": "Ford raises guidance after Q2 earnings beat, says F-Series recovery is on track",
-      "link": "https://www.cnbc.com/2026/07/28/ford-motor-f-earnings-q2-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T21:44:31+00:00"
-    },
-    {
       "title": "한국, 일본보다 에어컨 1.2배 더 틀지만 전기요금은 반값",
       "link": "https://www.yna.co.kr/view/AKR20260728176600003",
       "source": "연합뉴스·경제",
@@ -448,12 +568,6 @@
       "link": "https://www.marketwatch.com/story/bloom-energy-sees-sales-top-1-billion-as-ai-proves-a-validation-moment-for-fuel-cell-technology-5cb69476?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-28T21:17:00+00:00"
-    },
-    {
-      "title": "SpaceX, Blue Origin could get quicker launch approval under FAA move to waive environmental rules",
-      "link": "https://www.cnbc.com/2026/07/28/space-launches-faa-environmental-spacex-blue-origin-sean-duffy.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T21:14:31+00:00"
     },
     {
       "title": "경계선 지능인 5% 이상 위험군…\"상설 지원 법제화 시급\"",
@@ -474,10 +588,10 @@
       "published": "2026-07-28T21:08:00+00:00"
     },
     {
-      "title": "Senate set to vote on Trump's pick for spy chief, ending Bill Pulte's brief tenure",
-      "link": "https://www.cnbc.com/2026/07/28/jay-clayton-bill-pulte-senate-vote-trump-spy-chief.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T21:05:36+00:00"
+      "title": "뉴욕증시, 유가하락 속 반도체 조정에 혼조 마감…나스닥 0.2%↓(종합) - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QMWpLSUg0Z18td2c3U2R5dWVlMkRHYUp3OTA4anFkbFlVY2ZKNXpsOWk2NE1ZTHRXREd5ekF2aTdYUFR1YXdUN3ZHcEY1LVZKWVNLTUlod3VRYVFBUmNkUNIBYEFVX3lxTE1QMWpLSUg0Z18td2c3U2R5dWVlMkRHYUp3OTA4anFkbFlVY2ZKNXpsOWk2NE1ZTHRXREd5ekF2aTdYUFR1YXdUN3ZHcEY1LVZKWVNLTUlod3VRYVFBUmNkUA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T21:07:00+00:00"
     },
     {
       "title": "폭염에 뜨는 공조냉동기계기사…시험 접수 5년새 2배",
@@ -538,120 +652,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260728170000002",
       "source": "연합뉴스·경제",
       "published": "2026-07-28T20:55:00+00:00"
-    },
-    {
-      "title": "The Fed isn’t your biggest worry. The central-bank decision that actually impacts your 401(k) lands in Tokyo.",
-      "link": "https://www.marketwatch.com/story/the-fed-isnt-your-biggest-worry-the-central-bank-decision-that-actually-impacts-your-401-k-lands-in-tokyo-fc9d22c8?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T20:54:00+00:00"
-    },
-    {
-      "title": "'지방이전 반대' 3대 국책은행 내달 11일 공동 집회",
-      "link": "https://www.yna.co.kr/view/AKR20260728162600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T20:53:01+00:00"
-    },
-    {
-      "title": "Alphabet and Tesla took a hit from soaring AI spending. Will Microsoft, Meta and Amazon be next?",
-      "link": "https://www.marketwatch.com/story/alphabet-and-tesla-took-a-hit-from-soaring-ai-spending-will-microsoft-meta-and-amazon-be-next-80ecb30b?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T20:52:00+00:00"
-    },
-    {
-      "title": "기업銀 부동산업 연체율 14년만에 최고…상승폭 최대",
-      "link": "https://www.yna.co.kr/view/AKR20260728153000002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T20:51:00+00:00"
-    },
-    {
-      "title": "뉴욕증시, 반도체 팔고 금융·헬스케어 샀다…'순환매' 이어져 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45S2diTGFIOERSMFUtQkJIMkRmU18teWhyWEJpUVpQREwyZGFkbVBrSFZXcWNlVVl4N3hpTy1nTGc3dWxzWnBHNjVFYnd5ZWhFdlMxU1FhRmxEWHpISWMwUtIBeEFVX3lxTE9OVDAxSVlPZUpjMjA5S2dFZEotNGZKQndlQmRXc2NRdGhIandQSEpSWTdVbVhEN3o1X3pqWjZWVmtJUmFzY09nd3hoRmx1S2lFeTd6Uk5mTEh4Z1VBWFUyTnlCTzlvMGh2MDUwWUp0SkdySkV2VnhENw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T20:47:48+00:00"
-    },
-    {
-      "title": "Nasdaq-100 is on the edge of correction territory as semiconductor stocks take another beating",
-      "link": "https://www.marketwatch.com/story/nasdaq-100-is-on-the-edge-of-correction-territory-as-semiconductor-stocks-take-another-beating-580d3ee7?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T20:46:00+00:00"
-    },
-    {
-      "title": "Space stocks are falling hard — but SpaceX doesn’t deserve all of the blame",
-      "link": "https://www.marketwatch.com/story/space-stocks-are-falling-hard-but-spacex-doesnt-deserve-all-of-the-blame-e5c1c8d0?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T20:43:00+00:00"
-    },
-    {
-      "title": "韓-브라질 기업인 한자리에…\"양국은 시대적 파트너, 원팀 희망\"",
-      "link": "https://www.yna.co.kr/view/AKR20260729007600001",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T20:39:31+00:00"
-    },
-    {
-      "title": "Microsoft is making a $190 billion AI gamble — and investors will soon see if it’s paying off",
-      "link": "https://www.marketwatch.com/story/microsoft-is-making-a-190-billion-ai-gamble-and-investors-will-soon-see-if-its-paying-off-b53bd89a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T20:33:00+00:00"
-    },
-    {
-      "title": "AI 랠리 ‘잠시 멈춤’... 뉴욕증시, 혼조 마감 - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQamMtOVM1VXFsR0M0NlQ3WlJuMERwYldFYWwyRlF4Y2praEFkdThrMjVWYlBzQ1pIY1JaUG1GQkIyYXEydVhxbzhyVUYtdDdvNVNTVUFXN3lKcEpNd2M4cDljQTVRaU41QkFBaTJSUEZteGgzalZSR0t3cE9zMEdtLUVxQlFZU0NuRGhsU3BNX0JNTkFicmZVM0xMamFDd9IBsgFBVV95cUxOel9VU0hmc1ByYVZYZ04wc0lDWkdBWG9oYVhtVmNNMGo3Y1dWVkNWWllqckhzMnpETnZHZXVoZWdwQ3NDcTdscVVmMVBHZWo1NGRjMVo1Z0Nqa2ctSUVMNGxrTzc5cDBWZzBmUUJVXzZXQVo1UF9PM05QTnk5RGttMUEtU3VySHhZWVBMYmx6d2hXd3dnUlpnM3Q5STBzaWpBSjJOc0lSZ0JSSXZwX2VpUUZB?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T20:23:00+00:00"
-    },
-    {
-      "title": "기업 실적이 뉴욕 증시 살렸다, 반도체 약세에도 상승 마감 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tZWlnOEtYYy1iY09lOGplTjBuMHBXVzVsck16Yzc2Wng2MkNGQlRXVy00WDB4NkJOeHRjR01vUmZYamJ2R2hXM2pSNk9yU1k?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T20:15:37+00:00"
-    },
-    {
-      "title": "[뉴욕증시-1보] 흔들리는 기술주와 탄력 붙는 우량주…혼조 마감 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qOTlMc1oyM1RoVDNsbHNJVERub2EtY1g3U1ZnZFZjVWQ1aEFhNDFoTi02UkQxVW1PeklnWS1TV3hUSF9vaVpzR2FtUDRObGtfNW5HbVpLZUUyXzhqd3FocHlXRTdCX1VtdlE3TF82Q2jSAXRBVV95cUxQSE1PYlBLNEFucWxDd2xEalV2S3JOODhWMEJfbmlnMGpCWlFLUExWMFFxZEZMTEcwdVk0djQ4Wlo3QzRGYV9uU0E2RVA3d1F2WDlqTTNHMC0wcm5ldXZrMzNrRzBvcU1SN0hXdUNVRVpzNmVvNA?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T20:11:13+00:00"
-    },
-    {
-      "title": "UPS expects third-quarter domestic revenue to be flat but CEO tells CNBC the company is through its 'bumps'",
-      "link": "https://www.cnbc.com/2026/07/28/ups-ups-q2-2026-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T20:01:06+00:00"
-    },
-    {
-      "title": "국제유가, 미·이란 대화 낙관론에 사흘째 급락…WTI 79달러로",
-      "link": "https://www.yna.co.kr/view/AKR20260729005500072",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T19:46:18+00:00"
-    },
-    {
-      "title": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
-      "link": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T19:45:10+00:00"
-    },
-    {
-      "title": "中CXMT 증설-엔비디아 ‘투자 돌려막기’ 우려에 韓증시 녹다운 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9HTE4xbkZTSHRXWEpNc1Q5VnVDOU95UWRRMWlFenN5c0Vyc2lscFJ5MVY0bnJpQjNNbjQzRzBzT1ZfM0ZYTjdlaUtucG5HVTQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T19:36:00+00:00"
-    },
-    {
-      "title": "Analysis: Kevin Warsh has three reasons to hold off on a Fed rate hike this week",
-      "link": "https://www.cnbc.com/2026/07/28/warsh-fed-rate-decision-trump-powell-analysis.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T19:25:29+00:00"
-    },
-    {
-      "title": "The Dow jumps as the AI trade wobbles. Plus, a portfolio name goes on the M&A hunt",
-      "link": "https://www.cnbc.com/2026/07/28/the-dow-jumps-as-the-ai-trade-wobbles-plus-a-portfolio-name-goes-on-the-ma-hunt.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T19:15:15+00:00"
-    },
-    {
-      "title": "Kentucky Gov. Beshear calls on Mitch McConnell to prove he can serve or resign",
-      "link": "https://www.cnbc.com/2026/07/28/beshear-mcconnell-health-resign-senate-vacancy.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T19:03:40+00:00"
     }
   ],
   "pages": [
