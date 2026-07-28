@@ -10,23 +10,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "402340",
-    "name": "SK스퀘어",
-    "market": "KOSPI"
-  },
-  {
     "code": "009150",
     "name": "삼성전기",
     "market": "KOSPI"
   },
   {
-    "code": "475150",
-    "name": "SK이터닉스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "035420",
-    "name": "NAVER",
+    "code": "402340",
+    "name": "SK스퀘어",
     "market": "KOSPI"
   },
   {
@@ -35,14 +25,14 @@
     "market": "KOSPI"
   },
   {
-    "code": "017670",
-    "name": "SK텔레콤",
+    "code": "035420",
+    "name": "NAVER",
     "market": "KOSPI"
   },
   {
-    "code": "950160",
-    "name": "코오롱티슈진",
-    "market": "KOSDAQ"
+    "code": "475150",
+    "name": "SK이터닉스",
+    "market": "KOSPI"
   },
   {
     "code": "005380",
@@ -50,24 +40,9 @@
     "market": "KOSPI"
   },
   {
-    "code": "006340",
-    "name": "대원전선",
-    "market": "KOSPI"
-  },
-  {
-    "code": "036930",
-    "name": "주성엔지니어링",
-    "market": "KOSDAQ GLOBAL"
-  },
-  {
-    "code": "042660",
-    "name": "한화오션",
-    "market": "KOSPI"
-  },
-  {
-    "code": "012450",
-    "name": "한화에어로스페이스",
-    "market": "KOSPI"
+    "code": "413630",
+    "name": "씨피시스템",
+    "market": "KOSDAQ"
   },
   {
     "code": "207940",
@@ -75,38 +50,8 @@
     "market": "KOSPI"
   },
   {
-    "code": "316140",
-    "name": "우리금융지주",
-    "market": "KOSPI"
-  },
-  {
-    "code": "066570",
-    "name": "LG전자",
-    "market": "KOSPI"
-  },
-  {
-    "code": "319400",
-    "name": "현대무벡스",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "064350",
-    "name": "현대로템",
-    "market": "KOSPI"
-  },
-  {
-    "code": "012330",
-    "name": "현대모비스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "011070",
-    "name": "LG이노텍",
-    "market": "KOSPI"
-  },
-  {
-    "code": "000270",
-    "name": "기아",
+    "code": "068270",
+    "name": "셀트리온",
     "market": "KOSPI"
   },
   {
@@ -115,28 +60,23 @@
     "market": "KOSPI"
   },
   {
-    "code": "010120",
-    "name": "LS ELECTRIC",
+    "code": "017670",
+    "name": "SK텔레콤",
     "market": "KOSPI"
   },
   {
-    "code": "018260",
-    "name": "삼성에스디에스",
+    "code": "006340",
+    "name": "대원전선",
     "market": "KOSPI"
   },
   {
-    "code": "0218L0",
-    "name": "네오뷰",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "010060",
-    "name": "OCI홀딩스",
+    "code": "028260",
+    "name": "삼성물산",
     "market": "KOSPI"
   },
   {
-    "code": "009830",
-    "name": "한화솔루션",
+    "code": "006400",
+    "name": "삼성SDI",
     "market": "KOSPI"
   },
   {
@@ -145,9 +85,69 @@
     "market": "KOSDAQ"
   },
   {
+    "code": "012330",
+    "name": "현대모비스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "329180",
+    "name": "HD현대중공업",
+    "market": "KOSPI"
+  },
+  {
+    "code": "034730",
+    "name": "SK",
+    "market": "KOSPI"
+  },
+  {
+    "code": "066570",
+    "name": "LG전자",
+    "market": "KOSPI"
+  },
+  {
+    "code": "086790",
+    "name": "하나금융지주",
+    "market": "KOSPI"
+  },
+  {
+    "code": "012450",
+    "name": "한화에어로스페이스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "000150",
+    "name": "두산",
+    "market": "KOSPI"
+  },
+  {
+    "code": "011070",
+    "name": "LG이노텍",
+    "market": "KOSPI"
+  },
+  {
+    "code": "267260",
+    "name": "HD현대일렉트릭",
+    "market": "KOSPI"
+  },
+  {
     "code": "034020",
     "name": "두산에너빌리티",
     "market": "KOSPI"
+  },
+  {
+    "code": "010120",
+    "name": "LS ELECTRIC",
+    "market": "KOSPI"
+  },
+  {
+    "code": "214450",
+    "name": "파마리서치",
+    "market": "KOSDAQ GLOBAL"
+  },
+  {
+    "code": "036930",
+    "name": "주성엔지니어링",
+    "market": "KOSDAQ GLOBAL"
   },
   {
     "code": "MU",
@@ -165,16 +165,6 @@
     "market": "US"
   },
   {
-    "code": "TSLA",
-    "name": "Tesla, Inc.",
-    "market": "US"
-  },
-  {
-    "code": "INTC",
-    "name": "Intel",
-    "market": "US"
-  },
-  {
     "code": "AAPL",
     "name": "Apple Inc.",
     "market": "US"
@@ -182,6 +172,16 @@
   {
     "code": "AMD",
     "name": "Advanced Micro Devices",
+    "market": "US"
+  },
+  {
+    "code": "TSLA",
+    "name": "Tesla, Inc.",
+    "market": "US"
+  },
+  {
+    "code": "INTC",
+    "name": "Intel",
     "market": "US"
   },
   {
@@ -200,6 +200,11 @@
     "market": "US"
   },
   {
+    "code": "AVGO",
+    "name": "Broadcom",
+    "market": "US"
+  },
+  {
     "code": "GOOG",
     "name": "Alphabet Inc. (Class C)",
     "market": "US"
@@ -210,8 +215,8 @@
     "market": "US"
   },
   {
-    "code": "AVGO",
-    "name": "Broadcom",
+    "code": "PLTR",
+    "name": "Palantir Technologies",
     "market": "US"
   },
   {
@@ -220,23 +225,8 @@
     "market": "US"
   },
   {
-    "code": "STX",
-    "name": "Seagate Technology",
-    "market": "US"
-  },
-  {
-    "code": "MRVL",
-    "name": "Marvell Technology",
-    "market": "US"
-  },
-  {
     "code": "AMAT",
     "name": "Applied Materials",
-    "market": "US"
-  },
-  {
-    "code": "NOW",
-    "name": "ServiceNow",
     "market": "US"
   },
   {
@@ -245,23 +235,13 @@
     "market": "US"
   },
   {
-    "code": "LITE",
-    "name": "Lumentum",
+    "code": "MRVL",
+    "name": "Marvell Technology",
     "market": "US"
   },
   {
-    "code": "NFLX",
-    "name": "Netflix",
-    "market": "US"
-  },
-  {
-    "code": "JPM",
-    "name": "JPMorgan Chase",
-    "market": "US"
-  },
-  {
-    "code": "PLTR",
-    "name": "Palantir Technologies",
+    "code": "STX",
+    "name": "Seagate Technology",
     "market": "US"
   },
   {
@@ -270,8 +250,18 @@
     "market": "US"
   },
   {
+    "code": "NOW",
+    "name": "ServiceNow",
+    "market": "US"
+  },
+  {
     "code": "WDC",
     "name": "Western Digital",
+    "market": "US"
+  },
+  {
+    "code": "CRM",
+    "name": "Salesforce",
     "market": "US"
   },
   {
@@ -280,23 +270,33 @@
     "market": "US"
   },
   {
-    "code": "LLY",
-    "name": "Lilly (Eli)",
+    "code": "JPM",
+    "name": "JPMorgan Chase",
     "market": "US"
   },
   {
-    "code": "TXN",
-    "name": "Texas Instruments",
+    "code": "CAT",
+    "name": "Caterpillar Inc.",
     "market": "US"
   },
   {
-    "code": "HOOD",
-    "name": "Robinhood Markets",
+    "code": "NFLX",
+    "name": "Netflix",
     "market": "US"
   },
   {
-    "code": "IBM",
-    "name": "IBM",
+    "code": "GS",
+    "name": "Goldman Sachs",
+    "market": "US"
+  },
+  {
+    "code": "LITE",
+    "name": "Lumentum",
+    "market": "US"
+  },
+  {
+    "code": "JNJ",
+    "name": "Johnson & Johnson",
     "market": "US"
   },
   {
@@ -310,11 +310,6 @@
     "market": "KRX"
   },
   {
-    "code": "006400",
-    "name": "삼성SDI",
-    "market": "KRX"
-  },
-  {
     "code": "247540",
     "name": "에코프로비엠",
     "market": "KRX"
@@ -325,14 +320,19 @@
     "market": "KRX"
   },
   {
-    "code": "068270",
-    "name": "셀트리온",
-    "market": "KRX"
+    "code": "LLY",
+    "name": "Eli Lilly",
+    "market": "NYSE"
   },
   {
     "code": "NVO",
     "name": "Novo Nordisk",
     "market": "NYSE"
+  },
+  {
+    "code": "000270",
+    "name": "기아",
+    "market": "KRX"
   },
   {
     "code": "055550",

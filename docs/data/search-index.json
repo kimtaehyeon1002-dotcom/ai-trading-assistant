@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28T22:05:08.801316+00:00",
+  "as_of": "2026-07-28T22:12:44.654269+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,6 +349,24 @@
   ],
   "news": [
     {
+      "title": "Medicare is about to change a drug program that held down the cost of premiums. Here’s what to know.",
+      "link": "https://www.marketwatch.com/story/medicare-is-about-to-change-a-program-that-held-down-the-cost-of-premiums-heres-what-to-know-42c0612e?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T22:06:00+00:00"
+    },
+    {
+      "title": "강남구, 신혼부부·청년 전월세 대출이자 지원 2차 신청자 모집",
+      "link": "https://www.yna.co.kr/view/AKR20260729014200004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T22:03:07+00:00"
+    },
+    {
+      "title": "엔비디아 팔고 코카콜라 샀다…돈의 흐름 바뀐 뉴욕증시 [7/29 G모닝]│Global Money Club - 중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UX0o0bUJpWktKM2wwS1RkM3FZQVN4cmZGd1lFUmVsTlZxY1lzUGYtZEtzSHFyUHFEMVlDTE1tOEY2NTRqNW81UnZmU2pLTzAyWVZHN3BzWTM1Mmc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T22:02:00+00:00"
+    },
+    {
       "title": "[만나보니] \"AI 승부처는 버티컬AI…금융AI 국가대표 키워야\"",
       "link": "https://www.yna.co.kr/view/AKR20260728144800017",
       "source": "연합뉴스·경제",
@@ -359,6 +377,12 @@
       "link": "https://www.marketwatch.com/story/microns-stock-sinks-toward-worst-monthly-drop-in-11-years-as-china-fears-escalate-3c956a67?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-28T21:56:00+00:00"
+    },
+    {
+      "title": "뉴욕증시, 유가 하락에 반도체 조정 혼조 마감... 다우 1.03%↑ - 조세일보",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JZ2ZfVE94SkQxNHRCSFZ1eERTS3lES3dwaFYwU0dXUlMzY2xFel85YVkyc3U2RE1kcWo1bDd5V294M0xBUElrVUprVWtxN0cyWWV1WGtXUUFNQzhVQllF?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T21:50:00+00:00"
     },
     {
       "title": "[글로벌증시] 뉴욕증시, 유가하락 속 반도체 조정에 혼조 마감 - 연합뉴스 한민족센터",
@@ -517,6 +541,12 @@
       "published": "2026-07-28T20:43:00+00:00"
     },
     {
+      "title": "[뉴욕증시] 반도체주 마이크론·AMD 8%대 급락…다우지수는 537P↑ - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb1l2Y3JsTTN5VGVJNHVHN2hwSFpkTHpWOElJS2dKX1RfZ3pSMDhlQkZvdE5TaFRjRG9RWmpXdy1IbVYyYi1PbE5NR0xCaV9vWm44MUNUZUh1NDFfV2hVV3ZoNzZCX184TGN0T2oxQ0hCZmNCWUlOd0U3WTRBa0JXeG53Ympidl9R?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T20:40:43+00:00"
+    },
+    {
       "title": "韓-브라질 기업인 한자리에…\"양국은 시대적 파트너, 원팀 희망\"",
       "link": "https://www.yna.co.kr/view/AKR20260729007600001",
       "source": "연합뉴스·경제",
@@ -535,22 +565,10 @@
       "published": "2026-07-28T20:26:00+00:00"
     },
     {
-      "title": "Investors are piling into bond funds at a rapid rate. That’s a problem — but not for stocks.",
-      "link": "https://www.marketwatch.com/story/investors-are-piling-into-bond-funds-at-a-rapid-rate-thats-a-problem-09aaa039?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T20:25:00+00:00"
-    },
-    {
       "title": "AI 랠리 ‘잠시 멈춤’... 뉴욕증시, 혼조 마감 - 조선비즈 - Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQamMtOVM1VXFsR0M0NlQ3WlJuMERwYldFYWwyRlF4Y2praEFkdThrMjVWYlBzQ1pIY1JaUG1GQkIyYXEydVhxbzhyVUYtdDdvNVNTVUFXN3lKcEpNd2M4cDljQTVRaU41QkFBaTJSUEZteGgzalZSR0t3cE9zMEdtLUVxQlFZU0NuRGhsU3BNX0JNTkFicmZVM0xMamFDd9IBsgFBVV95cUxOel9VU0hmc1ByYVZYZ04wc0lDWkdBWG9oYVhtVmNNMGo3Y1dWVkNWWllqckhzMnpETnZHZXVoZWdwQ3NDcTdscVVmMVBHZWo1NGRjMVo1Z0Nqa2ctSUVMNGxrTzc5cDBWZzBmUUJVXzZXQVo1UF9PM05QTnk5RGttMUEtU3VySHhZWVBMYmx6d2hXd3dnUlpnM3Q5STBzaWpBSjJOc0lSZ0JSSXZwX2VpUUZB?oc=5",
       "source": "Google News",
       "published": "2026-07-28T20:23:00+00:00"
-    },
-    {
-      "title": "기업 실적이 뉴욕 증시 살렸다, 반도체 약세에도 상승 마감 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNkd4RHZwZkhoRnh1Vk9rb284RXFVbGZhOWFJRkk1OUFoRkZEekRTYk41U21vTVBZZjlCd2ppUzZPbG1LQzBOcjJxMzdld3ZyeXpsLV9rSHdJV3hNblNCQnNnMjgtWk9jRm1iRHM2YmMtSDFuUlJQVkdnN2N4MGdmQkhTQmV4bGcteUtvSGUtdlVqNEZhWXJtZnQ5Zmttdw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T20:13:00+00:00"
     },
     {
       "title": "[뉴욕증시-1보] 흔들리는 기술주와 탄력 붙는 우량주…혼조 마감 - 연합인포맥스",
@@ -595,6 +613,12 @@
       "published": "2026-07-28T19:15:15+00:00"
     },
     {
+      "title": "리서치센터장 \"빅테크 AI투자 확인·반도체 실적·금리우려 완화, 증시반등 조건\" - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fR3JhRGtTOWxBeHRZZ2NmNW0xclRaVlEtVnB2YW53QTJJbEZIay1IdkUwU2RQa1RlLWRMYUdsMl9EWGlUMGNJYXMyVC1iSXlqbTdJS0ExeGNXenVnMGFVS0F0b2JLX1BF0gFuQVVfeXFMT2MxQTBTSFdmWUNrUVppYlV5RVF6Ti1UTkxQYXYtQ0h6bllHTHNiSFJoMTJYQTUtcFc3dG9nODNmNGhsdk5SZXM0M01qaDBLTmpXM0ZyRmhPcmdDSlFTT1llZ3VpbEpCQWMxSmFNaWc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T19:05:00+00:00"
+    },
+    {
       "title": "Kentucky Gov. Beshear calls on Mitch McConnell to prove he can serve or resign",
       "link": "https://www.cnbc.com/2026/07/28/beshear-mcconnell-health-resign-senate-vacancy.html",
       "source": "CNBC Finance",
@@ -623,30 +647,6 @@
       "link": "https://www.cnbc.com/2026/07/28/russia-sanctions-congress-key-vote-lindsey-graham-ukraine.html",
       "source": "CNBC Finance",
       "published": "2026-07-28T18:17:55+00:00"
-    },
-    {
-      "title": "Meta likely to highlight smart glasses, avoid social media policy on upcoming earnings call, Kalshi traders say",
-      "link": "https://www.cnbc.com/2026/07/28/meta-q2-earnings-call-mentions-kalshi-market-odds-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T17:40:03+00:00"
-    },
-    {
-      "title": "Shein says it's under investigation by the Federal Trade Commission as it prepares for Hong Kong IPO",
-      "link": "https://www.cnbc.com/2026/07/28/shein-discloses-its-under-investigation-by-the-ftc.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T17:12:52+00:00"
-    },
-    {
-      "title": "Trump: New tariffs 'doing the same thing' as the ones struck down by Supreme Court",
-      "link": "https://www.cnbc.com/2026/07/28/trump-usmca-canada-mexico-trade-deal.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T16:51:11+00:00"
-    },
-    {
-      "title": "EBay, former execs to pay $56 million in blogger harassment and stalking case",
-      "link": "https://www.cnbc.com/2026/07/28/ebay-blogger-harassment-stalking-steiner.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T16:42:45+00:00"
     }
   ],
   "pages": [

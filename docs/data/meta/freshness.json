@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-29T07:05:08.797924+09:00",
+  "generated_at": "2026-07-29T07:12:44.651908+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-07-29T07:04:41.473513+09:00",
+      "last_built": "2026-07-29T07:12:10.077930+09:00",
       "expected_T_min": null,
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-29T07:04:42.750499+09:00",
+      "last_built": "2026-07-29T07:12:11.686987+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 6723
+      "duration_ms": 16704
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,28 +52,28 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-29T07:04:49.509665+09:00",
+      "last_built": "2026-07-29T07:12:11.686943+09:00",
       "expected_T_min": null,
       "items": 0,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-29T07:04:49.510524+09:00",
+      "last_built": "2026-07-29T07:12:28.391881+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 4737
+      "duration_ms": 3128
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-07-29T07:04:54.248849+09:00",
+      "last_built": "2026-07-29T07:12:31.523228+09:00",
       "expected_T_min": null,
       "items": 180,
-      "duration_ms": 14513
+      "duration_ms": 13100
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-29T07:05:08.789938+09:00",
+      "last_built": "2026-07-29T07:12:44.646142+09:00",
       "expected_T_min": null,
       "items": 3,
       "duration_ms": 0
@@ -140,6 +140,20 @@
       "expected_T_min": null,
       "items": 2,
       "duration_ms": 302
+    },
+    "FS DART corpCode": {
+      "status": "completed",
+      "last_built": "2026-07-29T07:12:10.111204+09:00",
+      "expected_T_min": null,
+      "items": null,
+      "duration_ms": 0
+    },
+    "FS EDGAR CIK맵": {
+      "status": "completed",
+      "last_built": "2026-07-29T07:12:10.583075+09:00",
+      "expected_T_min": null,
+      "items": null,
+      "duration_ms": 291
     }
   }
 }
