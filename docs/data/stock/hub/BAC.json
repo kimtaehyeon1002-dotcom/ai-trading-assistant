@@ -1,15 +1,15 @@
 {
   "code": "BAC",
   "name": "Bank of America",
-  "market": "US",
+  "market": "NYSE",
   "theme": "금융",
   "quote": {
     "close": 62.130001068115234,
     "change_pct": 0.13,
-    "volume": 36783745,
-    "amount": 2285374116.1392784,
+    "volume": 36899800,
+    "amount": 2292584613.4132385,
     "marcap": null,
-    "as_of_iso": "2026-07-28T02:25:08.350456+00:00",
+    "as_of_iso": "2026-07-28T05:45:36.438904+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "BAC",

@@ -4,12 +4,12 @@
   "market": "KRX",
   "theme": "인공지능",
   "quote": {
-    "close": 35800.0,
-    "change_pct": -3.37,
-    "volume": 605277,
-    "amount": 21953758675.0,
-    "marcap": 15858722306000.0,
-    "as_of_iso": "2026-07-28T02:25:08.350492+00:00",
+    "close": 35500.0,
+    "change_pct": -4.18,
+    "volume": 1258046,
+    "amount": 45222909075.0,
+    "marcap": 15725827985000.0,
+    "as_of_iso": "2026-07-28T05:45:36.438876+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:035720",
