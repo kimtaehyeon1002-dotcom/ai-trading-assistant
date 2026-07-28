@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28T17:19:30.677073+00:00",
+  "as_of": "2026-07-28T17:40:36.143623+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,6 +349,24 @@
   ],
   "news": [
     {
+      "title": "U.S. Strategic Petroleum Reserve faces stress as emergency releases strain old infrastructure",
+      "link": "https://www.cnbc.com/2026/07/28/us-strategic-petroleum-reserve-spr-iran-oil-strait-hormuz.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T17:34:42+00:00"
+    },
+    {
+      "title": "Alphabet and Tesla took a hit from soaring AI spending. Will Microsoft, Meta and Amazon be next?",
+      "link": "https://www.marketwatch.com/story/alphabet-and-tesla-took-a-hit-from-soaring-ai-spending-will-microsoft-meta-and-amazon-be-next-80ecb30b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T17:30:00+00:00"
+    },
+    {
+      "title": "Meta likely to highlight smart glasses, avoid social media policy on upcoming earnings call, Kalshi traders say",
+      "link": "https://www.cnbc.com/2026/07/28/meta-q2-earnings-call-mentions-kalshi-market-odds-.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T17:21:35+00:00"
+    },
+    {
       "title": "Shein says it's under investigation by the Federal Trade Commission as it prepares for Hong Kong IPO",
       "link": "https://www.cnbc.com/2026/07/28/shein-discloses-its-under-investigation-by-the-ftc.html",
       "source": "CNBC Finance",
@@ -359,12 +377,6 @@
       "link": "https://www.marketwatch.com/story/roth-conversions-as-early-as-your-20s-and-30s-its-not-a-crazy-idea-1f028e24?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-28T16:54:00+00:00"
-    },
-    {
-      "title": "Alphabet and Tesla took a hit from soaring AI spending. Will Microsoft, Meta and Amazon be next?",
-      "link": "https://www.marketwatch.com/story/alphabet-and-tesla-took-a-hit-from-soaring-ai-spending-will-microsoft-meta-and-amazon-be-next-80ecb30b?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T16:52:00+00:00"
     },
     {
       "title": "Trump: New tariffs 'doing the same thing' as the ones struck down by Supreme Court",
@@ -457,18 +469,6 @@
       "published": "2026-07-28T15:49:21+00:00"
     },
     {
-      "title": "Meta likely to highlight smart glasses, avoid social media policy on upcoming earnings call, Kalshi traders say",
-      "link": "https://www.cnbc.com/2026/07/28/meta-q2-earnings-call-mentions-kalshi-market-odds-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T15:47:59+00:00"
-    },
-    {
-      "title": "Iran hosts Hormuz calls with Saudi Arabia, Oman as Trump hails ‘good talks’",
-      "link": "https://www.cnbc.com/2026/07/28/us-iran-war-trump-hormuz.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T15:40:32+00:00"
-    },
-    {
       "title": "SpaceX has now lost the equivalent of a full Tesla in market capitalization",
       "link": "https://www.cnbc.com/2026/07/27/spacex-has-now-lost-the-equivalent-of-a-full-tesla-in-market-capitalization.html",
       "source": "CNBC Finance",
@@ -509,12 +509,6 @@
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ2ZqRVI5aUZrUko0ZC0xd1dmd1JtZnVjbld6ay1RVUEwek04RE1zeUNYZHk4UW1kNDRjUlVLSUd2NmtVcFpTNmJDTFNZNkdjRHl0UldwVGNyeF9lQkRBdTlFenN3Rm1JZm5SMWExQlc1cXlOYVA4b0VVWHRXMWJBbktNeXNJZw?oc=5",
       "source": "Google News",
       "published": "2026-07-28T15:20:00+00:00"
-    },
-    {
-      "title": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
-      "link": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T14:50:10+00:00"
     },
     {
       "title": "New Republican ads slam Democrats opposed to Trump's tariffs",
@@ -647,6 +641,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260728161500003",
       "source": "연합뉴스·경제",
       "published": "2026-07-28T09:36:38+00:00"
+    },
+    {
+      "title": "유럽 증시, 장 초반 상승 출발…유로스톡스 0.43%↑ - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5Y29DbDdVUjNPM3ZyTkNBNnRBZ3MyNnJVVkJrRk9sMy1aODRsMmg0VWRhRkZWZHdDcGNvTXVYNG1SQjBwRngxRFJYb0xJUEwtNFVvZjJHZVpEOHctNEdEMFpUNWV4NzJDVkUwVDFrVE3SAXRBVV95cUxPX0lLSE90RHB1dTB6ZnB0Nm5vMjFidW43TVNTT3dTT2Q4b0NiZ21EVFVadWRqejlsREh0Q0xpYnl5am5iZUhwcTVTZnFRVlBpRXFWT2gxTENDUHlhbTUyM0ZFUUtlaG95T1FzMjNCanpHQzE2aQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T09:20:58+00:00"
     }
   ],
   "pages": [
