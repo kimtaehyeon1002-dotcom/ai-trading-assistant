@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28T09:20:52.790570+00:00",
+  "as_of": "2026-07-28T10:25:54.999568+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,6 +349,54 @@
   ],
   "news": [
     {
+      "title": "UPS beats earnings expectations, raises full-year guidance",
+      "link": "https://www.cnbc.com/2026/07/28/ups-ups-q2-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T10:17:05+00:00"
+    },
+    {
+      "title": "‘Picks and shovels’ trade comes unstuck as AI hardware stocks plunge on competitive threat from China",
+      "link": "https://www.marketwatch.com/story/picks-and-shovels-trade-comes-unstuck-as-ai-hardware-stocks-plunge-on-competitive-threat-from-china-41a0c2b4?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T10:16:00+00:00"
+    },
+    {
+      "title": "My financial adviser is against a withdrawal plan for my $2.3 million portfolio. Is he making a mistake?",
+      "link": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T10:15:00+00:00"
+    },
+    {
+      "title": "‘She is on Medicaid’: My sick friend pleaded with me to be her executor. Can I decline after she dies?",
+      "link": "https://www.marketwatch.com/story/she-is-on-medicaid-my-sick-friend-pleaded-with-me-to-be-her-executor-can-i-decline-after-she-dies-135129d3?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T10:15:00+00:00"
+    },
+    {
+      "title": "Blurred frontlines: Trump to meet Zelenskyy as Ukraine, Iran wars collide",
+      "link": "https://www.cnbc.com/2026/07/28/trump-zelenskyy-ukraine-russia-iran-war.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T10:09:35+00:00"
+    },
+    {
+      "title": "China’s reported chip breakthrough comes with some big caveats",
+      "link": "https://www.cnbc.com/2026/07/28/china-chipmaking-duv-tool-asml-explained.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T09:44:13+00:00"
+    },
+    {
+      "title": "반도체협회 신임 부회장에 박건수 전 산업부 산업정책실장",
+      "link": "https://www.yna.co.kr/view/AKR20260728161500003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T09:36:38+00:00"
+    },
+    {
+      "title": "유럽 증시, 장 초반 상승 출발…유로스톡스 0.43%↑ - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5Y29DbDdVUjNPM3ZyTkNBNnRBZ3MyNnJVVkJrRk9sMy1aODRsMmg0VWRhRkZWZHdDcGNvTXVYNG1SQjBwRngxRFJYb0xJUEwtNFVvZjJHZVpEOHctNEdEMFpUNWV4NzJDVkUwVDFrVE3SAXRBVV95cUxPX0lLSE90RHB1dTB6ZnB0Nm5vMjFidW43TVNTT3dTT2Q4b0NiZ21EVFVadWRqejlsREh0Q0xpYnl5am5iZUhwcTVTZnFRVlBpRXFWT2gxTENDUHlhbTUyM0ZFUUtlaG95T1FzMjNCanpHQzE2aQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T09:20:58+00:00"
+    },
+    {
       "title": "‘I’m in my peak earning years’: I’m working beyond 70. Will that help increase my Social Security?",
       "link": "https://www.marketwatch.com/story/im-in-my-peak-earning-years-im-working-beyond-70-will-that-help-increase-my-social-security-b0fd84da?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -379,7 +427,7 @@
       "published": "2026-07-28T09:08:06+00:00"
     },
     {
-      "title": "[금융라운지] \"중장년층은 금리 우대\"… 시니어 공들이는 은행",
+      "title": "[금융 라운지] \"중장년층은 금리 우대\"… 시니어 공들이는 은행",
       "link": "https://www.mk.co.kr/news/economy/12109699",
       "source": "매일경제·증권",
       "published": "2026-07-28T09:08:06+00:00"
@@ -449,6 +497,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260728119200530",
       "source": "연합뉴스·경제",
       "published": "2026-07-28T08:55:01+00:00"
+    },
+    {
+      "title": "요동치는 증시에 野 “코스피는 ‘도박판’, 코스닥은 ‘얼음판’” - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORFN2aDFpdTJyeG1fc184WVR1eGJLbmNBVTFodFB5TFJPOGZnQ2VwTXV0NVd4RG9YSkE1NVA2Y0RoQk5QcGV0MmZIOExULVpjVDNPV3JwSy1KWUE3Y3VHRGxjREpFZG9oYVdmTUMwcmFrQUhvLU0zaWpxeWpnNHVaUkpwVWpfZw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T08:51:00+00:00"
     },
     {
       "title": "현대차그룹·부산항만公 협력…물류사고 방지기술 본격 도입",
@@ -523,28 +577,22 @@
       "published": "2026-07-28T08:17:47+00:00"
     },
     {
-      "title": "[亞증시-종합] 반도체 쇼크에 中·日·臺 하락…홍콩↑ - KB Think",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vajh6aW5UQndoUnl2d09SN2UzQ3FKaEp3SHhqblNMVzZXODRuTVIxMDN6QS1qUDlkbEFxVVItRVF2ZTZwVTJFSTQ3cFVqZjhoa250akdNQU92amVXMTZiZzFWSWhiRUY2b3dWU3FKVW01QQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T08:16:35+00:00"
-    },
-    {
       "title": "횡성 제이에스엔지니어링, 강원 일자리대상 대상 수상",
       "link": "https://www.yna.co.kr/view/AKR20260728146700062",
       "source": "연합뉴스·경제",
       "published": "2026-07-28T08:16:06+00:00"
     },
     {
+      "title": "“낙폭 과도 극단적 저평가, 반등하려면”…증시 전문가, 긴급진단 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52OGVGeGtzUVlGQ3dOLU5OSjRQd2JqTEYxWnh2Nk1XOTc4M1NHT3RjeVQ1ZmpZSy1KdGpvS0loNEF2MWFzZlUtOWRoU3BiNnRvYVE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T08:16:01+00:00"
+    },
+    {
       "title": "[인사] 금융결제원",
       "link": "https://www.yna.co.kr/view/AKR20260728146000002",
       "source": "연합뉴스·경제",
       "published": "2026-07-28T08:10:23+00:00"
-    },
-    {
-      "title": "오늘의 증시 - MBC 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUenhWYmV4Y29FN1hqcFZUQlc1anlHUmVHV24ydXAxQmJVU2dpRHVKbV84MkxUVWtuR1N1T2RhYWIwTGJnaDNlQjl1QVFUa2ZjcTM4TmNxVFNLOXJvYWpEOWowd29xTFF3Y3gwYjgxZ2pPaUYweDB6Qg?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T08:06:03+00:00"
     },
     {
       "title": "국고채, 주가 급락 속 일제히 강세…3년물 3.829%(종합)",
@@ -599,54 +647,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260728135700017",
       "source": "연합뉴스·경제",
       "published": "2026-07-28T07:37:16+00:00"
-    },
-    {
-      "title": "[특징주] 폭락장에 증권주 줄줄이 하락 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260728037951008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T07:36:32+00:00"
-    },
-    {
-      "title": "[인사] 재정경제부",
-      "link": "https://www.yna.co.kr/view/AKR20260728134500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T07:36:30+00:00"
-    },
-    {
-      "title": "'증시폭락' 긴급진단…리서치센터장들 \"낙폭 과도, 극단적 저평가\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728102400008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T07:35:17+00:00"
-    },
-    {
-      "title": "'증시폭락' 긴급진단…리서치센터장들 \"낙폭 과도, 극단적 저평가\" - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lUkZqRHNGZWpxVlJTWHlkdTRZZHRaMGhmUndjM3BMeXNvXy1mQXBySlBZSDdMR0FvUi1pTVBvbFVfWkJWcWxYWkhMTHljc0NaRFVUeGZwSGN1c0XSAWBBVV95cUxNNjhmbGFGZE5qenMxQjVxeXltZTNnb3lRMEUwandQMDJrRnZ2eldpNkZPQjZ3a0UzQW9lcnM0dnZLOGNfVDVoSDVacmxFOVBUTGl4YnoyczhxaElROVMwbmc?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T07:35:17+00:00"
-    },
-    {
-      "title": "한은 강원본부 \"강원 소비심리 소폭 하락…경기 인식 위축\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728133400062",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T07:35:13+00:00"
-    },
-    {
-      "title": "BNK금융지주 이사회 \"JB금융과 합병 타당성 검토 안 한다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728135200051",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T07:34:38+00:00"
-    },
-    {
-      "title": "농식품부, 익산서 '농촌창업 네트워크 권역 리더 워크숍' 개최",
-      "link": "https://www.yna.co.kr/view/AKR20260728101400030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T07:30:00+00:00"
-    },
-    {
-      "title": "LH, 전남광주 서구에 공공형 실내 놀이시설 조성",
-      "link": "https://www.yna.co.kr/view/AKR20260728132300003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T07:23:04+00:00"
     }
   ],
   "pages": [
