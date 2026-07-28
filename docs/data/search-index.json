@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28T13:32:39.949083+00:00",
+  "as_of": "2026-07-28T15:13:02.931054+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,34 +349,154 @@
   ],
   "news": [
     {
-      "title": "Coca-Cola tops earnings estimates, hikes full-year outlook as demand for drinks climbs",
-      "link": "https://www.cnbc.com/2026/07/28/coca-cola-ko-q2-2026-earnings.html",
+      "title": "UPS expects third-quarter domestic revenue to be flat but CEO tells CNBC the company is through its 'bumps'",
+      "link": "https://www.cnbc.com/2026/07/28/ups-ups-q2-2026-earnings.html",
       "source": "CNBC Finance",
-      "published": "2026-07-28T13:30:59+00:00"
+      "published": "2026-07-28T15:08:42+00:00"
     },
     {
-      "title": "Blurred front lines: Trump to meet Zelenskyy as Ukraine, Iran wars collide",
+      "title": "Analysis: Three reasons why Warsh won't raise Fed's interest rates this week",
+      "link": "https://www.cnbc.com/2026/07/28/warsh-fed-rate-decision-trump-powell-analysis.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T15:02:48+00:00"
+    },
+    {
+      "title": "Microsoft touts cost-saving AI model for cybersecurity",
+      "link": "https://www.cnbc.com/2026/07/27/microsoft-touts-cost-saving-ai-model-for-cybersecurity.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T15:02:38+00:00"
+    },
+    {
+      "title": "The future of Wall Street is here as startups and brokers build AI agents to trade 24/7",
+      "link": "https://www.cnbc.com/2026/07/28/ai-agents-build-to-trade-24/7-the-future-of-wall-street.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T15:00:21+00:00"
+    },
+    {
+      "title": "Tech fund manager says the market is misreading Alphabet’s second-quarter earnings",
+      "link": "https://www.marketwatch.com/story/tech-fund-manager-says-the-market-is-misreading-second-quarter-earnings-9823461b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T14:59:00+00:00"
+    },
+    {
+      "title": "Blurred front lines: Trump meets Zelenskyy as Ukraine, Iran wars collide",
       "link": "https://www.cnbc.com/2026/07/28/trump-zelenskyy-ukraine-russia-iran-war.html",
       "source": "CNBC Finance",
-      "published": "2026-07-28T13:30:46+00:00"
+      "published": "2026-07-28T14:56:19+00:00"
+    },
+    {
+      "title": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
+      "link": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T14:50:10+00:00"
+    },
+    {
+      "title": "New Republican ads slam Democrats opposed to Trump's tariffs",
+      "link": "https://www.cnbc.com/2026/07/28/trump-tariffs-trade-election-advertising.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T14:48:13+00:00"
+    },
+    {
+      "title": "PayPal delivers an earnings beat — and suggests it’s not against a merger deal",
+      "link": "https://www.marketwatch.com/story/paypal-delivers-an-earnings-beat-as-investors-await-updates-on-possible-merger-105930b7?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T14:47:00+00:00"
+    },
+    {
+      "title": "Coca-Cola hikes full-year forecast. CEO tells CNBC the World Cup boosted its brands",
+      "link": "https://www.cnbc.com/2026/07/28/coca-cola-ko-q2-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T14:42:59+00:00"
+    },
+    {
+      "title": "Visa is cutting 7% of employees in efficiency push as AI reshapes work",
+      "link": "https://www.cnbc.com/2026/07/28/visa-is-cutting-7percent-of-employees-in-efficiency-push-as-ai-reshapes-work.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T14:42:56+00:00"
+    },
+    {
+      "title": "Trump: New tariffs 'doing the same thing' as the ones struck down by Supreme Court",
+      "link": "https://www.cnbc.com/2026/07/28/trump-usmca-canada-mexico-trade-deal.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T14:38:29+00:00"
+    },
+    {
+      "title": "The Fed isn’t your biggest worry. The central-bank decision that actually impacts your 401(k) lands in Tokyo.",
+      "link": "https://www.marketwatch.com/story/the-fed-isnt-your-biggest-worry-the-central-bank-decision-that-actually-impacts-your-401-k-lands-in-tokyo-fc9d22c8?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T14:30:00+00:00"
+    },
+    {
+      "title": "Micron’s stock sinks toward worst monthly drop in 11 years as China fears escalate",
+      "link": "https://www.marketwatch.com/story/microns-stock-sinks-toward-worst-monthly-drop-in-11-years-as-china-fears-escalate-3c956a67?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T14:25:00+00:00"
+    },
+    {
+      "title": "AMD, Micron and Nvidia extend losses as chip stocks get clobbered",
+      "link": "https://www.cnbc.com/2026/07/28/sk-hynix-plunges-semiconductor-selloff-deepens-samsung-softbank.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T14:23:12+00:00"
+    },
+    {
+      "title": "[뉴욕증시]반도체 매도 지속…나스닥 1% 하락 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KbEl4Nk5UVXVRNzhoT25jdHhBVTJpb1Q0U1FVbWpjaDA2amRkVm9IMnUyc2N5aElWYzF6Q05QT2M2Y1JfdDJrTDVHWk9OSlU?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T14:21:51+00:00"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 투매에 혼조 출발…SK하이닉스 ADR 9%대 급락 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY2psQ3ZzRVNvT3ZIeDdmU0ZGRXp3QVZudlVWaDNLbjN6a0tJMFktSjl3RThZblY1TS1ubzFTT2VjTTBTRG0tS183MW9SZGVrZWZGU04xWnNCZmxmM2lPSVZkN1JxZFJBdE9oeURta3UtVUszWU1VUUNEYllrVXI2WVd1anV3Vzl0T2RSdDdrank4WElFaHBKdDhvWEtBd9IBsgFBVV95cUxPbTZYdDhmOTdmeEZSUTFaaVFEUWZkaXp0QUNPMjNzS3lyVW81RlVSNFFwNlhCOEhNQ1RHOGdIajMxQkZ5WkxrR0tPVkF0d1JjQk96bzZfc1l3SHpCNnRHcEJObHJIYlkwTXNDR3BwdTRka0JXd1F6LXBzZ19ER25HVWJVRjE0QXRDVS1nZVF3ZHFxX1l2WVVUZzBGQTRZY3Vkckk3TVJTX0dhQkFnUVBqQ2tn?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T14:16:00+00:00"
+    },
+    {
+      "title": "Roth conversions as early as your 20s and 30s? It’s not a crazy idea.",
+      "link": "https://www.marketwatch.com/story/roth-conversions-as-early-as-your-20s-and-30s-its-not-a-crazy-idea-1f028e24?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T14:15:00+00:00"
+    },
+    {
+      "title": "As chips sell off, rattled investors should heed this Cisco Systems lesson from the last millennium",
+      "link": "https://www.marketwatch.com/story/as-semis-sell-off-rattled-investors-should-heed-last-millenniums-lesson-from-cisco-systems-4bb53304?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T14:14:00+00:00"
+    },
+    {
+      "title": "Las Vegas home prices post largest drop in the nation",
+      "link": "https://www.marketwatch.com/story/las-vegas-home-prices-post-largest-drop-in-the-nation-d39d6ecd?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T14:02:00+00:00"
+    },
+    {
+      "title": "How coordinating 401(k) contributions with your spouse can unlock thousands in retirement wealth",
+      "link": "https://www.marketwatch.com/story/how-coordinating-401-k-contributions-with-your-spouse-can-unlock-thousands-in-retirement-wealth-b5c5d733?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T14:00:00+00:00"
+    },
+    {
+      "title": "Apple is now letting you lease an iPhone like a car. Here’s what to know.",
+      "link": "https://www.marketwatch.com/story/apple-is-now-letting-you-lease-an-iphone-like-a-car-heres-what-to-know-51a10a91?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T13:59:00+00:00"
     },
     {
       "title": "Boeing posts wider loss than expected as Air Force One costs weigh on results",
       "link": "https://www.cnbc.com/2026/07/28/boeing-ba-2q-2026-earnings.html",
       "source": "CNBC Finance",
-      "published": "2026-07-28T13:19:54+00:00"
+      "published": "2026-07-28T13:56:52+00:00"
     },
     {
-      "title": "‘I’m in my peak earning years’: I’m working beyond 70. Will that help increase my Social Security?",
-      "link": "https://www.marketwatch.com/story/im-in-my-peak-earning-years-im-working-beyond-70-will-that-help-increase-my-social-security-b0fd84da?mod=mw_rss_topstories",
+      "title": "I got an unexpected $1,000 medical bill. Here’s why I’m not paying it yet.",
+      "link": "https://www.marketwatch.com/story/i-got-an-unexpected-1-000-medical-bill-heres-why-im-not-paying-it-yet-67265caf?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "2026-07-28T13:15:00+00:00"
+      "published": "2026-07-28T13:48:00+00:00"
     },
     {
-      "title": "UPS beats earnings expectations, raises full-year guidance",
-      "link": "https://www.cnbc.com/2026/07/28/ups-ups-q2-2026-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T13:10:12+00:00"
+      "title": "초고가주택 종부세↑·다주택 장특공제 연간 합산한도…기준 주목",
+      "link": "https://www.yna.co.kr/view/AKR20260728173300002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T13:34:49+00:00"
     },
     {
       "title": "\"올해 상반기 가상자산 해킹 피해 1.6조…과반수 北 소행\"",
@@ -385,10 +505,10 @@
       "published": "2026-07-28T13:00:01+00:00"
     },
     {
-      "title": "Apple is now letting you lease an iPhone like a car. Here’s what to know.",
-      "link": "https://www.marketwatch.com/story/apple-is-now-letting-you-lease-an-iphone-like-a-car-heres-what-to-know-51a10a91?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T12:57:00+00:00"
+      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+      "link": "https://www.cnbc.com/2026/07/28/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T12:57:10+00:00"
     },
     {
       "title": "Iran hosts Hormuz calls with Saudi Arabia, Oman as Trump hails ‘good talks’",
@@ -403,22 +523,10 @@
       "published": "2026-07-28T12:48:47+00:00"
     },
     {
-      "title": "PayPal delivers an earnings beat — and suggests it’s not against a merger deal",
-      "link": "https://www.marketwatch.com/story/paypal-delivers-an-earnings-beat-as-investors-await-updates-on-possible-merger-105930b7?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T12:46:00+00:00"
-    },
-    {
       "title": "Trump says U.S. has sold more than $13 billion of Venezuela oil since Maduro's capture",
       "link": "https://www.cnbc.com/2026/07/27/trump-says-us-has-sold-more-than-13-billion-of-venezuela-oil-.html",
       "source": "CNBC Finance",
       "published": "2026-07-28T12:39:13+00:00"
-    },
-    {
-      "title": "As chips sell off, rattled investors should heed this Cisco Systems lesson from the last millennium",
-      "link": "https://www.marketwatch.com/story/as-semis-sell-off-rattled-investors-should-heed-last-millenniums-lesson-from-cisco-systems-4bb53304?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T12:39:00+00:00"
     },
     {
       "title": "Apple plans to lease iPhones for $17.99 a month through partnership with Klarna",
@@ -427,28 +535,10 @@
       "published": "2026-07-28T12:38:50+00:00"
     },
     {
-      "title": "Boeing’s stock rallies as surprisingly large loss is offset by upbeat revenue and backlog",
-      "link": "https://www.marketwatch.com/story/boeings-stock-rallies-as-surprisingly-large-loss-is-offset-by-upbeat-revenue-and-backlog-e0ad69c9?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T12:24:00+00:00"
-    },
-    {
-      "title": "Meta is up against a wall of AI pessimism heading into earnings",
-      "link": "https://www.marketwatch.com/story/meta-is-up-against-a-wall-of-ai-pessimism-heading-into-earnings-4d3bbcc9?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T12:17:00+00:00"
-    },
-    {
       "title": "Lawmakers renew push to axe a lucrative tax loophole for crypto investors",
       "link": "https://www.cnbc.com/2026/07/28/congress-renews-push-to-end-crypto-wash-sale-tax-loophole.html",
       "source": "CNBC Finance",
       "published": "2026-07-28T12:15:01+00:00"
-    },
-    {
-      "title": "Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.",
-      "link": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T12:15:00+00:00"
     },
     {
       "title": "서킷브레이커 4회·사이드카 23회 역대급 변동성…전문가들 하는 말이",
@@ -457,58 +547,16 @@
       "published": "2026-07-28T12:08:20+00:00"
     },
     {
-      "title": "Oil prices decline further after Trump claims ‘deep talks’ are underway with Iran",
-      "link": "https://www.marketwatch.com/story/oil-prices-decline-further-after-trump-claims-deep-talks-are-underway-with-iran-167a5393?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T12:01:00+00:00"
-    },
-    {
-      "title": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
-      "link": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T12:00:01+00:00"
-    },
-    {
-      "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
-      "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T12:00:00+00:00"
-    },
-    {
-      "title": "Emerging China threat puts a scare into AI hardware stocks. Is the ‘picks and shovels’ trade breaking down?",
-      "link": "https://www.marketwatch.com/story/picks-and-shovels-trade-comes-unstuck-as-ai-hardware-stocks-plunge-on-competitive-threat-from-china-41a0c2b4?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T11:40:00+00:00"
-    },
-    {
       "title": "\"한국 증시에 우리도 흔들\"…두 달 만에 반토막, 칼 뽑나 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5EelFxNVdGVEtHX0huSjg2MWo5azdTOVpKR25yNTk5ZWFjZlFPdXRNUVctSDE1ZUNNRkpGaEd3Tm5wTXU3UGlwbzFIeE56S3M?oc=5",
       "source": "Google News",
       "published": "2026-07-28T11:15:06+00:00"
     },
     {
-      "title": "창신 상장 이어 ‘노광장비 양산’… 中반도체발 증시 쇼크 - 서울신문",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RWGhJTXZiaFNNZkZPSnFGUnpwRjJGZmk2TTJZSDJ3NVZwaVJ6eVZndlZnd19tdnFObVZraUdjZ05qTVJNXzc3d0RKSm9hclhxSkNTQzlqUG9sbVJrdTNJLW9SOEpXNTJvQU13OXRGSGpiVDFvU1pCb3BTRQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T11:06:48+00:00"
-    },
-    {
       "title": "SpaceX has now lost the equivalent of a full Tesla in market capitalization",
       "link": "https://www.cnbc.com/2026/07/27/spacex-has-now-lost-the-equivalent-of-a-full-tesla-in-market-capitalization.html",
       "source": "CNBC Finance",
       "published": "2026-07-28T11:01:48+00:00"
-    },
-    {
-      "title": "Analysis: Kevin Warsh's Fed press conference will be revealing even without a rate hike",
-      "link": "https://www.cnbc.com/2026/07/28/warsh-fed-rate-decision-trump-powell-analysis.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T11:00:01+00:00"
-    },
-    {
-      "title": "New Republican ads slam Democrats opposed to Trump's tariffs",
-      "link": "https://www.cnbc.com/2026/07/28/trump-tariffs-trade-election-advertising.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T11:00:01+00:00"
     },
     {
       "title": "美 쿠팡 보고서에…주병기 \"배민·네이버에도 같은 잣대\"(종합)",
@@ -539,12 +587,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NYUJvZlBtUHdIckhpUUxORXlKMXctUVVtRGhpWWFSYkZldVo1SC01T1BIZTBweDVSVFJsZHhFRUhGTjgwMVFFME9jdlVLUGN4NDZYQ2JvQ3VUdi1zRUNSbU9FM2I0YkotRmFEdm9FQVQ?oc=5",
       "source": "Google News",
       "published": "2026-07-28T10:16:36+00:00"
-    },
-    {
-      "title": "China’s reported chip breakthrough comes with some big caveats",
-      "link": "https://www.cnbc.com/2026/07/28/china-chipmaking-duv-tool-asml-explained.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T09:44:13+00:00"
     },
     {
       "title": "[중국증시-마감] 반도체·AI주 약세에 하락 - 연합인포맥스",
@@ -605,48 +647,6 @@
       "link": "https://www.mk.co.kr/news/economy/12109696",
       "source": "매일경제·증권",
       "published": "2026-07-28T09:08:05+00:00"
-    },
-    {
-      "title": "잔금대출 총량규제에서 빠지나 … 당국, 실수요자 대출 허용 검토",
-      "link": "https://www.mk.co.kr/news/economy/12109697",
-      "source": "매일경제·증권",
-      "published": "2026-07-28T09:08:05+00:00"
-    },
-    {
-      "title": "정부, 대미투자 1호로 가스복합화력발전소 건설사업 낙점",
-      "link": "https://www.yna.co.kr/view/AKR20260728156400003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T09:04:51+00:00"
-    },
-    {
-      "title": "요동치는 증시에 野 “코스피는 ‘도박판’, 코스닥은 ‘얼음판’” - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORFN2aDFpdTJyeG1fc184WVR1eGJLbmNBVTFodFB5TFJPOGZnQ2VwTXV0NVd4RG9YSkE1NVA2Y0RoQk5QcGV0MmZIOExULVpjVDNPV3JwSy1KWUE3Y3VHRGxjREpFZG9oYVdmTUMwcmFrQUhvLU0zaWpxeWpnNHVaUkpwVWpfZw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T09:01:19+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
-      "link": "https://www.yna.co.kr/view/AKR20260728151800011",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T09:00:00+00:00"
-    },
-    {
-      "title": "대미투자 1호 '美 텍사스 가스발전소' 부상",
-      "link": "https://www.mk.co.kr/news/economy/12109647",
-      "source": "매일경제·증권",
-      "published": "2026-07-28T08:59:20+00:00"
-    },
-    {
-      "title": "점점 빨리 늙는 한국 … 아이보다 노인이 2배 많다",
-      "link": "https://www.mk.co.kr/news/economy/12109648",
-      "source": "매일경제·증권",
-      "published": "2026-07-28T08:59:20+00:00"
-    },
-    {
-      "title": "'똘똘한 한채' 양도세 부담 늘어난다 … 유예기간 두고 매물 유도",
-      "link": "https://www.mk.co.kr/news/economy/12109646",
-      "source": "매일경제·증권",
-      "published": "2026-07-28T08:59:19+00:00"
     }
   ],
   "pages": [
