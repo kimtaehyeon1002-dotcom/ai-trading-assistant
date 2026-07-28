@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28T17:40:36.143623+00:00",
+  "as_of": "2026-07-28T19:08:30.824556+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,22 +349,100 @@
   ],
   "news": [
     {
+      "title": "Kentucky Gov. Beshear calls on Mitch McConnell to prove he can serve or resign",
+      "link": "https://www.cnbc.com/2026/07/28/beshear-mcconnell-health-resign-senate-vacancy.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T19:03:40+00:00"
+    },
+    {
+      "title": "‘She is on Medicaid’: My sick friend pleaded with me to be her executor. Can I decline after she dies?",
+      "link": "https://www.marketwatch.com/story/she-is-on-medicaid-my-sick-friend-pleaded-with-me-to-be-her-executor-can-i-decline-after-she-dies-135129d3?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T19:00:00+00:00"
+    },
+    {
+      "title": "Elon Musk stocks take $1.5 trillion hit with fresh test in SpaceX lockup ahead",
+      "link": "https://www.cnbc.com/2026/07/28/elon-musk-stocks-take-1point5-trillion-hit-with-fresh-test-in-spacex-lockup-ahead.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T18:56:34+00:00"
+    },
+    {
       "title": "U.S. Strategic Petroleum Reserve faces stress as emergency releases strain old infrastructure",
       "link": "https://www.cnbc.com/2026/07/28/us-strategic-petroleum-reserve-spr-iran-oil-strait-hormuz.html",
       "source": "CNBC Finance",
-      "published": "2026-07-28T17:34:42+00:00"
+      "published": "2026-07-28T18:49:34+00:00"
+    },
+    {
+      "title": "An extra-caffeinated version of Mr. Pibb is helping Coca-Cola win over cash-strapped shoppers",
+      "link": "https://www.marketwatch.com/story/an-extra-caffeinated-version-of-mr-pibb-is-helping-coca-cola-win-over-cash-strapped-shoppers-4142fd56?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T18:43:00+00:00"
+    },
+    {
+      "title": "Investors are piling into bond funds at a rapid rate. That’s a problem.",
+      "link": "https://www.marketwatch.com/story/investors-are-piling-into-bond-funds-at-a-rapid-rate-thats-a-problem-09aaa039?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T18:39:00+00:00"
+    },
+    {
+      "title": "44 states are aligned on one thing in their fight against prediction markets. It's about sports wagering",
+      "link": "https://www.cnbc.com/2026/07/28/44-states-say-cftc-has-no-authority-over-sports-prediction-markets.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T18:27:43+00:00"
+    },
+    {
+      "title": "The U.S. will import Mexican cattle again. Here’s what that means for high beef prices.",
+      "link": "https://www.marketwatch.com/story/the-u-s-will-import-mexican-cattle-again-heres-what-that-means-for-high-beef-prices-2c1e275e?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T18:26:00+00:00"
+    },
+    {
+      "title": "Apple touches $5 trillion market cap for first time",
+      "link": "https://www.cnbc.com/2026/07/28/apple-touches-5-trillion-market-cap-for-first-time-.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T18:21:13+00:00"
+    },
+    {
+      "title": "Senate to set up key vote on Russia sanctions",
+      "link": "https://www.cnbc.com/2026/07/28/russia-sanctions-congress-key-vote-lindsey-graham-ukraine.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T18:17:55+00:00"
+    },
+    {
+      "title": "My financial adviser is against a withdrawal plan for my $2.3 million portfolio. Is he making a mistake?",
+      "link": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T18:15:00+00:00"
+    },
+    {
+      "title": "We're upgrading our rating on Boeing as CEO Ortberg's turnaround bears fruit",
+      "link": "https://www.cnbc.com/2026/07/28/were-upgrading-our-boeing-rating-as-ortbergs-turnaround-bears-fruit.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T18:10:24+00:00"
+    },
+    {
+      "title": "‘I feel lucky’: I’m 71 and inherited $20,000. What should I do with this money?",
+      "link": "https://www.marketwatch.com/story/i-feel-lucky-im-71-and-inherited-20-000-what-should-i-do-with-this-money-1ab90925?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T18:00:00+00:00"
+    },
+    {
+      "title": "‘I’m in my peak earning years’: I’m working beyond 70. Will that help increase my Social Security?",
+      "link": "https://www.marketwatch.com/story/im-in-my-peak-earning-years-im-working-beyond-70-will-that-help-increase-my-social-security-b0fd84da?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T17:45:00+00:00"
+    },
+    {
+      "title": "Meta likely to highlight smart glasses, avoid social media policy on upcoming earnings call, Kalshi traders say",
+      "link": "https://www.cnbc.com/2026/07/28/meta-q2-earnings-call-mentions-kalshi-market-odds-.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T17:40:03+00:00"
     },
     {
       "title": "Alphabet and Tesla took a hit from soaring AI spending. Will Microsoft, Meta and Amazon be next?",
       "link": "https://www.marketwatch.com/story/alphabet-and-tesla-took-a-hit-from-soaring-ai-spending-will-microsoft-meta-and-amazon-be-next-80ecb30b?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-28T17:30:00+00:00"
-    },
-    {
-      "title": "Meta likely to highlight smart glasses, avoid social media policy on upcoming earnings call, Kalshi traders say",
-      "link": "https://www.cnbc.com/2026/07/28/meta-q2-earnings-call-mentions-kalshi-market-odds-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T17:21:35+00:00"
     },
     {
       "title": "Shein says it's under investigation by the Federal Trade Commission as it prepares for Hong Kong IPO",
@@ -377,12 +455,6 @@
       "link": "https://www.marketwatch.com/story/roth-conversions-as-early-as-your-20s-and-30s-its-not-a-crazy-idea-1f028e24?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-28T16:54:00+00:00"
-    },
-    {
-      "title": "Trump: New tariffs 'doing the same thing' as the ones struck down by Supreme Court",
-      "link": "https://www.cnbc.com/2026/07/28/trump-usmca-canada-mexico-trade-deal.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T16:51:11+00:00"
     },
     {
       "title": "EBay, former execs to pay $56 million in blogger harassment and stalking case",
@@ -403,46 +475,16 @@
       "published": "2026-07-28T16:41:00+00:00"
     },
     {
-      "title": "The Fed isn’t your biggest worry. The central-bank decision that actually impacts your 401(k) lands in Tokyo.",
-      "link": "https://www.marketwatch.com/story/the-fed-isnt-your-biggest-worry-the-central-bank-decision-that-actually-impacts-your-401-k-lands-in-tokyo-fc9d22c8?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T16:39:00+00:00"
-    },
-    {
       "title": "Microsoft touts cost-saving AI model for cybersecurity",
       "link": "https://www.cnbc.com/2026/07/27/microsoft-touts-cost-saving-ai-model-for-cybersecurity.html",
       "source": "CNBC Finance",
       "published": "2026-07-28T16:33:09+00:00"
     },
     {
-      "title": "Software stocks are rising, and these 6 are expected to withstand the AI threat",
-      "link": "https://www.marketwatch.com/story/software-stocks-are-rising-and-these-6-are-expected-to-withstand-the-ai-threat-1ce47e99?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T16:30:00+00:00"
-    },
-    {
-      "title": "Your retirement math may have a surprising flaw",
-      "link": "https://www.marketwatch.com/story/your-retirement-math-may-have-a-surprising-flaw-2d8f58d8?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T16:22:00+00:00"
-    },
-    {
-      "title": "Jim Cramer says buy these 2 stocks but remain cautious on a couple of others",
-      "link": "https://www.cnbc.com/2026/07/28/jim-cramer-says-buy-these-2-stocks-but-remain-cautious-a-couple-of-others.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T16:20:08+00:00"
-    },
-    {
       "title": "The future of Wall Street is here as startups and brokers build AI agents to trade 24/7",
       "link": "https://www.cnbc.com/2026/07/28/ai-agents-build-to-trade-24/7-the-future-of-wall-street.html",
       "source": "CNBC Finance",
       "published": "2026-07-28T16:16:25+00:00"
-    },
-    {
-      "title": "My financial adviser is against a withdrawal plan for my $2.3 million portfolio. Is he making a mistake?",
-      "link": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T16:08:00+00:00"
     },
     {
       "title": "Ford Motor is set to report earnings after the bell. Here's what Wall Street expects",
@@ -469,6 +511,12 @@
       "published": "2026-07-28T15:49:21+00:00"
     },
     {
+      "title": "Iran hosts Hormuz calls with Saudi Arabia, Oman as Trump hails ‘good talks’",
+      "link": "https://www.cnbc.com/2026/07/28/us-iran-war-trump-hormuz.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T15:40:32+00:00"
+    },
+    {
       "title": "SpaceX has now lost the equivalent of a full Tesla in market capitalization",
       "link": "https://www.cnbc.com/2026/07/27/spacex-has-now-lost-the-equivalent-of-a-full-tesla-in-market-capitalization.html",
       "source": "CNBC Finance",
@@ -481,36 +529,6 @@
       "published": "2026-07-28T15:35:48+00:00"
     },
     {
-      "title": "This is the ideal retirement strategy if you want to keep your healthcare costs down",
-      "link": "https://www.marketwatch.com/story/heres-how-to-time-your-retirement-to-keep-your-healthcare-costs-down-b1a4d427?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T15:35:00+00:00"
-    },
-    {
-      "title": "Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care",
-      "link": "https://www.marketwatch.com/story/your-healthcare-could-now-cost-185-500-in-retirement-and-that-doesnt-include-long-term-care-5f4f6da8?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T15:33:00+00:00"
-    },
-    {
-      "title": "Stop snacking all day: Eating for only 8 or 9 hours a day may keep your mind sharp.",
-      "link": "https://www.marketwatch.com/story/stop-snacking-restricting-eating-for-only-8-or-9-hours-a-day-may-keep-your-mind-sharp-1dc7e495?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T15:26:00+00:00"
-    },
-    {
-      "title": "[사설] 롤러코스터 증시…레버리지 ETF 정책 실패 책임 따져야 - 중앙일보",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nSU1yLUdLWlFBeUlIRTMyXzRuLUN5MG5iTzlXeVQ5OXZVMEVEUnFXV3JES3lEQjN4dmVPc3R0ODFocDZKbGJ4czNqQ0tRREt4MzJSNDh3?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T15:24:00+00:00"
-    },
-    {
-      "title": "[사설] 도박판 된 급변동 증시, 누가 이토록 망가트렸나 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ2ZqRVI5aUZrUko0ZC0xd1dmd1JtZnVjbld6ay1RVUEwek04RE1zeUNYZHk4UW1kNDRjUlVLSUd2NmtVcFpTNmJDTFNZNkdjRHl0UldwVGNyeF9lQkRBdTlFenN3Rm1JZm5SMWExQlc1cXlOYVA4b0VVWHRXMWJBbktNeXNJZw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T15:20:00+00:00"
-    },
-    {
       "title": "New Republican ads slam Democrats opposed to Trump's tariffs",
       "link": "https://www.cnbc.com/2026/07/28/trump-tariffs-trade-election-advertising.html",
       "source": "CNBC Finance",
@@ -521,24 +539,6 @@
       "link": "https://www.cnbc.com/2026/07/28/coca-cola-ko-q2-2026-earnings.html",
       "source": "CNBC Finance",
       "published": "2026-07-28T14:42:59+00:00"
-    },
-    {
-      "title": "[뉴욕증시]반도체 매도 지속…나스닥 1% 하락 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KbEl4Nk5UVXVRNzhoT25jdHhBVTJpb1Q0U1FVbWpjaDA2amRkVm9IMnUyc2N5aElWYzF6Q05QT2M2Y1JfdDJrTDVHWk9OSlU?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T14:21:51+00:00"
-    },
-    {
-      "title": "뉴욕증시, 반도체주 투매에 혼조 출발…SK하이닉스 ADR 9%대 급락 - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY2psQ3ZzRVNvT3ZIeDdmU0ZGRXp3QVZudlVWaDNLbjN6a0tJMFktSjl3RThZblY1TS1ubzFTT2VjTTBTRG0tS183MW9SZGVrZWZGU04xWnNCZmxmM2lPSVZkN1JxZFJBdE9oeURta3UtVUszWU1VUUNEYllrVXI2WVd1anV3Vzl0T2RSdDdrank4WElFaHBKdDhvWEtBd9IBsgFBVV95cUxPbTZYdDhmOTdmeEZSUTFaaVFEUWZkaXp0QUNPMjNzS3lyVW81RlVSNFFwNlhCOEhNQ1RHOGdIajMxQkZ5WkxrR0tPVkF0d1JjQk96bzZfc1l3SHpCNnRHcEJObHJIYlkwTXNDR3BwdTRka0JXd1F6LXBzZ19ER25HVWJVRjE0QXRDVS1nZVF3ZHFxX1l2WVVUZzBGQTRZY3Vkckk3TVJTX0dhQkFnUVBqQ2tn?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T14:16:00+00:00"
-    },
-    {
-      "title": "日언론 \"닛케이 변동성 키운 건 한국 증시\"…AI주 동반 급락 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUmRVNXR5NTdPcVZTM1JzS3BpN2R6OXFVQmNPcmZ2Um82R3kwVDBqdXRoSzBLUk12QlN4dmJsS18tWlNCSDd1VHVMQzFyUmgtYWUwbk9FOXNMQVlZeFlzWWFXenJYS0t3VEVTRHYzY0ZGaV9YX3dmbURBRmE5UEhTM3F2Y1pVZzk5UDZBcmowNHlSMUZGR01yTWFONm1CZw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T14:08:00+00:00"
     },
     {
       "title": "Boeing posts wider loss than expected as Air Force One costs weigh on results",
@@ -589,18 +589,6 @@
       "published": "2026-07-28T12:08:20+00:00"
     },
     {
-      "title": "\"한국 증시에 우리도 흔들\"…두 달 만에 반토막, 칼 뽑나 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5EelFxNVdGVEtHX0huSjg2MWo5azdTOVpKR25yNTk5ZWFjZlFPdXRNUVctSDE1ZUNNRkpGaEd3Tm5wTXU3UGlwbzFIeE56S3M?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T11:15:06+00:00"
-    },
-    {
-      "title": "창신 상장 이어 ‘노광장비 양산’… 中반도체발 증시 쇼크 - 서울신문",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RWGhJTXZiaFNNZkZPSnFGUnpwRjJGZmk2TTJZSDJ3NVZwaVJ6eVZndlZnd19tdnFObVZraUdjZ05qTVJNXzc3d0RKSm9hclhxSkNTQzlqUG9sbVJrdTNJLW9SOEpXNTJvQU13OXRGSGpiVDFvU1pCb3BTRQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T11:06:48+00:00"
-    },
-    {
       "title": "美 쿠팡 보고서에…주병기 \"배민·네이버에도 같은 잣대\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260728124751002",
       "source": "연합뉴스·경제",
@@ -619,34 +607,46 @@
       "published": "2026-07-28T10:23:40+00:00"
     },
     {
-      "title": "[베트남 증시] 유가 하락에 투심 개선, 소폭 상승...外人도 매수세 우위 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5peThuU01QTm1aRGM2dXFLMExnaExtdkhpSllWZ1phV0Izd0l5MVZxdENNVFhOcm02czlLT1JwTG11VDhPLVYxTllRTnVoVTNZbGZqN3Y1UzRwdVYx?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T10:23:00+00:00"
-    },
-    {
-      "title": "[亞증시-종합] 반도체 쇼크에 中·日·臺 하락…홍콩↑ - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NYUJvZlBtUHdIckhpUUxORXlKMXctUVVtRGhpWWFSYkZldVo1SC01T1BIZTBweDVSVFJsZHhFRUhGTjgwMVFFME9jdlVLUGN4NDZYQ2JvQ3VUdi1zRUNSbU9FM2I0YkotRmFEdm9FQVQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T10:16:36+00:00"
-    },
-    {
-      "title": "[중국증시-마감] 반도체·AI주 약세에 하락 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00MjFxT2FKTmJqT2dRdzFyXzl6eHpjWkVPZUNrMWFsM3BKNjZ0UEptYVRESzBhY0Nfdy1YRkdOMTU3SFB5OEdCZHk3NS1qMTI2VDBOZWQxdmFTZmFVTkJrNDAxdGV2YjZiTmRQV01PejY?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T09:39:17+00:00"
-    },
-    {
       "title": "반도체협회 신임 부회장에 박건수 전 산업부 산업정책실장",
       "link": "https://www.yna.co.kr/view/AKR20260728161500003",
       "source": "연합뉴스·경제",
       "published": "2026-07-28T09:36:38+00:00"
     },
     {
-      "title": "유럽 증시, 장 초반 상승 출발…유로스톡스 0.43%↑ - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5Y29DbDdVUjNPM3ZyTkNBNnRBZ3MyNnJVVkJrRk9sMy1aODRsMmg0VWRhRkZWZHdDcGNvTXVYNG1SQjBwRngxRFJYb0xJUEwtNFVvZjJHZVpEOHctNEdEMFpUNWV4NzJDVkUwVDFrVE3SAXRBVV95cUxPX0lLSE90RHB1dTB6ZnB0Nm5vMjFidW43TVNTT3dTT2Q4b0NiZ21EVFVadWRqejlsREh0Q0xpYnl5am5iZUhwcTVTZnFRVlBpRXFWT2gxTENDUHlhbTUyM0ZFUUtlaG95T1FzMjNCanpHQzE2aQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T09:20:58+00:00"
+      "title": "“AI 전력난, 원전이 답”… 野 “대형 원전 4기·SMR 2기 더 지어야” [두산에너빌리티 창원공장 르포]",
+      "link": "https://www.mk.co.kr/news/economy/12109719",
+      "source": "매일경제·증권",
+      "published": "2026-07-28T09:13:02+00:00"
+    },
+    {
+      "title": "‘복지 잣대’ 중위소득 기준 6.7% 쑥…4인가구 생계급여 207만→222만원",
+      "link": "https://www.mk.co.kr/news/economy/12109703",
+      "source": "매일경제·증권",
+      "published": "2026-07-28T09:08:56+00:00"
+    },
+    {
+      "title": "[표] 외국환율고시표",
+      "link": "https://www.mk.co.kr/news/economy/12109701",
+      "source": "매일경제·증권",
+      "published": "2026-07-28T09:08:07+00:00"
+    },
+    {
+      "title": "KB금융, 구글과 손잡고 전사적 AI 플랫폼 구축",
+      "link": "https://www.mk.co.kr/news/economy/12109698",
+      "source": "매일경제·증권",
+      "published": "2026-07-28T09:08:06+00:00"
+    },
+    {
+      "title": "[금융 라운지] \"중장년층은 금리 우대\"… 시니어 공들이는 은행",
+      "link": "https://www.mk.co.kr/news/economy/12109699",
+      "source": "매일경제·증권",
+      "published": "2026-07-28T09:08:06+00:00"
+    },
+    {
+      "title": "[포토] IBK기업은행, 교육부·거점국립대와 업무협약",
+      "link": "https://www.mk.co.kr/news/economy/12109700",
+      "source": "매일경제·증권",
+      "published": "2026-07-28T09:08:06+00:00"
     }
   ],
   "pages": [
