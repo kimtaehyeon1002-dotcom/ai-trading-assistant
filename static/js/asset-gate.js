@@ -135,11 +135,15 @@
       if (timer) global.clearTimeout(timer);
       timer = global.setTimeout(onLock, minutes * 60 * 1000);
     }
-    ["mousemove", "keydown", "click", "scroll", "touchstart"].forEach(function (evt) {
+    var events = ["mousemove", "keydown", "click", "scroll", "touchstart"];
+    events.forEach(function (evt) {
       doc.addEventListener(evt, reset, { passive: true });
     });
     reset();
-    return function () { if (timer) global.clearTimeout(timer); };
+    return function () {
+      if (timer) global.clearTimeout(timer);
+      events.forEach(function (evt) { doc.removeEventListener(evt, reset, { passive: true }); });
+    };
   }
 
   global.TAAssetGate = {

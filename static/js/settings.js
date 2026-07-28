@@ -6,6 +6,12 @@
 
   var doc = global.document;
 
+  function escapeHtml(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
   function flashSaved(el) {
     if (!el) return;
     el.hidden = false;
@@ -173,7 +179,7 @@
       var themes = global.TAStore.themes();
       countEl.textContent = themes.length + "개 등록됨";
       chipsEl.innerHTML = themes.map(function (t, i) {
-        return '<button type="button" class="v2-theme-chip" data-idx="' + i + '">' + t + ' <span class="v2-theme-chip__remove">×</span></button>';
+        return '<button type="button" class="v2-theme-chip" data-idx="' + i + '">' + escapeHtml(t) + ' <span class="v2-theme-chip__remove">×</span></button>';
       }).join("");
     }
     chipsEl.addEventListener("click", function (e) {
