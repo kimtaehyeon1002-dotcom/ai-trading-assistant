@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 214.19000244140625,
-    "change_pct": 3.65,
-    "volume": 10561900,
-    "amount": 2262253386.7858887,
+    "close": 227.5500030517578,
+    "change_pct": 5.21,
+    "volume": 13165173,
+    "amount": 2995735156.3269196,
     "marcap": null,
-    "as_of_iso": "2026-07-27T10:28:32.313791+00:00",
+    "as_of_iso": "2026-07-28T22:48:04.211570+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "IBM",

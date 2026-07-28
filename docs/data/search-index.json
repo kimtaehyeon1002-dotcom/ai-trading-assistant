@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28T22:37:28.431967+00:00",
+  "as_of": "2026-07-28T22:48:36.677926+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -142,13 +142,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "214450",
-      "name": "파마리서치",
+      "code": "036930",
+      "name": "주성엔지니어링",
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "036930",
-      "name": "주성엔지니어링",
+      "code": "214450",
+      "name": "파마리서치",
       "market": "KOSDAQ GLOBAL"
     },
     {
@@ -157,13 +157,13 @@
       "market": "US"
     },
     {
-      "code": "NVDA",
-      "name": "Nvidia",
+      "code": "SNDK",
+      "name": "Sandisk",
       "market": "US"
     },
     {
-      "code": "SNDK",
-      "name": "Sandisk",
+      "code": "NVDA",
+      "name": "Nvidia",
       "market": "US"
     },
     {
@@ -177,11 +177,6 @@
       "market": "US"
     },
     {
-      "code": "TSLA",
-      "name": "Tesla, Inc.",
-      "market": "US"
-    },
-    {
       "code": "INTC",
       "name": "Intel",
       "market": "US"
@@ -192,13 +187,18 @@
       "market": "US"
     },
     {
-      "code": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
+      "code": "TSLA",
+      "name": "Tesla, Inc.",
       "market": "US"
     },
     {
       "code": "AMZN",
       "name": "Amazon",
+      "market": "US"
+    },
+    {
+      "code": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
       "market": "US"
     },
     {
@@ -217,23 +217,18 @@
       "market": "US"
     },
     {
+      "code": "STX",
+      "name": "Seagate Technology",
+      "market": "US"
+    },
+    {
+      "code": "GLW",
+      "name": "Corning Inc.",
+      "market": "US"
+    },
+    {
       "code": "PLTR",
       "name": "Palantir Technologies",
-      "market": "US"
-    },
-    {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
-      "market": "US"
-    },
-    {
-      "code": "AMAT",
-      "name": "Applied Materials",
-      "market": "US"
-    },
-    {
-      "code": "LRCX",
-      "name": "Lam Research",
       "market": "US"
     },
     {
@@ -242,18 +237,8 @@
       "market": "US"
     },
     {
-      "code": "STX",
-      "name": "Seagate Technology",
-      "market": "US"
-    },
-    {
-      "code": "GEV",
-      "name": "GE Vernova",
-      "market": "US"
-    },
-    {
-      "code": "NOW",
-      "name": "ServiceNow",
+      "code": "AMAT",
+      "name": "Applied Materials",
       "market": "US"
     },
     {
@@ -262,33 +247,18 @@
       "market": "US"
     },
     {
-      "code": "CRM",
-      "name": "Salesforce",
+      "code": "LRCX",
+      "name": "Lam Research",
       "market": "US"
     },
     {
-      "code": "KLAC",
-      "name": "KLA Corporation",
+      "code": "V",
+      "name": "Visa Inc.",
       "market": "US"
     },
     {
-      "code": "JPM",
-      "name": "JPMorgan Chase",
-      "market": "US"
-    },
-    {
-      "code": "CAT",
-      "name": "Caterpillar Inc.",
-      "market": "US"
-    },
-    {
-      "code": "NFLX",
-      "name": "Netflix",
-      "market": "US"
-    },
-    {
-      "code": "GS",
-      "name": "Goldman Sachs",
+      "code": "GEV",
+      "name": "GE Vernova",
       "market": "US"
     },
     {
@@ -297,8 +267,38 @@
       "market": "US"
     },
     {
-      "code": "JNJ",
-      "name": "Johnson & Johnson",
+      "code": "DELL",
+      "name": "Dell Technologies",
+      "market": "US"
+    },
+    {
+      "code": "NOW",
+      "name": "ServiceNow",
+      "market": "US"
+    },
+    {
+      "code": "NFLX",
+      "name": "Netflix",
+      "market": "US"
+    },
+    {
+      "code": "KLAC",
+      "name": "KLA Corporation",
+      "market": "US"
+    },
+    {
+      "code": "CSCO",
+      "name": "Cisco",
+      "market": "US"
+    },
+    {
+      "code": "CRM",
+      "name": "Salesforce",
+      "market": "US"
+    },
+    {
+      "code": "IBM",
+      "name": "IBM",
       "market": "US"
     },
     {
@@ -342,6 +342,11 @@
       "market": "KRX"
     },
     {
+      "code": "JPM",
+      "name": "JPMorgan Chase",
+      "market": "NYSE"
+    },
+    {
       "code": "BAC",
       "name": "Bank of America",
       "market": "NYSE"
@@ -349,10 +354,10 @@
   ],
   "news": [
     {
-      "title": "[단독] 증시 폭락에 속수무책 정부…공매도 ’한시적 금지’ 청원도 등장 - 연합뉴스TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6aFI0NjZCdHREOEFPRi01bm9qcmdCcFFEaG5nb08yOENkVUxfOHFEb2RxaVVNdTdWSFdVS0E3TkRjYW9tZ2xnRFFPVlI4UDJ4ZkJRdzV3RFpFa0dTaU5QeFRGNVpJYU0?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T22:28:00+00:00"
+      "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
+      "link": "https://www.yna.co.kr/view/AKR20260729015900011",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T22:30:00+00:00"
     },
     {
       "title": "널뛰기 증시에 더 두둑해지는 잔고…커버드콜ETF 찾는 개미들 [실전재테크] - v.daum.net",
@@ -371,6 +376,12 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KUkthX0NTbWNjZmk2VGtyU1lYSHQ4ak1SN1ZZN2I5OTZCQVpEQ1NKd0IydTBKQkZpZzBXRXVSeWlqeWdOTGZ3Qm0xVXpMRW8?oc=5",
       "source": "Google News",
       "published": "2026-07-28T22:10:20+00:00"
+    },
+    {
+      "title": "김용범, 증시 패닉에 \"中 창신·노광 쇼크…극심한 증시 변동성 점검할 것\" - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jN051OTExSlNaaks5Rkc1c3JUUTgtblBrYV9JRHg5MWVlVFU2S0FDRktxbmJTcHprZFdWajBaS25xQzlNdDQyTThLWXozVkE2N004bHhjQ19WZ1JseGEtQjRVamJUbXVhUjB3YU1jbTc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T22:08:48+00:00"
     },
     {
       "title": "Medicare is about to change a drug program that held down the cost of premiums. Here’s what to know.",
@@ -553,6 +564,12 @@
       "published": "2026-07-28T20:51:00+00:00"
     },
     {
+      "title": "뉴욕증시, 반도체 팔고 금융·헬스케어 샀다…'순환매' 이어져 - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45S2diTGFIOERSMFUtQkJIMkRmU18teWhyWEJpUVpQREwyZGFkbVBrSFZXcWNlVVl4N3hpTy1nTGc3dWxzWnBHNjVFYnd5ZWhFdlMxU1FhRmxEWHpISWMwUtIBeEFVX3lxTE9OVDAxSVlPZUpjMjA5S2dFZEotNGZKQndlQmRXc2NRdGhIandQSEpSWTdVbVhEN3o1X3pqWjZWVmtJUmFzY09nd3hoRmx1S2lFeTd6Uk5mTEh4Z1VBWFUyTnlCTzlvMGh2MDUwWUp0SkdySkV2VnhENw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T20:47:48+00:00"
+    },
+    {
       "title": "Nasdaq-100 is on the edge of correction territory as semiconductor stocks take another beating",
       "link": "https://www.marketwatch.com/story/nasdaq-100-is-on-the-edge-of-correction-territory-as-semiconductor-stocks-take-another-beating-580d3ee7?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -635,18 +652,6 @@
       "link": "https://www.cnbc.com/2026/07/28/beshear-mcconnell-health-resign-senate-vacancy.html",
       "source": "CNBC Finance",
       "published": "2026-07-28T19:03:40+00:00"
-    },
-    {
-      "title": "Elon Musk stocks take $1.5 trillion hit with fresh test in SpaceX lockup ahead",
-      "link": "https://www.cnbc.com/2026/07/28/elon-musk-stocks-take-1point5-trillion-hit-with-fresh-test-in-spacex-lockup-ahead.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T18:56:34+00:00"
-    },
-    {
-      "title": "U.S. Strategic Petroleum Reserve faces stress as emergency releases strain old infrastructure",
-      "link": "https://www.cnbc.com/2026/07/28/us-strategic-petroleum-reserve-spr-iran-oil-strait-hormuz.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T18:49:34+00:00"
     }
   ],
   "pages": [

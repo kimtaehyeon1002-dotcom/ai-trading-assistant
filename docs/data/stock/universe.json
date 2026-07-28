@@ -140,13 +140,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "214450",
-    "name": "파마리서치",
+    "code": "036930",
+    "name": "주성엔지니어링",
     "market": "KOSDAQ GLOBAL"
   },
   {
-    "code": "036930",
-    "name": "주성엔지니어링",
+    "code": "214450",
+    "name": "파마리서치",
     "market": "KOSDAQ GLOBAL"
   },
   {
@@ -155,13 +155,13 @@
     "market": "US"
   },
   {
-    "code": "NVDA",
-    "name": "Nvidia",
+    "code": "SNDK",
+    "name": "Sandisk",
     "market": "US"
   },
   {
-    "code": "SNDK",
-    "name": "Sandisk",
+    "code": "NVDA",
+    "name": "Nvidia",
     "market": "US"
   },
   {
@@ -175,11 +175,6 @@
     "market": "US"
   },
   {
-    "code": "TSLA",
-    "name": "Tesla, Inc.",
-    "market": "US"
-  },
-  {
     "code": "INTC",
     "name": "Intel",
     "market": "US"
@@ -190,13 +185,18 @@
     "market": "US"
   },
   {
-    "code": "GOOGL",
-    "name": "Alphabet Inc. (Class A)",
+    "code": "TSLA",
+    "name": "Tesla, Inc.",
     "market": "US"
   },
   {
     "code": "AMZN",
     "name": "Amazon",
+    "market": "US"
+  },
+  {
+    "code": "GOOGL",
+    "name": "Alphabet Inc. (Class A)",
     "market": "US"
   },
   {
@@ -215,23 +215,18 @@
     "market": "US"
   },
   {
+    "code": "STX",
+    "name": "Seagate Technology",
+    "market": "US"
+  },
+  {
+    "code": "GLW",
+    "name": "Corning Inc.",
+    "market": "US"
+  },
+  {
     "code": "PLTR",
     "name": "Palantir Technologies",
-    "market": "US"
-  },
-  {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
-    "market": "US"
-  },
-  {
-    "code": "AMAT",
-    "name": "Applied Materials",
-    "market": "US"
-  },
-  {
-    "code": "LRCX",
-    "name": "Lam Research",
     "market": "US"
   },
   {
@@ -240,18 +235,8 @@
     "market": "US"
   },
   {
-    "code": "STX",
-    "name": "Seagate Technology",
-    "market": "US"
-  },
-  {
-    "code": "GEV",
-    "name": "GE Vernova",
-    "market": "US"
-  },
-  {
-    "code": "NOW",
-    "name": "ServiceNow",
+    "code": "AMAT",
+    "name": "Applied Materials",
     "market": "US"
   },
   {
@@ -260,33 +245,18 @@
     "market": "US"
   },
   {
-    "code": "CRM",
-    "name": "Salesforce",
+    "code": "LRCX",
+    "name": "Lam Research",
     "market": "US"
   },
   {
-    "code": "KLAC",
-    "name": "KLA Corporation",
+    "code": "V",
+    "name": "Visa Inc.",
     "market": "US"
   },
   {
-    "code": "JPM",
-    "name": "JPMorgan Chase",
-    "market": "US"
-  },
-  {
-    "code": "CAT",
-    "name": "Caterpillar Inc.",
-    "market": "US"
-  },
-  {
-    "code": "NFLX",
-    "name": "Netflix",
-    "market": "US"
-  },
-  {
-    "code": "GS",
-    "name": "Goldman Sachs",
+    "code": "GEV",
+    "name": "GE Vernova",
     "market": "US"
   },
   {
@@ -295,8 +265,38 @@
     "market": "US"
   },
   {
-    "code": "JNJ",
-    "name": "Johnson & Johnson",
+    "code": "DELL",
+    "name": "Dell Technologies",
+    "market": "US"
+  },
+  {
+    "code": "NOW",
+    "name": "ServiceNow",
+    "market": "US"
+  },
+  {
+    "code": "NFLX",
+    "name": "Netflix",
+    "market": "US"
+  },
+  {
+    "code": "KLAC",
+    "name": "KLA Corporation",
+    "market": "US"
+  },
+  {
+    "code": "CSCO",
+    "name": "Cisco",
+    "market": "US"
+  },
+  {
+    "code": "CRM",
+    "name": "Salesforce",
+    "market": "US"
+  },
+  {
+    "code": "IBM",
+    "name": "IBM",
     "market": "US"
   },
   {
@@ -338,6 +338,11 @@
     "code": "055550",
     "name": "신한지주",
     "market": "KRX"
+  },
+  {
+    "code": "JPM",
+    "name": "JPMorgan Chase",
+    "market": "NYSE"
   },
   {
     "code": "BAC",
