@@ -5,11 +5,11 @@
   "theme": "금융",
   "quote": {
     "close": 62.130001068115234,
-    "change_pct": null,
+    "change_pct": 0.13,
     "volume": 36783745,
     "amount": 2285374116.1392784,
     "marcap": null,
-    "as_of_iso": "2026-07-27T22:47:32.188719+00:00",
+    "as_of_iso": "2026-07-28T02:25:08.350456+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "BAC",

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28T01:44:33.013451+00:00",
+  "as_of": "2026-07-28T02:25:43.138722+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -12,18 +12,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "market": "KOSPI"
-    },
-    {
       "code": "009150",
       "name": "삼성전기",
       "market": "KOSPI"
     },
     {
-      "code": "475150",
-      "name": "SK이터닉스",
+      "code": "402340",
+      "name": "SK스퀘어",
       "market": "KOSPI"
     },
     {
@@ -32,8 +27,23 @@
       "market": "KOSPI"
     },
     {
+      "code": "475150",
+      "name": "SK이터닉스",
+      "market": "KOSPI"
+    },
+    {
       "code": "005935",
       "name": "삼성전자우",
+      "market": "KOSPI"
+    },
+    {
+      "code": "413630",
+      "name": "씨피시스템",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "068270",
+      "name": "셀트리온",
       "market": "KOSPI"
     },
     {
@@ -42,33 +52,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "950160",
-      "name": "코오롱티슈진",
-      "market": "KOSDAQ"
-    },
-    {
       "code": "005380",
       "name": "현대차",
-      "market": "KOSPI"
-    },
-    {
-      "code": "006340",
-      "name": "대원전선",
-      "market": "KOSPI"
-    },
-    {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "012450",
-      "name": "한화에어로스페이스",
       "market": "KOSPI"
     },
     {
@@ -77,68 +62,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "316140",
-      "name": "우리금융지주",
-      "market": "KOSPI"
-    },
-    {
-      "code": "066570",
-      "name": "LG전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "319400",
-      "name": "현대무벡스",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "064350",
-      "name": "현대로템",
-      "market": "KOSPI"
-    },
-    {
-      "code": "012330",
-      "name": "현대모비스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "market": "KOSPI"
-    },
-    {
-      "code": "000270",
-      "name": "기아",
-      "market": "KOSPI"
-    },
-    {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KOSPI"
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "market": "KOSPI"
-    },
-    {
-      "code": "018260",
-      "name": "삼성에스디에스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "0218L0",
-      "name": "네오뷰",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "010060",
-      "name": "OCI홀딩스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "009830",
-      "name": "한화솔루션",
+      "code": "006340",
+      "name": "대원전선",
       "market": "KOSPI"
     },
     {
@@ -147,8 +72,83 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "460930",
+      "name": "현대힘스",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "477850",
+      "name": "마키나락스",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "market": "KOSPI"
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "market": "KOSPI"
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "950160",
+      "name": "코오롱티슈진",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "market": "KOSPI"
+    },
+    {
       "code": "034020",
       "name": "두산에너빌리티",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KOSPI"
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KOSPI"
+    },
+    {
+      "code": "356680",
+      "name": "엑스게이트",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "066570",
+      "name": "LG전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "196170",
+      "name": "알테오젠",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "042700",
+      "name": "한미반도체",
       "market": "KOSPI"
     },
     {
@@ -312,11 +312,6 @@
       "market": "KRX"
     },
     {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "KRX"
-    },
-    {
       "code": "247540",
       "name": "에코프로비엠",
       "market": "KRX"
@@ -324,11 +319,6 @@
     {
       "code": "035720",
       "name": "카카오",
-      "market": "KRX"
-    },
-    {
-      "code": "068270",
-      "name": "셀트리온",
       "market": "KRX"
     },
     {
@@ -342,6 +332,11 @@
       "market": "NYSE"
     },
     {
+      "code": "000270",
+      "name": "기아",
+      "market": "KRX"
+    },
+    {
       "code": "055550",
       "name": "신한지주",
       "market": "KRX"
@@ -353,6 +348,150 @@
     }
   ],
   "news": [
+    {
+      "title": "[외환] 증시 부진·亞 통화 약세에 1,470원대로 상승 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93YWdoeGNZSUJXX0pnQkFfRGVNVEJSbW9rOW5qakwwY1JmdjlnRXpYLUtrV01XeF9LckEzMmU3TWpjRW9pUWR1ZWExM3lkX0lTX29Hczh5dERtcGRjU2ttMllLQ2VFYW90aGFSSVl1WG7SAXRBVV95cUxPZGpSdXhvUjdOSkN6QjFrWDBnTS1FdTNuZU9zQUhnUE5qU1BYR3RqUGtJcDRkY3IzeVBMQXI1NXZYTlFxd2lIRW51ZmNOUDBfS1JQY2RQSDFwSE5RMG5kYUNORWNrdWRVZzROTk5RRld5Slg4Qg?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T02:19:03+00:00"
+    },
+    {
+      "title": "광주은행, 'KIA타이거즈·텐텐양궁' 금융상품 혜택 확대",
+      "link": "https://www.yna.co.kr/view/AKR20260728075200054",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T02:18:28+00:00"
+    },
+    {
+      "title": "[홍석철의 경제진단] 레버리지에 갇힌 증시, 생산적 금융 돌아볼 때 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tNHB5NV9FV2p2NWZrVVE5M244N0VfdmhGNElPYTJNTlR6RF9TbWd2emhXMTJIM2dadlRhVGF4QUdYdjFUdi1aMGxnMXAyb21RcDM2MHpQQTZ1UHg2QkZnYQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T02:17:41+00:00"
+    },
+    {
+      "title": "서울시, 도봉구 방학동 신통기획 확정…2천800세대 대단지로",
+      "link": "https://www.yna.co.kr/view/AKR20260728041100004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T02:15:04+00:00"
+    },
+    {
+      "title": "농협·농식품부, 여름 과채류 수급 안정에 12억4천만원 투입",
+      "link": "https://www.yna.co.kr/view/AKR20260728072700030",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T02:13:00+00:00"
+    },
+    {
+      "title": "장학재단-신복위, 학자금대출 연체 청년 신용상담 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260728072000002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T02:12:10+00:00"
+    },
+    {
+      "title": "[게시판] 국민카드, 'KB Pay 바로할인' 서비스 출시",
+      "link": "https://www.yna.co.kr/view/AKR20260728068200002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T02:09:35+00:00"
+    },
+    {
+      "title": "게임산업 성장 둔화에 경고음…\"세제 지원 시급\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728071900017",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T02:06:51+00:00"
+    },
+    {
+      "title": "[세종소식] '세종 스마트시티 리빙랩 시민참가단' 모집",
+      "link": "https://www.yna.co.kr/view/AKR20260728073100063",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T02:06:28+00:00"
+    },
+    {
+      "title": "CXMT, 상하이 증시 상장 첫날 466% 폭등…중국 시총 1위 등극 - AI타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52azRCZU85NVhWTS1saGVyc1NkVHYxV3NNeS1yQk0xc2FZTEFLMXpsbTllMlVDUWxCU0FSTHBpN0ZjQXJ5MHdzUlBBS1F3cFNqLXFKS2VwRmJfT1ItRTd3eFRLWm85OWFUR3c?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T02:05:54+00:00"
+    },
+    {
+      "title": "충북 7월 소비자심리 111…전월보다 2.4p 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260728072600064",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T02:05:14+00:00"
+    },
+    {
+      "title": "한국맥쿼리, 초록우산과 제6회 청년리더 프로그램 발대식 개최",
+      "link": "https://www.yna.co.kr/view/AKR20260728071600008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T02:03:39+00:00"
+    },
+    {
+      "title": "전남광주특별시, 사회연대경제로 청년 일자리·돌봄 확대",
+      "link": "https://www.yna.co.kr/view/AKR20260728069900054",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T02:00:43+00:00"
+    },
+    {
+      "title": "[게시판] 국립해양조사원, 해양조사 정보 활용 논문 공모전",
+      "link": "https://www.yna.co.kr/view/AKR20260728025700051",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T02:00:03+00:00"
+    },
+    {
+      "title": "부산 시민단체 \"BNK·JB 금융 합병 시도 즉각 중단하라\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728043700051",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T02:00:02+00:00"
+    },
+    {
+      "title": "코트라 \"작년 북한 대외무역 16％ 증가…교역 확대 흐름 재개\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728052700003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T02:00:01+00:00"
+    },
+    {
+      "title": "케데헌 더피처럼? 'K-컬처 문화유산' 활용 디자인 출원 96%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260728070400063",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T01:59:38+00:00"
+    },
+    {
+      "title": "트라이씨클, '하프클럽'·'보리보리'에 AI 상담 시스템 도입",
+      "link": "https://www.yna.co.kr/view/AKR20260728068600030",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T01:57:43+00:00"
+    },
+    {
+      "title": "\"코스피 변동성 키운 쏠림·레버리지, 美 증시도 문제\" - KB Think",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mdmJkLTVubjFaYkdWdUJ2Sk12YzZ6MjNweERldzFVcHFNemt4VGtpSDF3eEJtVERhYk9TOWtZRWJvcTVWaEtUdkdsSFAzVHJIOEV0eVNYUy02OUUwYU8xUjlRQkJhSmJpMUktVGVqUVk5UQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T01:52:16+00:00"
+    },
+    {
+      "title": "車보험 경상환자 ‘묻지마 소송’…법원은 청구액 87% 깎았다",
+      "link": "https://www.mk.co.kr/news/economy/12109183",
+      "source": "매일경제·증권",
+      "published": "2026-07-28T01:50:14+00:00"
+    },
+    {
+      "title": "Shares of SK Hynix plunge 10% in Seoul as semiconductor selloff deepens",
+      "link": "https://www.cnbc.com/2026/07/28/sk-hynix-plunges-semiconductor-selloff-deepens-samsung-softbank.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-28T01:48:30+00:00"
+    },
+    {
+      "title": "\"여기가 수혜 단지\" 광주 분양 아파트 마케팅 '반도체' 초점",
+      "link": "https://www.yna.co.kr/view/AKR20260728064600054",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T01:43:44+00:00"
+    },
+    {
+      "title": "급락장에 코스피 변동성지수 '껑충'…7거래일만에 급반등",
+      "link": "https://www.yna.co.kr/view/AKR20260728065800008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T01:41:46+00:00"
+    },
+    {
+      "title": "보증금 50만원·월세 1만원…전주 평화동 '청춘별채' 입주 시작",
+      "link": "https://www.yna.co.kr/view/AKR20260728065000055",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-28T01:41:27+00:00"
+    },
     {
       "title": "[속보] 코스피, 거래 재개…'20분간 매매 중단' 서킷브레이커 해제",
       "link": "https://www.yna.co.kr/view/AKR20260728064700008",
@@ -492,12 +631,6 @@
       "published": "2026-07-28T01:02:24+00:00"
     },
     {
-      "title": "Shares of SK Hynix plunge 10% in Seoul as semiconductor selloff deepens",
-      "link": "https://www.cnbc.com/2026/07/28/sk-hynix-plunges-semiconductor-selloff-deepens-samsung-softbank.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T01:02:23+00:00"
-    },
-    {
       "title": "\"채권 시장, 증시에 경고 보내는 중\" - KB Think",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5iZ2JlM1lEYlI4aEczeXNHUElKYzFyQ1JLXzFZeGl2V3Zmbk1pdWtMbnFvT2tkUk1jUFR3enVCY3gzSy1SWmp4aDRIN2RnXzFBb1pXTGhnbHBSenNFV080ZnJNdFlPZDk4OG04QndmM2FuZw?oc=5",
       "source": "Google News",
@@ -514,144 +647,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260728043900002",
       "source": "연합뉴스·경제",
       "published": "2026-07-28T01:00:00+00:00"
-    },
-    {
-      "title": "美 반도체주 약세 영향…국내 증시 장 초반 7% 이상 폭락 - 전자신문",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9FTlhVNDhXQlJBVlNEZEh4bWtzSUdvWUo1T0FYQXdMX3d5ampERkxibjNuQ2xYb1FCa190VmhXanZsdFVHTEcwN25nZVZlZw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T00:58:59+00:00"
-    },
-    {
-      "title": "GS건설, 호주 멜버른 도로공사 터널 굴착 완료…2028년 준공",
-      "link": "https://www.yna.co.kr/view/AKR20260728048900003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:58:38+00:00"
-    },
-    {
-      "title": "KB증권 \"원리금비보장형 DC·IRP 퇴직연금 수익률 1위 기록\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728049000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:58:07+00:00"
-    },
-    {
-      "title": "[오늘 일본은] 日 증시 석 달째 하루 평균 2%대 출렁…한일 ‘빚투’도 변동성 키워 - 포인트경제",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jaTlaVUZza282MUl1ZHdnWWFfQ3VUUENYMnItblRkSDBNdGRvaUZwalVSZnlmUzFLaGFTakJPNUt3MUstVzlsVmhiczg1TzJQRTVFc3JIQlNtekw0QldrVHREdDFNNnNBNVE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T00:56:06+00:00"
-    },
-    {
-      "title": "버거킹, 아침 메뉴 판매 매장 2배 확대…오믈렛 중량 늘려",
-      "link": "https://www.yna.co.kr/view/AKR20260728044600030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:55:29+00:00"
-    },
-    {
-      "title": "토스, 업무 연속성 국제표준 'ISO 22301' 인증 획득",
-      "link": "https://www.yna.co.kr/view/AKR20260728051400017",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:52:57+00:00"
-    },
-    {
-      "title": "강진군, 쌀 안정적 해외판로 구축…호주·필리핀 올 첫 수출",
-      "link": "https://www.yna.co.kr/view/AKR20260728049700054",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:52:46+00:00"
-    },
-    {
-      "title": "대출 막히자 불법사채 내몰렸나…“저신용자 최대 11.9만명 흘러가”",
-      "link": "https://www.mk.co.kr/news/economy/12109136",
-      "source": "매일경제·증권",
-      "published": "2026-07-28T00:51:42+00:00"
-    },
-    {
-      "title": "[게시판] 우리은행, 해병대 2사단에 위문금 1천만원·에너지 음료 전달",
-      "link": "https://www.yna.co.kr/view/AKR20260728049900002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:51:37+00:00"
-    },
-    {
-      "title": "코스피, 미국 증시 혼조세 여파에 5%대 급락 출발 - YTN",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE92UXVLTjdiVkhLazlsV3oyd2FncWtqVXhZVE1vV1RhTnJRdWQyamR6djRiQU9uRV9FNExWRXZlWEVCa3dpOFdsZHg5SlVRY3NGWmlEZWRxMHFxZ01jM1E?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T00:49:00+00:00"
-    },
-    {
-      "title": "신한금융, '신한 커리어넥스트'교육생 모집…금융IT 인재양성",
-      "link": "https://www.yna.co.kr/view/AKR20260728043500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:46:19+00:00"
-    },
-    {
-      "title": "삼성액티브운용, KoAct 고배당액티브 신규 상장",
-      "link": "https://www.yna.co.kr/view/AKR20260728045800008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:46:12+00:00"
-    },
-    {
-      "title": "[게시판] 하나카드 '삼성월렛 하나 트래블로그' 체크카드 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260728039000002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:45:40+00:00"
-    },
-    {
-      "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 8∼10% 급락",
-      "link": "https://www.yna.co.kr/view/AKR20260728044500008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:45:01+00:00"
-    },
-    {
-      "title": "코스피, 미국발 찬바람에 7%대 급락…양 시장 잇단 매도 사이드카(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260728033851008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:42:21+00:00"
-    },
-    {
-      "title": "'삼성 19조원 투자' 천안시, 신속 행정으로 착공 속도 높인다",
-      "link": "https://www.yna.co.kr/view/AKR20260728043000063",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:39:21+00:00"
-    },
-    {
-      "title": "경기신용보증재단 일부 부서 남양주 이전…50명 근무",
-      "link": "https://www.yna.co.kr/view/AKR20260728042300060",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:39:20+00:00"
-    },
-    {
-      "title": "[바이오스냅] 식약처, '저염·저당' 요리대회 참가자 모집",
-      "link": "https://www.yna.co.kr/view/AKR20260728022100017",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:37:43+00:00"
-    },
-    {
-      "title": "6월 서울 원룸 전세 보증금·월세 실거래가 동반 하락",
-      "link": "https://www.yna.co.kr/view/AKR20260728038000003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:36:53+00:00"
-    },
-    {
-      "title": "'0.4초 만에 상품 인식'…신세계아이앤씨, AI 계산대 고도화",
-      "link": "https://www.yna.co.kr/view/AKR20260728035600017",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:35:48+00:00"
-    },
-    {
-      "title": "\"바이오 혁신에 속도\"…식약처, 내달 글로벌 콘퍼런스",
-      "link": "https://www.yna.co.kr/view/AKR20260728033100017",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:34:52+00:00"
-    },
-    {
-      "title": "증시 '급락' 매도 사이드카‥반도체주 하락 - MBC 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFekl6OVBjR014Ui1IOXBObnRNLVc2S1hiSWhDOGFVd0hKeHRTSFRla29aZmxFM2NsWHc0V1BFZTlVcnFCU1B4YjRjampvdjI5WGkzLTc4UjFKRGh0Wm1MVk5Hb1hfOGhuSzVQQmZrQjhKaEZYclIw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T00:34:02+00:00"
-    },
-    {
-      "title": "동아오츠카, 포카리스웨트 500㎖ 무라벨 출시…온라인 우선 판매",
-      "link": "https://www.yna.co.kr/view/AKR20260728037500030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-28T00:32:21+00:00"
     }
   ],
   "pages": [
