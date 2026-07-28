@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28T22:12:44.654269+00:00",
+  "as_of": "2026-07-28T22:32:16.907834+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,6 +349,24 @@
   ],
   "news": [
     {
+      "title": "널뛰기 증시에 더 두둑해지는 잔고…커버드콜ETF 찾는 개미들 [실전재테크] - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UUTU4U3dVbGlwZGs5aGxVTDlrUk9GNjc2dmdVakZ1ODlLQTY4cWV5Mmx0TlBaSnRPZlVxWm1DM0Rpd2tpZU1ONFBWeEUwaEZBY05XYnMwTVltX0hSaFN3Sw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T22:19:00+00:00"
+    },
+    {
+      "title": "Seagate’s earnings are welcome news for the battered AI trade",
+      "link": "https://www.marketwatch.com/story/seagates-earnings-are-welcome-news-for-the-battered-ai-trade-92dfc30f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-28T22:17:00+00:00"
+    },
+    {
+      "title": "[증시전략] 한국 반도체주, 미국 기술주의 '선행지표' 역할 부상 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KUkthX0NTbWNjZmk2VGtyU1lYSHQ4ak1SN1ZZN2I5OTZCQVpEQ1NKd0IydTBKQkZpZzBXRXVSeWlqeWdOTGZ3Qm0xVXpMRW8?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T22:10:20+00:00"
+    },
+    {
       "title": "Medicare is about to change a drug program that held down the cost of premiums. Here’s what to know.",
       "link": "https://www.marketwatch.com/story/medicare-is-about-to-change-a-program-that-held-down-the-cost-of-premiums-heres-what-to-know-42c0612e?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -457,6 +475,12 @@
       "published": "2026-07-28T21:02:12+00:00"
     },
     {
+      "title": "[속보] 뉴욕증시, 혼조...다우 1.03%↑ - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83eFdxdEFpbHBvTXQ2SUpDMVR4QW5BUk1FZGE5SDNWMXB2bTlrbG9VUWRRcDZYM2l3a2g3cDkzbUZndXlFd1gwcXlFTDFaaWpsQVZicw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T21:02:00+00:00"
+    },
+    {
       "title": "강남 고가주택 보유세 올해 '역대 최대'…실효세율 더 오를 듯",
       "link": "https://www.yna.co.kr/view/AKR20260728159000003",
       "source": "연합뉴스·경제",
@@ -541,12 +565,6 @@
       "published": "2026-07-28T20:43:00+00:00"
     },
     {
-      "title": "[뉴욕증시] 반도체주 마이크론·AMD 8%대 급락…다우지수는 537P↑ - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb1l2Y3JsTTN5VGVJNHVHN2hwSFpkTHpWOElJS2dKX1RfZ3pSMDhlQkZvdE5TaFRjRG9RWmpXdy1IbVYyYi1PbE5NR0xCaV9vWm44MUNUZUh1NDFfV2hVV3ZoNzZCX184TGN0T2oxQ0hCZmNCWUlOd0U3WTRBa0JXeG53Ympidl9R?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T20:40:43+00:00"
-    },
-    {
       "title": "韓-브라질 기업인 한자리에…\"양국은 시대적 파트너, 원팀 희망\"",
       "link": "https://www.yna.co.kr/view/AKR20260729007600001",
       "source": "연합뉴스·경제",
@@ -559,16 +577,16 @@
       "published": "2026-07-28T20:33:00+00:00"
     },
     {
-      "title": "Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.",
-      "link": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-28T20:26:00+00:00"
-    },
-    {
       "title": "AI 랠리 ‘잠시 멈춤’... 뉴욕증시, 혼조 마감 - 조선비즈 - Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQamMtOVM1VXFsR0M0NlQ3WlJuMERwYldFYWwyRlF4Y2praEFkdThrMjVWYlBzQ1pIY1JaUG1GQkIyYXEydVhxbzhyVUYtdDdvNVNTVUFXN3lKcEpNd2M4cDljQTVRaU41QkFBaTJSUEZteGgzalZSR0t3cE9zMEdtLUVxQlFZU0NuRGhsU3BNX0JNTkFicmZVM0xMamFDd9IBsgFBVV95cUxOel9VU0hmc1ByYVZYZ04wc0lDWkdBWG9oYVhtVmNNMGo3Y1dWVkNWWllqckhzMnpETnZHZXVoZWdwQ3NDcTdscVVmMVBHZWo1NGRjMVo1Z0Nqa2ctSUVMNGxrTzc5cDBWZzBmUUJVXzZXQVo1UF9PM05QTnk5RGttMUEtU3VySHhZWVBMYmx6d2hXd3dnUlpnM3Q5STBzaWpBSjJOc0lSZ0JSSXZwX2VpUUZB?oc=5",
       "source": "Google News",
       "published": "2026-07-28T20:23:00+00:00"
+    },
+    {
+      "title": "기업 실적이 뉴욕 증시 살렸다, 반도체 약세에도 상승 마감 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tZWlnOEtYYy1iY09lOGplTjBuMHBXVzVsck16Yzc2Wng2MkNGQlRXVy00WDB4NkJOeHRjR01vUmZYamJ2R2hXM2pSNk9yU1k?oc=5",
+      "source": "Google News",
+      "published": "2026-07-28T20:15:37+00:00"
     },
     {
       "title": "[뉴욕증시-1보] 흔들리는 기술주와 탄력 붙는 우량주…혼조 마감 - 연합인포맥스",
@@ -613,12 +631,6 @@
       "published": "2026-07-28T19:15:15+00:00"
     },
     {
-      "title": "리서치센터장 \"빅테크 AI투자 확인·반도체 실적·금리우려 완화, 증시반등 조건\" - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fR3JhRGtTOWxBeHRZZ2NmNW0xclRaVlEtVnB2YW53QTJJbEZIay1IdkUwU2RQa1RlLWRMYUdsMl9EWGlUMGNJYXMyVC1iSXlqbTdJS0ExeGNXenVnMGFVS0F0b2JLX1BF0gFuQVVfeXFMT2MxQTBTSFdmWUNrUVppYlV5RVF6Ti1UTkxQYXYtQ0h6bllHTHNiSFJoMTJYQTUtcFc3dG9nODNmNGhsdk5SZXM0M01qaDBLTmpXM0ZyRmhPcmdDSlFTT1llZ3VpbEpCQWMxSmFNaWc?oc=5",
-      "source": "Google News",
-      "published": "2026-07-28T19:05:00+00:00"
-    },
-    {
       "title": "Kentucky Gov. Beshear calls on Mitch McConnell to prove he can serve or resign",
       "link": "https://www.cnbc.com/2026/07/28/beshear-mcconnell-health-resign-senate-vacancy.html",
       "source": "CNBC Finance",
@@ -635,18 +647,6 @@
       "link": "https://www.cnbc.com/2026/07/28/us-strategic-petroleum-reserve-spr-iran-oil-strait-hormuz.html",
       "source": "CNBC Finance",
       "published": "2026-07-28T18:49:34+00:00"
-    },
-    {
-      "title": "44 states are aligned on one thing in their fight against prediction markets. It's about sports wagering",
-      "link": "https://www.cnbc.com/2026/07/28/44-states-say-cftc-has-no-authority-over-sports-prediction-markets.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T18:27:43+00:00"
-    },
-    {
-      "title": "Senate to set up key vote on Russia sanctions",
-      "link": "https://www.cnbc.com/2026/07/28/russia-sanctions-congress-key-vote-lindsey-graham-ukraine.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-28T18:17:55+00:00"
     }
   ],
   "pages": [
