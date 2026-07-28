@@ -48,11 +48,9 @@ jobs:
       # 푸시 직전에 걸러야 하므로 docs를 커밋하는 모든 워크플로가 이 스텝을 갖는다.
       - name: Guard against plaintext asset leakage
         uses: ./.github/actions/guard-plaintext
+      # 커밋/푸시는 공용 스크립트로 일원화한다 — main에는 여러 주체(뉴스·매크로·stock·
+      # financials cron + 데스크톱 배포 push)가 같은 생성물을 쓰기 때문에 rebase 충돌과
+      # non-fast-forward 거부가 정상적으로 발생하고, 그 처리를 워크플로마다 두면 어긋난다.
       - name: Commit & push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs data
-          git diff --cached --quiet || git commit -m "chore(stock): update $(date -u +%H:%MZ)"
-          git pull --rebase --autostash || true
-          git push
+          bash scripts/ci_commit_push.sh "chore(stock): update $(date -u +%H:%MZ)"
