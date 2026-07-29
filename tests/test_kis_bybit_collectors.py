@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import hashlib
 import hmac
+import time
 
 from collectors import bybit_collector, kis_collector
 
@@ -149,6 +150,45 @@ def test_kis_pick_float_walks_candidate_field_names():
     row = {"pchs_amt_smtl": "", "pchs_amt_smtl_amt": "74,780,000"}
     assert kis_collector._pick_float(row, "pchs_amt_smtl", "pchs_amt_smtl_amt") == 74_780_000.0
     assert kis_collector._pick_float(row, "nope", "nada") is None
+
+
+def test_bybit_timestamp_is_corrected_by_server_offset(monkeypatch):
+    """★회귀: Bybit은 타임스탬프가 서버보다 **미래이면 recv_window와 무관하게 거부**한다.
+
+    실제 사고 — 로컬 시계가 서버보다 ~1초 빨라서 매 실행 결측이었고, 로그는
+    'invalid request, please check your server timestamp or recv_window param'였다.
+    서버 시각으로 보정하고 안전 여유만큼 과거로 치우치는지 확인한다."""
+    monkeypatch.setattr(bybit_collector, "_clock_offset_ms", None)
+
+    class _TimeResp:
+        def raise_for_status(self):
+            pass
+
+        def json(self):
+            # 서버가 로컬보다 2초 느린 상황(로컬이 2초 빠름 = 거부되던 조건)
+            return {"result": {"timeNano": str((int(time.time() * 1000) - 2000) * 1_000_000)}}
+
+    import requests
+    monkeypatch.setattr(requests, "get", lambda *a, **k: _TimeResp())
+
+    offset = bybit_collector._server_offset_ms()
+    assert offset < -1500, "로컬이 빠른 상황이 음수 오프셋으로 측정돼야 한다"
+
+    ts = int(bybit_collector._timestamp_ms())
+    local_now = int(time.time() * 1000)
+    assert ts < local_now, "보정된 타임스탬프는 로컬 시계보다 과거여야 한다(미래는 즉시 거부)"
+
+
+def test_bybit_offset_falls_back_to_zero_when_server_time_unavailable(monkeypatch):
+    """서버 시각 조회가 실패해도 수집 자체를 막지 않는다(로컬 시계로 폴백)."""
+    monkeypatch.setattr(bybit_collector, "_clock_offset_ms", None)
+
+    def _boom(*a, **k):
+        raise OSError("network down")
+
+    import requests
+    monkeypatch.setattr(requests, "get", _boom)
+    assert bybit_collector._server_offset_ms() == 0
 
 
 def test_bybit_sign_matches_hmac_sha256_spec(monkeypatch):
