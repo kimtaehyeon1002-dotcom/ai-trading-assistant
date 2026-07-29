@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-29T16:46:01.769307+09:00",
+  "generated_at": "2026-07-29T17:38:25.363495+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-07-29T16:45:26.057934+09:00",
+      "last_built": "2026-07-29T17:37:35.685736+09:00",
       "expected_T_min": null,
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-29T16:45:26.866262+09:00",
+      "last_built": "2026-07-29T17:38:03.312036+09:00",
       "expected_T_min": 30,
       "items": 22,
-      "duration_ms": 12043
+      "duration_ms": 7946
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,28 +52,28 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-29T16:45:38.941311+09:00",
+      "last_built": "2026-07-29T17:38:03.312021+09:00",
       "expected_T_min": null,
       "items": 0,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-29T16:45:38.942113+09:00",
+      "last_built": "2026-07-29T17:38:11.259450+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 4295
+      "duration_ms": 3975
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-07-29T16:45:43.240477+09:00",
+      "last_built": "2026-07-29T17:38:15.238126+09:00",
       "expected_T_min": null,
       "items": 180,
-      "duration_ms": 18496
+      "duration_ms": 10089
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-29T16:46:01.761914+09:00",
+      "last_built": "2026-07-29T17:38:25.355576+09:00",
       "expected_T_min": null,
       "items": 3,
       "duration_ms": 0
@@ -122,24 +122,24 @@
     },
     "Stock KR Ranking": {
       "status": "completed",
-      "last_built": "2026-07-29T14:51:11.248902+09:00",
+      "last_built": "2026-07-29T17:37:35.725578+09:00",
       "expected_T_min": null,
       "items": 2873,
-      "duration_ms": 1612
+      "duration_ms": 1345
     },
     "Stock US Ranking": {
       "status": "completed",
-      "last_built": "2026-07-29T14:51:12.862394+09:00",
+      "last_built": "2026-07-29T17:37:37.072298+09:00",
       "expected_T_min": null,
       "items": 503,
-      "duration_ms": 36341
+      "duration_ms": 25986
     },
     "Stock Hub 보조시세": {
       "status": "completed",
-      "last_built": "2026-07-29T14:51:49.209333+09:00",
+      "last_built": "2026-07-29T17:38:03.063709+09:00",
       "expected_T_min": null,
       "items": 2,
-      "duration_ms": 186
+      "duration_ms": 203
     },
     "FS DART corpCode": {
       "status": "completed",

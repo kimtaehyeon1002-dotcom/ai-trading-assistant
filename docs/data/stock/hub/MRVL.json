@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 174.47000122070312,
-    "change_pct": -7.77,
-    "volume": 28873900,
-    "amount": 5037629368.24646,
+    "close": 189.1699981689453,
+    "change_pct": null,
+    "volume": 28376631,
+    "amount": 5368007234.310837,
     "marcap": null,
-    "as_of_iso": "2026-07-29T05:51:49.396604+00:00",
+    "as_of_iso": "2026-07-29T08:38:03.268055+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "MRVL",
