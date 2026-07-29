@@ -6,6 +6,7 @@
 from __future__ import annotations
 
 from collections.abc import Callable
+from datetime import datetime, timezone
 from time import perf_counter
 from typing import Any, TypeVar
 
@@ -60,3 +61,37 @@ def note(worker: str, *, status: str = "completed", items: int | None = None, de
 
 def records() -> dict[str, dict]:
     return dict(_records)
+
+
+def merge_by_recency(a: dict, b: dict) -> dict:
+    """워커 기록 두 벌을 **워커별 last_run이 더 최신인 쪽**으로 합친다.
+
+    runlog.json은 CI(워크플로 6종)와 데스크톱이 같은 파일에 쓰는 공유 원장이다. 한쪽이
+    자기 로컬 사본을 기준으로 통째로 덮어쓰면, 상대가 기록한 워커가 조용히 **사라진다**
+    (실제 사고: 2026-07-28 데스크톱 sync가 CI의 "FS DART corpCode"·"FS EDGAR CIK맵" 기록을
+    삭제 — design/26 Phase A에서 루프 센서가 검출).
+
+    단순 `{**remote, **local}`은 반대 방향의 오염을 만든다 — 데스크톱이 돌리지 않는 워커는
+    로컬 사본에 **낡은** 기록이 남아 있어, 그걸 우선하면 원격의 최신 기록을 과거로 되돌린다
+    (센서가 가짜 stale 위반을 낸다). 그래서 위치가 아니라 시각으로 고른다.
+    """
+    merged = dict(a)
+    for name, rec in b.items():
+        cur = merged.get(name)
+        if not isinstance(cur, dict) or not isinstance(rec, dict):
+            merged[name] = rec
+            continue
+        merged[name] = rec if _last_run_key(rec) >= _last_run_key(cur) else cur
+    return merged
+
+
+def _last_run_key(rec: dict) -> datetime:
+    """정렬용 last_run — 없거나 깨진 값은 최소값으로 취급(기록이 있는 쪽에 밀린다).
+
+    naive/aware가 섞이면 비교 자체가 TypeError라, 파싱 결과는 항상 aware로 정규화한다.
+    """
+    try:
+        dt = datetime.fromisoformat(str(rec.get("last_run", "")))
+    except ValueError:
+        return datetime.min.replace(tzinfo=timezone.utc)
+    return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)

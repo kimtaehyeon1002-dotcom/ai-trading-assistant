@@ -8,6 +8,56 @@
 {% block title %}AI Office · {{ site.title }}{% endblock %}
 {% block content %}
 
+{#
+  Loop 패널(design/26 §3-8) — 루프 센서(scripts/health_probe.py)가 SLO 대비로 판정한 위반 목록.
+  여기 표시되는 것은 전부 결정론적 판정 결과다(LLM 추정 아님). 색이 아니라 텍스트+보더로
+  등급을 구분한다(design/00 §9-2 P2).
+#}
+{% call cardm.card_shell('standard', span='v2-span-12', card_id='loop-panel') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">Loop — 자가점검 센서</h3>
+    {% if not loop_health.available %}
+      <span class="v2-badge">센서 기록 없음</span>
+    {% elif loop_health.total == 0 %}
+      <span class="v2-badge">위반 없음</span>
+    {% else %}
+      <span class="v2-badge v2-loop-badge--{{ 'critical' if loop_health.counts.critical else 'major' }}">위반 {{ loop_health.total }}건</span>
+    {% endif %}
+  </div>
+  <div class="v2-card__body">
+    {% if not loop_health.available %}
+      <p class="v2-body">아직 프로브가 실행되지 않았습니다 — <code>ops/health/latest.json</code>이 없습니다.
+        (health.yml이 시간마다 갱신합니다.)</p>
+    {% else %}
+      <div class="v2-macro-item__row"><span class="k">측정 시각</span><span class="v">{{ loop_health.probed_at }} KST</span></div>
+      {% for axis, state in loop_health.sources.items() %}
+      <div class="v2-macro-item__row"><span class="k">{{ axis }}</span><span class="v">{{ state }}</span></div>
+      {% endfor %}
+
+      {% if loop_health.total == 0 %}
+        <p class="v2-body">선언된 SLO(config/slo.py)를 모두 만족합니다.</p>
+      {% else %}
+        <p class="v2-body v2-fs-sub">critical {{ loop_health.counts.critical }} · major {{ loop_health.counts.major }} · minor {{ loop_health.counts.minor }}</p>
+        <ul class="v2-loop-list">
+          {% for v in loop_health.violations %}
+          <li class="v2-loop-item v2-loop-item--{{ v.severity }}">
+            <div class="v2-loop-item__head">
+              <span class="v2-badge v2-loop-badge--{{ v.severity }}">{{ v.severity }}</span>
+              {% if v.tier == 'desktop' %}<span class="v2-badge">desktop</span>{% endif %}
+              <strong>{{ v.subject }}</strong>
+              <span class="v2-fs-sub">/ {{ v.rule }}</span>
+            </div>
+            <div class="v2-macro-item__row"><span class="k">관측</span><span class="v">{{ v.observed }}</span></div>
+            <div class="v2-macro-item__row"><span class="k">기대</span><span class="v">{{ v.expected }}</span></div>
+            <p class="v2-body v2-fs-sub">{{ v.owner }}{% if v.note %} · {{ v.note }}{% endif %} · <code>{{ v.id }}</code></p>
+          </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endif %}
+  </div>
+{% endcall %}
+
 {% for w in workers %}
 {% call cardm.card_shell('standard', span='v2-span-4', card_id='worker-' ~ loop.index) %}
   <div class="v2-card__header">

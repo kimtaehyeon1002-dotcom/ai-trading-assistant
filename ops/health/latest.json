@@ -1,0 +1,36 @@
+{
+  "probed_at": "2026-07-29T00:31:47.018887+09:00",
+  "sources": {
+    "runlog": "ok — 워커 21종, updated_at 2026-07-29T00:29",
+    "workflows": "skipped — --no-gh"
+  },
+  "counts": {
+    "critical": 0,
+    "major": 2,
+    "minor": 0
+  },
+  "violations": [
+    {
+      "id": "w.fs-dart-corpcode.missing",
+      "severity": "major",
+      "subject": "FS DART corpCode",
+      "rule": "runlog 등재",
+      "observed": "기록 없음",
+      "expected": "runlog.json에 워커 기록 존재",
+      "tier": "cloud",
+      "owner": "financials.yml",
+      "note": "DART_API_KEY 미설정이면 예외 → error. 키가 없다면 status_ok에 skipped를 넣지 말고 키를 넣어라"
+    },
+    {
+      "id": "w.fs-edgar-cik-1dee.missing",
+      "severity": "major",
+      "subject": "FS EDGAR CIK맵",
+      "rule": "runlog 등재",
+      "observed": "기록 없음",
+      "expected": "runlog.json에 워커 기록 존재",
+      "tier": "cloud",
+      "owner": "financials.yml",
+      "note": "EDGAR는 키 불필요(User-Agent만) — 실패는 진짜 장애다"
+    }
+  ]
+}

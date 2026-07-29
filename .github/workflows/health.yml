@@ -1,0 +1,51 @@
+name: Loop Health Probe
+
+# 루프 센서(design/26 Phase B) — SLO(config/slo.py) 대비 실측 위반을 산출해 ops/health/latest.json에
+# 커밋한다. LLM이 없고 파이썬 표준 라이브러리만 쓰므로 pip install도 필요 없다(수십 초).
+#
+# PR 검증 게이트(design/26 §3-6의 pull_request 모드)는 여기 없다 — 그건 원장(ops/ledger.jsonl)
+# 상태기계가 생기는 Phase D의 몫이다. 지금은 "관측만" 한다.
+on:
+  schedule:
+    # 매시 15분 — 정각(macro)·00/30분(news)의 러시를 피해 Actions 큐 대기를 줄인다.
+    - cron: "15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read   # gh run list로 다른 워크플로의 실행 이력을 읽는다
+
+concurrency:
+  # 이 잡도 main에 커밋하므로 다른 발행 워크플로와 직렬화한다. 설계 초안은 "푸시하지 않으니
+  # 분리"였으나, 실제로는 ops/를 커밋하므로 같은 그룹에 넣는 편이 푸시 경합보다 안전하다.
+  group: pages-commit
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    env:
+      TZ_NAME: Asia/Seoul
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # gh run list 인증
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 프로브는 결정론적이라 위반이 있어도 잡을 실패시키지 않는다 — 위반은 "이 잡의 에러"가
+      # 아니라 "시스템의 상태"이고, 잡이 빨개지면 정작 워크플로 실패 신호와 구별되지 않는다.
+      # 사람에게 알리는 경로는 AI Office의 Loop 패널이다(design/26 §3-8).
+      - name: Probe
+        run: python -m scripts.health_probe
+
+      # 자산 평문 가드는 docs/를 커밋하는 워크플로의 의무 단계다(design/20 Phase 8 DoD 6).
+      # 이 잡은 ops/만 커밋하고 docs/를 건드리지 않으므로 대상이 아니다.
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ops
+          git diff --cached --quiet || git commit -m "chore(loop): health probe $(date -u +%H:%MZ)"
+          git pull --rebase --autostash || true
+          git push

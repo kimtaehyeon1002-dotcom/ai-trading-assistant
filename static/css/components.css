@@ -508,3 +508,16 @@
 .v2-changelog__row { padding: var(--space-2) 0; font-size: var(--type-caption-size); }
 .v2-changelog__date { color: var(--text-tertiary); font-variant-numeric: tabular-nums; margin-right: var(--space-2); }
 .v2-changelog__text { color: var(--text-secondary); }
+
+/* ── Loop 패널(design/26 §3-8) — 루프 센서 위반 목록 ──
+   등급은 색 채움이 아니라 보더+텍스트로 구분한다(design/00 §9-2 P2). 이 페이지는
+   운영 진단용이라 의미색을 쓰지만, 등급 문자열을 항상 병기해 색에만 의존하지 않는다. */
+.v2-loop-list { list-style: none; margin: var(--space-3) 0 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-3); }
+.v2-loop-item { padding: var(--space-3); border: 1px solid var(--border-subtle); border-left-width: 3px; border-radius: var(--radius-control); background: var(--surface-sunken); }
+.v2-loop-item--critical { border-left-color: var(--status-danger); }
+.v2-loop-item--major { border-left-color: var(--status-warning); }
+.v2-loop-item--minor { border-left-color: var(--border-strong); }
+.v2-loop-item__head { display: flex; align-items: center; gap: var(--space-2); flex-wrap: wrap; margin-bottom: var(--space-2); }
+.v2-loop-badge--critical { border-color: var(--status-danger); color: var(--status-danger); }
+.v2-loop-badge--major { border-color: var(--status-warning); color: var(--status-warning); }
+.v2-loop-badge--minor { border-color: var(--border-strong); color: var(--text-tertiary); }

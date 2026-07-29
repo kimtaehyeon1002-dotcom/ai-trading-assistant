@@ -6,17 +6,16 @@ design/21 §4: "runlog는 그 생성 원료" — ai_office.generate()가 이전 
 """
 from __future__ import annotations
 
+from config import slo
 from config.settings import DOCS_DIR
 from utils.dates import now_kst
 from utils.jsonio import load_json, save_json
 
-# worker → 기대 갱신 주기(분). 매핑 없는 워커는 expected_T_min=None(정책 미정)으로 정직하게 표기.
-_EXPECTED_T_MIN: dict[str, int] = {
-    "TA Analyst": 24 * 60,
-    "Data Officer": 30,
-    "News Research": 30,
-    "Theme Analyst": 30,
-}
+# 기대 갱신 주기(분)는 config/slo.py가 단일 기준이다(design/26 §3-1).
+# 종전에는 여기 4종짜리 사본 테이블이 따로 있었고, 그중 Theme Analyst가 30분으로 적혀 있었다 —
+# 이 워커는 morning 타깃에서만 호출되므로 실제로는 일1회다. Settings ④가 실제와 다른 기대치를
+# 표시하던 결함이라 사본을 없애고 SLO를 직접 읽는다(나머지 17종은 애초에 표기 자체가 없었다).
+# SLO에 없는 워커는 expected_T_min=None(정책 미정)으로 정직하게 표기한다.
 
 
 def generate() -> None:
@@ -27,7 +26,7 @@ def generate() -> None:
         name: {
             "status": rec.get("status"),
             "last_built": rec.get("last_run"),
-            "expected_T_min": _EXPECTED_T_MIN.get(name),
+            "expected_T_min": getattr(slo.WORKERS.get(name), "cadence_min", None),
             "items": rec.get("items"),
             "duration_ms": rec.get("duration_ms"),
         }

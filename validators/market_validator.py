@@ -27,15 +27,12 @@ def _spans_weekend(start: datetime, end: datetime) -> bool:
 
     야간선물 값이 20h를 넘겨서도 살아남을 수 있는 유일한 사유가 주말 휴장이다
     (금요일 밤 세션 값 → 월요일 아침 리포트). 호출부가 60h 초과를 먼저 걸러 루프는 ≤3일.
-    """
-    from utils.dates import to_kst  # 지연 import(config→utils 단방향 의존 유지)
 
-    day, last = to_kst(start).date(), to_kst(end).date()
-    while day <= last:
-        if day.weekday() >= 5:  # 5=토, 6=일
-            return True
-        day += timedelta(days=1)
-    return False
+    구현은 utils.dates로 옮겼다(루프 센서가 같은 판정을 필요로 해 중복이 생겼다, design/26 §3-1).
+    """
+    from utils.dates import spans_weekend  # 지연 import(config→utils 단방향 의존 유지)
+
+    return spans_weekend(start, end)
 
 
 def _night_max_age_h(as_of: datetime, now: datetime) -> int:

@@ -12,7 +12,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from config import nav
-from config.settings import DOCS_DIR
+from config.settings import BASE_DIR, DOCS_DIR
 from generators.base import render
 from utils import runlog
 from utils.dates import fmt_kst, now_kst
@@ -22,6 +22,10 @@ from utils.logging import get_logger
 log = get_logger("gen.ai_office")
 
 _RUNLOG = DOCS_DIR / "ai-office" / "runlog.json"
+# 루프 센서 산출물(design/26 Phase B) — health.yml이 시간마다 갱신·커밋한다.
+# 이 페이지는 **읽기만** 한다: 프로브를 여기서 돌리면 gh 인증 유무에 따라 발행 결과가
+# 달라지고(재현성 상실), 발행 파이프라인이 센서 실패에 물린다.
+_HEALTH = BASE_DIR / "ops" / "health" / "latest.json"
 
 # 워커 = 실제 모듈 매핑(존재하는 모듈만 등록)
 WORKERS: list[tuple[str, str]] = [
@@ -33,6 +37,26 @@ WORKERS: list[tuple[str, str]] = [
     ("Vault Journal", "Obsidian vault 저널 write-back (generators/vault_journal)"),
     ("Publisher", "페이지 생성·발행 (generators)"),
 ]
+
+
+def _loop_context() -> dict:
+    """Loop 패널 렌더 컨텍스트(design/26 §3-8).
+
+    센서 기록이 없으면 "위반 없음"이 아니라 **"센서 기록 없음"**으로 표시한다 — 측정하지
+    않은 것과 측정해서 깨끗한 것은 다른 사실이고, 이 둘을 섞으면 대시보드가 거짓말을 한다.
+    """
+    health = load_json(_HEALTH, default=None)
+    if not isinstance(health, dict) or "violations" not in health:
+        return {"available": False}
+    counts = health.get("counts", {})
+    return {
+        "available": True,
+        "probed_at": str(health.get("probed_at", ""))[:16].replace("T", " "),
+        "sources": health.get("sources", {}),
+        "counts": counts,
+        "total": sum(v for v in counts.values() if isinstance(v, int)),
+        "violations": health.get("violations", []),
+    }
 
 
 def generate() -> Path:
@@ -62,6 +86,8 @@ def generate() -> Path:
         "root": "..",
         "nav": nav.context(active="office"),
         "workers": rows,
+        # 키 이름이 loop이면 Jinja의 반복 변수(loop)와 충돌한다 — loop_health로 둔다
+        "loop_health": _loop_context(),
         "generated_at": fmt_kst(now_kst()) + " KST",
     }
     out = render("pages/ai_office_v2.html", ctx, DOCS_DIR / "ai-office" / "index.html")
