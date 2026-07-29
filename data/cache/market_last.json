@@ -1,172 +1,144 @@
 {
-  "as_of": "2026-07-28T15:29:32.473560+00:00",
+  "as_of": "2026-07-29T13:36:21.162276+00:00",
   "entries": {
     "wti": {
-      "price": 79.88999938964844,
-      "change_pct": -2.05,
+      "price": 84.19999694824219,
+      "change_pct": 1.8,
       "source": "yahoo",
-      "previous_close": 81.55999755859375,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "previous_close": 82.70999908447266,
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "nasdaq": {
-      "price": 24910.21875,
-      "change_pct": -0.09,
+      "price": 24888.90234375,
+      "change_pct": 0.05,
       "source": "yahoo",
-      "previous_close": 24932.082,
+      "previous_close": 24876.912,
       "quality": "verified",
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "sp500": {
-      "price": 7435.89013671875,
-      "change_pct": 0.3,
+      "price": 7422.7099609375,
+      "change_pct": -0.08,
       "source": "yahoo",
-      "previous_close": 7413.43017578125,
+      "previous_close": 7428.78,
       "quality": "verified",
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "dow": {
-      "price": 52777.28125,
-      "change_pct": 1.1,
+      "price": 52302.87109375,
+      "change_pct": -0.84,
       "source": "yahoo",
-      "previous_close": 52202.828125,
+      "previous_close": 52747.32,
       "quality": "verified",
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "sox": {
-      "price": 11044.4794921875,
-      "change_pct": -4.42,
+      "price": 11083.693359375,
+      "change_pct": 0.44,
       "source": "yahoo",
-      "previous_close": 11554.88,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "previous_close": 11035.683,
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "kospi": {
-      "price": 6023.66,
-      "change_pct": -10.84,
+      "price": 5663.240234375,
+      "change_pct": -5.98,
       "source": "yahoo",
       "previous_close": 6023.66,
       "quality": "verified",
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "kosdaq": {
-      "price": 705.85,
-      "change_pct": -7.72,
+      "price": 662.6799926757812,
+      "change_pct": -6.12,
       "source": "yahoo",
       "previous_close": 705.85,
       "quality": "verified",
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "vix": {
-      "price": 18.3799991607666,
-      "change_pct": -1.55,
+      "price": 18.90999984741211,
+      "change_pct": 3.9,
       "source": "yahoo",
-      "previous_close": 18.670000076293945,
+      "previous_close": 18.200000762939453,
       "quality": "verified",
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "move": {
       "price": 76.0938,
       "change_pct": -1.45,
       "source": "yahoo",
-      "previous_close": 76.8175,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "previous_close": 77.2128,
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "dxy": {
-      "price": 101.33999633789062,
-      "change_pct": -0.14,
+      "price": 101.41600036621094,
+      "change_pct": 0.09,
       "source": "yahoo",
-      "previous_close": 101.48100280761719,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "previous_close": 101.3280029296875,
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "gold": {
-      "price": 4035.60009765625,
-      "change_pct": -0.35,
+      "price": 4078.89990234375,
+      "change_pct": 1.43,
       "source": "yahoo",
-      "previous_close": 4049.60009765625,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "previous_close": 4021.5,
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "copper": {
-      "price": 6.34250020980835,
-      "change_pct": -0.38,
+      "price": 6.314499855041504,
+      "change_pct": 0.32,
       "source": "yahoo",
-      "previous_close": 6.366499900817871,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "previous_close": 6.29449987411499,
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "natgas": {
-      "price": 2.684999942779541,
-      "change_pct": -2.79,
+      "price": 2.686000108718872,
+      "change_pct": -0.26,
       "source": "yahoo",
-      "previous_close": 2.76200008392334,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "previous_close": 2.693000078201294,
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "nq_futures": {
-      "price": 27901.5,
-      "change_pct": -0.53,
+      "price": 27911.0,
+      "change_pct": 0.7,
       "source": "yahoo",
-      "previous_close": 28050.75,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "previous_close": 27718.0,
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "us10y": {
-      "price": 4.6020002365112305,
-      "change_pct": -0.84,
+      "price": 4.626999855041504,
+      "change_pct": 0.5,
       "source": "yahoo",
-      "previous_close": 4.640999794006348,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "previous_close": 4.604000091552734,
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "usdjpy": {
-      "price": 163.697998046875,
-      "change_pct": -0.03,
+      "price": 163.76199340820312,
+      "change_pct": -0.05,
       "source": "yahoo",
-      "previous_close": 163.74000549316406,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "previous_close": 163.8419952392578,
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "eurusd": {
-      "price": 1.1399909257888794,
-      "change_pct": 0.24,
+      "price": 1.1386927366256714,
+      "change_pct": -0.01,
       "source": "yahoo",
-      "previous_close": 1.137268304824829,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "previous_close": 1.1388224363327026,
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "usdcny": {
-      "price": 6.75600004196167,
-      "change_pct": 0.02,
+      "price": 6.755899906158447,
+      "change_pct": -0.07,
       "source": "yahoo",
-      "previous_close": 6.75439977645874,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "previous_close": 6.760900020599365,
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     },
     "btc": {
-      "price": 63695.3984375,
-      "change_pct": -0.0,
+      "price": 64250.98046875,
+      "change_pct": 0.63,
       "source": "yahoo",
-      "previous_close": 63696.46875,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
-    },
-    "brent": {
-      "price": 84.94000244140625,
-      "change_pct": -2.57,
-      "source": "yahoo",
-      "previous_close": 87.18000030517578,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
-    },
-    "silver": {
-      "price": 57.5099983215332,
-      "change_pct": -0.12,
-      "source": "yahoo",
-      "previous_close": 57.58000183105469,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
-    },
-    "us30y": {
-      "price": 5.1020002365112305,
-      "change_pct": -0.45,
-      "source": "yahoo",
-      "previous_close": 5.125,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
-    },
-    "russell2000": {
-      "price": 2938.481689453125,
-      "change_pct": -0.32,
-      "source": "yahoo",
-      "previous_close": 2948.04931640625,
-      "as_of": "2026-07-28T15:29:32.473560+00:00"
+      "previous_close": 63847.12109375,
+      "as_of": "2026-07-29T13:36:21.162276+00:00"
     }
   }
 }

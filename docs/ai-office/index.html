@@ -63,43 +63,6 @@
   <main class="v2-main">
     <div class="v2-content">
 
-<div class="v2-card v2-card--standard v2-span-12 " id="loop-panel">
-    <div class="v2-card__header">
-    <h3 class="v2-card__title">Loop — 자가점검 센서</h3>
-      <span class="v2-badge v2-loop-badge--major">위반 2건</span>
-  </div>
-  <div class="v2-card__body">
-      <div class="v2-macro-item__row"><span class="k">측정 시각</span><span class="v">2026-07-29 00:31 KST</span></div>
-      <div class="v2-macro-item__row"><span class="k">runlog</span><span class="v">ok — 워커 21종, updated_at 2026-07-29T00:29</span></div>
-      <div class="v2-macro-item__row"><span class="k">workflows</span><span class="v">skipped — --no-gh</span></div>
-
-        <p class="v2-body v2-fs-sub">critical 0 · major 2 · minor 0</p>
-        <ul class="v2-loop-list">
-          <li class="v2-loop-item v2-loop-item--major">
-            <div class="v2-loop-item__head">
-              <span class="v2-badge v2-loop-badge--major">major</span>
-              <strong>FS DART corpCode</strong>
-              <span class="v2-fs-sub">/ runlog 등재</span>
-            </div>
-            <div class="v2-macro-item__row"><span class="k">관측</span><span class="v">기록 없음</span></div>
-            <div class="v2-macro-item__row"><span class="k">기대</span><span class="v">runlog.json에 워커 기록 존재</span></div>
-            <p class="v2-body v2-fs-sub">financials.yml · DART_API_KEY 미설정이면 예외 → error. 키가 없다면 status_ok에 skipped를 넣지 말고 키를 넣어라 · <code>w.fs-dart-corpcode.missing</code></p>
-          </li>
-          <li class="v2-loop-item v2-loop-item--major">
-            <div class="v2-loop-item__head">
-              <span class="v2-badge v2-loop-badge--major">major</span>
-              <strong>FS EDGAR CIK맵</strong>
-              <span class="v2-fs-sub">/ runlog 등재</span>
-            </div>
-            <div class="v2-macro-item__row"><span class="k">관측</span><span class="v">기록 없음</span></div>
-            <div class="v2-macro-item__row"><span class="k">기대</span><span class="v">runlog.json에 워커 기록 존재</span></div>
-            <p class="v2-body v2-fs-sub">financials.yml · EDGAR는 키 불필요(User-Agent만) — 실패는 진짜 장애다 · <code>w.fs-edgar-cik-1dee.missing</code></p>
-          </li>
-        </ul>
-  </div>
-
-</div>
-
 <div class="v2-card v2-card--standard v2-span-4 " id="worker-1">
     <div class="v2-card__header">
     <h3 class="v2-card__title">Data Officer</h3>
@@ -107,9 +70,9 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">시장 지표 수집·검증 (collectors/market·kiwoom)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-29T22:34</span></div>
-    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">26</span></div>
-    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">1669ms</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-29T22:36</span></div>
+    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">22</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">10321ms</span></div>
   </div>
 
 </div>
@@ -120,9 +83,9 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">뉴스 수집·검증·병합 (collectors/news)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-29T22:34</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-29T22:36</span></div>
     <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">180</span></div>
-    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">3784ms</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">4513ms</span></div>
   </div>
 
 </div>
@@ -133,7 +96,7 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">테마 빈도 산출 (calculators/themes)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-29T07:32</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-29T22:36</span></div>
     <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">3</span></div>
     <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">2ms</span></div>
   </div>
@@ -159,9 +122,9 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">Obsidian vault 워치리스트 동기화 (collectors/obsidian)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-29T22:34</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-29T22:36</span></div>
     <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">1</span></div>
-    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">8ms</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">1ms</span></div>
   </div>
 
 </div>
@@ -172,8 +135,8 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">Obsidian vault 저널 write-back (generators/vault_journal)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-29T22:35</span></div>
-    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">23</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-29T22:36</span></div>
+    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">1</span></div>
     <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">0ms</span></div>
 <p class="v2-body v2-fs-sub">10_Journal/ write-back</p>  </div>
 
@@ -185,8 +148,8 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">페이지 생성·발행 (generators)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-29T22:35</span></div>
-    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">3</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-07-29T22:36</span></div>
+    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">2</span></div>
     <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">0ms</span></div>
 <p class="v2-body v2-fs-sub">pages + static</p>  </div>
 
