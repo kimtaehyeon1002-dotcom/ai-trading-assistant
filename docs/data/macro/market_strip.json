@@ -1,0 +1,137 @@
+[
+  {
+    "name": "환율·달러",
+    "tiles": [
+      {
+        "key": "usdkrw",
+        "label": "USD/KRW 환율",
+        "price": 1459.45,
+        "change_pct": null,
+        "as_of": "07-29 00:11",
+        "unit": "KRW"
+      },
+      {
+        "key": "dxy",
+        "label": "달러인덱스",
+        "price": 101.42400360107422,
+        "change_pct": -0.06,
+        "as_of": "07-29 00:11",
+        "unit": "pt"
+      },
+      {
+        "key": "usdjpy",
+        "label": "USD/JPY",
+        "price": 163.8090057373047,
+        "change_pct": 0.04,
+        "as_of": "07-29 00:11",
+        "unit": "JPY"
+      },
+      {
+        "key": "eurusd",
+        "label": "EUR/USD",
+        "price": 1.1390818357467651,
+        "change_pct": 0.16,
+        "as_of": "07-29 00:11",
+        "unit": "USD"
+      },
+      {
+        "key": "usdcny",
+        "label": "USD/CNY",
+        "price": 6.759699821472168,
+        "change_pct": 0.08,
+        "as_of": "07-29 00:11",
+        "unit": "CNY"
+      }
+    ]
+  },
+  {
+    "name": "금리·변동성",
+    "tiles": [
+      {
+        "key": "us10y",
+        "label": "미국 10년물 국채금리",
+        "price": 4.618000030517578,
+        "change_pct": -0.5,
+        "as_of": "07-29 00:11",
+        "unit": "%"
+      },
+      {
+        "key": "us30y",
+        "label": "미국 30년물 국채금리",
+        "price": 5.113999843597412,
+        "change_pct": -0.21,
+        "as_of": "07-29 00:11",
+        "unit": "%"
+      },
+      {
+        "key": "vix",
+        "label": "VIX",
+        "price": 18.260000228881836,
+        "change_pct": -2.2,
+        "as_of": "07-29 00:11",
+        "unit": "pt"
+      },
+      {
+        "key": "move",
+        "label": "ICE BofA MOVE",
+        "price": 77.2128,
+        "change_pct": 0.51,
+        "as_of": "07-29 00:11",
+        "unit": "pt"
+      }
+    ]
+  },
+  {
+    "name": "원자재",
+    "tiles": [
+      {
+        "key": "wti",
+        "label": "WTI 국제유가",
+        "price": 81.44000244140625,
+        "change_pct": -0.15,
+        "as_of": "07-29 00:11",
+        "unit": "USD"
+      },
+      {
+        "key": "brent",
+        "label": "브렌트유",
+        "price": 86.7300033569336,
+        "change_pct": -0.52,
+        "as_of": "07-29 00:11",
+        "unit": "USD"
+      },
+      {
+        "key": "gold",
+        "label": "금",
+        "price": 4028.5,
+        "change_pct": -0.52,
+        "as_of": "07-29 00:11",
+        "unit": "USD"
+      },
+      {
+        "key": "silver",
+        "label": "은",
+        "price": 57.31999969482422,
+        "change_pct": -0.45,
+        "as_of": "07-29 00:11",
+        "unit": "USD"
+      },
+      {
+        "key": "copper",
+        "label": "구리",
+        "price": 6.3404998779296875,
+        "change_pct": -0.41,
+        "as_of": "07-29 00:11",
+        "unit": "USD"
+      },
+      {
+        "key": "natgas",
+        "label": "천연가스",
+        "price": 2.697999954223633,
+        "change_pct": -2.32,
+        "as_of": "07-29 00:11",
+        "unit": "USD"
+      }
+    ]
+  }
+]
