@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-29T13:36:39.555252+00:00",
+  "as_of": "2026-07-29T14:54:29.484950+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,10 +349,124 @@
   ],
   "news": [
     {
-      "title": "Oil prices jump more than 6% after Trump says U.S. will hit Iran hard",
+      "title": "Nike was once China's sneaker king. Here's why its sales have fallen 30%",
+      "link": "https://www.cnbc.com/2026/07/29/nike-china-sales-decline.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-29T14:49:45+00:00"
+    },
+    {
+      "title": "Oil prices jump more than 7% after Trump says U.S. will hit Iran hard",
       "link": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
       "source": "CNBC Finance",
-      "published": "2026-07-29T13:36:15+00:00"
+      "published": "2026-07-29T14:44:00+00:00"
+    },
+    {
+      "title": "Secret Service 'illegally' surveilled Comey in Trump '8647' threat case: court filing",
+      "link": "https://www.cnbc.com/2026/07/29/james-comey-trump-8647-seashells-threat-secret-service.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-29T14:38:03+00:00"
+    },
+    {
+      "title": "李대통령 \"한-칠레 FTA, 환경에 맞게 진화해야…핵심광물 협력\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729186900001",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T14:36:48+00:00"
+    },
+    {
+      "title": "Medicare is about to change a drug program that held down the cost of premiums. Here’s what to know.",
+      "link": "https://www.marketwatch.com/story/medicare-is-about-to-change-a-program-that-held-down-the-cost-of-premiums-heres-what-to-know-42c0612e?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-29T14:31:00+00:00"
+    },
+    {
+      "title": "My girlfriend is 62. Can she claim her late husband’s full Social Security benefit — or does she have to wait?",
+      "link": "https://www.marketwatch.com/story/my-girlfriend-is-62-can-she-claim-her-late-husbands-full-social-security-benefit-or-does-she-have-to-wait-315c0fa1?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-29T14:27:00+00:00"
+    },
+    {
+      "title": "This country is buying up the most homes in America right now, even as international sales dry up",
+      "link": "https://www.marketwatch.com/story/this-country-is-buying-up-the-most-homes-in-america-right-now-even-as-international-sales-dry-up-c8b2afbb?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-29T14:20:00+00:00"
+    },
+    {
+      "title": "Trump says U.S. will give Iran a 'beating' after surprise attack",
+      "link": "https://www.cnbc.com/2026/07/29/us-iran-war-hormuz-centcom.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-29T14:18:42+00:00"
+    },
+    {
+      "title": "FIFA is embroiled in a $20 billion World Cup controversy. Here's what's going on",
+      "link": "https://www.cnbc.com/2026/07/29/world-cup-fifa-stake-sales-uefa-soccer.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-29T14:14:49+00:00"
+    },
+    {
+      "title": "My stepdad is in the military and dying of cancer. Will my mom automatically get his money?",
+      "link": "https://www.marketwatch.com/story/my-stepdad-is-dying-from-cancer-how-can-i-help-my-mom-find-out-if-shell-get-his-assets-8a10bad2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-29T14:12:00+00:00"
+    },
+    {
+      "title": "Economy is poised to show strong second-quarter growth — but only after a look under the hood",
+      "link": "https://www.marketwatch.com/story/economy-is-poised-to-show-strong-second-quarter-growth-but-only-after-a-look-under-the-hood-8fd3615d?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-29T14:09:00+00:00"
+    },
+    {
+      "title": "Procter & Gamble revenue misses estimates as volume stays unchanged",
+      "link": "https://www.cnbc.com/2026/07/29/procter-gamble-pg-q4-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-29T14:07:21+00:00"
+    },
+    {
+      "title": "JPMorgan, Schwab and UBS manage millions in Trump's $858 million investment portfolio",
+      "link": "https://www.cnbc.com/2026/07/29/trump-banking-investments-jpmorgan-schwab-ubs-financial-disclosure.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-29T14:03:23+00:00"
+    },
+    {
+      "title": "Ukraine has found a new pressure point in Russia’s wartime economy",
+      "link": "https://www.cnbc.com/2026/07/29/ukraine-russia-wildberries-putin-trump.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-29T13:59:54+00:00"
+    },
+    {
+      "title": "Global oil prices rise above $87 a barrel after Trump vows retaliation for surprise Iranian attack on U.S. troops",
+      "link": "https://www.marketwatch.com/story/oil-prices-rise-after-u-s-and-saudi-arabia-attack-iran-backed-militias-in-iraq-f0f409ea?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-29T13:56:00+00:00"
+    },
+    {
+      "title": "뉴욕증시 하락 출발… FOMC 경계감·유가 급등에 투자심리 위축 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcW5wR2s4a3JaeksxTk1ac3F1THpPY0VFczRnLVpXemNfQ3ZmYml0b3FfaHY3bmh1MVUyMFhNUS0zVmxGZWhoSnQtcGplc2lxcHczWVUwbTVwbHJnazNzMDIwQ0tweXRoQWxMS2loTkhoN3IxX3p6U04wNEVibTQ1VkM3Z1dtQjRubTN0TlctSHFwd1dNNkZMbWZEbHdQd9IBsgFBVV95cUxQcGJHc2tUOW9lRDc3aUxkM3lLQmtWUTBfdE9Ub3huTnRjYng2ZERFRG84S0JzckRzN29kNllDUGRGVGh6eTJHRUxEYXFHb1U5WUxSNlhhV1ZCV3pfcl9PSWd5WFdXQUtrb2drUURmT1hFZnp3X3l1MGpoZEFucjlsMzlDUDRPcmFiOEFuWHJEd2QtRi1vWlNrREg0N1Y3UnZQSG55R3I3M3EzZ3hKb1lIcDZn?oc=5",
+      "source": "Google News",
+      "published": "2026-07-29T13:52:00+00:00"
+    },
+    {
+      "title": "정규재 “정부 개입 실책, 빚투 개미 자업자득”… 증시 폭락장에 쓴소리 - hidomin.com",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kUS1sUE9wLXY2ZzRLRUtnUHo4VVJRc0FWb20yVldiUzNROHp4YnRoQmYxNFh0WjhkN0dfWk90ZU55X1VYazVGLUhSM2xNTFdYY0ZyTUQ5bnRxNk5Pc0syaXE4dVJSb3ZxUGc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-29T13:45:42+00:00"
+    },
+    {
+      "title": "뉴욕증시, FOMC 경계감·유가상승 여파에 하락 출발 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyT0l5ZHREQ0ZENzE5UXJXS2hackF6ZVI2SzlNaHktZ3NrRDY4ZmF3LUpPRll2RWlUR243TDRLNzFfeFBLcXRrdUtfTUxyeFdKaVlWRnQwTGdwLTTSAWBBVV95cUxQay1CUmtUU3JmX1pCRkxqa0VEWXg0YmNNNW9ocUgwYmVsclY3M2FDY2otejlUblZfVlVYSHhSMXF0R1lZOHBTRzlINXpqMUFrWmlNSjVzMVd5SkxHNnhfdks?oc=5",
+      "source": "Google News",
+      "published": "2026-07-29T13:41:14+00:00"
+    },
+    {
+      "title": "Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.",
+      "link": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-29T13:41:00+00:00"
+    },
+    {
+      "title": "Does the 4% retirement rule still work? New research points to another strategy to maximize income",
+      "link": "https://www.cnbc.com/2026/07/29/retirement-income-4percent-rule.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-29T13:35:10+00:00"
     },
     {
       "title": "The Fed isn’t your biggest worry. The central-bank decision that actually impacts your 401(k) lands in Tokyo.",
@@ -373,12 +487,6 @@
       "published": "2026-07-29T13:30:00+00:00"
     },
     {
-      "title": "JPMorgan, Schwab and UBS manage millions in Trump's $858 investment portfolio",
-      "link": "https://www.cnbc.com/2026/07/29/trump-banking-investments-jpmorgan-schwab-ubs-financial-disclosure.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-29T13:24:23+00:00"
-    },
-    {
       "title": "Humana tops quarterly estimates, maintains profit outlook as medical costs stay in line",
       "link": "https://www.cnbc.com/2026/07/29/humana-hum-earnings-q2-2026.html",
       "source": "CNBC Finance",
@@ -389,24 +497,6 @@
       "link": "https://www.cnbc.com/2026/07/29/novo-nordisk-lawsuit-cagrisema-weight-loss-drug.html",
       "source": "CNBC Finance",
       "published": "2026-07-29T13:11:19+00:00"
-    },
-    {
-      "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
-      "link": "https://www.cnbc.com/2026/07/29/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-29T13:08:20+00:00"
-    },
-    {
-      "title": "We're exiting our position in a household products giant after a soft quarter",
-      "link": "https://www.cnbc.com/2026/07/29/were-exiting-our-position-in-a-household-products-giant-after-a-soft-quarter.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-29T13:02:22+00:00"
-    },
-    {
-      "title": "Gen Z stays home almost every weekend because going out isn’t worth the money",
-      "link": "https://www.marketwatch.com/story/gen-z-stays-home-almost-every-weekend-because-going-out-isnt-worth-the-money-64f03227?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-29T13:01:00+00:00"
     },
     {
       "title": "금융당국, 단일종목 레버리지 투자한도 도입…증시 급락 대응 - 전자신문",
@@ -433,12 +523,6 @@
       "published": "2026-07-29T12:36:01+00:00"
     },
     {
-      "title": "Two rival AI super PACs are backing the same congressman. What gives?",
-      "link": "https://www.marketwatch.com/story/two-rival-ai-super-pacs-are-backing-the-same-congressman-what-gives-dbc93094?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-29T12:30:00+00:00"
-    },
-    {
       "title": "[속보] 금융당국 “단일종목 레버리지 개인별 투자한도로 총량관리”",
       "link": "https://www.mk.co.kr/news/economy/12111067",
       "source": "매일경제·증권",
@@ -463,52 +547,10 @@
       "published": "2026-07-29T12:04:03+00:00"
     },
     {
-      "title": "Nike was once China's sneaker king. Here's why its sales have fallen 30%",
-      "link": "https://www.cnbc.com/2026/07/29/nike-china-sales-decline.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-29T11:46:44+00:00"
-    },
-    {
-      "title": "Think a 1% advisory fee sounds cheap? It is actually eating 15% of your investment returns.",
-      "link": "https://www.marketwatch.com/story/think-a-1-advisory-fee-sounds-cheap-it-is-actually-eating-15-of-your-investment-returns-ceead305?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-29T11:43:00+00:00"
-    },
-    {
-      "title": "Procter & Gamble revenue misses estimates as volume stays unchanged",
-      "link": "https://www.cnbc.com/2026/07/29/procter-gamble-pg-q4-2026-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-29T11:35:27+00:00"
-    },
-    {
-      "title": "Oil prices rise after U.S. and Saudi Arabia attack Iran-backed militias in Iraq",
-      "link": "https://www.marketwatch.com/story/oil-prices-rise-after-u-s-and-saudi-arabia-attack-iran-backed-militias-in-iraq-f0f409ea?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-29T11:32:00+00:00"
-    },
-    {
       "title": "Chip stocks shed more than $1 trillion as selloff hits companies powering AI boom",
       "link": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html",
       "source": "CNBC Finance",
       "published": "2026-07-29T11:25:02+00:00"
-    },
-    {
-      "title": "‘Nothing seems to shake this market.’ Why it’s time to go all-in on stocks, according to these bullish strategists.",
-      "link": "https://www.marketwatch.com/story/oil-is-up-40-and-tech-is-tumbling-why-its-time-to-go-all-in-on-stocks-according-to-these-bullish-strategists-41d812f7?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-29T11:17:00+00:00"
-    },
-    {
-      "title": "Saudi Arabia has a new, and pricier, workaround to export its oil",
-      "link": "https://www.marketwatch.com/story/saudi-arabia-has-a-new-and-pricier-workaround-to-export-its-oil-fb5085a5?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-29T11:16:00+00:00"
-    },
-    {
-      "title": "‘I feel lucky’: I’m 71 and inherited $20,000. What should I do with this money?",
-      "link": "https://www.marketwatch.com/story/i-feel-lucky-im-71-and-inherited-20-000-what-should-i-do-with-this-money-1ab90925?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-29T11:15:00+00:00"
     },
     {
       "title": "Cyclospora outbreak tied to Taco Bell will steal the spotlight from Yum Brands' earnings",
@@ -529,12 +571,6 @@
       "published": "2026-07-29T10:46:00+00:00"
     },
     {
-      "title": "Ukraine has found a new pressure point in Russia’s wartime economy",
-      "link": "https://www.cnbc.com/2026/07/29/ukraine-russia-wildberries-putin-trump.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-29T10:33:29+00:00"
-    },
-    {
       "title": "Warren probes Pentagon program to hire highly paid private sector workers",
       "link": "https://www.cnbc.com/2026/07/29/warren-probes-pentagon-program-to-hire-highly-paid-private-sector-workers.html",
       "source": "CNBC Finance",
@@ -553,12 +589,6 @@
       "published": "2026-07-29T10:16:06+00:00"
     },
     {
-      "title": "“추세하락 제한적”에서 “불확실성에 민감”으로…한은, 증시 전망 수정 - 서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5MzBnekEzTWNWNlhGM2VGWnFwaWpqTGJUWEF6WElIWXdnMnFsbnJGMHVvaUJDbEdVZmp1a3pkZDg1VldkNVhCNUFuSVQ4TFlVTmfSAVNBVV95cUxNdFVBRkdWeGxRY2FJakNDOTFaQmxYM3BzMVZBcmNaZFRrTjlWRnVxUmQ0MF9HMFBQRjhPMWFvWFJ3RERkTXE2dUxuRTR6ZmtsSTRnbw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-29T09:57:01+00:00"
-    },
-    {
       "title": "UBS CEO says the AI pullback is healthy — but there’s a bigger risk investors should watch",
       "link": "https://www.cnbc.com/2026/07/29/ubs-earnings-ai-correction-stocks-swiss-bank.html",
       "source": "CNBC Finance",
@@ -569,12 +599,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BaTIxaUgxQi1PcEwwODh5d3Z4TWtiWXNyM0p4QlZHU3ZZdnlmaEJsd19zTm1HRUdKblZPcTJrckNLcmZtNlhiSmFMbGZVRW54TVJueW9QczBQMlZpbWxpYlJwZ3dNV256bGhwblI0dEc?oc=5",
       "source": "Google News",
       "published": "2026-07-29T09:40:09+00:00"
-    },
-    {
-      "title": "[사설] 랠리 외치다 도박판 전락한 증시 정상화 시급 - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90ekQ1cmtycUdnTW5rVHJaNDNFUVZjZU5KVGw4RmQ4MEk4ek5oMHRCSjdYTkZUTVBUYW5aZVhrVEVGdFJWX2lTTjVnWjV0b2h6dDA3WUpZcW9sZw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-29T09:35:35+00:00"
     },
     {
       "title": "[단독] 中에 자율주행 내주지 않으려면…2028년까지 3800대 운용 필요",
@@ -623,30 +647,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260729121451001",
       "source": "연합뉴스·경제",
       "published": "2026-07-29T09:08:02+00:00"
-    },
-    {
-      "title": "“성실히 산 인생 무너졌다” “계좌 녹아내려” …증시 반토막에 개미 ‘곡소리’ - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pS1dNUlJoWU5wSnUtZEtwRy16UFVXa3oxS1lmN3BkWGhIT0VUM0U4eE1fY2R3YjJRZ2hsTzNqMTA2LVg1UlV6TG9KZmZDX1E?oc=5",
-      "source": "Google News",
-      "published": "2026-07-29T09:06:11+00:00"
-    },
-    {
-      "title": "이억원 \"단일종목 레버리지 변동성에 책임 무거워…송구하다\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260729094251002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T09:01:17+00:00"
-    },
-    {
-      "title": "AI주 급락 속 디커플링…싱가포르 증시, 역대 최고치 경신 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOZjdweE15Rm5aajUxeEl5V3FOaW5VcTlZUlZHWmNVNHNqNXdhUHFYaElsX1dGUFBFc01QaUdRd1V4cEpVcTF3anJrblUtdy0xYXVUVGpadUV3Q3FQd0RGQlFGWkNmUDMtVUZXaEhhTEo?oc=5",
-      "source": "Google News",
-      "published": "2026-07-29T09:00:15+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
-      "link": "https://www.yna.co.kr/view/AKR20260729161600011",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T09:00:01+00:00"
     }
   ],
   "pages": [
