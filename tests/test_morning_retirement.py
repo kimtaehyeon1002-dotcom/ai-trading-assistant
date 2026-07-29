@@ -6,6 +6,7 @@ _build_data()는 pipelines.get_market()/get_news()를 통해 실네트워크(Yah
 """
 from __future__ import annotations
 
+from config.settings import DOCS_DIR
 from generators import pipelines
 from generators.morning import generate as morning_gen
 from models.market import Quote
@@ -18,6 +19,7 @@ def test_generate_always_returns_none_but_runs_pipeline(monkeypatch):
     assert result is None
 
 
-def test_list_dates_still_reads_existing_archive():
-    dates = morning_gen.list_dates()
-    assert isinstance(dates, list)  # 아카이브가 비어있지 않다면 기존 날짜들이 그대로 조회된다
+def test_archive_is_gone():
+    """design/25: 아카이브 삭제 후 morning 디렉터리를 만들거나 참조하지 않는다."""
+    assert not hasattr(morning_gen, "list_dates")
+    assert not (DOCS_DIR / "morning").exists()

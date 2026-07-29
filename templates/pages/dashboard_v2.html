@@ -11,9 +11,11 @@
 {% call cardm.card_shell('hero', span='v2-span-12', card_id='dash-hero') %}
   <div class="v2-card__header v2-hero__header">
     <h3 class="v2-card__title">Morning Report</h3>
+    {# design/25: "리포트 전문 보기" 버튼 제거 — 링크 대상이던 v1 셸 모닝 아카이브를 삭제했다.
+       (아카이브는 은퇴한 v1 CSS/JS와 구 nav 5링크에 의존해 깨진 페이지였고, 내용은 이 대시보드가
+       전부 커버한다. 복원이 필요하면 git 히스토리에서 꺼낸다.) #}
     <div class="v2-hero__header-actions">
       <span class="v2-card__meta">{{ generated_at }}</span>
-      {% if latest_morning %}<a class="v2-btn v2-btn--primary" href="{{ root }}/morning/{{ latest_morning }}/index.html">리포트 전문 보기</a>{% endif %}
     </div>
   </div>
   {% if headline %}

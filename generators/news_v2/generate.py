@@ -10,13 +10,11 @@ from pathlib import Path
 
 from calculators import news_entities, news_levels
 from calculators.news_categories import TAB_LABELS, primary_category
-from collectors import news_collector
 from config import nav
 from config.settings import DOCS_DIR
 from generators import pipelines
 from generators.base import render
 from models.news import NewsArticle
-from repositories import news_counters
 from utils.dates import fmt_kst, now_kst, to_kst
 
 TABS: tuple[str, ...] = ("us_market", "kr_market", "macro", "breaking")
@@ -34,9 +32,8 @@ def _tabbed(articles: list[NewsArticle]) -> dict[str, list[NewsArticle]]:
 
 
 def _counters(published_ids: set[str]) -> dict:
-    raw = news_collector.collect()  # 이미 pipelines.get_news()가 호출해 메모이즈됨 — 추가 수집 없음
-    collected_ids = {r.get("link", "") for r in raw if r.get("link")}
-    return news_counters.update(collected_ids, published_ids)
+    # design/25 Phase B: 수집 호출은 파이프라인 몫이다(생성기는 외부 소스를 직접 부르지 않는다).
+    return pipelines.get_news_counters(published_ids)
 
 
 def _briefing(articles: list[NewsArticle], n: int = 3) -> list[NewsArticle]:

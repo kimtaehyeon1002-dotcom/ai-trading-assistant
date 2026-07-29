@@ -22,7 +22,10 @@ from config.settings import ASSET_GOAL_KRW, ASSET_PASSPHRASE, DOCS_DIR
 from repositories import asset_snapshot_repository
 from utils.crypto import encrypt
 from utils.jsonio import save_json
+from utils.logging import get_logger
 from validators.asset_validator import parse_amount
+
+log = get_logger("repo.asset")
 
 
 def _day_change_pct(current: float | None, previous: float | None) -> float | None:
@@ -37,6 +40,32 @@ def _pnl_pct(pnl: float | None, value: float | None) -> float | None:
         return None
     cost = value - pnl
     return round(pnl / cost * 100, 2) if cost else None
+
+
+def _rate_from_amounts(pnl: float | None, principal: float | None,
+                       reported: float | None, *, what: str) -> float | None:
+    """손익률은 **절대금액에서 계산한 값을 정본으로 삼는다**(design/25 §8-2).
+
+    키움 opw00018의 `총수익률`을 그대로 쓰던 것이 화면에 -1718%를 띄운 원인이다 — KOA가 이
+    필드를 100배 스케일(-1718 = -17.18%)로 돌려준다. 스케일 규칙을 추측해서 나누는 대신,
+    이미 확보한 두 절대금액(평가손익·매입금액)에서 직접 계산한다. 소스가 어떤 스케일로
+    바뀌어도 옳고, 두 금액은 화면의 다른 곳에서도 쓰이므로 이미 검증된 값이다.
+
+    보고된 값은 교차검증용으로만 쓴다 — 어긋나면 로그로 남기되 화면은 계산값을 따른다.
+    """
+    if pnl is None or not principal:
+        # 계산 재료가 없으면 결측으로 둔다. 스케일을 신뢰할 수 없는 보고값을 그대로
+        # 내보내느니 손익률 행을 생략하는 편이 낫다(가짜 값 금지).
+        if reported is not None:
+            log.warning("%s: 매입금액 결측으로 손익률 계산 불가 — 보고값(%s)은 스케일 미검증이라 생략", what, reported)
+        return None
+    computed = round(pnl / principal * 100, 2)
+    if reported is not None and abs(computed) > 0.01:
+        ratio = reported / computed
+        if not 0.5 < ratio < 2.0:
+            log.warning("%s: 보고 손익률 %s vs 계산 %s%% (배율 %.1f배) — 계산값을 채택",
+                        what, reported, computed, ratio)
+    return computed
 
 
 def _strip_kiwoom_code(raw: str) -> str:
@@ -65,14 +94,21 @@ def _kiwoom_holdings(raw: dict | None) -> list[dict]:
         code = _strip_kiwoom_code(r.get("종목코드", ""))
         if not code and value is None:
             continue
+        qty = parse_amount(r.get("보유수량"))
+        avg = parse_amount(r.get("매입가"))
+        pnl = parse_amount(r.get("평가손익"))
+        # 종목 수익률도 계좌 총수익률과 같은 스케일 문제를 안고 있다(design/25 §8-2) —
+        # 매입원가(매입가 × 보유수량)에서 직접 계산하고, 재료가 없으면 _holding의
+        # 평가금액−손익 폴백에 맡긴다(pnl_pct=None).
+        cost = avg * qty if avg is not None and qty else None
         out.append(_holding(
             code, r.get("종목명", ""),
-            quantity=parse_amount(r.get("보유수량")),
-            avg_price=parse_amount(r.get("매입가")),
+            quantity=qty, avg_price=avg,
             price=parse_amount(r.get("현재가")),
             value_krw=value,
-            pnl=parse_amount(r.get("평가손익")),
-            pnl_pct=parse_amount(r.get("수익률")),
+            pnl=pnl,
+            pnl_pct=_rate_from_amounts(pnl, cost, parse_amount(r.get("수익률")),
+                                       what=f"키움 {r.get('종목명', code)} 수익률"),
         ))
     return out
 
@@ -120,34 +156,96 @@ def _principal(balance: float | None, eval_pnl: float | None, reported: float | 
     return round(balance - eval_pnl, 2)
 
 
+def _securities_from_holdings(holdings: list[dict], key: str = "value_krw") -> float | None:
+    """보유종목 평가금액 합계 — 계좌 요약의 '총평가금액'이 무엇을 포함하는지 판정하는 대조군."""
+    values = [h[key] for h in holdings if h.get(key) is not None]
+    return round(sum(values), 2) if values else None
+
+
 def build_kiwoom_account(raw: dict | None, prev_krw: float | None) -> dict:
+    """키움 계좌 — 예수금과 유가증권 평가액을 분리해 담는다(design/25 §8-3).
+
+    opw00018의 `총평가금액`이 예수금을 포함하는지는 KOA 문서로 확정할 수 없어서, **보유종목
+    평가금액 합계와 대조해 런타임에 판정한다**. 합계와 일치하면 유가증권만이라는 뜻이므로
+    예수금을 더해 계좌 총액을 만들고, 이미 예수금이 섞여 있으면 그대로 총액으로 쓴다.
+    추측 대신 확보한 데이터로 판정하는 방식이라 소스가 바뀌어도 조용히 틀리지 않는다.
+    """
     s = (raw or {}).get("summary", {})
-    balance = parse_amount(s.get("총평가금액"))
+    holdings = with_holding_weights(_kiwoom_holdings(raw))
+    reported_total = parse_amount(s.get("총평가금액"))
+    deposit = parse_amount(s.get("예수금"))
     eval_pnl = parse_amount(s.get("총평가손익금액"))
+    principal = _principal(reported_total, eval_pnl, parse_amount(s.get("총매입금액")))
+
+    securities = _securities_from_holdings(holdings)
+    deposit_included = _deposit_looks_included(reported_total, securities, deposit)
+    if securities is None:
+        securities = reported_total - deposit if (
+            reported_total is not None and deposit is not None and deposit_included
+        ) else reported_total
+    balance = reported_total if deposit_included else _sum_present(securities, deposit)
+
     return {
         "role": "kiwoom", "label": "키움증권", "sub_label": "단타·스윙",
         "balance_krw": balance, "native_currency": "KRW",
         "change_pct": _day_change_pct(balance, prev_krw),
         "eval_pnl_krw": eval_pnl,
-        "eval_pnl_pct": parse_amount(s.get("총수익률")),
-        "principal_krw": _principal(balance, eval_pnl, parse_amount(s.get("총매입금액"))),
-        "deposit_krw": parse_amount(s.get("예수금")),
+        # 총수익률 필드는 스케일 미검증(-1718% 사고의 원인) — 절대금액에서 계산한다.
+        "eval_pnl_pct": _rate_from_amounts(eval_pnl, principal, parse_amount(s.get("총수익률")),
+                                           what="키움 총수익률"),
+        "principal_krw": principal,
+        "securities_krw": securities,
+        "deposit_krw": deposit,
+        "deposit_in_balance": True,  # balance_krw는 위에서 항상 예수금 포함으로 맞춰진다
         "orderable_krw": parse_amount(s.get("주문가능금액")),
-        "holdings": with_holding_weights(_kiwoom_holdings(raw)),
+        "holdings": holdings,
     }
+
+
+def _sum_present(*values) -> float | None:
+    present = [v for v in values if v is not None]
+    return round(sum(present), 2) if present else None
+
+
+def _securities_base(total: float | None, securities: float | None,
+                     deposit: float | None) -> float | None:
+    """원가 역산에 쓸 '유가증권만의 평가액'. 확보 순서: 명시값 → 총액−예수금 → 총액."""
+    if securities is not None:
+        return securities
+    if total is not None and deposit is not None:
+        return round(total - deposit, 2)
+    return total
+
+
+def _deposit_looks_included(total: float | None, securities: float | None,
+                            deposit: float | None) -> bool:
+    """`total`이 예수금을 이미 품고 있는가 — 두 후보식 중 어느 쪽에 더 가까운지로 판정.
+
+    판정 불가(재료 결측)면 False를 돌려 '예수금을 더해야 한다'고 본다. 예수금이 결측이면
+    더해도 값이 그대로라 무해하고, 실제로 빠져 있었을 때 총액이 적게 나오는 쪽이
+    사용자가 겪은 문제(한투 위탁 -14.8%)였기 때문이다.
+    """
+    if total is None or securities is None or deposit is None:
+        return False
+    return abs(total - (securities + deposit)) < abs(total - securities)
 
 
 def build_kis_isa_account(raw: dict | None, prev_krw: float | None) -> dict:
     raw = raw or {}
     balance = raw.get("krw_value")
     eval_pnl = raw.get("eval_pnl_krw")
-    principal = _principal(balance, eval_pnl, raw.get("principal_krw"))
+    # 원가 역산의 기준은 유가증권 평가액이다 — krw_value는 예수금을 포함하므로(실측
+    # tot_evlu_amt == evlu_amt_smtl_amt + dnca_tot_amt) 그걸로 역산하면 원가가 부풀어
+    # 손익률이 실제보다 작게 나온다. 유가증권 평가액이 없으면 총액에서 예수금을 빼고,
+    # 예수금마저 없으면 총액 그대로 쓴다(예수금 정보가 없는 소스에 대한 하위 호환).
+    principal = _principal(_securities_base(balance, raw.get("securities_krw"), raw.get("deposit_krw")),
+                           eval_pnl, raw.get("principal_krw"))
     return {
         "role": "kis_isa", "label": "한국투자 ISA", "sub_label": "ETF",
         "balance_krw": balance, "native_currency": "KRW",
         "change_pct": _day_change_pct(balance, prev_krw),
         "eval_pnl_krw": eval_pnl,
-        "eval_pnl_pct": round(eval_pnl / principal * 100, 2) if eval_pnl is not None and principal else None,
+        "eval_pnl_pct": _rate_from_amounts(eval_pnl, principal, None, what="한투 ISA 손익률"),
         "principal_krw": principal,
         "deposit_krw": raw.get("deposit_krw"),
         "orderable_krw": raw.get("orderable_krw"),
@@ -163,21 +261,28 @@ def build_kis_foreign_account(raw: dict | None, usdkrw: float | None, prev_krw: 
     raw = raw or {}
     usd_value = raw.get("usd_value")
     eval_pnl_usd = raw.get("eval_pnl_usd")
+    securities_usd = raw.get("securities_usd")
+    deposit_usd = raw.get("deposit_usd")
     balance_krw = round(usd_value * usdkrw, 2) if usd_value is not None and usdkrw else None
-    principal_usd = _principal(usd_value, eval_pnl_usd, raw.get("principal_usd"))
+    # 매입원가는 **유가증권 기준**이다 — 예수금이 섞인 총액에서 역산하면 원가가 부풀어
+    # 손익률이 실제보다 작게 나온다(usd_value는 이제 예수금 포함 총액이다).
+    principal_usd = _principal(_securities_base(usd_value, securities_usd, deposit_usd),
+                               eval_pnl_usd, raw.get("principal_usd"))
     return {
         "role": "kis_foreign", "label": "한국투자", "sub_label": "미국주식",
         "balance_krw": balance_krw, "native_currency": "USD",
         "usd_value": usd_value, "fx_rate": usdkrw,
         "change_pct": _day_change_pct(balance_krw, prev_krw),
         "eval_pnl_krw": round(eval_pnl_usd * usdkrw, 2) if eval_pnl_usd is not None and usdkrw else None,
-        "eval_pnl_pct": (
-            round(eval_pnl_usd / principal_usd * 100, 2)
-            if eval_pnl_usd is not None and principal_usd else None
-        ),
+        "eval_pnl_pct": _rate_from_amounts(eval_pnl_usd, principal_usd, None, what="한투 위탁 손익률"),
         "principal_usd": principal_usd,
         "principal_krw": round(principal_usd * usdkrw, 2) if principal_usd is not None and usdkrw else None,
-        "deposit_usd": raw.get("deposit_usd"),
+        # design/25 §8-1: 예수금이 통째로 빠져 총액이 14.8% 적게 나오던 것을 별도 TR로 보강했다.
+        "securities_usd": securities_usd,
+        "securities_krw": round(securities_usd * usdkrw, 2) if securities_usd is not None and usdkrw else None,
+        "deposit_usd": deposit_usd,
+        "deposit_krw": round(deposit_usd * usdkrw, 2) if deposit_usd is not None and usdkrw else None,
+        "deposit_in_balance": True,
         "holdings": with_holding_weights(_kis_holdings(raw, currency="USD")),
     }
 

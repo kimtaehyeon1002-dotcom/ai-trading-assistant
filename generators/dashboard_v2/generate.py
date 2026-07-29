@@ -16,7 +16,6 @@ from config.calendar import KR_NIGHT_CLOSE, KR_NIGHT_OPEN, SESSIONS
 from config.settings import DOCS_DIR
 from generators import pipelines
 from generators.base import render
-from generators.morning.generate import list_dates
 from models.market import Quote
 from utils.dates import fmt_kst, now_kst
 
@@ -73,7 +72,6 @@ def _build_context() -> dict:
     news = pipelines.get_news()
     top5 = news_rank.top(news, 5)
     recent = sorted(news, key=lambda a: a.published or now_kst(), reverse=True)[:8]
-    dates = list_dates()
 
     return {
         "root": ".",
@@ -86,7 +84,6 @@ def _build_context() -> dict:
         "top_news": top5,
         "recent_news": [(a, news_categories.primary_label(a)) for a in recent],
         "schedule": _schedule_rows(),
-        "latest_morning": dates[0] if dates else None,
     }
 
 

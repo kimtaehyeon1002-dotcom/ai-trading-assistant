@@ -8,7 +8,9 @@
   (+ Stock Hub 전역 패널) · **Financial Statements** `/financials/` · **Technical Analysis** `/ta/`
 - **Asset** `/asset/` 🔒 · **Portfolio** `/portfolio/` 🔒 — 비밀번호 게이트(WebCrypto 복호화, `utils/crypto.py`)
 - **매매일지** `/trades/`(공개) · **Settings** `/settings/` · **AI Office** `/ai-office/`(orphan, nav 미노출)
-- **모닝리포트**(`/morning/YYYY-MM-DD/`)는 신규 발행이 영구 중단된 동결 아카이브 — 기존 링크만 보존
+- **모닝리포트**는 페이지가 없다 — 신규 발행은 design/20 Phase 5에서 중단됐고, 동결 아카이브
+  (`/morning/YYYY-MM-DD/`)도 design/25에서 삭제했다. 콘텐츠는 Dashboard·News가 커버한다.
+  `generators/morning/`은 페이지 없는 데이터 스텝(캐시 생성)으로만 남아 있다.
 
 ## 빌드
 ```bash

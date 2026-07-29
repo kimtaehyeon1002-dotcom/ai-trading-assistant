@@ -15,10 +15,19 @@ from collectors.fred_collector import SERIES as FRED_SERIES
 from config.consensus import CONSENSUS
 from config.economic_calendar import FOMC_2026, FOMC_STATEMENT_TIME_ET
 from config.freshness import THRESHOLDS
+from config.markets import ENVELOPE_META, MACRO_CRYPTO_KEYS, MACRO_STRIP_GROUPS
 from config.settings import DOCS_DIR
+from utils import domain_cache, sparkline as spark
 from utils.jsonio import save_json
 
 _FRESH_MAX_MIN, _STALE_MIN_MIN = THRESHOLDS["macro"]
+
+# 스트립 미니차트가 그리는 봉 개수(design/25 §10). 3개월(약 63봉)을 200px에 욱여넣으면
+# 봉당 3px라 선이 뭉개진다 — 실측에서 60포인트/147px = 2.4px였고 그게 "가시성이 떨어진다"의
+# 실체였다. 한 달(약 22거래일)이면 봉당 9px로 궤적이 또렷하고, "지금 세계가 어떻게 돌아가는가"
+# 라는 이 페이지의 질문에도 한 달이 맞는 창이다. 수집은 3개월 그대로 두어 나중에 창을 넓힐 수 있다.
+STRIP_CHART_POINTS = 22
+STRIP_CHART_WINDOW_LABEL = "최근 1개월"
 _EXPECTED_T_MIN = 60
 _LABELS = dict(FRED_SERIES)
 
@@ -96,6 +105,65 @@ def build_btc(upbit_data: dict | None, market: dict) -> dict | None:
     return {"envelope": env, "yoy": None, "next_release": None, "kimchi_premium_pct": premium}
 
 
+def build_market_strip(market: dict, history: dict[str, list[float]]) -> list[dict]:
+    """market.json Quote + 이력 → Macro "금융시장" 그룹 타일(design/25).
+
+    확보되지 않은 키는 타일을 만들지 않는다(빈칸 렌더 금지). 이력이 없으면 `spark`가 빈
+    문자열이 되어 미니차트만 빠지고 값·등락은 정상 표시된다 — 두 소스의 실패가 서로를
+    무너뜨리지 않게 하는 것이 이 분리의 목적이다.
+    그룹 전체가 결측이면 그룹 자체를 생략한다.
+    """
+    groups: list[dict] = []
+    for group_name, keys in MACRO_STRIP_GROUPS:
+        tiles: list[dict] = []
+        for key in keys:
+            quote = market.get(key)
+            if not quote:
+                continue
+            closes = history.get(key) or []
+            tiles.append({
+                "key": key,
+                "label": quote.name,
+                "price": quote.price,
+                "change_pct": quote.change_pct,
+                "as_of": getattr(quote, "as_of", None),
+                "unit": ENVELOPE_META.get(key, ("", "", 0, 1.0))[0],
+                # 스파크라인은 진폭이 정규화돼 "얼마나" 움직였는지는 못 보여준다 —
+                # 구간 등락률을 숫자로 병기해야 그림이 거짓말을 하지 않는다(design/25 §10).
+                "period_change_pct": spark.period_change_pct(closes, max_points=STRIP_CHART_POINTS),
+                "spark": spark.sparkline_svg(
+                    closes, width=200, height=48, label=f"{quote.name} 최근 추이",
+                    css_class="v2-macro-spark", color_by_direction=True,
+                    max_points=STRIP_CHART_POINTS, baseline=True,
+                ),
+            })
+        if tiles:
+            groups.append({"name": group_name, "tiles": tiles})
+    return groups
+
+
+def build_crypto_line(market: dict, btc_krw: dict | None) -> dict | None:
+    """코인 한 줄 요약(design/25 — 카드 승격 금지, 단타 도구라 Macro의 주역이 아니다).
+
+    원화 시세(Upbit)와 달러 시세(Yahoo) 중 확보된 것만 담고, 둘 다 있으면 김치 프리미엄까지
+    한 줄에 붙인다. 아무것도 없으면 None → 템플릿이 줄 자체를 생략한다.
+    """
+    usd_quote = market.get(MACRO_CRYPTO_KEYS[0])
+    if not btc_krw and not usd_quote:
+        return None
+    line: dict = {"label": "비트코인"}
+    if btc_krw:
+        env = btc_krw["envelope"]
+        line["krw"] = env["value"]
+        line["change_pct"] = env.get("change_pct")
+        line["as_of_iso"] = env.get("as_of_iso")
+        line["kimchi_premium_pct"] = btc_krw.get("kimchi_premium_pct")
+    if usd_quote:
+        line["usd"] = usd_quote.price
+        line.setdefault("change_pct", usd_quote.change_pct)
+    return line
+
+
 def _event_at_utc(date_str: str, time_str: str | None, tz_name: str | None) -> str | None:
     """지역 날짜+시각+IANA 타임존 → UTC ISO. 서머타임(EDT/EST)은 zoneinfo가 날짜별로 정확히
     처리한다 — 템플릿에서 고정 오프셋 문자열을 하드코딩하면 DST 전환 시점에 틀린다."""
@@ -133,9 +201,28 @@ def build_calendar(fred_data: dict[str, dict | None]) -> dict:
     return {"as_of": datetime.now(timezone.utc).isoformat(), "events": events}
 
 
-def persist(indicators: dict, calendar: dict) -> None:
-    save_json(DOCS_DIR / "data" / "macro" / "indicators.json", indicators)
+def persist(indicators: dict, calendar: dict, market_strip: list[dict] | None = None) -> dict:
+    """발행 + last-good 보호(design/25 Phase A 파일럿 — macro 도메인 한정).
+
+    반환값은 **병합된 지표**다 — 폴백으로 되살아난 항목이 화면에도 나가야 하므로 생성기가
+    이 반환값을 렌더에 써야 한다(발행물과 화면이 어긋나면 안 된다).
+
+    calendar는 병합 대상이 아니다 — 키-항목 매핑이 아니라 이벤트 목록이고, FOMC 수기 일정이
+    항상 채워지므로 전량 결측이 구조적으로 불가능하다.
+    """
+    merged = domain_cache.save_keyed(DOCS_DIR / "data" / "macro" / "indicators.json", indicators)
     save_json(DOCS_DIR / "data" / "macro" / "calendar.json", calendar)
+    if market_strip is not None:
+        # 스파크라인 SVG는 표시 전용이라 데이터 파일에서는 제외한다(발행물 비대화 방지).
+        save_json(
+            DOCS_DIR / "data" / "macro" / "market_strip.json",
+            [
+                {"name": g["name"],
+                 "tiles": [{k: v for k, v in t.items() if k != "spark"} for t in g["tiles"]]}
+                for g in market_strip
+            ],
+        )
+    return merged
 
 
 def freshness_attrs() -> dict:

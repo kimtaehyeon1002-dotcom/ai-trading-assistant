@@ -39,6 +39,13 @@ _TOKEN_URL = f"{_BASE_URL}/oauth2/tokenP"
 # 해외주식 잔고조회(위탁, 미국주식): tr_id 실전투자 기준(KIS 공식 문서, 미검증)
 _OVERSEAS_BALANCE_URL = f"{_BASE_URL}/uapi/overseas-stock/v1/trading/inquire-balance"
 _OVERSEAS_TR_ID = "TTTS3012R"
+# 해외주식 체결기준현재잔고 — **외화예수금 확보 경로**(design/25 §8-1).
+# TTTS3012R output2에는 예수금 필드가 아예 없다는 것을 실측으로 확인했다(2026-07-29 응답
+# 키셋: frcr_pchs_amt1·ovrs_rlzt_pfls_amt·ovrs_tot_pfls·rlzt_erng_rt·tot_evlu_pfls_amt·
+# tot_pftrt·frcr_buy_amt_smtl1/2·ovrs_rlzt_pfls_amt2 — 전부 손익 계열). 그래서 기존
+# `deposit_usd`는 항상 None이었고, 위탁 계좌 총액이 예수금만큼 통째로 빠져 있었다.
+_OVERSEAS_PRESENT_URL = f"{_BASE_URL}/uapi/overseas-stock/v1/trading/inquire-present-balance"
+_OVERSEAS_PRESENT_TR_ID = "CTRP6504R"
 # 국내주식 잔고조회(ISA, ETF): tr_id 실전투자 기준(KIS 공식 문서, 미검증)
 _DOMESTIC_BALANCE_URL = f"{_BASE_URL}/uapi/domestic-stock/v1/trading/inquire-balance"
 _DOMESTIC_TR_ID = "TTTC8434R"
@@ -165,18 +172,65 @@ def collect_overseas_balance() -> dict | None:
         usd_value = _pick_float(summary, "frcr_evlu_tota", "evlu_amt_smtl2")
         if usd_value is None:
             usd_value = _sum_field(holdings, "ovrs_stck_evlu_amt")
-        # 예수금은 이 TR 응답에 없었다(실측) — 후보 필드도 없으면 결측으로 남긴다.
+        # 예수금은 이 TR 응답에 아예 없다(실측) — 별도 TR(CTRP6504R)로 보강한다.
+        cash = _collect_overseas_cash(token, app_key, app_secret, cano, prdt)
         return {
             "holdings": holdings,
             "summary": summary,
-            "usd_value": usd_value,
+            # 유가증권 평가액(USD). CTRP6504R 종목합과 일치함을 실측 확인(비율 1.0000).
+            "securities_usd": usd_value,
+            "usd_value": _add(usd_value, cash.get("deposit_usd")),  # 계좌 총액 = 주식 + 예수금
             "eval_pnl_usd": _to_float(summary.get("ovrs_tot_pfls")),
             "principal_usd": _pick_float(summary, "frcr_pchs_amt1", "pchs_amt_smtl", "frcr_pchs_amt"),
-            "deposit_usd": _pick_float(summary, "frcr_dncl_amt_2", "frcr_dncl_amt", "dnca_tot_amt"),
+            "deposit_usd": cash.get("deposit_usd"),
+            "fx_rate_reported": cash.get("fx_rate"),
         }
     except Exception as exc:  # noqa: BLE001
         log.warning("KIS 해외잔고 수집 실패: %s", exc)
         return None
+
+
+def _add(*values) -> float | None:
+    """확보된 값만 더한다. 전부 결측이면 None(0을 만들지 않는다 — 결측 문법)."""
+    present = [v for v in values if v is not None]
+    return round(sum(present), 2) if present else None
+
+
+def _collect_overseas_cash(token: str, app_key: str, app_secret: str,
+                           cano: str, prdt: str) -> dict:
+    """위탁 계좌의 **외화예수금**(+기준환율) — CTRP6504R output2(통화별).
+
+    실패해도 잔고 수집 전체를 무너뜨리지 않는다(빈 dict → 예수금만 결측).
+
+    output3(계좌 합계)의 `tot_asst_amt`는 쓰지 않는다 — 실측에서 (주식+외화예수금)×환율의
+    1.53배가 나왔다. 이 위탁 계좌 범위 밖의 자산까지 포함하는 값으로 보이며, 그대로 총액으로
+    쓰면 없는 돈을 만들어낸다. 대신 검증된 두 값(주식평가액·외화예수금)을 직접 더한다.
+    """
+    try:
+        import requests
+
+        r = requests.get(_OVERSEAS_PRESENT_URL,
+                         headers=_headers(token, _OVERSEAS_PRESENT_TR_ID, app_key, app_secret),
+                         params={
+                             "CANO": cano, "ACNT_PRDT_CD": prdt,
+                             "WCRC_FRCR_DVSN_CD": "02",  # 02=외화 기준
+                             "NATN_CD": "000",           # 000=전체 국가
+                             "TR_MKET_CD": "00",         # 00=전체 시장
+                             "INQR_DVSN_CD": "00",       # 00=전체
+                         }, timeout=15)
+        r.raise_for_status()
+        body = r.json()
+        if body.get("rt_cd") != "0":
+            log.warning("KIS 해외 예수금 조회 실패: %s", body.get("msg1"))
+            return {}
+        rows = body.get("output2") or []
+        usd_row = next((x for x in rows if x.get("crcy_cd") == "USD"), None) or _first_row(rows)
+        deposit = _pick_float(usd_row, "frcr_dncl_amt_2", "frcr_dncl_amt")
+        log.info("KIS 위탁 외화예수금 확보: %s", deposit is not None)
+        return {"deposit_usd": deposit, "fx_rate": _pick_float(usd_row, "frst_bltn_exrt")}
+    except Exception as exc:  # noqa: BLE001
+        log.warning("KIS 해외 예수금 수집 실패: %s", exc)
+        return {}
 
 
 def collect_isa_balance() -> dict | None:

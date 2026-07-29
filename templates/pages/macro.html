@@ -1,34 +1,71 @@
 {% extends "base_v2.html" %}
 {% import "_macros_v2/card.html" as cardm %}
 {#
-  Macroeconomics — design/02, design/20 Phase 6(독립 트랙). FRED/ECOS 키가 없으면 해당 섹션은
-  카드째 생략된다(결측 문법, 빈칸 렌더 금지) — "확보된 지표만 정직하게 보여준다".
+  Macroeconomics — "세계가 어떻게 돌아가고 있는가"가 이 페이지의 키포인트다(design/25).
+
+  카드 순서가 곧 우선순위다: 금융시장(환율·금리·원자재) → 정책금리 → 경제지표 → 경제일정.
+  코인은 단타 도구라 금융시장 카드 안의 **한 줄**로만 다룬다(카드 승격 금지).
+  FRED/ECOS 키가 없으면 해당 섹션은 결측 안내로 대체된다(빈칸 렌더 금지).
 #}
 {% block title %}Macroeconomics · {{ site.title }}{% endblock %}
 {% block content %}
 
-{% set btc = indicators.get('BTC_KRW') %}
-{% set base_rate = indicators.get('BOK_BASE_RATE') %}
-{% if btc or base_rate %}
-{% call cardm.card_shell('standard', span='v2-span-6', card_id='macro-btc') %}
+{% if market_strip or crypto_line %}
+{% call cardm.card_shell('standard', span='v2-span-12', card_id='macro-market') %}
   <div class="v2-card__header">
-    <h3 class="v2-card__title">비트코인(KRW)</h3>
-    {% if btc %}<span class="v2-card__meta">{{ generated_at }}</span>{% endif %}
+    <h3 class="v2-card__title">금융시장</h3>
+    {# 기준 시각은 카드에 한 번만 — 타일마다 같은 시각을 15번 반복하면 노이즈다(design/25 §10) #}
+    <span class="v2-card__meta">{{ generated_at }} · 차트 {{ chart_window }}</span>
   </div>
-  {% if btc %}
-  <div class="v2-card__body" data-asof="{{ btc.envelope.as_of_iso }}" data-fresh-max-min="{{ freshness.fresh_max_min }}" data-stale-min-min="{{ freshness.stale_min_min }}">
-    <div class="v2-ta-metric__value v2-freshness-affected">{{ btc.envelope.value|money }}원</div>
-    <div class="v2-updown {{ btc.envelope.change_pct|signclass }}">{{ btc.envelope.change_pct|arrow }} {{ btc.envelope.change_pct|pctv2 }}</div>
-    {% if btc.kimchi_premium_pct is not none %}
-    <div class="v2-macro-item__row"><span class="k">김치 프리미엄</span><span class="v">{{ btc.kimchi_premium_pct }}%</span></div>
+  <div class="v2-card__body">
+    {# 그룹을 세로로 쌓지 않고 3열로 나란히 둔다 — 15개 지표가 한 화면에 들어와야
+       "지금 세계가 어떻게 돌아가는가"를 한눈에 훑을 수 있다(design/25 §10). #}
+    <div class="v2-macro-groups">
+      {% for group in market_strip %}
+      <section class="v2-macro-group">
+        <div class="v2-overline">{{ group.name }}</div>
+        <div class="v2-macro-strip">
+          {% for t in group.tiles %}
+          <div class="v2-macro-tile">
+            <div class="v2-macro-tile__head">
+              <div class="v2-macro-tile__label">{{ t.label }}</div>
+              <div class="v2-macro-tile__value">{{ t.price|price }}{% if t.unit == '%' %}%{% endif %}</div>
+              {# 그래프는 진폭이 정규화돼 '얼마나' 움직였는지 못 말한다 — 숫자가 그 역할을 한다 #}
+              <div class="v2-macro-tile__rates">
+                <span class="v2-updown {{ t.change_pct|signclass }}">{{ t.change_pct|arrow }} {{ t.change_pct|pctv2 if t.change_pct is not none else '—' }}</span>
+                {% if t.period_change_pct is not none %}
+                <span class="v2-macro-tile__period"><span class="k">1M</span> <span class="v2-updown {{ t.period_change_pct|signclass }}">{{ t.period_change_pct|arrow }} {{ t.period_change_pct|pctv2 }}</span></span>
+                {% endif %}
+              </div>
+            </div>
+            {% if t.spark %}<div class="v2-macro-tile__spark">{{ t.spark|safe }}</div>{% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+      {% endfor %}
+    </div>
+
+    {% if crypto_line %}
+    {# 코인 한 줄 요약 — 가격 사실만, 비중은 여기까지다(design/25) #}
+    <div class="v2-macro-cryptoline">
+      <span class="v2-macro-cryptoline__label">{{ crypto_line.label }}</span>
+      {% if crypto_line.krw %}<span class="v2-macro-cryptoline__v">{{ crypto_line.krw|money }}원</span>{% endif %}
+      {% if crypto_line.usd %}<span class="v2-macro-cryptoline__v">${{ crypto_line.usd|price }}</span>{% endif %}
+      {% if crypto_line.change_pct is not none %}
+      <span class="v2-updown {{ crypto_line.change_pct|signclass }}">{{ crypto_line.change_pct|arrow }} {{ crypto_line.change_pct|pctv2 }}</span>
+      {% endif %}
+      {% if crypto_line.kimchi_premium_pct is not none %}
+      <span class="v2-macro-cryptoline__k">김치 프리미엄 {{ crypto_line.kimchi_premium_pct }}%</span>
+      {% endif %}
+    </div>
     {% endif %}
   </div>
-  {% else %}
-  <div class="v2-card__body"><p class="v2-body">Upbit 수집 실패 — 다음 빌드에서 재시도합니다.</p></div>
-  {% endif %}
 {% endcall %}
+{% endif %}
 
-{% call cardm.card_shell('standard', span='v2-span-6', card_id='macro-base-rate') %}
+{% set base_rate = indicators.get('BOK_BASE_RATE') %}
+{% call cardm.card_shell('standard', span='v2-span-12', card_id='macro-base-rate') %}
   <div class="v2-card__header">
     <h3 class="v2-card__title">한국은행 기준금리</h3>
     {% if base_rate %}<span class="v2-card__meta">{{ generated_at }}</span>{% endif %}
@@ -40,13 +77,17 @@
     <div class="v2-macro-item__row"><span class="k">전월 대비</span><span class="v">{{ base_rate.envelope.change_abs|pctv2 }}p</span></div>
     {% endif %}
   </div>
+  {% elif not ecos_enabled %}
+  <div class="v2-card__body"><p class="v2-body">ECOS_API_KEY 미설정 — 기준금리 수집이 비활성화되어 있습니다. 한국은행 ECOS에서 무료 키를 발급받아(https://ecos.bok.or.kr/api) GitHub Secrets에 <code>ECOS_API_KEY</code>로 등록하면 표시됩니다.</p></div>
   {% else %}
-  <div class="v2-card__body"><p class="v2-body">ECOS_API_KEY 미설정 — 기준금리 수집이 비활성화되어 있습니다.</p></div>
+  <div class="v2-card__body"><p class="v2-body">이번 수집에서 확보되지 않았습니다 — 다음 빌드에서 재시도합니다.</p></div>
   {% endif %}
 {% endcall %}
-{% endif %}
 
-{% if fred_enabled %}
+{# 카드 분기 기준은 '키가 설정됐는가'가 아니라 '보여줄 데이터가 있는가'다(design/25 Phase A).
+   키가 없어도 직전 발행물에서 살아남은 지표가 있으면 보여줘야 한다 — last-good 폴백이
+   데이터까지만 도달하고 화면에서 막히던 결함을 고친 것이다(has_fred는 생성기가 계산). #}
+{% if has_fred %}
 {% call cardm.card_shell('standard', span='v2-span-12', card_id='macro-indicators') %}
   <div class="v2-card__header">
     <h3 class="v2-card__title">경제지표</h3>
@@ -85,7 +126,11 @@
 {% else %}
 {% call cardm.card_shell('standard', span='v2-span-12', card_id='macro-indicators') %}
   <div class="v2-card__header"><h3 class="v2-card__title">경제지표</h3></div>
-  <div class="v2-card__body"><p class="v2-body">FRED_API_KEY 미설정 — 경제지표 수집이 비활성화되어 있습니다.</p></div>
+  {% if not fred_enabled %}
+  <div class="v2-card__body"><p class="v2-body">FRED_API_KEY 미설정 — 경제지표 수집이 비활성화되어 있습니다. 세인트루이스 연준 FRED에서 무료 키를 발급받아(https://fred.stlouisfed.org) GitHub Secrets에 <code>FRED_API_KEY</code>로 등록하면 CPI·PCE·GDP·실업률·고용지수가 표시됩니다.</p></div>
+  {% else %}
+  <div class="v2-card__body"><p class="v2-body">이번 수집에서 확보되지 않았습니다 — 다음 빌드에서 재시도합니다.</p></div>
+  {% endif %}
 {% endcall %}
 {% endif %}
 

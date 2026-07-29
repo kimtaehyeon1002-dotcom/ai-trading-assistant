@@ -32,6 +32,11 @@ EXTENDED_SYMBOLS: list[tuple[str, str, str]] = [
     ("eurusd", "EURUSD=X", "EUR/USD"),
     ("usdcny", "CNY=X", "USD/CNY"),
     ("btc", "BTC-USD", "비트코인"),
+    # design/25: Macro "금융시장" 스트립이 요구하는 잔여 지표(스펙 MARKET 도메인 목록 완성분).
+    ("brent", "BZ=F", "브렌트유"),
+    ("silver", "SI=F", "은"),
+    ("us30y", "^TYX", "미국 30년물 국채금리"),
+    ("russell2000", "^RUT", "러셀2000"),
 ]
 
 # 야간선물 expected_T_min — 자동 FRESH/DELAYED 판정 미지원(design/21 §6-2 "(자동 미지원)")이므로
@@ -71,9 +76,10 @@ MAX_ABS_CHANGE_PCT: dict[str, float] = {
     **{k: 25.0 for k in ("kospi", "kosdaq", "sp500", "nasdaq", "dow", "sox", "nq_futures")},
     **{k: 150.0 for k in ("vix", "move")},
     **{k: 10.0 for k in ("usdkrw", "usdjpy", "eurusd", "usdcny", "dxy")},
-    **{k: 40.0 for k in ("wti", "gold", "copper", "natgas")},
+    **{k: 40.0 for k in ("wti", "brent", "gold", "silver", "copper", "natgas")},
     "btc": 50.0,
-    "us10y": 30.0,
+    **{k: 30.0 for k in ("us10y", "us30y")},
+    "russell2000": 25.0,
 }
 MAX_ABS_CHANGE_PCT_DEFAULT = 50.0
 
@@ -100,4 +106,32 @@ ENVELOPE_META: dict[str, tuple[str, str, int, float]] = {
     "eurusd": ("USD", "fx", 30, 1.0),
     "usdcny": ("CNY", "fx", 30, 1.0),
     "btc": ("USD", "crypto_24h", 30, 1.0),
+    "brent": ("USD", "globex", 30, 1.0),
+    "silver": ("USD", "globex", 30, 1.0),
+    "us30y": ("%", "us_regular", 30, 1.0),
+    "russell2000": ("pt", "us_regular", 30, 1.0),
 }
+
+# ── Macro "금융시장" 스트립(design/25) ────────────────────────────────────────
+# 사용자 요구: "세계가 어떻게 돌아가고 있다"가 Macro의 키포인트다. 따라서 이 페이지의 주역은
+# 환율·금리·원자재이며, 코인은 단타 도구라 **한 줄 요약**으로만 다룬다(카드 승격 금지).
+# 각 그룹 = (그룹명, [market.json 키, ...]). 표시 순서 = 이 목록 순서.
+MACRO_STRIP_GROUPS: list[tuple[str, list[str]]] = [
+    ("환율·달러", ["usdkrw", "dxy", "usdjpy", "eurusd", "usdcny"]),
+    ("금리·변동성", ["us10y", "us30y", "vix", "move"]),
+    ("원자재", ["wti", "brent", "gold", "silver", "copper", "natgas"]),
+]
+
+# 스트립 타일이 미니차트를 그릴 때 쓰는 이력 심볼(키 → Yahoo 티커). EXTENDED_SYMBOLS에서
+# 스트립에 실제로 등장하는 키만 추린다 — 안 그리는 심볼까지 배치 다운로드할 이유가 없다.
+_STRIP_KEYS = {k for _, keys in MACRO_STRIP_GROUPS for k in keys}
+MACRO_HISTORY_SYMBOLS: dict[str, str] = {
+    key: symbol for key, symbol, _ in EXTENDED_SYMBOLS if key in _STRIP_KEYS
+}
+# EXTENDED_SYMBOLS 밖에 정의된 두 심볼을 보강한다 — 빠뜨리면 타일은 나오는데 미니차트만
+# 조용히 없는 상태가 된다(실측으로 발견: 15타일 중 14개만 스파크라인이 그려졌다).
+MACRO_HISTORY_SYMBOLS["usdkrw"] = "KRW=X"  # usdkrw는 Frankfurter 경유라 EXTENDED_SYMBOLS에 없다
+MACRO_HISTORY_SYMBOLS["wti"] = WTI_SYMBOL  # wti는 모닝 8지표 시절부터 별도 상수다
+
+# 한 줄 요약으로만 노출하는 암호화폐(위 주석 참조).
+MACRO_CRYPTO_KEYS: list[str] = ["btc"]

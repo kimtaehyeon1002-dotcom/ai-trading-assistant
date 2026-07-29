@@ -34,7 +34,6 @@ def _sample_context():
         "top_news": [news],
         "recent_news": [(news, "속보")],
         "schedule": _schedule_rows(),
-        "latest_morning": "2026-07-21",
     }
 
 

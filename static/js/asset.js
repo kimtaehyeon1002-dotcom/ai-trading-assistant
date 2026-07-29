@@ -161,9 +161,32 @@
         : "")
       + (a.weight_pct != null ? '<p class="v2-body v2-fs-sub">비중 ' + a.weight_pct.toFixed(1) + "%</p>" : "")
       + (a.balance_krw == null ? '<p class="v2-hub-empty">이 계좌는 이번 수집에서 확보되지 않았습니다.</p>' : "")
+      + breakdownHtml(a)
       + currencyWellHtml(a)
       + (a.role === "bybit" ? '<p class="v2-body v2-fs-sub">24시간 시장 · 스냅샷 값</p>' : "")
       + "</div></div>";
+  }
+
+  /** 예수금 / 주식 평가액 분해(design/25 §8-3).
+   *  계좌 총액이 '현금 얼마 + 주식 얼마'로 이뤄졌는지는 매매 여력 판단의 기본 재료다.
+   *  둘 다 결측이면 블록 자체를 렌더하지 않는다(빈 행 금지). 원 통화 계좌는 원 통화로 적는다.
+   */
+  function breakdownHtml(a) {
+    var native = a.native_currency === "USD";
+    var sec = native ? a.securities_usd : a.securities_krw;
+    var dep = native ? a.deposit_usd : a.deposit_krw;
+    var ccy = native ? "USD" : "KRW";
+    if (sec == null && dep == null) return "";
+    var rows = "";
+    if (sec != null) {
+      rows += '<div class="v2-breakdown__row"><span class="k">주식 평가액</span>'
+        + '<span class="v">' + F.amount(sec, ccy) + "</span></div>";
+    }
+    if (dep != null) {
+      rows += '<div class="v2-breakdown__row"><span class="k">예수금</span>'
+        + '<span class="v">' + F.amount(dep, ccy) + "</span></div>";
+    }
+    return '<div class="v2-breakdown">' + rows + "</div>";
   }
 
   /** 한투 위탁 듀얼 통화 웰(§2-4) — 원 통화가 1차, 환산은 secondary로 강등.
@@ -174,10 +197,7 @@
       + '<span class="v2-ccy-well__native">' + F.amount(a.usd_value, "USD")
       + (a.balance_krw != null ? '<span class="v2-ccy-well__conv">≈ ' + F.amount(a.balance_krw, "KRW") + "</span>" : "")
       + "</span></div>";
-    if (a.deposit_usd != null) {
-      rows += '<div class="v2-ccy-well__row"><span class="v2-ccy-well__label">예수금</span>'
-        + '<span class="v2-ccy-well__native">' + F.amount(a.deposit_usd, "USD") + "</span></div>";
-    }
+    // 예수금 행은 breakdownHtml이 담당한다(design/25 §8-3) — 여기서 또 그리면 중복이다.
     return '<div class="v2-ccy-well">' + rows + "</div>"
       + (a.fx_rate ? '<p class="v2-body v2-fs-sub">적용 환율 ' + a.fx_rate.toFixed(2) + "원</p>" : "");
   }

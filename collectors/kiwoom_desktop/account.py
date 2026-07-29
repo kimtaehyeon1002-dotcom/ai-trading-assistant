@@ -78,4 +78,8 @@ def fetch_balance(api: KiwoomAPI, account: str) -> dict | None:
         {key: _pick(raw, cands) for key, cands in _HOLDING_FIELD_CANDIDATES.items()}
         for raw in meta.get("rows", [])
     ]
+    # 요약 원시값을 남긴다 — 필드명·스케일 문제를 로그 없이 추적할 수 없었다(총수익률이
+    # 100배 스케일로 와서 화면에 -1718%가 뜬 사고, design/25 §8-2). 시세·주문 수집기는
+    # 이미 같은 형태의 raw 로그를 남기고 있고 그게 과거 버그를 잡은 방법이었다.
+    log.info("잔고 summary raw(필드 진단용): %s | 보유 %d종목", summary, len(holdings))
     return {"summary": summary, "holdings": holdings}

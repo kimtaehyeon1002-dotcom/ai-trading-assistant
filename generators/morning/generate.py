@@ -7,7 +7,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from calculators import news_rank, themes as themes_calc
-from config.settings import CACHE_DIR, DOCS_DIR
+from config.settings import CACHE_DIR
 from generators import pipelines
 from models.report import MorningReportData
 from utils import runlog
@@ -20,10 +20,13 @@ log = get_logger("gen.morning")
 # design/20 Phase 5 정리점 결정, Phase 9에서 영구화(design/20 Phase 9 "이중 유지보수 종료"):
 # Dashboard(Phase 4)·News(Phase 5)가 모닝 콘텐츠(지수·핵심뉴스·오늘 일정)를 전부 커버해 신규
 # dated 페이지 발행을 영구 중단한다. 데이터 파이프라인(_build_data — get_market·get_news·
-# Theme Analyst runlog 계측)은 계속 실행한다(캐시 소비처 유지). 기존 아카이브
-# (docs/morning/YYYY-MM-DD/, 2026-07-01~)는 동결 보존 대상이라 건드리지 않는다 — 다만 그
-# 아카이브가 참조하던 v1 전용 템플릿 2종(둘 다 v1 공용 셸을 상속)은 Phase 9에서 소스 은퇴
-# 대상이라 함께 제거했다(발행 로직이 이미 도달 불가능했으므로 손실 없음).
+# Theme Analyst runlog 계측)은 계속 실행한다(캐시 소비처 유지). 이 모듈은 이제 페이지를
+# 전혀 쓰지 않는 순수 데이터 스텝이다.
+#
+# design/25(2026-07-29): 동결 보존하던 아카이브(docs/morning/YYYY-MM-DD/)를 **삭제**했다.
+# v1 셸 상속 페이지라 v1 CSS/JS 은퇴 후 스타일이 깨졌고 nav도 구 5링크를 가리켜 죽은 링크였다.
+# 내용은 Dashboard·News가 전부 커버하므로 손실이 없다. 복원은 git 히스토리에서 한다.
+# 이에 따라 list_dates()와 대시보드의 "리포트 전문 보기" 버튼도 함께 제거했다.
 
 _WD_KR = "월화수목금토일"
 _KR_KEYS = ("kospi_night", "kosdaq_night", "usdkrw", "wti")
@@ -71,14 +74,6 @@ def _build_data() -> MorningReportData:
         themes=theme_list,
         notes=notes,
     )
-
-
-def list_dates() -> list[str]:
-    """발행된 모닝리포트 날짜(YYYY-MM-DD) 최신순 — 아카이브/대시보드 공용."""
-    base = DOCS_DIR / "morning"
-    if not base.exists():
-        return []
-    return sorted((p.name for p in base.iterdir() if p.is_dir() and p.name[:1].isdigit()), reverse=True)
 
 
 def generate() -> Path | None:

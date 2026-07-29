@@ -22,42 +22,13 @@ from utils.logging import get_logger
 log = get_logger("gen.asset")
 
 
-def _kiwoom_balance() -> dict | None:
-    """키움 잔고 — app/sync.py가 등록한 공유 세션을 우선 재사용(로그인 1회 원칙)."""
-    try:
-        from collectors.kiwoom_desktop import api as kiwoom_api
-        from collectors.kiwoom_desktop.account import fetch_balance, list_accounts
-    except Exception as exc:  # noqa: BLE001 - PyQt5/OCX 임포트 자체가 없는 환경(CI 등)
-        log.info("Kiwoom 모듈 사용 불가(비-Windows 환경 등): %s", exc)
-        return None
-
-    api = kiwoom_api.shared()
-    if api is None:
-        # 공유 세션 없음 = 단독 CLI 빌드. 자체 로그인을 시도하되, 데스크톱 세션이 없는
-        # 환경(CI 등)에서는 이 계좌만 결측으로 남기고 나머지 3계좌 수집을 계속한다.
-        try:
-            api = kiwoom_api.KiwoomAPI()
-        except kiwoom_api.KiwoomError as exc:
-            log.info("Kiwoom 미가용(데스크톱 세션 없음): %s", exc)
-            return None
-        if not api.connect():
-            log.warning("Kiwoom 로그인 실패")
-            return None
-
-    accounts = list_accounts(api)
-    if not accounts:
-        return None
-    return fetch_balance(api, accounts[0])
-
-
 def generate() -> Path:
-    kiwoom_raw = runlog.run_step("Asset Kiwoom", _kiwoom_balance, fallback=None)
-
-    from collectors import bybit_collector, kis_collector
-
-    kis_foreign_raw = runlog.run_step("Asset KIS 위탁", kis_collector.collect_overseas_balance, fallback=None)
-    kis_isa_raw = runlog.run_step("Asset KIS ISA", kis_collector.collect_isa_balance, fallback=None)
-    bybit_raw = runlog.run_step("Asset BYBIT", bybit_collector.collect_wallet_balance, fallback=None)
+    # design/25 Phase B: 4계좌 수집은 파이프라인 몫이다(생성기는 외부 소스를 직접 부르지 않는다).
+    raw = pipelines.get_asset_raw()
+    kiwoom_raw = raw["kiwoom"]
+    kis_foreign_raw = raw["kis_foreign"]
+    kis_isa_raw = raw["kis_isa"]
+    bybit_raw = raw["bybit"]
 
     market = pipelines.get_market()
     usdkrw_q = market.get("usdkrw")

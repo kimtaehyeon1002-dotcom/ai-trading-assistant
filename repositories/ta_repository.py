@@ -11,6 +11,7 @@ from calculators import ta_indicators as ta
 from config.calendar import SESSIONS
 from config.freshness import THRESHOLDS
 from config.settings import DOCS_DIR, TIMEZONE
+from utils import sparkline as spark
 from utils.jsonio import save_json
 
 _EXPECTED_T_MIN = 24 * 60
@@ -42,22 +43,11 @@ def _envelope(as_of: str, value, unit: str, change_abs=None, change_pct=None, la
 
 
 def sparkline_svg(closes: list[float], width: int = 952, height: int = 72) -> str:
-    """60일 종가 인라인 SVG 폴리라인(단색, 수십 바이트 규모 — design/22 §9-2). hex 리터럴 없음(R6)."""
-    pts = closes[-60:] if len(closes) > 60 else closes
-    if len(pts) < 2:
-        return ""
-    lo, hi = min(pts), max(pts)
-    span = (hi - lo) or 1.0
-    step = width / (len(pts) - 1)
-    coords = " ".join(
-        f"{i * step:.1f},{height - ((v - lo) / span) * height:.1f}" for i, v in enumerate(pts)
-    )
-    return (
-        f'<svg viewBox="0 0 {width} {height}" width="{width}" height="{height}" '
-        f'role="img" aria-label="60일 KOSPI 종가 추이" class="v2-ta-spark">'
-        f'<polyline points="{coords}" fill="none" stroke="var(--market-flat)" '
-        f'stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg>'
-    )
+    """60일 종가 인라인 SVG 폴리라인(단색, 수십 바이트 규모 — design/22 §9-2).
+
+    구현은 utils/sparkline.py로 일반화됐다(design/25) — Macro 시세 스트립과 공유한다.
+    """
+    return spark.sparkline_svg(closes, width, height, label="60일 KOSPI 종가 추이")
 
 
 def build(rows: list[dict]) -> dict:
