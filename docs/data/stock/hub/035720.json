@@ -1,15 +1,15 @@
 {
   "code": "035720",
   "name": "카카오",
-  "market": "KRX",
+  "market": "KOSPI",
   "theme": "인공지능",
   "quote": {
-    "close": 35650.0,
-    "change_pct": -3.78,
-    "volume": 2003037,
-    "amount": 71655640500.0,
-    "marcap": 15792275145500.0,
-    "as_of_iso": "2026-07-28T22:48:04.211594+00:00",
+    "close": 37750.0,
+    "change_pct": 5.89,
+    "volume": 1633958,
+    "amount": 60753111975.0,
+    "marcap": 16722535392500.0,
+    "as_of_iso": "2026-07-29T02:28:30.160315+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:035720",

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-29T01:43:31.240062+00:00",
+  "as_of": "2026-07-29T02:28:52.589720+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -17,18 +17,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "market": "KOSPI"
-    },
-    {
       "code": "005935",
       "name": "삼성전자우",
       "market": "KOSPI"
     },
     {
-      "code": "035420",
-      "name": "NAVER",
+      "code": "402340",
+      "name": "SK스퀘어",
       "market": "KOSPI"
     },
     {
@@ -42,28 +37,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "413630",
-      "name": "씨피시스템",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "207940",
-      "name": "삼성바이오로직스",
-      "market": "KOSPI"
-    },
-    {
       "code": "068270",
       "name": "셀트리온",
-      "market": "KOSPI"
-    },
-    {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KOSPI"
-    },
-    {
-      "code": "017670",
-      "name": "SK텔레콤",
       "market": "KOSPI"
     },
     {
@@ -72,73 +47,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "028260",
-      "name": "삼성물산",
-      "market": "KOSPI"
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "KOSPI"
-    },
-    {
-      "code": "439960",
-      "name": "코스모로보틱스",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "012330",
-      "name": "현대모비스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "market": "KOSPI"
-    },
-    {
-      "code": "034730",
-      "name": "SK",
-      "market": "KOSPI"
-    },
-    {
-      "code": "066570",
-      "name": "LG전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "086790",
-      "name": "하나금융지주",
-      "market": "KOSPI"
-    },
-    {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "000150",
-      "name": "두산",
-      "market": "KOSPI"
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "market": "KOSPI"
-    },
-    {
-      "code": "267260",
-      "name": "HD현대일렉트릭",
-      "market": "KOSPI"
-    },
-    {
-      "code": "034020",
-      "name": "두산에너빌리티",
-      "market": "KOSPI"
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
+      "code": "035420",
+      "name": "NAVER",
       "market": "KOSPI"
     },
     {
@@ -147,9 +57,99 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "214450",
-      "name": "파마리서치",
+      "code": "267260",
+      "name": "HD현대일렉트릭",
+      "market": "KOSPI"
+    },
+    {
+      "code": "439960",
+      "name": "코스모로보틱스",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "319400",
+      "name": "현대무벡스",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "413630",
+      "name": "씨피시스템",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "058610",
+      "name": "에스피지",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "market": "KOSPI"
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KOSPI"
+    },
+    {
+      "code": "352820",
+      "name": "하이브",
+      "market": "KOSPI"
+    },
+    {
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "066570",
+      "name": "LG전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "042700",
+      "name": "한미반도체",
+      "market": "KOSPI"
+    },
+    {
+      "code": "035720",
+      "name": "카카오",
+      "market": "KOSPI"
+    },
+    {
+      "code": "028260",
+      "name": "삼성물산",
+      "market": "KOSPI"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market": "KOSPI"
+    },
+    {
+      "code": "003230",
+      "name": "삼양식품",
+      "market": "KOSPI"
+    },
+    {
+      "code": "034730",
+      "name": "SK",
+      "market": "KOSPI"
+    },
+    {
+      "code": "240810",
+      "name": "원익IPS",
       "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "KOSPI"
     },
     {
       "code": "MU",
@@ -312,13 +312,18 @@
       "market": "KRX"
     },
     {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KRX"
+    },
+    {
       "code": "247540",
       "name": "에코프로비엠",
       "market": "KRX"
     },
     {
-      "code": "035720",
-      "name": "카카오",
+      "code": "207940",
+      "name": "삼성바이오로직스",
       "market": "KRX"
     },
     {
@@ -353,6 +358,156 @@
     }
   ],
   "news": [
+    {
+      "title": "“당장 갈 일 없어도 800원대면 일단 바꿔놔야지”…엔화 환전 19개월 만에 최대",
+      "link": "https://www.mk.co.kr/news/economy/12110379",
+      "source": "매일경제·증권",
+      "published": "2026-07-29T02:27:48+00:00"
+    },
+    {
+      "title": "신용 높아도 소득없어 대출 어려웠던 사람…내달 불법사금융예방대출 받는다",
+      "link": "https://www.mk.co.kr/news/economy/12110378",
+      "source": "매일경제·증권",
+      "published": "2026-07-29T02:27:10+00:00"
+    },
+    {
+      "title": "Elon Musk's xAI sues Minnesota over law to ban 'nudify' apps",
+      "link": "https://www.cnbc.com/2026/07/28/spacexs-xai-sues-minnesota-over-law-to-ban-nudify-apps-.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-29T02:27:03+00:00"
+    },
+    {
+      "title": "SK Hynix shares fall as exponential earnings growth fails to satisfy AI-charged expectations",
+      "link": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-29T02:26:18+00:00"
+    },
+    {
+      "title": "“신용회복 시켜줘봤자 또 연체”…취약차주 덮친 ‘금리 쇼크’",
+      "link": "https://www.mk.co.kr/news/economy/12110376",
+      "source": "매일경제·증권",
+      "published": "2026-07-29T02:23:57+00:00"
+    },
+    {
+      "title": "코스피, 전날 폭락이어 5~6%대 급락…장중 또 6,000 밑으로",
+      "link": "https://www.yna.co.kr/view/AKR20260729084200008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T02:21:46+00:00"
+    },
+    {
+      "title": "불광2동 일대 신통기획 확정…최대 29층·3천세대 대규모 단지로",
+      "link": "https://www.yna.co.kr/view/AKR20260729082600004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T02:18:44+00:00"
+    },
+    {
+      "title": "농협은행, 인터넷뱅킹 전자 점자 서비스 도입",
+      "link": "https://www.yna.co.kr/view/AKR20260729082100002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T02:17:36+00:00"
+    },
+    {
+      "title": "성수동 삼표레미콘부지에 81층 복합단지…병무청역세권엔 1천세대",
+      "link": "https://www.yna.co.kr/view/AKR20260729054800004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T02:15:01+00:00"
+    },
+    {
+      "title": "\"외국인도 한강서 떡볶이 배달주문 가능\"…서울시·배민 업무협약",
+      "link": "https://www.yna.co.kr/view/AKR20260729060200004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T02:15:01+00:00"
+    },
+    {
+      "title": "급락장에 또 코스피·코스닥서 잇단 매도 사이드카",
+      "link": "https://www.yna.co.kr/view/AKR20260729082200008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T02:11:35+00:00"
+    },
+    {
+      "title": "\"하반기 집값 56%가 상승 전망…전월세는 더 불안\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729081800003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T02:06:57+00:00"
+    },
+    {
+      "title": "Iran launches surprise ballistic missile attack on U.S. forces in the Middle East",
+      "link": "https://www.cnbc.com/2026/07/29/us-iran-war-hormuz-centcom.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-29T02:06:49+00:00"
+    },
+    {
+      "title": "평창군, 그린바이오 산업 육성 속도…생태계 구축 박차",
+      "link": "https://www.yna.co.kr/view/AKR20260729080200062",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T02:06:22+00:00"
+    },
+    {
+      "title": "한은 총재 \"금리인상 기조 이어갈 필요 있어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729080700002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T02:04:39+00:00"
+    },
+    {
+      "title": "대만 기업 윈메이트, 의정부시에 투자의향서 전달",
+      "link": "https://www.yna.co.kr/view/AKR20260729078500060",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T02:01:07+00:00"
+    },
+    {
+      "title": "광양항, 완전 자동화 항만으로 거듭난다…내일 테스트베드 착공",
+      "link": "https://www.yna.co.kr/view/AKR20260729038900051",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T02:00:05+00:00"
+    },
+    {
+      "title": "국토부, 비주택 리모델링 확대…지식산업센터도 매입",
+      "link": "https://www.yna.co.kr/view/AKR20260729062100003",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T02:00:02+00:00"
+    },
+    {
+      "title": "검역본부 \"여름철 축사 진드기 주의…긴 작업복·기피제 당부\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729074100030",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T02:00:00+00:00"
+    },
+    {
+      "title": "[속보] 급락장에 코스피 이어 코스닥도 매도 사이드카",
+      "link": "https://www.yna.co.kr/view/AKR20260729078800008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T01:58:19+00:00"
+    },
+    {
+      "title": "[속보] 코스피 4%대 급락…또 매도 사이드카 발동",
+      "link": "https://www.yna.co.kr/view/AKR20260729077900008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T01:56:34+00:00"
+    },
+    {
+      "title": "이억원 \"가계부채 일관된 관리기조 속 서민·실수요자 보호\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729070900002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T01:50:42+00:00"
+    },
+    {
+      "title": "은평구 '수색8구역' 사업시행계획 변경인가…하반기 착공 가시화",
+      "link": "https://www.yna.co.kr/view/AKR20260729072700004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T01:44:43+00:00"
+    },
+    {
+      "title": "우리투자증권, 수신상품 금리 최대 0.30%p 인상…최고 연 3.90%",
+      "link": "https://www.yna.co.kr/view/AKR20260729071700008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T01:42:57+00:00"
+    },
+    {
+      "title": "내달 '코스닥 입성' 인제니아, 공모가 확정…\"공모자금 R&D 집중 투자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729051900008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T01:41:12+00:00"
+    },
     {
       "title": "SK이노베이션 E&S, 부산서 한·인니 대학생 AI아이디어 경진대회",
       "link": "https://www.yna.co.kr/view/AKR20260729068500003",
@@ -438,7 +593,7 @@
       "published": "2026-07-29T01:24:55+00:00"
     },
     {
-      "title": "증시 급락에도 차근차근 높아지는 원화값…환율 1450원 선 넘길 변수는",
+      "title": "원화값 살짝 안정되긴 했는데...다시 환율 1450원선 넘길 두 가지 변수는",
       "link": "https://www.mk.co.kr/news/economy/12110321",
       "source": "매일경제·증권",
       "published": "2026-07-29T01:22:44+00:00"
@@ -502,156 +657,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260729063500054",
       "source": "연합뉴스·경제",
       "published": "2026-07-29T01:11:49+00:00"
-    },
-    {
-      "title": "짝퉁 명품부터 잔망루피까지…두 달간 위조상품 410만여점 적발",
-      "link": "https://www.yna.co.kr/view/AKR20260729057000002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T01:10:32+00:00"
-    },
-    {
-      "title": "韓총리 \"비상경제점검회의 오늘로 마감…부총리 책임 구조로\"",
-      "link": "https://www.yna.co.kr/view/AKR20260729053200001",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T01:09:34+00:00"
-    },
-    {
-      "title": "정부, 고용서비스 상담 중심 전환…행정업무는 AI 자동화 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260728127100530",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T01:00:06+00:00"
-    },
-    {
-      "title": "2분기 선불식 할부거래업체 74개사…2곳 폐업 신청",
-      "link": "https://www.yna.co.kr/view/AKR20260729037900002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T01:00:04+00:00"
-    },
-    {
-      "title": "재경부, 8월 개인투자용 국채 1천500억원어치 발행",
-      "link": "https://www.yna.co.kr/view/AKR20260729047700002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T01:00:02+00:00"
-    },
-    {
-      "title": "검찰 '특징주 선행매매' 93억원 챙긴 8명 기소…기자 6명 포함",
-      "link": "https://www.yna.co.kr/view/AKR20260729054600004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T01:00:00+00:00"
-    },
-    {
-      "title": "한은 \"반도체 이익 전망 등 펀더멘털, 주가 하방압력 제한 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260729048200002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T01:00:00+00:00"
-    },
-    {
-      "title": "Iran launches surprise ballistic missile attack on U.S. forces in the Middle East",
-      "link": "https://www.cnbc.com/2026/07/29/us-iran-war-hormuz-centcom.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-29T00:59:08+00:00"
-    },
-    {
-      "title": "롯데웰푸드·풀무원, 지역 농가·협력사와 상생 협력 강화",
-      "link": "https://www.yna.co.kr/view/AKR20260729052900030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T00:55:42+00:00"
-    },
-    {
-      "title": "큐로셀, 튀르키예서 CAR-T 치료제 '림카토' 허가 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260729055800017",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T00:54:59+00:00"
-    },
-    {
-      "title": "Oil jumps as U.S.-Iran resume strikes after a brief pause",
-      "link": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-29T00:52:49+00:00"
-    },
-    {
-      "title": "평택시, 인구 6만7천 명 넘은 고덕동 행정동 분리 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260729048300061",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T00:51:19+00:00"
-    },
-    {
-      "title": "코스피, 장초반 상승폭 줄여 강보합…코스닥은 또 하락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260729038151008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T00:49:51+00:00"
-    },
-    {
-      "title": "[게시판] 삼성카드, '포르쉐 삼성카드' 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260729052100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T00:46:59+00:00"
-    },
-    {
-      "title": "롯데건설, 건설현장에 자율주행 바닥청소 로봇 도입",
-      "link": "https://www.yna.co.kr/view/AKR20260729052300003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T00:45:05+00:00"
-    },
-    {
-      "title": "천안시, 내달부터 '천안사랑카드' 캐시백 10% 지급 한도 상향",
-      "link": "https://www.yna.co.kr/view/AKR20260729046800063",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T00:44:34+00:00"
-    },
-    {
-      "title": "동아쏘시오그룹, AI 신약개발 플랫폼 구축…\"R&D 혁신\"",
-      "link": "https://www.yna.co.kr/view/AKR20260729050800017",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T00:43:47+00:00"
-    },
-    {
-      "title": "[게시판] 한투증권, 대학생 서포터즈 3기 모집",
-      "link": "https://www.yna.co.kr/view/AKR20260729051000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T00:42:49+00:00"
-    },
-    {
-      "title": "오늘의 증시 - MBC 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wRk5fUXBnMDdJRUJ6SU40dndwT0k0QTlwUy03SVAzTy02TDU3clJod2tiZGhNMHh2VFhPOTNqdWlXN3FoWVc2SnRybEc0bWV4ZVVwVU9BWldhb1puaGNqX09UNU9KWkh6cEQzektKYkxOenMyTk1j?oc=5",
-      "source": "Google News",
-      "published": "2026-07-29T00:41:02+00:00"
-    },
-    {
-      "title": "휴온스메디텍, 중국서 더마샤인 상표권 승소",
-      "link": "https://www.yna.co.kr/view/AKR20260729043000017",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T00:40:41+00:00"
-    },
-    {
-      "title": "[특징주] 美 '중국 견제' 로봇 수입 금지령에 로봇주 장 초반 강세",
-      "link": "https://www.yna.co.kr/view/AKR20260729048700008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T00:40:30+00:00"
-    },
-    {
-      "title": "코람코 \"5년내 호텔 운용자산 5조원으로 늘리겠다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260729048500008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T00:38:54+00:00"
-    },
-    {
-      "title": "김용범 \"韓 증시 변동성 도드라지는 요인, 금융당국 통해 점검\" - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9taFNyUXpiRjNJTUJiVmZCM3BwTG9FVG5Pb215bnZndEJTZm13N1FuVklZbGtORWlxTHFmeGkwc1k2VmMtTUdYZm9LSWduWUU?oc=5",
-      "source": "Google News",
-      "published": "2026-07-29T00:36:05+00:00"
-    },
-    {
-      "title": "[바이오스냅] 식약처, 식·의약 수사 연구모임 구성",
-      "link": "https://www.yna.co.kr/view/AKR20260729029200017",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T00:35:51+00:00"
-    },
-    {
-      "title": "조정장서 두자릿수 수익률 금융주 … 수출까지 나선 ‘K은행’ 미래는?",
-      "link": "https://www.mk.co.kr/news/economy/12110255",
-      "source": "매일경제·증권",
-      "published": "2026-07-29T00:30:48+00:00"
     }
   ],
   "pages": [

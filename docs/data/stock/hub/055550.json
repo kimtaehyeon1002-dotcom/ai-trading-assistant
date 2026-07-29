@@ -4,12 +4,12 @@
   "market": "KRX",
   "theme": "금융",
   "quote": {
-    "close": 100900.0,
-    "change_pct": -3.9,
-    "volume": 1253310,
-    "amount": 127580680850.0,
-    "marcap": 47892625024900.0,
-    "as_of_iso": "2026-07-28T22:48:04.211621+00:00",
+    "close": 103000.0,
+    "change_pct": 2.08,
+    "volume": 345240,
+    "amount": 35170937850.0,
+    "marcap": 48889399183000.0,
+    "as_of_iso": "2026-07-29T02:28:30.160622+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:055550",

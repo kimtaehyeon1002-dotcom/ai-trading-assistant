@@ -1,0 +1,17 @@
+{
+  "code": "352820",
+  "name": "하이브",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 168400.0,
+    "change_pct": -10.81,
+    "volume": 399537,
+    "amount": 69826584750.0,
+    "marcap": 7259191182400.0,
+    "as_of_iso": "2026-07-29T02:28:30.160287+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:352820",
+  "related_news": []
+}

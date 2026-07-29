@@ -1,0 +1,17 @@
+{
+  "code": "003230",
+  "name": "삼양식품",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 1313000.0,
+    "change_pct": 10.99,
+    "volume": 43879,
+    "amount": 55829327000.0,
+    "marcap": 9890848695000.0,
+    "as_of_iso": "2026-07-29T02:28:30.160335+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:003230",
+  "related_news": []
+}
