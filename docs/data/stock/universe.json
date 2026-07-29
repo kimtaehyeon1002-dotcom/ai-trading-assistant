@@ -165,13 +165,13 @@
     "market": "US"
   },
   {
-    "code": "AMD",
-    "name": "Advanced Micro Devices",
+    "code": "AAPL",
+    "name": "Apple Inc.",
     "market": "US"
   },
   {
-    "code": "AAPL",
-    "name": "Apple Inc.",
+    "code": "AMD",
+    "name": "Advanced Micro Devices",
     "market": "US"
   },
   {
@@ -205,6 +205,11 @@
     "market": "US"
   },
   {
+    "code": "META",
+    "name": "Meta Platforms",
+    "market": "US"
+  },
+  {
     "code": "GOOG",
     "name": "Alphabet Inc. (Class C)",
     "market": "US"
@@ -212,11 +217,6 @@
   {
     "code": "STX",
     "name": "Seagate Technology",
-    "market": "US"
-  },
-  {
-    "code": "META",
-    "name": "Meta Platforms",
     "market": "US"
   },
   {
@@ -235,13 +235,13 @@
     "market": "US"
   },
   {
-    "code": "AMAT",
-    "name": "Applied Materials",
+    "code": "WDC",
+    "name": "Western Digital",
     "market": "US"
   },
   {
-    "code": "WDC",
-    "name": "Western Digital",
+    "code": "AMAT",
+    "name": "Applied Materials",
     "market": "US"
   },
   {
@@ -255,8 +255,13 @@
     "market": "US"
   },
   {
-    "code": "LITE",
-    "name": "Lumentum",
+    "code": "ORCL",
+    "name": "Oracle Corporation",
+    "market": "US"
+  },
+  {
+    "code": "NOW",
+    "name": "ServiceNow",
     "market": "US"
   },
   {
@@ -270,8 +275,8 @@
     "market": "US"
   },
   {
-    "code": "KLAC",
-    "name": "KLA Corporation",
+    "code": "LITE",
+    "name": "Lumentum",
     "market": "US"
   },
   {
@@ -280,23 +285,18 @@
     "market": "US"
   },
   {
-    "code": "NOW",
-    "name": "ServiceNow",
+    "code": "BRK-B",
+    "name": "Berkshire Hathaway",
+    "market": "US"
+  },
+  {
+    "code": "KLAC",
+    "name": "KLA Corporation",
     "market": "US"
   },
   {
     "code": "CSCO",
     "name": "Cisco",
-    "market": "US"
-  },
-  {
-    "code": "CAT",
-    "name": "Caterpillar Inc.",
-    "market": "US"
-  },
-  {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
     "market": "US"
   },
   {

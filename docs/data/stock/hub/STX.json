@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 816.989990234375,
-    "change_pct": null,
-    "volume": 8033592,
-    "amount": 6563364249.626953,
+    "close": 747.2999877929688,
+    "change_pct": -8.53,
+    "volume": 8771300,
+    "amount": 6554792382.928467,
     "marcap": null,
-    "as_of_iso": "2026-07-29T08:38:03.268027+00:00",
+    "as_of_iso": "2026-07-29T09:24:47.025182+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "STX",
