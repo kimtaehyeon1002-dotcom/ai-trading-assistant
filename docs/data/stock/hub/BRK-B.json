@@ -1,0 +1,17 @@
+{
+  "code": "BRK-B",
+  "name": "Berkshire Hathaway",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 512.3699951171875,
+    "change_pct": 3.06,
+    "volume": 6362100,
+    "amount": 3259749145.9350586,
+    "marcap": null,
+    "as_of_iso": "2026-07-29T05:51:49.396679+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "BRK-B",
+  "related_news": []
+}

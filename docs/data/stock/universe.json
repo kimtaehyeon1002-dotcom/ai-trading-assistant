@@ -205,13 +205,13 @@
     "market": "US"
   },
   {
-    "code": "GOOG",
-    "name": "Alphabet Inc. (Class C)",
+    "code": "META",
+    "name": "Meta Platforms",
     "market": "US"
   },
   {
-    "code": "META",
-    "name": "Meta Platforms",
+    "code": "GOOG",
+    "name": "Alphabet Inc. (Class C)",
     "market": "US"
   },
   {
@@ -235,13 +235,13 @@
     "market": "US"
   },
   {
-    "code": "AMAT",
-    "name": "Applied Materials",
+    "code": "WDC",
+    "name": "Western Digital",
     "market": "US"
   },
   {
-    "code": "WDC",
-    "name": "Western Digital",
+    "code": "AMAT",
+    "name": "Applied Materials",
     "market": "US"
   },
   {
@@ -255,6 +255,21 @@
     "market": "US"
   },
   {
+    "code": "ORCL",
+    "name": "Oracle Corporation",
+    "market": "US"
+  },
+  {
+    "code": "NOW",
+    "name": "ServiceNow",
+    "market": "US"
+  },
+  {
+    "code": "DELL",
+    "name": "Dell Technologies",
+    "market": "US"
+  },
+  {
     "code": "GEV",
     "name": "GE Vernova",
     "market": "US"
@@ -265,18 +280,13 @@
     "market": "US"
   },
   {
-    "code": "DELL",
-    "name": "Dell Technologies",
-    "market": "US"
-  },
-  {
-    "code": "NOW",
-    "name": "ServiceNow",
-    "market": "US"
-  },
-  {
     "code": "NFLX",
     "name": "Netflix",
+    "market": "US"
+  },
+  {
+    "code": "BRK-B",
+    "name": "Berkshire Hathaway",
     "market": "US"
   },
   {
@@ -287,16 +297,6 @@
   {
     "code": "CSCO",
     "name": "Cisco",
-    "market": "US"
-  },
-  {
-    "code": "CRM",
-    "name": "Salesforce",
-    "market": "US"
-  },
-  {
-    "code": "IBM",
-    "name": "IBM",
     "market": "US"
   },
   {

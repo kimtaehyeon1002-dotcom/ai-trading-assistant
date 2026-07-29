@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-29T05:00:47.547676+00:00",
+  "as_of": "2026-07-29T05:52:09.322644+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -207,13 +207,13 @@
       "market": "US"
     },
     {
-      "code": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
+      "code": "META",
+      "name": "Meta Platforms",
       "market": "US"
     },
     {
-      "code": "META",
-      "name": "Meta Platforms",
+      "code": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
       "market": "US"
     },
     {
@@ -237,13 +237,13 @@
       "market": "US"
     },
     {
-      "code": "AMAT",
-      "name": "Applied Materials",
+      "code": "WDC",
+      "name": "Western Digital",
       "market": "US"
     },
     {
-      "code": "WDC",
-      "name": "Western Digital",
+      "code": "AMAT",
+      "name": "Applied Materials",
       "market": "US"
     },
     {
@@ -257,6 +257,21 @@
       "market": "US"
     },
     {
+      "code": "ORCL",
+      "name": "Oracle Corporation",
+      "market": "US"
+    },
+    {
+      "code": "NOW",
+      "name": "ServiceNow",
+      "market": "US"
+    },
+    {
+      "code": "DELL",
+      "name": "Dell Technologies",
+      "market": "US"
+    },
+    {
       "code": "GEV",
       "name": "GE Vernova",
       "market": "US"
@@ -267,18 +282,13 @@
       "market": "US"
     },
     {
-      "code": "DELL",
-      "name": "Dell Technologies",
-      "market": "US"
-    },
-    {
-      "code": "NOW",
-      "name": "ServiceNow",
-      "market": "US"
-    },
-    {
       "code": "NFLX",
       "name": "Netflix",
+      "market": "US"
+    },
+    {
+      "code": "BRK-B",
+      "name": "Berkshire Hathaway",
       "market": "US"
     },
     {
@@ -289,16 +299,6 @@
     {
       "code": "CSCO",
       "name": "Cisco",
-      "market": "US"
-    },
-    {
-      "code": "CRM",
-      "name": "Salesforce",
-      "market": "US"
-    },
-    {
-      "code": "IBM",
-      "name": "IBM",
       "market": "US"
     },
     {
@@ -359,13 +359,157 @@
   ],
   "news": [
     {
+      "title": "제주 콩 농가 \"수입 확대하면 큰 피해\"…정부에 대책 촉구",
+      "link": "https://www.yna.co.kr/view/AKR20260729114200056",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:40:59+00:00"
+    },
+    {
+      "title": "산업은행, '남부권 지역성장지원펀드' 위탁운용사 5곳 선정",
+      "link": "https://www.yna.co.kr/view/AKR20260729119600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:39:02+00:00"
+    },
+    {
+      "title": "증시 패닉 따라 강세장 보이는 채권…주가와 따로 노는 원화 - KB Think",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YU2ZTZFR3bFZJMzVHRzRvdl9KTktSWUdjZ1lDeDE1UkRuS0RNM0QyamxzU2lxemVCZ3pXWEloUVk1dGRCdU1janQyRjNpN1hRZUpPS003MXoxeDIwcVc3TlhPd0VRcGhheE04ZnNvSGxpUQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-29T05:38:45+00:00"
+    },
+    {
+      "title": "BTS' concerts have been so successful, it's now bad for its own agency Hybe's shares",
+      "link": "https://www.cnbc.com/2026/07/29/bts-concerts-hybe-record-results-shares-crash.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-29T05:33:34+00:00"
+    },
+    {
+      "title": "[셀럽의 한 수] 최근 증시 하락, 그간 누적된 하락 압력 확대 재생산 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiNzdjMEhqRzMyaTRPUWlWM3lDaVJ0Z3RtcWNNc0V2bWlsdTk4VFpfaXdUQmd3R284a2lXOWpsYmI0N0dIX0VCclBtX3diSEU?oc=5",
+      "source": "Google News",
+      "published": "2026-07-29T05:31:21+00:00"
+    },
+    {
+      "title": "[게시판] IBK기업은행, 중소기업 근로자 등에 치료비 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260729117900002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:30:27+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
+      "link": "https://www.yna.co.kr/view/AKR20260729115000011",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:30:00+00:00"
+    },
+    {
+      "title": "오구피자, 3년 만에 일부 메뉴 가격 인상…최대 3천원 올라",
+      "link": "https://www.yna.co.kr/view/AKR20260729116100030",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:28:02+00:00"
+    },
+    {
+      "title": "연이틀 급락한 증시 시총 5천조원 내줘…약 4개월만 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsdkJUdncyaERzSkRPWDFmTHlaMlYyS2JZMGt5S0plWU5ocVlvVFBWLVZiOXFQRmRrcmNYQk5valJKd29uQmtyVERzcnhrYVU?oc=5",
+      "source": "Google News",
+      "published": "2026-07-29T05:24:17+00:00"
+    },
+    {
+      "title": "이오플로우, 259억 유상증자…아이피브이에 제3자배정",
+      "link": "https://www.yna.co.kr/view/AKR20260729115800008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:23:36+00:00"
+    },
+    {
+      "title": "농식품부, 토마토·애호박 가격 폭락에 수급 안정 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260729109800030",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:22:55+00:00"
+    },
+    {
+      "title": "포스코, 브라질 희토류 장기구매 나서",
+      "link": "https://www.mk.co.kr/news/business/12110463",
+      "source": "매일경제·증권",
+      "published": "2026-07-29T05:22:09+00:00"
+    },
+    {
+      "title": "[게시판] 신복위·서금원, 김해서 52번째 서민금융통합지원센터 개소",
+      "link": "https://www.yna.co.kr/view/AKR20260729114500002",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:17:18+00:00"
+    },
+    {
+      "title": "연이틀 급락장에 국내증시 시총 5천조 내줘…약 4개월만",
+      "link": "https://www.yna.co.kr/view/AKR20260729112000008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:12:19+00:00"
+    },
+    {
+      "title": "8개월째 공석 인천경제청장 공모 시작…현안 산적",
+      "link": "https://www.yna.co.kr/view/AKR20260729113200065",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:11:34+00:00"
+    },
+    {
+      "title": "충주 AI데이터센터 유치 총력…\"전국서 가장 빠른 인허가 승부\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729107100064",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:09:53+00:00"
+    },
+    {
+      "title": "농식품부, 대한산란계협회 비영리법인 설립 허가 취소",
+      "link": "https://www.yna.co.kr/view/AKR20260729112600030",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:07:27+00:00"
+    },
+    {
+      "title": "서울 강서구 '2026 정비사업 아카데미' 무료 운영",
+      "link": "https://www.yna.co.kr/view/AKR20260729111100004",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:06:03+00:00"
+    },
+    {
+      "title": "진짜 바닥이 어디?…국내증시 이틀째 급락, 극에 달한 공포감",
+      "link": "https://www.yna.co.kr/view/AKR20260729100200008",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:05:56+00:00"
+    },
+    {
+      "title": "경기복지재단, 올해 상반기 불법사금융 피해 34억원 예방",
+      "link": "https://www.yna.co.kr/view/AKR20260729108900061",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:03:35+00:00"
+    },
+    {
+      "title": "노동장관, 국책연구기관과 고용동향 점검회의…AI전환 대응 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260729047200530",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:00:05+00:00"
+    },
+    {
+      "title": "건설근로자 저금리 대출 나온다…근로자공제회, BNK금융과 협약",
+      "link": "https://www.yna.co.kr/view/AKR20260729056900530",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T05:00:03+00:00"
+    },
+    {
+      "title": "Why America's super rich have embraced the appeal of British soccer teams",
+      "link": "https://www.cnbc.com/2026/07/29/why-america-super-rich-love-football-clubs-british.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-29T05:00:02+00:00"
+    },
+    {
+      "title": "[르포] \"숨이 턱 막혀요\"…38도 폭염에 건설현장도 비상",
+      "link": "https://www.yna.co.kr/view/AKR20260729099900053",
+      "source": "연합뉴스·경제",
+      "published": "2026-07-29T04:54:00+00:00"
+    },
+    {
       "title": "부산은행, 청소년 금융 교육·진로체험 프로그램 운영",
       "link": "https://www.yna.co.kr/view/AKR20260729103400051",
       "source": "연합뉴스·경제",
       "published": "2026-07-29T04:51:02+00:00"
     },
     {
-      "title": "BNK부산은행, 취약계층 위해 6억7천만원 지원…선풍기 2천대 전달",
+      "title": "BNK금융, 취약계층 위해 6억7천만원 지원…선풍기 2천대 전달",
       "link": "https://www.mk.co.kr/news/economy/12110425",
       "source": "매일경제·증권",
       "published": "2026-07-29T04:48:19+00:00"
@@ -395,6 +539,12 @@
       "published": "2026-07-29T04:24:15+00:00"
     },
     {
+      "title": "[뉴스프레소] 뉴욕증시, 다우 오르고 나스닥 내리고… 반도체 매도 속 굳건한 '애플' - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9HS2ZYSjhBZnphUGEzaDNDRnFtVDFkXzB5bE1sVVVDWjEzZHR5dXgtakZkUU1jU2hpS1prdVdKZE81cEdaN3pZRHU0ZUJQOEZobzVZa1FsX3ZnRU5ib2g2LU53Z201Vkwx0gFuQVVfeXFMUFRVMlVsdDV4UWdpcFhWbGRVX2JjYzl5WGNVX3ljVlpWS2JGaHpWXzFNQmNvT1Z2QTR6ZnlfS0V5N2IxWnppNU0tSm4ydFpCUHNncHkzVXRFc2E5Vld6N0ZFZ21fOERSV0Uwa1VfcXc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-29T04:14:24+00:00"
+    },
+    {
       "title": "Asian technology stocks extend sell-off with SoftBank down 10% as AI plays take a hit",
       "link": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html",
       "source": "CNBC Finance",
@@ -419,7 +569,7 @@
       "published": "2026-07-29T04:00:00+00:00"
     },
     {
-      "title": "코스피 ·코스닥 8%대 급락…이틀 연속 양시장 서킷브레이커(종합)",
+      "title": "국내증시 8%대 급락…사상 첫 이틀 연속 양시장 서킷브레이커(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260729082251008",
       "source": "연합뉴스·경제",
       "published": "2026-07-29T03:58:55+00:00"
@@ -455,16 +605,16 @@
       "published": "2026-07-29T03:21:53+00:00"
     },
     {
+      "title": "오늘의 증시 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GdUFHWnRtUXhLWFFsRkJTejFFdkFKd3ZRN1JNZk1DV0g2RFd0QjhJTVdQU2ZaWEtIVjdObEdLSmI1UjlWQ285VFlaOElkUThxcnJNb3BJUk01ZmV4cVFqR1I1MnkzVFFrejIxQ0dLVUVBaEp0dllVUw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-29T03:20:58+00:00"
+    },
+    {
       "title": "[속보] 코스닥 급락에 이틀 연속 서킷브레이커 발동",
       "link": "https://www.yna.co.kr/view/AKR20260729095000008",
       "source": "연합뉴스·경제",
       "published": "2026-07-29T03:20:03+00:00"
-    },
-    {
-      "title": "[뉴스프레소] 뉴욕증시, 다우 오르고 나스닥 내리고… 반도체 매도 속 굳건한 '애플' - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MNVlheHc2YmV4Ny1yZV9TMXRPQWhVdWRza1JzbmFFSXFLSVpha3NxVVlTbU5IVm1lYTZ2R1lBVy1ZLXMzX0NXZHpreEU1LW8?oc=5",
-      "source": "Google News",
-      "published": "2026-07-29T03:17:32+00:00"
     },
     {
       "title": "시알홀딩스 '비계열사 주식 5% 초과보유' 반복…과징금 8천만원",
@@ -507,156 +657,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260729073200051",
       "source": "연합뉴스·경제",
       "published": "2026-07-29T03:00:06+00:00"
-    },
-    {
-      "title": "건축법 시행령에 '대안교육기관 용도' 신설…91% 합법운영 가능",
-      "link": "https://www.yna.co.kr/view/AKR20260729061700530",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T03:00:06+00:00"
-    },
-    {
-      "title": "IT 위탁 사고 최종책임 이사회에…금융사 IT 리스크 관리 강화",
-      "link": "https://www.yna.co.kr/view/AKR20260729081700002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T03:00:04+00:00"
-    },
-    {
-      "title": "금감원, 8월 여름 휴가지 보이스피싱 예방 집중 홍보",
-      "link": "https://www.yna.co.kr/view/AKR20260729089500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T03:00:02+00:00"
-    },
-    {
-      "title": "한은 \"반도체 호황에 수도권 경기 개선…건설업 대부분 부진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260729082000002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T03:00:02+00:00"
-    },
-    {
-      "title": "외주 IT 기업서 해킹나도 금융사 책임",
-      "link": "https://www.mk.co.kr/news/economy/12110334",
-      "source": "매일경제·증권",
-      "published": "2026-07-29T03:00:00+00:00"
-    },
-    {
-      "title": "이억원·이찬진, 증시 변동성 급증에…\"책임 무겁게 받아들여\" - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CbERDTFpQc2RiQW1fUi1Uck84LU52eWNvU1lMS09TX0xRTklad2dNSGJRTDVOdFFVcjl2dmZDb3Q4a1pkUXZYeUI1VFllX3M2R2UwY2stWG56YWNwc0JNYtIBeEFVX3lxTE1ranhLdVlvWUJJTHpGRUNranpwUDJSdFhVTXlfY0tKSjk4Ql8xQUhTVlpNdGdaVDRIaW8tNHNKOUF3OFlwQnUxUExONUtLYWRjcURCdmgzbVRIUG9OTElyNS1tclNIdGw0R1kyMVlMSUprZVoxZXM4aw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-29T02:58:10+00:00"
-    },
-    {
-      "title": "정부, 고용서비스 상담 중심 전환…행정업무는 AI 자동화 추진(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260728127151530",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T02:48:00+00:00"
-    },
-    {
-      "title": "美반도체주 붕괴, 증시 전반 확산 아니다…'순환매 양상' - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oaDA1MWt3a3pkOUZrVHBIVlEyTm5IN3FMRVNCandodUFNTjJhSXRqWDU1SVBFVlB0bDB1NHdFNG1jcjBHeTE0T0hiVm1zNlZ5MzRDeEQ2WnhIcHF5NDBsdWx1THhMWjlUV1hoSGc1ZXc?oc=5",
-      "source": "Google News",
-      "published": "2026-07-29T02:47:44+00:00"
-    },
-    {
-      "title": "국고채 금리 대체로 하락…3년물 장중 연 3.826%",
-      "link": "https://www.yna.co.kr/view/AKR20260729091700008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T02:41:07+00:00"
-    },
-    {
-      "title": "신한은행, 신한음악상과 함께하는 제6회 'S Classic Week' 개최",
-      "link": "https://www.yna.co.kr/view/AKR20260729091200002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T02:39:18+00:00"
-    },
-    {
-      "title": "울산 울주 건축자재 공장 불…인명피해 없어",
-      "link": "https://www.yna.co.kr/view/AKR20260729089900057",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T02:35:27+00:00"
-    },
-    {
-      "title": "“개미 56조 날린 레버리지”...韓증시 흔드는 ‘변동성 폭탄’ - 에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50ZndkbVdOX2RyeHNXdlFIckxBVzR2cHQ3and3V0lEdnIzMW9LWVJpVlJrSjhUUFBsVWpxNVJpVWZ5THU2aXZEemUzT1NOU1pEd0w3ZTZyNGdhZFRfR0E?oc=5",
-      "source": "Google News",
-      "published": "2026-07-29T02:32:10+00:00"
-    },
-    {
-      "title": "“당장 갈 일 없어도 800원대면 일단 바꿔놔야지”…엔화 환전 19개월 만에 최대",
-      "link": "https://www.mk.co.kr/news/economy/12110379",
-      "source": "매일경제·증권",
-      "published": "2026-07-29T02:27:48+00:00"
-    },
-    {
-      "title": "신용 높아도 소득없어 대출 어려웠던 사람…내달 불법사금융예방대출 받는다",
-      "link": "https://www.mk.co.kr/news/economy/12110378",
-      "source": "매일경제·증권",
-      "published": "2026-07-29T02:27:10+00:00"
-    },
-    {
-      "title": "Elon Musk's xAI sues Minnesota over law to ban 'nudify' apps",
-      "link": "https://www.cnbc.com/2026/07/28/spacexs-xai-sues-minnesota-over-law-to-ban-nudify-apps-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-29T02:27:03+00:00"
-    },
-    {
-      "title": "화성시, 지역화폐 월 구매 한도 50만 원으로 낮춘다",
-      "link": "https://www.yna.co.kr/view/AKR20260729081000061",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T02:25:34+00:00"
-    },
-    {
-      "title": "'실적발표' 하이닉스, 하락전환해 9~10%대 급락…삼전도 4%대↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260729043551008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T02:24:17+00:00"
-    },
-    {
-      "title": "“신용회복 시켜줘봤자 또 연체”…취약차주 덮친 ‘금리 쇼크’",
-      "link": "https://www.mk.co.kr/news/economy/12110376",
-      "source": "매일경제·증권",
-      "published": "2026-07-29T02:23:57+00:00"
-    },
-    {
-      "title": "[외환] 증시 반등·달러 공급에 1,450원대 중후반 상단 제한 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQRFhZSzFlSjhwOTUyVGVubWZDQVotUFhSekRrRS1xVms0WFRWYkVrWk5Ld2dDczl4Rlh2OUNKTGhrODJQdXpMMGhreTNyX1V1WDEtQjl1Q2ZBRGg0d1pzTlJHNEp6d3VZODNfdmxFb3TSAXRBVV95cUxQcjY4R3ljRzRyV3dOQ2Y0TTlHODVYRXNNQ2RkU2pWVWpORk0tTHF5RC1ZLU5zU1hsc3picnRxNldqempYZmNHa1R0SzJLSDFDVkxac1QtUHZVWHRScV9pVzJLMkRXWm1RckRwSXV6bnJoYUVyZQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-29T02:22:21+00:00"
-    },
-    {
-      "title": "하이닉스 실적에 실망? 코스피 5~6%대 급락…6천피 밑으로",
-      "link": "https://www.yna.co.kr/view/AKR20260729084200008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T02:21:46+00:00"
-    },
-    {
-      "title": "불광2동 일대 신통기획 확정…최대 29층·3천세대 대규모 단지로",
-      "link": "https://www.yna.co.kr/view/AKR20260729082600004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T02:18:44+00:00"
-    },
-    {
-      "title": "농협은행, 인터넷뱅킹 전자 점자 서비스 도입",
-      "link": "https://www.yna.co.kr/view/AKR20260729082100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T02:17:36+00:00"
-    },
-    {
-      "title": "성수동 삼표레미콘부지에 81층 복합단지…병무청역세권엔 1천세대",
-      "link": "https://www.yna.co.kr/view/AKR20260729054800004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T02:15:01+00:00"
-    },
-    {
-      "title": "\"외국인도 한강서 떡볶이 배달주문 가능\"…서울시·배민 업무협약",
-      "link": "https://www.yna.co.kr/view/AKR20260729060200004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T02:15:01+00:00"
-    },
-    {
-      "title": "급락장에 또 코스피·코스닥서 잇단 매도 사이드카",
-      "link": "https://www.yna.co.kr/view/AKR20260729082200008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-29T02:11:35+00:00"
     }
   ],
   "pages": [
