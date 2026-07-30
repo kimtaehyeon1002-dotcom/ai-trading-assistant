@@ -30,13 +30,18 @@
     "market": "KOSPI"
   },
   {
-    "code": "475150",
-    "name": "SK이터닉스",
+    "code": "035420",
+    "name": "NAVER",
     "market": "KOSPI"
   },
   {
-    "code": "035420",
-    "name": "NAVER",
+    "code": "068270",
+    "name": "셀트리온",
+    "market": "KOSPI"
+  },
+  {
+    "code": "475150",
+    "name": "SK이터닉스",
     "market": "KOSPI"
   },
   {
@@ -45,23 +50,8 @@
     "market": "KOSDAQ GLOBAL"
   },
   {
-    "code": "068270",
-    "name": "셀트리온",
-    "market": "KOSPI"
-  },
-  {
-    "code": "028260",
-    "name": "삼성물산",
-    "market": "KOSPI"
-  },
-  {
     "code": "105560",
     "name": "KB금융",
-    "market": "KOSPI"
-  },
-  {
-    "code": "042700",
-    "name": "한미반도체",
     "market": "KOSPI"
   },
   {
@@ -70,8 +60,18 @@
     "market": "KOSPI"
   },
   {
-    "code": "042660",
-    "name": "한화오션",
+    "code": "028260",
+    "name": "삼성물산",
+    "market": "KOSPI"
+  },
+  {
+    "code": "042700",
+    "name": "한미반도체",
+    "market": "KOSPI"
+  },
+  {
+    "code": "267260",
+    "name": "HD현대일렉트릭",
     "market": "KOSPI"
   },
   {
@@ -85,8 +85,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "267260",
-    "name": "HD현대일렉트릭",
+    "code": "042660",
+    "name": "한화오션",
+    "market": "KOSPI"
+  },
+  {
+    "code": "010120",
+    "name": "LS ELECTRIC",
     "market": "KOSPI"
   },
   {
@@ -100,23 +105,8 @@
     "market": "KOSPI"
   },
   {
-    "code": "010120",
-    "name": "LS ELECTRIC",
-    "market": "KOSPI"
-  },
-  {
     "code": "003230",
     "name": "삼양식품",
-    "market": "KOSPI"
-  },
-  {
-    "code": "051900",
-    "name": "LG생활건강",
-    "market": "KOSPI"
-  },
-  {
-    "code": "011070",
-    "name": "LG이노텍",
     "market": "KOSPI"
   },
   {
@@ -125,13 +115,8 @@
     "market": "KOSPI"
   },
   {
-    "code": "032830",
-    "name": "삼성생명",
-    "market": "KOSPI"
-  },
-  {
-    "code": "329180",
-    "name": "HD현대중공업",
+    "code": "011070",
+    "name": "LG이노텍",
     "market": "KOSPI"
   },
   {
@@ -140,14 +125,29 @@
     "market": "KOSPI"
   },
   {
+    "code": "032830",
+    "name": "삼성생명",
+    "market": "KOSPI"
+  },
+  {
     "code": "009540",
     "name": "HD한국조선해양",
     "market": "KOSPI"
   },
   {
-    "code": "214450",
-    "name": "파마리서치",
-    "market": "KOSDAQ GLOBAL"
+    "code": "329180",
+    "name": "HD현대중공업",
+    "market": "KOSPI"
+  },
+  {
+    "code": "373220",
+    "name": "LG에너지솔루션",
+    "market": "KOSPI"
+  },
+  {
+    "code": "090430",
+    "name": "아모레퍼시픽",
+    "market": "KOSPI"
   },
   {
     "code": "MU",
@@ -303,11 +303,6 @@
     "code": "TSM",
     "name": "TSMC",
     "market": "NYSE"
-  },
-  {
-    "code": "373220",
-    "name": "LG에너지솔루션",
-    "market": "KRX"
   },
   {
     "code": "247540",
