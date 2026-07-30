@@ -338,7 +338,46 @@ runlog는 재빌드로 복원되지 않는 누적 원장이라, 데스크톱이 
 실효 주기는 30분(news.yml)이다. 30분→일1회로 잘못 잡았다면 하루짜리 장애를 놓쳤을 값이다.
 SLO 값은 크론만 보고 정하면 틀린다는 사례로 남긴다.
 
-### 8-4. 다음 단계 진입 조건
+### 8-5. 감사 기준·원장·vault 축적 (2026-07-30 추가)
+
+Phase D(원장)의 **데이터 계층을 앞당겨** 구현했다. 이유는 두 가지다 — ① 이번 세션에서 이미
+실제 결함 3건을 찾았는데 담아 둘 곳이 없었고, ② 이슈를 Obsidian에서 조회·복기하려면 원장이
+선행돼야 한다. 상태기계와 검증 게이트(Phase D의 나머지)는 그대로 남아 있다.
+
+| 파일 | 역할 |
+|---|---|
+| `config/audit_rubric.py` | **코드 품질**의 판정 기준. P01~P20 우선순위 + 도메인 점검 18종 + SOLID/DRY/KISS/YAGNI + 안전 규칙 6조 + 7영역 로테이션. `config/slo.py`가 런타임 상태 기준이라면 이쪽은 코드 기준이다 |
+| `utils/ledger.py` | append-only JSONL 원장 + 상태기계 + WIP=1 대상 선택 + 안티와인드업 |
+| `generators/vault_ops.py` | 원장 → `TH_DATA/50_Ops/loop/*.md` 투영(멱등). Dataview INDEX 포함 |
+| `ops/prompts/{auditor,fixer}.md` | 루틴이 읽는 **버전관리되는 프롬프트** |
+
+**루틴 프롬프트를 저장소에 둔 이유.** 클라우드 루틴에 프롬프트를 인라인으로 박으면, 기준을
+바꿀 때마다 루틴을 편집해야 하고 변경 이력이 남지 않는다. 루틴에는 "저장소를 clone하고
+`ops/prompts/auditor.md`를 읽어 따르라" 한 줄만 넣는다. 기준은 코드와 함께 리뷰되고 함께 롤백된다.
+
+**vault 쓰기 위치는 `50_Ops/`다** — `10_Journal/`이 아니다. TH_DATA는 "Trading 장기기억
+저장소"이고, 그 폴더의 Dataview 조회축(trade-journal/morning-report/news-digest)에 엔지니어링
+이슈가 섞이면 매매 복기 쿼리가 오염된다. 쓰기 주체 규칙(봇만)은 동일하며 TH_DATA/README.md에
+`loop-issue` 스키마 행을 추가했다.
+
+**보고 형식이 곧 스키마다.** `REPORT_FIELDS = (문제점, 원인, 해결방법, 성능향상, 부작용)`을
+`record()`가 강제하므로 "문제점만 있고 해결방법이 없는 지적"이 원장에 들어갈 수 없다.
+
+### 8-6. 원장 시드 (2026-07-30, 실측 근거만)
+
+| id | 상태 | 우선순위 | 내용 |
+|---|---|---|---|
+| `h.build-ci.runlog-overwrite` | closed | P19 | runlog 공유 원장 유실 (§8-2 ①) |
+| `h.generators.freshness-expected-dup` | closed | P01 | 기대주기 사본 테이블 오표기 (§8-2 ②) |
+| `h.utils.ledger-default-leak` | closed | P19 | `record()` 기본값이 전이 이벤트에 새어 critical→major 변조 |
+| `a.collectors.http-no-session-retry` | **open** | P11 | 컬렉터 HTTP 15곳에 Session·재시도·타임아웃 정책 없음 |
+| `w.fs-workers.missing` | **open** | — | FS 워커 2종 기록 없음(프로브 검출, 원인 수정됨·재확인 대기) |
+
+`h.utils.ledger-default-leak`은 원장을 만들다 원장이 잡은 결함이다. 상태 전이 이벤트가
+시그니처 기본값을 함께 실어 최초 severity를 덮었다 — 부분 갱신을 설계 의도로 잡아 놓고
+"명시하지 않음"과 "기본값"을 구분하지 못하게 만든 전형적 실수다.
+
+### 8-7. 다음 단계 진입 조건
 
 Phase C로 넘어가기 전에 **health.yml 1주 무인 운전 후 오탐 0**을 확인한다(§4 Phase B DoD).
 현재 미확인 항목: gh 축(`gh run list`)은 로컬에서 검증할 수 없어 첫 CI 실행에서 확인해야 한다.

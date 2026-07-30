@@ -9,6 +9,15 @@ from __future__ import annotations
 _DELIM = "---"
 
 
+def quote(s: str) -> str:
+    """임의 텍스트 → YAML 큰따옴표 문자열. 쓰기 쪽(노트 생성) 유일 이스케이프 경로.
+
+    뉴스 제목·이슈 제목처럼 콜론·따옴표가 섞일 수 있는 값을 frontmatter에 넣을 때 쓴다.
+    parse()와 짝을 이룬다 — 읽기만 있고 쓰기가 제각각이면 결국 어긋난다.
+    """
+    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
 def parse(text: str) -> tuple[dict, str]:
     """(frontmatter dict, body) 반환. frontmatter 없으면 ({}, text 그대로)."""
     lines = text.splitlines()

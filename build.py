@@ -65,7 +65,7 @@ def run_build(target: str) -> list[Path]:
     ensure_dirs()
     _sync_vault()
 
-    from generators import vault_journal
+    from generators import vault_journal, vault_ops
     from generators.ai_office.generate import generate as gen_office
     # design/20 Phase 4: Dashboard가 v2로 치환됐다. v1 생성기(generators/dashboard)·템플릿
     # (dashboard.html)은 Phase 9 v1 셸 은퇴로 소스에서 제거됐다 — 필요 시 git 히스토리에서 복원한다.
@@ -97,6 +97,16 @@ def run_build(target: str) -> list[Path]:
 
     if vault_notes or vault_journal.enabled():
         runlog.note("Vault Journal", items=vault_notes, detail="10_Journal/ write-back")
+
+    # 루프 이슈 원장 → vault(50_Ops/) 투영. 타깃과 무관하므로 공통 단계다.
+    # 원장이 진실원이고 노트는 파생물이라, 실패해도 데이터가 사라지지 않는다 —
+    # 발행을 막지 않고 사실대로 기록만 한다(design/26 §3-8).
+    # vault가 없어도 **반드시 기록을 남긴다** — 기록이 통째로 없으면 루프 센서가 이 워커를
+    # "실행 안 됨" 위반으로 잡는다(CI는 TH_DATA checkout이 continue-on-error라 없을 수 있다).
+    if vault_ops.enabled():
+        runlog.run_step("Loop Ledger", vault_ops.write_issues, fallback=[])
+    else:
+        runlog.note("Loop Ledger", status="skipped", detail="TH_DATA 없음 — vault 투영 생략")
 
     # 공통 마무리: 대시보드 + 정적 자산 + AI Office(실행 기록 발행) + 신선도 메타(runlog 파생)
     pages.append(gen_dashboard())

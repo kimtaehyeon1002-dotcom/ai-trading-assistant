@@ -18,6 +18,7 @@ from config.settings import VAULT_DIR
 from generators import pipelines
 from models.trade import CATEGORY_LABELS
 from repositories import trade_repository
+from utils import frontmatter
 from utils.dates import today_str
 from utils.logging import get_logger
 
@@ -67,8 +68,11 @@ def _write(path: Path, text: str) -> None:
 
 
 def _yaml_str(s: str) -> str:
-    """YAML 큰따옴표 문자열 — 뉴스 제목 등 임의 텍스트용 최소 이스케이프."""
-    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+    """YAML 큰따옴표 문자열 — 뉴스 제목 등 임의 텍스트용 최소 이스케이프.
+
+    구현은 utils.frontmatter로 옮겼다(vault_ops도 같은 이스케이프가 필요해졌다).
+    """
+    return frontmatter.quote(s)
 
 
 def _stub(path: Path, frontmatter: str, heading: str, extra: str = "") -> None:

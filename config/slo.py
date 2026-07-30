@@ -66,6 +66,11 @@ WORKERS: dict[str, WorkerSLO] = {
     "Publisher": WorkerSLO(
         owner="build.py(전 타깃)", cadence_min=30, max_age_h=_H_30MIN,
     ),
+    "Loop Ledger": WorkerSLO(
+        owner="build.py(전 타깃)", cadence_min=30, max_age_h=_H_30MIN,
+        status_ok=("completed", "skipped"),
+        note="ops/ledger.jsonl → vault 50_Ops/ 투영. TH_DATA 없으면 skipped가 정상",
+    ),
 
     # news.yml — */30, 24/7. 주말 예외 없음
     "News Research": WorkerSLO(
