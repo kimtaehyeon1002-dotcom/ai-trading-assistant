@@ -1,0 +1,143 @@
+{
+  "code": "TER",
+  "name": "Teradyne",
+  "market": "US",
+  "as_of": "2026-07-29T14:29:23.262522+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 13.13,
+    "cagr_pct": 0.37,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 3702881000
+      },
+      {
+        "year": "2022",
+        "value": 3155045000
+      },
+      {
+        "year": "2023",
+        "value": 2676298000
+      },
+      {
+        "year": "2024",
+        "value": 2819880000
+      },
+      {
+        "year": "2025",
+        "value": 3190024000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 20.38,
+    "own_5y_avg": 14.44,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 32.43
+      },
+      {
+        "year": "2022",
+        "value": 26.37
+      },
+      {
+        "year": "2023",
+        "value": 18.72
+      },
+      {
+        "year": "2024",
+        "value": 21.06
+      },
+      {
+        "year": "2025",
+        "value": 20.38
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 49.64,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 48.6
+      },
+      {
+        "year": "2022",
+        "value": 42.83
+      },
+      {
+        "year": "2023",
+        "value": 38.04
+      },
+      {
+        "year": "2024",
+        "value": 31.55
+      },
+      {
+        "year": "2025",
+        "value": 49.64
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 450406000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 369925000
+      },
+      {
+        "year": "2017",
+        "value": 521120000
+      },
+      {
+        "year": "2018",
+        "value": 362502000
+      },
+      {
+        "year": "2019",
+        "value": 444108000
+      },
+      {
+        "year": "2020",
+        "value": 683958000
+      },
+      {
+        "year": "2021",
+        "value": 965894000
+      },
+      {
+        "year": "2022",
+        "value": 414674000
+      },
+      {
+        "year": "2023",
+        "value": 425589000
+      },
+      {
+        "year": "2024",
+        "value": 474081000
+      },
+      {
+        "year": "2025",
+        "value": 450406000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 3.47,
+    "per": 96.11,
+    "note": null
+  }
+}

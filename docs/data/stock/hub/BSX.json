@@ -1,0 +1,17 @@
+{
+  "code": "BSX",
+  "name": "Boston Scientific",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 45.52000045776367,
+    "change_pct": -1.17,
+    "volume": 15797532,
+    "amount": 719103663.8715363,
+    "marcap": null,
+    "as_of_iso": "2026-07-29T14:28:51.258417+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "BSX",
+  "related_news": []
+}

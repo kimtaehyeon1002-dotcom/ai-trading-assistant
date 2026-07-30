@@ -1,0 +1,143 @@
+{
+  "code": "GLW",
+  "name": "Corning Inc.",
+  "market": "US",
+  "as_of": "2026-07-29T14:29:27.017273+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 19.14,
+    "cagr_pct": 3.27,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 14082000000
+      },
+      {
+        "year": "2022",
+        "value": 14189000000
+      },
+      {
+        "year": "2023",
+        "value": 12588000000
+      },
+      {
+        "year": "2024",
+        "value": 13118000000
+      },
+      {
+        "year": "2025",
+        "value": 15629000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 14.58,
+    "own_5y_avg": 11.63,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 15.0
+      },
+      {
+        "year": "2022",
+        "value": 10.13
+      },
+      {
+        "year": "2023",
+        "value": 7.07
+      },
+      {
+        "year": "2024",
+        "value": 8.65
+      },
+      {
+        "year": "2025",
+        "value": 14.58
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 158.12,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2021",
+        "value": 142.78
+      },
+      {
+        "year": "2022",
+        "value": 143.44
+      },
+      {
+        "year": "2023",
+        "value": 143.99
+      },
+      {
+        "year": "2024",
+        "value": 155.95
+      },
+      {
+        "year": "2025",
+        "value": 158.12
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 2695000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 2537000000
+      },
+      {
+        "year": "2017",
+        "value": 2004000000
+      },
+      {
+        "year": "2018",
+        "value": 2919000000
+      },
+      {
+        "year": "2019",
+        "value": 2031000000
+      },
+      {
+        "year": "2020",
+        "value": 2180000000
+      },
+      {
+        "year": "2021",
+        "value": 3412000000
+      },
+      {
+        "year": "2022",
+        "value": 2615000000
+      },
+      {
+        "year": "2023",
+        "value": 2005000000
+      },
+      {
+        "year": "2024",
+        "value": 1939000000
+      },
+      {
+        "year": "2025",
+        "value": 2695000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 1.83,
+    "per": 69.25,
+    "note": null
+  }
+}

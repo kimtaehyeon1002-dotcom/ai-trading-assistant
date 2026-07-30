@@ -1,0 +1,143 @@
+{
+  "code": "PG",
+  "name": "Procter & Gamble",
+  "market": "US",
+  "as_of": "2026-07-29T14:29:25.581444+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 0.29,
+    "cagr_pct": 1.67,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 76118000000
+      },
+      {
+        "year": "2022",
+        "value": 80187000000
+      },
+      {
+        "year": "2023",
+        "value": 82006000000
+      },
+      {
+        "year": "2024",
+        "value": 84039000000
+      },
+      {
+        "year": "2025",
+        "value": 84284000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 24.26,
+    "own_5y_avg": 27.18,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2021",
+        "value": 23.63
+      },
+      {
+        "year": "2022",
+        "value": 22.21
+      },
+      {
+        "year": "2023",
+        "value": 22.11
+      },
+      {
+        "year": "2024",
+        "value": 22.07
+      },
+      {
+        "year": "2025",
+        "value": 24.26
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 139.52,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2021",
+        "value": 155.73
+      },
+      {
+        "year": "2022",
+        "value": 150.16
+      },
+      {
+        "year": "2023",
+        "value": 156.73
+      },
+      {
+        "year": "2024",
+        "value": 142.03
+      },
+      {
+        "year": "2025",
+        "value": 139.52
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 14044000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 12121000000
+      },
+      {
+        "year": "2017",
+        "value": 9369000000
+      },
+      {
+        "year": "2018",
+        "value": 11150000000
+      },
+      {
+        "year": "2019",
+        "value": 11895000000
+      },
+      {
+        "year": "2020",
+        "value": 14330000000
+      },
+      {
+        "year": "2021",
+        "value": 15584000000
+      },
+      {
+        "year": "2022",
+        "value": 13567000000
+      },
+      {
+        "year": "2023",
+        "value": 13786000000
+      },
+      {
+        "year": "2024",
+        "value": 16524000000
+      },
+      {
+        "year": "2025",
+        "value": 14044000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 6.51,
+    "per": 22.31,
+    "note": null
+  }
+}

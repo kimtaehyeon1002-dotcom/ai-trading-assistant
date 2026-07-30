@@ -1,0 +1,17 @@
+{
+  "code": "PG",
+  "name": "Procter & Gamble",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 145.26510620117188,
+    "change_pct": -2.43,
+    "volume": 5157827,
+    "amount": 749252286.9222717,
+    "marcap": null,
+    "as_of_iso": "2026-07-29T14:28:51.258275+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "PG",
+  "related_news": []
+}

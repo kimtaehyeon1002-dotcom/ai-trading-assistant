@@ -1,0 +1,117 @@
+{
+  "code": "BSX",
+  "name": "Boston Scientific",
+  "market": "US",
+  "as_of": "2026-07-29T14:29:27.977104+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 19.87,
+    "cagr_pct": 16.54,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 11888000000
+      },
+      {
+        "year": "2022",
+        "value": 12682000000
+      },
+      {
+        "year": "2023",
+        "value": 14240000000
+      },
+      {
+        "year": "2024",
+        "value": 16747000000
+      },
+      {
+        "year": "2025",
+        "value": 20074000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 18.0,
+    "own_5y_avg": 12.13,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 10.09
+      },
+      {
+        "year": "2022",
+        "value": 13.0
+      },
+      {
+        "year": "2023",
+        "value": 16.45
+      },
+      {
+        "year": "2024",
+        "value": 15.54
+      },
+      {
+        "year": "2025",
+        "value": 18.0
+      }
+    ]
+  },
+  "stability": null,
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 3658000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 806000000
+      },
+      {
+        "year": "2017",
+        "value": 1107000000
+      },
+      {
+        "year": "2018",
+        "value": -6000000
+      },
+      {
+        "year": "2019",
+        "value": 1375000000
+      },
+      {
+        "year": "2020",
+        "value": 1132000000
+      },
+      {
+        "year": "2021",
+        "value": 1316000000
+      },
+      {
+        "year": "2022",
+        "value": 938000000
+      },
+      {
+        "year": "2023",
+        "value": 1792000000
+      },
+      {
+        "year": "2024",
+        "value": 2645000000
+      },
+      {
+        "year": "2025",
+        "value": 3658000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 1.94,
+    "per": 23.46,
+    "note": null
+  }
+}
