@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30T13:09:44.146417+00:00",
+  "as_of": "2026-07-30T15:03:10.908588+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,34 +349,142 @@
   ],
   "news": [
     {
-      "title": "Star AI investor Leopold Aschenbrenner is unwinding trades after steep losses, sources say",
+      "title": "Wealth managers face a new challenger: Their clients’ AI chatbots",
+      "link": "https://www.cnbc.com/2026/07/30/wealth-managers-ai-chatbots.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T15:02:24+00:00"
+    },
+    {
+      "title": "Jeep maker Stellantis swings to profit on rising demand in North America",
+      "link": "https://www.cnbc.com/2026/07/30/stellantis-q2-earnings-autos-jeep.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T15:02:17+00:00"
+    },
+    {
+      "title": "AI investor Leopold Aschenbrenner forced to unwind all public stock positions after steep losses, sources say",
       "link": "https://www.cnbc.com/2026/07/30/leopold-aschenbrenners-hedge-fund-is-facing-steep-ai-losses.html",
       "source": "CNBC Finance",
-      "published": "2026-07-30T13:08:11+00:00"
+      "published": "2026-07-30T14:55:31+00:00"
+    },
+    {
+      "title": "Meta tanks 9%, continuing record losing streak, while Microsoft jumps 15% as AI trade splits",
+      "link": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T14:45:24+00:00"
+    },
+    {
+      "title": "Apple and Amazon report after the bell. Here's what the options market is saying",
+      "link": "https://www.cnbc.com/2026/07/30/apple-and-amazon-report-after-the-bell-heres-what-the-options-market-is-saying.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T14:40:03+00:00"
+    },
+    {
+      "title": "Americans are spending plenty — but they’re saving much less",
+      "link": "https://www.marketwatch.com/story/americans-are-spending-plenty-but-theyre-saving-much-less-ffb995d2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T14:40:00+00:00"
+    },
+    {
+      "title": "Amazon's Zoox to begin charging for rides in Las Vegas after clearing NHTSA hurdle",
+      "link": "https://www.cnbc.com/2026/07/30/amazon-zoox-robotaxi-rides-las-vegas.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T14:36:59+00:00"
+    },
+    {
+      "title": "Ferrari CEO says he 'would not change anything' about polarizing Luce EV debut",
+      "link": "https://www.cnbc.com/2026/07/30/ferrari-ceo-luce-ev-debut.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T14:22:24+00:00"
+    },
+    {
+      "title": "People from this country are buying up the most homes in America right now, even as international sales dry up",
+      "link": "https://www.marketwatch.com/story/this-country-is-buying-up-the-most-homes-in-america-right-now-even-as-international-sales-dry-up-c8b2afbb?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T14:16:00+00:00"
+    },
+    {
+      "title": "‘Don’t get suckered like I did’: I paid $185 to the wrong passport website. Can I get my money back?",
+      "link": "https://www.marketwatch.com/story/dont-get-suckered-like-i-did-i-paid-185-to-the-wrong-passport-website-can-i-get-my-money-back-3a781412?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T14:15:00+00:00"
+    },
+    {
+      "title": "Looking for a second home? Sellers in these vacation areas could be ready to make a deal.",
+      "link": "https://www.marketwatch.com/story/looking-for-a-second-home-sellers-in-these-markets-could-be-ready-to-make-a-deal-b8d85b34?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T14:10:00+00:00"
+    },
+    {
+      "title": "New details in the OpenAI Hugging Face hack show how far agents will go: 'It's now remarkably easy'",
+      "link": "https://www.cnbc.com/2026/07/30/open-ai-hugging-face-hack-latest.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T14:09:36+00:00"
+    },
+    {
+      "title": "Meta’s stock is falling hard. Here’s why the company is in Wall Street’s doghouse.",
+      "link": "https://www.marketwatch.com/story/metas-stock-is-falling-hard-heres-why-the-company-is-in-wall-streets-doghouse-afae2f55?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T14:09:00+00:00"
+    },
+    {
+      "title": "PCE inflation gauge falls for the first time since the pandemic. The danger is far from over.",
+      "link": "https://www.marketwatch.com/story/fed-favored-pce-inflation-gauge-falls-for-first-time-since-pandemic-but-danger-far-from-over-57e382bf?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T14:08:00+00:00"
+    },
+    {
+      "title": "Gen Z stays home almost every weekend because going out isn’t worth the money",
+      "link": "https://www.marketwatch.com/story/gen-z-stays-home-almost-every-weekend-because-going-out-isnt-worth-the-money-64f03227?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T14:04:00+00:00"
+    },
+    {
+      "title": "U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%",
+      "link": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T14:03:08+00:00"
+    },
+    {
+      "title": "Chipotle stock jumps as chain hikes same-store sales forecast, says cyclospora fears hit sales in late July",
+      "link": "https://www.cnbc.com/2026/07/29/chipotle-mexican-grill-cmg-q2-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T13:56:03+00:00"
+    },
+    {
+      "title": "Why Microsoft’s stock is soaring toward a historic gain after earnings",
+      "link": "https://www.marketwatch.com/story/why-microsofts-stock-is-soaring-toward-a-historic-gain-after-earnings-96cd5b1e?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T13:51:00+00:00"
+    },
+    {
+      "title": "‘Love Island USA’ winners are using their $100,000 prize money to pay bills and student loans. Many Americans can relate.",
+      "link": "https://www.marketwatch.com/story/love-island-usa-winners-are-spending-their-100-000-prize-money-in-a-very-relatable-way-5f4f1794?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T13:46:00+00:00"
+    },
+    {
+      "title": "Wall Street just suffered a historic crash in highflying stocks. Why a quick tech rebound could be a trap.",
+      "link": "https://www.marketwatch.com/story/wall-street-just-suffered-a-historic-crash-in-high-flying-stocks-here-is-why-a-quick-tech-rebound-could-be-a-trap-c021318a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T13:33:00+00:00"
+    },
+    {
+      "title": "Starbucks raises full-year outlook as CEO tells CNBC the chain is winning back customer loyalty",
+      "link": "https://www.cnbc.com/2026/07/29/starbucks-sbux-q3-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T13:29:38+00:00"
+    },
+    {
+      "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+      "link": "https://www.cnbc.com/2026/07/30/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T13:07:12+00:00"
     },
     {
       "title": "Cyclospora outbreak has hurt Taco Bell but sales are already improving, Yum Brands CEO says",
       "link": "https://www.cnbc.com/2026/07/30/yum-brands-yum-q2-2026-earnings.html",
       "source": "CNBC Finance",
       "published": "2026-07-30T13:06:54+00:00"
-    },
-    {
-      "title": "U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%",
-      "link": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T13:00:32+00:00"
-    },
-    {
-      "title": "‘I feel lucky’: I’m 71 and inherited $20,000. What should I do with this money?",
-      "link": "https://www.marketwatch.com/story/i-feel-lucky-im-71-and-inherited-20-000-what-should-i-do-with-this-money-1ab90925?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T13:00:00+00:00"
-    },
-    {
-      "title": "Wall Street just suffered a historic crash in highflying stocks. Why a quick tech rebound could be a trap.",
-      "link": "https://www.marketwatch.com/story/wall-street-just-suffered-a-historic-crash-in-high-flying-stocks-here-is-why-a-quick-tech-rebound-could-be-a-trap-c021318a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T12:58:00+00:00"
     },
     {
       "title": "“주유 한 번에 10만원, 열불난다”…전기차 누적등록 100만대 돌파",
@@ -389,36 +497,6 @@
       "link": "https://www.cnbc.com/2026/07/30/egypt-drone-gas-ship-damietta-port-iran-war.html",
       "source": "CNBC Finance",
       "published": "2026-07-30T12:45:54+00:00"
-    },
-    {
-      "title": "GDP grew so-so 1.5% in the second quarter, but don’t be fooled. The economy was much stronger than it looked.",
-      "link": "https://www.marketwatch.com/story/gdp-shows-the-economy-grew-1-5-in-the-second-quarter-but-its-even-better-than-it-looks-11b7f4fe?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T12:38:00+00:00"
-    },
-    {
-      "title": "Fed-favored PCE inflation gauge falls for first time since pandemic, but danger far from over",
-      "link": "https://www.marketwatch.com/story/fed-favored-pce-inflation-gauge-falls-for-first-time-since-pandemic-but-danger-far-from-over-57e382bf?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T12:35:00+00:00"
-    },
-    {
-      "title": "Congrats, Gen Z, you’re turning 30. Here are the most important money moves to make next.",
-      "link": "https://www.marketwatch.com/story/congrats-gen-z-youre-turning-30-here-are-the-most-important-money-moves-to-make-next-9e30bb0a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T12:30:00+00:00"
-    },
-    {
-      "title": "Ferrari raises 2026 guidance after Q2 earnings beat",
-      "link": "https://www.cnbc.com/2026/07/30/ferrari-race-earnings-q2-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T12:21:33+00:00"
-    },
-    {
-      "title": "This global equity fund boasts a 150% five-year return for investors, despite holding few U.S. stocks",
-      "link": "https://www.marketwatch.com/story/this-global-equity-fund-boasts-a-150-five-year-return-for-investors-despite-being-well-underweight-u-s-stocks-624ff6b4?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T12:15:00+00:00"
     },
     {
       "title": "[뉴스하이킥] 김성주 \"증시 등락 원인? 국민연금은 단타 안 해… 장기투자·점진적 매매로 시장 영향 최소화\" - v.daum.net",
@@ -439,52 +517,16 @@
       "published": "2026-07-30T11:47:40+00:00"
     },
     {
-      "title": "Nearly half of small-cap and midcap stocks are losing money",
-      "link": "https://www.marketwatch.com/story/nearly-half-of-small-cap-and-midcap-stocks-are-losing-money-ca851c98?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T11:45:00+00:00"
-    },
-    {
       "title": "Bank of England holds UK interest rate steady at 3.75% — but policymakers see upside inflation risk",
       "link": "https://www.cnbc.com/2026/07/30/interest-rates-inflation-bank-of-england.html",
       "source": "CNBC Finance",
       "published": "2026-07-30T11:42:42+00:00"
     },
     {
-      "title": "인제 보니, 꿀릴 것 없었던 야당대표 부동산 처분 [논설실 Pick]",
+      "title": "인제 보니, 꿀릴 것 없는 야당 대표 부동산 처분 [논설실 Pick]",
       "link": "https://www.mk.co.kr/news/economy/12112417",
       "source": "매일경제·증권",
       "published": "2026-07-30T11:30:37+00:00"
-    },
-    {
-      "title": "Wealth managers face a new challenger: their clients’ AI chatbots",
-      "link": "https://www.cnbc.com/2026/07/30/wealth-managers-ai-chatbots.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T11:30:01+00:00"
-    },
-    {
-      "title": "증시 폭락에 백화점도 노심초사 - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjUXo0UGJJT09jbDBIbUpnVkNBcnFFY3g4Y19WWWZKWU9NcFBVbHVqTWV6ZVU3UnVoRjFPRGYwQkFJLVFOVVg0MEtKT1ozenFyOU5IcDhVSGJvQdIBX0FVX3lxTFBoVFNLTjR1cHROVHVkdzQzazdrTUJRaTVHdG52UzJKTUVDOFppNElaTW42NF8tY0VVSzRMMVVLelNIMkp6X1RJWkNra3JGak1aaWszNzQzV05YT3pQYkxR?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T11:25:00+00:00"
-    },
-    {
-      "title": "‘Don’t get suckered like I did’: I paid $185 to the wrong passport website. Can I get my money back?",
-      "link": "https://www.marketwatch.com/story/dont-get-suckered-like-i-did-i-paid-185-to-the-wrong-passport-website-can-i-get-my-money-back-3a781412?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T11:16:00+00:00"
-    },
-    {
-      "title": "Why you shouldn’t worry about the stock market’s break below its 50-day moving average",
-      "link": "https://www.marketwatch.com/story/why-you-shouldnt-worry-about-the-stock-markets-break-below-its-50-day-moving-average-4dfab87a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T11:15:00+00:00"
-    },
-    {
-      "title": "The World Cup winners wore Adidas shirts. But the company’s investors are still crying foul.",
-      "link": "https://www.marketwatch.com/story/the-world-cup-winners-wore-adidas-shirts-but-the-companys-investors-are-still-crying-foul-2224d39a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T11:06:00+00:00"
     },
     {
       "title": "Loeffler's financial disclosure reveals husband’s ties to exclusive Trump Jr.-backed private club",
@@ -499,22 +541,10 @@
       "published": "2026-07-30T10:45:01+00:00"
     },
     {
-      "title": "Meta tanks nearly 9%, Microsoft jumps 9% as the AI trade splits Big Tech",
-      "link": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T10:27:12+00:00"
-    },
-    {
       "title": "재경부, 8월 국고채 1조 증가한 17조 발행…재정증권 발행 안 해",
       "link": "https://www.yna.co.kr/view/AKR20260730179200002",
       "source": "연합뉴스·경제",
       "published": "2026-07-30T10:26:35+00:00"
-    },
-    {
-      "title": "Starbucks stock jumps as coffee giant raises full-year outlook",
-      "link": "https://www.cnbc.com/2026/07/29/starbucks-sbux-q3-2026-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T10:25:34+00:00"
     },
     {
       "title": "[亞증시-종합] 반도체 혼조 속 日·홍콩 상승…中·臺 ↓ - 연합인포맥스",
@@ -523,7 +553,7 @@
       "published": "2026-07-30T10:23:42+00:00"
     },
     {
-      "title": "폭락장에 정부가 꺼낼 카드는…블룸버그가 꼽은 증시 안정화 대책│Global Money Club - 중앙일보",
+      "title": "폭락장에 정부가 꺼낼 카드는…블룸버그가 꼽은 증시 안정화 대책│Global Money Club - joongang.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54RTNva29yVHo2RXhYQzVveUdvbHZfUm9DRnhPcldkNndkN3UyellZb2ZOblVpRXRLTVpnRGxUeFJzOFVtNVVlNEkxbkxNVUE2Tm13MEh0SDZtV0U?oc=5",
       "source": "Google News",
       "published": "2026-07-30T10:05:22+00:00"
@@ -533,6 +563,12 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE41UkNfVFVlaldYUS1ZYUZVWnNVOFB6U3p5OXJZd0t6bnRwR1RzRHZCQUZIb0xhWS00Z2ZucC1qU0NFNEZvclh5MlE5U2RIbEV2OE5lUW9pY3dGYVV0U0E?oc=5",
       "source": "Google News",
       "published": "2026-07-30T10:04:00+00:00"
+    },
+    {
+      "title": "사흘째 증시 하락…與 \"깊은 책임 통감\" vs 野 \"국조·특검수사\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9FajRIZEkybG9pRjZIRHl0c1NNN3o0WkFYa1JBNTlRQjVpNzZhYk1LYWxDMmhsSEVzTzlhNzNhUlptUlVjWlo0d2E1RlkxdzA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-30T09:53:32+00:00"
     },
     {
       "title": "'온습도 제어장비 제조업' 멜콘 등 3사, 코스닥 상장예심 통과",
@@ -611,42 +647,6 @@
       "link": "https://www.mk.co.kr/news/economy/12112236",
       "source": "매일경제·증권",
       "published": "2026-07-30T09:00:16+00:00"
-    },
-    {
-      "title": "[표] 외국환율고시표",
-      "link": "https://www.mk.co.kr/news/economy/12112237",
-      "source": "매일경제·증권",
-      "published": "2026-07-30T09:00:16+00:00"
-    },
-    {
-      "title": "경미한 차사고에도 … 75% 입원시키는 한방병원",
-      "link": "https://www.mk.co.kr/news/economy/12112238",
-      "source": "매일경제·증권",
-      "published": "2026-07-30T09:00:16+00:00"
-    },
-    {
-      "title": "한은, 예금토큰 지급 시스템 '프로젝트 아고라' 실거래 테스트",
-      "link": "https://www.yna.co.kr/view/AKR20260730149200002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-30T09:00:01+00:00"
-    },
-    {
-      "title": "국민은행, 일본 MUFG와 예금토큰 지급결제 실험 성공 [금융가 톺아보기]",
-      "link": "https://www.mk.co.kr/news/economy/12111961",
-      "source": "매일경제·증권",
-      "published": "2026-07-30T09:00:00+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
-      "link": "https://www.yna.co.kr/view/AKR20260730171300011",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-30T09:00:00+00:00"
-    },
-    {
-      "title": "잠실 스포츠·MICE 복합공간… 신한銀·하나證, 4조 PF 주관",
-      "link": "https://www.mk.co.kr/news/economy/12112207",
-      "source": "매일경제·증권",
-      "published": "2026-07-30T08:54:45+00:00"
     }
   ],
   "pages": [
