@@ -4,12 +4,12 @@
   "market": "NYSE",
   "theme": "바이오",
   "quote": {
-    "close": 51.58000183105469,
-    "change_pct": 1.22,
-    "volume": 8692500,
-    "amount": 448359165.9164429,
+    "close": 51.61000061035156,
+    "change_pct": 0.06,
+    "volume": 10562597,
+    "amount": 545135637.6168976,
     "marcap": null,
-    "as_of_iso": "2026-07-30T09:16:12.220558+00:00",
+    "as_of_iso": "2026-07-30T22:54:36.478995+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "NVO",

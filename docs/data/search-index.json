@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30T22:44:04.164683+00:00",
+  "as_of": "2026-07-30T22:54:51.147260+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -157,8 +157,8 @@
       "market": "US"
     },
     {
-      "code": "NVDA",
-      "name": "Nvidia",
+      "code": "MSFT",
+      "name": "Microsoft",
       "market": "US"
     },
     {
@@ -167,23 +167,28 @@
       "market": "US"
     },
     {
-      "code": "AAPL",
-      "name": "Apple Inc.",
-      "market": "US"
-    },
-    {
-      "code": "MSFT",
-      "name": "Microsoft",
-      "market": "US"
-    },
-    {
-      "code": "AMD",
-      "name": "Advanced Micro Devices",
+      "code": "NVDA",
+      "name": "Nvidia",
       "market": "US"
     },
     {
       "code": "META",
       "name": "Meta Platforms",
+      "market": "US"
+    },
+    {
+      "code": "AMZN",
+      "name": "Amazon",
+      "market": "US"
+    },
+    {
+      "code": "AAPL",
+      "name": "Apple Inc.",
+      "market": "US"
+    },
+    {
+      "code": "AMD",
+      "name": "Advanced Micro Devices",
       "market": "US"
     },
     {
@@ -197,11 +202,6 @@
       "market": "US"
     },
     {
-      "code": "AMZN",
-      "name": "Amazon",
-      "market": "US"
-    },
-    {
       "code": "GOOGL",
       "name": "Alphabet Inc. (Class A)",
       "market": "US"
@@ -212,28 +212,13 @@
       "market": "US"
     },
     {
+      "code": "LRCX",
+      "name": "Lam Research",
+      "market": "US"
+    },
+    {
       "code": "STX",
       "name": "Seagate Technology",
-      "market": "US"
-    },
-    {
-      "code": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "market": "US"
-    },
-    {
-      "code": "VRT",
-      "name": "Vertiv",
-      "market": "US"
-    },
-    {
-      "code": "CAT",
-      "name": "Caterpillar Inc.",
-      "market": "US"
-    },
-    {
-      "code": "NOW",
-      "name": "ServiceNow",
       "market": "US"
     },
     {
@@ -242,8 +227,8 @@
       "market": "US"
     },
     {
-      "code": "WDC",
-      "name": "Western Digital",
+      "code": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
       "market": "US"
     },
     {
@@ -252,13 +237,13 @@
       "market": "US"
     },
     {
-      "code": "V",
-      "name": "Visa Inc.",
+      "code": "ORCL",
+      "name": "Oracle Corporation",
       "market": "US"
     },
     {
-      "code": "LRCX",
-      "name": "Lam Research",
+      "code": "WDC",
+      "name": "Western Digital",
       "market": "US"
     },
     {
@@ -267,13 +252,18 @@
       "market": "US"
     },
     {
-      "code": "KLAC",
-      "name": "KLA Corporation",
+      "code": "NFLX",
+      "name": "Netflix",
       "market": "US"
     },
     {
-      "code": "CRM",
-      "name": "Salesforce",
+      "code": "QCOM",
+      "name": "Qualcomm",
+      "market": "US"
+    },
+    {
+      "code": "LLY",
+      "name": "Lilly (Eli)",
       "market": "US"
     },
     {
@@ -282,23 +272,33 @@
       "market": "US"
     },
     {
-      "code": "GEV",
-      "name": "GE Vernova",
+      "code": "VRT",
+      "name": "Vertiv",
       "market": "US"
     },
     {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
+      "code": "KLAC",
+      "name": "KLA Corporation",
       "market": "US"
     },
     {
-      "code": "NFLX",
-      "name": "Netflix",
+      "code": "V",
+      "name": "Visa Inc.",
       "market": "US"
     },
     {
-      "code": "GLW",
-      "name": "Corning Inc.",
+      "code": "APP",
+      "name": "AppLovin",
+      "market": "US"
+    },
+    {
+      "code": "WMT",
+      "name": "Walmart",
+      "market": "US"
+    },
+    {
+      "code": "NOW",
+      "name": "ServiceNow",
       "market": "US"
     },
     {
@@ -320,11 +320,6 @@
       "code": "207940",
       "name": "삼성바이오로직스",
       "market": "KRX"
-    },
-    {
-      "code": "LLY",
-      "name": "Eli Lilly",
-      "market": "NYSE"
     },
     {
       "code": "NVO",
@@ -352,7 +347,19 @@
       "title": "Microsoft's Xbox chief lays out plan to pass rivals on margin by 2030 in memo to employees",
       "link": "https://www.cnbc.com/2026/07/30/microsoft-xbox-asha-sharma-2030-plans.html",
       "source": "CNBC Finance",
-      "published": "2026-07-30T22:30:45+00:00"
+      "published": "2026-07-30T22:48:30+00:00"
+    },
+    {
+      "title": "[0731개장체크] 美 증시, MS 호실적·반도체 강세 속 3대 지수 상승… 나스닥 2.78%↑ - 인포스탁데일리",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uSnNKQ3ZOVHJWMk1YeWstSzRpdXdlUEwwZ1lZcjRwU09jeHZPTm0tUDZwdElJSGxLZlh5cmR5dHBFQUhwcFNUX01pUkpqUVU1aEdpanhEb1NfVmRYQzB2b2VHRWZMclVPOW94NXhtX2tyc2drVmc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-30T22:43:03+00:00"
+    },
+    {
+      "title": "[AI MY 증시전망] 반도체 반격 시작될까…코스피 '반등' 시험대 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iX0xTR0dhZlhhSGVDUFZaZElPX3N1WWc5MThrZ2ItZUJjejdxbUg0ZGxjZm1rUDN0aldwTkpUQWJzSkx6NlZxSU5zRHYzX3R1WUNNUWlTUHhEZlpV?oc=5",
+      "source": "Google News",
+      "published": "2026-07-30T22:40:00+00:00"
     },
     {
       "title": "미국 반도체주 폭등…뉴욕증시도 강세 마감 - TBS 서울",
@@ -385,7 +392,7 @@
       "published": "2026-07-30T22:24:00+00:00"
     },
     {
-      "title": "[기자수첩] 코스피, 글로벌 증시 됐어도 달라지지 않은 것 - 머니투데이 - mt.co.kr",
+      "title": "[기자수첩] 코스피, 글로벌 증시 됐어도 달라지지 않은 것 - 머니투데이 - 머니투데이",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCTEY2WkdkSzBVV2pJWHZPSVRZcTlVN2VlM1I0bFlWb2lEeWlYc0c5bExoVTRpbXQ4SU1saDlqUVVtRk1IVTRsQ0w1MFQ0RjZZaW9QWW1mLTNBcG9WYXVxT3JUeU93eHFD0gFuQVVfeXFMUFFBTFIydkhwbmVsalM5bUFUMDM2Y3VvcTdkdUJVQ0JfblZLZFZfYVcxckhEQUZjOFVmS1lPcWxvbGxSZ0RzNE1MTWZ5d0tQTUczLW9mTmpQMGtjVGhDMDRYZDJLMUFTWGx4YjZ6cEE?oc=5",
       "source": "Google News",
       "published": "2026-07-30T22:13:24+00:00"
@@ -403,7 +410,7 @@
       "published": "2026-07-30T22:09:00+00:00"
     },
     {
-      "title": "[오늘의 글로벌마켓] 뉴욕증시, MS 급등에 반도체 투심 '활짝'...3대지수 강세 - opinionnews.co.kr",
+      "title": "[오늘의 글로벌마켓] 뉴욕증시, MS 급등에 반도체 투심 '활짝'...3대지수 강세 - 오피니언뉴스",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE96YjVZMzE4cEN5LTdobE9FMk9mYUpEalo3UHF3TmdRc0labDMyMmc1QVhxNjlveEIyU3I0YlZfMU1fNmJweUhKT0FXbnVZblFwTmhIakNTX1pzQm9ZMXhRdmZZSF9MamVGdC1CLVhXY1YzUQ?oc=5",
       "source": "Google News",
       "published": "2026-07-30T22:02:45+00:00"
@@ -437,6 +444,12 @@
       "link": "https://www.marketwatch.com/story/can-credit-cards-survive-ai-shopping-why-mastercards-ceo-says-theyll-prevail-in-this-new-era-8f8a660c?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-30T21:45:00+00:00"
+    },
+    {
+      "title": "SK하이닉스 ADR 17.5% 급등…‘반도체 불기둥’에 뉴욕증시 상승 마감 - JTBC",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBJMGRxTmZDdmQ0b1FScTU1TDRFNjgwSlVLZmJwOVN6VWgtam5EMk5qcll2YTMwSWNteHF4djlNVmdfTnRXb3Jnc19fLXg0VVJ6V3VySQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-30T21:33:00+00:00"
     },
     {
       "title": "Amazon hikes 2026 capex to $220 billion due to higher memory costs",
@@ -487,7 +500,7 @@
       "published": "2026-07-30T20:51:02+00:00"
     },
     {
-      "title": "[뉴욕증시] '구관이 명관' 한 건 해준 MS…급등 마감 - 연합인포맥스",
+      "title": "[뉴욕증시] '구관이 명관' 한 건 해준 MS…급등 마감 - news.einfomax.co.kr",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84OFI1MHJUWUdmWlBmUTBaLTBLa1llLUdobDd5b3lRdzN5enRST2RhN3U1WVNCVWFWb2luOHBHRlVUal9wRC1KNlhYMjBBSnNjeE1YRzJySUJ5eVRqMmlUaWRjb1V4c1h5YUotNFhKTXM?oc=5",
       "source": "Google News",
       "published": "2026-07-30T20:50:44+00:00"
@@ -565,7 +578,7 @@
       "published": "2026-07-30T20:13:00+00:00"
     },
     {
-      "title": "[뉴욕증시-1보] 얼어붙은 투심에 온기 퍼트린 MS…급등 마감 - 연합인포맥스",
+      "title": "[뉴욕증시-1보] 얼어붙은 투심에 온기 퍼트린 MS…급등 마감 - news.einfomax.co.kr",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByeXJTanJacEt3SGRZV2pTTnNFTEtFNndpcWp2UUM0REpCQjBrSWRkLWJ0bG5CZENXS3BjRUYxRnhoNmY3RVU2Tzlxc0dqZy1BUkZHZFdwT0o1Y1JsNnNFZjlTRTc5MXVZSS1zY2ZjZWvSAXRBVV95cUxNSGx5UW4zaVRkTTFQVTFhM1hGSlAzbTRuYUdxVFh5WmdHMEpGRzJPczBjWjJFaktzQ0RwWGVOSnVDdy1pYUxQOHRVbVhEQ01rS1gyRExsMEhScjF0YTJiSXhIVDNieVRCY1VZckg2WXp5UWRORA?oc=5",
       "source": "Google News",
       "published": "2026-07-30T20:11:05+00:00"
@@ -593,12 +606,6 @@
       "link": "https://www.cnbc.com/2026/07/30/chip-stock-rally-lam-research-micron-amd.html",
       "source": "CNBC Finance",
       "published": "2026-07-30T20:04:13+00:00"
-    },
-    {
-      "title": "[AI로 읽는 경제] 증시 폭락하자 개인계좌부터 조인다…'20% 총량규제'의 위험한 착각 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5hek11dFVsN1NIUXNBdjM0NGt4YVFvRE55MlZCRkpBOTRselBzbTBFSjBNdDRFTjgwVmpwUFFTVGRPQlUyWEFrcTV4X2dnVl93dV92OGtiM1VJWHBv?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T20:00:00+00:00"
     },
     {
       "title": "UEFA threatens World Cup boycott over FIFA private equity investment plan",
@@ -635,18 +642,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mT29LVVlpcTRBTUFheldMa2NZa1FDcnd1MENoVnh5c1dWZ1RzeFNRWk5iYTdQQmcyVVF0eHRnNEJkdFVGcFlmMG92dVl6Wk9MNkFySWRna0s2enZH?oc=5",
       "source": "Google News",
       "published": "2026-07-30T18:50:00+00:00"
-    },
-    {
-      "title": "The warning signal insiders are sending",
-      "link": "https://www.marketwatch.com/story/the-warning-signal-insiders-are-sending-f0538ddf?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T18:49:00+00:00"
-    },
-    {
-      "title": "Apple and Amazon report after the bell. Here's what the options market is saying",
-      "link": "https://www.cnbc.com/2026/07/30/apple-and-amazon-report-after-the-bell-heres-what-the-options-market-is-saying.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T18:17:29+00:00"
     }
   ],
   "pages": [

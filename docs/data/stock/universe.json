@@ -155,8 +155,8 @@
     "market": "US"
   },
   {
-    "code": "NVDA",
-    "name": "Nvidia",
+    "code": "MSFT",
+    "name": "Microsoft",
     "market": "US"
   },
   {
@@ -165,23 +165,28 @@
     "market": "US"
   },
   {
-    "code": "AAPL",
-    "name": "Apple Inc.",
-    "market": "US"
-  },
-  {
-    "code": "MSFT",
-    "name": "Microsoft",
-    "market": "US"
-  },
-  {
-    "code": "AMD",
-    "name": "Advanced Micro Devices",
+    "code": "NVDA",
+    "name": "Nvidia",
     "market": "US"
   },
   {
     "code": "META",
     "name": "Meta Platforms",
+    "market": "US"
+  },
+  {
+    "code": "AMZN",
+    "name": "Amazon",
+    "market": "US"
+  },
+  {
+    "code": "AAPL",
+    "name": "Apple Inc.",
+    "market": "US"
+  },
+  {
+    "code": "AMD",
+    "name": "Advanced Micro Devices",
     "market": "US"
   },
   {
@@ -195,11 +200,6 @@
     "market": "US"
   },
   {
-    "code": "AMZN",
-    "name": "Amazon",
-    "market": "US"
-  },
-  {
     "code": "GOOGL",
     "name": "Alphabet Inc. (Class A)",
     "market": "US"
@@ -210,28 +210,13 @@
     "market": "US"
   },
   {
+    "code": "LRCX",
+    "name": "Lam Research",
+    "market": "US"
+  },
+  {
     "code": "STX",
     "name": "Seagate Technology",
-    "market": "US"
-  },
-  {
-    "code": "GOOG",
-    "name": "Alphabet Inc. (Class C)",
-    "market": "US"
-  },
-  {
-    "code": "VRT",
-    "name": "Vertiv",
-    "market": "US"
-  },
-  {
-    "code": "CAT",
-    "name": "Caterpillar Inc.",
-    "market": "US"
-  },
-  {
-    "code": "NOW",
-    "name": "ServiceNow",
     "market": "US"
   },
   {
@@ -240,8 +225,8 @@
     "market": "US"
   },
   {
-    "code": "WDC",
-    "name": "Western Digital",
+    "code": "GOOG",
+    "name": "Alphabet Inc. (Class C)",
     "market": "US"
   },
   {
@@ -250,13 +235,13 @@
     "market": "US"
   },
   {
-    "code": "V",
-    "name": "Visa Inc.",
+    "code": "ORCL",
+    "name": "Oracle Corporation",
     "market": "US"
   },
   {
-    "code": "LRCX",
-    "name": "Lam Research",
+    "code": "WDC",
+    "name": "Western Digital",
     "market": "US"
   },
   {
@@ -265,13 +250,18 @@
     "market": "US"
   },
   {
-    "code": "KLAC",
-    "name": "KLA Corporation",
+    "code": "NFLX",
+    "name": "Netflix",
     "market": "US"
   },
   {
-    "code": "CRM",
-    "name": "Salesforce",
+    "code": "QCOM",
+    "name": "Qualcomm",
+    "market": "US"
+  },
+  {
+    "code": "LLY",
+    "name": "Lilly (Eli)",
     "market": "US"
   },
   {
@@ -280,23 +270,33 @@
     "market": "US"
   },
   {
-    "code": "GEV",
-    "name": "GE Vernova",
+    "code": "VRT",
+    "name": "Vertiv",
     "market": "US"
   },
   {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
+    "code": "KLAC",
+    "name": "KLA Corporation",
     "market": "US"
   },
   {
-    "code": "NFLX",
-    "name": "Netflix",
+    "code": "V",
+    "name": "Visa Inc.",
     "market": "US"
   },
   {
-    "code": "GLW",
-    "name": "Corning Inc.",
+    "code": "APP",
+    "name": "AppLovin",
+    "market": "US"
+  },
+  {
+    "code": "WMT",
+    "name": "Walmart",
+    "market": "US"
+  },
+  {
+    "code": "NOW",
+    "name": "ServiceNow",
     "market": "US"
   },
   {
@@ -318,11 +318,6 @@
     "code": "207940",
     "name": "삼성바이오로직스",
     "market": "KRX"
-  },
-  {
-    "code": "LLY",
-    "name": "Eli Lilly",
-    "market": "NYSE"
   },
   {
     "code": "NVO",
