@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 126.01000213623047,
-    "change_pct": -12.1,
-    "volume": 46023200,
-    "amount": 5799383530.316162,
+    "close": 124.05000305175781,
+    "change_pct": -1.56,
+    "volume": 24110508,
+    "amount": 2990908590.979431,
     "marcap": null,
-    "as_of_iso": "2026-07-29T09:24:47.025190+00:00",
+    "as_of_iso": "2026-07-30T02:10:47.960428+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "GLW",

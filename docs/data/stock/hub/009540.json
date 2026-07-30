@@ -1,0 +1,17 @@
+{
+  "code": "009540",
+  "name": "HD한국조선해양",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 363000.0,
+    "change_pct": 8.36,
+    "volume": 138382,
+    "amount": 49827993250.0,
+    "marcap": 25690641108000.0,
+    "as_of_iso": "2026-07-30T02:10:47.960210+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:009540",
+  "related_news": []
+}

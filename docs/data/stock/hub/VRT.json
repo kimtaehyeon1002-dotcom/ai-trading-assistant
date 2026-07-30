@@ -1,0 +1,17 @@
+{
+  "code": "VRT",
+  "name": "Vertiv",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 223.0399932861328,
+    "change_pct": -17.26,
+    "volume": 21107703,
+    "amount": 4707861935.405685,
+    "marcap": null,
+    "as_of_iso": "2026-07-30T02:10:47.960329+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "VRT",
+  "related_news": []
+}

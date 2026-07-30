@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 123.52999877929688,
-    "change_pct": -6.08,
-    "volume": 43456400,
-    "amount": 5368169038.952637,
+    "close": 123.0,
+    "change_pct": -0.43,
+    "volume": 25685217,
+    "amount": 3159281691.0,
     "marcap": null,
-    "as_of_iso": "2026-07-29T09:24:47.025197+00:00",
+    "as_of_iso": "2026-07-30T02:10:47.960414+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "PLTR",
