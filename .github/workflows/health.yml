@@ -42,10 +42,8 @@ jobs:
       # 자산 평문 가드는 docs/를 커밋하는 워크플로의 의무 단계다(design/20 Phase 8 DoD 6).
       # 이 잡은 ops/만 커밋하고 docs/를 건드리지 않으므로 대상이 아니다.
       - name: Commit & push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ops
-          git diff --cached --quiet || git commit -m "chore(loop): health probe $(date -u +%H:%MZ)"
-          git pull --rebase --autostash || true
-          git push
+        uses: ./.github/actions/commit-push
+        with:
+          message: "chore(loop): health probe"
+          stamp: "+%H:%MZ"
+          paths: "ops"

@@ -42,22 +42,11 @@ jobs:
       # 푸시 직전에 걸러야 하므로 docs를 커밋하는 모든 워크플로가 이 스텝을 갖는다.
       - name: Guard against plaintext asset leakage
         uses: ./.github/actions/guard-plaintext
-      - name: Commit & push (pages)
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs data
-          git diff --cached --quiet || git commit -m "chore(morning): report $(TZ=Asia/Seoul date +%Y-%m-%d)"
-          git pull --rebase --autostash || true
-          git push
-      - name: Commit & push (TH_DATA vault)
-        run: |
-          if [ -d TH_DATA/.git ]; then
-            cd TH_DATA
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add -A
-            git diff --cached --quiet || git commit -m "bot(vault): morning $(TZ=Asia/Seoul date +%Y-%m-%d)"
-            git pull --rebase --autostash || true
-            git push
-          fi
+      # 경합 재시도 + rebase 중간상태 복구 + runlog 누적 보존 (a.build-ci.rebase-conflict-push)
+      - name: Commit & push
+        uses: ./.github/actions/commit-push
+        with:
+          message: "chore(morning): report"
+          stamp: "+%Y-%m-%d"
+          stamp-tz: "Asia/Seoul"
+          vault-message: "bot(vault): morning"

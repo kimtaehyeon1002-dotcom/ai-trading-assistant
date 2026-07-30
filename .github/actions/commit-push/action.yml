@@ -1,0 +1,141 @@
+name: "Commit & Push"
+description: >
+  발행물을 커밋해 main에 push한다 — **경합 재시도 포함**. 워크플로 6종 + health가 같은 브랜치에
+  쓰고 데스크톱 sync까지 끼어들므로 rebase 충돌은 예외가 아니라 정상 상황이다.
+
+  종전에는 각 워크플로가 아래 3줄을 복제해 갖고 있었다:
+      git diff --cached --quiet || git commit -m ...
+      git pull --rebase --autostash || true
+      git push
+  `|| true`가 rebase 충돌을 삼키면 저장소가 **rebase 중단 + detached HEAD**로 남고, 이어지는
+  push가 `fatal: You are not currently on a branch.`(exit 128)로 죽는다. 빌드는 성공했는데
+  결과가 버려진다. 실측: trades.yml 최근 8회 중 5회, news.yml 30048846044(07-23) 동일 종료.
+  (design/26 원장 a.build-ci.rebase-conflict-push)
+
+inputs:
+  message:
+    description: >
+      커밋 메시지 **접두부**. 시각은 여기 넣지 말고 stamp로 넘긴다 — 이 값은 env로 전달되므로
+      `$(date ...)`를 써도 bash가 재평가하지 않고 문자열 그대로 커밋된다.
+    required: true
+  stamp:
+    description: "date 포맷(예 '+%H:%MZ'). 비우면 시각을 붙이지 않는다"
+    required: false
+    default: ""
+  stamp-tz:
+    description: "stamp에 적용할 타임존(기본 UTC)"
+    required: false
+    default: "UTC"
+  paths:
+    description: "커밋 대상 경로(공백 구분)"
+    required: false
+    default: "docs data"
+  vault-message:
+    description: "TH_DATA vault 커밋 메시지. 비우면 vault push를 하지 않는다"
+    required: false
+    default: ""
+  attempts:
+    description: "push 재시도 횟수"
+    required: false
+    default: "3"
+
+runs:
+  using: composite
+  steps:
+    - name: Commit & push (pages)
+      shell: bash
+      env:
+        MESSAGE: ${{ inputs.message }}
+        STAMP: ${{ inputs.stamp }}
+        STAMP_TZ: ${{ inputs.stamp-tz }}
+        PATHS: ${{ inputs.paths }}
+        ATTEMPTS: ${{ inputs.attempts }}
+        BRANCH: ${{ github.ref_name }}
+      run: |
+        set -euo pipefail
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+        # `[ -n ... ] && ...` 형태는 set -e 하에서 조건이 거짓일 때 스텝을 죽인다.
+        msg="$MESSAGE"
+        if [ -n "$STAMP" ]; then
+          msg="$MESSAGE $(TZ="$STAMP_TZ" date "$STAMP")"
+        fi
+
+        git add $PATHS
+        if git diff --cached --quiet; then
+          echo "변경 없음 — 커밋 생략"
+          exit 0
+        fi
+        git commit -m "$msg"
+
+        for attempt in $(seq 1 "$ATTEMPTS"); do
+          git fetch origin "$BRANCH"
+
+          # -X theirs = 재생 중인 **우리 커밋** 우선(rebase에서 ours/theirs는 뒤집힌다).
+          # docs/**는 재생성 가능한 발행물이라 방금 빌드한 쪽이 최신이다.
+          if git rebase --autostash -X theirs "origin/$BRANCH"; then
+            # 예외 — runlog.json은 재빌드로 복원되지 않는 누적 원장이라 위 규칙을 그대로 적용하면
+            # 원격(다른 워크플로·데스크톱)이 기록한 워커가 사라진다. 시각 기준으로 되살린다.
+            python -m scripts.merge_remote_runlog --ref "origin/$BRANCH" || true
+            git add docs/ai-office/runlog.json 2>/dev/null || true
+            git diff --cached --quiet || git commit --amend --no-edit
+            if git push; then
+              exit 0
+            fi
+          else
+            # 핵심 — 중간 상태에서 다음 git 명령을 돌리지 않는다. 이것이 종전 버그의 원인이었다.
+            git rebase --abort || true
+          fi
+          echo "::warning::push 경합 — ${attempt}/${ATTEMPTS}회차 실패, 재시도"
+          sleep $((attempt * 5))
+        done
+
+        echo "::error::${ATTEMPTS}회 재시도 후에도 push 실패 — 이 주기의 발행물이 누락됐다"
+        exit 1
+
+    - name: Commit & push (TH_DATA vault)
+      if: inputs.vault-message != ''
+      shell: bash
+      env:
+        VAULT_MESSAGE: ${{ inputs.vault-message }}
+        STAMP: ${{ inputs.stamp }}
+        STAMP_TZ: ${{ inputs.stamp-tz }}
+        ATTEMPTS: ${{ inputs.attempts }}
+      run: |
+        set -euo pipefail
+        [ -d TH_DATA/.git ] || { echo "TH_DATA 체크아웃 없음 — vault push 생략"; exit 0; }
+
+        # `[ -n ... ] && ...` 형태는 set -e 하에서 조건이 거짓일 때 스텝을 죽인다.
+        msg="$VAULT_MESSAGE"
+        if [ -n "$STAMP" ]; then
+          msg="$VAULT_MESSAGE $(TZ="$STAMP_TZ" date "$STAMP")"
+        fi
+
+        cd TH_DATA
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+        git add -A
+        if git diff --cached --quiet; then
+          echo "vault 변경 없음 — 커밋 생략"
+          exit 0
+        fi
+        git commit -m "$msg"
+
+        # vault는 봇만 쓰는 폴더(10_Journal·50_Ops)라 내용 충돌이 드물지만, 사용자의
+        # obsidian-git 동기화와 겹칠 수 있어 동일하게 재시도한다.
+        branch="$(git rev-parse --abbrev-ref HEAD)"
+        for attempt in $(seq 1 "$ATTEMPTS"); do
+          git fetch origin "$branch"
+          if git rebase --autostash -X theirs "origin/$branch" && git push; then
+            exit 0
+          fi
+          git rebase --abort || true
+          echo "::warning::vault push 경합 — ${attempt}/${ATTEMPTS}회차 실패, 재시도"
+          sleep $((attempt * 5))
+        done
+
+        # vault 실패는 발행을 막지 않는다 — 저널은 다음 실행이 다시 쓴다(멱등).
+        echo "::warning::vault push 실패 — 다음 실행에서 재시도된다"
+        exit 0

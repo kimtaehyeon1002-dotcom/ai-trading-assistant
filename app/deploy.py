@@ -22,40 +22,24 @@ def _restore_remote_runlog() -> None:
     """rebase 후 runlog.json에 원격(CI)의 워커 기록을 되살린다.
 
     rebase는 `-X theirs`로 충돌 시 **데스크톱 사본**을 채택한다(생성물은 재빌드로 정정한다는
-    전제). 그런데 runlog.json은 재빌드로 복원되지 않는 누적 원장이다 — 데스크톱이 돌리지 않는
-    워커(financials·stock·macro)의 기록이 통째로 사라진다. 실제로 2026-07-28 sync가 CI의
-    "FS DART corpCode"·"FS EDGAR CIK맵" 기록을 삭제했고, 루프 센서(design/26 Phase A)가 이를
-    "기록 없음" 위반으로 검출했다.
+    전제). 그런데 runlog.json은 재빌드로 복원되지 않는 누적 원장이라, 데스크톱이 돌리지 않는
+    워커(financials·stock·macro)의 기록이 통째로 사라진다.
 
-    여기서 원격 사본을 읽어 워커별로 최신 기록만 남긴다. 이 단계는 run_build 이전이어야 한다 —
-    직후의 ai_office.generate()가 이 파일을 prev로 읽어 발행하기 때문이다.
-    실패해도 배포를 막지 않는다(기록 유실은 아프지만 발행 중단보다는 낫다).
+    이 단계는 run_build 이전이어야 한다 — 직후의 ai_office.generate()가 이 파일을 prev로 읽어
+    발행하기 때문이다. 실패해도 배포를 막지 않는다.
+
+    구현은 scripts/merge_remote_runlog로 옮겼다 — CI의 commit-push 액션도 같은 병합이
+    필요해졌고(방향만 반대인 같은 유실), 두 벌로 두면 반드시 어긋난다.
     """
-    import json
+    from scripts.merge_remote_runlog import merge_from_ref
 
-    from config.settings import DOCS_DIR
-    from utils import runlog
-    from utils.jsonio import load_json, save_json
-
-    path = DOCS_DIR / "ai-office" / "runlog.json"
     try:
-        shown = subprocess.run(
-            ["git", "show", "origin/main:docs/ai-office/runlog.json"],
-            cwd=BASE_DIR, capture_output=True, text=True, encoding="utf-8", check=False,
-        )
-        if shown.returncode != 0:
-            return
-        remote = json.loads(shown.stdout)
-        local = load_json(path, default={}) or {}
-        if not isinstance(remote, dict) or not isinstance(local, dict):
-            return
-        merged = runlog.merge_by_recency(remote.get("workers", {}), local.get("workers", {}))
-        restored = len(merged) - len(local.get("workers", {}))
-        if restored > 0:
-            log.info("runlog: 원격 워커 기록 %d종 복원", restored)
-        save_json(path, {**local, "workers": merged})
-    except (json.JSONDecodeError, OSError) as exc:  # noqa: BLE001 - 배포를 막지 않는다
+        restored = merge_from_ref("origin/main")
+    except OSError as exc:  # noqa: BLE001 - 배포를 막지 않는다
         log.warning("runlog 원격 병합 실패(배포는 계속): %s", exc)
+        return
+    if restored > 0:
+        log.info("runlog: 원격 워커 기록 %d종 복원", restored)
 
 
 def commit_and_push(message: str, paths: tuple[str, ...] = ("docs", "data")) -> bool:
