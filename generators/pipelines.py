@@ -42,6 +42,7 @@ from repositories import (
     obsidian_repository,
     stock_repository,
     ta_repository,
+    translation_cache,
 )
 from repositories.news_repository import load_store
 from repositories.stock_repository import KR_MARKETS
@@ -68,11 +69,16 @@ def get_news() -> list[NewsArticle]:
     raw = runlog.run_step("News Research", news_collector.collect, fallback=[]) or []
     validated = news_validator.validate(raw)
     merged = news_repository.merge(news_repository.to_articles(validated))
+    # 커밋되는 번역 원장을 먼저 입힌다 — CI는 매 실행이 새 체크아웃이라 gitignored 저장소
+    # (cache/)의 번역이 남지 않는다. 이 단계가 없으면 실행마다 최신 40건만 다시 번역하고
+    # 그보다 오래된 영어 기사는 영원히 원문으로 남는다(design/24).
+    translation_cache.apply_to(merged)
     runlog.run_step(
         "Translator",
         lambda: news_translate.translate_missing(merged, NEWS_MAX_TRANSLATE_PER_RUN),
         fallback=merged,
     )
+    translation_cache.save_from(merged)
     news_repository.save(merged)
     return news_categories.assign(merged)
 
