@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30T22:16:22.436687+00:00",
+  "as_of": "2026-07-30T22:34:19.300250+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,16 +349,58 @@
   ],
   "news": [
     {
+      "title": "“車보험 이러니 못 버티지”…한방병원 찾은 경상환자, 넷 중 셋은 눕는다",
+      "link": "https://www.mk.co.kr/news/economy/12112987",
+      "source": "매일경제·증권",
+      "published": "2026-07-30T22:29:43+00:00"
+    },
+    {
+      "title": "Meta sinks 8%, continuing record losing streak, while Microsoft jumps 15% as AI trade splits",
+      "link": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T22:28:58+00:00"
+    },
+    {
+      "title": "Reddit shares sink 11% on 'choppy' search referrals even as results blow past estimates",
+      "link": "https://www.cnbc.com/2026/07/30/reddit-rddt-q2-2026-earnings-report.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T22:28:38+00:00"
+    },
+    {
+      "title": "Jersey Mike’s spent almost ‘zero dollars’ on digital marketing. That’s now changing.",
+      "link": "https://www.marketwatch.com/story/jersey-mikes-spent-almost-zero-dollars-on-digital-marketing-thats-now-changing-9738485d?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T22:24:00+00:00"
+    },
+    {
+      "title": "[기자수첩] 코스피, 글로벌 증시 됐어도 달라지지 않은 것 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCTEY2WkdkSzBVV2pJWHZPSVRZcTlVN2VlM1I0bFlWb2lEeWlYc0c5bExoVTRpbXQ4SU1saDlqUVVtRk1IVTRsQ0w1MFQ0RjZZaW9QWW1mLTNBcG9WYXVxT3JUeU93eHFD0gFuQVVfeXFMUFFBTFIydkhwbmVsalM5bUFUMDM2Y3VvcTdkdUJVQ0JfblZLZFZfYVcxckhEQUZjOFVmS1lPcWxvbGxSZ0RzNE1MTWZ5d0tQTUczLW9mTmpQMGtjVGhDMDRYZDJLMUFTWGx4YjZ6cEE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-30T22:13:24+00:00"
+    },
+    {
+      "title": "[증시전략] 애플·아마존 장 마감 후 실적 발표…시간외 주가 엇갈려 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZTW1OX2dEMEZPc1ZhRXZBRHpTMFZlSE9OZUZGUnVTTng5ZU56cFloNTZfYkU2WDlNaXhZdk1GdG9qUnNNV1hJTmtvLXRncW8?oc=5",
+      "source": "Google News",
+      "published": "2026-07-30T22:13:12+00:00"
+    },
+    {
       "title": "Implosion of Situational Awareness hedge fund has Wall Street betting the bottom is in for the AI trade",
       "link": "https://www.marketwatch.com/story/implosion-of-situational-awareness-has-wall-street-betting-the-bottom-is-in-for-the-ai-trade-05d9f346?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-30T22:09:00+00:00"
     },
     {
-      "title": "[글로벌증시] 뉴욕증시, MS 호실적·반도체주 반등에 강세 마감 - 연합뉴스 한민족센터",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vNHJHWW5jMTdNNXo0SFBFaGROakNPQl90UmMtUHE0RE9LdWVXaFUySzJSdjVLc250YV9qbmtrNGxWUUhycW5mUTlMaHJqVTVHeHVSX1owRHNpMHhram5taEhwWDFWQ2p5aENTclVuSHg3Xzgz?oc=5",
+      "title": "[오늘의 글로벌마켓] 뉴욕증시, MS 급등에 반도체 투심 '활짝'...3대지수 강세 - 오피니언뉴스",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE96YjVZMzE4cEN5LTdobE9FMk9mYUpEalo3UHF3TmdRc0labDMyMmc1QVhxNjlveEIyU3I0YlZfMU1fNmJweUhKT0FXbnVZblFwTmhIakNTX1pzQm9ZMXhRdmZZSF9MamVGdC1CLVhXY1YzUQ?oc=5",
       "source": "Google News",
-      "published": "2026-07-30T21:59:57+00:00"
+      "published": "2026-07-30T22:02:45+00:00"
+    },
+    {
+      "title": "[글로벌증시] 뉴욕증시, MS 호실적·반도체주 반등에 강세 마감 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkdHB4dFkyQm9wU2Y4WUU1SDQxMzZSNGlfdlNyUFM1RktZaFhPNllZckVJNVp3TGhhOWczeElseXFPY2F6M21sb0x5Q2pGelE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-30T22:01:12+00:00"
     },
     {
       "title": "Coinbase shares fall after crypto exchange posts disappointing second-quarter results",
@@ -409,22 +451,16 @@
       "published": "2026-07-30T21:19:16+00:00"
     },
     {
-      "title": "[서울데이터랩] 미국 증시, 기술주·반도체 강세에 일제히 상승 - 서울신문",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UUW9ZNFUwMzJJYy1QLWZRSlFfdEZfWkRNT21tU2hQb2JqMkEtb1d0bDF2RldIRzQxMC1uWjVYcFlpNlBDUzh1MHd2UGhsSjE5RU1JZkg3Vm44d2NEcFAwanFjaFdzOTNVVWZKbWU5MA?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T21:18:10+00:00"
-    },
-    {
-      "title": "Reddit shares sink 11% on 'choppy' search referrals even as results blow past estimates",
-      "link": "https://www.cnbc.com/2026/07/30/reddit-rddt-q2-2026-earnings-report.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T21:17:37+00:00"
-    },
-    {
       "title": "혼탁한 증시 속 빛바랜 개정 상법… '구원투수' 기대는 여전 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MMngzSHdDMkdqN2tTWVg5eVBkZy0yQjhHYzZrNU94eXQyVFNMV2NkMUlLWDBEbURsUjNtNFhsQ3BRY0hoc2drUmhJSmVZN00?oc=5",
       "source": "Google News",
       "published": "2026-07-30T21:05:02+00:00"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 반등에 강세 마감…하이닉스ADR 18%↑(종합) - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZM3lzX0t2UllZS2VTVFBfc0Y2WHVPbW9oeEJZcVJXVFZ2X0JtbU53Wnp4UjFZdS1ob01wWDdKWC1QOTZkU0hsbUoxMkd2ODQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-30T20:59:39+00:00"
     },
     {
       "title": "뉴욕증시, 기술주 강세에 상승 마감… SK하이닉스 ADR, 17% ‘껑충’ - 조선비즈 - Chosunbiz",
@@ -439,13 +475,13 @@
       "published": "2026-07-30T20:51:02+00:00"
     },
     {
-      "title": "[뉴욕증시] '구관이 명관' 한 건 해준 MS…급등 마감 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84OFI1MHJUWUdmWlBmUTBaLTBLa1llLUdobDd5b3lRdzN5enRST2RhN3U1WVNCVWFWb2luOHBHRlVUal9wRC1KNlhYMjBBSnNjeE1YRzJySUJ5eVRqMmlUaWRjb1V4c1h5YUotNFhKTXM?oc=5",
+      "title": "[뉴욕증시]반도체주 강세에 일제히 상승…아마존 시간 외 6%↑ - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwWEZJYUNSZkotRjl5TVc4MDBuSzI5VW04M1BnVEI3dS11YWwtcWItODZxVTh2Y0tzZElLblpJeTFGRWVlcXgtV3J0eFNtZ2c?oc=5",
       "source": "Google News",
-      "published": "2026-07-30T20:50:44+00:00"
+      "published": "2026-07-30T20:49:28+00:00"
     },
     {
-      "title": "[뉴욕증시] 반도체주 상승에 나스닥 679P↑...SK하이닉스 17.52% 폭등 - 글로벌이코노믹",
+      "title": "[뉴욕증시] 반도체주 상승에 나스닥 679P↑...SK하이닉스 17.52% 폭등 - g-enews.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOelVkQTN0Nk5vellGN0I4QmUzclh0c1VUTVZrdW9RNElIcm1NZkZERE9uWUNuc0wwWnQzTWxtcVpVRURtNlNZWU10ZzViU2gxWE81dTE0cVhQVW1KLWxZWEF2YUtrNzNrQVNoVTRhT1FfN1RlVC03MDV4bXM3S0hXY0lzY0VqYjlI?oc=5",
       "source": "Google News",
       "published": "2026-07-30T20:39:15+00:00"
@@ -487,16 +523,16 @@
       "published": "2026-07-30T20:26:00+00:00"
     },
     {
+      "title": "뉴욕증시, 반도체주 반등에 강세 마감…나스닥 2.8%↑ - koreancenter.or.kr",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nZDlRTGZGdWg4WVZCaFVDSEd4aWM1S3FkbTRxYkQtRzNMNGlBYmI4bVZ1N3hOMzRNZTZuaUtnVTlTQmdqcFo0bXNXV1VOUndzbk9qU1I0YUhoV2I0cUU3VDFDd3Z4bm9BM2lUeXlocGlZMEY4?oc=5",
+      "source": "Google News",
+      "published": "2026-07-30T20:22:31+00:00"
+    },
+    {
       "title": "Why Microsoft’s stock soared to a historic gain after earnings",
       "link": "https://www.marketwatch.com/story/why-microsofts-stock-is-soaring-toward-a-historic-gain-after-earnings-96cd5b1e?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-30T20:21:00+00:00"
-    },
-    {
-      "title": "Meta sinks 8%, continuing record losing streak, while Microsoft jumps 15% as AI trade splits",
-      "link": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T20:17:16+00:00"
     },
     {
       "title": "뉴욕증시, MS·반도체 강세에 일제히 상승 마감…나스닥 2.78% 급등 - 뉴스핌",
@@ -527,12 +563,6 @@
       "link": "https://www.cnbc.com/2026/07/30/reformation-ipo-public-nyse-listing.html",
       "source": "CNBC Finance",
       "published": "2026-07-30T20:08:13+00:00"
-    },
-    {
-      "title": "반등한 반도체, 활짝 웃은 뉴욕 증시...나스닥 2.8%↑ - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUjY1QUZhRXpQRGRHN3hCNjdMd0lDVjZNUTl6eEVHQS1QOUpaNUd4MlhCb1hkQk1BQzNVa09OYzJGb1ZMVTBkYXFmMEZkRmYxdm9yb0R0SFN5V25ISGRJUlltRWFnNTRCTnpEaEhXZFlER2lHMjhPLXp1ZXdYaVdyUXBoNUVpR1hhR1VMaHhuakgzd3gyUkFRUHhNRld0dw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T20:08:00+00:00"
     },
     {
       "title": "AMD and Micron surge, Lam Research climbs 17% as chip stocks rip higher",
@@ -589,12 +619,6 @@
       "published": "2026-07-30T18:49:00+00:00"
     },
     {
-      "title": "‘Don’t get suckered like I did’: I paid $185 to the wrong passport website. Can I get my money back?",
-      "link": "https://www.marketwatch.com/story/dont-get-suckered-like-i-did-i-paid-185-to-the-wrong-passport-website-can-i-get-my-money-back-3a781412?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T18:30:00+00:00"
-    },
-    {
       "title": "Apple and Amazon report after the bell. Here's what the options market is saying",
       "link": "https://www.cnbc.com/2026/07/30/apple-and-amazon-report-after-the-bell-heres-what-the-options-market-is-saying.html",
       "source": "CNBC Finance",
@@ -623,30 +647,6 @@
       "link": "https://www.cnbc.com/2026/07/30/ferrari-ceo-luce-ev-debut.html",
       "source": "CNBC Finance",
       "published": "2026-07-30T15:56:08+00:00"
-    },
-    {
-      "title": "\"시장 이긴다\"더니… 정부, 시장 역공에 속수무책 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV0Z6bHE2ejFCcGlkTnFmdFVaR1NaXzRjMGQ2YjNuYnhFWFM3NDJUOWhDNS1TckJnNzg3eFJEWDQ4VUpJUldxVHo0QThCU085WlhVRlA0eEVrbmE4bkZzNmcybENTS0hoVS1hbzA1Vkd3bXRpYXI2YWVaODZDcDNoUWVfd1BGUjVLYWtJRQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T15:56:00+00:00"
-    },
-    {
-      "title": "Amazon's Zoox to begin charging for rides in Las Vegas after clearing NHTSA hurdle",
-      "link": "https://www.cnbc.com/2026/07/30/amazon-zoox-robotaxi-rides-las-vegas.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T15:51:00+00:00"
-    },
-    {
-      "title": "고꾸라진 증시, 오르는 집값…李정부 ‘경제 쌍끌이 리스크’ 시험대 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81TVFDd3RhUkdXSk1wdl91REVuci1IRGJlR0hqRXJ0ZTZGc3VBTzlxYmdmZzA5QmdmSDR2bDJkemhGSnJBb3JfUVI2VHctX0k?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T15:22:51+00:00"
-    },
-    {
-      "title": "[뉴욕증시]반도체 업종의 강세에 일제히 상승…물가 예상 부합 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1senFZUU9RSjM5WlQ3MjBlSmNtZVJpX01ibTJpTEYwNE9VdERjQ00wN2ctcjdNTTBLeXJWV3RTeDl0SDJxRDBTODRwREpkUXJaUS1uWEExSXBDSS1SQ1RoTw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T15:21:59+00:00"
     }
   ],
   "pages": [
