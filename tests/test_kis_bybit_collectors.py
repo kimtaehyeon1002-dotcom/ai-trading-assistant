@@ -191,6 +191,29 @@ def test_bybit_offset_falls_back_to_zero_when_server_time_unavailable(monkeypatc
     assert bybit_collector._server_offset_ms() == 0
 
 
+def test_bybit_coin_derives_price_and_drops_empty_fields():
+    """평가 단가는 usdValue/walletBalance로 파생하고, Bybit이 ''로 주는 필드는 0이 아니라 결측."""
+    c = bybit_collector._coin({
+        "coin": "XRP", "walletBalance": "100", "usdValue": "250", "equity": "100",
+        "unrealisedPnl": "",          # 현물 보유 → 빈값
+    })
+    assert c["price_usd"] == 2.5
+    assert c["unrealised_pnl_usd"] is None, "빈값은 손익 0원이 아니라 결측이어야 한다"
+
+
+def test_bybit_zero_pnl_is_missing_not_zero():
+    """선물 미실현손익 0은 '해당 없음'이지 '손익이 0원'이 아니다 — 화면에서 행을 생략해야 한다."""
+    assert bybit_collector._nonzero("0") is None
+    assert bybit_collector._nonzero("0.0") is None
+    assert bybit_collector._nonzero("-12.5") == -12.5
+
+
+def test_bybit_price_none_when_quantity_zero():
+    """수량 0이면 단가를 만들 수 없다(0으로 나누지 않는다)."""
+    c = bybit_collector._coin({"coin": "USDT", "walletBalance": "0", "usdValue": "0"})
+    assert c["price_usd"] is None
+
+
 def test_bybit_sign_matches_hmac_sha256_spec(monkeypatch):
     """Bybit v5 서명 공식(timestamp+api_key+recv_window+queryString) 그대로 구현됐는지 순수 검증."""
     monkeypatch.setattr(bybit_collector, "BYBIT_API_KEY", "testkey")

@@ -139,10 +139,16 @@ def _kis_holdings(raw: dict | None, *, currency: str = "KRW") -> list[dict]:
 
 
 def _bybit_holdings(raw: dict | None) -> list[dict]:
+    """코인별 보유. 매입단가는 Bybit이 주지 않으므로(collectors/bybit_collector 참조) 결측이고,
+
+    현재가는 평가금액/수량으로 파생된 평가 단가를 쓴다 — 계산 근거가 응답 안에 있는 값이다."""
     coins = (raw or {}).get("coins") or []
     return [
         _holding(c.get("coin", ""), c.get("coin", ""),
-                 quantity=c.get("wallet_balance"), value_usd=c.get("usd_value"))
+                 quantity=c.get("wallet_balance"),
+                 price=c.get("price_usd"),
+                 value_usd=c.get("usd_value"),
+                 pnl=c.get("unrealised_pnl_usd"))
         for c in coins if c.get("wallet_balance")
     ]
 
@@ -291,14 +297,21 @@ def build_bybit_account(raw: dict | None, usdkrw: float | None, prev_krw: float 
     raw = raw or {}
     usd_value = raw.get("total_equity_usd")
     balance_krw = round(usd_value * usdkrw, 2) if usd_value is not None and usdkrw else None
+    # 선물 미실현손익만 손익으로 인정한다. 현물 보유의 누적 손익(매입가 대비)은 Bybit이
+    # wallet-balance로 주지 않으므로(매입단가 자체가 없다) 결측으로 남긴다 — 없는 값을
+    # 만들지 않으면 화면이 이 계좌의 손익 행을 통째로 생략한다(가짜 데이터 금지).
+    pnl_usd = raw.get("unrealised_pnl_usd")
+    pnl_krw = round(pnl_usd * usdkrw, 2) if pnl_usd is not None and usdkrw else None
+    available_usd = raw.get("available_usd")
     return {
         "role": "bybit", "label": "BYBIT", "sub_label": "암호화폐",
         "balance_krw": balance_krw, "native_currency": "USDT",
         "usd_value": usd_value, "fx_rate": usdkrw,
         "change_pct": _day_change_pct(balance_krw, prev_krw),
-        # Bybit v5 wallet-balance는 누적 평가손익을 주지 않는다(미검증 영역이 아니라 미제공) —
-        # 없는 값을 만들지 않고 결측으로 두면 화면이 이 계좌의 손익 행을 통째로 생략한다.
-        "eval_pnl_krw": None, "eval_pnl_pct": None, "principal_krw": None,
+        "eval_pnl_krw": pnl_krw,
+        "eval_pnl_pct": None,   # 원금(매입금액)을 모르므로 수익률은 계산할 수 없다
+        "principal_krw": None,
+        "deposit_usd": available_usd,   # 주문 가능(현금성) 잔고
         "holdings": with_holding_weights(_bybit_holdings(raw)),
     }
 
