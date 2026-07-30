@@ -1,4 +1,9 @@
-"""키워드 사전 단일 홈 — 뉴스 카테고리 + 테마. 계산 로직은 calculators/에서."""
+"""키워드 사전 단일 홈 — 뉴스 카테고리 + 테마. 계산 로직은 calculators/에서.
+
+매칭 규칙은 calculators/keyword_match.py가 단독으로 정한다: **영문 키워드는 단어 경계**
+(+복수형), **한글 키워드는 부분문자열**(교착어). 그래서 영어 합성어를 잡으려면 여기에
+표제어로 등록해야 한다 — 정규식으로 접미사를 열면 "chip"이 "chipotle"까지 삼킨다.
+"""
 from __future__ import annotations
 
 # 뉴스 센터 카테고리(제목/요약 소문자 매칭)
@@ -8,12 +13,16 @@ CATEGORY_KEYWORDS: dict[str, list[str]] = {
         "머신러닝", "딥러닝", "nvidia", "엔비디아",
     ],
     "semiconductor": [
-        "반도체", "semiconductor", "chip", "칩", "hbm", "foundry", "파운드리", "tsmc",
-        "삼성전자", "sk하이닉스", "하이닉스", "micron", "마이크론", "amd", "asml", "웨이퍼",
+        "반도체", "semiconductor", "chip", "chipmaker", "칩", "hbm", "foundry", "파운드리",
+        "tsmc", "삼성전자", "sk하이닉스", "하이닉스", "micron", "마이크론", "amd", "asml",
+        "웨이퍼",
     ],
     "macro": [
-        "금리", "기준금리", "fed", "연준", "fomc", "inflation", "물가", "cpi", "ppi",
-        "gdp", "환율", "유가", "국채", "실업", "고용", "경기", "recession", "경기침체",
+        # "federal reserve"는 "fed"의 단어 경계 밖이라 별도 표제어가 필요하다
+        # (실측 400건에서 "federal" 6회 — 경계만 적용하면 통째로 놓친다).
+        "금리", "기준금리", "fed", "federal reserve", "연준", "fomc", "inflation", "물가",
+        "cpi", "ppi", "gdp", "환율", "유가", "국채", "실업", "고용", "경기", "recession",
+        "경기침체",
     ],
 }
 
@@ -30,8 +39,8 @@ CATEGORY_ORDER: list[tuple[str, str]] = [
 # 주목 테마(모닝리포트) — 수집 뉴스 빈도로만 산출, 수기 지정 금지
 THEME_KEYWORDS: dict[str, list[str]] = {
     "AI": ["ai", "인공지능", "gpt", "llm", "생성형", "openai", "챗gpt"],
-    "반도체": ["반도체", "semiconductor", "chip", "hbm", "파운드리", "tsmc", "엔비디아", "nvidia",
-             "삼성전자", "하이닉스", "micron", "마이크론"],
+    "반도체": ["반도체", "semiconductor", "chip", "chipmaker", "hbm", "파운드리", "tsmc",
+             "엔비디아", "nvidia", "삼성전자", "하이닉스", "micron", "마이크론"],
     "방산": ["방산", "방위", "defense", "무기", "미사일", "한화에어로", "kai"],
     "원전": ["원전", "원자력", "nuclear", "smr"],
     "2차전지": ["2차전지", "배터리", "battery", "양극재", "전고체", "에너지솔루션"],
@@ -39,6 +48,6 @@ THEME_KEYWORDS: dict[str, list[str]] = {
     "바이오": ["바이오", "제약", "신약", "임상", "biotech"],
     "조선": ["조선", "선박", "해운", "shipbuilding", "한화오션", "hd현대"],
     "에너지": ["에너지", "전력", "유가", "태양광", "풍력", "lng", "energy"],
-    "금융": ["금융", "은행", "증권", "보험", "금리", "연준", "fed"],
+    "금융": ["금융", "은행", "증권", "보험", "금리", "연준", "fed", "federal reserve"],
     "헬스케어": ["헬스케어", "의료", "병원", "healthcare"],
 }

@@ -1,6 +1,7 @@
 """뉴스 카테고리 분류 — 지역 + 키워드(config/keywords) + 속보(신선도)."""
 from __future__ import annotations
 
+from calculators import keyword_match
 from config.keywords import CATEGORY_KEYWORDS
 from config.settings import BREAKING_WINDOW_MIN
 from models.news import NewsArticle
@@ -14,9 +15,9 @@ def categorize(article: NewsArticle) -> list[str]:
     elif article.region == "US":
         cats.append("us_market")
 
-    text = f"{article.title} {article.summary}".lower()
+    text = keyword_match.text_of(article.title, article.summary)
     for cat, keywords in CATEGORY_KEYWORDS.items():
-        if any(k in text for k in keywords):
+        if keyword_match.any_match(keywords, text):
             cats.append(cat)
 
     if article.published and within_minutes(article.published, BREAKING_WINDOW_MIN):
