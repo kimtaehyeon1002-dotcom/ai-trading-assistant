@@ -1,7 +1,7 @@
 {
-  "probed_at": "2026-07-31T03:44:07.398212+09:00",
+  "probed_at": "2026-07-31T05:34:25.269387+09:00",
   "sources": {
-    "runlog": "ok — 워커 24종, updated_at 2026-07-31T02:42",
+    "runlog": "ok — 워커 24종, updated_at 2026-07-31T04:42",
     "workflows": "ok — 워크플로 6/6종 조회"
   },
   "counts": {
@@ -26,7 +26,7 @@
       "severity": "major",
       "subject": "FS DART corpCode",
       "rule": "max_age 26h",
-      "observed": "44h31m 경과 (last_run 2026-07-29T07:12)",
+      "observed": "46h22m 경과 (last_run 2026-07-29T07:12)",
       "expected": "26h 이내",
       "tier": "cloud",
       "owner": "financials.yml",
@@ -37,7 +37,7 @@
       "severity": "major",
       "subject": "FS EDGAR CIK맵",
       "rule": "max_age 26h",
-      "observed": "44h31m 경과 (last_run 2026-07-29T07:12)",
+      "observed": "46h22m 경과 (last_run 2026-07-29T07:12)",
       "expected": "26h 이내",
       "tier": "cloud",
       "owner": "financials.yml",
