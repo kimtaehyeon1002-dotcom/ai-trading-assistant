@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30T22:43:10.780577+00:00",
+  "as_of": "2026-07-30T22:44:04.164683+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,6 +349,12 @@
   ],
   "news": [
     {
+      "title": "Microsoft's Xbox chief lays out plan to pass rivals on margin by 2030 in memo to employees",
+      "link": "https://www.cnbc.com/2026/07/30/microsoft-xbox-asha-sharma-2030-plans.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T22:30:45+00:00"
+    },
+    {
       "title": "미국 반도체주 폭등…뉴욕증시도 강세 마감 - TBS 서울",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNkZQeU5MUEU0Ti1xZ1A0bTNkb2xZNmctRmJwRnhraUtScFBoOHFsQk1OM2tJN3JZaWZjN0lyX0dFeExfZmJqU1ZndE1sUWVmWlRQbjJjR2Ryc2w2UTdDTDJxbnVqZnJNVUVkVk5QZ0g3bE1fWlRKaTFOLTBnRnprSW5iY1hnUEs4?oc=5",
       "source": "Google News",
@@ -641,12 +647,6 @@
       "link": "https://www.cnbc.com/2026/07/30/apple-and-amazon-report-after-the-bell-heres-what-the-options-market-is-saying.html",
       "source": "CNBC Finance",
       "published": "2026-07-30T18:17:29+00:00"
-    },
-    {
-      "title": "OpenAI cuts prices for two of its GPT-5.6 AI models as companies grow sensitive to costs",
-      "link": "https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T17:27:49+00:00"
     }
   ],
   "pages": [

@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-31T07:43:10.764696+09:00",
+  "updated_at": "2026-07-31T07:44:04.147191+09:00",
   "workers": {
     "Vault Sync": {
       "worker": "Vault Sync",
-      "last_run": "2026-07-31T07:42:51.305016+09:00",
+      "last_run": "2026-07-31T07:43:45.986017+09:00",
       "status": "completed",
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-07-31T07:42:51.375959+09:00",
+      "last_run": "2026-07-31T07:43:57.055947+09:00",
       "status": "completed",
       "items": 26,
-      "duration_ms": 10351
+      "duration_ms": 7060
     },
     "Asset Publish": {
       "worker": "Asset Publish",
@@ -57,29 +57,29 @@
       "items": 1,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-07-31T07:43:10.734137+09:00"
+      "last_run": "2026-07-31T07:43:57.054974+09:00"
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-07-31T07:43:01.728524+09:00",
+      "last_run": "2026-07-31T07:43:46.063533+09:00",
       "status": "completed",
       "items": 140,
-      "duration_ms": 3943
+      "duration_ms": 3421
     },
     "Translator": {
       "worker": "Translator",
-      "last_run": "2026-07-31T07:43:05.673642+09:00",
+      "last_run": "2026-07-31T07:43:49.486586+09:00",
       "status": "completed",
       "items": 140,
-      "duration_ms": 4973
+      "duration_ms": 7495
     },
     "Publisher": {
       "worker": "Publisher",
       "status": "completed",
-      "items": 2,
+      "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-07-31T07:43:10.764578+09:00"
+      "last_run": "2026-07-31T07:44:04.147076+09:00"
     },
     "Trade Manager": {
       "worker": "Trade Manager",
@@ -167,10 +167,10 @@
     },
     "Loop Ledger": {
       "worker": "Loop Ledger",
-      "last_run": "2026-07-31T07:43:10.734169+09:00",
+      "last_run": "2026-07-31T07:43:57.055026+09:00",
       "status": "completed",
-      "items": 1,
-      "duration_ms": 1
+      "items": 0,
+      "duration_ms": 0
     }
   }
 }
