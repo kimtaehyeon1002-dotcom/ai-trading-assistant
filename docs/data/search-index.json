@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30T11:13:22.636511+00:00",
+  "as_of": "2026-07-30T12:24:39.836656+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,16 +349,100 @@
   ],
   "news": [
     {
-      "title": "The World Cup winners wore Adidas shirts. But the company’s investors are still crying foul.",
-      "link": "https://www.marketwatch.com/story/the-world-cup-winners-wore-adidas-shirts-but-the-companys-investors-are-still-crying-foul-2224d39a?mod=mw_rss_topstories",
+      "title": "Ferrari raises 2026 guidance after Q2 earnings beat",
+      "link": "https://www.cnbc.com/2026/07/30/ferrari-race-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T12:21:33+00:00"
+    },
+    {
+      "title": "Wall Street just suffered a historic crash in highflying stocks. Why a quick tech rebound could be a trap.",
+      "link": "https://www.marketwatch.com/story/wall-street-just-suffered-a-historic-crash-in-high-flying-stocks-here-is-why-a-quick-tech-rebound-could-be-a-trap-c021318a?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "2026-07-30T11:06:00+00:00"
+      "published": "2026-07-30T12:19:00+00:00"
+    },
+    {
+      "title": "Egypt says drone hit two ships at Mediterranean port as attacks on energy infrastructure widen",
+      "link": "https://www.cnbc.com/2026/07/30/egypt-drone-gas-ship-damietta-port-iran-war.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T12:16:42+00:00"
+    },
+    {
+      "title": "This global equity fund boasts a 150% five-year return for investors, despite holding few U.S. stocks",
+      "link": "https://www.marketwatch.com/story/this-global-equity-fund-boasts-a-150-five-year-return-for-investors-despite-being-well-underweight-u-s-stocks-624ff6b4?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T12:15:00+00:00"
+    },
+    {
+      "title": "Analysis: Fed Chairman Warsh's credibility in question after leaving interest rates unchanged",
+      "link": "https://www.cnbc.com/2026/07/29/kevin-warsh-fed-treasury-yields-inflation-credibility-interest-rates.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T12:14:40+00:00"
     },
     {
       "title": "Yum Brands reports mixed results but gives no update on Taco Bell cyclospora outbreak",
       "link": "https://www.cnbc.com/2026/07/30/yum-brands-yum-q2-2026-earnings.html",
       "source": "CNBC Finance",
-      "published": "2026-07-30T11:03:06+00:00"
+      "published": "2026-07-30T12:09:17+00:00"
+    },
+    {
+      "title": "[뉴스하이킥] 김성주 \"증시 등락 원인? 국민연금은 단타 안 해… 장기투자·점진적 매매로 시장 영향 최소화\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1UMGhKZm5abVhnZkV6eWN4M3N6UlZ5TzBsMklmdkVlMkU0Sks4eTRaLUNwUVZQaDFxVHJwMFpLY0RGV21RVDZoZkRlZHZ5dG8?oc=5",
+      "source": "Google News",
+      "published": "2026-07-30T12:06:52+00:00"
+    },
+    {
+      "title": "Rolls-Royce CEO says major hyperscaler nuclear deal is imminent as data center demand soars",
+      "link": "https://www.cnbc.com/2026/07/30/rolls-royce-earnings-q2-stock-defense-ai.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T12:01:08+00:00"
+    },
+    {
+      "title": "Nearly half of small-cap and midcap stocks are losing money",
+      "link": "https://www.marketwatch.com/story/nearly-half-of-small-cap-and-midcap-stocks-are-losing-money-ca851c98?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T11:45:00+00:00"
+    },
+    {
+      "title": "Bank of England holds UK interest rate steady at 3.75% — but policymakers see upside inflation risk",
+      "link": "https://www.cnbc.com/2026/07/30/interest-rates-inflation-bank-of-england.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T11:42:42+00:00"
+    },
+    {
+      "title": "인제 보니, 꿀릴 것 없었던 야당대표 부동산 처분 [논설실 Pick]",
+      "link": "https://www.mk.co.kr/news/economy/12112417",
+      "source": "매일경제·증권",
+      "published": "2026-07-30T11:30:37+00:00"
+    },
+    {
+      "title": "Wealth managers face a new challenger: their clients’ AI chatbots",
+      "link": "https://www.cnbc.com/2026/07/30/wealth-managers-ai-chatbots.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-30T11:30:01+00:00"
+    },
+    {
+      "title": "증시 폭락에 백화점도 노심초사 - khan.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjUXo0UGJJT09jbDBIbUpnVkNBcnFFY3g4Y19WWWZKWU9NcFBVbHVqTWV6ZVU3UnVoRjFPRGYwQkFJLVFOVVg0MEtKT1ozenFyOU5IcDhVSGJvQdIBX0FVX3lxTFBoVFNLTjR1cHROVHVkdzQzazdrTUJRaTVHdG52UzJKTUVDOFppNElaTW42NF8tY0VVSzRMMVVLelNIMkp6X1RJWkNra3JGak1aaWszNzQzV05YT3pQYkxR?oc=5",
+      "source": "Google News",
+      "published": "2026-07-30T11:25:00+00:00"
+    },
+    {
+      "title": "‘Don’t get suckered like I did’: I paid $185 to the wrong passport website. Can I get my money back?",
+      "link": "https://www.marketwatch.com/story/dont-get-suckered-like-i-did-i-paid-185-to-the-wrong-passport-website-can-i-get-my-money-back-3a781412?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T11:16:00+00:00"
+    },
+    {
+      "title": "Why you shouldn’t worry about the stock market’s break below its 50-day moving average",
+      "link": "https://www.marketwatch.com/story/why-you-shouldnt-worry-about-the-stock-markets-break-below-its-50-day-moving-average-4dfab87a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T11:15:00+00:00"
+    },
+    {
+      "title": "The World Cup winners wore Adidas shirts. But the company’s investors are still crying foul.",
+      "link": "https://www.marketwatch.com/story/the-world-cup-winners-wore-adidas-shirts-but-the-companys-investors-are-still-crying-foul-2224d39a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-30T11:06:00+00:00"
     },
     {
       "title": "Loeffler's financial disclosure reveals husband’s ties to exclusive Trump Jr.-backed private club",
@@ -457,12 +541,6 @@
       "published": "2026-07-30T09:15:00+00:00"
     },
     {
-      "title": "Oil prices move higher as Iran threatens response to latest U.S. strikes",
-      "link": "https://www.cnbc.com/2026/07/30/oil-prices-us-iran-war.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T09:14:12+00:00"
-    },
-    {
       "title": "[단독] 與, 메가특구특별법 ‘주 52시간 예외’로 가닥",
       "link": "https://www.mk.co.kr/news/politics/12112253",
       "source": "매일경제·증권",
@@ -493,14 +571,14 @@
       "published": "2026-07-30T09:02:00+00:00"
     },
     {
-      "title": "[포토] NH농협금융, 산업안전 ESG 협력체계 구축",
-      "link": "https://www.mk.co.kr/news/economy/12112241",
+      "title": "PF부실·대출규제…먹거리 사라진 상호금융",
+      "link": "https://www.mk.co.kr/news/economy/12112240",
       "source": "매일경제·증권",
       "published": "2026-07-30T09:00:18+00:00"
     },
     {
-      "title": "PF부실·대출규제…먹거리 사라진 상호금융",
-      "link": "https://www.mk.co.kr/news/economy/12112240",
+      "title": "[포토] NH농협금융, 산업안전 ESG 협력체계 구축",
+      "link": "https://www.mk.co.kr/news/economy/12112241",
       "source": "매일경제·증권",
       "published": "2026-07-30T09:00:18+00:00"
     },
@@ -569,84 +647,6 @@
       "link": "https://www.mk.co.kr/news/economy/12112188",
       "source": "매일경제·증권",
       "published": "2026-07-30T08:51:15+00:00"
-    },
-    {
-      "title": "“증시 안정책 언제 내놓나”…저평가에도 코스피 외면하는 투자자들 [머니+] - 에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XWGtMb1hjS1FhamcxYWhIWlZpUV9saGdsOW9hQUdMeEQ0VTc4VzFoZFo3NTNTdVlwNkVZMnNQdWR1ODI3OF85ZlZFdVdhdmdxVm1lVWliYl9oYTF3ZXc?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T08:48:02+00:00"
-    },
-    {
-      "title": "신한금융, 자회사 신한자산신탁·신한리츠운용 흡수합병 결의",
-      "link": "https://www.yna.co.kr/view/AKR20260730174900002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-30T08:45:48+00:00"
-    },
-    {
-      "title": "Shell posts best quarterly profit in four years as Iran war boosts oil and gas prices",
-      "link": "https://www.cnbc.com/2026/07/30/shell-2q-earnings-iran-war-oil.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T08:40:20+00:00"
-    },
-    {
-      "title": "Samsung delivers record-setting profits, but the shares still can’t catch a break from investors.",
-      "link": "https://www.marketwatch.com/story/samsung-delivers-record-setting-profits-but-the-shares-still-cant-catch-a-break-from-investors-daefa19a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T08:39:00+00:00"
-    },
-    {
-      "title": "개도국 AI데이터센터에 국내기업 반도체 심는다",
-      "link": "https://www.mk.co.kr/news/economy/12112145",
-      "source": "매일경제·증권",
-      "published": "2026-07-30T08:35:02+00:00"
-    },
-    {
-      "title": "전력 도매가 80원서 140원대로 '껑충'",
-      "link": "https://www.mk.co.kr/news/economy/12112146",
-      "source": "매일경제·증권",
-      "published": "2026-07-30T08:35:02+00:00"
-    },
-    {
-      "title": "농지 27% '법 위반' 의심 … 내달 심층조사",
-      "link": "https://www.mk.co.kr/news/economy/12112144",
-      "source": "매일경제·증권",
-      "published": "2026-07-30T08:35:01+00:00"
-    },
-    {
-      "title": "유명순 한국씨티은행장, 오는 10월 임기 끝으로 퇴임",
-      "link": "https://www.yna.co.kr/view/AKR20260730171600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-30T08:32:09+00:00"
-    },
-    {
-      "title": "한우협회 \"한우산업 일방적 희생 강요\"…브라질산 수입 반발",
-      "link": "https://www.yna.co.kr/view/AKR20260730167200030",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-30T08:24:23+00:00"
-    },
-    {
-      "title": "금융위, '주가 조작 패가망신 1호' 준항고 인용에 재항고",
-      "link": "https://www.yna.co.kr/view/AKR20260730168800004",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-30T08:23:29+00:00"
-    },
-    {
-      "title": "Iran says it will 'punish the aggressor today' after 'heavy wave' of U.S. strikes",
-      "link": "https://www.cnbc.com/2026/07/30/us-iran-war-hormuz-centcom-trump-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T08:22:33+00:00"
-    },
-    {
-      "title": "Jeep maker Stellantis swings to profit on rising demand in North America; shares fall 5%",
-      "link": "https://www.cnbc.com/2026/07/30/stellantis-q2-earnings-autos-jeep.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T08:20:50+00:00"
-    },
-    {
-      "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자",
-      "link": "https://www.yna.co.kr/view/AKR20260730169300003",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-30T08:19:50+00:00"
     }
   ],
   "pages": [

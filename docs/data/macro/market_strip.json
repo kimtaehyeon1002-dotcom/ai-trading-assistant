@@ -7,43 +7,43 @@
         "label": "USD/KRW 환율",
         "price": 1452.35,
         "change_pct": null,
-        "as_of": "07-30 19:13",
+        "as_of": "07-30 21:24",
         "unit": "KRW",
-        "period_change_pct": -7.3
+        "period_change_pct": -7.41
       },
       {
         "key": "dxy",
         "label": "달러인덱스",
-        "price": 100.79399871826172,
-        "change_pct": -0.15,
-        "as_of": "07-30 19:13",
+        "price": 100.63600158691406,
+        "change_pct": -0.31,
+        "as_of": "07-30 21:24",
         "unit": "pt",
-        "period_change_pct": -0.39
+        "period_change_pct": -0.55
       },
       {
         "key": "usdjpy",
         "label": "USD/JPY",
-        "price": 163.0760040283203,
-        "change_pct": -0.18,
-        "as_of": "07-30 19:13",
+        "price": 162.8780059814453,
+        "change_pct": -0.3,
+        "as_of": "07-30 21:24",
         "unit": "JPY",
-        "period_change_pct": 0.28
+        "period_change_pct": 0.16
       },
       {
         "key": "eurusd",
         "label": "EUR/USD",
-        "price": 1.1470520496368408,
-        "change_pct": -0.03,
-        "as_of": "07-30 19:13",
+        "price": 1.1479737758636475,
+        "change_pct": 0.05,
+        "as_of": "07-30 21:24",
         "unit": "USD",
-        "period_change_pct": 0.5
+        "period_change_pct": 0.58
       },
       {
         "key": "usdcny",
         "label": "USD/CNY",
         "price": 6.74429988861084,
         "change_pct": -0.15,
-        "as_of": "07-30 19:13",
+        "as_of": "07-30 21:24",
         "unit": "CNY",
         "period_change_pct": -0.73
       }
@@ -55,36 +55,36 @@
       {
         "key": "us10y",
         "label": "미국 10년물 국채금리",
-        "price": 4.622000217437744,
+        "price": 4.622,
         "change_pct": 0.39,
-        "as_of": "07-30 19:13",
+        "as_of": "07-30 21:24",
         "unit": "%",
         "period_change_pct": 5.67
       },
       {
         "key": "us30y",
         "label": "미국 30년물 국채금리",
-        "price": 5.14300012588501,
+        "price": 5.143,
         "change_pct": 0.92,
-        "as_of": "07-30 19:13",
+        "as_of": "07-30 21:24",
         "unit": "%",
         "period_change_pct": 5.82
       },
       {
         "key": "vix",
         "label": "VIX",
-        "price": 19.59000015258789,
-        "change_pct": -5.04,
-        "as_of": "07-30 19:13",
+        "price": 19.010000228881836,
+        "change_pct": -7.85,
+        "as_of": "07-30 21:24",
         "unit": "pt",
-        "period_change_pct": 19.21
+        "period_change_pct": 15.62
       },
       {
         "key": "move",
         "label": "ICE BofA MOVE",
         "price": 74.181,
         "change_pct": -2.51,
-        "as_of": "07-30 19:13",
+        "as_of": "07-30 21:24",
         "unit": "pt",
         "period_change_pct": 5.35
       }
@@ -96,56 +96,56 @@
       {
         "key": "wti",
         "label": "WTI 국제유가",
-        "price": 84.61000061035156,
-        "change_pct": 1.15,
-        "as_of": "07-30 19:13",
+        "price": 83.62999725341797,
+        "change_pct": -0.02,
+        "as_of": "07-30 21:24",
         "unit": "USD",
-        "period_change_pct": 21.76
+        "period_change_pct": 20.4
       },
       {
         "key": "brent",
         "label": "브렌트유",
-        "price": 90.97000122070312,
-        "change_pct": 1.64,
-        "as_of": "07-30 19:13",
+        "price": 90.0999984741211,
+        "change_pct": 0.67,
+        "as_of": "07-30 21:24",
         "unit": "USD",
-        "period_change_pct": 24.75
+        "period_change_pct": 23.56
       },
       {
         "key": "gold",
         "label": "금",
-        "price": 4125.2998046875,
-        "change_pct": 0.27,
-        "as_of": "07-30 19:13",
+        "price": 4135.5,
+        "change_pct": 0.52,
+        "as_of": "07-30 21:24",
         "unit": "USD",
-        "period_change_pct": 2.55
+        "period_change_pct": 2.8
       },
       {
         "key": "silver",
         "label": "은",
-        "price": 58.05500030517578,
-        "change_pct": 0.56,
-        "as_of": "07-30 19:13",
+        "price": 58.45500183105469,
+        "change_pct": 1.26,
+        "as_of": "07-30 21:24",
         "unit": "USD",
-        "period_change_pct": -2.39
+        "period_change_pct": -1.72
       },
       {
         "key": "copper",
         "label": "구리",
-        "price": 6.433499813079834,
-        "change_pct": 1.02,
-        "as_of": "07-30 19:13",
+        "price": 6.452000141143799,
+        "change_pct": 1.31,
+        "as_of": "07-30 21:24",
         "unit": "USD",
-        "period_change_pct": 3.89
+        "period_change_pct": 4.19
       },
       {
         "key": "natgas",
         "label": "천연가스",
-        "price": 2.7290000915527344,
-        "change_pct": -0.11,
-        "as_of": "07-30 19:13",
+        "price": 2.703000068664551,
+        "change_pct": -1.06,
+        "as_of": "07-30 21:24",
         "unit": "USD",
-        "period_change_pct": -16.67
+        "period_change_pct": -17.44
       }
     ]
   }
