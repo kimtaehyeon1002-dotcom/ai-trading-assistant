@@ -18,11 +18,23 @@
     전제조건
       1. 키움 OpenAPI **자동 로그인** 저장(트레이 아이콘 → 계좌비밀번호 저장 → AUTO 체크).
          안 되어 있으면 로그인 창이 입력을 기다리다 120초 후 실패한다.
-      2. 해당 시각에 PC가 켜져 있어야 한다. -WakeToRun으로 절전 해제를 시도하지만
+      2. 해당 시각에 PC가 켜져 있고 **사용자가 로그온되어 있어야** 한다(키움 OCX는 데스크톱
+         세션이 필요하다 — LogonType Interactive). -WakeToRun으로 절전 해제를 시도하지만
          완전 종료(shutdown) 상태는 깨울 수 없다.
       3. 실행 결과는 sync_auto.log에 누적된다.
 
-    등록:  powershell -ExecutionPolicy Bypass -File scripts\register_schedule.ps1
+    UAC("사용자 계정 컨트롤") 창이 떠서 로그인이 타임아웃되던 문제
+      키움 로그인은 버전처리 단계에서 관리자 권한을 요구할 수 있다. 일반 권한으로 실행하면
+      UAC 승인 창이 뜬 채로 대기하다가 CommConnect가 120초 타임아웃으로 실패한다(실제 사고:
+      sync_auto.log의 '로그인 미완료(타임아웃 120s)' → 그날 키움 계좌 결측).
+      작업 스케줄러는 UAC를 우회할 수 있는 신뢰된 승격 경로이므로, -RunLevel Highest로
+      등록해 **승인 창 없이** 관리자 권한으로 실행되게 한다. UAC 자체를 끄는 방법(시스템 전역
+      보안 약화)은 쓰지 않는다.
+      ※ 이 스크립트는 **관리자 PowerShell에서 실행**해야 한다(Highest 등록에 승격 필요).
+      ※ 손으로 돌릴 때도 UAC를 피하려면 bat을 직접 더블클릭하지 말고
+         Start-ScheduledTask -TaskName ThBot-Sync-PM 으로 실행한다.
+
+    등록:  (관리자 PowerShell) powershell -ExecutionPolicy Bypass -File scripts\register_schedule.ps1
     해제:  powershell -ExecutionPolicy Bypass -File scripts\register_schedule.ps1 -Unregister
     확인:  Get-ScheduledTask -TaskName 'ThBot-*' | Format-Table TaskName, State
 #>
@@ -78,6 +90,19 @@ $Settings = New-ScheduledTaskSettingsSet `
     -ExecutionTimeLimit (New-TimeSpan -Minutes 30) `
     -MultipleInstances IgnoreNew
 
+# 승격 실행(UAC 창 없이) — 자세한 배경은 상단 .NOTES 참조.
+# LogonType Interactive: 키움 OCX가 데스크톱 세션을 요구하므로 로그온 상태에서만 돈다
+# ("로그온 여부에 관계없이 실행"으로 바꾸면 세션 0에서 돌아 OCX가 뜨지 않는다).
+$CurrentUser = "$env:USERDOMAIN\$env:USERNAME"
+$Principal = New-ScheduledTaskPrincipal -UserId $CurrentUser -LogonType Interactive -RunLevel Highest
+
+$IsAdmin = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()
+           ).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
+if (-not $IsAdmin) {
+    throw '관리자 권한이 필요합니다 — PowerShell을 "관리자 권한으로 실행"한 뒤 다시 시도하세요. ' +
+          '(RunLevel Highest로 등록해야 실행 때 UAC 창이 뜨지 않습니다)'
+}
+
 foreach ($t in $Tasks) {
     $action = New-ScheduledTaskAction -Execute $BatPath -WorkingDirectory $RepoRoot
     $trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek $t.Days -At $t.Time
@@ -90,6 +115,7 @@ foreach ($t in $Tasks) {
         -Action $action `
         -Trigger $trigger `
         -Settings $Settings `
+        -Principal $Principal `
         -Description $t.Description | Out-Null
 
     $next = (Get-ScheduledTask -TaskName $t.Name | Get-ScheduledTaskInfo).NextRunTime
