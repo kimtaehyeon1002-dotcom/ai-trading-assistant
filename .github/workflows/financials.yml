@@ -5,7 +5,9 @@ on:
     # 분기 공시 주기 데이터라 일1회면 충분(design/06 §1-5, generators/registry.py 주석 참조)
     # 05:00 KST = 전일 20:00 UTC. stock.yml의 KR 마감 배치(06:35 UTC) 이후에 실행되어야
     # Stock Hub 종가(PER 산출 재료)가 최신 상태다.
-    - cron: "0 21 * * *"
+    # 주말 정지(design/26 §8-6) — DART·EDGAR는 주말 공시가 없다.
+    # UTC 일~목 21:00 = KST 월~금 06:00 (morning.yml과 같은 요일 표기법).
+    - cron: "0 21 * * 0-4"
   workflow_dispatch:
 
 permissions:

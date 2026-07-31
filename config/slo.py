@@ -45,40 +45,55 @@ class WorkerSLO:
 
 
 _H_DAY = 26.0        # 일1회 워커의 평일 상한(24h + 유예 2h — Actions 스케줄 지연 흡수)
-_H_DAY_WEEKEND = 76.0  # 금요일 실행 → 월요일 실행(72h) + 유예 4h
+# 금요일 실행 → 월요일 실행(72h) + 유예 8h. 유예가 큰 이유: GitHub Actions의 schedule은
+# best-effort라 피크에 1~2시간씩 밀린다. 76h로 잡았더니 월요일 아침 여유가 1.1h밖에 안 남아
+# 지연 한 번이면 가짜 위반이 났다(주말 정책 도입 시 실측). 민감도보다 오탐 0이 우선이다.
+_H_DAY_WEEKEND = 80.0
 _H_30MIN = 3.0       # 30~60분 주기 워커의 상한(연속 몇 회 실패까지는 자가복구를 기다린다)
+
+# ── 주말 상한 (design/26 §8-6) ────────────────────────────────────────────────
+# 2026-07-31부터 시세성 워크플로가 주말에 정지한다. **크론을 바꾸면 여기도 같이 바꿔야 한다** —
+# 안 그러면 토·일 내내 워커 12종이 "안 돌았다"는 가짜 위반을 낸다(오탐 0 원칙 붕괴).
+# KST 토 09:00 = UTC 토 00:00이라 주말은 UTC 요일 0,6과 정확히 일치한다.
+_H_WEEKEND_STOP = 52.0    # 주말 완전 정지: 금 23:00 UTC → 월 00:00 UTC = 49h + 유예 3h
+_H_WEEKEND_SLOW = 6.0     # 주말 감속(뉴스 2시간 주기): 2회 연속 실패까지 흡수
 
 # ── 워커 설정점 ────────────────────────────────────────────────────────────────
 # runlog.json의 워커명을 **그대로** 키로 쓴다(utils/runlog.py에 기록되는 문자열).
 # 여기 선언됐는데 runlog에 없는 워커는 그 자체가 위반이다(missing) — 조용히 실행되지 않는
 # 워커를 잡는 유일한 규칙이므로, 신규 워커를 추가하면 반드시 이 표에도 등재한다.
 WORKERS: dict[str, WorkerSLO] = {
-    # 모든 빌드의 공통 단계(build.py) — 가장 잦은 news.yml(30분)이 실효 주기를 정한다
+    # 모든 빌드의 공통 단계(build.py) — 가장 잦은 news.yml이 실효 주기를 정한다
+    # (평일 30분 / 주말 2시간)
     "Vault Sync": WorkerSLO(
         owner="build.py(전 타깃)", cadence_min=30, max_age_h=_H_30MIN,
-        status_ok=("completed", "skipped"),
+        max_age_weekend_h=_H_WEEKEND_SLOW, status_ok=("completed", "skipped"),
         note="TH_DATA_TOKEN 미설정/폴더 없음이면 skipped가 정상(build.py _sync_vault)",
     ),
     "Vault Journal": WorkerSLO(
         owner="build.py(morning·news·trades)", cadence_min=30, max_age_h=_H_30MIN,
+        max_age_weekend_h=_H_WEEKEND_SLOW,
         note="vault_journal.enabled()가 False면 기록 자체가 남지 않는다 — missing이 곧 신호",
     ),
     "Publisher": WorkerSLO(
         owner="build.py(전 타깃)", cadence_min=30, max_age_h=_H_30MIN,
+        max_age_weekend_h=_H_WEEKEND_SLOW,
     ),
     "Loop Ledger": WorkerSLO(
         owner="build.py(전 타깃)", cadence_min=30, max_age_h=_H_30MIN,
-        status_ok=("completed", "skipped"),
+        max_age_weekend_h=_H_WEEKEND_SLOW, status_ok=("completed", "skipped"),
         note="ops/ledger.jsonl → vault 50_Ops/ 투영. TH_DATA 없으면 skipped가 정상",
     ),
 
-    # news.yml — */30, 24/7. 주말 예외 없음
+    # news.yml — 평일 */30, 주말 2시간(정지하지 않고 감속만 — 속보는 주말에도 난다)
     "News Research": WorkerSLO(
-        owner="news.yml", cadence_min=30, max_age_h=_H_30MIN, min_items=20,
+        owner="news.yml", cadence_min=30, max_age_h=_H_30MIN,
+        max_age_weekend_h=_H_WEEKEND_SLOW, min_items=20,
         note="RSS 전량 실패 시 0건으로 completed 될 수 있어 min_items가 실질 게이트",
     ),
     "Translator": WorkerSLO(
         owner="news.yml", cadence_min=30, max_age_h=_H_30MIN,
+        max_age_weekend_h=_H_WEEKEND_SLOW,
         note="번역 대상이 없으면 items=기사수 그대로 — 건수 하한 의미 없음",
     ),
 
@@ -86,7 +101,7 @@ WORKERS: dict[str, WorkerSLO] = {
     # **모든 타깃**이 지나간다. 따라서 실효 주기는 morning(일1회)이 아니라 news.yml(30분)이다.
     "Data Officer": WorkerSLO(
         owner="build.py 공통 마무리(dashboard_v2) — 실효 주기는 news.yml", cadence_min=30,
-        max_age_h=_H_30MIN,
+        max_age_h=_H_30MIN, max_age_weekend_h=_H_WEEKEND_SLOW,
         note="morning·macro·asset·vault_journal도 호출하지만 주기를 정하는 건 30분짜리 news.yml이다",
     ),
 
@@ -100,14 +115,18 @@ WORKERS: dict[str, WorkerSLO] = {
         note="registry._morning()이 morning 타깃에 편입 실행(design/21 §5-2)",
     ),
 
-    # macro.yml — 매시 정각, 24/7
-    "Macro FRED": WorkerSLO(owner="macro.yml", cadence_min=60, max_age_h=_H_30MIN),
+    # macro.yml — 매시 정각, **월~금(UTC)만**. 주말 정지(FRED·ECOS 주말 발표 없음)
+    "Macro FRED": WorkerSLO(owner="macro.yml", cadence_min=60, max_age_h=_H_30MIN,
+                             max_age_weekend_h=_H_WEEKEND_STOP),
     "Macro ECOS": WorkerSLO(
-        owner="macro.yml", cadence_min=60, max_age_h=_H_30MIN, status_ok=("completed", "skipped"),
+        owner="macro.yml", cadence_min=60, max_age_h=_H_30MIN,
+        max_age_weekend_h=_H_WEEKEND_STOP, status_ok=("completed", "skipped"),
         note="ECOS_API_KEY 미설정 시 skipped가 정상(design/21 §226 결측 문법)",
     ),
-    "Macro Upbit": WorkerSLO(owner="macro.yml", cadence_min=60, max_age_h=_H_30MIN),
-    "Macro History": WorkerSLO(owner="macro.yml", cadence_min=60, max_age_h=_H_30MIN),
+    "Macro Upbit": WorkerSLO(owner="macro.yml", cadence_min=60, max_age_h=_H_30MIN,
+                             max_age_weekend_h=_H_WEEKEND_STOP),
+    "Macro History": WorkerSLO(owner="macro.yml", cadence_min=60, max_age_h=_H_30MIN,
+                             max_age_weekend_h=_H_WEEKEND_STOP),
 
     # stock.yml — KR 장중 매시(00~06 UTC 월~금) + KR 마감(06:35 UTC) + US 마감후(22:00 UTC 월~금).
     # 주 마지막 실행은 토 07:00 KST, 다음 실행은 월 09:00 KST → 50h. 평일 최장 공백은
@@ -125,13 +144,15 @@ WORKERS: dict[str, WorkerSLO] = {
         note="유니버스 결손분만 보충 — 결손이 없으면 0건이 정상이라 하한 없음",
     ),
 
-    # financials.yml — 21:00 UTC 매일(06:00 KST). 주말에도 돈다
+    # financials.yml — UTC 일~목 21:00 = KST 월~금 06:00. 주말 정지(공시 없음)
     "FS DART corpCode": WorkerSLO(
         owner="financials.yml", cadence_min=24 * 60, max_age_h=_H_DAY,
+        max_age_weekend_h=_H_DAY_WEEKEND,
         note="DART_API_KEY 미설정이면 예외 → error. 키가 없다면 status_ok에 skipped를 넣지 말고 키를 넣어라",
     ),
     "FS EDGAR CIK맵": WorkerSLO(
         owner="financials.yml", cadence_min=24 * 60, max_age_h=_H_DAY,
+        max_age_weekend_h=_H_DAY_WEEKEND,
         note="EDGAR는 키 불필요(User-Agent만) — 실패는 진짜 장애다",
     ),
 
@@ -144,24 +165,24 @@ WORKERS: dict[str, WorkerSLO] = {
     # 데스크톱 전용(design/26 §3-7) — 클라우드는 관측만, 수정 금지
     "Asset Kiwoom": WorkerSLO(
         owner="run_desktop(로컬)", cadence_min=24 * 60, max_age_h=_H_DAY,
-        status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
+        max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
         note="32bit Windows + Kiwoom OCX 필요 — 클라우드에서 실행 불가",
     ),
     "Asset KIS 위탁": WorkerSLO(
         owner="run_desktop(로컬)", cadence_min=24 * 60, max_age_h=_H_DAY,
-        status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
+        max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
     ),
     "Asset KIS ISA": WorkerSLO(
         owner="run_desktop(로컬)", cadence_min=24 * 60, max_age_h=_H_DAY,
-        status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
+        max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
     ),
     "Asset BYBIT": WorkerSLO(
         owner="run_desktop(로컬)", cadence_min=24 * 60, max_age_h=_H_DAY,
-        status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
+        max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
     ),
     "Asset Publish": WorkerSLO(
         owner="run_desktop(로컬)", cadence_min=24 * 60, max_age_h=_H_DAY,
-        status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
+        max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
         note="ASSET_PASSPHRASE 미설정 시 발행 skip이 정상(평문 유출 방지)",
     ),
 }

@@ -168,3 +168,67 @@ def test_merge_tolerates_broken_timestamps():
     remote = {"X": {"status": "completed", "last_run": "2026-07-29T11:00:00+09:00"}}
     local = {"X": {"status": "error", "last_run": "(없음)"}}
     assert runlog.merge_by_recency(remote, local)["X"]["status"] == "completed"
+
+
+# ── 주말 정지 정책(design/26 §8-8) ────────────────────────────────────────────
+# 크론과 SLO가 어긋나면 토·일 내내 가짜 위반이 쏟아진다. 아래 4개가 그 계약을 고정한다.
+
+
+def _weekend_idle(now: datetime) -> dict:
+    """새 주말 스케줄대로 각 워커가 **마지막으로 정상 실행됐을** 시각을 합성한다.
+
+    시각은 실제 cron(UTC)에서 환산한다 — 대충 "금요일 밤"으로 잡으면 안 된다.
+      macro      `0 * * * 1-5`   → 금 23:00 UTC = 토 08:00 KST
+      stock      `0 22 * * 1-5`  → 금 22:00 UTC = 토 07:00 KST (미국 금요일 종가 수집)
+      financials `0 21 * * 0-4`  → 목 21:00 UTC = 금 06:00 KST
+      morning    `30 21 * * 0-4` → 목 21:30 UTC = 금 06:30 KST
+      news       주말 2시간 주기 → 계속 돈다
+    """
+    macro_last = datetime(2026, 8, 1, 8, 0, tzinfo=TIMEZONE)     # 토 08:00 KST
+    stock_last = datetime(2026, 8, 1, 7, 0, tzinfo=TIMEZONE)     # 토 07:00 KST
+    daily_last = datetime(2026, 7, 31, 6, 0, tzinfo=TIMEZONE)    # 금 06:00 KST
+    workers = {}
+    for name, spec in slo.WORKERS.items():
+        if spec.owner.startswith("macro"):
+            last = macro_last
+        elif spec.owner.startswith("stock"):
+            last = stock_last
+        elif spec.owner.startswith(("financials", "morning")) or spec.tier == slo.TIER_DESKTOP:
+            last = daily_last
+        else:  # news.yml 계열 — 주말에도 2시간마다 돈다
+            last = now - timedelta(hours=2)
+        workers[name] = {
+            "worker": name, "status": spec.status_ok[0], "last_run": last.isoformat(),
+            "items": spec.min_items if spec.min_items is not None else 1, "duration_ms": 5,
+        }
+    return workers
+
+
+def test_weekend_idle_produces_no_violations():
+    """주말 정지는 정상 운영이다 — 센서가 조용해야 한다."""
+    sunday = datetime(2026, 8, 2, 12, 0, tzinfo=TIMEZONE)
+    assert check_workers(_weekend_idle(sunday), sunday) == []
+
+
+def test_monday_resume_boundary_produces_no_violations():
+    """월 09:00 KST 재개 직전이 공백 최대 지점 — 여기서 안 터져야 임계값이 맞는 것이다."""
+    monday = datetime(2026, 8, 3, 8, 55, tzinfo=TIMEZONE)
+    assert check_workers(_weekend_idle(monday), monday) == []
+
+
+def test_weekend_does_not_mask_a_real_failure():
+    """정지 정책이 장애를 가리면 안 된다 — 상태 규칙은 주말에도 그대로 적용된다."""
+    sunday = datetime(2026, 8, 2, 12, 0, tzinfo=TIMEZONE)
+    workers = _weekend_idle(sunday)
+    workers["News Research"] |= {"status": "error", "last_error": "RSS 전량 실패"}
+    ids = [v["id"] for v in check_workers(workers, sunday)]
+    assert "w.news-research.status" in ids
+
+
+def test_weekend_threshold_still_has_an_upper_bound():
+    """주말이라도 한계는 있다 — 2주 전 기록이면 잡혀야 한다."""
+    sunday = datetime(2026, 8, 2, 12, 0, tzinfo=TIMEZONE)
+    workers = _weekend_idle(sunday)
+    workers["Macro FRED"] |= {"last_run": (sunday - timedelta(days=14)).isoformat()}
+    ids = [v["id"] for v in check_workers(workers, sunday)]
+    assert "w.macro-fred.stale" in ids

@@ -8,7 +8,10 @@ name: Loop Health Probe
 on:
   schedule:
     # 매시 15분 — 정각(macro)·00/30분(news)의 러시를 피해 Actions 큐 대기를 줄인다.
-    - cron: "15 * * * *"
+    - cron: "15 * * * 1-5"    # 평일 매시
+    # 주말에도 감시견은 살려 둔다 — 끄면 주말 장애를 월요일에야 안다.
+    # 다만 관측 대상이 대부분 정지하므로 6시간이면 충분하다(design/26 §8-6).
+    - cron: "15 */6 * * 0,6"
   workflow_dispatch:
 
 permissions:

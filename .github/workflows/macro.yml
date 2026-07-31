@@ -2,7 +2,10 @@ name: Macroeconomics
 
 on:
   schedule:
-    - cron: "0 * * * *"   # 60분마다(매시 정각)
+    # 주말 정지(design/26 §8-6) — KST 토 09:00 = UTC 토 00:00이라 주말이 UTC 요일 0,6과
+    # 정확히 일치한다. 월~금(1-5)만 돌리면 KST 월 09:00 ~ 토 08:59가 가동 구간이 된다.
+    # FRED·ECOS는 주말 발표가 없다(BTC는 24h지만 주말 갱신을 포기하는 대가로 잡음을 줄인다).
+    - cron: "0 * * * 1-5"   # 매시 정각, 월~금(UTC)
   workflow_dispatch:
 
 permissions:
