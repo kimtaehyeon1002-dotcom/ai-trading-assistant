@@ -1,15 +1,15 @@
 {
   "code": "373220",
   "name": "LG에너지솔루션",
-  "market": "KOSPI",
+  "market": "KRX",
   "theme": "2차전지",
   "quote": {
-    "close": 320000.0,
-    "change_pct": 6.49,
-    "volume": 480095,
-    "amount": 152362755250.0,
-    "marcap": 74880000000000.0,
-    "as_of_iso": "2026-07-30T22:54:36.478815+00:00",
+    "close": 322000.0,
+    "change_pct": 0.63,
+    "volume": 194748,
+    "amount": 62416720500.0,
+    "marcap": 75348000000000.0,
+    "as_of_iso": "2026-07-31T02:38:54.586768+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:373220",

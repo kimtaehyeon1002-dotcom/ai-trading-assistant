@@ -1,0 +1,17 @@
+{
+  "code": "403870",
+  "name": "HPSP",
+  "market": "KOSDAQ GLOBAL",
+  "theme": null,
+  "quote": {
+    "close": 32750.0,
+    "change_pct": 14.71,
+    "volume": 2654720,
+    "amount": 88717967750.0,
+    "marcap": 2695325000000.0,
+    "as_of_iso": "2026-07-31T02:38:54.586514+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:403870",
+  "related_news": []
+}
