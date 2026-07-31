@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31T04:16:55.210508+00:00",
+  "as_of": "2026-07-31T06:12:21.833020+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -42,18 +42,23 @@
       "market": "KOSPI"
     },
     {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
       "code": "035420",
       "name": "NAVER",
       "market": "KOSPI"
     },
     {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
       "code": "010120",
       "name": "LS ELECTRIC",
+      "market": "KOSPI"
+    },
+    {
+      "code": "028260",
+      "name": "삼성물산",
       "market": "KOSPI"
     },
     {
@@ -62,33 +67,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "006340",
-      "name": "대원전선",
-      "market": "KOSPI"
-    },
-    {
-      "code": "080220",
-      "name": "제주반도체",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "002990",
-      "name": "금호건설",
-      "market": "KOSPI"
-    },
-    {
-      "code": "240810",
-      "name": "원익IPS",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "028260",
-      "name": "삼성물산",
-      "market": "KOSPI"
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
+      "code": "298040",
+      "name": "효성중공업",
       "market": "KOSPI"
     },
     {
@@ -97,38 +77,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "298040",
-      "name": "효성중공업",
-      "market": "KOSPI"
+      "code": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ"
     },
     {
-      "code": "034020",
-      "name": "두산에너빌리티",
-      "market": "KOSPI"
-    },
-    {
-      "code": "096770",
-      "name": "SK이노베이션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "034730",
-      "name": "SK",
-      "market": "KOSPI"
-    },
-    {
-      "code": "403870",
-      "name": "HPSP",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "353200",
-      "name": "대덕전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "068270",
-      "name": "셀트리온",
+      "code": "006400",
+      "name": "삼성SDI",
       "market": "KOSPI"
     },
     {
@@ -137,18 +92,63 @@
       "market": "KOSPI"
     },
     {
-      "code": "073240",
-      "name": "금호타이어",
+      "code": "006340",
+      "name": "대원전선",
       "market": "KOSPI"
     },
     {
-      "code": "042660",
-      "name": "한화오션",
+      "code": "096770",
+      "name": "SK이노베이션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "240810",
+      "name": "원익IPS",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "034730",
+      "name": "SK",
+      "market": "KOSPI"
+    },
+    {
+      "code": "002990",
+      "name": "금호건설",
+      "market": "KOSPI"
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KOSPI"
+    },
+    {
+      "code": "068270",
+      "name": "셀트리온",
+      "market": "KOSPI"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market": "KOSPI"
+    },
+    {
+      "code": "058610",
+      "name": "에스피지",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "353200",
+      "name": "대덕전자",
       "market": "KOSPI"
     },
     {
       "code": "000270",
       "name": "기아",
+      "market": "KOSPI"
+    },
+    {
+      "code": "032830",
+      "name": "삼성생명",
       "market": "KOSPI"
     },
     {
@@ -172,8 +172,8 @@
       "market": "US"
     },
     {
-      "code": "META",
-      "name": "Meta Platforms",
+      "code": "AAPL",
+      "name": "Apple Inc.",
       "market": "US"
     },
     {
@@ -182,8 +182,8 @@
       "market": "US"
     },
     {
-      "code": "AAPL",
-      "name": "Apple Inc.",
+      "code": "META",
+      "name": "Meta Platforms",
       "market": "US"
     },
     {
@@ -247,13 +247,13 @@
       "market": "US"
     },
     {
-      "code": "LITE",
-      "name": "Lumentum",
+      "code": "NFLX",
+      "name": "Netflix",
       "market": "US"
     },
     {
-      "code": "NFLX",
-      "name": "Netflix",
+      "code": "LITE",
+      "name": "Lumentum",
       "market": "US"
     },
     {
@@ -277,18 +277,8 @@
       "market": "US"
     },
     {
-      "code": "KLAC",
-      "name": "KLA Corporation",
-      "market": "US"
-    },
-    {
-      "code": "V",
-      "name": "Visa Inc.",
-      "market": "US"
-    },
-    {
-      "code": "APP",
-      "name": "AppLovin",
+      "code": "NOW",
+      "name": "ServiceNow",
       "market": "US"
     },
     {
@@ -297,8 +287,18 @@
       "market": "US"
     },
     {
-      "code": "NOW",
-      "name": "ServiceNow",
+      "code": "KLAC",
+      "name": "KLA Corporation",
+      "market": "US"
+    },
+    {
+      "code": "GEV",
+      "name": "GE Vernova",
+      "market": "US"
+    },
+    {
+      "code": "V",
+      "name": "Visa Inc.",
       "market": "US"
     },
     {
@@ -337,11 +337,6 @@
       "market": "KRX"
     },
     {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KRX"
-    },
-    {
       "code": "JPM",
       "name": "JPMorgan Chase",
       "market": "NYSE"
@@ -354,16 +349,64 @@
   ],
   "news": [
     {
-      "title": "Oil prices ease as recovering Hormuz Strait traffic tempers war premium",
-      "link": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T04:11:13+00:00"
+      "title": "[단독] “수수료 7배 더 뜯어가”…금감원, 은행 ETF 불완전판매 검사",
+      "link": "https://www.mk.co.kr/news/economy/12113387",
+      "source": "매일경제·증권",
+      "published": "2026-07-31T06:09:54+00:00"
     },
     {
       "title": "BOJ holds rates at 1%, warns of core inflation exceeding 2% target",
       "link": "https://www.cnbc.com/2026/07/31/boj-rates-yen-intervention-inflation-japan.html",
       "source": "CNBC Finance",
-      "published": "2026-07-31T03:54:52+00:00"
+      "published": "2026-07-31T06:05:22+00:00"
+    },
+    {
+      "title": "상반기 세수 33조원 늘어나...상여로 소득세 10조원 증가",
+      "link": "https://www.mk.co.kr/news/economy/12113383",
+      "source": "매일경제·증권",
+      "published": "2026-07-31T06:02:09+00:00"
+    },
+    {
+      "title": "한국형 국부펀드 뜬다...매년 6천억 신산업 투자",
+      "link": "https://www.mk.co.kr/news/economy/12113361",
+      "source": "매일경제·증권",
+      "published": "2026-07-31T05:53:39+00:00"
+    },
+    {
+      "title": "폭락 뒤 폭등 ‘투전판’ 증시…코스피 17%대 상승 초강세 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTNmo0aHhqQlNDZ0M0NTJ6SmdiWlRMa3h4MV9PYlpsLTBSOGc5dGl3enVUNWlOR3BiaFQxaHc5SnFDdzFRcUNNbEsxN1ZrQnRacTlmMDBqZE0tbi1HcDdadENwNElNQXRlVTVVTlhsb3EwZw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T05:37:00+00:00"
+    },
+    {
+      "title": "[글로벌 증시 따라잡기] AI회의론 걷은 빅테크 실적 반도체 랠리 재개되나? - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DUjViQWg2RG1veWpac1lfeXJEU2ZjaG5Xa3hmSURSRkFKN0Zrc3lwTDVraTlyczZURFlfcThDc04xeE9OdlZadFU1ZmtHQkE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T05:31:22+00:00"
+    },
+    {
+      "title": "증시 폭등에 사이드카…삼전닉스 레버리지 규제 강화 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE85c1hPWkVneVRybjZwM3FITm1adWxrWUxGb2tZb096cVB2eE44MWhWa0pLUy1FZEM3TzRlUUlEOEk1RzFvMWZ6ZWF1ZkE4V28?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T05:07:38+00:00"
+    },
+    {
+      "title": "SEC, 美증시 23시간 거래 검토…1시간은 소프트웨어 업데이트 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81LXlFVF9QejRkTUNqcmpKYTJFQjdQVlBsbEtYeWpadUduNXBrZWNnclpsc2ppYXBtLUk3S09TenFXZ2RsTDUxbldLNmcwaDg?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T05:00:08+00:00"
+    },
+    {
+      "title": "CXMT's blockbuster debut in Shanghai sets stage for next test against global memory giants",
+      "link": "https://www.cnbc.com/2026/07/31/cxmts-sk-hynix-samsung-micron-memory-chip.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T04:31:37+00:00"
+    },
+    {
+      "title": "Oil prices ease as recovering Hormuz Strait traffic tempers war premium",
+      "link": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T04:25:53+00:00"
     },
     {
       "title": "China's factory activity unexpectedly contracts in July on demand slump, typhoons",
@@ -378,6 +421,12 @@
       "published": "2026-07-31T03:47:31+00:00"
     },
     {
+      "title": "코스피지수 급반등·BOJ 금리 동결…아시아 증시 일제히 상승 - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Eb1dNQ1RxbVM5SXdpbFQtbW5tTGRlN010QllURFRsRDRtdmJPZXh1XzVhY2NHaFlIWkdydkdpeHk1dkZhd21oSEp0MEttcHFlYkRHUFJmc3JiT01GZUdnNDFNZ1dnMXFXeTFNUFlsSjU?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T03:37:00+00:00"
+    },
+    {
       "title": "오늘의 증시 - MBC 뉴스",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4dERKUkRtZ1MtNnZRa0RfOTNKVEppZHU0Ym9LSnR2bF8xVk9tQ01YSnU0T0Y3QmxBZlhvSG40LXR6WWRDRUZzdHU5ZERPX3BMQ01QeGl4OFl4cXJvSFVRNWF1LTNzZFJjM3hHS05uNzNVQ21rcmtmWQ?oc=5",
       "source": "Google News",
@@ -390,16 +439,22 @@
       "published": "2026-07-31T03:09:50+00:00"
     },
     {
-      "title": "CXMT's blockbuster debut in Shanghai sets stage for next test against global memory giants",
-      "link": "https://www.cnbc.com/2026/07/31/cxmts-sk-hynix-samsung-micron-memory-chip.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T03:04:39+00:00"
-    },
-    {
       "title": "국힘 \"국민연금, 증시 급락에 직격탄…정권의 증시부양 펀드 아냐\" - 연합인포맥스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51Q3M2REphMlhRT09Bc2sybW5HUVRseC1XcVV4Mjg1TlBybGtWUC1EeW05emNIUGlOUEZzV2Q2d2RnX1JsTDRTc25lVC1zaWlzdl9HZURnSzBHUFFkUzAyOU1Ubko4RzVLNFlSUElTcnA?oc=5",
       "source": "Google News",
       "published": "2026-07-31T02:51:49+00:00"
+    },
+    {
+      "title": "지난달 증시 활황에 증권거래세 482% 폭증‥상반기 국세 33조 더 걷혔다 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wOFd1cUJVa1V5bmY1Y1NXOGtHenRyWFhfak5kdGFuM29hZnp6VUZOWnNaSXFtYkVROTA2eVQ3UkRtREw3VW5NcDh2bVE1ZkdXdzZZYnZNX2NkSmN2VU15TmtMZ2pQdHU0eWdGSEhkZVVQSHRW0gF0QVVfeXFMT3FOOWF5NE1CYkVuMDl6QzNQQTRXRmpNMU1hTmh6enVGODJKQ3hGdmluMy16aTFNR3E2b21nM0pzQm5JZlRjY19hb0ltaXZybFJYcDQtSHRKRmtKLTRPeU55c0E3OWV3QTl6X1NwT2QxWHRkbEc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T02:45:35+00:00"
+    },
+    {
+      "title": "올 상반기 국세 223조원 걷혔다…증시·반도체 덕에 전년比 33조↑ - kookje.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcDNQei1fdlFNMTIxNjZNV1JUU1N6bzlyQTU0bk5FOEdSZDRRem0yLXdrQUg5SU0zbVRvSkFCN2JkTnc0QS1nVVBzTkNzVlhJd0dMcldVN3BtUTlVZEljY0tEcDFlbklXWkk0anRtdVdJU05sOUNDb0ZqSWpJSGwtcVljWHZsYVZwaTU4TzBR?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T02:42:00+00:00"
     },
     {
       "title": "SEC, 美증시 23시간 거래 방안 검토 - 연합인포맥스",
@@ -418,6 +473,12 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92TjVxN1dxRXZURjRQb1FTVTJUcUtXZWR2N0NBbkFFSHJRV3J0VXZiMGdTcHNMSTJYMUh4OGgyb3ZTQlJGS2JVOWY0bThIWjd6VFZWUQ?oc=5",
       "source": "Google News",
       "published": "2026-07-31T02:33:27+00:00"
+    },
+    {
+      "title": "“증시 불안 엄중 인식”…민주당, 레버리지 규제·추가 대책 예고 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UNmcxdWtvU2d5alY4eEg5R0haa2lyMFNlSkNEdHM0QUROVVBWcWVoNkNJNU9pOFZ2aS1UaFhlWW1KYlR1ZVptMm9mVkZLZ3RmUFE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T02:19:31+00:00"
     },
     {
       "title": "“환차익 노리다 원금 손실”…고환율에 달러보험 판매 2배 급증",
@@ -456,12 +517,6 @@
       "published": "2026-07-31T02:07:53+00:00"
     },
     {
-      "title": "민주당 \"증시 급등락 엄중 인식‥레버리지 도입 과정 점검\" - MBC 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5wa25VaG5mb25WcjV6ZWxrejNYYWVLQWRyOW1WNEdmanFfTEp4S1BsRjlrWkF3cWhxQWNhYi1kdWJXQ0daTmRMeHV5QnFEVm1rMjBOenByZXpfYnlmQ1diYmxGUXdWYWRSemU4Nk9IMXV5VFBuSWJaatIBeEFVX3lxTE0tQkMwZnktMTI3RVQyb3d4Ti03TDlTc0NsRk1ReVZfYlV0NHNWZ2hHWGhaVUczRThfNXJWOFZjUzNUWmhmNkVEWkE4TDdpdmx4LVRpSFJkYUxsZlU2ZGtRWHlEbGNCVXRJNzhwOU5UcDFtQ3pfRWpTSQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T01:59:51+00:00"
-    },
-    {
       "title": "현대차증권, 증시 훈풍에 상반기 순익 '껑충' - DealSite경제TV",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUaVhWZUp2c3prcW5reTh6VE55N2pWN1lUb05hY2lKX2VYVmxmd3lBODU0WVNDenlOSkFvNGpJTE1ScU04ZE11alpXMGlVNzlmX2RLdUpR?oc=5",
       "source": "Google News",
@@ -487,15 +542,9 @@
     },
     {
       "title": "與 \"증시 우려 엄중 인식…레버리지 도입 과정·투자보호 점검\" - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zVDdtWVRzbnRzaWFpeHl0d29zUEZLMXZ3UVZIbDdmSHIwQ3lVTEl6emExTUlBMkxSV1pvTVVnTnd0SDEtSmhNU1FyV2NnQnVYU1kxUDM2TURxX1Z1eXJtRtIBYEFVX3lxTE8zVDdtWVRzbnRzaWFpeHl0d29zUEZLMXZ3UVZIbDdmSHIwQ3lVTEl6emExTUlBMkxSV1pvTVVnTnd0SDEtSmhNU1FyV2NnQnVYU1kxUDM2TURxX1Z1eXJtRg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlUmJnWUw2eE1XVHBRYTVZOHMzWEFyOFFLMTVDeDQtTGRmSmxEMHJtbXAwRFZOZUJhemtaUkhvYXF1UUNRaDVRVFplU2Rfa2x0UTZESUo1MzZ5UkXSAWBBVV95cUxPM1Q3bVlUc250c2lhaXh5dHdvc1BGSzF2d1FWSGw3ZkhyMEN5VUxJenphMU1JQTJMUldab01VZ053dEgxLUpoTVNRcldjZ0J1WFNZMVAzNk1EcV9WdXlybUY?oc=5",
       "source": "Google News",
       "published": "2026-07-31T01:27:18+00:00"
-    },
-    {
-      "title": "MS '어닝 서프라이즈'에 증시 환호…뉴욕증시 반등 이어 코스피 6000선 탈환 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBOR2prcHN3ZUdpNzhvWmJnWGdjZ2JlSXRPRFpON3RyWHc3WFNiMzQzcEFTSnhYWTN3MWxNakpkUDRPTm01QnMtTG5Rbk9CUzQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T01:14:51+00:00"
     },
     {
       "title": "Anthropic says its Claude models 'gained unauthorized access' to other organizations' systems",
@@ -508,6 +557,12 @@
       "link": "https://www.cnbc.com/2026/07/31/sk-hynix-samsung-ai-rally-chipmakers.html",
       "source": "CNBC Finance",
       "published": "2026-07-31T00:52:26+00:00"
+    },
+    {
+      "title": "오늘의 증시 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5qTVZ0Zk5WclVqcU4yNFhscVJnSHMtcmItN3FpcjFsMXdTWTBfXzgxUEN4aFBqdWNnZzlCa0tsZFpGbWZ0WVBsMGMzNUxWb3dwMTIwc181eVZSZ2ZhMEJ1TzhIOFhiYUF2QndJM3U5WDFDUE9ULUpr?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T00:41:17+00:00"
     },
     {
       "title": "Corporate insiders are sending warning signals about the stock market",
@@ -576,12 +631,6 @@
       "published": "2026-07-30T23:27:04+00:00"
     },
     {
-      "title": "[0731개장체크] 美 증시, MS 호실적·반도체 강세 속 3대 지수 상승… 나스닥 2.78%↑ By 인포스탁데일리 - kr.investing.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QTTVDMGs2OUF0bE9hdjVfbVBkcV9JV1dQV250T3plS1g1d0xhWjNLSWF1TTRaLVJYczZPS3RLSnpYSVM3OE9scm1qUkZIOC15RjdoaGhwY2l3UTNGcVZleFl4ZGdDbkZlTkV6ZVJNWVE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T23:26:00+00:00"
-    },
-    {
       "title": "증시 폭락에 ‘빚투’ 반대매매도 급증…하방 압력 키우는 변수로 떠오르나 - 조선일보",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOXzVEY3JBSllzNGUzOWFhcVVmTk4tNkpkTTEwV1gyYS0tUFFLdHZwR0hSdnRfWnp6SjMxWUJfeThjNnlUeWt0SVBxNTlXTHNvbjRLZ2NzZG1FWTdnU0FIT1FmRlEyYXlaaVRpR3cyaTFmaFp6WTdXUjlqeVFBMElHVA?oc=5",
       "source": "Google News",
@@ -594,64 +643,10 @@
       "published": "2026-07-30T23:03:09+00:00"
     },
     {
-      "title": "\"미 증시 반등, 악재서 호재로 시선 이동…반도체 숏 언와인딩 시작\" - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kdVp2Q0w1czdrRXdKVV9NTG03LTBSamVyVC1USVpxZzRYdHljeVk5Qmt2UXpmRU9CWkUzQkYtYnFWS2swSlYteFpFczRSRmV6LV9OZVBCdGRreUVJc1VJSDlFVVduNXpjS0xscmdqcW4?oc=5",
+      "title": "'0.001초의 약탈자'인가 유동성 공급자인가…증시 흔드는 초단타 매매(HFT) - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfR1preG1GUUVma3FnLVZIRDdqTUVFbUdIakNVekg3UlI1N1ZiaVliS0hGQkhrSEtfMUxNWUpxQU9PSHZjYnhuWktnV1BsNmRDX05ibG1yX2x6Zw?oc=5",
       "source": "Google News",
-      "published": "2026-07-30T22:59:29+00:00"
-    },
-    {
-      "title": "Indonesian state telecom said to weigh sale of venture arm managing $830 million",
-      "link": "https://www.cnbc.com/2026/07/31/indonesia-venture-capital-corruption-danantara-mdi-ventures-tanihub.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T22:50:12+00:00"
-    },
-    {
-      "title": "[3분증시] 뉴욕증시, MS 호실적에 3대 지수 급등 마감 - 연합뉴스 한민족센터",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DLWtfRmpvWkE1Mm9UTzE1YktLMHplbmJiTE1ubFVkbXRoWnhVSGVhRmtxdWxZdW4wazFGdWRuRlZ1ZzBxcF9PSmVRLTRScDNGMjI3YktId3prTGxpRW94M29oOUx3TlN0WHNCc2twaC1mY1d2?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T22:49:08+00:00"
-    },
-    {
-      "title": "Microsoft's Xbox chief lays out plan to pass rivals on margin by 2030 in memo to employees",
-      "link": "https://www.cnbc.com/2026/07/30/microsoft-xbox-asha-sharma-2030-plans.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T22:48:30+00:00"
-    },
-    {
-      "title": "[3분증시] 뉴욕증시, MS 호실적에 3대 지수 급등 마감 - 연합뉴스TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUUlRjQkVpaWhYc3dfU19Xc1B0WHNfUWxyYUpJM0FCRWI3WmV4Uy1EVUpzcGFZYm1yQ1k2ZmZPY2VwV1pRX1Z4U0xqWkpjRE5ramk2dkR4X1hFQUo4Si1ta1dDOFRTQk0?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T22:48:00+00:00"
-    },
-    {
-      "title": "뉴욕증시, 반도체주 반등에 강세 마감 - MBC 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XcnlqazI2S0F5U05wQUgyQnlMdWJzYU52dGt0NnVvd1JYcjVrYWhpSnRLQjduc0JxSldDQXRtdjNUQl96Nmk0alpBaDN6STNaV094QW10eEhsUko2SGUxeDRtQi1Ma0xLQllIakxJRWgxWG5TWnhlbUVB?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T22:41:22+00:00"
-    },
-    {
-      "title": "Jim Cramer says this hedge fund's blowup reveals the hidden risks of leverage",
-      "link": "https://www.cnbc.com/2026/07/30/jim-cramer-situational-awareness-blowup-reveals-hidden-risks-of-leverage.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T22:37:02+00:00"
-    },
-    {
-      "title": "“車보험 이러니 못 버티지”…한방병원 찾은 경상환자, 넷 중 셋은 눕는다",
-      "link": "https://www.mk.co.kr/news/economy/12112987",
-      "source": "매일경제·증권",
-      "published": "2026-07-30T22:29:43+00:00"
-    },
-    {
-      "title": "Meta sinks 8%, continuing record losing streak, while Microsoft jumps 15% as AI trade splits",
-      "link": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T22:28:58+00:00"
-    },
-    {
-      "title": "Reddit shares sink 11% on 'choppy' search referrals even as results blow past estimates",
-      "link": "https://www.cnbc.com/2026/07/30/reddit-rddt-q2-2026-earnings-report.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T22:28:38+00:00"
+      "published": "2026-07-30T23:00:10+00:00"
     }
   ],
   "pages": [
