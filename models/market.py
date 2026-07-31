@@ -18,6 +18,9 @@ class Quote:
     change_abs: float | None = None  # 절대 등락폭(가능한 소스만)
     session_key: str = "none"  # kr_regular|kr_night|us_regular|globex|fx|crypto_24h|none
     ref_price: float | None = None  # 기준가(야간선물·마감 스냅샷 등락률 산출 근거)
+    # 그 기준가가 '무엇'인가 — day_close=직전 정규장 종가(밤사이 변동분만),
+    # prev_close=전일 종가(당일 주간 변동 포함). 표시단 고지 문구가 이 값으로 갈린다.
+    base_kind: str | None = None
     quality: str = "unverified"  # verified|degraded|unverified — 2소스 교차검증 결과(design/23 D)
 
     @property

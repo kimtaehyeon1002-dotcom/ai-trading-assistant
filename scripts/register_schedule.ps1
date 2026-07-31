@@ -4,8 +4,11 @@
 
 .DESCRIPTION
     모닝리포트가 손으로 bat을 돌려야만 갱신되던 문제(design/23 P1)의 해결.
-    하루 2회 run_desktop_auto.bat을 실행한다:
+    하루 3회 run_desktop_auto.bat을 실행한다:
 
+      ThBot-FuturesClose     15:50 월~금  지수선물 정규장 종가 확정(마감 15:45 직후).
+                                          **그날 밤 등락률의 기준가**가 되므로 이 실행을
+                                          놓친 날 밤은 기준가 폴백으로 내려간다(design/27).
       ThBot-NightFutures-AM  04:40 화~토  야간장 마감(05:00) 직전 = 밤사이 등락 확정치.
                                           이 값이 그날 06:30 모닝리포트에 실린다.
       ThBot-Sync-PM          22:30 월~금  야간장 초반 시세 + 당일 체결 동기화.
@@ -13,6 +16,7 @@
     요일이 어긋나 보이지만 의도된 것이다 — 월요일 밤 세션은 화요일 05:00에 끝나므로,
     "월요일 밤 데이터"를 받으려면 화요일 새벽에 돌아야 한다. 금요일 밤 세션의 확정치는
     토요일 04:40에 수집되어 월요일 아침 리포트까지 쓰인다(주말 만료 60h가 이를 덮는다).
+    FuturesClose만 월~금인 이유는 종가가 정규장이 열린 날에만 생기기 때문이다.
 
 .NOTES
     전제조건
@@ -49,6 +53,12 @@ $RepoRoot = Split-Path -Parent $PSScriptRoot
 $BatPath = Join-Path $RepoRoot 'run_desktop_auto.bat'
 
 $Tasks = @(
+    @{
+        Name        = 'ThBot-FuturesClose'
+        Time        = '15:50'
+        Days        = 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'
+        Description = '지수선물 정규장 종가 확정(그날 밤 등락률 기준가) - design/27'
+    },
     @{
         Name        = 'ThBot-NightFutures-AM'
         Time        = '04:40'

@@ -205,6 +205,35 @@
 .v2-news-list-row__time { font-size: var(--type-caption-size); font-variant-numeric: tabular-nums; color: var(--text-tertiary); }
 .v2-tag { display: inline-flex; align-items: center; height: 24px; padding: 0 var(--space-2); border-radius: var(--radius-badge); border: 1px solid var(--border-default); color: var(--text-secondary); font-size: var(--type-caption-size); margin-right: var(--space-1); }
 
+/* ── 키워드 레이더(design/03 §3-5) ──
+   막대는 **무채색·길이로만** 비교한다. 이 카드가 말하는 건 방향(등락)이 아니라 분류이므로
+   유채색을 쓰면 "이 색이 등락인가?"라는 오독 비용이 생긴다(design/03 §6-1). */
+.v2-radar-row {
+  display: flex; align-items: center; gap: var(--space-3); width: 100%; height: 32px;
+  padding: 0; background: none; border: 0; cursor: pointer; text-align: left; font: inherit;
+}
+.v2-radar-row:hover .v2-radar-row__label { color: var(--text-primary); }
+.v2-radar-row:hover .v2-radar-row__bar { background: var(--text-tertiary); }
+.v2-radar-row__label { flex: 0 0 76px; font-size: 13px; font-weight: 500; color: var(--text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.v2-radar-row__track { flex: 1; height: 6px; background: var(--surface-sunken); border-radius: 3px; overflow: hidden; }
+.v2-radar-row__bar { display: block; height: 100%; background: var(--border-strong); border-radius: 3px; }
+.v2-radar-row__count { flex: 0 0 28px; text-align: right; font-size: 13px; font-variant-numeric: tabular-nums; color: var(--text-secondary); }
+/* 선택 상태 — 색이 아니라 밝기로만 구분(위 원칙 유지) */
+.v2-radar-row[aria-pressed="true"] .v2-radar-row__label,
+.v2-radar-row[aria-pressed="true"] .v2-radar-row__count { color: var(--text-primary); }
+.v2-radar-row[aria-pressed="true"] .v2-radar-row__bar { background: var(--text-secondary); }
+
+/* 필터 해제 칩 */
+.v2-filter-chip {
+  display: inline-flex; align-items: center; gap: var(--space-1); height: 24px;
+  padding: 0 var(--space-2); margin-left: var(--space-2);
+  border: 1px solid var(--border-default); border-radius: var(--radius-badge);
+  background: var(--surface-selected, transparent); color: var(--text-secondary);
+  font-size: var(--type-caption-size); font-family: inherit; cursor: pointer;
+}
+.v2-filter-chip:hover { color: var(--text-primary); border-color: var(--border-strong); }
+.v2-filter-chip[hidden] { display: none; }
+
 /* ── 거시지표 행(design/02 §3, design/20 Phase 6) ── */
 .v2-macro-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-4); }
 .v2-macro-item { padding: var(--space-4); border: 1px solid var(--border-subtle); border-radius: var(--radius-inner); }

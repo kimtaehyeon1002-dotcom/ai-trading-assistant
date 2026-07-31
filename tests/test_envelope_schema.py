@@ -69,6 +69,34 @@ def test_none_survives_as_container_null_not_dropped():
     assert body == {"kosdaq_night": None}
 
 
+def test_night_futures_basis_meta_round_trips_through_envelope(schema_registry):
+    """야간선물의 등락 기준(ref_price·base_kind)이 캐시→Quote→market.json까지 살아남는다.
+
+    중간 어디서든 떨어지면 화면은 "무엇 대비인지 모르는 %"로 되돌아간다(design/27).
+    """
+    from config.markets import BASE_DAY_CLOSE
+
+    validated = {
+        "kospi_night": {"price": 867.6, "change_pct": -2.25, "source": "kiwoom",
+                        "as_of": "2026-07-30T15:02:17+00:00",
+                        "ref_price": 887.6, "base_kind": BASE_DAY_CLOSE},
+    }
+    quotes = to_quotes(validated)
+    assert quotes["kospi_night"].ref_price == 887.6
+    assert quotes["kospi_night"].base_kind == BASE_DAY_CLOSE
+
+    env = to_envelope_dict(quotes)["kospi_night"]
+    assert env["ref_price"] == 887.6 and env["base_kind"] == BASE_DAY_CLOSE
+    body = {"as_of": "2026-07-31T00:02:00+09:00", **to_envelope_dict(quotes)}
+    assert list(_market_validator().iter_errors(body)) == []
+
+
+def test_basis_meta_absent_for_symbols_without_it():
+    """Yahoo 심볼엔 base_kind가 붙지 않는다 — 빈 값을 넣어 스키마 enum을 깨뜨리지 않는다."""
+    quotes = to_quotes({"sp500": {"price": 6214.85, "change_pct": 0.52, "source": "yahoo"}})
+    assert "base_kind" not in to_envelope_dict(quotes)["sp500"]
+
+
 def test_change_abs_derived_from_previous_close_when_available():
     validated = {"dow": {"price": 44458.30, "change_pct": 0.49, "source": "yahoo", "previous_close": 44240.10}}
     quotes = to_quotes(validated)

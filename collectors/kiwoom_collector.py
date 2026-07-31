@@ -25,6 +25,31 @@ def collect() -> dict[str, dict | None]:
     return out
 
 
+def save_day_close(trading_day: str, quotes: dict[str, float]) -> None:
+    """당일 정규장 종가 스냅샷 저장 — 그날 밤 등락률의 기준가(design/27).
+
+    trading_day("YYYY-MM-DD")를 함께 박는 것이 핵심이다. 날짜 없이 값만 두면 수집을 하루
+    거른 날 **어제 종가**를 오늘 밤의 기준으로 삼게 되는데, 그것이 애초에 고치려던 결함
+    (기준가가 하루 밀림)과 정확히 같은 실패다.
+    """
+    data = load_json(_CACHE, default={}) or {}
+    data["day_close"] = {
+        "trading_day": trading_day,
+        "as_of": datetime.now(timezone.utc).isoformat(),
+        "quotes": {k: v for k, v in quotes.items() if isinstance(v, (int, float)) and v > 0},
+    }
+    save_json(_CACHE, data)
+
+
+def load_day_close(trading_day: str) -> dict[str, float]:
+    """{'kospi_night': 종가, ...} — 기준 거래일이 일치할 때만. 어긋나면 {}(폴백 유도)."""
+    entry = (load_json(_CACHE, default={}) or {}).get("day_close")
+    if not isinstance(entry, dict) or entry.get("trading_day") != trading_day:
+        return {}
+    quotes = entry.get("quotes")
+    return quotes if isinstance(quotes, dict) else {}
+
+
 def save_night_futures(kospi: dict | None = None, kosdaq: dict | None = None) -> None:
     """데스크톱(Kiwoom 로그인 환경)에서 호출. 인자 예: {'price': 345.2, 'change_pct': 0.4}"""
     now = datetime.now(timezone.utc).isoformat()

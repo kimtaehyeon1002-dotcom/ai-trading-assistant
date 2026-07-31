@@ -10,6 +10,7 @@ from calculators import news_rank, themes as themes_calc
 from config.settings import CACHE_DIR
 from generators import pipelines
 from models.report import MorningReportData
+from repositories import market_repository
 from utils import runlog
 from utils.dates import fmt_kst, now_kst, today_str
 from utils.jsonio import save_json
@@ -54,10 +55,11 @@ def _build_data() -> MorningReportData:
     us_rows = [market[k] for k in _US_KEYS if market.get(k)]
 
     notes: list[str] = []
-    if market.get("kospi_night") is None and market.get("kosdaq_night") is None:
+    night_note = market_repository.night_basis_note(market)
+    if night_note is None:
         notes.append("야간선물 데이터 없음 — 데스크톱 Kiwoom 동기화 시 표시됩니다.")
     else:
-        notes.append("야간선물 등락률은 전일 정규장 종가 대비입니다(당일 주간 변동 포함).")
+        notes.append(night_note)
     if not us_rows:
         notes.append("미국시장 데이터를 불러오지 못했습니다(소스 지연/오프라인).")
     if not top7:

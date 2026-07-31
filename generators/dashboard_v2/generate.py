@@ -17,6 +17,7 @@ from config.settings import DOCS_DIR
 from generators import pipelines
 from generators.base import render
 from models.market import Quote
+from repositories import market_repository
 from utils.dates import fmt_kst, now_kst
 
 # 주간지수 → 야간선물 → 환율 순(2열 그리드에서 행 단위로 짝이 맞는다).
@@ -80,6 +81,9 @@ def _build_context() -> dict:
         "headline": _headline(market),
         "market": market,
         "kr_tiles": [(k, market.get(k)) for k in _KR_TILE_KEYS],
+        # 야간선물 등락 기준 고지(design/27). 모닝 dated 페이지 은퇴 후 대시보드가 유일한
+        # 표시면이므로, 여기 없으면 "이 %가 무엇 대비인가"를 사이트 어디서도 알 수 없다.
+        "kr_basis_note": market_repository.night_basis_note(market),
         "us_tiles": [(k, market.get(k)) for k in _US_TILE_KEYS],
         "top_news": top5,
         "recent_news": [(a, news_categories.primary_label(a)) for a in recent],

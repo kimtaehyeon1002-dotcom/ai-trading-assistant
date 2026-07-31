@@ -28,6 +28,10 @@
     "expected_T_min": { "type": "integer", "minimum": 1 },
     "freshness_basis": { "enum": ["as_of", "collected_at"] },
     "ref_price": { "type": ["number", "null"] },
+    "base_kind": {
+      "description": "change_pct의 기준가 정체(design/27). day_close=직전 정규장 종가 대비(야간선물의 밤사이 변동분만), prev_close=전일 종가 대비(당일 주간 변동 포함 — 종가 확보 실패 시 폴백).",
+      "enum": ["day_close", "prev_close"]
+    },
     "label": { "type": "string" },
     "quality": {
       "description": "독립 2소스 교차검증 결과(design/23 D). verified=허용오차 이내 일치, degraded=소스 간 불일치(값은 유지하되 표시단 경고), unverified=대조 소스 없음.",

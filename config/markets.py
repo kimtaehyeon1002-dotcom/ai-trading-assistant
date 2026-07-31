@@ -45,6 +45,20 @@ EXTENDED_SYMBOLS: list[tuple[str, str, str]] = [
 # STALE 배지를 달아, 배지가 게시 정책과 어긋나 보인다(design/23 P2).
 _NIGHT_FUTURES_EXPECTED_T_MIN = (NIGHT_FUTURES_MAX_AGE_WEEKEND_H // 3) * 60
 
+# ── 야간선물 등락 기준(design/27) ──────────────────────────────────────────────
+# 수집기(collectors/kiwoom_desktop/futures.py)는 PyQt/OCX 의존이라 CI·표시단에서 import할 수
+# 없다. 기준 상수와 고지 문구는 양쪽이 공유해야 하므로 수집기가 아니라 여기에 둔다.
+BASE_DAY_CLOSE = "day_close"    # 직전 정규장 종가 대비 = 밤사이 변동분만(목표 기준)
+BASE_PREV_CLOSE = "prev_close"  # Kiwoom 기준가(전일 종가) 대비 = 당일 주간 변동 포함(폴백)
+
+# 표시단 고지 — 어느 기준으로 잰 수치인지 화면에서 숨기지 않는다. 두 값의 의미가 다른데
+# 같은 "야간선물 -3.46%" 모양으로 나가면 읽는 쪽이 구분할 방법이 없다(2026-07-31 실제 오독).
+NIGHT_BASIS_NOTE: dict[str, str] = {
+    BASE_DAY_CLOSE: "야간선물 등락률은 직전 정규장 종가 대비입니다(밤사이 변동분).",
+    BASE_PREV_CLOSE: ("야간선물 등락률은 전일 정규장 종가 대비입니다"
+                      "(정규장 종가 미확보 — 당일 주간 변동이 포함됩니다)."),
+}
+
 # Envelope 메타(unit, session_key, expected_T_min, scale) — market.json 심볼별 정의.
 # session_key: kr_regular|kr_night|us_regular|globex|fx|crypto_24h|none (schema/envelope.schema.json)
 # expected_T_min(분): design/21 §6-2 실측표. scale: 수집값 → 표시값 배율(기본 1.0).

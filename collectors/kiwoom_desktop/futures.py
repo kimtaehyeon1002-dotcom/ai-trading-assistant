@@ -12,7 +12,14 @@ from __future__ import annotations
 import re
 
 from collectors.kiwoom_desktop.api import KiwoomAPI, fix_mojibake
-from config.calendar import KR_NIGHT_CLOSE, KR_NIGHT_OPEN, is_kr_night_session
+from config.calendar import (
+    KR_FUTURES_REGULAR_CLOSE,
+    KR_NIGHT_CLOSE,
+    KR_NIGHT_OPEN,
+    is_kr_futures_close_window,
+    is_kr_night_session,
+)
+from config.markets import BASE_DAY_CLOSE, BASE_PREV_CLOSE
 from utils.dates import now_kst
 from utils.logging import get_logger
 
@@ -21,11 +28,19 @@ log = get_logger("collectors.kiwoom_futures")
 TR_CODE = "opt50001"
 RQ_NAME = "opt50001_quote"
 
-# 실계좌 검증(2026-07-06): 기준가 = **전일 정규장 종가**. 야간세션 중 등락률은 '전일종가
-# 대비'(거래소 관례)로 당일 주간 변동을 포함하며 '밤사이 변동분'이 아니다(주간 종가는
-# opt50001에 없어 야간분 분리 불가 — 리포트 morning notes에 기준 명시).
-# Kiwoom 제공 '등락율'은 야간세션 중 기준(정산가/주간종가)이 애매해 현물과 크게 벌어지는
-# 값이 나오는 사례가 있어 그대로 믿지 않고, 기준가로 등락률을 **직접 계산**한다(폴백만 등락율).
+# 실계좌 검증(2026-07-06 / 2026-07-31 재확인): opt50001의 기준가는 야간세션 중에도 **직전
+# 정규장의 전일 종가**에 머문다 — 즉 방금 끝난 정규장 종가로 롤오버되지 않는다. 그래서 이
+# 기준가로 계산한 등락률에는 당일 주간 변동이 통째로 섞인다(2026-07-30 야간 -3.46% 중
+# -1.2%p가 그날 주간 하락분이었다).
+#   재확인 근거(sync_auto.log 원본 필드 + 현물 종가 대조, 기준가/현물 비율):
+#     07-28 22:30 기준가 1074.50 / KOSPI 07-27 종가 = 0.15905
+#     07-29 22:34 기준가  956.75 / KOSPI 07-28 종가 = 0.15884
+#     07-31 00:01 기준가  898.65 / KOSPI 07-29 종가 = 0.15868   ← 07-30 종가가 아니다
+# 따라서 '밤사이 변동'을 얻으려면 당일 정규장 종가를 **따로 수집해** 기준으로 삼아야 한다
+# (opt50001엔 주간 종가 필드가 없다 — 정산가·전일비는 실측에서 항상 빈 값이었다).
+# 그 수집 창이 config.calendar.is_kr_futures_close_window(15:45~18:00)이며, 확보 실패 시에만
+# 기준가 폴백(BASE_PREV_CLOSE)으로 내려가고 그 사실을 값에 붙여 표시단까지 전달한다.
+# Kiwoom 제공 '등락율'은 기준이 애매해 그대로 믿지 않고 항상 직접 계산한다(폴백만 등락율).
 _FIELD_CANDIDATES: dict[str, tuple[str, ...]] = {
     "price": ("현재가",),
     "base": ("기준가", "기준가격", "정산가"),  # 전일 정규장 종가(등락 기준가)
@@ -95,10 +110,12 @@ def discover_front_month(api: KiwoomAPI) -> dict[str, str]:
 
 
 def fetch_quote(api: KiwoomAPI, code: str) -> dict | None:
-    """opt50001 단일 시세 → {'price': float, 'change_pct': float|None} | None.
+    """opt50001 단일 시세 → {'price', 'change_pct', 'ref_price', 'base_kind'} | None.
 
-    등락률은 기준가(전일 정규장 종가)로 직접 계산한다. 기준가가 없을 때만 Kiwoom '등락율'로
-    폴백. 마감·개장전엔 현재가=기준가라 등락률이 0.0이 되며, 이는 상위(sync/validator)에서
+    여기서 계산하는 등락률은 항상 Kiwoom 기준가(=직전 정규장의 **전일** 종가) 대비이므로
+    base_kind는 BASE_PREV_CLOSE다. 야간 시세를 '밤사이 변동'으로 바꾸는 환산은 당일 정규장
+    종가를 아는 호출부가 rebase_to_day_close()로 수행한다.
+    마감·개장전엔 현재가=기준가라 등락률이 0.0이 되며, 이는 상위(sync/validator)에서
     '유효 시세 아님'으로 걸러 직전 값을 유지한다.
     """
     api.set_input("종목코드", code)
@@ -116,22 +133,40 @@ def fetch_quote(api: KiwoomAPI, code: str) -> dict | None:
     price = abs(price)  # Kiwoom은 하락 시 현재가에 '-' 부호(가격은 양수로 정규화)
     if not price:
         return None
-    if base and abs(base) > 0:
-        change_pct = round((price / abs(base) - 1) * 100, 2)  # 전일 정규장 종가 대비
-    else:
-        change_pct = kw_chg
+    ref = abs(base) if base and abs(base) > 0 else None
+    change_pct = round((price / ref - 1) * 100, 2) if ref else kw_chg
     log.info("선물 등락 %s: price=%s base=%s → chg=%s%% (kiwoom등락률=%s)",
-             code, price, base, change_pct, kw_chg)
-    return {"price": price, "change_pct": change_pct}
+             code, price, ref, change_pct, kw_chg)
+    return {"price": price, "change_pct": change_pct,
+            "ref_price": ref, "base_kind": BASE_PREV_CLOSE}
 
 
-def fetch_night_futures(api: KiwoomAPI) -> dict[str, dict | None]:
-    """야간선물(=최근월 지수선물) 일괄 조회. 야간 시간대에 실행해야 야간 시세가 잡힌다."""
+def fetch_front_month_quotes(api: KiwoomAPI) -> dict[str, dict | None]:
+    """최근월 지수선물 2종 일괄 조회 — 창(야간/마감)에 관계없이 '지금 시세'를 그대로 돌려준다.
+
+    무엇으로 해석할지(야간 시세인가, 당일 정규장 종가인가)는 호출 시각이 결정하므로
+    창 판정은 호출부(app.sync)가 한다.
+    """
     codes = discover_front_month(api)
     return {
         "kospi_night": fetch_quote(api, codes["kospi_night"]) if codes.get("kospi_night") else None,
         "kosdaq_night": fetch_quote(api, codes["kosdaq_night"]) if codes.get("kosdaq_night") else None,
     }
+
+
+def rebase_to_day_close(leg: dict, day_close: float | None) -> dict:
+    """야간 시세를 '직전 정규장 종가 대비'로 환산 — 당일 주간 변동분을 걷어낸다.
+
+    day_close가 없거나 비정상이면 원본(기준가 대비)을 그대로 돌려준다. 값을 지어내지 않고
+    base_kind로 '어느 기준인지'를 정직하게 남기는 것이 폴백의 계약이다.
+    """
+    price = leg.get("price")
+    if not day_close or day_close <= 0 or not price:
+        return leg
+    return {**leg,
+            "change_pct": round((price / day_close - 1) * 100, 2),
+            "ref_price": day_close,
+            "base_kind": BASE_DAY_CLOSE}
 
 
 def night_session_state() -> tuple[bool, str]:
@@ -146,3 +181,17 @@ def night_session_state() -> tuple[bool, str]:
         return True, f"야간 세션 중({KR_NIGHT_OPEN}~{KR_NIGHT_CLOSE} KST, 현재 {now:%H:%M})"
     return False, (f"야간 세션 아님(창 {KR_NIGHT_OPEN}~{KR_NIGHT_CLOSE} KST, 현재 {now:%H:%M}) "
                    f"— 조회해도 마감 스냅샷만 나온다")
+
+
+def close_window_state() -> tuple[bool, str]:
+    """(정규장 종가 확정 창인가, 사람이 읽는 상태 문구).
+
+    이 창(15:45~18:00)에서 받은 현재가가 곧 당일 정규장 종가이고, 그것이 그날 밤 등락률의
+    기준가가 된다. 창을 놓치면 그 밤은 기준가 폴백으로 내려간다(값이 사라지진 않는다).
+    """
+    now = now_kst()
+    if is_kr_futures_close_window(now):
+        return True, (f"정규장 종가 확정 창({KR_FUTURES_REGULAR_CLOSE}~{KR_NIGHT_OPEN} KST, "
+                      f"현재 {now:%H:%M})")
+    return False, (f"종가 확정 창 아님(창 {KR_FUTURES_REGULAR_CLOSE}~{KR_NIGHT_OPEN} KST, "
+                   f"현재 {now:%H:%M})")

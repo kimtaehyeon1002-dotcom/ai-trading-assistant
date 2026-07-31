@@ -87,6 +87,8 @@
     </div>
     {% endfor %}
   </div>
+  {# 야간선물 등락 기준 고지(design/27) — 주간지수와 기준이 다른 값이 같은 카드에 섞여 있다 #}
+  {% if kr_basis_note %}<div class="v2-card__footer">{{ kr_basis_note }}</div>{% endif %}
 {% endcall %}
 
 {% call cardm.card_shell('standard', span='v2-span-6', card_id='dash-us') %}
