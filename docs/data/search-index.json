@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31T20:03:12.201061+00:00",
+  "as_of": "2026-07-31T20:53:21.174390+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -344,6 +344,54 @@
   ],
   "news": [
     {
+      "title": "FIFA tests the limits of private equity in sports with World Cup subsidiary sale",
+      "link": "https://www.cnbc.com/2026/07/31/fifa-world-cup-private-equity-sports.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T20:40:51+00:00"
+    },
+    {
+      "title": "뉴욕증시, 아마존 실적 훈풍에 강세 마감…나스닥 1%↑ - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5nMzZ5Z0lOVkU2Zzh5dFFxR2V0ZkgtVTdOR3NydkoxX0pwc0FTSWMtZUlQZ2U2X1kydHNGdXJyYllMdkRKUFp4bnFRZmM5UDQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T20:34:50+00:00"
+    },
+    {
+      "title": "Hamas says Trump's Gaza 'disarmament' claim depends on Israel honoring commitments",
+      "link": "https://www.cnbc.com/2026/07/31/trump-hamas-disarmament-conditions.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T20:24:29+00:00"
+    },
+    {
+      "title": "Did China build a top-tier AI model by itself? A new report suggests Nvidia chips played a role.",
+      "link": "https://www.marketwatch.com/story/did-china-build-a-top-tier-ai-model-by-itself-a-new-report-suggests-nvidia-chips-played-a-role-ad4644cd?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-31T20:23:00+00:00"
+    },
+    {
+      "title": "Job seekers can now spend thousands on AI certificates. Is it worth it?",
+      "link": "https://www.marketwatch.com/story/is-spending-thousands-of-dollars-on-an-ai-certification-worth-it-heres-how-to-decide-f73e49c6?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-31T20:20:00+00:00"
+    },
+    {
+      "title": "How Leopold Aschenbrenner built a $45 billion AI hedge fund — and lost most of it in days",
+      "link": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T20:19:03+00:00"
+    },
+    {
+      "title": "Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week",
+      "link": "https://www.cnbc.com/2026/07/31/apple-aapl-amazon-amzn-stock-today.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T20:17:54+00:00"
+    },
+    {
+      "title": "[뉴욕증시-1보] MS 이어 아마존까지 연타석 홈런…강세 마감 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kWTdjMlZobjU2c0twWUo1ZGxTaUsxYi1nMERFaG52UG15REdjUXd0YUdHYlBFaC0zdGszTDB6THctaTRuQUJodl9TWXJvSDNNOXpRbW9XbXhlOGJmeGEzQU9RZjc4OHRISV91TUJDVEjSAXRBVV95cUxQWHpPQndRUGdzWTZiRkZJb1VWRlZXVnZHMjJtejFmbVRvY3ZraVJCOEd0bWVDRXVPQ1drdjBnbXNYbzdXM1VCZmtWU2k3VHY2OGhaUlhoOW1RcEV6ODBDQWdOQ3FBbWFRb3pLQ0NiemtoVnVhNQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T20:13:24+00:00"
+    },
+    {
       "title": "엔화 개입 하루 만에 다시 160엔대 … 금리 동결한 일본은행, 12월엔 올릴까",
       "link": "https://www.mk.co.kr/news/economy/12113664",
       "source": "매일경제·증권",
@@ -356,28 +404,22 @@
       "published": "2026-07-31T20:00:00+00:00"
     },
     {
-      "title": "FIFA tests the limits of private equity in sports with World Cup subsidiary sale",
-      "link": "https://www.cnbc.com/2026/07/31/fifa-world-cup-private-equity-sports.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T19:55:37+00:00"
-    },
-    {
       "title": "Dwindling cash and soaring memory costs: Tech's AI buildout has ballooning price tag",
       "link": "https://www.cnbc.com/2026/07/31/tech-earnings-cash-memory-ai.html",
       "source": "CNBC Finance",
       "published": "2026-07-31T19:55:13+00:00"
     },
     {
+      "title": "Eaton shares jump as its earnings and outlook show resilience of the AI buildout",
+      "link": "https://www.cnbc.com/2026/07/31/eaton-jumps-as-its-earnings-and-outlook-signal-hope-for-the-ai-buildout.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T19:43:14+00:00"
+    },
+    {
       "title": "국제유가, 호르무즈 유조선 피습에 1% 상승…브렌트 90달러대",
       "link": "https://www.yna.co.kr/view/AKR20260801005500072",
       "source": "연합뉴스·경제",
       "published": "2026-07-31T19:34:14+00:00"
-    },
-    {
-      "title": "Hamas says Trump's Gaza 'disarmament' claim depends on Israel honoring commitments",
-      "link": "https://www.cnbc.com/2026/07/31/trump-hamas-disarmament-conditions.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T19:26:06+00:00"
     },
     {
       "title": "We’re in our 60s with $1.5 million. Would a trust be more effective than a will to prevent conflict among our heirs?",
@@ -390,12 +432,6 @@
       "link": "https://www.cnbc.com/2026/07/31/spider-man-brand-new-day-box-office-preview-sales.html",
       "source": "CNBC Finance",
       "published": "2026-07-31T19:12:06+00:00"
-    },
-    {
-      "title": "How Leopold Aschenbrenner built a $45 billion AI hedge fund — and lost most of it in days",
-      "link": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T19:07:44+00:00"
     },
     {
       "title": "It’s getting easier for terminally ill people to end their own lives. What to know as laws change.",
@@ -426,12 +462,6 @@
       "link": "https://www.cnbc.com/2026/07/31/top-investment-ideas-as-interest-rate-uncertainty-grips-market-.html",
       "source": "CNBC Finance",
       "published": "2026-07-31T18:46:45+00:00"
-    },
-    {
-      "title": "Andy Jassy soothed concerns over Amazon's massive AI spending. Here's how he did it",
-      "link": "https://www.cnbc.com/2026/07/31/andy-jassy-soothed-concerns-over-amazons-massive-ai-spending-heres-how-he-did-it-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T18:34:20+00:00"
     },
     {
       "title": "AI stocks may have bottomed out. What investors should watch for next.",
@@ -480,18 +510,6 @@
       "link": "https://www.marketwatch.com/story/warshs-fed-is-failing-to-stick-to-its-own-principles-for-good-monetary-policy-0d4e45ef?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-31T17:38:00+00:00"
-    },
-    {
-      "title": "‘Don’t get suckered like I did’: I paid $185 to the wrong passport website. Can I get my money back?",
-      "link": "https://www.marketwatch.com/story/dont-get-suckered-like-i-did-i-paid-185-to-the-wrong-passport-website-can-i-get-my-money-back-3a781412?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-31T17:30:00+00:00"
-    },
-    {
-      "title": "HSAs can be a great retirement tool – if you’re healthy or wealthy",
-      "link": "https://www.marketwatch.com/story/hsas-can-be-a-great-retirement-tool-if-youre-healthy-or-wealthy-5a3e2991?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-31T17:20:00+00:00"
     },
     {
       "title": "As Warsh’s Fed faces pressure to act on inflation, these indicators show it’s at its lowest in years",
@@ -624,24 +642,6 @@
       "link": "https://www.mk.co.kr/news/economy/12113863",
       "source": "매일경제·증권",
       "published": "2026-07-31T11:03:53+00:00"
-    },
-    {
-      "title": "New Medicaid work rules could cause patients to lose coverage, rare disease advocates warn",
-      "link": "https://www.cnbc.com/2026/07/31/new-medicaid-work-rules-insurance-coverage-rare-disease-patients.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T11:00:01+00:00"
-    },
-    {
-      "title": "Iran targets strategic U.S. assets in Kuwait, Bahrain after Egypt drone attack",
-      "link": "https://www.cnbc.com/2026/07/31/us-iran-war-trump-hormuz.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T10:32:14+00:00"
-    },
-    {
-      "title": "사이드카 23번·서킷브레이커 6번 발동된 7월…극한 변동성 韓증시 ‘몸살’ - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNkdqSWJmQWYzZGhhM2haVGxDUmt2QzdqcnlUdXlkRXNpaWh1V1hfWlNvdnpHV3FSdDJJaFN0MTZkSHQ1cm1KX0NNcU94MUpSWVoxN2hLbzlSMnZ2V2pkb1RJZG5FTms3SGd6UkZBQnJ2Nl81OGtIWFNpVC0yWDNEMmZTNW5MaGxt0gGcAUFVX3lxTFBTVksxVUU0Ti1HaTdEakZsQTJGUDcwTUxVbFNKbm42b05WcmkweC1wRmR2TFpfSm1TbUtmRnBFU2JJbkpaZUw2UERMckFSQ3VtSUFvN25rU1lWQ3lqX2JOZjNLdEhrX1BiV29VdW1KU2t6QTZYcFlqZ3dRNFREdFRfNFhWZG1rdU1sNVRCVWwtZkdCX042Qml3UmQxRg?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T10:31:00+00:00"
     }
   ],
   "pages": [
