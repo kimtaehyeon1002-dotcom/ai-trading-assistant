@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31T02:39:20.244356+00:00",
+  "as_of": "2026-07-31T03:59:56.669326+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,66 @@
   ],
   "news": [
     {
+      "title": "BOJ holds rates at 1%, warns of core inflation exceeding 2% target",
+      "link": "https://www.cnbc.com/2026/07/31/boj-rates-yen-intervention-inflation-japan.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T03:54:52+00:00"
+    },
+    {
+      "title": "China's factory activity unexpectedly contracts in July on demand slump, typhoons",
+      "link": "https://www.cnbc.com/2026/07/31/china-pmi-factory-activity-economic-growth-exports-.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T03:49:55+00:00"
+    },
+    {
+      "title": "South Korea's 'bipolar' stock market: meltdowns, a record rally and what's to come",
+      "link": "https://www.cnbc.com/2026/07/31/south-korea-kospi-samsung-sk-hynix-meltdown-record-rebound.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T03:47:31+00:00"
+    },
+    {
+      "title": "코스피지수 급반등·BOJ 금리 동결…아시아 증시 일제히 상승 - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Eb1dNQ1RxbVM5SXdpbFQtbW5tTGRlN010QllURFRsRDRtdmJPZXh1XzVhY2NHaFlIWkdydkdpeHk1dkZhd21oSEp0MEttcHFlYkRHUFJmc3JiT01GZUdnNDFNZ1dnMXFXeTFNUFlsSjU?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T03:37:00+00:00"
+    },
+    {
+      "title": "오늘의 증시 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4dERKUkRtZ1MtNnZRa0RfOTNKVEppZHU0Ym9LSnR2bF8xVk9tQ01YSnU0T0Y3QmxBZlhvSG40LXR6WWRDRUZzdHU5ZERPX3BMQ01QeGl4OFl4cXJvSFVRNWF1LTNzZFJjM3hHS05uNzNVQ21rcmtmWQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T03:21:05+00:00"
+    },
+    {
+      "title": "급반등해 좋지만…'급등락·폭락·폭등' 널뛰기에 어지러운 증시 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKQ0NwNzMwRWJ0a2tUb1pVcjZDMzNJOEpBd01UdjVmM0FZVFRVLVU0YU41RGoyXzQ5d0VCN1h0MXdYNDktTlZ5ZHF5bDBrb28?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T03:09:50+00:00"
+    },
+    {
+      "title": "증시 폭등에 사이드카…삼전닉스 레버리지 규제 강화 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qTEk5TmNOUC1mZ3h6Rm04eklRSE1jdzRQdnJJZUtCMlppYlZseWZjZFhNLVNzTU1GWHhtNGJ3Tk1VMUppbVIyZTI2RFFMbVU?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T03:09:39+00:00"
+    },
+    {
+      "title": "CXMT's blockbuster debut in Shanghai sets stage for next test against global memory giants",
+      "link": "https://www.cnbc.com/2026/07/31/cxmts-sk-hynix-samsung-micron-memory-chip.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T03:04:39+00:00"
+    },
+    {
+      "title": "국힘 \"국민연금, 증시 급락에 직격탄…정권의 증시부양 펀드 아냐\" - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51Q3M2REphMlhRT09Bc2sybW5HUVRseC1XcVV4Mjg1TlBybGtWUC1EeW05emNIUGlOUEZzV2Q2d2RnX1JsTDRTc25lVC1zaWlzdl9HZURnSzBHUFFkUzAyOU1Ubko4RzVLNFlSUElTcnA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T02:51:49+00:00"
+    },
+    {
+      "title": "SEC, 美증시 23시간 거래 방안 검토 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2NFpPRHE3SnV3T25WVFFiMFBlU2dyUFVKZklXMHBfX29nbzNSV20zSzZwUkNodDhQaFpjWFJWSlh6WVMyYm5iQXZtX29SSDlmN2Qya1MwSTQ0RTVyZmxfNkQ1dkFNZlh5WmNGbmVJd04?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T02:36:58+00:00"
+    },
+    {
       "title": "증시 거래 폭증에 세수도 ‘잭팟’…상반기 국세 33조 늘었다",
       "link": "https://www.mk.co.kr/news/economy/12113243",
       "source": "매일경제·증권",
@@ -370,12 +430,6 @@
       "link": "https://www.mk.co.kr/news/economy/12113225",
       "source": "매일경제·증권",
       "published": "2026-07-31T02:17:31+00:00"
-    },
-    {
-      "title": "與 “증시 우려 엄중 인식…레버리지 도입 과정·투자보호 점검” - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8ybnl6LVgxVVlsZTM0WFVsN210ak1iamdiVF9NcEZoRjloQVlLNG9faEp3QjBnMHVsUi13ZldWNnhOcUU3R1d2R2xnYlNtelk?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T02:15:36+00:00"
     },
     {
       "title": "기업은행 “2030년까지 취약계층에 30조 지원”",
@@ -402,22 +456,16 @@
       "published": "2026-07-31T02:07:53+00:00"
     },
     {
-      "title": "China's factory activity unexpectedly contracts in July as export rush fades",
-      "link": "https://www.cnbc.com/2026/07/31/china-pmi-factory-activity-economic-growth-exports-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T02:06:06+00:00"
-    },
-    {
-      "title": "민주당 \"증시 급등락 엄중 인식‥레버리지 도입 과정 점검\" - imnews.imbc.com",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5wa25VaG5mb25WcjV6ZWxrejNYYWVLQWRyOW1WNEdmanFfTEp4S1BsRjlrWkF3cWhxQWNhYi1kdWJXQ0daTmRMeHV5QnFEVm1rMjBOenByZXpfYnlmQ1diYmxGUXdWYWRSemU4Nk9IMXV5VFBuSWJaatIBeEFVX3lxTE0tQkMwZnktMTI3RVQyb3d4Ti03TDlTc0NsRk1ReVZfYlV0NHNWZ2hHWGhaVUczRThfNXJWOFZjUzNUWmhmNkVEWkE4TDdpdmx4LVRpSFJkYUxsZlU2ZGtRWHlEbGNCVXRJNzhwOU5UcDFtQ3pfRWpTSQ?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T01:59:51+00:00"
-    },
-    {
       "title": "현대차증권, 증시 훈풍에 상반기 순익 '껑충' - DealSite경제TV",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUaVhWZUp2c3prcW5reTh6VE55N2pWN1lUb05hY2lKX2VYVmxmd3lBODU0WVNDenlOSkFvNGpJTE1ScU04ZE11alpXMGlVNzlmX2RLdUpR?oc=5",
       "source": "Google News",
       "published": "2026-07-31T01:52:29+00:00"
+    },
+    {
+      "title": "국힘 \"증시 대혼란에 국민 자산 희생…경제라인 6인방 경질해야\" - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3RmdkY2NBMEFXbU4xLXFzWnp1TWplaHJEWENzaktyQ1hiajJoOVNZeUNfNWc3NGtDdnBSWmxaM3RNczhwV1ZhbndYaVotUy1rTDNWbDZSLWtzdmNSYkFhRNIBYEFVX3lxTFA3RmdkY2NBMEFXbU4xLXFzWnp1TWplaHJEWENzaktyQ1hiajJoOVNZeUNfNWc3NGtDdnBSWmxaM3RNczhwV1ZhbndYaVotUy1rTDNWbDZSLWtzdmNSYkFhRA?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T01:45:53+00:00"
     },
     {
       "title": "與 \"증시 비상 상황으로 인식…당정 협의 통해 대책 마련\" - 연합인포맥스",
@@ -456,24 +504,6 @@
       "published": "2026-07-31T00:52:26+00:00"
     },
     {
-      "title": "오늘의 증시 - imnews.imbc.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5qTVZ0Zk5WclVqcU4yNFhscVJnSHMtcmItN3FpcjFsMXdTWTBfXzgxUEN4aFBqdWNnZzlCa0tsZFpGbWZ0WVBsMGMzNUxWb3dwMTIwc181eVZSZ2ZhMEJ1TzhIOFhiYUF2QndJM3U5WDFDUE9ULUpr?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T00:41:17+00:00"
-    },
-    {
-      "title": "[이 시각 시황] 코스피 6,300 돌파…반도체가 증시 이끌었다 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wd0pzSDJZLWQ5cXJUREFvVURqTWtRaFhvMnNJWmZpZGVzRUkxWWczYWVJbHFHV29YM21FaktZcXlQZ3RtUjY5YWVkX2thOHc?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T00:40:12+00:00"
-    },
-    {
-      "title": "SEC, 美증시 23시간 거래 방안 검토 - KB Think",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9UcXZ3RVNIaTlBMHpCREhDZEdYMXNTMHRLNFpyeU1UMncyeTNmdFEyNERxVTV5dUIxbmlWNG4zb3FXSjh5d1JZelpFWGgxZjRzdzkxT3pSSDl2MzROOElhc0x0TDFfSGtsaUlSR0VSNzVndw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T00:36:57+00:00"
-    },
-    {
       "title": "Corporate insiders are sending warning signals about the stock market",
       "link": "https://www.marketwatch.com/story/the-warning-signal-insiders-are-sending-f0538ddf?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -496,12 +526,6 @@
       "link": "https://www.cnbc.com/2026/07/30/tim-cook-sees-apples-hybrid-ai-strategy-as-a-competitive-weapon-.html",
       "source": "CNBC Finance",
       "published": "2026-07-31T00:23:53+00:00"
-    },
-    {
-      "title": "[속보] 증시 급등에 코스피·코스닥 동시 매수 사이드카 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1XUVhZdFRwOXd2UWF3YV9SSG1lNXZBcjBHS2Q4ZXNObkRTd2RtN3poWHFhdWlOeTh4bjkwLU42akNOUm5nakloU3Q0czNSaEU?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T00:16:43+00:00"
     },
     {
       "title": "My friend and her husband own real estate. How can her children from a previous marriage get their fair share?",
@@ -534,12 +558,6 @@
       "published": "2026-07-31T00:06:08+00:00"
     },
     {
-      "title": "“끝없는 증시 이탈”…외국인 한 달간 50조 던지며 ‘사상 최대’ - 매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5SQVNPOFdHdzkwdDVEQmpwRUE3YW1tdVRYazVvdkUxWlA0UHU4N2M3Z2dBSXBVd09lTFNYdXBubE4yY0ZPblZmV1l3RHFEQ1F1SUE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T00:06:08+00:00"
-    },
-    {
       "title": "Fast-fashion retailer Shein’s 3-year IPO odyssey cost it the ‘golden time’ to go public",
       "link": "https://www.cnbc.com/2026/07/31/shein-ipo-hong-kong-ftc-investigation-tariffs-fast-fashion-.html",
       "source": "CNBC Finance",
@@ -558,7 +576,7 @@
       "published": "2026-07-30T23:26:00+00:00"
     },
     {
-      "title": "증시 폭락에 ‘빚투’ 반대매매도 급증…증시 하방 압력 키우는 변수로 떠올라 - 조선일보",
+      "title": "증시 폭락에 ‘빚투’ 반대매매도 급증…하방 압력 키우는 변수로 떠오르나 - 조선일보",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOXzVEY3JBSllzNGUzOWFhcVVmTk4tNkpkTTEwV1gyYS0tUFFLdHZwR0hSdnRfWnp6SjMxWUJfeThjNnlUeWt0SVBxNTlXTHNvbjRLZ2NzZG1FWTdnU0FIT1FmRlEyYXlaaVRpR3cyaTFmaFp6WTdXUjlqeVFBMElHVA?oc=5",
       "source": "Google News",
       "published": "2026-07-30T23:22:00+00:00"
@@ -568,12 +586,6 @@
       "link": "https://www.mk.co.kr/news/economy/12112996",
       "source": "매일경제·증권",
       "published": "2026-07-30T23:03:09+00:00"
-    },
-    {
-      "title": "'0.001초의 약탈자'인가 유동성 공급자인가…증시 흔드는 초단타 매매(HFT) - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfR1preG1GUUVma3FnLVZIRDdqTUVFbUdIakNVekg3UlI1N1ZiaVliS0hGQkhrSEtfMUxNWUpxQU9PSHZjYnhuWktnV1BsNmRDX05ibG1yX2x6Zw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T23:00:10+00:00"
     },
     {
       "title": "국내증시 하락에…코스피 고점 이후 목표주가 하향 잇달아 - 연합뉴스",
@@ -612,7 +624,7 @@
       "published": "2026-07-30T22:48:00+00:00"
     },
     {
-      "title": "뉴욕증시, 반도체주 반등에 강세 마감 - imnews.imbc.com",
+      "title": "뉴욕증시, 반도체주 반등에 강세 마감 - MBC 뉴스",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XcnlqazI2S0F5U05wQUgyQnlMdWJzYU52dGt0NnVvd1JYcjVrYWhpSnRLQjduc0JxSldDQXRtdjNUQl96Nmk0alpBaDN6STNaV094QW10eEhsUko2SGUxeDRtQi1Ma0xLQllIakxJRWgxWG5TWnhlbUVB?oc=5",
       "source": "Google News",
       "published": "2026-07-30T22:41:22+00:00"
@@ -640,18 +652,6 @@
       "link": "https://www.cnbc.com/2026/07/30/reddit-rddt-q2-2026-earnings-report.html",
       "source": "CNBC Finance",
       "published": "2026-07-30T22:28:38+00:00"
-    },
-    {
-      "title": "Jersey Mike’s spent almost ‘zero dollars’ on digital marketing. That’s now changing.",
-      "link": "https://www.marketwatch.com/story/jersey-mikes-spent-almost-zero-dollars-on-digital-marketing-thats-now-changing-9738485d?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-30T22:24:00+00:00"
-    },
-    {
-      "title": "[기자수첩] 코스피, 글로벌 증시 됐어도 달라지지 않은 것 - 머니투데이 - mt.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCTEY2WkdkSzBVV2pJWHZPSVRZcTlVN2VlM1I0bFlWb2lEeWlYc0c5bExoVTRpbXQ4SU1saDlqUVVtRk1IVTRsQ0w1MFQ0RjZZaW9QWW1mLTNBcG9WYXVxT3JUeU93eHFD0gFuQVVfeXFMUFFBTFIydkhwbmVsalM5bUFUMDM2Y3VvcTdkdUJVQ0JfblZLZFZfYVcxckhEQUZjOFVmS1lPcWxvbGxSZ0RzNE1MTWZ5d0tQTUczLW9mTmpQMGtjVGhDMDRYZDJLMUFTWGx4YjZ6cEE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-30T22:13:24+00:00"
     }
   ],
   "pages": [
