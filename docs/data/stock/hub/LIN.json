@@ -1,0 +1,17 @@
+{
+  "code": "LIN",
+  "name": "Linde plc",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 478.3800048828125,
+    "change_pct": -5.95,
+    "volume": 5213960,
+    "amount": 2494254210.258789,
+    "marcap": null,
+    "as_of_iso": "2026-07-31T22:47:34.404524+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "LIN",
+  "related_news": []
+}

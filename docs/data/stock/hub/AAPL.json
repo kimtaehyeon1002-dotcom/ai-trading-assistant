@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 333.42999267578125,
-    "change_pct": -1.41,
-    "volume": 73355100,
-    "amount": 24458790455.7312,
+    "close": 308.9100036621094,
+    "change_pct": -7.35,
+    "volume": 127398021,
+    "amount": 39354523133.65549,
     "marcap": null,
-    "as_of_iso": "2026-07-31T09:27:13.153214+00:00",
+    "as_of_iso": "2026-07-31T22:47:34.404352+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "AAPL",

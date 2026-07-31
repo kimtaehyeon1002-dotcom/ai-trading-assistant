@@ -1,0 +1,17 @@
+{
+  "code": "MA",
+  "name": "Mastercard",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 573.0999755859375,
+    "change_pct": -0.74,
+    "volume": 4576551,
+    "amount": 2622821266.367798,
+    "marcap": null,
+    "as_of_iso": "2026-07-31T22:47:34.404503+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "MA",
+  "related_news": []
+}

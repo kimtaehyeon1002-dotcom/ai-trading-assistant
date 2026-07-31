@@ -155,6 +155,21 @@
     "market": "US"
   },
   {
+    "code": "AAPL",
+    "name": "Apple Inc.",
+    "market": "US"
+  },
+  {
+    "code": "AMZN",
+    "name": "Amazon",
+    "market": "US"
+  },
+  {
+    "code": "NVDA",
+    "name": "Nvidia",
+    "market": "US"
+  },
+  {
     "code": "MSFT",
     "name": "Microsoft",
     "market": "US"
@@ -165,18 +180,8 @@
     "market": "US"
   },
   {
-    "code": "NVDA",
-    "name": "Nvidia",
-    "market": "US"
-  },
-  {
-    "code": "AAPL",
-    "name": "Apple Inc.",
-    "market": "US"
-  },
-  {
-    "code": "AMZN",
-    "name": "Amazon",
+    "code": "GOOGL",
+    "name": "Alphabet Inc. (Class A)",
     "market": "US"
   },
   {
@@ -190,18 +195,18 @@
     "market": "US"
   },
   {
-    "code": "INTC",
-    "name": "Intel",
-    "market": "US"
-  },
-  {
     "code": "TSLA",
     "name": "Tesla, Inc.",
     "market": "US"
   },
   {
-    "code": "GOOGL",
-    "name": "Alphabet Inc. (Class A)",
+    "code": "GOOG",
+    "name": "Alphabet Inc. (Class C)",
+    "market": "US"
+  },
+  {
+    "code": "INTC",
+    "name": "Intel",
     "market": "US"
   },
   {
@@ -210,23 +215,18 @@
     "market": "US"
   },
   {
-    "code": "LRCX",
-    "name": "Lam Research",
+    "code": "APP",
+    "name": "AppLovin",
+    "market": "US"
+  },
+  {
+    "code": "WDC",
+    "name": "Western Digital",
     "market": "US"
   },
   {
     "code": "STX",
     "name": "Seagate Technology",
-    "market": "US"
-  },
-  {
-    "code": "AMAT",
-    "name": "Applied Materials",
-    "market": "US"
-  },
-  {
-    "code": "GOOG",
-    "name": "Alphabet Inc. (Class C)",
     "market": "US"
   },
   {
@@ -240,28 +240,13 @@
     "market": "US"
   },
   {
-    "code": "WDC",
-    "name": "Western Digital",
+    "code": "LRCX",
+    "name": "Lam Research",
     "market": "US"
   },
   {
-    "code": "NFLX",
-    "name": "Netflix",
-    "market": "US"
-  },
-  {
-    "code": "LITE",
-    "name": "Lumentum",
-    "market": "US"
-  },
-  {
-    "code": "QCOM",
-    "name": "Qualcomm",
-    "market": "US"
-  },
-  {
-    "code": "LLY",
-    "name": "Lilly (Eli)",
+    "code": "AMAT",
+    "name": "Applied Materials",
     "market": "US"
   },
   {
@@ -270,13 +255,28 @@
     "market": "US"
   },
   {
-    "code": "VRT",
-    "name": "Vertiv",
+    "code": "LLY",
+    "name": "Lilly (Eli)",
     "market": "US"
   },
   {
-    "code": "NOW",
-    "name": "ServiceNow",
+    "code": "LITE",
+    "name": "Lumentum",
+    "market": "US"
+  },
+  {
+    "code": "COIN",
+    "name": "Coinbase",
+    "market": "US"
+  },
+  {
+    "code": "MA",
+    "name": "Mastercard",
+    "market": "US"
+  },
+  {
+    "code": "VRT",
+    "name": "Vertiv",
     "market": "US"
   },
   {
@@ -285,18 +285,18 @@
     "market": "US"
   },
   {
-    "code": "KLAC",
-    "name": "KLA Corporation",
+    "code": "LIN",
+    "name": "Linde plc",
     "market": "US"
   },
   {
-    "code": "GEV",
-    "name": "GE Vernova",
+    "code": "TXN",
+    "name": "Texas Instruments",
     "market": "US"
   },
   {
-    "code": "V",
-    "name": "Visa Inc.",
+    "code": "NFLX",
+    "name": "Netflix",
     "market": "US"
   },
   {
