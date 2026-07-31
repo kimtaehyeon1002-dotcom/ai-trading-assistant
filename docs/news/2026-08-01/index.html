@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark" data-updown="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-08-01 뉴스 아카이브 · AI Trading Assistant</title>
+  <link rel="stylesheet" href="../../static/css/tokens.css">
+  <link rel="stylesheet" href="../../static/css/base_v2.css">
+  <link rel="stylesheet" href="../../static/css/components.css">
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
+</head>
+<body class="v2" data-root="../..">
+  <nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav">
+    <a class="v2-nav__item" href="../../index.html"
+>Dashboard</a>
+    <a class="v2-nav__item" href="../../macro/index.html"
+>Macroeconomics</a>
+    <a class="v2-nav__item" href="../../news/index.html"
+aria-current="page">News</a>
+    <a class="v2-nav__item" href="../../stock/index.html"
+>Stock</a>
+    <a class="v2-nav__item" href="../../financials/index.html"
+>Financial Statements</a>
+    <a class="v2-nav__item" href="../../ta/index.html"
+>Technical Analysis</a>
+    <div class="v2-nav__divider"></div>
+    <a class="v2-nav__item v2-nav__item--locked" href="../../asset/index.html"
+>
+      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+    <a class="v2-nav__item v2-nav__item--locked" href="../../portfolio/index.html"
+>
+      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+  </div>
+  <div class="v2-sidebar__footer">
+    <a class="v2-nav__item" href="../../settings/index.html"
+>Settings</a>
+    <div class="v2-sidebar__version">AI Trading Assistant</div>
+  </div>
+</nav>
+
+  <header class="v2-header">
+  <div class="v2-header__context">
+    News
+  </div>
+  <div class="v2-header__search" role="search">
+    <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
+           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+    <kbd class="v2-header__search-kbd">Ctrl K</kbd>
+    <div class="v2-search-results" data-search-results hidden></div>
+  </div>
+  <div class="v2-header__clock"></div>
+  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+</header>
+
+  <main class="v2-main">
+    <div class="v2-content">
+
+<div class="v2-span-12">
+  <div class="v2-tabbar" data-tabbar="news">
+    <button class="v2-tabbar__btn" data-tab-btn="us_market" data-tabbar-of="news" aria-current="page">
+      미국시장<span class="v2-tabbar__count">0</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="kr_market" data-tabbar-of="news">
+      한국시장<span class="v2-tabbar__count">0</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="macro" data-tabbar-of="news">
+      거시경제<span class="v2-tabbar__count">0</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="breaking" data-tabbar-of="news">
+      속보<span class="v2-tabbar__count">7</span>
+    </button>
+    <span class="v2-caption v2-tabbar__meta">
+2026-08-01 아카이브    </span>
+  </div>
+</div>
+
+<div class="v2-card v2-card--standard v2-span-8 v2-card--news-list" id="news-list">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">미국시장 · 게재 0건</h3>
+    <button class="v2-filter-chip" data-kw-clear hidden>필터: <span data-kw-label></span> ×</button>
+    <span class="v2-card__meta">2026-08-01 00:45 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div data-tab-panel="news" data-tab="us_market">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="kr_market" style="display:none">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="macro" style="display:none">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="breaking" style="display:none">
+  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l1" data-kw="방산">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/31/senate-democrats-trump-lutnick-critical-mineral-deals.html" target="_blank" rel="noopener noreferrer">민주당은 중요한 광물 거래와 트럼프와 루트닉 가문의 관계에 대한 정보를 요구합니다</a>
+    <div class="v2-news-list-row__summary">상원의원들은 상무부, 국방부, 에너지부, 내무부, 수출입은행에 해당 거래와 관련된 모든 기록을 보존할 것을 요청했습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-01 00:41</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/31/new-york-sues-kalshi-claims-it-is-illegal-gambling-operation.html" target="_blank" rel="noopener noreferrer">뉴욕, 칼시 고소, 예측 시장이 &#39;불법 도박&#39; 운영하고 있다고 주장</a>
+    <div class="v2-news-list-row__summary">이번 달 초 연방 판사가 주 게임 위원회에 개입하려는 Kalshi의 시도를 거부한 이후에 나온 것입니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-01 00:31</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="실적">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/31/microsoft-shares-are-surging-heres-how-to-still-make-money-says-mike-khouw.html" target="_blank" rel="noopener noreferrer">마이크로소프트 주가가 급등하고 있다. Mike Khouw는 다음과 같이 돈을 버는 방법을 소개합니다.</a>
+    <div class="v2-news-list-row__summary">Microsoft(MSFT)의 4분기 수익과 기록적인 감사에 이어 즉각적인 바이너리 이벤트 위험은 공식적으로 사라졌습니다.</div>
+  </div>
+  <span><span class="v2-tag">Microsoft</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-01 00:26</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/the-warning-signal-insiders-are-sending-f0538ddf?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">내부자들이 보내는 경고 신호</a>
+    <div class="v2-news-list-row__summary">기업 내부자들이 지난 20년 동안 이렇게 약세를 보였던 적은 없었습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-01 00:21</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="유가">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/hsas-can-be-a-great-retirement-tool-if-youre-healthy-or-wealthy-5a3e2991?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">HSA는 귀하가 건강하거나 부유한 경우 훌륭한 은퇴 도구가 될 수 있습니다.</a>
+    <div class="v2-news-list-row__summary">건강 저축 계좌는 노년기에 의료 비용을 상쇄할 수 있습니다. 하지만 대부분의 사람들은 기다릴 여유가 없습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-01 00:16</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE95NW9MbndwZjB0akZLekRCemdiX0hRZmNPUGplalVYYXMwMFdxRFM3WUp4YzV2YXY1OEVKbDFTNzlVcXJhdFdFSks3VHBHREc3?oc=5" target="_blank" rel="noopener noreferrer">국내증시 하락에…코스피 고점 이후 목표주가 하향 잇달아 - 문화일보</a>
+    <div class="v2-news-list-row__summary">국내증시 하락에…코스피 고점 이후 목표주가 하향 잇달아  문화일보</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-01 00:12</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="관세">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/07/30/amazon-trump-tariff-refunds.html" target="_blank" rel="noopener noreferrer">아마존은 트럼프 관세 환급으로 6억 달러를 받았고 일부 고객들에게 관세 환급금을 전달할 예정이다.</a>
+    <div class="v2-news-list-row__summary">이 회사는 이전에 대법원이 도널드 트럼프 대통령의 부과금 중 다수가 불법이라고 판결한 이후 관세 비용을 회수할지 여부를 공개하지 않았습니다.</div>
+  </div>
+  <span><span class="v2-tag">Amazon</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-01 00:07</span>
+  </span>
+</div>
+  </div>
+</div>
+
+    <p class="v2-body" data-kw-empty hidden>이 키워드에 해당하는 기사가 이 탭에 없습니다.</p>
+  </div>
+
+</div>
+
+<div class="v2-span-4 v2-rail">
+
+<div class="v2-card v2-card--standard  " id="news-briefing">
+    <div class="v2-card__header">
+    <span class="v2-overline">모닝 브리핑</span>
+    <span class="v2-card__meta">2026-08-01 00:45 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-hero-news-row">
+      <span class="n">1</span>
+      <a class="t" href="https://www.cnbc.com/2026/07/31/microsoft-shares-are-surging-heres-how-to-still-make-money-says-mike-khouw.html" target="_blank" rel="noopener noreferrer">마이크로소프트 주가가 급등하고 있다. Mike Khouw는 다음과 같이 돈을 버는 방법을 소개합니다.</a>
+    </div>
+    <div class="v2-hero-news-row">
+      <span class="n">2</span>
+      <a class="t" href="https://www.cnbc.com/2026/07/30/amazon-trump-tariff-refunds.html" target="_blank" rel="noopener noreferrer">아마존은 트럼프 관세 환급으로 6억 달러를 받았고 일부 고객들에게 관세 환급금을 전달할 예정이다.</a>
+    </div>
+  </div>
+  <div class="v2-card__footer">필수 0 · 주목 2 · 참고 5</div>
+
+</div>
+
+<div class="v2-card v2-card--standard  " id="news-radar">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">많이 언급된 키워드</h3>
+    <span class="v2-card__meta">2026-08-01</span>
+  </div>
+  <div class="v2-card__body">
+    <button class="v2-radar-row" data-kw-pick="관세">
+      <span class="v2-radar-row__label">관세</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 100%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="실적">
+      <span class="v2-radar-row__label">실적</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 100%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="방산">
+      <span class="v2-radar-row__label">방산</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 100%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="유가">
+      <span class="v2-radar-row__label">유가</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 100%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+  </div>
+
+</div>
+
+</div>
+    </div>
+  </main>
+  <div class="v2-panel-slot" id="panel-slot"></div>
+  <script src="../../static/js/store.js" defer></script>
+  <script src="../../static/js/stockhub.js" defer></script>
+  <script src="../../static/js/search.js" defer></script>
+<script src="../../static/js/tabs.js" defer></script>
+<script src="../../static/js/news-radar.js" defer></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.TATabs) window.TATabs.init("news", "us_market");
+    // 탭 초기화 뒤에 걸어야 활성 패널 기준 빈 상태 판정이 맞는다(순서 의존)
+    if (window.TANewsRadar) window.TANewsRadar.init();
+  });
+</script>
+</body>
+</html>

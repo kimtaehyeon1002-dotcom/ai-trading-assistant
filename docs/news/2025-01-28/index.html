@@ -85,12 +85,13 @@ aria-current="page">News</a>
 <div class="v2-card v2-card--standard v2-span-8 v2-card--news-list" id="news-list">
     <div class="v2-card__header">
     <h3 class="v2-card__title">미국시장 · 게재 5건</h3>
-    <span class="v2-card__meta">2026-07-31 23:01 KST</span>
+    <button class="v2-filter-chip" data-kw-clear hidden>필터: <span data-kw-label></span> ×</button>
+    <span class="v2-card__meta">2026-08-01 00:45 KST</span>
   </div>
   <div class="v2-card__body">
     <div data-tab-panel="news" data-tab="us_market">
   <div class="v2-news-list">
-<div class="v2-news-list-row lvl-l2">
+<div class="v2-news-list-row lvl-l2" data-kw="AI">
   <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
@@ -106,7 +107,7 @@ aria-current="page">News</a>
     <span class="v2-news-list-row__time">01-28 04:26</span>
   </span>
 </div>
-<div class="v2-news-list-row lvl-l1">
+<div class="v2-news-list-row lvl-l1" data-kw="">
   <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
@@ -121,7 +122,7 @@ aria-current="page">News</a>
     <span class="v2-news-list-row__time">01-28 04:01</span>
   </span>
 </div>
-<div class="v2-news-list-row lvl-l2">
+<div class="v2-news-list-row lvl-l2" data-kw="AI">
   <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
@@ -137,7 +138,7 @@ aria-current="page">News</a>
     <span class="v2-news-list-row__time">01-28 03:12</span>
   </span>
 </div>
-<div class="v2-news-list-row lvl-l1">
+<div class="v2-news-list-row lvl-l1" data-kw="">
   <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
@@ -152,7 +153,7 @@ aria-current="page">News</a>
     <span class="v2-news-list-row__time">01-28 02:27</span>
   </span>
 </div>
-<div class="v2-news-list-row lvl-l1">
+<div class="v2-news-list-row lvl-l1" data-kw="관세|지정학">
   <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
@@ -188,29 +189,58 @@ aria-current="page">News</a>
   </div>
 </div>
 
+    <p class="v2-body" data-kw-empty hidden>이 키워드에 해당하는 기사가 이 탭에 없습니다.</p>
   </div>
 
 </div>
 
-<div class="v2-card v2-card--standard v2-span-4 " id="news-briefing">
+<div class="v2-span-4 v2-rail">
+
+<div class="v2-card v2-card--standard  " id="news-briefing">
     <div class="v2-card__header">
     <span class="v2-overline">모닝 브리핑</span>
-    <span class="v2-card__meta">2026-07-31 23:01 KST</span>
+    <span class="v2-card__meta">2026-08-01 00:45 KST</span>
   </div>
   <div class="v2-card__body">
     <div class="v2-hero-news-row">
       <span class="n">1</span>
-      <a class="t" href="https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main" target="_blank" rel="noopener noreferrer">Stocks Sink in Broad AI Rout Sparked by China&#39;s DeepSeek</a>
+      <a class="t" href="https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main" target="_blank" rel="noopener noreferrer">중국 딥시크(DeepSeek)로 촉발된 광범위한 AI 대패로 주가 하락</a>
     </div>
     <div class="v2-hero-news-row">
       <span class="n">2</span>
-      <a class="t" href="https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main" target="_blank" rel="noopener noreferrer">DeepSeek Won&#39;t Sink U.S. AI Titans</a>
+      <a class="t" href="https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main" target="_blank" rel="noopener noreferrer">DeepSeek은 미국 AI 타이탄을 침몰시키지 않을 것입니다</a>
     </div>
   </div>
   <div class="v2-card__footer">필수 0 · 주목 2 · 참고 3</div>
 
 </div>
 
+<div class="v2-card v2-card--standard  " id="news-radar">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">많이 언급된 키워드</h3>
+    <span class="v2-card__meta">2025-01-28</span>
+  </div>
+  <div class="v2-card__body">
+    <button class="v2-radar-row" data-kw-pick="AI">
+      <span class="v2-radar-row__label">AI</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 100%"></span></span>
+      <span class="v2-radar-row__count">2</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="관세">
+      <span class="v2-radar-row__label">관세</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 50%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="지정학">
+      <span class="v2-radar-row__label">지정학</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 50%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+  </div>
+
+</div>
+
+</div>
     </div>
   </main>
   <div class="v2-panel-slot" id="panel-slot"></div>
@@ -218,9 +248,12 @@ aria-current="page">News</a>
   <script src="../../static/js/stockhub.js" defer></script>
   <script src="../../static/js/search.js" defer></script>
 <script src="../../static/js/tabs.js" defer></script>
+<script src="../../static/js/news-radar.js" defer></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     if (window.TATabs) window.TATabs.init("news", "us_market");
+    // 탭 초기화 뒤에 걸어야 활성 패널 기준 빈 상태 판정이 맞는다(순서 의존)
+    if (window.TANewsRadar) window.TANewsRadar.init();
   });
 </script>
 </body>
