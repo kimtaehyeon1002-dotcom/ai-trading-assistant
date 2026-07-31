@@ -215,9 +215,12 @@
 .v2-radar-row:hover .v2-radar-row__label { color: var(--text-primary); }
 .v2-radar-row:hover .v2-radar-row__bar { background: var(--text-tertiary); }
 .v2-radar-row__label { flex: 0 0 76px; font-size: 13px; font-weight: 500; color: var(--text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.v2-radar-row__track { flex: 1; height: 6px; background: var(--surface-sunken); border-radius: 3px; overflow: hidden; }
+/* 막대 상한 200px은 design/03 §3-5 규격 — 카드가 넓어져도 막대가 무한정 늘어나지 않게 한다
+   (길이 비교는 상대값이라 트랙이 넓을수록 정확해지는 게 아니다). 남는 폭은 건수를 카드
+   우측 끝에 정렬하는 데 쓴다(와이어프레임의 우측 정렬 숫자 열). */
+.v2-radar-row__track { flex: 1 1 auto; max-width: 200px; height: 6px; background: var(--surface-sunken); border-radius: 3px; overflow: hidden; }
 .v2-radar-row__bar { display: block; height: 100%; background: var(--border-strong); border-radius: 3px; }
-.v2-radar-row__count { flex: 0 0 28px; text-align: right; font-size: 13px; font-variant-numeric: tabular-nums; color: var(--text-secondary); }
+.v2-radar-row__count { flex: 0 0 28px; margin-left: auto; text-align: right; font-size: 13px; font-variant-numeric: tabular-nums; color: var(--text-secondary); }
 /* 선택 상태 — 색이 아니라 밝기로만 구분(위 원칙 유지) */
 .v2-radar-row[aria-pressed="true"] .v2-radar-row__label,
 .v2-radar-row[aria-pressed="true"] .v2-radar-row__count { color: var(--text-primary); }

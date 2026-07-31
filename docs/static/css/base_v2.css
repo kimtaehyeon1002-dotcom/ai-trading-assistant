@@ -202,6 +202,18 @@ a { color: inherit; text-decoration: none; }
   gap: var(--layout-grid-gutter);
 }
 
+/* 우측 컨텍스트 레일(design/03 §3-0) — 카드 여러 장을 한 컬럼에 세로로 쌓는다.
+   레일 없이 각 카드에 v2-span-4를 걸면, 좌측 리스트가 길 때 두 번째 카드가 다음 행
+   1열(리스트 아래 왼쪽)로 떨어진다 — 그리드 자동 배치는 "옆에 쌓기"를 모르기 때문이다.
+   align-self:start는 레일이 리스트 높이만큼 늘어나 카드가 세로로 벌어지는 것도 막는다. */
+.v2-rail {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-grid-gutter);
+  align-self: start;
+  min-width: 0;
+}
+
 /* ── 그리드 스팬 유틸(12컬럼) — 카드 컴포넌트 자체는 Phase 2 components.css에서 정의 ── */
 .v2-span-3 { grid-column: span 3; }
 .v2-span-4 { grid-column: span 4; }
