@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31T17:18:53.204368+00:00",
+  "as_of": "2026-07-31T18:03:03.177919+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -344,6 +344,42 @@
   ],
   "news": [
     {
+      "title": "‘Spider-Man: Brand New Day’ sets domestic box office preview record with $72 million",
+      "link": "https://www.cnbc.com/2026/07/31/spider-man-brand-new-day-box-office-preview-sales.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T17:59:57+00:00"
+    },
+    {
+      "title": "How Leopold Aschenbrenner built a $45 billion AI hedge fund — and lost most of it in days",
+      "link": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T17:57:53+00:00"
+    },
+    {
+      "title": "Trump says U.S. has 'not agreed to' grant Ukraine Patriot missile licenses",
+      "link": "https://www.cnbc.com/2026/07/31/trump-ukraine-patriot-missile-license-russia.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T17:38:10+00:00"
+    },
+    {
+      "title": "Warsh’s Fed is failing to stick to its own principles for good monetary policy",
+      "link": "https://www.marketwatch.com/story/warshs-fed-is-failing-to-stick-to-its-own-principles-for-good-monetary-policy-0d4e45ef?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-31T17:38:00+00:00"
+    },
+    {
+      "title": "‘Don’t get suckered like I did’: I paid $185 to the wrong passport website. Can I get my money back?",
+      "link": "https://www.marketwatch.com/story/dont-get-suckered-like-i-did-i-paid-185-to-the-wrong-passport-website-can-i-get-my-money-back-3a781412?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-31T17:30:00+00:00"
+    },
+    {
+      "title": "HSAs can be a great retirement tool – if you’re healthy or wealthy",
+      "link": "https://www.marketwatch.com/story/hsas-can-be-a-great-retirement-tool-if-youre-healthy-or-wealthy-5a3e2991?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-31T17:20:00+00:00"
+    },
+    {
       "title": "Here’s how Big Oil cashed in on the historic supply crunch",
       "link": "https://www.marketwatch.com/story/exxonmobil-chevrons-combined-profits-quadrupled-in-three-months-as-the-iran-war-raged-a6e8da62?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -368,10 +404,10 @@
       "published": "2026-07-31T17:00:00+00:00"
     },
     {
-      "title": "Trump says U.S. has 'not agreed to' grant Ukraine Patriot missile licenses",
-      "link": "https://www.cnbc.com/2026/07/31/trump-ukraine-patriot-missile-license-russia.html",
+      "title": "As Warsh’s Fed faces pressure to act on inflation, these indicators show it’s at its lowest in years",
+      "link": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html",
       "source": "CNBC Finance",
-      "published": "2026-07-31T16:58:18+00:00"
+      "published": "2026-07-31T16:51:30+00:00"
     },
     {
       "title": "U.S. lawmakers request information from DoorDash on use of Chinese AI models",
@@ -422,18 +458,6 @@
       "published": "2026-07-31T16:19:16+00:00"
     },
     {
-      "title": "Micron’s stock falls after Apple’s Tim Cook expresses a desire for more memory suppliers",
-      "link": "https://www.marketwatch.com/story/microns-stock-falls-after-apples-tim-cook-expresses-a-desire-for-more-memory-suppliers-a7bc0502?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-31T15:59:00+00:00"
-    },
-    {
-      "title": "My boss and I work in different cities and she never responds to my messages. What do I do?",
-      "link": "https://www.marketwatch.com/story/my-boss-and-i-work-in-different-cities-and-she-never-responds-to-my-messages-what-do-i-do-45713e98?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-31T15:56:00+00:00"
-    },
-    {
       "title": "Exxon and Chevron profits surge on rising oil prices due to Iran war",
       "link": "https://www.cnbc.com/2026/07/31/exxon-xom-chevron-cvx-q2-earnings.html",
       "source": "CNBC Finance",
@@ -464,12 +488,6 @@
       "published": "2026-07-31T15:26:31+00:00"
     },
     {
-      "title": "Corporate insiders are sending warning signals about the stock market",
-      "link": "https://www.marketwatch.com/story/the-warning-signal-insiders-are-sending-f0538ddf?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-31T15:21:00+00:00"
-    },
-    {
       "title": "국내증시 하락에…코스피 고점 이후 목표주가 하향 잇달아 - 문화일보",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95NW9MbndwZjB0akZLekRCemdiX0hRZmNPUGplalVYYXMwMFdxRFM3WUp4YzV2YXY1OEVKbDFTNzlVcXJhdFdFSks3VHBHREc3?oc=5",
       "source": "Google News",
@@ -480,12 +498,6 @@
       "link": "https://www.cnbc.com/2026/07/30/amazon-trump-tariff-refunds.html",
       "source": "CNBC Finance",
       "published": "2026-07-31T15:07:28+00:00"
-    },
-    {
-      "title": "How Leopold Aschenbrenner built a $45 billion AI hedge fund — and lost most of it in days",
-      "link": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T14:44:44+00:00"
     },
     {
       "title": "Fed officials who voted to hike rates say action is needed now against inflation",
@@ -560,12 +572,6 @@
       "published": "2026-07-31T11:30:01+00:00"
     },
     {
-      "title": "The Tech Download: Anduril CEO Brian Schimpf talks AI in warfare and manufacturing push",
-      "link": "https://www.cnbc.com/2026/07/31/the-tech-download-anduril-ceo-brian-schimpf.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T11:11:29+00:00"
-    },
-    {
       "title": "\"하청 임금, 원청이 교섭해야\" 지노위, SPC계열 대상 판정",
       "link": "https://www.mk.co.kr/news/economy/12113863",
       "source": "매일경제·증권",
@@ -590,22 +596,16 @@
       "published": "2026-07-31T10:32:14+00:00"
     },
     {
-      "title": "사이드카 23번·서킷브레이커 6번 발동된 7월…극한 변동성 韓증시 ‘몸살’ - 조선비즈 - biz.chosun.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNkdqSWJmQWYzZGhhM2haVGxDUmt2QzdqcnlUdXlkRXNpaWh1V1hfWlNvdnpHV3FSdDJJaFN0MTZkSHQ1cm1KX0NNcU94MUpSWVoxN2hLbzlSMnZ2V2pkb1RJZG5FTms3SGd6UkZBQnJ2Nl81OGtIWFNpVC0yWDNEMmZTNW5MaGxt0gGcAUFVX3lxTFBTVksxVUU0Ti1HaTdEakZsQTJGUDcwTUxVbFNKbm42b05WcmkweC1wRmR2TFpfSm1TbUtmRnBFU2JJbkpaZUw2UERMckFSQ3VtSUFvN25rU1lWQ3lqX2JOZjNLdEhrX1BiV29VdW1KU2t6QTZYcFlqZ3dRNFREdFRfNFhWZG1rdU1sNVRCVWwtZkdCX042Qml3UmQxRg?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T10:31:00+00:00"
-    },
-    {
-      "title": "한국 증시, 레버리지 탓에 ‘민스키 모먼트’ 다가섰다…HSBC 경고 - 문화일보",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9oYjhQWkJRU183SjVJdjA5eUdRdHdyVWgwUHJCSktwMzk4MUsxYlRGY1pLNklUZ0IxdzY4Q0FOZjlpU0ZxRjNuSUcyRF81MVY1?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T10:16:32+00:00"
-    },
-    {
       "title": "일본은행, 기준금리 1% 유지…경제 성장률 전망 0.6%로 상향(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260731084853073",
       "source": "연합뉴스·경제",
       "published": "2026-07-31T10:10:52+00:00"
+    },
+    {
+      "title": "7월 증시 : 극단적 변동성 속에 모두에게 상처를 남긴 한 달. (그리고 레오폴드 사태) - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BUjgyQ3hValZCLXhnOFBEWW45MHQ3SC1lLTdBdEtpQURGRDB5UUMxXzdRcnJ6UjlseTVBTjRRaUJ1Uzc2NS04T3RSVFZpWEhxUmd1d0pZWGxnT1RnTkk0Tg?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T10:05:46+00:00"
     },
     {
       "title": "유럽 증시, 상승 출발…유로스톡스 1.11%↑ - 연합인포맥스",
