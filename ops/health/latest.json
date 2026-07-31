@@ -1,25 +1,13 @@
 {
-  "probed_at": "2026-08-01T00:31:05.636165+09:00",
+  "probed_at": "2026-08-01T02:54:42.877347+09:00",
   "sources": {
-    "runlog": "ok — 워커 24종, updated_at 2026-08-01T00:13",
+    "runlog": "ok — 워커 24종, updated_at 2026-08-01T02:18",
     "workflows": "ok — 워크플로 6/6종 조회"
   },
   "counts": {
-    "critical": 1,
+    "critical": 0,
     "major": 0,
     "minor": 0
   },
-  "violations": [
-    {
-      "id": "wf.trades.fail",
-      "severity": "critical",
-      "subject": "trades.yml",
-      "rule": "연속 실패 < 1",
-      "observed": "최근 2회 연속 실패",
-      "expected": "1회 미만",
-      "tier": "cloud",
-      "owner": "trades.yml",
-      "note": "Trades Dashboard (push)"
-    }
-  ]
+  "violations": []
 }
