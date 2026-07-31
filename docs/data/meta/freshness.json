@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-31T15:12:21.830485+09:00",
+  "generated_at": "2026-07-31T15:51:56.694636+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-07-31T15:11:30.356615+09:00",
+      "last_built": "2026-07-31T15:51:44.483130+09:00",
       "expected_T_min": 30,
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-07-31T15:12:06.283962+09:00",
+      "last_built": "2026-07-31T15:51:48.002001+09:00",
       "expected_T_min": 30,
       "items": 26,
-      "duration_ms": 11906
+      "duration_ms": 8653
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,28 +52,28 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-07-31T15:12:06.282821+09:00",
+      "last_built": "2026-07-31T15:51:48.001139+09:00",
       "expected_T_min": 30,
-      "items": 0,
+      "items": 1,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-07-31T15:12:18.191282+09:00",
+      "last_built": "2026-07-31T15:51:44.539752+09:00",
       "expected_T_min": 30,
       "items": 140,
-      "duration_ms": 3207
+      "duration_ms": 2003
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-07-31T15:12:21.400491+09:00",
+      "last_built": "2026-07-31T15:51:46.546688+09:00",
       "expected_T_min": 30,
       "items": 140,
-      "duration_ms": 376
+      "duration_ms": 1382
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-07-31T15:12:21.815992+09:00",
+      "last_built": "2026-07-31T15:51:56.684142+09:00",
       "expected_T_min": 30,
       "items": 3,
       "duration_ms": 0
@@ -164,10 +164,10 @@
     },
     "Loop Ledger": {
       "status": "completed",
-      "last_built": "2026-07-31T15:12:06.282841+09:00",
+      "last_built": "2026-07-31T15:51:48.001160+09:00",
       "expected_T_min": 30,
       "items": 1,
-      "duration_ms": 1
+      "duration_ms": 0
     }
   }
 }
