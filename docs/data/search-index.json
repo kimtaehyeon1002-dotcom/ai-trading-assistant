@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31T10:28:55.857510+00:00",
+  "as_of": "2026-07-31T11:56:30.233366+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -344,16 +344,76 @@
   ],
   "news": [
     {
+      "title": "Exxon and Chevron profits surge on rising oil prices due to Iran war",
+      "link": "https://www.cnbc.com/2026/07/31/exxon-xom-chevron-cvx-q2-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T11:53:45+00:00"
+    },
+    {
+      "title": "Novo Nordisk shares dive 9% after heart medicine fails trial",
+      "link": "https://www.cnbc.com/2026/07/31/novo-nordisk-trial-results.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T11:52:28+00:00"
+    },
+    {
+      "title": "We're raising our Apple price target, seeing plenty of good despite the memory crunch knocks",
+      "link": "https://www.cnbc.com/2026/07/30/were-raising-our-apple-price-target-seeing-plenty-of-good-despite-memory-crunch.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T11:52:07+00:00"
+    },
+    {
+      "title": "“예금·주식·연금으로 5분만에 쪼개진다”…한국인이 269조 굴리는 방법[데이터로 읽는 머니무브]",
+      "link": "https://www.mk.co.kr/news/economy/12113921",
+      "source": "매일경제·증권",
+      "published": "2026-07-31T11:48:42+00:00"
+    },
+    {
+      "title": "More consumer companies are staying private for longer, avoiding the IPO road",
+      "link": "https://www.cnbc.com/2026/07/31/private-consumer-companies-ipo.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T11:30:01+00:00"
+    },
+    {
+      "title": "The Tech Download: Anduril CEO Brian Schimpf talks AI in warfare and manufacturing push",
+      "link": "https://www.cnbc.com/2026/07/31/the-tech-download-anduril-ceo-brian-schimpf.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T11:11:29+00:00"
+    },
+    {
+      "title": "\"하청 임금, 원청이 교섭해야\" 지노위, SPC계열 대상 판정",
+      "link": "https://www.mk.co.kr/news/economy/12113863",
+      "source": "매일경제·증권",
+      "published": "2026-07-31T11:03:53+00:00"
+    },
+    {
+      "title": "New Medicaid work rules could cause patients to lose coverage, rare disease advocates warn",
+      "link": "https://www.cnbc.com/2026/07/31/new-medicaid-work-rules-insurance-coverage-rare-disease-patients.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T11:00:01+00:00"
+    },
+    {
+      "title": "Why fresh volatility means a ‘valuation opportunity’ is opening up in U.S. stocks",
+      "link": "https://www.marketwatch.com/story/why-fresh-volatility-means-a-valuation-opportunity-is-opening-up-in-u-s-stocks-9dbef149?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-07-31T10:49:00+00:00"
+    },
+    {
+      "title": "Hamas says Trump's Gaza 'disarmament' claim depends on Israel honoring commitments",
+      "link": "https://www.cnbc.com/2026/07/31/trump-hamas-disarmament-conditions.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T10:46:49+00:00"
+    },
+    {
+      "title": "Iran targets strategic U.S. assets in Kuwait, Bahrain after Egypt drone attack",
+      "link": "https://www.cnbc.com/2026/07/31/us-iran-war-trump-hormuz.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T10:32:14+00:00"
+    },
+    {
       "title": "한국 증시, 레버리지 탓에 ‘민스키 모먼트’ 다가섰다…HSBC 경고 - 문화일보",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9oYjhQWkJRU183SjVJdjA5eUdRdHdyVWgwUHJCSktwMzk4MUsxYlRGY1pLNklUZ0IxdzY4Q0FOZjlpU0ZxRjNuSUcyRF81MVY1?oc=5",
       "source": "Google News",
       "published": "2026-07-31T10:16:32+00:00"
-    },
-    {
-      "title": "Oi prices choppy as recovering Hormuz Strait traffic tempers war premium",
-      "link": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T10:14:36+00:00"
     },
     {
       "title": "일본은행, 기준금리 1% 유지…경제 성장률 전망 0.6%로 상향(종합2보)",
@@ -452,7 +512,13 @@
       "published": "2026-07-31T09:18:09+00:00"
     },
     {
-      "title": "금감원, ETF 불완전판매 … 시중은행 6곳 검사 착수",
+      "title": "코스피, 상승폭 1001 상승률 17.9% 사상 최대…널뛰는 증시에 ‘어질’ - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VLTVDM1VleEZXVjRjTFBGM3d6ZUwxQVIzODA5SEZKMndkWFpuRzVNeDluUC0yOEJKeWRfUFRDeXZSdTFkT2VLc29nZ3lqaXlURGR0RENKVUZpRjVlLURmbkZ5dFlKUi1yeDc3SVVRQXE1dw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T09:15:00+00:00"
+    },
+    {
+      "title": "금감원, ETF 불완전판매… 시중은행 6곳 검사 착수",
       "link": "https://www.mk.co.kr/news/economy/12113647",
       "source": "매일경제·증권",
       "published": "2026-07-31T09:11:38+00:00"
@@ -464,14 +530,14 @@
       "published": "2026-07-31T09:11:38+00:00"
     },
     {
-      "title": "상반기 세수 33조원 늘어나 … 상여로 소득세 10조원 증가",
-      "link": "https://www.mk.co.kr/news/economy/12113645",
+      "title": "한수원 '항암 원료' 자회사 세운다",
+      "link": "https://www.mk.co.kr/news/economy/12113644",
       "source": "매일경제·증권",
       "published": "2026-07-31T09:11:37+00:00"
     },
     {
-      "title": "한수원 '항암 원료' 자회사 세운다",
-      "link": "https://www.mk.co.kr/news/economy/12113644",
+      "title": "상반기 세수 33조원 늘어나 … 상여로 소득세 10조원 증가",
+      "link": "https://www.mk.co.kr/news/economy/12113645",
       "source": "매일경제·증권",
       "published": "2026-07-31T09:11:37+00:00"
     },
@@ -488,7 +554,7 @@
       "published": "2026-07-31T09:11:36+00:00"
     },
     {
-      "title": "'고객정보 유출' 롯데카드 … 금융위, 영업정지 1.5개월",
+      "title": "'고객정보 유출' 롯데카드 금융위, 영업정지 1.5개월",
       "link": "https://www.mk.co.kr/news/economy/12113640",
       "source": "매일경제·증권",
       "published": "2026-07-31T09:11:35+00:00"
@@ -506,7 +572,7 @@
       "published": "2026-07-31T09:09:12+00:00"
     },
     {
-      "title": "日평균 외환거래…1200억달러 돌파",
+      "title": "하루 평균 외환거래 1200억달러 넘어",
       "link": "https://www.mk.co.kr/news/economy/12113624",
       "source": "매일경제·증권",
       "published": "2026-07-31T09:09:12+00:00"
@@ -572,76 +638,10 @@
       "published": "2026-07-31T08:23:34+00:00"
     },
     {
-      "title": "코스피, 상승폭 1001 상승률 17.9% 사상 최대…널뛰는 증시에 ‘어질’ - hani.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VLTVDM1VleEZXVjRjTFBGM3d6ZUwxQVIzODA5SEZKMndkWFpuRzVNeDluUC0yOEJKeWRfUFRDeXZSdTFkT2VLc29nZ3lqaXlURGR0RENKVUZpRjVlLURmbkZ5dFlKUi1yeDc3SVVRQXE1dw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T08:22:00+00:00"
-    },
-    {
       "title": "금융위, '정보유출' 롯데카드 제재 감경…업무정지 4.5→1.5개월(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260731138851002",
       "source": "연합뉴스·경제",
       "published": "2026-07-31T08:21:54+00:00"
-    },
-    {
-      "title": "\"ETF 신탁 수수료 7배 받아\"…금감원, 은행권 불완전판매 검사",
-      "link": "https://www.yna.co.kr/view/AKR20260731146800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-31T08:19:35+00:00"
-    },
-    {
-      "title": "외국인 최대 폭풍매수, 개미 '대탈출'…쏟아진 각종 기록들(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260731066151008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-31T08:13:21+00:00"
-    },
-    {
-      "title": "외국인 7조 순매수에 17%↑…폭락 뒤 폭등 ‘투전판’ 증시에 현기증 - hani.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTNmo0aHhqQlNDZ0M0NTJ6SmdiWlRMa3h4MV9PYlpsLTBSOGc5dGl3enVUNWlOR3BiaFQxaHc5SnFDdzFRcUNNbEsxN1ZrQnRacTlmMDBqZE0tbi1HcDdadENwNElNQXRlVTVVTlhsb3EwZw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T08:08:00+00:00"
-    },
-    {
-      "title": "SB선보, 대선조선 인수 본계약 체결…\"주력사업 역량 확장\"",
-      "link": "https://www.yna.co.kr/view/AKR20260731142300051",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-31T08:06:09+00:00"
-    },
-    {
-      "title": "국고채, 美 금리 하락·외인 매수 속 강세…3년물 연 3.758%(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260731137651008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-31T08:03:17+00:00"
-    },
-    {
-      "title": "마산자유무역지역·봉암공단 제조업·AI 융합 추진…공모 선정",
-      "link": "https://www.yna.co.kr/view/AKR20260731138600052",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-31T08:03:16+00:00"
-    },
-    {
-      "title": "국고채 금리 일제히 하락…3년물 연 3.758%",
-      "link": "https://www.yna.co.kr/view/AKR20260731137600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-31T07:57:06+00:00"
-    },
-    {
-      "title": "'분노의 대반격' 코스피, 사상 최대 폭등…바닥 찍었나(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260731053751008",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-31T07:56:27+00:00"
-    },
-    {
-      "title": "[과학스냅] 과기정통부, 2045 과학기술 미래상 대국민 설문조사",
-      "link": "https://www.yna.co.kr/view/AKR20260731139900017",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-31T07:53:16+00:00"
-    },
-    {
-      "title": "금융위, '정보유출' 롯데카드 제재 감경…업무정지 4.5→1.5개월",
-      "link": "https://www.yna.co.kr/view/AKR20260731138800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-07-31T07:52:45+00:00"
     }
   ],
   "pages": [
