@@ -27,19 +27,26 @@
 {% call cardm.card_shell('standard', span='v2-span-8', card_id='news-list', extra_class='v2-card--news-list') %}
   <div class="v2-card__header">
     <h3 class="v2-card__title">{{ tab_labels[default_tab] }} · 게재 {{ counts[default_tab] }}건</h3>
+    {# 키워드 필터 해제 칩 — 필터가 걸렸을 때만 JS가 노출한다(design/03 §3-5) #}
+    <button class="v2-filter-chip" data-kw-clear hidden>필터: <span data-kw-label></span> ×</button>
     <span class="v2-card__meta">{{ generated_at }}</span>
   </div>
   <div class="v2-card__body">
     {% for key in tabs %}
     {{ newsm.tab_panel('news', key, by_tab[key], key == default_tab) }}
     {% endfor %}
+    <p class="v2-body" data-kw-empty hidden>이 키워드에 해당하는 기사가 이 탭에 없습니다.</p>
   </div>
   {% if not archive_date %}
   <div class="v2-card__footer"><a href="{{ root }}/news/{{ today }}/index.html">지난 뉴스 아카이브 ({{ today }}) →</a></div>
   {% endif %}
 {% endcall %}
 
-{% call cardm.card_shell('standard', span='v2-span-4', card_id='news-briefing') %}
+{# 우측 컨텍스트 레일 — 카드를 한 컬럼에 세로로 쌓는다(design/03 §3-0). 각 카드에 span을
+   직접 걸면 좌측 리스트가 길 때 두 번째 카드가 리스트 아래 왼쪽으로 떨어진다. #}
+<div class="v2-span-4 v2-rail">
+
+{% call cardm.card_shell('standard', span='', card_id='news-briefing') %}
   <div class="v2-card__header">
     <span class="v2-overline">모닝 브리핑</span>
     <span class="v2-card__meta">{{ generated_at }}</span>
@@ -48,7 +55,8 @@
     {% for a in briefing %}
     <div class="v2-hero-news-row">
       <span class="n">{{ loop.index }}</span>
-      <a class="t" href="{{ a.link }}" target="_blank" rel="noopener noreferrer">{{ a.title }}</a>
+      {# 목록과 같은 규칙으로 번역본 우선 — 한쪽만 원문이면 같은 기사가 두 언어로 보인다 #}
+      <a class="t" href="{{ a.link }}" target="_blank" rel="noopener noreferrer">{{ a.title_ko or a.title }}</a>
     </div>
     {% endfor %}
     {% if not briefing %}
@@ -58,12 +66,37 @@
   <div class="v2-card__footer">필수 {{ level_counts.L3 }} · 주목 {{ level_counts.L2 }} · 참고 {{ level_counts.L1 }}</div>
 {% endcall %}
 
+{% call cardm.card_shell('standard', span='', card_id='news-radar') %}
+  <div class="v2-card__header">
+    <h3 class="v2-card__title">많이 언급된 키워드</h3>
+    <span class="v2-card__meta">{{ radar_window_label }}</span>
+  </div>
+  <div class="v2-card__body">
+    {% for k in radar %}
+    {# 막대는 무채색·길이로만 비교한다(design/03 §6-1 — 분류에 유채색 금지) #}
+    <button class="v2-radar-row" data-kw-pick="{{ k.label }}">
+      <span class="v2-radar-row__label">{{ k.label }}</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: {{ k.pct }}%"></span></span>
+      <span class="v2-radar-row__count">{{ k.count }}</span>
+    </button>
+    {% endfor %}
+    {% if not radar %}
+    <p class="v2-body">집계할 키워드가 아직 없습니다.</p>
+    {% endif %}
+  </div>
+{% endcall %}
+
+</div>{# /v2-rail #}
+
 {% endblock %}
 {% block scripts %}
 <script src="{{ root }}/static/js/tabs.js" defer></script>
+<script src="{{ root }}/static/js/news-radar.js" defer></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     if (window.TATabs) window.TATabs.init("news", "{{ default_tab }}");
+    // 탭 초기화 뒤에 걸어야 활성 패널 기준 빈 상태 판정이 맞는다(순서 의존)
+    if (window.TANewsRadar) window.TANewsRadar.init();
   });
 </script>
 {% endblock %}

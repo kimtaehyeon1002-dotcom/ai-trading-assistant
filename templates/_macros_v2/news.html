@@ -8,7 +8,9 @@
 {% macro article_row(a) %}
 {% set headline = a.title_ko or a.title %}
 {% set summary_text = a.summary_ko if a.summary_ko is not none else a.summary %}
-<div class="v2-news-list-row lvl-{{ a.level|lower }}">
+{# data-kw: 키워드 레이더 클릭 필터용(design/03 §3-5). 전 행을 렌더해 두고 JS는 display만
+   토글한다 — tabs.js와 동일한 정적 사이트 패턴이라 별도 요청·검색 인덱스가 필요 없다. #}
+<div class="v2-news-list-row lvl-{{ a.level|lower }}" data-kw="{{ a.radar_labels|join('|') }}">
   <span class="v2-level-gauge" title="{{ '필수 — 지수·금리 등에 직접 영향' if a.level == 'L3' else ('주목 — 주요 종목·섹터에 직접 영향' if a.level == 'L2' else '참고 — 배경·후속 보도') }}">
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>

@@ -26,6 +26,10 @@ class NewsArticle:
     # title_ko·summary_ko를 함께 채운다(부분 실패 시 다음 실행 재시도, 절반만 캐시하지 않음).
     title_ko: str | None = None
     summary_ko: str | None = None
+    # 키워드 레이더 라벨(design/03 §3-5) — **저장하지 않는다**(to_dict 제외). 사전
+    # (config RADAR_KEYWORDS)이 바뀌면 값의 의미가 달라지는 파생값이라, 저장해 두면 오래된
+    # 기사가 낡은 어휘의 라벨을 그대로 달고 남는다. 매 빌드 news_keywords.assign이 다시 채운다.
+    radar_labels: list[str] = field(default_factory=list)
 
     @property
     def id(self) -> str:
