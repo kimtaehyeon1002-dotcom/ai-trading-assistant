@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31T06:51:56.697065+00:00",
+  "as_of": "2026-07-31T07:45:35.481369+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -349,10 +349,64 @@
   ],
   "news": [
     {
+      "title": "SK Hynix, Samsung shares skyrocket to clock best days as AI rally roars back",
+      "link": "https://www.cnbc.com/2026/07/31/sk-hynix-samsung-ai-rally-chipmakers.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T07:41:35+00:00"
+    },
+    {
+      "title": "카카오뱅크, 인뱅 최초 파업…휴가 기간인데 서비스 문제 없을까?",
+      "link": "https://www.mk.co.kr/news/economy/12113485",
+      "source": "매일경제·증권",
+      "published": "2026-07-31T07:23:44+00:00"
+    },
+    {
+      "title": "상반기 국세 작년보다 33조 더 걷혀…증시 활황에 거래세 4.5배 급증 - 동아일보",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSeTlIVlUydjBJQzlzbkY3bEFLNWt5WHFpVmx3UFlna3pqY1dJQ3d2OFlhNERkTUlHaDRIZm1OMWZUX1daMXBtUEF6S1J3RE1hZWVKVW5KV1lmNXE2Qmp4REVodmRUVFdYR3hfaUdGMDJtRVJqb2fSAWZBVV95cUxPd2ZWeHdxMFVZNjV4eXl5QVFhUl9ld293VHFlMjRLblhIS2RsNVNwTXVSN2w1TDd2UDNuSTFyQW1wX2ZHN0NvX2VDdTBOcmNSLWYtSmdzTzVGX3JCd0UtVGo3Y013clE?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T07:16:00+00:00"
+    },
+    {
+      "title": "코스피 5500→6500, SK하이닉스 '상한가'...진기록 쏟아진 증시 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9HNlNMOHlySTBQMm44V2JlNTY2MVVHeUJ5cVd0SXNsdktTeUpmWml1M0tZdWxHT1dvMUFlZEhyelgyQi1PWUpuQzZzeTNqSVFsRU9BQmFpaGlxSXg2VUNTWEpSNF9wT0l10gFuQVVfeXFMT3JpTFJUYm1Gd0EwaWNlWkpWaGJ4dzBvdVBnZjBRdkhJaVhtQVZXenFGZ21FczZIOUtzTWJEaEdpYTB0dGJTMk1LQnFvWFBOcUxDQjhRb3pzQklaMGJuejVaRkdHZjFhMFllU3lFanc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T07:15:08+00:00"
+    },
+    {
+      "title": "[증시-마감] 코스피 18% 폭등…하이닉스 등 대형주 줄줄이 상한가 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40dkpMc2RhaEplQWVrR1k0MTIwZTVGbVNSMm9CaFhuWkJieVh6QXlQZ2tYYXdld2RfQ1lieTR6NXA3WmNuWUtUTVpvY21WaXZnZ1BYMjFENDgxYk4wcmNfU19NZkkxQTQ3VWFiUTZ3YXc?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T07:14:02+00:00"
+    },
+    {
+      "title": "Deadly storms and a global supply squeeze are sending copper prices soaring",
+      "link": "https://www.cnbc.com/2026/07/31/copper-prices-chile-storms-mines-ai.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-31T07:13:23+00:00"
+    },
+    {
+      "title": "현기증 나는 ‘널뛰기’ 증시...코스피 상승률 17.9% 역대 최고 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VLTVDM1VleEZXVjRjTFBGM3d6ZUwxQVIzODA5SEZKMndkWFpuRzVNeDluUC0yOEJKeWRfUFRDeXZSdTFkT2VLc29nZ3lqaXlURGR0RENKVUZpRjVlLURmbkZ5dFlKUi1yeDc3SVVRQXE1dw?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T06:58:00+00:00"
+    },
+    {
+      "title": "새도약기금, 상록수 등 유동화회사 장기연체채권 2.6조 매입",
+      "link": "https://www.mk.co.kr/news/economy/12113446",
+      "source": "매일경제·증권",
+      "published": "2026-07-31T06:55:34+00:00"
+    },
+    {
       "title": "Iran targets strategic U.S. assets in Kuwait, Bahrain after Egypt drone attack",
       "link": "https://www.cnbc.com/2026/07/31/us-iran-war-trump-hormuz.html",
       "source": "CNBC Finance",
       "published": "2026-07-31T06:44:06+00:00"
+    },
+    {
+      "title": "[도쿄증시-마감] 닛케이 4%대 상승…BOJ 회견 주목 - kbthink.com",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5xUzJTYko3YzRoQS1lblhnbFVOZnN0ZHdBN3o5VHRXUVY5MDNHX1FvTXlYU2IxS1Y4bDhLQmZ1QzZ3MFk1ZjlQc3RGV1E2YXhkNmJtbjdqelBVdFotcmUwMlNnSUstV1d0eXlyQ2R6SEh1QQ?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T06:43:52+00:00"
     },
     {
       "title": "Fast-fashion retailer Shein’s 3-year IPO odyssey may have cost it the ‘golden time’ to go public",
@@ -365,12 +419,6 @@
       "link": "https://www.cnbc.com/2026/07/31/cxmts-sk-hynix-samsung-micron-memory-chip.html",
       "source": "CNBC Finance",
       "published": "2026-07-31T06:20:14+00:00"
-    },
-    {
-      "title": "JP모건 \"한국증시, 매력적인 구간…레버리지 ETF 차입축소 사실상 완료\" - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCOXlqYXEzVlR4QktuOW9RX05qTkRscXB6U1o4eGp1NEtrbUZtWXplVGR4WDhQOENsYlBIdEwyRzhlXzJkZDZ3cXd0QUJxang5bVJxR21QaFBqYVhlSlFUM9IBeEFVX3lxTE5ETnNmWjhNNlcySGMzY2hqZ1dIdzF1UTVSbkxia3YzR2NDdlpjZFBFTm9PMUE5RUxFdFo3QWEwbEFGQ1h3a3lVVUx1SUVVUFozejdxekZ0QnNGeGhHMzBGWHNObXdKQ0JSMmRsZmphRzBQMlRfMGRZYw?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T06:16:25+00:00"
     },
     {
       "title": "“가입도 편리”…하나손해보험 원데이자동차보험, 소비자대상 수상",
@@ -403,6 +451,12 @@
       "published": "2026-07-31T05:53:39+00:00"
     },
     {
+      "title": "JP모건 “한국 증시 변동성 키운 레버리지 ETF 청산 끝났다” - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UUFdSU1NkWnpwVmR5XzFBWlhBU0xRYm9ERmpJTXFYRXV6anBKbEpfVER1bHJ6SkRiVTlSeGxtU3hrSlhjd3M2eWtOV1JoZ2c?oc=5",
+      "source": "Google News",
+      "published": "2026-07-31T05:38:10+00:00"
+    },
+    {
       "title": "JP모건 \"한국 증시 변동성 키운 레버리지 ETF 청산 끝났다\" - 조선일보",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeTdDNVR0ZGMxT2NoazE2SF9XUDRKdVdGT3otMHM3ajhVVzBFZW9McDNGSXpLYVJCb3VRbExfeU9WbTl1eW1kRWJxUDdLa3RNYURpemtOVGlIY0NFeE12Sm9WOHdLZldIazFqZTBqSnVkTHBhTjNhd1kxaFZfYmltXw?oc=5",
       "source": "Google News",
@@ -415,22 +469,10 @@
       "published": "2026-07-31T05:31:22+00:00"
     },
     {
-      "title": "증시 폭등에 사이드카…삼전닉스 레버리지 규제 강화 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE85c1hPWkVneVRybjZwM3FITm1adWxrWUxGb2tZb096cVB2eE44MWhWa0pLUy1FZEM3TzRlUUlEOEk1RzFvMWZ6ZWF1ZkE4V28?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T05:07:38+00:00"
-    },
-    {
       "title": "SEC, 美증시 23시간 거래 검토…1시간은 소프트웨어 업데이트 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81LXlFVF9QejRkTUNqcmpKYTJFQjdQVlBsbEtYeWpadUduNXBrZWNnclpsc2ppYXBtLUk3S09TenFXZ2RsTDUxbldLNmcwaDg?oc=5",
       "source": "Google News",
       "published": "2026-07-31T05:00:08+00:00"
-    },
-    {
-      "title": "Copper may hit new high as AI demand collides with deadly storms, strategists say",
-      "link": "https://www.cnbc.com/2026/07/31/copper-prices-chile-storms-mines-ai.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T05:00:01+00:00"
     },
     {
       "title": "Oil prices ease as recovering Hormuz Strait traffic tempers war premium",
@@ -463,22 +505,16 @@
       "published": "2026-07-31T03:21:05+00:00"
     },
     {
-      "title": "급반등해 좋지만…'급등락·폭락·폭등' 널뛰기에 어지러운 증시 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKQ0NwNzMwRWJ0a2tUb1pVcjZDMzNJOEpBd01UdjVmM0FZVFRVLVU0YU41RGoyXzQ5d0VCN1h0MXdYNDktTlZ5ZHF5bDBrb28?oc=5",
+      "title": "급반등해 좋지만…'급등락·폭락·폭등' 널뛰기에 어지러운 증시 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EbHJROXRQVk81UEV5Wi1ucExQbF9yaFZ4M2QyR0plNGhneUdfY0M4akhYeS03ajV1NUNqc1FlOHF1Rm43TlNwWmF3LTBxbkJBc1Z2eFNLaXF6U2_SAWBBVV95cUxPNGhTbjBjbTN1MXIzSmNwWWhTX21HMlotMU1HS1BnRGcwdzdiU0s1cE5zUHcxdTZ1dGY3UmpSemcyUGFVUGNKUjZIWmFkNlo5ZWFPdGdmSXlycTJZMGZhVDQ?oc=5",
       "source": "Google News",
-      "published": "2026-07-31T03:09:50+00:00"
+      "published": "2026-07-31T03:07:51+00:00"
     },
     {
       "title": "국힘 \"국민연금, 증시 급락에 직격탄…정권의 증시부양 펀드 아냐\" - 연합인포맥스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51Q3M2REphMlhRT09Bc2sybW5HUVRseC1XcVV4Mjg1TlBybGtWUC1EeW05emNIUGlOUEZzV2Q2d2RnX1JsTDRTc25lVC1zaWlzdl9HZURnSzBHUFFkUzAyOU1Ubko4RzVLNFlSUElTcnA?oc=5",
       "source": "Google News",
-      "published": "2026-07-31T02:51:49+00:00"
-    },
-    {
-      "title": "지난달 증시 활황에 증권거래세 482% 폭증‥상반기 국세 33조 더 걷혔다 - MBC 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wOFd1cUJVa1V5bmY1Y1NXOGtHenRyWFhfak5kdGFuM29hZnp6VUZOWnNaSXFtYkVROTA2eVQ3UkRtREw3VW5NcDh2bVE1ZkdXdzZZYnZNX2NkSmN2VU15TmtMZ2pQdHU0eWdGSEhkZVVQSHRW0gF0QVVfeXFMT3FOOWF5NE1CYkVuMDl6QzNQQTRXRmpNMU1hTmh6enVGODJKQ3hGdmluMy16aTFNR3E2b21nM0pzQm5JZlRjY19hb0ltaXZybFJYcDQtSHRKRmtKLTRPeU55c0E3OWV3QTl6X1NwT2QxWHRkbEc?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T02:45:35+00:00"
+      "published": "2026-07-31T02:51:00+00:00"
     },
     {
       "title": "올 상반기 국세 223조원 걷혔다…증시·반도체 덕에 전년比 33조↑ - 국제신문",
@@ -499,16 +535,10 @@
       "published": "2026-07-31T02:33:27+00:00"
     },
     {
-      "title": "증시 거래 폭증에 세수도 ‘잭팟’…상반기 국세 33조 늘었다 - 매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92TjVxN1dxRXZURjRQb1FTVTJUcUtXZWR2N0NBbkFFSHJRV3J0VXZiMGdTcHNMSTJYMUh4OGgyb3ZTQlJGS2JVOWY0bThIWjd6VFZWUQ?oc=5",
+      "title": "국민의힘 “증시 혼란은 정책 실패…경제라인 6인방 경질해야” - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWREVNTFlhNEw4bVVIdVh4amRaeWdpbVdQdGdkQ3BDWGI0dWdXaVEzSXlueXJNXzFFbXhvdmNCbTIwemp4cERVY1IyYmw2Q1U?oc=5",
       "source": "Google News",
-      "published": "2026-07-31T02:33:27+00:00"
-    },
-    {
-      "title": "“증시 불안 엄중 인식”…민주당, 레버리지 규제·추가 대책 예고 - 매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UNmcxdWtvU2d5alY4eEg5R0haa2lyMFNlSkNEdHM0QUROVVBWcWVoNkNJNU9pOFZ2aS1UaFhlWW1KYlR1ZVptMm9mVkZLZ3RmUFE?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T02:19:31+00:00"
+      "published": "2026-07-31T02:29:07+00:00"
     },
     {
       "title": "“환차익 노리다 원금 손실”…고환율에 달러보험 판매 2배 급증",
@@ -589,12 +619,6 @@
       "published": "2026-07-31T01:11:49+00:00"
     },
     {
-      "title": "SK Hynix shares surge 25%, while Samsung soars over 20% as AI rally roars back",
-      "link": "https://www.cnbc.com/2026/07/31/sk-hynix-samsung-ai-rally-chipmakers.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-31T00:52:26+00:00"
-    },
-    {
       "title": "Corporate insiders are sending warning signals about the stock market",
       "link": "https://www.marketwatch.com/story/the-warning-signal-insiders-are-sending-f0538ddf?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -623,30 +647,6 @@
       "link": "https://www.marketwatch.com/story/my-friend-and-her-husband-own-extensive-real-estate-how-can-her-children-from-a-previous-marriage-get-their-fair-share-3eb17c20?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-07-31T00:16:00+00:00"
-    },
-    {
-      "title": "Empty seats? Concert giant Live Nation says ticket sales are actually at record levels.",
-      "link": "https://www.marketwatch.com/story/empty-seats-concert-giant-live-nation-says-ticket-sales-are-actually-at-record-levels-461252db?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-07-31T00:14:00+00:00"
-    },
-    {
-      "title": "[속보] 증시 급등에 코스피·코스닥 동시 매수 사이드카 - 연합뉴스TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52OS1vY2ZlZmxIcGFtSkdGNFFhQkUwckExcmwzN1k3NjJ1X2V4R0dTVEVWS2xsb2MzbTJSMmZlQzJKaENtRXhBZDVnbDlnbzVBYjRSUFVFc2ktZ184NVVOdEZoU1JROHM?oc=5",
-      "source": "Google News",
-      "published": "2026-07-31T00:12:00+00:00"
-    },
-    {
-      "title": "“끝없는 증시 이탈”…외국인 한 달간 50조 던지며 ‘사상 최대’",
-      "link": "https://www.mk.co.kr/news/economy/12113035",
-      "source": "매일경제·증권",
-      "published": "2026-07-31T00:06:08+00:00"
-    },
-    {
-      "title": "Amazon soars after CEO Andy Jassy makes the case for its massive AI investment",
-      "link": "https://www.cnbc.com/2026/07/30/amazon-soars-after-ceo-makes-the-case-for-its-massive-ai-investment.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-30T23:27:04+00:00"
     }
   ],
   "pages": [
