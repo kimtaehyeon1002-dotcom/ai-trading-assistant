@@ -85,7 +85,8 @@ aria-current="page">News</a>
 <div class="v2-card v2-card--standard v2-span-8 v2-card--news-list" id="news-list">
     <div class="v2-card__header">
     <h3 class="v2-card__title">미국시장 · 게재 0건</h3>
-    <span class="v2-card__meta">2026-07-31 07:43 KST</span>
+    <button class="v2-filter-chip" data-kw-clear hidden>필터: <span data-kw-label></span> ×</button>
+    <span class="v2-card__meta">2026-08-01 19:02 KST</span>
   </div>
   <div class="v2-card__body">
     <div data-tab-panel="news" data-tab="us_market">
@@ -96,7 +97,7 @@ aria-current="page">News</a>
 
     <div data-tab-panel="news" data-tab="kr_market" style="display:none">
   <div class="v2-news-list">
-<div class="v2-news-list-row lvl-l1">
+<div class="v2-news-list-row lvl-l1" data-kw="">
   <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
@@ -126,14 +127,17 @@ aria-current="page">News</a>
   </div>
 </div>
 
+    <p class="v2-body" data-kw-empty hidden>이 키워드에 해당하는 기사가 이 탭에 없습니다.</p>
   </div>
 
 </div>
 
-<div class="v2-card v2-card--standard v2-span-4 " id="news-briefing">
+<div class="v2-span-4 v2-rail">
+
+<div class="v2-card v2-card--standard  " id="news-briefing">
     <div class="v2-card__header">
     <span class="v2-overline">모닝 브리핑</span>
-    <span class="v2-card__meta">2026-07-31 07:43 KST</span>
+    <span class="v2-card__meta">2026-08-01 19:02 KST</span>
   </div>
   <div class="v2-card__body">
     <p class="v2-body">브리핑에 실을 만한 기사가 아직 없습니다.</p>
@@ -142,6 +146,18 @@ aria-current="page">News</a>
 
 </div>
 
+<div class="v2-card v2-card--standard  " id="news-radar">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">많이 언급된 키워드</h3>
+    <span class="v2-card__meta">2026-07-28</span>
+  </div>
+  <div class="v2-card__body">
+    <p class="v2-body">집계할 키워드가 아직 없습니다.</p>
+  </div>
+
+</div>
+
+</div>
     </div>
   </main>
   <div class="v2-panel-slot" id="panel-slot"></div>
@@ -149,9 +165,12 @@ aria-current="page">News</a>
   <script src="../../static/js/stockhub.js" defer></script>
   <script src="../../static/js/search.js" defer></script>
 <script src="../../static/js/tabs.js" defer></script>
+<script src="../../static/js/news-radar.js" defer></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     if (window.TATabs) window.TATabs.init("news", "us_market");
+    // 탭 초기화 뒤에 걸어야 활성 패널 기준 빈 상태 판정이 맞는다(순서 의존)
+    if (window.TANewsRadar) window.TANewsRadar.init();
   });
 </script>
 </body>
