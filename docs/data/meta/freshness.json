@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-01T12:17:36.591825+09:00",
+  "generated_at": "2026-08-01T15:32:46.771818+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-08-01T12:17:14.503173+09:00",
+      "last_built": "2026-08-01T15:32:31.421444+09:00",
       "expected_T_min": 30,
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-08-01T12:17:18.965538+09:00",
+      "last_built": "2026-08-01T15:32:35.412155+09:00",
       "expected_T_min": 30,
       "items": 26,
-      "duration_ms": 17566
+      "duration_ms": 11300
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,28 +52,28 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-08-01T12:17:18.964046+09:00",
+      "last_built": "2026-08-01T15:32:35.410478+09:00",
       "expected_T_min": 30,
       "items": 1,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-08-01T12:17:14.574817+09:00",
+      "last_built": "2026-08-01T15:32:31.492515+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 4207
+      "duration_ms": 3743
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-08-01T12:17:18.786698+09:00",
+      "last_built": "2026-08-01T15:32:35.240949+09:00",
       "expected_T_min": 30,
       "items": 180,
       "duration_ms": 0
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-08-01T12:17:36.577240+09:00",
+      "last_built": "2026-08-01T15:32:46.757191+09:00",
       "expected_T_min": 30,
       "items": 3,
       "duration_ms": 0
@@ -164,7 +164,7 @@
     },
     "Loop Ledger": {
       "status": "completed",
-      "last_built": "2026-08-01T12:17:18.964085+09:00",
+      "last_built": "2026-08-01T15:32:35.410505+09:00",
       "expected_T_min": 30,
       "items": 2,
       "duration_ms": 1
