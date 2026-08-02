@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-02T12:17:36.512512+09:00",
+  "generated_at": "2026-08-02T15:36:24.840268+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-08-02T12:17:23.492092+09:00",
+      "last_built": "2026-08-02T15:36:10.172379+09:00",
       "expected_T_min": 30,
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-08-02T12:17:28.634615+09:00",
+      "last_built": "2026-08-02T15:36:14.497743+09:00",
       "expected_T_min": 30,
       "items": 26,
-      "duration_ms": 7821
+      "duration_ms": 10282
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,28 +52,28 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-08-02T12:17:28.633178+09:00",
+      "last_built": "2026-08-02T15:36:14.496215+09:00",
       "expected_T_min": 30,
       "items": 1,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-08-02T12:17:23.569191+09:00",
+      "last_built": "2026-08-02T15:36:10.244486+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 4883
+      "duration_ms": 4068
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-08-02T12:17:28.457985+09:00",
+      "last_built": "2026-08-02T15:36:14.317863+09:00",
       "expected_T_min": 30,
       "items": 180,
       "duration_ms": 0
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-08-02T12:17:36.498799+09:00",
+      "last_built": "2026-08-02T15:36:24.825774+09:00",
       "expected_T_min": 30,
       "items": 3,
       "duration_ms": 0
@@ -164,7 +164,7 @@
     },
     "Loop Ledger": {
       "status": "completed",
-      "last_built": "2026-08-02T12:17:28.633210+09:00",
+      "last_built": "2026-08-02T15:36:14.496242+09:00",
       "expected_T_min": 30,
       "items": 2,
       "duration_ms": 1
