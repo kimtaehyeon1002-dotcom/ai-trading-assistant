@@ -149,17 +149,53 @@ def _entry(price: float, chg: float | None, prev: float | None, source: str) -> 
     return e
 
 
-def _usdkrw() -> dict | None:
+def _usdkrw_http() -> dict | None:
+    """USD/KRW 실시간 시세 — yfinance 없이 HTTP로 직접 받는다.
+
+    yfinance에 의존하는 `_yahoo()`를 쓸 수 없어서 따로 둔다: 자산 4계좌 수집은 데스크톱
+    전용인데(design/21 §281) 32비트 키움 venv에는 yfinance가 설치 불가다(pandas 휠 부재).
+    즉 `_yahoo()`를 1순위로 올려도 정작 환산이 필요한 자산 빌드에서는 항상 건너뛴다.
+    """
     import requests
 
-    try:  # 1) Frankfurter(ECB)
-        r = requests.get("https://api.frankfurter.app/latest",
-                         params={"from": "USD", "to": "KRW"}, timeout=10)
-        r.raise_for_status()
-        return {"price": float(r.json()["rates"]["KRW"]), "change_pct": None,
-                "source": "frankfurter(ECB)"}
+    r = requests.get("https://query1.finance.yahoo.com/v8/finance/chart/USDKRW=X",
+                     params={"range": "1d", "interval": "1m"},
+                     headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+    r.raise_for_status()
+    meta = r.json()["chart"]["result"][0]["meta"]
+    price = meta.get("regularMarketPrice")
+    if price is None:
+        return None
+    prev = meta.get("chartPreviousClose") or meta.get("previousClose")
+    chg = round((float(price) / float(prev) - 1) * 100, 2) if prev else None
+    entry = _entry(float(price), chg, float(prev) if prev else None, "yahoo(fx-live)")
+    ts = meta.get("regularMarketTime")
+    if ts:
+        entry["as_of"] = datetime.fromtimestamp(int(ts), tz=timezone.utc).isoformat()
+    return entry
+
+
+def _usdkrw() -> dict | None:
+    """환율 소스 — **신선도 순**으로 시도한다.
+
+    자산 페이지의 외화 평가액이 이 값으로 환산되므로(한투 위탁·BYBIT), 하루 묵은 고시환율을
+    쓰면 그만큼 총자산이 틀어진다. 실제로 ECB 기준환율을 1순위로 두고 있어 주말·공휴일에는
+    최대 3일 전 값이 쓰였다(실측 2026-08-02: ECB 7/31자 1,443.61 vs 실시간 1,436.6 — 약 7원,
+    0.5% 차이).
+
+      1) Yahoo FX 실시간   — 24/5 호가. 장 마감 중이면 마지막 체결가(= 현재 유효 환율)
+      2) ExchangeRate-API  — 일 1회(약 00:00 UTC) 갱신
+      3) Frankfurter(ECB)  — 평일 1회 고시(약 16:00 CET), 주말 미갱신 → 최후 수단
+    """
+    import requests
+
+    try:  # 1) Yahoo 실시간(의존성 없이 HTTP)
+        entry = _usdkrw_http()
+        if entry:
+            return entry
+        log.warning("Yahoo FX 응답에 가격 없음 — 다음 소스로")
     except Exception as exc:  # noqa: BLE001
-        log.warning("frankfurter 실패: %s", exc)
+        log.warning("Yahoo FX 실패: %s", exc)
     try:  # 2) ExchangeRate-API
         r = requests.get("https://open.er-api.com/v6/latest/USD", timeout=10)
         r.raise_for_status()
@@ -167,8 +203,17 @@ def _usdkrw() -> dict | None:
                 "source": "exchangerate-api"}
     except Exception as exc:  # noqa: BLE001
         log.warning("exchangerate-api 실패: %s", exc)
-    price, chg, prev = _yahoo("USDKRW=X")  # 3) Yahoo
-    return _entry(price, chg, prev, "yahoo") if price is not None else None
+    try:  # 3) Frankfurter(ECB 고시환율) — 갱신이 가장 느려 최후 수단
+        r = requests.get("https://api.frankfurter.app/latest",
+                         params={"from": "USD", "to": "KRW"}, timeout=10)
+        r.raise_for_status()
+        body = r.json()
+        log.info("환율 폴백: ECB 고시환율 사용(고시일 %s) — 실시간 소스 전부 실패", body.get("date"))
+        return {"price": float(body["rates"]["KRW"]), "change_pct": None,
+                "source": f"frankfurter(ECB {body.get('date', '')})"}
+    except Exception as exc:  # noqa: BLE001
+        log.warning("frankfurter 실패: %s", exc)
+    return None
 
 
 def _save_last(out: dict[str, dict | None]) -> None:
