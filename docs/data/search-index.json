@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-02T20:59:34.025506+00:00",
+  "as_of": "2026-08-02T21:47:03.164123+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -344,6 +344,66 @@
   ],
   "news": [
     {
+      "title": "정유사 수출효자 된 윤활기유…중동전쟁에 가격·수요 '껑충'",
+      "link": "https://www.yna.co.kr/view/AKR20260731148600003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-02T21:15:01+00:00"
+    },
+    {
+      "title": "美·日 15년만에 ‘엔화 공동방어’…베선트, 대놓고 “100억달러 매입”",
+      "link": "https://www.mk.co.kr/news/world/12114749",
+      "source": "매일경제·증권",
+      "published": "2026-08-02T21:06:15+00:00"
+    },
+    {
+      "title": "한국잡월드, 청년 응원 프로젝트 '너의 근황을 들려줘' 공모전",
+      "link": "https://www.yna.co.kr/view/AKR20260801020500530",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-02T21:00:06+00:00"
+    },
+    {
+      "title": "[소셜＋] \"구직자 추천용이라더니\"…알바몬 '일방적 평판 공유' 논란",
+      "link": "https://www.yna.co.kr/view/AKR20260730166000505",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-02T21:00:05+00:00"
+    },
+    {
+      "title": "서울시, 채무위기 청년 227명 맞춤 진단·자립기반 마련 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260802032500004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-02T21:00:04+00:00"
+    },
+    {
+      "title": "서울시, 내달 17일 양재 aT센터서 '시니어 일자리박람회'",
+      "link": "https://www.yna.co.kr/view/AKR20260802032600004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-02T21:00:04+00:00"
+    },
+    {
+      "title": "'부모 부양' 아파트 2채…대법 \"유류분 산정 제외해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260802034400004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-02T21:00:02+00:00"
+    },
+    {
+      "title": "코트라, 월마트와 소비재 기업 미국시장 진출 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260802041800003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-02T21:00:01+00:00"
+    },
+    {
+      "title": "투자자 예탁금 한 달 만에 20조원 줄어… 말라가는 증시 대기 자금 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUUF6NkxzOGs5X2hkUmhncTBXWXZBRGVSTExLQWlDZVUyWEJtTVh4dTgzNnJfY2xKQkhtcFg5MjY0SEJjV2p4UnlXblZnekdMeUFQcGR6Q2NzdW5WSUgtbUg1VlM0R0NLZUlteGxsYmNuZHNyc2IwekJfS282UnpwemhvTEtXdkdj0gGcAUFVX3lxTE5VYm1Vc09GVmRBM2VKb2xQS01nSTRybm1sVW5aWVNpYm1SOERnYzR4NEY3Nkh1Tmk3eDdtdG5lYTZFVjQxRWM5b1EyeWpid3JqekpmWnpCdHJKY0dfYjE4LVcwVUFhc3Q1YmFCX1U5d21zOXJ6bXpkRVhzVHJGV1JBazY1Snc1MnVBcWJpMlVGQW9QTnFtUUNaM21wWQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-02T21:00:00+00:00"
+    },
+    {
+      "title": "악성 미분양 쌓여도 착공 계속…\"LH 매입, 시장 왜곡 우려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260802031700003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-02T20:55:01+00:00"
+    },
+    {
       "title": "홈플發 '경영책임자 최우선 변제 제한' 실현될까…부작용 우려도",
       "link": "https://www.yna.co.kr/view/AKR20260802031300002",
       "source": "연합뉴스·경제",
@@ -374,7 +434,7 @@
       "published": "2026-08-02T20:12:41+00:00"
     },
     {
-      "title": "세일즈 외교 마친 李…오자마자 증시·부동산부터 살핀다 - 중앙일보",
+      "title": "세일즈 외교 마친 李…오자마자 증시·부동산부터 살핀다 - joongang.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xX2J1XzRkVFprd293N1B0Unl0Vjl0SVgzVi1oUWdVNDZBalhDRnRpMk9YTEw1ZXlzblJxNVliSVZpeG9lTjF2alNYV2pGcmdaZ2tmckpR?oc=5",
       "source": "Google News",
       "published": "2026-08-02T20:00:03+00:00"
@@ -388,6 +448,12 @@
     {
       "title": "오르는 장도 무섭다… 한국 증시를 흔드는 '3중 쏠림' - 머니투데이 - 머니투데이",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5INVNYR2dLTnVhYzJRdHBkQnhCZThWYmNPYWluMmpEbHk2YkppdHlWM0dFVmFQSWd1VHBZa2dtQTNmaEhBRDZhUG0xcEEzOWU5cTJwdGsxd0VOLV94X0lJWE1YNEJBcGZ50gFuQVVfeXFMUDV0YWpWZ2N3RUpYcmVqTHY0NVJtdFR4dUZGX1NnYy1kdnUxNFMtYlRXampWcWhzS01XWG9CNllyNF9qOWh5aWg0NlpYQk5ld3haOWptbVdSdnN2WE5ZZmRmbHNQNWZvamhZcjgxLWc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-02T20:00:00+00:00"
+    },
+    {
+      "title": "흔들리는 K증시, 연일 터지는 비상장치…사이드카, 서킷브레이커 뭐길래? - mk.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBac0p2Uno5cG5rUHF3OTBSRnZUVTdiOGlJQ0k1S1o5bFF4bzRyancwN0F1QWNza3dLZUdjTE1ybDBIdGgzTGYxbUVEeDRmR1FFRlE?oc=5",
       "source": "Google News",
       "published": "2026-08-02T20:00:00+00:00"
     },
@@ -458,12 +524,6 @@
       "published": "2026-08-02T15:18:33+00:00"
     },
     {
-      "title": "귀국 직후 부동산·증시 점검...국정 복귀 '속도' - ytn.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1faXA1NG1TaC16aUhObUdKQ3J2NGtPbkMyb2QybUtobnVDQ1haNzdnSEZCczVSeW5jYjRqbk1fdmR4dnIxVDh1VllPMnlQcVdtWE5tbW9FZHFHQ0RCNnc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-02T14:31:00+00:00"
-    },
-    {
       "title": "Why people are dropping out of the workforce and not looking for new jobs: 'The market wore me down'",
       "link": "https://www.cnbc.com/2026/08/02/why-people-are-dropping-out-of-the-workforce-and-not-looking-for-new-jobs-the-market-wore-me-down.html",
       "source": "CNBC Finance",
@@ -500,7 +560,7 @@
       "published": "2026-08-02T13:30:00+00:00"
     },
     {
-      "title": "이 대통령, 귀국하자마자 부동산·증시 챙긴다…비공개 회의 소집 - 매일경제",
+      "title": "이 대통령, 귀국하자마자 부동산·증시 챙긴다…비공개 회의 소집 - mk.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hNXJRakVSM1FFalBKUURDT1BpOTJIR2ZSNGR4UmlsVGlNXzRDZURJS0JTSTNhMGNfU0xsQzE0T2dHWjFiY2VDNUltNWpEMk5xdG1UT2Nn?oc=5",
       "source": "Google News",
       "published": "2026-08-02T13:18:15+00:00"
@@ -536,16 +596,10 @@
       "published": "2026-08-02T12:35:00+00:00"
     },
     {
-      "title": "이 대통령, 내일 귀국 직후 증시·부동산 관련 비공개 회의 주재 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pb0FCSXJtbDh2eDd1dXJfMXR4cWhYaGE3djV3MnlrZEdLQ25Ic2RDeWtvV0FvNkdXa3JWbHlWQ3UwNTd3VnFFQnJwV2FPNUtiRGlsZ2VLVDhiZ01VMjF5TdIBeEFVX3lxTFBwRnZhdzNvbF9QVnQwREw5NUZnTWp6LTE2UjJBajVIYXI5ZERFZV9PODdWYUtRZDFabmwyUFdwRXZQaTFtaFhBdnJNZWRYUWEzbUlfS0FvSVphY0dSdUV2UDZuc1NHazMwUVpKakhiVU1UTXpsTklRNg?oc=5",
+      "title": "순방 마친 李, 靑 출근…'부동산·증시' 직접 챙긴다 - 데일리한국",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE56X1JUdEpxOGx3XzhidkZNRGFYdlZnSWhNdjZsWU9IemFkYWdjNkxkOFgtcW1RWHE4QnVHQ0tGNFI2ZmJXcW1rZ29QSV9EaFdhcU9YMG5raXdDOTNVbTVuR0s0N3FIUEZJTGVQNVZWSdIBc0FVX3lxTFB3VGZoYWdVelRnZnZfUE5IYXhyem1tbERHSkN0WlNXelN2ZlNZUUl5VDhkdmMyUmxyendDaXQ5ZEFvVVV5YlRkbllYVUlLMktQYVFTX0JpZm1IQjNxd1NtWXc5VHhCeGNyaGI0T01QVkFxOVU?oc=5",
       "source": "Google News",
-      "published": "2026-08-02T12:32:38+00:00"
-    },
-    {
-      "title": "李대통령, 순방 마치자마자 부동산·증시 점검…3일 비공개 회의(종합) - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rMVVLaEVmeGg1d250T3NfVUlYUmhHNnJjcXFuRnFoajhjeVJUUmhoZkR1dHFVdER2aWFKd0VGS2JvRWFEemZjaWQ1bXNYejdrbXJTX1pEYnEyQ2vSAWBBVV95cUxOMm1yeF9Wem16dk5fZm54M013UENvVUV4YlBXUGhhSTBkMGF6c3ljLTRXUnlvamt5c1JtS2VQOE9TRjJ4YWNPc3NSYjhWYUNWaE9OSml4NlEyY1ZiaThvYUo?oc=5",
-      "source": "Google News",
-      "published": "2026-08-02T12:29:57+00:00"
+      "published": "2026-08-02T12:28:15+00:00"
     },
     {
       "title": "이 대통령, 순방 귀국 직후 부동산·증시 점검 회의...다음 날 업무보고 재개 - ytn.co.kr",
@@ -588,60 +642,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1RWmpJa3pnTE5adXlMUnRybTRQNFF2bkVrdjZmWWpERDc0aHBrREhORW04WWlsWHBob3RDcXFZV2txSEJOX0lrbEZSLU1ualE?oc=5",
       "source": "Google News",
       "published": "2026-08-02T11:33:06+00:00"
-    },
-    {
-      "title": "한 달 새 서킷 4회·사이드카 15회…신뢰 갉아먹는 ‘투전판 증시’ - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55LVhaeDlZNUU2UlFtdjI4WEhRZUpFcE5ySnFKY0hzNTh3ZlQtYVZYYVBaTGh6Vy1XYVE1RTVsZ1dFaHlYd1ZOeHA0bEJKTTBuQndkU0hjUXc5UFc1NGtWcWd4YmlSNmpzbEUycmRDMEFVdw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-02T10:58:00+00:00"
-    },
-    {
-      "title": "“올해 추석부터 열차값 10% 아끼세요”…KTX·SRT 9월 통합",
-      "link": "https://www.mk.co.kr/news/economy/12114683",
-      "source": "매일경제·증권",
-      "published": "2026-08-02T10:20:02+00:00"
-    },
-    {
-      "title": "Trump cancels planned attack on Iran, saying he reached an agreement over the 'perimeters of a deal'",
-      "link": "https://www.cnbc.com/2026/08/02/trump-planned-attack-on-iran-canceled-after-reaching-outline-of-deal.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-02T10:18:35+00:00"
-    },
-    {
-      "title": "7월 국내 증시 종목 70%가 ‘마이너스 수익률’ - 주간경향",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9STmZ4X0FwU1hfbnJGeE9XOVhxZV9zSDVUSHZHZWdJQmFONXJjSzBhX3RvOUxCMHZLY1p3N01xSHlWZjVONWQyM0xpbU5wZ1prRFV2czlPemdmcUdrcmc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-02T09:39:00+00:00"
-    },
-    {
-      "title": "[단독] AI 육성·브로커 근절 … 中企 지원책 손질 나서",
-      "link": "https://www.mk.co.kr/news/economy/12114624",
-      "source": "매일경제·증권",
-      "published": "2026-08-02T08:52:10+00:00"
-    },
-    {
-      "title": "‘증시 최악의날’…투자 고수는 ‘삼전’ 담았다 - 서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ITWhwSFh6VEVaZGp3ODR1TDB6SVNBU29pU3RHaTgxRlN2Zm10ZFdtbTc0eXMwS1BKR21ER252VTVhWDhTY01jbnZ2MDU4eGs2MVE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-02T08:50:40+00:00"
-    },
-    {
-      "title": "코레일·SR 9월 통합 … 운임 10% 싸진다",
-      "link": "https://www.mk.co.kr/news/economy/12114605",
-      "source": "매일경제·증권",
-      "published": "2026-08-02T08:49:08+00:00"
-    },
-    {
-      "title": "[포토] 11주 연속 하락한 기름값",
-      "link": "https://www.mk.co.kr/news/economy/12114606",
-      "source": "매일경제·증권",
-      "published": "2026-08-02T08:49:08+00:00"
-    },
-    {
-      "title": "\"소비자 목소리 직접 들어요\"…우리은행, 고객 패널 간담회",
-      "link": "https://www.mk.co.kr/news/economy/12114603",
-      "source": "매일경제·증권",
-      "published": "2026-08-02T08:49:07+00:00"
     }
   ],
   "pages": [
