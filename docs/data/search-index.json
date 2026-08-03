@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-03T22:00:28.994570+00:00",
+  "as_of": "2026-08-03T22:05:47.955678+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -359,16 +359,52 @@
   ],
   "news": [
     {
+      "title": "Snap's stock jumps 8% on earnings beat and strong sales forecast",
+      "link": "https://www.cnbc.com/2026/08/03/snap-q2-earnings-report-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T22:03:52+00:00"
+    },
+    {
+      "title": "증시 급등락에 발 묶인 VC…메자닌·상장주 회수 고민 커진다 - investchosun.com",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaHZQeFo2dUJfSl9OczRQYnZsQnRKRVhPM3NTOFAzTU43UkszbXJ4eXl5cjd2NUR4S1JjQ1ktYmd5UkdOTXAtWDlkdWNtYThCaTh1MTNMS1Q0SEVodkpWV05ubDlFb212dDd5VE1SX2VWUEVzSE00WjJTWmk1MGViTU1BYw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T22:00:19+00:00"
+    },
+    {
+      "title": "[우분투칼럼] 아프리카와 개발협력⒂: 새로운 희망 심는 가나 산업단지",
+      "link": "https://www.yna.co.kr/view/AKR20260722056200898",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-03T22:00:05+00:00"
+    },
+    {
+      "title": "\"한국증시 안 끝났다…하루 급등락 아니라 방향을 봐야\"[클릭e종목] - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9sTHJhTEdxU2pmRUh0NlZneGRpbE8wWEQxR2xDdlVmWUZRQnEtSWY2RS04VUMtT2lSVTR1YzVidUUtTk03bFI1NkNzMTRCYWpreVJqWUNQNWU2Ykt3TDNuTA?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T22:00:00+00:00"
+    },
+    {
+      "title": "Palantir’s stock climbs after earnings, as AI drives turbocharged growth",
+      "link": "https://www.marketwatch.com/story/palantirs-stock-gains-as-ai-drives-turbocharged-growth-e006b70a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-03T21:59:00+00:00"
+    },
+    {
       "title": "Big Tech's Anthropic and OpenAI stakes are distorting the corporate earnings picture",
       "link": "https://www.cnbc.com/2026/08/03/big-techs-anthropic-and-openai-stakes-distort-corporate-earnings.html",
       "source": "CNBC Finance",
       "published": "2026-08-03T21:57:34+00:00"
     },
     {
-      "title": "Snap's stock jumps 10% on earnings beat and strong sales forecast",
-      "link": "https://www.cnbc.com/2026/08/03/snap-q2-earnings-report-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T21:44:19+00:00"
+      "title": "[글로벌증시] 미, 이란 공격 취소에…뉴욕증시 상승 마감 - 연합뉴스 한민족센터",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mTHFTZXhtaEt5X2U2WXdGa3dtTjRXalU0S0JkY3NNNzUwZzFscEJiQkNTU3MxRkRJNlRfUWdJdzRnY3lORnNRcFNCNVRmbHhkTjNndTlEZmNwTURrbkZPa0pVYkQxeENrUXVPN1JyeEN2QWZs?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T21:49:59+00:00"
+    },
+    {
+      "title": "美 이란 공격 취소에 안도…AI 주 반등에 뉴욕증시 일제히 상승 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVWVBVThVUm9SczZybzktTVJEa0JwLTVfNkxmNEdXQkQ0bHZZUWpmRlBEeEZrNTZLV25CcHppTWJJWWZVeThWaTRrVXY3NkxZbHc1TVkwU0l6MzlaMk5SSVEtM3dsaVdfRDlzWnJnTTdxZkp4YkF2am5DdTlNWVg4ZXJRM3Jud3ZB?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T21:48:00+00:00"
     },
     {
       "title": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
@@ -393,6 +429,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260803126800030",
       "source": "연합뉴스·경제",
       "published": "2026-08-03T21:31:01+00:00"
+    },
+    {
+      "title": "[속보] 뉴욕증시 상승…나스닥 2.13%↑ - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5vTnB6MF9nNUJRS1ZHQk9oUmgzNUZtZFpwT3A0QmdSZnlMZ1ZoTW82aE1Ra2l0ZDVfSHowYl9pd1dYZzFRWWdnc29LQlFmSVpIZ200ZA?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T21:06:00+00:00"
     },
     {
       "title": "[반려동물] 맞춤형 펫 건강관리 뜬다…관절·눈·장 건강까지 세분화",
@@ -449,6 +491,12 @@
       "published": "2026-08-03T20:44:00+00:00"
     },
     {
+      "title": "[뉴욕증시] 빅테크·유가 하락 호재 다우 693.38P 폭등 - g-enews.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb3Z6dmU5MHlUOGdCd05KaUk5b2NETHBFdFhhSmNPQ2dfcW9lSkpRa2VpeVJnY3BqakJ4WU50c3lXUWRZR3l0WGlJcGViekFDZTNYMVFCaThtTnVWSENBZnZTa1JPb293SENJSkpTODZ5M0ZIRXRVT3ltZGg3RUtuYUljZTNlUWhO?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T20:40:03+00:00"
+    },
+    {
       "title": "Traders in the world’s most important financial market are bracing for a wild stretch ahead",
       "link": "https://www.marketwatch.com/story/traders-in-the-worlds-most-important-financial-market-are-bracing-for-a-wild-stretch-ahead-4a1507dc?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -467,10 +515,22 @@
       "published": "2026-08-03T20:23:28+00:00"
     },
     {
+      "title": "뉴욕증시, 미 이란 공격 취소·기술주 강세에 상승…나스닥 2%↑ - KBS 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtZVRlWWgzbXByd1hDMXpjelJaWl9JVFA3Q2ctUlpIcmR3VkM0RmpYeGtfUGF6cFZxS29KakQ0UldERVZ4SENWbHZfeTRqRy01WW9IWEcyX1U1akE?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T20:22:00+00:00"
+    },
+    {
       "title": "Boeing clears key hurdle and stock rallies to lead the Dow",
       "link": "https://www.marketwatch.com/story/boeing-clears-key-hurdle-and-stock-rallies-leading-the-dow-ffd2dcbd?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-03T20:17:00+00:00"
+    },
+    {
+      "title": "이란 타격 취소에 월가 환호… 뉴욕증시, 상승 마감 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVWRZdW1aakZSdTNsY0FQRXFpVG54T0hodGpuMHVxc3hUNDlhb000LW42V01scEpwZEJ1UTN4bTJRYjJSLUQxSW1MWl85bHNpSjhka3hnRTJmSXVRTXhYbWJuQlJTSGJvTVRab0VXclREWHp6aEY3QTFVakE1bmNYSWUwczYzMldKUVNEUmhka1l3RnoyNnlTTjJSbjB3QQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T20:16:00+00:00"
     },
     {
       "title": "FAA clears smallest Boeing 737 Max to fly after years of delays",
@@ -479,10 +539,10 @@
       "published": "2026-08-03T20:09:19+00:00"
     },
     {
-      "title": "Palantir’s stock gains as AI drives turbocharged growth",
-      "link": "https://www.marketwatch.com/story/palantirs-stock-gains-as-ai-drives-turbocharged-growth-e006b70a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-03T20:07:00+00:00"
+      "title": "[속보]뉴욕증시 일제히 상승 마감…다우 최고치 경신 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FOWpGY3dteEM5NDBFQW5KX0FyOHhyeEpwd19oNlVHZWktdDRsRVJ5RTdpalJpNlJJby1qNy1JeUhNdUFFelplOVUtTEQtekpLSk5td2J5SS05ZnB2YlkyWA?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T20:06:44+00:00"
     },
     {
       "title": "Trump says Exxon and Chevron made 'too much money' off high oil prices during Iran conflict: 'I don't like it'",
@@ -495,6 +555,12 @@
       "link": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html",
       "source": "CNBC Finance",
       "published": "2026-08-03T20:02:17+00:00"
+    },
+    {
+      "title": "李대통령, 7시간 반 부동산·증시 점검회의…\"공급 속도 중요\" - 연합뉴스TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkUEV5UEl0RFI4Qnh1Mnh3VENOckNsQVZGaERucEttZTJxWkdkNDhfc25KSEJxcGVkQlRlQUtRclpNdGJoaG9EaUJhNk9SZXZpMzJUUTM1REtnaDktSGZucmR6Zjd3YW8?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T20:00:00+00:00"
     },
     {
       "title": "Oil prices tumble after Trump calls off attack on Iran",
@@ -557,6 +623,12 @@
       "published": "2026-08-03T19:10:00+00:00"
     },
     {
+      "title": "\"개미들 어쩌나\" 증시 변동성에 빚투 급감 잔고 30조원 붕괴 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HMzRkemN3bmFKeXZ1ZHQ4VDhVV1VGSFBRanE5cWlSUFluZVRWc1JtMkxPaTVMS2N3eTQyTmxiRUItOVAyZ0NHbVYxTjZxQ1k?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T19:01:29+00:00"
+    },
+    {
       "title": "‘My head hit the driver’s window’: A teenager T-boned our car. Will Medicare pay my hospital bills?",
       "link": "https://www.marketwatch.com/story/my-head-hit-the-drivers-window-a-teenager-t-boned-our-car-will-medicare-pay-my-hospital-bills-0552d90d?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -585,78 +657,6 @@
       "link": "https://www.cnbc.com/2026/08/03/cyclospora-outbreak-first-two-deaths-reported-in-michigan.html",
       "source": "CNBC Finance",
       "published": "2026-08-03T18:32:42+00:00"
-    },
-    {
-      "title": "Hugging Face CEO says China is winning the AI race and dominating on open models",
-      "link": "https://www.cnbc.com/2026/08/03/hugging-face-china-ai-race-open-models.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T17:28:17+00:00"
-    },
-    {
-      "title": "Are Americans ready to embrace tiny 'cars'? These companies think so",
-      "link": "https://www.cnbc.com/2026/08/03/electric-lsv-stellantis-fiat-toppolino.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T16:57:42+00:00"
-    },
-    {
-      "title": "White House to host AI companies Tuesday to review new model-testing framework",
-      "link": "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T16:56:52+00:00"
-    },
-    {
-      "title": "Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure",
-      "link": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T16:54:19+00:00"
-    },
-    {
-      "title": "Visa to buy cybersecurity firm BioCatch for $2.4 billion amid surge in AI-powered scams",
-      "link": "https://www.cnbc.com/2026/08/03/visa-buys-biocatch-fraud-detection.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T16:44:25+00:00"
-    },
-    {
-      "title": "Trump insists Iran talks are underway despite Tehran's 'duplicitous' denials",
-      "link": "https://www.cnbc.com/2026/08/03/trump-iran-us-negotiations-peace-proposals-.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T16:39:37+00:00"
-    },
-    {
-      "title": "Kalshi traders think July jobs report will come in slightly cooler than economists’ predictions",
-      "link": "https://www.cnbc.com/2026/08/03/kalshi-traders-think-july-jobs-will-come-in-cooler-than-estimates.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T15:59:04+00:00"
-    },
-    {
-      "title": "'Spider-Man: Brand New Day' beats out 'Avengers: Endgame' for highest domestic opening ever",
-      "link": "https://www.cnbc.com/2026/08/03/spider-man-brand-new-day-debut-360m-highest-domestic-opening-ever.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T15:46:27+00:00"
-    },
-    {
-      "title": "李대통령, 7시간 반 부동산·증시 점검회의…\"공급 속도 중요\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803163600001",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-03T14:32:58+00:00"
-    },
-    {
-      "title": "Why the U.S. stepped in after decades to prop up Japan's yen — and what's at stake",
-      "link": "https://www.cnbc.com/2026/08/03/japan-yen-intervention-us-treasurys-euros-.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T13:49:17+00:00"
-    },
-    {
-      "title": "SpaceX's post-IPO plunge sets tense backdrop for first earnings report",
-      "link": "https://www.cnbc.com/2026/08/03/spacexs-post-ipo-plunge-sets-tense-backdrop-for-first-earnings-report.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T13:45:02+00:00"
-    },
-    {
-      "title": "What the market is saying about the U.S. intervention to prop up the yen",
-      "link": "https://www.cnbc.com/2026/08/03/yen-us-intervention-japan-market-currency.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T13:43:55+00:00"
     }
   ],
   "pages": [
