@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-03T19:26:14.723939+00:00",
+  "as_of": "2026-08-03T20:43:49.797348+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -359,10 +359,130 @@
   ],
   "news": [
     {
+      "title": "Snap's stock jumps 10% on earnings beat and strong sales forecast",
+      "link": "https://www.cnbc.com/2026/08/03/snap-q2-earnings-report-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T20:36:41+00:00"
+    },
+    {
+      "title": "Palantir posts blowout Q2 numbers, with U.S. commercial revenue soaring nearly 150%",
+      "link": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T20:36:27+00:00"
+    },
+    {
+      "title": "Twenty five states sue Trump administration over latest global tariffs",
+      "link": "https://www.cnbc.com/2026/08/03/trump-tariffs-25-states-lawsuit-supreme-court.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T20:35:17+00:00"
+    },
+    {
+      "title": "Traders in the world’s most important financial market are bracing for a wild stretch ahead",
+      "link": "https://www.marketwatch.com/story/traders-in-the-worlds-most-important-financial-market-are-bracing-for-a-wild-stretch-ahead-4a1507dc?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-03T20:32:00+00:00"
+    },
+    {
+      "title": "Trump sours on Pirro over Reflecting Pool case, won't say her job is safe",
+      "link": "https://www.cnbc.com/2026/08/03/trump-pirro-reflecting-pool-vandalism-case.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T20:30:54+00:00"
+    },
+    {
+      "title": "'The Odyssey' fuels Imax stock to all-time high. CEO calls momentum a 'flywheel'",
+      "link": "https://www.cnbc.com/2026/08/03/imax-stock-the-odyssey.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T20:23:28+00:00"
+    },
+    {
+      "title": "뉴욕증시, 미 이란 공격 취소·기술주 강세에 상승…나스닥 2%↑ - KBS 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtZVRlWWgzbXByd1hDMXpjelJaWl9JVFA3Q2ctUlpIcmR3VkM0RmpYeGtfUGF6cFZxS29KakQ0UldERVZ4SENWbHZfeTRqRy01WW9IWEcyX1U1akE?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T20:22:00+00:00"
+    },
+    {
+      "title": "Boeing clears key hurdle and stock rallies to lead the Dow",
+      "link": "https://www.marketwatch.com/story/boeing-clears-key-hurdle-and-stock-rallies-leading-the-dow-ffd2dcbd?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-03T20:17:00+00:00"
+    },
+    {
+      "title": "이란 타격 취소에 월가 환호… 뉴욕증시, 상승 마감 - 조선비즈 - biz.chosun.com",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVWRZdW1aakZSdTNsY0FQRXFpVG54T0hodGpuMHVxc3hUNDlhb000LW42V01scEpwZEJ1UTN4bTJRYjJSLUQxSW1MWl85bHNpSjhka3hnRTJmSXVRTXhYbWJuQlJTSGJvTVRab0VXclREWHp6aEY3QTFVakE1bmNYSWUwczYzMldKUVNEUmhka1l3RnoyNnlTTjJSbjB3QQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T20:16:00+00:00"
+    },
+    {
+      "title": "FAA clears smallest Boeing 737 Max to fly after years of delays",
+      "link": "https://www.cnbc.com/2026/08/03/faa-boeing-737-max-certification.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T20:09:19+00:00"
+    },
+    {
+      "title": "Palantir’s stock gains as AI drives turbocharged growth",
+      "link": "https://www.marketwatch.com/story/palantirs-stock-gains-as-ai-drives-turbocharged-growth-e006b70a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-03T20:07:00+00:00"
+    },
+    {
+      "title": "[속보]뉴욕증시 일제히 상승 마감…다우 최고치 경신 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FOWpGY3dteEM5NDBFQW5KX0FyOHhyeEpwd19oNlVHZWktdDRsRVJ5RTdpalJpNlJJby1qNy1JeUhNdUFFelplOVUtTEQtekpLSk5td2J5SS05ZnB2YlkyWA?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T20:06:44+00:00"
+    },
+    {
       "title": "Trump says Exxon and Chevron made 'too much money' off high oil prices during Iran conflict: 'I don't like it'",
       "link": "https://www.cnbc.com/2026/08/03/trump-says-exxon-and-chevron-made-too-much-money-off-high-oil-prices-during-iran-conflict-i-dont-like-it.html",
       "source": "CNBC Finance",
-      "published": "2026-08-03T19:25:08+00:00"
+      "published": "2026-08-03T20:02:34+00:00"
+    },
+    {
+      "title": "Amazon tops $3 trillion market cap as stock continues post-earnings surge",
+      "link": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T20:02:17+00:00"
+    },
+    {
+      "title": "李대통령, 7시간 반 부동산·증시 점검회의…\"공급 속도 중요\" - 연합뉴스TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkUEV5UEl0RFI4Qnh1Mnh3VENOckNsQVZGaERucEttZTJxWkdkNDhfc25KSEJxcGVkQlRlQUtRclpNdGJoaG9EaUJhNk9SZXZpMzJUUTM1REtnaDktSGZucmR6Zjd3YW8?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T20:00:00+00:00"
+    },
+    {
+      "title": "Oil prices tumble after Trump calls off attack on Iran",
+      "link": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T19:59:55+00:00"
+    },
+    {
+      "title": "Kalshi traders are not expecting a U.S. and Iran nuclear deal soon",
+      "link": "https://www.cnbc.com/2026/08/03/kalshi-traders-are-not-expecting-a-us-and-iran-nuclear-deal-soon.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T19:48:25+00:00"
+    },
+    {
+      "title": "Microsoft’s stock is on a run not seen in 26 years — erasing its year-to-date losses",
+      "link": "https://www.marketwatch.com/story/microsofts-stock-is-on-a-run-not-seen-in-26-years-erasing-its-year-to-date-losses-d9827b6c?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-03T19:40:00+00:00"
+    },
+    {
+      "title": "국제유가, 트럼프 이란공격 취소에 급락…브렌트 5%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260804004400072",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-03T19:31:21+00:00"
+    },
+    {
+      "title": "Cyclospora outbreak is linked to two deaths in Michigan as case counts continue to rise",
+      "link": "https://www.marketwatch.com/story/cyclospora-outbreak-is-linked-to-two-deaths-in-michigan-as-case-counts-continue-to-rise-77b49a5a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-03T19:30:00+00:00"
+    },
+    {
+      "title": "트럼프의 엔화부양 배경은…'美국채금리·대미투자 관리' 셈법",
+      "link": "https://www.yna.co.kr/view/AKR20260804000700072",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-03T19:28:10+00:00"
     },
     {
       "title": "A trio of positive developments has Boeing shares soaring",
@@ -389,6 +509,12 @@
       "published": "2026-08-03T19:10:00+00:00"
     },
     {
+      "title": "\"개미들 어쩌나\" 증시 변동성에 빚투 급감 잔고 30조원 붕괴 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HMzRkemN3bmFKeXZ1ZHQ4VDhVV1VGSFBRanE5cWlSUFluZVRWc1JtMkxPaTVMS2N3eTQyTmxiRUItOVAyZ0NHbVYxTjZxQ1k?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T19:01:29+00:00"
+    },
+    {
       "title": "‘My head hit the driver’s window’: A teenager T-boned our car. Will Medicare pay my hospital bills?",
       "link": "https://www.marketwatch.com/story/my-head-hit-the-drivers-window-a-teenager-t-boned-our-car-will-medicare-pay-my-hospital-bills-0552d90d?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -399,12 +525,6 @@
       "link": "https://www.cnbc.com/2026/08/03/tech-millionaires-donor-advised-funds-tax-savings-giving.html",
       "source": "CNBC Finance",
       "published": "2026-08-03T18:56:51+00:00"
-    },
-    {
-      "title": "FAA clears smallest Boeing 737 Max to fly after years of delays",
-      "link": "https://www.cnbc.com/2026/08/03/faa-boeing-737-max-certification.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T18:56:28+00:00"
     },
     {
       "title": "Senate appears ready to advance Todd Blanche for attorney general after Cornyn strikes deal",
@@ -431,20 +551,8 @@
       "published": "2026-08-03T18:30:00+00:00"
     },
     {
-      "title": "'The Odyssey' fuels Imax stock to all-time high. CEO calls momentum a 'flywheel'",
-      "link": "https://www.cnbc.com/2026/08/03/imax-stock-the-odyssey.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T18:16:41+00:00"
-    },
-    {
       "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
       "link": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-03T18:15:00+00:00"
-    },
-    {
-      "title": "Boeing clears key hurdle and stock rallies, leading the Dow",
-      "link": "https://www.marketwatch.com/story/boeing-clears-key-hurdle-and-stock-rallies-leading-the-dow-ffd2dcbd?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-03T18:15:00+00:00"
     },
@@ -455,28 +563,10 @@
       "published": "2026-08-03T18:12:00+00:00"
     },
     {
-      "title": "Micron’s stock sees choppy trading as China fears loom large",
-      "link": "https://www.marketwatch.com/story/microns-stock-sees-choppy-trading-as-china-fears-loom-large-0965123f?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-03T18:07:00+00:00"
-    },
-    {
-      "title": "If I buy a house for $1 million in cash at 70, will I run out of money by 90?",
-      "link": "https://www.marketwatch.com/story/if-i-buy-a-house-for-1-million-in-cash-at-70-will-i-run-out-of-money-by-90-54afb313?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-03T17:44:00+00:00"
-    },
-    {
       "title": "Hugging Face CEO says China is winning the AI race and dominating on open models",
       "link": "https://www.cnbc.com/2026/08/03/hugging-face-china-ai-race-open-models.html",
       "source": "CNBC Finance",
       "published": "2026-08-03T17:28:17+00:00"
-    },
-    {
-      "title": "SpaceX’s stock is down nearly 50% from its high. Why it’s still not a bargain.",
-      "link": "https://www.marketwatch.com/story/spacexs-stock-is-down-nearly-50-from-its-high-why-its-still-not-a-bargain-65b528ad?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-03T17:05:00+00:00"
     },
     {
       "title": "Are Americans ready to embrace tiny 'cars'? These companies think so",
@@ -497,12 +587,6 @@
       "published": "2026-08-03T16:54:19+00:00"
     },
     {
-      "title": "Kalshi traders are not expecting a U.S. and Iran nuclear deal soon",
-      "link": "https://www.cnbc.com/2026/08/03/kalshi-traders-are-not-expecting-a-us-and-iran-nuclear-deal-soon.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T16:51:19+00:00"
-    },
-    {
       "title": "Visa to buy cybersecurity firm BioCatch for $2.4 billion amid surge in AI-powered scams",
       "link": "https://www.cnbc.com/2026/08/03/visa-buys-biocatch-fraud-detection.html",
       "source": "CNBC Finance",
@@ -515,12 +599,6 @@
       "published": "2026-08-03T16:39:37+00:00"
     },
     {
-      "title": "AMD has two big engines roaring as it heads into earnings",
-      "link": "https://www.marketwatch.com/story/amd-has-two-big-engines-roaring-as-it-heads-into-earnings-28b20033?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-03T16:31:00+00:00"
-    },
-    {
       "title": "미-이란 외교 해법 추진에 유가 급락, 세계 증시 혼조 - VOA 한국어 홈페이지",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObUJ2TTJxemVhYjBEMzd3TmJCcGxBNmlzN1JFX0lpT0R0TlNqNGdYSGplS2lXQVFKeEJGSl9yODhlTDJfMEJzTDQyTFJfUlpOeGtHYmxaRFJ0ZS1OQVhZXzhGdzYzWVJuTXBxWEJ5T1NXd2cxS0dKMFkwNVBTZnlLYmdFWTlxcmxtbnlqX19HMjhPdzhxdmtqa1JkVGkwLXE2Vm1JTEFrNHVHc3otSk43NGhuYVdCUUhfcDZPTtIBvwFBVV95cUxQZDk4Yk16ZWpPTEFEZUYzMlFsNmhIOTF0VWxBdUNuYUF4TVZyM1ZWby1kRkQ4dDVLNXdtdjE4RmxtLTQ4d19uZG9ha3hBYW1lVGFOdjVYYjh0ZzdKX0ZaN2xmWHZhZ3c2alZ0RFZLNWJBRXNOQ3gxLXFEdC1oTjNfZGFaWEFoU2lWc2Ric0NTQ1dxcTRQTmNyZW9qd0pSbGZoTFB1cVV4a2ZDTGV2bUg2b3lkSzVsaVRyWEdzVVR6NA?oc=5",
       "source": "Google News",
@@ -531,18 +609,6 @@
       "link": "https://www.cnbc.com/2026/08/03/kalshi-traders-think-july-jobs-will-come-in-cooler-than-estimates.html",
       "source": "CNBC Finance",
       "published": "2026-08-03T15:59:04+00:00"
-    },
-    {
-      "title": "Amazon tops $3 trillion market cap as stock continues post-earnings surge",
-      "link": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T15:50:20+00:00"
-    },
-    {
-      "title": "Oil prices tumble after Trump calls off attack on Iran",
-      "link": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T15:47:24+00:00"
     },
     {
       "title": "'Spider-Man: Brand New Day' beats out 'Avengers: Endgame' for highest domestic opening ever",
@@ -563,25 +629,19 @@
       "published": "2026-08-03T15:26:23+00:00"
     },
     {
-      "title": "李대통령, 5개국 순방 직후 부동산·증시 점검 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEZ0NGLXFaazNsNEdoQWFXdXIwbU1tQ0pROGk3emJWTldJRkpQVlB0Zzg2TWg3VDFjUXpIZWhFMWh4aS12UDdSZ0M2cXJVREE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-03T15:04:26+00:00"
-    },
-    {
-      "title": "뉴욕 증시, 美 공격 취소에 상승세···다우 1.34%↑ 사상 최고치 경신 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FVGdZLXhidDFiTUQwMEoxWi14R3hMUHBfV2EtdkNtZmdMVUZlMmJodFRfUmlNT1N3VW83NFF6OHQzclFKQUtwMFpjdDJWczhRdk11UmRiTDk0LXNyNHJnUdIBeEFVX3lxTE5UekViMmw1bXdqckRCRVB1WU9fTkdaRUh4UXgyRmdzYzN5RWVHQk9CNHc2SHNPa1MwQ3c5YWFuNnhlZnRCVVZhUUJONXZLdk94cXhQVllHRDF2dE82TUN4dDRscFhqbklmOERLUjF0allfdGRqUDZGMg?oc=5",
-      "source": "Google News",
-      "published": "2026-08-03T14:33:45+00:00"
-    },
-    {
       "title": "李대통령, 7시간 반 부동산·증시 점검회의…\"공급 속도 중요\"",
       "link": "https://www.yna.co.kr/view/AKR20260803163600001",
       "source": "연합뉴스·경제",
       "published": "2026-08-03T14:32:58+00:00"
     },
     {
-      "title": "뉴욕증시, 중동 갈등 완화 기대감에 상승 출발… 국제 유가는 하락 - 조선비즈 - Chosunbiz",
+      "title": "李대통령, 7시간 반 부동산·증시 점검회의…\"공급 속도 중요\" - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UNFk2V19GdGwxZFJYZzFJWFFWN3RlQWx0NmJYR2dOQV9hZ2VlX1ktc2xpc3g1c1FUamdwMTV1NkFlSVBpUHNaRVJHSFNWazNYb05VN1lvdXdTd2vSAWBBVV95cUxPSGVWVTBTamdqcnJfOXRsdWVnblFXVFZWdTAyOGRkNmVtamVidHZHaDJtS0l1WTVybjVQcVJoV3A0WVdjNVhkdFJlb3g4Vl8xVk5RZGZoV3RKWFNtVFZLSHc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T14:32:58+00:00"
+    },
+    {
+      "title": "뉴욕증시, 중동 갈등 완화 기대감에 상승 출발… 국제 유가는 하락 - 조선비즈 - biz.chosun.com",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa21rS2htTkx6YkJrcmZHakJ3em5UQUVxYlRyckQ1djBya2x5U0I0OGdGdXhoYjZNR01VN3o0TzdzNWo5R0ZtWlVSSUV6WFJPTlZ5T0FiNlgwWEJVeW0yV3U2ZUIzbk5hcWpwaDdTeE9SU0txYWQ1RFBoMGVLQmhCX2c2WUNZNU9wLWhrTDlkLVN4aEZnb1dqb05nN2lDZ9IBsgFBVV95cUxQaHFxcUY1RGREZ1NNc3dfWkNwQkhkQ3BGWUl2dkR0RWpfNE16ZWlXbXBLbmlrcU5pSDZ4TDZxRXJLTVlSNXdkeXRYT3o4Ulo0aUlnVXZiLXVZSDhGUVlCVHliRUNDdy1xMzhpaWhaSGxSSGlFN0RWSGM4aU51RGRWOExTR1lpQ1lIaWlNTTdnc0tnRXVDblpGMW52c1RXcXM5R2N6V0pSN2JqSzdJU3I3WFlB?oc=5",
       "source": "Google News",
       "published": "2026-08-03T14:19:00+00:00"
@@ -597,66 +657,6 @@
       "link": "https://www.cnbc.com/2026/08/03/japan-yen-intervention-us-treasurys-euros-.html",
       "source": "CNBC Finance",
       "published": "2026-08-03T13:49:17+00:00"
-    },
-    {
-      "title": "SpaceX's post-IPO plunge sets tense backdrop for first earnings report",
-      "link": "https://www.cnbc.com/2026/08/03/spacexs-post-ipo-plunge-sets-tense-backdrop-for-first-earnings-report.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T13:45:02+00:00"
-    },
-    {
-      "title": "귀국하자마자 긴급회의...부동산·증시 대책 등 점검 - YTN",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VMm1pY3BwLU9mYTN3NXpvZFk5Rnc1WVpNVlBuS0xhZWpJV1llQnJCY1hraTdBTGlGczNTUnZCRmJDSHpIcmtVY3hkM2wwZ1FZUnhHMXlKLXE3RVZlNEE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-03T13:44:00+00:00"
-    },
-    {
-      "title": "What the market is saying about the U.S. intervention to prop up the yen",
-      "link": "https://www.cnbc.com/2026/08/03/yen-us-intervention-japan-market-currency.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T13:43:55+00:00"
-    },
-    {
-      "title": "\"AI 불확실성에 26% 급락\"…홍콩 증시 오히려 웃었다 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91X01XYUZubFQ5T002QU5ZT0c4UTZRNTA1ckZiNFlpQ0xXWW5YVzJ2SUxFYllTXzZqVzg0ZFljdFBtVFRfTExoQThFay1HY2M?oc=5",
-      "source": "Google News",
-      "published": "2026-08-03T13:21:00+00:00"
-    },
-    {
-      "title": "구윤철 \"그린벨트 일부 풀고 군 시설까지…공급대책 마련 중\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803160000002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-03T13:08:06+00:00"
-    },
-    {
-      "title": "AstraZeneca slides after reports of Bristol Myers merger talks leave analysts 'perplexed'",
-      "link": "https://www.cnbc.com/2026/08/03/astrazeneca-bristol-myers-squibb-merger-talks.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T11:35:03+00:00"
-    },
-    {
-      "title": "美 채권자경단이 움직인다…기준금리 인상 명분 강해졌다 [BOK WATCHER]",
-      "link": "https://www.mk.co.kr/news/economy/12115563",
-      "source": "매일경제·증권",
-      "published": "2026-08-03T11:26:36+00:00"
-    },
-    {
-      "title": "“금값, 이게 저점 신호일까요?”…13년만에 실물·ETF 사들이는 ‘큰 손’",
-      "link": "https://www.mk.co.kr/news/economy/12115546",
-      "source": "매일경제·증권",
-      "published": "2026-08-03T11:06:43+00:00"
-    },
-    {
-      "title": "ChatGPT dominates early AI spending in Congress as lawmakers weigh regulation",
-      "link": "https://www.cnbc.com/2026/08/03/openai-chatgpt-anthropic-congress-house-ai-spending.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T11:00:01+00:00"
-    },
-    {
-      "title": "흔들리는 K증시, 연일 터지는 비상장치…사이드카, 서킷브레이커 뭐길래? [주린이 ABC] - 매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfS3J4UHhiTDdDbXVXY2VqZF9CbmVtMXZLSGFMbEF2VXFTdG1ZRC1mRENhdFkybFdIOVJCQjRXVUdKYkp1ZjNFbDU0ZVVBc2J6RVE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-03T10:53:29+00:00"
     }
   ],
   "pages": [
