@@ -155,16 +155,6 @@
     "market": "US"
   },
   {
-    "code": "AAPL",
-    "name": "Apple Inc.",
-    "market": "US"
-  },
-  {
-    "code": "AMZN",
-    "name": "Amazon",
-    "market": "US"
-  },
-  {
     "code": "MSFT",
     "name": "Microsoft",
     "market": "US"
@@ -175,13 +165,18 @@
     "market": "US"
   },
   {
-    "code": "SNDK",
-    "name": "Sandisk",
+    "code": "AMZN",
+    "name": "Amazon",
     "market": "US"
   },
   {
-    "code": "GOOGL",
-    "name": "Alphabet Inc. (Class A)",
+    "code": "AAPL",
+    "name": "Apple Inc.",
+    "market": "US"
+  },
+  {
+    "code": "SNDK",
+    "name": "Sandisk",
     "market": "US"
   },
   {
@@ -190,13 +185,18 @@
     "market": "US"
   },
   {
-    "code": "AMD",
-    "name": "Advanced Micro Devices",
+    "code": "GOOGL",
+    "name": "Alphabet Inc. (Class A)",
     "market": "US"
   },
   {
     "code": "TSLA",
     "name": "Tesla, Inc.",
+    "market": "US"
+  },
+  {
+    "code": "AMD",
+    "name": "Advanced Micro Devices",
     "market": "US"
   },
   {
@@ -210,13 +210,18 @@
     "market": "US"
   },
   {
-    "code": "AVGO",
-    "name": "Broadcom",
+    "code": "PLTR",
+    "name": "Palantir Technologies",
     "market": "US"
   },
   {
-    "code": "APP",
-    "name": "AppLovin",
+    "code": "ORCL",
+    "name": "Oracle Corporation",
+    "market": "US"
+  },
+  {
+    "code": "AVGO",
+    "name": "Broadcom",
     "market": "US"
   },
   {
@@ -235,8 +240,8 @@
     "market": "US"
   },
   {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
+    "code": "LITE",
+    "name": "Lumentum",
     "market": "US"
   },
   {
@@ -250,33 +255,18 @@
     "market": "US"
   },
   {
-    "code": "PLTR",
-    "name": "Palantir Technologies",
-    "market": "US"
-  },
-  {
     "code": "LLY",
     "name": "Lilly (Eli)",
     "market": "US"
   },
   {
-    "code": "LITE",
-    "name": "Lumentum",
+    "code": "NOW",
+    "name": "ServiceNow",
     "market": "US"
   },
   {
-    "code": "COIN",
-    "name": "Coinbase",
-    "market": "US"
-  },
-  {
-    "code": "V",
-    "name": "Visa Inc.",
-    "market": "US"
-  },
-  {
-    "code": "MA",
-    "name": "Mastercard",
+    "code": "WMT",
+    "name": "Walmart",
     "market": "US"
   },
   {
@@ -290,13 +280,23 @@
     "market": "US"
   },
   {
-    "code": "WMT",
-    "name": "Walmart",
+    "code": "BA",
+    "name": "Boeing",
     "market": "US"
   },
   {
-    "code": "LIN",
-    "name": "Linde plc",
+    "code": "CAT",
+    "name": "Caterpillar Inc.",
+    "market": "US"
+  },
+  {
+    "code": "PANW",
+    "name": "Palo Alto Networks",
+    "market": "US"
+  },
+  {
+    "code": "XOM",
+    "name": "ExxonMobil",
     "market": "US"
   },
   {

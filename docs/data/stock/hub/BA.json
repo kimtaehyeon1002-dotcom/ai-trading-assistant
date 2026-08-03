@@ -1,0 +1,17 @@
+{
+  "code": "BA",
+  "name": "Boeing",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 233.49000549316406,
+    "change_pct": 8.03,
+    "volume": 10015708,
+    "amount": 2338567715.9379272,
+    "marcap": null,
+    "as_of_iso": "2026-08-03T22:47:39.608583+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "BA",
+  "related_news": []
+}

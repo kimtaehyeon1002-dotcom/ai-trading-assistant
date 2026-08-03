@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-03T22:33:12.021613+00:00",
+  "as_of": "2026-08-03T22:47:54.064365+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -157,16 +157,6 @@
       "market": "US"
     },
     {
-      "code": "AAPL",
-      "name": "Apple Inc.",
-      "market": "US"
-    },
-    {
-      "code": "AMZN",
-      "name": "Amazon",
-      "market": "US"
-    },
-    {
       "code": "MSFT",
       "name": "Microsoft",
       "market": "US"
@@ -177,13 +167,18 @@
       "market": "US"
     },
     {
-      "code": "SNDK",
-      "name": "Sandisk",
+      "code": "AMZN",
+      "name": "Amazon",
       "market": "US"
     },
     {
-      "code": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
+      "code": "AAPL",
+      "name": "Apple Inc.",
+      "market": "US"
+    },
+    {
+      "code": "SNDK",
+      "name": "Sandisk",
       "market": "US"
     },
     {
@@ -192,13 +187,18 @@
       "market": "US"
     },
     {
-      "code": "AMD",
-      "name": "Advanced Micro Devices",
+      "code": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
       "market": "US"
     },
     {
       "code": "TSLA",
       "name": "Tesla, Inc.",
+      "market": "US"
+    },
+    {
+      "code": "AMD",
+      "name": "Advanced Micro Devices",
       "market": "US"
     },
     {
@@ -212,13 +212,18 @@
       "market": "US"
     },
     {
-      "code": "AVGO",
-      "name": "Broadcom",
+      "code": "PLTR",
+      "name": "Palantir Technologies",
       "market": "US"
     },
     {
-      "code": "APP",
-      "name": "AppLovin",
+      "code": "ORCL",
+      "name": "Oracle Corporation",
+      "market": "US"
+    },
+    {
+      "code": "AVGO",
+      "name": "Broadcom",
       "market": "US"
     },
     {
@@ -237,8 +242,8 @@
       "market": "US"
     },
     {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
+      "code": "LITE",
+      "name": "Lumentum",
       "market": "US"
     },
     {
@@ -252,33 +257,18 @@
       "market": "US"
     },
     {
-      "code": "PLTR",
-      "name": "Palantir Technologies",
-      "market": "US"
-    },
-    {
       "code": "LLY",
       "name": "Lilly (Eli)",
       "market": "US"
     },
     {
-      "code": "LITE",
-      "name": "Lumentum",
+      "code": "NOW",
+      "name": "ServiceNow",
       "market": "US"
     },
     {
-      "code": "COIN",
-      "name": "Coinbase",
-      "market": "US"
-    },
-    {
-      "code": "V",
-      "name": "Visa Inc.",
-      "market": "US"
-    },
-    {
-      "code": "MA",
-      "name": "Mastercard",
+      "code": "WMT",
+      "name": "Walmart",
       "market": "US"
     },
     {
@@ -292,13 +282,23 @@
       "market": "US"
     },
     {
-      "code": "WMT",
-      "name": "Walmart",
+      "code": "BA",
+      "name": "Boeing",
       "market": "US"
     },
     {
-      "code": "LIN",
-      "name": "Linde plc",
+      "code": "CAT",
+      "name": "Caterpillar Inc.",
+      "market": "US"
+    },
+    {
+      "code": "PANW",
+      "name": "Palo Alto Networks",
+      "market": "US"
+    },
+    {
+      "code": "XOM",
+      "name": "ExxonMobil",
       "market": "US"
     },
     {
@@ -359,6 +359,24 @@
   ],
   "news": [
     {
+      "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
+      "link": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-03T22:45:00+00:00"
+    },
+    {
+      "title": "Microsoft’s stock is on a run not seen in 26 years — erasing its year-to-date losses",
+      "link": "https://www.marketwatch.com/story/microsofts-stock-is-on-a-run-not-seen-in-26-years-erasing-its-year-to-date-losses-d9827b6c?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-03T22:44:00+00:00"
+    },
+    {
+      "title": "Analysis: Federal Reserve may be pulled into Bessent’s effort to support Japan’s yen",
+      "link": "https://www.cnbc.com/2026/08/03/bessent-fed-japan-yen-fima-repo-facility.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T22:40:32+00:00"
+    },
+    {
       "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
       "link": "https://www.yna.co.kr/view/AKR20260804013100011",
       "source": "연합뉴스·경제",
@@ -399,6 +417,12 @@
       "link": "https://www.cnbc.com/2026/08/03/snap-q2-earnings-report-2026.html",
       "source": "CNBC Finance",
       "published": "2026-08-03T22:03:52+00:00"
+    },
+    {
+      "title": "[오늘의 글로벌마켓] 뉴욕증시, 유가 급락 속 기술주 급등...나스닥 2.1%↑ - 오피니언뉴스",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oc3lyaFZzRjlyMmpZWmt4b2Z5aVpQdUlMb3NPMVJmT3Y3Um5MY1ctQWttanJ3YW1vTlQySXZNRjZuNHUxMDZIbWE4bXJHUUJQRFo3U25VaHRXdUdURmtzamJiandLeXpTRkZld2VTeHVmdw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T22:03:04+00:00"
     },
     {
       "title": "\"한국증시 안 끝났다…하루 급등락 아니라 방향을 봐야\"[클릭e종목] - v.daum.net",
@@ -533,7 +557,7 @@
       "published": "2026-08-03T20:44:00+00:00"
     },
     {
-      "title": "[뉴욕증시] 빅테크·유가 하락 호재 다우 693.38P 폭등 - 글로벌이코노믹",
+      "title": "[뉴욕증시] 빅테크·유가 하락 호재 다우 693.38P 폭등 - g-enews.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb3Z6dmU5MHlUOGdCd05KaUk5b2NETHBFdFhhSmNPQ2dfcW9lSkpRa2VpeVJnY3BqakJ4WU50c3lXUWRZR3l0WGlJcGViekFDZTNYMVFCaThtTnVWSENBZnZTa1JPb293SENJSkpTODZ5M0ZIRXRVT3ltZGg3RUtuYUljZTNlUWhO?oc=5",
       "source": "Google News",
       "published": "2026-08-03T20:40:03+00:00"
@@ -575,10 +599,16 @@
       "published": "2026-08-03T20:17:00+00:00"
     },
     {
-      "title": "이란 타격 취소에 월가 환호… 뉴욕증시, 상승 마감 - 조선비즈 - Chosunbiz",
+      "title": "이란 타격 취소에 월가 환호… 뉴욕증시, 상승 마감 - 조선비즈 - biz.chosun.com",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVWRZdW1aakZSdTNsY0FQRXFpVG54T0hodGpuMHVxc3hUNDlhb000LW42V01scEpwZEJ1UTN4bTJRYjJSLUQxSW1MWl85bHNpSjhka3hnRTJmSXVRTXhYbWJuQlJTSGJvTVRab0VXclREWHp6aEY3QTFVakE1bmNYSWUwczYzMldKUVNEUmhka1l3RnoyNnlTTjJSbjB3QQ?oc=5",
       "source": "Google News",
       "published": "2026-08-03T20:16:00+00:00"
+    },
+    {
+      "title": "뉴욕증시, 美이란공격 취소·기술주 강세에 상승…나스닥 2%↑ - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xV3YwVkZpbG9ieUdTUHhodTN1eXNyWnk1dmJITFZXekZHQXYzcDFpdGdoUno5N2RsdzI3NVgzcmNwS0x0Z1ZHRUFEVmcyMmJyemxPc0JGOEV0QkR4WGg5adIBYEFVX3lxTE1xV3YwVkZpbG9ieUdTUHhodTN1eXNyWnk1dmJITFZXekZHQXYzcDFpdGdoUno5N2RsdzI3NVgzcmNwS0x0Z1ZHRUFEVmcyMmJyemxPc0JGOEV0QkR4WGg5aQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-03T20:10:26+00:00"
     },
     {
       "title": "FAA clears smallest Boeing 737 Max to fly after years of delays",
@@ -627,36 +657,6 @@
       "link": "https://www.cnbc.com/2026/08/03/kalshi-traders-are-not-expecting-a-us-and-iran-nuclear-deal-soon.html",
       "source": "CNBC Finance",
       "published": "2026-08-03T19:48:25+00:00"
-    },
-    {
-      "title": "Microsoft’s stock is on a run not seen in 26 years — erasing its year-to-date losses",
-      "link": "https://www.marketwatch.com/story/microsofts-stock-is-on-a-run-not-seen-in-26-years-erasing-its-year-to-date-losses-d9827b6c?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-03T19:40:00+00:00"
-    },
-    {
-      "title": "국제유가, 트럼프 이란공격 취소에 급락…브렌트 5%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260804004400072",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-03T19:31:21+00:00"
-    },
-    {
-      "title": "Cyclospora outbreak is linked to two deaths in Michigan as case counts continue to rise",
-      "link": "https://www.marketwatch.com/story/cyclospora-outbreak-is-linked-to-two-deaths-in-michigan-as-case-counts-continue-to-rise-77b49a5a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-03T19:30:00+00:00"
-    },
-    {
-      "title": "트럼프의 엔화부양 배경은…'美국채금리·대미투자 관리' 셈법",
-      "link": "https://www.yna.co.kr/view/AKR20260804000700072",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-03T19:28:10+00:00"
-    },
-    {
-      "title": "A trio of positive developments has Boeing shares soaring",
-      "link": "https://www.cnbc.com/2026/08/03/a-trio-of-positive-developments-has-boeing-shares-soaring.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T19:23:04+00:00"
     }
   ],
   "pages": [
