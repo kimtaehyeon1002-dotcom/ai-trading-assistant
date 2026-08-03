@@ -50,12 +50,7 @@
   }
 
   function fetchEnvelope() {
-    // cache:"no-cache" = 매번 서버에 재검증(ETag). GitHub Pages가 이 파일에
-    // Cache-Control: max-age=600을 붙이므로, 그냥 fetch하면 데스크톱이 방금 발행한 잔고를
-    // 두고도 브라우저가 최대 10분간 옛 암호문을 돌려준다 — 그 결과 화면의 금액·환율이
-    // 갱신되지 않고 신선도 배지만 "지연"으로 뜬다(실제 사고 2026-08-03).
-    // no-store가 아니라 no-cache인 이유: 변경이 없으면 304로 끝나 낭비가 없다.
-    return global.fetch(siteRoot() + "/data/asset/assets.enc.json", { cache: "no-cache" }).then(function (r) {
+    return global.fetch(siteRoot() + "/data/asset/assets.enc.json").then(function (r) {
       if (!r.ok) throw new Error("envelope fetch failed");
       return r.json();
     });

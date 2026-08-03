@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-03T13:30:31.619056+00:00",
+  "as_of": "2026-08-03T13:31:29.363771+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -359,6 +359,12 @@
   ],
   "news": [
     {
+      "title": "Global oil prices fall below $83 a barrel to hover at 3-week low after Trump calls off planned attack and says Iran talks to resume Monday",
+      "link": "https://www.marketwatch.com/story/oil-prices-fall-to-three-week-low-after-trump-calls-off-planned-attack-631a8683?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-03T13:28:00+00:00"
+    },
+    {
       "title": "Are Americans ready to embrace tiny 'cars'? These companies think so",
       "link": "https://www.cnbc.com/2026/08/03/electric-lsv-stellantis-fiat-toppolino.html",
       "source": "CNBC Finance",
@@ -425,15 +431,15 @@
       "published": "2026-08-03T12:10:00+00:00"
     },
     {
-      "title": "Oil prices tumble after Trump calls off attack on Iran",
-      "link": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T12:08:00+00:00"
-    },
-    {
       "title": "Warsh tightened more by pausing than by lifting rates, this bond-market veteran argues. Here’s the math.",
       "link": "https://www.marketwatch.com/story/warsh-tightened-more-by-pausing-than-by-lifting-rates-this-bond-market-veteran-argues-heres-the-math-31cb15a1?mod=mw_rss_topstories",
       "source": "MarketWatch",
+      "published": "2026-08-03T12:08:00+00:00"
+    },
+    {
+      "title": "Oil prices tumble after Trump calls off attack on Iran",
+      "link": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
+      "source": "CNBC Finance",
       "published": "2026-08-03T12:08:00+00:00"
     },
     {
@@ -503,18 +509,6 @@
       "published": "2026-08-03T11:00:01+00:00"
     },
     {
-      "title": "Private credit has dodged public scrutiny for too long — and regulators need to step in",
-      "link": "https://www.marketwatch.com/story/private-credit-has-dodged-public-scrutiny-for-too-long-and-regulators-need-to-step-in-9ebb1d8c?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-03T11:00:00+00:00"
-    },
-    {
-      "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
-      "link": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-03T11:00:00+00:00"
-    },
-    {
       "title": "Anthropic, OpenAI among firms facing new scrutiny under EU AI Act enforcement powers",
       "link": "https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html",
       "source": "CNBC Finance",
@@ -557,22 +551,10 @@
       "published": "2026-08-03T10:32:09+00:00"
     },
     {
-      "title": "Oil prices fall to three-week low after Trump calls off planned attack",
-      "link": "https://www.marketwatch.com/story/oil-prices-fall-to-three-week-low-after-trump-calls-off-planned-attack-631a8683?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-03T10:26:00+00:00"
-    },
-    {
       "title": "노동부 \"인천 사업장 장애인 대상 성범죄·체불 확인…사법처리\"",
       "link": "https://www.yna.co.kr/view/AKR20260803146900530",
       "source": "연합뉴스·경제",
       "published": "2026-08-03T10:00:52+00:00"
-    },
-    {
-      "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
-      "link": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-03T10:00:00+00:00"
     },
     {
       "title": "[부동산세 개편] 반포 84㎡ 1주택 양도세 내년 2.4억→2029년 9.4억(종합)",
@@ -603,12 +585,6 @@
       "link": "https://www.mk.co.kr/news/economy/12115485",
       "source": "매일경제·증권",
       "published": "2026-08-03T09:25:58+00:00"
-    },
-    {
-      "title": "Joint U.S.-Japanese intervention  boosts the yen — but will it be enough?",
-      "link": "https://www.marketwatch.com/story/joint-u-s-japanese-intervention-boosts-the-yen-but-will-it-be-enough-069451f5?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-03T09:07:00+00:00"
     },
     {
       "title": "전문기술 있어야 家業 인정 … 공제한도 1000억으로 확대",
@@ -657,6 +633,30 @@
       "link": "https://www.mk.co.kr/news/economy/12115468",
       "source": "매일경제·증권",
       "published": "2026-08-03T09:02:13+00:00"
+    },
+    {
+      "title": "다주택자에 2년간 '집 팔 기회'… 수도권 사는 고령자 지방 이전땐 稅혜택",
+      "link": "https://www.mk.co.kr/news/economy/12115467",
+      "source": "매일경제·증권",
+      "published": "2026-08-03T09:02:12+00:00"
+    },
+    {
+      "title": "[뉴스&분석] 실거주해야 '장특공'… 시가 32억부터 종부세 오른다",
+      "link": "https://www.mk.co.kr/news/economy/12115461",
+      "source": "매일경제·증권",
+      "published": "2026-08-03T09:02:00+00:00"
+    },
+    {
+      "title": "50억 시세차익 난다면…거주해도 2029년 양도세 13.7억 [세제개편안]",
+      "link": "https://www.mk.co.kr/news/economy/12115377",
+      "source": "매일경제·증권",
+      "published": "2026-08-03T09:01:00+00:00"
+    },
+    {
+      "title": "실거주 여부에 종부세·양도세 갈린다…다주택 퇴로 2년간 열어 [세제 개편안]",
+      "link": "https://www.mk.co.kr/news/economy/12115444",
+      "source": "매일경제·증권",
+      "published": "2026-08-03T09:01:00+00:00"
     }
   ],
   "pages": [
