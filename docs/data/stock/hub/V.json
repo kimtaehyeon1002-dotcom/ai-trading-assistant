@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 366.2699890136719,
-    "change_pct": -0.67,
-    "volume": 8391400,
-    "amount": 3073517985.809326,
+    "close": 366.1300048828125,
+    "change_pct": -0.04,
+    "volume": 7824000,
+    "amount": 2864601158.203125,
     "marcap": null,
-    "as_of_iso": "2026-07-31T09:27:13.153444+00:00",
+    "as_of_iso": "2026-08-03T02:37:49.937063+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "V",

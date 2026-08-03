@@ -4,12 +4,12 @@
   "market": "KOSPI",
   "theme": "반도체",
   "quote": {
-    "close": 1718000.0,
-    "change_pct": 29.95,
-    "volume": 10499619,
-    "amount": 17548832116000.0,
-    "marcap": 1254985883070000.0,
-    "as_of_iso": "2026-07-31T22:47:34.404113+00:00",
+    "close": 1579000.0,
+    "change_pct": -8.09,
+    "volume": 2504043,
+    "amount": 4010203114500.0,
+    "marcap": 1153447444335000.0,
+    "as_of_iso": "2026-08-03T02:37:49.936660+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:000660",

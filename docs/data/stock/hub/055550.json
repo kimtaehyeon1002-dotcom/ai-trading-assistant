@@ -1,15 +1,15 @@
 {
   "code": "055550",
   "name": "신한지주",
-  "market": "KOSPI",
+  "market": "KRX",
   "theme": "금융",
   "quote": {
-    "close": 100700.0,
-    "change_pct": -0.1,
-    "volume": 1722435,
-    "amount": 172673890150.0,
-    "marcap": 47273639067300.0,
-    "as_of_iso": "2026-07-31T22:47:34.404330+00:00",
+    "close": 101200.0,
+    "change_pct": 0.5,
+    "volume": 367094,
+    "amount": 37065695200.0,
+    "marcap": 47508364186800.0,
+    "as_of_iso": "2026-08-03T02:37:49.937157+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:055550",
