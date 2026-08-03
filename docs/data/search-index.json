@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-03T22:47:54.064365+00:00",
+  "as_of": "2026-08-03T22:58:02.813918+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -359,6 +359,24 @@
   ],
   "news": [
     {
+      "title": "치매 보장한다더니 “혼자 목욕 가능하잖아요?”…보험사 모르쇠 ‘분통’",
+      "link": "https://www.mk.co.kr/news/economy/12115895",
+      "source": "매일경제·증권",
+      "published": "2026-08-03T22:51:29+00:00"
+    },
+    {
+      "title": "Big Tech's Anthropic and OpenAI stakes are distorting the corporate earnings picture",
+      "link": "https://www.cnbc.com/2026/08/03/big-techs-anthropic-and-openai-stakes-distort-corporate-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T22:48:18+00:00"
+    },
+    {
+      "title": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
+      "link": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T22:47:54+00:00"
+    },
+    {
       "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
       "link": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -455,12 +473,6 @@
       "published": "2026-08-03T21:59:00+00:00"
     },
     {
-      "title": "Big Tech's Anthropic and OpenAI stakes are distorting the corporate earnings picture",
-      "link": "https://www.cnbc.com/2026/08/03/big-techs-anthropic-and-openai-stakes-distort-corporate-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T21:57:34+00:00"
-    },
-    {
       "title": "[글로벌증시] 미, 이란 공격 취소에…뉴욕증시 상승 마감 - 연합뉴스 한민족센터",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mTHFTZXhtaEt5X2U2WXdGa3dtTjRXalU0S0JkY3NNNzUwZzFscEJiQkNTU3MxRkRJNlRfUWdJdzRnY3lORnNRcFNCNVRmbHhkTjNndTlEZmNwTURrbkZPa0pVYkQxeENrUXVPN1JyeEN2QWZs?oc=5",
       "source": "Google News",
@@ -471,12 +483,6 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVWVBVThVUm9SczZybzktTVJEa0JwLTVfNkxmNEdXQkQ0bHZZUWpmRlBEeEZrNTZLV25CcHppTWJJWWZVeThWaTRrVXY3NkxZbHc1TVkwU0l6MzlaMk5SSVEtM3dsaVdfRDlzWnJnTTdxZkp4YkF2am5DdTlNWVg4ZXJRM3Jud3ZB?oc=5",
       "source": "Google News",
       "published": "2026-08-03T21:48:00+00:00"
-    },
-    {
-      "title": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
-      "link": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T21:34:43+00:00"
     },
     {
       "title": "'스벅 사태' 뒤 커피시장 흔들…투썸, 석달째 결제액 앞서",
@@ -557,7 +563,7 @@
       "published": "2026-08-03T20:44:00+00:00"
     },
     {
-      "title": "[뉴욕증시] 빅테크·유가 하락 호재 다우 693.38P 폭등 - g-enews.com",
+      "title": "[뉴욕증시] 빅테크·유가 하락 호재 다우 693.38P 폭등 - 글로벌이코노믹",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb3Z6dmU5MHlUOGdCd05KaUk5b2NETHBFdFhhSmNPQ2dfcW9lSkpRa2VpeVJnY3BqakJ4WU50c3lXUWRZR3l0WGlJcGViekFDZTNYMVFCaThtTnVWSENBZnZTa1JPb293SENJSkpTODZ5M0ZIRXRVT3ltZGg3RUtuYUljZTNlUWhO?oc=5",
       "source": "Google News",
       "published": "2026-08-03T20:40:03+00:00"
@@ -599,7 +605,7 @@
       "published": "2026-08-03T20:17:00+00:00"
     },
     {
-      "title": "이란 타격 취소에 월가 환호… 뉴욕증시, 상승 마감 - 조선비즈 - biz.chosun.com",
+      "title": "이란 타격 취소에 월가 환호… 뉴욕증시, 상승 마감 - 조선비즈 - Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVWRZdW1aakZSdTNsY0FQRXFpVG54T0hodGpuMHVxc3hUNDlhb000LW42V01scEpwZEJ1UTN4bTJRYjJSLUQxSW1MWl85bHNpSjhka3hnRTJmSXVRTXhYbWJuQlJTSGJvTVRab0VXclREWHp6aEY3QTFVakE1bmNYSWUwczYzMldKUVNEUmhka1l3RnoyNnlTTjJSbjB3QQ?oc=5",
       "source": "Google News",
       "published": "2026-08-03T20:16:00+00:00"
@@ -651,12 +657,6 @@
       "link": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
       "source": "CNBC Finance",
       "published": "2026-08-03T19:59:55+00:00"
-    },
-    {
-      "title": "Kalshi traders are not expecting a U.S. and Iran nuclear deal soon",
-      "link": "https://www.cnbc.com/2026/08/03/kalshi-traders-are-not-expecting-a-us-and-iran-nuclear-deal-soon.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-03T19:48:25+00:00"
     }
   ],
   "pages": [
