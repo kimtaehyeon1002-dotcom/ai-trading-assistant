@@ -4,12 +4,12 @@
   "market": "KOSDAQ",
   "theme": null,
   "quote": {
-    "close": 108900.0,
-    "change_pct": 15.12,
-    "volume": 2629155,
-    "amount": 281814145200.0,
-    "marcap": 2415114504000.0,
-    "as_of_iso": "2026-08-03T06:22:04.686416+00:00",
+    "close": 108700.0,
+    "change_pct": 14.9,
+    "volume": 2808007,
+    "amount": 301164512100.0,
+    "marcap": 2410679032000.0,
+    "as_of_iso": "2026-08-03T10:26:17.680359+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:058610",
