@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-03T05:57:57.720703+00:00",
+  "as_of": "2026-08-03T06:22:20.203312+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -27,6 +27,11 @@
       "market": "KOSPI"
     },
     {
+      "code": "439960",
+      "name": "코스모로보틱스",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "058610",
       "name": "에스피지",
       "market": "KOSDAQ"
@@ -42,19 +47,9 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "439960",
-      "name": "코스모로보틱스",
-      "market": "KOSDAQ"
-    },
-    {
       "code": "475150",
       "name": "SK이터닉스",
       "market": "KOSPI"
-    },
-    {
-      "code": "010170",
-      "name": "대한광통신",
-      "market": "KOSDAQ"
     },
     {
       "code": "010120",
@@ -72,6 +67,16 @@
       "market": "KOSPI"
     },
     {
+      "code": "010170",
+      "name": "대한광통신",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "277810",
+      "name": "레인보우로보틱스",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "011070",
       "name": "LG이노텍",
       "market": "KOSPI"
@@ -87,28 +92,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "277810",
-      "name": "레인보우로보틱스",
+      "code": "108490",
+      "name": "로보티즈",
       "market": "KOSDAQ"
     },
     {
-      "code": "080220",
-      "name": "제주반도체",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "240810",
-      "name": "원익IPS",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "017670",
-      "name": "SK텔레콤",
-      "market": "KOSPI"
-    },
-    {
-      "code": "006340",
-      "name": "대원전선",
+      "code": "105560",
+      "name": "KB금융",
       "market": "KOSPI"
     },
     {
@@ -117,13 +107,33 @@
       "market": "KOSPI"
     },
     {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "KOSPI"
+      "code": "240810",
+      "name": "원익IPS",
+      "market": "KOSDAQ GLOBAL"
     },
     {
       "code": "035420",
       "name": "NAVER",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006340",
+      "name": "대원전선",
+      "market": "KOSPI"
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "017670",
+      "name": "SK텔레콤",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
       "market": "KOSPI"
     },
     {
@@ -132,24 +142,14 @@
       "market": "KOSPI"
     },
     {
-      "code": "030530",
-      "name": "원익홀딩스",
-      "market": "KOSDAQ"
-    },
-    {
       "code": "066570",
       "name": "LG전자",
       "market": "KOSPI"
     },
     {
-      "code": "047040",
-      "name": "대우건설",
+      "code": "012450",
+      "name": "한화에어로스페이스",
       "market": "KOSPI"
-    },
-    {
-      "code": "108490",
-      "name": "로보티즈",
-      "market": "KOSDAQ"
     },
     {
       "code": "MU",
@@ -347,11 +347,6 @@
       "market": "KRX"
     },
     {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KRX"
-    },
-    {
       "code": "JPM",
       "name": "JPMorgan Chase",
       "market": "NYSE"
@@ -363,6 +358,18 @@
     }
   ],
   "news": [
+    {
+      "title": "장성에 AI 데이터센터 구축…\"반도체 거점 도약\"",
+      "link": "https://www.yna.co.kr/view/AKR20260803109100054",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-03T06:13:30+00:00"
+    },
+    {
+      "title": "청년 전월세 지원 사업 허점 이용해 불법 대출받은 30대 실형",
+      "link": "https://www.yna.co.kr/view/AKR20260803109300063",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-03T06:09:00+00:00"
+    },
     {
       "title": "KGM, 중국 체리차와 협력 확대…1천억원대 전환사채 투자 유치(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260803015951003",
@@ -386,12 +393,6 @@
       "link": "https://www.mk.co.kr/news/economy/12115148",
       "source": "매일경제·증권",
       "published": "2026-08-03T05:32:51+00:00"
-    },
-    {
-      "title": "모건스탠리, 한국 증시 '비중확대' 상향 … \"코스피 9000까지 상승여력\" - 뉴데일리",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBUaXJuVUtlMkJuU2JtQ3dxN2VLN29ER2NlcGh0XzdoOVRsSl9mZXpZTktvaGpYZ01NTU5SMXFXcmduSUgwZlV0QmNOTndYQUVQRmRrenBMMk53N0ZfT1V4QnUzM3VWOXJSeXhRZEJBZ0ZSb2tHZ3psZG0zUdIBgAFBVV95cUxNdnl5dlBRUWY0cVBwSVBaTDVrZkZSSkdEYjNZUkw1a3pDQ3pCTm16VDk0ckR2b2ZmQ01jWXZEX2NOdzBHOWUybFlKUmIwenZtV25yb0VfZXpnVThpTXdPR3U1UWRROVA1TUlFa05ZYi1aM2gwN1pVcFBsNDFGOEZuSg?oc=5",
-      "source": "Google News",
-      "published": "2026-08-03T05:31:23+00:00"
     },
     {
       "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
@@ -460,12 +461,6 @@
       "published": "2026-08-03T04:52:33+00:00"
     },
     {
-      "title": "이 대통령, 귀국 당일 부동산·증시 점검 회의...내치 '속도' - YTN",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uTm1GejE3enhKdHliMHdjckdWTG5WclZnSGFvQmotbzhtTVhDYzIwQk5iWXNzTEMxNmZraDFNb3AzMHZUanVOVDFhMUhwTmtyZGs2V2twdEQxdjRjeG00a2NYcWt0Q3JrR1d5SXJ0WGVSc21ZT0E?oc=5",
-      "source": "Google News",
-      "published": "2026-08-03T04:52:00+00:00"
-    },
-    {
       "title": "[게시판] 우리은행, 갤럭시 전용 자급제 요금제 출시",
       "link": "https://www.yna.co.kr/view/AKR20260803089600002",
       "source": "연합뉴스·경제",
@@ -532,12 +527,6 @@
       "published": "2026-08-03T03:06:46+00:00"
     },
     {
-      "title": "李 부정평가 첫 50%대… 귀국직후 靑서 부동산·증시 긴급회의 - 문화일보",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAtSmdpVjRaSmhpMFp2M3lEM3pFZktvSEU3cGEyd0c5VHlsT0ppSUMteUVla3FPTFRKcmhPNXNVWlpkQWdua2ktc25xRVRTb2FM?oc=5",
-      "source": "Google News",
-      "published": "2026-08-03T03:05:02+00:00"
-    },
-    {
       "title": "'한강의 기적' 청년세대와 공감한다…대한상의 AI체험 캠페인",
       "link": "https://www.yna.co.kr/view/AKR20260803031100003",
       "source": "연합뉴스·경제",
@@ -562,22 +551,10 @@
       "published": "2026-08-03T02:58:55+00:00"
     },
     {
-      "title": "휴가 반납한 금융당국 수장들 … 요동치는 증시에도 공개 시장점검 '0건' - 뉴데일리",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qcFh3QzVKRFJaMHdCeWUyRDVkbWdwM1d2WWpqazZ1ZFhXVERaaXhNR2pHcVhTV1l0ZUFZUXRIN2U0QTBmV3dEZWVfQWlZak91Y1hCZ05WWUN5ZkJZQktQbThLckZNMVVKSkZYM3JBREp6ajZUM0M3S0pUWdIBgAFBVV95cUxNaEhSajY2TWcyTjlKUzBRaTl3WXJDS1I1aG45TjNZaWJYQUVTeUlXX2tJRlNOUE1LaHkzaXNoU1N3ODdGdDI2R3RZMnl2dTZacU5tbFJyZ0VQY0lxa0N4anAwSzFQOFlPZ09BVEZtaDRuOHFYVC05Yk03ZzJNR09qdA?oc=5",
-      "source": "Google News",
-      "published": "2026-08-03T02:46:03+00:00"
-    },
-    {
       "title": "“FOMC 연 6회로 축소” 워시 의장 숨은 의도는",
       "link": "https://www.mk.co.kr/news/economy/12115064",
       "source": "매일경제·증권",
       "published": "2026-08-03T02:43:11+00:00"
-    },
-    {
-      "title": "정부, 증시 긴급조치권 추진…대통령 증시 점검 회의 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEMkF4YVNDaWs4NVBCRjFnTzV3eFZ4cGFGN0wxVGcwajBtUFdHeVRYVF9YR0pvYWFqbzhqWGxDQ3Ntb3NFUDY3UEk1WDlCMUk?oc=5",
-      "source": "Google News",
-      "published": "2026-08-03T02:42:07+00:00"
     },
     {
       "title": "국고채 금리 혼조세…3년물 장중 연 3.750%",
@@ -602,12 +579,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260803066800008",
       "source": "연합뉴스·경제",
       "published": "2026-08-03T02:34:12+00:00"
-    },
-    {
-      "title": "日 증시, 차익 실현 매도세에 1%대 하락 출발 - news.einfomax.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNUEtZSFpBTUxRMEM1b1A1bnRKNUE3YVpmM0xfRDB5SDVUZG1OYmlIeHluRXlhUlI2Tk04V2lmY05KNjJ6MThWSG5TTzIwUjlQclRYWjJTUHNVdWNlRERuMEJCNHkwWlhnUkRxWEpJN0c?oc=5",
-      "source": "Google News",
-      "published": "2026-08-03T02:28:54+00:00"
     },
     {
       "title": "미일 공동개입 공식 확인에 엔화 가치 급등…달러당 155엔대",
@@ -662,6 +633,30 @@
       "link": "https://www.yna.co.kr/view/AKR20260803065200030",
       "source": "연합뉴스·경제",
       "published": "2026-08-03T02:03:20+00:00"
+    },
+    {
+      "title": "감정평가서 점검업무 AI에 맡겼더니…업무시간 70% 줄었다",
+      "link": "https://www.mk.co.kr/news/economy/12115005",
+      "source": "매일경제·증권",
+      "published": "2026-08-03T02:03:00+00:00"
+    },
+    {
+      "title": "\"대도시 아닌 고향서 시험 준비\" 정읍시 청년취업반 성과 '톡톡'",
+      "link": "https://www.yna.co.kr/view/AKR20260803066700055",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-03T02:02:20+00:00"
+    },
+    {
+      "title": "양대노총 \"메가특구 52시간 예외 강력 규탄…대통령 면담 요구\"",
+      "link": "https://www.yna.co.kr/view/AKR20260803068000530",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-03T02:01:25+00:00"
+    },
+    {
+      "title": "“민원 안 넣는 사람이 호구 아닌가요”...보험사에 물었더니 소름돋는 결과",
+      "link": "https://www.mk.co.kr/news/economy/12114972",
+      "source": "매일경제·증권",
+      "published": "2026-08-03T01:33:49+00:00"
     }
   ],
   "pages": [
