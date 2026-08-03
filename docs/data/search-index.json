@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-03T02:28:06.834873+00:00",
+  "as_of": "2026-08-03T02:36:12.117682+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -344,6 +344,12 @@
   ],
   "news": [
     {
+      "title": "Oil drops over 4% as Middle East tensions ebb on diplomatic efforts",
+      "link": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-03T02:33:19+00:00"
+    },
+    {
       "title": "미일 공동개입 공식 확인에 엔화 가치 급등…달러당 155엔대",
       "link": "https://www.yna.co.kr/view/AKR20260803072200073",
       "source": "연합뉴스·경제",
@@ -636,12 +642,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EUUpRTC1YZW5ZdnZya281c2F5ZnpNSXJrTUN6MEFGYVZROWxuR3FQcGVLbjEwZFptWnNZa2VRNG54dDNGNk5BOFYxaDRVSWFVTzd0QWJrUHFGcjhfRkZFUUVaZkVfaU5yeHYxZ0Z1YXY?oc=5",
       "source": "Google News",
       "published": "2026-08-02T23:46:00+00:00"
-    },
-    {
-      "title": "'긴급진단, 한국 증시 어디로 가나' 6일 투자설명회 - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmR2N3Q2g2bE9uT3VXcFBKZTFOd1liNjFYb1pVLW1NQjdUbXhsMkxvSXZkY2VWYW9Da2tTUTNxcW94d0lLTnRnVlNFNkEzTVVqdTc0WnctS2d0Zw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-02T23:44:19+00:00"
     }
   ],
   "pages": [
