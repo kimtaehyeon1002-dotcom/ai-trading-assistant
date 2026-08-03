@@ -1,23 +1,23 @@
 {
   "close": {
-    "value": 6595.4501953125,
-    "change_abs": 1001.89013671875,
-    "change_pct": 17.91,
+    "value": 6366.56982421875,
+    "change_abs": -228.88037109375,
+    "change_pct": -3.47,
     "unit": "pt",
-    "as_of_iso": "2026-07-31T06:30:00+00:00",
+    "as_of_iso": "2026-08-03T06:30:00+00:00",
     "source": "yahoo",
     "session_key": "none",
     "expected_T_min": 1440,
     "freshness_basis": "as_of",
     "label": "",
-    "ref_price": 5593.56005859375
+    "ref_price": 6595.4501953125
   },
   "deviation_20d": {
-    "value": -4.46,
+    "value": -6.61,
     "change_abs": null,
     "change_pct": null,
     "unit": "%",
-    "as_of_iso": "2026-07-31T06:30:00+00:00",
+    "as_of_iso": "2026-08-03T06:30:00+00:00",
     "source": "yahoo",
     "session_key": "none",
     "expected_T_min": 1440,
@@ -25,11 +25,11 @@
     "label": ""
   },
   "rsi_14": {
-    "value": 45.2,
+    "value": 43.0,
     "change_abs": null,
     "change_pct": null,
     "unit": "x",
-    "as_of_iso": "2026-07-31T06:30:00+00:00",
+    "as_of_iso": "2026-08-03T06:30:00+00:00",
     "source": "yahoo",
     "session_key": "none",
     "expected_T_min": 1440,
@@ -41,7 +41,7 @@
     "change_abs": null,
     "change_pct": null,
     "unit": "",
-    "as_of_iso": "2026-07-31T06:30:00+00:00",
+    "as_of_iso": "2026-08-03T06:30:00+00:00",
     "source": "yahoo",
     "session_key": "none",
     "expected_T_min": 1440,
