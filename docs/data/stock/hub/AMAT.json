@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 507.6700134277344,
-    "change_pct": null,
-    "volume": 5952350,
-    "amount": 3021829604.4265747,
+    "close": 546.6199951171875,
+    "change_pct": 5.48,
+    "volume": 7844590,
+    "amount": 4288009747.496338,
     "marcap": null,
-    "as_of_iso": "2026-08-04T09:23:57.336233+00:00",
+    "as_of_iso": "2026-08-04T22:50:59.706657+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "AMAT",

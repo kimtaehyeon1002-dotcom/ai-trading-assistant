@@ -155,8 +155,8 @@
     "market": "US"
   },
   {
-    "code": "MSFT",
-    "name": "Microsoft",
+    "code": "PLTR",
+    "name": "Palantir Technologies",
     "market": "US"
   },
   {
@@ -165,8 +165,8 @@
     "market": "US"
   },
   {
-    "code": "AMZN",
-    "name": "Amazon",
+    "code": "MSFT",
+    "name": "Microsoft",
     "market": "US"
   },
   {
@@ -180,28 +180,18 @@
     "market": "US"
   },
   {
-    "code": "GOOGL",
-    "name": "Alphabet Inc. (Class A)",
-    "market": "US"
-  },
-  {
-    "code": "META",
-    "name": "Meta Platforms",
-    "market": "US"
-  },
-  {
-    "code": "TSLA",
-    "name": "Tesla, Inc.",
-    "market": "US"
-  },
-  {
     "code": "AMD",
     "name": "Advanced Micro Devices",
     "market": "US"
   },
   {
-    "code": "GOOG",
-    "name": "Alphabet Inc. (Class C)",
+    "code": "AMZN",
+    "name": "Amazon",
+    "market": "US"
+  },
+  {
+    "code": "GOOGL",
+    "name": "Alphabet Inc. (Class A)",
     "market": "US"
   },
   {
@@ -210,28 +200,28 @@
     "market": "US"
   },
   {
-    "code": "PLTR",
-    "name": "Palantir Technologies",
-    "market": "US"
-  },
-  {
     "code": "AVGO",
     "name": "Broadcom",
     "market": "US"
   },
   {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
+    "code": "TSLA",
+    "name": "Tesla, Inc.",
     "market": "US"
   },
   {
-    "code": "STX",
-    "name": "Seagate Technology",
+    "code": "EA",
+    "name": "Electronic Arts",
     "market": "US"
   },
   {
-    "code": "WDC",
-    "name": "Western Digital",
+    "code": "META",
+    "name": "Meta Platforms",
+    "market": "US"
+  },
+  {
+    "code": "GOOG",
+    "name": "Alphabet Inc. (Class C)",
     "market": "US"
   },
   {
@@ -240,38 +230,13 @@
     "market": "US"
   },
   {
-    "code": "AMAT",
-    "name": "Applied Materials",
-    "market": "US"
-  },
-  {
     "code": "LITE",
     "name": "Lumentum",
     "market": "US"
   },
   {
-    "code": "LLY",
-    "name": "Lilly (Eli)",
-    "market": "US"
-  },
-  {
-    "code": "LRCX",
-    "name": "Lam Research",
-    "market": "US"
-  },
-  {
-    "code": "WMT",
-    "name": "Walmart",
-    "market": "US"
-  },
-  {
-    "code": "NOW",
-    "name": "ServiceNow",
-    "market": "US"
-  },
-  {
-    "code": "NFLX",
-    "name": "Netflix",
+    "code": "ORCL",
+    "name": "Oracle Corporation",
     "market": "US"
   },
   {
@@ -280,13 +245,48 @@
     "market": "US"
   },
   {
-    "code": "VRT",
-    "name": "Vertiv",
+    "code": "LRCX",
+    "name": "Lam Research",
     "market": "US"
   },
   {
-    "code": "XOM",
-    "name": "ExxonMobil",
+    "code": "AMAT",
+    "name": "Applied Materials",
+    "market": "US"
+  },
+  {
+    "code": "WDC",
+    "name": "Western Digital",
+    "market": "US"
+  },
+  {
+    "code": "STX",
+    "name": "Seagate Technology",
+    "market": "US"
+  },
+  {
+    "code": "LLY",
+    "name": "Lilly (Eli)",
+    "market": "US"
+  },
+  {
+    "code": "DELL",
+    "name": "Dell Technologies",
+    "market": "US"
+  },
+  {
+    "code": "WMT",
+    "name": "Walmart",
+    "market": "US"
+  },
+  {
+    "code": "NFLX",
+    "name": "Netflix",
+    "market": "US"
+  },
+  {
+    "code": "JPM",
+    "name": "JPMorgan Chase",
     "market": "US"
   },
   {
@@ -295,8 +295,8 @@
     "market": "US"
   },
   {
-    "code": "BA",
-    "name": "Boeing",
+    "code": "APP",
+    "name": "AppLovin",
     "market": "US"
   },
   {
@@ -348,11 +348,6 @@
     "code": "105560",
     "name": "KB금융",
     "market": "KRX"
-  },
-  {
-    "code": "JPM",
-    "name": "JPMorgan Chase",
-    "market": "NYSE"
   },
   {
     "code": "BAC",

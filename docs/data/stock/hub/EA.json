@@ -1,0 +1,17 @@
+{
+  "code": "EA",
+  "name": "Electronic Arts",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 209.6999969482422,
+    "change_pct": -0.1,
+    "volume": 48430629,
+    "amount": 10155902753.50145,
+    "marcap": null,
+    "as_of_iso": "2026-08-04T22:50:59.706600+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "EA",
+  "related_news": []
+}

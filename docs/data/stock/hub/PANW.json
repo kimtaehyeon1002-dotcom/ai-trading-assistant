@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 331.8299865722656,
-    "change_pct": null,
-    "volume": 6640138,
-    "amount": 2203396903.3779907,
+    "close": 366.3399963378906,
+    "change_pct": 5.53,
+    "volume": 8169509,
+    "amount": 2992817897.1423645,
     "marcap": null,
-    "as_of_iso": "2026-08-04T09:23:57.336303+00:00",
+    "as_of_iso": "2026-08-04T22:50:59.706753+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "PANW",

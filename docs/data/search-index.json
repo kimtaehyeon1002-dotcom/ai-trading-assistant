@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-04T22:34:04.394829+00:00",
+  "as_of": "2026-08-04T22:51:12.809578+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -157,8 +157,8 @@
       "market": "US"
     },
     {
-      "code": "MSFT",
-      "name": "Microsoft",
+      "code": "PLTR",
+      "name": "Palantir Technologies",
       "market": "US"
     },
     {
@@ -167,8 +167,8 @@
       "market": "US"
     },
     {
-      "code": "AMZN",
-      "name": "Amazon",
+      "code": "MSFT",
+      "name": "Microsoft",
       "market": "US"
     },
     {
@@ -182,28 +182,18 @@
       "market": "US"
     },
     {
-      "code": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
-      "market": "US"
-    },
-    {
-      "code": "META",
-      "name": "Meta Platforms",
-      "market": "US"
-    },
-    {
-      "code": "TSLA",
-      "name": "Tesla, Inc.",
-      "market": "US"
-    },
-    {
       "code": "AMD",
       "name": "Advanced Micro Devices",
       "market": "US"
     },
     {
-      "code": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
+      "code": "AMZN",
+      "name": "Amazon",
+      "market": "US"
+    },
+    {
+      "code": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
       "market": "US"
     },
     {
@@ -212,28 +202,28 @@
       "market": "US"
     },
     {
-      "code": "PLTR",
-      "name": "Palantir Technologies",
-      "market": "US"
-    },
-    {
       "code": "AVGO",
       "name": "Broadcom",
       "market": "US"
     },
     {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
+      "code": "TSLA",
+      "name": "Tesla, Inc.",
       "market": "US"
     },
     {
-      "code": "STX",
-      "name": "Seagate Technology",
+      "code": "EA",
+      "name": "Electronic Arts",
       "market": "US"
     },
     {
-      "code": "WDC",
-      "name": "Western Digital",
+      "code": "META",
+      "name": "Meta Platforms",
+      "market": "US"
+    },
+    {
+      "code": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
       "market": "US"
     },
     {
@@ -242,38 +232,13 @@
       "market": "US"
     },
     {
-      "code": "AMAT",
-      "name": "Applied Materials",
-      "market": "US"
-    },
-    {
       "code": "LITE",
       "name": "Lumentum",
       "market": "US"
     },
     {
-      "code": "LLY",
-      "name": "Lilly (Eli)",
-      "market": "US"
-    },
-    {
-      "code": "LRCX",
-      "name": "Lam Research",
-      "market": "US"
-    },
-    {
-      "code": "WMT",
-      "name": "Walmart",
-      "market": "US"
-    },
-    {
-      "code": "NOW",
-      "name": "ServiceNow",
-      "market": "US"
-    },
-    {
-      "code": "NFLX",
-      "name": "Netflix",
+      "code": "ORCL",
+      "name": "Oracle Corporation",
       "market": "US"
     },
     {
@@ -282,13 +247,48 @@
       "market": "US"
     },
     {
-      "code": "VRT",
-      "name": "Vertiv",
+      "code": "LRCX",
+      "name": "Lam Research",
       "market": "US"
     },
     {
-      "code": "XOM",
-      "name": "ExxonMobil",
+      "code": "AMAT",
+      "name": "Applied Materials",
+      "market": "US"
+    },
+    {
+      "code": "WDC",
+      "name": "Western Digital",
+      "market": "US"
+    },
+    {
+      "code": "STX",
+      "name": "Seagate Technology",
+      "market": "US"
+    },
+    {
+      "code": "LLY",
+      "name": "Lilly (Eli)",
+      "market": "US"
+    },
+    {
+      "code": "DELL",
+      "name": "Dell Technologies",
+      "market": "US"
+    },
+    {
+      "code": "WMT",
+      "name": "Walmart",
+      "market": "US"
+    },
+    {
+      "code": "NFLX",
+      "name": "Netflix",
+      "market": "US"
+    },
+    {
+      "code": "JPM",
+      "name": "JPMorgan Chase",
       "market": "US"
     },
     {
@@ -297,8 +297,8 @@
       "market": "US"
     },
     {
-      "code": "BA",
-      "name": "Boeing",
+      "code": "APP",
+      "name": "AppLovin",
       "market": "US"
     },
     {
@@ -352,11 +352,6 @@
       "market": "KRX"
     },
     {
-      "code": "JPM",
-      "name": "JPMorgan Chase",
-      "market": "NYSE"
-    },
-    {
       "code": "BAC",
       "name": "Bank of America",
       "market": "NYSE"
@@ -364,16 +359,52 @@
   ],
   "news": [
     {
+      "title": "Lucid begins 'operational reset' as CEO says EV maker will delay midsize vehicle",
+      "link": "https://www.cnbc.com/2026/08/04/lucid-group-lcid-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T22:47:49+00:00"
+    },
+    {
+      "title": "How the 'Baby iPhone' and an Apple supplier leak explain China's recent supply chain moves",
+      "link": "https://www.cnbc.com/2026/08/04/china-apple-india-tata-electronics.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T22:47:43+00:00"
+    },
+    {
+      "title": "“범퍼 멀쩡한데 전치 8주랍니다”…나이롱환자 입원 막겠다는 정부",
+      "link": "https://www.mk.co.kr/news/economy/12117270",
+      "source": "매일경제·증권",
+      "published": "2026-08-04T22:46:39+00:00"
+    },
+    {
+      "title": "Pinterest shares fall on lukewarm sales guidance",
+      "link": "https://www.cnbc.com/2026/08/04/pinterest-pins-q2-earnings-report-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T22:45:26+00:00"
+    },
+    {
+      "title": "Stocks return to record highs. Investors who sat tight during the recent momentum crash are being rewarded.",
+      "link": "https://www.marketwatch.com/story/stocks-return-to-record-highs-investors-who-sat-tight-during-the-recent-momentum-crash-are-being-rewarded-8c960105?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T22:40:00+00:00"
+    },
+    {
+      "title": "증시 붐의 시대…다양한 세계 주식 시장 풍경 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1UY0thSFFTaG5XQzdjYTRNdHF2dXEzeFZHS21KSHNTdGQ1MXdpcFMyRVV4S3VpS0tOSjJVYUNwRl9rNlBmRHpmam1ScWMwZVVDSHVhZkFwY0llS0JQZHFHYUl0UVpmWmJsSUVDTUtEVEFpV1hxWktBOQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-04T22:34:33+00:00"
+    },
+    {
       "title": "레버리지 보완책에도 널뛰는 증시...'공매도 금지' 왜 못 꺼내나 - 비즈워치",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91Ml8telN5OEszOGtuUjZ6M3c5T1BTV2QwN2lpSmNRR3FkMS01M05QLWdCZzNfWnpWVm0yM2MxbDJhMW5FQ3lIaGJGaVgxZTFvN3ZtUi0yMVJ5LXZFLXFXb3l3QndYVnhN?oc=5",
       "source": "Google News",
       "published": "2026-08-04T22:30:02+00:00"
     },
     {
-      "title": "Lucid begins 'operational reset' as CEO says EV maker will delay midsize vehicle",
-      "link": "https://www.cnbc.com/2026/08/04/lucid-group-lcid-earnings-q2-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T22:23:44+00:00"
+      "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
+      "link": "https://www.yna.co.kr/view/AKR20260805012400011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-04T22:30:00+00:00"
     },
     {
       "title": "Jim Cramer says one hedge fund's collapse cleared the way for tech's rally",
@@ -400,13 +431,7 @@
       "published": "2026-08-04T22:09:14+00:00"
     },
     {
-      "title": "Pinterest shares fall on lukewarm sales guidance",
-      "link": "https://www.cnbc.com/2026/08/04/pinterest-pins-q2-earnings-report-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T22:06:54+00:00"
-    },
-    {
-      "title": "[오늘의 글로벌마켓] 뉴욕증시, 유가 급락에 다우·S&P500 사상 최고치 - opinionnews.co.kr",
+      "title": "[오늘의 글로벌마켓] 뉴욕증시, 유가 급락에 다우·S&P500 사상 최고치 - 오피니언뉴스",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5kZ2gyQ05TSk9WZWJ4YTAzYnRKU1BUYUpoT1R4NGNTZnlVdnhRbVJTLWthbW5lVTl6dnNvZ2Q0cWZyNDFRXzR6eFZubVp4bnhldWVCbng4YnhQX1RXV2tnVmc5R2lkSUdydzFvNW5zVWVjZw?oc=5",
       "source": "Google News",
       "published": "2026-08-04T22:04:45+00:00"
@@ -430,7 +455,13 @@
       "published": "2026-08-04T21:54:00+00:00"
     },
     {
-      "title": "유럽증시, 미국과 이란 군사적 충돌 돌파구 마련 기대감 등 영향 일제히 올라⋯독일 0.77%-영국 0.20% 상승마감 - econonews.co.kr",
+      "title": "호르무즈 합의 기대·AI 실적에 뉴욕증시 최고치…브렌트유 5.3% 급락 - 아시아투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45OXNkOVV5NGRBbWlxaUZ0OFoxOEExdGhTYV9lR1E3aGxmb3RXVjhUYWFIYVJMYVBHQ1c4Y0lxdEJpd1V2dUs5QmdGYk9wWllDX1IxMDNJak9rUHJudkNOd2pfNFdtVTNnOFZiX1dn?oc=5",
+      "source": "Google News",
+      "published": "2026-08-04T21:48:32+00:00"
+    },
+    {
+      "title": "유럽증시, 미국과 이란 군사적 충돌 돌파구 마련 기대감 등 영향 일제히 올라⋯독일 0.77%-영국 0.20% 상승마감 - 이코노뉴스",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zY3dQTnQwVWoybF8taTU1MXduSGxvTDd6VUp0S05ZNldqLXBmUWNUcGZhU1kxYzdfMVYwb3pzS0k5YmFFLWU3SWVseHJHd1JjT2NUMmtncDRHYV9EbW5FMmJIRExweW05anMycmFaUQ?oc=5",
       "source": "Google News",
       "published": "2026-08-04T21:39:51+00:00"
@@ -526,12 +557,6 @@
       "published": "2026-08-04T20:59:00+00:00"
     },
     {
-      "title": "[속보]뉴욕증시 사상최고…하닉ADR 9%급등 - 문화일보",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5UY0dGdm9DMDdNQzJQWm84SUsxU3RqLTQyX2hybW93Z0RwR0pjWnNNa05wNmd5TW5vX1NIalZhU0NlbGNvT3BVS09VbUpvQUpX?oc=5",
-      "source": "Google News",
-      "published": "2026-08-04T20:58:06+00:00"
-    },
-    {
       "title": "미·일 공조에도…엔화 강세 지속엔 IB들 '신중 모드'",
       "link": "https://www.yna.co.kr/view/AKR20260804141700002",
       "source": "연합뉴스·경제",
@@ -544,7 +569,7 @@
       "published": "2026-08-04T20:57:36+00:00"
     },
     {
-      "title": "[뉴욕증시] 유가 급락-실적 호조로 3대 지수↑...팔란티어 29% 폭등 - g-enews.com",
+      "title": "[뉴욕증시] 유가 급락-실적 호조로 3대 지수↑...팔란티어 29% 폭등 - 글로벌이코노믹",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQjg5LV9VZW1Tak9OVnVrMEdmV1Q0Nk9sRkY2b1o3WHI4X2FYVEV5TmJXSE5naDdoSkRueVItUmtJUS1yUng0UzNvUXZLNkluWW4yVkE0Y2doN2Zkd0lXX1B1NXJ6elp0ZnpCVkszYVgxbWpuN19KV1VHYTM1MTdtWUY1c3RPWXhr?oc=5",
       "source": "Google News",
       "published": "2026-08-04T20:56:20+00:00"
@@ -554,6 +579,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260804125700002",
       "source": "연합뉴스·경제",
       "published": "2026-08-04T20:55:01+00:00"
+    },
+    {
+      "title": "호르무즈 해협 협상 기대에…S&P500 두 달 만에 최고치, 유가는 80달러 아래로 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUk1Tal9JM2VoS09mT1VPRXFua1dyRWh5OWJwYW9Vek0wWWNncEwxdWVIWjVSQV9mRFN4VkZ3cGlnaEFfTTE4MXVXWG44enoxX2xxbWhPeFU5TlpHVkZiazlGWXBOS3I4Y25kS1RfYkhDa0lvZzRoaEJQNXlTc1E4VnY5TTZrWGFC?oc=5",
+      "source": "Google News",
+      "published": "2026-08-04T20:54:00+00:00"
     },
     {
       "title": "‘We have always been civil’: My sister refuses to replace me as executor. Can I step down before she dies?",
@@ -574,22 +605,10 @@
       "published": "2026-08-04T20:29:31+00:00"
     },
     {
-      "title": "뉴욕증시 사상 최고치…반도체 관련주도 강세 - 디지털데일리",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE16YTZFUnBudVBINmZ3eFQtY0c5OXVLX1FyTlRlNnJ0T19sZXNKYzJ0V0xXYzF0dG82U0Z4Rl80WXg5bFFrcEt1YldxRDU5YkRFRGM1UGtJYXhfY2Q5aWhmbjcyLWI?oc=5",
-      "source": "Google News",
-      "published": "2026-08-04T20:26:21+00:00"
-    },
-    {
       "title": "So what’s the plan to bring down inflation? The new Fed chair and his White House allies say you shouldn’t ask.",
       "link": "https://www.marketwatch.com/story/bessent-defends-warsh-saying-markets-are-going-through-detox-from-too-much-fed-guidance-39dfc765?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-04T20:26:00+00:00"
-    },
-    {
-      "title": "I got two email invitations from friends. Is this a phishing scam — or am I suddenly popular?",
-      "link": "https://www.marketwatch.com/story/i-got-two-email-invitations-from-friends-is-this-a-phishing-scam-or-am-i-suddenly-popular-d9680aa8?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T20:20:00+00:00"
     },
     {
       "title": "McDonald's says its U.S. business is falling short as it announces new head of its largest market",
@@ -638,30 +657,6 @@
       "link": "https://www.cnbc.com/2026/08/04/worth-the-money-financial-planners.html",
       "source": "CNBC Finance",
       "published": "2026-08-04T19:00:01+00:00"
-    },
-    {
-      "title": "위기상황 아닌데…엔화부양에 '美국채 담보' 연준 비상대출 동원",
-      "link": "https://www.yna.co.kr/view/AKR20260805003100072",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-04T18:56:57+00:00"
-    },
-    {
-      "title": "Oil prices tumble after Bessent says Strait of Hormuz deal may come this week",
-      "link": "https://www.cnbc.com/2026/08/04/oil-rises-after-selloff-as-talks-to-end-us-iran-war-remain-uncertain.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T18:54:56+00:00"
-    },
-    {
-      "title": "An overlooked player in data center buildout delivers once again",
-      "link": "https://www.cnbc.com/2026/08/04/an-overlooked-player-in-data-center-buildout-delivers-once-again-.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T18:31:49+00:00"
-    },
-    {
-      "title": "Bessent says U.S. backed Japan’s yen intervention to help stabilize Asia",
-      "link": "https://www.cnbc.com/2026/08/04/bessent-us-japan-yen-currency-intervention.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T18:24:47+00:00"
     }
   ],
   "pages": [
