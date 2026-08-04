@@ -1,0 +1,17 @@
+{
+  "code": "087010",
+  "name": "펩트론",
+  "market": "KOSDAQ",
+  "theme": null,
+  "quote": {
+    "close": 179200.0,
+    "change_pct": 7.89,
+    "volume": 314568,
+    "amount": 55848988100.0,
+    "marcap": 4178469120000.0,
+    "as_of_iso": "2026-08-04T02:22:30.571741+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:087010",
+  "related_news": []
+}
