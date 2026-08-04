@@ -1,10 +1,10 @@
 {
   "close": {
-    "value": 6178.72021484375,
-    "change_abs": -416.72998046875,
-    "change_pct": -6.32,
+    "value": 6257.4501953125,
+    "change_abs": -338.0,
+    "change_pct": -5.12,
     "unit": "pt",
-    "as_of_iso": "2026-08-04T06:30:00+00:00",
+    "as_of_iso": "2026-08-03T06:30:00+00:00",
     "source": "yahoo",
     "session_key": "none",
     "expected_T_min": 1440,
@@ -13,11 +13,11 @@
     "ref_price": 6595.4501953125
   },
   "deviation_20d": {
-    "value": -9.24,
+    "value": -8.13,
     "change_abs": null,
     "change_pct": null,
     "unit": "%",
-    "as_of_iso": "2026-08-04T06:30:00+00:00",
+    "as_of_iso": "2026-08-03T06:30:00+00:00",
     "source": "yahoo",
     "session_key": "none",
     "expected_T_min": 1440,
@@ -25,11 +25,11 @@
     "label": ""
   },
   "rsi_14": {
-    "value": 41.3,
+    "value": 42.0,
     "change_abs": null,
     "change_pct": null,
     "unit": "x",
-    "as_of_iso": "2026-08-04T06:30:00+00:00",
+    "as_of_iso": "2026-08-03T06:30:00+00:00",
     "source": "yahoo",
     "session_key": "none",
     "expected_T_min": 1440,
@@ -41,7 +41,7 @@
     "change_abs": null,
     "change_pct": null,
     "unit": "",
-    "as_of_iso": "2026-08-04T06:30:00+00:00",
+    "as_of_iso": "2026-08-03T06:30:00+00:00",
     "source": "yahoo",
     "session_key": "none",
     "expected_T_min": 1440,
