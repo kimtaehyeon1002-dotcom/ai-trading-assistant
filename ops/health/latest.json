@@ -1,13 +1,58 @@
 {
-  "probed_at": "2026-08-04T08:28:22.930294+09:00",
+  "probed_at": "2026-08-04T12:41:03.220527+09:00",
   "sources": {
-    "runlog": "ok — 워커 24종, updated_at 2026-08-04T07:58",
+    "runlog": "ok — 워커 24종, updated_at 2026-08-04T11:22",
     "workflows": "ok — 워크플로 6/6종 조회"
   },
   "counts": {
     "critical": 0,
-    "major": 0,
+    "major": 4,
     "minor": 0
   },
-  "violations": []
+  "violations": [
+    {
+      "id": "w.macro-ecos.stale",
+      "severity": "major",
+      "subject": "Macro ECOS",
+      "rule": "max_age 3h",
+      "observed": "3h35m 경과 (last_run 2026-08-04T09:05)",
+      "expected": "3h 이내",
+      "tier": "cloud",
+      "owner": "macro.yml",
+      "note": "ECOS_API_KEY 미설정 시 skipped가 정상(design/21 §226 결측 문법)"
+    },
+    {
+      "id": "w.macro-fred.stale",
+      "severity": "major",
+      "subject": "Macro FRED",
+      "rule": "max_age 3h",
+      "observed": "3h35m 경과 (last_run 2026-08-04T09:05)",
+      "expected": "3h 이내",
+      "tier": "cloud",
+      "owner": "macro.yml",
+      "note": ""
+    },
+    {
+      "id": "w.macro-history.stale",
+      "severity": "major",
+      "subject": "Macro History",
+      "rule": "max_age 3h",
+      "observed": "3h35m 경과 (last_run 2026-08-04T09:05)",
+      "expected": "3h 이내",
+      "tier": "cloud",
+      "owner": "macro.yml",
+      "note": ""
+    },
+    {
+      "id": "w.macro-upbit.stale",
+      "severity": "major",
+      "subject": "Macro Upbit",
+      "rule": "max_age 3h",
+      "observed": "3h35m 경과 (last_run 2026-08-04T09:05)",
+      "expected": "3h 이내",
+      "tier": "cloud",
+      "owner": "macro.yml",
+      "note": ""
+    }
+  ]
 }
