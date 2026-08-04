@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 1288.030029296875,
-    "change_pct": 6.03,
+    "close": 1214.8299560546875,
+    "change_pct": null,
     "volume": 14317240,
-    "amount": 18441035056.65039,
+    "amount": 17393012040.024414,
     "marcap": null,
-    "as_of_iso": "2026-08-04T02:22:30.571789+00:00",
+    "as_of_iso": "2026-08-04T05:45:48.927129+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "SNDK",

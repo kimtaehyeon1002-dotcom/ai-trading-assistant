@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 263.04998779296875,
-    "change_pct": 8.89,
+    "close": 241.57000732421875,
+    "change_pct": null,
     "volume": 9388258,
-    "amount": 2469581152.297241,
+    "amount": 2267921553.8216553,
     "marcap": null,
-    "as_of_iso": "2026-08-04T02:22:30.571891+00:00",
+    "as_of_iso": "2026-08-04T05:45:48.927268+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "VRT",

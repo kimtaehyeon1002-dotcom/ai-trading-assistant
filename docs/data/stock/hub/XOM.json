@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 155.05999755859375,
-    "change_pct": -0.24,
+    "close": 155.44000244140625,
+    "change_pct": null,
     "volume": 14453456,
-    "amount": 2241152852.073242,
+    "amount": 2246645235.926758,
     "marcap": null,
-    "as_of_iso": "2026-08-04T02:22:30.571917+00:00",
+    "as_of_iso": "2026-08-04T05:45:48.927275+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "XOM",

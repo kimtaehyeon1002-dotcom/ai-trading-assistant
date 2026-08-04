@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-04T05:30:06.433354+00:00",
+  "as_of": "2026-08-04T05:45:59.456180+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -17,13 +17,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "475150",
-      "name": "SK이터닉스",
+      "code": "402340",
+      "name": "SK스퀘어",
       "market": "KOSPI"
     },
     {
-      "code": "402340",
-      "name": "SK스퀘어",
+      "code": "475150",
+      "name": "SK이터닉스",
       "market": "KOSPI"
     },
     {
@@ -37,18 +37,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "006340",
-      "name": "대원전선",
+      "code": "012450",
+      "name": "한화에어로스페이스",
       "market": "KOSPI"
     },
     {
-      "code": "119850",
-      "name": "지엔씨에너지",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "017670",
-      "name": "SK텔레콤",
+      "code": "006340",
+      "name": "대원전선",
       "market": "KOSPI"
     },
     {
@@ -57,13 +52,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "KOSDAQ GLOBAL"
+      "code": "017670",
+      "name": "SK텔레콤",
+      "market": "KOSPI"
     },
     {
-      "code": "058610",
-      "name": "에스피지",
+      "code": "119850",
+      "name": "지엔씨에너지",
       "market": "KOSDAQ"
     },
     {
@@ -72,39 +67,24 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
       "code": "034020",
       "name": "두산에너빌리티",
       "market": "KOSPI"
     },
     {
-      "code": "010060",
-      "name": "OCI홀딩스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "322000",
-      "name": "HD현대에너지솔루션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "010170",
-      "name": "대한광통신",
+      "code": "058610",
+      "name": "에스피지",
       "market": "KOSDAQ"
-    },
-    {
-      "code": "009830",
-      "name": "한화솔루션",
-      "market": "KOSPI"
     },
     {
       "code": "010120",
       "name": "LS ELECTRIC",
       "market": "KOSPI"
-    },
-    {
-      "code": "347850",
-      "name": "디앤디파마텍",
-      "market": "KOSDAQ"
     },
     {
       "code": "042700",
@@ -117,8 +97,23 @@
       "market": "KOSPI"
     },
     {
-      "code": "006400",
-      "name": "삼성SDI",
+      "code": "298040",
+      "name": "효성중공업",
+      "market": "KOSPI"
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "010060",
+      "name": "OCI홀딩스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "032830",
+      "name": "삼성생명",
       "market": "KOSPI"
     },
     {
@@ -127,28 +122,33 @@
       "market": "KOSPI"
     },
     {
-      "code": "012450",
-      "name": "한화에어로스페이스",
+      "code": "047040",
+      "name": "대우건설",
       "market": "KOSPI"
     },
     {
-      "code": "087010",
-      "name": "펩트론",
+      "code": "079550",
+      "name": "LIG디펜스앤에어로스페이스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "010170",
+      "name": "대한광통신",
       "market": "KOSDAQ"
     },
     {
-      "code": "086520",
-      "name": "에코프로",
-      "market": "KOSDAQ GLOBAL"
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KOSPI"
     },
     {
-      "code": "080220",
-      "name": "제주반도체",
+      "code": "347850",
+      "name": "디앤디파마텍",
       "market": "KOSDAQ"
     },
     {
-      "code": "298040",
-      "name": "효성중공업",
+      "code": "028050",
+      "name": "삼성E&A",
       "market": "KOSPI"
     },
     {
@@ -182,13 +182,13 @@
       "market": "US"
     },
     {
-      "code": "META",
-      "name": "Meta Platforms",
+      "code": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
       "market": "US"
     },
     {
-      "code": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
+      "code": "META",
+      "name": "Meta Platforms",
       "market": "US"
     },
     {
@@ -217,13 +217,13 @@
       "market": "US"
     },
     {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
+      "code": "AVGO",
+      "name": "Broadcom",
       "market": "US"
     },
     {
-      "code": "AVGO",
-      "name": "Broadcom",
+      "code": "ORCL",
+      "name": "Oracle Corporation",
       "market": "US"
     },
     {
@@ -242,18 +242,13 @@
       "market": "US"
     },
     {
-      "code": "LITE",
-      "name": "Lumentum",
-      "market": "US"
-    },
-    {
       "code": "AMAT",
       "name": "Applied Materials",
       "market": "US"
     },
     {
-      "code": "LRCX",
-      "name": "Lam Research",
+      "code": "LITE",
+      "name": "Lumentum",
       "market": "US"
     },
     {
@@ -262,8 +257,8 @@
       "market": "US"
     },
     {
-      "code": "NOW",
-      "name": "ServiceNow",
+      "code": "LRCX",
+      "name": "Lam Research",
       "market": "US"
     },
     {
@@ -272,8 +267,8 @@
       "market": "US"
     },
     {
-      "code": "VRT",
-      "name": "Vertiv",
+      "code": "NOW",
+      "name": "ServiceNow",
       "market": "US"
     },
     {
@@ -282,13 +277,18 @@
       "market": "US"
     },
     {
-      "code": "BA",
-      "name": "Boeing",
+      "code": "CAT",
+      "name": "Caterpillar Inc.",
       "market": "US"
     },
     {
-      "code": "CAT",
-      "name": "Caterpillar Inc.",
+      "code": "VRT",
+      "name": "Vertiv",
+      "market": "US"
+    },
+    {
+      "code": "XOM",
+      "name": "ExxonMobil",
       "market": "US"
     },
     {
@@ -297,8 +297,8 @@
       "market": "US"
     },
     {
-      "code": "XOM",
-      "name": "ExxonMobil",
+      "code": "BA",
+      "name": "Boeing",
       "market": "US"
     },
     {
@@ -363,6 +363,36 @@
     }
   ],
   "news": [
+    {
+      "title": "'투자 부적합' vs '코스피 9000'… 한국 증시 바라보는 엇갈린 시선 - 인포스탁데일리",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1pRHRFLVliQ2ZrbFNfblYyLWRSUkVQT2xRLU1weUVfQnhWWXZfaUcyaVB5XzZEdEl6MVRRcHNlMFQ1cXRFUkFSTk5McDFmTzZvcmtiT2NTMG9YUDc1WTJLbXVMclNicE5od2ZUcVZGZE5EZ0RGUnc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-04T05:41:21+00:00"
+    },
+    {
+      "title": "“정부 부양책이 과열 부추겨”…외신, 한국 증시에 ‘중국 전철’ 경고 - 중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkcjNvQS0zekhJZ3Q5Rk1yUlhIUTFOOXZLU2h6Um5uQWJpMXJkNU5mdjhPVUJoRHlTcEk3NWxtRXhZa2NuMFpjaWhFWTRnTlItNTIxTlRR?oc=5",
+      "source": "Google News",
+      "published": "2026-08-04T05:41:05+00:00"
+    },
+    {
+      "title": "IBK기업은행 '디지털 영사인증 금융위임장' 서비스 개시",
+      "link": "https://www.yna.co.kr/view/AKR20260804106300002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-04T05:34:56+00:00"
+    },
+    {
+      "title": "[고양소식] 시, 도 지방세 체납 특별징수대책 평가 '우수'",
+      "link": "https://www.yna.co.kr/view/AKR20260804105900060",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-04T05:31:36+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
+      "link": "https://www.yna.co.kr/view/AKR20260804104000011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-04T05:30:14+00:00"
+    },
     {
       "title": "Saudi Aramco profits soar in second quarter as Iran war squeezes oil supply",
       "link": "https://www.cnbc.com/2026/08/04/saudi-aramco-earnings-2q-oil-iran-war.html",
@@ -454,7 +484,7 @@
       "published": "2026-08-04T04:11:07+00:00"
     },
     {
-      "title": "증시 급락에, 프리·애프터마켓도 '반토막' - etnews.com",
+      "title": "증시 급락에, 프리·애프터마켓도 '반토막' - 전자신문",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4xVi0xczhUVUlZQlhobExWYzBoNWt0YmhfX0NPRlF5akl1NzFWTUlOSGJKWlJzek9EODRYVmsyUTJJOHhPZ0REWWZ1eWJsQQ?oc=5",
       "source": "Google News",
       "published": "2026-08-04T04:00:00+00:00"
@@ -632,36 +662,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260804069900008",
       "source": "연합뉴스·경제",
       "published": "2026-08-04T01:57:59+00:00"
-    },
-    {
-      "title": "법무부·법률구조공단, 주민센터서 '위기 채무자' 법률지원 강화",
-      "link": "https://www.yna.co.kr/view/AKR20260804069700004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-04T01:51:10+00:00"
-    },
-    {
-      "title": "6년간 삼겹살 가격 20% 넘게 올린 주범…담합 업체들 기소",
-      "link": "https://www.yna.co.kr/view/AKR20260804059400004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-04T01:50:35+00:00"
-    },
-    {
-      "title": "LF '우포스' \"6월 매출 40배 증가…누적 판매 15만 켤레 넘어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260804064300030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-04T01:50:35+00:00"
-    },
-    {
-      "title": "'100명 재고용 기대' 위니아, 결국 파산으로 가나",
-      "link": "https://www.yna.co.kr/view/AKR20260804064400054",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-04T01:50:12+00:00"
-    },
-    {
-      "title": "코스피, 상승 출발 후 하락 전환…코스닥은 3% 강세 - 연합뉴스TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBid1ZCMm9tV1JoT2VubkZ1WXVZM0NVWmlhOHFDWG1mc3ZUc1ZybWhOR2ZxbFA1d2pxUEZkUjZ2Qnphc3NGaGdDdVkwQ3dKZlYwR3lkNGNRVTBfeDRyTlJNUlJvNkotNDg?oc=5",
-      "source": "Google News",
-      "published": "2026-08-04T01:23:00+00:00"
     }
   ],
   "pages": [

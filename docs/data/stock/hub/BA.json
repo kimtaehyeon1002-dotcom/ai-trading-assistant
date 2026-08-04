@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 233.49000549316406,
-    "change_pct": 8.03,
+    "close": 216.13999938964844,
+    "change_pct": null,
     "volume": 10015708,
-    "amount": 2338567715.9379272,
+    "amount": 2164795121.006897,
     "marcap": null,
-    "as_of_iso": "2026-08-04T02:22:30.571901+00:00",
+    "as_of_iso": "2026-08-04T05:45:48.927288+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "BA",

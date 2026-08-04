@@ -15,13 +15,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "475150",
-    "name": "SK이터닉스",
+    "code": "402340",
+    "name": "SK스퀘어",
     "market": "KOSPI"
   },
   {
-    "code": "402340",
-    "name": "SK스퀘어",
+    "code": "475150",
+    "name": "SK이터닉스",
     "market": "KOSPI"
   },
   {
@@ -35,18 +35,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "006340",
-    "name": "대원전선",
+    "code": "012450",
+    "name": "한화에어로스페이스",
     "market": "KOSPI"
   },
   {
-    "code": "119850",
-    "name": "지엔씨에너지",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "017670",
-    "name": "SK텔레콤",
+    "code": "006340",
+    "name": "대원전선",
     "market": "KOSPI"
   },
   {
@@ -55,13 +50,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "036930",
-    "name": "주성엔지니어링",
-    "market": "KOSDAQ GLOBAL"
+    "code": "017670",
+    "name": "SK텔레콤",
+    "market": "KOSPI"
   },
   {
-    "code": "058610",
-    "name": "에스피지",
+    "code": "119850",
+    "name": "지엔씨에너지",
     "market": "KOSDAQ"
   },
   {
@@ -70,39 +65,24 @@
     "market": "KOSDAQ GLOBAL"
   },
   {
+    "code": "036930",
+    "name": "주성엔지니어링",
+    "market": "KOSDAQ GLOBAL"
+  },
+  {
     "code": "034020",
     "name": "두산에너빌리티",
     "market": "KOSPI"
   },
   {
-    "code": "010060",
-    "name": "OCI홀딩스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "322000",
-    "name": "HD현대에너지솔루션",
-    "market": "KOSPI"
-  },
-  {
-    "code": "010170",
-    "name": "대한광통신",
+    "code": "058610",
+    "name": "에스피지",
     "market": "KOSDAQ"
-  },
-  {
-    "code": "009830",
-    "name": "한화솔루션",
-    "market": "KOSPI"
   },
   {
     "code": "010120",
     "name": "LS ELECTRIC",
     "market": "KOSPI"
-  },
-  {
-    "code": "347850",
-    "name": "디앤디파마텍",
-    "market": "KOSDAQ"
   },
   {
     "code": "042700",
@@ -115,8 +95,23 @@
     "market": "KOSPI"
   },
   {
-    "code": "006400",
-    "name": "삼성SDI",
+    "code": "298040",
+    "name": "효성중공업",
+    "market": "KOSPI"
+  },
+  {
+    "code": "080220",
+    "name": "제주반도체",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "010060",
+    "name": "OCI홀딩스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "032830",
+    "name": "삼성생명",
     "market": "KOSPI"
   },
   {
@@ -125,28 +120,33 @@
     "market": "KOSPI"
   },
   {
-    "code": "012450",
-    "name": "한화에어로스페이스",
+    "code": "047040",
+    "name": "대우건설",
     "market": "KOSPI"
   },
   {
-    "code": "087010",
-    "name": "펩트론",
+    "code": "079550",
+    "name": "LIG디펜스앤에어로스페이스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "010170",
+    "name": "대한광통신",
     "market": "KOSDAQ"
   },
   {
-    "code": "086520",
-    "name": "에코프로",
-    "market": "KOSDAQ GLOBAL"
+    "code": "006400",
+    "name": "삼성SDI",
+    "market": "KOSPI"
   },
   {
-    "code": "080220",
-    "name": "제주반도체",
+    "code": "347850",
+    "name": "디앤디파마텍",
     "market": "KOSDAQ"
   },
   {
-    "code": "298040",
-    "name": "효성중공업",
+    "code": "028050",
+    "name": "삼성E&A",
     "market": "KOSPI"
   },
   {
@@ -180,13 +180,13 @@
     "market": "US"
   },
   {
-    "code": "META",
-    "name": "Meta Platforms",
+    "code": "GOOGL",
+    "name": "Alphabet Inc. (Class A)",
     "market": "US"
   },
   {
-    "code": "GOOGL",
-    "name": "Alphabet Inc. (Class A)",
+    "code": "META",
+    "name": "Meta Platforms",
     "market": "US"
   },
   {
@@ -215,13 +215,13 @@
     "market": "US"
   },
   {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
+    "code": "AVGO",
+    "name": "Broadcom",
     "market": "US"
   },
   {
-    "code": "AVGO",
-    "name": "Broadcom",
+    "code": "ORCL",
+    "name": "Oracle Corporation",
     "market": "US"
   },
   {
@@ -240,18 +240,13 @@
     "market": "US"
   },
   {
-    "code": "LITE",
-    "name": "Lumentum",
-    "market": "US"
-  },
-  {
     "code": "AMAT",
     "name": "Applied Materials",
     "market": "US"
   },
   {
-    "code": "LRCX",
-    "name": "Lam Research",
+    "code": "LITE",
+    "name": "Lumentum",
     "market": "US"
   },
   {
@@ -260,8 +255,8 @@
     "market": "US"
   },
   {
-    "code": "NOW",
-    "name": "ServiceNow",
+    "code": "LRCX",
+    "name": "Lam Research",
     "market": "US"
   },
   {
@@ -270,8 +265,8 @@
     "market": "US"
   },
   {
-    "code": "VRT",
-    "name": "Vertiv",
+    "code": "NOW",
+    "name": "ServiceNow",
     "market": "US"
   },
   {
@@ -280,13 +275,18 @@
     "market": "US"
   },
   {
-    "code": "BA",
-    "name": "Boeing",
+    "code": "CAT",
+    "name": "Caterpillar Inc.",
     "market": "US"
   },
   {
-    "code": "CAT",
-    "name": "Caterpillar Inc.",
+    "code": "VRT",
+    "name": "Vertiv",
+    "market": "US"
+  },
+  {
+    "code": "XOM",
+    "name": "ExxonMobil",
     "market": "US"
   },
   {
@@ -295,8 +295,8 @@
     "market": "US"
   },
   {
-    "code": "XOM",
-    "name": "ExxonMobil",
+    "code": "BA",
+    "name": "Boeing",
     "market": "US"
   },
   {

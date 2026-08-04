@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 372.4700012207031,
-    "change_pct": 4.44,
+    "close": 356.6499938964844,
+    "change_pct": null,
     "volume": 26976361,
-    "amount": 10047885214.600128,
+    "amount": 9621118985.99936,
     "marcap": null,
-    "as_of_iso": "2026-08-04T02:22:30.571814+00:00",
+    "as_of_iso": "2026-08-04T05:45:48.927158+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "GOOG",

@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 110.70999908447266,
-    "change_pct": -0.44,
+    "close": 111.19999694824219,
+    "change_pct": null,
     "volume": 22846671,
-    "amount": 2529354925.493248,
+    "amount": 2540549745.4774933,
     "marcap": null,
-    "as_of_iso": "2026-08-04T02:22:30.571886+00:00",
+    "as_of_iso": "2026-08-04T05:45:48.927241+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "WMT",
