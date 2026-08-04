@@ -7,11 +7,11 @@
   "BOK_BASE_RATE": null,
   "BTC_KRW": {
     "envelope": {
-      "value": 90889000.0,
-      "change_abs": 509000.0,
-      "change_pct": 0.56,
+      "value": 91004000.0,
+      "change_abs": 624000.0,
+      "change_pct": 0.69,
       "unit": "KRW",
-      "as_of_iso": "2026-08-04T13:46:02.182922+00:00",
+      "as_of_iso": "2026-08-04T16:06:51.193506+00:00",
       "source": "upbit",
       "session_key": "crypto_24h",
       "expected_T_min": 60,
@@ -20,6 +20,6 @@
     },
     "yoy": null,
     "next_release": null,
-    "kimchi_premium_pct": -0.17
+    "kimchi_premium_pct": -0.35
   }
 }
