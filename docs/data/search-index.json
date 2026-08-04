@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-04T13:46:07.182493+00:00",
+  "as_of": "2026-08-04T15:54:02.283414+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -364,22 +364,178 @@
   ],
   "news": [
     {
-      "title": "Caterpillar’s stock gives the Dow a 500-point boost as data-center demand drives record revenue",
-      "link": "https://www.marketwatch.com/story/caterpillar-is-killing-it-and-data-center-demand-is-driving-record-revenue-161b84d1?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T13:41:00+00:00"
+      "title": "Procter & Gamble will acquire supplements brand Thorne for $3.8 billion, CEO tells CNBC",
+      "link": "https://www.cnbc.com/2026/08/04/procter-gamble-will-acquire-supplements-brand-thorne.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T15:42:26+00:00"
     },
     {
-      "title": "Wayfair stock jumps more than 20% as retailer posts strongest U.S. growth since 2020",
+      "title": "Wayfair stock jumps more than 25% as retailer posts strongest U.S. growth since 2020",
       "link": "https://www.cnbc.com/2026/08/04/wayfair-w-earnings-q2-2026.html",
       "source": "CNBC Finance",
-      "published": "2026-08-04T13:40:23+00:00"
+      "published": "2026-08-04T15:36:45+00:00"
     },
     {
-      "title": "Palantir jumps 20% on 'otherworldly' commercial revenue — here's what's driving the demand",
+      "title": "Stocks could soar in August. Here are six potential drivers.",
+      "link": "https://www.marketwatch.com/story/stocks-could-soar-in-august-here-are-six-potential-drivers-89d91780?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T15:33:00+00:00"
+    },
+    {
+      "title": "Palantir is leaving its software peers behind in the AI race",
+      "link": "https://www.marketwatch.com/story/palantir-is-leaving-its-software-peers-behind-in-the-ai-race-45280581?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T15:29:00+00:00"
+    },
+    {
+      "title": "美, '엔화 구하기'에 유로화 썼다…재무장관 \"유럽과 긴밀 접촉\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805000400071",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-04T15:23:11+00:00"
+    },
+    {
+      "title": "Blanche approved by Judiciary Committee, sending Trump's AG nominee to full Senate vote",
+      "link": "https://www.cnbc.com/2026/08/04/todd-blanche-weaponization-fund-senate-confirmation.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T15:17:56+00:00"
+    },
+    {
+      "title": "New Jersey sues Amazon on antitrust grounds, alleging it unlawfully wielded its power over delivery contractors",
+      "link": "https://www.cnbc.com/2026/08/04/nj-amazon-antitrust-lawsuit-delivery-contractors.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T15:16:35+00:00"
+    },
+    {
+      "title": "Jeff Bezos just filed to sell $4 billion in Amazon. The shares are falling",
+      "link": "https://www.cnbc.com/2026/08/04/jeff-bezos-just-filed-to-sell-4-billion-in-amazon-the-shares-are-falling.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T15:09:11+00:00"
+    },
+    {
+      "title": "Abdul El-Sayed, Haley Stevens square off Tuesday in Michigan Democratic primary",
+      "link": "https://www.cnbc.com/2026/08/04/abdul-el-sayed-haley-stevens-michigan-primary.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T15:08:53+00:00"
+    },
+    {
+      "title": "[사설] 증시 파탄낸 레버리지 ETF, 진상 밝히고 책임 물어야 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPY3hNSWRNbkFrYWlSRE1fbkRQRmRjVTI3U29nVVN6c2NfOFpoRTVNS0xWVGNvU0ZYNjJjQVBtVEJhNmhNd2tWTzczdGFIR0pwbzRyN3RHc3Jma3Z0b2EtUWJTUGtxZFB3dzVJaDRuOXp4ZUx1d3p5eXBMZXk4ZjF0S2dNWFFHdw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-04T15:03:48+00:00"
+    },
+    {
+      "title": "Job openings fell to a 3-month low. Is the labor market losing momentum?",
+      "link": "https://www.marketwatch.com/story/job-openings-fell-to-a-3-month-low-is-the-labor-market-losing-momentum-05fcbc49?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T15:03:00+00:00"
+    },
+    {
+      "title": "Palantir jumps 27% on 'otherworldly' commercial revenue — here's what's driving the demand",
       "link": "https://www.cnbc.com/2026/08/04/palantir-2q-earnings-ai-sovereign-tools.html",
       "source": "CNBC Finance",
-      "published": "2026-08-04T13:37:51+00:00"
+      "published": "2026-08-04T14:47:13+00:00"
+    },
+    {
+      "title": "Why Ford believes its 10.2% July U.S. sales decline was still a 'good' month",
+      "link": "https://www.cnbc.com/2026/08/04/ford-july-sales-decline.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T14:45:37+00:00"
+    },
+    {
+      "title": "Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure",
+      "link": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T14:42:39+00:00"
+    },
+    {
+      "title": "How the 'Baby iPhone' and an Apple supplier leak explain China's recent supply chain moves",
+      "link": "https://www.cnbc.com/2026/08/04/china-apple-india-tata-electronics.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T14:40:24+00:00"
+    },
+    {
+      "title": "美재무 \"원화 과도한 변동성…엔화 약세에 다른 통화 뒤따를 것\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260804167451071",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-04T14:39:11+00:00"
+    },
+    {
+      "title": "Pfizer tops estimates, hikes low end of revenue guidance on strength of Eliquis, other drugs",
+      "link": "https://www.cnbc.com/2026/08/04/pfizer-pfe-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T14:36:44+00:00"
+    },
+    {
+      "title": "Caterpillar’s stock gives the Dow a 200-point boost as data-center demand drives record revenue",
+      "link": "https://www.marketwatch.com/story/caterpillar-is-killing-it-and-data-center-demand-is-driving-record-revenue-161b84d1?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T14:36:00+00:00"
+    },
+    {
+      "title": "McDonald's names company veteran Skye Anderson as its U.S. president as growth in its largest market slows",
+      "link": "https://www.cnbc.com/2026/08/04/mcdonalds-skye-anderson-us-president.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T14:32:41+00:00"
+    },
+    {
+      "title": "If Social Security’s funding crisis is the elephant in the room, this is the mouse everyone has overlooked. You have been warned.",
+      "link": "https://www.marketwatch.com/story/if-social-securitys-funding-crisis-is-the-elephant-in-the-room-this-is-the-mouse-everyone-has-overlooked-you-have-been-warned-b95c450d?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T14:30:00+00:00"
+    },
+    {
+      "title": "[뉴욕증시]베선트 \"호르무즈 통항 곧 합의\"…일제히 상승세 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tMUlUa19UUVJoaDAtZndCd1M2LXZTUjJmY0poRHpsOF8wM0hoOEF6NFZXSURPaGxIRy00TFhRQ1l2VnQ4VGlOOUtyem84WUZPcWdXREpqamV1MzlLbTBCZA?oc=5",
+      "source": "Google News",
+      "published": "2026-08-04T14:27:26+00:00"
+    },
+    {
+      "title": "Why Michigan voters are hearing 'communist' as they vote Tuesday",
+      "link": "https://www.cnbc.com/2026/08/04/trump-election-republicans-democrats-communist.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T14:16:25+00:00"
+    },
+    {
+      "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
+      "link": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T14:15:00+00:00"
+    },
+    {
+      "title": "If I marry my girlfriend, 67, will she lose her Supplemental Security Income and divorced spouse benefits?",
+      "link": "https://www.marketwatch.com/story/if-i-marry-my-girlfriend-67-will-she-lose-her-supplemental-security-income-and-divorced-spouse-benefits-9340bab9?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T14:15:00+00:00"
+    },
+    {
+      "title": "Someone on Wall Street thinks SpaceX could triple this week",
+      "link": "https://www.cnbc.com/2026/08/04/someone-on-wall-street-thinks-spacex-could-triple-this-week.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T14:05:01+00:00"
+    },
+    {
+      "title": "AMD earnings are a key test for chips and momentum stocks. Here's what the options market is saying",
+      "link": "https://www.cnbc.com/2026/08/04/amd-earnings-are-a-key-test-for-chips-and-momentum-stocks-heres-what-the-options-market-is-saying.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T13:55:51+00:00"
+    },
+    {
+      "title": "McDonald's says its U.S. business is falling short as it announces new head of its largest market",
+      "link": "https://www.cnbc.com/2026/08/04/mcdonalds-mcd-q2-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T13:52:18+00:00"
+    },
+    {
+      "title": "I got two email invitations from friends. Is this a phishing scam — or am I suddenly popular?",
+      "link": "https://www.marketwatch.com/story/i-got-two-email-invitations-from-friends-is-this-a-phishing-scam-or-am-i-suddenly-popular-d9680aa8?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T13:46:00+00:00"
+    },
+    {
+      "title": "뉴욕증시, S&P500 사상 최고치 경신…다우 772포인트 급등 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LcXVUWmszTWxON21BMmVaVUJ1Q0dVWkZvOU5LbkhXUy04bi1YYUlZNDViZmVleHpKU0Ztc1lPZm5RSmJPVmxpUGFlcTZIOWkxakJ1clFrU1FoQkwy?oc=5",
+      "source": "Google News",
+      "published": "2026-08-04T13:43:00+00:00"
     },
     {
       "title": "3 money rules I swear by — and why they work",
@@ -406,22 +562,10 @@
       "published": "2026-08-04T13:31:19+00:00"
     },
     {
-      "title": "Pfizer tops estimates, hikes low end of revenue guidance on strength of Eliquis, other drugs",
-      "link": "https://www.cnbc.com/2026/08/04/pfizer-pfe-earnings-q2-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T13:24:53+00:00"
-    },
-    {
       "title": "美재무 \"원화 과도한 변동성…엔화약세면 다른 통화도 뒤따라\"",
       "link": "https://www.yna.co.kr/view/AKR20260804167400071",
       "source": "연합뉴스·경제",
       "published": "2026-08-04T13:22:53+00:00"
-    },
-    {
-      "title": "Oil prices take a dive as Qatar and Bessent note talks to reopen Strait of Hormuz",
-      "link": "https://www.marketwatch.com/story/oil-prices-rise-after-vessel-reports-being-hit-in-strait-of-hormuz-db6ce867?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T13:22:00+00:00"
     },
     {
       "title": "Philadelphia Fed President Paulson content with rates at current level, but keeping an open mind",
@@ -430,22 +574,10 @@
       "published": "2026-08-04T13:18:15+00:00"
     },
     {
-      "title": "Why Michigan voters are hearing 'communist' as they vote Tuesday",
-      "link": "https://www.cnbc.com/2026/08/04/trump-election-republicans-democrats-communist.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T13:12:13+00:00"
-    },
-    {
       "title": "Analysis: How Bessent is pushing Warsh’s Fed to expand backstop for Japan’s yen defense",
       "link": "https://www.cnbc.com/2026/08/03/bessent-fed-japan-yen-fima-repo-facility.html",
       "source": "CNBC Finance",
       "published": "2026-08-04T13:12:10+00:00"
-    },
-    {
-      "title": "Jeff Bezos just filed to sell $4 billion in Amazon. The shares are falling",
-      "link": "https://www.cnbc.com/2026/08/04/jeff-bezos-just-filed-to-sell-4-billion-in-amazon-the-shares-are-falling.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T13:12:03+00:00"
     },
     {
       "title": "美재무, 이란 호르무즈 통행료 여부 확답없이 \"금명간 합의 가능\"",
@@ -458,18 +590,6 @@
       "link": "https://www.cnbc.com/2026/08/04/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
       "source": "CNBC Finance",
       "published": "2026-08-04T13:06:53+00:00"
-    },
-    {
-      "title": "‘We have always been civil’: My sister refuses to replace me as executor. Can I step down before she dies?",
-      "link": "https://www.marketwatch.com/story/we-have-always-been-civil-my-sister-refuses-to-replace-me-as-executor-can-i-step-down-before-she-dies-84a835a9?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T13:00:00+00:00"
-    },
-    {
-      "title": "Bessent says there may be deal Tuesday or Wednesday to open Strait of Hormuz with 'freedom of movement'",
-      "link": "https://www.cnbc.com/2026/08/04/bessent-says-there-may-be-deal-tuesday-or-wednesday-to-open-strait-of-hormuz-with-freedom-of-movement.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T12:59:23+00:00"
     },
     {
       "title": "Merck hikes revenue outlook as new drug sales grow, but cuts profit guidance due to deal charges",
@@ -496,18 +616,6 @@
       "published": "2026-08-04T12:35:02+00:00"
     },
     {
-      "title": "If I buy a house for $1 million in cash at 70, will I run out of money by 90?",
-      "link": "https://www.marketwatch.com/story/if-i-buy-a-house-for-1-million-in-cash-at-70-will-i-run-out-of-money-by-90-54afb313?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T12:26:00+00:00"
-    },
-    {
-      "title": "As ‘Spider-Man’ joins ‘The Odyssey’ in Imax, are premium movie screens worth the extra price?",
-      "link": "https://www.marketwatch.com/story/as-spider-man-joins-the-odyssey-in-imax-are-premium-movie-screens-worth-the-extra-price-74304e34?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T12:19:00+00:00"
-    },
-    {
       "title": "한국거래소, 변동성 장세에 선물·옵션 증거금률 대거 인상",
       "link": "https://www.yna.co.kr/view/AKR20260804163200008",
       "source": "연합뉴스·경제",
@@ -520,49 +628,13 @@
       "published": "2026-08-04T12:05:41+00:00"
     },
     {
-      "title": "What was the world’s hottest stock market is now hunting ground for short sellers",
-      "link": "https://www.marketwatch.com/story/what-was-the-worlds-hottest-stock-market-is-now-hunting-ground-for-short-sellers-f8f25dd0?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T11:51:00+00:00"
-    },
-    {
-      "title": "McDonald's earnings beat estimates, chain announces new U.S. head to accelerate growth",
-      "link": "https://www.cnbc.com/2026/08/04/mcdonalds-mcd-q2-2026-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T11:34:49+00:00"
-    },
-    {
-      "title": "McDonald's names company veteran Skye Anderson as its U.S. president as growth in its largest market slows",
-      "link": "https://www.cnbc.com/2026/08/04/mcdonalds-skye-anderson-us-president.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T11:01:01+00:00"
-    },
-    {
-      "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
-      "link": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T11:00:00+00:00"
-    },
-    {
-      "title": "The trade-off of graduating college early: No debt, but no job?",
-      "link": "https://www.marketwatch.com/story/the-trade-off-of-graduating-college-early-no-debt-but-no-job-7c81784b?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T11:00:00+00:00"
-    },
-    {
       "title": "“李 정치적 운명, 증시와 연결…이런 대통령 없었어”-FT - 문화일보",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmdjdkTDNTTTVySHUyQ0dNTmxTNGE1N2hOM0JpbE9iRnY4QkJDR05WUW1QYkM3X1luY0dzWkk1ckRLb0lIOWdDQk4yeE4xdjNx?oc=5",
       "source": "Google News",
       "published": "2026-08-04T10:46:12+00:00"
     },
     {
-      "title": "Apple launches fresh legal challenge against UK encrypted data access demand",
-      "link": "https://www.cnbc.com/2026/08/04/apple-encrypted-data-legal-challenge-uk.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T10:15:27+00:00"
-    },
-    {
-      "title": "[금융 한 입] 광기와 공포의 한국 증시…해외 IB는 ‘반등’ 주목 - BBS불교방송",
+      "title": "[금융 한 입] 광기와 공포의 한국 증시…해외 IB는 ‘반등’ 주목 - news.bbsi.co.kr",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4UnVLaVZkMDNmdjBKYmZhRGUwNWlFZlRlWHZrOFZQeTVQVGN6RFVWSExZeC1VQmFIT3lLTEVBYUdweEVEU3I2RjZVMFRyX000T21GbGlCRFkyQWw5WldERjU5ZmJXSWdwTlJj?oc=5",
       "source": "Google News",
       "published": "2026-08-04T10:00:00+00:00"
@@ -572,12 +644,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260804154300008",
       "source": "연합뉴스·경제",
       "published": "2026-08-04T09:39:05+00:00"
-    },
-    {
-      "title": "반도체가 끌어올린 증시 수급 공백에 흔들…“하반기, 8월 美 국채가 분수령” - 매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EeEIxM0N4Z19iaWc4ZWloRWVKYzlGUEJXa0F5dUpCSGFkaUNIdFd0QmdSRGFtbk9fcnd1OE5NTS00STQ3SGhkaXo2LVRWaHNoLUE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-04T09:31:16+00:00"
     },
     {
       "title": "김남구 한투지주 회장 장남, 입사 7년 만에 임원 승진",
@@ -596,72 +662,6 @@
       "link": "https://www.mk.co.kr/news/economy/12116595",
       "source": "매일경제·증권",
       "published": "2026-08-04T09:07:37+00:00"
-    },
-    {
-      "title": "非수도권 '성장엔진' 25곳 뽑는다",
-      "link": "https://www.mk.co.kr/news/economy/12116592",
-      "source": "매일경제·증권",
-      "published": "2026-08-04T09:07:36+00:00"
-    },
-    {
-      "title": "HD현대 정기선, 정몽준 지분 3.54％ 증여받아…2대 주주 올라서",
-      "link": "https://www.yna.co.kr/view/AKR20260804150800003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-04T09:05:20+00:00"
-    },
-    {
-      "title": "대출 잠그기에도 주담대 2.8조 폭증 … '마통' 한도까지 끌어다 영끌",
-      "link": "https://www.mk.co.kr/news/economy/12116581",
-      "source": "매일경제·증권",
-      "published": "2026-08-04T09:04:46+00:00"
-    },
-    {
-      "title": "[단독] 건설업계 \"공급 위해 대출규제 풀어야\" … 금융당국, 부동산PF 보증확대 등 검토",
-      "link": "https://www.mk.co.kr/news/economy/12116580",
-      "source": "매일경제·증권",
-      "published": "2026-08-04T09:04:46+00:00"
-    },
-    {
-      "title": "부부 공동명의 주택 … 양도세 공제한도 10억",
-      "link": "https://www.mk.co.kr/news/economy/12116578",
-      "source": "매일경제·증권",
-      "published": "2026-08-04T09:04:20+00:00"
-    },
-    {
-      "title": "ISA 5년만기 도입에 … \"장투·복리기회 사라져\" 투자자 분통",
-      "link": "https://www.mk.co.kr/news/economy/12116576",
-      "source": "매일경제·증권",
-      "published": "2026-08-04T09:04:19+00:00"
-    },
-    {
-      "title": "반복담합·시장지위남용에 매각·양도명령…'초강수' 대응한다",
-      "link": "https://www.yna.co.kr/view/AKR20260804107300002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-04T09:03:05+00:00"
-    },
-    {
-      "title": "대기업 계열사 자료 누락하면 총수 개인에게 과징금 물린다",
-      "link": "https://www.yna.co.kr/view/AKR20260804114100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-04T09:02:34+00:00"
-    },
-    {
-      "title": "지방 中企, 한국은행 저금리 대출에 목맨다",
-      "link": "https://www.mk.co.kr/news/economy/12116548",
-      "source": "매일경제·증권",
-      "published": "2026-08-04T09:00:38+00:00"
-    },
-    {
-      "title": "산업부 \"AI 전환 사업장, 생산성 30% 증가\"",
-      "link": "https://www.mk.co.kr/news/economy/12116546",
-      "source": "매일경제·증권",
-      "published": "2026-08-04T09:00:37+00:00"
-    },
-    {
-      "title": "석유류 가격 주춤하자… 7월 물가 3% 아래로",
-      "link": "https://www.mk.co.kr/news/economy/12116547",
-      "source": "매일경제·증권",
-      "published": "2026-08-04T09:00:37+00:00"
     }
   ],
   "pages": [

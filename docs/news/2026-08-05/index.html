@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark" data-updown="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-08-05 뉴스 아카이브 · AI Trading Assistant</title>
+  <link rel="stylesheet" href="../../static/css/tokens.css">
+  <link rel="stylesheet" href="../../static/css/base_v2.css">
+  <link rel="stylesheet" href="../../static/css/components.css">
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
+</head>
+<body class="v2" data-root="../..">
+  <nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav">
+    <a class="v2-nav__item" href="../../index.html"
+>Dashboard</a>
+    <a class="v2-nav__item" href="../../macro/index.html"
+>Macroeconomics</a>
+    <a class="v2-nav__item" href="../../news/index.html"
+aria-current="page">News</a>
+    <a class="v2-nav__item" href="../../stock/index.html"
+>Stock</a>
+    <a class="v2-nav__item" href="../../financials/index.html"
+>Financial Statements</a>
+    <a class="v2-nav__item" href="../../ta/index.html"
+>Technical Analysis</a>
+    <div class="v2-nav__divider"></div>
+    <a class="v2-nav__item v2-nav__item--locked" href="../../asset/index.html"
+>
+      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+    <a class="v2-nav__item v2-nav__item--locked" href="../../portfolio/index.html"
+>
+      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+  </div>
+  <div class="v2-sidebar__footer">
+    <a class="v2-nav__item" href="../../settings/index.html"
+>Settings</a>
+    <div class="v2-sidebar__version">AI Trading Assistant</div>
+  </div>
+</nav>
+
+  <header class="v2-header">
+  <div class="v2-header__context">
+    News
+  </div>
+  <div class="v2-header__search" role="search">
+    <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
+           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+    <kbd class="v2-header__search-kbd">Ctrl K</kbd>
+    <div class="v2-search-results" data-search-results hidden></div>
+  </div>
+  <div class="v2-header__clock"></div>
+  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+</header>
+
+  <main class="v2-main">
+    <div class="v2-content">
+
+<div class="v2-span-12">
+  <div class="v2-tabbar" data-tabbar="news">
+    <button class="v2-tabbar__btn" data-tab-btn="us_market" data-tabbar-of="news" aria-current="page">
+      미국시장<span class="v2-tabbar__count">0</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="kr_market" data-tabbar-of="news">
+      한국시장<span class="v2-tabbar__count">0</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="macro" data-tabbar-of="news">
+      거시경제<span class="v2-tabbar__count">0</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="breaking" data-tabbar-of="news">
+      속보<span class="v2-tabbar__count">11</span>
+    </button>
+    <span class="v2-caption v2-tabbar__meta">
+2026-08-05 아카이브    </span>
+  </div>
+</div>
+
+<div class="v2-card v2-card--standard v2-span-8 v2-card--news-list" id="news-list">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">미국시장 · 게재 0건</h3>
+    <button class="v2-filter-chip" data-kw-clear hidden>필터: <span data-kw-label></span> ×</button>
+    <span class="v2-card__meta">2026-08-05 00:53 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div data-tab-panel="news" data-tab="us_market">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="kr_market" style="display:none">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="macro" style="display:none">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="breaking" style="display:none">
+  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l1" data-kw="M&amp;A">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/04/procter-gamble-will-acquire-supplements-brand-thorne.html" target="_blank" rel="noopener noreferrer">Procter &amp; Gamble은 보충제 브랜드 Thorne을 38억 달러에 인수할 것이라고 CEO가 CNBC에 말했습니다.</a>
+    <div class="v2-news-list-row__summary">P&amp;G CEO 샤일레시 제주리카르(Shailesh Jeurikar)는 CNBC의 &#34;Squawk on the Street&#34;에서 이번 인수가 회사의 건강 사업을 성장시키기 위한 것이라고 말했습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-05 00:42</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/04/wayfair-w-earnings-q2-2026.html" target="_blank" rel="noopener noreferrer">Wayfair는 2020년 이후 미국에서 가장 높은 성장세를 기록했습니다.</a>
+    <div class="v2-news-list-row__summary">봉쇄 명령이 해제된 이후 매출이 부진한 대유행 기업인 Wayfair는 2분기 동안 2020년 이후 미국에서 가장 높은 성장률을 기록했습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-05 00:36</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/stocks-could-soar-in-august-here-are-six-potential-drivers-89d91780?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">8월에는 주가가 급등할 수도 있다. 여기 6명의 잠재적 동인이 있습니다.</a>
+    <div class="v2-news-list-row__summary">Fundstrat의 리서치 책임자인 Tom Lee는 이번 달 주식이 새로운 최고치를 기록할 수 있다고 생각하는 이유를 설명했습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-05 00:33</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="AI">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/palantir-is-leaving-its-software-peers-behind-in-the-ai-race-45280581?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">Palantir는 AI 경쟁에서 소프트웨어 동료를 뒤처지고 있습니다.</a>
+    <div class="v2-news-list-row__summary">분석가들은 주권 AI에 대한 회사의 초점이 고객의 공감을 얻고 있다고 말합니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-05 00:29</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260805000400071" target="_blank" rel="noopener noreferrer">美, &#39;엔화 구하기&#39;에 유로화 썼다…재무장관 &#34;유럽과 긴밀 접촉&#34;</a>
+    <div class="v2-news-list-row__summary">(워싱턴=연합뉴스) 홍정규 특파원 = 미국이 일본 엔화 가치를 끌어올리는 시장 개입에서 유로화를 대량 매도했다는 시장의 관측이 사실상 정설로 굳...</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">08-05 00:23</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/04/todd-blanche-weaponization-fund-senate-confirmation.html" target="_blank" rel="noopener noreferrer">Blanche는 사법위원회의 승인을 받아 Trump의 AG 후보를 상원 전체 투표에 보냈습니다.</a>
+    <div class="v2-news-list-row__summary">법무장관 후보자인 토드 블랑쉬(Todd Blanche)는 상원 사법위원회를 통과한 후 인준을 받으려면 상원에서 50표를 얻어야 합니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-05 00:17</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/04/nj-amazon-antitrust-lawsuit-delivery-contractors.html" target="_blank" rel="noopener noreferrer">뉴저지주, 아마존이 배송 계약자에 대해 불법적으로 권력을 행사했다고 주장하며 독점금지 혐의로 소송 제기</a>
+    <div class="v2-news-list-row__summary">고소장은 Amazon의 제3자 배송 모델이 임금 감소, 불공정한 근무 조건 및 경쟁 부족으로 이어진다고 주장합니다.</div>
+  </div>
+  <span><span class="v2-tag">Amazon</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-05 00:16</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="실적">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/04/jeff-bezos-just-filed-to-sell-4-billion-in-amazon-the-shares-are-falling.html" target="_blank" rel="noopener noreferrer">제프 베조스는 방금 아마존에 40억 달러의 매각 신청서를 제출했습니다. 주가가 하락하고 있다</a>
+    <div class="v2-news-list-row__summary">이번 신고는 아마존이 월요일 사상 최고치를 기록하며 지난주 분기별 실적에 힘입어 상승폭이 확대된 후에 나온 것이다.</div>
+  </div>
+  <span><span class="v2-tag">Amazon</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-05 00:09</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/04/abdul-el-sayed-haley-stevens-michigan-primary.html" target="_blank" rel="noopener noreferrer">Abdul El-Sayed, Haley Stevens가 화요일 미시간 민주당 예비 선거에서 승리를 거두었습니다.</a>
+    <div class="v2-news-list-row__summary">Abdul El-Sayed와 Haley Stevens 의원 사이의 미시간주 상원 민주당 예비선거는 중간선거에서 가장 주목받는 경주 중 하나입니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-05 00:08</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="조선">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMihgFBVV95cUxPY3hNSWRNbkFrYWlSRE1fbkRQRmRjVTI3U29nVVN6c2NfOFpoRTVNS0xWVGNvU0ZYNjJjQVBtVEJhNmhNd2tWTzczdGFIR0pwbzRyN3RHc3Jma3Z0b2EtUWJTUGtxZFB3dzVJaDRuOXp4ZUx1d3p5eXBMZXk4ZjF0S2dNWFFHdw?oc=5" target="_blank" rel="noopener noreferrer">[사설] 증시 파탄낸 레버리지 ETF, 진상 밝히고 책임 물어야 - 조선일보</a>
+    <div class="v2-news-list-row__summary">[사설] 증시 파탄낸 레버리지 ETF, 진상 밝히고 책임 물어야  조선일보</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-05 00:03</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="고용">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/job-openings-fell-to-a-3-month-low-is-the-labor-market-losing-momentum-05fcbc49?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">채용 공고가 3개월 만에 최저치로 떨어졌습니다. 노동시장이 탄력을 잃고 있는가?</a>
+    <div class="v2-news-list-row__summary">봄철 신규 채용과 고용이 폭증하면서 미국 노동 시장은 어느 정도 탄력을 잃은 것으로 보입니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-05 00:03</span>
+  </span>
+</div>
+  </div>
+</div>
+
+    <p class="v2-body" data-kw-empty hidden>이 키워드에 해당하는 기사가 이 탭에 없습니다.</p>
+  </div>
+
+</div>
+
+<div class="v2-span-4 v2-rail">
+
+<div class="v2-card v2-card--standard  " id="news-briefing">
+    <div class="v2-card__header">
+    <span class="v2-overline">모닝 브리핑</span>
+    <span class="v2-card__meta">2026-08-05 00:53 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-hero-news-row">
+      <span class="n">1</span>
+      <a class="t" href="https://www.marketwatch.com/story/palantir-is-leaving-its-software-peers-behind-in-the-ai-race-45280581?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">Palantir는 AI 경쟁에서 소프트웨어 동료를 뒤처지고 있습니다.</a>
+    </div>
+    <div class="v2-hero-news-row">
+      <span class="n">2</span>
+      <a class="t" href="https://www.cnbc.com/2026/08/04/nj-amazon-antitrust-lawsuit-delivery-contractors.html" target="_blank" rel="noopener noreferrer">뉴저지주, 아마존이 배송 계약자에 대해 불법적으로 권력을 행사했다고 주장하며 독점금지 혐의로 소송 제기</a>
+    </div>
+    <div class="v2-hero-news-row">
+      <span class="n">3</span>
+      <a class="t" href="https://www.cnbc.com/2026/08/04/jeff-bezos-just-filed-to-sell-4-billion-in-amazon-the-shares-are-falling.html" target="_blank" rel="noopener noreferrer">제프 베조스는 방금 아마존에 40억 달러의 매각 신청서를 제출했습니다. 주가가 하락하고 있다</a>
+    </div>
+  </div>
+  <div class="v2-card__footer">필수 0 · 주목 3 · 참고 8</div>
+
+</div>
+
+<div class="v2-card v2-card--standard  " id="news-radar">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">많이 언급된 키워드</h3>
+    <span class="v2-card__meta">2026-08-05</span>
+  </div>
+  <div class="v2-card__body">
+    <button class="v2-radar-row" data-kw-pick="고용">
+      <span class="v2-radar-row__label">고용</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 100%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="실적">
+      <span class="v2-radar-row__label">실적</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 100%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="M&amp;A">
+      <span class="v2-radar-row__label">M&amp;A</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 100%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="AI">
+      <span class="v2-radar-row__label">AI</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 100%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="조선">
+      <span class="v2-radar-row__label">조선</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 100%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+  </div>
+
+</div>
+
+</div>
+    </div>
+  </main>
+  <div class="v2-panel-slot" id="panel-slot"></div>
+  <script src="../../static/js/store.js" defer></script>
+  <script src="../../static/js/stockhub.js" defer></script>
+  <script src="../../static/js/search.js" defer></script>
+<script src="../../static/js/tabs.js" defer></script>
+<script src="../../static/js/news-radar.js" defer></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.TATabs) window.TATabs.init("news", "us_market");
+    // 탭 초기화 뒤에 걸어야 활성 패널 기준 빈 상태 판정이 맞는다(순서 의존)
+    if (window.TANewsRadar) window.TANewsRadar.init();
+  });
+</script>
+</body>
+</html>
