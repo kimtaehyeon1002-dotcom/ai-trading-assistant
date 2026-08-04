@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-04T19:26:47.592795+00:00",
+  "as_of": "2026-08-04T20:18:27.082373+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -364,22 +364,94 @@
   ],
   "news": [
     {
+      "title": "McDonald's says its U.S. business is falling short as it announces new head of its largest market",
+      "link": "https://www.cnbc.com/2026/08/04/mcdonalds-mcd-q2-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T20:15:34+00:00"
+    },
+    {
+      "title": "Wayfair stock jumps 30% as retailer posts strongest U.S. growth since 2020",
+      "link": "https://www.cnbc.com/2026/08/04/wayfair-w-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T20:15:06+00:00"
+    },
+    {
+      "title": "Chipotle stock falls on potential link to salmonella outbreak in Minnesota",
+      "link": "https://www.cnbc.com/2026/08/04/chipotle-stock-falls-salmonella-outbreak-minnesota.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T20:13:38+00:00"
+    },
+    {
+      "title": "[속보]뉴욕증시, 호르무즈 재개방 기대에 일제히 상승 마감 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YanBfSWJiUTQ3MF9xeXJOZ2tlbVNCOHNjeDN6VGM1VkFycGhHdEFreGxtNGEtNUMzQnpfRjlXbEEwSUtfR2s2YWJEM0FyOXI4d3l1dEdrRzBaSWVzdnFkRg?oc=5",
+      "source": "Google News",
+      "published": "2026-08-04T20:11:31+00:00"
+    },
+    {
+      "title": "美 S&P500지수 2달만에 최고치 경신…유가 80달러 밑으로",
+      "link": "https://www.yna.co.kr/view/AKR20260805005000072",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-04T20:10:27+00:00"
+    },
+    {
+      "title": "Lucid misses second-quarter expectations as EV maker conducts 'operational reset'",
+      "link": "https://www.cnbc.com/2026/08/04/lucid-group-lcid-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T20:05:27+00:00"
+    },
+    {
+      "title": "Palantir stock skyrockets 29%, narrowly missing its best day ever after 'otherworldly' results",
+      "link": "https://www.cnbc.com/2026/08/04/palantir-2q-earnings-ai-sovereign-tools.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T20:04:32+00:00"
+    },
+    {
+      "title": "Paramount Skydance raises full-year profit guidance, remains 'confident' about WBD merger",
+      "link": "https://www.cnbc.com/2026/08/04/paramount-skydance-psky-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T20:03:32+00:00"
+    },
+    {
+      "title": "The Wegovy pill’s ‘surprise miss’ is one reason Novo Nordisk’s stock is down",
+      "link": "https://www.marketwatch.com/story/the-wegovy-pills-surprise-miss-is-one-reason-novo-nordisks-stock-is-down-ec0fe43d?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T20:01:00+00:00"
+    },
+    {
+      "title": "‘My head hit the driver’s window’: A teenager T-boned our car. Will Medicare pay my hospital bills?",
+      "link": "https://www.marketwatch.com/story/my-head-hit-the-drivers-window-a-teenager-t-boned-our-car-will-medicare-pay-my-hospital-bills-0552d90d?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T20:00:00+00:00"
+    },
+    {
+      "title": "Oil prices dive on hopes that a deal to reopen the Strait of Hormuz will be made soon",
+      "link": "https://www.marketwatch.com/story/oil-prices-rise-after-vessel-reports-being-hit-in-strait-of-hormuz-db6ce867?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T19:46:00+00:00"
+    },
+    {
+      "title": "Stocks return to record highs. Investors who sat tight during the recent momentum crash are being rewarded.",
+      "link": "https://www.marketwatch.com/story/stocks-return-to-record-highs-investors-who-sat-tight-during-the-recent-momentum-crash-are-being-rewarded-8c960105?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T19:33:00+00:00"
+    },
+    {
       "title": "국제유가, 미·이란 협상 기대에 이틀째 급락…브렌트 5%↓",
       "link": "https://www.yna.co.kr/view/AKR20260805004100072",
       "source": "연합뉴스·경제",
       "published": "2026-08-04T19:24:06+00:00"
     },
     {
+      "title": "McDonald’s admits its value meals have become too confusing",
+      "link": "https://www.marketwatch.com/story/mcdonalds-admits-its-value-meals-have-become-too-confusing-dc076468?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-04T19:24:00+00:00"
+    },
+    {
       "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
       "link": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-04T19:22:00+00:00"
-    },
-    {
-      "title": "‘My head hit the driver’s window’: A teenager T-boned our car. Will Medicare pay my hospital bills?",
-      "link": "https://www.marketwatch.com/story/my-head-hit-the-drivers-window-a-teenager-t-boned-our-car-will-medicare-pay-my-hospital-bills-0552d90d?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T19:15:00+00:00"
     },
     {
       "title": "TikTok users are sharing the items they say are always worth the money—here's what financial planners say",
@@ -418,12 +490,6 @@
       "published": "2026-08-04T18:31:49+00:00"
     },
     {
-      "title": "Palantir jumps 30% on 'otherworldly' commercial revenue — here's what's driving the demand",
-      "link": "https://www.cnbc.com/2026/08/04/palantir-2q-earnings-ai-sovereign-tools.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T18:24:49+00:00"
-    },
-    {
       "title": "Bessent says U.S. backed Japan’s yen intervention to help stabilize Asia",
       "link": "https://www.cnbc.com/2026/08/04/bessent-us-japan-yen-currency-intervention.html",
       "source": "CNBC Finance",
@@ -460,7 +526,7 @@
       "published": "2026-08-04T17:09:37+00:00"
     },
     {
-      "title": "The richest 20% are buying most of the new cars sold in the U.S.",
+      "title": "The richest 20% bought most new cars in ‘recent months.’ Automakers depend more and more on the wealthy.",
       "link": "https://www.marketwatch.com/story/the-richest-20-are-buying-most-of-the-new-cars-sold-in-the-u-s-6e470ad4?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-04T17:09:00+00:00"
@@ -478,12 +544,6 @@
       "published": "2026-08-04T17:02:05+00:00"
     },
     {
-      "title": "It’s getting easier for terminally ill people to end their own lives. What to know as laws change.",
-      "link": "https://www.marketwatch.com/story/its-getting-easier-for-terminally-ill-people-to-end-their-own-lives-what-to-know-as-laws-change-4fa04c54?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T16:56:00+00:00"
-    },
-    {
       "title": "트럼프 행정부, 엔화 부양 고리로 원화값 회복 불 지피나",
       "link": "https://www.yna.co.kr/view/AKR20260805001200072",
       "source": "연합뉴스·경제",
@@ -494,18 +554,6 @@
       "link": "https://www.cnbc.com/2026/08/04/nj-amazon-antitrust-lawsuit-delivery-contractors.html",
       "source": "CNBC Finance",
       "published": "2026-08-04T16:34:05+00:00"
-    },
-    {
-      "title": "College kids are moving into retirement communities for reasons beyond ‘cheap rent’",
-      "link": "https://www.marketwatch.com/story/college-kids-are-moving-into-retirement-communities-for-reasons-beyond-cheap-rent-577dc94b?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T16:34:00+00:00"
-    },
-    {
-      "title": "Bessent defends Warsh, saying markets are going through ‘detox’ from too much Fed guidance",
-      "link": "https://www.marketwatch.com/story/bessent-defends-warsh-saying-markets-are-going-through-detox-from-too-much-fed-guidance-39dfc765?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T16:25:00+00:00"
     },
     {
       "title": "How the 'Baby iPhone' and an Apple supplier leak explain China's recent supply chain moves",
@@ -526,18 +574,6 @@
       "published": "2026-08-04T16:04:43+00:00"
     },
     {
-      "title": "Wayfair stock jumps more than 25% as retailer posts strongest U.S. growth since 2020",
-      "link": "https://www.cnbc.com/2026/08/04/wayfair-w-earnings-q2-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T15:36:45+00:00"
-    },
-    {
-      "title": "Stocks could soar in August. Here are six potential drivers.",
-      "link": "https://www.marketwatch.com/story/stocks-could-soar-in-august-here-are-six-potential-drivers-89d91780?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-04T15:33:00+00:00"
-    },
-    {
       "title": "美, '엔화 구하기'에 유로화 썼다…재무장관 \"유럽과 긴밀 접촉\"",
       "link": "https://www.yna.co.kr/view/AKR20260805000400071",
       "source": "연합뉴스·경제",
@@ -547,7 +583,7 @@
       "title": "[사설] 증시 파탄낸 레버리지 ETF, 진상 밝히고 책임 물어야 - 조선일보",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPY3hNSWRNbkFrYWlSRE1fbkRQRmRjVTI3U29nVVN6c2NfOFpoRTVNS0xWVGNvU0ZYNjJjQVBtVEJhNmhNd2tWTzczdGFIR0pwbzRyN3RHc3Jma3Z0b2EtUWJTUGtxZFB3dzVJaDRuOXp4ZUx1d3p5eXBMZXk4ZjF0S2dNWFFHdw?oc=5",
       "source": "Google News",
-      "published": "2026-08-04T15:04:22+00:00"
+      "published": "2026-08-04T15:00:00+00:00"
     },
     {
       "title": "美재무 \"원화 과도한 변동성…엔화 약세에 다른 통화 뒤따를 것\"(종합)",
@@ -556,7 +592,7 @@
       "published": "2026-08-04T14:39:11+00:00"
     },
     {
-      "title": "美 증시, 호르무즈개방 기대에 실적 잔치…S&P사상 최고치 - hankyung.com",
+      "title": "美 증시, 호르무즈개방 기대에 실적 잔치…S&P사상 최고치 - 한국경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45NVhmTUdHSmRLbXNDU21URGFDUEVKS01BTzRsdU53OHkycG52QklOdnlFYVc4WHNMTHdaUHMwbm1YUk1kUGpSc1pGazh3ZjRqbnpnWWFxY3BvUQ?oc=5",
       "source": "Google News",
       "published": "2026-08-04T14:35:18+00:00"
@@ -586,16 +622,16 @@
       "published": "2026-08-04T14:13:56+00:00"
     },
     {
+      "title": "Someone on Wall Street thinks SpaceX could triple this week",
+      "link": "https://www.cnbc.com/2026/08/04/someone-on-wall-street-thinks-spacex-could-triple-this-week.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T14:05:01+00:00"
+    },
+    {
       "title": "AMD earnings are a key test for chips and momentum stocks. Here's what the options market is saying",
       "link": "https://www.cnbc.com/2026/08/04/amd-earnings-are-a-key-test-for-chips-and-momentum-stocks-heres-what-the-options-market-is-saying.html",
       "source": "CNBC Finance",
       "published": "2026-08-04T13:55:51+00:00"
-    },
-    {
-      "title": "McDonald's says its U.S. business is falling short as it announces new head of its largest market",
-      "link": "https://www.cnbc.com/2026/08/04/mcdonalds-mcd-q2-2026-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T13:52:18+00:00"
     },
     {
       "title": "뉴욕증시, S&P500 사상 최고치 경신…다우 772포인트 급등 - 뉴스핌",
@@ -622,46 +658,10 @@
       "published": "2026-08-04T13:22:53+00:00"
     },
     {
-      "title": "Analysis: How Bessent is pushing Warsh’s Fed to expand backstop for Japan’s yen defense",
-      "link": "https://www.cnbc.com/2026/08/03/bessent-fed-japan-yen-fima-repo-facility.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T13:12:10+00:00"
-    },
-    {
       "title": "美재무, 이란 호르무즈 통행료 여부 확답없이 \"금명간 합의 가능\"",
       "link": "https://www.yna.co.kr/view/AKR20260804166600071",
       "source": "연합뉴스·경제",
       "published": "2026-08-04T13:08:27+00:00"
-    },
-    {
-      "title": "뉴욕증시 개장 전 특징주...팔란티어·캐터필러·화이자↑ VS 디지털오션↓ - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iTnBGek9FY20tczROendlZHJ0Rm1QMmZVcU1rQnVUdWZHSVE1Sy1ObWZCMFptWmFLbUN4OUZKeWpRS0NkYWNLaUFqVU1FSmVuU0pZaDF5Zld6LWNZ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-04T12:57:00+00:00"
-    },
-    {
-      "title": "Merck hikes revenue outlook as new drug sales grow, but cuts profit guidance due to deal charges",
-      "link": "https://www.cnbc.com/2026/08/04/merck-mrk-earnings-q2-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T12:43:35+00:00"
-    },
-    {
-      "title": "‘Last chance’: Bessent says Hormuz deal is in sight after Trump's warning on Iran talks",
-      "link": "https://www.cnbc.com/2026/08/04/us-iran-war-trump-hormuz.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T12:41:16+00:00"
-    },
-    {
-      "title": "Can your tax preparer use AI without telling you? Some experts say IRS rules aren't clear",
-      "link": "https://www.cnbc.com/2026/08/04/ai-tax-preparers.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T12:35:02+00:00"
-    },
-    {
-      "title": "뉴욕증시 프리뷰, AI 실적 훈풍·美·이란 협상 기대에 다우선물 600P 급등...유가 3% 급락 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1OeXVXWnFHYUR5U3Y5bDd0ekRPS01UU1BfR2MwUDFlMjhucm1GWlE5eVFPZGhiWDdEdG5kamczY19jS0UxWWo1dXFJd1FMbXo1Rk5RTTJibVVLU3dy?oc=5",
-      "source": "Google News",
-      "published": "2026-08-04T12:35:00+00:00"
     }
   ],
   "pages": [
