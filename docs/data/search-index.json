@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-04T08:03:56.397966+00:00",
+  "as_of": "2026-08-04T08:34:09.960488+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -42,11 +42,6 @@
       "market": "KOSPI"
     },
     {
-      "code": "006340",
-      "name": "대원전선",
-      "market": "KOSPI"
-    },
-    {
       "code": "005380",
       "name": "현대차",
       "market": "KOSPI"
@@ -57,9 +52,9 @@
       "market": "KOSPI"
     },
     {
-      "code": "119850",
-      "name": "지엔씨에너지",
-      "market": "KOSDAQ"
+      "code": "006340",
+      "name": "대원전선",
+      "market": "KOSPI"
     },
     {
       "code": "196170",
@@ -67,48 +62,8 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "034020",
-      "name": "두산에너빌리티",
-      "market": "KOSPI"
-    },
-    {
-      "code": "058610",
-      "name": "에스피지",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "market": "KOSPI"
-    },
-    {
-      "code": "042700",
-      "name": "한미반도체",
-      "market": "KOSPI"
-    },
-    {
       "code": "066570",
       "name": "LG전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "298040",
-      "name": "효성중공업",
-      "market": "KOSPI"
-    },
-    {
-      "code": "080220",
-      "name": "제주반도체",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "010060",
-      "name": "OCI홀딩스",
       "market": "KOSPI"
     },
     {
@@ -117,8 +72,58 @@
       "market": "KOSPI"
     },
     {
+      "code": "119850",
+      "name": "지엔씨에너지",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market": "KOSPI"
+    },
+    {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "042700",
+      "name": "한미반도체",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KOSPI"
+    },
+    {
+      "code": "298040",
+      "name": "효성중공업",
+      "market": "KOSPI"
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "market": "KOSPI"
+    },
+    {
+      "code": "028260",
+      "name": "삼성물산",
+      "market": "KOSPI"
+    },
+    {
       "code": "006360",
       "name": "GS건설",
+      "market": "KOSPI"
+    },
+    {
+      "code": "058610",
+      "name": "에스피지",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "079550",
+      "name": "LIG디펜스앤에어로스페이스",
       "market": "KOSPI"
     },
     {
@@ -127,24 +132,19 @@
       "market": "KOSPI"
     },
     {
-      "code": "079550",
-      "name": "LIG디펜스앤에어로스페이스",
+      "code": "011070",
+      "name": "LG이노텍",
       "market": "KOSPI"
     },
     {
-      "code": "010170",
-      "name": "대한광통신",
+      "code": "080220",
+      "name": "제주반도체",
       "market": "KOSDAQ"
     },
     {
-      "code": "006400",
-      "name": "삼성SDI",
+      "code": "012330",
+      "name": "현대모비스",
       "market": "KOSPI"
-    },
-    {
-      "code": "347850",
-      "name": "디앤디파마텍",
-      "market": "KOSDAQ"
     },
     {
       "code": "028050",
@@ -364,6 +364,66 @@
   ],
   "news": [
     {
+      "title": "[단독] 지방 중기, 저금리 대출 받으러 한은으로…연 한도 7.4배 43조 신청",
+      "link": "https://www.mk.co.kr/news/economy/12116461",
+      "source": "매일경제·증권",
+      "published": "2026-08-04T08:30:25+00:00"
+    },
+    {
+      "title": "국가대표 AI ‘두번째 생존 게임’ 시작…에이전트 역량에 걸렸다",
+      "link": "https://www.mk.co.kr/news/economy/12116449",
+      "source": "매일경제·증권",
+      "published": "2026-08-04T08:24:43+00:00"
+    },
+    {
+      "title": "Saudi Aramco profits jump 33% in second quarter as Iran war squeezes oil supply",
+      "link": "https://www.cnbc.com/2026/08/04/saudi-aramco-earnings-2q-oil-iran-war.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T08:23:14+00:00"
+    },
+    {
+      "title": "레버리지 대책에 수급 완화되나…코스닥 사흘연속 날았다",
+      "link": "https://www.yna.co.kr/view/AKR20260804144100008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-04T08:22:22+00:00"
+    },
+    {
+      "title": "과기정통부·신한금융 \"취약계층 AI 역량 강화\"",
+      "link": "https://www.mk.co.kr/news/economy/12116434",
+      "source": "매일경제·증권",
+      "published": "2026-08-04T08:15:15+00:00"
+    },
+    {
+      "title": "지재처, 우수기술 해외 특허 확보·수익 창출 지원…“지식재산으로 돈 버는 시대 만든다”",
+      "link": "https://www.mk.co.kr/news/economy/12116431",
+      "source": "매일경제·증권",
+      "published": "2026-08-04T08:12:57+00:00"
+    },
+    {
+      "title": "BP profit more than doubles as Trump blasts Big Oil for ‘making too much money’",
+      "link": "https://www.cnbc.com/2026/08/04/bp-2q-earnings-oil-iran-war.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T08:11:48+00:00"
+    },
+    {
+      "title": "국고채 단기물 강세·장기물 약세…3년물 연 3.740%(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260804137651008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-04T08:11:10+00:00"
+    },
+    {
+      "title": "Treasury yields are broadly flat as investors mull uncertainty around peace talks",
+      "link": "https://www.cnbc.com/2026/08/04/treasury-yields-investors-peace-talks-uncertainty.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-04T08:08:04+00:00"
+    },
+    {
+      "title": "자발적 이직 청년도 생애 1회 실업급여…정년연장 연내 입법",
+      "link": "https://www.yna.co.kr/view/AKR20260804066400530",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-04T08:07:07+00:00"
+    },
+    {
       "title": "與 \"꼼꼼히 점검·보완\"…부동산 세제개편안에 '면밀심사' 기조(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260804084151001",
       "source": "연합뉴스·경제",
@@ -416,12 +476,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260804132500054",
       "source": "연합뉴스·경제",
       "published": "2026-08-04T07:34:41+00:00"
-    },
-    {
-      "title": "BP profit more than doubles as Trump blasts Big Oil for ‘making too much money’",
-      "link": "https://www.cnbc.com/2026/08/04/bp-2q-earnings-oil-iran-war.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T07:27:26+00:00"
     },
     {
       "title": "지식재산처 \"지식재산으로 돈 버는 시대 만들겠다\"",
@@ -532,12 +586,6 @@
       "published": "2026-08-04T06:29:01+00:00"
     },
     {
-      "title": "코스피, 美 증시 훈풍에 장중 6300선 회복···시총 상위 종목 '혼조' - seoulfn.com",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EQ2JLdHM1dF9JLVBta1F2czNMMW1OUDVBSFZsREFFWkZOV2diS2lHcTRiVGZ5VDRYdWZUVUZWRGRTeHFaamFSVTFtZm1kOFZwZkdSLVhiNUFsS2lHZUdYSXNXQVlkRTVfWnc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-04T06:28:16+00:00"
-    },
-    {
       "title": "[울산소식] 울주군, 8월 31일까지 주민세 신고·납부받아",
       "link": "https://www.yna.co.kr/view/AKR20260804109200057",
       "source": "연합뉴스·경제",
@@ -598,12 +646,6 @@
       "published": "2026-08-04T05:59:15+00:00"
     },
     {
-      "title": "Saudi Aramco profits jump 33% in second quarter as Iran war squeezes oil supply",
-      "link": "https://www.cnbc.com/2026/08/04/saudi-aramco-earnings-2q-oil-iran-war.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T05:56:25+00:00"
-    },
-    {
       "title": "[세계지식포럼 연사] 관세전쟁 필독서 쓴 FT 칼럼니스트, 성이 ‘케인스’인 이유",
       "link": "https://www.mk.co.kr/news/columnists/12116292",
       "source": "매일경제·증권",
@@ -620,48 +662,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260804106600051",
       "source": "연합뉴스·경제",
       "published": "2026-08-04T05:51:56+00:00"
-    },
-    {
-      "title": "AI is helping Grab ship products more than 30% faster, CFO says, as company raises forecasts",
-      "link": "https://www.cnbc.com/2026/08/04/grab-earnings-ai-forecast-cfo-.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-04T05:47:49+00:00"
-    },
-    {
-      "title": "한은 \"올해 3월 환율 급등 3분의 1은 NDF 탓…야간에 영향 커\"",
-      "link": "https://www.yna.co.kr/view/AKR20260804107700002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-04T05:46:51+00:00"
-    },
-    {
-      "title": "'투자 부적합' vs '코스피 9000'… 한국 증시 바라보는 엇갈린 시선 - 인포스탁데일리",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1pRHRFLVliQ2ZrbFNfblYyLWRSUkVQT2xRLU1weUVfQnhWWXZfaUcyaVB5XzZEdEl6MVRRcHNlMFQ1cXRFUkFSTk5McDFmTzZvcmtiT2NTMG9YUDc1WTJLbXVMclNicE5od2ZUcVZGZE5EZ0RGUnc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-04T05:41:21+00:00"
-    },
-    {
-      "title": "“정부 부양책이 과열 부추겨”…외신, 한국 증시에 ‘중국 전철’ 경고 - 중앙일보",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkcjNvQS0zekhJZ3Q5Rk1yUlhIUTFOOXZLU2h6Um5uQWJpMXJkNU5mdjhPVUJoRHlTcEk3NWxtRXhZa2NuMFpjaWhFWTRnTlItNTIxTlRR?oc=5",
-      "source": "Google News",
-      "published": "2026-08-04T05:41:05+00:00"
-    },
-    {
-      "title": "IBK기업은행 '디지털 영사인증 금융위임장' 서비스 개시",
-      "link": "https://www.yna.co.kr/view/AKR20260804106300002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-04T05:34:56+00:00"
-    },
-    {
-      "title": "[고양소식] 시, 도 지방세 체납 특별징수대책 평가 '우수'",
-      "link": "https://www.yna.co.kr/view/AKR20260804105900060",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-04T05:31:36+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
-      "link": "https://www.yna.co.kr/view/AKR20260804104000011",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-04T05:30:14+00:00"
     }
   ],
   "pages": [

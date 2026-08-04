@@ -4,12 +4,12 @@
   "market": "KOSPI",
   "theme": "2차전지",
   "quote": {
-    "close": 407500.0,
-    "change_pct": 4.62,
-    "volume": 245653,
-    "amount": 98359288500.0,
-    "marcap": 32838603475000.0,
-    "as_of_iso": "2026-08-04T05:45:48.927074+00:00",
+    "close": 419500.0,
+    "change_pct": 7.7,
+    "volume": 401740,
+    "amount": 162912283250.0,
+    "marcap": 33805629835000.0,
+    "as_of_iso": "2026-08-04T08:33:57.761069+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:006400",
