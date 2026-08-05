@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-05T10:24:40.127922+00:00",
+  "as_of": "2026-08-05T10:59:47.612413+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -359,10 +359,58 @@
   ],
   "news": [
     {
+      "title": "CVS blows past estimates, hikes guidance as insurance unit continues to improve",
+      "link": "https://www.cnbc.com/2026/08/05/cvs-health-cvs-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T10:59:02+00:00"
+    },
+    {
+      "title": "Eli Lilly easily tops quarterly estimates, raises outlook as Zepbound and Mounjaro sales surge",
+      "link": "https://www.cnbc.com/2026/08/05/eli-lilly-lly-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T10:57:06+00:00"
+    },
+    {
+      "title": "SpaceX dives 12% after AI spending surge rattles investors",
+      "link": "https://www.cnbc.com/2026/08/05/spacex-spcx-stock-today-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T10:56:48+00:00"
+    },
+    {
+      "title": "The S&P 500 just hit a new high. ‘Big Short’ investor Michael Burry thinks it could bring a 1987-style fall.",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-just-hit-a-new-high-big-short-investor-michael-burry-thinks-it-could-bring-a-1987-style-fall-775c3b95?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-05T10:54:00+00:00"
+    },
+    {
+      "title": "Disney tops earnings estimates as parks and streaming offer a boost",
+      "link": "https://www.cnbc.com/2026/08/05/disney-dis-earnings-q3-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T10:50:04+00:00"
+    },
+    {
+      "title": "신용카드사회공헌재단·금융인재개발원, ‘사회초년생 금융생활 프로젝트’ 1기 모집",
+      "link": "https://www.mk.co.kr/news/economy/12118079",
+      "source": "매일경제·증권",
+      "published": "2026-08-05T10:46:27+00:00"
+    },
+    {
+      "title": "30대 10명중 7명 \"부동산도 주식도 李정부 정책 잘못\"",
+      "link": "https://www.mk.co.kr/news/economy/12118073",
+      "source": "매일경제·증권",
+      "published": "2026-08-05T10:43:02+00:00"
+    },
+    {
       "title": "AMD plummets 8% in premarket trading despite beating expectations",
       "link": "https://www.cnbc.com/2026/08/05/amd-stock-today-earnings-q2.html",
       "source": "CNBC Finance",
-      "published": "2026-08-05T10:21:14+00:00"
+      "published": "2026-08-05T10:32:35+00:00"
+    },
+    {
+      "title": "세제개편안 이후 공급대책 막바지 집중…업계 의견도 다시 수렴(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260805077851003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-05T10:22:45+00:00"
     },
     {
       "title": "Anthropic's Mythos created fake identities to fool humans in new cyber incident",
@@ -413,12 +461,6 @@
       "published": "2026-08-05T09:15:00+00:00"
     },
     {
-      "title": "SpaceX dives 10% after AI spending surge rattles investors",
-      "link": "https://www.cnbc.com/2026/08/05/spacex-spcx-stock-today-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T09:04:08+00:00"
-    },
-    {
       "title": "This is the whopping amount Joe Rogan earns from the podcast he airs at his $14.4 million Austin home",
       "link": "https://www.marketwatch.com/story/this-is-the-whopping-amount-joe-rogan-earns-from-the-podcast-he-airs-at-his-14-4-million-austin-home-0fccf407?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -437,7 +479,7 @@
       "published": "2026-08-05T09:00:01+00:00"
     },
     {
-      "title": "성공투자 오후증시 - wowtv.co.kr",
+      "title": "성공투자 오후증시 - 한국경제TV",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOXdkZWtibXhnMUp5WUpfZS16ZUlWdzZQUjhfTElJT2Vtak5sTGhfdkZiVVViSVBON0pCMkVtZVFyQmJBNjBsSllNdXM2ZVJRMVQwZEZhTDJFV3EyMWtNRVp5UTNGYkpBQ2d1SzJhbzkxZnNTekx5WjhSdzlpUW9ZdmhtOHV5UG1DRXcybHFkM2xsQTB6Z3FjMWhxYmJpVnlsZzVJ?oc=5",
       "source": "Google News",
       "published": "2026-08-05T08:58:29+00:00"
@@ -461,7 +503,7 @@
       "published": "2026-08-05T08:48:08+00:00"
     },
     {
-      "title": "韓서 지갑 연 외국인 관광객 … 코로나 이후 GDP 기여 4배로",
+      "title": "韓서 지갑 연 외국인 관광객 코로나 이후 GDP 기여 4배로",
       "link": "https://www.mk.co.kr/news/economy/12117928",
       "source": "매일경제·증권",
       "published": "2026-08-05T08:48:07+00:00"
@@ -615,48 +657,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260805126100008",
       "source": "연합뉴스·경제",
       "published": "2026-08-05T07:41:00+00:00"
-    },
-    {
-      "title": "‘AI 실적 훈풍’ 뉴욕증시 사상 최고…코스피도 3.7% 껑충 - mstoday.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvYWFpN2NQQ21rbkFuUy1FcDRRQXI1dTF3MXV5S3JNNGtPU3duMVhNYkVTREpUNXpwelYteHkxSlNlYmo1NmIwbEU0T2Z6TFUwVVpuMzZEWUtzbjJxSDg0MU0zOVJuc2Z2MjI2Ng?oc=5",
-      "source": "Google News",
-      "published": "2026-08-05T07:35:28+00:00"
-    },
-    {
-      "title": "우정사업본부·산업은행, 1조원 규모 AI 인프라 펀드 조성",
-      "link": "https://www.yna.co.kr/view/AKR20260805041800017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-05T07:33:39+00:00"
-    },
-    {
-      "title": "전고점 돌파한 S&P·반등 시작한 코스피…글로벌 증시, 서머랠리 시동거나 - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhdG8yUm9Ebm5VMmFhVjJueTZvQS03N18wVk16Q19OZnpCQWFDLWlWcHhnSkhaTk9QWjhTZG9ZTXMwRVctOVVKelNVMzdWZlYwUHRpbkNZV0JRUQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-05T07:31:57+00:00"
-    },
-    {
-      "title": "주택금융공사, 8월 보금자리론 금리 동결…연 4.9∼5.2%",
-      "link": "https://www.yna.co.kr/view/AKR20260805126200002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-05T07:31:54+00:00"
-    },
-    {
-      "title": "식약처, '알레르기 유발물질 미표시' 죽제품 회수",
-      "link": "https://www.yna.co.kr/view/AKR20260805129400017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-05T07:31:10+00:00"
-    },
-    {
-      "title": "LH, 군포 산본 11구역 사업시행약정…3천892가구 공급",
-      "link": "https://www.yna.co.kr/view/AKR20260805131000003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-05T07:28:39+00:00"
-    },
-    {
-      "title": "반등 이어 3% 급등한 코스피…상승탄력 키우며 고점 높여가나(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260805075751008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-05T07:16:57+00:00"
     }
   ],
   "pages": [
