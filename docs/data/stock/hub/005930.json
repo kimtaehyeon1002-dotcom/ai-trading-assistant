@@ -1,9 +1,17 @@
 {
   "code": "005930",
   "name": "삼성전자",
-  "market": "KRX",
+  "market": "KOSPI",
   "theme": "반도체",
-  "quote": null,
+  "quote": {
+    "close": 247500.0,
+    "change_pct": 3.13,
+    "volume": 15992630,
+    "amount": 3978336998750.0,
+    "marcap": 1446953955480000.0,
+    "as_of_iso": "2026-08-05T05:45:36.129274+00:00",
+    "session_key": "none"
+  },
   "tradingview_symbol": "KRX:005930",
   "related_news": []
 }
