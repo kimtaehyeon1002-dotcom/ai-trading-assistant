@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-05T23:29:16.376727+00:00",
+  "as_of": "2026-08-05T23:47:45.239132+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -364,13 +364,43 @@
   ],
   "news": [
     {
+      "title": "한화證 \"롯데칠성, 2분기 실적 기대 하회…투자의견·목표가↓\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806027400008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-05T23:42:15+00:00"
+    },
+    {
+      "title": "[증시 포인트] 제한적 흐름 예상...\"변동성 진정 긍정적\" - 오피니언뉴스",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9JWUdGeXh0Qm81dTBrZlExbXdwbjh5Nmx2dmkwY1A1NkRud00tSXZYYW9RVzRxTzdYTVdIMHZMMFFlVElWbzZ5ZFJDRUJ2WlpzZldGRmhQZWRSTENtMXVkLVdicEJQc2hMUlZlanZaX0ptZw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T23:33:15+00:00"
+    },
+    {
+      "title": "1천400조원 국유자산 관리체계 대전환…금융·가상자산도 담는다",
+      "link": "https://www.yna.co.kr/view/AKR20260805135400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-05T23:30:01+00:00"
+    },
+    {
+      "title": "자동차·철강·조선에 'AI 옷' 입혀 성장동력 강화한다",
+      "link": "https://www.yna.co.kr/view/AKR20260805152600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-05T23:30:01+00:00"
+    },
+    {
+      "title": "한화증권 \"현대백화점, 성장 유효한데…증시 조정에 발목\" - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwUjZyZ3QtR2JyeVJIcTN2UHNLbmgwZWg4dVB6V3ZaMkMwejNsdTFfOXR4NnItR01EVkZVVGVYc2hpOWhrNEVRblhBekJoNVpNejAtOUNrOFl5d1XSAWBBVV95cUxQN29lb2QwbTEwbWZLV0RzVzh6akNZaUFUaWFtRFN1YWFHc09oMzNSRmhOVi03U0otRnBkbnVRTk9xVlhvVnVkMUtfQjV0anBHRHcxZ3RlcjJyOHVkYTFKQXI?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T23:27:35+00:00"
+    },
+    {
       "title": "Jim Cramer says investors should consider buying SpaceX for their kids",
       "link": "https://www.cnbc.com/2026/08/05/jim-cramer-investors-should-consider-buying-spacex-kids.html",
       "source": "CNBC Finance",
       "published": "2026-08-05T23:26:03+00:00"
     },
     {
-      "title": "코스피 6600선 눈앞…美 증시 혼조에 숨 고르기 장세 주목[장전시황] - 에너지경제신문",
+      "title": "코스피 6600선 눈앞…美 증시 혼조에 숨 고르기 장세 주목[장전시황] - ekn.kr",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKMnpIVmRieE5qS3hMQkkzQURISGJjTTJMZVRZSC1kU0xvWG9YQ2JLQ29EUmRLVHUxZnN6eTBxMjJoRmx4aEJTc0dCa0dhYU5XYmhTaXpPenpPTkk1eEY1djhiVQ?oc=5",
       "source": "Google News",
       "published": "2026-08-05T23:22:50+00:00"
@@ -398,12 +428,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260806023400008",
       "source": "연합뉴스·경제",
       "published": "2026-08-05T23:14:18+00:00"
-    },
-    {
-      "title": "[AI MY 증시전망] \"코스피 보합권 숨고르기…순환매 확산 주목\" - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5WcGI0TmhEUjk3SVVlS2FlcHBuMk5aN2kxdFZHQkhhUzBvaHZFQzI4bHhtZUNiZDJzOG5EWVUxUk9ZSkUwV0xFSEVQdkJ6aERSc0FGaDZzcWRiaGJo?oc=5",
-      "source": "Google News",
-      "published": "2026-08-05T23:13:00+00:00"
     },
     {
       "title": "[마켓뷰] 코스피, 美증시 혼조속 숨고르기 가능성 주목 - 연합뉴스",
@@ -502,12 +526,6 @@
       "published": "2026-08-05T21:48:27+00:00"
     },
     {
-      "title": "뉴욕 증시 최고치인데, 장중 이례적으로 치솟은 ‘공포지수’, 왜? - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1WmZEZ3dBNGVqS093NVZnSHBWcnR1clE0UV9oZjBJemQxaEF3aWhocEtiV2hkb0tfNTgtX1RVSjBNZ2MyLUhNY2h5WVFDdU0?oc=5",
-      "source": "Google News",
-      "published": "2026-08-05T21:41:13+00:00"
-    },
-    {
       "title": "뉴욕 증시 최고치인데, 장중 이례적으로 치솟은 ‘공포지수’, 왜? - 조선일보",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbjdTbnh1OVdvNnMzck0zOGo1LU4wZ0hNZDJVNmRsQ1FvYW1aOC1TeXBVVWZMTWlRdmczZEppOVNGTmx5ZmVhZGRvNWp3ZnROZlZSYkx0WTVrRm1OSERHNEN5Sk5MazV4TE9wT1Jiemx1M2JWYjZsNkI2djczdDZ6YUVrZE1HS25a?oc=5",
       "source": "Google News",
@@ -520,7 +538,7 @@
       "published": "2026-08-05T21:33:00+00:00"
     },
     {
-      "title": "\"한국 때문에 다 묻혔다\"…일본 증권가 분통 터트린 이유 [도쿄나우] - hankyung.com",
+      "title": "\"한국 때문에 다 묻혔다\"…일본 증권가 분통 터트린 이유 [도쿄나우] - 한국경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tX3hFTU1OV0psYTlDdzdVcGJvTnkzN1lCYlMzeTdaaWI4bnQ4MnBIZlkyTy1aUTFzcWZZSzl2QmN6RHJVVDJNZms5c29felZGOEdhREtBcnFwZw?oc=5",
       "source": "Google News",
       "published": "2026-08-05T21:32:45+00:00"
@@ -542,12 +560,6 @@
       "link": "https://www.marketwatch.com/story/spacexs-stock-falls-as-wall-street-gets-spooked-by-the-extent-of-ai-spending-9ce9ddb8?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-05T21:26:00+00:00"
-    },
-    {
-      "title": "[브라질증시] 금리 인하 기대에도 약보합…대선 불확실성에 투자심리 위축 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzRnVYYXFnd0x5NVBhMmt3Tk5aSGN1WkhCUGZhR21lSkRWMHpZZ2gtdEZXWnVPdmJ0NWhhaTBEa1FxbWs0dklmRVJhb1hVdGdhVHNCZDB5cDhfWGpt?oc=5",
-      "source": "Google News",
-      "published": "2026-08-05T21:25:00+00:00"
     },
     {
       "title": "Flutter shares plummet on earnings miss and another key leadership change",
@@ -572,6 +584,12 @@
       "link": "https://www.marketwatch.com/story/taxes-are-on-the-ballot-this-fall-as-republicans-and-democrats-grow-further-apart-on-whether-to-raise-them-c7990380?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-05T21:22:00+00:00"
+    },
+    {
+      "title": "[뉴욕증시]엔비디아 4%↑독주에 다우 최고치, 나스닥은 0.8%↓…혼조 마감 - 문화일보",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xOXU5bDlSYmRGeXFESkRNeko5NHh5VDBPeUEtVzd0NUdiX0lWRzJ0RWYxeWdQX0owZS1RU193UmJ6aXMyeGhJa0QxNUdMUGFH?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T21:21:56+00:00"
     },
     {
       "title": "Alphabet’s stock drops as Google loses another key AI executive",
@@ -644,24 +662,6 @@
       "link": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
       "source": "CNBC Finance",
       "published": "2026-08-05T20:36:16+00:00"
-    },
-    {
-      "title": "[속보]뉴욕증시 혼조 마감…다우 최고치 경신 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FZFpFOVplZmREU3Vya0R3M1cwOEc4S243Y1JWVWt4Y3pxNkZJZnAwcXlfQkg3aS1jNlU0V3JDOEpnZFRtc1FvYV9PMk1TMVhtNG1reG53d0UzQW5FRENPWA?oc=5",
-      "source": "Google News",
-      "published": "2026-08-05T20:15:24+00:00"
-    },
-    {
-      "title": "중국 비판해도 돈 앞에선…아르헨, 위안화 스와프 5년 연장",
-      "link": "https://www.yna.co.kr/view/AKR20260806005600009",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-05T20:09:34+00:00"
-    },
-    {
-      "title": "Lisa Su brushes off Musk's Nvidia commitment as AMD stock sinks after earnings",
-      "link": "https://www.cnbc.com/2026/08/05/amd-stock-today-earnings-q2.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T20:02:56+00:00"
     }
   ],
   "pages": [
