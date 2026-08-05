@@ -77,20 +77,19 @@
   function sparklineHtml(history) {
     var pts = (history || []).filter(function (r) { return r.total_assets_krw != null; });
     if (pts.length < 2) return "";
-    var values = pts.map(function (r) { return r.total_assets_krw; });
-    var up = values[values.length - 1] >= values[0];
-    return '<svg class="v2-ta-spark" viewBox="0 0 300 48" preserveAspectRatio="none" aria-hidden="true" height="48">'
-      + '<polyline fill="none" stroke-width="2" stroke="var(--market-' + (up ? "up" : "down") + ')" points="'
-      + polyline(values, 300, 48) + '"/></svg>';
+    return chartMount({
+      values: pts.map(function (r) { return r.total_assets_krw; }),
+      dates: pts.map(function (r) { return r.date; }),
+      variant: "spark", color: "direction", format: "krw", maskable: true,
+      label: "총자산 최근 추이", height: 56
+    }, "margin-top:var(--space-4)");
   }
 
-  function polyline(values, width, height) {
-    var min = Math.min.apply(null, values), max = Math.max.apply(null, values);
-    var span = (max - min) || 1;
-    var step = values.length > 1 ? width / (values.length - 1) : width;
-    return values.map(function (v, i) {
-      return (i * step).toFixed(1) + "," + (height - ((v - min) / span) * (height - 4) - 2).toFixed(1);
-    }).join(" ");
+  /** 차트 마운트 요소 — 실제 SVG는 chart.js가 컨테이너 실측 픽셀로 그린다.
+   *  값은 JSON 속성으로만 넘긴다(문자열 조립으로 SVG를 만들면 축·마커에서 좌표가 어긋난다). */
+  function chartMount(cfg, style) {
+    return '<div class="v2-chart" data-chart="' + esc(JSON.stringify(cfg)) + '"'
+      + (style ? ' style="' + style + '"' : "") + "></div>";
   }
 
   // ── 목표 달성률(§3-3) ──
@@ -114,6 +113,12 @@
       + kv("남은 금액", F.amount(remaining > 0 ? remaining : 0, "KRW"))
       + goalForecast(p, remaining)
       + "</div></div>";
+  }
+
+  /** 차트 위 요약 줄의 한 항목. 값이 이미 마크업(F.amount)일 수 있어 esc는 호출부 책임이다. */
+  function legendItem(k, v) {
+    return '<span class="v2-chart-legend__item"><span class="v2-chart-legend__k">' + esc(k)
+      + '</span><span class="v2-chart-legend__v">' + v + "</span></span>";
   }
 
   function kv(k, v) {
@@ -208,9 +213,12 @@
       .sort(function (x, y) { return y.weight_pct - x.weight_pct; });  // 비중 큰 순(계약)
     if (!withWeight.length) return "";
     var segs = withWeight.map(function (a, i) {
+      // 라벨은 **들어갈 때만** 얹는다 — 잘린 숫자는 없는 것보다 나쁘다(좁은 조각은 범례가 책임진다).
+      var label = a.weight_pct >= 12
+        ? '<span class="v2-alloc-bar__seglabel">' + a.weight_pct.toFixed(0) + "%</span>" : "";
       return '<div class="v2-alloc-bar__seg" style="width:' + a.weight_pct + "%;background:"
         + SERIES[Math.min(i, SERIES.length - 1)] + '" title="' + esc(a.label) + " " + a.weight_pct.toFixed(1)
-        + '%"></div>';
+        + '%">' + label + "</div>";
     }).join("");
     var legend = withWeight.map(function (a, i) {
       return '<span class="v2-alloc-legend__item"><span class="v2-alloc-legend__chip" style="background:'
@@ -242,21 +250,31 @@
     } else {
       var rows = trendRange ? hist.slice(-trendRange) : hist;
       var values = rows.map(function (r) { return r.total_assets_krw; });
-      var up = values[values.length - 1] >= values[0];
-      var goalLine = "";
-      if (p.goal_amount_krw) {
-        var min = Math.min.apply(null, values.concat([p.goal_amount_krw]));
-        var max = Math.max.apply(null, values.concat([p.goal_amount_krw]));
-        var y = (160 - ((p.goal_amount_krw - min) / ((max - min) || 1)) * 156 - 2).toFixed(1);
-        goalLine = '<line class="v2-trend__goal" x1="0" y1="' + y + '" x2="600" y2="' + y + '"/>';
-        values = values.map(function (v) { return v; });
-      }
-      body = '<svg class="v2-trend" viewBox="0 0 600 160" preserveAspectRatio="none" height="160" role="img"'
-        + ' aria-label="총자산 추이"><polyline fill="none" stroke-width="2" stroke="var(--market-'
-        + (up ? "up" : "down") + ')" points="' + polyline(values, 600, 160) + '"/>' + goalLine + "</svg>"
-        + '<p class="v2-alloc-note">' + esc(rows[0].date) + " → " + esc(rows[rows.length - 1].date)
-        + " · " + rows.length + "일" + (p.goal_amount_krw ? " · 점선 = 목표 " + F.money(p.goal_amount_krw, "KRW") : "")
-        + "</p>";
+      var refs = p.goal_amount_krw ? [{ value: p.goal_amount_krw, label: "목표" }] : [];
+      // 차트 위 요약 줄 — 그림이 말하지 못하는 "얼마나"를 숫자로 못 박는다(design/25 §10과 같은 이유).
+      var lo = Math.min.apply(null, values), hi = Math.max.apply(null, values);
+      var periodPct = values[0] ? (values[values.length - 1] / values[0] - 1) * 100 : null;
+      body = '<div class="v2-chart-legend">'
+        + legendItem("구간", esc(rows[0].date) + " → " + esc(rows[rows.length - 1].date) + " (" + rows.length + "일)")
+        + (periodPct != null
+          ? '<span class="v2-chart-legend__item"><span class="v2-chart-legend__k">구간 등락</span>'
+            + '<span class="v2-chart-legend__v v2-updown ' + F.signClass(periodPct) + '">'
+            + F.arrow(periodPct) + F.pct(periodPct) + "</span></span>"
+          : "")
+        + legendItem("최고", F.amount(hi, "KRW"))
+        + legendItem("최저", F.amount(lo, "KRW"))
+        + (p.goal_amount_krw
+          ? '<span class="v2-chart-legend__item"><span class="v2-chart-legend__key v2-chart-legend__key--dash"></span>'
+            + '<span class="v2-chart-legend__k">목표</span><span class="v2-chart-legend__v">'
+            + F.amount(p.goal_amount_krw, "KRW") + "</span></span>"
+          : "")
+        + "</div>"
+        + chartMount({
+          values: values,
+          dates: rows.map(function (r) { return r.date; }),
+          variant: "full", color: "direction", format: "krw", maskable: true,
+          refs: refs, label: "총자산 추이", height: 240
+        });
     }
     return '<div class="v2-card v2-card--standard v2-span-8">'
       + '<div class="v2-card__header"><h3 class="v2-card__title">자산 추이</h3>'
@@ -303,6 +321,9 @@
     contentWrap.hidden = false;
     overlay.hidden = true;
     applyMaskState();
+    // 마운트는 마스킹 상태를 확정한 **뒤에** 한다 — 축 라벨이 금액이라, 순서가 바뀌면
+    // 가려야 할 값이 한 프레임 동안 그대로 그려진다.
+    if (global.TAChart) global.TAChart.initAll(content);
     global.TAAssetGate.paintNavLocks(true);
     if (global.TAFreshness) global.TAFreshness.init(content);
     if (stopIdle) stopIdle();
@@ -313,6 +334,9 @@
     var masked = global.TAAssetGate.masked();
     content.setAttribute("data-masked", masked ? "1" : "0");
     maskToggle.setAttribute("aria-pressed", masked ? "true" : "false");
+    // 차트 y축 눈금·툴팁도 금액이다 — CSS로 가릴 수 없으니(SVG text) 다시 그린다.
+    // 이걸 빼면 "금액 가리기"를 켜 놓고도 축에 총자산이 그대로 남는다.
+    if (global.TAChart) global.TAChart.refresh(content);
   }
 
   function toggleMask() {
