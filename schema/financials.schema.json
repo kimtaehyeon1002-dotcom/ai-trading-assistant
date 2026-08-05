@@ -4,7 +4,7 @@
   "title": "docs/data/financials/<code>.json 컨테이너 (design/06, design/20 Phase 7)",
   "description": "종목 단건 재무 5개 지표 카드(성장성/수익성/안정성/현금흐름/밸류에이션). 업종 평균 무료 소스가 없어 자사 5년 단독 판정으로 축소한다(design/21 §159). 그룹별 지표가 없으면 해당 키는 null(결측 문법).",
   "type": "object",
-  "required": ["code", "name", "market", "as_of", "source", "growth", "profitability", "stability", "cashflow", "valuation"],
+  "required": ["code", "name", "market", "as_of", "source", "growth", "profitability", "stability", "cashflow", "valuation", "triangle"],
   "properties": {
     "code": { "type": "string" },
     "name": { "type": "string" },
@@ -15,7 +15,8 @@
     "profitability": { "oneOf": [{ "$ref": "#/$defs/profitability" }, { "type": "null" }] },
     "stability": { "oneOf": [{ "$ref": "#/$defs/stability" }, { "type": "null" }] },
     "cashflow": { "oneOf": [{ "$ref": "#/$defs/cashflow" }, { "type": "null" }] },
-    "valuation": { "oneOf": [{ "$ref": "#/$defs/valuation" }, { "type": "null" }] }
+    "valuation": { "oneOf": [{ "$ref": "#/$defs/valuation" }, { "type": "null" }] },
+    "triangle": { "oneOf": [{ "$ref": "#/$defs/triangle" }, { "type": "null" }] }
   },
   "additionalProperties": false,
   "$defs": {
@@ -69,6 +70,23 @@
         "value": { "type": "number" },
         "judgment": { "$ref": "#/$defs/judgment" },
         "series": { "type": "array", "items": { "$ref": "#/$defs/series_row" } }
+      },
+      "additionalProperties": false
+    },
+    "triangle": {
+      "type": "object",
+      "description": "ROE·PER·PBR 삼각형. 꼭짓점 = 주가·EPS·BPS, 변 = PER(주가÷EPS)·PBR(주가÷BPS)·ROE(EPS÷BPS). BPS는 EPS×(자본총계÷순이익)로 유도(발행주식수 미수집 근사). 밸류에이션이므로 judgment 없음(design/06 §1-6).",
+      "required": ["latest_year", "price", "eps", "bps", "roe", "per", "pbr", "roe_series", "note"],
+      "properties": {
+        "latest_year": { "type": "string" },
+        "price": { "type": ["number", "null"] },
+        "eps": { "type": ["number", "null"] },
+        "bps": { "type": ["number", "null"] },
+        "roe": { "type": ["number", "null"] },
+        "per": { "type": ["number", "null"] },
+        "pbr": { "type": ["number", "null"] },
+        "roe_series": { "type": "array", "items": { "$ref": "#/$defs/series_row" } },
+        "note": { "type": ["string", "null"] }
       },
       "additionalProperties": false
     },

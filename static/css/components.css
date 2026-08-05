@@ -388,6 +388,60 @@
 .v2-fs-badge--good { background: var(--fs-judgment-good-bg); border-color: transparent; color: var(--status-success); }
 .v2-fs-badge--caution { background: var(--fs-judgment-caution-bg); border-color: transparent; color: var(--status-warning); }
 
+/* ── 재무 삼각형(ROE·PER·PBR) — 꼭짓점=주가·EPS·BPS, 변=그 비율 ── */
+.v2-fs-tri {
+  display: flex; align-items: center; gap: var(--space-6); flex-wrap: wrap;
+  margin-top: var(--space-3);
+}
+.v2-fs-tri__chart { flex: 1 1 320px; max-width: 460px; min-width: 260px; height: auto; overflow: visible; }
+.v2-fs-tri__edge { stroke-width: 2.5; fill: none; stroke-linecap: round; }
+.v2-fs-tri__edge--roe { stroke: var(--chart-series-3); }
+.v2-fs-tri__edge--per { stroke: var(--chart-series-1); }
+.v2-fs-tri__edge--pbr { stroke: var(--chart-series-4); }
+.v2-fs-tri__dot { fill: var(--surface-card); stroke: var(--border-strong); stroke-width: 2; }
+.v2-fs-tri__vlabel, .v2-fs-tri__elabel {
+  font-size: var(--type-overline-size); fill: var(--text-tertiary); letter-spacing: 0.04em;
+}
+.v2-fs-tri__vvalue {
+  font-family: var(--font-num); font-size: var(--type-num-sm-size); font-weight: 600;
+  fill: var(--text-primary); font-variant-numeric: tabular-nums;
+}
+.v2-fs-tri__evalue {
+  font-family: var(--font-num); font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight);
+  font-variant-numeric: tabular-nums;
+}
+.v2-fs-tri__evalue--roe { fill: var(--chart-series-3); }
+.v2-fs-tri__evalue--per { fill: var(--chart-series-1); }
+.v2-fs-tri__evalue--pbr { fill: var(--chart-series-4); }
+.v2-fs-tri__legend { flex: 1 1 260px; min-width: 240px; display: flex; flex-direction: column; gap: var(--space-2); }
+.v2-fs-tri__row {
+  display: grid; grid-template-columns: 10px 44px 1fr auto; align-items: center; gap: var(--space-2);
+  padding: var(--space-2) 0; border-bottom: 1px solid var(--border-subtle);
+}
+.v2-fs-tri__swatch { width: 10px; height: 10px; border-radius: 2px; }
+.v2-fs-tri__swatch--roe { background: var(--chart-series-3); }
+.v2-fs-tri__swatch--per { background: var(--chart-series-1); }
+.v2-fs-tri__swatch--pbr { background: var(--chart-series-4); }
+.v2-fs-tri__name { font-size: var(--type-body-size); font-weight: var(--type-body-strong-weight); color: var(--text-primary); }
+.v2-fs-tri__formula { font-size: var(--type-caption-size); color: var(--text-tertiary); }
+.v2-fs-tri__num {
+  font-family: var(--font-num); font-size: var(--type-num-sm-size); font-weight: 600;
+  color: var(--text-primary); font-variant-numeric: tabular-nums;
+}
+.v2-fs-tri__identity {
+  margin-top: var(--space-2); font-family: var(--font-num); font-size: var(--type-caption-size);
+  color: var(--text-secondary); letter-spacing: 0.02em;
+}
+.v2-fs-tri__hist { display: flex; align-items: baseline; gap: var(--space-3); flex-wrap: wrap; margin-top: var(--space-2); }
+.v2-fs-tri__hist-title { font-size: var(--type-overline-size); color: var(--text-tertiary); letter-spacing: 0.04em; }
+.v2-fs-tri__hist-cell { display: inline-flex; flex-direction: column; }
+.v2-fs-tri__hist-year { font-size: var(--type-overline-size); color: var(--text-tertiary); }
+.v2-fs-tri__hist-val {
+  font-family: var(--font-num); font-size: var(--type-caption-size); color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+.v2-fs-tri__note { color: var(--text-secondary); }
+
 /* ── 매매일지 필터 칩(design/20 Phase 8 /trades v2) ── */
 .v2-filterbar { display: flex; gap: var(--space-2); margin-bottom: var(--space-4); flex-wrap: wrap; }
 .v2-filter-chip {

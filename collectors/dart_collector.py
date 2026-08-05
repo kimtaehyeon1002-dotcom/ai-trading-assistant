@@ -16,15 +16,19 @@ log = get_logger("collectors.dart")
 _CORP_CODE_URL = "https://opendart.fss.or.kr/api/corpCode.xml"
 _FINANCIALS_URL = "https://opendart.fss.or.kr/api/fnlttSinglAcntAll.json"
 
-# DART 표준 계정과목명 — 회사별 상세 계정명이 다를 수 있어 완전 일치 실패 시 해당 연도만 결측.
-_ACCOUNT_MAP: dict[str, str] = {
-    "revenue": "매출액",
-    "operating_income": "영업이익",
-    "net_income": "당기순이익",
-    "assets": "자산총계",
-    "liabilities": "부채총계",
-    "equity": "자본총계",
-    "operating_cf": "영업활동현금흐름",
+# DART 표준 계정과목명 — 회사별 상세 계정명이 다를 수 있어 후보를 나열하고, 어느 것과도
+# 일치하지 않으면 해당 연도만 결측으로 둔다(가짜 값 금지).
+# ⚠ eps 후보군은 DART_API_KEY 부재로 라이브 검증하지 못했다 — 주당이익 표기가 회사마다
+# 갈려(기본/희석·손실 병기) 후보를 넓게 잡았고, 키 발급 후 실측 재확인이 필요하다.
+_ACCOUNT_MAP: dict[str, tuple[str, ...]] = {
+    "revenue": ("매출액",),
+    "operating_income": ("영업이익",),
+    "net_income": ("당기순이익",),
+    "assets": ("자산총계",),
+    "liabilities": ("부채총계",),
+    "equity": ("자본총계",),
+    "operating_cf": ("영업활동현금흐름",),
+    "eps": ("기본주당이익", "기본주당이익(손실)", "기본주당순이익", "주당순이익", "주당이익"),
 }
 
 _memo_corp_codes: dict[str, str] | None = None
@@ -88,8 +92,8 @@ def collect_financials(corp_code: str, year: int) -> dict[str, list[dict]] | Non
                 amount = row.get("thstrm_amount", "")
                 if not amount:
                     continue
-                for line, label in _ACCOUNT_MAP.items():
-                    if account == label:
+                for line, labels in _ACCOUNT_MAP.items():
+                    if account in labels and not any(r["year"] == str(y) for r in lines[line]):
                         try:
                             lines[line].append({"year": str(y), "value": float(amount.replace(",", ""))})
                         except ValueError:

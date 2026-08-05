@@ -90,6 +90,70 @@ def test_valuation_per_negative_eps_flags_note():
     assert r["note"]
 
 
+# ---------- 재무 삼각형(ROE·PER·PBR) ----------
+
+def test_valuation_triangle_identity_pbr_equals_per_times_roe():
+    """세 지표는 독립이 아니라 한 항등식이다 — 계산이 그 관계를 깨면 안 된다."""
+    t = fs.valuation_triangle(_financials(), close_price=44.0)
+    assert t["latest_year"] == "2023"
+    assert t["roe"] == round(9.0 / 340 * 100, 2)          # 순이익 ÷ 자본총계
+    assert t["bps"] == round(2.2 * 340 / 9.0, 2)          # EPS × (자본총계 ÷ 순이익)
+    assert t["per"] == round(44.0 / 2.2, 2)
+    assert t["pbr"] == round(44.0 / t["bps"], 2)
+    assert abs(t["pbr"] - t["per"] * t["roe"] / 100) < 0.05
+
+
+def test_valuation_triangle_uses_latest_common_year():
+    """EPS가 한 해 늦게 들어와도 순이익·자본총계와 겹치는 최신 연도를 쓴다."""
+    t = fs.valuation_triangle(_financials(eps=_series([("2022", 2.0)])), close_price=44.0)
+    assert t["latest_year"] == "2022"
+    assert t["eps"] == 2.0
+    assert t["roe"] == round(8.0 / 300 * 100, 2)
+
+
+def test_valuation_triangle_without_eps_keeps_roe_only():
+    t = fs.valuation_triangle(_financials(eps=[]), close_price=44.0)
+    assert t["roe"] is not None
+    assert t["eps"] is None and t["bps"] is None and t["per"] is None and t["pbr"] is None
+    assert "EPS 미수집" in t["note"]
+
+
+def test_valuation_triangle_without_price_keeps_roe_and_bps():
+    t = fs.valuation_triangle(_financials(), close_price=None)
+    assert t["roe"] is not None and t["bps"] is not None
+    assert t["per"] is None and t["pbr"] is None
+    assert "종가 미수집" in t["note"]
+
+
+def test_valuation_triangle_negative_equity_blocks_roe_and_bps():
+    t = fs.valuation_triangle(_financials(equity=_series([("2023", -100.0)])), close_price=44.0)
+    assert t["roe"] is None and t["bps"] is None and t["pbr"] is None
+    assert "자본잠식" in t["note"]
+
+
+def test_valuation_triangle_negative_eps_blocks_per_but_keeps_bps():
+    """적자면 PER은 못 구해도 BPS·PBR은 산다 — EPS와 순이익 부호가 함께 뒤집혀 상쇄된다."""
+    t = fs.valuation_triangle(
+        _financials(eps=_series([("2023", -1.0)]), net_income=_series([("2023", -5.0)])),
+        close_price=44.0)
+    assert t["per"] is None
+    assert t["bps"] == round(-1.0 * 340 / -5.0, 2)
+    assert t["pbr"] == round(44.0 / t["bps"], 2)
+    assert "적자" in t["note"]
+
+
+def test_valuation_triangle_none_without_income_or_equity():
+    assert fs.valuation_triangle({"revenue": _series([("2023", 100.0)])}, 44.0) is None
+
+
+def test_valuation_triangle_roe_series_capped_at_5():
+    years = [(str(2016 + i), 10.0 + i) for i in range(8)]
+    t = fs.valuation_triangle(
+        _financials(net_income=_series(years), equity=_series([(y, 100.0) for y, _ in years])), 44.0)
+    assert len(t["roe_series"]) == 5
+    assert t["roe_series"][-1]["year"] == "2023"
+
+
 # ---------- validators/fs_validator.py ----------
 
 def test_fs_validator_drops_bad_rows_keeps_rest():
@@ -109,7 +173,8 @@ def test_fs_validator_none_when_all_lines_empty():
 def test_build_all_none_when_financials_missing():
     body = fs_repository.build("005930", "삼성전자", "KOSPI", None, None, "dart")
     assert body["source"] == "none"
-    assert all(body[k] is None for k in ("growth", "profitability", "stability", "cashflow", "valuation"))
+    assert all(body[k] is None
+               for k in ("growth", "profitability", "stability", "cashflow", "valuation", "triangle"))
 
 
 def test_build_matches_schema(schema_registry):
