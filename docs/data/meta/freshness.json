@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-05T22:18:47.097492+09:00",
+  "generated_at": "2026-08-05T22:19:38.122246+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-08-05T22:18:27.620623+09:00",
+      "last_built": "2026-08-05T22:19:25.140483+09:00",
       "expected_T_min": 30,
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-08-05T22:18:27.692276+09:00",
+      "last_built": "2026-08-05T22:19:25.262441+09:00",
       "expected_T_min": 30,
       "items": 26,
-      "duration_ms": 9190
+      "duration_ms": 9556
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,38 +52,38 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-08-05T22:18:47.038387+09:00",
+      "last_built": "2026-08-05T22:19:25.260974+09:00",
       "expected_T_min": 30,
       "items": 1,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-08-05T22:18:36.883565+09:00",
+      "last_built": "2026-08-05T22:19:34.819393+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 8670
+      "duration_ms": 3093
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-08-05T22:18:45.559407+09:00",
+      "last_built": "2026-08-05T22:19:37.917556+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 1286
+      "duration_ms": 134
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-08-05T22:18:47.083758+09:00",
+      "last_built": "2026-08-05T22:19:38.105213+09:00",
       "expected_T_min": 30,
       "items": 2,
       "duration_ms": 0
     },
     "Trade Manager": {
       "status": "completed",
-      "last_built": "2026-08-05T22:17:00.119193+09:00",
+      "last_built": "2026-08-05T22:19:25.210177+09:00",
       "expected_T_min": null,
       "items": 49,
-      "duration_ms": 4
+      "duration_ms": 0
     },
     "Theme Analyst": {
       "status": "completed",
@@ -164,7 +164,7 @@
     },
     "Loop Ledger": {
       "status": "completed",
-      "last_built": "2026-08-05T22:18:47.038424+09:00",
+      "last_built": "2026-08-05T22:19:25.261006+09:00",
       "expected_T_min": 30,
       "items": 2,
       "duration_ms": 1
