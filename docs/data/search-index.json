@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-05T04:55:06.788937+00:00",
+  "as_of": "2026-08-05T05:29:35.572743+00:00",
   "stocks": [
     {
       "code": "MU",
@@ -234,10 +234,52 @@
   ],
   "news": [
     {
-      "title": "India's central bank keeps benchmark rates steady amid creeping inflation",
+      "title": "India's central bank keeps benchmark rates steady, cites 'moderate' core inflation",
       "link": "https://www.cnbc.com/2026/08/05/india-rbi-interest-rate-inflation-iran-war.html",
       "source": "CNBC Finance",
-      "published": "2026-08-05T04:47:50+00:00"
+      "published": "2026-08-05T05:27:54+00:00"
+    },
+    {
+      "title": "“자식 신세 안지려면 73세까지는 일해야지”…55세 이상 취업자 1000만명 돌파",
+      "link": "https://www.mk.co.kr/news/economy/12117648",
+      "source": "매일경제·증권",
+      "published": "2026-08-05T05:23:02+00:00"
+    },
+    {
+      "title": "농협손해보험, 농가 보호 맞춤형 지원…‘가축 폭염 사고 예방’ 캠페인",
+      "link": "https://www.mk.co.kr/news/economy/12117645",
+      "source": "매일경제·증권",
+      "published": "2026-08-05T05:18:19+00:00"
+    },
+    {
+      "title": "두산퓨얼셀, 고체 산화물연료전지 핵심부품 '스택' 첫 해외 수출",
+      "link": "https://www.yna.co.kr/view/AKR20260805097400003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-05T05:12:35+00:00"
+    },
+    {
+      "title": "오화경 저축은행중앙회장 “사람 살리는 금융 실천”…캠페인 동참",
+      "link": "https://www.mk.co.kr/news/economy/12117641",
+      "source": "매일경제·증권",
+      "published": "2026-08-05T05:12:10+00:00"
+    },
+    {
+      "title": "과기원 학생창업 무제한 휴학 가능해진다…교원도 7년 휴직 허용",
+      "link": "https://www.yna.co.kr/view/AKR20260805082300017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-05T05:00:13+00:00"
+    },
+    {
+      "title": "미래에셋 'IRP 로보랩' 출시…\"고객 대신 매매까지 전담\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805092800008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-05T04:58:14+00:00"
+    },
+    {
+      "title": "“예금토큰 은행선 돈 뺄래요”…SNS 번진 ‘CBDC 포비아’",
+      "link": "https://www.mk.co.kr/news/economy/12117627",
+      "source": "매일경제·증권",
+      "published": "2026-08-05T04:55:07+00:00"
     },
     {
       "title": "서울시, 내일 '부동산 시민 대토론회'…무주택 청년 등 참여",
@@ -270,6 +312,12 @@
       "published": "2026-08-05T04:00:01+00:00"
     },
     {
+      "title": "2026 세제개편안…증시에 영향 끼칠 핵심만 짚어보니 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mZ3M2UTZXSmF0d1lVY09leVJVdlRXSFB3a19ucEpReEwtNzE3dkNwNTY1aHpNclZ4RjZ1WlVGYXg0TFhCSE5lZ04tNmFPYnhuci1vZndhNHpoUQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T03:54:54+00:00"
+    },
+    {
       "title": "제주 동명철강, 보령에 공장 신설…105억원 투자협약",
       "link": "https://www.yna.co.kr/view/AKR20260805080000063",
       "source": "연합뉴스·경제",
@@ -286,6 +334,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260805082800004",
       "source": "연합뉴스·경제",
       "published": "2026-08-05T03:07:30+00:00"
+    },
+    {
+      "title": "“한국 증시 투자 부적격? 근거 없다”…정부, 블룸버그 반박 - 디지털데일리",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QOGNCcnU1X1NMWUZURm1aeDJnSGpjZkRJNUJzUWtRdEJhNzZxZnd0R0U5amwtMHRVSVQ2M3lpZGtkcG5GajVjRm9TWFdqTm5SQlczRzZvTHJKak1ZSUdGQWZxTDg?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T03:06:29+00:00"
     },
     {
       "title": "결혼비용 4월 2천238만원·1월 1천913만원…최대 325만원 차이",
@@ -478,60 +532,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260805065200054",
       "source": "연합뉴스·경제",
       "published": "2026-08-05T01:47:35+00:00"
-    },
-    {
-      "title": "원주시, R&D 기업 투자유치 지원 강화…산업고도화기금 신설",
-      "link": "https://www.yna.co.kr/view/AKR20260805063900062",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-05T01:46:59+00:00"
-    },
-    {
-      "title": "신보, 현대차그룹·은행권과 상생금융 업무협약…車부품사 지원",
-      "link": "https://www.yna.co.kr/view/AKR20260805066600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-05T01:44:25+00:00"
-    },
-    {
-      "title": "SpaceX's AI spending unnerves Wall Street despite promises of quick payoff",
-      "link": "https://www.cnbc.com/2026/08/04/spacex-ai-spending-unnerves-wall-street-despite-promising-quick-payoff.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T01:43:06+00:00"
-    },
-    {
-      "title": "상미당홀딩스, 쪽방촌에 건강 꾸러미 200개·생수 2천개 기부",
-      "link": "https://www.yna.co.kr/view/AKR20260805046500030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-05T01:40:43+00:00"
-    },
-    {
-      "title": "“우리 집 세금 덜 내도돼?”…세제개편, 서울 실거주 1주택자 15%는 보유세 절감",
-      "link": "https://www.mk.co.kr/news/economy/12117450",
-      "source": "매일경제·증권",
-      "published": "2026-08-05T01:33:18+00:00"
-    },
-    {
-      "title": "“예금 금리 괜찮네요”…기업자금 몰린 시중은행, 정기예금 한 달새 35조 폭증",
-      "link": "https://www.mk.co.kr/news/economy/12117443",
-      "source": "매일경제·증권",
-      "published": "2026-08-05T01:28:03+00:00"
-    },
-    {
-      "title": "SoftBank jumps 10% as Asia tech stocks track Wall Street AI rally",
-      "link": "https://www.cnbc.com/2026/08/05/softbank-samsung-sk-hynix-samsung-tech-rally.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T01:27:06+00:00"
-    },
-    {
-      "title": "“폭염 피해 등 7700만원 보험금 탔다”…이달부터 가입 부담 확 낮아지는 ‘이것’",
-      "link": "https://www.mk.co.kr/news/economy/12117365",
-      "source": "매일경제·증권",
-      "published": "2026-08-05T00:45:09+00:00"
-    },
-    {
-      "title": "카카오뱅크, 상반기 순익 3280억원…비이자이익 날개 달고 역대최대 실적 달성",
-      "link": "https://www.mk.co.kr/news/economy/12117356",
-      "source": "매일경제·증권",
-      "published": "2026-08-05T00:36:03+00:00"
     }
   ],
   "pages": [
