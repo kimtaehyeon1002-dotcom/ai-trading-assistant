@@ -15,19 +15,24 @@
     "market": "KOSPI"
   },
   {
-    "code": "006340",
-    "name": "대원전선",
+    "code": "402340",
+    "name": "SK스퀘어",
     "market": "KOSPI"
   },
   {
-    "code": "402340",
-    "name": "SK스퀘어",
+    "code": "006340",
+    "name": "대원전선",
     "market": "KOSPI"
   },
   {
     "code": "010170",
     "name": "대한광통신",
     "market": "KOSDAQ"
+  },
+  {
+    "code": "005935",
+    "name": "삼성전자우",
+    "market": "KOSPI"
   },
   {
     "code": "475150",
@@ -40,18 +45,8 @@
     "market": "KOSDAQ"
   },
   {
-    "code": "005935",
-    "name": "삼성전자우",
-    "market": "KOSPI"
-  },
-  {
     "code": "278470",
     "name": "에이피알",
-    "market": "KOSPI"
-  },
-  {
-    "code": "009830",
-    "name": "한화솔루션",
     "market": "KOSPI"
   },
   {
@@ -65,6 +60,11 @@
     "market": "KOSPI"
   },
   {
+    "code": "009830",
+    "name": "한화솔루션",
+    "market": "KOSPI"
+  },
+  {
     "code": "005380",
     "name": "현대차",
     "market": "KOSPI"
@@ -73,6 +73,11 @@
     "code": "011070",
     "name": "LG이노텍",
     "market": "KOSPI"
+  },
+  {
+    "code": "950160",
+    "name": "코오롱티슈진",
+    "market": "KOSDAQ"
   },
   {
     "code": "032830",
@@ -90,13 +95,8 @@
     "market": "KOSDAQ GLOBAL"
   },
   {
-    "code": "477850",
-    "name": "마키나락스",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "047040",
-    "name": "대우건설",
+    "code": "298040",
+    "name": "효성중공업",
     "market": "KOSPI"
   },
   {
@@ -105,24 +105,29 @@
     "market": "KOSPI"
   },
   {
-    "code": "950160",
-    "name": "코오롱티슈진",
+    "code": "047040",
+    "name": "대우건설",
+    "market": "KOSPI"
+  },
+  {
+    "code": "439960",
+    "name": "코스모로보틱스",
     "market": "KOSDAQ"
-  },
-  {
-    "code": "006360",
-    "name": "GS건설",
-    "market": "KOSPI"
-  },
-  {
-    "code": "298040",
-    "name": "효성중공업",
-    "market": "KOSPI"
   },
   {
     "code": "036930",
     "name": "주성엔지니어링",
     "market": "KOSDAQ GLOBAL"
+  },
+  {
+    "code": "105560",
+    "name": "KB금융",
+    "market": "KOSPI"
+  },
+  {
+    "code": "006360",
+    "name": "GS건설",
+    "market": "KOSPI"
   },
   {
     "code": "080220",
@@ -135,19 +140,14 @@
     "market": "KOSPI"
   },
   {
-    "code": "353200",
-    "name": "대덕전자",
+    "code": "012330",
+    "name": "현대모비스",
     "market": "KOSPI"
   },
   {
-    "code": "105560",
-    "name": "KB금융",
-    "market": "KOSPI"
-  },
-  {
-    "code": "240810",
-    "name": "원익IPS",
-    "market": "KOSDAQ GLOBAL"
+    "code": "477850",
+    "name": "마키나락스",
+    "market": "KOSDAQ"
   },
   {
     "code": "MU",
