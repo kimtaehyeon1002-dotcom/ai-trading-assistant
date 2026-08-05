@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 419.70001220703125,
-    "change_pct": 3.33,
-    "volume": 7000922,
-    "amount": 2938287048.8604736,
+    "close": 417.79998779296875,
+    "change_pct": -0.45,
+    "volume": 9671794,
+    "amount": 4040875415.1361084,
     "marcap": null,
-    "as_of_iso": "2026-08-05T02:21:43.947807+00:00",
+    "as_of_iso": "2026-08-05T22:46:36.674459+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "APP",

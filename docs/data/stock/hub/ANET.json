@@ -1,0 +1,17 @@
+{
+  "code": "ANET",
+  "name": "Arista Networks",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 197.30999755859375,
+    "change_pct": 3.57,
+    "volume": 20191254,
+    "amount": 3983936277.4449463,
+    "marcap": null,
+    "as_of_iso": "2026-08-05T22:46:36.674466+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "ANET",
+  "related_news": []
+}

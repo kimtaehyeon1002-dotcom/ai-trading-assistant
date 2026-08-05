@@ -1,0 +1,17 @@
+{
+  "code": "AMGN",
+  "name": "Amgen",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 407.8299865722656,
+    "change_pct": 4.57,
+    "volume": 5608169,
+    "amount": 2287179487.9649963,
+    "marcap": null,
+    "as_of_iso": "2026-08-05T22:46:36.674535+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "AMGN",
+  "related_news": []
+}

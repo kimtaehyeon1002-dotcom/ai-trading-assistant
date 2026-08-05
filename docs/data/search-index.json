@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-05T22:33:43.285585+00:00",
+  "as_of": "2026-08-05T22:46:51.552624+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -57,13 +57,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "066570",
-      "name": "LG전자",
+      "code": "009830",
+      "name": "한화솔루션",
       "market": "KOSPI"
     },
     {
-      "code": "009830",
-      "name": "한화솔루션",
+      "code": "066570",
+      "name": "LG전자",
       "market": "KOSPI"
     },
     {
@@ -152,23 +152,13 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "MU",
-      "name": "Micron Technology",
-      "market": "US"
-    },
-    {
-      "code": "PLTR",
-      "name": "Palantir Technologies",
-      "market": "US"
-    },
-    {
       "code": "NVDA",
       "name": "Nvidia",
       "market": "US"
     },
     {
-      "code": "MSFT",
-      "name": "Microsoft",
+      "code": "MU",
+      "name": "Micron Technology",
       "market": "US"
     },
     {
@@ -177,18 +167,8 @@
       "market": "US"
     },
     {
-      "code": "AAPL",
-      "name": "Apple Inc.",
-      "market": "US"
-    },
-    {
       "code": "SNDK",
       "name": "Sandisk",
-      "market": "US"
-    },
-    {
-      "code": "AMZN",
-      "name": "Amazon",
       "market": "US"
     },
     {
@@ -197,13 +177,33 @@
       "market": "US"
     },
     {
-      "code": "INTC",
-      "name": "Intel",
+      "code": "MSFT",
+      "name": "Microsoft",
       "market": "US"
     },
     {
-      "code": "AVGO",
-      "name": "Broadcom",
+      "code": "AAPL",
+      "name": "Apple Inc.",
+      "market": "US"
+    },
+    {
+      "code": "AMZN",
+      "name": "Amazon",
+      "market": "US"
+    },
+    {
+      "code": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "market": "US"
+    },
+    {
+      "code": "EA",
+      "name": "Electronic Arts",
+      "market": "US"
+    },
+    {
+      "code": "PLTR",
+      "name": "Palantir Technologies",
       "market": "US"
     },
     {
@@ -217,13 +217,38 @@
       "market": "US"
     },
     {
-      "code": "EA",
-      "name": "Electronic Arts",
+      "code": "INTC",
+      "name": "Intel",
       "market": "US"
     },
     {
-      "code": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
+      "code": "AVGO",
+      "name": "Broadcom",
+      "market": "US"
+    },
+    {
+      "code": "LLY",
+      "name": "Lilly (Eli)",
+      "market": "US"
+    },
+    {
+      "code": "WDC",
+      "name": "Western Digital",
+      "market": "US"
+    },
+    {
+      "code": "APP",
+      "name": "AppLovin",
+      "market": "US"
+    },
+    {
+      "code": "ANET",
+      "name": "Arista Networks",
+      "market": "US"
+    },
+    {
+      "code": "STX",
+      "name": "Seagate Technology",
       "market": "US"
     },
     {
@@ -232,8 +257,13 @@
       "market": "US"
     },
     {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
+      "code": "UBER",
+      "name": "Uber",
+      "market": "US"
+    },
+    {
+      "code": "DELL",
+      "name": "Dell Technologies",
       "market": "US"
     },
     {
@@ -247,13 +277,8 @@
       "market": "US"
     },
     {
-      "code": "LRCX",
-      "name": "Lam Research",
-      "market": "US"
-    },
-    {
-      "code": "LLY",
-      "name": "Lilly (Eli)",
+      "code": "ORCL",
+      "name": "Oracle Corporation",
       "market": "US"
     },
     {
@@ -262,43 +287,18 @@
       "market": "US"
     },
     {
-      "code": "WDC",
-      "name": "Western Digital",
+      "code": "LRCX",
+      "name": "Lam Research",
       "market": "US"
     },
     {
-      "code": "STX",
-      "name": "Seagate Technology",
+      "code": "AMGN",
+      "name": "Amgen",
       "market": "US"
     },
     {
-      "code": "DELL",
-      "name": "Dell Technologies",
-      "market": "US"
-    },
-    {
-      "code": "WMT",
-      "name": "Walmart",
-      "market": "US"
-    },
-    {
-      "code": "CSCO",
-      "name": "Cisco",
-      "market": "US"
-    },
-    {
-      "code": "NFLX",
-      "name": "Netflix",
-      "market": "US"
-    },
-    {
-      "code": "GLW",
-      "name": "Corning Inc.",
-      "market": "US"
-    },
-    {
-      "code": "JPM",
-      "name": "JPMorgan Chase",
+      "code": "V",
+      "name": "Visa Inc.",
       "market": "US"
     },
     {
@@ -352,12 +352,41 @@
       "market": "KRX"
     },
     {
+      "code": "JPM",
+      "name": "JPMorgan Chase",
+      "market": "NYSE"
+    },
+    {
       "code": "BAC",
       "name": "Bank of America",
       "market": "NYSE"
     }
   ],
   "news": [
+    {
+      "title": "[0806개장체크] 美 증시, 호르무즈 해협 재개방 기대 및 주요 기업 실적 호조 - infostockdaily.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43VmxQeUV4V1Y0em1YVTRRN1dhNm9iSXI3elVDOVdMSDdqcTk5Y1Q1QjBpWW5JUWdJN1c5cHVBbjdKR0JneWRIeXdBRExnV25xWmlMNlBWcWMwRUJxWS1qaDh1ZzQteWhta0xYMFEtZC1HRXhSeFE?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T22:41:35+00:00"
+    },
+    {
+      "title": "Jim Cramer says investors should consider buying SpaceX for their kids",
+      "link": "https://www.cnbc.com/2026/08/05/jim-cramer-investors-should-consider-buying-spacex-kids.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T22:40:41+00:00"
+    },
+    {
+      "title": "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
+      "link": "https://www.cnbc.com/2026/08/05/as-warsh-and-the-fed-contemplate-fewer-meetings-markets-brace-for-potential-volatility-ahead.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T22:35:26+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
+      "link": "https://www.yna.co.kr/view/AKR20260806014700011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-05T22:30:00+00:00"
+    },
     {
       "title": "Sandisk’s stock falls as the company’s forecast doesn’t live up to high expectations",
       "link": "https://www.marketwatch.com/story/sandisks-stock-falls-as-the-companys-forecast-doesnt-live-up-to-high-expectations-8fd13d9b?mod=mw_rss_topstories",
@@ -557,6 +586,12 @@
       "published": "2026-08-05T20:36:16+00:00"
     },
     {
+      "title": "뉴욕 증시, 호르무즈 재개방 기대에 혼조… 다우 또 최고치, 나스닥 0.8%↓ - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNWR0V3hTdzVyQ2lULWQyZnJZTWN6M2Q4bG16WVhwX1FMT2JUZHVEbEJDSklEa3czSzRXUzI3RDlPTlNKX2pnU0NKVzZvX2hpNFZRVHpzS282YTlKRTVVZERhUzhBUFV5a1RHRDUzMVNWamRjaldtQkNCUENQTzdqR01RYkl1ZzZx?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T20:36:00+00:00"
+    },
+    {
       "title": "[속보]뉴욕증시 혼조 마감…다우 최고치 경신 - 아시아경제",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FZFpFOVplZmREU3Vya0R3M1cwOEc4S243Y1JWVWt4Y3pxNkZJZnAwcXlfQkg3aS1jNlU0V3JDOEpnZFRtc1FvYV9PMk1TMVhtNG1reG53d0UzQW5FRENPWA?oc=5",
       "source": "Google News",
@@ -605,12 +640,6 @@
       "published": "2026-08-05T19:28:32+00:00"
     },
     {
-      "title": "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
-      "link": "https://www.cnbc.com/2026/08/05/as-warsh-and-the-fed-contemplate-fewer-meetings-markets-brace-for-potential-volatility-ahead.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T19:21:24+00:00"
-    },
-    {
       "title": "Wall Street's 'fear gauge' is doing something unusual as stocks hit record highs",
       "link": "https://www.cnbc.com/2026/08/05/wall-streets-fear-gauge-is-doing-something-unusual-as-stocks-hit-record-highs.html",
       "source": "CNBC Finance",
@@ -633,30 +662,6 @@
       "link": "https://www.cnbc.com/2026/08/04/abdul-el-sayed-haley-stevens-michigan-primary.html",
       "source": "CNBC Finance",
       "published": "2026-08-05T18:41:51+00:00"
-    },
-    {
-      "title": "Affordability is a 'defining challenge' for Americans, with food costs leading the way, report finds",
-      "link": "https://www.cnbc.com/2026/08/05/affordability-grocery-prices.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T18:28:06+00:00"
-    },
-    {
-      "title": "Kids Online Safety Act social media safety bill advances in Senate",
-      "link": "https://www.cnbc.com/2026/08/05/kosa-privacy-social-media-senate.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T18:19:09+00:00"
-    },
-    {
-      "title": "Salad and Go files for Chapter 11 bankruptcy after cyclospora fears worsened its challenges",
-      "link": "https://www.cnbc.com/2026/08/05/salad-and-go-files-chapter-11-bankruptcy-cyclospora.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T17:05:49+00:00"
-    },
-    {
-      "title": "Manager of DRAM memory chip stock trade blockbuster ETF is back with new AI thematic bet",
-      "link": "https://www.cnbc.com/2026/08/05/chip-stocks-ai-investments-memory-dram.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T16:56:32+00:00"
     }
   ],
   "pages": [

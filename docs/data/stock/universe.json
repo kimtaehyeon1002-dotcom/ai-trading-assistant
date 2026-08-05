@@ -55,13 +55,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "066570",
-    "name": "LG전자",
+    "code": "009830",
+    "name": "한화솔루션",
     "market": "KOSPI"
   },
   {
-    "code": "009830",
-    "name": "한화솔루션",
+    "code": "066570",
+    "name": "LG전자",
     "market": "KOSPI"
   },
   {
@@ -150,23 +150,13 @@
     "market": "KOSDAQ"
   },
   {
-    "code": "MU",
-    "name": "Micron Technology",
-    "market": "US"
-  },
-  {
-    "code": "PLTR",
-    "name": "Palantir Technologies",
-    "market": "US"
-  },
-  {
     "code": "NVDA",
     "name": "Nvidia",
     "market": "US"
   },
   {
-    "code": "MSFT",
-    "name": "Microsoft",
+    "code": "MU",
+    "name": "Micron Technology",
     "market": "US"
   },
   {
@@ -175,18 +165,8 @@
     "market": "US"
   },
   {
-    "code": "AAPL",
-    "name": "Apple Inc.",
-    "market": "US"
-  },
-  {
     "code": "SNDK",
     "name": "Sandisk",
-    "market": "US"
-  },
-  {
-    "code": "AMZN",
-    "name": "Amazon",
     "market": "US"
   },
   {
@@ -195,13 +175,33 @@
     "market": "US"
   },
   {
-    "code": "INTC",
-    "name": "Intel",
+    "code": "MSFT",
+    "name": "Microsoft",
     "market": "US"
   },
   {
-    "code": "AVGO",
-    "name": "Broadcom",
+    "code": "AAPL",
+    "name": "Apple Inc.",
+    "market": "US"
+  },
+  {
+    "code": "AMZN",
+    "name": "Amazon",
+    "market": "US"
+  },
+  {
+    "code": "GOOG",
+    "name": "Alphabet Inc. (Class C)",
+    "market": "US"
+  },
+  {
+    "code": "EA",
+    "name": "Electronic Arts",
+    "market": "US"
+  },
+  {
+    "code": "PLTR",
+    "name": "Palantir Technologies",
     "market": "US"
   },
   {
@@ -215,13 +215,38 @@
     "market": "US"
   },
   {
-    "code": "EA",
-    "name": "Electronic Arts",
+    "code": "INTC",
+    "name": "Intel",
     "market": "US"
   },
   {
-    "code": "GOOG",
-    "name": "Alphabet Inc. (Class C)",
+    "code": "AVGO",
+    "name": "Broadcom",
+    "market": "US"
+  },
+  {
+    "code": "LLY",
+    "name": "Lilly (Eli)",
+    "market": "US"
+  },
+  {
+    "code": "WDC",
+    "name": "Western Digital",
+    "market": "US"
+  },
+  {
+    "code": "APP",
+    "name": "AppLovin",
+    "market": "US"
+  },
+  {
+    "code": "ANET",
+    "name": "Arista Networks",
+    "market": "US"
+  },
+  {
+    "code": "STX",
+    "name": "Seagate Technology",
     "market": "US"
   },
   {
@@ -230,8 +255,13 @@
     "market": "US"
   },
   {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
+    "code": "UBER",
+    "name": "Uber",
+    "market": "US"
+  },
+  {
+    "code": "DELL",
+    "name": "Dell Technologies",
     "market": "US"
   },
   {
@@ -245,13 +275,8 @@
     "market": "US"
   },
   {
-    "code": "LRCX",
-    "name": "Lam Research",
-    "market": "US"
-  },
-  {
-    "code": "LLY",
-    "name": "Lilly (Eli)",
+    "code": "ORCL",
+    "name": "Oracle Corporation",
     "market": "US"
   },
   {
@@ -260,43 +285,18 @@
     "market": "US"
   },
   {
-    "code": "WDC",
-    "name": "Western Digital",
+    "code": "LRCX",
+    "name": "Lam Research",
     "market": "US"
   },
   {
-    "code": "STX",
-    "name": "Seagate Technology",
+    "code": "AMGN",
+    "name": "Amgen",
     "market": "US"
   },
   {
-    "code": "DELL",
-    "name": "Dell Technologies",
-    "market": "US"
-  },
-  {
-    "code": "WMT",
-    "name": "Walmart",
-    "market": "US"
-  },
-  {
-    "code": "CSCO",
-    "name": "Cisco",
-    "market": "US"
-  },
-  {
-    "code": "NFLX",
-    "name": "Netflix",
-    "market": "US"
-  },
-  {
-    "code": "GLW",
-    "name": "Corning Inc.",
-    "market": "US"
-  },
-  {
-    "code": "JPM",
-    "name": "JPMorgan Chase",
+    "code": "V",
+    "name": "Visa Inc.",
     "market": "US"
   },
   {
@@ -348,6 +348,11 @@
     "code": "055550",
     "name": "신한지주",
     "market": "KRX"
+  },
+  {
+    "code": "JPM",
+    "name": "JPMorgan Chase",
+    "market": "NYSE"
   },
   {
     "code": "BAC",

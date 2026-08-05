@@ -1,15 +1,15 @@
 {
   "code": "JPM",
   "name": "JPMorgan Chase",
-  "market": "US",
+  "market": "NYSE",
   "theme": "금융",
   "quote": {
-    "close": 357.5199890136719,
-    "change_pct": 1.38,
-    "volume": 8474300,
-    "amount": 3029731642.8985596,
+    "close": 359.239990234375,
+    "change_pct": 0.48,
+    "volume": 3454252,
+    "amount": 1240905454.7470703,
     "marcap": null,
-    "as_of_iso": "2026-08-05T09:21:43.433700+00:00",
+    "as_of_iso": "2026-08-05T22:46:36.674614+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "JPM",

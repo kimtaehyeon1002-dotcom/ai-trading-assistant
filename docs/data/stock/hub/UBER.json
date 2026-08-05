@@ -1,0 +1,17 @@
+{
+  "code": "UBER",
+  "name": "Uber",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 68.18000030517578,
+    "change_pct": -5.29,
+    "volume": 46161399,
+    "amount": 3147284197.907341,
+    "marcap": null,
+    "as_of_iso": "2026-08-05T22:46:36.674487+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "UBER",
+  "related_news": []
+}
