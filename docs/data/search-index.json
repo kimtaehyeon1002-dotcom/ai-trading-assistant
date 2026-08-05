@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-05T15:21:58.278410+00:00",
+  "as_of": "2026-08-05T17:01:19.693561+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -359,10 +359,160 @@
   ],
   "news": [
     {
+      "title": "Google's AI reshuffle: Chief scientist Jeff Dean exits and Demis Hassabis steps down as DeepMind CEO",
+      "link": "https://www.cnbc.com/2026/08/05/google-chief-scientist-jeff-dean-leaving-company-after-27-years.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T16:58:06+00:00"
+    },
+    {
+      "title": "Manager of DRAM memory chip stock trade blockbuster ETF is back with new AI thematic bet",
+      "link": "https://www.cnbc.com/2026/08/05/chip-stocks-ai-investments-memory-dram.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T16:56:32+00:00"
+    },
+    {
+      "title": "How Ozempic maker Novo Nordisk blew its lead in GLP-1 weight-loss drugs. Can Europe compete in the high-stakes global economy?",
+      "link": "https://www.marketwatch.com/story/how-ozempic-maker-novo-nordisk-blew-its-lead-in-glp-1-weight-loss-drugs-can-europe-compete-in-the-high-stakes-global-economy-0a2bcfd0?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-05T16:52:00+00:00"
+    },
+    {
+      "title": "Abdul El-Sayed wins Michigan Democratic Senate primary as voters pivot to the left",
+      "link": "https://www.cnbc.com/2026/08/04/abdul-el-sayed-haley-stevens-michigan-primary.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T16:51:00+00:00"
+    },
+    {
+      "title": "Trump admin refunds $100 billion in 'liberation day' tariffs",
+      "link": "https://www.cnbc.com/2026/08/05/trump-tariffs-refunds-ieepa-lawsuit.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T16:47:52+00:00"
+    },
+    {
+      "title": "Alphabet’s stock drops as Google loses another key AI executive",
+      "link": "https://www.marketwatch.com/story/alphabets-stock-drops-as-google-loses-another-key-ai-executive-38de45a2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-05T16:45:00+00:00"
+    },
+    {
+      "title": "Uber stock sinks 7% after weak guidance despite revenue growth",
+      "link": "https://www.cnbc.com/2026/08/05/uber-stock-q2-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T16:18:31+00:00"
+    },
+    {
+      "title": "Bank of America spends $250 million a year on GLP-1 drugs for its employees, CEO says",
+      "link": "https://www.cnbc.com/2026/08/05/bank-of-america-ceo-glp-1-drugs-cost.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T16:18:29+00:00"
+    },
+    {
+      "title": "Ken Griffin's Citadel posts best month in years after scooping up Situational Awareness stocks",
+      "link": "https://www.cnbc.com/2026/08/05/ken-griffins-citadel-posts-best-month-in-years-after-scooping-up-situational-awareness-stocks.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T16:17:55+00:00"
+    },
+    {
+      "title": "SpaceX moon crash is a perfect metaphor for rocket maker’s share price, analysts say",
+      "link": "https://www.cnbc.com/2026/08/05/spacex-moon-crash-share-price-elon-musk.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T16:17:35+00:00"
+    },
+    {
+      "title": "AI 훈풍에 아시아 증시 일제히 급등…코스피 4%대 상승 - 문화일보",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ZU1p1VEZhTmxFOXRyMnVmVXRoVzFqby1URmFfa21YR3RaZFJKMGU0VlBZRWpaNDVSQXAyS256a1gzWHNkSmV6NG4yTE9lNHFM?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T16:03:29+00:00"
+    },
+    {
+      "title": "5 things investors should know about the stock market’s latest rapid-fire comeback",
+      "link": "https://www.marketwatch.com/story/5-things-investors-should-know-about-the-stock-markets-latest-rapid-fire-comeback-55f23d87?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-05T16:02:00+00:00"
+    },
+    {
+      "title": "전고점 뚫은 S&P, 코스피 반등…증시 조정장 끝났나 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfa1V4bzVYbV9UWXpWRmlWdGo2WjUzdmotUlk4Z1lBTlNjWnNVU25PZ2c4ZngzaGhLWDFvRWdLQVY3ZGFaTVFVV19nQnZ5RHlSVF92X2VvVG9jZw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T16:01:00+00:00"
+    },
+    {
+      "title": "Lisa Su brushes off Musk's Nvidia commitment as AMD stock sinks after earnings",
+      "link": "https://www.cnbc.com/2026/08/05/amd-stock-today-earnings-q2.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T16:00:55+00:00"
+    },
+    {
+      "title": "Salad and Go files for Chapter 11 bankruptcy after cyclospora fears worsened its challenges",
+      "link": "https://www.cnbc.com/2026/08/05/salad-and-go-files-chapter-11-bankruptcy-cyclospora.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T16:00:36+00:00"
+    },
+    {
+      "title": "SpaceX’s stock falls as Wall Street gets spooked by the extent of AI spending",
+      "link": "https://www.marketwatch.com/story/spacexs-stock-falls-as-wall-street-gets-spooked-by-the-extent-of-ai-spending-9ce9ddb8?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-05T15:56:00+00:00"
+    },
+    {
       "title": "Situational Awareness hedge fund meltdown was a warning shot for leveraged markets, BofA CEO says",
       "link": "https://www.cnbc.com/2026/08/05/bofa-brian-moynihan-situational-awareness-meltdown-was-a-warning-shot.html",
       "source": "CNBC Finance",
-      "published": "2026-08-05T15:19:32+00:00"
+      "published": "2026-08-05T15:55:01+00:00"
+    },
+    {
+      "title": "Lucid stock plunges as EV maker begins 'operational reset,' delays midsize vehicle",
+      "link": "https://www.cnbc.com/2026/08/04/lucid-group-lcid-earnings-q2-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T15:54:10+00:00"
+    },
+    {
+      "title": "Nvidia’s stock is basking in the glow of a high-profile endorsement",
+      "link": "https://www.marketwatch.com/story/nvidias-stock-is-basking-in-the-glow-of-a-high-profile-endorsement-b7c48e7b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-05T15:51:00+00:00"
+    },
+    {
+      "title": "SpaceX gives Nvidia a much-needed boost. Plus, Cramer on an 'undervalued' stock",
+      "link": "https://www.cnbc.com/2026/08/05/spacex-gives-nvidia-a-much-needed-boost-cramers-undervalued-stock-.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T15:50:51+00:00"
+    },
+    {
+      "title": "SpaceX stock falls 7% after AI spending surge rattles investors",
+      "link": "https://www.cnbc.com/2026/08/05/spacex-spcx-stock-today-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T15:49:42+00:00"
+    },
+    {
+      "title": "Tanger CEO says World Cup drove up traffic, sales this summer",
+      "link": "https://www.cnbc.com/2026/08/05/tanger-ceo-world-cup-traffic-sales.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T15:48:39+00:00"
+    },
+    {
+      "title": "증시·부동산 난리인데, 국힘은 정책사령탑 두 달째 공석 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GOFA3QUp3UDU5aFI1TGNGQmpvbTYtMXNYb281dmhtSU44S0k4V0NIelMyNTJtV1FIN1VhNlh1cHI5c1JJY1VMdmJyeDV6eG8?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T15:46:00+00:00"
+    },
+    {
+      "title": "How Disney parks are bucking a travel slowdown",
+      "link": "https://www.cnbc.com/2026/08/05/disney-parks-travel-attendance-revenue.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T15:44:55+00:00"
+    },
+    {
+      "title": "Kids Online Safety Act social media safety bill advances in Senate",
+      "link": "https://www.cnbc.com/2026/08/05/kosa-privacy-social-media-senate.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T15:42:09+00:00"
+    },
+    {
+      "title": "Disney weighs free, ad-supported streaming, says it has sold out Super Bowl ad spots",
+      "link": "https://www.cnbc.com/2026/08/05/disney-free-ad-supported-streaming-super-bowl-ads.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T15:25:55+00:00"
     },
     {
       "title": "Private companies added just 44,000 workers in July, below expectations, ADP reports",
@@ -371,28 +521,10 @@
       "published": "2026-08-05T15:08:46+00:00"
     },
     {
-      "title": "Abdul El-Sayed wins Michigan Democratic Senate primary as voters pivot to the left",
-      "link": "https://www.cnbc.com/2026/08/04/abdul-el-sayed-haley-stevens-michigan-primary.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T15:02:36+00:00"
-    },
-    {
       "title": "U.S. economy keeps up the momentum, but rising costs put a lid on new hiring",
       "link": "https://www.marketwatch.com/story/u-s-economy-keeps-up-the-momentum-but-rising-costs-put-a-cap-on-new-hiring-028d481b?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-05T15:01:00+00:00"
-    },
-    {
-      "title": "Amazon's Zoox to launch paid robotaxi service in Las Vegas on Aug. 10",
-      "link": "https://www.cnbc.com/2026/08/05/amazon-zoox-paid-robotaxi-rides-las-vegas.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T15:00:18+00:00"
-    },
-    {
-      "title": "[사설] 외신도 비판한 韓 증시 변동성·정부 개입 - 아시아투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GV3NNSzg3dkJVbzZfMURVSGR5cWd0Z0g1S19CTWtRLXBsSnJDWlBFbmRXQzJfdnVROUk3cFZjNEhFeTkxVW1FYUtTdjh4eFdWM3czMVA4allyMHVQUDNnUEpWbWVGem5IZmQyZA?oc=5",
-      "source": "Google News",
-      "published": "2026-08-05T15:00:00+00:00"
     },
     {
       "title": "If I marry my girlfriend, 67, will she lose her Supplemental Security Income and divorced spouse benefits?",
@@ -401,34 +533,16 @@
       "published": "2026-08-05T15:00:00+00:00"
     },
     {
-      "title": "Bank of America spends $250 million a year on GLP-1 drugs for its employees, CEO says",
-      "link": "https://www.cnbc.com/2026/08/05/bank-of-america-ceo-glp-1-drugs-cost.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T14:59:45+00:00"
-    },
-    {
       "title": "Shopify’s stock heads for best day in a year after the company ‘left no doubt’ about its growth trajectory",
       "link": "https://www.marketwatch.com/story/shopifys-stock-heads-for-best-day-in-a-year-after-the-company-left-no-doubt-about-its-growth-trajectory-79551270?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-05T14:59:00+00:00"
     },
     {
-      "title": "Trump admin refunds $100 billion in 'liberation day' tariffs",
-      "link": "https://www.cnbc.com/2026/08/05/trump-tariffs-refunds-ieepa-lawsuit.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T14:46:54+00:00"
-    },
-    {
       "title": "3 money rules I swear by — and why they work",
       "link": "https://www.marketwatch.com/story/3-money-rules-i-swear-by-and-why-they-work-f7a1ad65?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-05T14:46:00+00:00"
-    },
-    {
-      "title": "Disney weighs free ad-supported streaming, says it has sold out Super Bowl ad spots",
-      "link": "https://www.cnbc.com/2026/08/05/disney-free-ad-supported-streaming-super-bowl-ads.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T14:44:28+00:00"
     },
     {
       "title": "It’s the worst time in years to invest in AI credit markets: ‘Almost no upside and plenty of downside’",
@@ -443,28 +557,10 @@
       "published": "2026-08-05T14:35:37+00:00"
     },
     {
-      "title": "Lucid stock plunges as EV maker begins 'operational reset,' delays midsize vehicle",
-      "link": "https://www.cnbc.com/2026/08/04/lucid-group-lcid-earnings-q2-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T14:35:07+00:00"
-    },
-    {
       "title": "Oil prices fall on negotiations to manage ship traffic in Strait of Hormuz",
       "link": "https://www.cnbc.com/2026/08/05/oil-prices-iran-war-houthis-saudi-tanker.html",
       "source": "CNBC Finance",
       "published": "2026-08-05T14:33:57+00:00"
-    },
-    {
-      "title": "美증시,S&P500과 다우지수 오늘도 사상 최고치 - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LaHNqV0dBU0g0Y3lCN3l5RzFScjh2TlVJYXd1Q29wU2dEc1J0TWQ2Q3paVE84bGY4S0h0aU84M2o4UHFpMlBuRXRlcTdvU01PanF4dUN2WXZ4dw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-05T14:20:55+00:00"
-    },
-    {
-      "title": "Trump's deportation agenda raised prices, contracted local economies, immigration group says",
-      "link": "https://www.cnbc.com/2026/08/05/trump-mass-deportation-prices.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T14:15:58+00:00"
     },
     {
       "title": "CVS blows past estimates, hikes guidance as insurance unit continues to improve",
@@ -473,76 +569,16 @@
       "published": "2026-08-05T14:15:32+00:00"
     },
     {
-      "title": "I got two email invitations from friends. Is this a phishing scam — or am I suddenly popular?",
-      "link": "https://www.marketwatch.com/story/i-got-two-email-invitations-from-friends-is-this-a-phishing-scam-or-am-i-suddenly-popular-d9680aa8?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-05T14:00:00+00:00"
-    },
-    {
-      "title": "The S&P 500 just hit a new high. ‘Big Short’ investor Michael Burry thinks it could bring a 1987-style fall.",
-      "link": "https://www.marketwatch.com/story/the-s-p-500-just-hit-a-new-high-big-short-investor-michael-burry-thinks-it-could-bring-a-1987-style-fall-775c3b95?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-05T13:49:00+00:00"
-    },
-    {
-      "title": "AMD sinks 5% despite earnings beat, strong data center revenue",
-      "link": "https://www.cnbc.com/2026/08/05/amd-stock-today-earnings-q2.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T13:48:58+00:00"
-    },
-    {
-      "title": "3 reasons AMD’s stock is falling in the face of its latest earnings report",
-      "link": "https://www.marketwatch.com/story/3-reasons-amds-stock-is-falling-in-the-face-of-its-latest-earnings-report-c2e16c71?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-05T13:48:00+00:00"
-    },
-    {
-      "title": "Uber issues weaker-than-expected bookings, earnings forecasts for third quarter",
-      "link": "https://www.cnbc.com/2026/08/05/uber-stock-q2-2026-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T13:46:42+00:00"
-    },
-    {
-      "title": "Lilly’s revenue soars 48%, driven by demand for its GLP-1s",
-      "link": "https://www.marketwatch.com/story/lillys-revenue-soars-48-driven-by-demand-of-its-glp-1s-7361c223?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-05T13:45:00+00:00"
-    },
-    {
       "title": "Disney tops earnings estimates as parks and streaming offer a boost",
       "link": "https://www.cnbc.com/2026/08/05/disney-dis-earnings-q3-2026.html",
       "source": "CNBC Finance",
       "published": "2026-08-05T13:43:32+00:00"
     },
     {
-      "title": "ADP says businesses added the fewest new jobs in six months. A summer slowdown in hiring?",
-      "link": "https://www.marketwatch.com/story/adp-says-businesses-add-the-fewer-new-jobs-in-six-months-0923d6b4?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-05T13:43:00+00:00"
-    },
-    {
-      "title": "SpaceX dives 9% after AI spending surge rattles investors",
-      "link": "https://www.cnbc.com/2026/08/05/spacex-spcx-stock-today-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T13:41:15+00:00"
-    },
-    {
       "title": "Stock bears obliterated as Nasdaq 100 logs top 10 bullish stat of past decade",
       "link": "https://www.cnbc.com/2026/08/05/stock-bears-obliterated-as-nasdaq-logs-top-10-bullish-stat-of-past-decade.html",
       "source": "CNBC Finance",
       "published": "2026-08-05T13:19:09+00:00"
-    },
-    {
-      "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
-      "link": "https://www.cnbc.com/2026/08/05/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T13:17:35+00:00"
-    },
-    {
-      "title": "뉴욕증시 프리뷰, 미 주가선물 상승…중동 협상 기대 속 실적 장세, 스페이스X·AMD 급락 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBTbE5oZk9ibURmSzhGQ1I2bzdndVB0cFF4ZWZjZmNKc2oydVJYOGJsbkZoR29zTkJqZGJDVW9XenJMelBwVXQ2ZFVyTVVZWkRoSGczU1FVTmtKT1dO?oc=5",
-      "source": "Google News",
-      "published": "2026-08-05T13:08:00+00:00"
     },
     {
       "title": "Fed's Kashkari says 'now is the time to start slowly moving' rates up",
@@ -557,22 +593,10 @@
       "published": "2026-08-05T13:00:01+00:00"
     },
     {
-      "title": "We're adding to our position in a chipmaker as the AI trade regains its footing",
-      "link": "https://www.cnbc.com/2026/08/05/were-adding-to-our-position-in-a-chipmaker-as-the-ai-trade-regains-its-footing.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T12:35:29+00:00"
-    },
-    {
       "title": "'빅쇼트' 마이클 버리, 美 증시 급락 경고…\"1987년 같은 하락장 올 수도\" - 파이낸셜뉴스",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3ZG5ZVmtwMW9QWmtYY1ZxTHJhc3ZpaGdfS2ZxdUtpYTNtOUROU05QQ3N0aTVlR1Ffb3k4NzdvakZoWllrdDY0WjFvTjdGbFFXZE5ZS2FyXy0xZw?oc=5",
       "source": "Google News",
       "published": "2026-08-05T12:27:56+00:00"
-    },
-    {
-      "title": "GM, Chinese automaker extend joint venture for 20 years despite geopolitical tensions with U.S.",
-      "link": "https://www.cnbc.com/2026/08/04/gm-chinese-automaker-extend-tie-up-amid-geopolitical-tensions-with-us.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T12:16:52+00:00"
     },
     {
       "title": "英, '런던증시 활성화' IPO 규정 간소화…\"자본시장 경쟁력 뒷받침\" - 아시아경제",
@@ -605,7 +629,7 @@
       "published": "2026-08-05T11:41:09+00:00"
     },
     {
-      "title": "[유럽 증시] 최고점 이후 '주춤'…주요 3국 지수 일제히 하락 - g-enews.com",
+      "title": "[유럽 증시] 최고점 이후 '주춤'…주요 3국 지수 일제히 하락 - 글로벌이코노믹",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSTFZQ212TGVQUFVqRExKVXNlZVhuR2JoaW55ejBhYUVkNTNWcDI2VkhKOV9JY1lKbDZCOERzeVFoX18wMnJacEhlNXVsSlVGaWJvZXcwbmdlOVpiQWhnUFpFYnpNeUhIVnVxTnVRV0pTeDFGNEFHeExtZVUzYVozaUlzb3kzYWc?oc=5",
       "source": "Google News",
       "published": "2026-08-05T11:29:06+00:00"
@@ -615,12 +639,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260805158800002",
       "source": "연합뉴스·경제",
       "published": "2026-08-05T11:27:23+00:00"
-    },
-    {
-      "title": "Novo Nordisk CEO defends economics of Wegovy pill as lower prices weigh on sales; shares fall 5%",
-      "link": "https://www.cnbc.com/2026/08/05/novo-nordisk-stock-guidance-earnings-wegovy-ozempic-eli-lilly.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T11:02:21+00:00"
     },
     {
       "title": "Mortgage rates hit their highest level in over a year, causing demand to drop below year-ago levels",
@@ -639,24 +657,6 @@
       "link": "https://www.mk.co.kr/news/economy/12118073",
       "source": "매일경제·증권",
       "published": "2026-08-05T10:43:02+00:00"
-    },
-    {
-      "title": "세제개편안 이후 공급대책 막바지 집중…업계 의견도 다시 수렴(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260805077851003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-05T10:22:45+00:00"
-    },
-    {
-      "title": "Anthropic's Mythos created fake identities to fool humans in new cyber incident",
-      "link": "https://www.cnbc.com/2026/08/05/anthropic-mythos-openai-security-breaches.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T10:18:07+00:00"
-    },
-    {
-      "title": "중수청, 인력영입 설명회 참석자 대부분 수사관…검사 참석률 저조",
-      "link": "https://www.yna.co.kr/view/AKR20260805152000004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-05T09:55:14+00:00"
     }
   ],
   "pages": [

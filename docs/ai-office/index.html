@@ -66,66 +66,14 @@
 <div class="v2-card v2-card--standard v2-span-12 " id="loop-panel">
     <div class="v2-card__header">
     <h3 class="v2-card__title">Loop — 자가점검 센서</h3>
-      <span class="v2-badge v2-loop-badge--major">위반 5건</span>
+      <span class="v2-badge">위반 없음</span>
   </div>
   <div class="v2-card__body">
-      <div class="v2-macro-item__row"><span class="k">측정 시각</span><span class="v">2026-08-05 21:18 KST</span></div>
-      <div class="v2-macro-item__row"><span class="k">runlog</span><span class="v">ok — 워커 24종, updated_at 2026-08-05T19:59</span></div>
+      <div class="v2-macro-item__row"><span class="k">측정 시각</span><span class="v">2026-08-06 00:29 KST</span></div>
+      <div class="v2-macro-item__row"><span class="k">runlog</span><span class="v">ok — 워커 24종, updated_at 2026-08-06T00:21</span></div>
       <div class="v2-macro-item__row"><span class="k">workflows</span><span class="v">ok — 워크플로 6/6종 조회</span></div>
 
-        <p class="v2-body v2-fs-sub">critical 0 · major 5 · minor 0</p>
-        <ul class="v2-loop-list">
-          <li class="v2-loop-item v2-loop-item--major">
-            <div class="v2-loop-item__head">
-              <span class="v2-badge v2-loop-badge--major">major</span>
-<span class="v2-badge">desktop</span>              <strong>Asset BYBIT</strong>
-              <span class="v2-fs-sub">/ max_age 26h</span>
-            </div>
-            <div class="v2-macro-item__row"><span class="k">관측</span><span class="v">31h49m 경과 (last_run 2026-08-04T13:29)</span></div>
-            <div class="v2-macro-item__row"><span class="k">기대</span><span class="v">26h 이내</span></div>
-            <p class="v2-body v2-fs-sub">run_desktop(로컬) · <code>w.asset-bybit.stale</code></p>
-          </li>
-          <li class="v2-loop-item v2-loop-item--major">
-            <div class="v2-loop-item__head">
-              <span class="v2-badge v2-loop-badge--major">major</span>
-<span class="v2-badge">desktop</span>              <strong>Asset KIS 위탁</strong>
-              <span class="v2-fs-sub">/ max_age 26h</span>
-            </div>
-            <div class="v2-macro-item__row"><span class="k">관측</span><span class="v">31h49m 경과 (last_run 2026-08-04T13:29)</span></div>
-            <div class="v2-macro-item__row"><span class="k">기대</span><span class="v">26h 이내</span></div>
-            <p class="v2-body v2-fs-sub">run_desktop(로컬) · <code>w.asset-kis-850d.stale</code></p>
-          </li>
-          <li class="v2-loop-item v2-loop-item--major">
-            <div class="v2-loop-item__head">
-              <span class="v2-badge v2-loop-badge--major">major</span>
-<span class="v2-badge">desktop</span>              <strong>Asset KIS ISA</strong>
-              <span class="v2-fs-sub">/ max_age 26h</span>
-            </div>
-            <div class="v2-macro-item__row"><span class="k">관측</span><span class="v">31h49m 경과 (last_run 2026-08-04T13:29)</span></div>
-            <div class="v2-macro-item__row"><span class="k">기대</span><span class="v">26h 이내</span></div>
-            <p class="v2-body v2-fs-sub">run_desktop(로컬) · <code>w.asset-kis-isa.stale</code></p>
-          </li>
-          <li class="v2-loop-item v2-loop-item--major">
-            <div class="v2-loop-item__head">
-              <span class="v2-badge v2-loop-badge--major">major</span>
-<span class="v2-badge">desktop</span>              <strong>Asset Kiwoom</strong>
-              <span class="v2-fs-sub">/ max_age 26h</span>
-            </div>
-            <div class="v2-macro-item__row"><span class="k">관측</span><span class="v">31h49m 경과 (last_run 2026-08-04T13:29)</span></div>
-            <div class="v2-macro-item__row"><span class="k">기대</span><span class="v">26h 이내</span></div>
-            <p class="v2-body v2-fs-sub">run_desktop(로컬) · 32bit Windows + Kiwoom OCX 필요 — 클라우드에서 실행 불가 · <code>w.asset-kiwoom.stale</code></p>
-          </li>
-          <li class="v2-loop-item v2-loop-item--major">
-            <div class="v2-loop-item__head">
-              <span class="v2-badge v2-loop-badge--major">major</span>
-<span class="v2-badge">desktop</span>              <strong>Asset Publish</strong>
-              <span class="v2-fs-sub">/ max_age 26h</span>
-            </div>
-            <div class="v2-macro-item__row"><span class="k">관측</span><span class="v">31h49m 경과 (last_run 2026-08-04T13:29)</span></div>
-            <div class="v2-macro-item__row"><span class="k">기대</span><span class="v">26h 이내</span></div>
-            <p class="v2-body v2-fs-sub">run_desktop(로컬) · ASSET_PASSPHRASE 미설정 시 발행 skip이 정상(평문 유출 방지) · <code>w.asset-publish.stale</code></p>
-          </li>
-        </ul>
+        <p class="v2-body">선언된 SLO(config/slo.py)를 모두 만족합니다.</p>
   </div>
 
 </div>
@@ -137,9 +85,9 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">시장 지표 수집·검증 (collectors/market·kiwoom)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-06T00:21</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-06T02:01</span></div>
     <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">26</span></div>
-    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">18308ms</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">8621ms</span></div>
   </div>
 
 </div>
@@ -150,9 +98,9 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">뉴스 수집·검증·병합 (collectors/news)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-06T00:21</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-06T02:00</span></div>
     <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">180</span></div>
-    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">4295ms</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">3982ms</span></div>
   </div>
 
 </div>
@@ -189,7 +137,7 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">Obsidian vault 워치리스트 동기화 (collectors/obsidian)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-06T00:21</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-06T02:00</span></div>
     <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">1</span></div>
     <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">1ms</span></div>
   </div>
@@ -202,7 +150,7 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">Obsidian vault 저널 write-back (generators/vault_journal)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-06T00:21</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-06T02:01</span></div>
     <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">1</span></div>
     <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">0ms</span></div>
 <p class="v2-body v2-fs-sub">10_Journal/ write-back</p>  </div>
@@ -215,7 +163,7 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">페이지 생성·발행 (generators)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-06T00:21</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-06T02:01</span></div>
     <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">3</span></div>
     <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">0ms</span></div>
 <p class="v2-body v2-fs-sub">pages + static</p>  </div>
