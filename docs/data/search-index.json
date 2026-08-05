@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-05T20:44:02.621016+00:00",
+  "as_of": "2026-08-05T20:57:25.953678+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -359,10 +359,52 @@
   ],
   "news": [
     {
+      "title": "[뉴욕증시] 다우 263P 상승하며 사상 최고치...스페이스X는 13.61% 폭락 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQR3kwczZQQ3FEYjltWE1DWUFBbEN6dVdiWGVaTUZIdFRwYnBtdE44NW5ZYnlwb29YZzh5bERqemlvZU1Na3dqX0tUblRWUjY2Y1F6OUo4WDFoRDBuQUtWSHd5dFV1NW5PbVNuM1NLM2Nnd1VoQVMwMkpEeHI1MlNpTWhncGdsZUlC?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T20:54:14+00:00"
+    },
+    {
+      "title": "Sandisk’s stock falls as the company’s forecast doesn’t live up to high expectations",
+      "link": "https://www.marketwatch.com/story/sandisks-stock-falls-as-the-companys-forecast-doesnt-live-up-to-high-expectations-8fd13d9b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-05T20:54:00+00:00"
+    },
+    {
+      "title": "Aggressive options trading helped drive the S&P 500’s latest rally. What that means for investors.",
+      "link": "https://www.marketwatch.com/story/aggressive-options-trading-helped-drive-the-s-p-500s-latest-rally-what-that-means-for-investors-623fe41c?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-05T20:51:00+00:00"
+    },
+    {
+      "title": "[뉴욕증시]다우, 또 최고치…호르무즈 통항 합의 기대·기술주 약세에 혼조 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pYk1LVmF3QlJ4ei1PU2huOTBGeDBTTVR1Q1h2N2ptU2t6THVwWURxZVhjWGlGaHlRY2FJcE5uanZ2NjlRX01tdmp4TjZxZkcycW9ScVhTRU5Vd0tEU2k1ag?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T20:49:01+00:00"
+    },
+    {
+      "title": "Marc Benioff gets a new operating chief, as Salesforce promotes Miguel Milano",
+      "link": "https://www.cnbc.com/2026/08/05/marc-benioff-gets-a-new-coo-as-salesforce-promotes-miguel-milano-.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-05T20:48:20+00:00"
+    },
+    {
+      "title": "Lilly’s revenue soars 48%, driven by demand for its GLP-1s",
+      "link": "https://www.marketwatch.com/story/lillys-revenue-soars-48-driven-by-demand-of-its-glp-1s-7361c223?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-05T20:45:00+00:00"
+    },
+    {
       "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
       "link": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
       "source": "CNBC Finance",
       "published": "2026-08-05T20:36:16+00:00"
+    },
+    {
+      "title": "뉴욕 증시, 호르무즈 재개방 기대에 혼조… 다우 또 최고치, 나스닥 0.8%↓ - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNWR0V3hTdzVyQ2lULWQyZnJZTWN6M2Q4bG16WVhwX1FMT2JUZHVEbEJDSklEa3czSzRXUzI3RDlPTlNKX2pnU0NKVzZvX2hpNFZRVHpzS282YTlKRTVVZERhUzhBUFV5a1RHRDUzMVNWamRjaldtQkNCUENQTzdqR01RYkl1ZzZx?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T20:36:00+00:00"
     },
     {
       "title": "Etsy laying off 12% of staff in bid to streamline business, position for growth",
@@ -371,16 +413,10 @@
       "published": "2026-08-05T20:31:13+00:00"
     },
     {
-      "title": "Marc Benioff gets a new operating chief, as Salesforce promotes Miguel Milano",
-      "link": "https://www.cnbc.com/2026/08/05/marc-benioff-gets-a-new-coo-as-salesforce-promotes-miguel-milano-.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T20:26:47+00:00"
-    },
-    {
-      "title": "호르무즈 다시 열릴까…기대 속 뉴욕증시 혼조 마감 - 연합뉴스TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9KM1VRN0ZLSjR4UFN1QXlla3dvTUNyTGxLemoxS3dnTy1QOTJfdHRIVW9hWjJfZTk0VnZjemQwOEZqMzdSX0Y5Y1BDTU41a1J3WF9LQkhQcXJxWHl6UmI5WXFQWERWM3c?oc=5",
+      "title": "[뉴욕증시] 기술주 약세 속 다우지수만 사상 최고 행진…스페이스X, 14% 폭락 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Cd3FSUjBRcjg3bU55aGlyZGo3QTNtd3E5c1FmNGQzMUlUczI4b3BuYW9VbllEUGl6bi1pQzV1Z2pqUV9xLXNmVUdkX29kVDA?oc=5",
       "source": "Google News",
-      "published": "2026-08-05T20:20:00+00:00"
+      "published": "2026-08-05T20:21:00+00:00"
     },
     {
       "title": "[속보]뉴욕증시 혼조 마감…다우 최고치 경신 - 아시아경제",
@@ -521,12 +557,6 @@
       "published": "2026-08-05T18:41:51+00:00"
     },
     {
-      "title": "SolarEdge’s stock is shedding a quarter of its value as sales woes trump AI progress",
-      "link": "https://www.marketwatch.com/story/solaredges-stock-is-shedding-a-quarter-of-its-value-as-sales-woes-trump-ai-progress-8ce8159d?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-05T18:31:00+00:00"
-    },
-    {
       "title": "Affordability is a 'defining challenge' for Americans, with food costs leading the way, report finds",
       "link": "https://www.cnbc.com/2026/08/05/affordability-grocery-prices.html",
       "source": "CNBC Finance",
@@ -545,12 +575,6 @@
       "published": "2026-08-05T18:19:09+00:00"
     },
     {
-      "title": "Alphabet’s stock drops as Google loses another key AI executive",
-      "link": "https://www.marketwatch.com/story/alphabets-stock-drops-as-google-loses-another-key-ai-executive-38de45a2?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-05T17:50:00+00:00"
-    },
-    {
       "title": "Salad and Go files for Chapter 11 bankruptcy after cyclospora fears worsened its challenges",
       "link": "https://www.cnbc.com/2026/08/05/salad-and-go-files-chapter-11-bankruptcy-cyclospora.html",
       "source": "CNBC Finance",
@@ -561,12 +585,6 @@
       "link": "https://www.cnbc.com/2026/08/05/chip-stocks-ai-investments-memory-dram.html",
       "source": "CNBC Finance",
       "published": "2026-08-05T16:56:32+00:00"
-    },
-    {
-      "title": "How Ozempic maker Novo Nordisk blew its lead in GLP-1 weight-loss drugs. Can Europe compete in the high-stakes global economy?",
-      "link": "https://www.marketwatch.com/story/how-ozempic-maker-novo-nordisk-blew-its-lead-in-glp-1-weight-loss-drugs-can-europe-compete-in-the-high-stakes-global-economy-0a2bcfd0?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-05T16:52:00+00:00"
     },
     {
       "title": "Bank of America spends $250 million a year on GLP-1 drugs for its employees, CEO says",
@@ -639,24 +657,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3ZG5ZVmtwMW9QWmtYY1ZxTHJhc3ZpaGdfS2ZxdUtpYTNtOUROU05QQ3N0aTVlR1Ffb3k4NzdvakZoWllrdDY0WjFvTjdGbFFXZE5ZS2FyXy0xZw?oc=5",
       "source": "Google News",
       "published": "2026-08-05T12:27:56+00:00"
-    },
-    {
-      "title": "英, '런던증시 활성화' IPO 규정 간소화…\"자본시장 경쟁력 뒷받침\" - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJQWFjM054QmJWRFZiYk5XNFdqV1ppTVowV0JtR080d0RIZDIta24tbnFQRElSSWVJX1YzRXlnaFhDRHFkdUkxekdFazNTRHB2dVlvNDZXUWdzWU1iQkk0UA?oc=5",
-      "source": "Google News",
-      "published": "2026-08-05T12:16:50+00:00"
-    },
-    {
-      "title": "Saudi wealth fund and Jared Kushner's Affinity finalize $55 billion EA Sports deal",
-      "link": "https://www.cnbc.com/2026/08/05/saudi-wealth-fund-jared-kushner-ea-sports-deal.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T12:08:58+00:00"
-    },
-    {
-      "title": "“이러다 월세 급등하는 것 아냐”…부동산세 개편안에 학계 ‘우려’",
-      "link": "https://www.mk.co.kr/news/economy/12118193",
-      "source": "매일경제·증권",
-      "published": "2026-08-05T11:44:57+00:00"
     }
   ],
   "pages": [
