@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-06T08:34:02.649846+00:00",
+  "as_of": "2026-08-06T09:26:24.362721+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -359,16 +359,172 @@
   ],
   "news": [
     {
+      "title": "‘He’s never been good with money’: If I set up an annuity for my brother, 65, would it jeopardize his Supplemental Security Income?",
+      "link": "https://www.marketwatch.com/story/hes-never-been-good-with-money-if-i-set-up-an-annuity-for-my-brother-65-would-it-jeopardize-his-supplemental-security-income-d2e9f5a0?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-06T09:15:00+00:00"
+    },
+    {
+      "title": "대출규제 풍선효과 '예담대' 7조원 육박",
+      "link": "https://www.mk.co.kr/news/economy/12119521",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:14:01+00:00"
+    },
+    {
+      "title": "여론 악화되자 … 정부 \"비거주 1주택 폭넓게 인정\"",
+      "link": "https://www.mk.co.kr/news/economy/12119519",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:14:00+00:00"
+    },
+    {
+      "title": "SoftBank gets $8.2 billion boost from Intel as OpenAI takes a backseat",
+      "link": "https://www.cnbc.com/2026/08/06/softbank-q1-earnings-intel-bytedance-stakes.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-06T09:11:15+00:00"
+    },
+    {
+      "title": "[표] 외국환율고시표",
+      "link": "https://www.mk.co.kr/news/economy/12119513",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:11:03+00:00"
+    },
+    {
+      "title": "[포토] 우리자산신탁, 모아타운 가로주택정비사업 업무협약 체결",
+      "link": "https://www.mk.co.kr/news/economy/12119512",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:11:03+00:00"
+    },
+    {
+      "title": "신용사면 반년만에 … 5명 중 1명 또 연체",
+      "link": "https://www.mk.co.kr/news/economy/12119509",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:11:02+00:00"
+    },
+    {
+      "title": "현대캐피탈, 썸머 페스타 … 제네시스 리스·렌트 할인",
+      "link": "https://www.mk.co.kr/news/economy/12119510",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:11:02+00:00"
+    },
+    {
+      "title": "베선트 한마디에…달러당 원화값 1415원 터치",
+      "link": "https://www.mk.co.kr/news/economy/12119511",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:11:02+00:00"
+    },
+    {
+      "title": "국고채 입찰서 담합 혐의 … 공정위, 은행·증권사 심의",
+      "link": "https://www.mk.co.kr/news/economy/12119507",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:10:56+00:00"
+    },
+    {
+      "title": "삼닉 레버리지 쏠림완화 속 … 증시 투자열기까지 식었다 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kbkN1XzNRMTZUck5VNmFFOTdPbE9WakUzWThRVXBMMUJsRWJqakF3THBCV2xCNC1BV2tOM0xqSVdfaFNRa1R4Zk50Q1NmSExyeXc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-06T09:10:55+00:00"
+    },
+    {
+      "title": "Ukraine’s military hits one of Russia’s biggest oil refineries in long-range drone attack",
+      "link": "https://www.cnbc.com/2026/08/06/ukraine-war-russia-zelenskyy-oil-refinery.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-06T09:07:54+00:00"
+    },
+    {
+      "title": "부동산 민심 진화나선 與… 한정애 \"전월세 국민 우려 잘 안다\"",
+      "link": "https://www.mk.co.kr/news/economy/12119479",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:07:05+00:00"
+    },
+    {
+      "title": "하나은행, 어린이 초청 … 경제 뮤지컬 특별 공연",
+      "link": "https://www.mk.co.kr/news/economy/12119477",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:06:59+00:00"
+    },
+    {
+      "title": "기금형 퇴직연금 도입 증시 구원투수 띄운다",
+      "link": "https://www.mk.co.kr/news/economy/12119455",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:06:39+00:00"
+    },
+    {
+      "title": "기금형 퇴직연금 도입 증시 구원투수 띄운다 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rcEZiYmNwcWN5c2treHdJSm1vcURQR21vYl9LeXJPdF95UzJ0em54S013V0k0aWpsVHJTWEJoaTYwSWtXenl2RkdLLVRxTnpMSmc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-06T09:06:39+00:00"
+    },
+    {
+      "title": "\"청년 의지 꺾지 말라\"vs\"반도체 이익 넘쳐\"",
+      "link": "https://www.mk.co.kr/news/economy/12119451",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:06:02+00:00"
+    },
+    {
+      "title": "정부가 몰수한 가상자산 … 취득후 바로 경매 부친다",
+      "link": "https://www.mk.co.kr/news/economy/12119452",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:06:02+00:00"
+    },
+    {
+      "title": "6월 경상흑자 497억弗 '사상 최대'",
+      "link": "https://www.mk.co.kr/news/economy/12119450",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:06:01+00:00"
+    },
+    {
+      "title": "소부장 '슈퍼乙' 키운다 … 기업 5곳에 200억씩 투자",
+      "link": "https://www.mk.co.kr/news/economy/12119449",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:06:01+00:00"
+    },
+    {
+      "title": "해수부 신청사 부지 … 부산 북항으로 확정",
+      "link": "https://www.mk.co.kr/news/economy/12119448",
+      "source": "매일경제·증권",
+      "published": "2026-08-06T09:06:00+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
+      "link": "https://www.yna.co.kr/view/AKR20260806141000011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T09:00:01+00:00"
+    },
+    {
+      "title": "SpaceX insiders get their first chance to cash out — but the stock’s slide will limit their opportunity",
+      "link": "https://www.marketwatch.com/story/spacex-insiders-get-their-first-chance-to-cash-out-but-the-stocks-slide-will-limit-their-opportunity-5c94b0f5?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-06T09:00:00+00:00"
+    },
+    {
+      "title": "Bill Cosby takes $6 million New York City home off the market",
+      "link": "https://www.marketwatch.com/story/bill-cosby-takes-6-million-new-york-city-home-off-the-market-11ba015f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-06T08:58:00+00:00"
+    },
+    {
+      "title": "신용한 지사 \"창업특별도 조성으로 충북 경제 대전환 이끌 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806142800064",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T08:55:47+00:00"
+    },
+    {
+      "title": "日증시, 삼전닉스 주가따라 '냉탕·온탕' - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5EU3l0WF94WElJNzNIcXd5WDNpbU96UUJsYjk3elpDVzZGVlVOOTRVSjBZd003eUJjWnhMZUJSNlJmblVrdUdKaFkzLTlFc3hON2VpQjRQZ3A2UQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-06T08:43:56+00:00"
+    },
+    {
       "title": "LGU+ 역대 분기 최다 영업익…AIDC에 2조원 투자(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260806048201017",
       "source": "연합뉴스·경제",
       "published": "2026-08-06T08:09:26+00:00"
     },
     {
-      "title": "SoftBank gets $8.2 billion boost from Intel as OpenAI takes a backseat",
-      "link": "https://www.cnbc.com/2026/08/06/softbank-q1-earnings-intel-bytedance-stakes.html",
+      "title": "Beijing flips the script on the U.S. tech war — and tests the truce weeks before Xi's visit",
+      "link": "https://www.cnbc.com/2026/08/06/us-china-trump-xi-summit-trade-technology-restrictions.html",
       "source": "CNBC Finance",
-      "published": "2026-08-06T07:59:41+00:00"
+      "published": "2026-08-06T07:59:32+00:00"
     },
     {
       "title": "3대 국책은행 노조, '지방 이전 반대' 결의대회…\"2천여명 참가\"",
@@ -501,162 +657,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WM3lrNzhQY2w1V0VJcm5ob3h4Z3hMRDNkWmp3bW1UbnRxa0p5VVhFdlFEcm5xMU9Ec2ZmWUtNdDFJOEl1M0lRZG5vTm0tcjM2NHJZa0dlbjJTZw?oc=5",
       "source": "Google News",
       "published": "2026-08-06T06:53:53+00:00"
-    },
-    {
-      "title": "피치 \"증시 약세, 소비보다 집값·주택수요에 더 큰 충격\" - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc19TTWJGU2llUGNCTFBlb2N3V2YtWXhxUThRcnh6dGs5VVEzOE54TTJwUFg4bDFjeEJIUi02WDRjd3FkbU5Td0QwV0Y5VVo1R1V3VVhoQ0loT2tyb3JCdDFXLXNmeFBWTVFVZDJxSEY0dnlhY1VnVlprUG9JSEtsN245ellYalJy?oc=5",
-      "source": "Google News",
-      "published": "2026-08-06T06:49:35+00:00"
-    },
-    {
-      "title": "[특징주] 현대백화점, 2분기 실적 실망에 3%대 하락 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260806039951008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:45:36+00:00"
-    },
-    {
-      "title": "재경차관 \"실거주 유예 추가확대 준비중…매도에 불편없게 노력\"",
-      "link": "https://www.yna.co.kr/view/AKR20260806112900001",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:43:26+00:00"
-    },
-    {
-      "title": "베인캐피탈, 공차 9천억원에 인수…글로벌 확장 가속",
-      "link": "https://www.yna.co.kr/view/AKR20260806115100008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:40:23+00:00"
-    },
-    {
-      "title": "내달부터 제주 읍면지역서 '심야 주유소' 시범 운영",
-      "link": "https://www.yna.co.kr/view/AKR20260806116100056",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:36:02+00:00"
-    },
-    {
-      "title": "강원, 고유가 피해지원금 102억원 미사용…이달 말 소멸",
-      "link": "https://www.yna.co.kr/view/AKR20260806114600062",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:35:32+00:00"
-    },
-    {
-      "title": "외국환시세(8월6일·15:30 기준가)",
-      "link": "https://www.yna.co.kr/view/AKR20260806116800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:35:26+00:00"
-    },
-    {
-      "title": "[속보] 코스피, 4.6% 급락 6,200대…코스닥은 0.3% 상승",
-      "link": "https://www.yna.co.kr/view/AKR20260806116300008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:34:40+00:00"
-    },
-    {
-      "title": "2천억대 '깡통보증서' 발행하고 30억원 수수료 챙긴 유령보험사",
-      "link": "https://www.yna.co.kr/view/AKR20260806112200004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:33:37+00:00"
-    },
-    {
-      "title": "[외환] 원/달러 환율 0.7원 내린 1,423.8원(15:30 기준가)",
-      "link": "https://www.yna.co.kr/view/AKR20260806115600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:30:52+00:00"
-    },
-    {
-      "title": "CJ프레시웨이 2분기 영업익 14% 감소…\"온라인 사업 투자 영향\"",
-      "link": "https://www.yna.co.kr/view/AKR20260806114300030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:30:17+00:00"
-    },
-    {
-      "title": "“연말정산 기대 안 해”…요즘 잘 나간다는 카드 보니",
-      "link": "https://www.mk.co.kr/news/economy/12119237",
-      "source": "매일경제·증권",
-      "published": "2026-08-06T06:28:04+00:00"
-    },
-    {
-      "title": "U.S. ready to return to 'commitments,' Iran says, after Trump signals deal is near",
-      "link": "https://www.cnbc.com/2026/08/06/us-iran-war-hormuz-trump-bessent-deal.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-06T06:22:09+00:00"
-    },
-    {
-      "title": "IBK기업은행, 취약계층 비대면 전용 대출 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260806110600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:15:41+00:00"
-    },
-    {
-      "title": "충남도, 고액 체납자 가택수색·차량 번호판 영치",
-      "link": "https://www.yna.co.kr/view/AKR20260806111300063",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:12:52+00:00"
-    },
-    {
-      "title": "Google is expanding its AI empire — and losing the people who built it",
-      "link": "https://www.cnbc.com/2026/08/05/google-is-expanding-its-ai-empire-and-losing-the-people-who-built-it.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-06T06:06:18+00:00"
-    },
-    {
-      "title": "증시의 본격적 반등 위해선 금리 하락세 확인 필요 - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wQ2RTYUtHeHhLZmI3M0hOM0hxamtnb1o3TWZLMDdIQUFWRnA4RktOQ1YxQ1YybXA4b0Q1MkxEZjVkSXBQUEFkeUFJU0h5SXl0VlYtRGt4RGRGUQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-06T06:05:41+00:00"
-    },
-    {
-      "title": "광주 등 8개지역 FTA통상진흥센터, 수출업무 공유 협약",
-      "link": "https://www.yna.co.kr/view/AKR20260806105600054",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:04:02+00:00"
-    },
-    {
-      "title": "극한 폭염에 양식어류 폐사 45만마리…10억5천만원 피해",
-      "link": "https://www.yna.co.kr/view/AKR20260806107200051",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:01:37+00:00"
-    },
-    {
-      "title": "원주시, 소금산서 피서철 물가안정 합동 캠페인 전개",
-      "link": "https://www.yna.co.kr/view/AKR20260806048100062",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:01:00+00:00"
-    },
-    {
-      "title": "건설근로자공제회, 기능훈련과 연계한 취약층 주거환경개선 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260806053200530",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T06:00:00+00:00"
-    },
-    {
-      "title": "베트남 최대 가전유통社 ‘디엔마이산’, 호치민증시 상장…소매업 시총 1위 등극 - 인사이드비나",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11cV84X1ZoeWEySkc1NDQ2NVdEam5QdHVrUkgyTU10TUFlWnB2dExZYUVaSV9JZ1dPNUYwV003VEtwN0N3VVhvZHVBVi12akJvNEdyR29TaHZJaFlNS3h3MjE0elc4dEVkSzJlZw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-06T06:00:00+00:00"
-    },
-    {
-      "title": "한국신용평가, KG이니시스와 디지털금융·데이터 사업 협력",
-      "link": "https://www.yna.co.kr/view/AKR20260806106000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T05:56:56+00:00"
-    },
-    {
-      "title": "[게시판] 오비맥주, 이천공장서 '세계 맥주의 날' 기념 임직원 체험 행사",
-      "link": "https://www.yna.co.kr/view/AKR20260806105500030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T05:50:22+00:00"
-    },
-    {
-      "title": "오세훈 \"보유세 양도세 인상, 국가폭력으로 느낀다는 말 와닿아\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260806058951004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T05:50:00+00:00"
-    },
-    {
-      "title": "정부, 중고차 ‘숨은 수수료’ 없앤다…하자 수리는 판매자 책임",
-      "link": "https://www.mk.co.kr/news/economy/12119198",
-      "source": "매일경제·증권",
-      "published": "2026-08-06T05:41:36+00:00"
     }
   ],
   "pages": [
