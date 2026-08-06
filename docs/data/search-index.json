@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-06T13:30:56.944310+00:00",
+  "as_of": "2026-08-06T13:31:56.075148+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -359,6 +359,12 @@
   ],
   "news": [
     {
+      "title": "Ford's new 'Fathom' electric pickup truck will start at $28,000",
+      "link": "https://www.cnbc.com/2026/08/06/ford-fathom-pickup-truck-price.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-06T13:29:39+00:00"
+    },
+    {
       "title": "SpaceX stock could face further pressure as first batch of shares unlock since IPO",
       "link": "https://www.cnbc.com/2026/08/06/spacex-faces-test-as-shares-unlock-allowing-early-investors-cash-out.html",
       "source": "CNBC Finance",
@@ -651,12 +657,6 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rcEZiYmNwcWN5c2treHdJSm1vcURQR21vYl9LeXJPdF95UzJ0em54S013V0k0aWpsVHJTWEJoaTYwSWtXenl2RkdLLVRxTnpMSmc?oc=5",
       "source": "Google News",
       "published": "2026-08-06T09:06:39+00:00"
-    },
-    {
-      "title": "\"청년 의지 꺾지 말라\"vs\"반도체 이익 넘쳐\"",
-      "link": "https://www.mk.co.kr/news/economy/12119451",
-      "source": "매일경제·증권",
-      "published": "2026-08-06T09:06:02+00:00"
     }
   ],
   "pages": [
