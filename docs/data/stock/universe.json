@@ -195,11 +195,6 @@
     "market": "US"
   },
   {
-    "code": "EA",
-    "name": "Electronic Arts",
-    "market": "US"
-  },
-  {
     "code": "PLTR",
     "name": "Palantir Technologies",
     "market": "US"
@@ -297,6 +292,11 @@
   {
     "code": "V",
     "name": "Visa Inc.",
+    "market": "US"
+  },
+  {
+    "code": "CSCO",
+    "name": "Cisco",
     "market": "US"
   },
   {

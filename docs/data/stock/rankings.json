@@ -1,8 +1,8 @@
 {
-  "as_of": "2026-08-05T22:46:36.468299+00:00",
+  "as_of": "2026-08-06T02:24:30.889789+00:00",
   "kr": {
     "population": 2872,
-    "as_of_iso": "2026-08-05T22:46:36.468316+00:00",
+    "as_of_iso": "2026-08-06T02:24:30.889805+00:00",
     "session_key": "none",
     "expected_T_min": 1440,
     "rows": [
@@ -369,8 +369,8 @@
     ]
   },
   "us": {
-    "population": 503,
-    "as_of_iso": "2026-08-05T22:46:36.469272+00:00",
+    "population": 502,
+    "as_of_iso": "2026-08-06T02:24:30.890726+00:00",
     "session_key": "none",
     "expected_T_min": 1440,
     "rows": [
@@ -483,18 +483,6 @@
         "theme": null
       },
       {
-        "code": "EA",
-        "name": "Electronic Arts",
-        "market": "US",
-        "close": 209.6999969482422,
-        "change_pct": null,
-        "volume": 48713700,
-        "amount": 10215262741.337585,
-        "marcap": null,
-        "rank": 10,
-        "theme": null
-      },
-      {
         "code": "PLTR",
         "name": "Palantir Technologies",
         "market": "US",
@@ -503,7 +491,7 @@
         "volume": 61261948,
         "amount": 9705729972.944092,
         "marcap": null,
-        "rank": 11,
+        "rank": 10,
         "theme": null
       },
       {
@@ -515,7 +503,7 @@
         "volume": 27506311,
         "amount": 8844653966.279602,
         "marcap": null,
-        "rank": 12,
+        "rank": 11,
         "theme": "2차전지"
       },
       {
@@ -527,7 +515,7 @@
         "volume": 14756774,
         "amount": 8688346116.198242,
         "marcap": null,
-        "rank": 13,
+        "rank": 12,
         "theme": "인공지능"
       },
       {
@@ -539,7 +527,7 @@
         "volume": 84200472,
         "amount": 8509299494.752441,
         "marcap": null,
-        "rank": 14,
+        "rank": 13,
         "theme": null
       },
       {
@@ -551,7 +539,7 @@
         "volume": 15710613,
         "amount": 6571435186.462006,
         "marcap": null,
-        "rank": 15,
+        "rank": 14,
         "theme": null
       },
       {
@@ -563,7 +551,7 @@
         "volume": 5504180,
         "amount": 6439119934.172363,
         "marcap": null,
-        "rank": 16,
+        "rank": 15,
         "theme": "바이오"
       },
       {
@@ -575,7 +563,7 @@
         "volume": 7899406,
         "amount": 4101134478.0203857,
         "marcap": null,
-        "rank": 17,
+        "rank": 16,
         "theme": null
       },
       {
@@ -587,7 +575,7 @@
         "volume": 9671794,
         "amount": 4040875415.1361084,
         "marcap": null,
-        "rank": 18,
+        "rank": 17,
         "theme": null
       },
       {
@@ -599,7 +587,7 @@
         "volume": 20191254,
         "amount": 3983936277.4449463,
         "marcap": null,
-        "rank": 19,
+        "rank": 18,
         "theme": null
       },
       {
@@ -611,7 +599,7 @@
         "volume": 4197905,
         "amount": 3516416989.5632935,
         "marcap": null,
-        "rank": 20,
+        "rank": 19,
         "theme": null
       },
       {
@@ -623,7 +611,7 @@
         "volume": 16405454,
         "amount": 3461878973.1716614,
         "marcap": null,
-        "rank": 21,
+        "rank": 20,
         "theme": null
       },
       {
@@ -635,7 +623,7 @@
         "volume": 46161399,
         "amount": 3147284197.907341,
         "marcap": null,
-        "rank": 22,
+        "rank": 21,
         "theme": null
       },
       {
@@ -647,7 +635,7 @@
         "volume": 6290014,
         "amount": 2910389554.5823975,
         "marcap": null,
-        "rank": 23,
+        "rank": 22,
         "theme": null
       },
       {
@@ -659,7 +647,7 @@
         "volume": 3389923,
         "amount": 2800957811.084717,
         "marcap": null,
-        "rank": 24,
+        "rank": 23,
         "theme": null
       },
       {
@@ -671,7 +659,7 @@
         "volume": 3103668,
         "amount": 2703543174.481201,
         "marcap": null,
-        "rank": 25,
+        "rank": 24,
         "theme": null
       },
       {
@@ -683,7 +671,7 @@
         "volume": 18318870,
         "amount": 2645061628.119049,
         "marcap": null,
-        "rank": 26,
+        "rank": 25,
         "theme": null
       },
       {
@@ -695,7 +683,7 @@
         "volume": 4703352,
         "amount": 2512718726.548828,
         "marcap": null,
-        "rank": 27,
+        "rank": 26,
         "theme": null
       },
       {
@@ -707,7 +695,7 @@
         "volume": 7950521,
         "amount": 2444149272.577484,
         "marcap": null,
-        "rank": 28,
+        "rank": 27,
         "theme": null
       },
       {
@@ -719,7 +707,7 @@
         "volume": 5608169,
         "amount": 2287179487.9649963,
         "marcap": null,
-        "rank": 29,
+        "rank": 28,
         "theme": null
       },
       {
@@ -730,6 +718,18 @@
         "change_pct": -0.28,
         "volume": 6062771,
         "amount": 2234373676.1459045,
+        "marcap": null,
+        "rank": 29,
+        "theme": null
+      },
+      {
+        "code": "CSCO",
+        "name": "Cisco",
+        "market": "US",
+        "close": 121.5,
+        "change_pct": -0.2,
+        "volume": 18164404,
+        "amount": 2206975086.0,
         "marcap": null,
         "rank": 30,
         "theme": null
