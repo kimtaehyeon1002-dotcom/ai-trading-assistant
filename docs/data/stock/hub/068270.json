@@ -1,15 +1,15 @@
 {
   "code": "068270",
   "name": "셀트리온",
-  "market": "KRX",
+  "market": "KOSPI",
   "theme": "바이오",
   "quote": {
-    "close": 190300.0,
-    "change_pct": 2.42,
-    "volume": 617748,
-    "amount": 117669966250.0,
-    "marcap": 44254970251800.0,
-    "as_of_iso": "2026-08-06T02:24:31.071658+00:00",
+    "close": 193600.0,
+    "change_pct": 1.73,
+    "volume": 494172,
+    "amount": 95214689150.0,
+    "marcap": 45022397481600.0,
+    "as_of_iso": "2026-08-06T05:47:54.044943+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:068270",

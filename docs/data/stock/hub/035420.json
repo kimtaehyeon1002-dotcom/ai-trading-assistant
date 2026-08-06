@@ -4,12 +4,12 @@
   "market": "KOSPI",
   "theme": "인공지능",
   "quote": {
-    "close": 229000.0,
-    "change_pct": 1.1,
-    "volume": 1090483,
-    "amount": 250317809250.0,
-    "marcap": 35940231418000.0,
-    "as_of_iso": "2026-08-06T02:24:31.071288+00:00",
+    "close": 224500.0,
+    "change_pct": -1.97,
+    "volume": 676298,
+    "amount": 152171261250.0,
+    "marcap": 35233982329000.0,
+    "as_of_iso": "2026-08-06T05:47:54.044809+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:035420",
