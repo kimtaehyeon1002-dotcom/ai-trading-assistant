@@ -303,6 +303,17 @@
           }
         });
       }
+      // 라이브 펄스 — 끝점에서 퍼지는 고리. **켜는 조건은 CSS가 쥔다**: 조상에
+      // [data-live="on"]이 있을 때만 애니메이션이 돈다(design/00 §9-2 S2 — 유효 세션·FRESH
+      // 밖에서 라이브처럼 보이는 스타일은 금지다. 실제 오독 사고에서 나온 규칙이다).
+      // 마크업은 항상 두고 상태만 CSS로 가르는 이유는, 켜고 끌 때 DOM을 다시 만들지 않기 위함이다.
+      var pulse = el("circle", {
+        class: "v2-chart__pulse", cx: s.x(last).toFixed(1), cy: s.y(cfg.values[last]).toFixed(1),
+        r: full ? 5.5 : 4.5
+      });
+      pulse.style.stroke = color;
+      svg.appendChild(pulse);
+
       // 끝점: 표면색 2px 링을 둘러 선·격자와 겹쳐도 읽힌다(dataviz surface ring).
       var ring = el("circle", {
         class: "v2-chart__endring", cx: s.x(last).toFixed(1), cy: s.y(cfg.values[last]).toFixed(1),
@@ -480,9 +491,40 @@
       var t = null;
       host.__ro = new global.ResizeObserver(function () {
         global.clearTimeout(t);
-        t = global.setTimeout(function () { hide(host); render(host); }, 80);
+        t = global.setTimeout(function () { resize(host); }, 80);
       });
       host.__ro.observe(host);
+    }
+    // 첫 렌더가 **레이아웃 확정 전**에 걸릴 수 있다 — 스타일시트가 아직 안 붙었으면
+    // clientWidth가 엉뚱한 값(실측 126px)이고, 그 폭으로 잡은 좌표계가 그대로 굳는다.
+    // 그러면 x축 라벨이 2개만 나오고 호버가 항상 마지막 점으로 튄다(실측). 레이아웃이
+    // 안정되는 세 시점에서 폭을 다시 재고, 달라졌을 때만 다시 그린다.
+    settle(host);
+  }
+
+  function resize(host) {
+    hide(host);
+    render(host);
+  }
+
+  /** 폭이 바뀌었을 때만 재렌더 — 같은 폭이면 아무 일도 하지 않아 애니메이션이 재생되지 않는다. */
+  function remeasure(host) {
+    if (host.__hit && host.clientWidth && host.clientWidth !== host.__hit.w) resize(host);
+  }
+
+  function settle(host) {
+    global.requestAnimationFrame(function () { remeasure(host); });
+    if (doc.readyState !== "complete") {
+      global.addEventListener("load", function () { remeasure(host); }, { once: true });
+    }
+    if (doc.fonts && doc.fonts.ready && doc.fonts.ready.then) {
+      doc.fonts.ready.then(function () { remeasure(host); });
+    }
+    // 백그라운드 탭에서 열린 경우 — rAF가 스로틀돼 위 세 시점이 전부 헛돈다(실측: 배경 탭에서
+    // 폭 불일치). 탭이 실제로 보이는 순간 한 번 더 재는 것이 유일하게 믿을 수 있는 지점이다.
+    if (!host.__vis) {
+      host.__vis = function () { if (doc.visibilityState === "visible") remeasure(host); };
+      doc.addEventListener("visibilitychange", host.__vis);
     }
   }
 
@@ -500,7 +542,18 @@
     });
   }
 
-  global.TAChart = { initAll: initAll, refresh: refresh, mount: mount };
+  /** 새 데이터로 갈아끼운다(라이브 폴링). 등장 애니메이션은 재생하지 않는다 —
+   *  값이 갱신될 때마다 선이 다시 그려지면 그건 갱신이 아니라 깜빡임이다. */
+  function setData(host, values, dates) {
+    if (!host || !host.__chart || !values || values.length < 2) return false;
+    host.__chart.values = values;
+    host.__chart.dates = dates || host.__chart.dates;
+    hide(host);
+    render(host);
+    return true;
+  }
+
+  global.TAChart = { initAll: initAll, refresh: refresh, mount: mount, setData: setData };
 
   if (doc.readyState === "loading") {
     doc.addEventListener("DOMContentLoaded", function () { initAll(doc); });
