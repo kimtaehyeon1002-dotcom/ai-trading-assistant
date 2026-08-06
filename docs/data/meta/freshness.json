@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-06T23:40:53.936204+09:00",
+  "generated_at": "2026-08-06T23:41:32.021291+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-08-06T23:40:28.095713+09:00",
+      "last_built": "2026-08-06T23:41:16.929009+09:00",
       "expected_T_min": 30,
       "items": 1,
-      "duration_ms": 7
+      "duration_ms": 1
     },
     "Asset Kiwoom": {
       "status": "completed",
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-08-06T23:40:28.353020+09:00",
+      "last_built": "2026-08-06T23:41:17.000713+09:00",
       "expected_T_min": 30,
       "items": 26,
-      "duration_ms": 909
+      "duration_ms": 7887
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,30 +52,30 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-08-06T23:40:53.861334+09:00",
+      "last_built": "2026-08-06T23:41:31.958007+09:00",
       "expected_T_min": 30,
-      "items": 26,
+      "items": 1,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-08-06T23:40:29.263252+09:00",
+      "last_built": "2026-08-06T23:41:24.889478+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 2554
+      "duration_ms": 6906
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-08-06T23:40:31.837980+09:00",
+      "last_built": "2026-08-06T23:41:31.801097+09:00",
       "expected_T_min": 30,
-      "items": 400,
-      "duration_ms": 17845
+      "items": 180,
+      "duration_ms": 0
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-08-06T23:40:53.927698+09:00",
+      "last_built": "2026-08-06T23:41:32.006543+09:00",
       "expected_T_min": 30,
-      "items": 3,
+      "items": 2,
       "duration_ms": 0
     },
     "Trade Manager": {
@@ -87,17 +87,17 @@
     },
     "Theme Analyst": {
       "status": "completed",
-      "last_built": "2026-08-06T22:31:53.017149+09:00",
+      "last_built": "2026-08-06T23:41:31.824358+09:00",
       "expected_T_min": 1440,
       "items": 3,
-      "duration_ms": 12
+      "duration_ms": 15
     },
     "TA Analyst": {
       "status": "completed",
-      "last_built": "2026-08-06T22:31:53.030594+09:00",
+      "last_built": "2026-08-06T23:41:31.841763+09:00",
       "expected_T_min": 1440,
       "items": 121,
-      "duration_ms": 161
+      "duration_ms": 48
     },
     "Macro FRED": {
       "status": "completed",
@@ -164,10 +164,10 @@
     },
     "Loop Ledger": {
       "status": "completed",
-      "last_built": "2026-08-06T23:40:28.306047+09:00",
+      "last_built": "2026-08-06T23:41:31.958037+09:00",
       "expected_T_min": 30,
       "items": 2,
-      "duration_ms": 51
+      "duration_ms": 1
     }
   }
 }
