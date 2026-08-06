@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-06T00:31:39.772667+00:00",
+  "as_of": "2026-08-06T00:32:28.689627+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -364,6 +364,18 @@
   ],
   "news": [
     {
+      "title": "천안시, 관광 캐릭터 '누비·또와' 지식재산권 15건 등록",
+      "link": "https://www.yna.co.kr/view/AKR20260806036900063",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T00:28:08+00:00"
+    },
+    {
+      "title": "구윤철 \"기초·퇴직연금 개편 방안 조만간 발표\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806038400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T00:27:29+00:00"
+    },
+    {
       "title": "[게시판] 한투증권, 해외 대학교 재학생 대상 채용 설명회",
       "link": "https://www.yna.co.kr/view/AKR20260806037100008",
       "source": "연합뉴스·경제",
@@ -424,7 +436,7 @@
       "published": "2026-08-06T00:00:42+00:00"
     },
     {
-      "title": "[해외시황] 뉴욕증시, 호르무즈 협상 기대·차익실현에 '숨고르기'…다우 '최고치' 경신 - 프라임경제",
+      "title": "[해외시황] 뉴욕증시, 호르무즈 협상 기대·차익실현에 '숨고르기'…다우 '최고치' 경신 - newsprime.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZeVZOWDlKS0hmeVNPVmVMNnRBdlpCcUg4R1FKY2hrVEIxSlFGcnl2MDJFdURVQnJVVXEzZUtrX0ZHQ2hqX2FFNWVTTmpnb0ZvTlRfRV9weW5mQzUzR0pvWg?oc=5",
       "source": "Google News",
       "published": "2026-08-05T23:58:24+00:00"
@@ -574,6 +586,12 @@
       "published": "2026-08-05T22:35:26+00:00"
     },
     {
+      "title": "호르무즈 개방 기대 속 뉴욕증시 혼조…나스닥 0.8%↓ - 중소기업신문",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YM2x6eWM3V1NCTkxrTWxZVTY0bXB0QUhhblp5MENGa0QzY3pwZmc4QWNnenRZYWdjUkxYVjBtcnNpM29xNkNQU0hhbFRQMi10dHhqVzhQZFJ3cGY3cDFnWVZoY0Q0dHR0SGM4YQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T22:33:13+00:00"
+    },
+    {
       "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
       "link": "https://www.yna.co.kr/view/AKR20260806014700011",
       "source": "연합뉴스·경제",
@@ -622,7 +640,7 @@
       "published": "2026-08-05T21:55:46+00:00"
     },
     {
-      "title": "[글로벌증시] 호르무즈 재개방 기대속 뉴욕증시 혼조 마감 - 연합뉴스 한민족센터",
+      "title": "[글로벌증시] 호르무즈 재개방 기대속 뉴욕증시 혼조 마감 - koreancenter.or.kr",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4ZDQyLV8yM29mZzQtSHRNakZiLW5nYzI2YkV0M0RvU0FUSFVCQ2tpaEdvd3NMSVlpMFBxODBDNk91cXZMd0o4ejlxMmVCbkh4dUktdTJ0M1gycEhhT21HX3ZzYUtCRDlyTXJGMGhwUmRCbzJE?oc=5",
       "source": "Google News",
       "published": "2026-08-05T21:49:27+00:00"
@@ -634,34 +652,16 @@
       "published": "2026-08-05T21:48:27+00:00"
     },
     {
+      "title": "뉴욕 증시 최고치인데, 장중 이례적으로 치솟은 ‘공포지수’, 왜? - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1WmZEZ3dBNGVqS093NVZnSHBWcnR1clE0UV9oZjBJemQxaEF3aWhocEtiV2hkb0tfNTgtX1RVSjBNZ2MyLUhNY2h5WVFDdU0?oc=5",
+      "source": "Google News",
+      "published": "2026-08-05T21:41:13+00:00"
+    },
+    {
       "title": "뉴욕 증시 최고치인데, 장중 이례적으로 치솟은 ‘공포지수’, 왜? - 조선일보",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbjdTbnh1OVdvNnMzck0zOGo1LU4wZ0hNZDJVNmRsQ1FvYW1aOC1TeXBVVWZMTWlRdmczZEppOVNGTmx5ZmVhZGRvNWp3ZnROZlZSYkx0WTVrRm1OSERHNEN5Sk5MazV4TE9wT1Jiemx1M2JWYjZsNkI2djczdDZ6YUVrZE1HS25a?oc=5",
       "source": "Google News",
       "published": "2026-08-05T21:39:00+00:00"
-    },
-    {
-      "title": "\"부품 넘어 지능 수출\"…글로벌 분석가, SK AI 전략 주목",
-      "link": "https://www.yna.co.kr/view/AKR20260805153200017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-05T21:33:00+00:00"
-    },
-    {
-      "title": "SpaceX ramps up Tesla Megapack purchases in Q2 to power its AI data centers",
-      "link": "https://www.cnbc.com/2026/08/05/spacex-tesla-megapack-ai-data-centers.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-05T21:32:34+00:00"
-    },
-    {
-      "title": "Why AT&T, Verizon and T-Mobile shares are down after SpaceX’s earnings",
-      "link": "https://www.marketwatch.com/story/why-at-t-verizon-and-t-mobile-shares-are-down-after-spacexs-earnings-033a07ce?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-05T21:28:00+00:00"
-    },
-    {
-      "title": "SpaceX’s stock falls as Wall Street gets spooked by the extent of AI spending",
-      "link": "https://www.marketwatch.com/story/spacexs-stock-falls-as-wall-street-gets-spooked-by-the-extent-of-ai-spending-9ce9ddb8?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-05T21:26:00+00:00"
     }
   ],
   "pages": [
