@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-06T02:24:46.938546+00:00",
+  "as_of": "2026-08-06T04:09:05.718620+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -364,6 +364,114 @@
   ],
   "news": [
     {
+      "title": "서울시 부동산 토론회서 시민들 \"공급·전월세 대책이 먼저\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806083900004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T04:02:15+00:00"
+    },
+    {
+      "title": "소비자원 \"식물성 멜라토닌 27개 제품, 처방 용량 초과\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805106700030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T03:00:12+00:00"
+    },
+    {
+      "title": "중고차 '숨은 수수료' 사라진다…7일내 중대하자 생기면 환불",
+      "link": "https://www.yna.co.kr/view/AKR20260805151100003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T03:00:07+00:00"
+    },
+    {
+      "title": "SKT·KT·LGU+ 이통3사, 개인정보 사고 면책 등 약관 시정키로",
+      "link": "https://www.yna.co.kr/view/AKR20260806060400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T03:00:06+00:00"
+    },
+    {
+      "title": "U.S. ready to return to 'commitments,' Iran says, after Trump signals deal is near",
+      "link": "https://www.cnbc.com/2026/08/06/us-iran-war-hormuz-trump-bessent-deal.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-06T03:00:05+00:00"
+    },
+    {
+      "title": "[게시판] 데이터처, 27일까지 '운수업·기업활동 조사'",
+      "link": "https://www.yna.co.kr/view/AKR20260806071900002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T03:00:03+00:00"
+    },
+    {
+      "title": "하도급업체 도면 요구해 中법인에 넘긴 세라젬…과징금 4억3천만",
+      "link": "https://www.yna.co.kr/view/AKR20260806072200002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T03:00:03+00:00"
+    },
+    {
+      "title": "국고채 담합 곧 공정위 심판대에…과징금 역대 최대 15조 가능성",
+      "link": "https://www.yna.co.kr/view/AKR20260806079600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T03:00:01+00:00"
+    },
+    {
+      "title": "국제무역선, 부두 게이트까지 마약 검사…요트는 전수 검색",
+      "link": "https://www.yna.co.kr/view/AKR20260806081100002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T02:53:01+00:00"
+    },
+    {
+      "title": "국고채 금리 대체로 상승…3년물 장중 연 3.693%",
+      "link": "https://www.yna.co.kr/view/AKR20260806079400008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T02:44:23+00:00"
+    },
+    {
+      "title": "삼성전자, 넷리스트와 특허분쟁 종료…5년간 전략적 제휴",
+      "link": "https://www.yna.co.kr/view/AKR20260806077800003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T02:34:53+00:00"
+    },
+    {
+      "title": "與 \"국힘, 세제개편안 왜곡 '공포 마케팅'…정치 선동 유감\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806073400001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T02:34:51+00:00"
+    },
+    {
+      "title": "닛케이 \"원화 환율 개입 관측 배경엔 美의 對韓 무역적자 우려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806074100073",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T02:30:01+00:00"
+    },
+    {
+      "title": "산업장관 \"이달말 과잉생산 조사발표 예상…한미 15% 컨센서스\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806076800003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T02:27:06+00:00"
+    },
+    {
+      "title": "與서울시당 \"세제개편 전월세·비거주1주택 영향 면밀 모니터링\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806067400001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T02:26:46+00:00"
+    },
+    {
+      "title": "고양시 \"청년기본소득·고양페이 확대\"…민생경제 회복 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260806074700060",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T02:22:42+00:00"
+    },
+    {
+      "title": "지스페이스, 청두에 서울시상품관 개관…중국 서부 공략",
+      "link": "https://www.yna.co.kr/view/AKR20260806075400017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T02:22:04+00:00"
+    },
+    {
+      "title": "해수부 신청사, 북항 재개발부지에 짓는다…부산 동구로 낙점(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260806056451051",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-06T02:21:10+00:00"
+    },
+    {
       "title": "한국콜마, 자외선차단제 산호 안전성 검증체계 구축",
       "link": "https://www.yna.co.kr/view/AKR20260806068900030",
       "source": "연합뉴스·경제",
@@ -446,12 +554,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260806067000003",
       "source": "연합뉴스·경제",
       "published": "2026-08-06T01:55:30+00:00"
-    },
-    {
-      "title": "U.S. ready to return to 'commitments,' Iran says, after Trump signals deal is near",
-      "link": "https://www.cnbc.com/2026/08/06/us-iran-war-hormuz-trump-bessent-deal.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-06T01:54:35+00:00"
     },
     {
       "title": "송파2동 재건축 전 풍경 기록한다…'송이 한 컷' 공모전",
@@ -560,108 +662,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260806055600003",
       "source": "연합뉴스·경제",
       "published": "2026-08-06T01:24:20+00:00"
-    },
-    {
-      "title": "해수부 신청사, 부산 동구 북항 1단계 재개발 부지에 짓는다",
-      "link": "https://www.yna.co.kr/view/AKR20260806056400051",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T01:23:12+00:00"
-    },
-    {
-      "title": "[속보] 코스피, 4%대로 낙폭확대…매도 사이드카 발동",
-      "link": "https://www.yna.co.kr/view/AKR20260806057800008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T01:19:18+00:00"
-    },
-    {
-      "title": "강릉 고유가 지원금 지급률 98%…소상공인 매출 증대 효과",
-      "link": "https://www.yna.co.kr/view/AKR20260806054400062",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T01:18:37+00:00"
-    },
-    {
-      "title": "울주군, 소상공인 특례보증 2차 접수 시작…새벽부터 대기줄",
-      "link": "https://www.yna.co.kr/view/AKR20260806054700057",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T01:17:37+00:00"
-    },
-    {
-      "title": "스타벅스, 취약계층 장애인 치과 치료비 1억원 지원",
-      "link": "https://www.yna.co.kr/view/AKR20260806051300030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T01:17:25+00:00"
-    },
-    {
-      "title": "해외 IB, 올해 韓 성장 전망치 3.2%로 높여…넉 달 연속 상향",
-      "link": "https://www.yna.co.kr/view/AKR20260806054600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T01:16:45+00:00"
-    },
-    {
-      "title": "서울 아파트 경매 낙찰가율 4개월째 100% 상회…15억이하 강세",
-      "link": "https://www.yna.co.kr/view/AKR20260806049400003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T01:10:26+00:00"
-    },
-    {
-      "title": "중진공-현대엔지니어링, 협력사 안전·품질 인력 장기재직 지원",
-      "link": "https://www.yna.co.kr/view/AKR20260806040200030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T01:08:20+00:00"
-    },
-    {
-      "title": "'말복엔 해남 전복'…해남군, 1+1 특별전",
-      "link": "https://www.yna.co.kr/view/AKR20260806050900054",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T01:08:02+00:00"
-    },
-    {
-      "title": "포항 AI센터에 6천억 투자…영광 배터리시설엔 1천800억 투입",
-      "link": "https://www.yna.co.kr/view/AKR20260806040400002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T01:00:03+00:00"
-    },
-    {
-      "title": "대기업 지정자료 3년새 또 허위제출하면 고발…중대성 커도 고발",
-      "link": "https://www.yna.co.kr/view/AKR20260806041100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T01:00:03+00:00"
-    },
-    {
-      "title": "하루 만에 증시 22% '폭락'…\"최악의 사태 올 수도\" 빅쇼트 주인공의 경고 - 이코노미스트",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qRUlsMlJMd1ItMWVtLW5YRHpvN1BBT2RmUEFYX2phVHN1eUhWY25OdlZaaTljTlhIaExkSUJreE14WENYWThRdVAtXzh3TTVQUk1VcE9SU1hYY2JjckE2WjJ3?oc=5",
-      "source": "Google News",
-      "published": "2026-08-06T01:00:00+00:00"
-    },
-    {
-      "title": "반도체 호황에 경상흑자 역대 최대…상반기 2천억달러 육박(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260806017551002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T00:59:17+00:00"
-    },
-    {
-      "title": "“우울할땐 전화주세요”…생명보험재단, 매헌시민의숲에 ‘마음의전화’ 조성",
-      "link": "https://www.mk.co.kr/news/economy/12118948",
-      "source": "매일경제·증권",
-      "published": "2026-08-06T00:57:22+00:00"
-    },
-    {
-      "title": "SK하이닉스, 프리마켓서 개장직후 또 하한가…시초가 논란 지속",
-      "link": "https://www.yna.co.kr/view/AKR20260806047200008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T00:57:01+00:00"
-    },
-    {
-      "title": "한미그룹, 전사 AI 업무혁신 프로그램 가동",
-      "link": "https://www.yna.co.kr/view/AKR20260806046900017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T00:53:57+00:00"
-    },
-    {
-      "title": "정읍수성1 영구임대 리모델링…예비 입주자 200가구 모집",
-      "link": "https://www.yna.co.kr/view/AKR20260806046100055",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T00:51:26+00:00"
     }
   ],
   "pages": [
