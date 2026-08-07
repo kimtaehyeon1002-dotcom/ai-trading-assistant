@@ -4,12 +4,12 @@
   "market": "US",
   "theme": "인공지능",
   "quote": {
-    "close": 499.8599853515625,
-    "change_pct": 2.54,
-    "volume": 36397900,
-    "amount": 18193853760.827637,
+    "close": 499.989990234375,
+    "change_pct": 0.03,
+    "volume": 24137816,
+    "amount": 12068666386.11914,
     "marcap": null,
-    "as_of_iso": "2026-08-07T07:53:51.155018+00:00",
+    "as_of_iso": "2026-08-07T22:22:54.516024+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "MSFT",

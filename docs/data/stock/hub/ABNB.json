@@ -1,0 +1,17 @@
+{
+  "code": "ABNB",
+  "name": "Airbnb",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 178.07000732421875,
+    "change_pct": 17.43,
+    "volume": 15503237,
+    "amount": 2760661526.139099,
+    "marcap": null,
+    "as_of_iso": "2026-08-07T22:22:54.516126+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "ABNB",
+  "related_news": []
+}

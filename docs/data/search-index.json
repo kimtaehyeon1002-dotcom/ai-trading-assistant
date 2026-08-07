@@ -1,156 +1,6 @@
 {
-  "as_of": "2026-08-07T22:05:31.436300+00:00",
+  "as_of": "2026-08-07T22:23:08.366949+00:00",
   "stocks": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "market": "KOSPI"
-    },
-    {
-      "code": "009830",
-      "name": "한화솔루션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "market": "KOSPI"
-    },
-    {
-      "code": "005935",
-      "name": "삼성전자우",
-      "market": "KOSPI"
-    },
-    {
-      "code": "035420",
-      "name": "NAVER",
-      "market": "KOSPI"
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "KOSPI"
-    },
-    {
-      "code": "010060",
-      "name": "OCI홀딩스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "475150",
-      "name": "SK이터닉스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "066570",
-      "name": "LG전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "214450",
-      "name": "파마리서치",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "010170",
-      "name": "대한광통신",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "017900",
-      "name": "광전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "market": "KOSPI"
-    },
-    {
-      "code": "035720",
-      "name": "카카오",
-      "market": "KOSPI"
-    },
-    {
-      "code": "068270",
-      "name": "셀트리온",
-      "market": "KOSPI"
-    },
-    {
-      "code": "298040",
-      "name": "효성중공업",
-      "market": "KOSPI"
-    },
-    {
-      "code": "055550",
-      "name": "신한지주",
-      "market": "KOSPI"
-    },
-    {
-      "code": "373220",
-      "name": "LG에너지솔루션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "003670",
-      "name": "포스코퓨처엠",
-      "market": "KOSPI"
-    },
-    {
-      "code": "096770",
-      "name": "SK이노베이션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "196170",
-      "name": "알테오젠",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "042700",
-      "name": "한미반도체",
-      "market": "KOSPI"
-    },
-    {
-      "code": "322000",
-      "name": "HD현대에너지솔루션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KOSPI"
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "market": "KOSPI"
-    },
-    {
-      "code": "086520",
-      "name": "에코프로",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "069540",
-      "name": "빛과전자",
-      "market": "KOSDAQ"
-    },
     {
       "code": "MU",
       "name": "Micron Technology",
@@ -167,6 +17,21 @@
       "market": "US"
     },
     {
+      "code": "PLTR",
+      "name": "Palantir Technologies",
+      "market": "US"
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla, Inc.",
+      "market": "US"
+    },
+    {
+      "code": "AMD",
+      "name": "Advanced Micro Devices",
+      "market": "US"
+    },
+    {
       "code": "MSFT",
       "name": "Microsoft",
       "market": "US"
@@ -177,23 +42,8 @@
       "market": "US"
     },
     {
-      "code": "AMD",
-      "name": "Advanced Micro Devices",
-      "market": "US"
-    },
-    {
-      "code": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
-      "market": "US"
-    },
-    {
       "code": "AMZN",
       "name": "Amazon",
-      "market": "US"
-    },
-    {
-      "code": "TSLA",
-      "name": "Tesla, Inc.",
       "market": "US"
     },
     {
@@ -202,8 +52,8 @@
       "market": "US"
     },
     {
-      "code": "WDC",
-      "name": "Western Digital",
+      "code": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
       "market": "US"
     },
     {
@@ -212,38 +62,8 @@
       "market": "US"
     },
     {
-      "code": "PLTR",
-      "name": "Palantir Technologies",
-      "market": "US"
-    },
-    {
-      "code": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "market": "US"
-    },
-    {
       "code": "AVGO",
       "name": "Broadcom",
-      "market": "US"
-    },
-    {
-      "code": "APP",
-      "name": "AppLovin",
-      "market": "US"
-    },
-    {
-      "code": "STX",
-      "name": "Seagate Technology",
-      "market": "US"
-    },
-    {
-      "code": "LLY",
-      "name": "Lilly (Eli)",
-      "market": "US"
-    },
-    {
-      "code": "MRVL",
-      "name": "Marvell Technology",
       "market": "US"
     },
     {
@@ -252,8 +72,43 @@
       "market": "US"
     },
     {
-      "code": "DDOG",
-      "name": "Datadog",
+      "code": "WDC",
+      "name": "Western Digital",
+      "market": "US"
+    },
+    {
+      "code": "STX",
+      "name": "Seagate Technology",
+      "market": "US"
+    },
+    {
+      "code": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "market": "US"
+    },
+    {
+      "code": "MRVL",
+      "name": "Marvell Technology",
+      "market": "US"
+    },
+    {
+      "code": "COHR",
+      "name": "Coherent Corp.",
+      "market": "US"
+    },
+    {
+      "code": "NOW",
+      "name": "ServiceNow",
+      "market": "US"
+    },
+    {
+      "code": "ABNB",
+      "name": "Airbnb",
+      "market": "US"
+    },
+    {
+      "code": "APP",
+      "name": "AppLovin",
       "market": "US"
     },
     {
@@ -262,8 +117,18 @@
       "market": "US"
     },
     {
-      "code": "HONA",
-      "name": "Honeywell Aerospace",
+      "code": "TXN",
+      "name": "Texas Instruments",
+      "market": "US"
+    },
+    {
+      "code": "AMAT",
+      "name": "Applied Materials",
+      "market": "US"
+    },
+    {
+      "code": "UBER",
+      "name": "Uber",
       "market": "US"
     },
     {
@@ -272,28 +137,13 @@
       "market": "US"
     },
     {
+      "code": "LLY",
+      "name": "Lilly (Eli)",
+      "market": "US"
+    },
+    {
       "code": "WMT",
       "name": "Walmart",
-      "market": "US"
-    },
-    {
-      "code": "KLAC",
-      "name": "KLA Corporation",
-      "market": "US"
-    },
-    {
-      "code": "CAT",
-      "name": "Caterpillar Inc.",
-      "market": "US"
-    },
-    {
-      "code": "CRM",
-      "name": "Salesforce",
-      "market": "US"
-    },
-    {
-      "code": "BRK-B",
-      "name": "Berkshire Hathaway",
       "market": "US"
     },
     {
@@ -302,13 +152,43 @@
       "market": "US"
     },
     {
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "KRX"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "market": "KRX"
+    },
+    {
       "code": "TSM",
       "name": "TSMC",
       "market": "NYSE"
     },
     {
+      "code": "373220",
+      "name": "LG에너지솔루션",
+      "market": "KRX"
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KRX"
+    },
+    {
       "code": "247540",
       "name": "에코프로비엠",
+      "market": "KRX"
+    },
+    {
+      "code": "035420",
+      "name": "NAVER",
+      "market": "KRX"
+    },
+    {
+      "code": "035720",
+      "name": "카카오",
       "market": "KRX"
     },
     {
@@ -317,13 +197,33 @@
       "market": "KRX"
     },
     {
+      "code": "068270",
+      "name": "셀트리온",
+      "market": "KRX"
+    },
+    {
       "code": "NVO",
       "name": "Novo Nordisk",
       "market": "NYSE"
     },
     {
+      "code": "005380",
+      "name": "현대차",
+      "market": "KRX"
+    },
+    {
       "code": "000270",
       "name": "기아",
+      "market": "KRX"
+    },
+    {
+      "code": "055550",
+      "name": "신한지주",
+      "market": "KRX"
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
       "market": "KRX"
     },
     {
@@ -339,6 +239,24 @@
   ],
   "news": [
     {
+      "title": "김포 구도심 10곳 정비예정구역 지정…축구장 52개 면적",
+      "link": "https://www.yna.co.kr/view/AKR20260807065000065",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-07T22:17:00+00:00"
+    },
+    {
+      "title": "美 금리인상 기대론 후퇴 뉴욕증시 3대 지수 상승 - smedaily.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14RzAwZGROTm9WNWV1N2ZRZmRhUXZtNFg2cERPMGJ4X2Nac29WdU5pQ0NqS0hGd3FYM2F0SXVWQjNoZlRzREN6SU5LeTBYNUFrdVFmOVdIanpPc1lSQmdCdmw2NGdkcHlUMG1MWQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-07T22:05:49+00:00"
+    },
+    {
+      "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
+      "link": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-07T22:05:00+00:00"
+    },
+    {
       "title": "[부동산캘린더] 내주 김포 '한강푸르지오리버프론트' 등 4천808가구 분양",
       "link": "https://www.yna.co.kr/view/AKR20260807129800003",
       "source": "연합뉴스·경제",
@@ -349,6 +267,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260807099800030",
       "source": "연합뉴스·경제",
       "published": "2026-08-07T22:00:04+00:00"
+    },
+    {
+      "title": "與전대, 부동산·증시 '정책 책임론'...제 발등 찍는 '네탓 공방' - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vQWFhclNPNzgyZHotSE9zcm5Ub0F5ekRodmNPYllENFJSaGlld3QxOGU1QjlqeDAtelNDTzg5NGV2S0FBbEdWMk5ZX1Z0NERrbW1MYXpkci1XTWRwcEg2TmlDb250eUEydkNaNNIBckFVX3lxTE1SZDh3OGp3alZzRjFRQlIxSThyTjZxbVdIZmh3S29kZW5rLXRuSEVYUDFPdlAxU3lKMjBlRG5tdXg5V1ZqVS0td3dRSElMMUtEQ2tJM0gzS2JWdlVxanJnYWdQb0hvM2s4TmVhTFA4SVZRQQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-07T22:00:00+00:00"
     },
     {
       "title": "The smart way to invest in gold right now as the dollar slips",
@@ -397,12 +321,6 @@
       "link": "https://www.mk.co.kr/news/economy/12121616",
       "source": "매일경제·증권",
       "published": "2026-08-07T21:05:04+00:00"
-    },
-    {
-      "title": "[속보] 뉴욕증시, 상승...나스닥 1.3% ↑ - etoday.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBVR044dnNOaTFud0k3QlJ4ZHdMS2xnWTVjNFlyb1E0UGRINDhHRy0zZ1oxcnhGRVQ4T3FWdTVDdmpJWG14RER5dE8tckUxRkVoWEt0MA?oc=5",
-      "source": "Google News",
-      "published": "2026-08-07T21:03:00+00:00"
     },
     {
       "title": "[뉴욕증시] 고용 쇼크에 금리 부담 덜었다…강세 마감 - 연합인포맥스",
@@ -513,12 +431,6 @@
       "published": "2026-08-07T19:53:11+00:00"
     },
     {
-      "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with allies.",
-      "link": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-07T19:47:00+00:00"
-    },
-    {
       "title": "My brother asked me to sign as his executor, but wouldn’t let me read the document. Should I have refused?",
       "link": "https://www.marketwatch.com/story/my-brother-asked-me-to-sign-as-his-executor-but-wouldnt-let-me-read-the-document-should-i-have-refused-1b53d9bc?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -579,16 +491,10 @@
       "published": "2026-08-07T17:48:28+00:00"
     },
     {
-      "title": "'기술' 넘어 '사업성' 입증하라… 니어스랩 증시 입성 속 드론업계 '숨고르기' - greened.kr",
+      "title": "'기술' 넘어 '사업성' 입증하라… 니어스랩 증시 입성 속 드론업계 '숨고르기' - 녹색경제신문",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yaHI1OHVFZnVXYl8xb2VLdVFmUzdrVE5JaVV6SHBXWmh3RlhSdlpWc2FjU0FDTXN1cGpKV0hyUzBuMVlyeUtuNmgxajRfaDZTc3hQaUZSbFR4Zm5tc2NybjRha3N0ZGs?oc=5",
       "source": "Google News",
       "published": "2026-08-07T17:36:16+00:00"
-    },
-    {
-      "title": "유럽증시, 美 고용 예상 밖 부진에 연준 금리 인상 가능성 낮아지며 상승… STOXX 600 지수는 나흘 연속 최고치 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBabkxOeVVXTEFWOGNjQ1J3QkVRcTJmSzlhU0U1ZWNZY2xqVzFMaHcyUUNpNHN2YnJHQlRBZGhXYTY1X2RyUTk4MjhOREhhYXBrcUI3VmdqZ0M0dUNL?oc=5",
-      "source": "Google News",
-      "published": "2026-08-07T17:09:00+00:00"
     },
     {
       "title": "Cassidy supports Todd Blanche, rescuing Trump's embattled attorney general pick",
@@ -631,12 +537,6 @@
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWnJ1c2s4T3BLcWIxWDV6cUpvSk1OV1lxUVctV09SNEpYclZLeWZhQV82U1FRVWw0RUZfdlF4QWJBdzdiRG9YV2Y3MVFRX1ZOWDU2bEsxalZZZTJNWURhZkJuMUxGam03TTVFa0JsT09hbDNxYWdXLUExTDJnbHlxOUlyRWRzVGtmYU0tRi1XaXpzRkpUQzRvV3BCVVIwd9IBsgFBVV95cUxOXzhHbkZBVFcwVDN6VzdCOFV4bFpQNnZJd1h4aTJZVnViTEhMSHR4bktKOVBzV2FPZ0huWnhoR1hmdEg4T05yTEV5cW9EdWp1N1EwRnM2dTJibHk2N3RJa1ZqRnBiUkwzT0hTN2hnQkhNRGJpSTNFLTJocUkzVVNNZ2JWLVV1b1F6YmV5V2llN3lTSEo3NXZwdVhJSUZPdWJQbWJfUFlCekxEdm9WYlpyV013?oc=5",
       "source": "Google News",
       "published": "2026-08-07T14:12:00+00:00"
-    },
-    {
-      "title": "Iran's chief negotiator accuses Trump of 'theater diplomacy' with Hormuz traffic near standstill",
-      "link": "https://www.cnbc.com/2026/08/07/us-iran-war-trump-hormuz-diplomacy-oil-.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-07T14:06:10+00:00"
     }
   ],
   "pages": [
