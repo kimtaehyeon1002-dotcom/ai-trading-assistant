@@ -3,7 +3,15 @@
   "name": "기아",
   "market": "KRX",
   "theme": "자동차",
-  "quote": null,
+  "quote": {
+    "close": 132700.0,
+    "change_pct": -0.67,
+    "volume": 306087,
+    "amount": 40788515500.0,
+    "marcap": 51807804834600.0,
+    "as_of_iso": "2026-08-07T02:34:33.510267+00:00",
+    "session_key": "none"
+  },
   "tradingview_symbol": "KRX:000270",
   "related_news": []
 }

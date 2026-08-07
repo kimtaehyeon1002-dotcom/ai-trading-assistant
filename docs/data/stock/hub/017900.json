@@ -1,0 +1,17 @@
+{
+  "code": "017900",
+  "name": "광전자",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 8040.0,
+    "change_pct": 18.41,
+    "volume": 13508214,
+    "amount": 107991997990.0,
+    "marcap": 465867854520.0,
+    "as_of_iso": "2026-08-07T02:34:33.509989+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:017900",
+  "related_news": []
+}

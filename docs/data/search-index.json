@@ -1,6 +1,156 @@
 {
-  "as_of": "2026-08-07T02:05:17.191042+00:00",
+  "as_of": "2026-08-07T02:34:45.419437+00:00",
   "stocks": [
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "market": "KOSPI"
+    },
+    {
+      "code": "009830",
+      "name": "한화솔루션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "market": "KOSPI"
+    },
+    {
+      "code": "475150",
+      "name": "SK이터닉스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "005935",
+      "name": "삼성전자우",
+      "market": "KOSPI"
+    },
+    {
+      "code": "035420",
+      "name": "NAVER",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KOSPI"
+    },
+    {
+      "code": "010060",
+      "name": "OCI홀딩스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "010170",
+      "name": "대한광통신",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "066570",
+      "name": "LG전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "017900",
+      "name": "광전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "069540",
+      "name": "빛과전자",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "035720",
+      "name": "카카오",
+      "market": "KOSPI"
+    },
+    {
+      "code": "322000",
+      "name": "HD현대에너지솔루션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "086520",
+      "name": "에코프로",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "003670",
+      "name": "포스코퓨처엠",
+      "market": "KOSPI"
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "market": "KOSPI"
+    },
+    {
+      "code": "298040",
+      "name": "효성중공업",
+      "market": "KOSPI"
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "market": "KOSPI"
+    },
+    {
+      "code": "066970",
+      "name": "엘앤에프",
+      "market": "KOSPI"
+    },
+    {
+      "code": "096770",
+      "name": "SK이노베이션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006340",
+      "name": "대원전선",
+      "market": "KOSPI"
+    },
+    {
+      "code": "042700",
+      "name": "한미반도체",
+      "market": "KOSPI"
+    },
+    {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "240810",
+      "name": "원익IPS",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "373220",
+      "name": "LG에너지솔루션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "055550",
+      "name": "신한지주",
+      "market": "KOSPI"
+    },
+    {
+      "code": "073240",
+      "name": "금호타이어",
+      "market": "KOSPI"
+    },
     {
       "code": "MU",
       "name": "Micron Technology",
@@ -152,43 +302,13 @@
       "market": "US"
     },
     {
-      "code": "005930",
-      "name": "삼성전자",
-      "market": "KRX"
-    },
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "market": "KRX"
-    },
-    {
       "code": "TSM",
       "name": "TSMC",
       "market": "NYSE"
     },
     {
-      "code": "373220",
-      "name": "LG에너지솔루션",
-      "market": "KRX"
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "KRX"
-    },
-    {
       "code": "247540",
       "name": "에코프로비엠",
-      "market": "KRX"
-    },
-    {
-      "code": "035420",
-      "name": "NAVER",
-      "market": "KRX"
-    },
-    {
-      "code": "035720",
-      "name": "카카오",
       "market": "KRX"
     },
     {
@@ -207,18 +327,8 @@
       "market": "NYSE"
     },
     {
-      "code": "005380",
-      "name": "현대차",
-      "market": "KRX"
-    },
-    {
       "code": "000270",
       "name": "기아",
-      "market": "KRX"
-    },
-    {
-      "code": "055550",
-      "name": "신한지주",
       "market": "KRX"
     },
     {
@@ -238,6 +348,96 @@
     }
   ],
   "news": [
+    {
+      "title": "Oil rises amid supply disruption fears following Iran's restrictive draft plan for the Strait of Hormuz",
+      "link": "https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-07T02:30:49+00:00"
+    },
+    {
+      "title": "국힘 부동산특위 재가동…\"李정부, 집값은 못 잡고 국민만 잡아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260807066600001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-07T02:26:22+00:00"
+    },
+    {
+      "title": "그린벨트부터 비아파트까지…후속 공급대책 그림 나올까",
+      "link": "https://www.yna.co.kr/view/AKR20260807066900003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-07T02:22:06+00:00"
+    },
+    {
+      "title": "해외 IB “코스피, 1만피 가능”…주가 39% 급락은 일시적 조정?",
+      "link": "https://www.mk.co.kr/news/economy/12120765",
+      "source": "매일경제·증권",
+      "published": "2026-08-07T02:21:46+00:00"
+    },
+    {
+      "title": "김제시, 행복주택 입주 청년·신혼부부에 임대보증금 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260807066700055",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-07T02:20:44+00:00"
+    },
+    {
+      "title": "태양광·반도체·이차전지 국내 생산시 2036년까지 세액공제(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260807025651003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-07T02:16:57+00:00"
+    },
+    {
+      "title": "‘He’s never been good with money’: If I set up an annuity for my brother, 65, would it jeopardize his Supplemental Security Income?",
+      "link": "https://www.marketwatch.com/story/hes-never-been-good-with-money-if-i-set-up-an-annuity-for-my-brother-65-would-it-jeopardize-his-supplemental-security-income-d2e9f5a0?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-07T02:15:00+00:00"
+    },
+    {
+      "title": "지역 중소기업 세액감면율 확대…지방 中企 취업자 근소세 감면",
+      "link": "https://www.yna.co.kr/view/AKR20260807059300030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-07T02:12:15+00:00"
+    },
+    {
+      "title": "스마일게이트 오렌지플래닛 \"유망 스타트업 21팀 배출\"",
+      "link": "https://www.yna.co.kr/view/AKR20260807064900017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-07T02:10:43+00:00"
+    },
+    {
+      "title": "[바이오스냅] 동국제약 임직원, 환경보호·아동돌봄 활동 나서",
+      "link": "https://www.yna.co.kr/view/AKR20260807064800017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-07T02:10:03+00:00"
+    },
+    {
+      "title": "Iran's chief negotiator accuses Trump of 'theater diplomacy' with Hormuz traffic near standstill",
+      "link": "https://www.cnbc.com/2026/08/07/us-iran-war-trump-hormuz-diplomacy-oil-.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-07T02:08:42+00:00"
+    },
+    {
+      "title": "네이버, 2분기 역대 최대 매출…AI 광고 첫 수익화 통했다(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260807022052527",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-07T02:06:30+00:00"
+    },
+    {
+      "title": "재정정보원 찾은 박홍근 \"보안 역량 갖추고 개인정보 보호 강화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260807050600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-07T02:00:01+00:00"
+    },
+    {
+      "title": "구윤철, 창신동 쪽방촌 방문…\"취약계층에 더 가혹한 여름\"",
+      "link": "https://www.yna.co.kr/view/AKR20260807054400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-07T02:00:00+00:00"
+    },
+    {
+      "title": "해수부, 내항 선사 장기계약 우수 화주에 세액공제",
+      "link": "https://www.yna.co.kr/view/AKR20260807055100051",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-07T02:00:00+00:00"
+    },
     {
       "title": "‘Her bank accounts were stripped bare by Medicaid’: My late friend had $20,000 in credit-card debt. Will her life insurance pay for it?",
       "link": "https://www.marketwatch.com/story/her-bank-accounts-were-stripped-bare-by-medicaid-my-late-friend-had-20-000-in-credit-card-debt-will-her-life-insurance-pay-for-it-17ee9792?mod=mw_rss_topstories",
@@ -263,18 +463,6 @@
       "published": "2026-08-07T01:46:42+00:00"
     },
     {
-      "title": "Iran's chief negotiator accuses Trump of 'theater diplomacy' with Hormuz traffic near standstill",
-      "link": "https://www.cnbc.com/2026/08/07/us-iran-war-trump-hormuz-diplomacy-oil-.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-07T01:46:01+00:00"
-    },
-    {
-      "title": "[특집기획ㅣCEONEWS 폴리코노미 49] 이재명 정부의 증시와 부동산 진단 - CEONEWS",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1LSlNxOERVVXlrS0w0b0pod2RzelV6UTFkWDNIRjBzaTg3bEEtcmVLRm1PZnh3SnhfV2d5TlUzMzhuTE0tb3Ywb1FPMy1DNWpxbGRLQTZoUnAtN1NfVmh3?oc=5",
-      "source": "Google News",
-      "published": "2026-08-07T01:41:36+00:00"
-    },
-    {
       "title": "고려아연 온산제련소, 생산 현장에 커피차·온열 예방 용품 지원",
       "link": "https://www.yna.co.kr/view/AKR20260807054700057",
       "source": "연합뉴스·경제",
@@ -285,12 +473,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260807045100053",
       "source": "연합뉴스·경제",
       "published": "2026-08-07T01:40:00+00:00"
-    },
-    {
-      "title": "[취재노트] 밸류업은 증시 오를 때만 필요한가 - 뉴스웍스",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45U3oyTl9YVjVHSWFWdE00aWhxcTBZaDJYYmxuMkNZY1pCUS1HZkhrcTlKQUdPSURGWUVFUGlYY3kxQVMwd1VYU3JSUnJvQzFKbVpjOUM1bFo2UE83eFh1OHBrRjFnc2N0VThrRGtKNNIBc0FVX3lxTE1pdkRvaDFfaUVqRXk1VWlpcFVlWGVRVnk1MjRGN0U0Tm1LYVdaQjN0TC00bFhCWDlEdmFIRE9VamtrT21lOExydFNGTU9CYVMyUFd4UDc3Mkg4Qy1XM3ByaVRKdmVTRjh4YTBNRnIyMHJDSEU?oc=5",
-      "source": "Google News",
-      "published": "2026-08-07T01:39:49+00:00"
     },
     {
       "title": "KCOC, 베트남서 활동하는 NGO 대상 '법률 리스크 대응' 워크숍",
@@ -347,6 +529,12 @@
       "published": "2026-08-07T01:21:19+00:00"
     },
     {
+      "title": "아마존·애플도 이제 ‘가치주’…달라진 美 증시 공식 - 진일보",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01LU1jSjF2RjU5R0ltbTVIZnpLVHQ5YmFLYjh1YVNjZ2ZZYVAzVm0xX0NMc3pUSFlYaEVhVHpBOXhycU5zWkNBS3Ata21pT2RLTElSWmNrV2RDaHFwQ1ZJaTVtOXZpUC16NEp5aURzaw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-07T01:19:57+00:00"
+    },
+    {
       "title": "[인사] 기획예산처",
       "link": "https://www.yna.co.kr/view/AKR20260807049900002",
       "source": "연합뉴스·경제",
@@ -371,12 +559,6 @@
       "published": "2026-08-07T01:01:33+00:00"
     },
     {
-      "title": "Oil rises amid supply disruption fears following Iran's restrictive draft plan for the Strait of Hormuz",
-      "link": "https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-07T01:00:40+00:00"
-    },
-    {
       "title": "마포구 노고산동에 42층 주거·업무시설…재개발 통합심의 통과",
       "link": "https://www.yna.co.kr/view/AKR20260807040700004",
       "source": "연합뉴스·경제",
@@ -393,6 +575,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260807044200062",
       "source": "연합뉴스·경제",
       "published": "2026-08-07T00:49:27+00:00"
+    },
+    {
+      "title": "국민연금 리밸런싱 유예가 증시 폭등장 불렀다?…계산해보니 '글쎄' - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tcWJVV0NwaHk0YlpEcFc4TXp5UUFIVVNXcFRHRzNoTWVGMHh4dGpkb0dYR19QYVU1dy14NmJ5WlBVX2xySEN0YUlQRDBiSTJHNXFkaGNoRkJESUhyWk1sUDI5LXlYRUwwZ2dWN2ltOTQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-07T00:46:51+00:00"
     },
     {
       "title": "비상장주식·조각투자, 연내 다른 증권사 계좌 거래 가능해진다",
@@ -459,84 +647,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260807036400003",
       "source": "연합뉴스·경제",
       "published": "2026-08-07T00:26:19+00:00"
-    },
-    {
-      "title": "\"한·싱가포르 협력은 선택 아닌 공동의 생존 전략\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807022400371",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T00:22:07+00:00"
-    },
-    {
-      "title": "경제6단체 \"국내생산세액공제 환영…세부기준 조속히 마련해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807025600003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T00:21:59+00:00"
-    },
-    {
-      "title": "보훈부, 美 전쟁포로·실종자 확인국과 MOU…유가족 예우 협력",
-      "link": "https://www.yna.co.kr/view/AKR20260807033000504",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T00:20:02+00:00"
-    },
-    {
-      "title": "GLN인터내셔널, 외국인 관광객 QR결제 가맹점 50만곳 추가",
-      "link": "https://www.yna.co.kr/view/AKR20260807035100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T00:17:58+00:00"
-    },
-    {
-      "title": "구윤철 '대출 완화' 주장에 \"핀셋 지원 고민 중…조만간 대책\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807032700002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T00:10:56+00:00"
-    },
-    {
-      "title": "A 'weaponized' yen: How the U.S.-Japan intervention may reshape global currency markets",
-      "link": "https://www.cnbc.com/2026/08/07/japan-us-yen-intervention-global-currency-markets.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-07T00:05:26+00:00"
-    },
-    {
-      "title": "\"한국 증시 따라 흔들려\"...급등해도 웃지 못하는 일본 증시 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbWNQNTQ3a25SQlZMeVJ4bUc1Um1BR043S2JNX3RqaGJkVUhRSEpVMGN6SENnTzdfQ3V2bDQxek1RSm5qM3U5Y3Y2bWFEUmhEOFpHWk5MaTFjZlFUMUlFdTJ6UFNyVnlEcmRuR0dRRGt4UDB2bVNLZk0xU2V3Y0NLdg?oc=5",
-      "source": "Google News",
-      "published": "2026-08-07T00:02:00+00:00"
-    },
-    {
-      "title": "반도체 실망감에 하락한 코스피...오늘 증시는? - YTN",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qaEhlMlp0N25QS1Q0N2RQdV9QYXU0d3JLT1FuemVIckZhOENOMFpoMzhMTWpfRTFjd0c2Nmp1OEF6SDVYSFlRbW9ROEtSZUc1OUc3WDFKRzVhSWJIRDNyWVltTG03ZUFhbVNjYzV4WDVnVWlRTWc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-07T00:02:00+00:00"
-    },
-    {
-      "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
-      "link": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-07T00:00:00+00:00"
-    },
-    {
-      "title": "From birth to brokerage: Why South Korea is seeing a surge in infant investment accounts",
-      "link": "https://www.cnbc.com/2026/08/07/south-korea-investment-stock-baby-accounts.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-06T23:42:20+00:00"
-    },
-    {
-      "title": "다올증권 \"KT&G, 2분기 실적 기대치 상회…목표가↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807025300008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-06T23:37:42+00:00"
-    },
-    {
-      "title": "[증시 포인트] 반등 시도 전망...저가 매수세 유입 기대 - 오피니언뉴스",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9MamRBX0xQaUdqenFoMVV3b2pabkR3UlozNURUMzBuOWNTMW9CYmRlMUdQMm05NXBwVnZOalp3RWRkOEVGUE1ubHFpeDNORlJwNG9ZemltdkVfLXBBWkZTaUx0WUtQLWtPUXZPTFp1MUpiQQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-06T23:34:16+00:00"
-    },
-    {
-      "title": "[AI MY 증시전망] 밸류에이션 부담 완화…낙폭 회복 시도 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwcWxPRTBIMnJ3RlpNckVoWTcyT25jbHNXTS1CM1k1U3pOU1dSVnNmd3dBc1hOYkJQc1lTMTEtZlpsVl9qQTA0Yk85VU8xN05zaFRmaXVOX0RwRXVZ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-06T23:34:00+00:00"
     }
   ],
   "pages": [

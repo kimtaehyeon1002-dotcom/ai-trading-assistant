@@ -1,0 +1,17 @@
+{
+  "code": "003670",
+  "name": "포스코퓨처엠",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 151300.0,
+    "change_pct": 2.58,
+    "volume": 553449,
+    "amount": 87037696800.0,
+    "marcap": 13457563086000.0,
+    "as_of_iso": "2026-08-07T02:34:33.510020+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:003670",
+  "related_news": []
+}

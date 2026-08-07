@@ -1,9 +1,17 @@
 {
   "code": "000660",
   "name": "SK하이닉스",
-  "market": "KRX",
+  "market": "KOSPI",
   "theme": "반도체",
-  "quote": null,
+  "quote": {
+    "close": 1420000.0,
+    "change_pct": -5.02,
+    "volume": 2370496,
+    "amount": 3485762622500.0,
+    "marcap": 1037299158300000.0,
+    "as_of_iso": "2026-08-07T02:34:33.509905+00:00",
+    "session_key": "none"
+  },
   "tradingview_symbol": "KRX:000660",
   "related_news": []
 }
