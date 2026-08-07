@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-07T04:47:34.938476+00:00",
+  "as_of": "2026-08-07T04:53:58.408482+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -27,11 +27,6 @@
       "market": "KOSPI"
     },
     {
-      "code": "475150",
-      "name": "SK이터닉스",
-      "market": "KOSPI"
-    },
-    {
       "code": "005935",
       "name": "삼성전자우",
       "market": "KOSPI"
@@ -47,8 +42,18 @@
       "market": "KOSPI"
     },
     {
+      "code": "475150",
+      "name": "SK이터닉스",
+      "market": "KOSPI"
+    },
+    {
       "code": "010060",
       "name": "OCI홀딩스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "066570",
+      "name": "LG전자",
       "market": "KOSPI"
     },
     {
@@ -57,13 +62,18 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "066570",
-      "name": "LG전자",
+      "code": "017900",
+      "name": "광전자",
       "market": "KOSPI"
     },
     {
-      "code": "017900",
-      "name": "광전자",
+      "code": "214450",
+      "name": "파마리서치",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "035720",
+      "name": "카카오",
       "market": "KOSPI"
     },
     {
@@ -72,8 +82,18 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "035720",
-      "name": "카카오",
+      "code": "005380",
+      "name": "현대차",
+      "market": "KOSPI"
+    },
+    {
+      "code": "298040",
+      "name": "효성중공업",
+      "market": "KOSPI"
+    },
+    {
+      "code": "003670",
+      "name": "포스코퓨처엠",
       "market": "KOSPI"
     },
     {
@@ -87,38 +107,8 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "003670",
-      "name": "포스코퓨처엠",
-      "market": "KOSPI"
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "market": "KOSPI"
-    },
-    {
-      "code": "298040",
-      "name": "효성중공업",
-      "market": "KOSPI"
-    },
-    {
       "code": "010120",
       "name": "LS ELECTRIC",
-      "market": "KOSPI"
-    },
-    {
-      "code": "066970",
-      "name": "엘앤에프",
-      "market": "KOSPI"
-    },
-    {
-      "code": "096770",
-      "name": "SK이노베이션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "006340",
-      "name": "대원전선",
       "market": "KOSPI"
     },
     {
@@ -127,14 +117,9 @@
       "market": "KOSPI"
     },
     {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "240810",
-      "name": "원익IPS",
-      "market": "KOSDAQ GLOBAL"
+      "code": "055550",
+      "name": "신한지주",
+      "market": "KOSPI"
     },
     {
       "code": "373220",
@@ -142,13 +127,28 @@
       "market": "KOSPI"
     },
     {
-      "code": "055550",
-      "name": "신한지주",
+      "code": "068270",
+      "name": "셀트리온",
       "market": "KOSPI"
     },
     {
-      "code": "073240",
-      "name": "금호타이어",
+      "code": "365660",
+      "name": "레몬헬스케어",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KOSPI"
+    },
+    {
+      "code": "096770",
+      "name": "SK이노베이션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "066970",
+      "name": "엘앤에프",
       "market": "KOSPI"
     },
     {
@@ -187,6 +187,11 @@
       "market": "US"
     },
     {
+      "code": "AMZN",
+      "name": "Amazon",
+      "market": "US"
+    },
+    {
       "code": "TSLA",
       "name": "Tesla, Inc.",
       "market": "US"
@@ -194,11 +199,6 @@
     {
       "code": "INTC",
       "name": "Intel",
-      "market": "US"
-    },
-    {
-      "code": "AMZN",
-      "name": "Amazon",
       "market": "US"
     },
     {
@@ -237,13 +237,13 @@
       "market": "US"
     },
     {
-      "code": "MRVL",
-      "name": "Marvell Technology",
+      "code": "LLY",
+      "name": "Lilly (Eli)",
       "market": "US"
     },
     {
-      "code": "DDOG",
-      "name": "Datadog",
+      "code": "MRVL",
+      "name": "Marvell Technology",
       "market": "US"
     },
     {
@@ -252,8 +252,8 @@
       "market": "US"
     },
     {
-      "code": "HONA",
-      "name": "Honeywell Aerospace",
+      "code": "DDOG",
+      "name": "Datadog",
       "market": "US"
     },
     {
@@ -262,13 +262,8 @@
       "market": "US"
     },
     {
-      "code": "LLY",
-      "name": "Lilly (Eli)",
-      "market": "US"
-    },
-    {
-      "code": "WMT",
-      "name": "Walmart",
+      "code": "HONA",
+      "name": "Honeywell Aerospace",
       "market": "US"
     },
     {
@@ -277,8 +272,8 @@
       "market": "US"
     },
     {
-      "code": "BRK-B",
-      "name": "Berkshire Hathaway",
+      "code": "WMT",
+      "name": "Walmart",
       "market": "US"
     },
     {
@@ -287,18 +282,23 @@
       "market": "US"
     },
     {
-      "code": "UBER",
-      "name": "Uber",
+      "code": "CAT",
+      "name": "Caterpillar Inc.",
+      "market": "US"
+    },
+    {
+      "code": "CRM",
+      "name": "Salesforce",
+      "market": "US"
+    },
+    {
+      "code": "BRK-B",
+      "name": "Berkshire Hathaway",
       "market": "US"
     },
     {
       "code": "LRCX",
       "name": "Lam Research",
-      "market": "US"
-    },
-    {
-      "code": "NFLX",
-      "name": "Netflix",
       "market": "US"
     },
     {
@@ -317,11 +317,6 @@
       "market": "KRX"
     },
     {
-      "code": "068270",
-      "name": "셀트리온",
-      "market": "KRX"
-    },
-    {
       "code": "NVO",
       "name": "Novo Nordisk",
       "market": "NYSE"
@@ -329,11 +324,6 @@
     {
       "code": "000270",
       "name": "기아",
-      "market": "KRX"
-    },
-    {
-      "code": "105560",
-      "name": "KB금융",
       "market": "KRX"
     },
     {

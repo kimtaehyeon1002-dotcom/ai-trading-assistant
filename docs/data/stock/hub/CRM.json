@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 188.3800048828125,
-    "change_pct": 3.79,
-    "volume": 18111300,
-    "amount": 3411806782.434082,
+    "close": 186.77000427246094,
+    "change_pct": -3.22,
+    "volume": 13280000,
+    "amount": 2480305656.7382812,
     "marcap": null,
-    "as_of_iso": "2026-07-30T09:16:12.220483+00:00",
+    "as_of_iso": "2026-08-07T04:53:41.476684+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "CRM",

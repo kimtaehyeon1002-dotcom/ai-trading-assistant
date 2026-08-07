@@ -4,12 +4,12 @@
   "market": "KRX",
   "theme": "자동차",
   "quote": {
-    "close": 132700.0,
-    "change_pct": -0.67,
-    "volume": 306087,
-    "amount": 40788515500.0,
-    "marcap": 51807804834600.0,
-    "as_of_iso": "2026-08-07T02:34:33.510267+00:00",
+    "close": 133700.0,
+    "change_pct": 0.07,
+    "volume": 451285,
+    "amount": 60231187800.0,
+    "marcap": 52198217832600.0,
+    "as_of_iso": "2026-08-07T04:53:41.476727+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:000270",
