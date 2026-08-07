@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-07T10:49:27.313653+00:00",
+  "as_of": "2026-08-07T11:37:57.415614+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -339,6 +339,60 @@
   ],
   "news": [
     {
+      "title": "The July jobs numbers are due out Friday. Here's what to expect",
+      "link": "https://www.cnbc.com/2026/08/06/the-july-jobs-numbers-are-due-out-friday-heres-what-to-expect.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-07T11:23:07+00:00"
+    },
+    {
+      "title": "與황희, '버스하우스' 논란 일자 \"아이디어 차원\"…국힘 \"망언\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260807114852001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-07T11:17:26+00:00"
+    },
+    {
+      "title": "Martha's Vineyard African American Film Festival set for record attendance despite macro challenges",
+      "link": "https://www.cnbc.com/2026/08/07/marthas-vineyard-african-american-film-festival-set-for-record-attendance.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-07T11:16:34+00:00"
+    },
+    {
+      "title": "[증시] 국영기업 주식 급등...VN지수 상승 견인 - 굿모닝베트남미디어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TY1hwcVdfcXBoUE40dFRsNjJ2dk1FblFNWWVMblZMS0U2QWJ3TnJGbjQ1cEdlWkVSV0ZHdU85TjhCXzc4RzdpWUFoRW5wNDlLTFlqNDI1MnJ1WktYMHoybnRIeFJBb3prSXhVQ2xDVmw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-07T11:10:34+00:00"
+    },
+    {
+      "title": "Kevin O’Leary, aka ‘Mr. Wonderful,’ on crypto, winning in AI and 3 things all business owners must know",
+      "link": "https://www.marketwatch.com/story/kevin-oleary-aka-mr-wonderful-on-crypto-winning-in-ai-and-3-things-all-business-owners-must-know-5339ff6c?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-07T11:00:00+00:00"
+    },
+    {
+      "title": "Optical stocks have a China problem that most investors are missing",
+      "link": "https://www.marketwatch.com/story/optical-stocks-have-a-china-problem-that-most-investors-are-missing-45523981?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-07T11:00:00+00:00"
+    },
+    {
+      "title": "Wildfire costs are surging — but much of the damage in Europe isn’t insured",
+      "link": "https://www.cnbc.com/2026/08/07/wildfires-insurance-cover-zurich-allianz-munich.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-07T10:59:15+00:00"
+    },
+    {
+      "title": "How S&P 500 options action may help explain the rising volatility in memory stocks",
+      "link": "https://www.marketwatch.com/story/how-s-p-500-options-action-may-help-explain-volatility-in-memory-stocks-58d95beb?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-07T10:56:00+00:00"
+    },
+    {
+      "title": "\"실거주 예외 최장 3년…민의 반영해 보완검토\"",
+      "link": "https://www.mk.co.kr/news/economy/12121298",
+      "source": "매일경제·증권",
+      "published": "2026-08-07T10:53:53+00:00"
+    },
+    {
       "title": "구윤철 “최대한 주택공급 빨리…‘핀셋 지원’도 고민해 조만간 대책”",
       "link": "https://www.mk.co.kr/news/economy/12121291",
       "source": "매일경제·증권",
@@ -349,12 +403,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52UWtEcU5CWERuR241XzZYQW9uTUc5aUwybFVINnA5M0VPT204MC1WSXRhZ0VxSFcweDEzMVk1SFZ1QzFUV2xEdkNuOG5hOVpDU3h6b1kwb0xzcXVvNlNoVllXa2RzX3FOakpyV2ZTUUo?oc=5",
       "source": "Google News",
       "published": "2026-08-07T10:42:19+00:00"
-    },
-    {
-      "title": "Wildfire costs are surging — but much of the damage in Europe isn’t insured",
-      "link": "https://www.cnbc.com/2026/08/07/wildfires-insurance-cover-zurich-allianz-munich.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-07T10:40:59+00:00"
     },
     {
       "title": "Solar stocks shine after Trump extends China tariffs to polysilicon products",
@@ -483,12 +531,6 @@
       "published": "2026-08-07T08:54:07+00:00"
     },
     {
-      "title": "\"신혼부부·청년엔 대출규제 핀셋 완화\" 구윤철, 보완책 시사",
-      "link": "https://www.mk.co.kr/news/economy/12121134",
-      "source": "매일경제·증권",
-      "published": "2026-08-07T08:52:35+00:00"
-    },
-    {
       "title": "KDB생명 인수에 한투·한화·흥국 '3파전'…삼성·교보 불참",
       "link": "https://www.yna.co.kr/view/AKR20260807141100002",
       "source": "연합뉴스·경제",
@@ -531,6 +573,12 @@
       "published": "2026-08-07T08:22:26+00:00"
     },
     {
+      "title": "우리자산운용 MMF 순자산 30조 돌파…“증시 유입엔 신중론” - 동아일보",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE05MkNBazdpZG9pSEFNaTdWQ05LckdLZ2tMRGZJVVUwN1ktN2J4RlJsbzlaZ2tJTHFwdnJKZGpfaWJDUFJSOVNjSHpMeWU5LXBRU3JCZGNna2g4amJFMGZpNUk1dnduUTJ4WTJkUG5XZmVibjFGOXfSAWZBVV95cUxOcExkanNSQXdmbFUyZXRlb2hvM2RwOUZYYXBSTnAzblJaQ3RKN0loQ1BYY0xLMC12eXZyUXZXc2psVUNyTjVGaGUyb05kcDFEYTQwQk5iZUVsTFNBakNWNmRQSk9mMEE?oc=5",
+      "source": "Google News",
+      "published": "2026-08-07T08:14:24+00:00"
+    },
+    {
       "title": "하나은행, 변동금리 주담대 신규 취급 중단…마통 한도도 제한(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260807107251002",
       "source": "연합뉴스·경제",
@@ -547,6 +595,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260807132900051",
       "source": "연합뉴스·경제",
       "published": "2026-08-07T08:05:56+00:00"
+    },
+    {
+      "title": "Volkswagen controlling families call for faster overhaul to fend off Chinese rivals",
+      "link": "https://www.cnbc.com/2026/08/07/volkswagen-vw-porsche-autos-job-cuts.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-07T08:03:43+00:00"
     },
     {
       "title": "“AI 메모리 수요 선제 대응”…SK하이닉스, 용인 Y2·청주 M17에 54조원 투자",
@@ -583,60 +637,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260807128100008",
       "source": "연합뉴스·경제",
       "published": "2026-08-07T07:46:09+00:00"
-    },
-    {
-      "title": "코웨이, 2분기 영업익 4.3% 성장…말레이·美 등 해외시장 견인(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260807112251527",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T07:44:00+00:00"
-    },
-    {
-      "title": "중동전쟁 장기화에 中企피해 1천37건…\"물류비 상승·주문 보류\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807118100030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T07:42:23+00:00"
-    },
-    {
-      "title": "국고채 금리 대체로 상승…3년물 연 3.746%",
-      "link": "https://www.yna.co.kr/view/AKR20260807126900008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T07:41:34+00:00"
-    },
-    {
-      "title": "‘매각 7수’ KDB생명 본입찰…한화·흥국생명·한투 3파전",
-      "link": "https://www.mk.co.kr/news/economy/12121013",
-      "source": "매일경제·증권",
-      "published": "2026-08-07T07:35:28+00:00"
-    },
-    {
-      "title": "與이언주 \"세제개편, 주거안정에 큰 무리수…정교 재검토 필요\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807114800001",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T07:33:09+00:00"
-    },
-    {
-      "title": "대원제약 상반기 매출 3천109억원…3.1% 증가",
-      "link": "https://www.yna.co.kr/view/AKR20260807123100017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T07:27:28+00:00"
-    },
-    {
-      "title": "\"재건축·재개발이 주택공급 마스터키\"…오세훈, 청와대에 백서전달(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260807070951004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T07:17:36+00:00"
-    },
-    {
-      "title": "미국, 중국 폴리실리콘 수입 규제…국내 태양광 반사이익 기대",
-      "link": "https://www.yna.co.kr/view/AKR20260807112700003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T07:14:22+00:00"
-    },
-    {
-      "title": "환율, 이틀째 1,410원대…달러 유입 등에 수급 개선",
-      "link": "https://www.yna.co.kr/view/AKR20260807113100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T07:10:59+00:00"
     }
   ],
   "pages": [
