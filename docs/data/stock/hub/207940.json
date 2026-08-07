@@ -3,7 +3,15 @@
   "name": "삼성바이오로직스",
   "market": "KRX",
   "theme": "바이오",
-  "quote": null,
+  "quote": {
+    "close": 1556000.0,
+    "change_pct": 2.77,
+    "volume": 51786,
+    "amount": 79345253000.0,
+    "marcap": 72028719756000.0,
+    "as_of_iso": "2026-08-07T07:53:51.155202+00:00",
+    "session_key": "none"
+  },
   "tradingview_symbol": "KRX:207940",
   "related_news": []
 }
