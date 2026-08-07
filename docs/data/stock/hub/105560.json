@@ -3,15 +3,7 @@
   "name": "KB금융",
   "market": "KRX",
   "theme": "금융",
-  "quote": {
-    "close": 171500.0,
-    "change_pct": 0.47,
-    "volume": 729378,
-    "amount": 124857383300.0,
-    "marcap": 60828946381000.0,
-    "as_of_iso": "2026-08-06T09:26:00.180574+00:00",
-    "session_key": "none"
-  },
+  "quote": null,
   "tradingview_symbol": "KRX:105560",
   "related_news": []
 }

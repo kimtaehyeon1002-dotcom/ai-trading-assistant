@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 68.18000030517578,
-    "change_pct": -5.29,
-    "volume": 50055000,
-    "amount": 3412749915.2755737,
+    "close": 70.47000122070312,
+    "change_pct": 3.36,
+    "volume": 31173579,
+    "amount": 2196802150.1836853,
     "marcap": null,
-    "as_of_iso": "2026-08-06T09:26:00.180454+00:00",
+    "as_of_iso": "2026-08-07T01:27:31.659096+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "UBER",

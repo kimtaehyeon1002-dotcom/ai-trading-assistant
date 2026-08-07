@@ -4,12 +4,12 @@
   "market": "NYSE",
   "theme": "금융",
   "quote": {
-    "close": 63.25,
-    "change_pct": 0.56,
-    "volume": 30242500,
-    "amount": 1912838125.0,
+    "close": 63.0,
+    "change_pct": -0.4,
+    "volume": 18847126,
+    "amount": 1187368938.0,
     "marcap": null,
-    "as_of_iso": "2026-08-06T09:26:00.180590+00:00",
+    "as_of_iso": "2026-08-07T01:27:31.659189+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "BAC",

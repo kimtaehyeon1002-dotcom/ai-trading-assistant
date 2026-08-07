@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 101.05999755859375,
-    "change_pct": 0.2,
-    "volume": 84988100,
-    "amount": 8588897178.5095215,
+    "close": 99.80999755859375,
+    "change_pct": -1.24,
+    "volume": 77177595,
+    "amount": 7703095568.528137,
     "marcap": null,
-    "as_of_iso": "2026-08-06T09:26:00.180397+00:00",
+    "as_of_iso": "2026-08-07T01:27:31.658963+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "INTC",

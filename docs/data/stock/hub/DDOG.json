@@ -1,0 +1,17 @@
+{
+  "code": "DDOG",
+  "name": "Datadog",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 229.2899932861328,
+    "change_pct": -19.03,
+    "volume": 14930110,
+    "amount": 3423324821.6612244,
+    "marcap": null,
+    "as_of_iso": "2026-08-07T01:27:31.659032+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "DDOG",
+  "related_news": []
+}

@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 180.3300018310547,
-    "change_pct": 5.96,
-    "volume": 17469800,
-    "amount": 3150329065.988159,
+    "close": 193.22000122070312,
+    "change_pct": 0.22,
+    "volume": 11456435,
+    "amount": 2213612384.684906,
     "marcap": null,
-    "as_of_iso": "2026-07-31T09:27:13.153428+00:00",
+    "as_of_iso": "2026-08-07T01:27:31.659089+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KLAC",

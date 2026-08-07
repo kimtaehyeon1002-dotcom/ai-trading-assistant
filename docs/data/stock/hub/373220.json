@@ -3,15 +3,7 @@
   "name": "LG에너지솔루션",
   "market": "KRX",
   "theme": "2차전지",
-  "quote": {
-    "close": 345000.0,
-    "change_pct": 2.83,
-    "volume": 212231,
-    "amount": 72188098250.0,
-    "marcap": 80730000000000.0,
-    "as_of_iso": "2026-08-06T09:26:00.180529+00:00",
-    "session_key": "none"
-  },
+  "quote": null,
   "tradingview_symbol": "KRX:373220",
   "related_news": []
 }

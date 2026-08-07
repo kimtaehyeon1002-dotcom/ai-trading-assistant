@@ -3,15 +3,7 @@
   "name": "카카오",
   "market": "KRX",
   "theme": "인공지능",
-  "quote": {
-    "close": 38300.0,
-    "change_pct": 0.39,
-    "volume": 2362732,
-    "amount": 89071702700.0,
-    "marcap": 16966174981000.0,
-    "as_of_iso": "2026-08-06T09:26:00.180541+00:00",
-    "session_key": "none"
-  },
+  "quote": null,
   "tradingview_symbol": "KRX:035720",
   "related_news": []
 }

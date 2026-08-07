@@ -4,12 +4,12 @@
   "market": "US",
   "theme": "2차전지",
   "quote": {
-    "close": 321.54998779296875,
-    "change_pct": -1.77,
-    "volume": 27717800,
-    "amount": 8912658251.64795,
+    "close": 319.5299987792969,
+    "change_pct": -0.63,
+    "volume": 25143733,
+    "amount": 8034176974.796967,
     "marcap": null,
-    "as_of_iso": "2026-08-06T09:26:00.180385+00:00",
+    "as_of_iso": "2026-08-07T01:27:31.658957+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "TSLA",

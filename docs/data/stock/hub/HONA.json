@@ -1,0 +1,17 @@
+{
+  "code": "HONA",
+  "name": "Honeywell Aerospace",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 156.47000122070312,
+    "change_pct": -23.16,
+    "volume": 20333715,
+    "amount": 3181616410.8714294,
+    "marcap": null,
+    "as_of_iso": "2026-08-07T01:27:31.659047+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "HONA",
+  "related_news": []
+}
