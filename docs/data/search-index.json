@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-07T16:23:19.527959+00:00",
+  "as_of": "2026-08-07T16:41:44.708415+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -339,6 +339,36 @@
   ],
   "news": [
     {
+      "title": "Trump teased an Iran deal that didn't come, but markets soared. Here’s why it keeps happening",
+      "link": "https://www.cnbc.com/2026/08/07/trump-iran-hormuz-deal-stocks-oil.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-07T16:40:08+00:00"
+    },
+    {
+      "title": "Here are three key takeaways from the disappointing July jobs report",
+      "link": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-07T16:34:09+00:00"
+    },
+    {
+      "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
+      "link": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-07T16:30:00+00:00"
+    },
+    {
+      "title": "Chesky says Airbnb will spend ‘a lot more’ on AI as earnings beat and stock surges 15%",
+      "link": "https://www.cnbc.com/2026/08/07/chesky-airbnb-ai-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-07T16:28:54+00:00"
+    },
+    {
+      "title": "Gulf uncertainty is creating ‘win, win’ strategy with Chevron and other oil majors",
+      "link": "https://www.cnbc.com/2026/08/07/gulf-uncertainty-is-creating-win-win-strategy-with-chevron-and-other-oil-majors.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-07T16:26:24+00:00"
+    },
+    {
       "title": "Meta ordered to pay $567 million into abatement fund as remedy to child harms case in New Mexico",
       "link": "https://www.cnbc.com/2026/08/06/meta-to-pay-into-567-million-fund-after-child-harms-case-new-mexico.html",
       "source": "CNBC Finance",
@@ -379,12 +409,6 @@
       "link": "https://www.marketwatch.com/story/this-has-been-an-emotionally-difficult-time-my-brother-has-cancer-and-my-father-is-94-how-do-i-shoulder-this-responsibility-9da09dc4?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-07T16:00:00+00:00"
-    },
-    {
-      "title": "U.S. economy unexpectedly lost 23,000 jobs in July",
-      "link": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-07T15:52:25+00:00"
     },
     {
       "title": "This mom spent $2,000 on her kindergartner as viral ‘back-to-school hauls’ on TikTok and YouTube spin out of control",
@@ -465,12 +489,6 @@
       "published": "2026-08-07T14:06:10+00:00"
     },
     {
-      "title": "If I marry my girlfriend, 67, will she lose her Supplemental Security Income and divorced spouse benefits?",
-      "link": "https://www.marketwatch.com/story/if-i-marry-my-girlfriend-67-will-she-lose-her-supplemental-security-income-and-divorced-spouse-benefits-9340bab9?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-07T14:00:00+00:00"
-    },
-    {
       "title": "뉴욕증시, 비농업 고용지표 소화하며 혼조 출발 - 연합뉴스",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBdThVcGdXOUlWSHkwTkVibHAzWGRPRWpUd3lJNjBCRkQwbU96eVNsZ3p6V09YVUdSelJhTGhIWllXZHlueThGNzB4aHJzRC1QQzdtOGVMbENmMVHSAWBBVV95cUxNVGJpaTJTaEZEeHJjTlpwWExwdTVvalVIcWE1UVlHRlZ2czdiOXhyaGNiYjJpS0dtdHFPWHBuRHYxS0tWQThrMWRhOVFoa0s2eDhIa3dNUTgwQnE3MWVsaDI?oc=5",
       "source": "Google News",
@@ -537,12 +555,6 @@
       "published": "2026-08-07T11:10:34+00:00"
     },
     {
-      "title": "Wildfire costs are surging — but much of the damage in Europe isn’t insured",
-      "link": "https://www.cnbc.com/2026/08/07/wildfires-insurance-cover-zurich-allianz-munich.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-07T10:59:15+00:00"
-    },
-    {
       "title": "\"실거주 예외 최장 3년…민의 반영해 보완검토\"",
       "link": "https://www.mk.co.kr/news/economy/12121298",
       "source": "매일경제·증권",
@@ -561,7 +573,7 @@
       "published": "2026-08-07T10:42:19+00:00"
     },
     {
-      "title": "[亞증시-종합] 中 수출 호조에도 혼조…中·홍콩↑대만↓ - news.einfomax.co.kr",
+      "title": "[亞증시-종합] 中 수출 호조에도 혼조…中·홍콩↑대만↓ - 연합인포맥스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yNFBSQmhkVUVYNjhmYmJmUmJfS3VrNWZ1MThiSnJqQWdwQjMxN3I3U0xwWmF3c0x4Y29Nb3hUN21JY2l1RUtSS2kxTkFBM3VDNFJiWTJNeTljTHl2X2hJZERLTUJHc3RlTTRvdm1PaGg?oc=5",
       "source": "Google News",
       "published": "2026-08-07T10:11:56+00:00"
@@ -591,16 +603,10 @@
       "published": "2026-08-07T09:39:51+00:00"
     },
     {
-      "title": "[중국증시-마감] 수출 호조에 투자심리 회복 - news.einfomax.co.kr",
+      "title": "[중국증시-마감] 수출 호조에 투자심리 회복 - 연합인포맥스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mUWc0T2ZfLTdpTFJoYjdLd203aHBNNG05NGtpcGdHMVh3aUY2LU5JRUdMZkVBSHpINUlPWHhYdzd6RlNPUG1xOFZUNG1KQXltTzRLMTJuLWJUY1pLNHBUQ2hxbDRpME5zRUZkWGVURkQ?oc=5",
       "source": "Google News",
       "published": "2026-08-07T09:21:01+00:00"
-    },
-    {
-      "title": "Yen rally fades a week after U.S.-Japan intervention as focus shifts to policy",
-      "link": "https://www.cnbc.com/2026/08/07/us-japan-intervention-yen-unwinds-gains.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-07T09:18:47+00:00"
     },
     {
       "title": "늙어가는 제조업…10년간 청년 21만명 줄 때 고령층 46만명 '쑥'",
@@ -631,12 +637,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260807114851001",
       "source": "연합뉴스·경제",
       "published": "2026-08-07T08:59:39+00:00"
-    },
-    {
-      "title": "\"무더위 온열질환 보장해줘요\"… 주목받는 기후보험",
-      "link": "https://www.mk.co.kr/news/economy/12121177",
-      "source": "매일경제·증권",
-      "published": "2026-08-07T08:58:44+00:00"
     }
   ],
   "pages": [
