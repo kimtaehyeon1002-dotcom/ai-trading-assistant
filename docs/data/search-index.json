@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-07T23:24:43.510401+00:00",
+  "as_of": "2026-08-07T23:58:03.301020+00:00",
   "stocks": [
     {
       "code": "MU",
@@ -239,6 +239,24 @@
   ],
   "news": [
     {
+      "title": "미국 증시, 금리인상 기대론 후퇴에 상승…S&P500 사상최고치 마감 - BBS불교방송",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9GMDczQ2RvQ1FjRHNCUGtzQnVvMGhqbzFmejRCaks1dXNqVHBwYklTM3hERl9zdFNYbDY5eXNKQXhfX3h3alU4ZG5ObzNhVGI2SER5YzVpVFdyTWVhZFprdUpyOWJHWUFpZFpr?oc=5",
+      "source": "Google News",
+      "published": "2026-08-07T23:52:20+00:00"
+    },
+    {
+      "title": "뉴욕 증시 3대 지수 상승…S&P500 사상 최고 - 연합뉴스 한민족센터",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB1S0dEM0RaaGl0OERTVDVkdm9zVzIycmlzTlhrWmpGdDhKdWw0UXQ4NFV3Wm1nc1dPSUdLNzgxcDk4czBYdkZfb3VKbm5WbUtFUlVNa3RZUlU2dm5RaWVfaHVDcjBIY2dJV19NSXJ0NGU4MzJ1?oc=5",
+      "source": "Google News",
+      "published": "2026-08-07T23:39:19+00:00"
+    },
+    {
+      "title": "[오늘의 글로벌마켓] 뉴욕증시, 고용 둔화에 금리인상 전망↓...S&P500 사상 최고치 - 오피니언뉴스",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IZGlRWi1XRUNpSHFTTGdsLXZRdTljQjhZTVZfWm9rUmpvNTBtZGFJZ1lIWDR3bXJuN251VjFwUFREYVJTM25ROFVLeHdvZzlQUDlrVy1WRFdWM0lMN3NkSzJHTE5KQ0tMTVRKeGx1OGFJQQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-07T23:30:25+00:00"
+    },
+    {
       "title": "[다음주 경제] 7월 가계대출 얼마나 늘었나…고용동향 발표도",
       "link": "https://www.yna.co.kr/view/AKR20260808013100002",
       "source": "연합뉴스·경제",
@@ -293,7 +311,7 @@
       "published": "2026-08-07T22:00:04+00:00"
     },
     {
-      "title": "與전대, 부동산·증시 '정책 책임론'...제 발등 찍는 '네탓 공방' - 머니투데이 - mt.co.kr",
+      "title": "與전대, 부동산·증시 '정책 책임론'...제 발등 찍는 '네탓 공방' - 머니투데이 - 머니투데이",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vQWFhclNPNzgyZHotSE9zcm5Ub0F5ekRodmNPYllENFJSaGlld3QxOGU1QjlqeDAtelNDTzg5NGV2S0FBbEdWMk5ZX1Z0NERrbW1MYXpkci1XTWRwcEg2TmlDb250eUEydkNaNNIBckFVX3lxTE1SZDh3OGp3alZzRjFRQlIxSThyTjZxbVdIZmh3S29kZW5rLXRuSEVYUDFPdlAxU3lKMjBlRG5tdXg5V1ZqVS0td3dRSElMMUtEQ2tJM0gzS2JWdlVxanJnYWdQb0hvM2s4TmVhTFA4SVZRQQ?oc=5",
       "source": "Google News",
       "published": "2026-08-07T22:00:00+00:00"
@@ -519,24 +537,6 @@
       "link": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
       "source": "CNBC Finance",
       "published": "2026-08-07T18:09:18+00:00"
-    },
-    {
-      "title": "Trump teased an Iran deal that didn't come, but markets soared. Here’s why it keeps happening",
-      "link": "https://www.cnbc.com/2026/08/07/trump-iran-hormuz-deal-stocks-oil.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-07T17:50:12+00:00"
-    },
-    {
-      "title": "Falling long-term unemployment isn't good news, economists say — what it means for jobseekers",
-      "link": "https://www.cnbc.com/2026/08/07/long-term-unemployment-job-market-workers-labor-force.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-07T17:48:28+00:00"
-    },
-    {
-      "title": "유럽증시, 美 고용 예상 밖 부진에 연준 금리 인상 가능성 낮아지며 상승… STOXX 600 지수는 나흘 연속 최고치 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBabkxOeVVXTEFWOGNjQ1J3QkVRcTJmSzlhU0U1ZWNZY2xqVzFMaHcyUUNpNHN2YnJHQlRBZGhXYTY1X2RyUTk4MjhOREhhYXBrcUI3VmdqZ0M0dUNL?oc=5",
-      "source": "Google News",
-      "published": "2026-08-07T17:09:00+00:00"
     }
   ],
   "pages": [
