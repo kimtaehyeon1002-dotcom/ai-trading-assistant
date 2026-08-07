@@ -3,15 +3,7 @@
   "name": "에코프로비엠",
   "market": "KRX",
   "theme": "2차전지",
-  "quote": {
-    "close": 102200.0,
-    "change_pct": -0.29,
-    "volume": 355188,
-    "amount": 37297177450.0,
-    "marcap": 9998270354800.0,
-    "as_of_iso": "2026-08-07T04:53:41.476709+00:00",
-    "session_key": "none"
-  },
+  "quote": null,
   "tradingview_symbol": "KRX:247540",
   "related_news": []
 }
