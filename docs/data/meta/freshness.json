@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-07T20:37:57.412685+09:00",
+  "generated_at": "2026-08-07T20:43:08.735677+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-08-07T20:37:40.203012+09:00",
+      "last_built": "2026-08-07T20:42:45.946180+09:00",
       "expected_T_min": 30,
       "items": 1,
-      "duration_ms": 1
+      "duration_ms": 0
     },
     "Asset Kiwoom": {
       "status": "completed",
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-08-07T20:37:41.179370+09:00",
+      "last_built": "2026-08-07T20:42:51.621708+09:00",
       "expected_T_min": 30,
       "items": 26,
-      "duration_ms": 6016
+      "duration_ms": 17075
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,28 +52,28 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-08-07T20:37:47.576295+09:00",
+      "last_built": "2026-08-07T20:42:51.620885+09:00",
       "expected_T_min": 30,
-      "items": 0,
+      "items": 1,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-08-07T20:37:47.578704+09:00",
+      "last_built": "2026-08-07T20:42:45.989446+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 3382
+      "duration_ms": 5503
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-08-07T20:37:50.966645+09:00",
+      "last_built": "2026-08-07T20:42:51.497247+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 6386
+      "duration_ms": 0
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-08-07T20:37:57.398200+09:00",
+      "last_built": "2026-08-07T20:43:08.726883+09:00",
       "expected_T_min": 30,
       "items": 3,
       "duration_ms": 0
@@ -164,10 +164,10 @@
     },
     "Loop Ledger": {
       "status": "completed",
-      "last_built": "2026-08-07T20:37:47.576315+09:00",
+      "last_built": "2026-08-07T20:42:51.620903+09:00",
       "expected_T_min": 30,
       "items": 2,
-      "duration_ms": 1
+      "duration_ms": 0
     }
   }
 }
