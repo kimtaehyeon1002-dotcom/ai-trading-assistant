@@ -1,8 +1,8 @@
 {
   "close": {
-    "value": 6298.580078125,
-    "change_abs": -299.6796875,
-    "change_pct": -4.54,
+    "value": 6258.77001953125,
+    "change_abs": -37.60986328125,
+    "change_pct": -0.6,
     "unit": "pt",
     "as_of_iso": "2026-08-07T06:30:00+00:00",
     "source": "yahoo",
@@ -10,10 +10,10 @@
     "expected_T_min": 1440,
     "freshness_basis": "as_of",
     "label": "",
-    "ref_price": 6598.259765625
+    "ref_price": 6296.3798828125
   },
   "deviation_20d": {
-    "value": -4.95,
+    "value": -4.81,
     "change_abs": null,
     "change_pct": null,
     "unit": "%",
@@ -25,7 +25,7 @@
     "label": ""
   },
   "rsi_14": {
-    "value": 43.2,
+    "value": 42.8,
     "change_abs": null,
     "change_pct": null,
     "unit": "x",
