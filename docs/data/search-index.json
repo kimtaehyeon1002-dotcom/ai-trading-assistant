@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-08T10:37:13.529783+00:00",
+  "as_of": "2026-08-08T12:54:23.527256+00:00",
   "stocks": [
     {
       "code": "MU",
@@ -239,13 +239,85 @@
   ],
   "news": [
     {
+      "title": "How cleaning up space debris could grow to become a big business",
+      "link": "https://www.cnbc.com/2026/08/08/space-debris-junk-spacex-rocket-moon-crash.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-08T12:04:15+00:00"
+    },
+    {
+      "title": "Hugging Face hack marks start of dangerous AI cyber era and many firms 'don't even know it'",
+      "link": "https://www.cnbc.com/2026/08/08/hugging-face-ai-hack-cybersecurity-black-hat.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-08T12:00:01+00:00"
+    },
+    {
+      "title": "Cyclospora fears lead consumers to lose their appetite for salads",
+      "link": "https://www.cnbc.com/2026/08/08/cyclospora-salads-lettuce-restaurants.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-08T12:00:01+00:00"
+    },
+    {
+      "title": "Elevator giant Otis wants to be a defensive play in an volatile market. It has to prove itself first",
+      "link": "https://www.cnbc.com/2026/08/08/elevator-giant-otis-stock-wall-street.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-08T12:00:01+00:00"
+    },
+    {
+      "title": "‘This has been an emotionally difficult time’: My brother has cancer and my father is 94. How do I shoulder this responsibility?",
+      "link": "https://www.marketwatch.com/story/this-has-been-an-emotionally-difficult-time-my-brother-has-cancer-and-my-father-is-94-how-do-i-shoulder-this-responsibility-9da09dc4?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-08T12:00:00+00:00"
+    },
+    {
+      "title": "How can we minimize taxes in retirement with a $2.3 million nest egg — while buying homes in Florida and New England?",
+      "link": "https://www.marketwatch.com/story/how-can-we-minimize-taxes-in-retirement-with-a-2-3-million-nest-egg-while-buying-homes-in-florida-and-new-england-9e2449aa?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-08T12:00:00+00:00"
+    },
+    {
+      "title": "A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low",
+      "link": "https://www.cnbc.com/2026/08/08/record-breaking-week-for-options-powers-sp-500-surge.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-08T11:49:22+00:00"
+    },
+    {
+      "title": "피치 “韓 증시 침체 길어지면 부동산 투자 심리도 위축” - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95RHNXVDBzV0IzZFBOaklESnRVYmNFUl9kT3UyczR0NVlXSEJabG1PN3g4RDlIZlBKcWdZRGtoTVZVTVVSZVRmQy1VVG1UWlBfZVHSAVNBVV95cUxQXzl1YmI5T2VWb0lPdnU1LU1rYXlkYm9IdXRrbVE5cXp0bS1xN25TWkItMjRRclliamlUYW9IMGpvdjU1WjFCZ2RERzM3LUdDQjdjMA?oc=5",
+      "source": "Google News",
+      "published": "2026-08-08T11:38:19+00:00"
+    },
+    {
+      "title": "Here’s why Wendy’s is losing the burger wars",
+      "link": "https://www.marketwatch.com/story/heres-why-wendys-is-losing-the-burger-wars-bf79deba?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-08T11:30:00+00:00"
+    },
+    {
+      "title": "My brother asked me to sign as his executor, but wouldn’t let me read the document. Should I have refused?",
+      "link": "https://www.marketwatch.com/story/my-brother-asked-me-to-sign-as-his-executor-but-wouldnt-let-me-read-the-document-should-i-have-refused-1b53d9bc?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-08T11:00:00+00:00"
+    },
+    {
+      "title": "SpaceX’s Nvidia deal could be bad news for neoclouds like CoreWeave and Nebius, analysts say",
+      "link": "https://www.marketwatch.com/story/spacexs-nvidia-deal-could-be-bad-news-for-neoclouds-like-coreweave-and-nebius-analysts-say-168c9ed1?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-08T11:00:00+00:00"
+    },
+    {
+      "title": "“‘콩’했는데 425만원 중고차값 물어줬어요”…내달 나이롱 환자 검토제 도입",
+      "link": "https://www.mk.co.kr/news/economy/12121771",
+      "source": "매일경제·증권",
+      "published": "2026-08-08T10:40:44+00:00"
+    },
+    {
       "title": "삼전닉스 급락에 개미들 美 증시로…월가는 “과열 경고” - 서울경제",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ySTFSZkhFRFAwRDJpaHI2LUhHUm9Pb2hTUjJZQmFoREtOMFNLcVZwVVRVdHVqbmNnUmstRzJ4R0dESDBKeERJeHdkclRzaEFzM3fSAVNBVV95cUxQa0ZnTnNuNXhtWnozOW9QTkEwM3V5NlFtRGNkdGpFR0thd1hxWmU0cUlmQUt1bVdEb3lsY0pMTDRhREpBa0w2MUxRN3QtQU03RVk3RQ?oc=5",
       "source": "Google News",
       "published": "2026-08-08T09:25:31+00:00"
     },
     {
-      "title": "‘정부의 서학개미 증시복귀 작전 실패?’…로이터 “코스피 신뢰 빠르게 악화” - 문화일보",
+      "title": "‘정부의 서학개미 증시복귀 작전 실패?’…로이터 “코스피 신뢰 빠르게 악화” - munhwa.com",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2U0pzUkNuekFNeUZGNEhYbWRfUm5QVzNoYWFrOGZHMTl3SXdFbzVMdWpVTm0wQ3U2dVR3WG1sMTgzZE1SWFI0NFg2T05nT3o5?oc=5",
       "source": "Google News",
       "published": "2026-08-08T09:22:36+00:00"
@@ -263,7 +335,7 @@
       "published": "2026-08-08T08:17:34+00:00"
     },
     {
-      "title": "대공황보다 먼저 있었다…세계 첫 증시 대폭락에 남은 순서 - 자본시장뉴스",
+      "title": "대공황보다 먼저 있었다…세계 첫 증시 대폭락에 남은 순서 - jabon.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaMmlkYXIzT1R5Q2Y0YlZtcnhsYlJ2Unp4dDFNekxwRlRoYm5wNmZNZmVGUVNmdmtDZ2x2YWtyUEVjaEtWTFcwXzJYTWJCR0dsUW5RXzk5c2ozNEVHZ3hLdmxqdVZLX3c?oc=5",
       "source": "Google News",
       "published": "2026-08-08T07:00:00+00:00"
@@ -311,7 +383,7 @@
       "published": "2026-08-08T04:00:00+00:00"
     },
     {
-      "title": "韓 개미들, 삼전닉스 떠나 美 증시 사들였더니…월가 “위험자산 줄여야 할 때” 경고 - 전자신문",
+      "title": "韓 개미들, 삼전닉스 떠나 美 증시 사들였더니…월가 “위험자산 줄여야 할 때” 경고 - etnews.com",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9BelJSVnN0bVZKa1kwRnY3T3UwWWxCUWJIMjRENDZXdHRQeEtMYkhjbmxtYmhwd0ozOEZ2RXFERlRSODFGc3RtMXg2cVJWZw?oc=5",
       "source": "Google News",
       "published": "2026-08-08T02:40:00+00:00"
@@ -323,7 +395,7 @@
       "published": "2026-08-08T02:20:04+00:00"
     },
     {
-      "title": "美 일자리 줄었는데 증시는 최고치···금리인상 기대 꺾였다 - sisajournal-e.com",
+      "title": "美 일자리 줄었는데 증시는 최고치···금리인상 기대 꺾였다 - 시사저널e",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE02aGFBMUdEa2VyZzJTekFpek5SdlVoZy1teXppdmtzajg0clBEalRHNksxSW93SDFjOW9oQmJJUjZXNnc0YkxwR1YxY1VXQy1va1RQaE1iTkU0MHdXUTg5LXZsdEF1djlVNEhnYlNVeGRXUdIBdkFVX3lxTE56eWE1OUhxN3pMSnlob09TVERQZnZNbC0xSVRiQzZBdTN4cERpZG84d0Zvc3p0M1RBVXYyazRKbTBlVGJaMXlPd2lDdUFJakdnQV85YjZZT0dpODh0RWJqN21LWmk3a2pKTFp4ZkNwUjlkZXlCUEE?oc=5",
       "source": "Google News",
       "published": "2026-08-08T02:02:20+00:00"
@@ -341,7 +413,7 @@
       "published": "2026-08-08T01:30:01+00:00"
     },
     {
-      "title": "삼전닉스 레버리지 ETF 규제했지만… ‘코인판’처럼 흔들린 코스피 [주간 증시 해설서] - 더스쿠프",
+      "title": "삼전닉스 레버리지 ETF 규제했지만… ‘코인판’처럼 흔들린 코스피 [주간 증시 해설서] - thescoop.co.kr",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WSDRma015X2NadGtPOVVCNUNFMGJXekNWY3AxdGZ5dFYzRGZDRVhmb3pZUzkyZ3dQc0ZVTnhkYmk0UG9OaEtTZ2c5TGFuajh4OFNXdTFUV0loUURIcFlEMUxZeV9pT1VlUUlTekh3?oc=5",
       "source": "Google News",
       "published": "2026-08-08T00:39:08+00:00"
@@ -353,19 +425,13 @@
       "published": "2026-08-08T00:30:00+00:00"
     },
     {
-      "title": "美 고용 쇼크에 증시는 환호…S&P500 사상 최고 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdVlGYU1hVXpfM0tBZkcxdF9BQmhpTWR6RjVYenRXZDJHVXltVE9WREpwNVNTQlNfS3hPUFJhTjlVWDBhNHloa2JtX2YyTS0tQ0JEZW9YZkNxWWlxNzlyQWd0dXNUbTBDUlNqUDk4Rkc4R1I0UXpKMXQ4S1RjbzZZMldfYXY3NTRDcDBlQUVGNA?oc=5",
-      "source": "Google News",
-      "published": "2026-08-08T00:23:00+00:00"
-    },
-    {
       "title": "美증시, 고용 악화 속 금리인상론 후퇴에 상승…S&P 사상 최고 - 아시아경제",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UTlkyYVQ3Q1dPUjJUZk5QZ1BISlRCWnh1UGZzZ1JvSjJvbVp2dV9PVDBjazVPaVNxVkJ1cDh5aTFqTmJEaUtkTlk4dmZScEt4QllfWFZnMndRZU1rTFgzeA?oc=5",
       "source": "Google News",
       "published": "2026-08-08T00:16:47+00:00"
     },
     {
-      "title": "고용 쇼크에 웃은 美 증시…S&P500 또 최고치 - 이코노미스트",
+      "title": "고용 쇼크에 웃은 美 증시…S&P500 또 최고치 - economist.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JbkJHQTVuMHM0cVFZVlNndFBXOGU0UFlUVnZpSjRobU1XTG81djBsSW5LS05hNXE4S0VSN1pFeG0yekZRb3pFb0RCTTBwaVhfS095UG5NMTZ3YnRGUFlQVUl3?oc=5",
       "source": "Google News",
       "published": "2026-08-08T00:16:00+00:00"
@@ -389,7 +455,7 @@
       "published": "2026-08-08T00:00:01+00:00"
     },
     {
-      "title": "미국 증시, 금리인상 기대론 후퇴에 상승…S&P500 사상최고치 마감 - BBS불교방송",
+      "title": "미국 증시, 금리인상 기대론 후퇴에 상승…S&P500 사상최고치 마감 - news.bbsi.co.kr",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9GMDczQ2RvQ1FjRHNCUGtzQnVvMGhqbzFmejRCaks1dXNqVHBwYklTM3hERl9zdFNYbDY5eXNKQXhfX3h3alU4ZG5ObzNhVGI2SER5YzVpVFdyTWVhZFprdUpyOWJHWUFpZFpr?oc=5",
       "source": "Google News",
       "published": "2026-08-07T23:52:20+00:00"
@@ -471,72 +537,6 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vQWFhclNPNzgyZHotSE9zcm5Ub0F5ekRodmNPYllENFJSaGlld3QxOGU1QjlqeDAtelNDTzg5NGV2S0FBbEdWMk5ZX1Z0NERrbW1MYXpkci1XTWRwcEg2TmlDb250eUEydkNaNNIBckFVX3lxTE1SZDh3OGp3alZzRjFRQlIxSThyTjZxbVdIZmh3S29kZW5rLXRuSEVYUDFPdlAxU3lKMjBlRG5tdXg5V1ZqVS0td3dRSElMMUtEQ2tJM0gzS2JWdlVxanJnYWdQb0hvM2s4TmVhTFA4SVZRQQ?oc=5",
       "source": "Google News",
       "published": "2026-08-07T22:00:00+00:00"
-    },
-    {
-      "title": "The smart way to invest in gold right now as the dollar slips",
-      "link": "https://www.marketwatch.com/story/the-smart-way-to-invest-in-gold-right-now-as-the-dollar-slips-22fdf3b2?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-07T21:58:00+00:00"
-    },
-    {
-      "title": "美증시, 고용 악화에 금리인상 기대 후퇴…S&P500 사상최고치 마감 - 매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5GRjNOZnVxSkhuTnMwT3I5bExzczNuS0pQaGs4TzJrQi1LbjVSbWt0eXhkY3FwVnc2eVhfajJKMktmdVdGUWpZcUlmdjBGS180UFE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-07T21:52:10+00:00"
-    },
-    {
-      "title": "미국 증시, 금리인상 기대론 후퇴에 상승‥S&P500 사상 최고치 마감 - MBC 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0tZTJQRDNJVkp6NjR3MkgwNjJsb3JfUDdjV3hTTVcyQkFvbVpFSmp0MXVlUS0xb3RNWENjYWRzYXlTVHBGZ05JN2M3Si1WTklldS1UQjNMNHJOMk1aVHpsd3A1NlFzS09Sdkd6UFlJUHh5ZURp0gF0QVVfeXFMTkhsVGVLb3dIS1F5b0Q0ak5mQWdLNlAzYTBGb0phc20tZjdYdGZRcW1rd0EzaFp1NDYybDlXRFlIQ29kRGtoT0trRTlHQ2xuS1Frc0dDTFVxd0FjWUxYem1nOW9nY0xwN0dhcnJFTDVzeEhuWF8?oc=5",
-      "source": "Google News",
-      "published": "2026-08-07T21:47:08+00:00"
-    },
-    {
-      "title": "Prediction markets take center stage in latest round of quarterly earnings reports",
-      "link": "https://www.cnbc.com/2026/08/07/prediction-markets-take-center-stage-in-latest-quarterly-earnings.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-07T21:38:57+00:00"
-    },
-    {
-      "title": "美증시, 금리인상 기대론 후퇴에 상승…S&P500 사상최고치 마감(종합) - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVZmJvY194d0I1VXU3eTYydFlBclhQbF82NFdneTg5bl9XdjhhOE5nbXlfTlpLaXJXM1N4WHdrMmdaZUp0NkU4bjc4cnVCZzg?oc=5",
-      "source": "Google News",
-      "published": "2026-08-07T21:13:51+00:00"
-    },
-    {
-      "title": "美증시, 금리인상 기대론 후퇴에 상승…S&P500 사상최고치 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260808005151072",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-07T21:12:23+00:00"
-    },
-    {
-      "title": "찜통더위도 싫지만, 병원비는 더 싫다…‘온열질환 보장’ 기후보험 주목",
-      "link": "https://www.mk.co.kr/news/economy/12121616",
-      "source": "매일경제·증권",
-      "published": "2026-08-07T21:05:04+00:00"
-    },
-    {
-      "title": "[뉴욕증시] 고용 쇼크에 금리 부담 덜었다…강세 마감 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpaWF6S0RnOU85elllbG5nRDBSZWhCeEtvWjJSNTJ3QjdmZGFZR0ZQSkRSeU9vdmZnbUxjQ0tOZXBzbVRoSjhwQVpTZ01pQkhPZWlaM2h3ZzZCTGJwenRLQ0Z1U2NwcU13d1JJVEFra1Y?oc=5",
-      "source": "Google News",
-      "published": "2026-08-07T20:55:58+00:00"
-    },
-    {
-      "title": "Palantir’s stock stages best week since 2024 — showing it’s no longer an ‘AI loser’",
-      "link": "https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-07T20:54:00+00:00"
-    },
-    {
-      "title": "전쟁 발 고용 약화로 금리 인상 기대감 하락에 뉴욕 증시, 상승 마감...S&P 500 사상 최고치 - YTN",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9lZElVQVFOSFJzaDB5bFlfamQ1dV9SWGtadHIwTFE1THJQeWpCNUNXZFppVGRCMkVnVmxVWndlWTBfbWFsNXkxOWswVFM3bGpwQmRyeWtKUWpHcWZDUGc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-07T20:52:00+00:00"
-    },
-    {
-      "title": "뉴욕증시, 기준금리 인상 후퇴 기대에 3대 지수 일제히 상승[뉴욕마감] - MTN 머니투데이방송",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBHMV9CeVR3SGI4Z01HZThYOUtSWUpvQUFvUXRIdHJiVHpCWUgwTS13bXJzWDd0OU1nU1lZMFRFSG91V0gwenhVWkJqY0xkUWZwYnFTNGxsT2U4U3FQODU1UHZMYXo?oc=5",
-      "source": "Google News",
-      "published": "2026-08-07T20:42:30+00:00"
     }
   ],
   "pages": [
