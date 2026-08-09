@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-09T07:01:23.779144+00:00",
+  "as_of": "2026-08-09T08:47:34.752560+00:00",
   "stocks": [
     {
       "code": "MU",
@@ -239,19 +239,91 @@
   ],
   "news": [
     {
+      "title": "K반도체 반쪽 호황 … 장비 수출은 역성장",
+      "link": "https://www.mk.co.kr/news/economy/12122214",
+      "source": "매일경제·증권",
+      "published": "2026-08-09T08:34:16+00:00"
+    },
+    {
+      "title": "새로운 '은행 큰손'은 외국인 … 맡긴 돈만 25조원",
+      "link": "https://www.mk.co.kr/news/economy/12122209",
+      "source": "매일경제·증권",
+      "published": "2026-08-09T08:32:23+00:00"
+    },
+    {
+      "title": "폭염·가뭄 피해농가에 3천억 지원",
+      "link": "https://www.mk.co.kr/news/economy/12122188",
+      "source": "매일경제·증권",
+      "published": "2026-08-09T08:26:04+00:00"
+    },
+    {
+      "title": "기업 자금난 '경고등'… 어음부도율 13개월만에 최고",
+      "link": "https://www.mk.co.kr/news/economy/12122187",
+      "source": "매일경제·증권",
+      "published": "2026-08-09T08:26:04+00:00"
+    },
+    {
+      "title": "李대통령 \"결혼 페널티 없애라\"… 정부, 청년민심 달래기",
+      "link": "https://www.mk.co.kr/news/economy/12122186",
+      "source": "매일경제·증권",
+      "published": "2026-08-09T08:26:03+00:00"
+    },
+    {
+      "title": "서울 준공업지역 2만7천가구 속도…13일 전후 주택공급대책(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260808046051003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-09T08:04:18+00:00"
+    },
+    {
+      "title": "증시 급락에 ‘빚투’ 후폭풍…청년·고령층 연체 뛰고, 증권사 단기조달도 급증 - 중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TS01LMFJDdXBGaVdLT240VXRZcS13am8zNHFrN1ExSXp1bERHc2oyOXZIM1dqYk9PckdWLU5LZGJZRVZXYW5Yb0xMY01Jd2dnNGxRZFB3?oc=5",
+      "source": "Google News",
+      "published": "2026-08-09T07:47:27+00:00"
+    },
+    {
+      "title": "“쿠팡도 알리도 바로 들어가지 마세요”…남보다 1만포인트 더 받는 쇼핑 비법",
+      "link": "https://www.mk.co.kr/news/economy/12122117",
+      "source": "매일경제·증권",
+      "published": "2026-08-09T07:30:36+00:00"
+    },
+    {
+      "title": "'V자 반등'이냐, 'L자 정체'냐 기로에선 증시… 반등 모멘텀은? - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96dEVQTFQ4Q0pyb0hWRnV6ZjUwbTZmM1I3Mk5yam1fTnRuSWhVZ29QRkljTFNqWTYtTWxybjlIdGVKS00zQkp2dl9GVjlDWEM0Tk0zT3F5bklNZw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-09T07:15:04+00:00"
+    },
+    {
+      "title": "청년·고령층 마통 연체율 급증… 증시 하락에 ‘빚투’ 후폭풍 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNDVxMUhoM0IwaDJYQW9CNUJhaHRtSllMT2RrdlQwUVJndWtpVGNvNmZSMGQwTlh6a0hJMFhxWDVsdzZuOFpGeTQ4MGRJRDl0YVNJMVJGUjlwWUxxVV80UGkyV1huSDFvcGxmZlhhMEpPVE5YeTNtUGo4UHl6NnNKU9IBlAFBVV95cUxQOG9XdlBUVGFFVlMzTzNuWmp5bVpjc1B3OEtGRE5lZFNSblZMb0RJQm5Vb2VEWFdvQmU3S2dRREVtSHJxeDlOdVVMX2xfTmxyc2FMVVE1UjFDRjJUQlRWZlNhaHNMUlRoZ3lPNjZuMnM5a2NMVjhHN0dKZlFDWnowblZSekVld05hYXctYWliWjFQRHFZ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-09T07:10:00+00:00"
+    },
+    {
+      "title": "증시 조정 영향?…청년·고령층 마통 연체율 높아 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DLXd4c2VtYWpJZHVBUVAyMzFTWEY2UEZQRUdzWnhTSFZ0MzFYYmtFNkZjMmh4dkJBUkdhbXRNSkt2S042U3E0VjZCc3RkZEU?oc=5",
+      "source": "Google News",
+      "published": "2026-08-09T06:45:30+00:00"
+    },
+    {
+      "title": "증시 조정 영향?…청년·고령층 마통 연체율 높아 - yonhapnewstv.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wdk9VeXg1UlFMYTZXTHBFdTZQWFJDWkVJRno1TEpuWkxjeHNpSHhpa3FfWk56NkhVbHo2WW1aLW5ORGZJR3llZ1EwQVFlZVJWRHgtYnE2aVVaU3UxM3BQRG16M051S2c?oc=5",
+      "source": "Google News",
+      "published": "2026-08-09T06:43:00+00:00"
+    },
+    {
+      "title": "증시 체질 개선 밸류업 본격화…한계기업 구조조정 시험대 - 대한경제",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5zcnVrUTB0ekE4ZE9RbTdFTWhEU2RUVnVwSGRuYV9iMk5ackZxNlRsS2thWi1TeHdDY04tMmFzVFhtc3NndGIwR1U5aHhiZGJKcGRIUXJKXzJnOUllZmM1MlJUWWg2S1VsWkJCVUZpY21XQ3Rr?oc=5",
+      "source": "Google News",
+      "published": "2026-08-09T06:40:19+00:00"
+    },
+    {
       "title": "5대 은행 마통 연체율 0.22%…청년·고령층 빚투 적신호",
       "link": "https://www.mk.co.kr/news/economy/12122068",
       "source": "매일경제·증권",
       "published": "2026-08-09T06:40:11+00:00"
     },
     {
-      "title": "국장 ‘대혼란’ 이제 끝?…“증시 급변동 일단락 가능성” [지금뉴스] - KBS 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9abTJfUWFiV25Ka1BVZ25OZWZmMXl6ZjVVNFY5X3NGdXdxdFE2LTgxeFhJbFAwTk5COHNDclZOQThFajkxcV91U0pHcjhqNVVZd3RQVTQwVzdkY2M4Y19BUEtoejJKNFpFbEVYM2Nn?oc=5",
-      "source": "Google News",
-      "published": "2026-08-09T06:39:00+00:00"
-    },
-    {
-      "title": "어닝 서프라이즈로 미국 증시 사상 최고치 랠리 우려 완화 - kr.investing.com",
+      "title": "어닝 서프라이즈로 미국 증시 사상 최고치 랠리 우려 완화 - Investing.com 한국어",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oR21zeG15bGFCY21oZ21ndHkwMi1uX0VPckpGNm1qRVVELVdpcnFDZ2NWN21NdzAzX0d0WTI5STBMMUxvQmFCMk01aVQtcGVsNTBEX0FxcE42VkNSN2JNVTdTOERVbmhaT0pzQnZoM08?oc=5",
       "source": "Google News",
       "published": "2026-08-09T06:38:00+00:00"
@@ -299,19 +371,13 @@
       "published": "2026-08-09T05:00:00+00:00"
     },
     {
-      "title": "[주간 증시 전망] 반도체 쏠림 완화에 코스피 '숨 고르기'…추세적 반등 열쇠는 - 뉴스웍스",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WUHhyanUyVzhKSFRQc0FoN3pkSFNudkZiRGRmMms0ZmhqNUM0bkVNanZFUzVfeE5DejJ1RjJSZEFNMFd6b1JFWjZaQng3aUs5ZW5ldGg5R09wUFdMZURodzhNdmcxcEphNGt4aUxjMNIBc0FVX3lxTFA2VDhKM28zMnVUT2UtSlBheXEwdmZfVUFhUTgyZ0tzNzNmVVp6d1c3dHI0X1JveWh4U1huMEYzWVRnSFRSc0xVU1NVTzRpZnBWazdOZTMwSzFTeEh4SGNONmhLTTNKRks5eTJzMENLUVBuekE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-09T05:00:00+00:00"
-    },
-    {
       "title": "세무사도 “헷갈려”…더 복잡해진 세제 개편안에 업계 비판 일성",
       "link": "https://www.mk.co.kr/news/economy/12121915",
       "source": "매일경제·증권",
       "published": "2026-08-09T04:58:06+00:00"
     },
     {
-      "title": "[일요와이드] 김민석 제주·인천 승리…李, 증시정책 잇단 재점검 - 연합뉴스TV",
+      "title": "[일요와이드] 김민석 제주·인천 승리…李, 증시정책 잇단 재점검 - yonhapnewstv.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mbDFZemhTcTljQndJMjdXd3Q0SjhRc1BmdmFnajlVM1Jha0dncldIblJ4c21CQVpPRXE4aTg0ODdGRFhJYXZNMnZYaElib0MwNWJ6emZBYTM2ZV9STWVVbm5GdExxdmM?oc=5",
       "source": "Google News",
       "published": "2026-08-09T04:45:00+00:00"
@@ -323,16 +389,22 @@
       "published": "2026-08-09T04:31:44+00:00"
     },
     {
+      "title": "월요일에 주식 사도 될까…이번 주 증시 흔들 '빅 이벤트' - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzTkRuUGZqcmdSNWVyWkFSYjh1b2p0T1cwVFFLR3pJWENBSHBkeW55NjY0d0RlYzhvY0diV1Vfa0dIM2t1SkNGZ1UyWFdmbmM?oc=5",
+      "source": "Google News",
+      "published": "2026-08-09T04:30:40+00:00"
+    },
+    {
       "title": "과열 끝났나…블룸버그 “국내 증시 변동성 마무리 단계” - dt.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zMG1FM0VDYXhoNlZfTU1PWDVrNUdwb3Bia25PQVhKdmc0dU1GV3hOclpZZUR0c1NLY2R3a3NSSjVjQ3Y4ZWpiQVd3SDBaZw?oc=5",
       "source": "Google News",
       "published": "2026-08-09T04:25:16+00:00"
     },
     {
-      "title": "“2030 지지율 30%대로 뚝”…부동산·증시 불만에 청년 민심 흔들 - 매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YUkxtMjlTcnVYZzBjYkZ4eVpxX3dNUU1qeGI3R0NiYU4wSTV6VnY4R3ExTjFnUlBKZy16anRYUnRSdGJiWkVOeUdGZ1pEcHRXSnc?oc=5",
+      "title": "\"2030 지지율 30%대로 뚝\"…부동산·증시 불만에 청년 민심 흔들 - news.nate.com",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfRFhLZjFlbmJOWnU3MjZWRF9HeG14TGd6OXAtWTMzSFJoRWR5cnV1TzNwWEFXY3ZfWW5LS0gtenZoWFdQT19KUF9zaWhSM0k2aWpV?oc=5",
       "source": "Google News",
-      "published": "2026-08-09T04:23:00+00:00"
+      "published": "2026-08-09T04:24:00+00:00"
     },
     {
       "title": "국힘 \"韓 증시, 외국인 ATM으로 전락… 단일 종목 ETF 국정조사 해야\" - 조선일보",
@@ -353,7 +425,13 @@
       "published": "2026-08-09T04:00:01+00:00"
     },
     {
-      "title": "레버리지 거품 걷힌 한국 증시… ‘역대급 저평가’에도 외인이 머뭇거리는 이유 By EBN - kr.investing.com",
+      "title": "“롤러코스터 韓 증시 변동성 완화”…블룸버그가 반응한 반전 신호 - 전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1uRUdZSGVZMTBFdFNGOFRxNUl3N1F5Mjg3eVJLMC1UMnlpbjlmcEQzaFJWMURmWDBfbG1XcHptZ2RPbmtqT1JLbkhrcnRjZw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-09T03:46:00+00:00"
+    },
+    {
+      "title": "레버리지 거품 걷힌 한국 증시… ‘역대급 저평가’에도 외인이 머뭇거리는 이유 By EBN - Investing.com 한국어",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLeDNYd0stR1FrR2tLTU50SFQ2czhtOHFJMkVsNXpjOXR5T0VjM0s3LXgtdlFyak5PR040MUtpTVctT3dMcXFqRmJVaWJKT252QmpWZXVEbXFfdFRHQWc5dWVWdFdyenlQY3lRc2RueFA?oc=5",
       "source": "Google News",
       "published": "2026-08-09T03:41:00+00:00"
@@ -443,18 +521,6 @@
       "published": "2026-08-09T02:29:14+00:00"
     },
     {
-      "title": "블룸버그 “한국증시 극심한 변동성 마무리 단계… 레버리지 청산·규제 여파” - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBvcmJ2MXhwMkR3d0ZsNzlvVm9GbU1nTlpBOHFrR0JINjNGNDhsdFpwVDdhZVl5b0FqMDdNdTR3di1KUmhhbXoxR0lVbnZsMzQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-09T02:28:09+00:00"
-    },
-    {
-      "title": "블룸버그 \"레버리지 청산에 韓증시 변동성 진정 가능성\" - 서울경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10ZkpZQXQxVk5MaGpVYk1obUhvdUIxaWlITk1zVi0yMExnelRKcGUxQmpoNE4zdVZLenVSUG5TVGdET3Vqa3M3Q1pLMGNoak8zSjV0bUxwWFBweHRFVDdfb3VWb04?oc=5",
-      "source": "Google News",
-      "published": "2026-08-09T02:24:37+00:00"
-    },
-    {
       "title": "블룸버그 “韓 증시 변동성 진정 국면… 레버리지 청산·규제 효과” - 조선비즈 - Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOakFZSkticTVqZXplUlF3WnRmSjBma2ZETEcwTC1JOW1XalktdU9oTmxoaE54a2xnSEJ0TFYtN2VIUXhkNHVVOHpHWWVTZnJHQ2lLemFZMW96Slowd3poOGFRMDNtRnN2dnVHUVU4NjBXYnpCNUNuRDUzT2UzWmc5X3lLM050SmhG0gGcAUFVX3lxTE1JNldUUHdtM01sSU5KUVhxal9nanF6MzRxZWlTOF84N1BlbzNLZXZjMzlNWFpvV0JCQWxaUDhkZnQ5M1hlejJzTDIwVzBBdHJBZXBHdkZ6b3piMEtwU183bzlCcUdlYkNkN3RjMUdfWWpMQWxINEhZN1lodFZXNy1YQ05QaElWUVZ0ZUI5TVgyVlUwa0dKSEpaX2pvWQ?oc=5",
       "source": "Google News",
@@ -467,76 +533,10 @@
       "published": "2026-08-09T02:18:32+00:00"
     },
     {
-      "title": "[속보] 韓증시 롤러코스터 끝나나…블룸버그가 주목한 반전 신호 - wowtv.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBqSlUtMUwzRWxpMUNHbTZ3TEJVS2NOSGJ2MVFRa2tRcWVwYi1EYnZYQnhaR2h4UmhIX1hGQ1JUUFhlRnFXQXNDUzh3VDdYQW9pM1JOSmV4dnF5cWRxTmZTMW1SWktkdVV3cUd2WjZNWDV3OUJlZkZv?oc=5",
-      "source": "Google News",
-      "published": "2026-08-09T02:17:00+00:00"
-    },
-    {
       "title": "조국 \"김정관, 中 '996 노동제' 칭송은 반인권·시대착오적\"",
       "link": "https://www.yna.co.kr/view/AKR20260809018100001",
       "source": "연합뉴스·경제",
       "published": "2026-08-09T02:11:44+00:00"
-    },
-    {
-      "title": "블룸버그 \"레버리지 청산에 韓증시 변동성 진정 가능성\" - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9laE1jNmtLaTFzbHdXb3hIOE84NDJuakdmRzc2bjR1Ym1TSzRUbldleUY2VVdWdzMybFZnOFV3QnZxQzJTN2JJbVdoZl90VkE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-09T02:06:02+00:00"
-    },
-    {
-      "title": "블룸버그 \"레버리지 청산에 한국증시 변동성 일단락 가능성\" - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4U1pFeGU3TF9USlk1S3VIY2ZNRWZoQU95WktzUzZHd1pDT1JJOFlmSURJT01fdzZNa0lWWC0zM1JNVEVOLWFEWGdVdWMwNG9tWFAxRWs3WTktTDTSAWBBVV95cUxNd1dpM1hzeTg4LWxHWVJ2TmR2MTFMaXp2amxZd3JldkhNRnBRamJuX2lQTXk1SDNLd2V4WFE4THRGUUtyeHpKU255OHgyNktON1hCXzlURS1OejNFWkxaZ0s?oc=5",
-      "source": "Google News",
-      "published": "2026-08-09T02:01:04+00:00"
-    },
-    {
-      "title": "영세 음식점 세금 부담 던다…의제매입세액 우대공제 2년 연장",
-      "link": "https://www.yna.co.kr/view/AKR20260808022400030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T02:00:04+00:00"
-    },
-    {
-      "title": "농식품부 \"8개 주정회사, 과잉생산 보리 2만5천t 특별매입\"",
-      "link": "https://www.yna.co.kr/view/AKR20260808023700030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T02:00:03+00:00"
-    },
-    {
-      "title": "휴가철 축산물 원산지 위반 106곳 적발…돼지고기 최다",
-      "link": "https://www.yna.co.kr/view/AKR20260808024200030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T02:00:03+00:00"
-    },
-    {
-      "title": "농·어업인 세제혜택 상시화…면세유 지원 2029년까지 연장",
-      "link": "https://www.yna.co.kr/view/AKR20260807141900030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T02:00:02+00:00"
-    },
-    {
-      "title": "한국경제인협회, 대국민 창업 프로젝트…12주간 100개팀 육성",
-      "link": "https://www.yna.co.kr/view/AKR20260809015600003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T02:00:00+00:00"
-    },
-    {
-      "title": "고의로 44차례 사고 내 보험금 가로챈 오토바이 배달기사 송치",
-      "link": "https://www.yna.co.kr/view/AKR20260809016800064",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T01:43:42+00:00"
-    },
-    {
-      "title": "“틈만 나면 레버리지”... 증시 반등하자 하루만에 1조원 늘어난 ‘빚투’ - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOWd6S1RpeTB4UXI5Vzk5bVhnVFl5cDZXMzRlWU1jaHd1aENQZ2FybnlicXJFZnJkM3dkZlNDN243ellXQWlIOFBnZjJjajBMTFNCb3dUVTREYi1sZFlCTnF6cF9MRmpjOEhOYkhBbE5QUFRyVmlvZWhLU1daM2RFWA?oc=5",
-      "source": "Google News",
-      "published": "2026-08-09T01:36:00+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
-      "link": "https://www.yna.co.kr/view/AKR20260809015500011",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T01:30:00+00:00"
     }
   ],
   "pages": [
