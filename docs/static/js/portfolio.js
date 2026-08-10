@@ -78,7 +78,8 @@
     if (!withWeight.length) return "";
     var segs = withWeight.map(function (a, i) {
       return '<div class="v2-alloc-bar__seg" style="width:' + a.weight_pct + "%;background:"
-        + SERIES[Math.min(i, SERIES.length - 1)] + '" title="' + esc(a.label) + '"></div>';
+        + SERIES[Math.min(i, SERIES.length - 1)] + '" title="' + esc(a.label) + " "
+        + a.weight_pct.toFixed(1) + '%"></div>';
     }).join("");
     var legend = withWeight.map(function (a, i) {
       return '<span class="v2-alloc-legend__item"><span class="v2-alloc-legend__chip" style="background:'
@@ -192,11 +193,17 @@
     var top = rows.slice(0, 4);
     var restPct = rows.slice(4).reduce(function (acc, h) { return acc + h.weight_pct; }, 0);
     var segs = top.map(function (h, i) {
+      // 12% 미만 조각에는 라벨을 넣지 않는다 — 텍스트가 조각보다 넓어져 잘린다(범례가 값을 진다).
+      var label = h.weight_pct >= 12
+        ? '<span class="v2-alloc-bar__seglabel">' + h.weight_pct.toFixed(0) + "%</span>" : "";
       return '<div class="v2-alloc-bar__seg" style="width:' + h.weight_pct + "%;background:" + SERIES[i]
-        + '" title="' + esc(h.name) + '"></div>';
+        + '" title="' + esc(h.name) + " " + h.weight_pct.toFixed(1) + '%">' + label + "</div>";
     }).join("");
     if (restPct > 0) {
-      segs += '<div class="v2-alloc-bar__seg" style="width:' + restPct.toFixed(1) + "%;background:" + OTHERS + '"></div>';
+      segs += '<div class="v2-alloc-bar__seg" style="width:' + restPct.toFixed(1) + "%;background:" + OTHERS
+        + '" title="기타 ' + (rows.length - 4) + "종목 " + restPct.toFixed(1) + '%">'
+        + (restPct >= 12 ? '<span class="v2-alloc-bar__seglabel">' + restPct.toFixed(0) + "%</span>" : "")
+        + "</div>";
     }
     var legend = top.map(function (h, i) {
       return '<span class="v2-alloc-legend__item"><span class="v2-alloc-legend__chip" style="background:'
