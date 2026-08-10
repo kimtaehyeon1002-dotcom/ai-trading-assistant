@@ -154,3 +154,56 @@ def test_as_of_display_matches_as_of_iso():
                                    "source": "kiwoom", "as_of": iso}})["kospi_night"]
     assert q.as_of_iso == iso
     assert q.as_of == "07-24 13:40"
+
+
+# ── 종목별 허용오차(2026-08-10) ────────────────────────────────────────────────
+# 지수 기준 0.5%p를 VIX에 그대로 쓰면 영구 degraded가 된다. 항상 켜져 있는 경고는
+# 경고가 아니라 잡음이므로 종목별로 나눴다. 아래 둘이 그 균형을 고정한다 —
+# 넓히되(잡음 제거) 진짜 어긋남은 여전히 잡는다(신호 보존).
+
+
+def test_index_tolerance_stays_tight():
+    from config.markets import cross_check_tolerance
+
+    assert cross_check_tolerance("sp500") == 0.5
+    assert cross_check_tolerance("kospi") == 0.5
+
+
+def test_volatility_indices_get_a_wider_tolerance():
+    """VIX·MOVE는 절대값이 작아 같은 비율의 가격 차이가 등락률에서 크게 증폭된다."""
+    from config.markets import cross_check_tolerance
+
+    assert cross_check_tolerance("vix") == 2.0
+    assert cross_check_tolerance("move") == 2.0
+
+
+def test_observed_vix_gap_no_longer_flags(monkeypatch):
+    """실측 2026-08-10: yahoo 3.63% vs fdr 2.15% = 1.48%p. 정상 오차로 통과해야 한다."""
+    from collectors import market_collector as M
+
+    monkeypatch.setattr(M, "_fdr_available", lambda: True)
+    monkeypatch.setattr(M, "_fdr_quote", lambda code: (15.22, 2.15))
+    out = {"vix": {"change_pct": 3.63}}
+    M._cross_check(out)
+    assert out["vix"]["quality"] == "verified"
+
+
+def test_real_vix_divergence_still_flags(monkeypatch):
+    """넓힌 것이 신호를 죽이면 안 된다 — 소스가 진짜로 어긋나는 규모는 여전히 잡는다."""
+    from collectors import market_collector as M
+
+    monkeypatch.setattr(M, "_fdr_available", lambda: True)
+    monkeypatch.setattr(M, "_fdr_quote", lambda code: (15.22, -4.0))
+    out = {"vix": {"change_pct": 3.63}}  # 차 7.63%p — 부호까지 반대
+    M._cross_check(out)
+    assert out["vix"]["quality"] == "degraded"
+
+
+def test_index_divergence_still_flags_at_the_tight_threshold(monkeypatch):
+    from collectors import market_collector as M
+
+    monkeypatch.setattr(M, "_fdr_available", lambda: True)
+    monkeypatch.setattr(M, "_fdr_quote", lambda code: (7755.0, 0.70))
+    out = {"sp500": {"change_pct": -0.00}}  # 차 0.70%p > 0.5
+    M._cross_check(out)
+    assert out["sp500"]["quality"] == "degraded"

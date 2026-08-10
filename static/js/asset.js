@@ -33,6 +33,7 @@
   function heroHtml(p) {
     var asOf = F.asOf(p.as_of);
     var missing = p.missing_roles || [];
+    var carried = p.carried_roles || [];
     var rows = "";
     // 총수익·총수익률·투입원금 3열 — 원금을 못 구한 계좌가 섞이면 합계 자체를 생략한다.
     if (p.total_pnl_krw != null) {
@@ -62,6 +63,12 @@
       + (missing.length
         ? '<span class="v2-partial-note">확보된 ' + (p.covered_roles || []).length + "개 계좌 합계 · "
           + esc(missing.map(roleLabel).join("·")) + " 결측</span>"
+        : "")
+      // 승계는 결측과 다르다 — 금액은 합계에 들어가 있지만 이번에 갱신된 값이 아니다.
+      // 총자산이 맞는 것처럼 보이면서 일부만 낡아 있는 상태라, 오히려 더 명확히 알려야 한다.
+      + (carried.length
+        ? '<span class="v2-partial-note">' + esc(carried.map(roleLabel).join("·"))
+          + "는 직전 값 승계 · 이번 수집에서 갱신되지 않음</span>"
         : "")
       + rows
       + sparklineHtml(p.history)
@@ -161,6 +168,11 @@
         : "")
       + (a.weight_pct != null ? '<p class="v2-body v2-fs-sub">비중 ' + a.weight_pct.toFixed(1) + "%</p>" : "")
       + (a.balance_krw == null ? '<p class="v2-hub-empty">이 계좌는 이번 수집에서 확보되지 않았습니다.</p>' : "")
+      // 승계값(design/28) — 이번 실행에서 못 받아 직전 발행분을 그대로 쓴 계좌다.
+      // 이 표시가 없으면 며칠 전 숫자가 현재 값처럼 보인다.
+      + (a.carried_from
+        ? '<p class="v2-partial-note">' + esc(F.asOf(a.carried_from)) + ' 값 · 이번 수집에서 갱신되지 않음</p>'
+        : "")
       + breakdownHtml(a)
       + currencyWellHtml(a)
       + (a.role === "bybit" ? '<p class="v2-body v2-fs-sub">24시간 시장 · 스냅샷 값</p>' : "")

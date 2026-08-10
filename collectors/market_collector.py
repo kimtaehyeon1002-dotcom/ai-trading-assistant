@@ -16,7 +16,7 @@ from datetime import datetime, timedelta, timezone
 
 from config.markets import (
     CROSS_CHECK_CODES,
-    CROSS_CHECK_TOLERANCE_PP,
+    cross_check_tolerance,
     EXTENDED_SYMBOLS,
     MORNING_US_INDICES,
     WTI_SYMBOL,
@@ -133,10 +133,11 @@ def _cross_check(out: dict[str, dict | None]) -> None:
             entry["quality"] = "unverified"
             continue
         gap = abs(entry["change_pct"] - ref_pct)
-        if gap > CROSS_CHECK_TOLERANCE_PP:
+        tolerance = cross_check_tolerance(key)  # 종목별 — VIX·MOVE는 지수보다 넓다
+        if gap > tolerance:
             entry["quality"] = "degraded"
             log.warning("교차검증 불일치 %s: yahoo %.2f%% vs %s %.2f%% (차 %.2f%%p > %.1f%%p)",
-                        key, entry["change_pct"], code, ref_pct, gap, CROSS_CHECK_TOLERANCE_PP)
+                        key, entry["change_pct"], code, ref_pct, gap, tolerance)
         else:
             entry["quality"] = "verified"
 
