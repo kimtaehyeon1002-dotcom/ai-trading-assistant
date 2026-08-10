@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-10T20:31:18.000026+00:00",
+  "as_of": "2026-08-10T20:37:47.529753+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,10 +354,22 @@
   ],
   "news": [
     {
+      "title": "Trump signs executive order calling for fewer childhood vaccines, falsely linking shots to autism",
+      "link": "https://www.cnbc.com/2026/08/10/trump-vaccine-executive-order-autism.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T20:33:48+00:00"
+    },
+    {
       "title": "Nvidia teams up with Wall Street asset managers on $500 billion AI infrastructure push",
       "link": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
       "source": "CNBC Finance",
-      "published": "2026-08-10T20:28:02+00:00"
+      "published": "2026-08-10T20:33:03+00:00"
+    },
+    {
+      "title": "뉴욕증시, 미·이란 협상 의구심에 약보합 마감…다우 0.1%↓ - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZVlUtNmNKSlJhSmM0cThEM0VHRktmcGN5M0E1bjZiWlk1MjA5dW5SYVF0NkM5OENpU3lSUlNCbzFMdWRfX2R4NDJ3N3lfV3RCNG5kSW9fRE5wWFHSAWBBVV95cUxPV1NqVDRScFVIOEdVOHRTemEwNm1fRDhtdkVGLVNnTml5WlJVM1NTcmQ3M3RPWlZhUG1NM1lWbkljaUp1Q2JNbmFFMzBOcTV0d0YxTGJRWDZqcHE2ZnZjb3E?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T20:20:12+00:00"
     },
     {
       "title": "뉴욕증시, 유가 급등에 일제히 하락 마감…나스닥 0.32%↓ - 뉴스핌",
@@ -412,12 +424,6 @@
       "link": "https://www.marketwatch.com/story/good-news-for-stock-market-bulls-corporate-earnings-growth-is-no-longer-being-driven-just-by-tech-ddac973b?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-10T20:00:00+00:00"
-    },
-    {
-      "title": "Trump signs executive order calling for fewer childhood vaccines, falsely linking shots to autism",
-      "link": "https://www.cnbc.com/2026/08/10/trump-vaccine-executive-order-autism.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T19:53:36+00:00"
     },
     {
       "title": "국제유가, 호르무즈 협상 교착에 5%↑…WTI 다시 80달러대",
@@ -646,12 +652,6 @@
       "link": "https://www.cnbc.com/2026/08/10/shein-ipo-tariffs.html",
       "source": "CNBC Finance",
       "published": "2026-08-10T11:00:01+00:00"
-    },
-    {
-      "title": "[인도증시] '호실적·美 금리우려 후퇴'가 유가 리스크 상쇄...페이티엠 강세 돋보여 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuNTgwRXZVekhlVjNUWUk1OUtXeDZWcWYtLVp1UTdRaVhJVWFieFpobEpzTURKUTJDOWhOMUtlQmxyNFFUTFB3Sm9oRlFaejU5NmFBVXcwc2xDblBP?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T10:54:00+00:00"
     }
   ],
   "pages": [
