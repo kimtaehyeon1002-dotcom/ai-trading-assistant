@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-10T03:25:15.657956+00:00",
+  "as_of": "2026-08-10T03:52:44.422469+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -27,14 +27,14 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "009830",
-      "name": "한화솔루션",
-      "market": "KOSPI"
-    },
-    {
       "code": "402340",
       "name": "SK스퀘어",
       "market": "KOSPI"
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ"
     },
     {
       "code": "005935",
@@ -42,8 +42,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "017900",
-      "name": "광전자",
+      "code": "009830",
+      "name": "한화솔루션",
       "market": "KOSPI"
     },
     {
@@ -52,13 +52,53 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "080220",
-      "name": "제주반도체",
+      "code": "017900",
+      "name": "광전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006360",
+      "name": "GS건설",
+      "market": "KOSPI"
+    },
+    {
+      "code": "477850",
+      "name": "마키나락스",
       "market": "KOSDAQ"
+    },
+    {
+      "code": "066570",
+      "name": "LG전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KOSPI"
+    },
+    {
+      "code": "240810",
+      "name": "원익IPS",
+      "market": "KOSDAQ GLOBAL"
     },
     {
       "code": "062040",
       "name": "산일전기",
+      "market": "KOSPI"
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
       "market": "KOSPI"
     },
     {
@@ -72,38 +112,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "477850",
-      "name": "마키나락스",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "240810",
-      "name": "원익IPS",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "066570",
-      "name": "LG전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "475150",
-      "name": "SK이터닉스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "079550",
-      "name": "LIG디펜스앤에어로스페이스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "006360",
-      "name": "GS건설",
+      "code": "035420",
+      "name": "NAVER",
       "market": "KOSPI"
     },
     {
@@ -112,43 +122,33 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "079550",
+      "name": "LIG디펜스앤에어로스페이스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "043260",
+      "name": "성호전자",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "475150",
+      "name": "SK이터닉스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "086520",
+      "name": "에코프로",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
       "code": "222800",
       "name": "심텍",
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "KOSPI"
-    },
-    {
-      "code": "042700",
-      "name": "한미반도체",
-      "market": "KOSPI"
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "market": "KOSPI"
-    },
-    {
-      "code": "055550",
-      "name": "신한지주",
-      "market": "KOSPI"
-    },
-    {
-      "code": "010060",
-      "name": "OCI홀딩스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "347700",
-      "name": "스피어",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "035420",
-      "name": "NAVER",
+      "code": "047040",
+      "name": "대우건설",
       "market": "KOSPI"
     },
     {
@@ -337,13 +337,13 @@
       "market": "NYSE"
     },
     {
-      "code": "005380",
-      "name": "현대차",
+      "code": "000270",
+      "name": "기아",
       "market": "KRX"
     },
     {
-      "code": "000270",
-      "name": "기아",
+      "code": "055550",
+      "name": "신한지주",
       "market": "KRX"
     },
     {
@@ -363,6 +363,30 @@
     }
   ],
   "news": [
+    {
+      "title": "5 ‘rules’ your parents taught you that are sabotaging your career, says expert—like ‘always be grateful’",
+      "link": "https://www.cnbc.com/2026/08/09/rules-your-parents-taught-you-that-are-sabotaging-your-career-expert.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T03:44:59+00:00"
+    },
+    {
+      "title": "\"뉴욕증시는 왜 덜 출렁이나\"…NYSE 사장 \"전 종목에 사람 붙인다” - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ITmtMRVU5NFNMbWZtS2lycElZclhlQmtxY0hMWTVFSndDODVST3N1eW1KUU5PdUc4QXNiUzNoWUtuYnJGaC1GeHVpeG8xdW5OdDczNw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T03:33:00+00:00"
+    },
+    {
+      "title": "오늘의 증시 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5mNVhoQjJwcUFNUUJ3dWU1X2hiVjB2aXVCZFlTdFNqN2ExX1hOeTI3NWhaU3pONU1TWVdyR3AwN0V6dXByckFNaVpxcy1faTFydXhxdEtodXZkUzNGaXNDNHRwQ09TejlrWVNyTlRSNHM0bWQ0bEV1Yw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T03:22:58+00:00"
+    },
+    {
+      "title": "증시 변동성 줄이려면…외국 전문가의 조언 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BdnVGZzBvR05RZzJyRW5xM3ZQT25YNEhkWWFMd1BaYVNLX1hXNFk0NzBkdVRreUpjRTRzdm4yYVdkeElKWDdMWlhHRjF3REFWcnU3OFpuRGFlOEVVdzNmQQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T03:04:29+00:00"
+    },
     {
       "title": "유럽 증시, '싸구려' 꼬리표 떼고 질주…글로벌 자금 몰린다 - 뉴스핌",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XZDNiZUpDd0hjeXpUR2o5Yk9GVzFYTTU3TXJtMmxpdHlVdEx0eFU0UWlSbGhnbjFScmVLcUpoMjZaa1dKRG9nU3lCUXhzR1BYTWJDZXNkQW51Y1Fy?oc=5",
@@ -638,30 +662,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260810054600017",
       "source": "연합뉴스·경제",
       "published": "2026-08-10T01:34:29+00:00"
-    },
-    {
-      "title": "네오플, 제주본사 집중 채용…'던파' 라이브 강화",
-      "link": "https://www.yna.co.kr/view/AKR20260810053400017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T01:31:58+00:00"
-    },
-    {
-      "title": "이디야·컴포즈, 라오스·필리핀 1호점 개점…동남아 확장(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260810023751030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T01:30:25+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
-      "link": "https://www.yna.co.kr/view/AKR20260810051900011",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T01:30:01+00:00"
-    },
-    {
-      "title": "카카오페이증권, 삼전·닉스 소수점거래 서비스 개시",
-      "link": "https://www.yna.co.kr/view/AKR20260810051600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T01:28:52+00:00"
     }
   ],
   "pages": [

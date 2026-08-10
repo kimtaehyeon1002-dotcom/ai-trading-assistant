@@ -1,15 +1,15 @@
 {
   "code": "005380",
   "name": "현대차",
-  "market": "KRX",
+  "market": "KOSPI",
   "theme": "자동차",
   "quote": {
-    "close": 398000.0,
-    "change_pct": 0.63,
-    "volume": 72982,
-    "amount": 29033751250.0,
-    "marcap": 81493590868000.0,
-    "as_of_iso": "2026-08-10T01:39:06.848077+00:00",
+    "close": 407000.0,
+    "change_pct": 2.91,
+    "volume": 222660,
+    "amount": 89541905750.0,
+    "marcap": 83336410762000.0,
+    "as_of_iso": "2026-08-10T03:52:34.186618+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:005380",
