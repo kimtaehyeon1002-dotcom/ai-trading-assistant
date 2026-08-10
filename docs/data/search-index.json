@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-10T08:25:08.030408+00:00",
+  "as_of": "2026-08-10T09:06:59.338368+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,16 +354,100 @@
   ],
   "news": [
     {
+      "title": "How ‘Ted Lasso’ turned an affluent London neighborhood into a tourist hotspot",
+      "link": "https://www.marketwatch.com/story/how-ted-lasso-turned-an-affluent-london-neighborhood-into-a-tourist-hotspot-a7cbf0eb?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T09:04:00+00:00"
+    },
+    {
+      "title": "From ‘Billionaire Bunker’ to Beverly Hills: The properties that make up Jeff Bezos’ $500 million real estate empire",
+      "link": "https://www.marketwatch.com/story/from-billionaire-bunker-to-beverly-hills-the-properties-that-make-up-jeff-bezos-500-million-real-estate-empire-5aec38c3?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T09:02:00+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
+      "link": "https://www.yna.co.kr/view/AKR20260810130700011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T09:00:00+00:00"
+    },
+    {
+      "title": "주택연금 수령액 인상하니… 상반기 신규가입 역대최대",
+      "link": "https://www.mk.co.kr/news/economy/12123160",
+      "source": "매일경제·증권",
+      "published": "2026-08-10T08:56:38+00:00"
+    },
+    {
+      "title": "대출금리 양극화…대기업·중기 격차 최대",
+      "link": "https://www.mk.co.kr/news/economy/12123159",
+      "source": "매일경제·증권",
+      "published": "2026-08-10T08:56:38+00:00"
+    },
+    {
+      "title": "[금융 라운지] '우리 아이 첫 통장'에 꽂힌 인터넷은행",
+      "link": "https://www.mk.co.kr/news/economy/12123158",
+      "source": "매일경제·증권",
+      "published": "2026-08-10T08:56:37+00:00"
+    },
+    {
+      "title": "[포토] KB캐피탈, 중고차 사업자와 상생",
+      "link": "https://www.mk.co.kr/news/economy/12123155",
+      "source": "매일경제·증권",
+      "published": "2026-08-10T08:56:36+00:00"
+    },
+    {
+      "title": "NH농협카드, VVIP 고객 공략… 최상위 카드 'the Origins' 출시",
+      "link": "https://www.mk.co.kr/news/economy/12123156",
+      "source": "매일경제·증권",
+      "published": "2026-08-10T08:56:36+00:00"
+    },
+    {
+      "title": "기업 탄소 이중규제 푼다 … '간접배출권' 폐지 검토",
+      "link": "https://www.mk.co.kr/news/economy/12123136",
+      "source": "매일경제·증권",
+      "published": "2026-08-10T08:54:54+00:00"
+    },
+    {
+      "title": "現 환율 유지땐 1인당 GDP 첫 '4만달러'",
+      "link": "https://www.mk.co.kr/news/economy/12123138",
+      "source": "매일경제·증권",
+      "published": "2026-08-10T08:54:54+00:00"
+    },
+    {
+      "title": "관세청, 설탕수입 3社에 280억 추징 … 稅혜택 노리고 차명 동원",
+      "link": "https://www.mk.co.kr/news/economy/12123134",
+      "source": "매일경제·증권",
+      "published": "2026-08-10T08:54:53+00:00"
+    },
+    {
+      "title": "구리·코발트값 뛰자…해외자원 개발 재시동",
+      "link": "https://www.mk.co.kr/news/economy/12123135",
+      "source": "매일경제·증권",
+      "published": "2026-08-10T08:54:53+00:00"
+    },
+    {
+      "title": "[도쿄증시-마감] 美 고용발 금리 인상 기대 약화에 닛케이 2%대 상승 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82MjRsSDJldVBiOTVsVURfZ3ZvSEgzUFlmdmNXcG1vNTNxRmJDVm91WEtWV1lxR2tqRkdVQS15TEpqVUI3WkRZV1ZNNXgwVTNnVXR3Mk52NUtLeWdnNjg3bUZpU3dyZjhnOFRsT1VjSjI?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T08:43:20+00:00"
+    },
+    {
+      "title": "아시아증시, 美 고용 둔화에 대체로 상승...닛케이 2% 급등 - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TRi05OHE3YXBrWU9Ud25hdDY4LWlvR0k1NTMxcF9yU3FHLVdQd204TFhoQkZ0SHBZMUhvS1U1YlVVQml2MG1EZDJ4QU1XQjViZVFRRGJmSDRqRkYzeWFwTWNCZjU4UGZyZHpNRzB4bw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T08:37:32+00:00"
+    },
+    {
+      "title": "Australian rare earth miner surges after U.S. Department of War investment",
+      "link": "https://www.cnbc.com/2026/08/10/rare-earths-sunrise-energy-metals-trump-cina.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T08:36:11+00:00"
+    },
+    {
       "title": "Berkshire Hathaway finally started spending its nearly $400 billion in cash — on one stock it knows very well",
       "link": "https://www.marketwatch.com/story/berkshire-hathaway-finally-started-spending-its-nearly-400-billion-in-cash-on-one-stock-it-knows-very-well-f9d56389?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-10T08:21:00+00:00"
-    },
-    {
-      "title": "[亞증시-종합] 美금리 인상 전망 약화에 일제히 상승 - KB Think",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMV0g4Q0w3aXZLa2p4RXpvVXNnVFpuOG5BTldiQ25uWkpEZUR5V3Q1MzlURGpBdzVsbmcxd3R3blpoT0FRQm9SRXRmRXhtTmg1RjF5V1JJMWcxcVM3REVGS3ViSzhqeVN0bjNHUkNOS3BSZw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T08:14:23+00:00"
     },
     {
       "title": "Treasury yields inch lower as investors look ahead to key inflation data",
@@ -376,6 +460,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260810124151008",
       "source": "연합뉴스·경제",
       "published": "2026-08-10T08:08:38+00:00"
+    },
+    {
+      "title": "오늘의 증시 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vdTNMa181UnVRQWowRUgzSm9NUFpOUjhjWlpuSlRUTTlwY3duNUhLX3hfR0dTWm5SZk5aLVpDUm9HYWZMWTREYTJobDlSV2tKSUdobmh4cWtJQ0RZaEJBekpBZlktblB2MllwaXJFQTNXTmw2eGdhRw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T08:06:59+00:00"
     },
     {
       "title": "신창재 \"사냥꾼 아닌 농부형 설계사 돼야\"",
@@ -420,7 +510,7 @@
       "published": "2026-08-10T07:36:08+00:00"
     },
     {
-      "title": "CXMT 이어 유니트리도 출격…국내 증시 영향 '촉각' - 뉴스토마토",
+      "title": "CXMT 이어 유니트리도 출격…국내 증시 영향 '촉각' - newstomato.com",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14b1IzVTlSQzBxTk1pOFJqdXZDcEd2WXhiRmNUQnBsN0tCTEJkenYwUXV4YVZtazNDSHNsZVlXVFkxSEd2NW5ENjBRczVmNzVqZDlGY2lJOXlneVVlbjdmaA?oc=5",
       "source": "Google News",
       "published": "2026-08-10T07:32:25+00:00"
@@ -478,12 +568,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260810109000073",
       "source": "연합뉴스·경제",
       "published": "2026-08-10T07:04:37+00:00"
-    },
-    {
-      "title": "Australian rare earth miner surges as much as 29% after U.S. Department of War investment",
-      "link": "https://www.cnbc.com/2026/08/10/rare-earths-sunrise-energy-metals-trump-cina.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T07:03:25+00:00"
     },
     {
       "title": "레버리지 대책후 변동성지수 19%↓…5월후 처음 70선 아래로(종합)",
@@ -568,90 +652,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260810107800002",
       "source": "연합뉴스·경제",
       "published": "2026-08-10T06:39:48+00:00"
-    },
-    {
-      "title": "[외환] 원/달러 환율 2.3원 오른 1,418.4원(15:30 기준가)",
-      "link": "https://www.yna.co.kr/view/AKR20260810106100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T06:39:38+00:00"
-    },
-    {
-      "title": "원달러 환율 1369원",
-      "link": "https://www.mk.co.kr/news/economy/12122901",
-      "source": "매일경제·증권",
-      "published": "2026-08-10T06:39:13+00:00"
-    },
-    {
-      "title": "코스닥, 6.97%↑…코스피는 찔끔 상승, 3거래일만에 반등",
-      "link": "https://www.yna.co.kr/view/AKR20260810108000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T06:38:10+00:00"
-    },
-    {
-      "title": "Myspace eyes comeback as an 'antidote' to social media fatigue — but it may be a long shot",
-      "link": "https://www.cnbc.com/2026/08/09/myspace-comeback-rival-social-media-giants.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T06:34:04+00:00"
-    },
-    {
-      "title": "[속보] 코스닥, 7% 급등해 854 마감…코스피는 0.65%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260810107100008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T06:34:02+00:00"
-    },
-    {
-      "title": "울주군, 신혼부부 주거지원 사업 소득 기준 상향 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260810102900057",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T06:33:55+00:00"
-    },
-    {
-      "title": "단일종목 레버리지 규제 7일 만에 ‘공포지수’ 19%↓…블룸버그 “증시 과열 해소 신호” - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZzQ5dHpUVjRwMnIxXzZxbjlSZkZKa1EzWmFzaWFuS29KQTlVbmtHZkg2SDJxRmZpQklRN3NkNzV1OGFLTUMtN2daUUpTN1ZvXy1LejFEbVRuMDc3M2wtbXgtR0RQRElFN0RWUldQd2FLNmUxbTZBaFFZSzZobVhURXg0SXpiY2hyT0RN?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T06:21:00+00:00"
-    },
-    {
-      "title": "금속노조 울산지부 \"GS엔텍 휴업수당 감액 신청 기각\" 촉구",
-      "link": "https://www.yna.co.kr/view/AKR20260810101800057",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T06:19:46+00:00"
-    },
-    {
-      "title": "장기투자 하라더니 정책은 오락가락…개미들 다시 美 증시로 - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS25zMnVWLUUxZXVUQ2FmUGt0RWY4ZXRucGpsRGZnZm9FMEVZNFFud2VpMXpaZVJFa05pQTVBd0p4aUFJMk55OVUxQzIzaTRBRDlVb0NKSGhZX3NxNEhzaGlkUENOZ2FjNjMxSjc5Q3owT2FlWWc2aUdaWFFBY1YxdUVTNXd1anQ20gGcAUFVX3lxTE5DOXZCaXd6Z0tCRjhGRWg4VjhzbFVvRzVkQV9EOFg5NVR1S1NLWk15Z1ZYM3hTRkNUdUdubUI0UFkxYzBPTnFCa1FUNHdTTTVaa1lPZHRqUXlsSXRlTXFhb3JYR1hVVmN3WTdfbU4xYV9xY0I4ZlhMZWhYeWs4cjc5UGo4VlBtdzFhTjNCMVdiR05OTXZ5SWVjdV9LeQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T06:09:00+00:00"
-    },
-    {
-      "title": "美 중동협상·中 휴머노이드 IPO·日 외국인 수급…엇갈리는 증시 셈법 [글로벌 레이더] - 에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9lOFhWbXFwNHVpWW5zc29NX0xDZlBjdVluT1NsOW43dVZIY0JlM0RQeklwWTJmTEM1QnI3ell5WlV3RDZOVFhzX0RURGtSMWR4MVRva0JhVlBpdlhFa2c?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T06:07:57+00:00"
-    },
-    {
-      "title": "[단독] 설탕수입업체 3곳 280억 추징…바지업체 동원해 할당관세 혜택",
-      "link": "https://www.mk.co.kr/news/economy/12122855",
-      "source": "매일경제·증권",
-      "published": "2026-08-10T06:00:12+00:00"
-    },
-    {
-      "title": "울산·용인·영천서 교복 입찰 담합 또 적발…공정위 심판대에",
-      "link": "https://www.yna.co.kr/view/AKR20260810081600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T06:00:01+00:00"
-    },
-    {
-      "title": "카스, 22일 과천서 '카스쿨 페스티벌'…음악·물놀이 결합 축제",
-      "link": "https://www.yna.co.kr/view/AKR20260810095800030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T05:48:34+00:00"
-    },
-    {
-      "title": "원주소방서, 외국인 고용사업장 124곳 맞춤형 소방 안전 교육",
-      "link": "https://www.yna.co.kr/view/AKR20260810094500062",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T05:39:34+00:00"
     }
   ],
   "pages": [
