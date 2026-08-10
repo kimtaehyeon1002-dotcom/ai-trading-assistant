@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-10T07:29:54.838186+00:00",
+  "as_of": "2026-08-10T08:15:57.591868+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -42,24 +42,24 @@
       "market": "KOSPI"
     },
     {
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "market": "KOSPI"
+    },
+    {
       "code": "009830",
       "name": "한화솔루션",
       "market": "KOSPI"
     },
     {
-      "code": "012450",
-      "name": "한화에어로스페이스",
+      "code": "329180",
+      "name": "HD현대중공업",
       "market": "KOSPI"
     },
     {
       "code": "036930",
       "name": "주성엔지니어링",
       "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "market": "KOSPI"
     },
     {
       "code": "006400",
@@ -72,8 +72,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "010060",
-      "name": "OCI홀딩스",
+      "code": "005380",
+      "name": "현대차",
       "market": "KOSPI"
     },
     {
@@ -82,13 +82,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "017900",
-      "name": "광전자",
+      "code": "010060",
+      "name": "OCI홀딩스",
       "market": "KOSPI"
     },
     {
-      "code": "005380",
-      "name": "현대차",
+      "code": "035420",
+      "name": "NAVER",
       "market": "KOSPI"
     },
     {
@@ -97,13 +97,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "477850",
-      "name": "마키나락스",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "035420",
-      "name": "NAVER",
+      "code": "017900",
+      "name": "광전자",
       "market": "KOSPI"
     },
     {
@@ -112,13 +107,23 @@
       "market": "KOSPI"
     },
     {
+      "code": "477850",
+      "name": "마키나락스",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "240810",
       "name": "원익IPS",
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "062040",
-      "name": "산일전기",
+      "code": "006340",
+      "name": "대원전선",
+      "market": "KOSPI"
+    },
+    {
+      "code": "055550",
+      "name": "신한지주",
       "market": "KOSPI"
     },
     {
@@ -127,29 +132,24 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "475150",
-      "name": "SK이터닉스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "006340",
-      "name": "대원전선",
-      "market": "KOSPI"
-    },
-    {
-      "code": "043260",
-      "name": "성호전자",
-      "market": "KOSDAQ"
-    },
-    {
       "code": "042700",
       "name": "한미반도체",
       "market": "KOSPI"
     },
     {
-      "code": "086520",
-      "name": "에코프로",
-      "market": "KOSDAQ GLOBAL"
+      "code": "062040",
+      "name": "산일전기",
+      "market": "KOSPI"
+    },
+    {
+      "code": "475150",
+      "name": "SK이터닉스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KOSPI"
     },
     {
       "code": "MU",
@@ -342,16 +342,6 @@
       "market": "KRX"
     },
     {
-      "code": "055550",
-      "name": "신한지주",
-      "market": "KRX"
-    },
-    {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KRX"
-    },
-    {
       "code": "JPM",
       "name": "JPMorgan Chase",
       "market": "NYSE"
@@ -363,6 +353,72 @@
     }
   ],
   "news": [
+    {
+      "title": "Treasury yields inch lower as investors look ahead to key inflation data",
+      "link": "https://www.cnbc.com/2026/08/10/us-treasury-yields-investors-eye-key-inflation-data-.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T08:11:27+00:00"
+    },
+    {
+      "title": "하락세 끝났나…국고채 금리 다시 3일째 상승(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260810124151008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T08:08:38+00:00"
+    },
+    {
+      "title": "신창재 \"사냥꾼 아닌 농부형 설계사 돼야\"",
+      "link": "https://www.mk.co.kr/news/economy/12122990",
+      "source": "매일경제·증권",
+      "published": "2026-08-10T08:00:31+00:00"
+    },
+    {
+      "title": "국고채 금리 일제히 상승…3년물 연 3.778%",
+      "link": "https://www.yna.co.kr/view/AKR20260810124100008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T07:45:51+00:00"
+    },
+    {
+      "title": "The space boom has created a giant mess. Now startups want to clean it up",
+      "link": "https://www.cnbc.com/2026/08/08/space-debris-junk-spacex-rocket-moon-crash.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T07:44:33+00:00"
+    },
+    {
+      "title": "[동정] 오세훈 서울시장, 청년 AI 스타트업과 간담회",
+      "link": "https://www.yna.co.kr/view/AKR20260810123100004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T07:40:01+00:00"
+    },
+    {
+      "title": "[뉴욕증시 전략] 고용 쇼크에 인상 기대 후퇴…S&P500 종가 최고치 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGX0xDMnlfR2wwOVh1cUlVTXVIbVcwMFZoTGc5RkdDTG10TXJVMGF1YUJIS0FXRS1fTEVYTUUydDdjanBDenNEOF9WVHdPaWc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T07:39:00+00:00"
+    },
+    {
+      "title": "메디톡스, 2분기 영업이익 48억원…25% 감소",
+      "link": "https://www.yna.co.kr/view/AKR20260810122700017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T07:37:30+00:00"
+    },
+    {
+      "title": "코스피 주춤, 코스닥만 날았다…레버리지 규제 이후 수급 개선",
+      "link": "https://www.yna.co.kr/view/AKR20260810082800008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T07:36:08+00:00"
+    },
+    {
+      "title": "CXMT 이어 유니트리도 출격…국내 증시 영향 '촉각' - 뉴스토마토",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14b1IzVTlSQzBxTk1pOFJqdXZDcEd2WXhiRmNUQnBsN0tCTEJkenYwUXV4YVZtazNDSHNsZVlXVFkxSEd2NW5ENjBRczVmNzVqZDlGY2lJOXlneVVlbjdmaA?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T07:32:25+00:00"
+    },
+    {
+      "title": "환율, 이틀째 1,410원대…외국인 순매도·저가 매수에 반등",
+      "link": "https://www.yna.co.kr/view/AKR20260810114300002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T07:26:15+00:00"
+    },
     {
       "title": "동서발전·로아스, 로봇 기반 AI 기술개발·실증 협력 협약",
       "link": "https://www.yna.co.kr/view/AKR20260810116900057",
@@ -380,6 +436,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260810117600003",
       "source": "연합뉴스·경제",
       "published": "2026-08-10T07:15:45+00:00"
+    },
+    {
+      "title": "호르무즈 해협 상황 및 美 데이터 주시하며 유럽 증시 보합세 - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zdS1JSC05My1mc3FPNWxHLVRuWGJ1TFRPRFptRjVzcmk3LWRMdmhjZHdOSy1sVEpkT1Z2UG45RkFuLVNtaENnSEFybWdCaXBxb2ZqVnNKLVZmS2k2dV9fMXBhakxlcGxST0UzdlBnblU?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T07:15:00+00:00"
     },
     {
       "title": "울릉군, 응급의료 공백 줄인다…전문의 근무일 확대",
@@ -590,78 +652,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260810094200008",
       "source": "연합뉴스·경제",
       "published": "2026-08-10T05:35:58+00:00"
-    },
-    {
-      "title": "[부산소식] 동아대, 13일 부동산 시장 양극화 주제 세미나",
-      "link": "https://www.yna.co.kr/view/AKR20260810094000051",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T05:35:11+00:00"
-    },
-    {
-      "title": "레버리지 대책후 변동성지수 19%↓…5월 이후 처음 70선 아래로",
-      "link": "https://www.yna.co.kr/view/AKR20260810092000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T05:35:05+00:00"
-    },
-    {
-      "title": "일동 후디스펫, 고양이의 날 맞아 '집사 인증 모의고사' 이벤트",
-      "link": "https://www.yna.co.kr/view/AKR20260810093100030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T05:34:29+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
-      "link": "https://www.yna.co.kr/view/AKR20260810088900011",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T05:30:00+00:00"
-    },
-    {
-      "title": "고환율·국내증시 강세에 주춤했던 서학개미…6월부터 美증시로 유턴 - 브릿지경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Ea0UzS2hrMS12WmY0cTdreHd6Qm8yZXdJd1EwU2NRcGJnRXRvZVBJdmlXTFdyVEp2QURIZkY3amZBRnVmbFVkVW9tdG5oQWljTFJEQl9JbmhIZw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T05:27:00+00:00"
-    },
-    {
-      "title": "강남구 '정비사업 세금 안내서' 발간…\"전국 최초\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810091800004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T05:24:30+00:00"
-    },
-    {
-      "title": "뉴욕증시, 3분기부터 ‘종일 거래’…16→23시간으로 - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5RTZRZkJBZWZYTDZYT1V4VS1kaHNlS00waW5VajdiSHFRblhtZHVhYlVodjVVWnRPMnlVblZmV2haa1ZYY0JLaVhmcmJUZTVWNXAzVVRkWEstb01pZEg3YndSbWw4SEk?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T05:18:00+00:00"
-    },
-    {
-      "title": "여행부터 VVIP까지…카드사, ‘특화 서비스’ 경쟁",
-      "link": "https://www.mk.co.kr/news/economy/12122786",
-      "source": "매일경제·증권",
-      "published": "2026-08-10T05:14:10+00:00"
-    },
-    {
-      "title": "무어스레드, 상반기 매출 147% 급증…홍콩증시 상장 추진 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TaklyMlZpclE5enQxa1R3R2JoRFZBOE5aZFBtcktJV2taNTFTSXl4a3FOQVBRNHliS2JZMTlzMDIwd01iVXh4U1p5MFllT3pVX0NWZ1ZWRE1UOTE3aWFGRHpPN3NlTzZ30gFuQVVfeXFMUGx3MEFJMnNyaDcySl9zTnJNb210OXZoVjlDSy1DXzJWLWppV1hyWWRFbWVVdHI0NG1GbTR0dlBVUTVLdnhuV3Y5ME1iU1ZfNXBmNTdTVGp3b18tNDQtMGZkajZ3ei1ETjZCeFM1bHc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T05:11:17+00:00"
-    },
-    {
-      "title": "황희, 버스하우스 논란에 \"깊이 사과…청년주거 엄중함 못 헤아려\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810084900001",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T05:09:28+00:00"
-    },
-    {
-      "title": "[바이오스냅] 지씨셀, 손주희 사업개발실장 영입",
-      "link": "https://www.yna.co.kr/view/AKR20260810083900017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T05:09:13+00:00"
-    },
-    {
-      "title": "셀트리온, '쉬었음 청년' 자립 돕는다…바이오 교육 나서",
-      "link": "https://www.yna.co.kr/view/AKR20260810087400017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T05:06:31+00:00"
     }
   ],
   "pages": [
