@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-10T14:54:46.856326+00:00",
+  "as_of": "2026-08-10T15:50:01.039195+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,60 @@
   ],
   "news": [
     {
+      "title": "Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983",
+      "link": "https://www.cnbc.com/2026/08/10/oil-in-strategic-petroleum-reserve-falls-below-300-million-barrels-lowest-since-1983.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T15:45:57+00:00"
+    },
+    {
+      "title": "SpaceX stock rebounds to near $135 IPO price",
+      "link": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T15:40:03+00:00"
+    },
+    {
+      "title": "We're buying more of an AI stock that's under pressure to start the week",
+      "link": "https://www.cnbc.com/2026/08/10/were-buying-more-of-an-ai-stock-thats-under-pressure-to-start-the-week.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T15:35:16+00:00"
+    },
+    {
+      "title": "17 S&P 500 companies with growing revenue and profit margins — and some of their stocks are cheap",
+      "link": "https://www.marketwatch.com/story/17-s-p-500-companies-with-growing-revenue-and-profit-margins-and-some-of-their-stocks-are-cheap-e7c7fa14?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T15:35:00+00:00"
+    },
+    {
+      "title": "SpaceX’s stock moves above its IPO price for the first time in almost a month",
+      "link": "https://www.marketwatch.com/story/spacexs-stock-moves-above-its-ipo-price-for-the-first-time-in-almost-a-month-fc3f91b7?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T15:20:00+00:00"
+    },
+    {
+      "title": "Trump’s foreign licensing business booms to $59.5 million as Gulf developers pay",
+      "link": "https://www.cnbc.com/2026/08/10/trump-foreign-real-estate-licensing-income-gulf-deals.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T15:06:58+00:00"
+    },
+    {
+      "title": "HHS moves to tighten oversight of food ingredients as safety concerns mount",
+      "link": "https://www.cnbc.com/2026/08/10/hhs-makes-announcements-on-gras-ultraprocessed-food.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T15:03:24+00:00"
+    },
+    {
+      "title": "The size of the American workforce has fallen by over 1 million people in the past year. Here’s what’s going on.",
+      "link": "https://www.marketwatch.com/story/the-size-of-the-american-workforce-has-fallen-by-over-1-million-people-in-the-past-year-heres-whats-going-on-b8141aa3?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T15:00:00+00:00"
+    },
+    {
+      "title": "‘I want her to choose the best strategy’: My wife’s Social Security is just $900. Should she claim spousal benefit at 62?",
+      "link": "https://www.marketwatch.com/story/i-want-her-to-choose-the-best-strategy-my-wifes-social-security-is-just-900-should-she-claim-spousal-benefit-at-62-e3ef621d?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T15:00:00+00:00"
+    },
+    {
       "title": "Here’s when Elon Musk’s Starlink internet is worth the steep monthly price — and $350 startup cost",
       "link": "https://www.marketwatch.com/story/heres-when-elon-musks-starlink-internet-is-worth-the-steep-monthly-price-and-350-startup-cost-53735d59?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -370,12 +424,6 @@
       "link": "https://www.marketwatch.com/story/taylor-farms-recalls-jalapeno-based-foods-in-26-states-amid-ongoing-salmonella-outbreak-f873657b?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-10T14:41:00+00:00"
-    },
-    {
-      "title": "U.S. oil price hits $80 as doubt grows Washington and Tehran will reach Strait of Hormuz deal",
-      "link": "https://www.cnbc.com/2026/08/10/oil-prices-today-brent-wti-hormuz-trump-iran.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T14:39:53+00:00"
     },
     {
       "title": "Intel plans $15 billion stock offering as AI demand accelerates",
@@ -396,6 +444,12 @@
       "published": "2026-08-10T14:28:00+00:00"
     },
     {
+      "title": "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
+      "link": "https://www.cnbc.com/2026/08/10/us-iran-war-trump-hormuz-oman-ships-blockade-shipping.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T14:27:15+00:00"
+    },
+    {
       "title": "Berkshire Hathaway is digging into its nearly $400 billion in cash — and buying a stock it knows very well",
       "link": "https://www.marketwatch.com/story/berkshire-hathaway-finally-started-spending-its-nearly-400-billion-in-cash-on-one-stock-it-knows-very-well-f9d56389?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -408,28 +462,10 @@
       "published": "2026-08-10T14:16:24+00:00"
     },
     {
-      "title": "Barrick’s stock slides after dispute settlement sets the scene for IPO of mining company’s gold assets",
-      "link": "https://www.marketwatch.com/story/barricks-stock-slides-after-dispute-settlement-sets-the-scene-for-ipo-of-mining-companys-gold-assets-a88f3d27?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-10T14:14:00+00:00"
-    },
-    {
-      "title": "SpaceX stock rebounds to near $135 IPO price",
-      "link": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T14:11:49+00:00"
-    },
-    {
       "title": "House Dems call for AI companies to testify on recent hacks: ‘Clear risk to safety’",
       "link": "https://www.cnbc.com/2026/08/10/openai-anthropic-ai-hack-congress.html",
       "source": "CNBC Finance",
       "published": "2026-08-10T14:06:08+00:00"
-    },
-    {
-      "title": "This is the ZIP Code with the hottest housing market in the country right now",
-      "link": "https://www.marketwatch.com/story/this-is-the-hottest-zip-code-where-homes-are-selling-fast-2c642716?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-10T14:00:00+00:00"
     },
     {
       "title": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
@@ -444,28 +480,10 @@
       "published": "2026-08-10T13:34:11+00:00"
     },
     {
-      "title": "The U.S. economy is shedding jobs. Here’s why that’s good news for stocks.",
-      "link": "https://www.marketwatch.com/story/the-u-s-economy-is-shedding-jobs-why-thats-good-news-for-stocks-a7f4773c?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-10T13:30:00+00:00"
-    },
-    {
-      "title": "The Club's top 10 things to watch in the stock market Monday",
-      "link": "https://www.cnbc.com/2026/08/10/the-clubs-top-10-things-to-watch-in-the-stock-market-monday.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T13:19:20+00:00"
-    },
-    {
       "title": "장기투자 하라더니 정책은 오락가락…개미들 다시 美 증시로 - 조선비즈 - Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS25zMnVWLUUxZXVUQ2FmUGt0RWY4ZXRucGpsRGZnZm9FMEVZNFFud2VpMXpaZVJFa05pQTVBd0p4aUFJMk55OVUxQzIzaTRBRDlVb0NKSGhZX3NxNEhzaGlkUENOZ2FjNjMxSjc5Q3owT2FlWWc2aUdaWFFBY1YxdUVTNXd1anQ20gGcAUFVX3lxTE5DOXZCaXd6Z0tCRjhGRWg4VjhzbFVvRzVkQV9EOFg5NVR1S1NLWk15Z1ZYM3hTRkNUdUdubUI0UFkxYzBPTnFCa1FUNHdTTTVaa1lPZHRqUXlsSXRlTXFhb3JYR1hVVmN3WTdfbU4xYV9xY0I4ZlhMZWhYeWs4cjc5UGo4VlBtdzFhTjNCMVdiR05OTXZ5SWVjdV9LeQ?oc=5",
       "source": "Google News",
       "published": "2026-08-10T13:15:00+00:00"
-    },
-    {
-      "title": "Apple’s stock could underperform, especially without an ‘all-glass’ iPhone, this analyst warns",
-      "link": "https://www.marketwatch.com/story/apples-stock-could-underperform-especially-without-an-all-glass-iphone-this-analyst-warns-fc9a750c?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-10T12:48:00+00:00"
     },
     {
       "title": "Interest rates may stay higher for longer. What that means for consumers",
@@ -546,13 +564,7 @@
       "published": "2026-08-10T10:45:38+00:00"
     },
     {
-      "title": "Trump’s foreign licensing business booms to $59.5 million as Gulf developers pay",
-      "link": "https://www.cnbc.com/2026/08/10/trump-foreign-real-estate-licensing-income-gulf-deals.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T10:30:01+00:00"
-    },
-    {
-      "title": "[올댓차이나] 홍콩 증시, 美 금리인상 전망 후퇴에 매수세로 상승…H주 1.06%↑ - newsis.com",
+      "title": "[올댓차이나] 홍콩 증시, 美 금리인상 전망 후퇴에 매수세로 상승…H주 1.06%↑ - 뉴시스",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yQlJyNGZtQ1dFQnc5N3cyOG1kLTQ5T3R0VzZmOXlKWGxNUERkMFlSRXpMaHlyYXlvc0oxT3hJeFUzMmdFQVFMTFZ3cUw5WndCUFY4UExEdXEtN0tHa19wWdIBeEFVX3lxTE5tLUdTVlBqSXp2TENoVjBKRXB6UXZNeldNZ2ZBTmRXOXRlV2V6Ui1ENk5DMVhVOWlMZUpjVzltVmJmczY0V0FjR1UxeEh6Rk1laTREdnV4aGtQTkRJSUdBZFpGT25PR0dIQU93R04tMkJpWVpkTGpFOQ?oc=5",
       "source": "Google News",
       "published": "2026-08-10T10:19:13+00:00"
@@ -640,18 +652,6 @@
       "link": "https://www.mk.co.kr/news/economy/12123138",
       "source": "매일경제·증권",
       "published": "2026-08-10T08:54:54+00:00"
-    },
-    {
-      "title": "관세청, 설탕수입 3社에 280억 추징 … 稅혜택 노리고 차명 동원",
-      "link": "https://www.mk.co.kr/news/economy/12123134",
-      "source": "매일경제·증권",
-      "published": "2026-08-10T08:54:53+00:00"
-    },
-    {
-      "title": "구리·코발트값 뛰자…해외자원 개발 재시동",
-      "link": "https://www.mk.co.kr/news/economy/12123135",
-      "source": "매일경제·증권",
-      "published": "2026-08-10T08:54:53+00:00"
     }
   ],
   "pages": [
