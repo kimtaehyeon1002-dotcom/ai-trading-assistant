@@ -44,16 +44,21 @@ def generate() -> Path:
         asset_repository.build_bybit_account(bybit_raw, usdkrw, prev_accounts.get("bybit")),
     ]
 
-    payload = asset_repository.build_payload(accounts)
+    # 수집 주체가 둘로 갈렸다(design/28) — CI는 KIS·BYBIT만, 데스크톱은 Kiwoom도. 자기가 못 본
+    # 계좌를 결측으로 발행하면 상대가 넣은 값이 매번 사라지므로, 직전 발행물에서 승계한다.
+    accounts, carried = asset_repository.carry_forward(
+        accounts, asset_repository.load_published_accounts())
+
+    payload = asset_repository.build_payload(accounts, carried=carried)
     covered, missing = payload["covered_roles"], payload["missing_roles"]
     published = asset_repository.persist_encrypted(payload)
 
     if published:
-        # 완전 수집(4계좌 전량)일 때만 원장에 남긴다 — 부분 결측 합계를 기록하면 다음 날
-        # 전일 대비가 결측을 자산 급락으로 보여준다(design/08 §S3 기준 병기 원칙의 연장).
-        if missing:
-            log.warning("Asset 발행(부분 확보 %s · 결측 %s) — 스냅샷 원장 기록 보류",
-                        ",".join(covered), ",".join(missing))
+        # **이번 실행에서 실제로 수집한** 4계좌 전량일 때만 원장에 남긴다. 승계값은 어제 값이라
+        # 오늘 행으로 기록하면 다음 날 전일 대비가 통째로 거짓이 된다(design/08 §S3의 연장).
+        if missing or carried:
+            log.warning("Asset 발행(확보 %s · 승계 %s · 결측 %s) — 스냅샷 원장 기록 보류",
+                        ",".join(covered), ",".join(carried) or "없음", ",".join(missing) or "없음")
         else:
             asset_snapshot_repository.append_snapshot(
                 payload["total_assets_krw"],
@@ -65,10 +70,12 @@ def generate() -> Path:
     else:
         log.info("ASSET_PASSPHRASE 미설정 — Asset 암호화 발행 skip(결측 문법)")
 
+    # 승계는 covered에 포함되므로 items만 보면 결측을 놓친다 — detail에 사실대로 나눠 적는다
+    fresh = [r for r in covered if r not in carried]
     runlog.note("Asset Publish",
-                items=len(covered),
-                detail=f"확보 {','.join(covered) or '없음'} · 결측 {','.join(missing) or '없음'}"
-                       f" · 발행 {'O' if published else 'X'}")
+                items=len(fresh),
+                detail=f"수집 {','.join(fresh) or '없음'} · 승계 {','.join(carried) or '없음'}"
+                       f" · 결측 {','.join(missing) or '없음'} · 발행 {'O' if published else 'X'}")
 
     out = DOCS_DIR / "asset" / "index.html"
     return render(

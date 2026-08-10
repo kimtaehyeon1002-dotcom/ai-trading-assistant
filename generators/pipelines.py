@@ -14,6 +14,8 @@ Phase B 이전에는 morning/news만 이 계층을 썼고, macro·stock·ta·fin
 """
 from __future__ import annotations
 
+import importlib.util
+
 from calculators import news_categories, news_translate
 from collectors import (
     dart_collector,
@@ -268,8 +270,14 @@ def get_asset_raw() -> dict:
     """
     from collectors import bybit_collector, kis_collector
 
+    # Kiwoom은 **시도할 수 있는 환경에서만** 기록한다. CI에서도 completed로 남기면
+    # runlog의 last_run이 매일 갱신돼, 데스크톱이 며칠 안 돌아도 센서가 신선하다고 판정한다
+    # (design/28 — 수집 주체 분리의 부작용). 기록하지 않으면 runlog 병합이 데스크톱의
+    # 마지막 기록을 보존하므로, 신선도 규칙이 키움 데이터의 진짜 나이를 잰다.
+    kiwoom = runlog.run_step("Asset Kiwoom", _asset_kiwoom_balance, fallback=None)         if _kiwoom_available() else None
+
     return {
-        "kiwoom": runlog.run_step("Asset Kiwoom", _asset_kiwoom_balance, fallback=None),
+        "kiwoom": kiwoom,
         "kis_foreign": runlog.run_step(
             "Asset KIS 위탁", kis_collector.collect_overseas_balance, fallback=None),
         "kis_isa": runlog.run_step(
@@ -277,6 +285,21 @@ def get_asset_raw() -> dict:
         "bybit": runlog.run_step(
             "Asset BYBIT", bybit_collector.collect_wallet_balance, fallback=None),
     }
+
+
+def _kiwoom_available() -> bool:
+    """Kiwoom OCX를 시도해 볼 수 있는 환경인가(32bit Windows + PyQt5 + OCX).
+
+    설치 여부로만 판정한다 — 로그인 성공까지 보지 않는다. 시도했다가 실패한 것은
+    '기록해야 할 장애'이고, 애초에 시도조차 불가능한 환경(CI 리눅스)은 '기록할 사건이 아님'이다.
+    이 구분이 있어야 센서가 데스크톱 미실행을 정확히 잡는다.
+
+    **PyQt5를 직접 본다.** `collectors.kiwoom_desktop.api`는 PyQt5를 함수 안에서 지연 import
+    하므로 그 모듈의 임포트 성공은 아무것도 보장하지 않는다 — CI에서도 성공한다(실측).
+    requirements의 PyQt5는 `platform_system == 'Windows'` 마커가 붙어 있어, 설치 여부가
+    곧 "OCX를 시도할 수 있는 환경인가"와 같다.
+    """
+    return importlib.util.find_spec("PyQt5") is not None
 
 
 def _asset_kiwoom_balance() -> dict | None:

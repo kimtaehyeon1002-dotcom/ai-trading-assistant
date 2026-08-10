@@ -162,28 +162,34 @@ WORKERS: dict[str, WorkerSLO] = {
         note="on-demand — 신선도 규칙 없음. 상태만 본다",
     ),
 
-    # 데스크톱 전용(design/26 §3-7) — 클라우드는 관측만, 수정 금지
+    # 자산 수집은 주체가 둘로 갈린다(design/28) — KIS·BYBIT는 REST라 CI가, Kiwoom은 OCX가
+    # 데스크톱 세션을 요구해 로컬이 담당한다. 티어가 다르므로 SLO도 따로 선언한다.
     "Asset Kiwoom": WorkerSLO(
         owner="run_desktop(로컬)", cadence_min=24 * 60, max_age_h=_H_DAY,
         max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
-        note="32bit Windows + Kiwoom OCX 필요 — 클라우드에서 실행 불가",
+        note="32bit Windows + Kiwoom OCX 필요. CI는 이 워커를 아예 기록하지 않으므로"
+             " (pipelines._kiwoom_available) last_run이 데스크톱 실행 시각 그대로다 —"
+             " 이 신선도가 'PC를 며칠 안 켰다'를 재는 유일한 신호다",
     ),
     "Asset KIS 위탁": WorkerSLO(
-        owner="run_desktop(로컬)", cadence_min=24 * 60, max_age_h=_H_DAY,
-        max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
+        owner="asset.yml", cadence_min=12 * 60, max_age_h=_H_DAY,
+        max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"),
+        note="REST라 PC 전원과 무관하게 CI가 하루 2회(09:00·18:00 KST) 수집한다",
     ),
     "Asset KIS ISA": WorkerSLO(
-        owner="run_desktop(로컬)", cadence_min=24 * 60, max_age_h=_H_DAY,
-        max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
+        owner="asset.yml", cadence_min=12 * 60, max_age_h=_H_DAY,
+        max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"),
+        note="REST라 PC 전원과 무관하게 CI가 하루 2회(09:00·18:00 KST) 수집한다",
     ),
     "Asset BYBIT": WorkerSLO(
-        owner="run_desktop(로컬)", cadence_min=24 * 60, max_age_h=_H_DAY,
-        max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
+        owner="asset.yml", cadence_min=12 * 60, max_age_h=_H_DAY,
+        max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"),
+        note="REST라 PC 전원과 무관하게 CI가 하루 2회(09:00·18:00 KST) 수집한다",
     ),
     "Asset Publish": WorkerSLO(
-        owner="run_desktop(로컬)", cadence_min=24 * 60, max_age_h=_H_DAY,
-        max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"), tier=TIER_DESKTOP,
-        note="ASSET_PASSPHRASE 미설정 시 발행 skip이 정상(평문 유출 방지)",
+        owner="asset.yml + run_desktop", cadence_min=12 * 60, max_age_h=_H_DAY,
+        max_age_weekend_h=_H_DAY_WEEKEND, status_ok=("completed", "skipped"),
+        note="양쪽 주체가 모두 발행한다. detail의 '수집/승계/결측'이 어느 계좌가 신선한지 알려준다",
     ),
 }
 

@@ -20,8 +20,8 @@ from calculators.asset_indicators import (
 )
 from config.settings import ASSET_GOAL_KRW, ASSET_PASSPHRASE, DOCS_DIR
 from repositories import asset_snapshot_repository
-from utils.crypto import encrypt
-from utils.jsonio import save_json
+from utils.crypto import decrypt, encrypt
+from utils.jsonio import load_json, save_json
 from utils.logging import get_logger
 from validators.asset_validator import parse_amount
 
@@ -316,7 +316,7 @@ def build_bybit_account(raw: dict | None, usdkrw: float | None, prev_krw: float 
     }
 
 
-def build_payload(accounts: list[dict]) -> dict:
+def build_payload(accounts: list[dict], *, carried: list[str] | None = None) -> dict:
     """암호화 대상 평문 payload(design/08 Hero+계좌 카드 재료). 이 dict를 절대 그대로 발행하지 않는다.
 
     부분 결측(계좌 일부만 확보)이면 total_assets_krw는 '확보분 합계'라는 뜻이므로
@@ -331,7 +331,10 @@ def build_payload(accounts: list[dict]) -> dict:
     prev_total = (prev or {}).get("total_assets_krw")
     # 원장에는 완전한 행만 들어가므로(asset_snapshot_repository), 오늘이 완전하기만 하면
     # 어제와 같은 계좌 구성끼리 비교된다.
-    comparable = not missing
+    # 승계값은 어제 값이다 — 오늘 합계에 섞인 채로 전일 대비를 계산하면 '어제 대비 어제'가
+    # 일부 포함된 수치가 나온다. 결측과 똑같이 비교 불가로 본다.
+    carried = carried or []
+    comparable = not missing and not carried
     pnl, pnl_pct, principal = total_pnl(accounts)
     return {
         "as_of": datetime.now(timezone.utc).isoformat(),
@@ -345,10 +348,72 @@ def build_payload(accounts: list[dict]) -> dict:
         "goal_progress_pct": goal_progress_pct(current_total, ASSET_GOAL_KRW) if not missing else None,
         "covered_roles": covered,
         "missing_roles": missing,
+        # 화면이 "지금 값"과 "직전 발행분 승계"를 구분해 배지를 달 수 있게 하는 근거.
+        # 계좌 dict의 carried_from에 원래 수집 시각이 남아 있다.
+        "carried_roles": carried,
         "accounts": accounts,
         "currency_exposure": currency_exposure(accounts),
         "history": asset_snapshot_repository.history(90),
     }
+
+
+_PUBLISHED = DOCS_DIR / "data" / "asset" / "assets.enc.json"
+
+
+def load_published_accounts() -> dict[str, dict]:
+    """직전 발행물을 복호화해 role → 계좌 dict. 실패는 빈 dict(발행을 막지 않는다).
+
+    수집 주체가 둘로 갈리면서 필요해졌다(design/28) — CI는 KIS·BYBIT만, 데스크톱은 Kiwoom만
+    수집한다. 각자 자기가 못 본 계좌를 결측으로 발행하면 상대가 넣은 값이 매번 사라져,
+    화면의 총자산이 주체가 바뀔 때마다 널뛴다. runlog.json 유실 사고와 같은 구조다
+    (공유 산출물을 한쪽이 자기가 아는 것만으로 덮어쓰는 문제).
+    """
+    if not ASSET_PASSPHRASE:
+        return {}
+    envelope = load_json(_PUBLISHED, default=None)
+    if not isinstance(envelope, dict):
+        return {}
+    try:
+        payload = decrypt(envelope, ASSET_PASSPHRASE)
+    except Exception as exc:  # noqa: BLE001 - 열쇠 불일치·손상. 발행을 막을 사유는 아니다
+        log.warning("직전 발행물 복호화 실패(승계 없이 진행): %s", exc)
+        return {}
+    if not isinstance(payload, dict):
+        return {}
+    as_of = str(payload.get("as_of", ""))
+    return {
+        a["role"]: {**a, "_as_of": as_of}
+        for a in payload.get("accounts", [])
+        if isinstance(a, dict) and a.get("role")
+    }
+
+
+def carry_forward(accounts: list[dict], published: dict[str, dict]) -> tuple[list[dict], list[str]]:
+    """이번에 수집 못 한 계좌를 직전 발행물 값으로 승계. 반환=(계좌 목록, 승계된 role).
+
+    승계값은 **신선하지 않다** — 그래서 covered로 위장시키지 않고 `carried_from`(직전 발행
+    시각)을 남긴다. 호출부는 이 목록을 근거로 스냅샷 원장 기록과 전일 대비를 보류한다
+    (승계값을 오늘 값으로 원장에 남기면 다음 날 전일 대비가 통째로 거짓이 된다).
+
+    전일 대비(change_pct)는 승계 시 지운다 — 그 값은 '어제 대비 어제'라 의미가 없다.
+    """
+    merged, carried = [], []
+    for account in accounts:
+        role = account.get("role")
+        if account.get("balance_krw") is not None:
+            merged.append(account)
+            continue
+        prior = published.get(role)
+        if not prior or prior.get("balance_krw") is None:
+            merged.append(account)  # 승계할 것도 없다 — 진짜 결측
+            continue
+        carried_account = {k: v for k, v in prior.items() if k != "_as_of"}
+        # carried_from은 **원래 수집 시각**을 유지한다 — 승계를 거듭해도 값의 나이가 정직하게 늘어난다
+        carried_account["carried_from"] = prior.get("carried_from") or prior.get("_as_of") or ""
+        carried_account["change_pct"] = None
+        merged.append(carried_account)
+        carried.append(role)
+    return merged, carried
 
 
 def persist_encrypted(payload: dict) -> bool:

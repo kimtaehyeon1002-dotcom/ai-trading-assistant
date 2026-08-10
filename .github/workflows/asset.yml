@@ -1,0 +1,73 @@
+name: Asset (KIS + BYBIT)
+
+# 자산 수집을 두 주체로 분리한다(design/28).
+#   이 워크플로 — KIS 위탁·ISA + BYBIT. 전부 REST라 PC 전원과 무관하게 돈다.
+#   데스크톱     — Kiwoom. 32bit OCX가 데스크톱 세션을 요구해 여기서는 실행 자체가 불가하다.
+#
+# 종전에는 4계좌가 데스크톱 한 곳에 묶여 있어, PC가 꺼진 날은 REST로 받을 수 있는 KIS·BYBIT까지
+# 통째로 결측이었다(실측: 04:40 야간선물 작업은 정시 실행 이력이 아예 없음).
+#
+# 이 잡은 Kiwoom을 수집하지 못한다 — 그래서 발행 전에 직전 발행물에서 Kiwoom 계좌를 **승계**한다
+# (repositories/asset_repository.carry_forward). 승계가 없으면 CI가 돌 때마다 화면에서 키움이
+# 사라졌다가 데스크톱이 돌면 돌아오는 깜빡임이 생긴다.
+on:
+  schedule:
+    # 주말 정지 정책(design/26 §8-6)에 맞춰 월~금(UTC)만. KST 09:00·18:00 두 번 —
+    # 장 시작 전 잔고와 장 마감 후 잔고. 잦게 돌 이유가 없다(잔고는 체결 때만 바뀐다).
+    - cron: "0 0 * * 1-5"    # 09:00 KST
+    - cron: "0 9 * * 1-5"    # 18:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-commit
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ_NAME: Asia/Seoul
+      # KIS는 계좌마다 앱키가 다르다(실키 검증 2026-07-26 — 위탁 앱키로 ISA를 조회하면
+      # 상품코드를 바꿔도 INVALID_CHECK_ACNO로 거부된다). ISA 전용 키가 비면 공용으로 폴백한다.
+      KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
+      KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+      KIS_ACCOUNT_FOREIGN: ${{ secrets.KIS_ACCOUNT_FOREIGN }}
+      KIS_ACCOUNT_ISA: ${{ secrets.KIS_ACCOUNT_ISA }}
+      KIS_ISA_APP_KEY: ${{ secrets.KIS_ISA_APP_KEY }}
+      KIS_ISA_APP_SECRET: ${{ secrets.KIS_ISA_APP_SECRET }}
+      BYBIT_API_KEY: ${{ secrets.BYBIT_API_KEY }}
+      BYBIT_API_SECRET: ${{ secrets.BYBIT_API_SECRET }}
+      # 승계(직전 발행물 복호화)와 발행(암호화) 양쪽에 필요하다.
+      # 미설정이면 발행 자체를 skip한다 — 평문으로 내보내느니 안 내보낸다(design/20 Phase 8 DoD 1).
+      ASSET_PASSPHRASE: ${{ secrets.ASSET_PASSPHRASE }}
+      ASSET_GOAL_KRW: ${{ secrets.ASSET_GOAL_KRW }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          repository: kimtaehyeon1002-dotcom/TH_DATA
+          token: ${{ secrets.TH_DATA_TOKEN }}
+          path: TH_DATA
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - run: python build.py asset
+        env:
+          TH_DATA_DIR: ${{ github.workspace }}/TH_DATA
+
+      # 자산 절대값 평문 유출 최종 방어선(design/20 Phase 8 DoD 1·6). 이 워크플로는 계좌 금액을
+      # 실제로 다루므로 다른 어떤 워크플로보다 이 스텝이 중요하다 — 발행물은 암호문 단독이어야 한다.
+      - name: Guard against plaintext asset leakage
+        uses: ./.github/actions/guard-plaintext
+
+      - name: Commit & push
+        uses: ./.github/actions/commit-push
+        with:
+          message: "chore(asset): KIS+BYBIT update"
+          stamp: "+%H:%MZ"
