@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-10T05:05:44.599355+00:00",
+  "as_of": "2026-08-10T05:16:37.494012+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -364,6 +364,42 @@
   ],
   "news": [
     {
+      "title": "여행부터 VVIP까지…카드사, ‘특화 서비스’ 경쟁",
+      "link": "https://www.mk.co.kr/news/economy/12122786",
+      "source": "매일경제·증권",
+      "published": "2026-08-10T05:14:10+00:00"
+    },
+    {
+      "title": "황희, 버스하우스 논란에 \"깊이 사과…청년주거 엄중함 못 헤아려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810084900001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T05:09:28+00:00"
+    },
+    {
+      "title": "[바이오스냅] 지씨셀, 손주희 사업개발실장 영입",
+      "link": "https://www.yna.co.kr/view/AKR20260810083900017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T05:09:13+00:00"
+    },
+    {
+      "title": "셀트리온, '쉬었음 청년' 자립 돕는다…바이오 교육 나서",
+      "link": "https://www.yna.co.kr/view/AKR20260810087400017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T05:06:31+00:00"
+    },
+    {
+      "title": "[게시판] 유안타증권, 금융센터 은평지점 투자설명회",
+      "link": "https://www.yna.co.kr/view/AKR20260810088100008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T05:04:56+00:00"
+    },
+    {
+      "title": "원주시, 26억원 들여 '행구동 천년나무' 관광명소로 조성",
+      "link": "https://www.yna.co.kr/view/AKR20260810087800062",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T05:02:17+00:00"
+    },
+    {
       "title": "건설업계 \"가덕도신공항 부지조성 공사비에 물가상승 반영해야\"",
       "link": "https://www.yna.co.kr/view/AKR20260810045000051",
       "source": "연합뉴스·경제",
@@ -373,6 +409,12 @@
       "title": "데이터 활용 의료·건강 생태계 조성, 국민체감 우수사업 선정",
       "link": "https://www.yna.co.kr/view/AKR20260810084400002",
       "source": "연합뉴스·경제",
+      "published": "2026-08-10T05:00:02+00:00"
+    },
+    {
+      "title": "Trump says oil supermajors are making too much money. What will they do with it?",
+      "link": "https://www.cnbc.com/2026/08/10/oil-iran-war-profits-windfall-tax.html",
+      "source": "CNBC Finance",
       "published": "2026-08-10T05:00:02+00:00"
     },
     {
@@ -406,24 +448,6 @@
       "published": "2026-08-10T04:17:48+00:00"
     },
     {
-      "title": "유럽 증시 '파죽지세'…AI·반도체 혼란 속 '분산 투자처'로 주목 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJMlJzVVRYWFBjd09IclV6U21pZ2QxTkk5OWFwZ1lnMlQ2MTR1UHpvUzJQRHl6M0lDOF9uQ1lNVmNMamtiSGtQRFZlb2xCanBZcllKT3RWVko3Q19TT1l5M0hVZFNGZGM50gFuQVVfeXFMT1A1T2dWNDRVWDZkR2FRbnRHaWdrN2dIdDBUWlhOUkY1S0o2NUU4NzNWZjB1eFFlMFdwM0JKQVhNTXdQTW85QXRmVWpYVVM3akY2X0JmX0loWFFsaUZ3OG5SUUxGNW5FMU9MYlBTR3c?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T04:17:04+00:00"
-    },
-    {
-      "title": "\"中, 증시 변동성 확대에 빚투 제동…증권사 거래 심사 강화\" - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51Rk5NdnRMdC1wVFZBX19UX0FJdklMQk53REtyb3JLREZDZ1Bnc2dMb1h1WV9SckhRaFU0LVB2UDhkRlRRcnNIUFpkeWpoRkU?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T04:09:01+00:00"
-    },
-    {
-      "title": "월가 \"美 고용 부진에 연준 금리 동결 가능성 커져…증시엔 추가 상승 여력\" - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kVTYza0pqQ2JHemk4ZVBGX096LWZOSUVVTW1xOEZDTl8teHl1TFJCUXBnb09ieDc3a0dTNFVDWVMwMmh0aE1IY1RxX3ZjN2lSQlEtMVZERmttaFdlTmNkOHBuQVdKcjJRT0pEUjYySUQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T03:53:34+00:00"
-    },
-    {
       "title": "“설마 1억원이 몽땅 날아갈 줄은”…원금 ‘0원’ 된 이 펀드 정체는",
       "link": "https://www.mk.co.kr/news/economy/12122736",
       "source": "매일경제·증권",
@@ -434,36 +458,6 @@
       "link": "https://www.cnbc.com/2026/08/09/rules-your-parents-taught-you-that-are-sabotaging-your-career-expert.html",
       "source": "CNBC Finance",
       "published": "2026-08-10T03:44:59+00:00"
-    },
-    {
-      "title": "\"뉴욕증시는 왜 덜 출렁이나\"…NYSE 사장 \"전 종목에 사람 붙인다” - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ITmtMRVU5NFNMbWZtS2lycElZclhlQmtxY0hMWTVFSndDODVST3N1eW1KUU5PdUc4QXNiUzNoWUtuYnJGaC1GeHVpeG8xdW5OdDczNw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T03:33:00+00:00"
-    },
-    {
-      "title": "[올댓차이나] 홍콩 증시, 美 금리인상 전망 후퇴에 상승세…H주 0.68%↑ - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sWmFmbGF4YlFmUDZzUDdtdk03V0tmOUpEa0pxeUU1Vk1ZRVVITVVoTWVPVmZKVW9tY0lqdmJGX2hCRjFpTmtzbFVGYjNjb2tVWWhLTjVhTnpqRFRBV2ctR9IBeEFVX3lxTFBXVk5XenZVb25ZT3d1YTZYTE9NNmNiZmtvQi1MSXViSHY0VlNHTW5nRXRGbS1jdHEtVTlZNGF4QnhLQVZGQjFJMzhkd1ZyRDhLR0hRRnZJSmg0djk1THkwU2FuZFRLZGg1TF9ZdGVoVU1yem1zSGVFaw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T03:29:40+00:00"
-    },
-    {
-      "title": "오늘의 증시 - MBC 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5mNVhoQjJwcUFNUUJ3dWU1X2hiVjB2aXVCZFlTdFNqN2ExX1hOeTI3NWhaU3pONU1TWVdyR3AwN0V6dXByckFNaVpxcy1faTFydXhxdEtodXZkUzNGaXNDNHRwQ09TejlrWVNyTlRSNHM0bWQ0bEV1Yw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T03:22:58+00:00"
-    },
-    {
-      "title": "증시 변동성 줄이려면…외국 전문가의 조언 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BdnVGZzBvR05RZzJyRW5xM3ZQT25YNEhkWWFMd1BaYVNLX1hXNFk0NzBkdVRreUpjRTRzdm4yYVdkeElKWDdMWlhHRjF3REFWcnU3OFpuRGFlOEVVdzNmQQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T03:04:29+00:00"
-    },
-    {
-      "title": "유럽 증시, '싸구려' 꼬리표 떼고 질주…글로벌 자금 몰린다 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XZDNiZUpDd0hjeXpUR2o5Yk9GVzFYTTU3TXJtMmxpdHlVdEx0eFU0UWlSbGhnbjFScmVLcUpoMjZaa1dKRG9nU3lCUXhzR1BYTWJDZXNkQW51Y1Fy?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T03:02:00+00:00"
     },
     {
       "title": "U.S. stock futures flat as investors await inflation data, grapple with more Iran uncertainty",
@@ -514,12 +508,6 @@
       "published": "2026-08-10T02:49:51+00:00"
     },
     {
-      "title": "일본, 한국 반등에 아시아 증시 상승 - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mb25nR2lVWnotZU1RNDRBdlNqQXZfSnFlNS02UTlJMzBJSENvdjRIT21rd0RvZjMzZkFNX2p0VEJscjhHRllkR0I1RkRxRDlZclJsWncxTmgyRk44dUJoRDZHN2VsbEVIenJHYllGdWU?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T02:48:00+00:00"
-    },
-    {
       "title": "딜로이트 컨설팅 코리아 신임 대표에 이석장 씨",
       "link": "https://www.yna.co.kr/view/AKR20260810070800002",
       "source": "연합뉴스·경제",
@@ -550,12 +538,6 @@
       "published": "2026-08-10T02:39:20+00:00"
     },
     {
-      "title": "부동산·증시에 부처 갈등까지…쌓여가는 과제에 고심 깊은 靑 - 헤럴드경제",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96Z2ZENWJyYk81NDdTU1ZhLWJpODZBcTN4TDgzMFQzZS14WXVZa1F0SEZPX09PYmVtS0JFREFKaVFzRVZYNjlnVVY5ZWxoSWxKVXVzZGt3?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T02:35:51+00:00"
-    },
-    {
       "title": "문신사중앙회, 기능경진대회 참가 모집…'타투 콘테스트' 신설",
       "link": "https://www.yna.co.kr/view/AKR20260810068800030",
       "source": "연합뉴스·경제",
@@ -574,34 +556,10 @@
       "published": "2026-08-10T02:22:24+00:00"
     },
     {
-      "title": "\"증시조정 못 견디겠다\"…42조 뭉칫돈 은행으로 '역머니무브' - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wZW5FSFU5clk0MTk4TkpsRjY2WlBIdG4xQVY5cjZ1aFpsRWFPc2hPTjd0ZUhrVjJxT2M4WmdZZ0U4NEwtc3hMOWhDdGFrb0pCRm9F?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T02:22:00+00:00"
-    },
-    {
       "title": "K-문샷 PD '주 15시간 이상' 시간선택제로 운영(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260809022051017",
       "source": "연합뉴스·경제",
       "published": "2026-08-10T02:19:48+00:00"
-    },
-    {
-      "title": "[증시타임] 美 고용 쇼크에 금리 변수 부각…코스피 훈풍 이어갈까 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBua1ZvbkNWb1VVeDlVdEh4aUxQeWtXd2dNbjU2c043aGxCNnRaMjlxNUhSMERWVTlaOTlVeTdHVldhZWJjVUJOSFhrSDhJaTA?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T02:19:30+00:00"
-    },
-    {
-      "title": "국장 향했던 서학개미, 美 증시 매수세 다시 불붙었다 - 신아일보",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XcmFlSW8xZ0dyc28zUmxyZjNwc01sV2o5b3dLMG0tYmNWRlZUR2Z1TnNZTjlISXFkQ2ktVkI3TkdQVVpJNFR6NlNsNUlhRkprVHFGdUw4dkNOaExUTy1ySWlVNFJYY1pOc1RYQWo0UHc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T02:18:07+00:00"
-    },
-    {
-      "title": "\"2015년 中 증시 닮은 코스피…반도체 실적이 다른 점\"-리서치알음 - 녹색경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40Y1hvQnpyRGMyZHd0UmRqei01NG96OFdXT0Q1S01kNjRvUFVHZ19oQlFzd0FEaVdDaE0xSmN6Rk5LOE9tTXNQYmpQT3lOQm1GQmxpWVRqck9IdHptaW00eDZKdkxYbmNX?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T02:17:16+00:00"
     },
     {
       "title": "농식품부 \"농기계 이중가격 등 불합리 관행 개선…7개과제 성과\"",
@@ -662,6 +620,48 @@
       "link": "https://www.yna.co.kr/view/AKR20260810036100052",
       "source": "연합뉴스·경제",
       "published": "2026-08-10T02:05:00+00:00"
+    },
+    {
+      "title": "해수부, '연안선박 현대화 펀드' 지원 선사 3곳 선정",
+      "link": "https://www.yna.co.kr/view/AKR20260810014900051",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T02:00:03+00:00"
+    },
+    {
+      "title": "북극항로 특별법 시행령안 마련…\"범정부 추진체계 첫걸음\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810034300051",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T02:00:02+00:00"
+    },
+    {
+      "title": "100m 이상 높이서 작업 가능한 대형 고소작업차 건설현장 도입",
+      "link": "https://www.yna.co.kr/view/AKR20260810027100003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T02:00:01+00:00"
+    },
+    {
+      "title": "농식품부, 안성·천안 160여 농가 축산악취 집중 점검",
+      "link": "https://www.yna.co.kr/view/AKR20260810057000030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T02:00:01+00:00"
+    },
+    {
+      "title": "\"터미널 주변 용적률 특례\"…대전시, 정비사업 조례 개정",
+      "link": "https://www.yna.co.kr/view/AKR20260810060100063",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:55:00+00:00"
+    },
+    {
+      "title": "국내여행 입 떡 벌어지게 비싼데, 지방상권서 왜 곡소리 날까 [금융가 톺아보기]",
+      "link": "https://www.mk.co.kr/news/economy/12122590",
+      "source": "매일경제·증권",
+      "published": "2026-08-10T01:40:50+00:00"
+    },
+    {
+      "title": "한화손보, ‘성조숙증 검사비’ 특약 배타적사용권 획득",
+      "link": "https://www.mk.co.kr/news/economy/12122589",
+      "source": "매일경제·증권",
+      "published": "2026-08-10T01:39:39+00:00"
     }
   ],
   "pages": [
