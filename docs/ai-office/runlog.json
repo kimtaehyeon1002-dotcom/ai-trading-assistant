@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-10T22:30:21.381582+09:00",
+  "updated_at": "2026-08-10T22:31:16.403014+09:00",
   "workers": {
     "Vault Sync": {
       "worker": "Vault Sync",
-      "last_run": "2026-08-10T22:30:10.717909+09:00",
+      "last_run": "2026-08-10T22:30:54.934396+09:00",
       "status": "completed",
       "items": 1,
-      "duration_ms": 24
+      "duration_ms": 1
     },
     "Asset Kiwoom": {
       "worker": "Asset Kiwoom",
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-08-10T22:30:10.903379+09:00",
+      "last_run": "2026-08-10T22:30:55.003742+09:00",
       "status": "completed",
       "items": 26,
-      "duration_ms": 778
+      "duration_ms": 16911
     },
     "Asset Publish": {
       "worker": "Asset Publish",
@@ -54,32 +54,32 @@
     "Vault Journal": {
       "worker": "Vault Journal",
       "status": "completed",
-      "items": 26,
+      "items": 1,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-08-10T22:30:21.312195+09:00"
+      "last_run": "2026-08-10T22:31:16.354448+09:00"
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-08-10T22:30:11.683659+09:00",
+      "last_run": "2026-08-10T22:31:11.916450+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 3298
+      "duration_ms": 4228
     },
     "Translator": {
       "worker": "Translator",
-      "last_run": "2026-08-10T22:30:14.989055+09:00",
+      "last_run": "2026-08-10T22:31:16.149955+09:00",
       "status": "completed",
-      "items": 400,
-      "duration_ms": 1932
+      "items": 180,
+      "duration_ms": 0
     },
     "Publisher": {
       "worker": "Publisher",
       "status": "completed",
-      "items": 3,
+      "items": 2,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-08-10T22:30:21.381582+09:00"
+      "last_run": "2026-08-10T22:31:16.402902+09:00"
     },
     "Trade Manager": {
       "worker": "Trade Manager",
@@ -90,17 +90,17 @@
     },
     "Theme Analyst": {
       "worker": "Theme Analyst",
-      "last_run": "2026-08-10T22:04:37.606283+09:00",
+      "last_run": "2026-08-10T22:31:16.173563+09:00",
       "status": "completed",
       "items": 3,
-      "duration_ms": 13
+      "duration_ms": 15
     },
     "TA Analyst": {
       "worker": "TA Analyst",
-      "last_run": "2026-08-10T22:04:37.621882+09:00",
+      "last_run": "2026-08-10T22:31:16.190413+09:00",
       "status": "completed",
       "items": 121,
-      "duration_ms": 131
+      "duration_ms": 96
     },
     "Macro FRED": {
       "worker": "Macro FRED",
@@ -167,10 +167,10 @@
     },
     "Loop Ledger": {
       "worker": "Loop Ledger",
-      "last_run": "2026-08-10T22:30:10.898299+09:00",
+      "last_run": "2026-08-10T22:31:16.354470+09:00",
       "status": "completed",
       "items": 2,
-      "duration_ms": 5
+      "duration_ms": 1
     }
   }
 }
