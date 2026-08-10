@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-10T19:53:19.581327+00:00",
+  "as_of": "2026-08-10T20:31:18.000026+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,10 +354,70 @@
   ],
   "news": [
     {
+      "title": "Nvidia teams up with Wall Street asset managers on $500 billion AI infrastructure push",
+      "link": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T20:28:02+00:00"
+    },
+    {
+      "title": "뉴욕증시, 유가 급등에 일제히 하락 마감…나스닥 0.32%↓ - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrVGxCTVg1NWxxUmpsRnYtbUhBQ3ZuUm1zaHZtRFhUUVhWcld4UklxRDhHZjZtN3o4RXdlYXJlWFZ4dTUyY2lWSkJ4dTZyWUV6LU1SS2VDaDRQMFBx?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T20:19:00+00:00"
+    },
+    {
+      "title": "EBay may dodge a GameStop takeover — but there’s a new twist in the Ryan Cohen saga",
+      "link": "https://www.marketwatch.com/story/ebay-may-dodge-a-gamestop-takeover-but-theres-a-new-twist-in-the-ryan-cohen-saga-d779b753?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T20:17:00+00:00"
+    },
+    {
+      "title": "[속보]뉴욕증시, 美·이란 협상 교착에 하락 마감 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rYXhsdFpJdlpORE9XOHRMcHF4XzlnSmVBWHVCQzdsblhSUURBZWNjUzAwUkRyZEl6d0RuRWtvS1RqSVV6WmMtTXBaUHRXY1o1eTBzVTFpRHVNWjZBVWo3Nw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T20:12:08+00:00"
+    },
+    {
+      "title": "[뉴욕증시-1보] 유가 급등에 숨 고르며 CPI 경계…약세 마감 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RTDRvTEFWYW10MUpNMXVRZ04wTVphMmRoa1RkNUt5VXlHR0hsbVVZQkxOYkh5VTlocS1kMXF3Xy13YUxzVkRMZmd4UWFFNTVkU19YRHN0ZDR4S0hxQWFza2EwMDRPVVcybFZqX2dLWXHSAXRBVV95cUxOWTIzYUozZXoyWFJfRnE2UVA4Yy1ESWhiempCLUdtNWdWUFEtNXlDdDFTc2VFT2QwdEo1U2FIbXg3MDRBaldTdThUS0tBaWRUeHZXUDFrdTFWU2VuM0VIWm1BcG9fNFpqNGloSkdpTjBocHN6dQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T20:11:20+00:00"
+    },
+    {
+      "title": "Boeing sells eVTOL subsidiaries, takes stake in Archer",
+      "link": "https://www.cnbc.com/2026/08/10/boeing-evtol-archer-stake.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T20:11:09+00:00"
+    },
+    {
+      "title": "SpaceX stock rebounds, closing above $135 IPO price for first time in weeks",
+      "link": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T20:08:55+00:00"
+    },
+    {
+      "title": "CrowdStrike, Palo Alto hit records after Black Hat cyber conference illuminates rising AI threat",
+      "link": "https://www.cnbc.com/2026/08/10/crowdstrike-palo-alto-stock-black-hat.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T20:03:39+00:00"
+    },
+    {
+      "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
+      "link": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T20:00:00+00:00"
+    },
+    {
+      "title": "Good news for stock-market bulls: Corporate earnings growth is no longer being driven just by tech",
+      "link": "https://www.marketwatch.com/story/good-news-for-stock-market-bulls-corporate-earnings-growth-is-no-longer-being-driven-just-by-tech-ddac973b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T20:00:00+00:00"
+    },
+    {
       "title": "Trump signs executive order calling for fewer childhood vaccines, falsely linking shots to autism",
       "link": "https://www.cnbc.com/2026/08/10/trump-vaccine-executive-order-autism.html",
       "source": "CNBC Finance",
-      "published": "2026-08-10T19:50:55+00:00"
+      "published": "2026-08-10T19:53:36+00:00"
     },
     {
       "title": "국제유가, 호르무즈 협상 교착에 5%↑…WTI 다시 80달러대",
@@ -420,12 +480,6 @@
       "published": "2026-08-10T19:00:00+00:00"
     },
     {
-      "title": "Nvidia teams up with Wall Street asset managers on $500 billion AI infrastructure push",
-      "link": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T18:58:47+00:00"
-    },
-    {
       "title": "HHS moves to tighten oversight of food ingredients as safety concerns mount",
       "link": "https://www.cnbc.com/2026/08/10/hhs-makes-announcements-on-gras-ultraprocessed-food.html",
       "source": "CNBC Finance",
@@ -468,18 +522,6 @@
       "published": "2026-08-10T18:08:00+00:00"
     },
     {
-      "title": "‘I don’t wish to be cold-hearted’: My elderly relative can no longer care for himself. Am I wrong to leave his care to the state?",
-      "link": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-10T18:00:00+00:00"
-    },
-    {
-      "title": "CrowdStrike, Palo Alto hit records after Black Hat cyber conference illuminates rising AI threat",
-      "link": "https://www.cnbc.com/2026/08/10/crowdstrike-palo-alto-stock-black-hat.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T17:49:27+00:00"
-    },
-    {
       "title": "No.1 경제·증권 채널 : @HKWOWTV - 한국경제TV",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVW41ckwtX1Q3MTRYU1c0ek8tUHVKS2ViNGEzU0pVMmdlX0NQRTRLQzdISE5fblhsOWwyRlZYVGZtY3pWZ0g3WE1QV2NxbjI1NlBZbHViLU9xTy1Yc0ttR0VQRVlwa283U1I4TGpOOUl0ZVVqUTlfeEFRR2QwNTZVLTNDbWlxNWttN25hWkVESjhpZnY1OHhuaDVXSy1HMFFhaWIw?oc=5",
       "source": "Google News",
@@ -490,24 +532,6 @@
       "link": "https://www.cnbc.com/2026/08/08/cyclospora-salads-lettuce-restaurants.html",
       "source": "CNBC Finance",
       "published": "2026-08-10T17:23:17+00:00"
-    },
-    {
-      "title": "Archer strikes deal with Boeing in latest bid to transform aviation through AI",
-      "link": "https://www.marketwatch.com/story/archer-strikes-deal-with-boeing-in-latest-bid-to-transform-aviation-through-ai-dac15322?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-10T17:22:00+00:00"
-    },
-    {
-      "title": "SpaceX stock rebounds to near $135 IPO price",
-      "link": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T17:20:14+00:00"
-    },
-    {
-      "title": "Protect College Sports Act to be voted on next month: What it means for transfers and team spending",
-      "link": "https://www.marketwatch.com/story/senate-vote-on-the-protect-college-sports-act-could-come-this-week-what-it-means-for-transfers-and-salary-caps-58088560?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-10T16:48:00+00:00"
     },
     {
       "title": "Wednesday’s crucial CPI report will show tamer inflation, according to prediction markets",
@@ -534,12 +558,6 @@
       "published": "2026-08-10T15:44:00+00:00"
     },
     {
-      "title": "“증시 최우선 가치는 거래 안정성” - 서울신문",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RYXk5ZGdzZ0hhTDdQUmc0Tmo0YlpWU0VKRVAxajhodGIxZ0kxZzBJYmQzR1BUZmFkbkpuZ0lnVUlwMk8wY2duVnVqaF9uTWExdFdWbUJpa0gxQWxsYy1adGh5LU1jMUY3WG12MFgtYw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T15:27:41+00:00"
-    },
-    {
       "title": "Trump’s foreign licensing business booms to $59.5 million as Gulf developers pay",
       "link": "https://www.cnbc.com/2026/08/10/trump-foreign-real-estate-licensing-income-gulf-deals.html",
       "source": "CNBC Finance",
@@ -550,12 +568,6 @@
       "link": "https://www.cnbc.com/2026/08/10/us-iran-war-trump-hormuz-oman-ships-blockade-shipping.html",
       "source": "CNBC Finance",
       "published": "2026-08-10T14:27:15+00:00"
-    },
-    {
-      "title": "Archer shares surge after Boeing stake, electric aircraft subsidiary deal",
-      "link": "https://www.cnbc.com/2026/08/10/boeing-evtol-archer-stake.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T14:16:24+00:00"
     },
     {
       "title": "뉴욕증시, 국제 유가·국채금리 오르자 하락 - 한국경제",
@@ -576,7 +588,7 @@
       "published": "2026-08-10T13:39:56+00:00"
     },
     {
-      "title": "[속보] 뉴욕증시 3대 지수 개장 직후 하락… S&P500 0.03%↓·다우 0.02%↓·나스닥 0.05%↓ - 천지일보",
+      "title": "[속보] 뉴욕증시 3대 지수 개장 직후 하락… S&P500 0.03%↓·다우 0.02%↓·나스닥 0.05%↓ - newscj.com",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hbk5MRVZPQ3lMYXBRSGJnam5fZ0N4cl9WSkNZN3NGUW9UVm9sdTllelItd3RHLTl3SGZHQmEtalhOQXZLbnlFQ2JRQzMyQi04bVJNTFRvbnIwZUFoZWZMeFBVdkc3akdFV1E?oc=5",
       "source": "Google News",
       "published": "2026-08-10T13:34:11+00:00"
@@ -640,18 +652,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuNTgwRXZVekhlVjNUWUk1OUtXeDZWcWYtLVp1UTdRaVhJVWFieFpobEpzTURKUTJDOWhOMUtlQmxyNFFUTFB3Sm9oRlFaejU5NmFBVXcwc2xDblBP?oc=5",
       "source": "Google News",
       "published": "2026-08-10T10:54:00+00:00"
-    },
-    {
-      "title": "운동화 아식스 OEM 업체 비즈코, 강남 '브이플렉스' 인수",
-      "link": "https://www.yna.co.kr/view/AKR20260810145100008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T10:47:55+00:00"
-    },
-    {
-      "title": "청년미래적금, 138만5천명 최종가입…9월 추가모집 검토",
-      "link": "https://www.yna.co.kr/view/AKR20260810146800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T10:46:41+00:00"
     }
   ],
   "pages": [
