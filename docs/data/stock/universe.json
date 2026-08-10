@@ -90,13 +90,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "079550",
-    "name": "LIG디펜스앤에어로스페이스",
+    "code": "017900",
+    "name": "광전자",
     "market": "KOSPI"
   },
   {
-    "code": "017900",
-    "name": "광전자",
+    "code": "079550",
+    "name": "LIG디펜스앤에어로스페이스",
     "market": "KOSPI"
   },
   {
@@ -135,13 +135,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "062040",
-    "name": "산일전기",
+    "code": "475150",
+    "name": "SK이터닉스",
     "market": "KOSPI"
   },
   {
-    "code": "475150",
-    "name": "SK이터닉스",
+    "code": "062040",
+    "name": "산일전기",
     "market": "KOSPI"
   },
   {
@@ -150,18 +150,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "MU",
-    "name": "Micron Technology",
-    "market": "US"
-  },
-  {
     "code": "NVDA",
     "name": "Nvidia",
     "market": "US"
   },
   {
-    "code": "SNDK",
-    "name": "Sandisk",
+    "code": "MU",
+    "name": "Micron Technology",
     "market": "US"
   },
   {
@@ -170,28 +165,13 @@
     "market": "US"
   },
   {
-    "code": "PLTR",
-    "name": "Palantir Technologies",
-    "market": "US"
-  },
-  {
-    "code": "TSLA",
-    "name": "Tesla, Inc.",
-    "market": "US"
-  },
-  {
-    "code": "AMD",
-    "name": "Advanced Micro Devices",
-    "market": "US"
-  },
-  {
     "code": "AAPL",
     "name": "Apple Inc.",
     "market": "US"
   },
   {
-    "code": "AMZN",
-    "name": "Amazon",
+    "code": "SNDK",
+    "name": "Sandisk",
     "market": "US"
   },
   {
@@ -200,13 +180,33 @@
     "market": "US"
   },
   {
-    "code": "GOOGL",
-    "name": "Alphabet Inc. (Class A)",
+    "code": "PLTR",
+    "name": "Palantir Technologies",
+    "market": "US"
+  },
+  {
+    "code": "AMZN",
+    "name": "Amazon",
+    "market": "US"
+  },
+  {
+    "code": "AMD",
+    "name": "Advanced Micro Devices",
     "market": "US"
   },
   {
     "code": "META",
     "name": "Meta Platforms",
+    "market": "US"
+  },
+  {
+    "code": "TSLA",
+    "name": "Tesla, Inc.",
+    "market": "US"
+  },
+  {
+    "code": "GOOGL",
+    "name": "Alphabet Inc. (Class A)",
     "market": "US"
   },
   {
@@ -220,18 +220,8 @@
     "market": "US"
   },
   {
-    "code": "WDC",
-    "name": "Western Digital",
-    "market": "US"
-  },
-  {
     "code": "GOOG",
     "name": "Alphabet Inc. (Class C)",
-    "market": "US"
-  },
-  {
-    "code": "STX",
-    "name": "Seagate Technology",
     "market": "US"
   },
   {
@@ -240,43 +230,8 @@
     "market": "US"
   },
   {
-    "code": "COHR",
-    "name": "Coherent Corp.",
-    "market": "US"
-  },
-  {
     "code": "LLY",
     "name": "Lilly (Eli)",
-    "market": "US"
-  },
-  {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
-    "market": "US"
-  },
-  {
-    "code": "NOW",
-    "name": "ServiceNow",
-    "market": "US"
-  },
-  {
-    "code": "ABNB",
-    "name": "Airbnb",
-    "market": "US"
-  },
-  {
-    "code": "XOM",
-    "name": "ExxonMobil",
-    "market": "US"
-  },
-  {
-    "code": "APP",
-    "name": "AppLovin",
-    "market": "US"
-  },
-  {
-    "code": "UBER",
-    "name": "Uber",
     "market": "US"
   },
   {
@@ -285,18 +240,63 @@
     "market": "US"
   },
   {
-    "code": "GEV",
-    "name": "GE Vernova",
+    "code": "STX",
+    "name": "Seagate Technology",
     "market": "US"
   },
   {
-    "code": "DELL",
-    "name": "Dell Technologies",
+    "code": "ORCL",
+    "name": "Oracle Corporation",
     "market": "US"
   },
   {
-    "code": "TXN",
-    "name": "Texas Instruments",
+    "code": "COHR",
+    "name": "Coherent Corp.",
+    "market": "US"
+  },
+  {
+    "code": "WDC",
+    "name": "Western Digital",
+    "market": "US"
+  },
+  {
+    "code": "V",
+    "name": "Visa Inc.",
+    "market": "US"
+  },
+  {
+    "code": "BRK-B",
+    "name": "Berkshire Hathaway",
+    "market": "US"
+  },
+  {
+    "code": "CSCO",
+    "name": "Cisco",
+    "market": "US"
+  },
+  {
+    "code": "DDOG",
+    "name": "Datadog",
+    "market": "US"
+  },
+  {
+    "code": "LRCX",
+    "name": "Lam Research",
+    "market": "US"
+  },
+  {
+    "code": "PANW",
+    "name": "Palo Alto Networks",
+    "market": "US"
+  },
+  {
+    "code": "APP",
+    "name": "AppLovin",
+    "market": "US"
+  },
+  {
+    "code": "WMT",
+    "name": "Walmart",
     "market": "US"
   },
   {

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-10T22:05:23.730248+00:00",
+  "as_of": "2026-08-10T22:24:05.699624+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -92,13 +92,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "079550",
-      "name": "LIG디펜스앤에어로스페이스",
+      "code": "017900",
+      "name": "광전자",
       "market": "KOSPI"
     },
     {
-      "code": "017900",
-      "name": "광전자",
+      "code": "079550",
+      "name": "LIG디펜스앤에어로스페이스",
       "market": "KOSPI"
     },
     {
@@ -137,13 +137,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "062040",
-      "name": "산일전기",
+      "code": "475150",
+      "name": "SK이터닉스",
       "market": "KOSPI"
     },
     {
-      "code": "475150",
-      "name": "SK이터닉스",
+      "code": "062040",
+      "name": "산일전기",
       "market": "KOSPI"
     },
     {
@@ -152,18 +152,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "MU",
-      "name": "Micron Technology",
-      "market": "US"
-    },
-    {
       "code": "NVDA",
       "name": "Nvidia",
       "market": "US"
     },
     {
-      "code": "SNDK",
-      "name": "Sandisk",
+      "code": "MU",
+      "name": "Micron Technology",
       "market": "US"
     },
     {
@@ -172,28 +167,13 @@
       "market": "US"
     },
     {
-      "code": "PLTR",
-      "name": "Palantir Technologies",
-      "market": "US"
-    },
-    {
-      "code": "TSLA",
-      "name": "Tesla, Inc.",
-      "market": "US"
-    },
-    {
-      "code": "AMD",
-      "name": "Advanced Micro Devices",
-      "market": "US"
-    },
-    {
       "code": "AAPL",
       "name": "Apple Inc.",
       "market": "US"
     },
     {
-      "code": "AMZN",
-      "name": "Amazon",
+      "code": "SNDK",
+      "name": "Sandisk",
       "market": "US"
     },
     {
@@ -202,13 +182,33 @@
       "market": "US"
     },
     {
-      "code": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
+      "code": "PLTR",
+      "name": "Palantir Technologies",
+      "market": "US"
+    },
+    {
+      "code": "AMZN",
+      "name": "Amazon",
+      "market": "US"
+    },
+    {
+      "code": "AMD",
+      "name": "Advanced Micro Devices",
       "market": "US"
     },
     {
       "code": "META",
       "name": "Meta Platforms",
+      "market": "US"
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla, Inc.",
+      "market": "US"
+    },
+    {
+      "code": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
       "market": "US"
     },
     {
@@ -222,18 +222,8 @@
       "market": "US"
     },
     {
-      "code": "WDC",
-      "name": "Western Digital",
-      "market": "US"
-    },
-    {
       "code": "GOOG",
       "name": "Alphabet Inc. (Class C)",
-      "market": "US"
-    },
-    {
-      "code": "STX",
-      "name": "Seagate Technology",
       "market": "US"
     },
     {
@@ -242,43 +232,8 @@
       "market": "US"
     },
     {
-      "code": "COHR",
-      "name": "Coherent Corp.",
-      "market": "US"
-    },
-    {
       "code": "LLY",
       "name": "Lilly (Eli)",
-      "market": "US"
-    },
-    {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
-      "market": "US"
-    },
-    {
-      "code": "NOW",
-      "name": "ServiceNow",
-      "market": "US"
-    },
-    {
-      "code": "ABNB",
-      "name": "Airbnb",
-      "market": "US"
-    },
-    {
-      "code": "XOM",
-      "name": "ExxonMobil",
-      "market": "US"
-    },
-    {
-      "code": "APP",
-      "name": "AppLovin",
-      "market": "US"
-    },
-    {
-      "code": "UBER",
-      "name": "Uber",
       "market": "US"
     },
     {
@@ -287,18 +242,63 @@
       "market": "US"
     },
     {
-      "code": "GEV",
-      "name": "GE Vernova",
+      "code": "STX",
+      "name": "Seagate Technology",
       "market": "US"
     },
     {
-      "code": "DELL",
-      "name": "Dell Technologies",
+      "code": "ORCL",
+      "name": "Oracle Corporation",
       "market": "US"
     },
     {
-      "code": "TXN",
-      "name": "Texas Instruments",
+      "code": "COHR",
+      "name": "Coherent Corp.",
+      "market": "US"
+    },
+    {
+      "code": "WDC",
+      "name": "Western Digital",
+      "market": "US"
+    },
+    {
+      "code": "V",
+      "name": "Visa Inc.",
+      "market": "US"
+    },
+    {
+      "code": "BRK-B",
+      "name": "Berkshire Hathaway",
+      "market": "US"
+    },
+    {
+      "code": "CSCO",
+      "name": "Cisco",
+      "market": "US"
+    },
+    {
+      "code": "DDOG",
+      "name": "Datadog",
+      "market": "US"
+    },
+    {
+      "code": "LRCX",
+      "name": "Lam Research",
+      "market": "US"
+    },
+    {
+      "code": "PANW",
+      "name": "Palo Alto Networks",
+      "market": "US"
+    },
+    {
+      "code": "APP",
+      "name": "AppLovin",
+      "market": "US"
+    },
+    {
+      "code": "WMT",
+      "name": "Walmart",
       "market": "US"
     },
     {
@@ -354,16 +354,34 @@
   ],
   "news": [
     {
-      "title": "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are ‘investable asset’",
-      "link": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T21:59:28+00:00"
-    },
-    {
       "title": "Trump Media posts $238 million second-quarter loss as crypto declines",
       "link": "https://www.cnbc.com/2026/08/10/trump-media-djt-tmtg-earnings-truth-social-crypto.html",
       "source": "CNBC Finance",
-      "published": "2026-08-10T21:48:14+00:00"
+      "published": "2026-08-10T22:15:05+00:00"
+    },
+    {
+      "title": "[오늘의 글로벌마켓] 뉴욕증시, 유가 급등 속 3대지수 약보합...나스닥 0.3%↓ - 오피니언뉴스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGRGlaWjZoV2hhV0RqUWdYcFR2ZENDTzdQUUFDWWxDdXA1SEhWSXgwbm9TQUpnUDVjT3pFTDMzQ0RQVERxZ1VXbWRkMkFhWmdmbWs3dGJ0emF1ZWEwY3FWLV9rMjVmV29zMDZSVFNzSm4?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T22:13:42+00:00"
+    },
+    {
+      "title": "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are ‘investable asset’",
+      "link": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T22:09:00+00:00"
+    },
+    {
+      "title": "[우분투칼럼] '조만장자' 머스크가 아프리카인이라고",
+      "link": "https://www.yna.co.kr/view/AKR20260803088500898",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T22:00:02+00:00"
+    },
+    {
+      "title": "본토벨 \"증시, 균열 조짐 보여…'신중한 비중확대' 의견 유지\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBFanRnQS16RUQwM1NPZkNCQW9ockx4Z0VKbkdtU3JJZkJFNHNnN1dJX1A0dzJXOEdfb1BDOHlDa1hzblU0dzJoMmZUbVJGQ2M?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T21:48:03+00:00"
     },
     {
       "title": "스리랑카 증시, 부동산 강세에 힘입어 4거래일 연속 상승 - Investing.com 한국어",
@@ -438,24 +456,6 @@
       "published": "2026-08-10T21:07:00+00:00"
     },
     {
-      "title": "[월가 레이더] 美 뉴욕증시, 반도체 약세 속 혼조…이란 협상 난항에 유가 5% 폭등 - 포커스온경제",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1yeHVnWkhBRzNKLUN6dnE4bkFhM1E1bDdZSWJaWW0ybEhmQ2hJOFhzWTJVT2o5aEV6SVJGX0R2ZWIxOF9OZXBpQUNkT0VOZnNod3R5UGpqTHdyYTJFYWc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T21:06:38+00:00"
-    },
-    {
-      "title": "“잠깐 떳다 지는 주도주”... 韓 증시 발목 잡는 ‘푼돈 배당’ - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ3pNQ05MbzJGendfMnlKT1Ywcl9HcHpuVF8tMERlN19WdGRObThLVDNBbmtjbkxsUVNGWXRyS3hoWkZ4UFhUQ0gyLXVRQ2tDZWJUQmthZVpxMXoyYlVCTHQ2UkpFV2J4d1JvYXNuMkNmSVg3WGdUcTF1N3pCS3o5N3JTUk9DbWhv0gGcAUFVX3lxTE8yZ2tkNHZ1bXo5WmhLRHpXcnhiODZhdklZZTR0MTBfSUxOc3VBT3g0elpTZUZGalBVR3N5cUR0YUwzaHY4YW5laGtJNlhzanNLSVFkZ1dmTVZnVjRHTEdwYTJkOGctTVhuc3lSVFUxU1l0VHA5WVpDbnFyNTNlLU45QnZLaFZVa3M1eGVLNl9UdmRGOWxlbWczVFVRUg?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T21:06:30+00:00"
-    },
-    {
-      "title": "[속보] 뉴욕증시, 하락...나스닥 0.32% ↓ - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1vZl9NQlA4RDJ1blp0NWQxV2NGakd0LXB6bkROanlxT0lTZ2xoQ0ozQlIwWDQ4VGY3SmRaMHlTbEZvczVfVVI4eGZHX0VnY201SVJNOA?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T21:03:00+00:00"
-    },
-    {
       "title": "임금근로자 8명 중 1명은 '최저임금 미만'…임시직은 39%",
       "link": "https://www.yna.co.kr/view/AKR20260810104900530",
       "source": "연합뉴스·경제",
@@ -474,6 +474,12 @@
       "published": "2026-08-10T21:00:03+00:00"
     },
     {
+      "title": "“잠깐 떳다 지는 주도주”... 韓 증시 발목 잡는 ‘푼돈 배당’ - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ3pNQ05MbzJGendfMnlKT1Ywcl9HcHpuVF8tMERlN19WdGRObThLVDNBbmtjbkxsUVNGWXRyS3hoWkZ4UFhUQ0gyLXVRQ2tDZWJUQmthZVpxMXoyYlVCTHQ2UkpFV2J4d1JvYXNuMkNmSVg3WGdUcTF1N3pCS3o5N3JTUk9DbWhv0gGcAUFVX3lxTE8yZ2tkNHZ1bXo5WmhLRHpXcnhiODZhdklZZTR0MTBfSUxOc3VBT3g0elpTZUZGalBVR3N5cUR0YUwzaHY4YW5laGtJNlhzanNLSVFkZ1dmTVZnVjRHTEdwYTJkOGctTVhuc3lSVFUxU1l0VHA5WVpDbnFyNTNlLU45QnZLaFZVa3M1eGVLNl9UdmRGOWxlbWczVFVRUg?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T21:00:00+00:00"
+    },
+    {
       "title": "[뉴욕증시] 유가 급등에 숨 고르며 CPI 경계…약세 마감 - 연합인포맥스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iVVc0ZTJVZUlGWXVmeUFWX1BDWHhvZG16cEh1QnNzT3lUN3o1aS1uRTVwOEJ5T0otUVVBV3Y2TW9nNl81d0JCcV91MUppRTQzMjJLeWdhSm9PNWJPenczbjN1MWNhc3VhNmNjOFVzU1E?oc=5",
       "source": "Google News",
@@ -488,6 +494,12 @@
     {
       "title": "“반도체만 외치던 증시, 이젠 내 차례”…이달 38% 오른 이 종목 - 매일경제 마켓",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9PS3YxV01jb3g0Rk0zQmdhYmNkNHh0cmN0U0pEdHRVOEZ6RzhtQnZMSkpzeFliX29vUTZvS2oxVGs4ZDZnc09FSzk0b3NBVUNIQUE?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T20:57:03+00:00"
+    },
+    {
+      "title": "“반도체만 외치던 증시, 이젠 내 차례”…이달 38% 오른 이 종목 - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nd29Xd25sWUtHVHZ1REsxNDRxVW40c1FNNlJ4SUs0N180am1qZVA5SUZ5UVR6cjUtOGhPZzRKelVoMVVyU0pNTXI4ZG1wQmhna0E?oc=5",
       "source": "Google News",
       "published": "2026-08-10T20:57:03+00:00"
     },
@@ -526,6 +538,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260810142600002",
       "source": "연합뉴스·경제",
       "published": "2026-08-10T20:51:00+00:00"
+    },
+    {
+      "title": "[뉴욕증시]美 이란 협상 교착에 일제히 하락 마감 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Cc2dGWkk5TVhncjh0LTRRcWlrM3dnZ3FZNUNDc2ZqYzVCaWVuUUJzVGRsUV92WFpZTVNmaGlaZGRxbXR0M1pXa21wVGpINEhzXzNLdk4zSkZCWktKRG9KTw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T20:45:18+00:00"
     },
     {
       "title": "뉴욕증시, 유가 5% 급등·기술주 약세에 약보합…나스닥 0.32%↓[뉴욕마감] - v.daum.net",
@@ -634,24 +652,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260811004100071",
       "source": "연합뉴스·경제",
       "published": "2026-08-10T19:08:28+00:00"
-    },
-    {
-      "title": "20억대 아파트가 기대주로 … ‘보유에서 거주로’ 세제개편안이 가리키는 방향",
-      "link": "https://www.mk.co.kr/news/economy/12122808",
-      "source": "매일경제·증권",
-      "published": "2026-08-10T19:00:00+00:00"
-    },
-    {
-      "title": "‘I want her to choose the best strategy’: My wife’s Social Security is just $900. Should she claim spousal benefit at 62?",
-      "link": "https://www.marketwatch.com/story/i-want-her-to-choose-the-best-strategy-my-wifes-social-security-is-just-900-should-she-claim-spousal-benefit-at-62-e3ef621d?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-10T19:00:00+00:00"
-    },
-    {
-      "title": "HHS moves to tighten oversight of food ingredients as safety concerns mount",
-      "link": "https://www.cnbc.com/2026/08/10/hhs-makes-announcements-on-gras-ultraprocessed-food.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T18:46:43+00:00"
     }
   ],
   "pages": [

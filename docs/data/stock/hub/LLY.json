@@ -4,12 +4,12 @@
   "market": "US",
   "theme": "바이오",
   "quote": {
-    "close": 1185.7099609375,
-    "change_pct": -0.52,
-    "volume": 2897000,
-    "amount": 3435001756.8359375,
+    "close": 1231.93994140625,
+    "change_pct": 3.9,
+    "volume": 3005651,
+    "amount": 3702781516.8276367,
     "marcap": null,
-    "as_of_iso": "2026-08-10T08:15:44.455939+00:00",
+    "as_of_iso": "2026-08-10T22:23:53.386322+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "LLY",
