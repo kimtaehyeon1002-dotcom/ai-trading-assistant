@@ -2,12 +2,162 @@
   "code": "APP",
   "name": "AppLovin",
   "market": "US",
-  "as_of": "2026-08-10T21:33:54.531927+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-10T15:00:04.372444+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 69.99,
+    "cagr_pct": 24.84,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 2793104000
+      },
+      {
+        "year": "2022",
+        "value": 2817058000
+      },
+      {
+        "year": "2023",
+        "value": 1841762000
+      },
+      {
+        "year": "2024",
+        "value": 3224058000
+      },
+      {
+        "year": "2025",
+        "value": 5480717000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 75.75,
+    "own_5y_avg": 27.99,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 5.37
+      },
+      {
+        "year": "2022",
+        "value": -1.7
+      },
+      {
+        "year": "2023",
+        "value": 41.94
+      },
+      {
+        "year": "2024",
+        "value": 59.27
+      },
+      {
+        "year": "2025",
+        "value": 75.75
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 240.08,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2021",
+        "value": 188.27
+      },
+      {
+        "year": "2022",
+        "value": 207.35
+      },
+      {
+        "year": "2023",
+        "value": 326.58
+      },
+      {
+        "year": "2024",
+        "value": 438.55
+      },
+      {
+        "year": "2025",
+        "value": 240.08
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 3971094000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2019",
+        "value": 195104000
+      },
+      {
+        "year": "2020",
+        "value": 219642000
+      },
+      {
+        "year": "2021",
+        "value": 360461000
+      },
+      {
+        "year": "2022",
+        "value": 412111000
+      },
+      {
+        "year": "2023",
+        "value": 1057264000
+      },
+      {
+        "year": "2024",
+        "value": 2094235000
+      },
+      {
+        "year": "2025",
+        "value": 3971094000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 9.75,
+    "per": 35.57,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 346.79998779296875,
+    "eps": 9.75,
+    "bps": 6.24,
+    "roe": 156.17,
+    "per": 35.57,
+    "pbr": 55.58,
+    "roe_series": [
+      {
+        "year": "2021",
+        "value": 1.66
+      },
+      {
+        "year": "2022",
+        "value": -10.13
+      },
+      {
+        "year": "2023",
+        "value": 28.39
+      },
+      {
+        "year": "2024",
+        "value": 144.96
+      },
+      {
+        "year": "2025",
+        "value": 156.17
+      }
+    ],
+    "note": null
+  }
 }

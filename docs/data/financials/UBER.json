@@ -2,12 +2,170 @@
   "code": "UBER",
   "name": "Uber",
   "market": "US",
-  "as_of": "2026-08-10T21:33:54.532245+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-10T15:00:04.798560+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 18.28,
+    "cagr_pct": 17.73,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 17455000000
+      },
+      {
+        "year": "2022",
+        "value": 31877000000
+      },
+      {
+        "year": "2023",
+        "value": 37281000000
+      },
+      {
+        "year": "2024",
+        "value": 43978000000
+      },
+      {
+        "year": "2025",
+        "value": 52017000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 10.7,
+    "own_5y_avg": -22.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": -21.97
+      },
+      {
+        "year": "2022",
+        "value": -5.75
+      },
+      {
+        "year": "2023",
+        "value": 2.98
+      },
+      {
+        "year": "2024",
+        "value": 6.36
+      },
+      {
+        "year": "2025",
+        "value": 10.7
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 124.7,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2021",
+        "value": 162.02
+      },
+      {
+        "year": "2022",
+        "value": 321.59
+      },
+      {
+        "year": "2023",
+        "value": 231.28
+      },
+      {
+        "year": "2024",
+        "value": 133.44
+      },
+      {
+        "year": "2025",
+        "value": 124.7
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 9763000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2017",
+        "value": -2239000000
+      },
+      {
+        "year": "2018",
+        "value": -2099000000
+      },
+      {
+        "year": "2019",
+        "value": -4909000000
+      },
+      {
+        "year": "2020",
+        "value": -3361000000
+      },
+      {
+        "year": "2021",
+        "value": -743000000
+      },
+      {
+        "year": "2022",
+        "value": 390000000
+      },
+      {
+        "year": "2023",
+        "value": 3362000000
+      },
+      {
+        "year": "2024",
+        "value": 6895000000
+      },
+      {
+        "year": "2025",
+        "value": 9763000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 4.73,
+    "per": 15.86,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 75.0199966430664,
+    "eps": 4.73,
+    "bps": 12.72,
+    "roe": 37.18,
+    "per": 15.86,
+    "pbr": 5.9,
+    "roe_series": [
+      {
+        "year": "2021",
+        "value": -3.43
+      },
+      {
+        "year": "2022",
+        "value": -124.54
+      },
+      {
+        "year": "2023",
+        "value": 16.77
+      },
+      {
+        "year": "2024",
+        "value": 45.72
+      },
+      {
+        "year": "2025",
+        "value": 37.18
+      }
+    ],
+    "note": null
+  }
 }

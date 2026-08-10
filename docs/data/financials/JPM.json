@@ -2,12 +2,147 @@
   "code": "JPM",
   "name": "JPMorgan Chase",
   "market": "NYSE",
-  "as_of": "2026-08-10T21:33:54.534531+00:00",
-  "source": "none",
-  "growth": null,
+  "as_of": "2026-08-10T15:00:10.578777+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 2.75,
+    "cagr_pct": 12.34,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 121649000000
+      },
+      {
+        "year": "2022",
+        "value": 128695000000
+      },
+      {
+        "year": "2023",
+        "value": 158104000000
+      },
+      {
+        "year": "2024",
+        "value": 177556000000
+      },
+      {
+        "year": "2025",
+        "value": 182447000000
+      }
+    ]
+  },
   "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "stability": {
+    "latest_year": "2025",
+    "value": 1120.87,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2021",
+        "value": 1172.77
+      },
+      {
+        "year": "2022",
+        "value": 1153.97
+      },
+      {
+        "year": "2023",
+        "value": 1081.96
+      },
+      {
+        "year": "2024",
+        "value": 1061.05
+      },
+      {
+        "year": "2025",
+        "value": 1120.87
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": -147782000000,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2016",
+        "value": 21884000000
+      },
+      {
+        "year": "2017",
+        "value": -10827000000
+      },
+      {
+        "year": "2018",
+        "value": 15614000000
+      },
+      {
+        "year": "2019",
+        "value": 4092000000
+      },
+      {
+        "year": "2020",
+        "value": -79910000000
+      },
+      {
+        "year": "2021",
+        "value": 78084000000
+      },
+      {
+        "year": "2022",
+        "value": 107119000000
+      },
+      {
+        "year": "2023",
+        "value": 12974000000
+      },
+      {
+        "year": "2024",
+        "value": -42012000000
+      },
+      {
+        "year": "2025",
+        "value": -147782000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 20.02,
+    "per": 17.86,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 357.5199890136719,
+    "eps": 20.02,
+    "bps": 127.19,
+    "roe": 15.74,
+    "per": 17.86,
+    "pbr": 2.81,
+    "roe_series": [
+      {
+        "year": "2021",
+        "value": 16.43
+      },
+      {
+        "year": "2022",
+        "value": 12.89
+      },
+      {
+        "year": "2023",
+        "value": 15.11
+      },
+      {
+        "year": "2024",
+        "value": 16.96
+      },
+      {
+        "year": "2025",
+        "value": 15.74
+      }
+    ],
+    "note": null
+  }
 }

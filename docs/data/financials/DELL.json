@@ -2,12 +2,170 @@
   "code": "DELL",
   "name": "Dell Technologies",
   "market": "US",
-  "as_of": "2026-08-10T21:33:54.533221+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-10T15:00:07.276579+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2026",
+    "value": 18.8,
+    "cagr_pct": 3.53,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 101197000000
+      },
+      {
+        "year": "2023",
+        "value": 102301000000
+      },
+      {
+        "year": "2024",
+        "value": 88425000000
+      },
+      {
+        "year": "2025",
+        "value": 95567000000
+      },
+      {
+        "year": "2026",
+        "value": 113538000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2026",
+    "value": 7.18,
+    "own_5y_avg": 3.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "value": 5.64
+      },
+      {
+        "year": "2024",
+        "value": 6.12
+      },
+      {
+        "year": "2025",
+        "value": 6.53
+      },
+      {
+        "year": "2026",
+        "value": 7.18
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2026",
+    "value": -4200.65,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": -5597.33
+      },
+      {
+        "year": "2023",
+        "value": -2967.2
+      },
+      {
+        "year": "2024",
+        "value": -3783.48
+      },
+      {
+        "year": "2025",
+        "value": -5474.56
+      },
+      {
+        "year": "2026",
+        "value": -4200.65
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2026",
+    "value": 8552000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2017",
+        "value": 1668000000
+      },
+      {
+        "year": "2018",
+        "value": 5631000000
+      },
+      {
+        "year": "2019",
+        "value": 5494000000
+      },
+      {
+        "year": "2020",
+        "value": 6715000000
+      },
+      {
+        "year": "2021",
+        "value": 9325000000
+      },
+      {
+        "year": "2022",
+        "value": 7511000000
+      },
+      {
+        "year": "2023",
+        "value": 562000000
+      },
+      {
+        "year": "2024",
+        "value": 5920000000
+      },
+      {
+        "year": "2025",
+        "value": 1869000000
+      },
+      {
+        "year": "2026",
+        "value": 8552000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2026",
+    "eps": 8.68,
+    "per": 52.28,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2026",
+    "price": 453.7699890136719,
+    "eps": 8.68,
+    "bps": null,
+    "roe": null,
+    "per": 52.28,
+    "pbr": null,
+    "roe_series": [
+      {
+        "year": "2016",
+        "value": -75.31
+      },
+      {
+        "year": "2017",
+        "value": -8.81
+      },
+      {
+        "year": "2018",
+        "value": -24.31
+      },
+      {
+        "year": "2021",
+        "value": 131.1
+      }
+    ],
+    "note": "자본총계 0 이하(자본잠식) — ROE·BPS 산출 불가"
+  }
 }

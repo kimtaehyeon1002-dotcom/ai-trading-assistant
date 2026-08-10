@@ -2,12 +2,157 @@
   "code": "ABNB",
   "name": "Airbnb",
   "market": "US",
-  "as_of": "2026-08-10T21:33:54.531252+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
+  "as_of": "2026-08-10T15:00:03.542221+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 10.26,
+    "cagr_pct": 13.38,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 5992000000
+      },
+      {
+        "year": "2022",
+        "value": 8399000000
+      },
+      {
+        "year": "2023",
+        "value": 9917000000
+      },
+      {
+        "year": "2024",
+        "value": 11102000000
+      },
+      {
+        "year": "2025",
+        "value": 12241000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 20.78,
+    "own_5y_avg": -4.15,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 7.16
+      },
+      {
+        "year": "2022",
+        "value": 21.45
+      },
+      {
+        "year": "2023",
+        "value": 15.31
+      },
+      {
+        "year": "2024",
+        "value": 23.0
+      },
+      {
+        "year": "2025",
+        "value": 20.78
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 170.86,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2021",
+        "value": 187.08
+      },
+      {
+        "year": "2022",
+        "value": 188.45
+      },
+      {
+        "year": "2023",
+        "value": 152.85
+      },
+      {
+        "year": "2024",
+        "value": 149.16
+      },
+      {
+        "year": "2025",
+        "value": 170.86
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 4646000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2019",
+        "value": 97275000
+      },
+      {
+        "year": "2020",
+        "value": -777000000
+      },
+      {
+        "year": "2021",
+        "value": 2288000000
+      },
+      {
+        "year": "2022",
+        "value": 3405000000
+      },
+      {
+        "year": "2023",
+        "value": 3884000000
+      },
+      {
+        "year": "2024",
+        "value": 4518000000
+      },
+      {
+        "year": "2025",
+        "value": 4646000000
+      }
+    ]
+  },
   "valuation": null,
-  "triangle": null
+  "triangle": {
+    "latest_year": "2025",
+    "price": 178.07000732421875,
+    "eps": null,
+    "bps": null,
+    "roe": 30.63,
+    "per": null,
+    "pbr": null,
+    "roe_series": [
+      {
+        "year": "2021",
+        "value": -7.37
+      },
+      {
+        "year": "2022",
+        "value": 34.05
+      },
+      {
+        "year": "2023",
+        "value": 58.69
+      },
+      {
+        "year": "2024",
+        "value": 31.48
+      },
+      {
+        "year": "2025",
+        "value": 30.63
+      }
+    ],
+    "note": "EPS 미수집 — PER·PBR·BPS 산출 불가"
+  }
 }

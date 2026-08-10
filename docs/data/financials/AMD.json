@@ -2,12 +2,148 @@
   "code": "AMD",
   "name": "Advanced Micro Devices",
   "market": "US",
-  "as_of": "2026-08-10T21:33:54.525839+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
+  "as_of": "2026-08-10T14:59:51.829419+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 34.34,
+    "cagr_pct": 13.64,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 16434000000
+      },
+      {
+        "year": "2022",
+        "value": 23601000000
+      },
+      {
+        "year": "2023",
+        "value": 22680000000
+      },
+      {
+        "year": "2024",
+        "value": 25785000000
+      },
+      {
+        "year": "2025",
+        "value": 34639000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 10.66,
+    "own_5y_avg": 7.15,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 22.2
+      },
+      {
+        "year": "2022",
+        "value": 5.36
+      },
+      {
+        "year": "2023",
+        "value": 1.77
+      },
+      {
+        "year": "2024",
+        "value": 7.37
+      },
+      {
+        "year": "2025",
+        "value": 10.66
+      }
+    ]
+  },
   "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 6735000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 4000000
+      },
+      {
+        "year": "2017",
+        "value": -101000000
+      },
+      {
+        "year": "2018",
+        "value": -129000000
+      },
+      {
+        "year": "2019",
+        "value": 276000000
+      },
+      {
+        "year": "2020",
+        "value": 777000000
+      },
+      {
+        "year": "2021",
+        "value": 3220000000
+      },
+      {
+        "year": "2022",
+        "value": 3115000000
+      },
+      {
+        "year": "2023",
+        "value": 1121000000
+      },
+      {
+        "year": "2024",
+        "value": 2405000000
+      },
+      {
+        "year": "2025",
+        "value": 6735000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 2.65,
+    "per": 182.4,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 483.3599853515625,
+    "eps": 2.65,
+    "bps": 38.51,
+    "roe": 6.88,
+    "per": 182.4,
+    "pbr": 12.55,
+    "roe_series": [
+      {
+        "year": "2021",
+        "value": 42.18
+      },
+      {
+        "year": "2022",
+        "value": 2.41
+      },
+      {
+        "year": "2023",
+        "value": 1.53
+      },
+      {
+        "year": "2024",
+        "value": 2.85
+      },
+      {
+        "year": "2025",
+        "value": 6.88
+      }
+    ],
+    "note": null
+  }
 }

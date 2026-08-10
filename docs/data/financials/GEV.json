@@ -2,12 +2,126 @@
   "code": "GEV",
   "name": "GE Vernova",
   "market": "US",
-  "as_of": "2026-08-10T21:33:54.532908+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-10T15:00:06.042755+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 8.97,
+    "cagr_pct": 8.68,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 29654000000
+      },
+      {
+        "year": "2023",
+        "value": 33239000000
+      },
+      {
+        "year": "2024",
+        "value": 34935000000
+      },
+      {
+        "year": "2025",
+        "value": 38068000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 3.65,
+    "own_5y_avg": -1.88,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": -9.72
+      },
+      {
+        "year": "2023",
+        "value": -2.78
+      },
+      {
+        "year": "2024",
+        "value": 1.35
+      },
+      {
+        "year": "2025",
+        "value": 3.65
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 453.75,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2023",
+        "value": 508.91
+      },
+      {
+        "year": "2024",
+        "value": 428.37
+      },
+      {
+        "year": "2025",
+        "value": 453.75
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 4987000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": -114000000
+      },
+      {
+        "year": "2023",
+        "value": 1186000000
+      },
+      {
+        "year": "2024",
+        "value": 2583000000
+      },
+      {
+        "year": "2025",
+        "value": 4987000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 17.69,
+    "per": 55.98,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 990.3200073242188,
+    "eps": 17.69,
+    "bps": 40.49,
+    "roe": 43.69,
+    "per": 55.98,
+    "pbr": 24.46,
+    "roe_series": [
+      {
+        "year": "2023",
+        "value": -5.91
+      },
+      {
+        "year": "2024",
+        "value": 16.26
+      },
+      {
+        "year": "2025",
+        "value": 43.69
+      }
+    ],
+    "note": null
+  }
 }
