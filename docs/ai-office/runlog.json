@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-10T18:06:59.321722+09:00",
+  "updated_at": "2026-08-10T18:57:25.808394+09:00",
   "workers": {
     "Vault Sync": {
       "worker": "Vault Sync",
-      "last_run": "2026-08-10T18:06:40.803474+09:00",
+      "last_run": "2026-08-10T18:56:59.635010+09:00",
       "status": "completed",
       "items": 1,
-      "duration_ms": 1
+      "duration_ms": 0
     },
     "Asset Kiwoom": {
       "worker": "Asset Kiwoom",
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-08-10T18:06:42.033222+09:00",
+      "last_run": "2026-08-10T18:57:10.080254+09:00",
       "status": "completed",
       "items": 26,
-      "duration_ms": 9089
+      "duration_ms": 15699
     },
     "Asset Publish": {
       "worker": "Asset Publish",
@@ -54,24 +54,24 @@
     "Vault Journal": {
       "worker": "Vault Journal",
       "status": "completed",
-      "items": 0,
+      "items": 1,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-08-10T18:06:51.504870+09:00"
+      "last_run": "2026-08-10T18:57:10.078736+09:00"
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-08-10T18:06:51.507402+09:00",
+      "last_run": "2026-08-10T18:56:59.679000+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 3650
+      "duration_ms": 4083
     },
     "Translator": {
       "worker": "Translator",
-      "last_run": "2026-08-10T18:06:55.163872+09:00",
+      "last_run": "2026-08-10T18:57:03.765915+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 4115
+      "duration_ms": 6056
     },
     "Publisher": {
       "worker": "Publisher",
@@ -79,7 +79,7 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-08-10T18:06:59.321595+09:00"
+      "last_run": "2026-08-10T18:57:25.808299+09:00"
     },
     "Trade Manager": {
       "worker": "Trade Manager",
@@ -167,7 +167,7 @@
     },
     "Loop Ledger": {
       "worker": "Loop Ledger",
-      "last_run": "2026-08-10T18:06:51.504896+09:00",
+      "last_run": "2026-08-10T18:57:10.078763+09:00",
       "status": "completed",
       "items": 2,
       "duration_ms": 1

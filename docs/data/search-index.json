@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-10T09:06:59.338368+00:00",
+  "as_of": "2026-08-10T09:57:25.818910+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,48 @@
   ],
   "news": [
     {
+      "title": "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
+      "link": "https://www.cnbc.com/2026/08/10/us-iran-war-trump-hormuz-oman-ships-blockade-shipping.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T09:33:31+00:00"
+    },
+    {
+      "title": "These analysts say Elon Musk’s ambitious AI plans for SpaceX should be taken seriously, thanks to Microsoft",
+      "link": "https://www.marketwatch.com/story/these-analysts-say-elon-musks-ambitious-ai-plans-for-spacex-should-be-taken-seriously-thanks-to-microsoft-2c9aa472?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T09:26:00+00:00"
+    },
+    {
+      "title": "Wall Street’s biggest bank just raised its expectations for the stock market",
+      "link": "https://www.marketwatch.com/story/wall-streets-biggest-bank-just-raised-its-expectations-for-the-stock-market-cac6d311?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T09:19:00+00:00"
+    },
+    {
+      "title": "오세훈 \"용산공원 주택공급 반대…그린벨트 해제 바람직하지 않아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810139900004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T09:16:12+00:00"
+    },
+    {
+      "title": "‘I unexpectedly came into some money’: Is putting $20,000 into CDs a smart move?",
+      "link": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T09:15:00+00:00"
+    },
+    {
+      "title": "\"방만재정 책임 왜 떠넘기나\"…이상일, 추미애 세원 개편 '직격'",
+      "link": "https://www.yna.co.kr/view/AKR20260810134600061",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T09:09:42+00:00"
+    },
+    {
+      "title": "[중국증시-마감] 순환매 장세에 상승 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VVjJhZ0FRTWhqU2U2XzlzVE52UXNmMUI3bV80ODU2eDF4a1RINS1aVmg2c2VxOWF0THJxbjV5STlveTFhclBCeExVM0pKd0Yycm5mT2xoWFcyQVV4UkJnNFZSeGUxSEdUV1lGeFVSclM?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T09:08:49+00:00"
+    },
+    {
       "title": "How ‘Ted Lasso’ turned an affluent London neighborhood into a tourist hotspot",
       "link": "https://www.marketwatch.com/story/how-ted-lasso-turned-an-affluent-london-neighborhood-into-a-tourist-hotspot-a7cbf0eb?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -426,6 +468,12 @@
       "published": "2026-08-10T08:54:53+00:00"
     },
     {
+      "title": "“증시 최우선가치는 거래 안정성” - 서울신문",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41UnVCNGhtOXpseE9XSFVGOUwyUE5RNWRPdWNVbjJ1LWZrZWt4U0Q5RTlVSFEzUHVyOVFnXzgwSWpMb1BXMmVQcTZxajNVTXFDQi1SQkpKSnd6NW02VjhMM3BhdnFQelpvWldaakhlMFVzOUZEQjVpMzByTkZCZw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T08:53:48+00:00"
+    },
+    {
       "title": "[도쿄증시-마감] 美 고용발 금리 인상 기대 약화에 닛케이 2%대 상승 - 연합인포맥스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82MjRsSDJldVBiOTVsVURfZ3ZvSEgzUFlmdmNXcG1vNTNxRmJDVm91WEtWV1lxR2tqRkdVQS15TEpqVUI3WkRZV1ZNNXgwVTNnVXR3Mk52NUtLeWdnNjg3bUZpU3dyZjhnOFRsT1VjSjI?oc=5",
       "source": "Google News",
@@ -448,12 +496,6 @@
       "link": "https://www.marketwatch.com/story/berkshire-hathaway-finally-started-spending-its-nearly-400-billion-in-cash-on-one-stock-it-knows-very-well-f9d56389?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-10T08:21:00+00:00"
-    },
-    {
-      "title": "Treasury yields inch lower as investors look ahead to key inflation data",
-      "link": "https://www.cnbc.com/2026/08/10/us-treasury-yields-investors-eye-key-inflation-data-.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T08:11:27+00:00"
     },
     {
       "title": "하락세 끝났나…국고채 금리 다시 3일째 상승(종합)",
@@ -510,7 +552,13 @@
       "published": "2026-08-10T07:36:08+00:00"
     },
     {
-      "title": "CXMT 이어 유니트리도 출격…국내 증시 영향 '촉각' - newstomato.com",
+      "title": "[포토] 오늘의 증시는? - dt.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5lcjY0U3JjTE5UR21ySkZvS1Z4RkRoS3lubWJ4OWZTVkNmYmRZc3RabGF2QVdsb0Vyd1FLVno4ZTBaRTdLWmxSQ2FMYW4zZw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T07:34:30+00:00"
+    },
+    {
+      "title": "CXMT 이어 유니트리도 출격…국내 증시 영향 '촉각' - 뉴스토마토",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14b1IzVTlSQzBxTk1pOFJqdXZDcEd2WXhiRmNUQnBsN0tCTEJkenYwUXV4YVZtazNDSHNsZVlXVFkxSEd2NW5ENjBRczVmNzVqZDlGY2lJOXlneVVlbjdmaA?oc=5",
       "source": "Google News",
       "published": "2026-08-10T07:32:25+00:00"
@@ -556,12 +604,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260810114400008",
       "source": "연합뉴스·경제",
       "published": "2026-08-10T07:10:21+00:00"
-    },
-    {
-      "title": "[중국증시-마감] 순환매 장세에 상승 - KB Think",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9UckpxTUNpYmN0NTdRTTF3QUluVW9VODN1WURGZVVfa0RvMG5PdlRGckZ0R09yT3JPb1dWcnA2enQtdkduMWV6aFVVR21DT0ZXb1dXdVhKQVUzY3FtRUVnSDFVUlVsQ29jbmowRVRWRDRvQQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T07:08:48+00:00"
     },
     {
       "title": "美日 엔 매수 공동개입에…\"내년 봄 日기준금리 1.5% 도달\" 전망",
@@ -610,48 +652,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fQi1lMERTSW5tOTFzRG1nVmRNSlljQVc1c3FPeHNRWGkzN0NwbVVDSVpRUGFjVEVIRGRGOGJyM2labkROd2lrZW9FTzRHcXRXcmVHVVpTeUtMdmtlNWc?oc=5",
       "source": "Google News",
       "published": "2026-08-10T06:48:19+00:00"
-    },
-    {
-      "title": "중국 증시 급락 증권사 빚투 심사 '강화' - 세이프타임즈",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1BbGk3aXFyaXZ1Mk1DZms2eS1hWDhBTFNnbHFmV2F3WWlJcW5XQzM0dFg3dmRfZ09rdFpmS0tISkpSZkxXM0tSUzlMMENYNkdTWUlNWmwyM0Jzb2ZONzB6MnozZGpqeV9YZFIyb0ZGWdIBc0FVX3lxTE5vRG55Vk04c0VNOGp4ZmhDa3Fla3Q0LWd2WVFfdVdMWnJnRUo2b2hWOHdERkN3eU5uRS1TaXZLbmVDRlM1TGVXRGhzem55UHNfeXh5ZlB1bV9yNzZJcVA4Tk9HSlJwNmw3Vm9XWFFRWk9hczg?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T06:45:10+00:00"
-    },
-    {
-      "title": "[특징주] 반도체 장비주, SK하이닉스 투자 규모 확정에 급등(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260810058951008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T06:43:54+00:00"
-    },
-    {
-      "title": "가치상승 중인 원달러 환율",
-      "link": "https://www.mk.co.kr/news/economy/12122904",
-      "source": "매일경제·증권",
-      "published": "2026-08-10T06:40:44+00:00"
-    },
-    {
-      "title": "[특징주] 광통신주, 미국의 중국산 수입규제 추진 소식에 급등(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260810039051008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T06:40:35+00:00"
-    },
-    {
-      "title": "1400원대 초반까지 떨어진 원달러 환율",
-      "link": "https://www.mk.co.kr/news/economy/12122902",
-      "source": "매일경제·증권",
-      "published": "2026-08-10T06:40:11+00:00"
-    },
-    {
-      "title": "울산항만공사, 항만 건설현장 전문가 합동점검 \"위험요인 개선\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810105000057",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T06:40:03+00:00"
-    },
-    {
-      "title": "외국환시세(8월10일·15:30 기준가)",
-      "link": "https://www.yna.co.kr/view/AKR20260810107800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T06:39:48+00:00"
     }
   ],
   "pages": [
