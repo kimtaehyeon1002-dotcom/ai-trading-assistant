@@ -90,8 +90,8 @@
 
 {% endblock %}
 {% block scripts %}
-<script src="{{ root }}/static/js/tabs.js" defer></script>
-<script src="{{ root }}/static/js/news-radar.js" defer></script>
+<script src="{{ root }}/static/js/tabs.js?v={{ asset_v() }}" defer></script>
+<script src="{{ root }}/static/js/news-radar.js?v={{ asset_v() }}" defer></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     if (window.TATabs) window.TATabs.init("news", "{{ default_tab }}");

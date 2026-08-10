@@ -105,7 +105,34 @@ def build_btc(upbit_data: dict | None, market: dict) -> dict | None:
     return {"envelope": env, "yoy": None, "next_release": None, "kimchi_premium_pct": premium}
 
 
-def build_market_strip(market: dict, history: dict[str, list[float]]) -> list[dict]:
+def strip_as_of(market_strip: list[dict]) -> str:
+    """스트립 전체의 기준시각 = 타일들 중 **가장 최신** as_of_iso.
+
+    가장 오래된 값을 쓰면 심볼 하나의 결측이 카드 전체를 STALE로 끌어내린다. 라이브 표시는
+    "이 카드가 마지막으로 새 값을 본 시각"을 말해야 하므로 최신값이 맞다(macro-live.js의
+    asOf()와 같은 규칙 — 발행 시점과 폴링 이후의 판정이 어긋나면 안 된다).
+    """
+    stamps = [
+        t["as_of_iso"]
+        for g in market_strip
+        for t in g.get("tiles", [])
+        if t.get("as_of_iso")
+    ]
+    return max(stamps) if stamps else ""
+
+
+def _aligned_dates(closes: list[float], dates: list[str] | None) -> list[str]:
+    """종가와 길이가 일치하는 거래일만 같은 창으로 잘라 돌려준다. 불일치·결측이면 빈 리스트."""
+    if not dates or len(dates) != len(closes):
+        return []
+    return spark.window(dates, max_points=STRIP_CHART_POINTS)
+
+
+def build_market_strip(
+    market: dict,
+    history: dict[str, list[float]],
+    history_dates: dict[str, list[str]] | None = None,
+) -> list[dict]:
     """market.json Quote + 이력 → Macro "금융시장" 그룹 타일(design/25).
 
     확보되지 않은 키는 타일을 만들지 않는다(빈칸 렌더 금지). 이력이 없으면 `spark`가 빈
@@ -127,10 +154,20 @@ def build_market_strip(market: dict, history: dict[str, list[float]]) -> list[di
                 "price": quote.price,
                 "change_pct": quote.change_pct,
                 "as_of": getattr(quote, "as_of", None),
+                # 표시 문자열("08-05 18:21")과 별개로 ISO 원본을 함께 싣는다 — 라이브 표시
+                # (펄스·"n분 전")는 **데이터 자신의 기준시각**으로만 판정해야 한다. 내려받은
+                # 시각으로 판정하면 1시간 묵은 값도 방금 받았다는 이유로 라이브가 된다.
+                "as_of_iso": getattr(quote, "as_of_iso", None),
                 "unit": ENVELOPE_META.get(key, ("", "", 0, 1.0))[0],
                 # 스파크라인은 진폭이 정규화돼 "얼마나" 움직였는지는 못 보여준다 —
                 # 구간 등락률을 숫자로 병기해야 그림이 거짓말을 하지 않는다(design/25 §10).
                 "period_change_pct": spark.period_change_pct(closes, max_points=STRIP_CHART_POINTS),
+                # 화면이 그릴 실제 구간의 종가. 서버 SVG는 JS가 죽었을 때의 폴백이고, 축·
+                # 고저 마커·호버 툴팁은 이 배열을 받은 chart.js가 그린다 — 좌표를 픽셀 실측으로
+                # 잡아야 점이 타원으로 찌그러지지 않기 때문이다(static/js/chart.js 상단 주석).
+                "closes": spark.window(closes, max_points=STRIP_CHART_POINTS),
+                # 날짜는 종가와 길이가 **정확히 같을 때만** 싣는다 — 어긋난 축은 없는 축보다 나쁘다.
+                "dates": _aligned_dates(closes, (history_dates or {}).get(key)),
                 "spark": spark.sparkline_svg(
                     closes, width=200, height=48, label=f"{quote.name} 최근 추이",
                     css_class="v2-macro-spark", color_by_direction=True,

@@ -148,7 +148,7 @@
 
 {% endblock %}
 {% block scripts %}
-<script src="{{ root }}/static/js/updown.js" defer></script>
-<script src="{{ root }}/static/js/asset-gate.js" defer></script>
-<script src="{{ root }}/static/js/settings.js" defer></script>
+<script src="{{ root }}/static/js/updown.js?v={{ asset_v() }}" defer></script>
+<script src="{{ root }}/static/js/asset-gate.js?v={{ asset_v() }}" defer></script>
+<script src="{{ root }}/static/js/settings.js?v={{ asset_v() }}" defer></script>
 {% endblock %}

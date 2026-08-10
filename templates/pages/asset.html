@@ -25,8 +25,8 @@
 
 {% endblock %}
 {% block scripts %}
-<script src="{{ root }}/static/js/freshness.js" defer></script>
-<script src="{{ root }}/static/js/asset-format.js" defer></script>
-<script src="{{ root }}/static/js/asset-gate.js" defer></script>
-<script src="{{ root }}/static/js/asset.js" defer></script>
+<script src="{{ root }}/static/js/freshness.js?v={{ asset_v() }}" defer></script>
+<script src="{{ root }}/static/js/asset-format.js?v={{ asset_v() }}" defer></script>
+<script src="{{ root }}/static/js/asset-gate.js?v={{ asset_v() }}" defer></script>
+<script src="{{ root }}/static/js/asset.js?v={{ asset_v() }}" defer></script>
 {% endblock %}

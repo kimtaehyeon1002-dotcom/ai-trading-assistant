@@ -100,7 +100,8 @@
         <div class="v2-body-strong v2-freshness-affected">{{ preview.trend_60d.label }}</div>
       </div>
     </div>
-    {{ sparkline_svg | safe }}
+    {# 60일 종가 — 폴백 SVG를 감싼 마운트. chart.js가 축·격자·고저 마커·호버를 얹는다. #}
+    <div class="v2-chart" data-chart='{{ {"values": chart_closes, "dates": chart_dates, "variant": "full", "color": "direction", "label": "KOSPI 60일 종가 추이", "height": 200, "decimals": 2}|tojson }}'>{{ sparkline_svg | safe }}</div>
   </div>
   <div class="v2-card__footer">산출 기준: 전일 정규장 종가 · 매일 07시 빌드 갱신</div>
 {% endcall %}
@@ -145,5 +146,5 @@
 
 {% endblock %}
 {% block scripts %}
-<script src="{{ root }}/static/js/freshness.js" defer></script>
+<script src="{{ root }}/static/js/freshness.js?v={{ asset_v() }}" defer></script>
 {% endblock %}

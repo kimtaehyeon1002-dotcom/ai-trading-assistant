@@ -17,6 +17,15 @@ from __future__ import annotations
 MAX_POINTS = 60
 
 
+def window(series: list, max_points: int = MAX_POINTS) -> list:
+    """차트가 실제로 그리는 구간만 잘라 돌려준다 — SVG와 클라이언트 차트가 **같은 구간**을
+    보게 하는 단일 지점. 두 곳에서 각자 자르면 언젠가 어긋난다(폴백과 본렌더가 다른 그림).
+
+    종가뿐 아니라 같은 인덱스의 날짜 배열에도 그대로 쓴다(둘을 같은 함수로 잘라야 축이 안 어긋난다).
+    """
+    return series[-max_points:] if len(series) > max_points else list(series)
+
+
 def _direction_var(points: list[float]) -> str:
     delta = points[-1] - points[0]
     if delta > 0:
@@ -41,7 +50,7 @@ def sparkline_svg(
     color_by_direction=False면 기존 TA 동작(항상 flat 색)을 유지한다.
     baseline=True면 구간 첫 값 위치에 점선 기준선을 긋고 선과 기준선 사이를 옅게 채운다.
     """
-    pts = closes[-max_points:] if len(closes) > max_points else closes
+    pts = window(closes, max_points)
     if len(pts) < 2:
         return ""
     lo, hi = min(pts), max(pts)
@@ -91,7 +100,7 @@ def period_change_pct(closes: list[float], max_points: int = MAX_POINTS) -> floa
 
     스파크라인은 진폭이 정규화돼 크기를 못 보여주므로, 이 숫자가 없으면 그림이 거짓말을 한다.
     """
-    pts = closes[-max_points:] if len(closes) > max_points else closes
+    pts = window(closes, max_points)
     if len(pts) < 2 or not pts[0]:
         return None
     return round((pts[-1] / pts[0] - 1) * 100, 2)

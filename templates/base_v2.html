@@ -9,9 +9,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}{{ site.title }}{% endblock %}</title>
-  <link rel="stylesheet" href="{{ root }}/static/css/tokens.css">
-  <link rel="stylesheet" href="{{ root }}/static/css/base_v2.css">
-  <link rel="stylesheet" href="{{ root }}/static/css/components.css">
+  <link rel="stylesheet" href="{{ root }}/static/css/tokens.css?v={{ asset_v() }}">
+  <link rel="stylesheet" href="{{ root }}/static/css/base_v2.css?v={{ asset_v() }}">
+  <link rel="stylesheet" href="{{ root }}/static/css/components.css?v={{ asset_v() }}">
   {% block head_extra %}{% endblock %}
   {#
     인라인 부트 스니펫(design/22 §5-1) — 저장된 테마·등락 모드를 첫 페인트 전에 적용해
@@ -35,16 +35,22 @@
     </div>
   </main>
   <div class="v2-panel-slot" id="panel-slot">{% block panel_slot %}{% endblock %}</div>
-  <script src="{{ root }}/static/js/store.js" defer></script>
+  <script src="{{ root }}/static/js/store.js?v={{ asset_v() }}" defer></script>
   {#
     Stock Hub는 전역 오버레이 컴포넌트(design/05 §1-1 "Dashboard/News/Stock/Portfolio 등
     모든 페이지")라 base_v2.html에서 무조건 로드한다 — store.js와 동일 원칙(design/22 §5-1).
   #}
-  <script src="{{ root }}/static/js/stockhub.js" defer></script>
+  <script src="{{ root }}/static/js/stockhub.js?v={{ asset_v() }}" defer></script>
   {#
     글로벌 검색(Ctrl/⌘+K)도 헤더가 모든 v2 페이지에 공통이므로 전역 로드한다(design/00 §7-2).
   #}
-  <script src="{{ root }}/static/js/search.js" defer></script>
+  <script src="{{ root }}/static/js/search.js?v={{ asset_v() }}" defer></script>
+  {#
+    차트 엔진도 전역이다 — Macro 타일·Asset 추이·TA 라인이 모두 같은 좌표계·같은 호버 규칙을
+    써야 "한 시스템"으로 읽힌다. defer라 순서가 보장되므로 페이지 스크립트에서 TAChart를
+    바로 참조할 수 있다(동적 렌더 후에는 TAChart.initAll(root)로 마운트한다).
+  #}
+  <script src="{{ root }}/static/js/chart.js?v={{ asset_v() }}" defer></script>
   {% block scripts %}{% endblock %}
 </body>
 </html>

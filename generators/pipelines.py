@@ -148,13 +148,16 @@ def get_macro() -> dict:
     btc = macro_repository.build_btc(upbit_data, market)
     indicators["BTC_KRW"] = btc
     calendar = macro_repository.build_calendar(fred_data)
-    market_strip = macro_repository.build_market_strip(market, history)
+    # 거래일은 툴팁 전용 부가 정보다 — 결측이면 차트가 날짜 없이 그려질 뿐 실패하지 않는다.
+    market_strip = macro_repository.build_market_strip(market, history, history_collector.dates())
     indicators = macro_repository.persist(indicators, calendar, market_strip)
 
     return {
         "indicators": indicators,
         "calendar_events": calendar["events"],
         "market_strip": market_strip,
+        # 라이브 표시(펄스·"n분 전")의 판정 입력 — 발행 시점 기준시각.
+        "market_strip_as_of": macro_repository.strip_as_of(market_strip),
         "crypto_line": macro_repository.build_crypto_line(market, btc),
         "fred_labels": dict(fred_collector.SERIES),
         "fred_series": [sid for sid, _ in fred_collector.SERIES],
@@ -171,10 +174,15 @@ def get_ta() -> dict:
     raw = runlog.run_step("TA Analyst", ta_collector.collect_kospi_daily, fallback=None)
     rows = ta_validator.validate(raw)
     if not rows:
-        return {"preview": None, "closes": []}
+        return {"preview": None, "closes": [], "dates": []}
     body = ta_repository.build(rows)
     ta_repository.persist(body)
-    return {"preview": body, "closes": [r["close"] for r in rows]}
+    # dates는 closes와 같은 인덱스다 — 차트 x축·툴팁 날짜용(없으면 차트가 날짜 없이 그려진다).
+    return {
+        "preview": body,
+        "closes": [r["close"] for r in rows],
+        "dates": [r["date"] for r in rows],
+    }
 
 
 # ── Stock ──────────────────────────────────────────────────────────────────
@@ -274,7 +282,8 @@ def get_asset_raw() -> dict:
     # runlog의 last_run이 매일 갱신돼, 데스크톱이 며칠 안 돌아도 센서가 신선하다고 판정한다
     # (design/28 — 수집 주체 분리의 부작용). 기록하지 않으면 runlog 병합이 데스크톱의
     # 마지막 기록을 보존하므로, 신선도 규칙이 키움 데이터의 진짜 나이를 잰다.
-    kiwoom = runlog.run_step("Asset Kiwoom", _asset_kiwoom_balance, fallback=None)         if _kiwoom_available() else None
+    kiwoom = runlog.run_step("Asset Kiwoom", _asset_kiwoom_balance, fallback=None) \
+        if _kiwoom_available() else None
 
     return {
         "kiwoom": kiwoom,

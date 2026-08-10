@@ -1,6 +1,7 @@
 """Jinja2 환경 + 렌더/정적복사 유틸. 모든 생성기가 공유."""
 from __future__ import annotations
 
+import hashlib
 import shutil
 from pathlib import Path
 from typing import Any
@@ -82,6 +83,34 @@ def _amount_usd(v: Any) -> str:
     return f"${v / 1e9:,.1f}B" if abs(v) >= 1e9 else f"${v / 1e6:,.0f}M"
 
 
+_asset_version: str | None = None
+
+
+def asset_v() -> str:
+    """static/ 전체 내용의 짧은 해시 — 자산 URL의 `?v=` 값.
+
+    왜 필요한가: GitHub Pages는 JS/CSS에 `Cache-Control: max-age=600`을 붙인다. HTML은
+    매 빌드 갱신되는데 자산은 최대 10분간 옛것이 쓰이므로, **새 HTML + 캐시된 옛 JS** 조합이
+    생긴다. 마크업과 스크립트 사이에 계약이 있으면(예: Macro 라이브 피드의 data-live-* 속성)
+    그 조합에서 기능이 조용히 죽는다 — 에러도 안 나서 알아채기까지 오래 걸린다.
+
+    타임스탬프가 아니라 **내용 해시**인 이유: 시각으로 버스팅하면 자산이 그대로인 매시 빌드마다
+    전 사용자가 재다운로드한다. 내용이 바뀔 때만 값이 바뀌어야 캐시가 제 일을 한다.
+
+    빌드 1회당 한 번만 계산한다(모듈 캐시). 자산이 수십 KB라 비용은 무시할 수준이다.
+    """
+    global _asset_version
+    if _asset_version is None:
+        h = hashlib.sha1()
+        if STATIC_DIR.exists():
+            for path in sorted(STATIC_DIR.rglob("*")):
+                if path.is_file():
+                    h.update(path.relative_to(STATIC_DIR).as_posix().encode("utf-8"))
+                    h.update(path.read_bytes())
+        _asset_version = h.hexdigest()[:8]
+    return _asset_version
+
+
 _env = Environment(
     loader=FileSystemLoader(str(TEMPLATES_DIR)),
     autoescape=select_autoescape(["html", "xml"]),
@@ -89,6 +118,7 @@ _env = Environment(
     lstrip_blocks=True,
 )
 _env.globals["site"] = SITE
+_env.globals["asset_v"] = asset_v
 _env.filters.update(
     pct=_pct, signclass=_signclass, price=_price, money=_money, kst=_kst, arrow=_arrow, pctv2=_pctv2,
     amount_kr=_amount_kr, amount_usd=_amount_usd,

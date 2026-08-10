@@ -17,6 +17,9 @@ from utils.logging import get_logger
 log = get_logger("collectors.history")
 
 _memo: dict[str, list[float]] | None = None
+# 종가와 **같은 인덱스**의 거래일(YYYY-MM-DD). collect()의 반환 시그니처를 바꾸지 않으려고
+# 부수 저장소로 둔다 — 날짜는 툴팁 표시용 부가 정보라, 없어도 차트는 그대로 그려져야 한다.
+_dates: dict[str, list[str]] = {}
 _yf_available: bool | None = None
 
 
@@ -29,6 +32,11 @@ def _yahoo_available() -> bool:
 
 def enabled() -> bool:
     return _yahoo_available()
+
+
+def dates() -> dict[str, list[str]]:
+    """직전 collect()가 채운 {키: [거래일]}. 미수집이면 빈 dict — 호출부는 결측을 허용해야 한다."""
+    return _dates
 
 
 def collect(symbols: dict[str, str], period: str = "3mo") -> dict[str, list[float]]:
@@ -65,9 +73,11 @@ def collect(symbols: dict[str, str], period: str = "3mo") -> dict[str, list[floa
             ) else None
             if frame is None:
                 continue
-            closes = [float(v) for v in frame["Close"].dropna().tolist()]
+            series = frame["Close"].dropna()
+            closes = [float(v) for v in series.tolist()]
             if len(closes) >= 2:
                 out[key] = closes
+                _dates[key] = [str(d)[:10] for d in series.index]
         except Exception as exc:  # noqa: BLE001 - 심볼 하나의 실패는 그 심볼만 결측
             log.warning("이력 파싱 실패(%s/%s): %s", key, symbol, exc)
 

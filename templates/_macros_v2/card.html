@@ -1,7 +1,12 @@
 {# 카드 셸 매크로 — 등급(hero/standard)별 타이포 위계를 강제한다(design/00 §8-2, design/22 §4-3). #}
 
-{% macro card_shell(grade='standard', span='v2-span-4', extra_class='', card_id=None, freshness=None) %}
-<div class="v2-card v2-card--{{ grade }} {{ span }} {{ extra_class }}"{% if card_id %} id="{{ card_id }}"{% endif %}{% if freshness %} data-asof="{{ freshness.as_of_iso }}" data-fresh-max-min="{{ freshness.fresh_max_min }}" data-stale-min-min="{{ freshness.stale_min_min }}" data-session="{{ freshness.session_key }}"{% endif %}>
+{#
+  attrs: 카드 루트에 그대로 붙일 추가 속성 문자열(예: 라이브 피드 설정).
+  헤더와 본문을 **한 요소 안에** 두어야 하는 속성이 있어서 필요하다 — 라이브 피드가
+  그 예다. 피드 루트가 본문이면 헤더의 "n분 전 갱신"이 갱신 대상 밖으로 빠진다.
+#}
+{% macro card_shell(grade='standard', span='v2-span-4', extra_class='', card_id=None, freshness=None, attrs='') %}
+<div class="v2-card v2-card--{{ grade }} {{ span }} {{ extra_class }}"{% if card_id %} id="{{ card_id }}"{% endif %}{% if freshness %} data-asof="{{ freshness.as_of_iso }}" data-fresh-max-min="{{ freshness.fresh_max_min }}" data-stale-min-min="{{ freshness.stale_min_min }}" data-session="{{ freshness.session_key }}"{% endif %}{% if attrs %} {{ attrs|safe }}{% endif %}>
   {{ caller() }}
 </div>
 {% endmacro %}
