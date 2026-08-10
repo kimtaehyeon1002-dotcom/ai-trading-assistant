@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-10T20:37:47.529753+00:00",
+  "as_of": "2026-08-10T21:32:20.413856+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,16 +354,130 @@
   ],
   "news": [
     {
+      "title": "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are ‘investable asset’",
+      "link": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T21:30:34+00:00"
+    },
+    {
+      "title": "Trump says he spoke recently to Fed Chairman Warsh, denies regular calls",
+      "link": "https://www.cnbc.com/2026/08/10/trump-spoke-to-fed-chair-kevin-warsh-denies-regular-calls.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T21:23:04+00:00"
+    },
+    {
+      "title": "뉴욕증시, 美·이란 협상 난항 우려에 약세… 유가 또 올라 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTzAyNWstQU1uU0FvbHVjR0w3RHlaNURPaTUyYmx3TFB3NGs4MzU0a2VFWDEwcnVROU5fZUJnQ1UybnNsS1VRdmhMTl9UcVNNSWhqNW9ncFQtWWYzUEJZdVNTN19DOG5meUg3UFl5bVlLZVVONjV2RXZBdmRmQmtVRnF0MjBoa1VsV1dDY3ZSQl9sTXRFcFh2aGkzTlZFUdIBsgFBVV95cUxPNnFUN0E3a1JHRkdFN3loRXhzcnpvZGhsMjRXeGxJZUxkOVRlRjJmVFY4R0dOZmlLeWVBcWlxQTNDM2x2Zk10R2EtQm00cm1vQ3lBa2lCTWRocVFuUzRCbWk3OG9vaFI0TkVOLUxHQzJ1Yi1qelN3VU4wTDh1ZG01VldxNWpqRFNpVG1sY2tudmdnSkoyRVROTjBCXzZtZngtSHhFTmpaaU0tTXdISE04N2hn?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T21:15:00+00:00"
+    },
+    {
+      "title": "I looked into buying a house in Singapore as an investment. Here’s why I didn’t — despite the 2% mortgage rate.",
+      "link": "https://www.marketwatch.com/story/i-looked-into-buying-a-house-in-singapore-as-an-investment-heres-why-i-didnt-despite-the-2-mortgage-rate-50c79bcf?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T21:14:00+00:00"
+    },
+    {
+      "title": "울산시, '일자리 창출 강소기업' 신청 접수…10개사 선정 예정",
+      "link": "https://www.yna.co.kr/view/AKR20260810149300057",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T21:07:00+00:00"
+    },
+    {
+      "title": "[월가 레이더] 美 뉴욕증시, 반도체 약세 속 혼조…이란 협상 난항에 유가 5% 폭등 - 포커스온경제",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1yeHVnWkhBRzNKLUN6dnE4bkFhM1E1bDdZSWJaWW0ybEhmQ2hJOFhzWTJVT2o5aEV6SVJGX0R2ZWIxOF9OZXBpQUNkT0VOZnNod3R5UGpqTHdyYTJFYWc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T21:06:38+00:00"
+    },
+    {
+      "title": "임금근로자 8명 중 1명은 '최저임금 미만'…임시직은 39%",
+      "link": "https://www.yna.co.kr/view/AKR20260810104900530",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T21:01:02+00:00"
+    },
+    {
+      "title": "킨텍스, 벤처기업부 '민관협력 개방 혁신 지원 사업' 3개 선정",
+      "link": "https://www.yna.co.kr/view/AKR20260810126600060",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T21:00:06+00:00"
+    },
+    {
+      "title": "대전중수청, 세종시 내 대체 임시청사 확보…입지 논란 '종지부'",
+      "link": "https://www.yna.co.kr/view/AKR20260810131000063",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T21:00:03+00:00"
+    },
+    {
+      "title": "“잠깐 떳다 지는 주도주”... 韓 증시 발목 잡는 ‘푼돈 배당’ - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ3pNQ05MbzJGendfMnlKT1Ywcl9HcHpuVF8tMERlN19WdGRObThLVDNBbmtjbkxsUVNGWXRyS3hoWkZ4UFhUQ0gyLXVRQ2tDZWJUQmthZVpxMXoyYlVCTHQ2UkpFV2J4d1JvYXNuMkNmSVg3WGdUcTF1N3pCS3o5N3JTUk9DbWhv0gGcAUFVX3lxTE8yZ2tkNHZ1bXo5WmhLRHpXcnhiODZhdklZZTR0MTBfSUxOc3VBT3g0elpTZUZGalBVR3N5cUR0YUwzaHY4YW5laGtJNlhzanNLSVFkZ1dmTVZnVjRHTEdwYTJkOGctTVhuc3lSVFUxU1l0VHA5WVpDbnFyNTNlLU45QnZLaFZVa3M1eGVLNl9UdmRGOWxlbWczVFVRUg?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T21:00:00+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 유가 급등에 숨 고르며 CPI 경계…약세 마감 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iVVc0ZTJVZUlGWXVmeUFWX1BDWHhvZG16cEh1QnNzT3lUN3o1aS1uRTVwOEJ5T0otUVVBV3Y2TW9nNl81d0JCcV91MUppRTQzMjJLeWdhSm9PNWJPenczbjN1MWNhc3VhNmNjOFVzU1E?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T20:58:41+00:00"
+    },
+    {
+      "title": "[속보]뉴욕증시 반도체 급락…하닉ADR -1.90% - 문화일보",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pQUgtb01mYndSN3RONmpnNWJ4OHU5RU1NZ2pYV2RBNUNfOU96THdDbEc3d3JYM2FwTzF1bk14MlpVbnd6WmcxZDIxNlA4NldR?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T20:57:34+00:00"
+    },
+    {
+      "title": "“반도체만 외치던 증시, 이젠 내 차례”…이달 38% 오른 이 종목 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9PS3YxV01jb3g0Rk0zQmdhYmNkNHh0cmN0U0pEdHRVOEZ6RzhtQnZMSkpzeFliX29vUTZvS2oxVGs4ZDZnc09FSzk0b3NBVUNIQUE?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T20:57:03+00:00"
+    },
+    {
+      "title": "그린벨트 해제 후보 다시 거론된 하남 감북…높아진 땅값 변수",
+      "link": "https://www.yna.co.kr/view/AKR20260810142700003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T20:57:01+00:00"
+    },
+    {
+      "title": "국내서 더 저렴한 비트코인…'역 김치프리미엄' 장기화",
+      "link": "https://www.yna.co.kr/view/AKR20260810144300002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T20:57:00+00:00"
+    },
+    {
+      "title": "공공기관서 코인 무단 채굴한 직원…법원 \"부당해고 아냐\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810137600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T20:55:00+00:00"
+    },
+    {
+      "title": "외국인 국내 카드결제, 3년 반에 10배로…부산 1년새 60%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260810134200002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T20:53:00+00:00"
+    },
+    {
       "title": "Trump signs executive order calling for fewer childhood vaccines, falsely linking shots to autism",
       "link": "https://www.cnbc.com/2026/08/10/trump-vaccine-executive-order-autism.html",
       "source": "CNBC Finance",
-      "published": "2026-08-10T20:33:48+00:00"
+      "published": "2026-08-10T20:51:17+00:00"
     },
     {
-      "title": "Nvidia teams up with Wall Street asset managers on $500 billion AI infrastructure push",
-      "link": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T20:33:03+00:00"
+      "title": "급등장에 SK하이닉스 담보대출 1년새 438%↑…40대 이하서 쑥",
+      "link": "https://www.yna.co.kr/view/AKR20260810142600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T20:51:00+00:00"
+    },
+    {
+      "title": "뉴욕증시, 유가 5% 급등·기술주 약세에 약보합…나스닥 0.32%↓[뉴욕마감] - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14Uk9nMkQ5VHNLNEZJZ0UyQ045UW8yN1k2WXVTUXluRmp5SUdFdklyOE9LMnlfUUloQXp4bVZTamQ2NEt4c3BUeWdfNV9XM1k?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T20:45:06+00:00"
+    },
+    {
+      "title": "Workers are worried, but there’s no sign AI is muscling people out of their jobs on a massive scale",
+      "link": "https://www.marketwatch.com/story/workers-are-worried-but-theres-no-sign-ai-is-muscling-people-out-of-their-jobs-on-a-massive-scale-8eb92638?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T20:35:00+00:00"
     },
     {
       "title": "뉴욕증시, 미·이란 협상 의구심에 약보합 마감…다우 0.1%↓ - 연합뉴스",
@@ -406,6 +520,12 @@
       "link": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html",
       "source": "CNBC Finance",
       "published": "2026-08-10T20:08:55+00:00"
+    },
+    {
+      "title": "[속보] 미-이란 협상 교착… 뉴욕증시 일제히 하락 마감 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZNnhMUXVzc0FreHpCREpCYk5RYjYtU2pwTUhaT3hIZVRyWnFSUVg5TWpCV3FhQTdjcDdzRTl1NlRqZkxmb0lRNGY4NHpCWXc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T20:06:00+00:00"
     },
     {
       "title": "CrowdStrike, Palo Alto hit records after Black Hat cyber conference illuminates rising AI threat",
@@ -462,6 +582,12 @@
       "published": "2026-08-10T19:18:00+00:00"
     },
     {
+      "title": "Trump extends limited waiver of shipping law to keep oil flowing in U.S. amid Iran war",
+      "link": "https://www.cnbc.com/2026/08/10/trump-iran-oil-jones-act-shipping.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T19:15:29+00:00"
+    },
+    {
       "title": "Meta's latest model advances Zuckerberg's vision for personal AI assistants",
       "link": "https://www.cnbc.com/2026/08/10/metas-latest-model-advances-zuckerbergs-vision-for-personal-ai-assistants.html",
       "source": "CNBC Finance",
@@ -516,142 +642,16 @@
       "published": "2026-08-10T18:31:00+00:00"
     },
     {
-      "title": "Is $1 million enough for a household to retire? The answer keeps changing.",
-      "link": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-10T18:30:00+00:00"
-    },
-    {
-      "title": "2 charts showing just how insane the stock market’s August ‘crash-up’ has been so far",
-      "link": "https://www.marketwatch.com/story/2-charts-showing-just-how-insane-the-stock-markets-august-crash-up-has-been-so-far-b822404d?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-10T18:08:00+00:00"
-    },
-    {
       "title": "No.1 경제·증권 채널 : @HKWOWTV - 한국경제TV",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVW41ckwtX1Q3MTRYU1c0ek8tUHVKS2ViNGEzU0pVMmdlX0NQRTRLQzdISE5fblhsOWwyRlZYVGZtY3pWZ0g3WE1QV2NxbjI1NlBZbHViLU9xTy1Yc0ttR0VQRVlwa283U1I4TGpOOUl0ZVVqUTlfeEFRR2QwNTZVLTNDbWlxNWttN25hWkVESjhpZnY1OHhuaDVXSy1HMFFhaWIw?oc=5",
       "source": "Google News",
       "published": "2026-08-10T17:40:41+00:00"
     },
     {
-      "title": "Cyclospora fears lead consumers to lose their appetite for salads",
-      "link": "https://www.cnbc.com/2026/08/08/cyclospora-salads-lettuce-restaurants.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T17:23:17+00:00"
-    },
-    {
       "title": "Wednesday’s crucial CPI report will show tamer inflation, according to prediction markets",
       "link": "https://www.cnbc.com/2026/08/10/crucial-cpi-report-will-show-tame-inflation-prediction-markets-show.html",
       "source": "CNBC Finance",
       "published": "2026-08-10T16:42:04+00:00"
-    },
-    {
-      "title": "Interest rates may stay higher for longer. What that means for consumers",
-      "link": "https://www.cnbc.com/2026/08/10/fed-rate-hike-prospects-higher-interest-rates.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T16:10:05+00:00"
-    },
-    {
-      "title": "Gold just had its best week in 7 months. Here’s why Mike Khouw is buying more",
-      "link": "https://www.cnbc.com/2026/08/10/gold-just-had-its-best-week-in-7-months-heres-why-mike-khouw-is-buying-more.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T16:09:32+00:00"
-    },
-    {
-      "title": "콜롬비아 증시, 치명적 지진 발생 후 하락 - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLZml0TnpzNnJpSEQ0a2NOcDdLMGhhZTkwakNEenpyZXNlb012TE5uYWhyQWRaUVNrXzQweG5YaldoOVMwRmNmalRFeUdYdTFtUTlabk5oMlNGemJtank5UVRyX013VE1kQjcycFE5Ykt5UFhhTV9N?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T15:44:00+00:00"
-    },
-    {
-      "title": "Trump’s foreign licensing business booms to $59.5 million as Gulf developers pay",
-      "link": "https://www.cnbc.com/2026/08/10/trump-foreign-real-estate-licensing-income-gulf-deals.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T15:06:58+00:00"
-    },
-    {
-      "title": "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
-      "link": "https://www.cnbc.com/2026/08/10/us-iran-war-trump-hormuz-oman-ships-blockade-shipping.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T14:27:15+00:00"
-    },
-    {
-      "title": "뉴욕증시, 국제 유가·국채금리 오르자 하락 - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nTHlheFpSQ3ZoQnpZNDMyTWpjVTRadGx6THJvVzVJUVF3YU9lNHBkZFFoWlpXeXZieXQ2cTJUc3hYU3hKUGtvVXQ4VU9UUUtWYlNFeENVNXlydw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T14:08:42+00:00"
-    },
-    {
-      "title": "House Dems call for AI companies to testify on recent hacks: ‘Clear risk to safety’",
-      "link": "https://www.cnbc.com/2026/08/10/openai-anthropic-ai-hack-congress.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T14:06:08+00:00"
-    },
-    {
-      "title": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
-      "link": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T13:39:56+00:00"
-    },
-    {
-      "title": "[속보] 뉴욕증시 3대 지수 개장 직후 하락… S&P500 0.03%↓·다우 0.02%↓·나스닥 0.05%↓ - newscj.com",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hbk5MRVZPQ3lMYXBRSGJnam5fZ0N4cl9WSkNZN3NGUW9UVm9sdTllelItd3RHLTl3SGZHQmEtalhOQXZLbnlFQ2JRQzMyQi04bVJNTFRvbnIwZUFoZWZMeFBVdkc3akdFV1E?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T13:34:11+00:00"
-    },
-    {
-      "title": "장기투자 하라더니 정책은 오락가락…개미들 다시 美 증시로 - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS25zMnVWLUUxZXVUQ2FmUGt0RWY4ZXRucGpsRGZnZm9FMEVZNFFud2VpMXpaZVJFa05pQTVBd0p4aUFJMk55OVUxQzIzaTRBRDlVb0NKSGhZX3NxNEhzaGlkUENOZ2FjNjMxSjc5Q3owT2FlWWc2aUdaWFFBY1YxdUVTNXd1anQ20gGcAUFVX3lxTE5DOXZCaXd6Z0tCRjhGRWg4VjhzbFVvRzVkQV9EOFg5NVR1S1NLWk15Z1ZYM3hTRkNUdUdubUI0UFkxYzBPTnFCa1FUNHdTTTVaa1lPZHRqUXlsSXRlTXFhb3JYR1hVVmN3WTdfbU4xYV9xY0I4ZlhMZWhYeWs4cjc5UGo4VlBtdzFhTjNCMVdiR05OTXZ5SWVjdV9LeQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T13:15:00+00:00"
-    },
-    {
-      "title": "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic",
-      "link": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T12:40:36+00:00"
-    },
-    {
-      "title": "Student loan borrowers face steeper 'marriage penalty' under new repayment plan",
-      "link": "https://www.cnbc.com/2026/08/10/student-loan-marriage-penalty-rap.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T12:15:01+00:00"
-    },
-    {
-      "title": "청년미래적금 138만5000명 최종 가입…9월 추가 모집 검토",
-      "link": "https://www.mk.co.kr/news/economy/12123312",
-      "source": "매일경제·증권",
-      "published": "2026-08-10T12:05:16+00:00"
-    },
-    {
-      "title": "\"속도전 넘어 전격전\"…3대 메가 프로젝트 초스피드 가동",
-      "link": "https://www.yna.co.kr/view/AKR20260810148700003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T11:45:56+00:00"
-    },
-    {
-      "title": "Santoli: Stocks return to winning ways. Why the market gods may not be satisfied with July's brief pain",
-      "link": "https://www.cnbc.com/2026/08/10/santoli-stocks-return-to-their-winning-ways-but-was-julys-brief-pain-enough-to-satisfy-the-market-gods.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T11:45:50+00:00"
-    },
-    {
-      "title": "Australian rare earth miner surges after U.S. Department of Defense investment",
-      "link": "https://www.cnbc.com/2026/08/10/rare-earths-sunrise-energy-metals-trump-cina.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T11:44:14+00:00"
-    },
-    {
-      "title": "OpenAI tightens controls on its new model over cybersecurity risks, as AI security debate intensifies",
-      "link": "https://www.cnbc.com/2026/08/10/openai-astra-cybersecurity-risks.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T11:04:50+00:00"
-    },
-    {
-      "title": "Shein faces existential threat as tariffs hit low-price model, putting new focus on services",
-      "link": "https://www.cnbc.com/2026/08/10/shein-ipo-tariffs.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-10T11:00:01+00:00"
     }
   ],
   "pages": [
