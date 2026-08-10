@@ -1,5 +1,155 @@
 [
   {
+    "code": "000660",
+    "name": "SK하이닉스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "005930",
+    "name": "삼성전자",
+    "market": "KOSPI"
+  },
+  {
+    "code": "009150",
+    "name": "삼성전기",
+    "market": "KOSPI"
+  },
+  {
+    "code": "010170",
+    "name": "대한광통신",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "080220",
+    "name": "제주반도체",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "402340",
+    "name": "SK스퀘어",
+    "market": "KOSPI"
+  },
+  {
+    "code": "196170",
+    "name": "알테오젠",
+    "market": "KOSDAQ GLOBAL"
+  },
+  {
+    "code": "005935",
+    "name": "삼성전자우",
+    "market": "KOSPI"
+  },
+  {
+    "code": "012450",
+    "name": "한화에어로스페이스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "009830",
+    "name": "한화솔루션",
+    "market": "KOSPI"
+  },
+  {
+    "code": "329180",
+    "name": "HD현대중공업",
+    "market": "KOSPI"
+  },
+  {
+    "code": "036930",
+    "name": "주성엔지니어링",
+    "market": "KOSDAQ GLOBAL"
+  },
+  {
+    "code": "006400",
+    "name": "삼성SDI",
+    "market": "KOSPI"
+  },
+  {
+    "code": "066570",
+    "name": "LG전자",
+    "market": "KOSPI"
+  },
+  {
+    "code": "005380",
+    "name": "현대차",
+    "market": "KOSPI"
+  },
+  {
+    "code": "006360",
+    "name": "GS건설",
+    "market": "KOSPI"
+  },
+  {
+    "code": "010060",
+    "name": "OCI홀딩스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "035420",
+    "name": "NAVER",
+    "market": "KOSPI"
+  },
+  {
+    "code": "079550",
+    "name": "LIG디펜스앤에어로스페이스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "017900",
+    "name": "광전자",
+    "market": "KOSPI"
+  },
+  {
+    "code": "034020",
+    "name": "두산에너빌리티",
+    "market": "KOSPI"
+  },
+  {
+    "code": "477850",
+    "name": "마키나락스",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "240810",
+    "name": "원익IPS",
+    "market": "KOSDAQ GLOBAL"
+  },
+  {
+    "code": "006340",
+    "name": "대원전선",
+    "market": "KOSPI"
+  },
+  {
+    "code": "055550",
+    "name": "신한지주",
+    "market": "KOSPI"
+  },
+  {
+    "code": "347850",
+    "name": "디앤디파마텍",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "042700",
+    "name": "한미반도체",
+    "market": "KOSPI"
+  },
+  {
+    "code": "062040",
+    "name": "산일전기",
+    "market": "KOSPI"
+  },
+  {
+    "code": "475150",
+    "name": "SK이터닉스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "105560",
+    "name": "KB금융",
+    "market": "KOSPI"
+  },
+  {
     "code": "MU",
     "name": "Micron Technology",
     "market": "US"
@@ -15,6 +165,11 @@
     "market": "US"
   },
   {
+    "code": "MSFT",
+    "name": "Microsoft",
+    "market": "US"
+  },
+  {
     "code": "PLTR",
     "name": "Palantir Technologies",
     "market": "US"
@@ -27,11 +182,6 @@
   {
     "code": "AMD",
     "name": "Advanced Micro Devices",
-    "market": "US"
-  },
-  {
-    "code": "MSFT",
-    "name": "Microsoft",
     "market": "US"
   },
   {
@@ -75,13 +225,13 @@
     "market": "US"
   },
   {
-    "code": "STX",
-    "name": "Seagate Technology",
+    "code": "GOOG",
+    "name": "Alphabet Inc. (Class C)",
     "market": "US"
   },
   {
-    "code": "GOOG",
-    "name": "Alphabet Inc. (Class C)",
+    "code": "STX",
+    "name": "Seagate Technology",
     "market": "US"
   },
   {
@@ -95,6 +245,16 @@
     "market": "US"
   },
   {
+    "code": "LLY",
+    "name": "Lilly (Eli)",
+    "market": "US"
+  },
+  {
+    "code": "ORCL",
+    "name": "Oracle Corporation",
+    "market": "US"
+  },
+  {
     "code": "NOW",
     "name": "ServiceNow",
     "market": "US"
@@ -105,23 +265,13 @@
     "market": "US"
   },
   {
+    "code": "XOM",
+    "name": "ExxonMobil",
+    "market": "US"
+  },
+  {
     "code": "APP",
     "name": "AppLovin",
-    "market": "US"
-  },
-  {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
-    "market": "US"
-  },
-  {
-    "code": "TXN",
-    "name": "Texas Instruments",
-    "market": "US"
-  },
-  {
-    "code": "AMAT",
-    "name": "Applied Materials",
     "market": "US"
   },
   {
@@ -130,34 +280,24 @@
     "market": "US"
   },
   {
+    "code": "AMAT",
+    "name": "Applied Materials",
+    "market": "US"
+  },
+  {
+    "code": "GEV",
+    "name": "GE Vernova",
+    "market": "US"
+  },
+  {
     "code": "DELL",
     "name": "Dell Technologies",
     "market": "US"
   },
   {
-    "code": "LLY",
-    "name": "Lilly (Eli)",
+    "code": "TXN",
+    "name": "Texas Instruments",
     "market": "US"
-  },
-  {
-    "code": "WMT",
-    "name": "Walmart",
-    "market": "US"
-  },
-  {
-    "code": "LRCX",
-    "name": "Lam Research",
-    "market": "US"
-  },
-  {
-    "code": "005930",
-    "name": "삼성전자",
-    "market": "KRX"
-  },
-  {
-    "code": "000660",
-    "name": "SK하이닉스",
-    "market": "KRX"
   },
   {
     "code": "TSM",
@@ -170,18 +310,8 @@
     "market": "KRX"
   },
   {
-    "code": "006400",
-    "name": "삼성SDI",
-    "market": "KRX"
-  },
-  {
     "code": "247540",
     "name": "에코프로비엠",
-    "market": "KRX"
-  },
-  {
-    "code": "035420",
-    "name": "NAVER",
     "market": "KRX"
   },
   {
@@ -205,23 +335,8 @@
     "market": "NYSE"
   },
   {
-    "code": "005380",
-    "name": "현대차",
-    "market": "KRX"
-  },
-  {
     "code": "000270",
     "name": "기아",
-    "market": "KRX"
-  },
-  {
-    "code": "055550",
-    "name": "신한지주",
-    "market": "KRX"
-  },
-  {
-    "code": "105560",
-    "name": "KB금융",
     "market": "KRX"
   },
   {
