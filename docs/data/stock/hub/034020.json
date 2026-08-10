@@ -4,12 +4,12 @@
   "market": "KOSPI",
   "theme": null,
   "quote": {
-    "close": 79000.0,
-    "change_pct": 2.46,
-    "volume": 1306846,
-    "amount": 102673674800.0,
-    "marcap": 50604330534000.0,
-    "as_of_iso": "2026-08-10T05:25:23.329457+00:00",
+    "close": 79400.0,
+    "change_pct": 2.98,
+    "volume": 1631726,
+    "amount": 128380212200.0,
+    "marcap": 50860554992400.0,
+    "as_of_iso": "2026-08-10T07:29:33.055706+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:034020",

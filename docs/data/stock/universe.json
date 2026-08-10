@@ -25,14 +25,14 @@
     "market": "KOSDAQ"
   },
   {
-    "code": "196170",
-    "name": "알테오젠",
-    "market": "KOSDAQ GLOBAL"
-  },
-  {
     "code": "402340",
     "name": "SK스퀘어",
     "market": "KOSPI"
+  },
+  {
+    "code": "196170",
+    "name": "알테오젠",
+    "market": "KOSDAQ GLOBAL"
   },
   {
     "code": "005935",
@@ -60,8 +60,8 @@
     "market": "KOSPI"
   },
   {
-    "code": "017900",
-    "name": "광전자",
+    "code": "006400",
+    "name": "삼성SDI",
     "market": "KOSPI"
   },
   {
@@ -70,28 +70,18 @@
     "market": "KOSPI"
   },
   {
-    "code": "006360",
-    "name": "GS건설",
-    "market": "KOSPI"
-  },
-  {
-    "code": "006400",
-    "name": "삼성SDI",
-    "market": "KOSPI"
-  },
-  {
-    "code": "477850",
-    "name": "마키나락스",
-    "market": "KOSDAQ"
-  },
-  {
     "code": "010060",
     "name": "OCI홀딩스",
     "market": "KOSPI"
   },
   {
-    "code": "079550",
-    "name": "LIG디펜스앤에어로스페이스",
+    "code": "006360",
+    "name": "GS건설",
+    "market": "KOSPI"
+  },
+  {
+    "code": "017900",
+    "name": "광전자",
     "market": "KOSPI"
   },
   {
@@ -100,9 +90,14 @@
     "market": "KOSPI"
   },
   {
-    "code": "240810",
-    "name": "원익IPS",
-    "market": "KOSDAQ GLOBAL"
+    "code": "079550",
+    "name": "LIG디펜스앤에어로스페이스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "477850",
+    "name": "마키나락스",
+    "market": "KOSDAQ"
   },
   {
     "code": "035420",
@@ -115,6 +110,11 @@
     "market": "KOSPI"
   },
   {
+    "code": "240810",
+    "name": "원익IPS",
+    "market": "KOSDAQ GLOBAL"
+  },
+  {
     "code": "062040",
     "name": "산일전기",
     "market": "KOSPI"
@@ -125,6 +125,11 @@
     "market": "KOSDAQ"
   },
   {
+    "code": "475150",
+    "name": "SK이터닉스",
+    "market": "KOSPI"
+  },
+  {
     "code": "006340",
     "name": "대원전선",
     "market": "KOSPI"
@@ -133,11 +138,6 @@
     "code": "043260",
     "name": "성호전자",
     "market": "KOSDAQ"
-  },
-  {
-    "code": "475150",
-    "name": "SK이터닉스",
-    "market": "KOSPI"
   },
   {
     "code": "042700",
