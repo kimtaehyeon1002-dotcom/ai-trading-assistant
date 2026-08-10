@@ -1,0 +1,17 @@
+{
+  "code": "347700",
+  "name": "스피어",
+  "market": "KOSDAQ",
+  "theme": null,
+  "quote": {
+    "close": 24850.0,
+    "change_pct": 7.81,
+    "volume": 1147481,
+    "amount": 29139873375.0,
+    "marcap": 1281051345700.0,
+    "as_of_iso": "2026-08-10T01:39:06.847806+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:347700",
+  "related_news": []
+}

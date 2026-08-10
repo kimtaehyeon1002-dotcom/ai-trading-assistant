@@ -1,6 +1,156 @@
 {
-  "as_of": "2026-08-10T01:23:22.573744+00:00",
+  "as_of": "2026-08-10T01:39:20.299169+00:00",
   "stocks": [
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "market": "KOSPI"
+    },
+    {
+      "code": "010170",
+      "name": "대한광통신",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "196170",
+      "name": "알테오젠",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "009830",
+      "name": "한화솔루션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "market": "KOSPI"
+    },
+    {
+      "code": "005935",
+      "name": "삼성전자우",
+      "market": "KOSPI"
+    },
+    {
+      "code": "017900",
+      "name": "광전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "062040",
+      "name": "산일전기",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006340",
+      "name": "대원전선",
+      "market": "KOSPI"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market": "KOSPI"
+    },
+    {
+      "code": "477850",
+      "name": "마키나락스",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "240810",
+      "name": "원익IPS",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "066570",
+      "name": "LG전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "475150",
+      "name": "SK이터닉스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "079550",
+      "name": "LIG디펜스앤에어로스페이스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006360",
+      "name": "GS건설",
+      "market": "KOSPI"
+    },
+    {
+      "code": "347850",
+      "name": "디앤디파마텍",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "222800",
+      "name": "심텍",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KOSPI"
+    },
+    {
+      "code": "042700",
+      "name": "한미반도체",
+      "market": "KOSPI"
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "market": "KOSPI"
+    },
+    {
+      "code": "055550",
+      "name": "신한지주",
+      "market": "KOSPI"
+    },
+    {
+      "code": "010060",
+      "name": "OCI홀딩스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "347700",
+      "name": "스피어",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "035420",
+      "name": "NAVER",
+      "market": "KOSPI"
+    },
     {
       "code": "MU",
       "name": "Micron Technology",
@@ -17,6 +167,11 @@
       "market": "US"
     },
     {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "market": "US"
+    },
+    {
       "code": "PLTR",
       "name": "Palantir Technologies",
       "market": "US"
@@ -29,11 +184,6 @@
     {
       "code": "AMD",
       "name": "Advanced Micro Devices",
-      "market": "US"
-    },
-    {
-      "code": "MSFT",
-      "name": "Microsoft",
       "market": "US"
     },
     {
@@ -77,13 +227,13 @@
       "market": "US"
     },
     {
-      "code": "STX",
-      "name": "Seagate Technology",
+      "code": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
       "market": "US"
     },
     {
-      "code": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
+      "code": "STX",
+      "name": "Seagate Technology",
       "market": "US"
     },
     {
@@ -97,6 +247,16 @@
       "market": "US"
     },
     {
+      "code": "LLY",
+      "name": "Lilly (Eli)",
+      "market": "US"
+    },
+    {
+      "code": "ORCL",
+      "name": "Oracle Corporation",
+      "market": "US"
+    },
+    {
       "code": "NOW",
       "name": "ServiceNow",
       "market": "US"
@@ -107,23 +267,13 @@
       "market": "US"
     },
     {
+      "code": "XOM",
+      "name": "ExxonMobil",
+      "market": "US"
+    },
+    {
       "code": "APP",
       "name": "AppLovin",
-      "market": "US"
-    },
-    {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
-      "market": "US"
-    },
-    {
-      "code": "TXN",
-      "name": "Texas Instruments",
-      "market": "US"
-    },
-    {
-      "code": "AMAT",
-      "name": "Applied Materials",
       "market": "US"
     },
     {
@@ -132,34 +282,24 @@
       "market": "US"
     },
     {
+      "code": "AMAT",
+      "name": "Applied Materials",
+      "market": "US"
+    },
+    {
+      "code": "GEV",
+      "name": "GE Vernova",
+      "market": "US"
+    },
+    {
       "code": "DELL",
       "name": "Dell Technologies",
       "market": "US"
     },
     {
-      "code": "LLY",
-      "name": "Lilly (Eli)",
+      "code": "TXN",
+      "name": "Texas Instruments",
       "market": "US"
-    },
-    {
-      "code": "WMT",
-      "name": "Walmart",
-      "market": "US"
-    },
-    {
-      "code": "LRCX",
-      "name": "Lam Research",
-      "market": "US"
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "market": "KRX"
-    },
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "market": "KRX"
     },
     {
       "code": "TSM",
@@ -172,18 +312,8 @@
       "market": "KRX"
     },
     {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "KRX"
-    },
-    {
       "code": "247540",
       "name": "에코프로비엠",
-      "market": "KRX"
-    },
-    {
-      "code": "035420",
-      "name": "NAVER",
       "market": "KRX"
     },
     {
@@ -217,11 +347,6 @@
       "market": "KRX"
     },
     {
-      "code": "055550",
-      "name": "신한지주",
-      "market": "KRX"
-    },
-    {
       "code": "105560",
       "name": "KB금융",
       "market": "KRX"
@@ -238,6 +363,102 @@
     }
   ],
   "news": [
+    {
+      "title": "KT, NH농협은행 차세대 AICC 구축…상담 시간 20% 단축",
+      "link": "https://www.yna.co.kr/view/AKR20260810054600017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:34:29+00:00"
+    },
+    {
+      "title": "네오플, 제주본사 집중 채용…'던파' 라이브 강화",
+      "link": "https://www.yna.co.kr/view/AKR20260810053400017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:31:58+00:00"
+    },
+    {
+      "title": "이디야·컴포즈, 라오스·필리핀 1호점 개점…동남아 확장(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260810023751030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:30:25+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
+      "link": "https://www.yna.co.kr/view/AKR20260810051900011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:30:01+00:00"
+    },
+    {
+      "title": "U.S. stock futures dip as investors await inflation data, grapple with more Iran uncertainty",
+      "link": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-10T01:30:00+00:00"
+    },
+    {
+      "title": "카카오페이증권, 삼전·닉스 소수점거래 서비스 개시",
+      "link": "https://www.yna.co.kr/view/AKR20260810051600008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:28:52+00:00"
+    },
+    {
+      "title": "호르무즈 해협 재개방 불확실성에 미국 증시 선물 보합세 - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUjd0OGlVbEprb0xhSS10dEdTSGJoZ3NzQmFPOGRXbGlfN2NMbEdZc0ZhdVEyM2dsTzJ3WnpLWHNjRVB1TDFkYWV6LVNYSktnQ1RxWENiNG5ab1MtcGVYdEd5RDVKS2F1aU9EcjVaNDRZUW9LQzh5MXRZalgzVzZ2bjA1TzJkWW9HLU5Wc3JZeENsb28xU0twU1N5OWdJVlFydGpPdzFNU0NjRVJmYjljTG1ySGF3LU9jNEtfWU9wenF5UHo3N3hyVTktZTgtWC1J?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T01:28:00+00:00"
+    },
+    {
+      "title": "미래에셋, 8월 개인투자용 국채 청약…\"올해 경쟁률 1.70대 1\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810049000008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:26:55+00:00"
+    },
+    {
+      "title": "울주군, 지역 기술창업기업 베트남 시장 진출 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260810050600057",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:25:43+00:00"
+    },
+    {
+      "title": "모나미, '광복 81주년 에디션' 볼펜 출시…수익금 전액 기부",
+      "link": "https://www.yna.co.kr/view/AKR20260810044500030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:25:36+00:00"
+    },
+    {
+      "title": "증시호황에 증권가 '실적랠리'…삼전닉스 버금가는＇보너스잔치＇ 기대 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXcG5neWo2REZnYXdJYjl5X2RkX3E0bFpZUlZGNklEVDRtZjlnZnlla3FqWlNTaWhwRUtCNXRIN21wU0dMdURhODJNOGVINmlsZXhFanhIV1pFYi03WkVLMkY3SjFyby05a1JmWmlOel8?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T01:24:43+00:00"
+    },
+    {
+      "title": "Oil rises amid uncertainty over U.S.-Iran Strait of Hormuz deal",
+      "link": "https://www.cnbc.com/2026/08/10/oil-prices-today-brent-wti-hormuz-trump-iran.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-10T01:23:35+00:00"
+    },
+    {
+      "title": "정점식 \"李정부 총체적 국정 난맥…靑실장·내각 전면 교체해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810049300001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:21:24+00:00"
+    },
+    {
+      "title": "대방건설, 703억원 규모 순창∼구림 국지도 확장공사 수주",
+      "link": "https://www.yna.co.kr/view/AKR20260810049800003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:20:01+00:00"
+    },
+    {
+      "title": "교보생명 신창재 \"사냥꾼형 아닌 농부형 설계사 양성해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810039600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:19:55+00:00"
+    },
+    {
+      "title": "[게시판] 하나카드-새마을금고 'MG+ 트래블로그 하나카드' 출시",
+      "link": "https://www.yna.co.kr/view/AKR20260810047100002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:18:40+00:00"
+    },
     {
       "title": "쿠팡, 글로벌 직구 브랜드 확대…올해 600여개 신규 입점",
       "link": "https://www.yna.co.kr/view/AKR20260810041200030",
@@ -389,12 +610,6 @@
       "published": "2026-08-10T00:45:34+00:00"
     },
     {
-      "title": "U.S. stock futures dip as investors await inflation data, grapple with more Iran uncertainty",
-      "link": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-10T00:45:00+00:00"
-    },
-    {
       "title": "오늘의 증시 - MBC 뉴스",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TdndDbXZmQVctdWtZOWt4WlB3Yi1oWDhDMVdVeXhnWFcyTy1FQl9iUHFpbm81VzBSVjlzWG9tcGcwYkxQNGNNaTE3dXRNSU1LU0c0a2c4NzVMOUFyNENrb3QtdjhoTzdpZXVJV2pBR24zbnJhR0s4?oc=5",
       "source": "Google News",
@@ -411,6 +626,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260810035700002",
       "source": "연합뉴스·경제",
       "published": "2026-08-10T00:36:51+00:00"
+    },
+    {
+      "title": "코스피, 미국 증시 훈풍에 1%대 상승…6300선 회복 - 뉴스토마토",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qVS0yVFE5SzhfanY4RDdndTVrQXBXcUF6b016alhrUWRuNmQtS2Z1ampLLVFkSHN0VzFuQm8zTGE4Wmx1dUtZOTBic1B6bkZSbWY1MWtib2lsVTZUOTVTdQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T00:36:39+00:00"
     },
     {
       "title": "[게시판] NH농협카드, 초프리미엄 카드 '디 오리진스' 출시",
@@ -431,112 +652,16 @@
       "published": "2026-08-10T00:36:09+00:00"
     },
     {
-      "title": "한화손보, '성조숙증 검사비' 특약 배타적사용권 6개월",
-      "link": "https://www.yna.co.kr/view/AKR20260810031900002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:35:59+00:00"
-    },
-    {
-      "title": "신한금융, 그룹 공동 자산관리 포럼 개최",
-      "link": "https://www.yna.co.kr/view/AKR20260810031000002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:35:13+00:00"
-    },
-    {
-      "title": "센텔리안24, 미국 코스트코서 판매한다",
-      "link": "https://www.yna.co.kr/view/AKR20260810030400017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:34:45+00:00"
-    },
-    {
-      "title": "속초시, 일본 요나고시와 민간교류 25주년…교류 확대 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260810035400062",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:34:00+00:00"
-    },
-    {
-      "title": "에프앤가이드, 신임 인덱스사업본부장에 MSCI 출신 김태우 상무",
-      "link": "https://www.yna.co.kr/view/AKR20260810034800008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:31:05+00:00"
-    },
-    {
       "title": "[굿모닝 증시]코스피, 반도체 소외 해소될까…美 물가·테크 실적에 시선 - 아시아경제",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GMzNwQnladWFqUmJwNERya1FoVm1Jc2gzTzVyYnp3M1pPQ0ZKNzljcWJfcWQwV1ItbzA1NmU0aTBaMjN0VEVGeDdvYjFxVDdOb1RqRm9zUDRNSklXUVplMQ?oc=5",
       "source": "Google News",
       "published": "2026-08-10T00:29:42+00:00"
     },
     {
-      "title": "[게시판] LH, 제17회 국토기술대전 개최…28일까지 접수",
-      "link": "https://www.yna.co.kr/view/AKR20260810031800003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:29:03+00:00"
-    },
-    {
-      "title": "[게시판] 키움증권, 7월 한달간 걷기 캠페인 총 7.4억보 기록",
-      "link": "https://www.yna.co.kr/view/AKR20260810023200008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:28:49+00:00"
-    },
-    {
-      "title": "대우건설, 목동 8단지 재건축 구조 설계 영국 ARUP과 협업",
-      "link": "https://www.yna.co.kr/view/AKR20260810030100003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:27:06+00:00"
-    },
-    {
-      "title": "[게시판] 예탁원, 어린이 대상 '전쟁과 회복의 증권 이야기' 운영",
-      "link": "https://www.yna.co.kr/view/AKR20260810032200008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:26:30+00:00"
-    },
-    {
-      "title": "대신증권, 대신밸류리츠 지분 추가 취득…상장 후 12번째 매수",
-      "link": "https://www.yna.co.kr/view/AKR20260810028700008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:24:22+00:00"
-    },
-    {
-      "title": "[특징주] 삼성전자· SK하이닉스, 장 초반 강세",
-      "link": "https://www.yna.co.kr/view/AKR20260810032500008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:23:40+00:00"
-    },
-    {
-      "title": "하나은행 \"FDS 정밀 모니터링으로 신종 투자사기 예방\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810028600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:22:22+00:00"
-    },
-    {
-      "title": "日 증시, 美 금리 인상 기대감 약화에 강세 - KB Think",
+      "title": "日 증시, 美 금리 인상 기대감 약화에 강세 - kbthink.com",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBObk5xbko0ZGV4MzhTRmxrYXRNNTV2WWxNVlNSc3VKdkVVcHpJRG8wc09FVzlZM2lhWWhuME1sT3V0NElqMC1md1VMcFI1R0pROERyU1R1V3IwVHJRTzJhcHdUWDFKSTZwWlhSZTBYTU1DUQ?oc=5",
       "source": "Google News",
       "published": "2026-08-10T00:20:11+00:00"
-    },
-    {
-      "title": "美증시 상승 마감에 코스피·코스닥 상승 출발 - 천지일보",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uaTVpc3VqVzYycHBxaFhFUWhDcnN3aEQ0dEZtUWR4TUpuRGtockpvRjRBNXJ0RU41UFBHMHpxcEdfeGxoM1hmdDRvUllWSWpmZFNnN2ZqWmZ1cFBpUWdldU53aHA4dF9HWGc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T00:19:15+00:00"
-    },
-    {
-      "title": "“내가 괜히 국장 돌아와서 고생”…서학개미, 두 달 만에 다시 美주식 순매수",
-      "link": "https://www.mk.co.kr/news/economy/12122500",
-      "source": "매일경제·증권",
-      "published": "2026-08-10T00:16:06+00:00"
-    },
-    {
-      "title": "AI 비중 낮은 유럽증시 '사상 최고'…\"테크株는 '경기민감형'으로\" - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XQ2g5cXE1MktVTU1ZRmROWmVDYlVJaDAtck8wYUszOERSNHU1Z0JqTllfSUhGOXZHZnRUUXBmTUZHU2lPZDdFTXlPeThXLURjYTNka3VzSFJfREs1MHlVRjJWRHpYUFhjU1NCTFlrN3jSAXRBVV95cUxNOEN1ZUtHOTdfcW95S0N1blVFbGJzdW5iNjl0VFlZblJmWGQ5aEVxZEpuZEtaUFR2cEphRkkwRnFrRDV1eGlGeVdObTl3LXRnQ1p2YWhyZlExUGVveWhkek9UNzR3NGVCOWJBVklqUDR6WVc1cw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T00:15:06+00:00"
-    },
-    {
-      "title": "'6,200대 코스피'·'790선 코스닥'...오늘 증시는? - YTN",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CUkp3V3NiOVUxNW0yMTlxSGdpcldfQUVGNzJXSUEzU3VoMDg1MTdPLWV6SkxvdzhsVUdBX19ETDhmRTNiSG5OSUF0aE9jUXl2YW5HWXFNazhuZ0J1OUowVUppanM5ZzVTUlo1MG54SQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T00:02:00+00:00"
     }
   ],
   "pages": [
