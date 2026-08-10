@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI Trading Assistant</title>
-  <link rel="stylesheet" href="./static/css/tokens.css">
-  <link rel="stylesheet" href="./static/css/base_v2.css">
-  <link rel="stylesheet" href="./static/css/components.css">
+  <link rel="stylesheet" href="./static/css/tokens.css?v=7294c56e">
+  <link rel="stylesheet" href="./static/css/base_v2.css?v=7294c56e">
+  <link rel="stylesheet" href="./static/css/components.css?v=7294c56e">
   <script>(function(){try{
     var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
     var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
@@ -70,31 +70,9 @@ aria-current="page">Dashboard</a>
       <span class="v2-card__meta">2026-08-10 15:51 KST</span>
     </div>
   </div>
-  <div class="v2-hero-headline">미국 3대 지수 상승 마감 · 코스피 ▲ 0.61%</div>
   <div class="v2-hero-cols">
     <div class="v2-hero-col">
       <div class="v2-overline">미국 증시</div>
-      <div class="v2-hero-index-row">
-        <span class="v2-hero-index__label">S&amp;P500</span>
-        <span>
-          <span class="v2-stat__value">7,758</span>
-          <span class="v2-updown up">▲ +0.62%</span>
-        </span>
-      </div>
-      <div class="v2-hero-index-row">
-        <span class="v2-hero-index__label">NASDAQ</span>
-        <span>
-          <span class="v2-stat__value">26,691</span>
-          <span class="v2-updown up">▲ +1.30%</span>
-        </span>
-      </div>
-      <div class="v2-hero-index-row">
-        <span class="v2-hero-index__label">DOW</span>
-        <span>
-          <span class="v2-stat__value">54,037</span>
-          <span class="v2-updown up">▲ +0.28%</span>
-        </span>
-      </div>
     </div>
     <div class="v2-hero-col">
       <div class="v2-overline">한국 증시</div>
@@ -133,20 +111,6 @@ aria-current="page">Dashboard</a>
   </div>
   <div class="v2-tile-grid">
     <div class="v2-tile">
-      <div class="v2-tile__label">KOSPI</div>
-      <div class="v2-tile__value">6,282</div>
-      <div class="v2-tile__change v2-updown up">▲ +0.61%</div>
-      <div class="v2-tile__asof">
-        08-10 14:25      </div>
-    </div>
-    <div class="v2-tile">
-      <div class="v2-tile__label">KOSDAQ</div>
-      <div class="v2-tile__value">847.54</div>
-      <div class="v2-tile__change v2-updown up">▲ +6.91%</div>
-      <div class="v2-tile__asof">
-        08-10 14:25 · <span class="v2-tile__warn" title="두 소스의 등락률이 어긋납니다">소스 불일치</span>      </div>
-    </div>
-    <div class="v2-tile">
       <div class="v2-tile__label">—</div>
       <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
     </div>
@@ -180,32 +144,20 @@ aria-current="page">Dashboard</a>
   </div>
   <div class="v2-tile-grid">
     <div class="v2-tile">
-      <div class="v2-tile__label">S&amp;P500</div>
-      <div class="v2-tile__value">7,758</div>
-      <div class="v2-tile__change v2-updown up">▲ +0.62%</div>
-      <div class="v2-tile__asof">
-        08-10 14:25      </div>
+      <div class="v2-tile__label">—</div>
+      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
     </div>
     <div class="v2-tile">
-      <div class="v2-tile__label">NASDAQ</div>
-      <div class="v2-tile__value">26,691</div>
-      <div class="v2-tile__change v2-updown up">▲ +1.30%</div>
-      <div class="v2-tile__asof">
-        08-10 14:25      </div>
+      <div class="v2-tile__label">—</div>
+      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
     </div>
     <div class="v2-tile">
-      <div class="v2-tile__label">DOW</div>
-      <div class="v2-tile__value">54,037</div>
-      <div class="v2-tile__change v2-updown up">▲ +0.28%</div>
-      <div class="v2-tile__asof">
-        08-10 14:25      </div>
+      <div class="v2-tile__label">—</div>
+      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
     </div>
     <div class="v2-tile">
-      <div class="v2-tile__label">VIX</div>
-      <div class="v2-tile__value">14.90</div>
-      <div class="v2-tile__change v2-updown down">▼ −1.59%</div>
-      <div class="v2-tile__asof">
-        08-10 14:25      </div>
+      <div class="v2-tile__label">—</div>
+      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
     </div>
   </div>
 
@@ -294,9 +246,10 @@ aria-current="page">Dashboard</a>
     </div>
   </main>
   <div class="v2-panel-slot" id="panel-slot"></div>
-  <script src="./static/js/store.js" defer></script>
-  <script src="./static/js/stockhub.js" defer></script>
-  <script src="./static/js/search.js" defer></script>
-<script src="./static/js/updown.js" defer></script>
+  <script src="./static/js/store.js?v=7294c56e" defer></script>
+  <script src="./static/js/stockhub.js?v=7294c56e" defer></script>
+  <script src="./static/js/search.js?v=7294c56e" defer></script>
+  <script src="./static/js/chart.js?v=7294c56e" defer></script>
+<script src="./static/js/updown.js?v=7294c56e" defer></script>
 </body>
 </html>
