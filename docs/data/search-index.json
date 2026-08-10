@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-10T00:55:39.525752+00:00",
+  "as_of": "2026-08-10T01:23:22.573744+00:00",
   "stocks": [
     {
       "code": "MU",
@@ -239,6 +239,150 @@
   ],
   "news": [
     {
+      "title": "쿠팡, 글로벌 직구 브랜드 확대…올해 600여개 신규 입점",
+      "link": "https://www.yna.co.kr/view/AKR20260810041200030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:15:56+00:00"
+    },
+    {
+      "title": "서울 전용 59㎡ 민간아파트 분양가 15.6억원…전국의 3배",
+      "link": "https://www.yna.co.kr/view/AKR20260810047900003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:13:05+00:00"
+    },
+    {
+      "title": "KB금융, 데이터로 지역상권 분석…정책 수립·경영 판단 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260810044400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:12:58+00:00"
+    },
+    {
+      "title": "거래소, '지배구조 개선 컨설팅' 상장사 50곳으로 확대",
+      "link": "https://www.yna.co.kr/view/AKR20260810048300008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:12:45+00:00"
+    },
+    {
+      "title": "K-치킨, 미주 공략 확대…멕시코·미국서 잇단 출점",
+      "link": "https://www.yna.co.kr/view/AKR20260810040800030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:12:06+00:00"
+    },
+    {
+      "title": "신한카드-홈앤쇼핑, 지역 경제 활성화 맞손",
+      "link": "https://www.yna.co.kr/view/AKR20260810044900002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:11:58+00:00"
+    },
+    {
+      "title": "전남광주통합시금고, 광주은행·농협 재대결 관심…내달 공모",
+      "link": "https://www.yna.co.kr/view/AKR20260810045800054",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:11:37+00:00"
+    },
+    {
+      "title": "LF 닥스, 50% 가벼워진 백팩 선보여…경량 라인 '에테르' 출시",
+      "link": "https://www.yna.co.kr/view/AKR20260810040000030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:09:37+00:00"
+    },
+    {
+      "title": "코스닥 4~5% 급등에 매수 사이드카…이달만 3차례",
+      "link": "https://www.yna.co.kr/view/AKR20260810045700008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:04:19+00:00"
+    },
+    {
+      "title": "엠엑스온 \"종속회사 엠엑스로보틱스 주식 100억원에 추가취득\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810045500008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:01:37+00:00"
+    },
+    {
+      "title": "스타벅스 \"폭염에 '서머쿠폰' 이용자 90% 아이스음료 선택\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810036400030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:01:07+00:00"
+    },
+    {
+      "title": "[게시판] 투교협, 초등학생·학부모 대상 여름 경제캠프 개최",
+      "link": "https://www.yna.co.kr/view/AKR20260810043500008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:00:34+00:00"
+    },
+    {
+      "title": "유가 뛰자 석유 불법유통 '활개'…해경청, 67명 검거",
+      "link": "https://www.yna.co.kr/view/AKR20260810024300065",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:00:01+00:00"
+    },
+    {
+      "title": "전매제한 기간에 8천만원 웃돈 주고 아파트 거래 2명 덜미",
+      "link": "https://www.yna.co.kr/view/AKR20260810026900060",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T01:00:01+00:00"
+    },
+    {
+      "title": "무신사 스탠다드, 모자 관리기 출시…패션용품 관리로 영역 확대",
+      "link": "https://www.yna.co.kr/view/AKR20260810034400030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T00:58:46+00:00"
+    },
+    {
+      "title": "[게시판] LS증권, 22일 증시 전망·투자 정보 공유 세미나",
+      "link": "https://www.yna.co.kr/view/AKR20260810043700008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T00:58:33+00:00"
+    },
+    {
+      "title": "[게시판] LS증권, 22일 증시 전망·투자 정보 공유 세미나 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZdERSYjZMQV9WdXhVLXlkNkw0YU1qMWNOVWhsMTJKVWdpVHJ0VFZUQU96OVdTV3lWaHpaZElJbHZxbTVfNVBsRURFN3FlSk5QYjM5TUwwUC1qQnfSAWBBVV95cUxPaTVLMHdtR1pESEhaLUlGWnJpNVc3WEQ5MDlUTmNwTXdNQWlCQkoxR1dhV3pJc1NwVktHSzhhTGp3amlPbWR1OW1aamh5dFlUWGF1bDZQQzBtN1NCSGQ1Z0Q?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T00:58:33+00:00"
+    },
+    {
+      "title": "\"인생네컷 결제 스테이블코인으로\" 비댁스, 업무협약 체결",
+      "link": "https://www.yna.co.kr/view/AKR20260810041400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T00:53:43+00:00"
+    },
+    {
+      "title": "'햇반 라이스크림·김 나쵸' 등 700만개 팔려…CJ, 美 진출 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260810032600030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T00:53:26+00:00"
+    },
+    {
+      "title": "[게시판] 한투증권, MTS에 총 연금자산 실시간 평가 기능 도입",
+      "link": "https://www.yna.co.kr/view/AKR20260810041300008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T00:53:23+00:00"
+    },
+    {
+      "title": "[속보] 코스닥 4%대 급등…매수 사이드카 발동",
+      "link": "https://www.yna.co.kr/view/AKR20260810040900008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T00:52:10+00:00"
+    },
+    {
+      "title": "현대차그룹, 아파트 주차난에 로봇 투입…\"최대 50% 더 댄다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810030000003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T00:49:31+00:00"
+    },
+    {
+      "title": "이지스운용 \"상업용 부동산 양극화 고착…대형·우량자산 선호\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810039300008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-10T00:48:39+00:00"
+    },
+    {
+      "title": "유가 내려가고 실적 뛰고…유럽증시 다시 뜬다 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fRHU4cW1tOGlLejN2QUhTUEI2ckJjbVdka0M5QjhXRXYxMTNiaXJGelVNcHFvdFZqbnpJakZfU2VxMEJSUC00YTUzaEpMYzZIOFlJT1Nvd3dMdw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T00:45:49+00:00"
+    },
+    {
       "title": "[특징주] 광통신주, 미국의 중국산 수입규제 추진에 장초반 급등",
       "link": "https://www.yna.co.kr/view/AKR20260810039000008",
       "source": "연합뉴스·경제",
@@ -341,12 +485,6 @@
       "published": "2026-08-10T00:27:06+00:00"
     },
     {
-      "title": "日 닛케이지수, 美 증시 훈풍에 상승 출발… 0.45% 오른 6만5905 선 - 서울뉴스통신",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5DVDE3MGJ0UXNrMU5rd1BZd0lRUU55NERDdktzV1NsZ3JHSmQxSUVJRVdyeHJ2di1XQk1zMmtMWWtlMnZNZ25xMXQ3STBGNm9USVN3VXd6Yloyd0szNUd2TG5pUDJuaVIwTnNF?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T00:26:37+00:00"
-    },
-    {
       "title": "[게시판] 예탁원, 어린이 대상 '전쟁과 회복의 증권 이야기' 운영",
       "link": "https://www.yna.co.kr/view/AKR20260810032200008",
       "source": "연합뉴스·경제",
@@ -371,16 +509,16 @@
       "published": "2026-08-10T00:22:22+00:00"
     },
     {
-      "title": "7월 수도권 15억∼20억원대 아파트 거래 과반이 신고가",
-      "link": "https://www.yna.co.kr/view/AKR20260810031200003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:21:17+00:00"
-    },
-    {
-      "title": "日 증시, 美 금리 인상 기대감 약화에 강세 - kbthink.com",
+      "title": "日 증시, 美 금리 인상 기대감 약화에 강세 - KB Think",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBObk5xbko0ZGV4MzhTRmxrYXRNNTV2WWxNVlNSc3VKdkVVcHpJRG8wc09FVzlZM2lhWWhuME1sT3V0NElqMC1md1VMcFI1R0pROERyU1R1V3IwVHJRTzJhcHdUWDFKSTZwWlhSZTBYTU1DUQ?oc=5",
       "source": "Google News",
       "published": "2026-08-10T00:20:11+00:00"
+    },
+    {
+      "title": "美증시 상승 마감에 코스피·코스닥 상승 출발 - 천지일보",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uaTVpc3VqVzYycHBxaFhFUWhDcnN3aEQ0dEZtUWR4TUpuRGtockpvRjRBNXJ0RU41UFBHMHpxcEdfeGxoM1hmdDRvUllWSWpmZFNnN2ZqWmZ1cFBpUWdldU53aHA4dF9HWGc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-10T00:19:15+00:00"
     },
     {
       "title": "“내가 괜히 국장 돌아와서 고생”…서학개미, 두 달 만에 다시 美주식 순매수",
@@ -395,148 +533,10 @@
       "published": "2026-08-10T00:15:06+00:00"
     },
     {
-      "title": "아산시, 탕정 푸르지오 리버파크 집단대출 1천600억원 확보",
-      "link": "https://www.yna.co.kr/view/AKR20260810027700063",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:11:25+00:00"
-    },
-    {
-      "title": "이디야커피, 라오스 1호점 개점…동남아 시장 공략 확대",
-      "link": "https://www.yna.co.kr/view/AKR20260810023700030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:06:58+00:00"
-    },
-    {
-      "title": "코스피, 상승 출발 후 강보합권…코스닥 2% 상승",
-      "link": "https://www.yna.co.kr/view/AKR20260810027900008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:06:44+00:00"
-    },
-    {
       "title": "'6,200대 코스피'·'790선 코스닥'...오늘 증시는? - YTN",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44QTROUUhnVkpTd2FVd1JBNWNhR1hZMG94MkNsd1NCR1M5RlFONWVPZXl6eFVyOTl5Yl9qd1FxMlRabmdQaWozZTIxR2F5V040YmZCV0pwOW5UQzZzQXROM3hiQ3VaVFpHZkRLT0UwZVNmRGJTWGc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CUkp3V3NiOVUxNW0yMTlxSGdpcldfQUVGNzJXSUEzU3VoMDg1MTdPLWV6SkxvdzhsVUdBX19ETDhmRTNiSG5OSUF0aE9jUXl2YW5HWXFNazhuZ0J1OUowVUppanM5ZzVTUlo1MG54SQ?oc=5",
       "source": "Google News",
       "published": "2026-08-10T00:02:00+00:00"
-    },
-    {
-      "title": "[머니톡스] ② 공급·금융·세제의 삼박자…한국 부동산 '혼합 패키지' 기대",
-      "link": "https://www.yna.co.kr/view/AKR20260806051500546",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:01:33+00:00"
-    },
-    {
-      "title": "[머니톡스] ① 세계의 주택정책…투기는 막고 거래는 터주다",
-      "link": "https://www.yna.co.kr/view/AKR20260804112700546",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:01:19+00:00"
-    },
-    {
-      "title": "아이파크몰 '도파민 스테이션', 1년 만에 방문객 1천만명 넘어",
-      "link": "https://www.yna.co.kr/view/AKR20260810022100030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:01:04+00:00"
-    },
-    {
-      "title": "KF, 칠레 산티아고서 정책 세미나…'공급망·방산' 협력 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260808049300371",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T00:00:00+00:00"
-    },
-    {
-      "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
-      "link": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-10T00:00:00+00:00"
-    },
-    {
-      "title": "기업 10곳 중 8곳 하반기 채용…채용 규모·예산은 축소",
-      "link": "https://www.yna.co.kr/view/AKR20260810023000003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T23:57:09+00:00"
-    },
-    {
-      "title": "바디프랜드, 건기식 시장 진출…'건강수명 토탈케어'로 확장",
-      "link": "https://www.yna.co.kr/view/AKR20260810021800030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T23:54:56+00:00"
-    },
-    {
-      "title": "국내 증시 투자 강요?...'ISA 개편'에 터져 나오는 반발 [이슈톺] - YTN",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BN2xuU3I4R2c3d2txbkFodDUtVXhEVzhUajJlVExnVnlmN2RhbnZabUFYNUdPNVFNdUtkVnBOV0JrMjU2UVlkTlg2bEF0R054VVd5UUVUUHV2c1lZOFE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-09T23:52:00+00:00"
-    },
-    {
-      "title": "담배업계, 나란히 전자담배 신제품 출시…비연소 제품군 강화",
-      "link": "https://www.yna.co.kr/view/AKR20260810021000030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T23:51:02+00:00"
-    },
-    {
-      "title": "까으 아세안 사무총장 \"한국, 아세안서 만드는 공급망 넓혀야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810010800371",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T23:49:55+00:00"
-    },
-    {
-      "title": "청소년 여행사 안데르센, 환불지연·연락두절…피해 주의보",
-      "link": "https://www.yna.co.kr/view/AKR20260810020100030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T23:47:42+00:00"
-    },
-    {
-      "title": "대신증권, 알테오젠 목표가 6%↑…\"키트루다 큐렉스 판매 호조\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810018500008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T23:37:41+00:00"
-    },
-    {
-      "title": "키움증권, 롯데쇼핑 목표가↓…\"실적추정치 전반적 하향조정\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810018700008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T23:36:27+00:00"
-    },
-    {
-      "title": "하나증권 \"YG엔터, 당분간 조정구간…연내 데뷔 남성그룹 흥행 중요\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810019000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T23:33:08+00:00"
-    },
-    {
-      "title": "KB증권 \"가스公, 민수용 가스요금 미수금 회수 지연…목표가↓\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810018600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T23:30:47+00:00"
-    },
-    {
-      "title": "If I marry my girlfriend, 67, will she lose her Supplemental Security Income and divorced spouse benefits?",
-      "link": "https://www.marketwatch.com/story/if-i-marry-my-girlfriend-67-will-she-lose-her-supplemental-security-income-and-divorced-spouse-benefits-9340bab9?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-09T23:30:00+00:00"
-    },
-    {
-      "title": "[증시 포인트] 반등 시도 전망...코스피 밸류에이션 정상화 기대 - opinionnews.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByQ0dOZEt2T0s1NUYxOTgweFdXM21uTVZOUGxpZDk3a0xVQ0cxS3FEVXA3bGpuT0lSZy16RF9LVzdLbUh1VHktMzVTNWUtdVRzMmJrSHh2T3hEOERIdEdobUxmMS10Qm5Ud01UdC1CWFc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-09T23:29:01+00:00"
-    },
-    {
-      "title": "NH증권 \"2분기 영업익 '어닝 쇼크' 수준, 목표가는 유지\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810017600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T23:28:25+00:00"
-    },
-    {
-      "title": "IBK증권, 파마리서치 목표가↑…\"수출 성장 사이클 진입\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810017000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-09T23:28:14+00:00"
-    },
-    {
-      "title": "[속보]美증시 오르자 삼성전자·SK하이닉스, 프리마켓서 2%대 동반 강세 - 문화일보",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE16WmdiSXRyRGljVTBBMjZJNVhlVW1mcWJZa1NKQkRnNjZyUDNWdjlSWWoweElTQzVYYXVsSlVWdUFkazdBSXNOWkpVeDR2b0dW?oc=5",
-      "source": "Google News",
-      "published": "2026-08-09T23:26:53+00:00"
     }
   ],
   "pages": [
