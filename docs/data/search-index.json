@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-11T01:28:41.001292+00:00",
+  "as_of": "2026-08-11T02:07:26.875761+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -359,10 +359,154 @@
   ],
   "news": [
     {
-      "title": "토스, AI신용평가 업체 협업해 대출심사 정확도 높인다",
+      "title": "공공기관 2차 지방이전…예보 노조, “디지털 뱅크런 시대, 골든타임 놓친다” 반발",
+      "link": "https://www.mk.co.kr/news/economy/12123873",
+      "source": "매일경제·증권",
+      "published": "2026-08-11T02:03:48+00:00"
+    },
+    {
+      "title": "국힘 \"세제개편안, 징벌적 세금폭력…사과하고 원점 재검토하라\"",
+      "link": "https://www.yna.co.kr/view/AKR20260811066100001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T02:03:08+00:00"
+    },
+    {
+      "title": "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
+      "link": "https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-11T02:03:00+00:00"
+    },
+    {
+      "title": "외국인노동자 인천공항 입국 지원 업무협약…마약류 범죄 대응",
+      "link": "https://www.yna.co.kr/view/AKR20260810121000530",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T02:00:07+00:00"
+    },
+    {
+      "title": "증시 변동성·세제개편안에 8월 아파트 입주 전망 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260811020200003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T02:00:06+00:00"
+    },
+    {
+      "title": "산업부, 타지키스탄과 핵심광물 협력 확대방안 등 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260811030100003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T02:00:05+00:00"
+    },
+    {
+      "title": "[르포] 냉난방·온수 한방에…에너지 효율 높인 삼성전자 히트펌프",
+      "link": "https://www.yna.co.kr/view/AKR20260811029700003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T02:00:03+00:00"
+    },
+    {
+      "title": "페이코앱에 로또 등록하면 자동수령…기업 경품용 연금복권 도입",
+      "link": "https://www.yna.co.kr/view/AKR20260811050300002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T02:00:01+00:00"
+    },
+    {
+      "title": "국내 커피 시장 3조7천억원…볶은커피 늘고 커피믹스 줄었다",
+      "link": "https://www.yna.co.kr/view/AKR20260811060600030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T02:00:00+00:00"
+    },
+    {
+      "title": "'외벽 테라스 붕괴' 송도 신축아파트, 하자 접수건수만 5만7천건",
+      "link": "https://www.yna.co.kr/view/AKR20260811070900065",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T01:59:50+00:00"
+    },
+    {
+      "title": "신한은행, 용산역에 나라사랑카드 팝업스토어",
+      "link": "https://www.yna.co.kr/view/AKR20260811071400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T01:52:38+00:00"
+    },
+    {
+      "title": "[이천소식] '사회연대경제 청년 일경험 시범 사업' 참여자 모집",
+      "link": "https://www.yna.co.kr/view/AKR20260811071000061",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T01:52:09+00:00"
+    },
+    {
+      "title": "Trump claims total control of Hormuz, demands Iran pay reparations as standoff deepens",
+      "link": "https://www.cnbc.com/2026/08/11/us-iran-war-trump-hormuz-control-reparation-talks-.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-11T01:52:04+00:00"
+    },
+    {
+      "title": "‘오너 3세’ 현대해상 자회사, 이지스 출신 영입…각자대표 체제로",
+      "link": "https://www.mk.co.kr/news/economy/12123829",
+      "source": "매일경제·증권",
+      "published": "2026-08-11T01:44:35+00:00"
+    },
+    {
+      "title": "빚투 방조한 가계대출 총량관리…실수요자만 대출절벽 앞서 ‘눈물’ [기자24시]",
+      "link": "https://www.mk.co.kr/news/economy/12123823",
+      "source": "매일경제·증권",
+      "published": "2026-08-11T01:42:18+00:00"
+    },
+    {
+      "title": "산업 스파이 싹 잡아낸다…지식재산처, 기술유출·탈취 완전 차단 나섰다",
+      "link": "https://www.mk.co.kr/news/it/12123822",
+      "source": "매일경제·증권",
+      "published": "2026-08-11T01:41:38+00:00"
+    },
+    {
+      "title": "은평 '대조1구역' 2천451세대 입주 앞서 외관·이동편의 개선",
+      "link": "https://www.yna.co.kr/view/AKR20260811067600004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T01:41:14+00:00"
+    },
+    {
+      "title": "카카오뱅크, 소상공인 이자지원 전국 확대…최대 4%p 금리 혜택",
+      "link": "https://www.yna.co.kr/view/AKR20260811058500002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T01:37:58+00:00"
+    },
+    {
+      "title": "美·日, 엔화 약세 방어 ‘기습 공조’ … 변동성 큰 韓증시 2차 충격파 우려[글로벌경제 인사이트] - 문화일보",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43ei1oTl9Wa05rbUJzYlhsdkVXQTFDdUF6bnJYeDRCay1OVGFFU2loTEdTQ0hSRkZMV2NDb3lEdGx6Vm1neEhwOVBoTUY0cHow?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T01:35:53+00:00"
+    },
+    {
+      "title": "반도체 업계, 특별법 시행 환영…\"후속 지원 신속 추진해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260811064200003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T01:34:05+00:00"
+    },
+    {
+      "title": "NH농협은행, 창립기념일 맞아 '농심천심예적금' 출시",
+      "link": "https://www.yna.co.kr/view/AKR20260811063500002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T01:32:59+00:00"
+    },
+    {
+      "title": "오세훈 \"용산 1천695세대 순증…서울 정비사업이 유일한 공급해법\"",
+      "link": "https://www.yna.co.kr/view/AKR20260811045200004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T01:30:00+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
+      "link": "https://www.yna.co.kr/view/AKR20260811058600011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T01:30:00+00:00"
+    },
+    {
+      "title": "토스, AI신용평가 업체와 협력해 대출심사 정확도 높인다",
       "link": "https://www.mk.co.kr/news/economy/12123813",
       "source": "매일경제·증권",
       "published": "2026-08-11T01:28:07+00:00"
+    },
+    {
+      "title": "자본시장연구원 \"국내 증시 신용융자 잔고, 10년새 5.5배 증가\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZNjdBWGttQ2dYOTA4RXU1RVZpX0pWNHY1YTA0TWxqZjFmU3VRWmNkcHBySXVGaXpGSjEzMm44NTFKMC1fNkh3QlVjVDdleXc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T01:24:01+00:00"
     },
     {
       "title": "[인사] 지식재산처",
@@ -513,150 +657,6 @@
       "link": "https://www.mk.co.kr/news/economy/12123724",
       "source": "매일경제·증권",
       "published": "2026-08-11T00:37:21+00:00"
-    },
-    {
-      "title": "하나금융, 보훈부와 국립묘지 묘역·참배환경 개선 업무협약",
-      "link": "https://www.yna.co.kr/view/AKR20260811046000002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T00:36:23+00:00"
-    },
-    {
-      "title": "[포토] 오늘의 증시는? - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1hUWprZTZpZk51b0dSa1BLbWJrZlFTdFdfLXBlZTlIM2h3cVhRQ21oT0NYcExxSUlqQTc0TjZLQ19ldjlHMTFmdTZ1ZHdsUWJhV1B3cjduczNsaUI3NWw4SQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-11T00:32:50+00:00"
-    },
-    {
-      "title": "부산은행, 청년 직원 교류협력체 '스프링보드' 참여",
-      "link": "https://www.yna.co.kr/view/AKR20260811041900051",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T00:32:26+00:00"
-    },
-    {
-      "title": "“계약 파기하면 보복” … 마이크론의 으름장, 시장에서 통할까.",
-      "link": "https://www.mk.co.kr/news/economy/12123716",
-      "source": "매일경제·증권",
-      "published": "2026-08-11T00:27:52+00:00"
-    },
-    {
-      "title": "토스, 고려저축은행·PFCT와 협력…대출심사 정확도 높인다",
-      "link": "https://www.yna.co.kr/view/AKR20260811034400017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T00:25:58+00:00"
-    },
-    {
-      "title": "\"시니어 돌봄, 정서적 교감까지 관리\"…삼성물산 '에버링' 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260811040300003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T00:22:19+00:00"
-    },
-    {
-      "title": "반도체가 이끈 ‘역대 최고 실적’…8월 초 수출 45.3% 급증",
-      "link": "https://www.mk.co.kr/news/economy/12123711",
-      "source": "매일경제·증권",
-      "published": "2026-08-11T00:22:12+00:00"
-    },
-    {
-      "title": "[특징주] SK하이닉스, 장 초반 1%대 하락 중…삼전도 0.65%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260811040100008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T00:18:24+00:00"
-    },
-    {
-      "title": "美·日, 엔화 약세 방어 ‘기습 공조’ … 변동성 큰 韓증시 2차 충격파 우려[글로벌경제 인사이트] - 문화일보",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43ei1oTl9Wa05rbUJzYlhsdkVXQTFDdUF6bnJYeDRCay1OVGFFU2loTEdTQ0hSRkZMV2NDb3lEdGx6Vm1neEhwOVBoTUY0cHow?oc=5",
-      "source": "Google News",
-      "published": "2026-08-11T00:17:23+00:00"
-    },
-    {
-      "title": "This is the ZIP code with the hottest housing market in the country right now",
-      "link": "https://www.marketwatch.com/story/this-is-the-hottest-zip-code-where-homes-are-selling-fast-2c642716?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-11T00:15:00+00:00"
-    },
-    {
-      "title": "코스피,  1%대 안팎 하락…코스닥도 약세",
-      "link": "https://www.yna.co.kr/view/AKR20260811036600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T00:07:49+00:00"
-    },
-    {
-      "title": "[1보] 8월 1∼10일 수출 213억달러, 45.3% 증가…일평균도 45.3%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260811035100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T00:00:50+00:00"
-    },
-    {
-      "title": "[바이오스냅] 대웅제약, 이지영 강사 협업 '임팩타임 A+ 30포' 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260811029900017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T00:00:04+00:00"
-    },
-    {
-      "title": "코스피 숨 고를때 코스닥은 '불기둥'...오늘 증시는? - YTN",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93eU9xM1pqd1pXMUVIYlVMUXNKbFpXRGJQOVd5RW9xenAycmZnVkZBbmxnT3hkc2hfTTdkcC12Zmo0RVRfMkpFYndMUmNBQ1lGNjlEeVZXWjcxSkJUOFE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-11T00:00:00+00:00"
-    },
-    {
-      "title": "“V자 급반등은 어렵지만 결국 오른다”…코스피 ‘√자 반등’ 전망 왜?",
-      "link": "https://www.mk.co.kr/news/economy/12123683",
-      "source": "매일경제·증권",
-      "published": "2026-08-10T23:59:12+00:00"
-    },
-    {
-      "title": "드리미, 180도 직분사·롤러 로봇청소기 '아쿠아 스팀' 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260811032300003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T23:58:20+00:00"
-    },
-    {
-      "title": "대상웰라이프 뉴케어 스포식스, 中 진출…에너지젤 판매",
-      "link": "https://www.yna.co.kr/view/AKR20260811032100030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T23:55:04+00:00"
-    },
-    {
-      "title": "한투운용, '반도체+전략산업' 5개 산업 투자 ETF 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260811031800008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T23:55:01+00:00"
-    },
-    {
-      "title": "식품업계, 저당 제품군 확대…소스·발효유 잇달아 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260811029600030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T23:48:46+00:00"
-    },
-    {
-      "title": "[0811개장체크] 美 증시, 반도체주 자금 조달 부담 및 차익실현 매물 출회 By 인포스탁데일리 - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00X2ljUkNiM29RXzBTLVBkb0djZEx0R2JHVHFFdDRTSUpPWmZQMDE4bkltTTBTZG5jcDQ0QmxOQ3BTT0RINUhGZUhhMnFBQlBweEZGcEdXUGtzaDl0ZUFjMXpwLWc4SGgwSTdqS1QxSGE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T23:47:00+00:00"
-    },
-    {
-      "title": "[개장] 뉴욕증시, 유가 급등에 하락..인텔 4%↓ By 알파경제 alphabiz - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QN2k1Y2F1RTlCcjdkZnNsSXV4WWtiMjg1cFFXR1pqckJUY1d0bXZEOHFfSHBuWU9kTkJndzJyT3VtcERPZnBPWWJPT3hQTzg4ZzQtMFVfY08tdHZPTFpicVlwVnRtM2VqMUR2VGJkbno?oc=5",
-      "source": "Google News",
-      "published": "2026-08-10T23:47:00+00:00"
-    },
-    {
-      "title": "키움증권, 삼전닉스 목표가 동반↓…\"범용메모리 피크아웃 부담\"",
-      "link": "https://www.yna.co.kr/view/AKR20260811029100008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T23:46:48+00:00"
-    },
-    {
-      "title": "DB증권 \"코스닥 상승세 마찰 가능성…자동차·반도체 반등 주목\"",
-      "link": "https://www.yna.co.kr/view/AKR20260811024300008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T23:43:45+00:00"
-    },
-    {
-      "title": "신한투자 \"산일전기, 대형주와 밸류에이션 격차 확대…목표가↓\"",
-      "link": "https://www.yna.co.kr/view/AKR20260811028700008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-10T23:42:44+00:00"
     }
   ],
   "pages": [
