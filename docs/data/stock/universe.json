@@ -50,23 +50,18 @@
     "market": "KOSDAQ GLOBAL"
   },
   {
-    "code": "058610",
-    "name": "에스피지",
-    "market": "KOSDAQ"
-  },
-  {
     "code": "010170",
     "name": "대한광통신",
     "market": "KOSDAQ"
   },
   {
-    "code": "475150",
-    "name": "SK이터닉스",
-    "market": "KOSPI"
+    "code": "058610",
+    "name": "에스피지",
+    "market": "KOSDAQ"
   },
   {
-    "code": "002990",
-    "name": "금호건설",
+    "code": "001820",
+    "name": "삼화콘덴서",
     "market": "KOSPI"
   },
   {
@@ -75,13 +70,8 @@
     "market": "KOSPI"
   },
   {
-    "code": "240810",
-    "name": "원익IPS",
-    "market": "KOSDAQ GLOBAL"
-  },
-  {
-    "code": "006360",
-    "name": "GS건설",
+    "code": "105560",
+    "name": "KB금융",
     "market": "KOSPI"
   },
   {
@@ -90,23 +80,8 @@
     "market": "KOSPI"
   },
   {
-    "code": "105560",
-    "name": "KB금융",
-    "market": "KOSPI"
-  },
-  {
-    "code": "347850",
-    "name": "디앤디파마텍",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "066570",
-    "name": "LG전자",
-    "market": "KOSPI"
-  },
-  {
-    "code": "035420",
-    "name": "NAVER",
+    "code": "475150",
+    "name": "SK이터닉스",
     "market": "KOSPI"
   },
   {
@@ -115,24 +90,39 @@
     "market": "KOSPI"
   },
   {
+    "code": "240810",
+    "name": "원익IPS",
+    "market": "KOSDAQ GLOBAL"
+  },
+  {
+    "code": "066570",
+    "name": "LG전자",
+    "market": "KOSPI"
+  },
+  {
+    "code": "002990",
+    "name": "금호건설",
+    "market": "KOSPI"
+  },
+  {
+    "code": "035420",
+    "name": "NAVER",
+    "market": "KOSPI"
+  },
+  {
+    "code": "006360",
+    "name": "GS건설",
+    "market": "KOSPI"
+  },
+  {
     "code": "005380",
     "name": "현대차",
     "market": "KOSPI"
   },
   {
-    "code": "086520",
-    "name": "에코프로",
-    "market": "KOSDAQ GLOBAL"
-  },
-  {
-    "code": "034020",
-    "name": "두산에너빌리티",
+    "code": "329180",
+    "name": "HD현대중공업",
     "market": "KOSPI"
-  },
-  {
-    "code": "214450",
-    "name": "파마리서치",
-    "market": "KOSDAQ GLOBAL"
   },
   {
     "code": "222800",
@@ -140,13 +130,23 @@
     "market": "KOSDAQ GLOBAL"
   },
   {
-    "code": "035720",
-    "name": "카카오",
+    "code": "347850",
+    "name": "디앤디파마텍",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "028260",
+    "name": "삼성물산",
     "market": "KOSPI"
   },
   {
     "code": "042660",
     "name": "한화오션",
+    "market": "KOSPI"
+  },
+  {
+    "code": "207940",
+    "name": "삼성바이오로직스",
     "market": "KOSPI"
   },
   {
@@ -315,8 +315,8 @@
     "market": "KRX"
   },
   {
-    "code": "207940",
-    "name": "삼성바이오로직스",
+    "code": "035720",
+    "name": "카카오",
     "market": "KRX"
   },
   {
