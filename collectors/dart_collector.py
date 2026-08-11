@@ -16,19 +16,36 @@ log = get_logger("collectors.dart")
 _CORP_CODE_URL = "https://opendart.fss.or.kr/api/corpCode.xml"
 _FINANCIALS_URL = "https://opendart.fss.or.kr/api/fnlttSinglAcntAll.json"
 
-# DART 표준 계정과목명 — 회사별 상세 계정명이 다를 수 있어 후보를 나열하고, 어느 것과도
-# 일치하지 않으면 해당 연도만 결측으로 둔다(가짜 값 금지).
-# ⚠ eps 후보군은 DART_API_KEY 부재로 라이브 검증하지 못했다 — 주당이익 표기가 회사마다
-# 갈려(기본/희석·손실 병기) 후보를 넓게 잡았고, 키 발급 후 실측 재확인이 필요하다.
-_ACCOUNT_MAP: dict[str, tuple[str, ...]] = {
-    "revenue": ("매출액",),
-    "operating_income": ("영업이익",),
-    "net_income": ("당기순이익",),
+# IFRS 표준계정코드(account_id)로 매칭한다 — 계정과목명(account_nm)은 회사마다 표기가 갈리지만
+# 표준코드는 고정이다. 실측 확인(2026-08-11, SK하이닉스 000660 2025년 CFS, 230행):
+#   "영업이익"·"당기순이익"·"영업활동현금흐름"은 이름으로 찾으면 전부 빗나간다 — 실제 표기는
+#   "영업이익(손실)"·"당기순이익(손실)"·"영업활동 현금흐름"(공백 포함)이다. EPS도 마찬가지로
+#   "기본주당순이익(손실)"이라 이름 후보를 아무리 넓혀도 새는 구멍이 남는다.
+# CAPEX는 현금유출을 양수로 기록한다(유형자산의 취득 27.5조) — EDGAR와 같은 부호라 FCF = OCF − CAPEX 그대로.
+_ACCOUNT_IDS: dict[str, tuple[str, ...]] = {
+    "revenue": ("ifrs-full_Revenue",),
+    "operating_income": ("dart_OperatingIncomeLoss",),
+    "net_income": ("ifrs-full_ProfitLoss",),
+    "assets": ("ifrs-full_Assets",),
+    "liabilities": ("ifrs-full_Liabilities",),
+    "equity": ("ifrs-full_Equity",),
+    "operating_cf": ("ifrs-full_CashFlowsFromUsedInOperatingActivities",),
+    "capex": ("ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",),
+    "eps": ("ifrs-full_BasicEarningsLossPerShare",),
+}
+
+# 표준코드를 쓰지 않는 행이 소수 존재한다(위 실측에서 230행 중 4행이 "-표준계정코드 미사용-").
+# 그 경우에만 계정명으로 한 번 더 찾는다 — 이름 매칭은 폴백이지 주 경로가 아니다.
+_ACCOUNT_NAMES: dict[str, tuple[str, ...]] = {
+    "revenue": ("매출액", "수익(매출액)", "영업수익"),
+    "operating_income": ("영업이익(손실)", "영업이익"),
+    "net_income": ("당기순이익(손실)", "당기순이익"),
     "assets": ("자산총계",),
     "liabilities": ("부채총계",),
     "equity": ("자본총계",),
-    "operating_cf": ("영업활동현금흐름",),
-    "eps": ("기본주당이익", "기본주당이익(손실)", "기본주당순이익", "주당순이익", "주당이익"),
+    "operating_cf": ("영업활동 현금흐름", "영업활동현금흐름"),
+    "capex": ("유형자산의 취득",),
+    "eps": ("기본주당순이익(손실)", "기본주당이익(손실)", "기본주당순이익", "주당순이익"),
 }
 
 _memo_corp_codes: dict[str, str] | None = None
@@ -70,13 +87,28 @@ def collect_corp_codes() -> dict[str, str] | None:
     return _memo_corp_codes
 
 
+def _match_line(row: dict) -> str | None:
+    """표준계정코드로 먼저 찾고, 그 코드가 없는 행만 계정명으로 폴백한다."""
+    account_id = (row.get("account_id") or "").strip()
+    if account_id and not account_id.startswith("-"):
+        for line, ids in _ACCOUNT_IDS.items():
+            if account_id in ids:
+                return line
+        return None
+    account_nm = (row.get("account_nm") or "").strip()
+    for line, names in _ACCOUNT_NAMES.items():
+        if account_nm in names:
+            return line
+    return None
+
+
 def collect_financials(corp_code: str, year: int) -> dict[str, list[dict]] | None:
     """{line: [{'year','value'}, ...]} 최근 5년(연결 기준) — 비활성화 시 None."""
     if not enabled():
         return None
     import requests
 
-    lines: dict[str, list[dict]] = {k: [] for k in _ACCOUNT_MAP}
+    lines: dict[str, list[dict]] = {k: [] for k in _ACCOUNT_IDS}
     for y in range(year - 4, year + 1):
         try:
             r = requests.get(_FINANCIALS_URL, params={
@@ -88,16 +120,16 @@ def collect_financials(corp_code: str, year: int) -> dict[str, list[dict]] | Non
             if body.get("status") != "000":
                 continue
             for row in body.get("list", []):
-                account = row.get("account_nm", "")
                 amount = row.get("thstrm_amount", "")
                 if not amount:
                     continue
-                for line, labels in _ACCOUNT_MAP.items():
-                    if account in labels and not any(r["year"] == str(y) for r in lines[line]):
-                        try:
-                            lines[line].append({"year": str(y), "value": float(amount.replace(",", ""))})
-                        except ValueError:
-                            pass
+                line = _match_line(row)
+                if line is None or any(r["year"] == str(y) for r in lines[line]):
+                    continue  # 같은 계정이 여러 재무제표에 중복 노출된다 — 연도당 첫 값만 취한다
+                try:
+                    lines[line].append({"year": str(y), "value": float(amount.replace(",", ""))})
+                except ValueError:
+                    pass
         except Exception as exc:  # noqa: BLE001 - 연도 단위 부분 실패 허용
             log.warning("DART 재무제표 수집 실패(연도=%s): %s", y, exc)
     return lines

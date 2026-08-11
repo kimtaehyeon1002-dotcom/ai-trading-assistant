@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from calculators import fs_indicators as fs
+from collectors import dart_collector
 from repositories import fs_repository
 from tests.conftest import validator_for
 from validators import fs_validator
@@ -152,6 +153,38 @@ def test_valuation_triangle_roe_series_capped_at_5():
         _financials(net_income=_series(years), equity=_series([(y, 100.0) for y, _ in years])), 44.0)
     assert len(t["roe_series"]) == 5
     assert t["roe_series"][-1]["year"] == "2023"
+
+
+# ---------- collectors/dart_collector.py 계정 매칭 ----------
+
+def test_dart_matches_by_standard_account_id_not_name():
+    """계정명이 회사별로 달라도 표준계정코드로 잡힌다.
+
+    실측(2026-08-11, SK하이닉스): 실제 표기는 "영업이익(손실)"·"영업활동 현금흐름"이라
+    이름만으로 찾으면 새어나간다 — 코드 매칭이 주 경로여야 하는 이유.
+    """
+    assert dart_collector._match_line(
+        {"account_id": "dart_OperatingIncomeLoss", "account_nm": "영업이익(손실)"}) == "operating_income"
+    assert dart_collector._match_line(
+        {"account_id": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+         "account_nm": "영업활동 현금흐름"}) == "operating_cf"
+    assert dart_collector._match_line(
+        {"account_id": "ifrs-full_BasicEarningsLossPerShare", "account_nm": "기본주당순이익(손실)"}) == "eps"
+
+
+def test_dart_falls_back_to_name_only_when_code_missing():
+    """표준코드 미사용 행(실측 230행 중 4행)만 이름으로 폴백한다."""
+    assert dart_collector._match_line(
+        {"account_id": "-표준계정코드 미사용-", "account_nm": "자본총계"}) == "equity"
+    assert dart_collector._match_line({"account_id": "", "account_nm": "매출액"}) == "revenue"
+
+
+def test_dart_ignores_unmapped_rows():
+    assert dart_collector._match_line(
+        {"account_id": "ifrs-full_GrossProfit", "account_nm": "매출총이익(손실)"}) is None
+    # 코드가 있으면 이름 폴백으로 넘어가지 않는다 — 다른 계정에 값이 섞이는 것을 막는다
+    assert dart_collector._match_line(
+        {"account_id": "ifrs-full_EquityAttributableToOwnersOfParent", "account_nm": "자본총계"}) is None
 
 
 # ---------- validators/fs_validator.py ----------
