@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-11T16:59:33.820698+00:00",
+  "as_of": "2026-08-11T17:48:58.043287+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -349,10 +349,40 @@
   ],
   "news": [
     {
+      "title": "‘I’m dreaming of cocktails at Château Marmont’: I found $100 in my Airbnb’s communal washer. What should I do?",
+      "link": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-11T17:45:00+00:00"
+    },
+    {
+      "title": "U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met",
+      "link": "https://www.cnbc.com/2026/08/11/oil-prices-today-us-crude-84.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-11T17:43:29+00:00"
+    },
+    {
+      "title": "Unitree’s IPO may be just the beginning of an investor frenzy over humanoid-robot stocks",
+      "link": "https://www.marketwatch.com/story/unitrees-ipo-may-be-just-the-beginning-of-an-investor-frenzy-over-humanoid-robot-stocks-8c2d39b6?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-11T17:17:00+00:00"
+    },
+    {
+      "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
+      "link": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-11T17:16:00+00:00"
+    },
+    {
       "title": "Longtime OpenAI executive Brad Lightcap leaves as shakeup at AI lab continues",
       "link": "https://www.cnbc.com/2026/08/11/longtime-openai-executive-brad-lightcap-leaves-as-shakeup-at-ai-lab-continues.html",
       "source": "CNBC Finance",
-      "published": "2026-08-11T16:55:53+00:00"
+      "published": "2026-08-11T17:04:28+00:00"
+    },
+    {
+      "title": "유럽증시, 기업 실적 기대와 중동 위기 저울질하며 보합… 지수는 최고치 수준 유지 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXRzVqYWx5S2wwZ1BSWlhBbmV1aDRaQXV0eVlFdjV2YU9ObFVfN0xGQTJkT1VYSWR1WjhhbEZYNXY4dk1yV0x6b2dhaXJOZHBUSXlucjlLenBZWDY1?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T17:04:00+00:00"
     },
     {
       "title": "Invitation Homes CEO says ban on institutional homebuying will bring down prices, but not immediately",
@@ -379,12 +409,6 @@
       "published": "2026-08-11T16:21:35+00:00"
     },
     {
-      "title": "U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met",
-      "link": "https://www.cnbc.com/2026/08/11/oil-prices-today-us-crude-84.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-11T16:18:34+00:00"
-    },
-    {
       "title": "Manus to return as independent company after China forced Meta to unwind $2 billion deal",
       "link": "https://www.cnbc.com/2026/08/11/manus-china-meta-acquisition.html",
       "source": "CNBC Finance",
@@ -395,12 +419,6 @@
       "link": "https://www.marketwatch.com/story/heres-when-elon-musks-starlink-internet-is-worth-the-steep-monthly-price-and-350-startup-cost-53735d59?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-11T16:11:00+00:00"
-    },
-    {
-      "title": "Democrats clash again in Minnesota and Wisconsin primaries as big midterm races take shape",
-      "link": "https://www.cnbc.com/2026/08/11/minnesota-wisconsin-primaries-hong-flanagan-craig-run-in-key-races.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-11T15:54:37+00:00"
     },
     {
       "title": "미 7월 주택거래 감소…대출금리 상승 영향",
@@ -487,28 +505,22 @@
       "published": "2026-08-11T14:53:00+00:00"
     },
     {
-      "title": "Is inflation really slowing? Fed rate hike hinges on July price report.",
-      "link": "https://www.marketwatch.com/story/is-inflation-really-slowing-fed-rate-hike-hinges-on-july-price-report-9d3c3a73?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-11T14:49:00+00:00"
-    },
-    {
       "title": "Intel upsizes stock offering to $20 billion at $95 per share as AI demand accelerates",
       "link": "https://www.cnbc.com/2026/08/10/intel-intc-stock-offering-ai.html",
       "source": "CNBC Finance",
       "published": "2026-08-11T14:45:44+00:00"
     },
     {
-      "title": "Wall Street thinks inflation is under control. Here’s why investors shouldn’t buy it.",
-      "link": "https://www.marketwatch.com/story/fed-chair-kevin-warsh-promises-2-inflation-but-skyrocketing-u-s-debt-makes-that-a-pipe-dream-ba448651?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-11T14:21:00+00:00"
-    },
-    {
       "title": "Eli Lilly takes weight-loss pill battle global with first Foundayo approval in Europe",
       "link": "https://www.cnbc.com/2026/08/11/foundayo-eli-lilly-wegovy-pill-uk.html",
       "source": "CNBC Finance",
       "published": "2026-08-11T14:19:53+00:00"
+    },
+    {
+      "title": "뉴욕증시, 美-이란 합의 기대에 혼조 출발 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdUxjWUlhQU5WSi1maUVBVkRnaFl6U0wzeWt1RkRJRnZDVk5VakFkcEJMTU11dzk4VjYyZzMxY1ZQUUl3a0tPb0xRQzlpajJxVEwzdUZQQzJkVzFMM0RvZGluOEFHcWtiZTRDRzVZenphZXFaZnlqeGNCMV9hNDVhSWtwR0g4VVptek53WnBsZlIwSFlHdGpxN0F1RlNkUdIBsgFBVV95cUxPekJpb19oV2VJMEVRbGp3RjNJOHUyWkpUSGNiWUthWjR2d0Jzdi0zZ0lENGxqTWlOY2R4Ym9JejlydDRWd1FkaDc2ZzM1NWN1ejlldHFVMjdDdE85c09TaG5GaDR3eTJjN2YxdTVuZXlRdFM0SjVnZFcwRkVzbjVnVWJzcnRQMS1maUZ1NW5Wem1teENkMGc3cmw0dl82Q1FVNkI3Q3FuTGZuZ1N3LTJrdjZR?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T14:16:00+00:00"
     },
     {
       "title": "Polymarket makes moves to get house in order before expected boom times for prediction markets this fall",
@@ -529,10 +541,10 @@
       "published": "2026-08-11T14:10:10+00:00"
     },
     {
-      "title": "‘I unexpectedly came into some money’: Is putting $20,000 into CDs a smart move?",
-      "link": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-11T14:00:00+00:00"
+      "title": "뉴욕증시, 미-이란 합의 기대 재점화 속 혼조 출발 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92aWNuRllPNDJBeWphX1c0ZE52dk1oREQ5cXNUOXNLRUpTcGtxdEtDNWw0ejBaQ2g1TkJwUld1OWtJMjIyd2o5akRZLXc2cFpuTVVST3pjUlNQMFpzWnc1N9IBYEFVX3lxTE92aWNuRllPNDJBeWphX1c0ZE52dk1oREQ5cXNUOXNLRUpTcGtxdEtDNWw0ejBaQ2g1TkJwUld1OWtJMjIyd2o5akRZLXc2cFpuTVVST3pjUlNQMFpzWnc1Nw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T13:52:07+00:00"
     },
     {
       "title": "한국 정부가 차별?...주병기 “쿠팡이든 네이버든 다 똑같이 법 집행”",
@@ -635,18 +647,6 @@
       "link": "https://www.cnbc.com/2026/08/11/us-judge-ends-graft-case-against-indian-billionaire-gautam-adani.html",
       "source": "CNBC Finance",
       "published": "2026-08-11T09:57:10+00:00"
-    },
-    {
-      "title": "정부, 비축유 스와프 곧 재가동·나프타 수급안정화 조치 연장",
-      "link": "https://www.yna.co.kr/view/AKR20260811157100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T09:38:35+00:00"
-    },
-    {
-      "title": "JW중외제약 \"통풍 신약 3상 성공…내년 국내 허가 목표\"",
-      "link": "https://www.yna.co.kr/view/AKR20260811156400017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T09:34:09+00:00"
     }
   ],
   "pages": [
