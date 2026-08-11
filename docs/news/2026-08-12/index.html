@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark" data-updown="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-08-12 뉴스 아카이브 · AI Trading Assistant</title>
+  <link rel="stylesheet" href="../../static/css/tokens.css?v=7977ab3e">
+  <link rel="stylesheet" href="../../static/css/base_v2.css?v=7977ab3e">
+  <link rel="stylesheet" href="../../static/css/components.css?v=7977ab3e">
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
+</head>
+<body class="v2" data-root="../..">
+  <nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav">
+    <a class="v2-nav__item" href="../../index.html"
+>Dashboard</a>
+    <a class="v2-nav__item" href="../../macro/index.html"
+>Macroeconomics</a>
+    <a class="v2-nav__item" href="../../news/index.html"
+aria-current="page">News</a>
+    <a class="v2-nav__item" href="../../stock/index.html"
+>Stock</a>
+    <a class="v2-nav__item" href="../../financials/index.html"
+>Financial Statements</a>
+    <a class="v2-nav__item" href="../../ta/index.html"
+>Technical Analysis</a>
+    <div class="v2-nav__divider"></div>
+    <a class="v2-nav__item v2-nav__item--locked" href="../../asset/index.html"
+>
+      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+    <a class="v2-nav__item v2-nav__item--locked" href="../../portfolio/index.html"
+>
+      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
+  </div>
+  <div class="v2-sidebar__footer">
+    <a class="v2-nav__item" href="../../settings/index.html"
+>Settings</a>
+    <div class="v2-sidebar__version">AI Trading Assistant</div>
+  </div>
+</nav>
+
+  <header class="v2-header">
+  <div class="v2-header__context">
+    News
+  </div>
+  <div class="v2-header__search" role="search">
+    <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
+           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+    <kbd class="v2-header__search-kbd">Ctrl K</kbd>
+    <div class="v2-search-results" data-search-results hidden></div>
+  </div>
+  <div class="v2-header__clock"></div>
+  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+</header>
+
+  <main class="v2-main">
+    <div class="v2-content">
+
+<div class="v2-span-12">
+  <div class="v2-tabbar" data-tabbar="news">
+    <button class="v2-tabbar__btn" data-tab-btn="us_market" data-tabbar-of="news" aria-current="page">
+      미국시장<span class="v2-tabbar__count">0</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="kr_market" data-tabbar-of="news">
+      한국시장<span class="v2-tabbar__count">0</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="macro" data-tabbar-of="news">
+      거시경제<span class="v2-tabbar__count">0</span>
+    </button>
+    <button class="v2-tabbar__btn" data-tab-btn="breaking" data-tabbar-of="news">
+      속보<span class="v2-tabbar__count">15</span>
+    </button>
+    <span class="v2-caption v2-tabbar__meta">
+2026-08-12 아카이브    </span>
+  </div>
+</div>
+
+<div class="v2-card v2-card--standard v2-span-8 v2-card--news-list" id="news-list">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">미국시장 · 게재 0건</h3>
+    <button class="v2-filter-chip" data-kw-clear hidden>필터: <span data-kw-label></span> ×</button>
+    <span class="v2-card__meta">2026-08-12 00:57 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div data-tab-panel="news" data-tab="us_market">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="kr_market" style="display:none">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="macro" style="display:none">
+  <div class="v2-card__body">
+    <p class="v2-body">최근 게재 기준을 통과한 뉴스가 없습니다.</p>
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="breaking" style="display:none">
+  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/11/oil-prices-today-us-crude-84.html" target="_blank" rel="noopener noreferrer">호르무즈 협상이 줄어들고 교착상태가 심화되기를 바라면서 미국 원유는 84달러를 넘어섰습니다.</a>
+    <div class="v2-news-list-row__summary">지난주 미국-이란 협상에 대한 기대감이 사라지면서 미국 원유 가격은 다시 84달러를 넘어섰습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-12 00:55</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/11/minnesota-wisconsin-primaries-hong-flanagan-craig-run-in-key-races.html" target="_blank" rel="noopener noreferrer">대규모 중간선거 경선이 본격화되면서 미네소타와 위스콘신 예비선거에서 민주당이 다시 충돌했다.</a>
+    <div class="v2-news-list-row__summary">미네소타에서는 진보적인 페기 플래너건(Peggy Flanagan) 중도 주지사와 온건파 민주당 의원인 앤지 크레이그(Angie Craig)가 은퇴하는 티나 스미스(Tina Smith) 상원의원의 후임 후보 지명을 놓고 경쟁하고 있다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-12 00:54</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="금리|부동산">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260812000300072" target="_blank" rel="noopener noreferrer">미 7월 주택거래 감소…대출금리 상승 영향</a>
+    <div class="v2-news-list-row__summary">(뉴욕=연합뉴스) 이지헌 특파원 = 미국의 주택담보대출 금리가 상승 흐름을 보이면서 지난달 미국 내 주택 거래가 감소한 것으로 나타났다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">08-12 00:46</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/11/why-jpmorgan-is-investing-big-in-the-2028-la-olympics.html" target="_blank" rel="noopener noreferrer">JPMorgan이 2028년 LA 올림픽에 대규모 투자를 하는 이유</a>
+    <div class="v2-news-list-row__summary">JPMorgan은 올림픽 최초의 글로벌 뱅킹 파트너로서 9자리 숫자 베팅을 하고 있습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-12 00:45</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/my-wife-and-i-are-both-retired-do-we-dip-into-our-2-3-million-fund-to-pay-off-our-300-000-mortgage-at-2-9-2d23d1df?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">&#39;아내와 나는 둘 다 은퇴했습니다.&#39;: 30만 달러의 모기지 이자율을 2.9%로 갚기 위해 230만 달러의 펀드를 투자해야 할까요?</a>
+    <div class="v2-news-list-row__summary">“현재 우리는 투자에서 연간 약 10만 달러를 인출하고 있습니다.”</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-12 00:45</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="AI">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/11/target-appoints-chief-ai-officer-chandhu-nair.html" target="_blank" rel="noopener noreferrer">대형 소매업체가 AI에 투자하면서 Target, 첫 번째 AI 최고 책임자 임명</a>
+    <div class="v2-news-list-row__summary">소매업체들이 AI 붐을 활용하기 위해 경쟁하는 가운데 Target은 화요일에 최초의 최고 인공 지능 책임자(CIO)를 발표했습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-12 00:44</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/if-you-can-answer-this-one-question-youll-never-worry-about-money-again-6cf8d0a8?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">이 질문 하나에 답할 수 있다면, 다시는 돈 걱정하지 않아도 됩니다</a>
+    <div class="v2-news-list-row__summary">YNAB 창립자 Jesse Mecham의 새 책에는 급여 간 투쟁을 끝내는 간단한 시스템이 있습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-12 00:44</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="AI">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/a-historically-strong-stretch-for-the-u-s-stock-market-is-about-to-begin-07281312?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">미국 주식시장이 역사적으로 강한 상승세가 곧 시작될 예정이다.</a>
+    <div class="v2-news-list-row__summary">일부 투자자들은 AI 기반 강세장이 4주년을 맞이하면서 조금 더 길어질 수 있다고 우려하고 있습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-12 00:40</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="금리|부동산">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/i-looked-into-buying-a-house-in-singapore-as-an-investment-heres-why-i-didnt-despite-the-2-mortgage-rate-50c79bcf?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">투자 목적으로 싱가포르에서 주택 구입을 고려했습니다. 2% 모기지 금리에도 불구하고 제가 그렇게 하지 않은 이유는 다음과 같습니다.</a>
+    <div class="v2-news-list-row__summary">싱가포르의 주택대출 금리는 2% 미만인 반면, 일본은 약 1% 또는 그보다 낮습니다. 이는 평균 6%가 넘는 미국과 호주의 모기지 금리와 극명한 대조를 이룬다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-12 00:32</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="고용|국채|실적">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/11/trump-accounts-employer-match-paycheck-contributions-treasury.html" target="_blank" rel="noopener noreferrer">재무부는 부모가 고용주와 일치하는 트럼프 계좌에 세전 급여를 입금할 수 있다고 밝혔습니다.</a>
+    <div class="v2-news-list-row__summary">미국 재무부는 부모가 급여에서 직접 자녀의 Trump 계정에 세전 기부금을 기부할 수 있도록 허용하는 지침을 발표했습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-12 00:29</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="조선">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5Um1wc09wNV9iRS1UNHhBeE12WWh3N1dMZFdFTHptdmJOeEotSFhRSU13T21pUmw0RE5acFhNckF5MWFfUlB1TlZPbGJGVTVKZFVxaFRUT3FDWUpYaVE?oc=5" target="_blank" rel="noopener noreferrer">뉴욕증시, 미·이란 합의 기대 재점화 속 혼조 출발 - YTN</a>
+    <div class="v2-news-list-row__summary">뉴욕증시, 미·이란 합의 기대 재점화 속 혼조 출발  YTN뉴욕증시, 美-이란 합의 기대에 혼조 출발 - 조선비즈  Chosunbiz뉴욕증시, 미·이란 협상 의구심에 약보합 마감…다우 0.1%↓(종합)  연합뉴스</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-12 00:15</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="지정학">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/11/iceye-satellite-fleets-defense-europe.html" target="_blank" rel="noopener noreferrer">우크라이나 전쟁으로 국가 간 정찰 위성 구축 경쟁이 촉발됐다고 우주 기술 CEO가 밝혔습니다.</a>
+    <div class="v2-news-list-row__summary">현대 전쟁에서 우주 정보가 점점 더 중요해짐에 따라 정부는 위성 기능을 강화하고 있습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-12 00:09</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="연준">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/11/ny-fed-credit-card-debt-hits-1point26-trillion-k-shaped-divide-persists.html" target="_blank" rel="noopener noreferrer">뉴욕 연은 조사 결과, &#39;K자형&#39; 격차가 지속되면서 신용카드 부채가 1조 2,600억 달러로 증가한 것으로 나타났습니다.</a>
+    <div class="v2-news-list-row__summary">뉴욕 연방준비은행이 발표한 가계부채에 관한 새로운 보고서에 따르면 신용카드 잔액은 올해 중반에 계속해서 높아지고 있습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-12 00:08</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="AI">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/11/were-exiting-our-position-in-industrial-stock-to-make-room-for-a-new-ai-play.html" target="_blank" rel="noopener noreferrer">우리는 새로운 AI 플레이를 위한 공간을 마련하기 위해 산업 주식에서 포지션을 종료하고 있습니다.</a>
+    <div class="v2-news-list-row__summary">지난 달 회사의 실망스러운 분기로 인해 주식이 도마 위에 올랐습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-12 00:05</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">&#39;나는 냉정해지고 싶지 않다&#39;: 나이 많은 친척이 더 이상 자기 자신을 돌볼 수 없습니다. 그의 보살핌을 국가에 맡기는 것이 잘못입니까?</a>
+    <div class="v2-news-list-row__summary">“그는 결코 특별히 관대하거나 보살펴준 적이 없습니다.”</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-12 00:00</span>
+  </span>
+</div>
+  </div>
+</div>
+
+    <p class="v2-body" data-kw-empty hidden>이 키워드에 해당하는 기사가 이 탭에 없습니다.</p>
+  </div>
+
+</div>
+
+<div class="v2-span-4 v2-rail">
+
+<div class="v2-card v2-card--standard  " id="news-briefing">
+    <div class="v2-card__header">
+    <span class="v2-overline">모닝 브리핑</span>
+    <span class="v2-card__meta">2026-08-12 00:57 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-hero-news-row">
+      <span class="n">1</span>
+      <a class="t" href="https://www.yna.co.kr/view/AKR20260812000300072" target="_blank" rel="noopener noreferrer">미 7월 주택거래 감소…대출금리 상승 영향</a>
+    </div>
+    <div class="v2-hero-news-row">
+      <span class="n">2</span>
+      <a class="t" href="https://www.cnbc.com/2026/08/11/target-appoints-chief-ai-officer-chandhu-nair.html" target="_blank" rel="noopener noreferrer">대형 소매업체가 AI에 투자하면서 Target, 첫 번째 AI 최고 책임자 임명</a>
+    </div>
+    <div class="v2-hero-news-row">
+      <span class="n">3</span>
+      <a class="t" href="https://www.marketwatch.com/story/a-historically-strong-stretch-for-the-u-s-stock-market-is-about-to-begin-07281312?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">미국 주식시장이 역사적으로 강한 상승세가 곧 시작될 예정이다.</a>
+    </div>
+  </div>
+  <div class="v2-card__footer">필수 0 · 주목 5 · 참고 10</div>
+
+</div>
+
+<div class="v2-card v2-card--standard  " id="news-radar">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">많이 언급된 키워드</h3>
+    <span class="v2-card__meta">2026-08-12</span>
+  </div>
+  <div class="v2-card__body">
+    <button class="v2-radar-row" data-kw-pick="AI">
+      <span class="v2-radar-row__label">AI</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 100%"></span></span>
+      <span class="v2-radar-row__count">3</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="금리">
+      <span class="v2-radar-row__label">금리</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 67%"></span></span>
+      <span class="v2-radar-row__count">2</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="부동산">
+      <span class="v2-radar-row__label">부동산</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 67%"></span></span>
+      <span class="v2-radar-row__count">2</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="연준">
+      <span class="v2-radar-row__label">연준</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 33%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="고용">
+      <span class="v2-radar-row__label">고용</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 33%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="국채">
+      <span class="v2-radar-row__label">국채</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 33%"></span></span>
+      <span class="v2-radar-row__count">1</span>
+    </button>
+  </div>
+
+</div>
+
+</div>
+    </div>
+  </main>
+  <div class="v2-panel-slot" id="panel-slot"></div>
+  <script src="../../static/js/store.js?v=7977ab3e" defer></script>
+  <script src="../../static/js/stockhub.js?v=7977ab3e" defer></script>
+  <script src="../../static/js/search.js?v=7977ab3e" defer></script>
+  <script src="../../static/js/chart.js?v=7977ab3e" defer></script>
+<script src="../../static/js/tabs.js?v=7977ab3e" defer></script>
+<script src="../../static/js/news-radar.js?v=7977ab3e" defer></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.TATabs) window.TATabs.init("news", "us_market");
+    // 탭 초기화 뒤에 걸어야 활성 패널 기준 빈 상태 판정이 맞는다(순서 의존)
+    if (window.TANewsRadar) window.TANewsRadar.init();
+  });
+</script>
+</body>
+</html>
