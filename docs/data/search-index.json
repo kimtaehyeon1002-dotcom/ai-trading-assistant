@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-11T04:48:44.184708+00:00",
+  "as_of": "2026-08-11T05:06:18.325772+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -22,18 +22,18 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "009830",
-      "name": "한화솔루션",
-      "market": "KOSPI"
-    },
-    {
       "code": "402340",
       "name": "SK스퀘어",
       "market": "KOSPI"
     },
     {
-      "code": "006340",
-      "name": "대원전선",
+      "code": "005935",
+      "name": "삼성전자우",
+      "market": "KOSPI"
+    },
+    {
+      "code": "009830",
+      "name": "한화솔루션",
       "market": "KOSPI"
     },
     {
@@ -42,9 +42,14 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "005935",
-      "name": "삼성전자우",
+      "code": "006340",
+      "name": "대원전선",
       "market": "KOSPI"
+    },
+    {
+      "code": "196170",
+      "name": "알테오젠",
+      "market": "KOSDAQ GLOBAL"
     },
     {
       "code": "058610",
@@ -57,9 +62,9 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "196170",
-      "name": "알테오젠",
-      "market": "KOSDAQ GLOBAL"
+      "code": "475150",
+      "name": "SK이터닉스",
+      "market": "KOSPI"
     },
     {
       "code": "002990",
@@ -67,8 +72,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "475150",
-      "name": "SK이터닉스",
+      "code": "068270",
+      "name": "셀트리온",
       "market": "KOSPI"
     },
     {
@@ -77,34 +82,9 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "068270",
-      "name": "셀트리온",
-      "market": "KOSPI"
-    },
-    {
       "code": "006360",
       "name": "GS건설",
       "market": "KOSPI"
-    },
-    {
-      "code": "035420",
-      "name": "NAVER",
-      "market": "KOSPI"
-    },
-    {
-      "code": "066570",
-      "name": "LG전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "KOSPI"
-    },
-    {
-      "code": "347850",
-      "name": "디앤디파마텍",
-      "market": "KOSDAQ"
     },
     {
       "code": "012450",
@@ -117,13 +97,38 @@
       "market": "KOSPI"
     },
     {
+      "code": "347850",
+      "name": "디앤디파마텍",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "066570",
+      "name": "LG전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "035420",
+      "name": "NAVER",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KOSPI"
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "market": "KOSPI"
+    },
+    {
       "code": "086520",
       "name": "에코프로",
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "005380",
-      "name": "현대차",
+      "code": "034020",
+      "name": "두산에너빌리티",
       "market": "KOSPI"
     },
     {
@@ -132,9 +137,9 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "003010",
-      "name": "혜인",
-      "market": "KOSPI"
+      "code": "222800",
+      "name": "심텍",
+      "market": "KOSDAQ GLOBAL"
     },
     {
       "code": "035720",
@@ -142,14 +147,9 @@
       "market": "KOSPI"
     },
     {
-      "code": "034020",
-      "name": "두산에너빌리티",
+      "code": "042660",
+      "name": "한화오션",
       "market": "KOSPI"
-    },
-    {
-      "code": "222800",
-      "name": "심텍",
-      "market": "KOSDAQ GLOBAL"
     },
     {
       "code": "NVDA",
@@ -177,11 +177,6 @@
       "market": "US"
     },
     {
-      "code": "INTC",
-      "name": "Intel",
-      "market": "US"
-    },
-    {
       "code": "PLTR",
       "name": "Palantir Technologies",
       "market": "US"
@@ -189,6 +184,11 @@
     {
       "code": "AMZN",
       "name": "Amazon",
+      "market": "US"
+    },
+    {
+      "code": "INTC",
+      "name": "Intel",
       "market": "US"
     },
     {
@@ -242,13 +242,18 @@
       "market": "US"
     },
     {
+      "code": "ORCL",
+      "name": "Oracle Corporation",
+      "market": "US"
+    },
+    {
       "code": "STX",
       "name": "Seagate Technology",
       "market": "US"
     },
     {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
+      "code": "BRK-B",
+      "name": "Berkshire Hathaway",
       "market": "US"
     },
     {
@@ -262,13 +267,18 @@
       "market": "US"
     },
     {
+      "code": "XOM",
+      "name": "ExxonMobil",
+      "market": "US"
+    },
+    {
       "code": "V",
       "name": "Visa Inc.",
       "market": "US"
     },
     {
-      "code": "BRK-B",
-      "name": "Berkshire Hathaway",
+      "code": "CVX",
+      "name": "Chevron Corporation",
       "market": "US"
     },
     {
@@ -277,28 +287,18 @@
       "market": "US"
     },
     {
+      "code": "JNJ",
+      "name": "Johnson & Johnson",
+      "market": "US"
+    },
+    {
+      "code": "DELL",
+      "name": "Dell Technologies",
+      "market": "US"
+    },
+    {
       "code": "DDOG",
       "name": "Datadog",
-      "market": "US"
-    },
-    {
-      "code": "LRCX",
-      "name": "Lam Research",
-      "market": "US"
-    },
-    {
-      "code": "PANW",
-      "name": "Palo Alto Networks",
-      "market": "US"
-    },
-    {
-      "code": "APP",
-      "name": "AppLovin",
-      "market": "US"
-    },
-    {
-      "code": "WMT",
-      "name": "Walmart",
       "market": "US"
     },
     {
@@ -349,6 +349,42 @@
   ],
   "news": [
     {
+      "title": "Hormuz Deadlock: Where oil prices could head next as prospects for an imminent deal fade",
+      "link": "https://www.cnbc.com/2026/08/11/hormuz-oil-prices-us-iran.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-11T05:01:40+00:00"
+    },
+    {
+      "title": "메인비즈협회 \"고용 지킨 중소기업에 세제 혜택 더 줘야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260811066500030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T05:00:05+00:00"
+    },
+    {
+      "title": "대구·경북 사업장 96%는 소규모…노동부, 산재 감축 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260811085100530",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T05:00:03+00:00"
+    },
+    {
+      "title": "부산 시민단체, 북항 환승센터 정상화 민관 TF 구성 제안(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260811063151051",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T04:56:06+00:00"
+    },
+    {
+      "title": "포천시, 지방세입 체납관리단 출범",
+      "link": "https://www.yna.co.kr/view/AKR20260811099200060",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T04:55:05+00:00"
+    },
+    {
+      "title": "중소기업 돈줄 맡은 지방은행…충당금은 시중은행보다 얇았다",
+      "link": "https://www.mk.co.kr/news/economy/12123971",
+      "source": "매일경제·증권",
+      "published": "2026-08-11T04:48:35+00:00"
+    },
+    {
       "title": "530억 드는 '인당 30만원 지원' 당진시장 공약, 시의회서 제동",
       "link": "https://www.yna.co.kr/view/AKR20260811085400063",
       "source": "연합뉴스·경제",
@@ -385,7 +421,7 @@
       "published": "2026-08-11T03:33:00+00:00"
     },
     {
-      "title": "오늘의 증시 - MBC 뉴스",
+      "title": "오늘의 증시 - imnews.imbc.com",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vMjV5Zl82WEdIZmM0Y0NqMzNIck15dS1Hbk5DRXVYNUZFM0FUUzlxVndYVEZPb1Z4Q3VMY0VTTXJIQ3d6Y3IyMEJYZ1dNRTFxUXVnQlBXWGJTaEh4WWZDU0JXR2QzdU9PY04wMXpTbC1sQmVRS2tySg?oc=5",
       "source": "Google News",
       "published": "2026-08-11T03:22:13+00:00"
@@ -611,42 +647,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260811071000061",
       "source": "연합뉴스·경제",
       "published": "2026-08-11T01:52:09+00:00"
-    },
-    {
-      "title": "Trump claims total control of Hormuz, demands Iran pay reparations as standoff deepens",
-      "link": "https://www.cnbc.com/2026/08/11/us-iran-war-trump-hormuz-control-reparation-talks-.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-11T01:52:04+00:00"
-    },
-    {
-      "title": "‘오너 3세’ 현대해상 자회사, 이지스 출신 영입…각자대표 체제로",
-      "link": "https://www.mk.co.kr/news/economy/12123829",
-      "source": "매일경제·증권",
-      "published": "2026-08-11T01:44:35+00:00"
-    },
-    {
-      "title": "빚투 방조한 가계대출 총량관리…실수요자만 대출절벽 앞서 ‘눈물’ [기자24시]",
-      "link": "https://www.mk.co.kr/news/economy/12123823",
-      "source": "매일경제·증권",
-      "published": "2026-08-11T01:42:18+00:00"
-    },
-    {
-      "title": "산업 스파이 싹 잡아낸다…지식재산처, 기술유출·탈취 완전 차단 나섰다",
-      "link": "https://www.mk.co.kr/news/it/12123822",
-      "source": "매일경제·증권",
-      "published": "2026-08-11T01:41:38+00:00"
-    },
-    {
-      "title": "은평 '대조1구역' 2천451세대 입주 앞서 외관·이동편의 개선",
-      "link": "https://www.yna.co.kr/view/AKR20260811067600004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T01:41:14+00:00"
-    },
-    {
-      "title": "카카오뱅크, 소상공인 이자지원 전국 확대…최대 4%p 금리 혜택",
-      "link": "https://www.yna.co.kr/view/AKR20260811058500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T01:37:58+00:00"
     }
   ],
   "pages": [
