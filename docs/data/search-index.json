@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-11T05:06:18.325772+00:00",
+  "as_of": "2026-08-11T05:47:05.977246+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -349,6 +349,48 @@
   ],
   "news": [
     {
+      "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
+      "link": "https://www.yna.co.kr/view/AKR20260811102000011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T05:30:00+00:00"
+    },
+    {
+      "title": "임광현 \"국세청 체납관리단, 투입 예산 190억원…630억원 추징\"",
+      "link": "https://www.yna.co.kr/view/AKR20260811105300002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T05:24:52+00:00"
+    },
+    {
+      "title": "신한은행, UN 녹색기후기금 첫 외환파생거래 유치",
+      "link": "https://www.mk.co.kr/news/economy/12123992",
+      "source": "매일경제·증권",
+      "published": "2026-08-11T05:24:07+00:00"
+    },
+    {
+      "title": "8월 첫 열흘 수출 213억 달러 ‘역대 5번째’... 반도체는 역대 3번째",
+      "link": "https://www.mk.co.kr/news/economy/12123990",
+      "source": "매일경제·증권",
+      "published": "2026-08-11T05:22:45+00:00"
+    },
+    {
+      "title": "'삼전·닉스' 쏠림 완화에 중소형주 온기 확산…순환매 본격화",
+      "link": "https://www.yna.co.kr/view/AKR20260811087100008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T05:16:03+00:00"
+    },
+    {
+      "title": "전남광주 경제단체장들 \"반도체 역사적 결단, 李대통령에 감사\"",
+      "link": "https://www.yna.co.kr/view/AKR20260811101700054",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T05:11:14+00:00"
+    },
+    {
+      "title": "농식품부 \"배추·무 등 채소가격 평년보다 낮아…공급안정 전망\"",
+      "link": "https://www.yna.co.kr/view/AKR20260811099900030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-11T05:03:00+00:00"
+    },
+    {
       "title": "Hormuz Deadlock: Where oil prices could head next as prospects for an imminent deal fade",
       "link": "https://www.cnbc.com/2026/08/11/hormuz-oil-prices-us-iran.html",
       "source": "CNBC Finance",
@@ -365,6 +407,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260811085100530",
       "source": "연합뉴스·경제",
       "published": "2026-08-11T05:00:03+00:00"
+    },
+    {
+      "title": "U.S. judge ends graft case against Indian billionaire Gautam Adani",
+      "link": "https://www.cnbc.com/2026/08/11/us-judge-ends-graft-case-against-indian-billionaire-gautam-adani.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-11T04:59:53+00:00"
     },
     {
       "title": "부산 시민단체, 북항 환승센터 정상화 민관 TF 구성 제안(종합)",
@@ -413,18 +461,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260811045251004",
       "source": "연합뉴스·경제",
       "published": "2026-08-11T03:41:39+00:00"
-    },
-    {
-      "title": "아시아 증시 혼조세, 한국 상승·중국 하락…RBA 결정 주목 - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4wb2hTS05DVmkyZWJkV1JDUkF6SE9MbnZzcEZXbEpFcFBMczA2NGFpR2pqQ2o0ZzV2LVVuZGt6M3JPbGstc2xkTnRCR1o2WTdwT2QxU284N2xUeXA1NDRGWnI5NXR6X2trRGJtSlNRM0U?oc=5",
-      "source": "Google News",
-      "published": "2026-08-11T03:33:00+00:00"
-    },
-    {
-      "title": "오늘의 증시 - imnews.imbc.com",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vMjV5Zl82WEdIZmM0Y0NqMzNIck15dS1Hbk5DRXVYNUZFM0FUUzlxVndYVEZPb1Z4Q3VMY0VTTXJIQ3d6Y3IyMEJYZ1dNRTFxUXVnQlBXWGJTaEh4WWZDU0JXR2QzdU9PY04wMXpTbC1sQmVRS2tySg?oc=5",
-      "source": "Google News",
-      "published": "2026-08-11T03:22:13+00:00"
     },
     {
       "title": "시민단체, 메가특구법 철회 촉구…\"노동권 파괴·재벌 특혜\"",
@@ -553,12 +589,6 @@
       "published": "2026-08-11T02:15:00+00:00"
     },
     {
-      "title": "“코스피는 초상집, S＆P는 잔칫집”…JP모건 “美증시 더 간다” [재테크+] - 서울신문",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Qa2hBbzQxbllzaFU2cldRUkVpeTI3aE1HV3JLM1hCbEdNUlI3MzBQQTVuOHBMTDVubVZZRmZfZDBWS1dDQ2lNejhOanhDc2JUVVQyV3l0dVhONkVON1Y3Z1NvVWw4ZTJxSmtobmwyMA?oc=5",
-      "source": "Google News",
-      "published": "2026-08-11T02:10:14+00:00"
-    },
-    {
       "title": "부산 시민단체 \"민관 TF 구성해 북항 환승센터 정상화해야\"",
       "link": "https://www.yna.co.kr/view/AKR20260811063100051",
       "source": "연합뉴스·경제",
@@ -617,36 +647,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260811050300002",
       "source": "연합뉴스·경제",
       "published": "2026-08-11T02:00:01+00:00"
-    },
-    {
-      "title": "국내 커피 시장 3조7천억원…볶은커피 늘고 커피믹스 줄었다",
-      "link": "https://www.yna.co.kr/view/AKR20260811060600030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T02:00:00+00:00"
-    },
-    {
-      "title": "'외벽 테라스 붕괴' 송도 신축아파트, 하자 접수건수만 5만7천건",
-      "link": "https://www.yna.co.kr/view/AKR20260811070900065",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T01:59:50+00:00"
-    },
-    {
-      "title": "7월 대구·경북 증시 '먹구름'···시가 총액 15조 원 '증발' - 대구MBC",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4bTlyU3pqZ1lMVFFERWdyVTIwTnE4NlJKLXhOdndwdzRrWFhJZWZPV3F2UEZTQTdocGNNV2gtTnBLMW1qSVJ5YlJoZlo?oc=5",
-      "source": "Google News",
-      "published": "2026-08-11T01:54:35+00:00"
-    },
-    {
-      "title": "신한은행, 용산역에 나라사랑카드 팝업스토어",
-      "link": "https://www.yna.co.kr/view/AKR20260811071400002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T01:52:38+00:00"
-    },
-    {
-      "title": "[이천소식] '사회연대경제 청년 일경험 시범 사업' 참여자 모집",
-      "link": "https://www.yna.co.kr/view/AKR20260811071000061",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T01:52:09+00:00"
     }
   ],
   "pages": [
