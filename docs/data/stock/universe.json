@@ -55,14 +55,14 @@
     "market": "KOSDAQ"
   },
   {
-    "code": "058610",
-    "name": "에스피지",
-    "market": "KOSDAQ"
-  },
-  {
     "code": "001820",
     "name": "삼화콘덴서",
     "market": "KOSPI"
+  },
+  {
+    "code": "058610",
+    "name": "에스피지",
+    "market": "KOSDAQ"
   },
   {
     "code": "068270",
@@ -150,13 +150,23 @@
     "market": "KOSPI"
   },
   {
+    "code": "MU",
+    "name": "Micron Technology",
+    "market": "US"
+  },
+  {
     "code": "NVDA",
     "name": "Nvidia",
     "market": "US"
   },
   {
-    "code": "MU",
-    "name": "Micron Technology",
+    "code": "INTC",
+    "name": "Intel",
+    "market": "US"
+  },
+  {
+    "code": "SNDK",
+    "name": "Sandisk",
     "market": "US"
   },
   {
@@ -170,23 +180,8 @@
     "market": "US"
   },
   {
-    "code": "SNDK",
-    "name": "Sandisk",
-    "market": "US"
-  },
-  {
-    "code": "PLTR",
-    "name": "Palantir Technologies",
-    "market": "US"
-  },
-  {
-    "code": "AMZN",
-    "name": "Amazon",
-    "market": "US"
-  },
-  {
-    "code": "INTC",
-    "name": "Intel",
+    "code": "GOOGL",
+    "name": "Alphabet Inc. (Class A)",
     "market": "US"
   },
   {
@@ -195,8 +190,8 @@
     "market": "US"
   },
   {
-    "code": "META",
-    "name": "Meta Platforms",
+    "code": "AMZN",
+    "name": "Amazon",
     "market": "US"
   },
   {
@@ -205,8 +200,18 @@
     "market": "US"
   },
   {
-    "code": "GOOGL",
-    "name": "Alphabet Inc. (Class A)",
+    "code": "META",
+    "name": "Meta Platforms",
+    "market": "US"
+  },
+  {
+    "code": "PLTR",
+    "name": "Palantir Technologies",
+    "market": "US"
+  },
+  {
+    "code": "GOOG",
+    "name": "Alphabet Inc. (Class C)",
     "market": "US"
   },
   {
@@ -220,18 +225,8 @@
     "market": "US"
   },
   {
-    "code": "GOOG",
-    "name": "Alphabet Inc. (Class C)",
-    "market": "US"
-  },
-  {
-    "code": "MRVL",
-    "name": "Marvell Technology",
-    "market": "US"
-  },
-  {
-    "code": "LLY",
-    "name": "Lilly (Eli)",
+    "code": "ORCL",
+    "name": "Oracle Corporation",
     "market": "US"
   },
   {
@@ -240,13 +235,18 @@
     "market": "US"
   },
   {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
+    "code": "STX",
+    "name": "Seagate Technology",
     "market": "US"
   },
   {
-    "code": "STX",
-    "name": "Seagate Technology",
+    "code": "MRVL",
+    "name": "Marvell Technology",
+    "market": "US"
+  },
+  {
+    "code": "APP",
+    "name": "AppLovin",
     "market": "US"
   },
   {
@@ -255,38 +255,18 @@
     "market": "US"
   },
   {
-    "code": "COHR",
-    "name": "Coherent Corp.",
-    "market": "US"
-  },
-  {
     "code": "WDC",
     "name": "Western Digital",
     "market": "US"
   },
   {
-    "code": "XOM",
-    "name": "ExxonMobil",
+    "code": "LRCX",
+    "name": "Lam Research",
     "market": "US"
   },
   {
-    "code": "V",
-    "name": "Visa Inc.",
-    "market": "US"
-  },
-  {
-    "code": "CVX",
-    "name": "Chevron Corporation",
-    "market": "US"
-  },
-  {
-    "code": "CSCO",
-    "name": "Cisco",
-    "market": "US"
-  },
-  {
-    "code": "JNJ",
-    "name": "Johnson & Johnson",
+    "code": "PANW",
+    "name": "Palo Alto Networks",
     "market": "US"
   },
   {
@@ -295,8 +275,28 @@
     "market": "US"
   },
   {
-    "code": "DDOG",
-    "name": "Datadog",
+    "code": "NFLX",
+    "name": "Netflix",
+    "market": "US"
+  },
+  {
+    "code": "SMCI",
+    "name": "Supermicro",
+    "market": "US"
+  },
+  {
+    "code": "CSCO",
+    "name": "Cisco",
+    "market": "US"
+  },
+  {
+    "code": "WMT",
+    "name": "Walmart",
+    "market": "US"
+  },
+  {
+    "code": "LLY",
+    "name": "Lilly (Eli)",
     "market": "US"
   },
   {

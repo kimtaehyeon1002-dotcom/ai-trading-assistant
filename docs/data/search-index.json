@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-11T22:11:35.439966+00:00",
+  "as_of": "2026-08-11T22:29:03.706693+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -57,14 +57,14 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "058610",
-      "name": "에스피지",
-      "market": "KOSDAQ"
-    },
-    {
       "code": "001820",
       "name": "삼화콘덴서",
       "market": "KOSPI"
+    },
+    {
+      "code": "058610",
+      "name": "에스피지",
+      "market": "KOSDAQ"
     },
     {
       "code": "068270",
@@ -152,13 +152,23 @@
       "market": "KOSPI"
     },
     {
+      "code": "MU",
+      "name": "Micron Technology",
+      "market": "US"
+    },
+    {
       "code": "NVDA",
       "name": "Nvidia",
       "market": "US"
     },
     {
-      "code": "MU",
-      "name": "Micron Technology",
+      "code": "INTC",
+      "name": "Intel",
+      "market": "US"
+    },
+    {
+      "code": "SNDK",
+      "name": "Sandisk",
       "market": "US"
     },
     {
@@ -172,23 +182,8 @@
       "market": "US"
     },
     {
-      "code": "SNDK",
-      "name": "Sandisk",
-      "market": "US"
-    },
-    {
-      "code": "PLTR",
-      "name": "Palantir Technologies",
-      "market": "US"
-    },
-    {
-      "code": "AMZN",
-      "name": "Amazon",
-      "market": "US"
-    },
-    {
-      "code": "INTC",
-      "name": "Intel",
+      "code": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
       "market": "US"
     },
     {
@@ -197,8 +192,8 @@
       "market": "US"
     },
     {
-      "code": "META",
-      "name": "Meta Platforms",
+      "code": "AMZN",
+      "name": "Amazon",
       "market": "US"
     },
     {
@@ -207,8 +202,18 @@
       "market": "US"
     },
     {
-      "code": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
+      "code": "META",
+      "name": "Meta Platforms",
+      "market": "US"
+    },
+    {
+      "code": "PLTR",
+      "name": "Palantir Technologies",
+      "market": "US"
+    },
+    {
+      "code": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
       "market": "US"
     },
     {
@@ -222,18 +227,8 @@
       "market": "US"
     },
     {
-      "code": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "market": "US"
-    },
-    {
-      "code": "MRVL",
-      "name": "Marvell Technology",
-      "market": "US"
-    },
-    {
-      "code": "LLY",
-      "name": "Lilly (Eli)",
+      "code": "ORCL",
+      "name": "Oracle Corporation",
       "market": "US"
     },
     {
@@ -242,13 +237,18 @@
       "market": "US"
     },
     {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
+      "code": "STX",
+      "name": "Seagate Technology",
       "market": "US"
     },
     {
-      "code": "STX",
-      "name": "Seagate Technology",
+      "code": "MRVL",
+      "name": "Marvell Technology",
+      "market": "US"
+    },
+    {
+      "code": "APP",
+      "name": "AppLovin",
       "market": "US"
     },
     {
@@ -257,38 +257,18 @@
       "market": "US"
     },
     {
-      "code": "COHR",
-      "name": "Coherent Corp.",
-      "market": "US"
-    },
-    {
       "code": "WDC",
       "name": "Western Digital",
       "market": "US"
     },
     {
-      "code": "XOM",
-      "name": "ExxonMobil",
+      "code": "LRCX",
+      "name": "Lam Research",
       "market": "US"
     },
     {
-      "code": "V",
-      "name": "Visa Inc.",
-      "market": "US"
-    },
-    {
-      "code": "CVX",
-      "name": "Chevron Corporation",
-      "market": "US"
-    },
-    {
-      "code": "CSCO",
-      "name": "Cisco",
-      "market": "US"
-    },
-    {
-      "code": "JNJ",
-      "name": "Johnson & Johnson",
+      "code": "PANW",
+      "name": "Palo Alto Networks",
       "market": "US"
     },
     {
@@ -297,8 +277,28 @@
       "market": "US"
     },
     {
-      "code": "DDOG",
-      "name": "Datadog",
+      "code": "NFLX",
+      "name": "Netflix",
+      "market": "US"
+    },
+    {
+      "code": "SMCI",
+      "name": "Supermicro",
+      "market": "US"
+    },
+    {
+      "code": "CSCO",
+      "name": "Cisco",
+      "market": "US"
+    },
+    {
+      "code": "WMT",
+      "name": "Walmart",
+      "market": "US"
+    },
+    {
+      "code": "LLY",
+      "name": "Lilly (Eli)",
       "market": "US"
     },
     {
@@ -349,10 +349,22 @@
   ],
   "news": [
     {
-      "title": "CoreWeave stock pops 12% as revenue doubles on accelerating AI infrastructure demand",
+      "title": "Lumentum sees sales more than double as AI demand swells",
+      "link": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-11T22:22:00+00:00"
+    },
+    {
+      "title": "CoreWeave stock pops 13% as revenue doubles on accelerating AI infrastructure demand",
       "link": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
       "source": "CNBC Finance",
-      "published": "2026-08-11T22:09:04+00:00"
+      "published": "2026-08-11T22:20:14+00:00"
+    },
+    {
+      "title": "[오늘의 글로벌마켓] 뉴욕증시, 유가 상승 속 3대지수 하락세 - 오피니언뉴스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tY0QzVDJoUFJLX3hwWGk3Ql9pS3lyZXljVi16LTdPQ0pQcjNwSlRYeUdoSi1TMk5LNEctODF0Nk9jUE9RSWtiNTRib1FuUXo5NUV5UURxcFFBVVZ6VUFnSERuMG1rZ3hCbzRzQVB6dlc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T22:11:20+00:00"
     },
     {
       "title": "\"대학생엔 실무경험, 기업엔 지원금\"…강남구 '중소기업 인턴십'",
@@ -389,12 +401,6 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tZklvc3ZYZHRqYkczb2lXUkR2TVI2YUZmcVgtRW5jYTc4RlNUQm13MHNzQTBZNkpYRHBIU3k1cklDS0VJTjR2WU45YTUzRl80cklPdFI4RFUydWlNUUJfSzg3N3MwN2hG0gFuQVVfeXFMT3hqOGRDOEphV1JweGJiN0RwXy1TS1dFdGh4ZDdaZ05MWUVGa0lJamMzNzFxV1dENDBHb2NFOElIQ1V5SFVtenV6UXJHQWt4T0hrU2kzY3dXM2xib3p4akFxUlo2SDI1QmhlZmcwRmc?oc=5",
       "source": "Google News",
       "published": "2026-08-11T21:47:46+00:00"
-    },
-    {
-      "title": "뉴욕 증시, 호르무즈 불확실성에 동반 하락 마감 - YTN",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ad01SX0RiZjlxbmN6d1hMTzg4aWRFY252NjdiRXVST3h2TUotQVltY3VLRU9FOV9BcExjN1BuRmdaT1JhMkF1bVJabUFzUnVaMk5XNklpZHZaRm1laHc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-11T21:43:00+00:00"
     },
     {
       "title": "Trump administration ends Medicaid, CHIP funding for gender-affirming care for children",
@@ -451,12 +457,6 @@
       "published": "2026-08-11T21:15:00+00:00"
     },
     {
-      "title": "Lumentum sees sales more than double as AI demand swells",
-      "link": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-11T21:12:00+00:00"
-    },
-    {
       "title": "[속보]뉴욕증시 하락마감…하닉ADR 4.7%↑ - 문화일보",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9IbUl3SGdTSmlUUFlGQzgyZmM0WGdFS2p5OTE5aXoyTm05b2NzYzE5YllrUVNoLXA0VVlJNW1WUlI0SkxzQ09BeXN4VndLcm54?oc=5",
       "source": "Google News",
@@ -473,6 +473,12 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLVGF5N00xNnBHQUtNTlBCN0g0VDV1ZnpWUnJLMDJtMVZON0VDenZpTjR0NWpvSTh6SUEzYlVPcVZmVjJOSUY3LW1DYkw0eFYyUHBRSFM0OUcxRzI2V2c?oc=5",
       "source": "Google News",
       "published": "2026-08-11T21:04:10+00:00"
+    },
+    {
+      "title": "[속보] 뉴욕증시 하락…다우 0.34%↓ - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VTnJGdUNYeU1ZOUNISXFVc0RTQnRicENsbU1rQlp0aDVWX0Rnb2oyOGRZY0VQZ2tSSUxZYW1hZWlIay1oaWF3cHI2R2FMdE1lVGU5dg?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T21:03:00+00:00"
     },
     {
       "title": "[뉴욕증시] CPI는 확인하고 가자…이틀째 약세 마감 - 연합인포맥스",
@@ -547,12 +553,6 @@
       "published": "2026-08-11T20:51:00+00:00"
     },
     {
-      "title": "뉴욕 증시, 중동 혼란에 이틀째 약세...국제 유가 1%대 상승 [데일리국제금융] - 서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hdk9oMnlIRktmdzI0QVBKWXJZdVFHelBMeW1nNFVUQXBxUzVpbzNBZnA0ckhSWkhzLVZyUWpiNl9DeEU3eFR3d2ZPVjRTbGhPZXfSAVNBVV95cUxOaURHM2xJTWdoOC1JVjBNVVliVzIyOVVwb2RNTGFDSUhVdHRDUkM3WGVQNkhxZkZoWWhqeUt0Y0dpalRrcTVIcW9qN2pFczA3Szluaw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-11T20:47:35+00:00"
-    },
-    {
       "title": "Cava reports sales growth even as some customers steer clear of lettuce",
       "link": "https://www.marketwatch.com/story/cava-reports-sales-growth-even-as-some-customers-steer-clear-of-lettuce-044b7f51?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -583,6 +583,12 @@
       "published": "2026-08-11T20:26:22+00:00"
     },
     {
+      "title": "뉴욕증시, 호르무즈 불확실성 지속에 하락…다우 0.3%↓ - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUbk93RjNFcWJsaHZaRVZMcGpBNkw5N243aS0wc2Q5UXZHbFp4LXBCLUp3X3VKNENvT3lKaW5IaDZPZHBWQW5kMVlvSUNwUjZiOUhsdjE0Z0xnSXc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T20:16:43+00:00"
+    },
+    {
       "title": "[뉴욕증시-1보] CPI는 확인하고 가자…이틀째 약세 마감 - 연합인포맥스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82dTNES1ZNNnNaUmg4d05tZEZDR2RlSk12aFRjNFM0cG02YjdiWHNLcW94N3E3YTZrM2lFWWZxLURrWUtmNElvS1RiRmJ6c1FQaVU0Zl8zMDhrV21kMEM1cENXcDNySFBfeGhRZFBkNGbSAXRBVV95cUxNUEVHOGJkeDQwUjVBcDhOakktZjJDUFBqcTB2N2o5ZjVBOGMtSmVaUFoyRjZBYU5rbGZxRk14WWNjTDlQcTFBYnRaX0VwcVN4NVlCcWRuVGhIR0ZXWkNYWEFCRnd0dlZ5MWxubkV2WFhqNzUxVQ?oc=5",
       "source": "Google News",
@@ -605,6 +611,12 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VNENJR2JYTW1vb2I3NG9qR2VGdDlhRThMb19hc1lhd3pOS1hHQ3NRejlqcDBfT2ZuTENCTU1IY2lhLXlGMkZhMDVYUG1uRlU?oc=5",
       "source": "Google News",
       "published": "2026-08-11T20:03:00+00:00"
+    },
+    {
+      "title": "유니트리 상하이 증시 IPO 청약 경쟁률 5526대 1 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTWk1R2phY3VOU29laUpfSDVCWllJWkNaTkVtd1QwS09qRlVLWmNMRnc1blVMQlV3UllrVjgtNUZlQjB5VTJpZTdpei0yVU1sSndROFMzRmZHMEZnTFJsWUVWVkl0dWdNQUFqQVdGMWFGUDVnZW42N2E5UkNlQ1hQVmtaNnlNNVND?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T19:50:00+00:00"
     },
     {
       "title": "Longtime OpenAI executive Brad Lightcap leaves as shake-up at AI lab continues",
@@ -635,18 +647,6 @@
       "link": "https://www.cnbc.com/2026/08/11/why-jpmorgan-is-investing-big-in-the-2028-la-olympics.html",
       "source": "CNBC Finance",
       "published": "2026-08-11T18:50:37+00:00"
-    },
-    {
-      "title": "Social Security expands list of conditions to 314 illnesses for faster disability claims",
-      "link": "https://www.marketwatch.com/story/social-security-expands-list-of-conditions-to-314-illnesses-for-faster-disability-claims-b1883c2d?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-11T18:40:00+00:00"
-    },
-    {
-      "title": "An inflation report Wednesday should be a big deal for the Fed. Here's what to expect",
-      "link": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-11T18:34:41+00:00"
     }
   ],
   "pages": [
