@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-11T22:31:02.753776+09:00",
+  "generated_at": "2026-08-11T22:53:14.684960+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-08-11T22:30:50.297731+09:00",
+      "last_built": "2026-08-11T22:52:53.889429+09:00",
       "expected_T_min": 30,
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-08-11T22:30:50.374910+09:00",
+      "last_built": "2026-08-11T22:53:00.558217+09:00",
       "expected_T_min": 30,
       "items": 26,
-      "duration_ms": 7522
+      "duration_ms": 14069
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,30 +52,30 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-08-11T22:31:02.687077+09:00",
+      "last_built": "2026-08-11T22:53:00.556976+09:00",
       "expected_T_min": 30,
       "items": 1,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-08-11T22:30:57.898507+09:00",
+      "last_built": "2026-08-11T22:52:53.952553+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 4583
+      "duration_ms": 3784
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-08-11T22:31:02.487555+09:00",
+      "last_built": "2026-08-11T22:52:57.742294+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 0
+      "duration_ms": 2632
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-08-11T22:31:02.738884+09:00",
+      "last_built": "2026-08-11T22:53:14.672053+09:00",
       "expected_T_min": 30,
-      "items": 2,
+      "items": 3,
       "duration_ms": 0
     },
     "Trade Manager": {
@@ -164,7 +164,7 @@
     },
     "Loop Ledger": {
       "status": "completed",
-      "last_built": "2026-08-11T22:31:02.687108+09:00",
+      "last_built": "2026-08-11T22:53:00.557010+09:00",
       "expected_T_min": 30,
       "items": 2,
       "duration_ms": 1
