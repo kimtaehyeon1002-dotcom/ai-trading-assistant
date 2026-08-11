@@ -1,0 +1,17 @@
+{
+  "code": "000720",
+  "name": "현대건설",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 114200.0,
+    "change_pct": 3.25,
+    "volume": 290946,
+    "amount": 33062580850.0,
+    "marcap": 12716828363000.0,
+    "as_of_iso": "2026-08-11T01:28:30.229232+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:000720",
+  "related_news": []
+}

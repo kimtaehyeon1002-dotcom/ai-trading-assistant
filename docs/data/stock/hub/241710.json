@@ -1,0 +1,17 @@
+{
+  "code": "241710",
+  "name": "코스메카코리아",
+  "market": "KOSDAQ GLOBAL",
+  "theme": null,
+  "quote": {
+    "close": 110800.0,
+    "change_pct": 16.63,
+    "volume": 270441,
+    "amount": 29133277400.0,
+    "marcap": 1183344000000.0,
+    "as_of_iso": "2026-08-11T01:28:30.229273+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:241710",
+  "related_news": []
+}
