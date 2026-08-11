@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-11T21:15:17.714713+00:00",
+  "as_of": "2026-08-11T21:33:06.102260+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -349,16 +349,46 @@
   ],
   "news": [
     {
+      "title": "CoreWeave stock pops 15% as revenue doubles on accelerating AI infrastructure demand",
+      "link": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-11T21:27:54+00:00"
+    },
+    {
+      "title": "뉴욕증시, 유가 상승·CPI 경계에 하락…호르무즈 해협 불확실성 지속 - newspim.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE41RkVUbUljRVlfUTJUajBEb29SNVZ2TzFmcnNfTHVpNFJmVEpvZ3hfRDRxLWh4U1dHcW1hRndGb3JSSEZUQzUtckJCQTNpRUxrR0c5cEYwcklHWW01?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T21:17:00+00:00"
+    },
+    {
+      "title": "호르무즈 불안·美 물가 발표 앞두고 뉴욕증시 하락⋯국제유가도 상승 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ESmNCRE8xR2FuOGU3TkNBMGZDQ3lxRzBqa0xOZlh2WEFKbnZwYlMyRlE2aUhuZVRXLVN6S2lTWGlURzk2anV1SkxjSk9TbUU?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T21:17:00+00:00"
+    },
+    {
+      "title": "CoreWeave’s stock soars as earnings show major AI momentum",
+      "link": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-11T21:17:00+00:00"
+    },
+    {
+      "title": "GM reaches up to $4.5 billion parts deal designed to avoid supply chain troubles",
+      "link": "https://www.cnbc.com/2026/08/11/gm-makes-4point5-billion-parts-deal-to-bolster-supply-chain.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-11T21:15:01+00:00"
+    },
+    {
+      "title": "I found a $100 bill in the communal washer at my Airbnb. What should I do?",
+      "link": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-11T21:15:00+00:00"
+    },
+    {
       "title": "Lumentum sees sales more than double as AI demand swells",
       "link": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-11T21:12:00+00:00"
-    },
-    {
-      "title": "CoreWeave stock pops 15% as revenue doubles on accelerating AI infrastructure demand",
-      "link": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-11T21:10:53+00:00"
     },
     {
       "title": "[속보]뉴욕증시 하락마감…하닉ADR 4.7%↑ - 문화일보",
@@ -367,13 +397,19 @@
       "published": "2026-08-11T21:08:55+00:00"
     },
     {
+      "title": "뉴욕증시, 호르무즈 불확실성에 연이틀 '하락'…빅테크주 동반 '약세' - newsworks.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RSXd0dTI5eHJ3SDVHcEh1ekY2SVllTWY3SFhEZ09Mc0RiTk5tdVJ5RDhkYmxuLS1uby1KZzF6T3h2YkhtQlJNMXdTY3UyZ2J0WUJ1YlJDSVRteUdnODBEOGthMDV2ZEc4S3FLWUdUVdIBc0FVX3lxTE9nUVVyblFDOFlOOFZZa3BXaXFqRkt0Tm5ncDRvaU1XWWxOQi1sbTJyV0dJZlNSSF9TYXNsdldUcS1GQXBjVEZvVmJsRkRKY1dwMldlRS1KNkw3STd2UGdQemxTcDBVN0JBUno5aDNvbjBSSUk?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T21:06:58+00:00"
+    },
+    {
       "title": "[월가 레이더] 美 뉴욕증시, 기술주 약세에 이틀째 하락…호르무즈 난항 유가 89달러 - 포커스온경제",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLVGF5N00xNnBHQUtNTlBCN0g0VDV1ZnpWUnJLMDJtMVZON0VDenZpTjR0NWpvSTh6SUEzYlVPcVZmVjJOSUY3LW1DYkw0eFYyUHBRSFM0OUcxRzI2V2c?oc=5",
       "source": "Google News",
       "published": "2026-08-11T21:04:10+00:00"
     },
     {
-      "title": "[뉴욕증시] CPI는 확인하고 가자…이틀째 약세 마감 - 연합인포맥스",
+      "title": "[뉴욕증시] CPI는 확인하고 가자…이틀째 약세 마감 - news.einfomax.co.kr",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UeWdfRmxJZmUtMnI3d0Z5SmdaWlNaa21qYzdQN2VncFJad2NQZHB5eDJlX0djOU9OQTFxOUZ4NFVnbWw4WllWLXkzdXFlMktxOVZMM0JVLWstY2pMYUp0UEdMNUpTd2txWkNmSEJEUHI?oc=5",
       "source": "Google News",
       "published": "2026-08-11T21:01:39+00:00"
@@ -445,28 +481,34 @@
       "published": "2026-08-11T20:51:00+00:00"
     },
     {
+      "title": "뉴욕 증시, 중동 혼란에 이틀째 약세...국제 유가 1%대 상승 [데일리국제금융] - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hdk9oMnlIRktmdzI0QVBKWXJZdVFHelBMeW1nNFVUQXBxUzVpbzNBZnA0ckhSWkhzLVZyUWpiNl9DeEU3eFR3d2ZPVjRTbGhPZXfSAVNBVV95cUxOaURHM2xJTWdoOC1JVjBNVVliVzIyOVVwb2RNTGFDSUhVdHRDUkM3WGVQNkhxZkZoWWhqeUt0Y0dpalRrcTVIcW9qN2pFczA3Szluaw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T20:47:35+00:00"
+    },
+    {
       "title": "뉴욕증시, 호르무즈 불확실성 지속에 하락…다우 0.3%↓ - 한국경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Sdmp4NVN6TE9xbk04RXhwSVh5a05NN3dBNjNEd3AwX1lqdGQ0ZFhSb19aN0gxam5LQlFnM2dUdG5XY1dPUWNnNHE2eS1laGxxQThLUktlN3hUQQ?oc=5",
       "source": "Google News",
       "published": "2026-08-11T20:47:28+00:00"
     },
     {
-      "title": "호르무즈 다시 먹구름…뉴욕증시 이틀째 하락, 나스닥 0.6%↓ - kbmaeil.com",
+      "title": "호르무즈 다시 먹구름…뉴욕증시 이틀째 하락, 나스닥 0.6%↓ - 경북매일",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwaFFjUGJvOGNqVUxlcWVmTmNYYTNkVFBWN2F4cGItb3pKV3d6M044aTJmRXF3RHF5aE9DeTdSSy04QjlJcmF1alQ4bFprN2xqSDE3d0wySWlTUQ?oc=5",
       "source": "Google News",
       "published": "2026-08-11T20:44:00+00:00"
-    },
-    {
-      "title": "GM reaches up to $4.5 billion parts deal designed to avoid supply chain troubles",
-      "link": "https://www.cnbc.com/2026/08/11/gm-makes-4point5-billion-parts-deal-to-bolster-supply-chain.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-11T20:43:59+00:00"
     },
     {
       "title": "Cava reports sales growth even as some customers steer clear of lettuce",
       "link": "https://www.marketwatch.com/story/cava-reports-sales-growth-even-as-some-customers-steer-clear-of-lettuce-044b7f51?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-11T20:41:00+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 기술주 약세·중동 불확실성에 3대 지수 이틀 연속 하락 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnJEZ1pJTUM0T1RyUWZvZUNUWlNoZ3pELW5PNmhwVlVKaXhLdmJsdFAySWJOU3c0VVNlWkc4UElfbVJRNGxYb3dTRVUxSFFVTHRVb0luTVA4LVFRTm5BdG9FNVJoMUVMUTlWckJ5a2Ezb25mWS1nRGNvUEZkc3pLZEE5alFyLXpC?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T20:39:31+00:00"
     },
     {
       "title": "뉴욕증시, 유가 90달러 육박에 일제히 하락…SK하닉 ADR은 4.7%↑[뉴욕마감] - v.daum.net",
@@ -499,16 +541,22 @@
       "published": "2026-08-11T20:26:22+00:00"
     },
     {
-      "title": "뉴욕증시, 호르무즈 불확실성 지속에 하락…다우 0.3%↓ - yna.co.kr",
+      "title": "뉴욕증시, 호르무즈 불확실성 지속에 하락…다우 0.3%↓ - 연합뉴스",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUbk93RjNFcWJsaHZaRVZMcGpBNkw5N243aS0wc2Q5UXZHbFp4LXBCLUp3X3VKNENvT3lKaW5IaDZPZHBWQW5kMVlvSUNwUjZiOUhsdjE0Z0xnSXc?oc=5",
       "source": "Google News",
       "published": "2026-08-11T20:16:43+00:00"
     },
     {
-      "title": "[뉴욕증시-1보] CPI는 확인하고 가자…이틀째 약세 마감 - 연합인포맥스",
+      "title": "[뉴욕증시-1보] CPI는 확인하고 가자…이틀째 약세 마감 - news.einfomax.co.kr",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82dTNES1ZNNnNaUmg4d05tZEZDR2RlSk12aFRjNFM0cG02YjdiWHNLcW94N3E3YTZrM2lFWWZxLURrWUtmNElvS1RiRmJ6c1FQaVU0Zl8zMDhrV21kMEM1cENXcDNySFBfeGhRZFBkNGbSAXRBVV95cUxNUEVHOGJkeDQwUjVBcDhOakktZjJDUFBqcTB2N2o5ZjVBOGMtSmVaUFoyRjZBYU5rbGZxRk14WWNjTDlQcTFBYnRaX0VwcVN4NVlCcWRuVGhIR0ZXWkNYWEFCRnd0dlZ5MWxubkV2WFhqNzUxVQ?oc=5",
       "source": "Google News",
       "published": "2026-08-11T20:07:46+00:00"
+    },
+    {
+      "title": "[속보]뉴욕증시, 호르무즈 협상 불확실성에 하락 마감 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMU0ZFeHk4bm00N1BJV0wxRGs1RG5vRHliRzEyZFY4bm5JaWViWktsMUJYS2kxaHcySzFxbEZwaVdWek93NVVONE5PaWtPdmlTekIxTXMzZnRkSHE5Zm1Yag?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T20:07:38+00:00"
     },
     {
       "title": "We're lifting our price target on Cardinal Health after issuing rosy profit guidance",
@@ -599,54 +647,6 @@
       "link": "https://www.cnbc.com/2026/08/11/minnesota-wisconsin-primaries-hong-flanagan-craig-run-in-key-races.html",
       "source": "CNBC Finance",
       "published": "2026-08-11T18:05:12+00:00"
-    },
-    {
-      "title": "Health insurers are dumping Medicare Advantage plans. Here’s how many seniors could be affected.",
-      "link": "https://www.marketwatch.com/story/health-insurers-are-dumping-medicare-advantage-plans-heres-how-many-seniors-could-be-affected-646b4e99?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-11T18:02:00+00:00"
-    },
-    {
-      "title": "‘I’m dreaming of cocktails at Château Marmont’: I found $100 in my Airbnb’s communal washer. What should I do?",
-      "link": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-11T17:45:00+00:00"
-    },
-    {
-      "title": "Unitree’s IPO may be just the beginning of an investor frenzy over humanoid-robot stocks",
-      "link": "https://www.marketwatch.com/story/unitrees-ipo-may-be-just-the-beginning-of-an-investor-frenzy-over-humanoid-robot-stocks-8c2d39b6?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-11T17:17:00+00:00"
-    },
-    {
-      "title": "유럽증시, 기업 실적 기대와 중동 위기 저울질하며 보합… 지수는 최고치 수준 유지 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXRzVqYWx5S2wwZ1BSWlhBbmV1aDRaQXV0eVlFdjV2YU9ObFVfN0xGQTJkT1VYSWR1WjhhbEZYNXY4dk1yV0x6b2dhaXJOZHBUSXlucjlLenBZWDY1?oc=5",
-      "source": "Google News",
-      "published": "2026-08-11T17:04:00+00:00"
-    },
-    {
-      "title": "Invitation Homes CEO says ban on institutional homebuying will bring down prices, but not immediately",
-      "link": "https://www.cnbc.com/2026/08/11/invitation-homes-ceo-institutional-homebuying-ban-prices.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-11T16:54:38+00:00"
-    },
-    {
-      "title": "Trump wants to split the MMR vaccine. Experts say that's unlikely — and comes with consequences",
-      "link": "https://www.cnbc.com/2026/08/11/mmr-vaccine-trump-wants-to-split-childhood-shot-up.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-11T16:50:04+00:00"
-    },
-    {
-      "title": "Baby products company Frida is expanding into kids’ personal care",
-      "link": "https://www.cnbc.com/2026/08/11/frida-kids-personal-care.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-11T16:23:29+00:00"
-    },
-    {
-      "title": "Manus to return as independent company after China forced Meta to unwind $2 billion deal",
-      "link": "https://www.cnbc.com/2026/08/11/manus-china-meta-acquisition.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-11T16:12:27+00:00"
     }
   ],
   "pages": [
