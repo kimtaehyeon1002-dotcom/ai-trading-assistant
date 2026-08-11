@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-11T21:06:48.745076+09:00",
+  "generated_at": "2026-08-11T21:06:52.886321+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
       "last_built": "2026-08-11T21:06:16.327074+09:00",
       "expected_T_min": 30,
       "items": 1,
-      "duration_ms": 1
+      "duration_ms": 7
     },
     "Asset Kiwoom": {
       "status": "completed",
@@ -47,14 +47,14 @@
       "status": "completed",
       "last_built": "2026-08-11T21:06:48.549373+09:00",
       "expected_T_min": 720,
-      "items": 0,
+      "items": 4,
       "duration_ms": 0
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-08-11T21:06:48.676967+09:00",
+      "last_built": "2026-08-11T21:06:52.767808+09:00",
       "expected_T_min": 30,
-      "items": 0,
+      "items": 27,
       "duration_ms": 0
     },
     "News Research": {
@@ -73,7 +73,7 @@
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-08-11T21:06:48.736560+09:00",
+      "last_built": "2026-08-11T21:06:52.876318+09:00",
       "expected_T_min": 30,
       "items": 3,
       "duration_ms": 0
