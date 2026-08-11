@@ -2,12 +2,129 @@
   "code": "009830",
   "name": "한화솔루션",
   "market": "KOSPI",
-  "as_of": "2026-08-10T14:59:46.134164+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
+  "as_of": "2026-08-11T13:39:25.699890+00:00",
+  "source": "dart",
+  "growth": {
+    "latest_year": "2025",
+    "value": 7.58,
+    "cagr_pct": -0.79,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 13653948104906.0
+      },
+      {
+        "year": "2023",
+        "value": 13288744762930.0
+      },
+      {
+        "year": "2024",
+        "value": 12394023649010.0
+      },
+      {
+        "year": "2025",
+        "value": 13333055000000.0
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": -2.74,
+    "own_5y_avg": 1.62,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": 7.08
+      },
+      {
+        "year": "2023",
+        "value": 4.55
+      },
+      {
+        "year": "2024",
+        "value": -2.42
+      },
+      {
+        "year": "2025",
+        "value": -2.74
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 196.32,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2022",
+        "value": 140.8
+      },
+      {
+        "year": "2023",
+        "value": 171.82
+      },
+      {
+        "year": "2024",
+        "value": 183.18
+      },
+      {
+        "year": "2025",
+        "value": 196.32
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": -2665499000000.0,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": -787206364335.0
+      },
+      {
+        "year": "2023",
+        "value": -1872529264894.0
+      },
+      {
+        "year": "2024",
+        "value": -2759087835311.0
+      },
+      {
+        "year": "2025",
+        "value": -2665499000000.0
+      }
+    ]
+  },
   "valuation": null,
-  "triangle": null
+  "triangle": {
+    "latest_year": "2025",
+    "price": 36350.0,
+    "eps": null,
+    "bps": null,
+    "roe": -5.5,
+    "per": null,
+    "pbr": null,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "value": -1.72
+      },
+      {
+        "year": "2024",
+        "value": -12.91
+      },
+      {
+        "year": "2025",
+        "value": -5.5
+      }
+    ],
+    "note": "EPS 미수집 — PER·PBR·BPS 산출 불가"
+  }
 }

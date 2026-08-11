@@ -2,7 +2,7 @@
   "code": "AMAT",
   "name": "Applied Materials",
   "market": "US",
-  "as_of": "2026-08-10T15:00:05.427714+00:00",
+  "as_of": "2026-08-11T13:42:17.681490+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 8.66,
-    "per": 62.26,
+    "per": 60.29,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 539.1400146484375,
+    "price": 522.1199951171875,
     "eps": 8.66,
     "bps": 25.26,
     "roe": 34.28,
-    "per": 62.26,
-    "pbr": 21.34,
+    "per": 60.29,
+    "pbr": 20.67,
     "roe_series": [
       {
         "year": "2021",

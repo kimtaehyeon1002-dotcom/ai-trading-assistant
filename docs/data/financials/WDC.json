@@ -2,7 +2,7 @@
   "code": "WDC",
   "name": "Western Digital",
   "market": "US",
-  "as_of": "2026-08-10T14:59:57.690472+00:00",
+  "as_of": "2026-08-11T13:42:21.363396+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 5.12,
-    "per": 84.82,
+    "per": 85.61,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 434.29998779296875,
+    "price": 438.3399963378906,
     "eps": 5.12,
     "bps": 14.4,
     "roe": 35.57,
-    "per": 84.82,
-    "pbr": 30.16,
+    "per": 85.61,
+    "pbr": 30.44,
     "roe_series": [
       {
         "year": "2021",

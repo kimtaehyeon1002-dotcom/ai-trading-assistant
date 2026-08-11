@@ -2,7 +2,7 @@
   "code": "SNDK",
   "name": "Sandisk",
   "market": "US",
-  "as_of": "2026-08-10T14:59:48.990117+00:00",
+  "as_of": "2026-08-11T13:42:07.884001+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -86,12 +86,12 @@
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 1212.2099609375,
+    "price": 1237.9200439453125,
     "eps": -11.32,
     "bps": 63.57,
     "roe": -17.81,
     "per": null,
-    "pbr": 19.07,
+    "pbr": 19.47,
     "roe_series": [
       {
         "year": "2023",

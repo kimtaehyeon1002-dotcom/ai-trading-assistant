@@ -2,7 +2,7 @@
   "code": "AVGO",
   "name": "Broadcom",
   "market": "US",
-  "as_of": "2026-08-10T14:59:55.927727+00:00",
+  "as_of": "2026-08-11T13:42:14.982965+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 4.77,
-    "per": 89.68,
+    "per": 88.55,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 427.760009765625,
+    "price": 422.3999938964844,
     "eps": 4.77,
     "bps": 16.77,
     "roe": 28.45,
-    "per": 89.68,
-    "pbr": 25.51,
+    "per": 88.55,
+    "pbr": 25.19,
     "roe_series": [
       {
         "year": "2021",

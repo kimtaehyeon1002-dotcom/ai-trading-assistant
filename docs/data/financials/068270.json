@@ -1,13 +1,135 @@
 {
   "code": "068270",
   "name": "셀트리온",
-  "market": "KRX",
-  "as_of": "2026-08-10T14:59:46.270143+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "market": "KOSPI",
+  "as_of": "2026-08-11T13:40:15.258618+00:00",
+  "source": "dart",
+  "growth": {
+    "latest_year": "2025",
+    "value": 17.01,
+    "cagr_pct": 22.15,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 2283967480394.0
+      },
+      {
+        "year": "2023",
+        "value": 2176431531380.0
+      },
+      {
+        "year": "2024",
+        "value": 3557303554371.0
+      },
+      {
+        "year": "2025",
+        "value": 4162495108881.0
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 28.07,
+    "own_5y_avg": 25.04,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 28.34
+      },
+      {
+        "year": "2023",
+        "value": 29.93
+      },
+      {
+        "year": "2024",
+        "value": 13.83
+      },
+      {
+        "year": "2025",
+        "value": 28.07
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 28.71,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 37.84
+      },
+      {
+        "year": "2023",
+        "value": 16.3
+      },
+      {
+        "year": "2024",
+        "value": 19.77
+      },
+      {
+        "year": "2025",
+        "value": 28.71
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 537826901025.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 112032336205.0
+      },
+      {
+        "year": "2023",
+        "value": 327112416494.0
+      },
+      {
+        "year": "2024",
+        "value": 766811672545.0
+      },
+      {
+        "year": "2025",
+        "value": 537826901025.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 4668.0,
+    "per": 45.09,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 210500.0,
+    "eps": 4668.0,
+    "bps": 78529.21,
+    "roe": 5.94,
+    "per": 45.09,
+    "pbr": 2.68,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": 12.69
+      },
+      {
+        "year": "2023",
+        "value": 3.15
+      },
+      {
+        "year": "2024",
+        "value": 2.38
+      },
+      {
+        "year": "2025",
+        "value": 5.94
+      }
+    ],
+    "note": null
+  }
 }

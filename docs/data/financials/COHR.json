@@ -2,7 +2,7 @@
   "code": "COHR",
   "name": "Coherent Corp.",
   "market": "US",
-  "as_of": "2026-08-10T15:00:00.490787+00:00",
+  "as_of": "2026-08-11T13:42:20.487447+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -142,7 +142,7 @@
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 379.1300048828125,
+    "price": 325.1499938964844,
     "eps": -0.52,
     "bps": null,
     "roe": 0.87,

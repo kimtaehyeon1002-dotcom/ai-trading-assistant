@@ -2,7 +2,7 @@
   "code": "TSLA",
   "name": "Tesla, Inc.",
   "market": "US",
-  "as_of": "2026-08-10T14:59:51.125408+00:00",
+  "as_of": "2026-08-11T13:42:13.607012+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 1.08,
-    "per": 304.24,
+    "per": 306.37,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 328.5799865722656,
+    "price": 330.8800048828125,
     "eps": 1.08,
     "bps": 23.38,
     "roe": 4.62,
-    "per": 304.24,
-    "pbr": 14.05,
+    "per": 306.37,
+    "pbr": 14.15,
     "roe_series": [
       {
         "year": "2021",

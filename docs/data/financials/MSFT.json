@@ -2,7 +2,7 @@
   "code": "MSFT",
   "name": "Microsoft",
   "market": "US",
-  "as_of": "2026-08-10T14:59:49.791956+00:00",
+  "as_of": "2026-08-11T13:42:05.872543+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2026",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2026",
     "eps": 17.95,
-    "per": 27.85,
+    "per": 28.19,
     "note": null
   },
   "triangle": {
     "latest_year": "2026",
-    "price": 499.989990234375,
+    "price": 506.05999755859375,
     "eps": 17.95,
     "bps": 59.37,
     "roe": 30.23,
-    "per": 27.85,
-    "pbr": 8.42,
+    "per": 28.19,
+    "pbr": 8.52,
     "roe_series": [
       {
         "year": "2022",

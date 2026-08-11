@@ -2,12 +2,134 @@
   "code": "247540",
   "name": "에코프로비엠",
   "market": "KRX",
-  "as_of": "2026-08-10T14:59:46.254164+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-11T13:41:53.922708+00:00",
+  "source": "dart",
+  "growth": {
+    "latest_year": "2025",
+    "value": -8.5,
+    "cagr_pct": -22.11,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": 5357607238956.0
+      },
+      {
+        "year": "2023",
+        "value": 6900867843535.0
+      },
+      {
+        "year": "2024",
+        "value": 2766837750152.0
+      },
+      {
+        "year": "2025",
+        "value": 2531576384113.0
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 5.66,
+    "own_5y_avg": 3.45,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 7.11
+      },
+      {
+        "year": "2023",
+        "value": 2.26
+      },
+      {
+        "year": "2024",
+        "value": -1.23
+      },
+      {
+        "year": "2025",
+        "value": 5.66
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 142.16,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2022",
+        "value": 126.73
+      },
+      {
+        "year": "2023",
+        "value": 172.71
+      },
+      {
+        "year": "2024",
+        "value": 118.7
+      },
+      {
+        "year": "2025",
+        "value": 142.16
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": -203422964132.0,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": -241250246729.0
+      },
+      {
+        "year": "2023",
+        "value": -735547809108.0
+      },
+      {
+        "year": "2024",
+        "value": -353645120216.0
+      },
+      {
+        "year": "2025",
+        "value": -203422964132.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 403.0,
+    "per": 272.46,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 109800.0,
+    "eps": 403.0,
+    "bps": 8870.76,
+    "roe": 4.54,
+    "per": 272.46,
+    "pbr": 12.38,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": 18.32
+      },
+      {
+        "year": "2023",
+        "value": 3.42
+      },
+      {
+        "year": "2024",
+        "value": -2.96
+      },
+      {
+        "year": "2025",
+        "value": 4.54
+      }
+    ],
+    "note": null
+  }
 }

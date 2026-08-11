@@ -39,8 +39,11 @@
     return (v >= 0 ? "+" : "−") + Math.abs(v).toFixed(2) + "%";
   }
 
+  // 원화 BPS는 174,319.29처럼 소수부가 노이즈고, 달러 EPS는 7.46처럼 소수부가 정보다.
+  // 자릿수를 값 크기로 가른다 — 1,000 이상이면 정수, 미만이면 소수 2자리.
   function num(v) {
-    return v == null ? "—" : v.toLocaleString("ko-KR", { maximumFractionDigits: 2 });
+    if (v == null) return "—";
+    return v.toLocaleString("ko-KR", { maximumFractionDigits: Math.abs(v) >= 1000 ? 0 : 2 });
   }
 
   function cardHtml(title, item, valueHtml, subText) {

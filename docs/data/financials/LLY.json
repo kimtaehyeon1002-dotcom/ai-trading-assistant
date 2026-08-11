@@ -2,7 +2,7 @@
   "code": "LLY",
   "name": "Lilly (Eli)",
   "market": "US",
-  "as_of": "2026-08-10T15:00:01.557945+00:00",
+  "as_of": "2026-08-11T13:42:17.106110+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -84,17 +84,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 22.95,
-    "per": 51.66,
+    "per": 53.68,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 1185.7099609375,
+    "price": 1231.93994140625,
     "eps": 22.95,
     "bps": 29.5,
     "roe": 77.78,
-    "per": 51.66,
-    "pbr": 40.19,
+    "per": 53.68,
+    "pbr": 41.76,
     "roe_series": [
       {
         "year": "2021",

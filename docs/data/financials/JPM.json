@@ -2,7 +2,7 @@
   "code": "JPM",
   "name": "JPMorgan Chase",
   "market": "NYSE",
-  "as_of": "2026-08-10T15:00:10.578777+00:00",
+  "as_of": "2026-08-11T13:42:29.100748+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -110,17 +110,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 20.02,
-    "per": 17.86,
+    "per": 17.97,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 357.5199890136719,
+    "price": 359.7900085449219,
     "eps": 20.02,
     "bps": 127.19,
     "roe": 15.74,
-    "per": 17.86,
-    "pbr": 2.81,
+    "per": 17.97,
+    "pbr": 2.83,
     "roe_series": [
       {
         "year": "2021",

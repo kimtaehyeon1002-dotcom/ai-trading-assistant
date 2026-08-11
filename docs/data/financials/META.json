@@ -2,7 +2,7 @@
   "code": "META",
   "name": "Meta Platforms",
   "market": "US",
-  "as_of": "2026-08-10T14:59:55.344843+00:00",
+  "as_of": "2026-08-11T13:42:13.095630+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 23.49,
-    "per": 25.21,
+    "per": 25.33,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 592.0999755859375,
+    "price": 594.9199829101562,
     "eps": 23.49,
     "bps": 84.41,
     "roe": 27.83,
-    "per": 25.21,
-    "pbr": 7.01,
+    "per": 25.33,
+    "pbr": 7.05,
     "roe_series": [
       {
         "year": "2021",

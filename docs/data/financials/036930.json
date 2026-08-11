@@ -2,12 +2,134 @@
   "code": "036930",
   "name": "주성엔지니어링",
   "market": "KOSDAQ GLOBAL",
-  "as_of": "2026-08-10T14:59:46.144961+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-11T13:39:19.783772+00:00",
+  "source": "dart",
+  "growth": {
+    "latest_year": "2025",
+    "value": -24.11,
+    "cagr_pct": -10.81,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": 437938720318.0
+      },
+      {
+        "year": "2023",
+        "value": 284745246660.0
+      },
+      {
+        "year": "2024",
+        "value": 409393371588.0
+      },
+      {
+        "year": "2025",
+        "value": 310692584812.0
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 10.06,
+    "own_5y_avg": 18.06,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": 28.29
+      },
+      {
+        "year": "2023",
+        "value": 10.16
+      },
+      {
+        "year": "2024",
+        "value": 23.74
+      },
+      {
+        "year": "2025",
+        "value": 10.06
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 50.37,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 71.9
+      },
+      {
+        "year": "2023",
+        "value": 56.44
+      },
+      {
+        "year": "2024",
+        "value": 74.17
+      },
+      {
+        "year": "2025",
+        "value": 50.37
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": -30678160138.0,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": 100995569624.0
+      },
+      {
+        "year": "2023",
+        "value": 886629703.0
+      },
+      {
+        "year": "2024",
+        "value": 224672730163.0
+      },
+      {
+        "year": "2025",
+        "value": -30678160138.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 781.0,
+    "per": 207.94,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 162400.0,
+    "eps": 781.0,
+    "bps": 12919.65,
+    "roe": 6.05,
+    "per": 207.94,
+    "pbr": 12.57,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": 21.91
+      },
+      {
+        "year": "2023",
+        "value": 6.61
+      },
+      {
+        "year": "2024",
+        "value": 18.85
+      },
+      {
+        "year": "2025",
+        "value": 6.05
+      }
+    ],
+    "note": null
+  }
 }

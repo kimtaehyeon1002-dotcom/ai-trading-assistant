@@ -2,12 +2,126 @@
   "code": "035720",
   "name": "카카오",
   "market": "KRX",
-  "as_of": "2026-08-10T14:59:46.259271+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-11T13:41:56.274390+00:00",
+  "source": "dart",
+  "growth": {
+    "latest_year": "2025",
+    "value": 2.89,
+    "cagr_pct": null,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2023",
+        "value": 7557001757272.0
+      },
+      {
+        "year": "2024",
+        "value": 7871692199887.0
+      },
+      {
+        "year": "2025",
+        "value": 8099147815086.0
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 9.04,
+    "own_5y_avg": 7.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2023",
+        "value": 6.1
+      },
+      {
+        "year": "2024",
+        "value": 5.85
+      },
+      {
+        "year": "2025",
+        "value": 9.04
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 82.49,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 69.9
+      },
+      {
+        "year": "2023",
+        "value": 81.69
+      },
+      {
+        "year": "2024",
+        "value": 84.85
+      },
+      {
+        "year": "2025",
+        "value": 82.49
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 925593410993.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 225460500588.0
+      },
+      {
+        "year": "2023",
+        "value": 765948428460.0
+      },
+      {
+        "year": "2024",
+        "value": 870842687103.0
+      },
+      {
+        "year": "2025",
+        "value": 925593410993.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2024",
+    "eps": 126.0,
+    "per": 323.02,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2024",
+    "price": 40700.0,
+    "eps": 126.0,
+    "bps": null,
+    "roe": -1.16,
+    "per": 323.02,
+    "pbr": null,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": 7.89
+      },
+      {
+        "year": "2023",
+        "value": -13.11
+      },
+      {
+        "year": "2024",
+        "value": -1.16
+      },
+      {
+        "year": "2025",
+        "value": 3.4
+      }
+    ],
+    "note": null
+  }
 }

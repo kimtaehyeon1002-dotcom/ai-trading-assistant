@@ -2,11 +2,169 @@
   "code": "V",
   "name": "Visa Inc.",
   "market": "US",
-  "as_of": "2026-08-03T22:00:09.797256+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null
+  "as_of": "2026-08-11T13:42:22.765185+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 11.34,
+    "cagr_pct": 10.92,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 24105000000
+      },
+      {
+        "year": "2022",
+        "value": 29310000000
+      },
+      {
+        "year": "2023",
+        "value": 32653000000
+      },
+      {
+        "year": "2024",
+        "value": 35926000000
+      },
+      {
+        "year": "2025",
+        "value": 40000000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 59.98,
+    "own_5y_avg": 64.21,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2021",
+        "value": 65.56
+      },
+      {
+        "year": "2022",
+        "value": 64.19
+      },
+      {
+        "year": "2023",
+        "value": 64.31
+      },
+      {
+        "year": "2024",
+        "value": 65.68
+      },
+      {
+        "year": "2025",
+        "value": 59.98
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 162.81,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2021",
+        "value": 120.53
+      },
+      {
+        "year": "2022",
+        "value": 140.3
+      },
+      {
+        "year": "2023",
+        "value": 133.65
+      },
+      {
+        "year": "2024",
+        "value": 141.49
+      },
+      {
+        "year": "2025",
+        "value": 162.81
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 23059000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 5574000000
+      },
+      {
+        "year": "2017",
+        "value": 9317000000
+      },
+      {
+        "year": "2018",
+        "value": 12941000000
+      },
+      {
+        "year": "2019",
+        "value": 12784000000
+      },
+      {
+        "year": "2020",
+        "value": 10440000000
+      },
+      {
+        "year": "2021",
+        "value": 15227000000
+      },
+      {
+        "year": "2022",
+        "value": 18849000000
+      },
+      {
+        "year": "2023",
+        "value": 20755000000
+      },
+      {
+        "year": "2024",
+        "value": 19950000000
+      },
+      {
+        "year": "2025",
+        "value": 23059000000
+      }
+    ]
+  },
+  "valuation": null,
+  "triangle": {
+    "latest_year": "2025",
+    "price": 361.32000732421875,
+    "eps": null,
+    "bps": null,
+    "roe": 52.91,
+    "per": null,
+    "pbr": null,
+    "roe_series": [
+      {
+        "year": "2021",
+        "value": 32.75
+      },
+      {
+        "year": "2022",
+        "value": 42.04
+      },
+      {
+        "year": "2023",
+        "value": 44.6
+      },
+      {
+        "year": "2024",
+        "value": 50.45
+      },
+      {
+        "year": "2025",
+        "value": 52.91
+      }
+    ],
+    "note": "EPS 미수집 — PER·PBR·BPS 산출 불가"
+  }
 }

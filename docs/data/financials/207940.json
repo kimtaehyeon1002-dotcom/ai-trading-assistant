@@ -1,13 +1,135 @@
 {
   "code": "207940",
   "name": "삼성바이오로직스",
-  "market": "KRX",
-  "as_of": "2026-08-10T14:59:46.264812+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "market": "KOSPI",
+  "as_of": "2026-08-11T13:41:36.725010+00:00",
+  "source": "dart",
+  "growth": {
+    "latest_year": "2025",
+    "value": 0.21,
+    "cagr_pct": 14.94,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 3001295197683.0
+      },
+      {
+        "year": "2023",
+        "value": 3694588767068.0
+      },
+      {
+        "year": "2024",
+        "value": 4547322176421.0
+      },
+      {
+        "year": "2025",
+        "value": 4556971695180.0
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 45.41,
+    "own_5y_avg": 34.34,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 32.77
+      },
+      {
+        "year": "2023",
+        "value": 30.14
+      },
+      {
+        "year": "2024",
+        "value": 29.03
+      },
+      {
+        "year": "2025",
+        "value": 45.41
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 48.44,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 84.56
+      },
+      {
+        "year": "2023",
+        "value": 63.23
+      },
+      {
+        "year": "2024",
+        "value": 58.98
+      },
+      {
+        "year": "2025",
+        "value": 48.44
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 856066540912.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": -3791892370.0
+      },
+      {
+        "year": "2023",
+        "value": 671157859749.0
+      },
+      {
+        "year": "2024",
+        "value": 355682144834.0
+      },
+      {
+        "year": "2025",
+        "value": 856066540912.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2024",
+    "eps": 15221.0,
+    "per": 105.71,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2024",
+    "price": 1609000.0,
+    "eps": 15221.0,
+    "bps": 153214.84,
+    "roe": 9.93,
+    "per": 105.71,
+    "pbr": 10.5,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": 8.88
+      },
+      {
+        "year": "2023",
+        "value": 8.72
+      },
+      {
+        "year": "2024",
+        "value": 9.93
+      },
+      {
+        "year": "2025",
+        "value": 23.95
+      }
+    ],
+    "note": null
+  }
 }
