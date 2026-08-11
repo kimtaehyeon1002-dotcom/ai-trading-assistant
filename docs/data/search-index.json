@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-11T20:09:47.869452+00:00",
+  "as_of": "2026-08-11T20:34:10.044342+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -349,6 +349,36 @@
   ],
   "news": [
     {
+      "title": "GM reaches up to $4.5 billion parts deal designed to avoid supply chain troubles",
+      "link": "https://www.cnbc.com/2026/08/11/gm-makes-4point5-billion-parts-deal-to-bolster-supply-chain.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-11T20:31:20+00:00"
+    },
+    {
+      "title": "[뉴욕증시]굳게 닫힌 호르무즈…일제히 하락 마감 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tVl84X1dmVGMtSXlBSWc2Skx2UlRjWDd1U1FyaDQyLTdVZE9tT0tSdFlQSVZFUWxWRGQtQlExNVkzTUNXU180SklwcDFtVVA2b2FWVFV5VXpvYTYxXzJpdQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T20:30:25+00:00"
+    },
+    {
+      "title": "CoreWeave stock pops 11% as revenue doubles on accelerating AI infrastructure demand",
+      "link": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-11T20:30:09+00:00"
+    },
+    {
+      "title": "Polymarket makes moves to get house in order before expected boom times for prediction markets this fall",
+      "link": "https://www.cnbc.com/2026/08/11/polymarket-revamps-marketing-expands-us-hiring-ahead-of-fall-events.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-11T20:26:22+00:00"
+    },
+    {
+      "title": "[뉴욕증시-1보] CPI는 확인하고 가자…이틀째 약세 마감 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82dTNES1ZNNnNaUmg4d05tZEZDR2RlSk12aFRjNFM0cG02YjdiWHNLcW94N3E3YTZrM2lFWWZxLURrWUtmNElvS1RiRmJ6c1FQaVU0Zl8zMDhrV21kMEM1cENXcDNySFBfeGhRZFBkNGbSAXRBVV95cUxNUEVHOGJkeDQwUjVBcDhOakktZjJDUFBqcTB2N2o5ZjVBOGMtSmVaUFoyRjZBYU5rbGZxRk14WWNjTDlQcTFBYnRaX0VwcVN4NVlCcWRuVGhIR0ZXWkNYWEFCRnd0dlZ5MWxubkV2WFhqNzUxVQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-11T20:07:46+00:00"
+    },
+    {
       "title": "[속보]뉴욕증시, 호르무즈 협상 불확실성에 하락 마감 - 아시아경제",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMU0ZFeHk4bm00N1BJV0wxRGs1RG5vRHliRzEyZFY4bm5JaWViWktsMUJYS2kxaHcySzFxbEZwaVdWek93NVVONE5PaWtPdmlTekIxTXMzZnRkSHE5Zm1Yag?oc=5",
       "source": "Google News",
@@ -433,6 +463,12 @@
       "published": "2026-08-11T18:09:08+00:00"
     },
     {
+      "title": "Democrats clash again in Minnesota and Wisconsin primaries as big midterm races take shape",
+      "link": "https://www.cnbc.com/2026/08/11/minnesota-wisconsin-primaries-hong-flanagan-craig-run-in-key-races.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-11T18:05:12+00:00"
+    },
+    {
       "title": "Health insurers are dumping Medicare Advantage plans. Here’s how many seniors could be affected.",
       "link": "https://www.marketwatch.com/story/health-insurers-are-dumping-medicare-advantage-plans-heres-how-many-seniors-could-be-affected-646b4e99?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -457,7 +493,7 @@
       "published": "2026-08-11T17:16:00+00:00"
     },
     {
-      "title": "유럽증시, 기업 실적 기대와 중동 위기 저울질하며 보합… 지수는 최고치 수준 유지 - newspim.com",
+      "title": "유럽증시, 기업 실적 기대와 중동 위기 저울질하며 보합… 지수는 최고치 수준 유지 - 뉴스핌",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXRzVqYWx5S2wwZ1BSWlhBbmV1aDRaQXV0eVlFdjV2YU9ObFVfN0xGQTJkT1VYSWR1WjhhbEZYNXY4dk1yV0x6b2dhaXJOZHBUSXlucjlLenBZWDY1?oc=5",
       "source": "Google News",
       "published": "2026-08-11T17:04:00+00:00"
@@ -553,22 +589,10 @@
       "published": "2026-08-11T14:45:44+00:00"
     },
     {
-      "title": "Eli Lilly takes weight-loss pill battle global with first Foundayo approval in Europe",
-      "link": "https://www.cnbc.com/2026/08/11/foundayo-eli-lilly-wegovy-pill-uk.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-11T14:19:53+00:00"
-    },
-    {
       "title": "뉴욕증시, 美-이란 합의 기대에 혼조 출발 - 조선비즈 - Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdUxjWUlhQU5WSi1maUVBVkRnaFl6U0wzeWt1RkRJRnZDVk5VakFkcEJMTU11dzk4VjYyZzMxY1ZQUUl3a0tPb0xRQzlpajJxVEwzdUZQQzJkVzFMM0RvZGluOEFHcWtiZTRDRzVZenphZXFaZnlqeGNCMV9hNDVhSWtwR0g4VVptek53WnBsZlIwSFlHdGpxN0F1RlNkUdIBsgFBVV95cUxPekJpb19oV2VJMEVRbGp3RjNJOHUyWkpUSGNiWUthWjR2d0Jzdi0zZ0lENGxqTWlOY2R4Ym9JejlydDRWd1FkaDc2ZzM1NWN1ejlldHFVMjdDdE85c09TaG5GaDR3eTJjN2YxdTVuZXlRdFM0SjVnZFcwRkVzbjVnVWJzcnRQMS1maUZ1NW5Wem1teENkMGc3cmw0dl82Q1FVNkI3Q3FuTGZuZ1N3LTJrdjZR?oc=5",
       "source": "Google News",
       "published": "2026-08-11T14:16:00+00:00"
-    },
-    {
-      "title": "Polymarket makes moves to get house in order before expected boom times for prediction markets this fall",
-      "link": "https://www.cnbc.com/2026/08/11/polymarket-revamps-marketing-expands-us-hiring-ahead-of-fall-events.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-11T14:15:33+00:00"
     },
     {
       "title": "Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now?",
@@ -583,13 +607,13 @@
       "published": "2026-08-11T14:10:10+00:00"
     },
     {
-      "title": "뉴욕증시, 미-이란 합의 기대 재점화 속 혼조 출발 - 연합뉴스",
+      "title": "뉴욕증시, 미-이란 합의 기대 재점화 속 혼조 출발 - yna.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92aWNuRllPNDJBeWphX1c0ZE52dk1oREQ5cXNUOXNLRUpTcGtxdEtDNWw0ejBaQ2g1TkJwUld1OWtJMjIyd2o5akRZLXc2cFpuTVVST3pjUlNQMFpzWnc1N9IBYEFVX3lxTE92aWNuRllPNDJBeWphX1c0ZE52dk1oREQ5cXNUOXNLRUpTcGtxdEtDNWw0ejBaQ2g1TkJwUld1OWtJMjIyd2o5akRZLXc2cFpuTVVST3pjUlNQMFpzWnc1Nw?oc=5",
       "source": "Google News",
       "published": "2026-08-11T13:52:07+00:00"
     },
     {
-      "title": "뉴욕증시 개장 전 특징주...플러그파워·퍼스트솔라·라이엇플랫폼스↑ VS 힘스앤허스·인텔↓ - newspim.com",
+      "title": "뉴욕증시 개장 전 특징주...플러그파워·퍼스트솔라·라이엇플랫폼스↑ VS 힘스앤허스·인텔↓ - 뉴스핌",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xb1VnOG5mNlVBSjJoUXVUd3lEbm1fMEU0bmEtMXEyVHMwMk9MaEE1M1BJeFJRTVh4Qmd5WHhVN2dWSE9xcEhLcWt4M3otQkVkeWRFQWxqd1o1aWVF?oc=5",
       "source": "Google News",
       "published": "2026-08-11T13:16:00+00:00"
@@ -607,7 +631,7 @@
       "published": "2026-08-11T13:00:01+00:00"
     },
     {
-      "title": "뉴욕증시 프리뷰, 유가 다시 뛰는데 주가 선물 반등…엔비디아·라이엇플랫폼스↑ - newspim.com",
+      "title": "뉴욕증시 프리뷰, 유가 다시 뛰는데 주가 선물 반등…엔비디아·라이엇플랫폼스↑ - 뉴스핌",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE14ZXdzR1VPeVBxbUJ1XzNWTkZVWnM4aVRtN0lUTlljQVQtM3B4c21XWmxaWVpXYXZMaGxDbGkyRHlSR29OLTA0QW1QRFdIZWJDcDE5TkJrRUVZU01E?oc=5",
       "source": "Google News",
       "published": "2026-08-11T12:58:00+00:00"
@@ -623,30 +647,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260811158300008",
       "source": "연합뉴스·경제",
       "published": "2026-08-11T12:49:06+00:00"
-    },
-    {
-      "title": "8월 증시 수익률 웃돌 종목은? - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQ2MtVmIxcEY2U2d5T0VKbTEzMmtNWHpfS09wRWc2S1BRVXYwbDlTbHQ1SW44SzFvMHQ4dkhlRXg1M0l4ZldSM2lLSkx3T25HMFpqcEVYN0UzNEFCS2JhNVpxbTdSajd2UUFiM2RLTmNYY1B4YXNmYjBPcHZDSkZxVjBNcWNmaEZDalMyYlNjNWQtWEFHT2t3T09Ld3QxVENBS3VJVm9oSE5Qb09ndlpPdEl2ZGo5c3FSeGN3OU14c3kySmxIZzZTdE1LMlctQlNs?oc=5",
-      "source": "Google News",
-      "published": "2026-08-11T12:15:00+00:00"
-    },
-    {
-      "title": "3대 국책은행 노조, 대규모 집회…\"지방 졸속이전 결사반대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260811165100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T12:02:37+00:00"
-    },
-    {
-      "title": "80억원 채무 입주민에 떠넘긴 건설사 대표 등 2명 구속",
-      "link": "https://www.yna.co.kr/view/AKR20260811164900054",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-11T11:35:00+00:00"
-    },
-    {
-      "title": "“삼전닉스 덕에 최대치 찍었습니다”...2분기 수출액 389조원 기록",
-      "link": "https://www.mk.co.kr/news/economy/12124465",
-      "source": "매일경제·증권",
-      "published": "2026-08-11T11:24:28+00:00"
     }
   ],
   "pages": [
