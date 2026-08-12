@@ -7,11 +7,11 @@
   "BOK_BASE_RATE": null,
   "BTC_KRW": {
     "envelope": {
-      "value": 90282000.0,
-      "change_abs": 643000.0,
-      "change_pct": 0.72,
+      "value": 90343000.0,
+      "change_abs": 704000.0,
+      "change_pct": 0.79,
       "unit": "KRW",
-      "as_of_iso": "2026-08-12T10:51:13.822748+00:00",
+      "as_of_iso": "2026-08-12T11:38:35.403166+00:00",
       "source": "upbit",
       "session_key": "crypto_24h",
       "expected_T_min": 60,
