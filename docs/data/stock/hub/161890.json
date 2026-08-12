@@ -1,0 +1,17 @@
+{
+  "code": "161890",
+  "name": "한국콜마",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 131650.0,
+    "change_pct": 22.01,
+    "volume": 757260,
+    "amount": 93745690650.0,
+    "marcap": 3107608387050.0,
+    "as_of_iso": "2026-08-12T01:46:32.881195+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:161890",
+  "related_news": []
+}

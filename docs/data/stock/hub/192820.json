@@ -1,0 +1,17 @@
+{
+  "code": "192820",
+  "name": "코스맥스",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 250000.0,
+    "change_pct": 19.05,
+    "volume": 188754,
+    "amount": 45787108250.0,
+    "marcap": 2837377250000.0,
+    "as_of_iso": "2026-08-12T01:46:32.881295+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:192820",
+  "related_news": []
+}

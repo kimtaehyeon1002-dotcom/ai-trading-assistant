@@ -1,0 +1,17 @@
+{
+  "code": "079650",
+  "name": "서산",
+  "market": "KOSDAQ",
+  "theme": null,
+  "quote": {
+    "close": 6000.0,
+    "change_pct": 14.5,
+    "volume": 6359373,
+    "amount": 37535041750.0,
+    "marcap": 120000000000.0,
+    "as_of_iso": "2026-08-12T01:46:32.881330+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:079650",
+  "related_news": []
+}
