@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T05:13:52.517462+00:00",
+  "as_of": "2026-08-12T05:23:56.054444+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -359,6 +359,12 @@
   ],
   "news": [
     {
+      "title": "[게시판] 서금원·서울복지재단, 청년 자산형성 지원 업무협약",
+      "link": "https://www.yna.co.kr/view/AKR20260812094400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T05:16:27+00:00"
+    },
+    {
       "title": "Houthi attack kills six in first fatalities in Red Sea in over a year; U.S. strikes containership",
       "link": "https://www.cnbc.com/2026/08/12/us-iran-war-trump-hormuz-houthi-attack-blockade-.html",
       "source": "CNBC Finance",
@@ -393,6 +399,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260812078500002",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T05:00:02+00:00"
+    },
+    {
+      "title": "Google’s new AI boss inherits a race to catch OpenAI and Anthropic",
+      "link": "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T05:00:01+00:00"
     },
     {
       "title": "토스뱅크 '키워봐요 31일 적금' 출시 나흘 만에 10만좌",
@@ -471,12 +483,6 @@
       "link": "https://www.cnbc.com/2026/08/12/japan-yen-us-dollar-intervention-.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T03:37:00+00:00"
-    },
-    {
-      "title": "오늘의 증시 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4c1FBZVNYNlcxamttZjd5UlhJMnZvUHVpeGJqWnE4YmQxdF9WRm9uVkRzWWlGdHU2cUJRYlVqVEFISnZORThhNHh5ZzZBSHc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T03:28:22+00:00"
     },
     {
       "title": "1.6조 쏟은 AI 데이터 ‘부실’…감사원, 중복·오류 적발",
@@ -649,12 +655,6 @@
     {
       "title": "서울시 주택공급 '속도전' 위해 규제 2건 철폐…공사비 검증의무 등",
       "link": "https://www.yna.co.kr/view/AKR20260812049000004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T02:15:01+00:00"
-    },
-    {
-      "title": "10월부터 기후동행카드 혜택 끝…'모두의카드'로 미리 전환하세요",
-      "link": "https://www.yna.co.kr/view/AKR20260812048800004",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T02:15:01+00:00"
     }
