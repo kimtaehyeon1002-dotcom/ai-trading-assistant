@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-13T08:20:54.816929+09:00",
+  "updated_at": "2026-08-13T08:21:38.558655+09:00",
   "workers": {
     "Vault Sync": {
       "worker": "Vault Sync",
-      "last_run": "2026-08-13T08:20:43.628494+09:00",
+      "last_run": "2026-08-13T08:21:26.393073+09:00",
       "status": "completed",
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-08-13T08:20:43.760162+09:00",
+      "last_run": "2026-08-13T08:21:26.461174+09:00",
       "status": "completed",
       "items": 26,
-      "duration_ms": 8123
+      "duration_ms": 8771
     },
     "Asset Publish": {
       "worker": "Asset Publish",
@@ -54,21 +54,21 @@
     "Vault Journal": {
       "worker": "Vault Journal",
       "status": "completed",
-      "items": 28,
+      "items": 1,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-08-13T08:20:43.758649+09:00"
+      "last_run": "2026-08-13T08:21:38.509797+09:00"
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-08-13T08:20:51.884920+09:00",
+      "last_run": "2026-08-13T08:21:35.233708+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 2879
+      "duration_ms": 3121
     },
     "Translator": {
       "worker": "Translator",
-      "last_run": "2026-08-13T08:20:54.770017+09:00",
+      "last_run": "2026-08-13T08:21:38.359665+09:00",
       "status": "completed",
       "items": 180,
       "duration_ms": 0
@@ -76,10 +76,10 @@
     "Publisher": {
       "worker": "Publisher",
       "status": "completed",
-      "items": 3,
+      "items": 2,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-08-13T08:20:54.816802+09:00"
+      "last_run": "2026-08-13T08:21:38.558545+09:00"
     },
     "Trade Manager": {
       "worker": "Trade Manager",
@@ -90,17 +90,17 @@
     },
     "Theme Analyst": {
       "worker": "Theme Analyst",
-      "last_run": "2026-08-13T07:08:59.332960+09:00",
+      "last_run": "2026-08-13T08:21:38.384059+09:00",
       "status": "completed",
       "items": 3,
-      "duration_ms": 13
+      "duration_ms": 15
     },
     "TA Analyst": {
       "worker": "TA Analyst",
-      "last_run": "2026-08-13T07:08:59.348496+09:00",
+      "last_run": "2026-08-13T08:21:38.400785+09:00",
       "status": "completed",
       "items": 120,
-      "duration_ms": 42
+      "duration_ms": 36
     },
     "Macro FRED": {
       "worker": "Macro FRED",
@@ -167,7 +167,7 @@
     },
     "Loop Ledger": {
       "worker": "Loop Ledger",
-      "last_run": "2026-08-13T08:20:43.758675+09:00",
+      "last_run": "2026-08-13T08:21:38.509826+09:00",
       "status": "completed",
       "items": 2,
       "duration_ms": 1
