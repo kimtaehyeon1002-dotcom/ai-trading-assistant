@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T05:23:56.054444+00:00",
+  "as_of": "2026-08-12T06:13:06.012172+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -17,13 +17,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "066570",
-      "name": "LG전자",
+      "code": "402340",
+      "name": "SK스퀘어",
       "market": "KOSPI"
     },
     {
-      "code": "402340",
-      "name": "SK스퀘어",
+      "code": "066570",
+      "name": "LG전자",
       "market": "KOSPI"
     },
     {
@@ -37,13 +37,13 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "002990",
-      "name": "금호건설",
+      "code": "006340",
+      "name": "대원전선",
       "market": "KOSPI"
     },
     {
-      "code": "006340",
-      "name": "대원전선",
+      "code": "002990",
+      "name": "금호건설",
       "market": "KOSPI"
     },
     {
@@ -62,13 +62,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "483350",
-      "name": "딜리셔스",
-      "market": "KOSDAQ"
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "market": "KOSPI"
     },
     {
-      "code": "080220",
-      "name": "제주반도체",
+      "code": "483350",
+      "name": "딜리셔스",
       "market": "KOSDAQ"
     },
     {
@@ -77,19 +77,29 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
+      "code": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "011070",
       "name": "LG이노텍",
       "market": "KOSPI"
     },
     {
-      "code": "278470",
-      "name": "에이피알",
+      "code": "068270",
+      "name": "셀트리온",
       "market": "KOSPI"
     },
     {
       "code": "222800",
       "name": "심텍",
       "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "KOSPI"
     },
     {
       "code": "035420",
@@ -107,23 +117,18 @@
       "market": "KOSPI"
     },
     {
-      "code": "068270",
-      "name": "셀트리온",
+      "code": "005380",
+      "name": "현대차",
+      "market": "KOSPI"
+    },
+    {
+      "code": "009830",
+      "name": "한화솔루션",
       "market": "KOSPI"
     },
     {
       "code": "034020",
       "name": "두산에너빌리티",
-      "market": "KOSPI"
-    },
-    {
-      "code": "064400",
-      "name": "LG씨엔에스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
       "market": "KOSPI"
     },
     {
@@ -137,18 +142,13 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "009830",
-      "name": "한화솔루션",
+      "code": "064400",
+      "name": "LG씨엔에스",
       "market": "KOSPI"
     },
     {
-      "code": "024840",
-      "name": "KBI메탈",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "103590",
-      "name": "일진전기",
+      "code": "329180",
+      "name": "HD현대중공업",
       "market": "KOSPI"
     },
     {
@@ -359,16 +359,100 @@
   ],
   "news": [
     {
+      "title": "Sen. Darline Graham advances to Republican special primary runoff in South Carolina",
+      "link": "https://www.cnbc.com/2026/08/11/primary-election-wisconsin-minnesota-south-carolina-democrats-hong-flanagan-craig.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T06:09:57+00:00"
+    },
+    {
+      "title": "경남형 장애인 동행일자리 1호 농업회사법인 '태장' 창원서 개소",
+      "link": "https://www.yna.co.kr/view/AKR20260812048100052",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T06:05:00+00:00"
+    },
+    {
+      "title": "농식품부, 농업 분야 폭염 안전수칙 준수 캠페인 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260812107000030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T06:00:00+00:00"
+    },
+    {
+      "title": "Houthi attack kills six in first fatalities in Red Sea in over a year; U.S. strikes container ship",
+      "link": "https://www.cnbc.com/2026/08/12/us-iran-war-trump-hormuz-houthi-attack-blockade-.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T05:58:30+00:00"
+    },
+    {
+      "title": "與당권주자 송영길 “대통령 지지율 하락 핵심은 부동산...1조 부동산 세수에 목숨걸 이유없어”",
+      "link": "https://www.mk.co.kr/news/economy/12125328",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T05:56:39+00:00"
+    },
+    {
+      "title": "1인당 30만원 지원금 제동 당진시, '민생 살리기 50일' 비상조치",
+      "link": "https://www.yna.co.kr/view/AKR20260812106300063",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T05:52:46+00:00"
+    },
+    {
+      "title": "롯데건설 2분기 영업익 1천224억원…작년 대비 230%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260812106600003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T05:50:13+00:00"
+    },
+    {
+      "title": "[게시판] 정진완 우리은행장, 포용금융 릴레이 캠페인 참여",
+      "link": "https://www.yna.co.kr/view/AKR20260812104800002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T05:44:35+00:00"
+    },
+    {
+      "title": "[개장] 뉴욕증시, 다시 막힌 호르무 해협에 하락..알파벳 3.8%↓ By 알파경제 alphabiz - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FanVQUEFUcVhQZGx0b3YyRDVCYU1sX3Itc2JtdWNzYV9fSXB1R3ZPalE3TXdfb0NybXpCVXliN2RiM0J6UTNNWVNnbzdOSnljMWVka20tRFFSc0RLLWg0NnRBdXBBdzdmSHloNXc0bng?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T05:39:00+00:00"
+    },
+    {
+      "title": "[연금절세 따라잡기] 국내증시 쓴맛 본 개인…6월부터 서학개미로 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55WnRDTTN0SnA1aVlwSHRlWU40M1hmX0VXTVJOZEgtbC1fRVZZX0JfWko3bjd0RkFER1RKblJWWFlReDFaWmdwSk50S0c3UjQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T05:34:00+00:00"
+    },
+    {
+      "title": "오세훈, 청년들 만나 \"집 때문에 서울 떠나지 않게 하겠다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812076300004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T05:30:00+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
+      "link": "https://www.yna.co.kr/view/AKR20260812095900011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T05:30:00+00:00"
+    },
+    {
+      "title": "[게시판] 무협, 9월 8일 한-우간다 무역 투자 포럼",
+      "link": "https://www.yna.co.kr/view/AKR20260812101600003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T05:27:43+00:00"
+    },
+    {
+      "title": "[셀럽의 한 수] 뉴욕증시 이틀 연속 하락…'호르무즈 낙관론' 실종 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9hMHVlMFBNTnhaaWtLdHBGSVhuOFJqaU01RE5FeTVqRDlybE5VUy1GNzVUcHZieUpkRGlqQk9oUWtwdHFpeU80WUk2cTVpUUU?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T05:27:18+00:00"
+    },
+    {
+      "title": "온코닉테라퓨틱스 상반기 영업이익 74억원…174%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260812099100017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T05:21:56+00:00"
+    },
+    {
       "title": "[게시판] 서금원·서울복지재단, 청년 자산형성 지원 업무협약",
       "link": "https://www.yna.co.kr/view/AKR20260812094400002",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T05:16:27+00:00"
-    },
-    {
-      "title": "Houthi attack kills six in first fatalities in Red Sea in over a year; U.S. strikes containership",
-      "link": "https://www.cnbc.com/2026/08/12/us-iran-war-trump-hormuz-houthi-attack-blockade-.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T05:10:36+00:00"
     },
     {
       "title": "본사 이전 앞두고 인천 품는 하나금융…시니어·고령층 위한 ‘하나 행복드림버스’ 가동",
@@ -419,22 +503,10 @@
       "published": "2026-08-12T04:57:16+00:00"
     },
     {
-      "title": "Oil prices rise as Red Sea, Gulf of Oman attacks heighten supply concerns",
-      "link": "https://www.cnbc.com/2026/08/12/oil-prices-today-wti-brent-red-sea.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T04:56:36+00:00"
-    },
-    {
       "title": "중랑구 사가정역 공공주택 복합사업계획 승인…1천300세대 공급",
       "link": "https://www.yna.co.kr/view/AKR20260812092200004",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T04:52:13+00:00"
-    },
-    {
-      "title": "Sen. Darline Graham advances to Republican special primary runoff in South Carolina",
-      "link": "https://www.cnbc.com/2026/08/11/primary-election-wisconsin-minnesota-south-carolina-democrats-hong-flanagan-craig.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T04:51:12+00:00"
     },
     {
       "title": "외국인 보유 스테이블코인으로 국내가맹점서 결제…BC카드, 실증사업 완료",
@@ -473,10 +545,10 @@
       "published": "2026-08-12T04:13:00+00:00"
     },
     {
-      "title": "[단독]싱가포르 테마섹, 삼전닉스 담는다…'K증시 첫 투자' - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6X0N1a3FTQW1Ha1hpajliWGFTc21Bc3BuZjM4ZkZ3aVBXbTJsZ2Z1eGtBM0NuMGJYaWdnSjVQcjVIalhTb0JFSXlnTThRRFZtNm1GYVhRZWN0WC1MUk44eQ?oc=5",
+      "title": "[뉴스프레소] 뉴욕증시, 3대 지수 내리고 러셀2000 상승… 금융까지 장악한 엔비디아 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWd0NsdmJPcW9LSEpUNExpekllN2lEWW9WdEI2Q29MUFlhUzU0am5rM2ZCU1pmSFRNQzFTWkZWeHJZbFF1VXhYY25ULUsxWXhmX3RlWjNzRGM1ZkRyOU4zZHVXbXVzT0FD0gFuQVVfeXFMTTNEcDYzT3hyX0hFM3VYMmJ6Nk5QUU5NX2RnXzgxaHpEb0NxSjBLUzVOX2Z2ZFdjcmpjRVBzZGZ0VDZWSEp2UkZ4MGpiYUlnb0lkWXNSVlYxamxjZ3JHSHZoQTRRSWtZd3E1OUFnb3c?oc=5",
       "source": "Google News",
-      "published": "2026-08-12T03:59:52+00:00"
+      "published": "2026-08-12T04:05:57+00:00"
     },
     {
       "title": "Why the historic U.S.-Japan intervention has failed to halt the yen’s slide",
@@ -513,6 +585,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260812082000008",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T03:09:19+00:00"
+    },
+    {
+      "title": "월가의 공격적 전망마저 압도한 실적…이제는 '수익화'로 증시 랠리 시험대 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GTXg5b0pmN0QyQjE3WTRRN1AxelMtb1oyaVc0b2lZYUJXQi02R0p0Ti1qRFFsTW9lYS1pSVlTQzBZVUVnTTRPTThEWGRhYUpTbHFVMjZkdlFnUDAy?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T03:03:00+00:00"
     },
     {
       "title": "국정원 9급 공채 20대만 가능…인권위 \"나이 편견에 근거한 차별\"",
@@ -579,84 +657,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260812078700008",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T02:42:44+00:00"
-    },
-    {
-      "title": "거주주택 매도 5년내 비과세 혜택도 못받나…임대사업자 반발",
-      "link": "https://www.yna.co.kr/view/AKR20260812070100003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T02:37:35+00:00"
-    },
-    {
-      "title": "불법사금융 '수사부터 피해 지원까지'…경찰, 원스톱 대응 강화",
-      "link": "https://www.yna.co.kr/view/AKR20260812077200004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T02:31:49+00:00"
-    },
-    {
-      "title": "올해 보세사 시험 560명 합격…10명 중 7명 2030대",
-      "link": "https://www.yna.co.kr/view/AKR20260812076100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T02:27:04+00:00"
-    },
-    {
-      "title": "美 7월 CPI에 쏠린 눈…\"둔화 시 코스피 반등 계기될 수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812073500008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T02:23:44+00:00"
-    },
-    {
-      "title": "日증시, 美 CPI 발표 앞두고 혼조 개장 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xM19VdVdlQzQ2Z29WRGt6bGg3WlJoTFVwUFdGWFd1YXRnLXFrQjAxX09JdEllVTVaSmJnZWtUUnhFLWtCWUZUbl8zbjhfTTI4dE0zajc3TGlCYUFiRXRGeHhLS1J0V3c5MWdmcmpiMHQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T02:23:03+00:00"
-    },
-    {
-      "title": "“우리는 대출받기 참 어려운데”…한국은행, 직원 150명에 60억원 주택대출",
-      "link": "https://www.mk.co.kr/news/economy/12125121",
-      "source": "매일경제·증권",
-      "published": "2026-08-12T02:20:36+00:00"
-    },
-    {
-      "title": "정관장, 면세점 전용 '궁정비차 트리플 어쏘티드' 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260812073900030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T02:19:51+00:00"
-    },
-    {
-      "title": "\"기업 내부회계, 수작업 대신 AI로\"…삼정KPMG 특화 솔루션 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260812065700002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T02:19:33+00:00"
-    },
-    {
-      "title": "인천시, 공공지출 고강도 구조조정 예고…\"부진 사업 재조정\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812073100065",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T02:17:26+00:00"
-    },
-    {
-      "title": "반도체 힘받자 코스피 3%대로 상승 확대…코스닥은 약보합",
-      "link": "https://www.yna.co.kr/view/AKR20260812072000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T02:16:06+00:00"
-    },
-    {
-      "title": "길음역세권에 최고 29층·574세대 공급…장기전세주택 포함",
-      "link": "https://www.yna.co.kr/view/AKR20260812034800004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T02:15:02+00:00"
-    },
-    {
-      "title": "60년 전 강남·여의도 조성계획 한눈에…서울역사박물관 특별전",
-      "link": "https://www.yna.co.kr/view/AKR20260812040300004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T02:15:02+00:00"
-    },
-    {
-      "title": "서울시 주택공급 '속도전' 위해 규제 2건 철폐…공사비 검증의무 등",
-      "link": "https://www.yna.co.kr/view/AKR20260812049000004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T02:15:01+00:00"
     }
   ],
   "pages": [
