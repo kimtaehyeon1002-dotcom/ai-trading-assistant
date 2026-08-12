@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-13T08:20:14.577157+09:00",
+  "generated_at": "2026-08-13T08:20:54.831768+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-08-13T08:19:14.387855+09:00",
+      "last_built": "2026-08-13T08:20:43.628494+09:00",
       "expected_T_min": 30,
       "items": 1,
-      "duration_ms": 7
+      "duration_ms": 1
     },
     "Asset Kiwoom": {
       "status": "completed",
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-08-13T08:19:14.808327+09:00",
+      "last_built": "2026-08-13T08:20:43.760162+09:00",
       "expected_T_min": 30,
       "items": 26,
-      "duration_ms": 1747
+      "duration_ms": 8123
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,38 +52,38 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-08-13T08:20:14.512171+09:00",
+      "last_built": "2026-08-13T08:20:43.758649+09:00",
       "expected_T_min": 30,
       "items": 28,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-08-13T08:19:16.556332+09:00",
+      "last_built": "2026-08-13T08:20:51.884920+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 6082
+      "duration_ms": 2879
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-08-13T08:19:22.683166+09:00",
+      "last_built": "2026-08-13T08:20:54.770017+09:00",
       "expected_T_min": 30,
-      "items": 400,
-      "duration_ms": 42072
+      "items": 180,
+      "duration_ms": 0
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-08-13T08:20:14.559839+09:00",
+      "last_built": "2026-08-13T08:20:54.816802+09:00",
       "expected_T_min": 30,
       "items": 3,
       "duration_ms": 0
     },
     "Trade Manager": {
       "status": "completed",
-      "last_built": "2026-08-13T08:19:14.491478+09:00",
+      "last_built": "2026-08-13T08:20:43.698716+09:00",
       "expected_T_min": null,
       "items": 55,
-      "duration_ms": 3
+      "duration_ms": 0
     },
     "Theme Analyst": {
       "status": "completed",
@@ -164,10 +164,10 @@
     },
     "Loop Ledger": {
       "status": "completed",
-      "last_built": "2026-08-13T08:19:14.772122+09:00",
+      "last_built": "2026-08-13T08:20:43.758675+09:00",
       "expected_T_min": 30,
       "items": 2,
-      "duration_ms": 46
+      "duration_ms": 1
     }
   }
 }

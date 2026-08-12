@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI Trading Assistant</title>
-  <link rel="stylesheet" href="./static/css/tokens.css?v=5c8c5dac">
-  <link rel="stylesheet" href="./static/css/base_v2.css?v=5c8c5dac">
-  <link rel="stylesheet" href="./static/css/components.css?v=5c8c5dac">
+  <link rel="stylesheet" href="./static/css/tokens.css?v=0d9f5924">
+  <link rel="stylesheet" href="./static/css/base_v2.css?v=0d9f5924">
+  <link rel="stylesheet" href="./static/css/components.css?v=0d9f5924">
   <script>(function(){try{
     var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
     var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
@@ -70,12 +70,48 @@ aria-current="page">Dashboard</a>
       <span class="v2-card__meta">2026-08-13 08:20 KST</span>
     </div>
   </div>
+  <div class="v2-hero-headline">미국 3대 지수 혼조 마감 · 코스피 ▲ 3.68%</div>
   <div class="v2-hero-cols">
     <div class="v2-hero-col">
       <div class="v2-overline">미국 증시</div>
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">S&amp;P500</span>
+        <span>
+          <span class="v2-stat__value">7,748</span>
+          <span class="v2-updown up">▲ +0.26%</span>
+        </span>
+      </div>
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">NASDAQ</span>
+        <span>
+          <span class="v2-stat__value">26,588</span>
+          <span class="v2-updown up">▲ +0.54%</span>
+        </span>
+      </div>
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">DOW</span>
+        <span>
+          <span class="v2-stat__value">53,770</span>
+          <span class="v2-updown down">▼ −0.04%</span>
+        </span>
+      </div>
     </div>
     <div class="v2-hero-col">
       <div class="v2-overline">한국 증시</div>
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">KOSPI</span>
+        <span>
+          <span class="v2-stat__value">6,579</span>
+          <span class="v2-updown up">▲ +3.68%</span>
+        </span>
+      </div>
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">KOSDAQ</span>
+        <span>
+          <span class="v2-stat__value">858.91</span>
+          <span class="v2-updown up">▲ +0.12%</span>
+        </span>
+      </div>
     </div>
     <div class="v2-hero-col">
       <div class="v2-overline">전일 핵심 뉴스</div>
@@ -111,12 +147,18 @@ aria-current="page">Dashboard</a>
   </div>
   <div class="v2-tile-grid">
     <div class="v2-tile">
-      <div class="v2-tile__label">—</div>
-      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+      <div class="v2-tile__label">KOSPI</div>
+      <div class="v2-tile__value">6,579</div>
+      <div class="v2-tile__change v2-updown up">▲ +3.68%</div>
+      <div class="v2-tile__asof">
+        08-13 08:20      </div>
     </div>
     <div class="v2-tile">
-      <div class="v2-tile__label">—</div>
-      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+      <div class="v2-tile__label">KOSDAQ</div>
+      <div class="v2-tile__value">858.91</div>
+      <div class="v2-tile__change v2-updown up">▲ +0.12%</div>
+      <div class="v2-tile__asof">
+        08-13 08:20      </div>
     </div>
     <div class="v2-tile">
       <div class="v2-tile__label">—</div>
@@ -131,7 +173,7 @@ aria-current="page">Dashboard</a>
       <div class="v2-tile__value">1,417</div>
       <div class="v2-tile__change v2-updown up">▲ +0.02%</div>
       <div class="v2-tile__asof">
-        08-13 08:19      </div>
+        08-13 08:20      </div>
     </div>
   </div>
 
@@ -144,20 +186,32 @@ aria-current="page">Dashboard</a>
   </div>
   <div class="v2-tile-grid">
     <div class="v2-tile">
-      <div class="v2-tile__label">—</div>
-      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+      <div class="v2-tile__label">S&amp;P500</div>
+      <div class="v2-tile__value">7,748</div>
+      <div class="v2-tile__change v2-updown up">▲ +0.26%</div>
+      <div class="v2-tile__asof">
+        08-13 08:20      </div>
     </div>
     <div class="v2-tile">
-      <div class="v2-tile__label">—</div>
-      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+      <div class="v2-tile__label">NASDAQ</div>
+      <div class="v2-tile__value">26,588</div>
+      <div class="v2-tile__change v2-updown up">▲ +0.54%</div>
+      <div class="v2-tile__asof">
+        08-13 08:20      </div>
     </div>
     <div class="v2-tile">
-      <div class="v2-tile__label">—</div>
-      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+      <div class="v2-tile__label">DOW</div>
+      <div class="v2-tile__value">53,770</div>
+      <div class="v2-tile__change v2-updown down">▼ −0.04%</div>
+      <div class="v2-tile__asof">
+        08-13 08:20      </div>
     </div>
     <div class="v2-tile">
-      <div class="v2-tile__label">—</div>
-      <div class="v2-tile__value v2-tile__value--empty">데이터 없음</div>
+      <div class="v2-tile__label">VIX</div>
+      <div class="v2-tile__value">14.55</div>
+      <div class="v2-tile__change v2-updown down">▼ −4.78%</div>
+      <div class="v2-tile__asof">
+        08-13 08:20      </div>
     </div>
   </div>
 
@@ -246,10 +300,10 @@ aria-current="page">Dashboard</a>
     </div>
   </main>
   <div class="v2-panel-slot" id="panel-slot"></div>
-  <script src="./static/js/store.js?v=5c8c5dac" defer></script>
-  <script src="./static/js/stockhub.js?v=5c8c5dac" defer></script>
-  <script src="./static/js/search.js?v=5c8c5dac" defer></script>
-  <script src="./static/js/chart.js?v=5c8c5dac" defer></script>
-<script src="./static/js/updown.js?v=5c8c5dac" defer></script>
+  <script src="./static/js/store.js?v=0d9f5924" defer></script>
+  <script src="./static/js/stockhub.js?v=0d9f5924" defer></script>
+  <script src="./static/js/search.js?v=0d9f5924" defer></script>
+  <script src="./static/js/chart.js?v=0d9f5924" defer></script>
+<script src="./static/js/updown.js?v=0d9f5924" defer></script>
 </body>
 </html>
