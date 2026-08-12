@@ -4,12 +4,12 @@
   "market": "US",
   "theme": "반도체",
   "quote": {
-    "close": 474.32000732421875,
-    "change_pct": 1.01,
-    "volume": 18008700,
-    "amount": 8541886715.899658,
+    "close": 482.92999267578125,
+    "change_pct": 1.82,
+    "volume": 17829871,
+    "amount": 8610579471.440125,
     "marcap": null,
-    "as_of_iso": "2026-08-12T08:02:00.822972+00:00",
+    "as_of_iso": "2026-08-12T22:27:41.463075+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "AMD",

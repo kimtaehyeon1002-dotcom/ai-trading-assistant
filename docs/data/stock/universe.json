@@ -125,13 +125,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "475150",
-    "name": "SK이터닉스",
+    "code": "009830",
+    "name": "한화솔루션",
     "market": "KOSPI"
   },
   {
-    "code": "009830",
-    "name": "한화솔루션",
+    "code": "475150",
+    "name": "SK이터닉스",
     "market": "KOSPI"
   },
   {
@@ -140,14 +140,14 @@
     "market": "KOSPI"
   },
   {
-    "code": "196170",
-    "name": "알테오젠",
-    "market": "KOSDAQ GLOBAL"
-  },
-  {
     "code": "010170",
     "name": "대한광통신",
     "market": "KOSDAQ"
+  },
+  {
+    "code": "196170",
+    "name": "알테오젠",
+    "market": "KOSDAQ GLOBAL"
   },
   {
     "code": "MU",
@@ -180,18 +180,8 @@
     "market": "US"
   },
   {
-    "code": "GOOGL",
-    "name": "Alphabet Inc. (Class A)",
-    "market": "US"
-  },
-  {
-    "code": "AMZN",
-    "name": "Amazon",
-    "market": "US"
-  },
-  {
-    "code": "AMD",
-    "name": "Advanced Micro Devices",
+    "code": "LITE",
+    "name": "Lumentum",
     "market": "US"
   },
   {
@@ -205,23 +195,18 @@
     "market": "US"
   },
   {
-    "code": "PLTR",
-    "name": "Palantir Technologies",
+    "code": "AMD",
+    "name": "Advanced Micro Devices",
     "market": "US"
   },
   {
-    "code": "GOOG",
-    "name": "Alphabet Inc. (Class C)",
+    "code": "GOOGL",
+    "name": "Alphabet Inc. (Class A)",
     "market": "US"
   },
   {
-    "code": "AVGO",
-    "name": "Broadcom",
-    "market": "US"
-  },
-  {
-    "code": "LITE",
-    "name": "Lumentum",
+    "code": "AMZN",
+    "name": "Amazon",
     "market": "US"
   },
   {
@@ -230,8 +215,23 @@
     "market": "US"
   },
   {
-    "code": "AMAT",
-    "name": "Applied Materials",
+    "code": "SMCI",
+    "name": "Supermicro",
+    "market": "US"
+  },
+  {
+    "code": "PLTR",
+    "name": "Palantir Technologies",
+    "market": "US"
+  },
+  {
+    "code": "AVGO",
+    "name": "Broadcom",
+    "market": "US"
+  },
+  {
+    "code": "GOOG",
+    "name": "Alphabet Inc. (Class C)",
     "market": "US"
   },
   {
@@ -240,13 +240,8 @@
     "market": "US"
   },
   {
-    "code": "SMCI",
-    "name": "Supermicro",
-    "market": "US"
-  },
-  {
-    "code": "WDC",
-    "name": "Western Digital",
+    "code": "CSCO",
+    "name": "Cisco",
     "market": "US"
   },
   {
@@ -255,8 +250,18 @@
     "market": "US"
   },
   {
-    "code": "LLY",
-    "name": "Lilly (Eli)",
+    "code": "COHR",
+    "name": "Coherent Corp.",
+    "market": "US"
+  },
+  {
+    "code": "AMAT",
+    "name": "Applied Materials",
+    "market": "US"
+  },
+  {
+    "code": "DELL",
+    "name": "Dell Technologies",
     "market": "US"
   },
   {
@@ -265,8 +270,13 @@
     "market": "US"
   },
   {
-    "code": "BRK-B",
-    "name": "Berkshire Hathaway",
+    "code": "WDC",
+    "name": "Western Digital",
+    "market": "US"
+  },
+  {
+    "code": "WMT",
+    "name": "Walmart",
     "market": "US"
   },
   {
@@ -275,28 +285,18 @@
     "market": "US"
   },
   {
-    "code": "PANW",
-    "name": "Palo Alto Networks",
-    "market": "US"
-  },
-  {
     "code": "CRM",
     "name": "Salesforce",
     "market": "US"
   },
   {
-    "code": "XOM",
-    "name": "ExxonMobil",
+    "code": "BRK-B",
+    "name": "Berkshire Hathaway",
     "market": "US"
   },
   {
-    "code": "COHR",
-    "name": "Coherent Corp.",
-    "market": "US"
-  },
-  {
-    "code": "DELL",
-    "name": "Dell Technologies",
+    "code": "ANET",
+    "name": "Arista Networks",
     "market": "US"
   },
   {
@@ -323,6 +323,11 @@
     "code": "207940",
     "name": "삼성바이오로직스",
     "market": "KRX"
+  },
+  {
+    "code": "LLY",
+    "name": "Eli Lilly",
+    "market": "NYSE"
   },
   {
     "code": "NVO",

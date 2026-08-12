@@ -4,12 +4,12 @@
   "market": "NYSE",
   "theme": "반도체",
   "quote": {
-    "close": 422.05999755859375,
-    "change_pct": 0.86,
-    "volume": 9684100,
-    "amount": 4087271222.3571777,
+    "close": 429.1499938964844,
+    "change_pct": 1.68,
+    "volume": 8375025,
+    "amount": 3594141927.632904,
     "marcap": null,
-    "as_of_iso": "2026-08-12T08:02:00.823128+00:00",
+    "as_of_iso": "2026-08-12T22:27:41.463222+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "TSM",

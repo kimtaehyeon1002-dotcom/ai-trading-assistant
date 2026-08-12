@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 437.92999267578125,
-    "change_pct": -0.09,
-    "volume": 6087000,
-    "amount": 2665679865.4174805,
+    "close": 454.1000061035156,
+    "change_pct": 3.69,
+    "volume": 5694435,
+    "amount": 2585842968.256073,
     "marcap": null,
-    "as_of_iso": "2026-08-12T08:02:00.823049+00:00",
+    "as_of_iso": "2026-08-12T22:27:41.463180+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "WDC",
