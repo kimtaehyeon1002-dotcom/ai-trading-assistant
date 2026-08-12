@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-12T23:13:44.212017+09:00",
+  "updated_at": "2026-08-12T23:23:42.407793+09:00",
   "workers": {
     "Vault Sync": {
       "worker": "Vault Sync",
-      "last_run": "2026-08-12T23:13:22.704032+09:00",
+      "last_run": "2026-08-12T23:23:29.114967+09:00",
       "status": "completed",
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-08-12T23:13:23.904494+09:00",
+      "last_run": "2026-08-12T23:23:34.405535+09:00",
       "status": "completed",
       "items": 26,
-      "duration_ms": 9415
+      "duration_ms": 7955
     },
     "Asset Publish": {
       "worker": "Asset Publish",
@@ -54,24 +54,24 @@
     "Vault Journal": {
       "worker": "Vault Journal",
       "status": "completed",
-      "items": 0,
+      "items": 1,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-08-12T23:13:33.906937+09:00"
+      "last_run": "2026-08-12T23:23:34.404039+09:00"
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-08-12T23:13:33.909444+09:00",
+      "last_run": "2026-08-12T23:23:29.190530+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 5449
+      "duration_ms": 4514
     },
     "Translator": {
       "worker": "Translator",
-      "last_run": "2026-08-12T23:13:39.365693+09:00",
+      "last_run": "2026-08-12T23:23:33.711700+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 4801
+      "duration_ms": 511
     },
     "Publisher": {
       "worker": "Publisher",
@@ -79,7 +79,7 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-08-12T23:13:44.211894+09:00"
+      "last_run": "2026-08-12T23:23:42.407652+09:00"
     },
     "Trade Manager": {
       "worker": "Trade Manager",
@@ -167,7 +167,7 @@
     },
     "Loop Ledger": {
       "worker": "Loop Ledger",
-      "last_run": "2026-08-12T23:13:33.906966+09:00",
+      "last_run": "2026-08-12T23:23:34.404069+09:00",
       "status": "completed",
       "items": 2,
       "duration_ms": 1
