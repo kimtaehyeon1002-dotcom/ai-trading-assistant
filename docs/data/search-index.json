@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T03:54:45.358881+00:00",
+  "as_of": "2026-08-12T04:06:26.466934+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -17,28 +17,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "market": "KOSPI"
-    },
-    {
-      "code": "002990",
-      "name": "금호건설",
-      "market": "KOSPI"
-    },
-    {
       "code": "066570",
       "name": "LG전자",
       "market": "KOSPI"
     },
     {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "006340",
-      "name": "대원전선",
+      "code": "402340",
+      "name": "SK스퀘어",
       "market": "KOSPI"
     },
     {
@@ -47,9 +32,19 @@
       "market": "KOSPI"
     },
     {
-      "code": "483350",
-      "name": "딜리셔스",
-      "market": "KOSDAQ"
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "002990",
+      "name": "금호건설",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006340",
+      "name": "대원전선",
+      "market": "KOSPI"
     },
     {
       "code": "161890",
@@ -57,14 +52,44 @@
       "market": "KOSPI"
     },
     {
+      "code": "257720",
+      "name": "실리콘투",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "006400",
       "name": "삼성SDI",
       "market": "KOSPI"
     },
     {
+      "code": "483350",
+      "name": "딜리셔스",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "080220",
       "name": "제주반도체",
       "market": "KOSDAQ"
+    },
+    {
+      "code": "240810",
+      "name": "원익IPS",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "market": "KOSPI"
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "KOSPI"
+    },
+    {
+      "code": "222800",
+      "name": "심텍",
+      "market": "KOSDAQ GLOBAL"
     },
     {
       "code": "035420",
@@ -77,58 +102,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "010170",
-      "name": "대한광통신",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "103590",
-      "name": "일진전기",
-      "market": "KOSPI"
-    },
-    {
-      "code": "000270",
-      "name": "기아",
-      "market": "KOSPI"
-    },
-    {
-      "code": "017900",
-      "name": "광전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "257720",
-      "name": "실리콘투",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "240810",
-      "name": "원익IPS",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "024840",
-      "name": "KBI메탈",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "196170",
-      "name": "알테오젠",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "222800",
-      "name": "심텍",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
       "code": "192820",
       "name": "코스맥스",
       "market": "KOSPI"
     },
     {
-      "code": "009830",
-      "name": "한화솔루션",
+      "code": "068270",
+      "name": "셀트리온",
       "market": "KOSPI"
     },
     {
@@ -137,19 +117,39 @@
       "market": "KOSPI"
     },
     {
-      "code": "329180",
-      "name": "HD현대중공업",
+      "code": "064400",
+      "name": "LG씨엔에스",
       "market": "KOSPI"
     },
     {
-      "code": "011070",
-      "name": "LG이노텍",
+      "code": "005380",
+      "name": "현대차",
       "market": "KOSPI"
     },
     {
-      "code": "079650",
-      "name": "서산",
+      "code": "196170",
+      "name": "알테오젠",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "010170",
+      "name": "대한광통신",
       "market": "KOSDAQ"
+    },
+    {
+      "code": "009830",
+      "name": "한화솔루션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "024840",
+      "name": "KBI메탈",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "103590",
+      "name": "일진전기",
+      "market": "KOSPI"
     },
     {
       "code": "MU",
@@ -187,23 +187,23 @@
       "market": "US"
     },
     {
-      "code": "AMD",
-      "name": "Advanced Micro Devices",
-      "market": "US"
-    },
-    {
       "code": "AMZN",
       "name": "Amazon",
       "market": "US"
     },
     {
-      "code": "TSLA",
-      "name": "Tesla, Inc.",
+      "code": "AMD",
+      "name": "Advanced Micro Devices",
       "market": "US"
     },
     {
       "code": "META",
       "name": "Meta Platforms",
+      "market": "US"
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla, Inc.",
       "market": "US"
     },
     {
@@ -237,13 +237,28 @@
       "market": "US"
     },
     {
+      "code": "MRVL",
+      "name": "Marvell Technology",
+      "market": "US"
+    },
+    {
+      "code": "SMCI",
+      "name": "Supermicro",
+      "market": "US"
+    },
+    {
+      "code": "WDC",
+      "name": "Western Digital",
+      "market": "US"
+    },
+    {
       "code": "STX",
       "name": "Seagate Technology",
       "market": "US"
     },
     {
-      "code": "MRVL",
-      "name": "Marvell Technology",
+      "code": "LLY",
+      "name": "Lilly (Eli)",
       "market": "US"
     },
     {
@@ -257,11 +272,6 @@
       "market": "US"
     },
     {
-      "code": "WDC",
-      "name": "Western Digital",
-      "market": "US"
-    },
-    {
       "code": "LRCX",
       "name": "Lam Research",
       "market": "US"
@@ -272,33 +282,23 @@
       "market": "US"
     },
     {
+      "code": "CRM",
+      "name": "Salesforce",
+      "market": "US"
+    },
+    {
+      "code": "XOM",
+      "name": "ExxonMobil",
+      "market": "US"
+    },
+    {
+      "code": "COHR",
+      "name": "Coherent Corp.",
+      "market": "US"
+    },
+    {
       "code": "DELL",
       "name": "Dell Technologies",
-      "market": "US"
-    },
-    {
-      "code": "NFLX",
-      "name": "Netflix",
-      "market": "US"
-    },
-    {
-      "code": "SMCI",
-      "name": "Supermicro",
-      "market": "US"
-    },
-    {
-      "code": "CSCO",
-      "name": "Cisco",
-      "market": "US"
-    },
-    {
-      "code": "WMT",
-      "name": "Walmart",
-      "market": "US"
-    },
-    {
-      "code": "LLY",
-      "name": "Lilly (Eli)",
       "market": "US"
     },
     {
@@ -327,18 +327,13 @@
       "market": "KRX"
     },
     {
-      "code": "068270",
-      "name": "셀트리온",
-      "market": "KRX"
-    },
-    {
       "code": "NVO",
       "name": "Novo Nordisk",
       "market": "NYSE"
     },
     {
-      "code": "005380",
-      "name": "현대차",
+      "code": "000270",
+      "name": "기아",
       "market": "KRX"
     },
     {
@@ -364,6 +359,12 @@
   ],
   "news": [
     {
+      "title": "[단독]싱가포르 테마섹, 삼전닉스 담는다…'K증시 첫 투자' - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6X0N1a3FTQW1Ha1hpajliWGFTc21Bc3BuZjM4ZkZ3aVBXbTJsZ2Z1eGtBM0NuMGJYaWdnSjVQcjVIalhTb0JFSXlnTThRRFZtNm1GYVhRZWN0WC1MUk44eQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T03:59:52+00:00"
+    },
+    {
       "title": "Why the historic U.S.-Japan intervention has failed to halt the yen’s slide",
       "link": "https://www.cnbc.com/2026/08/12/japan-yen-us-dollar-intervention-.html",
       "source": "CNBC Finance",
@@ -382,7 +383,7 @@
       "published": "2026-08-12T03:24:05+00:00"
     },
     {
-      "title": "오늘의 증시 - MBC 뉴스",
+      "title": "오늘의 증시 - imnews.imbc.com",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xV0FqNUF0ck5zZUlHLVo0TFg0UHBMRHRPNVBLakNPQ0g3cFRyX3Bqa2lUXzFaOU92Vi1VWFF2eWkwWVpSRFdmX25nLXJ5dmgzR3lvMXlmOXUwa3VSa2d1NGVnS01CeENBOW1xbUN2cy1raFlndDZ4UA?oc=5",
       "source": "Google News",
       "published": "2026-08-12T03:21:15+00:00"
@@ -482,12 +483,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XeXAyd1Zha0x4ejdtdkRFMkg0WENHLUVQb0RiRmdaSk5WZDBvNFc4NEhOSGJxRnVNOVQ0SjFHbVRrVUtJY3BBUklFdXV5RUk?oc=5",
       "source": "Google News",
       "published": "2026-08-12T02:36:57+00:00"
-    },
-    {
-      "title": "[단독]싱가포르 테마섹, 삼전닉스 담는다…'K증시 첫 투자' - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6X0N1a3FTQW1Ha1hpajliWGFTc21Bc3BuZjM4ZkZ3aVBXbTJsZ2Z1eGtBM0NuMGJYaWdnSjVQcjVIalhTb0JFSXlnTThRRFZtNm1GYVhRZWN0WC1MUk44eQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T02:35:00+00:00"
     },
     {
       "title": "불법사금융 '수사부터 피해 지원까지'…경찰, 원스톱 대응 강화",

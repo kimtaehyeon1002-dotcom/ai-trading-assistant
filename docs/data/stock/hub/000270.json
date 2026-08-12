@@ -1,15 +1,15 @@
 {
   "code": "000270",
   "name": "기아",
-  "market": "KOSPI",
+  "market": "KRX",
   "theme": "자동차",
   "quote": {
-    "close": 135800.0,
-    "change_pct": 1.12,
-    "volume": 398121,
-    "amount": 54137571900.0,
-    "marcap": 53018085128400.0,
-    "as_of_iso": "2026-08-12T01:46:32.881243+00:00",
+    "close": 136300.0,
+    "change_pct": 1.49,
+    "volume": 552677,
+    "amount": 75226358750.0,
+    "marcap": 53213291627400.0,
+    "as_of_iso": "2026-08-12T04:06:15.724470+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:000270",

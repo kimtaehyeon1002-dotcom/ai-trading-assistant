@@ -1,0 +1,17 @@
+{
+  "code": "064400",
+  "name": "LG씨엔에스",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 78200.0,
+    "change_pct": 3.44,
+    "volume": 1234011,
+    "amount": 95509709750.0,
+    "marcap": 7576481133600.0,
+    "as_of_iso": "2026-08-12T04:06:15.724174+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:064400",
+  "related_news": []
+}
