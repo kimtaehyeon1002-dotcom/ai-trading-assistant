@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T21:35:09.666067+00:00",
+  "as_of": "2026-08-12T21:37:35.075802+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -354,6 +354,12 @@
   ],
   "news": [
     {
+      "title": "Small investors became a major stock market force. Now, they risk getting pushed back into the dark",
+      "link": "https://www.cnbc.com/2026/08/12/retail-investors-truthapi-earnings-trump.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T21:37:18+00:00"
+    },
+    {
       "title": "Trump says Karoline Leavitt resigning as White House press secretary",
       "link": "https://www.cnbc.com/2026/08/12/trump-white-house-karoline-leavitt-resigning-.html",
       "source": "CNBC Finance",
@@ -646,12 +652,6 @@
       "link": "https://www.cnbc.com/2026/08/12/strait-hormuz-ship-traffic-iran-war-deal.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T16:33:35+00:00"
-    },
-    {
-      "title": "Trump sued over Truth Social advance access sale",
-      "link": "https://www.cnbc.com/2026/08/12/trump-truth-social-lawsuit.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T16:25:58+00:00"
     }
   ],
   "pages": [
