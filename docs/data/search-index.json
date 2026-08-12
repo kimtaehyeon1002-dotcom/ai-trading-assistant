@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T23:30:02.226248+00:00",
+  "as_of": "2026-08-12T23:36:48.528427+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -359,6 +359,12 @@
   ],
   "news": [
     {
+      "title": "iM증권, 한국전력 목표가↓…\"하반기 연료비 등 상승 부담\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813024900008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T23:27:10+00:00"
+    },
+    {
       "title": "식약처, 의약품 불법 판매·광고 432건 차단 조처",
       "link": "https://www.yna.co.kr/view/AKR20260813024000017",
       "source": "연합뉴스·경제",
@@ -375,12 +381,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2UFlCMnBZU0tXSGFRajZxdkhybDdxYjM4UVlRTzVqSXo1ZExnYlA4TE4wQUd3OFFDNEtEWDBOUU9IR0U2bzl4clZjR0VTb1U?oc=5",
       "source": "Google News",
       "published": "2026-08-12T23:14:00+00:00"
-    },
-    {
-      "title": "[굿모닝 증시]美 반도체주 급등…\"한국증시 강세 흐름 전망\" - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uLThxMHlNMUJJLVJPcnBPN0tzdzNBbjBkenV0dHhRZVdXa2hwOS14NzNyX3JrRjBDR2F6WWJYS0xqWFBKcVRSck8wSUJfNkk2Nzd3REZCMkhHdWY0M0wtZA?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T23:13:07+00:00"
     },
     {
       "title": "K-콘텐츠 불법유통 북아프리카 사이트 3곳 폐쇄…운영자 검거",
@@ -485,12 +485,6 @@
       "published": "2026-08-12T22:30:00+00:00"
     },
     {
-      "title": "뉴욕증시, 인플레 둔화 속 AI 낙관론 재개…나스닥 0.5％↑ - TBS 서울",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPODRDdjl0YURScWgtSVBYVzNpMlVZb2ZTRFZkamdkRU81QWZ5Zzd3S3hvQlBJMFpsOTZxWGhqNlFOTzVpT1V6T3ByZkZaSEc5a2R3RGdwN0p1ZnU2RTh6T1ljdnNJSFhMQ3VqQmhsZ1hVTFcySUtwQlBTeGRoTEpORDFOc0VyOFlj?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T22:24:00+00:00"
-    },
-    {
       "title": "Cerebras stock plunges 14% after second earnings report following IPO",
       "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
       "source": "CNBC Finance",
@@ -569,22 +563,10 @@
       "published": "2026-08-12T21:48:00+00:00"
     },
     {
-      "title": "[글로벌증시] 소비자물가지수 상승 둔화…S&P·나스닥 상승 마감 - 연합뉴스 한민족센터",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rejE0UWU4VjJESHdYM092ZTBXcXFDTUU3V2I2d0dkbE11cHEycC14d2E3WGdhNjdPck1IUC1YbWJaT2lVY09QaEdGQjdneHFyY1VnNmR5WWJMdGNBVUlYYlhGMnB6d0F0UmJmR3hvVFpmNnFG?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T21:44:02+00:00"
-    },
-    {
       "title": "Small investors became a major stock market force. Now, they risk getting pushed back into the dark",
       "link": "https://www.cnbc.com/2026/08/12/retail-investors-truthapi-earnings-trump.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T21:37:18+00:00"
-    },
-    {
-      "title": "뉴욕증시, 물가 둔화·AI주 강세에 혼조…나스닥 0.54%↑ - MTN 머니투데이방송",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6aTN2Zk5ReTB5c0wtZERlUWQ0bk11eHJwcmNjX1FXeUFPMGJEOWhsZjRCOXVUYjRTNi1UanBhZXRFRWdzTGh4ZmRyTkhIc0NDczFsVTBIZWtyTk1yYjlLUy0zZGc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T21:33:01+00:00"
     },
     {
       "title": "LG이노텍, MSCI한국지수에 편입…HLB·LG디플 등 4개는 빠져",
@@ -609,6 +591,12 @@
       "link": "https://www.cnbc.com/2026/08/12/gold-prices-metals-fed-rate-hike-inflation.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T21:18:35+00:00"
+    },
+    {
+      "title": "뉴욕 증시, 무난한 CPI에 보합...‘AI 인프라 호실적’ 반도체주 강세 [데일리국제금융] - sedaily.com",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBjYTBrQWxyRUg4NmpKcGZmQk0yYlV3alREbFV1MWVzWWFLcUx0SW9YRDFTZHZtaDlydlk4dlRQUkpURFd1VDJEb0VUMEhFRkNua1HSAVNBVV95cUxOMmx0TnJQWFhvSXRjVHRfTHMzTm9lcHUyb2VUT05HUzJpYTNLNm1GVHRFMnZwN2lzV0dVVlNoaE44Q3RWZk90Z3Q5dzdTelZXczZiaw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T21:13:20+00:00"
     },
     {
       "title": "Wendy's stock jumps on report of potential takeover bid from Nelson Peltz's Trian Fund Management",
@@ -657,6 +645,18 @@
       "link": "https://www.cnbc.com/2026/08/12/saudi-arabia-iran-oil-red-sea-houthi-suez-canal-strait-hormuz.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T21:04:18+00:00"
+    },
+    {
+      "title": "성평등부, '양육비 채무 불이행자 제재' 전문가 간담회 개최",
+      "link": "https://www.yna.co.kr/view/AKR20260812125500530",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T21:00:13+00:00"
+    },
+    {
+      "title": "산업부, 대구 유턴·외투기업 방문…\"지방 투자 지원 확대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812148400003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T21:00:03+00:00"
     }
   ],
   "pages": [
