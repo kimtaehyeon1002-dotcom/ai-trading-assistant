@@ -4,12 +4,12 @@
   "market": "KOSDAQ GLOBAL",
   "theme": null,
   "quote": {
-    "close": 104900.0,
-    "change_pct": -7.9,
-    "volume": 1395726,
-    "amount": 145582470100.0,
-    "marcap": 3929966361900.0,
-    "as_of_iso": "2026-08-12T06:12:51.414864+00:00",
+    "close": 104600.0,
+    "change_pct": -8.17,
+    "volume": 1660272,
+    "amount": 173270790400.0,
+    "marcap": 3926219968800.0,
+    "as_of_iso": "2026-08-12T08:02:00.822827+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:222800",

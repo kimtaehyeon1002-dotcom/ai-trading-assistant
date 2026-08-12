@@ -40,13 +40,18 @@
     "market": "KOSPI"
   },
   {
-    "code": "002990",
-    "name": "금호건설",
+    "code": "012450",
+    "name": "한화에어로스페이스",
     "market": "KOSPI"
   },
   {
     "code": "161890",
     "name": "한국콜마",
+    "market": "KOSPI"
+  },
+  {
+    "code": "002990",
+    "name": "금호건설",
     "market": "KOSPI"
   },
   {
@@ -60,43 +65,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "012450",
-    "name": "한화에어로스페이스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "483350",
-    "name": "딜리셔스",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "240810",
-    "name": "원익IPS",
-    "market": "KOSDAQ GLOBAL"
-  },
-  {
-    "code": "080220",
-    "name": "제주반도체",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "011070",
-    "name": "LG이노텍",
-    "market": "KOSPI"
-  },
-  {
     "code": "068270",
     "name": "셀트리온",
     "market": "KOSPI"
   },
   {
-    "code": "222800",
-    "name": "심텍",
-    "market": "KOSDAQ GLOBAL"
-  },
-  {
-    "code": "278470",
-    "name": "에이피알",
+    "code": "011070",
+    "name": "LG이노텍",
     "market": "KOSPI"
   },
   {
@@ -105,18 +80,53 @@
     "market": "KOSPI"
   },
   {
-    "code": "475150",
-    "name": "SK이터닉스",
-    "market": "KOSPI"
+    "code": "240810",
+    "name": "원익IPS",
+    "market": "KOSDAQ GLOBAL"
   },
   {
-    "code": "192820",
-    "name": "코스맥스",
-    "market": "KOSPI"
+    "code": "483350",
+    "name": "딜리셔스",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "222800",
+    "name": "심텍",
+    "market": "KOSDAQ GLOBAL"
+  },
+  {
+    "code": "080220",
+    "name": "제주반도체",
+    "market": "KOSDAQ"
   },
   {
     "code": "005380",
     "name": "현대차",
+    "market": "KOSPI"
+  },
+  {
+    "code": "034020",
+    "name": "두산에너빌리티",
+    "market": "KOSPI"
+  },
+  {
+    "code": "028260",
+    "name": "삼성물산",
+    "market": "KOSPI"
+  },
+  {
+    "code": "278470",
+    "name": "에이피알",
+    "market": "KOSPI"
+  },
+  {
+    "code": "105560",
+    "name": "KB금융",
+    "market": "KOSPI"
+  },
+  {
+    "code": "475150",
+    "name": "SK이터닉스",
     "market": "KOSPI"
   },
   {
@@ -125,8 +135,8 @@
     "market": "KOSPI"
   },
   {
-    "code": "034020",
-    "name": "두산에너빌리티",
+    "code": "192820",
+    "name": "코스맥스",
     "market": "KOSPI"
   },
   {
@@ -138,16 +148,6 @@
     "code": "010170",
     "name": "대한광통신",
     "market": "KOSDAQ"
-  },
-  {
-    "code": "064400",
-    "name": "LG씨엔에스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "329180",
-    "name": "HD현대중공업",
-    "market": "KOSPI"
   },
   {
     "code": "MU",
@@ -337,11 +337,6 @@
   {
     "code": "055550",
     "name": "신한지주",
-    "market": "KRX"
-  },
-  {
-    "code": "105560",
-    "name": "KB금융",
     "market": "KRX"
   },
   {

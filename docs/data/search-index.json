@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T07:07:20.606597+00:00",
+  "as_of": "2026-08-12T08:02:11.088806+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -42,13 +42,18 @@
       "market": "KOSPI"
     },
     {
-      "code": "002990",
-      "name": "금호건설",
+      "code": "012450",
+      "name": "한화에어로스페이스",
       "market": "KOSPI"
     },
     {
       "code": "161890",
       "name": "한국콜마",
+      "market": "KOSPI"
+    },
+    {
+      "code": "002990",
+      "name": "금호건설",
       "market": "KOSPI"
     },
     {
@@ -62,43 +67,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "483350",
-      "name": "딜리셔스",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "240810",
-      "name": "원익IPS",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "080220",
-      "name": "제주반도체",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "market": "KOSPI"
-    },
-    {
       "code": "068270",
       "name": "셀트리온",
       "market": "KOSPI"
     },
     {
-      "code": "222800",
-      "name": "심텍",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
+      "code": "011070",
+      "name": "LG이노텍",
       "market": "KOSPI"
     },
     {
@@ -107,18 +82,53 @@
       "market": "KOSPI"
     },
     {
-      "code": "475150",
-      "name": "SK이터닉스",
-      "market": "KOSPI"
+      "code": "240810",
+      "name": "원익IPS",
+      "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "192820",
-      "name": "코스맥스",
-      "market": "KOSPI"
+      "code": "483350",
+      "name": "딜리셔스",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "222800",
+      "name": "심텍",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ"
     },
     {
       "code": "005380",
       "name": "현대차",
+      "market": "KOSPI"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market": "KOSPI"
+    },
+    {
+      "code": "028260",
+      "name": "삼성물산",
+      "market": "KOSPI"
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "KOSPI"
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KOSPI"
+    },
+    {
+      "code": "475150",
+      "name": "SK이터닉스",
       "market": "KOSPI"
     },
     {
@@ -127,8 +137,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "034020",
-      "name": "두산에너빌리티",
+      "code": "192820",
+      "name": "코스맥스",
       "market": "KOSPI"
     },
     {
@@ -140,16 +150,6 @@
       "code": "010170",
       "name": "대한광통신",
       "market": "KOSDAQ"
-    },
-    {
-      "code": "064400",
-      "name": "LG씨엔에스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "market": "KOSPI"
     },
     {
       "code": "MU",
@@ -342,11 +342,6 @@
       "market": "KRX"
     },
     {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KRX"
-    },
-    {
       "code": "JPM",
       "name": "JPMorgan Chase",
       "market": "NYSE"
@@ -358,6 +353,102 @@
     }
   ],
   "news": [
+    {
+      "title": "\"올해 디스플레이 설비투자 57% 증가…OLED가 성장 주도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812137400003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T07:55:04+00:00"
+    },
+    {
+      "title": "[뉴욕증시 전략] CPI 앞두고 경계감…뉴욕증시 이틀 연속 숨고르기 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1teVlPYlZFbGROQWE0NDZKT1RrR2JOVU9hR2VCNkY3TkI4d1pQMERUdU1GTjFld3NiYVVjdWRiam10bGdIaW5SWWN3WjdiS00?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T07:48:12+00:00"
+    },
+    {
+      "title": "국고채 금리 혼조세…3년물 연 3.791%",
+      "link": "https://www.yna.co.kr/view/AKR20260812136800008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T07:42:20+00:00"
+    },
+    {
+      "title": "단일종목 레버리지 '모의거래' 거친다…증시 변동성 관리 강화 - BBS불교방송",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPdU55cGlhT2JzOURpYS02bG16c1NqWllIckVONkthMUg0bENMUWxlaFBXMDlKa1h3eE91bXpNM1BrTzREMkkxTWNVZkFHVGJRMnNBZWg3TmFTUXVyM2NLUnczYlktY0lrRXlR?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T07:41:21+00:00"
+    },
+    {
+      "title": "Sen. Darline Graham advances to Republican special primary runoff in South Carolina",
+      "link": "https://www.cnbc.com/2026/08/11/primary-election-wisconsin-minnesota-south-carolina-democrats-hong-flanagan-craig.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T07:40:42+00:00"
+    },
+    {
+      "title": "오세훈 \"버스하우스, 청년들에 주거의 의미 뭔지 이해 못 해\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812076351004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T07:29:39+00:00"
+    },
+    {
+      "title": "뉴욕증시, 호르무즈 불확실성·물가 경계감에 하락…나스닥 0.60%↓ - 폴리뉴스 Polinews",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1yRGI4NTVHZ09CUTVUc0dRWmpNVThSMjNFT3dXd3pKODhSd01VWkFsUzQxZHpJbXZUVnVtbjlBQmRsSmhNZFNUS3JXNlgtUURWOEJFVi1oUmktclpWd0VZWkZ1S1FmLU5kT3EtMjB30gFyQVVfeXFMTzI5SEdhUDRXZHZTVHFUcmZ0NkdaN2NpcHEyYkhiRElXOEJKY2VUdmZFTk9lMlZfYWxudHA0YWJRM29hRVVmUW50SFJCTkRYQkRiZlBuRHlGTnRRWEYtVE4wVnU2RExtck5rOXA2YkNoYjhR?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T07:23:42+00:00"
+    },
+    {
+      "title": "다시 힘받은 반도체…코스피 3.68%↑, 사흘연속 상승(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812128600008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T07:23:05+00:00"
+    },
+    {
+      "title": "농협銀, 한국장학재단과 지역 아동 지원 '초록사다리 여름캠프'",
+      "link": "https://www.yna.co.kr/view/AKR20260812129100002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T07:22:33+00:00"
+    },
+    {
+      "title": "Why the historic U.S.-Japan intervention has failed to halt the yen’s slide",
+      "link": "https://www.cnbc.com/2026/08/12/japan-yen-us-dollar-intervention-.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T07:20:31+00:00"
+    },
+    {
+      "title": "[중국증시-마감] 기술주 주도에 상승 - KB Think",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE16QVBEQ2JZWVhnSGFmTUl1TVJrdTJwbm9LLTRRVV9POFMtbXl4SEQwZFFobGNnVTIweU8tLXBKSGVnNGw5UDFMMENWX2xyQjNYZzgta3hGNFdKRUZ5cFZMdFpIUUN3OW5TNVFUb0dDY0lTQQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T07:09:36+00:00"
+    },
+    {
+      "title": "한화, 동남권 국립대와 'AI·우주항공 생태계' 인재 양성 맞손(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812117551003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T07:09:02+00:00"
+    },
+    {
+      "title": "TPG 품에 안긴 롯데렌탈…\"매각대금에도 롯데그룹 신용도 영향 제한적\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812124200008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T07:05:28+00:00"
+    },
+    {
+      "title": "새만금에 헴프클러스터 조성…전북도·새만금청·기업들 '맞손'",
+      "link": "https://www.yna.co.kr/view/AKR20260812127400055",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T07:05:21+00:00"
+    },
+    {
+      "title": "[증시-마감] 수급 호재에 날아오른 반도체…코스피 6,570선 돌파 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tOGdiTnYtVUplaWNibEcySnFQR1dUNkZiVU85aGVfdVh2NzNoSC1fSkdrdkJxR1NUR2RXU3hxNGU4VjNCY3lEcHlkellpLXVGRzVBTnpXVjlLVFBuQ25jbjhkV200OGFaRVV1WjFkdms?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T07:05:06+00:00"
+    },
+    {
+      "title": "World's largest sovereign wealth fund posts record $184 billion profit as it reveals SpaceX stake for the first time",
+      "link": "https://www.cnbc.com/2026/08/12/norway-sovereign-wealth-fund-spacex-nvidia-apple-nbim.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T07:01:56+00:00"
+    },
     {
       "title": "환율 나흘째 1,410원대…수출기업 달러 매도·저가 매수 팽팽",
       "link": "https://www.yna.co.kr/view/AKR20260812126000002",
@@ -377,19 +468,19 @@
       "published": "2026-08-12T07:00:00+00:00"
     },
     {
-      "title": "[증시 레이더] 반도체 쌍끌이에 코스피 3.68% 급등⋯6,500선 돌파 - 포커스온경제",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1kcGFEczAydmZKTXE2QUFULV9hYUcwczdiR25rWjVKWlJ6S1dGenNVaGt6X3JqanVDUmhzcllqYnR6Y1dtODRQMzdtOW54cTVxcmNnM2cxMm9VV0VTTlE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T06:56:29+00:00"
-    },
-    {
       "title": "울주복지재단·주택관리공단, 사회공헌·주거환경 개선 협약",
       "link": "https://www.yna.co.kr/view/AKR20260812118600057",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T06:55:35+00:00"
     },
     {
-      "title": "법원, 가족관계증명서 스크래핑 차단 이달 말까지 한시 유예",
+      "title": "[도쿄증시-마감] '골든크로스' 나타내며 상승 마감 - KB Think",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBHOHVETjFGNlFEeFZ3dlVPNVFYQThMbk9TaERoRG52OWJvZUJ3MlNCQVNLRmk4eURmd25oTXgtWkFCVl9tTVZyT1JneFc0eWpobDhNOENFX3RRZ0tSRzVoSVlLYkNWM2pmTEZGRDE3N3puUQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T06:55:03+00:00"
+    },
+    {
+      "title": "법원, 가족관계증명서 스크래핑 차단 한시 유예",
       "link": "https://www.yna.co.kr/view/AKR20260812123900530",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T06:54:54+00:00"
@@ -411,12 +502,6 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9BaHVpbHFtRkN4aW5jTHdYVzFvSksydURJclV4V0tBQ2tTX2h0R09LRmtTWTY5aFRiN1ZVRVR2R1d2V3NGVTJRbE8yTXppTTR2ZjVrbERtUEpSYkZaY21FSWQ1TElvZUFFS0ZR?oc=5",
       "source": "Google News",
       "published": "2026-08-12T06:41:39+00:00"
-    },
-    {
-      "title": "블룸버그 “AI 조정장 후 화끈한 한국보다 안정적 대만 증시 선호” - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9VOGloN0xVMzFaU2duTVVRblpYMW9hMkJsNjU4VjJCdTdraE1tUUVFcW92RWZMajRSd1F1djhLcDFHNEFUa2kwTFBFeTF3YmxmZk9Wag?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T06:39:00+00:00"
     },
     {
       "title": "[특징주] 일진전기, 역대최대 2분기 실적에 17% 급등 마감(종합)",
@@ -497,12 +582,6 @@
       "published": "2026-08-12T06:10:38+00:00"
     },
     {
-      "title": "Sen. Darline Graham advances to Republican special primary runoff in South Carolina",
-      "link": "https://www.cnbc.com/2026/08/11/primary-election-wisconsin-minnesota-south-carolina-democrats-hong-flanagan-craig.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T06:09:57+00:00"
-    },
-    {
       "title": "與 \"비아파트 공급 확대·모듈러 방식 통한 과감한 공급 필요\"",
       "link": "https://www.yna.co.kr/view/AKR20260812107200001",
       "source": "연합뉴스·경제",
@@ -573,90 +652,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260812101600003",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T05:27:43+00:00"
-    },
-    {
-      "title": "[셀럽의 한 수] 뉴욕증시 이틀 연속 하락…'호르무즈 낙관론' 실종 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9hMHVlMFBNTnhaaWtLdHBGSVhuOFJqaU01RE5FeTVqRDlybE5VUy1GNzVUcHZieUpkRGlqQk9oUWtwdHFpeU80WUk2cTVpUUU?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T05:27:18+00:00"
-    },
-    {
-      "title": "온코닉테라퓨틱스 상반기 영업이익 74억원…174%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260812099100017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T05:21:56+00:00"
-    },
-    {
-      "title": "[게시판] 서금원·서울복지재단, 청년 자산형성 지원 업무협약",
-      "link": "https://www.yna.co.kr/view/AKR20260812094400002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T05:16:27+00:00"
-    },
-    {
-      "title": "본사 이전 앞두고 인천 품는 하나금융…시니어·고령층 위한 ‘하나 행복드림버스’ 가동",
-      "link": "https://www.mk.co.kr/news/economy/12125274",
-      "source": "매일경제·증권",
-      "published": "2026-08-12T05:07:44+00:00"
-    },
-    {
-      "title": "[게시판] 해진공, 해양금융 심화 과정 교육생 모집",
-      "link": "https://www.yna.co.kr/view/AKR20260812094000051",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T05:05:30+00:00"
-    },
-    {
-      "title": "주4.5일제로 신규채용 성공한 화장품社…노동시간 단축 우수사례",
-      "link": "https://www.yna.co.kr/view/AKR20260812067700530",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T05:00:03+00:00"
-    },
-    {
-      "title": "中企업계 \"코스닥 상폐 시총 기준 유예…LH 자재 분리발주 해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812074900030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T05:00:02+00:00"
-    },
-    {
-      "title": "[게시판] 수출플러스지원단, 경북 구미 방산수출기업 간담회",
-      "link": "https://www.yna.co.kr/view/AKR20260812078500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T05:00:02+00:00"
-    },
-    {
-      "title": "Google’s new AI boss inherits a race to catch OpenAI and Anthropic",
-      "link": "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T05:00:01+00:00"
-    },
-    {
-      "title": "토스뱅크 '키워봐요 31일 적금' 출시 나흘 만에 10만좌",
-      "link": "https://www.yna.co.kr/view/AKR20260812087600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T04:59:37+00:00"
-    },
-    {
-      "title": "\"스크래핑 차단에 비대면 업무 차질\"…금융위, 대응방안 모색",
-      "link": "https://www.yna.co.kr/view/AKR20260812081600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T04:57:16+00:00"
-    },
-    {
-      "title": "중랑구 사가정역 공공주택 복합사업계획 승인…1천300세대 공급",
-      "link": "https://www.yna.co.kr/view/AKR20260812092200004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T04:52:13+00:00"
-    },
-    {
-      "title": "외국인 보유 스테이블코인으로 국내가맹점서 결제…BC카드, 실증사업 완료",
-      "link": "https://www.mk.co.kr/news/economy/12125242",
-      "source": "매일경제·증권",
-      "published": "2026-08-12T04:36:21+00:00"
-    },
-    {
-      "title": "한화손보 2분기 순익 1164억원…전년比 45.6% 쑥",
-      "link": "https://www.mk.co.kr/news/economy/12125240",
-      "source": "매일경제·증권",
-      "published": "2026-08-12T04:35:39+00:00"
     }
   ],
   "pages": [
