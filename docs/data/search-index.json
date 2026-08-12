@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T22:29:34.901035+00:00",
+  "as_of": "2026-08-12T22:36:22.806475+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -359,6 +359,42 @@
   ],
   "news": [
     {
+      "title": "China’s next economic ambition: workshop for the Muslim world",
+      "link": "https://www.marketwatch.com/story/now-china-wants-to-become-the-shop-floor-for-the-muslim-world-9ffd785a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-12T22:35:00+00:00"
+    },
+    {
+      "title": "Nebius adds to the excitement around neocloud stocks with upbeat earnings of its own",
+      "link": "https://www.marketwatch.com/story/nebius-adds-to-the-excitement-around-neocloud-stocks-with-upbeat-earnings-of-its-own-cd2aa36e?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-12T22:34:00+00:00"
+    },
+    {
+      "title": "Lumentum’s stock surges, giving a further boost to the optical-networking trade",
+      "link": "https://www.marketwatch.com/story/lumentums-stock-surges-giving-a-further-boost-to-the-optical-networking-trade-0ee46339?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-12T22:31:00+00:00"
+    },
+    {
+      "title": "부산 수영만 경기장 재개발, 미반출 요트에 착공 지연 우려",
+      "link": "https://www.yna.co.kr/view/AKR20260812116000051",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T22:30:03+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
+      "link": "https://www.yna.co.kr/view/AKR20260813013600011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T22:30:00+00:00"
+    },
+    {
+      "title": "뉴욕증시, 인플레 둔화 속 AI 낙관론 재개…나스닥 0.5％↑ - TBS 서울",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPODRDdjl0YURScWgtSVBYVzNpMlVZb2ZTRFZkamdkRU81QWZ5Zzd3S3hvQlBJMFpsOTZxWGhqNlFOTzVpT1V6T3ByZkZaSEc5a2R3RGdwN0p1ZnU2RTh6T1ljdnNJSFhMQ3VqQmhsZ1hVTFcySUtwQlBTeGRoTEpORDFOc0VyOFlj?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T22:24:00+00:00"
+    },
+    {
       "title": "Cerebras stock plunges 14% after second earnings report following IPO",
       "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
       "source": "CNBC Finance",
@@ -369,6 +405,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260812107700065",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T22:17:01+00:00"
+    },
+    {
+      "title": "[마켓 브리핑] CPI 예상치 부합·금리 인상 우려 완화…뉴욕증시 랠리 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1XVzY2RGtWMEt5d2ZDNXk2QTE2VWZaMHUyMmNXWW51YXZxYkMzZGxnU0IzbjNLMWZQQU9pNGoyVk9JU1VOdHdKSDRPNFIwSVk?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T22:16:00+00:00"
     },
     {
       "title": "[뉴욕증시 마감] AI 투자 기대에 나스닥 0.54%↑…SK하이닉스 ADR 9% 급등 - 아주경제",
@@ -497,12 +539,6 @@
       "published": "2026-08-12T21:08:00+00:00"
     },
     {
-      "title": "The 10 housing markets where the most sellers have listed their homes for less than what they paid",
-      "link": "https://www.marketwatch.com/story/the-10-housing-markets-where-the-most-sellers-have-listed-their-homes-for-less-than-what-they-paid-acd4c8da?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-12T21:08:00+00:00"
-    },
-    {
       "title": "[속보]뉴욕증시, 인플레 둔화 속 혼조 마감…유가도 큰 변동 없어 - 문화일보",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1HNHZYei13a1kxMnJNbFZnVW9rWDRPVVNsbEVzb1ZDLVhxeEhRQWJQcXF3Ym0wXzl3b21lc0RINlI1SFZJeWJlZEFOUXI5c3o3?oc=5",
       "source": "Google News",
@@ -513,12 +549,6 @@
       "link": "https://www.cnbc.com/2026/08/12/saudi-arabia-iran-oil-red-sea-houthi-suez-canal-strait-hormuz.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T21:04:18+00:00"
-    },
-    {
-      "title": "Nvidia, Intel, Google: Wall Street is partying like it’s 1999",
-      "link": "https://www.marketwatch.com/story/nvidia-intel-google-wall-street-is-partying-like-its-1999-8520c1e3?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-12T21:03:00+00:00"
     },
     {
       "title": "성평등부, '양육비 채무 불이행자 제재' 전문가 간담회 개최",
@@ -551,28 +581,10 @@
       "published": "2026-08-12T20:59:00+00:00"
     },
     {
-      "title": "Rich Americans are propping up the travel economy as airfares soar 25% higher than last year",
-      "link": "https://www.marketwatch.com/story/rich-americans-are-propping-up-the-travel-economy-as-airfares-soar-25-higher-than-last-year-c76067a5?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-12T20:59:00+00:00"
-    },
-    {
-      "title": "뉴욕증시, CPI 둔화에도 '혼조'…다우만 소폭 '하락' - newsworks.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wQWRFMkVxR0VCY3BtbnlhaDI1SzNFNlFUTVlDQlpvWHFwa1FRYnh5T0lZbmM4WXVENzBLVXhJQ2ZHVlJHTkxVMU0zWmc0WTBTMVJFTWRwYndDNDZDSWhMdHNSYlVxS0VhWjdiaUlGY9IBc0FVX3lxTE9xbmk3TE91YXpxRHQxaC1lako0Z3BzZlNXelY3YXd2a3hpRHNYRVo5T21NaHZBUlItcnRQNUlTOGdEYnFQQlFLcVZtTHFjWU1FcnFYMUZ0azY2Y2RWSGFYMk1TVElBYlY5aVlWTDNBWXFSUm8?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T20:55:47+00:00"
-    },
-    {
       "title": "Cisco's stock drops despite earnings, revenue beat",
       "link": "https://www.cnbc.com/2026/08/12/ciscos-stock-drops-despite-earnings-revenue-beat.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T20:51:07+00:00"
-    },
-    {
-      "title": "[뉴욕증시]7월 CPI 둔화 확인…S&P500·나스닥 상승 마감 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jQnNjcExNSEV0eG9oV2NSSFJCd3BJcjhkcnlXT3FZX2gzTmI2YTNSRU96Q3k1c0ljejBDSTBiWDBaRndfaW0zbzBvVTJHYmM?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T20:34:49+00:00"
     },
     {
       "title": "전 세계서 세 나라만 허락한 특권 … 내 집 살며 평생 연금 받기",
@@ -629,7 +641,7 @@
       "published": "2026-08-12T20:00:01+00:00"
     },
     {
-      "title": "성공투자 오후증시 - wowtv.co.kr",
+      "title": "성공투자 오후증시 - 한국경제TV",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRXMwanVCTndNSXFnMEJ4ZXdYMWVhUEZXTWdoOWdtYVFFUUFidzBjZU1Yb1piS0FrSlhBWnZvbFdvYjlDc18yeDdGQk93REJCVUdaRzRCT2stQThQTjRBSkV3TGlfWHlrTUxZTDFmdEJxb1dwRDRRTDlDOWdnQzBVMk8waUVYRUpYSlJnLXlBTlJmRVhkMWdlZmVxeV9vYTNUMUZJ?oc=5",
       "source": "Google News",
       "published": "2026-08-12T19:52:30+00:00"
@@ -645,18 +657,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260813004600072",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T19:48:56+00:00"
-    },
-    {
-      "title": "언제 어디로든 갈 수 있는 1548조 … 투심의 향방이 보인다",
-      "link": "https://www.mk.co.kr/news/economy/12125628",
-      "source": "매일경제·증권",
-      "published": "2026-08-12T19:33:00+00:00"
-    },
-    {
-      "title": "Google’s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
-      "link": "https://www.cnbc.com/2026/08/12/google-pixel-11-gemini-ai-phone-apple.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T19:19:18+00:00"
     }
   ],
   "pages": [
