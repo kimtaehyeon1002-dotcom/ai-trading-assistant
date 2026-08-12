@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T09:01:13.036953+00:00",
+  "as_of": "2026-08-12T09:40:18.682537+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -354,6 +354,66 @@
   ],
   "news": [
     {
+      "title": "AI capex could hit $1.6 trillion next year, says fund manager who sees more echoes of 1998 than the dot-com bust",
+      "link": "https://www.marketwatch.com/story/ai-capex-could-hit-1-6-trillion-next-year-says-fund-manager-who-sees-more-echoes-of-1998-than-the-dot-com-bust-0576b598?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-12T09:35:00+00:00"
+    },
+    {
+      "title": "미국·일본 통화공조 시대…뜨는 투자처 있다는데 [지정학에서 찾는 투자기회]",
+      "link": "https://www.mk.co.kr/news/economy/12125646",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T09:31:33+00:00"
+    },
+    {
+      "title": "Another AI lab is burning through cash as Tencent earnings rise",
+      "link": "https://www.marketwatch.com/story/another-ai-lab-is-burning-through-cash-as-tencent-earnings-rise-1251b4c6?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-12T09:30:00+00:00"
+    },
+    {
+      "title": "은행권 덮친 대출사기…추가 피해 드러나며 사고액 '눈덩이'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812140651002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T09:23:40+00:00"
+    },
+    {
+      "title": "Chinese tech giant Tencent posts revenue beat on accelerating games sales, AI-driven ads",
+      "link": "https://www.cnbc.com/2026/08/12/china-tencent-earnings-q2-2026-gaming-ai-advertising.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T09:15:43+00:00"
+    },
+    {
+      "title": "Can I claim 50% of my husband’s Social Security now — and switch to my higher benefit at 70?",
+      "link": "https://www.marketwatch.com/story/can-i-claim-50-of-my-husbands-social-security-now-and-switch-to-my-higher-benefit-at-70-5518700b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-12T09:15:00+00:00"
+    },
+    {
+      "title": "과학기술 창업경진대회 대상에 나노아쿠아쉴드·플로트바이오",
+      "link": "https://www.yna.co.kr/view/AKR20260812152400017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T09:11:03+00:00"
+    },
+    {
+      "title": "[중국증시-마감] 기술주 주도에 상승 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11Q3MtSlhmdkd1cDZZcjJOcTdxd1BpWHQxNGRFSGRIc3psdWh2UFNTTEVvX1ltdFgxUVJ0LTZEQ3VpdnlKQVpRa0dZUnE0TGx5WTV0ZDU5d3g5cG9KX0E1a2xpMVlYeW5aNHpGQko0VDk?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T09:09:37+00:00"
+    },
+    {
+      "title": "Musician John Oates sells his idyllic Colorado ranch for $6.9 million",
+      "link": "https://www.marketwatch.com/story/musician-john-oates-sells-his-idyllic-colorado-ranch-for-6-9-million-2676c716?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-12T09:01:00+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
+      "link": "https://www.yna.co.kr/view/AKR20260812145800011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T09:00:01+00:00"
+    },
+    {
       "title": "[도쿄증시-마감] '골든크로스' 나타내며 상승 마감 - 연합인포맥스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhb0NiWXZKUU9DSUw3dWRJcGxkUllvYzNvYW82dHZiUFk2Sy15ZzMyc1VBUi1aaXhrSmRVenZNbkdhZmtoek94UEVmcTFEamdLMjN0bG5Pekl5SGpvcko5bnltVlBXVDVCQ3BpOHRaaEI?oc=5",
       "source": "Google News",
@@ -372,10 +432,22 @@
       "published": "2026-08-12T08:53:46+00:00"
     },
     {
+      "title": "국내증시 변동성 개선 신호…\"수급 구조 정상화 주목할 때\" - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44eHF6N3lpbXNCMEpNR3FrU2hGaG40bzZ1QVZqUmhtY1luSGJIUGRrZE93TlJ2S0g1WXRSMldkdjVycXBieEFlWW1rZU44UWxqakwxQV9tQ0p2d05nUFRWRG9KMHFEYzFB0gFuQVVfeXFMTVFZT0N1bDJMTzRnNk5RVVpKNG0wRUtqOXM1YXJ1QVh6ZXJuVzQ2djFmYzFaNVRTUWJETzBVYVh6d0J0NTk2LXg1cFVUZGt2SUYzTkhzMGppeFQxZ3c0ZHhsT3MyVHZNelBxWjhvelE?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T08:53:25+00:00"
+    },
+    {
       "title": "동전주·시총미달 상장폐지 문 열렸다…36개 첫 관리종목 지정(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260812141652008",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T08:53:21+00:00"
+    },
+    {
+      "title": "국내증시 거래량 두달새 반토막 … 하반기 증권사 실적둔화 우려도 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sMEpUc0kyaDByajNST3lqV3NBd3ptQVdzXy16Y1hiX3dEdkdxS0lJcGVJdUN2U0E0NEhHWHRCeXg4QmJISWZTZXUtb1QzbXBqN1E?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T08:51:22+00:00"
     },
     {
       "title": "가업상속공제 40년 '족쇄'…\"남자옷 팔다 여자옷 팔면 탈락\"",
@@ -402,7 +474,7 @@
       "published": "2026-08-12T08:44:52+00:00"
     },
     {
-      "title": "교육교부금 수술 …'내국세 연동 폐지' 개편안 내주 발표",
+      "title": "[단독] 교육교부금 수술 …'내국세 연동 폐지' 개편안 내주 발표",
       "link": "https://www.mk.co.kr/news/economy/12125575",
       "source": "매일경제·증권",
       "published": "2026-08-12T08:42:24+00:00"
@@ -438,7 +510,7 @@
       "published": "2026-08-12T08:41:11+00:00"
     },
     {
-      "title": "밑빠진 교부금…\"공립高 공무직,사립 2배\"",
+      "title": "[단독] 밑빠진 교부금…\"공립高 공무직,사립 2배\"",
       "link": "https://www.mk.co.kr/news/economy/12125565",
       "source": "매일경제·증권",
       "published": "2026-08-12T08:41:10+00:00"
@@ -468,7 +540,7 @@
       "published": "2026-08-12T08:40:40+00:00"
     },
     {
-      "title": "청년 창업땐 3억 … 하나은행 '통큰' 대출",
+      "title": "[단독] 청년 창업땐 3억 … 하나은행 '통큰' 대출",
       "link": "https://www.mk.co.kr/news/economy/12125554",
       "source": "매일경제·증권",
       "published": "2026-08-12T08:40:40+00:00"
@@ -498,6 +570,12 @@
       "published": "2026-08-12T08:31:12+00:00"
     },
     {
+      "title": "Hormuz closure squeezes global economy as oil demand destruction intensifies, IEA says",
+      "link": "https://www.cnbc.com/2026/08/12/iea-oil-demand-hormuz.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T08:31:06+00:00"
+    },
+    {
       "title": "[단독] 교육교부금 수술…‘내국세 연동 폐지’ 개편안 내주 발표",
       "link": "https://www.mk.co.kr/news/economy/12125521",
       "source": "매일경제·증권",
@@ -516,7 +594,7 @@
       "published": "2026-08-12T08:22:00+00:00"
     },
     {
-      "title": "[亞증시-종합] 日·中·臺 증시 상승…홍콩은 하락 - KB Think",
+      "title": "[亞증시-종합] 日·中·臺 증시 상승…홍콩은 하락 - kbthink.com",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmOUFkRkplbmZhZUlpbW1MYnB6OUNMRkYzUGVzNVdJRXFPcGtBd3ktTTNjRGRIMXZFYUp3Qkh1b09RbGpRcHJRV0Rvb24zV2JLX1c4S0FrbS1qazRmVF9yNi1wc3JYUXVuMUhjSkhrZDc2QQ?oc=5",
       "source": "Google News",
       "published": "2026-08-12T08:20:58+00:00"
@@ -574,84 +652,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260812038751008",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T07:57:05+00:00"
-    },
-    {
-      "title": "\"올해 디스플레이 설비투자 57% 증가…OLED가 성장 주도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812137400003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T07:55:04+00:00"
-    },
-    {
-      "title": "[뉴욕증시 전략] CPI 앞두고 경계감…뉴욕증시 이틀 연속 숨고르기 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1teVlPYlZFbGROQWE0NDZKT1RrR2JOVU9hR2VCNkY3TkI4d1pQMERUdU1GTjFld3NiYVVjdWRiam10bGdIaW5SWWN3WjdiS00?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T07:48:12+00:00"
-    },
-    {
-      "title": "국고채 금리 혼조세…3년물 연 3.791%",
-      "link": "https://www.yna.co.kr/view/AKR20260812136800008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T07:42:20+00:00"
-    },
-    {
-      "title": "단일종목 레버리지 '모의거래' 거친다…증시 변동성 관리 강화 - news.bbsi.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPdU55cGlhT2JzOURpYS02bG16c1NqWllIckVONkthMUg0bENMUWxlaFBXMDlKa1h3eE91bXpNM1BrTzREMkkxTWNVZkFHVGJRMnNBZWg3TmFTUXVyM2NLUnczYlktY0lrRXlR?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T07:41:21+00:00"
-    },
-    {
-      "title": "Sen. Darline Graham advances to Republican special primary runoff in South Carolina",
-      "link": "https://www.cnbc.com/2026/08/11/primary-election-wisconsin-minnesota-south-carolina-democrats-hong-flanagan-craig.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T07:40:42+00:00"
-    },
-    {
-      "title": "오세훈 \"버스하우스, 청년들에 주거의 의미 뭔지 이해 못 해\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260812076351004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T07:29:39+00:00"
-    },
-    {
-      "title": "다시 힘받은 반도체…코스피 3.68%↑, 사흘연속 상승(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260812128600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T07:23:05+00:00"
-    },
-    {
-      "title": "농협銀, 한국장학재단과 지역 아동 지원 '초록사다리 여름캠프'",
-      "link": "https://www.yna.co.kr/view/AKR20260812129100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T07:22:33+00:00"
-    },
-    {
-      "title": "Why the historic U.S.-Japan intervention has failed to halt the yen’s slide",
-      "link": "https://www.cnbc.com/2026/08/12/japan-yen-us-dollar-intervention-.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T07:20:31+00:00"
-    },
-    {
-      "title": "[중국증시-마감] 기술주 주도에 상승 - KB Think",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE16QVBEQ2JZWVhnSGFmTUl1TVJrdTJwbm9LLTRRVV9POFMtbXl4SEQwZFFobGNnVTIweU8tLXBKSGVnNGw5UDFMMENWX2xyQjNYZzgta3hGNFdKRUZ5cFZMdFpIUUN3OW5TNVFUb0dDY0lTQQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T07:09:36+00:00"
-    },
-    {
-      "title": "한화, 동남권 국립대와 'AI·우주항공 생태계' 인재 양성 맞손(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260812117551003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T07:09:02+00:00"
-    },
-    {
-      "title": "TPG 품에 안긴 롯데렌탈…\"매각대금에도 롯데그룹 신용도 영향 제한적\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812124200008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T07:05:28+00:00"
-    },
-    {
-      "title": "새만금에 헴프클러스터 조성…전북도·새만금청·기업들 '맞손'",
-      "link": "https://www.yna.co.kr/view/AKR20260812127400055",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T07:05:21+00:00"
     }
   ],
   "pages": [
