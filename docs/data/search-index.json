@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T18:29:14.823921+00:00",
+  "as_of": "2026-08-12T18:46:52.914717+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -354,16 +354,28 @@
   ],
   "news": [
     {
+      "title": "U.S. budget deficit surged in July to highest level since March 2021",
+      "link": "https://www.cnbc.com/2026/08/12/us-budget-deficit-surged-in-july-to-highest-level-since-march-2021.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T18:40:45+00:00"
+    },
+    {
+      "title": "SpaceX short sellers are running out of bullets as stock rebounds more than 40% off low",
+      "link": "https://www.cnbc.com/2026/08/12/spacex-short-sellers-are-running-out-of-bullets-as-stock-rebounds-38percent-off-low.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T18:36:37+00:00"
+    },
+    {
+      "title": "Now China wants to become the shop floor for the Muslim world",
+      "link": "https://www.marketwatch.com/story/now-china-wants-to-become-the-shop-floor-for-the-muslim-world-9ffd785a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-12T18:28:00+00:00"
+    },
+    {
       "title": "Will Trump accounts and grandparent 529s bring down the price of college in the future?",
       "link": "https://www.marketwatch.com/story/will-trump-accounts-and-grandparent-529s-bring-down-the-price-of-college-in-the-future-88459da7?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-12T18:20:00+00:00"
-    },
-    {
-      "title": "U.S. budget deficit surged in July to highest level since March 2021",
-      "link": "https://www.cnbc.com/2026/08/12/us-budget-deficit-surged-in-july-to-highest-level-since-march-2021.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T18:19:57+00:00"
     },
     {
       "title": "Alphabet’s stock slips as Nvidia’s $500 billion financing deal threatens custom chips",
@@ -400,12 +412,6 @@
       "link": "https://www.cnbc.com/2026/08/12/wendys-stock-jumps-on-nelson-peltz-takeover-bid-report.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T17:34:28+00:00"
-    },
-    {
-      "title": "SpaceX short sellers are running out of bullets as stock rebounds more than 30% off low",
-      "link": "https://www.cnbc.com/2026/08/12/spacex-short-sellers-are-running-out-of-bullets-as-stock-rebounds-38percent-off-low.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T17:32:37+00:00"
     },
     {
       "title": "‘I unexpectedly came into some money’: Is putting $20,000 into CDs a smart move?",
@@ -504,12 +510,6 @@
       "published": "2026-08-12T15:36:52+00:00"
     },
     {
-      "title": "My wife can claim $900 at 62. Should she take it now — or wait for her spousal benefit?",
-      "link": "https://www.marketwatch.com/story/i-want-her-to-choose-the-best-strategy-my-wifes-social-security-is-just-900-should-she-claim-spousal-benefit-at-62-e3ef621d?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-12T15:30:00+00:00"
-    },
-    {
       "title": "AI’s costly build-out complicates the Fed’s inflation fight",
       "link": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html",
       "source": "CNBC Finance",
@@ -564,7 +564,13 @@
       "published": "2026-08-12T13:50:16+00:00"
     },
     {
-      "title": "LG전자 12% 상승? ‘증시 고점 징크스’ 재현되나 - munhwa.com",
+      "title": "“월급보다 주식이 더 벌어줬다”…증시 호황에 은퇴 앞당긴 美 직장인들 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93VlJnZDBZc3N0RFdXazR6NWdlTkFSNVdmbXMtaGNXOG8tVDlIdUNYdE85WlFXUVZTU0g3YnVHX2lIWDd5RTRTMm44OGY0bEU?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T13:45:00+00:00"
+    },
+    {
+      "title": "LG전자 12% 상승? ‘증시 고점 징크스’ 재현되나 - 문화일보",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQSmhLNWM2NF80N0JkRUxOczJiSl9CelFIeUNVd2ZNYTBLNXg1OFNwZ2FFMHp1cVAtbVZBbEhZYTlCMlcxTXNYOW5lWWM3WklX?oc=5",
       "source": "Google News",
       "published": "2026-08-12T13:44:50+00:00"
@@ -646,12 +652,6 @@
       "link": "https://www.cnbc.com/2026/08/12/iea-oil-demand-hormuz.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T10:47:20+00:00"
-    },
-    {
-      "title": "[亞증시-종합] 日·中·臺 증시 상승…홍콩은 하락 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YT2NySHZkeDA5OUEwVnhwaTM4VFNKc3J2VkVhTi15OU9YVUhWeWZGZ2NzNmdWaVVpTXQ4YXRndDNlUHc5ZjRwSkZUbzBzb0xWOV9pTW1Cbjh6elRqVDBSWFBCUXdqN0lWNy11N29NejM?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T10:20:59+00:00"
     }
   ],
   "pages": [
