@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T18:46:52.914717+00:00",
+  "as_of": "2026-08-12T19:39:37.168023+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -354,16 +354,58 @@
   ],
   "news": [
     {
-      "title": "U.S. budget deficit surged in July to highest level since March 2021",
-      "link": "https://www.cnbc.com/2026/08/12/us-budget-deficit-surged-in-july-to-highest-level-since-march-2021.html",
+      "title": "언제 어디로든 갈 수 있는 1548조 … 투심의 향방이 보인다",
+      "link": "https://www.mk.co.kr/news/economy/12125628",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T19:33:00+00:00"
+    },
+    {
+      "title": "CoreWeave surges 19% after a 'cleaner quarter.' Here's what's happening",
+      "link": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html",
       "source": "CNBC Finance",
-      "published": "2026-08-12T18:40:45+00:00"
+      "published": "2026-08-12T19:32:15+00:00"
+    },
+    {
+      "title": "How to trade gold prices as Fed rate hike and inflation odds shifts",
+      "link": "https://www.cnbc.com/2026/08/12/gold-prices-metals-fed-rate-hike-inflation.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T19:22:32+00:00"
+    },
+    {
+      "title": "Google’s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
+      "link": "https://www.cnbc.com/2026/08/12/google-pixel-11-gemini-ai-phone-apple.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T19:19:18+00:00"
     },
     {
       "title": "SpaceX short sellers are running out of bullets as stock rebounds more than 40% off low",
       "link": "https://www.cnbc.com/2026/08/12/spacex-short-sellers-are-running-out-of-bullets-as-stock-rebounds-38percent-off-low.html",
       "source": "CNBC Finance",
-      "published": "2026-08-12T18:36:37+00:00"
+      "published": "2026-08-12T19:15:54+00:00"
+    },
+    {
+      "title": "엔화 구출작전 백약이 무효 … 아베의 유령이 내린 저주",
+      "link": "https://www.mk.co.kr/news/economy/12125288",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T19:08:00+00:00"
+    },
+    {
+      "title": "U.S. budget deficit surged in July to highest level since March 2021",
+      "link": "https://www.cnbc.com/2026/08/12/us-budget-deficit-surged-in-july-to-highest-level-since-march-2021.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T18:56:15+00:00"
+    },
+    {
+      "title": "美반도체 약세속, 삼전닉스 강세… K증시 동반상승 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YdlNOZ0lhVjBVVU44VjN5OFpneGFOclhNWGEwMmRndXJ1WWFFWjR0Y0JCMldkcll2X0VQLUw3S0dkQ2pDV1N0TWdKVS13dGN5eW5jLU4xdzJzMXQ3cEo2UmRUSlBzZHJt0gFuQVVfeXFMT3BBZEhvVEZGS09Nd2k1Zm9OTkp0SndkTWJnaDRZbTN5RzJldXQyaUYxeXdxdXhaY3BvRE1HZ0xkbU1YMXdkcnhfZVdtU3pwMUJkYlJRaEZEa1p2UGdJUDhEQjluZHZGT2NUT2NXdUE?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T18:55:00+00:00"
+    },
+    {
+      "title": "CEO of Intel just gave Jim Cramer one more reason to call it his favorite stock",
+      "link": "https://www.cnbc.com/2026/08/12/ceo-of-intel-just-gave-jim-cramer-one-more-reason-to-call-it-his-favorite-stock.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T18:38:29+00:00"
     },
     {
       "title": "Now China wants to become the shop floor for the Muslim world",
@@ -382,12 +424,6 @@
       "link": "https://www.marketwatch.com/story/alphabets-stock-slips-as-nvidias-500-billion-financing-deal-threatens-custom-chips-c4166a59?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-12T18:19:00+00:00"
-    },
-    {
-      "title": "The S&P paces to snap a 2-day skid, and Goldman beefs up its asset management unit",
-      "link": "https://www.cnbc.com/2026/08/12/the-sp-paces-to-snap-a-2-day-skid-and-goldman-beefs-up-its-asset-management-unit.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T18:13:44+00:00"
     },
     {
       "title": "Chili’s has hopped on the chicken-sandwich bandwagon, and it’s driving big sales gains",
@@ -454,12 +490,6 @@
       "link": "https://www.marketwatch.com/story/super-micro-stock-is-rallying-after-results-heres-what-wall-street-is-saying-631e9253?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-12T16:44:00+00:00"
-    },
-    {
-      "title": "Google’s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
-      "link": "https://www.cnbc.com/2026/08/12/google-pixel-11-gemini-ai-phone-apple.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T16:39:34+00:00"
     },
     {
       "title": "Strait of Hormuz ship traffic near three-month low as U.S.-Iran deal in doubt",
@@ -534,12 +564,6 @@
       "published": "2026-08-12T14:20:10+00:00"
     },
     {
-      "title": "CoreWeave surges 18% after a 'cleaner quarter.' Here's what's happening",
-      "link": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T14:16:48+00:00"
-    },
-    {
       "title": "증시 변동성, “종목·섹터 영향 축소, 완화장치가 해법” - 애플경제",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sOGdaUURvVXZxRE5GTEdITURsMGV3TmlseHhEOEVsc0VpcWlRNkVCb1RCclZIdm5lbWF1ZE05N2ZySGdrdGpybFZTUmI2ZHNmTHljaVE2OEZYX242WWFoTUxfc25feEJB?oc=5",
       "source": "Google News",
@@ -564,13 +588,7 @@
       "published": "2026-08-12T13:50:16+00:00"
     },
     {
-      "title": "“월급보다 주식이 더 벌어줬다”…증시 호황에 은퇴 앞당긴 美 직장인들 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93VlJnZDBZc3N0RFdXazR6NWdlTkFSNVdmbXMtaGNXOG8tVDlIdUNYdE85WlFXUVZTU0g3YnVHX2lIWDd5RTRTMm44OGY0bEU?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T13:45:00+00:00"
-    },
-    {
-      "title": "LG전자 12% 상승? ‘증시 고점 징크스’ 재현되나 - 문화일보",
+      "title": "LG전자 12% 상승? ‘증시 고점 징크스’ 재현되나 - munhwa.com",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQSmhLNWM2NF80N0JkRUxOczJiSl9CelFIeUNVd2ZNYTBLNXg1OFNwZ2FFMHp1cVAtbVZBbEhZYTlCMlcxTXNYOW5lWWM3WklX?oc=5",
       "source": "Google News",
       "published": "2026-08-12T13:44:50+00:00"
@@ -630,28 +648,10 @@
       "published": "2026-08-12T12:00:00+00:00"
     },
     {
-      "title": "Scorching heat is straining Europe's nuclear power supplies — and prompting drastic measures",
-      "link": "https://www.cnbc.com/2026/08/12/europe-heat-drought-nuclear-power.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T11:55:43+00:00"
-    },
-    {
       "title": "'20.79% 내국세 연동 폐지' 교육교부금 개편안 이르면 내주 발표",
       "link": "https://www.yna.co.kr/view/AKR20260812163800002",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T10:57:59+00:00"
-    },
-    {
-      "title": "No.1 경제·증권 채널 : @HKWOWTV - 한국경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRXMwanVCTndNSXFnMEJ4ZXdYMWVhUEZXTWdoOWdtYVFFUUFidzBjZU1Yb1piS0FrSlhBWnZvbFdvYjlDc18yeDdGQk93REJCVUdaRzRCT2stQThQTjRBSkV3TGlfWHlrTUxZTDFmdEJxb1dwRDRRTDlDOWdnQzBVMk8waUVYRUpYSlJnLXlBTlJmRVhkMWdlZmVxeV9vYTNUMUZJ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T10:47:54+00:00"
-    },
-    {
-      "title": "Hormuz closure squeezes global economy as oil demand destruction intensifies, IEA says",
-      "link": "https://www.cnbc.com/2026/08/12/iea-oil-demand-hormuz.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T10:47:20+00:00"
     }
   ],
   "pages": [
