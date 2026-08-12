@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T08:14:19.883379+00:00",
+  "as_of": "2026-08-12T09:01:13.036953+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -354,10 +354,196 @@
   ],
   "news": [
     {
+      "title": "[도쿄증시-마감] '골든크로스' 나타내며 상승 마감 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhb0NiWXZKUU9DSUw3dWRJcGxkUllvYzNvYW82dHZiUFk2Sy15ZzMyc1VBUi1aaXhrSmRVenZNbkdhZmtoek94UEVmcTFEamdLMjN0bG5Pekl5SGpvcko5bnltVlBXVDVCQ3BpOHRaaEI?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T08:55:04+00:00"
+    },
+    {
+      "title": "콜마비앤에이치 \"계열사 콜마오랄스 주식 200억원에 추가취득\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812152100008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T08:53:54+00:00"
+    },
+    {
+      "title": "1.6조 들인 공공AI데이터… 중복 판치고 오류도 방치",
+      "link": "https://www.mk.co.kr/news/economy/12125623",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:53:46+00:00"
+    },
+    {
+      "title": "동전주·시총미달 상장폐지 문 열렸다…36개 첫 관리종목 지정(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812141652008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T08:53:21+00:00"
+    },
+    {
+      "title": "가업상속공제 40년 '족쇄'…\"남자옷 팔다 여자옷 팔면 탈락\"",
+      "link": "https://www.mk.co.kr/news/economy/12125590",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:46:06+00:00"
+    },
+    {
+      "title": "태양광 넣고 택시회사 빼고 … 공제업종 '고무줄' 논란",
+      "link": "https://www.mk.co.kr/news/economy/12125588",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:46:05+00:00"
+    },
+    {
       "title": "World's largest sovereign wealth fund posts record $184 billion profit as it reveals SpaceX stake for the first time",
       "link": "https://www.cnbc.com/2026/08/12/norway-sovereign-wealth-fund-spacex-nvidia-apple-nbim.html",
       "source": "CNBC Finance",
-      "published": "2026-08-12T08:13:24+00:00"
+      "published": "2026-08-12T08:45:20+00:00"
+    },
+    {
+      "title": "與 당권주자 송영길 \"부동산稅 손대지 마\"",
+      "link": "https://www.mk.co.kr/news/economy/12125580",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:44:52+00:00"
+    },
+    {
+      "title": "교육교부금 수술 …'내국세 연동 폐지' 개편안 내주 발표",
+      "link": "https://www.mk.co.kr/news/economy/12125575",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:42:24+00:00"
+    },
+    {
+      "title": "꼼수상속 잡다가…가업승계 막아설판",
+      "link": "https://www.mk.co.kr/news/economy/12125572",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:42:23+00:00"
+    },
+    {
+      "title": "[포토] 2026년 하반기 전국세무관서장 회의",
+      "link": "https://www.mk.co.kr/news/economy/12125569",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:41:12+00:00"
+    },
+    {
+      "title": "'中 1위 이커머스' 징둥, 韓 상품 직매입한다",
+      "link": "https://www.mk.co.kr/news/economy/12125566",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:41:11+00:00"
+    },
+    {
+      "title": "한전, 호남반도체 팹에 3GW 전력 공급",
+      "link": "https://www.mk.co.kr/news/economy/12125567",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:41:11+00:00"
+    },
+    {
+      "title": "'52시간 예외' 두고 부처 동상이몽…산업 \"논의중\" 노동 \"신중 접근\"",
+      "link": "https://www.mk.co.kr/news/economy/12125568",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:41:11+00:00"
+    },
+    {
+      "title": "밑빠진 교부금…\"공립高 공무직,사립 2배\"",
+      "link": "https://www.mk.co.kr/news/economy/12125565",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:41:10+00:00"
+    },
+    {
+      "title": "[표] 당좌거래정지",
+      "link": "https://www.mk.co.kr/news/economy/12125557",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:40:42+00:00"
+    },
+    {
+      "title": "[표] 외국환율고시표",
+      "link": "https://www.mk.co.kr/news/economy/12125558",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:40:42+00:00"
+    },
+    {
+      "title": "보험 손익도 투자도 대박 … 한화생명 상반기 순익 96% 급증",
+      "link": "https://www.mk.co.kr/news/economy/12125556",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:40:41+00:00"
+    },
+    {
+      "title": "주식 '빚투' 우려 커지자 … 보험계약대출 더 조인다",
+      "link": "https://www.mk.co.kr/news/economy/12125553",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:40:40+00:00"
+    },
+    {
+      "title": "청년 창업땐 3억 … 하나은행 '통큰' 대출",
+      "link": "https://www.mk.co.kr/news/economy/12125554",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:40:40+00:00"
+    },
+    {
+      "title": "증권사들, '역대급 증시' 2분기 실적 잔치…순익 141%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260812145300008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T08:40:06+00:00"
+    },
+    {
+      "title": "동전주·시총미달 상폐수순에 기대·반발…\"밸류업 기대 vs 새싹뽑아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812138200008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T08:36:06+00:00"
+    },
+    {
+      "title": "문종금 한러친선협회 이사장, 포항시 명예자문대사 위촉",
+      "link": "https://www.yna.co.kr/view/AKR20260812148700053",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T08:35:13+00:00"
+    },
+    {
+      "title": "Treasury yields are little changed as investors await key inflation data",
+      "link": "https://www.cnbc.com/2026/08/12/treasury-yields-inflation-cpi-data.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T08:31:12+00:00"
+    },
+    {
+      "title": "[단독] 교육교부금 수술…‘내국세 연동 폐지’ 개편안 내주 발표",
+      "link": "https://www.mk.co.kr/news/economy/12125521",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T08:30:46+00:00"
+    },
+    {
+      "title": "'계열사 우회지원 의혹' 다올금융그룹 이병철 회장 피의자 조사",
+      "link": "https://www.yna.co.kr/view/AKR20260812147400004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T08:25:47+00:00"
+    },
+    {
+      "title": "A stock just surged on news Situational Awareness had bought it. But its current fate is unclear.",
+      "link": "https://www.marketwatch.com/story/a-stock-just-surged-on-news-situational-awareness-had-bought-it-but-its-current-fate-is-unclear-00f17a97?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-12T08:22:00+00:00"
+    },
+    {
+      "title": "[亞증시-종합] 日·中·臺 증시 상승…홍콩은 하락 - KB Think",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmOUFkRkplbmZhZUlpbW1MYnB6OUNMRkYzUGVzNVdJRXFPcGtBd3ktTTNjRGRIMXZFYUp3Qkh1b09RbGpRcHJRV0Rvb24zV2JLX1c4S0FrbS1qazRmVF9yNi1wc3JYUXVuMUhjSkhrZDc2QQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T08:20:58+00:00"
+    },
+    {
+      "title": "美물가지표 관망 속 국고채 금리 혼조…3년물 연 3.791%(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812136851008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T08:17:17+00:00"
+    },
+    {
+      "title": "與 \"주택공급·금융대책 내일 발표…모듈러 도입 과감한 공급\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812107251001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T08:16:09+00:00"
+    },
+    {
+      "title": "동전주·시총미달 상장폐지 문 열렸다…36개 종목 첫 관리종목",
+      "link": "https://www.yna.co.kr/view/AKR20260812141651008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T08:15:38+00:00"
+    },
+    {
+      "title": "오늘의 증시 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzeE9xT0V4c0tmb0tUSUtsOC1oanBQMjZ6bnVWbXRWWEsxb3NUNTdSZVlWMkprSTI1VHYycGJ2NlZDckRkWlZpeVcwWmVKTk9QLUdPSEN1YjVSMWVsTDd4Y01LTTNpSEpSb2d2cExIUGI2SElYRmdFdA?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T08:05:08+00:00"
     },
     {
       "title": "[속보] 거래소, '동전주·시총미달' 36개 무더기 관리종목 지정",
@@ -408,7 +594,7 @@
       "published": "2026-08-12T07:42:20+00:00"
     },
     {
-      "title": "단일종목 레버리지 '모의거래' 거친다…증시 변동성 관리 강화 - BBS불교방송",
+      "title": "단일종목 레버리지 '모의거래' 거친다…증시 변동성 관리 강화 - news.bbsi.co.kr",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPdU55cGlhT2JzOURpYS02bG16c1NqWllIckVONkthMUg0bENMUWxlaFBXMDlKa1h3eE91bXpNM1BrTzREMkkxTWNVZkFHVGJRMnNBZWg3TmFTUXVyM2NLUnczYlktY0lrRXlR?oc=5",
       "source": "Google News",
       "published": "2026-08-12T07:41:21+00:00"
@@ -424,12 +610,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260812076351004",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T07:29:39+00:00"
-    },
-    {
-      "title": "뉴욕증시, 호르무즈 불확실성·물가 경계감에 하락…나스닥 0.60%↓ - 폴리뉴스 Polinews",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1yRGI4NTVHZ09CUTVUc0dRWmpNVThSMjNFT3dXd3pKODhSd01VWkFsUzQxZHpJbXZUVnVtbjlBQmRsSmhNZFNUS3JXNlgtUURWOEJFVi1oUmktclpWd0VZWkZ1S1FmLU5kT3EtMjB30gFyQVVfeXFMTzI5SEdhUDRXZHZTVHFUcmZ0NkdaN2NpcHEyYkhiRElXOEJKY2VUdmZFTk9lMlZfYWxudHA0YWJRM29hRVVmUW50SFJCTkRYQkRiZlBuRHlGTnRRWEYtVE4wVnU2RExtck5rOXA2YkNoYjhR?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T07:23:42+00:00"
     },
     {
       "title": "다시 힘받은 반도체…코스피 3.68%↑, 사흘연속 상승(종합)",
@@ -472,186 +652,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260812127400055",
       "source": "연합뉴스·경제",
       "published": "2026-08-12T07:05:21+00:00"
-    },
-    {
-      "title": "[증시-마감] 수급 호재에 날아오른 반도체…코스피 6,570선 돌파 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tOGdiTnYtVUplaWNibEcySnFQR1dUNkZiVU85aGVfdVh2NzNoSC1fSkdrdkJxR1NUR2RXU3hxNGU4VjNCY3lEcHlkellpLXVGRzVBTnpXVjlLVFBuQ25jbjhkV200OGFaRVV1WjFkdms?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T07:05:06+00:00"
-    },
-    {
-      "title": "환율 나흘째 1,410원대…수출기업 달러 매도·저가 매수 팽팽",
-      "link": "https://www.yna.co.kr/view/AKR20260812126000002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T07:01:44+00:00"
-    },
-    {
-      "title": "국내 양대증시 동반 강세 마감…시장별 수급 분산양상 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IYUJheVp1TGdhcEQ3ekZmMjF4YkZIUDhwOFVfM283c2FmSWdlOVg0Zm9UcEJnSmZMVFpuV1pOcVREbmJ3NHVxeldYYUxtMUlFSEtWVlFpM3UtTDRwMTRHWDZxV20yaGx50gFuQVVfeXFMT2xBd2l6S1R3Y1hDNEFrMTloWVFTRVJQOW5ILTdjTEJ1MVVCcDh5TFZiNHBjWTZ3QmlkTjR5Y25qR20zVF9QN1JvS0txT3dHMTExMTZiQUdkUzE2T29xM3RkOWNFakZVRDE1emh5bnc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T07:01:44+00:00"
-    },
-    {
-      "title": "구윤철, 우즈베크 부총리와 면담…공급망·인프라 협력 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260812115500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T07:00:00+00:00"
-    },
-    {
-      "title": "울주복지재단·주택관리공단, 사회공헌·주거환경 개선 협약",
-      "link": "https://www.yna.co.kr/view/AKR20260812118600057",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:55:35+00:00"
-    },
-    {
-      "title": "[도쿄증시-마감] '골든크로스' 나타내며 상승 마감 - KB Think",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBHOHVETjFGNlFEeFZ3dlVPNVFYQThMbk9TaERoRG52OWJvZUJ3MlNCQVNLRmk4eURmd25oTXgtWkFCVl9tTVZyT1JneFc0eWpobDhNOENFX3RRZ0tSRzVoSVlLYkNWM2pmTEZGRDE3N3puUQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T06:55:03+00:00"
-    },
-    {
-      "title": "법원, 가족관계증명서 스크래핑 차단 한시 유예",
-      "link": "https://www.yna.co.kr/view/AKR20260812123900530",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:54:54+00:00"
-    },
-    {
-      "title": "여야, 호남 메가특구 '주52시간 예외 추진' 놓고 공방",
-      "link": "https://www.yna.co.kr/view/AKR20260812110300001",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:45:33+00:00"
-    },
-    {
-      "title": "'버스하우스' 논란에 밈 코인도 등장…시가총액 300만원",
-      "link": "https://www.yna.co.kr/view/AKR20260812115400002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:43:22+00:00"
-    },
-    {
-      "title": "증시 조정에 투자자예탁금 100조원 붕괴…두 달여 만에 30% 급감 - BBS불교방송",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9BaHVpbHFtRkN4aW5jTHdYVzFvSksydURJclV4V0tBQ2tTX2h0R09LRmtTWTY5aFRiN1ZVRVR2R1d2V3NGVTJRbE8yTXppTTR2ZjVrbERtUEpSYkZaY21FSWQ1TElvZUFFS0ZR?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T06:41:39+00:00"
-    },
-    {
-      "title": "[특징주] 일진전기, 역대최대 2분기 실적에 17% 급등 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260812034451008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:38:02+00:00"
-    },
-    {
-      "title": "코스피, 3.68% 급등한 6,579…코스닥 0.12%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260812119300008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:37:24+00:00"
-    },
-    {
-      "title": "외국환시세(8월12일·15:30 기준가)",
-      "link": "https://www.yna.co.kr/view/AKR20260812119500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:35:18+00:00"
-    },
-    {
-      "title": "한화, 동남권 국립대와 'AI·우주항공 생태계' 인재 양성",
-      "link": "https://www.yna.co.kr/view/AKR20260812117500003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:34:35+00:00"
-    },
-    {
-      "title": "[속보] 코스피, 3.7% 급등한 6,579…코스닥 0.12%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260812118900008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:34:03+00:00"
-    },
-    {
-      "title": "엔화 가치 측정 '돈까스 카레 지수' 등장",
-      "link": "https://www.yna.co.kr/view/AKR20260812112900009",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:31:24+00:00"
-    },
-    {
-      "title": "[외환] 원/달러 환율 0.3원 내린 1,415.7원(15:30 기준가)",
-      "link": "https://www.yna.co.kr/view/AKR20260812117700002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:30:43+00:00"
-    },
-    {
-      "title": "Houthi attack kills six in first fatalities in Red Sea in over a year; U.S. strikes container ship",
-      "link": "https://www.cnbc.com/2026/08/12/us-iran-war-trump-hormuz-houthi-attack-blockade-.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T06:30:07+00:00"
-    },
-    {
-      "title": "넥스턴앤롤코리아 \"루멘스 주식 280억원어치 취득…지분율 22%\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812116200008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:28:56+00:00"
-    },
-    {
-      "title": "평택현덕지구사업 '18년째 표류'…공영개발 방식도 난항",
-      "link": "https://www.yna.co.kr/view/AKR20260812114500061",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:27:40+00:00"
-    },
-    {
-      "title": "대동금속 \"계열사 하이드로텍 주식 90억원에 취득\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812112100008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:13:13+00:00"
-    },
-    {
-      "title": "대동금속, 90억원 유상증자…대동에 제3자배정",
-      "link": "https://www.yna.co.kr/view/AKR20260812111600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:11:31+00:00"
-    },
-    {
-      "title": "NH투자, 임원 콘퍼런스 개최…\"하반기 불확실성 전략 논의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812110200008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:10:38+00:00"
-    },
-    {
-      "title": "與 \"비아파트 공급 확대·모듈러 방식 통한 과감한 공급 필요\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812107200001",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:09:55+00:00"
-    },
-    {
-      "title": "경남형 장애인 동행일자리 1호 농업회사법인 '태장' 창원서 개소",
-      "link": "https://www.yna.co.kr/view/AKR20260812048100052",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:05:00+00:00"
-    },
-    {
-      "title": "농식품부, 농업 분야 폭염 안전수칙 준수 캠페인 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260812107000030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T06:00:00+00:00"
-    },
-    {
-      "title": "與당권주자 송영길 “대통령 지지율 하락 핵심은 부동산...1조 부동산 세수에 목숨걸 이유없어”",
-      "link": "https://www.mk.co.kr/news/economy/12125328",
-      "source": "매일경제·증권",
-      "published": "2026-08-12T05:56:39+00:00"
-    },
-    {
-      "title": "1인당 30만원 지원금 제동 당진시, '민생 살리기 50일' 비상조치",
-      "link": "https://www.yna.co.kr/view/AKR20260812106300063",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T05:52:46+00:00"
-    },
-    {
-      "title": "롯데건설 2분기 영업익 1천224억원…작년 대비 230%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260812106600003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T05:50:13+00:00"
-    },
-    {
-      "title": "[게시판] 정진완 우리은행장, 포용금융 릴레이 캠페인 참여",
-      "link": "https://www.yna.co.kr/view/AKR20260812104800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T05:44:35+00:00"
     }
   ],
   "pages": [
