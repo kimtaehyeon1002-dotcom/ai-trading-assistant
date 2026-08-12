@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T19:56:09.317210+00:00",
+  "as_of": "2026-08-12T20:34:12.460419+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -354,10 +354,70 @@
   ],
   "news": [
     {
+      "title": "전 세계서 세 나라만 허락한 특권 … 내 집 살며 평생 연금 받기",
+      "link": "https://www.mk.co.kr/news/economy/12125237",
+      "source": "매일경제·증권",
+      "published": "2026-08-12T20:30:00+00:00"
+    },
+    {
+      "title": "Cerebras stock plunges 14% after second earnings report following IPO",
+      "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T20:28:48+00:00"
+    },
+    {
+      "title": "뉴욕증시, AI 강세·CPI 안도 속 혼조 마감…나스닥 0.54%↑ - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LdHpRTGt6Q3BCQ2s4ZU9ETGdIUWoyWEpuTWYwX2prNEs5d0ZSbF9FQ2tocU5zYmVtYnZhWXNkYUpoZWRzX1M2UlZRZndTX1YxelR2Y0RVUGpNdTg5?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T20:17:00+00:00"
+    },
+    {
+      "title": "CoreWeave counters a key bear case on the AI trade. What it means for our data center stocks",
+      "link": "https://www.cnbc.com/2026/08/12/coreweave-counters-a-key-bear-case-on-the-ai-trade-what-it-means-for-our-data-center-stocks.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T20:16:05+00:00"
+    },
+    {
+      "title": "[뉴욕증시-1보] 무난한 CPI에 떨떠름한 반응…보합권 혼조 마감 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKWWpJV0lMN3JDekszdU5hRXdTM2NqOHJ2M2VtY1I5Tk5kbDdDNkdZenFISnMxdlNBWmkxa09IcS16Ym1UYzBBQlNoRnNQd3FMNkNjLS12eElLamhFSWRVMGxCQ25iTm9nLS1YbHBoVlTSAXRBVV95cUxOT2NaVEFIdEJnTmxDWnhDdlhYQXFyX0pyZTNoY1d0X0pmZzZvVEd1NmdLQldEN1hWVVpGVlN2VlJvVUtlWmhSTXN3M2lYNmlmQUM2ZTlWMlBYZ3A1aVlsakNvcWx6eVA4VlNmSEZUdzZHVnVBbg?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T20:11:00+00:00"
+    },
+    {
       "title": "Trump says Karoline Leavitt resigning as White House press secretary",
       "link": "https://www.cnbc.com/2026/08/12/trump-white-house-karoline-leavitt-resigning-.html",
       "source": "CNBC Finance",
-      "published": "2026-08-12T19:55:52+00:00"
+      "published": "2026-08-12T20:09:15+00:00"
+    },
+    {
+      "title": "[속보]뉴욕증시, 7월 물가 둔화세 확인 후 혼조 마감 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE91b2VyTzhObFl2M2dLMHNQaW1LVVhnZGR6LVY3RHNRbW5LSDhSQlhSVW10OWlmdU9hOElFOUt2QnJTd0ZETW92MS15Zi1pQmxseHYtcHc0dGYtVlNPaUlGMw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T20:07:15+00:00"
+    },
+    {
+      "title": "CoreWeave gains 19%, Nebius surges 34% in post-earnings neocloud rally",
+      "link": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T20:00:52+00:00"
+    },
+    {
+      "title": "장동혁, 오늘 '뉴홈 대출조건 변경 논란' 신도시 현장 방문",
+      "link": "https://www.yna.co.kr/view/AKR20260812157800001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T20:00:02+00:00"
+    },
+    {
+      "title": "與, 오늘 의총서 부동산 세제 개편안·공급 방안 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260812154500001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T20:00:01+00:00"
+    },
+    {
+      "title": "How the market is trading gold as Fed rate hike and inflation odds shift",
+      "link": "https://www.cnbc.com/2026/08/12/gold-prices-metals-fed-rate-hike-inflation.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T19:57:25+00:00"
     },
     {
       "title": "Saudi Arabia ramps up oil exports through Mediterranean pipeline to avoid attacks in Red Sea",
@@ -372,12 +432,6 @@
       "published": "2026-08-12T19:50:29+00:00"
     },
     {
-      "title": "CoreWeave gains 20%, Nebius surges 30% in post-earnings neocloud rally",
-      "link": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T19:49:07+00:00"
-    },
-    {
       "title": "국제유가, 호르무즈 협상 교착속 보합권 마감…브렌트 89달러",
       "link": "https://www.yna.co.kr/view/AKR20260813004600072",
       "source": "연합뉴스·경제",
@@ -388,12 +442,6 @@
       "link": "https://www.cnbc.com/2026/08/12/wendys-stock-jumps-on-nelson-peltz-takeover-bid-report.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T19:46:08+00:00"
-    },
-    {
-      "title": "How to trade gold prices as Fed rate hike and inflation odds shift",
-      "link": "https://www.cnbc.com/2026/08/12/gold-prices-metals-fed-rate-hike-inflation.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T19:44:48+00:00"
     },
     {
       "title": "언제 어디로든 갈 수 있는 1548조 … 투심의 향방이 보인다",
@@ -430,12 +478,6 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YdlNOZ0lhVjBVVU44VjN5OFpneGFOclhNWGEwMmRndXJ1WWFFWjR0Y0JCMldkcll2X0VQLUw3S0dkQ2pDV1N0TWdKVS13dGN5eW5jLU4xdzJzMXQ3cEo2UmRUSlBzZHJt0gFuQVVfeXFMT3BBZEhvVEZGS09Nd2k1Zm9OTkp0SndkTWJnaDRZbTN5RzJldXQyaUYxeXdxdXhaY3BvRE1HZ0xkbU1YMXdkcnhfZVdtU3pwMUJkYlJRaEZEa1p2UGdJUDhEQjluZHZGT2NUT2NXdUE?oc=5",
       "source": "Google News",
       "published": "2026-08-12T18:55:00+00:00"
-    },
-    {
-      "title": "CEO of Intel just gave Jim Cramer one more reason to call it his favorite stock",
-      "link": "https://www.cnbc.com/2026/08/12/ceo-of-intel-just-gave-jim-cramer-one-more-reason-to-call-it-his-favorite-stock.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T18:38:29+00:00"
     },
     {
       "title": "Now China wants to become the shop floor for the Muslim world",
@@ -558,7 +600,7 @@
       "published": "2026-08-12T15:36:52+00:00"
     },
     {
-      "title": "널뛰기 증시에 변액보험 가입자 속앓이 - 조선비즈 - biz.chosun.com",
+      "title": "널뛰기 증시에 변액보험 가입자 속앓이 - 조선비즈 - Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSHRKTGhNdGRodW13M2JIWUlRTjB6YnppSzc3MnVjeno3RFphVUZHek8xZ29xbThFQk9jdUhaSjNQUndJLVotSkttWGhoZHpJQWd2eVFoZHgtYTBDMWR2RFpicGlVNXJYNHBfcHBwc1RDQi13UVdHQS1QcDk3dWRDanREQV9jUXFz0gGcAUFVX3lxTE1zN0JnUUtaZ2pPSEJBM1VYV25QcGd6N2hSZzVHSDZhZHRmNHhuY1kwN25FaEhwLV9JYzI2eV9YbDJvU1hOWENtdE1aNXl4OHprX2ZnVnVXTXN5TEF5T1BBN1FRU0hjc1lxdFJreUdZSFk1cmtkbDhwcDZMM3ljSzIxNnY4R25qaWZaTktwbWxZREJWdHFBY2plbVI2OQ?oc=5",
       "source": "Google News",
       "published": "2026-08-12T15:35:00+00:00"
@@ -588,7 +630,7 @@
       "published": "2026-08-12T14:20:10+00:00"
     },
     {
-      "title": "뉴욕증시, CPI 예상 부합에 상승 출발…나스닥 0.9%↑ - 조선비즈 - biz.chosun.com",
+      "title": "뉴욕증시, CPI 예상 부합에 상승 출발…나스닥 0.9%↑ - 조선비즈 - Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNnNNMDR5T2F6Mzc0V2dwdlItbTFtYm9GN215VThDbXdLd0RlZldrMmlqSERIZ2xhNTgtTElqV1VreG92ejgwYnp4Nm5EVVNaSWdRN2haZEJBRFZ2cG8xNDZjOGdoT05Tck1zNlFlNWFod1JTTzZqbklpVGdkTVViVGs0UE1qdkFMYzlyQUY3T3BNSDhuZ0ZkUU9MX0VWd9IBsgFBVV95cUxPUDdIRmFjM05CLTk4THV4QnQwbHVqcmR1LXQwclpVQlZqRDVFNkgtZHoyZWxvZnZsc1hUb013ZEhFRTFmcndvWDJaZmg4eEtnbld2U2k4eFE0ZjdGNkRVZEhDdHZEMTBMeDIwSDhRZ2J5RlZ1ME1nM1o0UTlORG5CU3k2bXZJd0E2LW9VQWRTYkRKQTJ6aWtjdnlscVVseVd2eDlDQTY4WDBJMHB2d1JmSkRR?oc=5",
       "source": "Google News",
       "published": "2026-08-12T14:01:00+00:00"
@@ -606,52 +648,10 @@
       "published": "2026-08-12T13:50:16+00:00"
     },
     {
-      "title": "LG전자 12% 상승? ‘증시 고점 징크스’ 재현되나 - 문화일보",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQSmhLNWM2NF80N0JkRUxOczJiSl9CelFIeUNVd2ZNYTBLNXg1OFNwZ2FFMHp1cVAtbVZBbEhZYTlCMlcxTXNYOW5lWWM3WklX?oc=5",
+      "title": "“월급보다 주식이 더 벌어줬다”…증시 호황에 은퇴 앞당긴 美 직장인들 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93VlJnZDBZc3N0RFdXazR6NWdlTkFSNVdmbXMtaGNXOG8tVDlIdUNYdE85WlFXUVZTU0g3YnVHX2lIWDd5RTRTMm44OGY0bEU?oc=5",
       "source": "Google News",
-      "published": "2026-08-12T13:44:50+00:00"
-    },
-    {
-      "title": "Solar eclipse drives Europe hotel prices to over $1,000 a night",
-      "link": "https://www.cnbc.com/2026/08/12/solar-eclipse-europe-hotel-prices.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T13:40:40+00:00"
-    },
-    {
-      "title": "China’s answer to Boeing and Airbus makes first international flight — could COMAC challenge the aviation duopoly?",
-      "link": "https://www.cnbc.com/2026/08/12/china-comac-boeing-airbus.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T13:15:36+00:00"
-    },
-    {
-      "title": "노동·산업장관, 메가특구 '주52시간제 예외' 놓고 온도차(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260812110351001",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T13:14:10+00:00"
-    },
-    {
-      "title": "'Tougher times ahead': Don't expect blowout returns to continue, CEO of $2.3 trillion fund warns after record first half",
-      "link": "https://www.cnbc.com/2026/08/12/norway-sovereign-wealth-tangen-nbim.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T12:23:06+00:00"
-    },
-    {
-      "title": "'4명 사망' 광주대표도서관 붕괴, 관리부실 공무원 2명 송치(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260812081851054",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T12:09:39+00:00"
-    },
-    {
-      "title": "New York City Council announces probe into prediction market platforms’ marketing strategies",
-      "link": "https://www.cnbc.com/2026/08/12/new-york-city-council-probes-prediction-markets-marketing-strategies.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T12:08:39+00:00"
-    },
-    {
-      "title": "Hong's defeat in Wisconsin deals blow to rising Democratic socialists",
-      "link": "https://www.cnbc.com/2026/08/11/primary-election-wisconsin-minnesota-south-carolina-democrats-hong-flanagan-craig.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T12:05:21+00:00"
+      "published": "2026-08-12T13:45:00+00:00"
     }
   ],
   "pages": [
