@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T23:21:38.575550+00:00",
+  "as_of": "2026-08-12T23:30:02.226248+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -359,6 +359,24 @@
   ],
   "news": [
     {
+      "title": "식약처, 의약품 불법 판매·광고 432건 차단 조처",
+      "link": "https://www.yna.co.kr/view/AKR20260813024000017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T23:23:33+00:00"
+    },
+    {
+      "title": "SK증권 \"JYP엔터, 2분기 실적 기대치 하회…목표가↓\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813023100008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T23:20:27+00:00"
+    },
+    {
+      "title": "[굿모닝 증시]美 반도체주 급등…\"한국증시 강세 흐름 전망\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2UFlCMnBZU0tXSGFRajZxdkhybDdxYjM4UVlRTzVqSXo1ZExnYlA4TE4wQUd3OFFDNEtEWDBOUU9IR0U2bzl4clZjR0VTb1U?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T23:14:00+00:00"
+    },
+    {
       "title": "[굿모닝 증시]美 반도체주 급등…\"한국증시 강세 흐름 전망\" - 아시아경제",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uLThxMHlNMUJJLVJPcnBPN0tzdzNBbjBkenV0dHhRZVdXa2hwOS14NzNyX3JrRjBDR2F6WWJYS0xqWFBKcVRSck8wSUJfNkk2Nzd3REZCMkhHdWY0M0wtZA?oc=5",
       "source": "Google News",
@@ -467,6 +485,12 @@
       "published": "2026-08-12T22:30:00+00:00"
     },
     {
+      "title": "뉴욕증시, 인플레 둔화 속 AI 낙관론 재개…나스닥 0.5％↑ - TBS 서울",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPODRDdjl0YURScWgtSVBYVzNpMlVZb2ZTRFZkamdkRU81QWZ5Zzd3S3hvQlBJMFpsOTZxWGhqNlFOTzVpT1V6T3ByZkZaSEc5a2R3RGdwN0p1ZnU2RTh6T1ljdnNJSFhMQ3VqQmhsZ1hVTFcySUtwQlBTeGRoTEpORDFOc0VyOFlj?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T22:24:00+00:00"
+    },
+    {
       "title": "Cerebras stock plunges 14% after second earnings report following IPO",
       "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
       "source": "CNBC Finance",
@@ -545,10 +569,22 @@
       "published": "2026-08-12T21:48:00+00:00"
     },
     {
+      "title": "[글로벌증시] 소비자물가지수 상승 둔화…S&P·나스닥 상승 마감 - 연합뉴스 한민족센터",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rejE0UWU4VjJESHdYM092ZTBXcXFDTUU3V2I2d0dkbE11cHEycC14d2E3WGdhNjdPck1IUC1YbWJaT2lVY09QaEdGQjdneHFyY1VnNmR5WWJMdGNBVUlYYlhGMnB6d0F0UmJmR3hvVFpmNnFG?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T21:44:02+00:00"
+    },
+    {
       "title": "Small investors became a major stock market force. Now, they risk getting pushed back into the dark",
       "link": "https://www.cnbc.com/2026/08/12/retail-investors-truthapi-earnings-trump.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T21:37:18+00:00"
+    },
+    {
+      "title": "뉴욕증시, 물가 둔화·AI주 강세에 혼조…나스닥 0.54%↑ - MTN 머니투데이방송",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6aTN2Zk5ReTB5c0wtZERlUWQ0bk11eHJwcmNjX1FXeUFPMGJEOWhsZjRCOXVUYjRTNi1UanBhZXRFRWdzTGh4ZmRyTkhIc0NDczFsVTBIZWtyTk1yYjlLUy0zZGc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T21:33:01+00:00"
     },
     {
       "title": "LG이노텍, MSCI한국지수에 편입…HLB·LG디플 등 4개는 빠져",
@@ -581,7 +617,7 @@
       "published": "2026-08-12T21:13:11+00:00"
     },
     {
-      "title": "뉴욕증시, CPI 상승세 둔화 속 혼조...나스닥 0.54%↑ [상보] - etoday.co.kr",
+      "title": "뉴욕증시, CPI 상승세 둔화 속 혼조...나스닥 0.54%↑ [상보] - 이투데이",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WTVdrSUZ5d2xQWWxiVmpuT1RKN2Fudm5fMWg1cU54ZEtHeWsydS1QLW5vX283VnVTaHFUSlczaGdSMFpxNnY2dl93M180T3JTYkJYMQ?oc=5",
       "source": "Google News",
       "published": "2026-08-12T21:12:00+00:00"
@@ -621,42 +657,6 @@
       "link": "https://www.cnbc.com/2026/08/12/saudi-arabia-iran-oil-red-sea-houthi-suez-canal-strait-hormuz.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T21:04:18+00:00"
-    },
-    {
-      "title": "성평등부, '양육비 채무 불이행자 제재' 전문가 간담회 개최",
-      "link": "https://www.yna.co.kr/view/AKR20260812125500530",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T21:00:13+00:00"
-    },
-    {
-      "title": "산업부, 대구 유턴·외투기업 방문…\"지방 투자 지원 확대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812148400003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T21:00:03+00:00"
-    },
-    {
-      "title": "증시 훈풍에 투자자문·일임업 수익 2.3조…1년 새 84% 증가",
-      "link": "https://www.yna.co.kr/view/AKR20260812165500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T21:00:00+00:00"
-    },
-    {
-      "title": "증시 훈풍에 투자자문·일임업 수익 2.3조…1년 새 84% 증가 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMcEdIbnc1YVVkcEJFUXcwWXRmeHJleGNmWm5BaFhzaDg2NzBNUXRNM2hNX2hMN0F4cFJmMHE2UkNVTk1xUy1OcXdVNVplRUlhcmJEQ3NXYXpnWlXSAWBBVV95cUxNaE41OGFmTDFXOVNac2ZMY0k4bHVoOWkxcl8tLUpXRGx0ZDZSZlVPR3NTd0VhT3NNZWdIOUVMdlVNU3ZYbEV0eG5zWXlkMTdEZFB4NUdDX2JiWUFTdHVILVI?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T21:00:00+00:00"
-    },
-    {
-      "title": "[뉴욕증시] 무난한 CPI에 떨떠름한 반응…보합권 혼조 마감 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEVDNDVmtTN2VCNTVYVlMwUUN2VU0zYzNKS2hjYXhWYTN1c0NpbXI1Uk1OWFdjOU5MUUJWTmtFQl9YSzZ1UUZ4V3Q2TlJ3Vkk0QmJKUjdjLU5hd1hQRUlhUF9aMWY1RjgwUHdhdHlhYk4?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T20:59:00+00:00"
-    },
-    {
-      "title": "전 세계서 세 나라만 허락한 특권 … 내 집 살며 평생 연금 받기",
-      "link": "https://www.mk.co.kr/news/economy/12125237",
-      "source": "매일경제·증권",
-      "published": "2026-08-12T20:30:00+00:00"
     }
   ],
   "pages": [
