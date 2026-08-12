@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T19:39:37.168023+00:00",
+  "as_of": "2026-08-12T19:56:09.317210+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -354,22 +354,52 @@
   ],
   "news": [
     {
+      "title": "Trump says Karoline Leavitt resigning as White House press secretary",
+      "link": "https://www.cnbc.com/2026/08/12/trump-white-house-karoline-leavitt-resigning-.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T19:55:52+00:00"
+    },
+    {
+      "title": "Saudi Arabia ramps up oil exports through Mediterranean pipeline to avoid attacks in Red Sea",
+      "link": "https://www.cnbc.com/2026/08/12/saudi-arabia-iran-oil-red-sea-houthi-suez-canal-strait-hormuz.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T19:51:51+00:00"
+    },
+    {
+      "title": "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
+      "link": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T19:50:29+00:00"
+    },
+    {
+      "title": "CoreWeave gains 20%, Nebius surges 30% in post-earnings neocloud rally",
+      "link": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T19:49:07+00:00"
+    },
+    {
+      "title": "국제유가, 호르무즈 협상 교착속 보합권 마감…브렌트 89달러",
+      "link": "https://www.yna.co.kr/view/AKR20260813004600072",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T19:48:56+00:00"
+    },
+    {
+      "title": "Wendy's stock jumps on report of potential takeover bid from Nelson Peltz's Trian Fund Management",
+      "link": "https://www.cnbc.com/2026/08/12/wendys-stock-jumps-on-nelson-peltz-takeover-bid-report.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T19:46:08+00:00"
+    },
+    {
+      "title": "How to trade gold prices as Fed rate hike and inflation odds shift",
+      "link": "https://www.cnbc.com/2026/08/12/gold-prices-metals-fed-rate-hike-inflation.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T19:44:48+00:00"
+    },
+    {
       "title": "언제 어디로든 갈 수 있는 1548조 … 투심의 향방이 보인다",
       "link": "https://www.mk.co.kr/news/economy/12125628",
       "source": "매일경제·증권",
       "published": "2026-08-12T19:33:00+00:00"
-    },
-    {
-      "title": "CoreWeave surges 19% after a 'cleaner quarter.' Here's what's happening",
-      "link": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T19:32:15+00:00"
-    },
-    {
-      "title": "How to trade gold prices as Fed rate hike and inflation odds shifts",
-      "link": "https://www.cnbc.com/2026/08/12/gold-prices-metals-fed-rate-hike-inflation.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T19:22:32+00:00"
     },
     {
       "title": "Google’s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
@@ -432,22 +462,10 @@
       "published": "2026-08-12T18:04:00+00:00"
     },
     {
-      "title": "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
-      "link": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T17:57:44+00:00"
-    },
-    {
       "title": "Here's the inflation breakdown for July 2026 — in one chart",
       "link": "https://www.cnbc.com/2026/08/12/inflation-breakdown-for-july-2026-cpi-in-one-chart.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T17:51:16+00:00"
-    },
-    {
-      "title": "Wendy's stock jumps on report of potential takeover bid from Nelson Peltz's Trian Fund Management",
-      "link": "https://www.cnbc.com/2026/08/12/wendys-stock-jumps-on-nelson-peltz-takeover-bid-report.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T17:34:28+00:00"
     },
     {
       "title": "‘I unexpectedly came into some money’: Is putting $20,000 into CDs a smart move?",
@@ -540,6 +558,12 @@
       "published": "2026-08-12T15:36:52+00:00"
     },
     {
+      "title": "널뛰기 증시에 변액보험 가입자 속앓이 - 조선비즈 - biz.chosun.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSHRKTGhNdGRodW13M2JIWUlRTjB6YnppSzc3MnVjeno3RFphVUZHek8xZ29xbThFQk9jdUhaSjNQUndJLVotSkttWGhoZHpJQWd2eVFoZHgtYTBDMWR2RFpicGlVNXJYNHBfcHBwc1RDQi13UVdHQS1QcDk3dWRDanREQV9jUXFz0gGcAUFVX3lxTE1zN0JnUUtaZ2pPSEJBM1VYV25QcGd6N2hSZzVHSDZhZHRmNHhuY1kwN25FaEhwLV9JYzI2eV9YbDJvU1hOWENtdE1aNXl4OHprX2ZnVnVXTXN5TEF5T1BBN1FRU0hjc1lxdFJreUdZSFk1cmtkbDhwcDZMM3ljSzIxNnY4R25qaWZaTktwbWxZREJWdHFBY2plbVI2OQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T15:35:00+00:00"
+    },
+    {
       "title": "AI’s costly build-out complicates the Fed’s inflation fight",
       "link": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html",
       "source": "CNBC Finance",
@@ -564,13 +588,7 @@
       "published": "2026-08-12T14:20:10+00:00"
     },
     {
-      "title": "증시 변동성, “종목·섹터 영향 축소, 완화장치가 해법” - 애플경제",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sOGdaUURvVXZxRE5GTEdITURsMGV3TmlseHhEOEVsc0VpcWlRNkVCb1RCclZIdm5lbWF1ZE05N2ZySGdrdGpybFZTUmI2ZHNmTHljaVE2OEZYX242WWFoTUxfc25feEJB?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T14:08:39+00:00"
-    },
-    {
-      "title": "뉴욕증시, CPI 예상 부합에 상승 출발…나스닥 0.9%↑ - 조선비즈 - Chosunbiz",
+      "title": "뉴욕증시, CPI 예상 부합에 상승 출발…나스닥 0.9%↑ - 조선비즈 - biz.chosun.com",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNnNNMDR5T2F6Mzc0V2dwdlItbTFtYm9GN215VThDbXdLd0RlZldrMmlqSERIZ2xhNTgtTElqV1VreG92ejgwYnp4Nm5EVVNaSWdRN2haZEJBRFZ2cG8xNDZjOGdoT05Tck1zNlFlNWFod1JTTzZqbklpVGdkTVViVGs0UE1qdkFMYzlyQUY3T3BNSDhuZ0ZkUU9MX0VWd9IBsgFBVV95cUxPUDdIRmFjM05CLTk4THV4QnQwbHVqcmR1LXQwclpVQlZqRDVFNkgtZHoyZWxvZnZsc1hUb013ZEhFRTFmcndvWDJaZmg4eEtnbld2U2k4eFE0ZjdGNkRVZEhDdHZEMTBMeDIwSDhRZ2J5RlZ1ME1nM1o0UTlORG5CU3k2bXZJd0E2LW9VQWRTYkRKQTJ6aWtjdnlscVVseVd2eDlDQTY4WDBJMHB2d1JmSkRR?oc=5",
       "source": "Google News",
       "published": "2026-08-12T14:01:00+00:00"
@@ -588,7 +606,7 @@
       "published": "2026-08-12T13:50:16+00:00"
     },
     {
-      "title": "LG전자 12% 상승? ‘증시 고점 징크스’ 재현되나 - munhwa.com",
+      "title": "LG전자 12% 상승? ‘증시 고점 징크스’ 재현되나 - 문화일보",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQSmhLNWM2NF80N0JkRUxOczJiSl9CelFIeUNVd2ZNYTBLNXg1OFNwZ2FFMHp1cVAtbVZBbEhZYTlCMlcxTXNYOW5lWWM3WklX?oc=5",
       "source": "Google News",
       "published": "2026-08-12T13:44:50+00:00"
@@ -598,12 +616,6 @@
       "link": "https://www.cnbc.com/2026/08/12/solar-eclipse-europe-hotel-prices.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T13:40:40+00:00"
-    },
-    {
-      "title": "[속보] 뉴욕증시, 일제 상승 출발…나스닥 0.8%↑ - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wUlpqek5hWnVQeVB3U0Y4d1AxaWN2aHBvVmVDTWxCcG1DQ0RpRF9NQkF1RURlMWpsdkhDaW1mbU82ZzJzdEJNMXRud0wtMW8xSlVHN1dKbDhpTkRJWm0watIBeEFVX3lxTE5wQjQ2dEd2S0VNUWc4Q0NUamU2QVlTYVMyUGhMbDBwZFdNQUpxWjkwVlV1dmVMZDYzTUk2bTFVVzNScElfeFFETmQtZDZ1UGFhc1lvVEpOWG5HTmlFbkRDN2VDVDFmM09TNWFiazVlRy1MSTFwdDZRQw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T13:33:30+00:00"
     },
     {
       "title": "China’s answer to Boeing and Airbus makes first international flight — could COMAC challenge the aviation duopoly?",
@@ -640,18 +652,6 @@
       "link": "https://www.cnbc.com/2026/08/11/primary-election-wisconsin-minnesota-south-carolina-democrats-hong-flanagan-craig.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T12:05:21+00:00"
-    },
-    {
-      "title": "[사설] '동전주' 퇴출이 증시 정상화 첫걸음 - 전자신문",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5CWVRFd0w0Rjdab3ZzaU5ocHFkeHdxMUo2d2ZwaGZ1Z3dvaVZpQ0RvZ1hrQ2NLWkc5Tjh6WHExb1RETm5YLUNKdzZjaTh4Zw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T12:00:00+00:00"
-    },
-    {
-      "title": "'20.79% 내국세 연동 폐지' 교육교부금 개편안 이르면 내주 발표",
-      "link": "https://www.yna.co.kr/view/AKR20260812163800002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-12T10:57:59+00:00"
     }
   ],
   "pages": [
