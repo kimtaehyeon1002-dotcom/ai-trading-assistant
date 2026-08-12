@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-13T08:20:07.820031+09:00",
+  "updated_at": "2026-08-13T08:20:14.559839+09:00",
   "workers": {
     "Vault Sync": {
       "worker": "Vault Sync",
       "last_run": "2026-08-13T08:19:14.387855+09:00",
       "status": "completed",
       "items": 1,
-      "duration_ms": 1
+      "duration_ms": 7
     },
     "Asset Kiwoom": {
       "worker": "Asset Kiwoom",
@@ -46,18 +46,18 @@
     "Asset Publish": {
       "worker": "Asset Publish",
       "status": "completed",
-      "items": 0,
-      "detail": "수집 없음 · 승계 kiwoom,kis_isa,kis_foreign,bybit · 결측 없음 · 발행 O",
+      "items": 4,
+      "detail": "수집 kiwoom,kis_isa,kis_foreign,bybit · 승계 없음 · 결측 없음 · 발행 O",
       "duration_ms": 0,
       "last_run": "2026-08-13T08:20:07.665308+09:00"
     },
     "Vault Journal": {
       "worker": "Vault Journal",
       "status": "completed",
-      "items": 0,
+      "items": 28,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-08-13T08:20:07.770553+09:00"
+      "last_run": "2026-08-13T08:20:14.512171+09:00"
     },
     "News Research": {
       "worker": "News Research",
@@ -79,7 +79,7 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-08-13T08:20:07.820031+09:00"
+      "last_run": "2026-08-13T08:20:14.559839+09:00"
     },
     "Trade Manager": {
       "worker": "Trade Manager",
@@ -170,7 +170,7 @@
       "last_run": "2026-08-13T08:19:14.772122+09:00",
       "status": "completed",
       "items": 2,
-      "duration_ms": 1
+      "duration_ms": 46
     }
   }
 }
