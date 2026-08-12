@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T13:00:36.684540+00:00",
+  "as_of": "2026-08-12T14:13:44.228743+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -354,10 +354,100 @@
   ],
   "news": [
     {
-      "title": "Chinese tech giant Tencent posts revenue beat on accelerating games sales, AI-driven ads",
+      "title": "CoreWeave surges 18% after a 'cleaner quarter.' Here's what's happening",
+      "link": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T14:03:14+00:00"
+    },
+    {
+      "title": "뉴욕증시, CPI 예상 부합에 상승 출발…나스닥 0.9%↑ - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNnNNMDR5T2F6Mzc0V2dwdlItbTFtYm9GN215VThDbXdLd0RlZldrMmlqSERIZ2xhNTgtTElqV1VreG92ejgwYnp4Nm5EVVNaSWdRN2haZEJBRFZ2cG8xNDZjOGdoT05Tck1zNlFlNWFod1JTTzZqbklpVGdkTVViVGs0UE1qdkFMYzlyQUY3T3BNSDhuZ0ZkUU9MX0VWd9IBsgFBVV95cUxPUDdIRmFjM05CLTk4THV4QnQwbHVqcmR1LXQwclpVQlZqRDVFNkgtZHoyZWxvZnZsc1hUb013ZEhFRTFmcndvWDJaZmg4eEtnbld2U2k4eFE0ZjdGNkRVZEhDdHZEMTBMeDIwSDhRZ2J5RlZ1ME1nM1o0UTlORG5CU3k2bXZJd0E2LW9VQWRTYkRKQTJ6aWtjdnlscVVseVd2eDlDQTY4WDBJMHB2d1JmSkRR?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T14:01:00+00:00"
+    },
+    {
+      "title": "Google’s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
+      "link": "https://www.cnbc.com/2026/08/12/google-pixel-11-gemini-ai-phone-apple.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T14:00:01+00:00"
+    },
+    {
+      "title": "Trust, but hedge: Quietly violent summer lingers as bulls buy crash protection",
+      "link": "https://www.cnbc.com/2026/08/12/trust-but-hedge-quietly-violent-summer-lingers-as-bulls-buy-crash-protection.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T13:59:17+00:00"
+    },
+    {
+      "title": "Citadel Securities called the stock-market reset. Now it sees a leverage buildup on the horizon.",
+      "link": "https://www.marketwatch.com/story/citadel-securities-called-the-stock-market-reset-now-it-says-leverage-may-build-up-again-988eec86?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-12T13:55:00+00:00"
+    },
+    {
+      "title": "뉴욕증시, CPI 소화하며 상승 출발 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05M09fXzFJR0JSQjU1ZTNKU2ZVTnVKNFFncE9BZ3ZQbS1TOVNpNzB5elE0X3N2UEdfaUQzREw3UG11LWVKMXVGNTdabnA0RTNNOUZkemx1a3d0M2pGYmJuLWROTElBZFdQVG5EcUpNejg?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T13:50:16+00:00"
+    },
+    {
+      "title": "LG전자 12% 상승? ‘증시 고점 징크스’ 재현되나 - 문화일보",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQSmhLNWM2NF80N0JkRUxOczJiSl9CelFIeUNVd2ZNYTBLNXg1OFNwZ2FFMHp1cVAtbVZBbEhZYTlCMlcxTXNYOW5lWWM3WklX?oc=5",
+      "source": "Google News",
+      "published": "2026-08-12T13:44:50+00:00"
+    },
+    {
+      "title": "Home Depot CEO taking temporary medical leave, two top execs to run the retailer",
+      "link": "https://www.cnbc.com/2026/08/12/home-depot-ceo-ted-decker-medical-leave.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T13:42:45+00:00"
+    },
+    {
+      "title": "Solar eclipse drives Europe hotel prices to over $1,000 a night",
+      "link": "https://www.cnbc.com/2026/08/12/solar-eclipse-europe-hotel-prices.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T13:40:40+00:00"
+    },
+    {
+      "title": "CoreWeave’s stock is rocketing after earnings lead to praise from bulls and bears alike",
+      "link": "https://www.marketwatch.com/story/coreweaves-stock-is-rocketing-after-earnings-lead-to-praise-from-bulls-and-bears-alike-46c831e7?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-12T13:34:00+00:00"
+    },
+    {
+      "title": "Nebius adds to the excitement around neocloud stocks with upbeat earnings of its own",
+      "link": "https://www.marketwatch.com/story/nebius-adds-to-the-excitement-around-neocloud-stocks-with-upbeat-earnings-of-its-own-cd2aa36e?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-12T13:33:00+00:00"
+    },
+    {
+      "title": "Chinese tech giant Tencent sees spending surge, defends potential 'superior' AI returns",
       "link": "https://www.cnbc.com/2026/08/12/china-tencent-earnings-q2-2026-gaming-ai-advertising.html",
       "source": "CNBC Finance",
-      "published": "2026-08-12T12:59:17+00:00"
+      "published": "2026-08-12T13:31:54+00:00"
+    },
+    {
+      "title": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+      "link": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T13:29:29+00:00"
+    },
+    {
+      "title": "China’s answer to Boeing and Airbus makes first international flight — could COMAC challenge the aviation duopoly?",
+      "link": "https://www.cnbc.com/2026/08/12/china-comac-boeing-airbus.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-12T13:15:36+00:00"
+    },
+    {
+      "title": "노동·산업장관, 메가특구 '주52시간제 예외' 놓고 온도차(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812110351001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-12T13:14:10+00:00"
+    },
+    {
+      "title": "Eli Lilly is suing pharmacies and peptide vendors over sale of its next big weight-loss drug: retatrutide",
+      "link": "https://www.marketwatch.com/story/eli-lilly-is-suing-pharmacies-and-peptide-vendors-over-sales-of-the-next-big-weight-loss-drug-retatrutide-22434cce?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-12T13:07:00+00:00"
     },
     {
       "title": "The $30 trillion Treasury market is facing a painful reckoning. How rising yields could squeeze your portfolio.",
@@ -366,40 +456,16 @@
       "published": "2026-08-12T12:58:00+00:00"
     },
     {
-      "title": "CoreWeave surges 20% in premarket after a 'cleaner quarter.' Here's what's happening",
-      "link": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T12:54:52+00:00"
-    },
-    {
-      "title": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
-      "link": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T12:54:09+00:00"
-    },
-    {
       "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
       "link": "https://www.cnbc.com/2026/08/12/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T12:50:34+00:00"
     },
     {
-      "title": "Citadel Securities called the stock-market reset. Now it sees a leverage buildup on the horizon.",
-      "link": "https://www.marketwatch.com/story/citadel-securities-called-the-stock-market-reset-now-it-says-leverage-may-build-up-again-988eec86?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-12T12:35:00+00:00"
-    },
-    {
       "title": "Houthi attack kills six in first fatalities in Red Sea in over a year; U.S. strikes container ship",
       "link": "https://www.cnbc.com/2026/08/12/us-iran-war-trump-hormuz-houthi-attack-blockade-.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T12:28:39+00:00"
-    },
-    {
-      "title": "CoreWeave’s stock is rocketing after earnings lead to praise from bulls and bears alike",
-      "link": "https://www.marketwatch.com/story/coreweaves-stock-is-rocketing-after-earnings-lead-to-praise-from-bulls-and-bears-alike-46c831e7?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-12T12:24:00+00:00"
     },
     {
       "title": "'Tougher times ahead': Don't expect blowout returns to continue, CEO of $2.3 trillion fund warns after record first half",
@@ -448,12 +514,6 @@
       "link": "https://www.cnbc.com/2026/08/12/europe-heat-drought-nuclear-power.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T11:55:43+00:00"
-    },
-    {
-      "title": "China’s answer to Boeing and Airbus makes first international flight — could COMAC challenge the aviation duopoly?",
-      "link": "https://www.cnbc.com/2026/08/12/china-comac-boeing-airbus.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-12T11:45:02+00:00"
     },
     {
       "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
@@ -516,18 +576,6 @@
       "published": "2026-08-12T10:00:28+00:00"
     },
     {
-      "title": "Is $1 million enough for a household to retire? The answer keeps changing.",
-      "link": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-12T10:00:00+00:00"
-    },
-    {
-      "title": "AI capex could hit $1.6 trillion next year, says fund manager who sees more echoes of 1998 than the dot-com bust",
-      "link": "https://www.marketwatch.com/story/ai-capex-could-hit-1-6-trillion-next-year-says-fund-manager-who-sees-more-echoes-of-1998-than-the-dot-com-bust-0576b598?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-12T09:35:00+00:00"
-    },
-    {
       "title": "미국·일본 통화공조 시대…뜨는 투자처 있다는데 [지정학에서 찾는 투자기회]",
       "link": "https://www.mk.co.kr/news/economy/12125646",
       "source": "매일경제·증권",
@@ -588,12 +636,6 @@
       "published": "2026-08-12T08:53:21+00:00"
     },
     {
-      "title": "국내증시 거래량 두달새 반토막 … 하반기 증권사 실적둔화 우려도 - 매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jV1lVb0xnaC1BR1JSd0o4WnJydHVHN3JZUG9feFN5MFJZQS0tUUVWbFlCQ3M5RGVycXJWY09xOG8xbGFCNEhhR2xKTXBBa1E4QkE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T08:51:22+00:00"
-    },
-    {
       "title": "가업상속공제 40년 '족쇄'…\"남자옷 팔다 여자옷 팔면 탈락\"",
       "link": "https://www.mk.co.kr/news/economy/12125590",
       "source": "매일경제·증권",
@@ -610,48 +652,6 @@
       "link": "https://www.cnbc.com/2026/08/12/norway-sovereign-wealth-fund-spacex-nvidia-apple-nbim.html",
       "source": "CNBC Finance",
       "published": "2026-08-12T08:45:20+00:00"
-    },
-    {
-      "title": "與 당권주자 송영길 \"부동산稅 손대지 마\"",
-      "link": "https://www.mk.co.kr/news/economy/12125580",
-      "source": "매일경제·증권",
-      "published": "2026-08-12T08:44:52+00:00"
-    },
-    {
-      "title": "IPO 살리려 규제 풀었는데…PE들 런던증시 외면 - 마켓인",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5EdGtfOUFVbXhSandXSHUxVEFwU19WbXRWcllMRF9QRFRlb1ZyZklOcUVBQ0lGUGFYQ1phak9NYzhJUVBUZnVBNnAxM3UwczR3ZFZVWlhEMGtZRm9NRVoxTmM1dWo0TmdhdU1oRk9BV2RkUQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-12T08:43:02+00:00"
-    },
-    {
-      "title": "[단독] 교육교부금 수술 …'내국세 연동 폐지' 개편안 내주 발표",
-      "link": "https://www.mk.co.kr/news/economy/12125575",
-      "source": "매일경제·증권",
-      "published": "2026-08-12T08:42:24+00:00"
-    },
-    {
-      "title": "꼼수상속 잡다가…가업승계 막아설판",
-      "link": "https://www.mk.co.kr/news/economy/12125572",
-      "source": "매일경제·증권",
-      "published": "2026-08-12T08:42:23+00:00"
-    },
-    {
-      "title": "[포토] 2026년 하반기 전국세무관서장 회의",
-      "link": "https://www.mk.co.kr/news/economy/12125569",
-      "source": "매일경제·증권",
-      "published": "2026-08-12T08:41:12+00:00"
-    },
-    {
-      "title": "'中 1위 이커머스' 징둥, 韓 상품 직매입한다",
-      "link": "https://www.mk.co.kr/news/economy/12125566",
-      "source": "매일경제·증권",
-      "published": "2026-08-12T08:41:11+00:00"
-    },
-    {
-      "title": "한전, 호남반도체 팹에 3GW 전력 공급",
-      "link": "https://www.mk.co.kr/news/economy/12125567",
-      "source": "매일경제·증권",
-      "published": "2026-08-12T08:41:11+00:00"
     }
   ],
   "pages": [
