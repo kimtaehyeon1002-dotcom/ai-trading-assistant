@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-14T00:49:39.703769+09:00",
+  "generated_at": "2026-08-14T00:55:50.666756+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-08-14T00:49:07.687598+09:00",
+      "last_built": "2026-08-14T00:55:37.603249+09:00",
       "expected_T_min": 30,
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-08-14T00:49:11.482547+09:00",
+      "last_built": "2026-08-14T00:55:42.070645+09:00",
       "expected_T_min": 30,
       "items": 26,
-      "duration_ms": 16893
+      "duration_ms": 8527
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,28 +52,28 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-08-14T00:49:29.241812+09:00",
+      "last_built": "2026-08-14T00:55:42.069063+09:00",
       "expected_T_min": 30,
-      "items": 0,
+      "items": 1,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-08-14T00:49:29.243302+09:00",
+      "last_built": "2026-08-14T00:55:37.678754+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 4979
+      "duration_ms": 4182
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-08-14T00:49:34.228773+09:00",
+      "last_built": "2026-08-14T00:55:41.867371+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 5436
+      "duration_ms": 0
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-08-14T00:49:39.694949+09:00",
+      "last_built": "2026-08-14T00:55:50.650951+09:00",
       "expected_T_min": 30,
       "items": 3,
       "duration_ms": 0
@@ -164,10 +164,10 @@
     },
     "Loop Ledger": {
       "status": "completed",
-      "last_built": "2026-08-14T00:49:29.241830+09:00",
+      "last_built": "2026-08-14T00:55:42.069098+09:00",
       "expected_T_min": 30,
       "items": 2,
-      "duration_ms": 0
+      "duration_ms": 1
     }
   }
 }
