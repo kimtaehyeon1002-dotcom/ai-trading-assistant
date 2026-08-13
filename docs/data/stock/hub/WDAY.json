@@ -1,0 +1,17 @@
+{
+  "code": "WDAY",
+  "name": "Workday, Inc.",
+  "market": "US",
+  "theme": null,
+  "quote": {
+    "close": 206.4499969482422,
+    "change_pct": 17.78,
+    "volume": 16294604,
+    "amount": 3364020946.072815,
+    "marcap": null,
+    "as_of_iso": "2026-08-13T22:28:09.591707+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "WDAY",
+  "related_news": []
+}

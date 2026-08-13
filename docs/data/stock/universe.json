@@ -95,6 +95,11 @@
     "market": "KOSDAQ"
   },
   {
+    "code": "080220",
+    "name": "제주반도체",
+    "market": "KOSDAQ"
+  },
+  {
     "code": "011070",
     "name": "LG이노텍",
     "market": "KOSPI"
@@ -105,19 +110,14 @@
     "market": "KOSPI"
   },
   {
-    "code": "015760",
-    "name": "한국전력",
-    "market": "KOSPI"
-  },
-  {
     "code": "009830",
     "name": "한화솔루션",
     "market": "KOSPI"
   },
   {
-    "code": "080220",
-    "name": "제주반도체",
-    "market": "KOSDAQ"
+    "code": "015760",
+    "name": "한국전력",
+    "market": "KOSPI"
   },
   {
     "code": "028260",
@@ -155,23 +155,13 @@
     "market": "US"
   },
   {
-    "code": "NVDA",
-    "name": "Nvidia",
-    "market": "US"
-  },
-  {
-    "code": "INTC",
-    "name": "Intel",
-    "market": "US"
-  },
-  {
     "code": "SNDK",
     "name": "Sandisk",
     "market": "US"
   },
   {
-    "code": "MSFT",
-    "name": "Microsoft",
+    "code": "NVDA",
+    "name": "Nvidia",
     "market": "US"
   },
   {
@@ -180,8 +170,8 @@
     "market": "US"
   },
   {
-    "code": "LITE",
-    "name": "Lumentum",
+    "code": "INTC",
+    "name": "Intel",
     "market": "US"
   },
   {
@@ -190,8 +180,8 @@
     "market": "US"
   },
   {
-    "code": "META",
-    "name": "Meta Platforms",
+    "code": "MSFT",
+    "name": "Microsoft",
     "market": "US"
   },
   {
@@ -200,28 +190,13 @@
     "market": "US"
   },
   {
-    "code": "GOOGL",
-    "name": "Alphabet Inc. (Class A)",
-    "market": "US"
-  },
-  {
     "code": "AMZN",
     "name": "Amazon",
     "market": "US"
   },
   {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
-    "market": "US"
-  },
-  {
-    "code": "AVGO",
-    "name": "Broadcom",
-    "market": "US"
-  },
-  {
-    "code": "SMCI",
-    "name": "Supermicro",
+    "code": "CSCO",
+    "name": "Cisco",
     "market": "US"
   },
   {
@@ -230,18 +205,33 @@
     "market": "US"
   },
   {
+    "code": "META",
+    "name": "Meta Platforms",
+    "market": "US"
+  },
+  {
+    "code": "AMAT",
+    "name": "Applied Materials",
+    "market": "US"
+  },
+  {
+    "code": "GOOGL",
+    "name": "Alphabet Inc. (Class A)",
+    "market": "US"
+  },
+  {
+    "code": "AVGO",
+    "name": "Broadcom",
+    "market": "US"
+  },
+  {
     "code": "GOOG",
     "name": "Alphabet Inc. (Class C)",
     "market": "US"
   },
   {
-    "code": "MRVL",
-    "name": "Marvell Technology",
-    "market": "US"
-  },
-  {
-    "code": "CSCO",
-    "name": "Cisco",
+    "code": "SMCI",
+    "name": "Supermicro",
     "market": "US"
   },
   {
@@ -255,28 +245,13 @@
     "market": "US"
   },
   {
-    "code": "AMAT",
-    "name": "Applied Materials",
+    "code": "MRVL",
+    "name": "Marvell Technology",
     "market": "US"
   },
   {
-    "code": "DELL",
-    "name": "Dell Technologies",
-    "market": "US"
-  },
-  {
-    "code": "APP",
-    "name": "AppLovin",
-    "market": "US"
-  },
-  {
-    "code": "CAT",
-    "name": "Caterpillar Inc.",
-    "market": "US"
-  },
-  {
-    "code": "LRCX",
-    "name": "Lam Research",
+    "code": "LITE",
+    "name": "Lumentum",
     "market": "US"
   },
   {
@@ -285,18 +260,43 @@
     "market": "US"
   },
   {
-    "code": "WMT",
-    "name": "Walmart",
+    "code": "ORCL",
+    "name": "Oracle Corporation",
     "market": "US"
   },
   {
-    "code": "KLAC",
-    "name": "KLA Corporation",
+    "code": "DELL",
+    "name": "Dell Technologies",
     "market": "US"
   },
   {
-    "code": "LLY",
-    "name": "Lilly (Eli)",
+    "code": "WDAY",
+    "name": "Workday, Inc.",
+    "market": "US"
+  },
+  {
+    "code": "NFLX",
+    "name": "Netflix",
+    "market": "US"
+  },
+  {
+    "code": "CRM",
+    "name": "Salesforce",
+    "market": "US"
+  },
+  {
+    "code": "LRCX",
+    "name": "Lam Research",
+    "market": "US"
+  },
+  {
+    "code": "NOW",
+    "name": "ServiceNow",
+    "market": "US"
+  },
+  {
+    "code": "BRK-B",
+    "name": "Berkshire Hathaway",
     "market": "US"
   },
   {
@@ -333,6 +333,11 @@
     "code": "068270",
     "name": "셀트리온",
     "market": "KRX"
+  },
+  {
+    "code": "LLY",
+    "name": "Eli Lilly",
+    "market": "NYSE"
   },
   {
     "code": "NVO",
