@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-13T10:52:45.990410+00:00",
+  "as_of": "2026-08-13T11:06:34.705512+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -364,6 +364,36 @@
   ],
   "news": [
     {
+      "title": "영호남 산업전기료 최대 10% 인하",
+      "link": "https://www.mk.co.kr/news/economy/12127015",
+      "source": "매일경제·증권",
+      "published": "2026-08-13T11:00:21+00:00"
+    },
+    {
+      "title": "Lenovo profits soar past expectations on AI computers, servers and services",
+      "link": "https://www.marketwatch.com/story/lenovo-profits-soar-past-expectations-on-ai-computers-servers-and-services-162e11e6?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-13T11:00:00+00:00"
+    },
+    {
+      "title": "Bill Ackman once exited Netflix stake in a huff. Why he’s buying the streaming giant again as well as these five stocks.",
+      "link": "https://www.marketwatch.com/story/bill-ackman-once-exited-netflix-stake-in-a-huff-why-hes-buying-the-streaming-giant-again-as-well-as-these-five-stocks-ae0d9220?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-13T10:54:00+00:00"
+    },
+    {
+      "title": "부동산·검찰개혁·증시 불안에 지지층 이탈…이 대통령 지지율 49% 최저 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54TER5cHJPSzQtYzQ2a2swQnQ0aFY4QUhGa0xXMnE1U0x0eWRIQlZSeERrT0NxVVAzYjl2OXZ3ZDBkRkxIcVhLWFIxdDlkZVFHZHJ4dWIyX05LcWZfSGZEaGpBazUtMHVGX0sw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-13T10:52:00+00:00"
+    },
+    {
+      "title": "'닥터둠' 김영익 \"9월 또 한번의 반등이 온다\"…하반기 증시 대전망 [오후초대석 | 김영익 교수] - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3eDlQdzVsMjNUb1BWZ2hTX3VuVnZqUy1lQmNjdUxYblJ0U292bDkyYXRkOUlPMUg2RXJVVjB6OUVhOS05OVVOSnRGVUlxTHM?oc=5",
+      "source": "Google News",
+      "published": "2026-08-13T10:49:13+00:00"
+    },
+    {
       "title": "Flying first class is getting cheaper — if you don’t mind giving up some perks",
       "link": "https://www.marketwatch.com/story/flying-first-class-is-getting-cheaper-if-you-dont-mind-giving-up-some-perks-76035942?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -544,7 +574,7 @@
       "published": "2026-08-13T08:51:17+00:00"
     },
     {
-      "title": "[단독] 청년 월세 지원 늘린다 … '중위소득 100%'로 확대",
+      "title": "청년 월세 지원 늘린다…'중위소득 100%'로 확대",
       "link": "https://www.mk.co.kr/news/economy/12126844",
       "source": "매일경제·증권",
       "published": "2026-08-13T08:50:28+00:00"
@@ -604,14 +634,14 @@
       "published": "2026-08-13T08:47:08+00:00"
     },
     {
-      "title": "결혼페널티 완화했지만…형평성 논란 여전",
-      "link": "https://www.mk.co.kr/news/economy/12126833",
+      "title": "[표] 외국환율고시표",
+      "link": "https://www.mk.co.kr/news/economy/12126832",
       "source": "매일경제·증권",
       "published": "2026-08-13T08:47:07+00:00"
     },
     {
-      "title": "[표] 외국환율고시표",
-      "link": "https://www.mk.co.kr/news/economy/12126832",
+      "title": "결혼페널티 완화했지만…형평성 논란 여전",
+      "link": "https://www.mk.co.kr/news/economy/12126833",
       "source": "매일경제·증권",
       "published": "2026-08-13T08:47:07+00:00"
     },
@@ -632,36 +662,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260813157000008",
       "source": "연합뉴스·경제",
       "published": "2026-08-13T08:41:27+00:00"
-    },
-    {
-      "title": "Treasury yields dip as Wall Street awaits wholesale inflation data",
-      "link": "https://www.cnbc.com/2026/08/13/treasury-yields-wall-street-inflation-data.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-13T08:40:17+00:00"
-    },
-    {
-      "title": "[단독] 월 270만원 버는 청년도 월세 지원…중위소득 ‘100%이하’로 확대",
-      "link": "https://www.mk.co.kr/news/economy/12126795",
-      "source": "매일경제·증권",
-      "published": "2026-08-13T08:39:40+00:00"
-    },
-    {
-      "title": "[단독] KDB생명 매각 우선협상대상자에 한투",
-      "link": "https://www.mk.co.kr/news/economy/12126786",
-      "source": "매일경제·증권",
-      "published": "2026-08-13T08:28:32+00:00"
-    },
-    {
-      "title": "‘Hormuz remains blocked’: Iran disputes Trump claims as traffic sinks to near 3-month lows",
-      "link": "https://www.cnbc.com/2026/08/13/us-iran-war-trump-hormuz-irgc.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-13T08:28:14+00:00"
-    },
-    {
-      "title": "“비거주 요건 완화 필요·장특공제 취지 살려야”…전문가들의 쓴소리",
-      "link": "https://www.mk.co.kr/news/economy/12126783",
-      "source": "매일경제·증권",
-      "published": "2026-08-13T08:25:09+00:00"
     }
   ],
   "pages": [
