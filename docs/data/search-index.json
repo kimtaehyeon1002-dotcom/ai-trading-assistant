@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-13T18:47:14.135168+00:00",
+  "as_of": "2026-08-13T18:58:11.747715+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -364,6 +364,12 @@
   ],
   "news": [
     {
+      "title": "Oil prices fall as investors weigh falling demand against Middle East tensions",
+      "link": "https://www.cnbc.com/2026/08/13/oil-spill-near-oman-worries-over-supply-.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-13T18:57:24+00:00"
+    },
+    {
       "title": "Anthropic CFO Krishna Rao is leading early IPO meetings with investors and has not discussed valuation, sources say",
       "link": "https://www.cnbc.com/2026/08/13/anthropic-cfo-early-ipo-meetings-valuation.html",
       "source": "CNBC Finance",
@@ -392,12 +398,6 @@
       "link": "https://www.cnbc.com/2026/08/13/heres-a-rapid-fire-update-on-our-32-stock-portfolio-including-cramers-5-favorites-to-buy.html",
       "source": "CNBC Finance",
       "published": "2026-08-13T17:53:51+00:00"
-    },
-    {
-      "title": "Oil prices fall as investors weigh falling demand against Middle East tensions",
-      "link": "https://www.cnbc.com/2026/08/13/oil-spill-near-oman-worries-over-supply-.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-13T17:46:28+00:00"
     },
     {
       "title": "Cerebras stock plunges 14% after second earnings report following IPO",
@@ -496,7 +496,7 @@
       "published": "2026-08-13T14:49:00+00:00"
     },
     {
-      "title": "‘국장 탈출’ 성급했나…국내 증시 시총 6000조원 회복 - 문화일보",
+      "title": "‘국장 탈출’ 성급했나…국내 증시 시총 6000조원 회복 - munhwa.com",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KcjZMYmt0YkZvblNlZ3lYamhuZnFldFFyNFdrUVJRbVI2aEd5S3Q1OU0zZzRJcmYzT3JtQm9qa2VGQjZaOHBkaGRfa014eFpu?oc=5",
       "source": "Google News",
       "published": "2026-08-13T14:35:04+00:00"
@@ -524,6 +524,12 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9idEpIX2JBSldGVms1Ykx4dkx3cEg0Sko3RUo1OXpvZkRsRUdaTVdpRGxQM0lFSDhELTFqMnItSWlGY0JYMEtTdklZQnNlZkRsVWlFYm1ydGRlWWJHRmVTQnJvYTlLSWtiTUtIM2dqcXU?oc=5",
       "source": "Google News",
       "published": "2026-08-13T13:59:45+00:00"
+    },
+    {
+      "title": "[뉴욕증시]PPI 보합에 금리인상 후퇴…일제히 상승 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52YUctVlp2YU1XdDlfOEFBTnB3QWRxVS1Bd2pvWTR3V2JjNE9ZZy1hT1ZKQ1ZZODBCOVI3b19JV0pETEgwbjFTaTJRaUppZlk?oc=5",
+      "source": "Google News",
+      "published": "2026-08-13T13:55:27+00:00"
     },
     {
       "title": "Goldman says Japan's $1 trillion of reserves leaves 'plenty of capacity' for further yen interventions",
@@ -592,19 +598,13 @@
       "published": "2026-08-13T11:00:21+00:00"
     },
     {
-      "title": "[인도증시] 인플레이션 둔화에도 '중동 불확실성'에 관망세 지속...'사임 쇼크' 타타그룹은 진정 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NMFloT19sTnJBT2pOZ2M5bDQ1WmRKLWV3b3BCOUJkWDB6QU5qZ19ZSTJrb0FGVzhVWUN3aUlaS1JaVkVFM0hDa3k0TGs4VVhyMFRsazF5NVRqMTlR?oc=5",
-      "source": "Google News",
-      "published": "2026-08-13T10:50:00+00:00"
-    },
-    {
       "title": "'닥터둠' 김영익 \"9월 또 한번의 반등이 온다\"…하반기 증시 대전망 [오후초대석 | 김영익 교수] - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3eDlQdzVsMjNUb1BWZ2hTX3VuVnZqUy1lQmNjdUxYblJ0U292bDkyYXRkOUlPMUg2RXJVVjB6OUVhOS05OVVOSnRGVUlxTHM?oc=5",
       "source": "Google News",
       "published": "2026-08-13T10:49:13+00:00"
     },
     {
-      "title": "증시 투자자예탁금 100조 아래로, 올해 2월 이후 처음…조정장 영향 - 국제신문",
+      "title": "증시 투자자예탁금 100조 아래로, 올해 2월 이후 처음…조정장 영향 - kookje.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLVFaT3FOTkt5endNYWFmci1mRWw3RUNCb1E1NUZNN3FpUmhYNE1vTF91VnhFNzVMMFFTNFJMUEF0Z002bkNQS3J3c0ZXTTF5S0VFQUJqYUU4YTlQLUE0MEtQbW5UZ2YxckNDbktWXzZNb1Q2S3dDaTRYNHFMdkoxalNTZU93RUNqOU9n?oc=5",
       "source": "Google News",
       "published": "2026-08-13T10:17:00+00:00"
