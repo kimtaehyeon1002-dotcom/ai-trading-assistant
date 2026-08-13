@@ -1,16 +1,11 @@
-// financials.js — Financial Statements 상태 A(검색)/상태 B(분석) 전환(design/06, Phase 7).
+// financials.js — Financial Statements 상태 A(목록)/상태 B(분석) 전환(design/06, Phase 7).
 // #code=<종목코드> 해시로 상태를 전환한다(페이지 이동 없이, design/06 §1-1). 유니버스에는 있지만
 // 재무 데이터가 없는 종목은 "준비되지 않음" 빈 상태를 보여준다(design/06 §3-8). 외부 라이브러리 0.
-//
-// 상태 A는 유니버스 전체를 나열하지 않는다(design/06 §1-1·§2-1) — 서버가 렌더한 표 행을 초기에
-// 전부 감추고, 검색어에 맞는 행만 드러낸다. 검색 전 빈 화면을 막는 것은 "최근 조회" 칩이다(§9-3).
 (function (global) {
   "use strict";
 
   var doc = global.document;
   var browseEl, detailEl;
-  var searchEl, resultsEl, hintEl, noResultEl, recentEl, recentChipsEl;
-  var rows = [];
 
   var JUDGMENT_LABEL = { good: "양호", neutral: "중립", caution: "주의" };
 
