@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-14T06:34:19.598339+09:00",
+  "updated_at": "2026-08-14T06:37:28.344984+09:00",
   "workers": {
     "Vault Sync": {
       "worker": "Vault Sync",
-      "last_run": "2026-08-14T06:34:02.325144+09:00",
+      "last_run": "2026-08-14T06:37:05.054711+09:00",
       "status": "completed",
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-08-14T06:34:05.501401+09:00",
+      "last_run": "2026-08-14T06:37:05.342951+09:00",
       "status": "completed",
       "items": 26,
-      "duration_ms": 7404
+      "duration_ms": 15489
     },
     "Asset Publish": {
       "worker": "Asset Publish",
@@ -57,21 +57,21 @@
       "items": 0,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-08-14T06:34:13.337714+09:00"
+      "last_run": "2026-08-14T06:37:05.341338+09:00"
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-08-14T06:34:13.340347+09:00",
+      "last_run": "2026-08-14T06:37:20.833770+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 4027
+      "duration_ms": 4580
     },
     "Translator": {
       "worker": "Translator",
-      "last_run": "2026-08-14T06:34:17.374631+09:00",
+      "last_run": "2026-08-14T06:37:25.419892+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 2176
+      "duration_ms": 2872
     },
     "Publisher": {
       "worker": "Publisher",
@@ -79,7 +79,7 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-08-14T06:34:19.598199+09:00"
+      "last_run": "2026-08-14T06:37:28.344846+09:00"
     },
     "Trade Manager": {
       "worker": "Trade Manager",
@@ -146,17 +146,17 @@
     },
     "FS DART corpCode": {
       "worker": "FS DART corpCode",
-      "last_run": "2026-08-13T06:37:21.050116+09:00",
+      "last_run": "2026-08-14T06:37:05.126873+09:00",
       "status": "completed",
       "items": null,
       "duration_ms": 0
     },
     "FS EDGAR CIK맵": {
       "worker": "FS EDGAR CIK맵",
-      "last_run": "2026-08-13T06:37:21.063359+09:00",
+      "last_run": "2026-08-14T06:37:05.140384+09:00",
       "status": "completed",
       "items": null,
-      "duration_ms": 119
+      "duration_ms": 160
     },
     "Macro History": {
       "worker": "Macro History",
@@ -167,7 +167,7 @@
     },
     "Loop Ledger": {
       "worker": "Loop Ledger",
-      "last_run": "2026-08-14T06:34:13.337742+09:00",
+      "last_run": "2026-08-14T06:37:05.341358+09:00",
       "status": "completed",
       "items": 2,
       "duration_ms": 1
