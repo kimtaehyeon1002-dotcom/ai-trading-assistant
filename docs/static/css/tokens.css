@@ -10,6 +10,20 @@
  * 그 값을 변경 없이 옮긴다.
  *
  * 로드 순서 계약(design/22 §3-2): tokens.css → base_v2.css → components.css.
+ *
+ * ── 2026-08-05 "Deep Intelligence" 개편 ────────────────────────────────────
+ * 기존 slate+그린 팔레트를 매트 차콜 + 딥 골드로 교체했다. 성격이 "정보 대시보드"에서
+ * "차분하고 똑똑한 판단 도구"로 이동했고, 브랜드가 그린에서 골드로 바뀐 것이 그 축이다.
+ *
+ * 골드로 옮기면서 **부수적으로 풀린 제약**이 하나 있다: 구 design/00 §2-5는 "글로벌 모드를
+ * 기본으로 하면 초록=상승과 초록=버튼이 충돌한다"를 한국 모드 기본값의 근거 중 하나로 들었다.
+ * 브랜드가 골드가 된 지금 그 충돌은 사라졌다. 그래도 **기본값은 한국 모드 그대로 둔다** —
+ * 나머지 근거(국내 HTS로 훈련된 사용자의 반사신경, 등락 오독이 가장 비싼 실수)는 브랜드 색과
+ * 무관하게 유효하기 때문이다. Settings의 글로벌 모드가 요청하신 에메랄드/레드 조합이다.
+ *
+ * 차트 시리즈 5색은 눈으로 고르지 않고 OKLab 게이트로 탐색해 확정했다(dataviz 검증기):
+ * 밝기 밴드·채도 하한·색각이상 분리(ΔE 17.2)·정상시야 분리(ΔE 17.3)·표면 대비 전부 통과.
+ * 구 팔레트는 series-4↔5가 정상시야 ΔE 13.0으로 **탈락**하던 조합이었다.
  */
 
 /* ============================== PRIMITIVES (private) ==============================
@@ -17,111 +31,119 @@
  * 아래 시맨틱 계층·다른 v2 CSS/HTML 파일에는 hex를 직접 쓰지 않는다.
  */
 :root {
-  /* slate(중성) — surface/text/border/skeleton 계열, 어두운 순 */
-  --p-slate-01: #0B1120;
-  --p-slate-02: #111827;
-  --p-slate-03: #1F2937;
-  --p-slate-04: #263244;
-  --p-slate-05: #273244;
-  --p-slate-06: #2A3648;
-  --p-slate-07: #2E3B4E;
-  --p-slate-08: #374151;
-  --p-slate-09: #4B5563;
-  --p-slate-10: #6B7280;
-  --p-slate-11: #94A3B8;
-  --p-slate-12: #9CA3AF;
-  --p-slate-13: #F9FAFB;
-  /* Stock Hub 전용(design/05 §1-3) — surface.card(#1F2937)와 surface.elevated(#2A3648)
-     사이의 제3값. 대면적 비모달 오버레이 전용이라 기존 slate 계단(호버·보더 등)과 겸용하지 않는다. */
-  --p-slate-14: #253040;
-  --p-slate-15: #283344;
+  /* ink(중성) — 매트 차콜 계단, 어두운 순. 완전한 블랙을 쓰지 않아 눈이 덜 피로하고
+     카드가 배경에서 "떠 있는" 느낌이 난다. ★ = 지정값 */
+  --p-ink-01: #0F1013;  /* sunken — 입력 필드·웰·표 내부 */
+  --p-ink-02: #141519;  /* ★ base — 앱 전체 배경 */
+  --p-ink-03: #1E2026;  /* ★ card — 모든 카드·패널 */
+  --p-ink-04: #23262E;  /* overlay-panel(Stock Hub 등 대면적 비모달) */
+  --p-ink-05: #262931;  /* card-hover */
+  --p-ink-06: #282B33;  /* overlay-panel-hover */
+  --p-ink-07: #2A2D35;  /* ★ border-subtle — 차트 격자선이 이 값이다 */
+  --p-ink-08: #2E313A;  /* elevated — 드롭다운·팝오버·모달·툴팁 */
+  --p-ink-09: #383C47;  /* border-default */
+  --p-ink-10: #4A4F5C;  /* border-strong · text-disabled */
+  --p-ink-11: #858C9B;  /* text-tertiary (카드 대비 4.82:1 — 구 팔레트 3.48:1에서 개선) */
+  --p-ink-12: #A0A5B1;  /* ★ text-secondary — 슬레이트 그레이 */
+  --p-ink-13: #F8F9FA;  /* ★ text-primary — 95% 화이트, 핵심 수치용 */
 
-  /* green(브랜드) */
-  --p-green-01: #059669;
-  --p-green-02: #10B981;
-  --p-green-03: #34D399;
+  /* gold(브랜드) — 노란 금색이 아니라 톤다운된 매트 골드 */
+  --p-gold-01: #C39A52;  /* pressed */
+  --p-gold-02: #DFB76C;  /* ★ primary */
+  --p-gold-03: #ECCB8A;  /* hover */
 
-  /* 상태·등락·액센트 개별색 */
-  --p-red-01: #F87171;
-  --p-blue-01: #60A5FA;
-  --p-yellow-01: #FBBF24;
-  --p-violet-01: #A78BFA;
+  /* 신호(Smart Signal) — 등락·상태. 같은 계열이라도 hex는 서로 겹치지 않는다(R6) */
+  --p-emerald-01: #10B981;  /* ★ 상승(글로벌 모드) */
+  --p-emerald-02: #34D399;  /* status.success · badge.live */
+  --p-red-01: #EF4444;      /* ★ 하락(글로벌) = 상승(한국) */
+  --p-red-02: #F87171;      /* status.danger */
+  --p-blue-01: #6BB6FF;     /* 하락(한국 모드) — 차트 시리즈 blue들과 최대 거리로 선택 */
+  --p-cyan-01: #63C6E8;     /* status.info */
+  --p-orange-01: #E8703A;   /* 주의·지연 — 브랜드 골드와 ΔE 16.0으로 분리(같은 warm이지만 구분됨) */
+  --p-violet-01: #A78BFA;   /* 해석 레이어 전용 */
 
-  /* 차트 시리즈 전용(design/00 §2-7 — 등락·상태·브랜드와 헥스 비중복) */
-  --p-teal-01: #2DD4BF;
-  --p-fuchsia-01: #E879F9;
-  --p-orange-01: #FB923C;
-  --p-indigo-01: #818CF8;
-  /* --p-slate-11(#94A3B8)이 chart.series-5를 겸한다(00 §2-7 — 회색 계열 5번째 시리즈) */
+  /* 차트 시리즈 전용 — OKLab 게이트 통과 조합(등락·상태·브랜드와 hex 비중복) */
+  --p-c-01: #32A0C5;  /* 스틸 블루 */
+  --p-c-02: #8A9C4A;  /* 올리브 */
+  --p-c-03: #788ED6;  /* 페리윙클 */
+  --p-c-04: #C38148;  /* 브론즈 */
+  --p-c-05: #AC7DC0;  /* 모브 */
+  --p-c-other: #6B7280;  /* "기타" 묶음 전용 중성색 — 시리즈 색이 아니다(라벨 병기 필수) */
 }
 /* ============================== END PRIMITIVES ============================== */
 
 :root {
-  /* ── 표면(Surface) — design/00 §2-1 ── */
-  --surface-base: var(--p-slate-02);
-  --surface-card: var(--p-slate-03);
-  --surface-card-hover: var(--p-slate-04);
-  --surface-elevated: var(--p-slate-06);
-  --surface-sunken: var(--p-slate-01);
-  --surface-selected: rgba(16, 185, 129, 0.08); /* brand.primary 8% */
-  --surface-overlay-panel: var(--p-slate-14); /* 대면적 비모달 오버레이(Stock Hub 등) 전용 — design/05 §1-3 */
-  --surface-overlay-panel-hover: var(--p-slate-15);
+  /* ── 표면(Surface) ── */
+  --surface-base: var(--p-ink-02);
+  --surface-card: var(--p-ink-03);
+  --surface-card-hover: var(--p-ink-05);
+  --surface-elevated: var(--p-ink-08);
+  --surface-sunken: var(--p-ink-01);
+  --surface-selected: rgba(223, 183, 108, 0.10); /* brand.primary 10% — 골드는 그린보다 채도가 낮아 8%면 안 보인다 */
+  --surface-overlay-panel: var(--p-ink-04);
+  --surface-overlay-panel-hover: var(--p-ink-06);
 
-  /* ── 텍스트 — design/00 §2-2 ── */
-  --text-primary: var(--p-slate-13);
-  --text-secondary: var(--p-slate-12);
-  --text-tertiary: var(--p-slate-10);
-  --text-disabled: var(--p-slate-09);
-  --text-inverse: var(--p-slate-02);
+  /* ── 텍스트 ── */
+  --text-primary: var(--p-ink-13);
+  --text-secondary: var(--p-ink-12);
+  --text-tertiary: var(--p-ink-11);
+  --text-disabled: var(--p-ink-10);
+  --text-inverse: var(--p-ink-02);   /* 골드 채움 버튼 위 글자 — 대비 9.67:1 */
 
-  /* ── 브랜드·액센트 — design/00 §2-3 ── */
-  --brand-primary: var(--p-green-02);
-  --brand-primary-hover: var(--p-green-03);
-  --brand-primary-pressed: var(--p-green-01);
-  --accent-yellow: var(--p-yellow-01);
+  /* ── 브랜드·액센트 ── */
+  --brand-primary: var(--p-gold-02);
+  --brand-primary-hover: var(--p-gold-03);
+  --brand-primary-pressed: var(--p-gold-01);
+  /* 토큰명은 유지하고 값만 오렌지로 옮긴다 — 브랜드가 골드가 된 이상 "노랑 경고"는
+     브랜드 포인트와 구분되지 않는다. 이름을 바꾸면 참조 5곳을 놓칠 위험만 커진다. */
+  --accent-yellow: var(--p-orange-01);
   --accent-violet: var(--p-violet-01);
 
-  /* ── 상태(Semantic) — design/00 §2-4 ── */
-  --status-success: var(--p-green-03);
-  --status-warning: var(--p-yellow-01);
-  --status-danger: var(--p-red-01);
-  --status-info: var(--p-blue-01);
+  /* ── 상태(Semantic) ── */
+  --status-success: var(--p-emerald-02);
+  --status-warning: var(--p-orange-01);
+  --status-danger: var(--p-red-02);
+  --status-info: var(--p-cyan-01);
 
-  /* ── 차트 시리즈 — design/00 §2-7 (등락·상태·브랜드와 헥스 비중복 전용 5색) ── */
-  --chart-series-1: var(--p-teal-01);
-  --chart-series-2: var(--p-fuchsia-01);
-  --chart-series-3: var(--p-orange-01);
-  --chart-series-4: var(--p-indigo-01);
-  --chart-series-5: var(--p-slate-11);
+  /* ── 차트 시리즈 ── */
+  --chart-series-1: var(--p-c-01);
+  --chart-series-2: var(--p-c-02);
+  --chart-series-3: var(--p-c-03);
+  --chart-series-4: var(--p-c-04);
+  --chart-series-5: var(--p-c-05);
+  --chart-series-other: var(--p-c-other);
 
-  /* ── 보더·포커스·스켈레톤·오버레이·라이브 배지 — design/00 §2-8 ── */
-  --border-subtle: var(--p-slate-05);
-  --border-default: var(--p-slate-08);
-  --border-strong: var(--p-slate-09);
-  --focus-ring-color: var(--p-green-03);
+  /* ── 보더·포커스·스켈레톤·오버레이·라이브 배지 ── */
+  --border-subtle: var(--p-ink-07);
+  --border-default: var(--p-ink-09);
+  --border-strong: var(--p-ink-10);
+  --focus-ring-color: var(--p-gold-03);
   --focus-ring-width: 2px;
   --focus-ring-offset: 2px;
-  --skeleton-base: var(--p-slate-05);
-  --skeleton-highlight: var(--p-slate-07);
-  --overlay-scrim: rgba(0, 0, 0, 0.6);   /* Level 3 모달 전용 */
-  --overlay-gate: rgba(0, 0, 0, 0.4);    /* Asset/Portfolio 잠금 게이트 전용 */
-  --badge-live: var(--p-green-03);
+  --skeleton-base: var(--p-ink-07);
+  --skeleton-highlight: var(--p-ink-09);
+  --overlay-scrim: rgba(0, 0, 0, 0.66);
+  --overlay-gate: rgba(0, 0, 0, 0.48);
+  --badge-live: var(--p-emerald-02);
 
-  /* ── 신선도 상태 표현 — design/00 §9-2, 4상태 정본(FRESH/DELAYED/STALE/CLOSED-SNAPSHOT) ──
-   * FRESH: 값 text-primary·배지 없음(컴포넌트에서 상태색 미사용).
-   * 판정 문턱(T·2T·3T)은 클라이언트 freshness.js 책임(design/21 §6) — 여기는 색만 정의. */
-  --freshness-delayed: var(--status-warning);   /* "지연" 아웃라인 배지 */
-  --freshness-stale-text: var(--text-secondary); /* STALE 시 값 전체 강등 */
-  --freshness-stale-badge: rgba(251, 191, 36, 0.12); /* "오래된 데이터" 배지 채움(accent.yellow 12%) */
-  --freshness-closed-text: var(--text-primary); /* CLOSED-SNAPSHOT은 값 유지, 라벨만 별도 */
+  /* ── 신선도 상태 표현(4상태 정본) ── */
+  --freshness-delayed: var(--status-warning);
+  --freshness-stale-text: var(--text-secondary);
+  --freshness-stale-badge: rgba(232, 112, 58, 0.14);
+  --freshness-closed-text: var(--text-primary);
 
-  /* ── FS 판정 배지(design/06 §1-6, 3단계 — 빨강 판정 없음) ── */
-  --fs-judgment-good-bg: rgba(52, 211, 153, 0.12);   /* status.success 12% */
-  --fs-judgment-caution-bg: rgba(251, 191, 36, 0.12); /* status.warning 12% */
+  /* ── FS 판정 배지(3단계 — 빨강 판정 없음) ── */
+  --fs-judgment-good-bg: rgba(52, 211, 153, 0.14);
+  --fs-judgment-caution-bg: rgba(232, 112, 58, 0.14);
 
-  /* ── 타이포그래피 — design/00 §3 ── */
+  /* ── 타이포그래피 ──
+   * 문자와 숫자의 서체를 분리한다: 본문은 Pretendard(고딕), 숫자는 Inter.
+   * 숫자를 tabular로 쓰면 표·리스트에서 자릿수가 위아래로 정확히 맞는다 —
+   * "정교한 프로그램"이라는 인상의 상당 부분이 여기서 나온다.
+   * 단, 대형 단일 수치(hero)는 tabular를 쓰지 않는다(§3-3 참조 — 모든 숫자가 0의 폭을
+   * 가져 121 같은 값이 헐거워 보인다). 그 규칙은 base_v2.css가 클래스로 강제한다. */
   --font-kr: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-num: "Inter", var(--font-kr);
+  --font-num: "Inter", "Roboto", var(--font-kr);
   --type-display-size: 32px; --type-display-weight: 700; --type-display-lh: 40px;
   --type-h1-size: 24px; --type-h1-weight: 700; --type-h1-lh: 32px;
   --type-h2-size: 20px; --type-h2-weight: 600; --type-h2-lh: 28px;
@@ -130,23 +152,24 @@
   --type-body-strong-weight: 600;
   --type-caption-size: 12px; --type-caption-weight: 400; --type-caption-lh: 18px;
   --type-overline-size: 11px; --type-overline-weight: 600; --type-overline-lh: 14px; --type-overline-tracking: 0.4px;
-  --type-num-display-size: 32px; --type-num-display-weight: 700; --type-num-display-lh: 40px;
+  /* 핵심 수치는 과감하게 크게(비대칭 강조) — 40px/48px로 올려 hero가 확실히 주인공이 된다 */
+  --type-num-display-size: 44px; --type-num-display-weight: 700; --type-num-display-lh: 52px;
   --type-num-lg-size: 24px; --type-num-lg-weight: 600; --type-num-lg-lh: 32px;
   --type-num-md-size: 16px; --type-num-md-weight: 500; --type-num-md-lh: 24px;
   --type-num-sm-size: 13px; --type-num-sm-weight: 500; --type-num-sm-lh: 20px;
   --type-num-xs-size: 12px; --type-num-xs-weight: 500; --type-num-xs-lh: 16px;
 
-  /* ── 스페이싱(4pt 스케일) — design/00 §4-1 ── */
+  /* ── 스페이싱(4pt 스케일) ── */
   --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 20px;
   --space-6: 24px; --space-8: 32px; --space-10: 40px; --space-12: 48px; --space-16: 64px;
 
-  /* ── 라운드 — design/00 §4-2 ── */
-  --radius-card: 12px;
+  /* ── 라운드 — 모듈형 카드 레이아웃(12~16px) ── */
+  --radius-card: 14px;
   --radius-control: 8px;
   --radius-badge: 999px;
-  --radius-inner: 6px;
+  --radius-inner: 8px;
 
-  /* ── 레이아웃 그리드 — design/00 §5-1 ── */
+  /* ── 레이아웃 그리드 ── */
   --layout-sidebar-width: 240px;
   --layout-sidebar-collapsed: 64px;
   --layout-header-height: 64px;
@@ -155,48 +178,46 @@
   --layout-grid-columns: 12;
   --layout-grid-gutter: 24px;
 
-  /* ── 모션 — design/00 §10-1 ── */
+  /* ── 모션 ── */
   --motion-fast: 120ms;
   --motion-base: 200ms;
   --motion-slow: 250ms;
-  --motion-easing: cubic-bezier(0.22, 0.61, 0.36, 1); /* 감속 곡선 단일 표준 */
+  --motion-easing: cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 /*
- * 등락색 모드 스코프(design/00 §2-5, design/22 §3-3) — 두 스코프 모두 Phase 1에서 즉시
- * 실값을 채운다(라이트 테마만 스위칭 슬롯 예약, 아래 [data-theme="light"] 참조).
- * signclass 필터가 부여하는 .up/.down 클래스는 무수정 — 색은 변수 재바인딩으로만 전환한다.
+ * 등락색 모드 스코프 — signclass 필터가 부여하는 .up/.down 클래스는 무수정,
+ * 색은 변수 재바인딩으로만 전환한다.
+ * 기본(한국): 상승 빨강 / 하락 파랑. 글로벌: 상승 에메랄드 / 하락 레드.
  */
 :root,
 [data-updown="kr"] {
   --market-up: var(--p-red-01);
-  --market-up-bg: rgba(248, 113, 113, 0.12);
+  --market-up-bg: rgba(239, 68, 68, 0.14);
   --market-down: var(--p-blue-01);
-  --market-down-bg: rgba(96, 165, 250, 0.12);
-  --market-flat: var(--p-slate-12);
+  --market-down-bg: rgba(107, 182, 255, 0.14);
+  --market-flat: var(--p-ink-12);
 }
 
-/* Settings 등락모드 미리보기 전용(design/10 §2-1) — 문서 전역 [data-updown] 스코프와 무관하게
-   두 모드의 색을 동시에 나란히 보여줘야 하므로, 모드별로 고정된 별도 토큰을 쓴다. */
+/* Settings 등락모드 미리보기 전용 — 두 모드 색을 동시에 나란히 보여줘야 하므로 고정 토큰을 쓴다. */
 :root {
   --preview-kr-up: var(--p-red-01);
   --preview-kr-down: var(--p-blue-01);
-  --preview-global-up: var(--p-green-03);
+  --preview-global-up: var(--p-emerald-01);
   --preview-global-down: var(--p-red-01);
 }
 
 [data-updown="global"] {
-  --market-up: var(--p-green-03);
-  --market-up-bg: rgba(52, 211, 153, 0.12);
+  --market-up: var(--p-emerald-01);
+  --market-up-bg: rgba(16, 185, 129, 0.14);
   --market-down: var(--p-red-01);
-  --market-down-bg: rgba(248, 113, 113, 0.12);
-  --market-flat: var(--p-slate-12);
+  --market-down-bg: rgba(239, 68, 68, 0.14);
+  --market-flat: var(--p-ink-12);
 }
 
 /*
- * 라이트 테마 — 스위칭 슬롯만 예약(design/22 §3-3 C-3 결정). 00 문서가 "다크 테마 단일
- * 운영(라이트 없음)"을 명시했으므로 값은 아직 채우지 않는다. 훗날 이 셀렉터에 시맨틱
- * 값만 채우면 컴포넌트 수정 없이 라이트 테마가 활성화되는 것이 목표다.
+ * 라이트 테마 — 스위칭 슬롯만 예약. 이 제품은 다크 단일 운영이며, 훗날 이 셀렉터에
+ * 시맨틱 값만 채우면 컴포넌트 수정 없이 라이트 테마가 활성화되는 것이 목표다.
  */
 [data-theme="light"] {
   /* 값 없음 — 슬롯 예약. 채워지기 전까지는 다크(:root) 값이 그대로 상속된다. */

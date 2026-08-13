@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-14T04:40:26.539777+09:00",
+  "generated_at": "2026-08-14T04:40:29.051988+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
       "last_built": "2026-08-14T04:40:04.668610+09:00",
       "expected_T_min": 30,
       "items": 1,
-      "duration_ms": 1
+      "duration_ms": 3
     },
     "Asset Kiwoom": {
       "status": "completed",
@@ -52,9 +52,9 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-08-14T04:40:26.481344+09:00",
+      "last_built": "2026-08-14T04:40:28.977661+09:00",
       "expected_T_min": 30,
-      "items": 0,
+      "items": 29,
       "duration_ms": 0
     },
     "News Research": {
@@ -73,7 +73,7 @@
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-08-14T04:40:26.537773+09:00",
+      "last_built": "2026-08-14T04:40:29.036157+09:00",
       "expected_T_min": 30,
       "items": 3,
       "duration_ms": 0
@@ -101,24 +101,24 @@
     },
     "Macro FRED": {
       "status": "completed",
-      "last_built": "2026-08-13T22:44:46.664576+09:00",
+      "last_built": "2026-08-14T03:46:55.631742+09:00",
       "expected_T_min": 60,
       "items": 5,
-      "duration_ms": 8478
+      "duration_ms": 1193
     },
     "Macro ECOS": {
       "status": "completed",
-      "last_built": "2026-08-13T22:44:55.143499+09:00",
+      "last_built": "2026-08-14T03:46:56.825563+09:00",
       "expected_T_min": 60,
       "items": 1,
-      "duration_ms": 480
+      "duration_ms": 725
     },
     "Macro Upbit": {
       "status": "completed",
-      "last_built": "2026-08-13T22:44:55.623871+09:00",
+      "last_built": "2026-08-14T03:46:57.551461+09:00",
       "expected_T_min": 60,
       "items": 3,
-      "duration_ms": 248
+      "duration_ms": 547
     },
     "Stock KR Ranking": {
       "status": "completed",
@@ -157,17 +157,17 @@
     },
     "Macro History": {
       "status": "completed",
-      "last_built": "2026-08-13T22:45:30.467679+09:00",
+      "last_built": "2026-08-14T03:47:07.968538+09:00",
       "expected_T_min": 60,
       "items": 15,
-      "duration_ms": 963
+      "duration_ms": 341
     },
     "Loop Ledger": {
       "status": "completed",
       "last_built": "2026-08-14T04:40:04.771589+09:00",
       "expected_T_min": 30,
       "items": 2,
-      "duration_ms": 1
+      "duration_ms": 11
     }
   }
 }
