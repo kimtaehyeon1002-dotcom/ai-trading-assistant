@@ -40,12 +40,15 @@ _DEPOSIT_ROWS = {"rows": [{"예수금": "1,234,567", "주문가능금액": "1,20
 
 
 def test_deposit_is_fetched_from_separate_tr():
-    """★핵심: 잔고 TR에 예수금이 없으면 opw00001을 추가 호출해 채운다."""
+    """★핵심: 잔고 TR에 예수금이 없으면 opw00001을 추가 호출해 채운다.
+
+    채택값은 당일 예수금(1,234,567)이 아니라 결제 반영분(주문가능 1,200,000)이다 —
+    당일 예수금은 T+2 미결제 매수대금을 아직 품고 있어 총자산을 부풀린다."""
     api = _FakeAPI({acct._BALANCE_TR_CODE: _BALANCE_ROWS, acct._DEPOSIT_TR_CODE: _DEPOSIT_ROWS})
     result = acct.fetch_balance(api, "1234567890")
 
     assert api.calls == [acct._BALANCE_TR_CODE, acct._DEPOSIT_TR_CODE]
-    assert result["summary"]["예수금"] == "1,234,567"
+    assert result["summary"]["예수금"] == "1,200,000"
     assert result["summary"]["주문가능금액"] == "1,200,000"
 
 
@@ -75,6 +78,51 @@ def test_deposit_failure_does_not_break_balance():
     assert result["summary"]["총평가금액"] == "800000"
     assert result["summary"]["예수금"] == ""       # 결측이지 0이 아니다
     assert len(result["holdings"]) == 1
+
+
+class _ModeAPI:
+    """조회구분 값별로 다른 응답을 주는 스텁 — 추정조회(3)/일반조회(2) 분기 검증용."""
+
+    def __init__(self, by_mode):
+        self.by_mode = by_mode
+        self.mode = None
+        self.modes = []
+
+    def set_input(self, key, value):
+        if key == "조회구분":
+            self.mode = value
+
+    def comm_rq(self, rq_name, tr_code, **kwargs):
+        self.modes.append(self.mode)
+        return {"rows": [self.by_mode.get(self.mode, {})]}
+
+
+def test_d2_deposit_is_preferred_over_same_day():
+    """★핵심: 당일 예수금을 쓰면 총자산이 부풀려진다(T+2 미결제 매수대금 이중계산).
+
+    오늘 100만원어치를 사면 그 종목은 총평가금액에 이미 잡히는데 매수대금은 당일 예수금에
+    아직 남아 있다. 계좌 총액 = 유가증권 + 예수금이므로 매수대금이 두 번 세어진다.
+    D+2 추정예수금은 미결제분이 차감돼 있어 이 중복이 없다."""
+    api = _ModeAPI({"3": {"d+2추정예수금": "156115", "예수금": "1156115",
+                          "주문가능금액": "156115"}})
+    out = acct.fetch_deposit(api, "1234567890")
+
+    assert api.modes == ["3"], "추정조회를 먼저 호출해야 D+2 필드가 채워진다"
+    assert out["예수금"] == "156115", "당일 예수금(1156115)이 아니라 D+2를 채택해야 한다"
+
+
+def test_falls_back_to_normal_query_when_estimate_empty():
+    """추정조회가 값을 못 주면 일반조회로 되돌아간다 — 예수금을 통째로 잃는 것보다 낫다."""
+    api = _ModeAPI({"3": {}, "2": {"예수금": "156115", "주문가능금액": "156115"}})
+    out = acct.fetch_deposit(api, "1234567890")
+
+    assert api.modes == ["3", "2"]
+    assert out["예수금"] == "156115"
+
+
+def test_returns_empty_when_both_queries_have_nothing():
+    api = _ModeAPI({"3": {}, "2": {}})
+    assert acct.fetch_deposit(api, "1234567890")["예수금"] == ""
 
 
 def test_deposit_tr_sends_required_inputs():
