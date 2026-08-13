@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-13T14:55:24.134138+00:00",
+  "as_of": "2026-08-13T15:49:39.705588+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -364,28 +364,64 @@
   ],
   "news": [
     {
-      "title": "Oil prices drop as investors weigh falling demand against Middle East tensions",
+      "title": "These nontech stocks can ride the AI build-out for years",
+      "link": "https://www.marketwatch.com/story/these-nontech-stocks-can-ride-the-ai-build-out-for-years-67e2e39b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-13T15:48:00+00:00"
+    },
+    {
+      "title": "Oil prices fall as investors weigh falling demand against Middle East tensions",
       "link": "https://www.cnbc.com/2026/08/13/oil-spill-near-oman-worries-over-supply-.html",
       "source": "CNBC Finance",
-      "published": "2026-08-13T14:54:30+00:00"
+      "published": "2026-08-13T15:31:20+00:00"
+    },
+    {
+      "title": "Trump-linked oil venture delays Greenland drilling plans after government warning",
+      "link": "https://www.cnbc.com/2026/08/13/greenland-energy-oil-drilling-trump.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-13T15:29:22+00:00"
+    },
+    {
+      "title": "Monterey Car Week auctions could hit a record $500 million, with help from younger buyers",
+      "link": "https://www.cnbc.com/2026/08/13/monterey-car-week-auctions-sales-estimates.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-13T15:19:31+00:00"
+    },
+    {
+      "title": "'Big Short' investor Steve Eisman sees an Achilles' heel in the AI boom",
+      "link": "https://www.cnbc.com/2026/08/13/big-short-investor-steve-eisman-sees-an-achilles-heel-in-the-ai-boom.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-13T15:16:00+00:00"
+    },
+    {
+      "title": "Rich Americans are propping up the travel economy as airfares soar 25% higher than last year",
+      "link": "https://www.marketwatch.com/story/rich-americans-are-propping-up-the-travel-economy-as-airfares-soar-25-higher-than-last-year-c76067a5?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-13T15:08:00+00:00"
+    },
+    {
+      "title": "Databricks wraps $5 billion funding round at $190 billion valuation",
+      "link": "https://www.cnbc.com/2026/08/13/databricks-funding-round-190-billion-valuation.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-13T15:02:23+00:00"
+    },
+    {
+      "title": "Your prescription drugs shouldn’t cost more than your mortgage. Inside the broken math that got us here.",
+      "link": "https://www.marketwatch.com/story/your-prescription-drugs-shouldnt-cost-more-than-your-mortgage-inside-the-broken-math-that-got-us-here-b5a2c4aa?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-13T15:01:00+00:00"
+    },
+    {
+      "title": "The 10 housing markets where the most sellers have listed their homes for less than what they paid",
+      "link": "https://www.marketwatch.com/story/the-10-housing-markets-where-the-most-sellers-have-listed-their-homes-for-less-than-what-they-paid-acd4c8da?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-13T14:57:00+00:00"
     },
     {
       "title": "These workers have charisma, confidence — and no fear of AI taking their jobs. They’re the personality hires.",
       "link": "https://www.marketwatch.com/story/these-workers-have-charisma-confidence-and-no-fear-of-ai-taking-their-jobs-theyre-the-personality-hires-3235c187?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-13T14:49:00+00:00"
-    },
-    {
-      "title": "'Big Short' investor Steve Eisman sees an Achilles' heel in the AI boom",
-      "link": "https://www.cnbc.com/2026/08/13/big-short-investor-steve-eisman-sees-an-achilles-heel-in-the-ai-boom.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-13T14:43:34+00:00"
-    },
-    {
-      "title": "Databricks wraps $5 billion funding round at $190 billion valuation",
-      "link": "https://www.cnbc.com/2026/08/13/databricks-funding-round-190-billion-valuation.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-13T14:41:49+00:00"
     },
     {
       "title": "‘국장 탈출’ 성급했나…국내 증시 시총 6000조원 회복 - 문화일보",
@@ -404,12 +440,6 @@
       "link": "https://www.marketwatch.com/story/my-husband-and-i-are-at-odds-should-we-tap-our-home-equity-or-sell-stocks-to-build-a-100-000-emergency-fund-097d36a4?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-13T14:15:00+00:00"
-    },
-    {
-      "title": "Inside Wealth: Monterey Car Week auctions could hit a record $500 million, with help from younger buyers",
-      "link": "https://www.cnbc.com/2026/08/13/monterey-car-week-auctions-sales-estimates.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-13T14:08:19+00:00"
     },
     {
       "title": "Dell’s stock has beaten Micron and AMD this year — and now it’s adding to its gains",
@@ -448,40 +478,16 @@
       "published": "2026-08-13T13:59:45+00:00"
     },
     {
-      "title": "Salesforce’s stock gets a boost as J.P. Morgan says AI fears are overblown",
-      "link": "https://www.marketwatch.com/story/salesforces-stock-gets-a-boost-as-j-p-morgan-says-ai-fears-are-overblown-feebb221?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-13T13:36:00+00:00"
-    },
-    {
       "title": "Goldman says Japan's $1 trillion of reserves leaves 'plenty of capacity' for further yen interventions",
       "link": "https://www.cnbc.com/2026/08/13/us-japan-dollar-yen-intervention-goldman.html",
       "source": "CNBC Finance",
       "published": "2026-08-13T13:33:05+00:00"
     },
     {
-      "title": "Bill Ackman once exited his Netflix stake in a huff. He’s buying the streaming giant again, as well as these five stocks.",
-      "link": "https://www.marketwatch.com/story/bill-ackman-once-exited-netflix-stake-in-a-huff-why-hes-buying-the-streaming-giant-again-as-well-as-these-five-stocks-ae0d9220?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-13T13:33:00+00:00"
-    },
-    {
       "title": "Sweetgreen isn't linked to cyclospora, but many customers still don't want salads: 'I didn't think it would last' this long, CEO says",
       "link": "https://www.cnbc.com/2026/08/13/cyclospora-outbreak-sweetgreen-ceo.html",
       "source": "CNBC Finance",
       "published": "2026-08-13T13:31:09+00:00"
-    },
-    {
-      "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
-      "link": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-13T13:30:00+00:00"
-    },
-    {
-      "title": "I found a $100 bill in the communal washer at my Airbnb. What should I do?",
-      "link": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-13T13:30:00+00:00"
     },
     {
       "title": "Wholesale prices were flat in July, below expectations for 0.2% increase",
@@ -494,12 +500,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260813168400001",
       "source": "연합뉴스·경제",
       "published": "2026-08-13T13:05:28+00:00"
-    },
-    {
-      "title": "Trump-linked oil venture delays Greenland drilling plans after government warning",
-      "link": "https://www.cnbc.com/2026/08/13/greenland-energy-oil-drilling-trump.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-13T13:02:38+00:00"
     },
     {
       "title": "Iran looks to ramp up economic alliance with BRICS nations as war with U.S. drags on",
