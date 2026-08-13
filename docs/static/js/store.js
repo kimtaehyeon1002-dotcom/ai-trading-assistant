@@ -6,7 +6,6 @@
   "use strict";
 
   var NS = "ta:";
-  var FS_RECENT_MAX = 8;
 
   function safeGet(storage, key, fallback) {
     try {
@@ -61,25 +60,10 @@
     setThemes: function (arr) { local.set("themes", JSON.stringify(arr || [])); },
     idleLockMinutes: function () { return parseInt(local.get("idleLockMinutes", "30"), 10); },
     setIdleLockMinutes: function (v) { local.set("idleLockMinutes", String(v)); },
-    // Financial Statements 최근 조회(design/06 §2-1) — 코드·이름·시장만 담는 기기 귀속 목록.
-    // 종목 코드는 공개 정보라 저민감이고, 검색 이력이므로 세션이 아니라 기기에 남는 것이 맞다.
-    fsRecent: function () {
-      try {
-        var v = JSON.parse(local.get("fsRecent", "[]"));
-        return Array.isArray(v) ? v : [];
-      } catch (e) { return []; }
-    },
-    pushFsRecent: function (entry) {
-      if (!entry || !entry.code) return;
-      var kept = this.fsRecent().filter(function (r) { return r && r.code !== entry.code; });
-      kept.unshift({ code: entry.code, name: entry.name || entry.code, market: entry.market || "" });
-      local.set("fsRecent", JSON.stringify(kept.slice(0, FS_RECENT_MAX)));
-    },
     resetAll: function () {
       // 비밀번호(passphrase는 애초에 저장하지 않음, sessionStorage뿐)와 매매일지(서버 데이터)는
       // 애초에 이 스토어가 다루지 않으므로 "유지"가 자동으로 성립한다(design/10 §2-2 ⑥).
-      ["theme", "updownMode", "reduceMotion", "maskDefault", "themes", "idleLockMinutes",
-        "fsRecent"].forEach(local.remove);
+      ["theme", "updownMode", "reduceMotion", "maskDefault", "themes", "idleLockMinutes"].forEach(local.remove);
     },
   };
 })(window);
