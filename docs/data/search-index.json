@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-13T05:40:06.679725+00:00",
+  "as_of": "2026-08-13T05:54:45.811747+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -364,10 +364,22 @@
   ],
   "news": [
     {
+      "title": "LG화학, 첫 독립이사 참가 해외 거버넌스 기업설명회",
+      "link": "https://www.yna.co.kr/view/AKR20260813116200003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-13T05:49:01+00:00"
+    },
+    {
       "title": "年 17조 인천시금고에 5개 은행 ‘눈독’…다음달 2일까지 제안서 접수",
       "link": "https://www.mk.co.kr/news/economy/12126482",
       "source": "매일경제·증권",
       "published": "2026-08-13T05:37:47+00:00"
+    },
+    {
+      "title": "울주군, 13∼15일 지역 식품기업과 홍콩식품박람회 참가",
+      "link": "https://www.yna.co.kr/view/AKR20260813112000057",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-13T05:37:22+00:00"
     },
     {
       "title": "[8·13대책] 노원구 \"태릉골프장 개발시 교통·생활·문화인프라 확충 필요\"",
@@ -544,13 +556,19 @@
       "published": "2026-08-13T04:43:22+00:00"
     },
     {
+      "title": "반도체 '투톱'이 끌어올린 증시…국내 시가총액 6천조원 회복 - ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ta2VxdG9uWVh5Y1RLQ1JIekRZcEtGTkxjT0c4bFZZM3F0ckNmc0JHeFl0b2Q0NEhZZ05MTFQ5VXB6X3V0S3l3NmpyY0RHQ1k0YUhnQjExaE1wTXZVbndMczhneWtJQkRC?oc=5",
+      "source": "Google News",
+      "published": "2026-08-13T04:38:44+00:00"
+    },
+    {
       "title": "블록체인 판 바꾸는 AI…정부, 글로벌 진출 판 깐다",
       "link": "https://www.yna.co.kr/view/AKR20260813054700017",
       "source": "연합뉴스·경제",
       "published": "2026-08-13T04:30:01+00:00"
     },
     {
-      "title": "외국인 7월 한국 증시서 216억달러 이탈⋯6개월째 '셀 코리아' - foeconomy.co.kr",
+      "title": "외국인 7월 한국 증시서 216억달러 이탈⋯6개월째 '셀 코리아' - 포커스온경제",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OVHBvTmpFZTNhU0tVMnJvUmNGcWxod1hGRnpkQmo3a3FQdDVxLXY3Znp4bDdsUlJFUERoT0NaMWpzNGdfaDBVdThXSFhieGVnNmpzZG9iNkhyQlRGNWc?oc=5",
       "source": "Google News",
       "published": "2026-08-13T04:29:20+00:00"
@@ -628,38 +646,20 @@
       "published": "2026-08-13T03:00:18+00:00"
     },
     {
+      "title": "[8·13대책] 청년 비아파트 지원 '주거발판' 주목…전세대출 규제 여파 주시",
+      "link": "https://www.yna.co.kr/view/AKR20260813059900002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-13T03:00:04+00:00"
+    },
+    {
       "title": "[8·13대책] 주택공급 금융지원 '47.8+α'로 확대…이주비대출 LTV 기준 완화",
       "link": "https://www.yna.co.kr/view/AKR20260812165900002",
       "source": "연합뉴스·경제",
       "published": "2026-08-13T03:00:04+00:00"
     },
     {
-      "title": "[8·13대책] 이억원 \"주택공급·실수요에 금융 더 역할…투기는 엄격 관리\"",
-      "link": "https://www.yna.co.kr/view/AKR20260813026100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-13T03:00:04+00:00"
-    },
-    {
-      "title": "[8·13대책] [일문일답] 금융위 \"투기성 비거주 1주택자는 전세대출 제한\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812172200002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-13T03:00:04+00:00"
-    },
-    {
-      "title": "[8·13대책] 가계부채 총량 증가율 목표 2배로…\"대출오픈런 해소 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812170600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-13T03:00:04+00:00"
-    },
-    {
       "title": "집 사고 한 번도 안 살았으면 ‘사실상 투기’…1주택이라도 전세대출 제한",
       "link": "https://www.mk.co.kr/news/economy/12126382",
-      "source": "매일경제·증권",
-      "published": "2026-08-13T03:00:00+00:00"
-    },
-    {
-      "title": "가계 ‘대출절벽’ 숨통 틔운다…당국, 금융권 한도 30조원 늘려 2배로",
-      "link": "https://www.mk.co.kr/news/economy/12126386",
       "source": "매일경제·증권",
       "published": "2026-08-13T03:00:00+00:00"
     }
