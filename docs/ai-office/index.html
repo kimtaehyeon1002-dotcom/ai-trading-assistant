@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI Office · AI Trading Assistant</title>
-  <link rel="stylesheet" href="../static/css/tokens.css?v=0e750971">
-  <link rel="stylesheet" href="../static/css/base_v2.css?v=0e750971">
-  <link rel="stylesheet" href="../static/css/components.css?v=0e750971">
+  <link rel="stylesheet" href="../static/css/tokens.css?v=0d9f5924">
+  <link rel="stylesheet" href="../static/css/base_v2.css?v=0d9f5924">
+  <link rel="stylesheet" href="../static/css/components.css?v=0d9f5924">
   <script>(function(){try{
     var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
     var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
@@ -14,79 +14,42 @@
   }catch(e){}})();</script>
 </head>
 <body class="v2" data-root="..">
-  <div class="v2-nav-scrim" data-nav-close hidden></div>
-<nav class="v2-sidebar" id="v2-sidebar" aria-label="주 메뉴">
-  <div class="v2-sidebar__logo">
-    <span class="v2-sidebar__mark" aria-hidden="true">📈</span>
-    <span class="v2-sidebar__name">AI Trading Assistant</span>
-  </div>
+  <nav class="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
   <div class="v2-nav">
     <a class="v2-nav__item" href="../index.html"
- title="Dashboard">
-  <span class="v2-nav__icon" aria-hidden="true">◈</span>
-  <span class="v2-nav__label">Dashboard</span>
-</a>
-
+>Dashboard</a>
     <a class="v2-nav__item" href="../macro/index.html"
- title="Macroeconomics">
-  <span class="v2-nav__icon" aria-hidden="true">◎</span>
-  <span class="v2-nav__label">Macroeconomics</span>
-</a>
-
+>Macroeconomics</a>
     <a class="v2-nav__item" href="../news/index.html"
- title="News">
-  <span class="v2-nav__icon" aria-hidden="true">▤</span>
-  <span class="v2-nav__label">News</span>
-</a>
-
+>News</a>
     <a class="v2-nav__item" href="../stock/index.html"
- title="Stock">
-  <span class="v2-nav__icon" aria-hidden="true">▦</span>
-  <span class="v2-nav__label">Stock</span>
-</a>
-
+>Stock</a>
     <a class="v2-nav__item" href="../financials/index.html"
- title="Financial Statements">
-  <span class="v2-nav__icon" aria-hidden="true">▥</span>
-  <span class="v2-nav__label">Financial Statements</span>
-</a>
-
+>Financial Statements</a>
     <a class="v2-nav__item" href="../ta/index.html"
- title="Technical Analysis">
-  <span class="v2-nav__icon" aria-hidden="true">◨</span>
-  <span class="v2-nav__label">Technical Analysis</span>
-</a>
-
+>Technical Analysis</a>
     <div class="v2-nav__divider"></div>
     <a class="v2-nav__item v2-nav__item--locked" href="../asset/index.html"
- title="Asset">
-  <span class="v2-nav__icon" aria-hidden="true">◆</span>
-  <span class="v2-nav__label">Asset</span>
-<span class="v2-nav__lock" aria-hidden="true">🔒</span></a>
-
+>
+      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
     <a class="v2-nav__item v2-nav__item--locked" href="../portfolio/index.html"
- title="Portfolio">
-  <span class="v2-nav__icon" aria-hidden="true">◇</span>
-  <span class="v2-nav__label">Portfolio</span>
-<span class="v2-nav__lock" aria-hidden="true">🔒</span></a>
-
+>
+      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
+    </a>
   </div>
   <div class="v2-sidebar__footer">
     <a class="v2-nav__item" href="../settings/index.html"
- title="Settings">
-  <span class="v2-nav__icon" aria-hidden="true">⚙</span>
-  <span class="v2-nav__label">Settings</span>
-</a>
-
+>Settings</a>
     <div class="v2-sidebar__version">AI Trading Assistant</div>
   </div>
 </nav>
 
   <header class="v2-header">
-  <button type="button" class="v2-navtoggle" data-nav-toggle aria-label="메뉴 열기" aria-expanded="false" aria-controls="v2-sidebar">
-    <span class="v2-navtoggle__bars" aria-hidden="true"></span>
-  </button>
-  <div class="v2-header__context"></div>
+  <div class="v2-header__context">
+    
+  </div>
   <div class="v2-header__search" role="search">
     <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
            placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
@@ -124,7 +87,7 @@
     <p class="v2-body">시장 지표 수집·검증 (collectors/market·kiwoom)</p>
     <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-14T04:40</span></div>
     <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">26</span></div>
-    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">793ms</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">8552ms</span></div>
   </div>
 
 </div>
@@ -135,9 +98,9 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">뉴스 수집·검증·병합 (collectors/news)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-14T04:40</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-14T04:41</span></div>
     <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">180</span></div>
-    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">3832ms</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">5032ms</span></div>
   </div>
 
 </div>
@@ -148,7 +111,7 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">테마 빈도 산출 (calculators/themes)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-13T22:31</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-14T04:41</span></div>
     <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">3</span></div>
     <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">15ms</span></div>
   </div>
@@ -176,7 +139,7 @@
     <p class="v2-body">Obsidian vault 워치리스트 동기화 (collectors/obsidian)</p>
     <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-14T04:40</span></div>
     <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">1</span></div>
-    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">3ms</span></div>
+    <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">2ms</span></div>
   </div>
 
 </div>
@@ -187,8 +150,8 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">Obsidian vault 저널 write-back (generators/vault_journal)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-14T04:40</span></div>
-    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">29</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-14T04:41</span></div>
+    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">1</span></div>
     <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">0ms</span></div>
 <p class="v2-body v2-fs-sub">10_Journal/ write-back</p>  </div>
 
@@ -200,8 +163,8 @@
   </div>
   <div class="v2-card__body">
     <p class="v2-body">페이지 생성·발행 (generators)</p>
-    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-14T04:40</span></div>
-    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">3</span></div>
+    <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-14T04:41</span></div>
+    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">2</span></div>
     <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">0ms</span></div>
 <p class="v2-body v2-fs-sub">pages + static</p>  </div>
 
@@ -210,9 +173,9 @@
     </div>
   </main>
   <div class="v2-panel-slot" id="panel-slot"></div>
-  <script src="../static/js/store.js?v=0e750971" defer></script>
-  <script src="../static/js/stockhub.js?v=0e750971" defer></script>
-  <script src="../static/js/search.js?v=0e750971" defer></script>
-  <script src="../static/js/chart.js?v=0e750971" defer></script>
+  <script src="../static/js/store.js?v=0d9f5924" defer></script>
+  <script src="../static/js/stockhub.js?v=0d9f5924" defer></script>
+  <script src="../static/js/search.js?v=0d9f5924" defer></script>
+  <script src="../static/js/chart.js?v=0d9f5924" defer></script>
 </body>
 </html>
