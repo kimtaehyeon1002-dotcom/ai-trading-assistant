@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-14T07:28:22.512691+09:00",
+  "generated_at": "2026-08-14T07:31:29.459676+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-08-14T07:27:42.190264+09:00",
+      "last_built": "2026-08-14T07:30:50.286955+09:00",
       "expected_T_min": 30,
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-08-14T07:28:09.641632+09:00",
+      "last_built": "2026-08-14T07:31:07.812800+09:00",
       "expected_T_min": 30,
       "items": 26,
-      "duration_ms": 8333
+      "duration_ms": 15426
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,28 +52,28 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-08-14T07:28:09.640167+09:00",
+      "last_built": "2026-08-14T07:31:24.025638+09:00",
       "expected_T_min": 30,
       "items": 0,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-08-14T07:28:17.976254+09:00",
+      "last_built": "2026-08-14T07:31:24.027840+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 3887
+      "duration_ms": 5371
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-08-14T07:28:21.870525+09:00",
+      "last_built": "2026-08-14T07:31:29.404913+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 583
+      "duration_ms": 0
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-08-14T07:28:22.498586+09:00",
+      "last_built": "2026-08-14T07:31:29.446824+09:00",
       "expected_T_min": 30,
       "items": 3,
       "duration_ms": 0
@@ -101,24 +101,24 @@
     },
     "Macro FRED": {
       "status": "completed",
-      "last_built": "2026-08-14T06:34:02.398352+09:00",
+      "last_built": "2026-08-14T07:30:50.347388+09:00",
       "expected_T_min": 60,
       "items": 5,
-      "duration_ms": 1529
+      "duration_ms": 15993
     },
     "Macro ECOS": {
       "status": "completed",
-      "last_built": "2026-08-14T06:34:03.928235+09:00",
+      "last_built": "2026-08-14T07:31:06.341154+09:00",
       "expected_T_min": 60,
       "items": 1,
-      "duration_ms": 830
+      "duration_ms": 839
     },
     "Macro Upbit": {
       "status": "completed",
-      "last_built": "2026-08-14T06:34:04.758740+09:00",
+      "last_built": "2026-08-14T07:31:07.180382+09:00",
       "expected_T_min": 60,
       "items": 3,
-      "duration_ms": 742
+      "duration_ms": 632
     },
     "Stock KR Ranking": {
       "status": "completed",
@@ -157,14 +157,14 @@
     },
     "Macro History": {
       "status": "completed",
-      "last_built": "2026-08-14T06:34:12.906423+09:00",
+      "last_built": "2026-08-14T07:31:23.240773+09:00",
       "expected_T_min": 60,
       "items": 15,
-      "duration_ms": 382
+      "duration_ms": 739
     },
     "Loop Ledger": {
       "status": "completed",
-      "last_built": "2026-08-14T07:28:09.640190+09:00",
+      "last_built": "2026-08-14T07:31:24.025661+09:00",
       "expected_T_min": 30,
       "items": 2,
       "duration_ms": 1
