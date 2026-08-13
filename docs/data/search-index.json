@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-13T13:31:05.850072+00:00",
+  "as_of": "2026-08-13T13:56:09.547061+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -364,8 +364,38 @@
   ],
   "news": [
     {
+      "title": "South Korea's Kospi swings from bear to bull-market territory in just over a month on AI trade",
+      "link": "https://www.cnbc.com/2026/08/13/south-korea-kospi-bull-market-sk-hynix-samsung-ai-trade.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-13T13:37:14+00:00"
+    },
+    {
+      "title": "Salesforce’s stock gets a boost as J.P. Morgan says AI fears are overblown",
+      "link": "https://www.marketwatch.com/story/salesforces-stock-gets-a-boost-as-j-p-morgan-says-ai-fears-are-overblown-feebb221?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-13T13:36:00+00:00"
+    },
+    {
+      "title": "Goldman says Japan's $1 trillion of reserves leaves 'plenty of capacity' for further yen interventions",
+      "link": "https://www.cnbc.com/2026/08/13/us-japan-dollar-yen-intervention-goldman.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-13T13:33:05+00:00"
+    },
+    {
+      "title": "Bill Ackman once exited his Netflix stake in a huff. He’s buying the streaming giant again, as well as these five stocks.",
+      "link": "https://www.marketwatch.com/story/bill-ackman-once-exited-netflix-stake-in-a-huff-why-hes-buying-the-streaming-giant-again-as-well-as-these-five-stocks-ae0d9220?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-13T13:33:00+00:00"
+    },
+    {
       "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
       "link": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-13T13:30:00+00:00"
+    },
+    {
+      "title": "I found a $100 bill in the communal washer at my Airbnb. What should I do?",
+      "link": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-13T13:30:00+00:00"
     },
@@ -422,12 +452,6 @@
       "link": "https://www.cnbc.com/2026/08/13/iran-war-g7s-fastest-growing-economy.html",
       "source": "CNBC Finance",
       "published": "2026-08-13T12:42:10+00:00"
-    },
-    {
-      "title": "Bill Ackman once exited his Netflix stake in a huff. He’s buying the streaming giant again, as well as these five stocks.",
-      "link": "https://www.marketwatch.com/story/bill-ackman-once-exited-netflix-stake-in-a-huff-why-hes-buying-the-streaming-giant-again-as-well-as-these-five-stocks-ae0d9220?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-13T12:36:00+00:00"
     },
     {
       "title": "Easing inflation pressures, Cerebras earnings, falling Hormuz traffic and more in Morning Squawk",
@@ -490,12 +514,6 @@
       "published": "2026-08-13T12:03:00+00:00"
     },
     {
-      "title": "We live on a farm and have $2.2 million saved for retirement. We’re ready to retire abroad. Can we afford it?",
-      "link": "https://www.marketwatch.com/story/we-live-on-a-farm-and-have-2-2-million-saved-for-retirement-were-ready-to-retire-abroad-can-we-afford-it-85e56105?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-13T12:02:00+00:00"
-    },
-    {
       "title": "Democrats demand Trump reveal stock managers, explain suspicious trades",
       "link": "https://www.cnbc.com/2026/08/13/trump-stock-trades-warren-garcia.html",
       "source": "CNBC Finance",
@@ -514,13 +532,7 @@
       "published": "2026-08-13T11:00:21+00:00"
     },
     {
-      "title": "Lenovo profits soar past expectations on AI computers, servers and services",
-      "link": "https://www.marketwatch.com/story/lenovo-profits-soar-past-expectations-on-ai-computers-servers-and-services-162e11e6?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-13T11:00:00+00:00"
-    },
-    {
-      "title": "증시 투자자예탁금 100조 아래로, 올해 2월 이후 처음…조정장 영향 - 국제신문",
+      "title": "증시 투자자예탁금 100조 아래로, 올해 2월 이후 처음…조정장 영향 - kookje.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLVFaT3FOTkt5endNYWFmci1mRWw3RUNCb1E1NUZNN3FpUmhYNE1vTF91VnhFNzVMMFFTNFJMUEF0Z002bkNQS3J3c0ZXTTF5S0VFQUJqYUU4YTlQLUE0MEtQbW5UZ2YxckNDbktWXzZNb1Q2S3dDaTRYNHFMdkoxalNTZU93RUNqOU9n?oc=5",
       "source": "Google News",
       "published": "2026-08-13T10:17:00+00:00"
@@ -544,7 +556,7 @@
       "published": "2026-08-13T10:01:40+00:00"
     },
     {
-      "title": "[올댓차이나] 홍콩 증시, 中 경기불안에 사흘째 하락 마감… H주 0.23%↓ - 뉴시스",
+      "title": "[올댓차이나] 홍콩 증시, 中 경기불안에 사흘째 하락 마감… H주 0.23%↓ - newsis.com",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JMDF5Rlk0M2thZmNwdWVyVDdROTc5RlFpMmxSZW5NcmRON3ZLOGE3SVhKUk9UelNleHZjMlQ5YUZoYWFLRnROLUFISWtaVUFHeUJHQWkzaDZjUlVlNEkxUdIBeEFVX3lxTE5ob2V1YVB4TmNNNk5mVTZabExYXzFDZ01Pcm13aDdfRW5SUWwtSE11TnM1WTZORUVGaHh0d3FiU0s5bWhNdzd4U283X25mR0ZpODc5VE5RRk5jSVFEUW9jZm9kY2ZDanZtZVNHemVDWklmYzN3QnRTQg?oc=5",
       "source": "Google News",
       "published": "2026-08-13T09:52:55+00:00"
@@ -650,18 +662,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260813141351002",
       "source": "연합뉴스·경제",
       "published": "2026-08-13T08:52:52+00:00"
-    },
-    {
-      "title": "언제 어디로든 갈 수 있는 1548조…투심의 향방이 보인다 [데이터로 읽는 머니무브]",
-      "link": "https://www.mk.co.kr/news/economy/12126865",
-      "source": "매일경제·증권",
-      "published": "2026-08-13T08:51:17+00:00"
-    },
-    {
-      "title": "[단독] 청년 월세 지원 늘린다…'중위소득 100%'로 확대",
-      "link": "https://www.mk.co.kr/news/economy/12126844",
-      "source": "매일경제·증권",
-      "published": "2026-08-13T08:50:28+00:00"
     }
   ],
   "pages": [
