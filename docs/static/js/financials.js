@@ -168,6 +168,46 @@
       + '<p class="v2-hub-empty">이 종목의 재무 데이터가 아직 준비되지 않았습니다.</p>';
   }
 
+  // ── 상태 A: 검색 · 최근 조회 ──
+
+  function rowText(row) {
+    return (row.getAttribute("data-fs-name") + " " + row.getAttribute("data-fs-code")).toLowerCase();
+  }
+
+  function applyQuery(q) {
+    var query = String(q || "").trim().toLowerCase();
+    var hits = 0;
+    rows.forEach(function (row) {
+      var hit = query !== "" && rowText(row).indexOf(query) !== -1;
+      row.hidden = !hit;
+      if (hit) hits++;
+    });
+    resultsEl.hidden = hits === 0;
+    hintEl.hidden = query !== "";
+    noResultEl.hidden = !(query !== "" && hits === 0);
+    if (recentEl) recentEl.hidden = query !== "" || !recentChipsEl.children.length;
+  }
+
+  function recentList() {
+    return (global.TAStore && global.TAStore.fsRecent) ? global.TAStore.fsRecent() : [];
+  }
+
+  function renderRecent() {
+    if (!recentEl) return;
+    var list = recentList();
+    recentChipsEl.innerHTML = list.map(function (r) {
+      return '<button type="button" class="v2-theme-chip" data-fs-trigger data-fs-code="'
+        + escapeHtml(r.code) + '">' + escapeHtml(r.name)
+        + '<span class="v2-fs-recent__code">' + escapeHtml(r.code) + "</span></button>";
+    }).join("");
+    recentEl.hidden = !list.length || (searchEl && searchEl.value.trim() !== "");
+  }
+
+  function recordRecent(entry) {
+    if (global.TAStore && global.TAStore.pushFsRecent) global.TAStore.pushFsRecent(entry);
+    renderRecent();
+  }
+
   function showDetail(html) {
     browseEl.hidden = true;
     detailEl.hidden = false;
@@ -182,14 +222,27 @@
     detailEl.innerHTML = "";
   }
 
+  function universeEntry(code) {
+    for (var i = 0; i < rows.length; i++) {
+      if (rows[i].getAttribute("data-fs-code") === code) {
+        return { code: code, name: rows[i].getAttribute("data-fs-name"),
+                 market: rows[i].getAttribute("data-fs-market") };
+      }
+    }
+    return { code: code, name: code, market: "" };
+  }
+
   function open(code) {
     var url = siteRoot() + "/data/financials/" + encodeURIComponent(code) + ".json";
     global.fetch(url).then(function (res) {
       if (!res.ok) throw new Error("not found");
       return res.json();
     }).then(function (data) {
+      recordRecent({ code: data.code || code, name: data.name, market: data.market });
       showDetail(detailHtml(data));
     }).catch(function () {
+      // 재무 데이터가 없어도 "내가 본 종목"인 것은 같다 — 유니버스 행에서 이름을 채워 칩에 남긴다.
+      recordRecent(universeEntry(code));
       showDetail(noDataHtml(code));
     });
   }
@@ -205,10 +258,35 @@
     detailEl = doc.getElementById("fs-detail");
     if (!browseEl || !detailEl) return;
 
+    searchEl = browseEl.querySelector("[data-fs-search]");
+    resultsEl = browseEl.querySelector("[data-fs-results]");
+    hintEl = browseEl.querySelector("[data-fs-hint]");
+    noResultEl = browseEl.querySelector("[data-fs-noresult]");
+    recentEl = browseEl.querySelector("[data-fs-recent]");
+    recentChipsEl = browseEl.querySelector("[data-fs-recent-chips]");
+    rows = Array.prototype.slice.call(resultsEl.querySelectorAll("[data-fs-trigger]"));
+
+    renderRecent();
+    applyQuery("");  // JS가 살아 있는 동안에만 목록을 감춘다(무JS 폴백은 전체 목록)
+    searchEl.addEventListener("input", function () { applyQuery(searchEl.value); });
+    searchEl.addEventListener("keydown", function (e) {
+      if (e.key !== "Enter") return;
+      e.preventDefault();
+      var first = rows.filter(function (r) { return !r.hidden; })[0];
+      if (first) global.location.hash = "code=" + encodeURIComponent(first.getAttribute("data-fs-code"));
+    });
+
     doc.addEventListener("click", function (e) {
       var trigger = e.target.closest("[data-fs-trigger]");
       if (!trigger) return;
       global.location.hash = "code=" + encodeURIComponent(trigger.getAttribute("data-fs-code"));
+    });
+    doc.addEventListener("keydown", function (e) {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      var row = e.target.closest ? e.target.closest("tr[data-fs-trigger]") : null;
+      if (!row) return;
+      e.preventDefault();
+      global.location.hash = "code=" + encodeURIComponent(row.getAttribute("data-fs-code"));
     });
     global.addEventListener("hashchange", onHashChange);
 

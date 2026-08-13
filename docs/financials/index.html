@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Financial Statements · AI Trading Assistant</title>
-  <link rel="stylesheet" href="../static/css/tokens.css?v=0d9f5924">
-  <link rel="stylesheet" href="../static/css/base_v2.css?v=0d9f5924">
-  <link rel="stylesheet" href="../static/css/components.css?v=0d9f5924">
+  <link rel="stylesheet" href="../static/css/tokens.css?v=aca1556d">
+  <link rel="stylesheet" href="../static/css/base_v2.css?v=aca1556d">
+  <link rel="stylesheet" href="../static/css/components.css?v=aca1556d">
   <script>(function(){try{
     var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
     var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
@@ -65,287 +65,374 @@ aria-current="page">Financial Statements</a>
 
 <div id="fs-browse" class="v2-span-12">
   <h1 class="v2-fs-title">Financial Statements</h1>
-  <p class="v2-body v2-fs-intro">종목을 클릭하면 재무 5개 지표 카드로 진단합니다.</p>
-  <table class="v2-rank-table v2-fs-table">
+  <p class="v2-body v2-fs-intro">종목을 검색하면 재무 5개 지표 카드로 진단합니다.</p>
+
+  <div class="v2-fs-search">
+    <span class="v2-fs-search__icon" aria-hidden="true">⌕</span>
+    <input type="search" class="v2-fs-search__input" data-fs-search
+           placeholder="종목명·티커 입력 (예: 삼성전자, 005930)"
+           autocomplete="off" spellcheck="false" aria-label="재무제표 종목 검색"
+           aria-controls="fs-results">
+  </div>
+
+  <div class="v2-fs-recent" data-fs-recent hidden>
+    <span class="v2-fs-recent__title">최근 조회</span>
+    <div class="v2-fs-recent__chips" data-fs-recent-chips></div>
+  </div>
+
+  <p class="v2-hub-empty v2-fs-hint" data-fs-hint hidden>검색한 종목만 표시됩니다. 종목명이나 코드를 입력하세요.</p>
+  <p class="v2-hub-empty v2-fs-hint" data-fs-noresult hidden>검색 결과가 없습니다.</p>
+
+  <table class="v2-rank-table v2-fs-table" id="fs-results" data-fs-results>
     <thead><tr><th>종목</th><th>시장</th></tr></thead>
     <tbody>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="005930" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="005930" data-fs-name="삼성전자"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">삼성전자</span><span class="v2-rank-row__code">005930</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="000660" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="000660" data-fs-name="SK하이닉스"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">SK하이닉스</span><span class="v2-rank-row__code">000660</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="009150" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="009150" data-fs-name="삼성전기"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">삼성전기</span><span class="v2-rank-row__code">009150</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="402340" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="402340" data-fs-name="SK스퀘어"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">SK스퀘어</span><span class="v2-rank-row__code">402340</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="066570" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="066570" data-fs-name="LG전자"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">LG전자</span><span class="v2-rank-row__code">066570</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="005935" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="005935" data-fs-name="삼성전자우"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">삼성전자우</span><span class="v2-rank-row__code">005935</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="036930" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="036930" data-fs-name="주성엔지니어링"
+          data-fs-market="KOSDAQ GLOBAL" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">주성엔지니어링</span><span class="v2-rank-row__code">036930</span></td>
         <td>KOSDAQ GLOBAL</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="006340" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="006340" data-fs-name="대원전선"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">대원전선</span><span class="v2-rank-row__code">006340</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="012450" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="012450" data-fs-name="한화에어로스페이스"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">한화에어로스페이스</span><span class="v2-rank-row__code">012450</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="161890" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="161890" data-fs-name="한국콜마"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">한국콜마</span><span class="v2-rank-row__code">161890</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="002990" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="002990" data-fs-name="금호건설"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">금호건설</span><span class="v2-rank-row__code">002990</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="257720" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="257720" data-fs-name="실리콘투"
+          data-fs-market="KOSDAQ" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">실리콘투</span><span class="v2-rank-row__code">257720</span></td>
         <td>KOSDAQ</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="006400" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="006400" data-fs-name="삼성SDI"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">삼성SDI</span><span class="v2-rank-row__code">006400</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="068270" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="068270" data-fs-name="셀트리온"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">셀트리온</span><span class="v2-rank-row__code">068270</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="011070" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="011070" data-fs-name="LG이노텍"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">LG이노텍</span><span class="v2-rank-row__code">011070</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="035420" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="035420" data-fs-name="NAVER"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">NAVER</span><span class="v2-rank-row__code">035420</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="240810" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="240810" data-fs-name="원익IPS"
+          data-fs-market="KOSDAQ GLOBAL" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">원익IPS</span><span class="v2-rank-row__code">240810</span></td>
         <td>KOSDAQ GLOBAL</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="483350" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="483350" data-fs-name="딜리셔스"
+          data-fs-market="KOSDAQ" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">딜리셔스</span><span class="v2-rank-row__code">483350</span></td>
         <td>KOSDAQ</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="222800" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="222800" data-fs-name="심텍"
+          data-fs-market="KOSDAQ GLOBAL" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">심텍</span><span class="v2-rank-row__code">222800</span></td>
         <td>KOSDAQ GLOBAL</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="080220" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="080220" data-fs-name="제주반도체"
+          data-fs-market="KOSDAQ" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">제주반도체</span><span class="v2-rank-row__code">080220</span></td>
         <td>KOSDAQ</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="005380" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="005380" data-fs-name="현대차"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">현대차</span><span class="v2-rank-row__code">005380</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="034020" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="034020" data-fs-name="두산에너빌리티"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">두산에너빌리티</span><span class="v2-rank-row__code">034020</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="028260" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="028260" data-fs-name="삼성물산"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">삼성물산</span><span class="v2-rank-row__code">028260</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="278470" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="278470" data-fs-name="에이피알"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">에이피알</span><span class="v2-rank-row__code">278470</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="105560" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="105560" data-fs-name="KB금융"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">KB금융</span><span class="v2-rank-row__code">105560</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="475150" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="475150" data-fs-name="SK이터닉스"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">SK이터닉스</span><span class="v2-rank-row__code">475150</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="009830" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="009830" data-fs-name="한화솔루션"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">한화솔루션</span><span class="v2-rank-row__code">009830</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="192820" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="192820" data-fs-name="코스맥스"
+          data-fs-market="KOSPI" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">코스맥스</span><span class="v2-rank-row__code">192820</span></td>
         <td>KOSPI</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="196170" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="196170" data-fs-name="알테오젠"
+          data-fs-market="KOSDAQ GLOBAL" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">알테오젠</span><span class="v2-rank-row__code">196170</span></td>
         <td>KOSDAQ GLOBAL</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="010170" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="010170" data-fs-name="대한광통신"
+          data-fs-market="KOSDAQ" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">대한광통신</span><span class="v2-rank-row__code">010170</span></td>
         <td>KOSDAQ</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="MU" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="MU" data-fs-name="Micron Technology"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Micron Technology</span><span class="v2-rank-row__code">MU</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="NVDA" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="NVDA" data-fs-name="Nvidia"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Nvidia</span><span class="v2-rank-row__code">NVDA</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="INTC" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="INTC" data-fs-name="Intel"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Intel</span><span class="v2-rank-row__code">INTC</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="SNDK" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="SNDK" data-fs-name="Sandisk"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Sandisk</span><span class="v2-rank-row__code">SNDK</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="MSFT" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="MSFT" data-fs-name="Microsoft"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Microsoft</span><span class="v2-rank-row__code">MSFT</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="AAPL" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="AAPL" data-fs-name="Apple Inc."
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Apple Inc.</span><span class="v2-rank-row__code">AAPL</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="GOOGL" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="GOOGL" data-fs-name="Alphabet Inc. (Class A)"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Alphabet Inc. (Class A)</span><span class="v2-rank-row__code">GOOGL</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="AMZN" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="AMZN" data-fs-name="Amazon"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Amazon</span><span class="v2-rank-row__code">AMZN</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="AMD" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="AMD" data-fs-name="Advanced Micro Devices"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Advanced Micro Devices</span><span class="v2-rank-row__code">AMD</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="META" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="META" data-fs-name="Meta Platforms"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Meta Platforms</span><span class="v2-rank-row__code">META</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="TSLA" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="TSLA" data-fs-name="Tesla, Inc."
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Tesla, Inc.</span><span class="v2-rank-row__code">TSLA</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="PLTR" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="PLTR" data-fs-name="Palantir Technologies"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Palantir Technologies</span><span class="v2-rank-row__code">PLTR</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="GOOG" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="GOOG" data-fs-name="Alphabet Inc. (Class C)"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Alphabet Inc. (Class C)</span><span class="v2-rank-row__code">GOOG</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="AVGO" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="AVGO" data-fs-name="Broadcom"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Broadcom</span><span class="v2-rank-row__code">AVGO</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="LITE" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="LITE" data-fs-name="Lumentum"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Lumentum</span><span class="v2-rank-row__code">LITE</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="ORCL" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="ORCL" data-fs-name="Oracle Corporation"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Oracle Corporation</span><span class="v2-rank-row__code">ORCL</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="AMAT" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="AMAT" data-fs-name="Applied Materials"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Applied Materials</span><span class="v2-rank-row__code">AMAT</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="MRVL" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="MRVL" data-fs-name="Marvell Technology"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Marvell Technology</span><span class="v2-rank-row__code">MRVL</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="SMCI" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="SMCI" data-fs-name="Supermicro"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Supermicro</span><span class="v2-rank-row__code">SMCI</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="WDC" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="WDC" data-fs-name="Western Digital"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Western Digital</span><span class="v2-rank-row__code">WDC</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="STX" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="STX" data-fs-name="Seagate Technology"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Seagate Technology</span><span class="v2-rank-row__code">STX</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="LLY" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="LLY" data-fs-name="Lilly (Eli)"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Lilly (Eli)</span><span class="v2-rank-row__code">LLY</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="APP" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="APP" data-fs-name="AppLovin"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">AppLovin</span><span class="v2-rank-row__code">APP</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="BRK-B" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="BRK-B" data-fs-name="Berkshire Hathaway"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Berkshire Hathaway</span><span class="v2-rank-row__code">BRK-B</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="LRCX" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="LRCX" data-fs-name="Lam Research"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Lam Research</span><span class="v2-rank-row__code">LRCX</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="PANW" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="PANW" data-fs-name="Palo Alto Networks"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Palo Alto Networks</span><span class="v2-rank-row__code">PANW</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="CRM" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="CRM" data-fs-name="Salesforce"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Salesforce</span><span class="v2-rank-row__code">CRM</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="XOM" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="XOM" data-fs-name="ExxonMobil"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">ExxonMobil</span><span class="v2-rank-row__code">XOM</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="COHR" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="COHR" data-fs-name="Coherent Corp."
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Coherent Corp.</span><span class="v2-rank-row__code">COHR</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="DELL" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="DELL" data-fs-name="Dell Technologies"
+          data-fs-market="US" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Dell Technologies</span><span class="v2-rank-row__code">DELL</span></td>
         <td>US</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="TSM" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="TSM" data-fs-name="TSMC"
+          data-fs-market="NYSE" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">TSMC</span><span class="v2-rank-row__code">TSM</span></td>
         <td>NYSE</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="373220" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="373220" data-fs-name="LG에너지솔루션"
+          data-fs-market="KRX" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">LG에너지솔루션</span><span class="v2-rank-row__code">373220</span></td>
         <td>KRX</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="247540" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="247540" data-fs-name="에코프로비엠"
+          data-fs-market="KRX" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">에코프로비엠</span><span class="v2-rank-row__code">247540</span></td>
         <td>KRX</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="035720" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="035720" data-fs-name="카카오"
+          data-fs-market="KRX" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">카카오</span><span class="v2-rank-row__code">035720</span></td>
         <td>KRX</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="207940" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="207940" data-fs-name="삼성바이오로직스"
+          data-fs-market="KRX" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">삼성바이오로직스</span><span class="v2-rank-row__code">207940</span></td>
         <td>KRX</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="NVO" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="NVO" data-fs-name="Novo Nordisk"
+          data-fs-market="NYSE" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Novo Nordisk</span><span class="v2-rank-row__code">NVO</span></td>
         <td>NYSE</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="000270" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="000270" data-fs-name="기아"
+          data-fs-market="KRX" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">기아</span><span class="v2-rank-row__code">000270</span></td>
         <td>KRX</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="055550" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="055550" data-fs-name="신한지주"
+          data-fs-market="KRX" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">신한지주</span><span class="v2-rank-row__code">055550</span></td>
         <td>KRX</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="JPM" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="JPM" data-fs-name="JPMorgan Chase"
+          data-fs-market="NYSE" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">JPMorgan Chase</span><span class="v2-rank-row__code">JPM</span></td>
         <td>NYSE</td>
       </tr>
-      <tr class="v2-rank-row" data-fs-trigger data-fs-code="BAC" tabindex="0" role="button">
+      <tr class="v2-rank-row" data-fs-trigger data-fs-code="BAC" data-fs-name="Bank of America"
+          data-fs-market="NYSE" tabindex="0" role="button">
         <td><span class="v2-rank-row__name">Bank of America</span><span class="v2-rank-row__code">BAC</span></td>
         <td>NYSE</td>
       </tr>
@@ -357,10 +444,10 @@ aria-current="page">Financial Statements</a>
     </div>
   </main>
   <div class="v2-panel-slot" id="panel-slot"></div>
-  <script src="../static/js/store.js?v=0d9f5924" defer></script>
-  <script src="../static/js/stockhub.js?v=0d9f5924" defer></script>
-  <script src="../static/js/search.js?v=0d9f5924" defer></script>
-  <script src="../static/js/chart.js?v=0d9f5924" defer></script>
-<script src="../static/js/financials.js?v=0d9f5924" defer></script>
+  <script src="../static/js/store.js?v=aca1556d" defer></script>
+  <script src="../static/js/stockhub.js?v=aca1556d" defer></script>
+  <script src="../static/js/search.js?v=aca1556d" defer></script>
+  <script src="../static/js/chart.js?v=aca1556d" defer></script>
+<script src="../static/js/financials.js?v=aca1556d" defer></script>
 </body>
 </html>

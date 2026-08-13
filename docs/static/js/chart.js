@@ -205,7 +205,9 @@
 
     var defs = el("defs");
     var grad = el("linearGradient", { id: gid, x1: "0", y1: "0", x2: "0", y2: "1" });
-    var s0 = el("stop", { offset: "0", "stop-opacity": full ? "0.32" : "0.26" });
+    // 면 채우기는 계열색 10% → 0%의 소프트 그라디언트다. 불투명한 블록으로 채우면
+    // 면이 선보다 무거워져 추세선이 면 위에 얹힌 장식처럼 읽힌다 — 면은 방향을 거들 뿐이다.
+    var s0 = el("stop", { offset: "0", "stop-opacity": full ? "0.10" : "0.12" });
     var s1 = el("stop", { offset: "1", "stop-opacity": "0" });
     s0.style.stopColor = color; s1.style.stopColor = color;
     grad.appendChild(s0); grad.appendChild(s1);
