@@ -1,12 +1,12 @@
 [
   {
-    "code": "000660",
-    "name": "SK하이닉스",
+    "code": "005930",
+    "name": "삼성전자",
     "market": "KOSPI"
   },
   {
-    "code": "005930",
-    "name": "삼성전자",
+    "code": "000660",
+    "name": "SK하이닉스",
     "market": "KOSPI"
   },
   {
@@ -35,13 +35,13 @@
     "market": "KOSDAQ"
   },
   {
-    "code": "001820",
-    "name": "삼화콘덴서",
+    "code": "475150",
+    "name": "SK이터닉스",
     "market": "KOSPI"
   },
   {
-    "code": "475150",
-    "name": "SK이터닉스",
+    "code": "001820",
+    "name": "삼화콘덴서",
     "market": "KOSPI"
   },
   {
@@ -60,6 +60,11 @@
     "market": "KOSPI"
   },
   {
+    "code": "012450",
+    "name": "한화에어로스페이스",
+    "market": "KOSPI"
+  },
+  {
     "code": "332570",
     "name": "PS일렉트로닉스",
     "market": "KOSDAQ"
@@ -70,8 +75,8 @@
     "market": "KOSPI"
   },
   {
-    "code": "012450",
-    "name": "한화에어로스페이스",
+    "code": "011070",
+    "name": "LG이노텍",
     "market": "KOSPI"
   },
   {
@@ -85,38 +90,8 @@
     "market": "KOSDAQ"
   },
   {
-    "code": "950160",
-    "name": "코오롱티슈진",
-    "market": "KOSDAQ"
-  },
-  {
     "code": "017670",
     "name": "SK텔레콤",
-    "market": "KOSPI"
-  },
-  {
-    "code": "009830",
-    "name": "한화솔루션",
-    "market": "KOSPI"
-  },
-  {
-    "code": "011070",
-    "name": "LG이노텍",
-    "market": "KOSPI"
-  },
-  {
-    "code": "005380",
-    "name": "현대차",
-    "market": "KOSPI"
-  },
-  {
-    "code": "100790",
-    "name": "미래에셋벤처투자",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "483650",
-    "name": "달바글로벌",
     "market": "KOSPI"
   },
   {
@@ -125,18 +100,28 @@
     "market": "KOSPI"
   },
   {
+    "code": "005380",
+    "name": "현대차",
+    "market": "KOSPI"
+  },
+  {
+    "code": "009830",
+    "name": "한화솔루션",
+    "market": "KOSPI"
+  },
+  {
+    "code": "950160",
+    "name": "코오롱티슈진",
+    "market": "KOSDAQ"
+  },
+  {
     "code": "196170",
     "name": "알테오젠",
     "market": "KOSDAQ GLOBAL"
   },
   {
-    "code": "329180",
-    "name": "HD현대중공업",
-    "market": "KOSPI"
-  },
-  {
-    "code": "006800",
-    "name": "미래에셋증권",
+    "code": "483650",
+    "name": "달바글로벌",
     "market": "KOSPI"
   },
   {
@@ -145,8 +130,23 @@
     "market": "KOSPI"
   },
   {
-    "code": "073240",
-    "name": "금호타이어",
+    "code": "329180",
+    "name": "HD현대중공업",
+    "market": "KOSPI"
+  },
+  {
+    "code": "028260",
+    "name": "삼성물산",
+    "market": "KOSPI"
+  },
+  {
+    "code": "100790",
+    "name": "미래에셋벤처투자",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "006800",
+    "name": "미래에셋증권",
     "market": "KOSPI"
   },
   {

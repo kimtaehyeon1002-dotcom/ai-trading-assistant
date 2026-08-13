@@ -4,12 +4,12 @@
   "market": "KRX",
   "theme": "2차전지",
   "quote": {
-    "close": 367000.0,
-    "change_pct": 2.37,
-    "volume": 111407,
-    "amount": 40715456250.0,
-    "marcap": 85878000000000.0,
-    "as_of_iso": "2026-08-13T04:10:21.799613+00:00",
+    "close": 363500.0,
+    "change_pct": 1.39,
+    "volume": 145714,
+    "amount": 53247310500.0,
+    "marcap": 85059000000000.0,
+    "as_of_iso": "2026-08-13T06:15:30.770132+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:373220",

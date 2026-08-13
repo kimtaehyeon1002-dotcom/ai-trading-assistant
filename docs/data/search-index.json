@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-08-13T05:54:45.811747+00:00",
+  "as_of": "2026-08-13T06:15:40.229900+00:00",
   "stocks": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "market": "KOSPI"
-    },
     {
       "code": "005930",
       "name": "삼성전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
       "market": "KOSPI"
     },
     {
@@ -37,13 +37,13 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "001820",
-      "name": "삼화콘덴서",
+      "code": "475150",
+      "name": "SK이터닉스",
       "market": "KOSPI"
     },
     {
-      "code": "475150",
-      "name": "SK이터닉스",
+      "code": "001820",
+      "name": "삼화콘덴서",
       "market": "KOSPI"
     },
     {
@@ -62,6 +62,11 @@
       "market": "KOSPI"
     },
     {
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "market": "KOSPI"
+    },
+    {
       "code": "332570",
       "name": "PS일렉트로닉스",
       "market": "KOSDAQ"
@@ -72,8 +77,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "012450",
-      "name": "한화에어로스페이스",
+      "code": "011070",
+      "name": "LG이노텍",
       "market": "KOSPI"
     },
     {
@@ -87,38 +92,8 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "950160",
-      "name": "코오롱티슈진",
-      "market": "KOSDAQ"
-    },
-    {
       "code": "017670",
       "name": "SK텔레콤",
-      "market": "KOSPI"
-    },
-    {
-      "code": "009830",
-      "name": "한화솔루션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "market": "KOSPI"
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "market": "KOSPI"
-    },
-    {
-      "code": "100790",
-      "name": "미래에셋벤처투자",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "483650",
-      "name": "달바글로벌",
       "market": "KOSPI"
     },
     {
@@ -127,18 +102,28 @@
       "market": "KOSPI"
     },
     {
+      "code": "005380",
+      "name": "현대차",
+      "market": "KOSPI"
+    },
+    {
+      "code": "009830",
+      "name": "한화솔루션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "950160",
+      "name": "코오롱티슈진",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "196170",
       "name": "알테오젠",
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "market": "KOSPI"
-    },
-    {
-      "code": "006800",
-      "name": "미래에셋증권",
+      "code": "483650",
+      "name": "달바글로벌",
       "market": "KOSPI"
     },
     {
@@ -147,8 +132,23 @@
       "market": "KOSPI"
     },
     {
-      "code": "073240",
-      "name": "금호타이어",
+      "code": "329180",
+      "name": "HD현대중공업",
+      "market": "KOSPI"
+    },
+    {
+      "code": "028260",
+      "name": "삼성물산",
+      "market": "KOSPI"
+    },
+    {
+      "code": "100790",
+      "name": "미래에셋벤처투자",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "006800",
+      "name": "미래에셋증권",
       "market": "KOSPI"
     },
     {
@@ -364,10 +364,70 @@
   ],
   "news": [
     {
+      "title": "KB금융, 독립유공자 후손 소상공인 지원 '명품가게'",
+      "link": "https://www.yna.co.kr/view/AKR20260813114900002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-13T06:10:45+00:00"
+    },
+    {
+      "title": "신한은행, 홀트아동복지회와 신탁 활용 유산기부 활성화 협약",
+      "link": "https://www.yna.co.kr/view/AKR20260813116000002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-13T06:09:48+00:00"
+    },
+    {
+      "title": "[게시판] KB국민은행 \"환전하고 eSIM 데이터도 받아 가세요\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813116700002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-13T06:08:50+00:00"
+    },
+    {
+      "title": "서울 아파트 매매가격 상승폭 둔화…서초·강남은 하락 전환(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260813088751003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-13T06:07:31+00:00"
+    },
+    {
+      "title": "[8·13대책] 서울 강서구 \"20년 숙원 해결…염창공원 훼손지 주택공급 환영\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813117900004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-13T06:05:14+00:00"
+    },
+    {
+      "title": "금융당국, 개정특금법 신고매뉴얼 설명회…\"건전성 철저히 점검\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813112900002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-13T06:00:00+00:00"
+    },
+    {
+      "title": "울산교육청, 지방공무원 임용시험 최종 합격자 32명 발표",
+      "link": "https://www.yna.co.kr/view/AKR20260813115600057",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-13T05:55:48+00:00"
+    },
+    {
+      "title": "수출입은행, 첫 벤처투자조합 투자…200억원 출자",
+      "link": "https://www.yna.co.kr/view/AKR20260813101600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-13T05:52:24+00:00"
+    },
+    {
+      "title": "李대통령 \"특단각오 공급 총력전…법 제도 고쳐서라도 택지확보\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813113800001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-13T05:52:05+00:00"
+    },
+    {
       "title": "LG화학, 첫 독립이사 참가 해외 거버넌스 기업설명회",
       "link": "https://www.yna.co.kr/view/AKR20260813116200003",
       "source": "연합뉴스·경제",
       "published": "2026-08-13T05:49:01+00:00"
+    },
+    {
+      "title": "[오후장 체크포인트] 美 인플레 공포 덜어낸 증시…오늘 분위기는? - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHRVNpMjRhbkZLWjV2c0ZYbWdBSmxtdjk0UHoxekVmVlNyaFVzdm9kZ1VhUG5wV2lrN3k1UnFkR3lxYmxJdERkMks1bXBfUlE?oc=5",
+      "source": "Google News",
+      "published": "2026-08-13T05:40:00+00:00"
     },
     {
       "title": "年 17조 인천시금고에 5개 은행 ‘눈독’…다음달 2일까지 제안서 접수",
@@ -602,66 +662,6 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sUzhoZGpybUlGOGRrWW5XYS1jekNXdDFUd3ZBZWJMN1lmNEJfNXhTczhZUTgta0hLbVNqUmtUUnJjWmFxWU9Vdmoyb3dYUl9QSndMMVZFbU1rNmRXSkxsTWc4blBGWEs2NVgzRVhZMlJ0bldXQ0RpOA?oc=5",
       "source": "Google News",
       "published": "2026-08-13T03:21:36+00:00"
-    },
-    {
-      "title": "대우건설, 파푸아뉴기니 LNG 공사 우선협상대상자 선정",
-      "link": "https://www.yna.co.kr/view/AKR20260813090200003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-13T03:10:59+00:00"
-    },
-    {
-      "title": "[일문일답] 국토장관 \"훼손된 그린벨트 적극 활용해 수도권 주택 공급\"",
-      "link": "https://www.yna.co.kr/view/AKR20260813090000003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-13T03:09:05+00:00"
-    },
-    {
-      "title": "'4명 사망' 광주대표도서관 붕괴…공무원 비위 등 후속수사",
-      "link": "https://www.yna.co.kr/view/AKR20260812081852054",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-13T03:08:19+00:00"
-    },
-    {
-      "title": "[8·13대책] 남양주·경기 광주 신규 택지는 역세권",
-      "link": "https://www.yna.co.kr/view/AKR20260813080100060",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-13T03:01:00+00:00"
-    },
-    {
-      "title": "\"커피 그라인더, 분쇄범위·소음 차이…선호 추출방식 확인해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812104900030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-13T03:00:24+00:00"
-    },
-    {
-      "title": "정부, 총리 주재 범정부 주택 신속공급 점검회의 신설",
-      "link": "https://www.yna.co.kr/view/AKR20260813022500001",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-13T03:00:20+00:00"
-    },
-    {
-      "title": "7월 외국인 자금 216억5천만달러 빠져나가…6개월째 순유출",
-      "link": "https://www.yna.co.kr/view/AKR20260813046100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-13T03:00:18+00:00"
-    },
-    {
-      "title": "[8·13대책] 청년 비아파트 지원 '주거발판' 주목…전세대출 규제 여파 주시",
-      "link": "https://www.yna.co.kr/view/AKR20260813059900002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-13T03:00:04+00:00"
-    },
-    {
-      "title": "[8·13대책] 주택공급 금융지원 '47.8+α'로 확대…이주비대출 LTV 기준 완화",
-      "link": "https://www.yna.co.kr/view/AKR20260812165900002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-13T03:00:04+00:00"
-    },
-    {
-      "title": "집 사고 한 번도 안 살았으면 ‘사실상 투기’…1주택이라도 전세대출 제한",
-      "link": "https://www.mk.co.kr/news/economy/12126382",
-      "source": "매일경제·증권",
-      "published": "2026-08-13T03:00:00+00:00"
     }
   ],
   "pages": [
