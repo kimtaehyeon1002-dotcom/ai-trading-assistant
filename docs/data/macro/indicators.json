@@ -11,7 +11,7 @@
       "change_abs": 163000.0,
       "change_pct": 0.18,
       "unit": "KRW",
-      "as_of_iso": "2026-08-13T13:28:35.053601+00:00",
+      "as_of_iso": "2026-08-13T13:29:20.559643+00:00",
       "source": "upbit",
       "session_key": "crypto_24h",
       "expected_T_min": 60,
@@ -20,6 +20,6 @@
     },
     "yoy": null,
     "next_release": null,
-    "kimchi_premium_pct": -0.32
+    "kimchi_premium_pct": -0.34
   }
 }
