@@ -1,15 +1,15 @@
 {
   "code": "LLY",
-  "name": "Eli Lilly",
-  "market": "NYSE",
+  "name": "Lilly (Eli)",
+  "market": "US",
   "theme": "바이오",
   "quote": {
     "close": 1220.280029296875,
     "change_pct": 0.43,
-    "volume": 1526985,
-    "amount": 1863349300.5358887,
+    "volume": 1938700,
+    "amount": 2365756892.7978516,
     "marcap": null,
-    "as_of_iso": "2026-08-13T01:48:35.300778+00:00",
+    "as_of_iso": "2026-08-13T04:10:21.799601+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "LLY",

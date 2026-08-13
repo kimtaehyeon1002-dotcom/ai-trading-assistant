@@ -1,0 +1,17 @@
+{
+  "code": "006800",
+  "name": "미래에셋증권",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 37850.0,
+    "change_pct": 3.7,
+    "volume": 2401568,
+    "amount": 93458874925.0,
+    "marcap": 21179606408000.0,
+    "as_of_iso": "2026-08-13T04:10:21.799331+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:006800",
+  "related_news": []
+}

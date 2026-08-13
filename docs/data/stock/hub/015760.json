@@ -1,0 +1,17 @@
+{
+  "code": "015760",
+  "name": "한국전력",
+  "market": "KOSPI",
+  "theme": null,
+  "quote": {
+    "close": 33250.0,
+    "change_pct": -6.21,
+    "volume": 2950917,
+    "amount": 99207150075.0,
+    "marcap": 21345305560250.0,
+    "as_of_iso": "2026-08-13T04:10:21.799310+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:015760",
+  "related_news": []
+}
