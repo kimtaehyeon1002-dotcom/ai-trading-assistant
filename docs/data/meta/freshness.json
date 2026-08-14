@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-14T20:36:49.709687+09:00",
+  "generated_at": "2026-08-14T20:44:03.696573+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-08-14T20:36:25.210884+09:00",
+      "last_built": "2026-08-14T20:43:51.556697+09:00",
       "expected_T_min": 30,
       "items": 1,
       "duration_ms": 1
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-08-14T20:36:37.551590+09:00",
+      "last_built": "2026-08-14T20:43:55.601485+09:00",
       "expected_T_min": 30,
       "items": 26,
-      "duration_ms": 6213
+      "duration_ms": 8028
     },
     "Asset Publish": {
       "status": "completed",
@@ -52,28 +52,28 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-08-14T20:36:44.260325+09:00",
+      "last_built": "2026-08-14T20:43:55.599762+09:00",
       "expected_T_min": 30,
-      "items": 0,
+      "items": 1,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-08-14T20:36:44.263033+09:00",
+      "last_built": "2026-08-14T20:43:51.631007+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 4378
+      "duration_ms": 3762
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-08-14T20:36:48.647386+09:00",
+      "last_built": "2026-08-14T20:43:55.399594+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 997
+      "duration_ms": 0
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-08-14T20:36:49.694889+09:00",
+      "last_built": "2026-08-14T20:44:03.681716+09:00",
       "expected_T_min": 30,
       "items": 3,
       "duration_ms": 0
@@ -164,7 +164,7 @@
     },
     "Loop Ledger": {
       "status": "completed",
-      "last_built": "2026-08-14T20:36:44.260347+09:00",
+      "last_built": "2026-08-14T20:43:55.599791+09:00",
       "expected_T_min": 30,
       "items": 2,
       "duration_ms": 1
