@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-14T22:18:36.333837+00:00",
+  "as_of": "2026-08-14T22:48:37.072216+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -354,6 +354,18 @@
   ],
   "news": [
     {
+      "title": "Trump family-backed crypto firm World Liberty gets conditional bank charter approval",
+      "link": "https://www.cnbc.com/2026/08/14/world-liberty-trump-occ-bank-charter-stablecoin.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-14T22:36:37+00:00"
+    },
+    {
+      "title": "가짜 계약서로 법원도 속였다…45억 뜯은 깡통빌라 사기극",
+      "link": "https://www.yna.co.kr/view/AKR20260814061700065",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T22:17:01+00:00"
+    },
+    {
       "title": "[로컬의 재발견] 한국의 실리콘밸리 찾으세요? 대전 '스타트업 파크' 오세요!",
       "link": "https://www.yna.co.kr/view/AKR20260812133500063",
       "source": "연합뉴스·경제",
@@ -426,12 +438,6 @@
       "published": "2026-08-14T21:11:08+00:00"
     },
     {
-      "title": "Trump family-backed crypto firm World Liberty gets conditional bank charter approval",
-      "link": "https://www.cnbc.com/2026/08/14/world-liberty-trump-occ-bank-charter-stablecoin.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T21:10:27+00:00"
-    },
-    {
       "title": "뉴욕증시, 소비 둔화 우려에 숨고르기…S&P500 0.2%↓(종합) - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tR2lsZENkeHhlc3A4LVBvOUpuWmU0bHNZb2dLTTNaWVlOclZTYjFfYnhNZ0VaYW1Bb1VTZnB0LTNPenBNazlUWmt2dHhjdjg?oc=5",
       "source": "Google News",
@@ -450,13 +456,19 @@
       "published": "2026-08-14T21:05:01+00:00"
     },
     {
+      "title": "[속보] 뉴욕증시, 하락⋯다우 0.20%↓ - etoday.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYaEhCS29MUE5TTDBDSkoybkc5RlA1YWhJTUp6b0R6Ql80QzhvUmFrR082WlN0dUZZZGZYUTFFc01zVUk4MmNHVXB2YU42UU9ZZDA1Vg?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T21:01:00+00:00"
+    },
+    {
       "title": "“무분별한 지방 분산, 실무에 악영향”…은행권 파업 ‘확대일로’",
       "link": "https://www.mk.co.kr/news/economy/12128613",
       "source": "매일경제·증권",
       "published": "2026-08-14T21:00:46+00:00"
     },
     {
-      "title": "[뉴욕증시] 이란 전쟁 장기화 우려 확산…약세 마감 - 연합인포맥스",
+      "title": "[뉴욕증시] 이란 전쟁 장기화 우려 확산…약세 마감 - news.einfomax.co.kr",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmRkMyb2hMM0VPelpsUFNPR2dGbDA4bUpiUkozNEF2UUxNSk5tRWV6c3lWVW1CVlNmNGljdEtsaU5Gd2pqNEJ0NDVIbHh1a1pfTGpUaWcyVGZXSFB3N010dEFNNzlDVUQzVzVvWVRCdk8?oc=5",
       "source": "Google News",
       "published": "2026-08-14T20:59:06+00:00"
@@ -480,13 +492,13 @@
       "published": "2026-08-14T20:44:10+00:00"
     },
     {
-      "title": "뉴욕증시, 소매판매 부진 속 하락 마감…어플라이드머티어리얼즈 5%대↓ - 뉴스핌",
+      "title": "뉴욕증시, 소매판매 부진 속 하락 마감…어플라이드머티어리얼즈 5%대↓ - newspim.com",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50MzdhcU5DVWRqOXRyNHg0VmNmTjNhSGdMclRpUERaSnZWQTF0RGNEQTR5aXVveEtNams2ZnFwWEkyTWoydFlqTm5PMVpLcmdBU1JSeTBwbnNtaGx2?oc=5",
       "source": "Google News",
       "published": "2026-08-14T20:23:00+00:00"
     },
     {
-      "title": "[뉴욕증시-1보] 이란 전쟁 장기화 우려 확산…약세 마감 - 연합인포맥스",
+      "title": "[뉴욕증시-1보] 이란 전쟁 장기화 우려 확산…약세 마감 - news.einfomax.co.kr",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YQjFtTDdTdjloRzhRbURrZERDVVIwdlZ1R3hBRFBhWnB5dlQzYmVMb3ZmbzJVUEVKaWFNeGZsTkJmOEk3N0diX2UzQlNXLVRaRUhYQzVlMGNlMGpaNkJHTm9iSUNpSWM4RHp2SW1Xb2LSAXRBVV95cUxQNXdoOGNOMzZnaUE2a2ppYV9iVkE1RTdURHBnbEpQUlY1cFNNSWZaTEJpcXctcVUyMzRfTWlId2t6VzFpck05b1YxNVh5ajhGRUtZaENEb3dZVW5uak5MWUVqTHMyRFdpdEdfQjVrOTBlV2dLYw?oc=5",
       "source": "Google News",
       "published": "2026-08-14T20:17:14+00:00"
@@ -502,6 +514,12 @@
       "link": "https://www.cnbc.com/2026/08/14/drone-stocks-trump-tariffs.html",
       "source": "CNBC Finance",
       "published": "2026-08-14T20:04:28+00:00"
+    },
+    {
+      "title": "[속보][뉴욕증시] 사상 최고 뒤 숨 고르기…빅테크 약세 속 일제히 하락 - fnnews.com",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9uS2V0MnNfSkVUNnJXYnNCZVU1LUs2ZHR2WUo3ZXZWVnR0Ty1XcTVDMXBDcUZaWXZnTUtkS2FJTG1waDBCYXA0YXA0NFdVTFU4X3NqUWtxWEJidw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T20:02:10+00:00"
     },
     {
       "title": "세계 방산 4강인데 … 신형 소총·조준경 보급은 ‘거북이’",
@@ -600,7 +618,7 @@
       "published": "2026-08-14T17:40:00+00:00"
     },
     {
-      "title": "유럽증시, 美 '전례 없는 수준' 대이란 제재 예고에 대부분 하락… 실적은 4년 만 최고 - 뉴스핌",
+      "title": "유럽증시, 美 '전례 없는 수준' 대이란 제재 예고에 대부분 하락… 실적은 4년 만 최고 - newspim.com",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iWnFFbXRRSmEzM3FBVGxUclowSmJjaHlmWVpsNncxTTNGVkVtcjE4dG4xUHJuQWRRaEtRUk1UMk1RS01HWmZyZFFRMXFoaUF1bkFFcVJ3aWNwemZv?oc=5",
       "source": "Google News",
       "published": "2026-08-14T17:10:00+00:00"
@@ -630,28 +648,10 @@
       "published": "2026-08-14T16:27:07+00:00"
     },
     {
-      "title": "뉴욕증시, 하락세로 전환…나스닥 0.43%↓ - 블루밍비트",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9JVWEtNnFZYTZhNFFvQ2Ewbnh3ZkJ0NlYyZDNBRkE1b003cmJYSk8xMnVZVXRhZEFiem82RVNydVZnOHBYN0FQc254RkhqOHFu?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T16:10:41+00:00"
-    },
-    {
       "title": "New CNBC Generation Lab poll shows almost half of 18- to 34-year-olds see democratic socialism positively",
       "link": "https://www.cnbc.com/2026/08/13/cnbc-poll-half-of-those-18-to-34-view-democratic-socialism-positively.html",
       "source": "CNBC Finance",
       "published": "2026-08-14T15:22:00+00:00"
-    },
-    {
-      "title": "美 증시 얼마나 과열됐길래…'버핏 지표' 238% 사상 최고 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WelVGU3BSb1NweHRPYTZ6ZXpISmZBS1g2aDBwS0h6T1VUTkxYZ05BLWFsMG9DWUY4dWYyc3JNU25rRTFrU3ZrM283dENOcFhlSURHYUJ6LVpvUU4yNTFJMdIBeEFVX3lxTE5sbVM1NzNzdWxta2xlV1JJMjlPTUtVOUhIVWhfd0JuZVBnbGsya0RNRXBIOE1nb1B1VzI1cjgwNUQxWWxjSEUtbFRLdEx0NFNsM0VySTFnZ1pkRGpJQ3pSYm1QZGlXdlFNR3o1dV95M1ZjbVVpWWFhUw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T15:15:00+00:00"
-    },
-    {
-      "title": "Housing investors say this is their worst market in at least 3 years",
-      "link": "https://www.cnbc.com/2026/08/14/housing-investors-say-this-is-their-worst-market-in-at-least-3-years.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T15:02:26+00:00"
     }
   ],
   "pages": [
