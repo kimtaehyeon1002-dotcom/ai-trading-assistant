@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-14T21:21:34.570744+00:00",
+  "as_of": "2026-08-14T21:49:18.518949+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -364,10 +364,22 @@
   ],
   "news": [
     {
+      "title": "Berkshire Hathaway doubles down on the U.S. housing market with a fresh bet on this stock",
+      "link": "https://www.marketwatch.com/story/berkshire-hathaway-doubles-down-on-the-u-s-housing-market-with-a-fresh-bet-on-this-stock-e5c8484a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-14T21:34:00+00:00"
+    },
+    {
       "title": "美 소비 둔화에 최고치 멈춘 뉴욕증시 [8/15 G모닝]│Global Money Club - 중앙일보",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IeDVUNEVEZmkzVnotTDRiTVlhMUgzbGg5V3lhRmsxQ3VXNlNoNE1vV1RNWDFrOGg4OXRVMHZDV2ZNLW5ZSThqbVZqSnRvS3FLM2pKWS1iR0t6SEU?oc=5",
       "source": "Google News",
       "published": "2026-08-14T21:16:16+00:00"
+    },
+    {
+      "title": "美 소비 꺾이자 AI주 ‘찬바람’…뉴욕증시 3대 지수 하락 - kbmaeil.com",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10dW5wNUVnUmhNSUUzb2pLVkhSeGRRWEZaa3FtbGMwUmVHRldINEtjZEM5eVRXMHpPcmV3RFJVYm9QRzRFaUNvdnRBTXlvUG1DekE2Y1J1bjg1dw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T21:16:00+00:00"
     },
     {
       "title": "“자녀들 커서 넓은집 전세 갔더니 투기?”…‘실거주 인정해달라’ 불만 폭주",
@@ -388,6 +400,12 @@
       "published": "2026-08-14T21:07:52+00:00"
     },
     {
+      "title": "Berkshire Hathaway boosts Alphabet to a top three holding, ups Delta and housing bets",
+      "link": "https://www.cnbc.com/2026/08/14/berkshire-hathaway-boosts-alphabet-to-a-top-three-holding-ups-delta-and-housing-bets.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-14T21:06:48+00:00"
+    },
+    {
       "title": "[부동산캘린더] 내주 서울 신길동 써밋클라비온 등 3천788가구 분양",
       "link": "https://www.yna.co.kr/view/AKR20260814142900003",
       "source": "연합뉴스·경제",
@@ -400,7 +418,7 @@
       "published": "2026-08-14T21:00:46+00:00"
     },
     {
-      "title": "[뉴욕증시] 이란 전쟁 장기화 우려 확산…약세 마감 - news.einfomax.co.kr",
+      "title": "[뉴욕증시] 이란 전쟁 장기화 우려 확산…약세 마감 - 연합인포맥스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmRkMyb2hMM0VPelpsUFNPR2dGbDA4bUpiUkozNEF2UUxNSk5tRWV6c3lWVW1CVlNmNGljdEtsaU5Gd2pqNEJ0NDVIbHh1a1pfTGpUaWcyVGZXSFB3N010dEFNNzlDVUQzVzVvWVRCdk8?oc=5",
       "source": "Google News",
       "published": "2026-08-14T20:59:06+00:00"
@@ -424,13 +442,13 @@
       "published": "2026-08-14T20:44:10+00:00"
     },
     {
-      "title": "뉴욕증시, 소매판매 부진 속 하락 마감…어플라이드머티어리얼즈 5%대↓ - 뉴스핌",
+      "title": "뉴욕증시, 소매판매 부진 속 하락 마감…어플라이드머티어리얼즈 5%대↓ - newspim.com",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50MzdhcU5DVWRqOXRyNHg0VmNmTjNhSGdMclRpUERaSnZWQTF0RGNEQTR5aXVveEtNams2ZnFwWEkyTWoydFlqTm5PMVpLcmdBU1JSeTBwbnNtaGx2?oc=5",
       "source": "Google News",
       "published": "2026-08-14T20:23:00+00:00"
     },
     {
-      "title": "[뉴욕증시-1보] 이란 전쟁 장기화 우려 확산…약세 마감 - news.einfomax.co.kr",
+      "title": "[뉴욕증시-1보] 이란 전쟁 장기화 우려 확산…약세 마감 - 연합인포맥스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YQjFtTDdTdjloRzhRbURrZERDVVIwdlZ1R3hBRFBhWnB5dlQzYmVMb3ZmbzJVUEVKaWFNeGZsTkJmOEk3N0diX2UzQlNXLVRaRUhYQzVlMGNlMGpaNkJHTm9iSUNpSWM4RHp2SW1Xb2LSAXRBVV95cUxQNXdoOGNOMzZnaUE2a2ppYV9iVkE1RTdURHBnbEpQUlY1cFNNSWZaTEJpcXctcVUyMzRfTWlId2t6VzFpck05b1YxNVh5ajhGRUtZaENEb3dZVW5uak5MWUVqTHMyRFdpdEdfQjVrOTBlV2dLYw?oc=5",
       "source": "Google News",
       "published": "2026-08-14T20:17:14+00:00"
@@ -446,12 +464,6 @@
       "link": "https://www.cnbc.com/2026/08/14/drone-stocks-trump-tariffs.html",
       "source": "CNBC Finance",
       "published": "2026-08-14T20:04:28+00:00"
-    },
-    {
-      "title": "[속보][뉴욕증시] 사상 최고 뒤 숨 고르기…빅테크 약세 속 일제히 하락 - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9uS2V0MnNfSkVUNnJXYnNCZVU1LUs2ZHR2WUo3ZXZWVnR0Ty1XcTVDMXBDcUZaWXZnTUtkS2FJTG1waDBCYXA0YXA0NFdVTFU4X3NqUWtxWEJidw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T20:02:10+00:00"
     },
     {
       "title": "세계 방산 4강인데 … 신형 소총·조준경 보급은 ‘거북이’",
@@ -550,13 +562,7 @@
       "published": "2026-08-14T17:40:00+00:00"
     },
     {
-      "title": "Owning a home is overrated. Renting is now often a much better money move.",
-      "link": "https://www.marketwatch.com/story/owning-a-home-is-overrated-renting-is-now-often-a-much-better-money-move-711288a6?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-14T17:30:00+00:00"
-    },
-    {
-      "title": "유럽증시, 美 '전례 없는 수준' 대이란 제재 예고에 대부분 하락… 실적은 4년 만 최고 - 뉴스핌",
+      "title": "유럽증시, 美 '전례 없는 수준' 대이란 제재 예고에 대부분 하락… 실적은 4년 만 최고 - newspim.com",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iWnFFbXRRSmEzM3FBVGxUclowSmJjaHlmWVpsNncxTTNGVkVtcjE4dG4xUHJuQWRRaEtRUk1UMk1RS01HWmZyZFFRMXFoaUF1bkFFcVJ3aWNwemZv?oc=5",
       "source": "Google News",
       "published": "2026-08-14T17:10:00+00:00"
@@ -656,12 +662,6 @@
       "link": "https://www.cnbc.com/2026/08/14/data-breaches-surge-2026-ai-cyberattacks.html",
       "source": "CNBC Finance",
       "published": "2026-08-14T12:15:01+00:00"
-    },
-    {
-      "title": "AI’s infrastructure boom is getting more leveraged — and harder to track",
-      "link": "https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T12:03:32+00:00"
     }
   ],
   "pages": [
