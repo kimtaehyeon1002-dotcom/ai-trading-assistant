@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 506.92999267578125,
-    "change_pct": -0.6,
-    "volume": 4701644,
-    "amount": 2383404358.484131,
+    "close": 504.0299987792969,
+    "change_pct": -0.57,
+    "volume": 3954833,
+    "amount": 1993354472.162323,
     "marcap": null,
-    "as_of_iso": "2026-08-14T01:46:56.290821+00:00",
+    "as_of_iso": "2026-08-14T22:10:13.827627+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "BRK-B",

@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 494.510009765625,
-    "change_pct": 2.07,
-    "volume": 8051500,
-    "amount": 3981547343.6279297,
+    "close": 490.80999755859375,
+    "change_pct": -0.75,
+    "volume": 3574867,
+    "amount": 1754580463.5422974,
     "marcap": null,
-    "as_of_iso": "2026-08-14T07:59:03.753660+00:00",
+    "as_of_iso": "2026-08-14T22:10:13.827649+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "DELL",

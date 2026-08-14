@@ -4,12 +4,12 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 327.2300109863281,
-    "change_pct": -7.99,
-    "volume": 13034000,
-    "amount": 4265115963.195801,
+    "close": 325.8299865722656,
+    "change_pct": -0.43,
+    "volume": 8718490,
+    "amount": 2840745479.630432,
     "marcap": null,
-    "as_of_iso": "2026-08-14T07:59:03.753619+00:00",
+    "as_of_iso": "2026-08-14T22:10:13.827593+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "COHR",

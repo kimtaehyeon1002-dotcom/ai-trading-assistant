@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-14T21:49:18.518949+00:00",
+  "as_of": "2026-08-14T22:10:34.155565+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -102,13 +102,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "011070",
-      "name": "LG이노텍",
+      "code": "001210",
+      "name": "금호전기",
       "market": "KOSPI"
     },
     {
-      "code": "001210",
-      "name": "금호전기",
+      "code": "011070",
+      "name": "LG이노텍",
       "market": "KOSPI"
     },
     {
@@ -147,18 +147,18 @@
       "market": "KOSPI"
     },
     {
-      "code": "042700",
-      "name": "한미반도체",
-      "market": "KOSPI"
-    },
-    {
-      "code": "MU",
-      "name": "Micron Technology",
-      "market": "US"
+      "code": "332570",
+      "name": "PS일렉트로닉스",
+      "market": "KOSDAQ"
     },
     {
       "code": "SNDK",
       "name": "Sandisk",
+      "market": "US"
+    },
+    {
+      "code": "MU",
+      "name": "Micron Technology",
       "market": "US"
     },
     {
@@ -167,23 +167,8 @@
       "market": "US"
     },
     {
-      "code": "AAPL",
-      "name": "Apple Inc.",
-      "market": "US"
-    },
-    {
-      "code": "INTC",
-      "name": "Intel",
-      "market": "US"
-    },
-    {
       "code": "TSLA",
       "name": "Tesla, Inc.",
-      "market": "US"
-    },
-    {
-      "code": "MSFT",
-      "name": "Microsoft",
       "market": "US"
     },
     {
@@ -192,18 +177,48 @@
       "market": "US"
     },
     {
+      "code": "AVGO",
+      "name": "Broadcom",
+      "market": "US"
+    },
+    {
+      "code": "INTC",
+      "name": "Intel",
+      "market": "US"
+    },
+    {
+      "code": "AAPL",
+      "name": "Apple Inc.",
+      "market": "US"
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "market": "US"
+    },
+    {
       "code": "AMZN",
       "name": "Amazon",
       "market": "US"
     },
     {
-      "code": "CSCO",
-      "name": "Cisco",
+      "code": "AMAT",
+      "name": "Applied Materials",
       "market": "US"
     },
     {
-      "code": "AMAT",
-      "name": "Applied Materials",
+      "code": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "market": "US"
+    },
+    {
+      "code": "STX",
+      "name": "Seagate Technology",
+      "market": "US"
+    },
+    {
+      "code": "WDC",
+      "name": "Western Digital",
       "market": "US"
     },
     {
@@ -217,13 +232,8 @@
       "market": "US"
     },
     {
-      "code": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
-      "market": "US"
-    },
-    {
-      "code": "AVGO",
-      "name": "Broadcom",
+      "code": "LITE",
+      "name": "Lumentum",
       "market": "US"
     },
     {
@@ -232,13 +242,13 @@
       "market": "US"
     },
     {
-      "code": "SMCI",
-      "name": "Supermicro",
+      "code": "ORCL",
+      "name": "Oracle Corporation",
       "market": "US"
     },
     {
-      "code": "COHR",
-      "name": "Coherent Corp.",
+      "code": "CSCO",
+      "name": "Cisco",
       "market": "US"
     },
     {
@@ -247,43 +257,18 @@
       "market": "US"
     },
     {
-      "code": "WDC",
-      "name": "Western Digital",
+      "code": "COHR",
+      "name": "Coherent Corp.",
       "market": "US"
     },
     {
-      "code": "STX",
-      "name": "Seagate Technology",
+      "code": "LLY",
+      "name": "Lilly (Eli)",
       "market": "US"
     },
     {
-      "code": "LITE",
-      "name": "Lumentum",
-      "market": "US"
-    },
-    {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
-      "market": "US"
-    },
-    {
-      "code": "DELL",
-      "name": "Dell Technologies",
-      "market": "US"
-    },
-    {
-      "code": "WDAY",
-      "name": "Workday, Inc.",
-      "market": "US"
-    },
-    {
-      "code": "NFLX",
-      "name": "Netflix",
-      "market": "US"
-    },
-    {
-      "code": "CRM",
-      "name": "Salesforce",
+      "code": "SMCI",
+      "name": "Supermicro",
       "market": "US"
     },
     {
@@ -292,13 +277,28 @@
       "market": "US"
     },
     {
-      "code": "V",
-      "name": "Visa Inc.",
+      "code": "NFLX",
+      "name": "Netflix",
+      "market": "US"
+    },
+    {
+      "code": "BRK-B",
+      "name": "Berkshire Hathaway",
+      "market": "US"
+    },
+    {
+      "code": "JPM",
+      "name": "JPMorgan Chase",
       "market": "US"
     },
     {
       "code": "NOW",
       "name": "ServiceNow",
+      "market": "US"
+    },
+    {
+      "code": "DELL",
+      "name": "Dell Technologies",
       "market": "US"
     },
     {
@@ -332,11 +332,6 @@
       "market": "KRX"
     },
     {
-      "code": "LLY",
-      "name": "Eli Lilly",
-      "market": "NYSE"
-    },
-    {
       "code": "NVO",
       "name": "Novo Nordisk",
       "market": "NYSE"
@@ -352,17 +347,42 @@
       "market": "KRX"
     },
     {
-      "code": "JPM",
-      "name": "JPMorgan Chase",
-      "market": "NYSE"
-    },
-    {
       "code": "BAC",
       "name": "Bank of America",
       "market": "NYSE"
     }
   ],
   "news": [
+    {
+      "title": "대구본부세관, 대구한의대와 'K-메디' 수출 협력 나서",
+      "link": "https://www.yna.co.kr/view/AKR20260814112200053",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T22:02:05+00:00"
+    },
+    {
+      "title": "주유소 기름값 13주째 내려…휘발유 1천864원·경유 1천847원",
+      "link": "https://www.yna.co.kr/view/AKR20260814170600003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T22:01:00+00:00"
+    },
+    {
+      "title": "[금주핫템] 바이탈뷰트 '슈퍼콜라겐'·구호 프란체스코 푸치 협업 상품",
+      "link": "https://www.yna.co.kr/view/AKR20260814105800030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T22:00:02+00:00"
+    },
+    {
+      "title": "[신상잇슈] 샘표 '차오차이 시추안 마라탕면'·'백년동안 맛있는 단백질'",
+      "link": "https://www.yna.co.kr/view/AKR20260814181200030",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T22:00:00+00:00"
+    },
+    {
+      "title": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
+      "link": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-14T21:45:19+00:00"
+    },
     {
       "title": "Berkshire Hathaway doubles down on the U.S. housing market with a fresh bet on this stock",
       "link": "https://www.marketwatch.com/story/berkshire-hathaway-doubles-down-on-the-u-s-housing-market-with-a-fresh-bet-on-this-stock-e5c8484a?mod=mw_rss_topstories",
@@ -376,10 +396,16 @@
       "published": "2026-08-14T21:16:16+00:00"
     },
     {
-      "title": "美 소비 꺾이자 AI주 ‘찬바람’…뉴욕증시 3대 지수 하락 - kbmaeil.com",
+      "title": "美 소비 꺾이자 AI주 ‘찬바람’…뉴욕증시 3대 지수 하락 - 경북매일",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10dW5wNUVnUmhNSUUzb2pLVkhSeGRRWEZaa3FtbGMwUmVHRldINEtjZEM5eVRXMHpPcmV3RFJVYm9QRzRFaUNvdnRBTXlvUG1DekE2Y1J1bjg1dw?oc=5",
       "source": "Google News",
       "published": "2026-08-14T21:16:00+00:00"
+    },
+    {
+      "title": "뉴욕증시, 소비 둔화 우려에 숨고르기…S&P500 0.2%↓ - KBS 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CYk9XcXhjcVo4X29ZZU1yckZYX05GdjZFM3BDcTd1RFFIUTQybWtNT19qU1Rnc3hueDhnU0pCYzZCN2F5ZnFsLVh2d0UwWEdTV0QxWHNQTVBBOWs?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T21:14:00+00:00"
     },
     {
       "title": "“자녀들 커서 넓은집 전세 갔더니 투기?”…‘실거주 인정해달라’ 불만 폭주",
@@ -394,10 +420,10 @@
       "published": "2026-08-14T21:10:27+00:00"
     },
     {
-      "title": "뉴욕증시, 소비 둔화 우려에 숨고르기…S&P500 0.2%↓(종합) - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9sYzRqREZhdlJWY0xIenRUQUFpTmhSa3JiLTZadHd4Z2lLX2VldHhfQTh4ek4xSl9OSzktYzRwUDhpYW12QWVDZlMtUzRFeXJuZ3hFVUVDM3hWWXfSAWBBVV95cUxOMmIyVDlEVENkMEROaDhoSmppWU53VXJEX0JGelJXajJWVmR6MWNnVEJMLTBielNIWEJHaUxldndNenlZS3NBWGNNQV9iSFZFZ2xqbTh0MTVORVpqcWZZdTg?oc=5",
+      "title": "뉴욕증시, 소비 둔화 우려에 숨고르기…S&P500 0.2%↓(종합) - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tR2lsZENkeHhlc3A4LVBvOUpuWmU0bHNZb2dLTTNaWVlOclZTYjFfYnhNZ0VaYW1Bb1VTZnB0LTNPenBNazlUWmt2dHhjdjg?oc=5",
       "source": "Google News",
-      "published": "2026-08-14T21:07:52+00:00"
+      "published": "2026-08-14T21:09:00+00:00"
     },
     {
       "title": "Berkshire Hathaway boosts Alphabet to a top three holding, ups Delta and housing bets",
@@ -626,42 +652,6 @@
       "link": "https://www.mk.co.kr/news/economy/12128451",
       "source": "매일경제·증권",
       "published": "2026-08-14T13:55:32+00:00"
-    },
-    {
-      "title": "뉴욕증시, 미-이란 갈등·소매판매 소화하며 혼조 출발 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OaVRtTWYteFBsaHJpalZ4d0U0RHE1Smxxa1NKYUVJNzBwRXozdXM0c1p3TV9GTVdpLWtEakxJUV9wWWdralgxNUptaU10ZnUxeG1PeEMzckF5aDl1N3FmUdIBYEFVX3lxTE9OaVRtTWYteFBsaHJpalZ4d0U0RHE1Smxxa1NKYUVJNzBwRXozdXM0c1p3TV9GTVdpLWtEakxJUV9wWWdralgxNUptaU10ZnUxeG1PeEMzckF5aDl1N3FmUQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T13:49:28+00:00"
-    },
-    {
-      "title": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
-      "link": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T13:24:54+00:00"
-    },
-    {
-      "title": "‘Absolutely unacceptable’: Japan PM Takaichi condemns Putin’s visit to disputed Kuril Islands",
-      "link": "https://www.cnbc.com/2026/08/14/putin-kuril-islands-japan.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T12:28:54+00:00"
-    },
-    {
-      "title": "금리 하락 시 유럽 증시 전망, 뱅크오브아메리카가 설명 - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RamVuWlpabHNUNWhZbUVkb3E5bmx6bVloMUV2YmxMSmJzYk9LNjgxMHlqY01QR2g5aVRhbGNDZ2FwblBoMVN4YmFwRUMxaDh5Q21VUERXLW9CV01HQWNtY1BZUmtuVFEzeGVpeGcweDg?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T12:27:00+00:00"
-    },
-    {
-      "title": "NATO aircraft shoot down drone over Latvia, which blames 'Russian electromagnetic warfare'",
-      "link": "https://www.cnbc.com/2026/08/14/nato-drone-latvia.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T12:21:44+00:00"
-    },
-    {
-      "title": "Data breach notices have already blown past last year’s total — and AI is playing a growing role",
-      "link": "https://www.cnbc.com/2026/08/14/data-breaches-surge-2026-ai-cyberattacks.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T12:15:01+00:00"
     }
   ],
   "pages": [

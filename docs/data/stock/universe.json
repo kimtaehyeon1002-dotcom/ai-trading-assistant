@@ -100,13 +100,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "011070",
-    "name": "LG이노텍",
+    "code": "001210",
+    "name": "금호전기",
     "market": "KOSPI"
   },
   {
-    "code": "001210",
-    "name": "금호전기",
+    "code": "011070",
+    "name": "LG이노텍",
     "market": "KOSPI"
   },
   {
@@ -145,18 +145,18 @@
     "market": "KOSPI"
   },
   {
-    "code": "042700",
-    "name": "한미반도체",
-    "market": "KOSPI"
-  },
-  {
-    "code": "MU",
-    "name": "Micron Technology",
-    "market": "US"
+    "code": "332570",
+    "name": "PS일렉트로닉스",
+    "market": "KOSDAQ"
   },
   {
     "code": "SNDK",
     "name": "Sandisk",
+    "market": "US"
+  },
+  {
+    "code": "MU",
+    "name": "Micron Technology",
     "market": "US"
   },
   {
@@ -165,23 +165,8 @@
     "market": "US"
   },
   {
-    "code": "AAPL",
-    "name": "Apple Inc.",
-    "market": "US"
-  },
-  {
-    "code": "INTC",
-    "name": "Intel",
-    "market": "US"
-  },
-  {
     "code": "TSLA",
     "name": "Tesla, Inc.",
-    "market": "US"
-  },
-  {
-    "code": "MSFT",
-    "name": "Microsoft",
     "market": "US"
   },
   {
@@ -190,18 +175,48 @@
     "market": "US"
   },
   {
+    "code": "AVGO",
+    "name": "Broadcom",
+    "market": "US"
+  },
+  {
+    "code": "INTC",
+    "name": "Intel",
+    "market": "US"
+  },
+  {
+    "code": "AAPL",
+    "name": "Apple Inc.",
+    "market": "US"
+  },
+  {
+    "code": "MSFT",
+    "name": "Microsoft",
+    "market": "US"
+  },
+  {
     "code": "AMZN",
     "name": "Amazon",
     "market": "US"
   },
   {
-    "code": "CSCO",
-    "name": "Cisco",
+    "code": "AMAT",
+    "name": "Applied Materials",
     "market": "US"
   },
   {
-    "code": "AMAT",
-    "name": "Applied Materials",
+    "code": "GOOGL",
+    "name": "Alphabet Inc. (Class A)",
+    "market": "US"
+  },
+  {
+    "code": "STX",
+    "name": "Seagate Technology",
+    "market": "US"
+  },
+  {
+    "code": "WDC",
+    "name": "Western Digital",
     "market": "US"
   },
   {
@@ -215,13 +230,8 @@
     "market": "US"
   },
   {
-    "code": "GOOGL",
-    "name": "Alphabet Inc. (Class A)",
-    "market": "US"
-  },
-  {
-    "code": "AVGO",
-    "name": "Broadcom",
+    "code": "LITE",
+    "name": "Lumentum",
     "market": "US"
   },
   {
@@ -230,13 +240,13 @@
     "market": "US"
   },
   {
-    "code": "SMCI",
-    "name": "Supermicro",
+    "code": "ORCL",
+    "name": "Oracle Corporation",
     "market": "US"
   },
   {
-    "code": "COHR",
-    "name": "Coherent Corp.",
+    "code": "CSCO",
+    "name": "Cisco",
     "market": "US"
   },
   {
@@ -245,43 +255,18 @@
     "market": "US"
   },
   {
-    "code": "WDC",
-    "name": "Western Digital",
+    "code": "COHR",
+    "name": "Coherent Corp.",
     "market": "US"
   },
   {
-    "code": "STX",
-    "name": "Seagate Technology",
+    "code": "LLY",
+    "name": "Lilly (Eli)",
     "market": "US"
   },
   {
-    "code": "LITE",
-    "name": "Lumentum",
-    "market": "US"
-  },
-  {
-    "code": "ORCL",
-    "name": "Oracle Corporation",
-    "market": "US"
-  },
-  {
-    "code": "DELL",
-    "name": "Dell Technologies",
-    "market": "US"
-  },
-  {
-    "code": "WDAY",
-    "name": "Workday, Inc.",
-    "market": "US"
-  },
-  {
-    "code": "NFLX",
-    "name": "Netflix",
-    "market": "US"
-  },
-  {
-    "code": "CRM",
-    "name": "Salesforce",
+    "code": "SMCI",
+    "name": "Supermicro",
     "market": "US"
   },
   {
@@ -290,13 +275,28 @@
     "market": "US"
   },
   {
-    "code": "V",
-    "name": "Visa Inc.",
+    "code": "NFLX",
+    "name": "Netflix",
+    "market": "US"
+  },
+  {
+    "code": "BRK-B",
+    "name": "Berkshire Hathaway",
+    "market": "US"
+  },
+  {
+    "code": "JPM",
+    "name": "JPMorgan Chase",
     "market": "US"
   },
   {
     "code": "NOW",
     "name": "ServiceNow",
+    "market": "US"
+  },
+  {
+    "code": "DELL",
+    "name": "Dell Technologies",
     "market": "US"
   },
   {
@@ -330,11 +330,6 @@
     "market": "KRX"
   },
   {
-    "code": "LLY",
-    "name": "Eli Lilly",
-    "market": "NYSE"
-  },
-  {
     "code": "NVO",
     "name": "Novo Nordisk",
     "market": "NYSE"
@@ -348,11 +343,6 @@
     "code": "055550",
     "name": "신한지주",
     "market": "KRX"
-  },
-  {
-    "code": "JPM",
-    "name": "JPMorgan Chase",
-    "market": "NYSE"
   },
   {
     "code": "BAC",
