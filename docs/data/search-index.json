@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-14T16:14:54.332321+00:00",
+  "as_of": "2026-08-14T16:40:38.812802+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -364,10 +364,46 @@
   ],
   "news": [
     {
+      "title": "Group including Jeff Bezos buys minority stake in Liverpool FC, with option to become controlling owner",
+      "link": "https://www.cnbc.com/2026/08/14/jeff-bezos-group-buys-stake-liverpool-fc.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-14T16:40:03+00:00"
+    },
+    {
+      "title": "Drone stocks rally after Trump orders tariffs on foreign-made components",
+      "link": "https://www.cnbc.com/2026/08/14/drone-stocks-trump-tariffs.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-14T16:37:42+00:00"
+    },
+    {
       "title": "Luigi Mangione pleads guilty in federal case related to UnitedHealthcare CEO killing",
       "link": "https://www.cnbc.com/2026/08/14/luigi-mangione-pleads-guilty-brian-thompson-killing.html",
       "source": "CNBC Finance",
-      "published": "2026-08-14T16:10:48+00:00"
+      "published": "2026-08-14T16:27:45+00:00"
+    },
+    {
+      "title": "Disney CEO Josh D'Amaro tells CNBC parks were 'big surprise' in last quarter, company has 'clarity' and 'stability'",
+      "link": "https://www.cnbc.com/2026/08/14/disney-ceo-josh-damaro-d23-expo.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-14T16:27:45+00:00"
+    },
+    {
+      "title": "Court rules companies can't import Gilead medications from overseas in blow to AFP health programs",
+      "link": "https://www.cnbc.com/2026/08/14/court-ruling-gilead-medications-overseas-afps.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-14T16:27:07+00:00"
+    },
+    {
+      "title": "Still trying to time the stock market? This chart shows why it’s tougher than you think.",
+      "link": "https://www.marketwatch.com/story/still-trying-to-time-the-stock-market-this-chart-shows-why-its-tougher-than-you-think-79a726c4?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-14T16:21:00+00:00"
+    },
+    {
+      "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
+      "link": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-14T16:14:45+00:00"
     },
     {
       "title": "I have $10 million and pay two advisers for financial help, but still have questions",
@@ -376,28 +412,10 @@
       "published": "2026-08-14T16:10:00+00:00"
     },
     {
-      "title": "Group including Jeff Bezos buys minority stake in Liverpool FC, with option to become controlling owner",
-      "link": "https://www.cnbc.com/2026/08/14/jeff-bezos-group-buys-stake-liverpool-fc.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T16:03:13+00:00"
-    },
-    {
-      "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
-      "link": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T15:45:15+00:00"
-    },
-    {
       "title": "‘It’s a double-edged sword’: My husband got a $42,000 bonus. Will it wipe out our Affordable Care Act subsidy?",
       "link": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-14T15:45:00+00:00"
-    },
-    {
-      "title": "Disney CEO Josh D'Amaro tells CNBC parks were 'big surprise' in last quarter, company has 'clarity' and 'stability'",
-      "link": "https://www.cnbc.com/2026/08/14/disney-ceo-josh-damaro-d23-expo.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T15:38:46+00:00"
     },
     {
       "title": "10-year Treasury yield inches higher as traders digest soft retail sales, monitor the Middle East",
@@ -442,12 +460,6 @@
       "published": "2026-08-14T15:00:00+00:00"
     },
     {
-      "title": "Drone stocks rally after Trump orders tariffs on foreign-made components",
-      "link": "https://www.cnbc.com/2026/08/14/drone-stocks-trump-tariffs.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T14:43:30+00:00"
-    },
-    {
       "title": "Should I tap my home equity or sell stocks to build a $100,000 emergency fund?",
       "link": "https://www.marketwatch.com/story/my-husband-and-i-are-at-odds-should-we-tap-our-home-equity-or-sell-stocks-to-build-a-100-000-emergency-fund-097d36a4?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -466,7 +478,7 @@
       "published": "2026-08-14T14:13:00+00:00"
     },
     {
-      "title": "뉴욕증시, 美 소매판매 부진·이란 갈등 속 혼조 출발 - 조선비즈 - biz.chosun.com",
+      "title": "뉴욕증시, 美 소매판매 부진·이란 갈등 속 혼조 출발 - 조선비즈 - Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdzE4NmhYdEdDeWxPUGotZEQ5OEo5cUZkdUNJOTJLSU14MlhJT042SWJ0a1hJV20zdk9JQnpXNkFVa3VPYV9WRHdKNXBPMHF0emtqYVIzazdQOVFaeTBFbWhoNkhrN0dIMlhQS2c1Xzc2WTg4cWNlcUlMbzFuT05WdnJZb045WjBmSXdkOUh3ZmJiZHJOMXQ4TThBMmNYZ9IBsgFBVV95cUxPVjBwVzFJZE5fYWR0Q0prUl9TY3ptbzFxTGZBTDEtNkFTSXNCWUJqRjVlbERnbkN3d3FCaGZRc190QTM4N0hRZkdEMU9MdkYtSUZHRUN4ZkVsNFN5OERTMFhJN3hKQW1HUDczVGxMVHc4dVlWZ3FaQW5FM3NBbGpxbGtPc1pvR0pPTWs4dTI3ZkRCcHhCZFpSenh6VWpyd19jVGJpLUZmUEh5UWxyRmFpSk5R?oc=5",
       "source": "Google News",
       "published": "2026-08-14T14:04:00+00:00"
@@ -488,12 +500,6 @@
       "link": "https://www.marketwatch.com/story/i-have-a-9-to-5-job-and-started-dating-a-bartender-can-i-have-a-future-with-someone-who-works-nights-500d4320?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-14T13:48:00+00:00"
-    },
-    {
-      "title": "Bond yields are at multiyear highs, yet stocks have hit fresh records. Here’s how long the defiance can last.",
-      "link": "https://www.marketwatch.com/story/rates-are-at-multiyear-highs-yet-stocks-hit-fresh-records-heres-how-long-the-defiance-may-last-b29a5d14?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-14T13:31:00+00:00"
     },
     {
       "title": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
@@ -656,12 +662,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260814156800017",
       "source": "연합뉴스·경제",
       "published": "2026-08-14T08:39:23+00:00"
-    },
-    {
-      "title": "[표] 외국환율고시표",
-      "link": "https://www.mk.co.kr/news/economy/12128227",
-      "source": "매일경제·증권",
-      "published": "2026-08-14T08:35:37+00:00"
     }
   ],
   "pages": [
