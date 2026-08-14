@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-08-14T01:38:57.622936+00:00",
+  "as_of": "2026-08-14T01:47:16.119688+00:00",
   "stocks": [
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "market": "KOSPI"
-    },
     {
       "code": "000660",
       "name": "SK하이닉스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
       "market": "KOSPI"
     },
     {
@@ -17,19 +17,39 @@
       "market": "KOSPI"
     },
     {
-      "code": "005935",
-      "name": "삼성전자우",
-      "market": "KOSPI"
-    },
-    {
       "code": "402340",
       "name": "SK스퀘어",
       "market": "KOSPI"
     },
     {
-      "code": "002990",
-      "name": "금호건설",
+      "code": "005935",
+      "name": "삼성전자우",
       "market": "KOSPI"
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "market": "KOSPI"
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "319400",
+      "name": "현대무벡스",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "066570",
+      "name": "LG전자",
+      "market": "KOSPI"
+    },
+    {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "KOSDAQ GLOBAL"
     },
     {
       "code": "487400",
@@ -42,6 +62,61 @@
       "market": "KOSPI"
     },
     {
+      "code": "017670",
+      "name": "SK텔레콤",
+      "market": "KOSPI"
+    },
+    {
+      "code": "058610",
+      "name": "에스피지",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "001210",
+      "name": "금호전기",
+      "market": "KOSPI"
+    },
+    {
+      "code": "002990",
+      "name": "금호건설",
+      "market": "KOSPI"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market": "KOSPI"
+    },
+    {
+      "code": "125490",
+      "name": "한라캐스트",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KOSPI"
+    },
+    {
+      "code": "073240",
+      "name": "금호타이어",
+      "market": "KOSPI"
+    },
+    {
+      "code": "439960",
+      "name": "코스모로보틱스",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "001820",
       "name": "삼화콘덴서",
       "market": "KOSPI"
@@ -52,44 +127,9 @@
       "market": "KOSPI"
     },
     {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "KOSDAQ GLOBAL"
-    },
-    {
-      "code": "012450",
-      "name": "한화에어로스페이스",
+      "code": "064400",
+      "name": "LG씨엔에스",
       "market": "KOSPI"
-    },
-    {
-      "code": "066570",
-      "name": "LG전자",
-      "market": "KOSPI"
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "market": "KOSPI"
-    },
-    {
-      "code": "006340",
-      "name": "대원전선",
-      "market": "KOSPI"
-    },
-    {
-      "code": "017670",
-      "name": "SK텔레콤",
-      "market": "KOSPI"
-    },
-    {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KOSPI"
-    },
-    {
-      "code": "196170",
-      "name": "알테오젠",
-      "market": "KOSDAQ GLOBAL"
     },
     {
       "code": "332570",
@@ -97,59 +137,19 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "080220",
-      "name": "제주반도체",
+      "code": "307950",
+      "name": "현대오토에버",
+      "market": "KOSPI"
+    },
+    {
+      "code": "240810",
+      "name": "원익IPS",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "257720",
+      "name": "실리콘투",
       "market": "KOSDAQ"
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "market": "KOSPI"
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "market": "KOSPI"
-    },
-    {
-      "code": "009830",
-      "name": "한화솔루션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "015760",
-      "name": "한국전력",
-      "market": "KOSPI"
-    },
-    {
-      "code": "028260",
-      "name": "삼성물산",
-      "market": "KOSPI"
-    },
-    {
-      "code": "034020",
-      "name": "두산에너빌리티",
-      "market": "KOSPI"
-    },
-    {
-      "code": "161890",
-      "name": "한국콜마",
-      "market": "KOSPI"
-    },
-    {
-      "code": "042700",
-      "name": "한미반도체",
-      "market": "KOSPI"
-    },
-    {
-      "code": "032830",
-      "name": "삼성생명",
-      "market": "KOSPI"
-    },
-    {
-      "code": "079550",
-      "name": "LIG디펜스앤에어로스페이스",
-      "market": "KOSPI"
     },
     {
       "code": "MU",
@@ -312,11 +312,6 @@
       "market": "KRX"
     },
     {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "KRX"
-    },
-    {
       "code": "247540",
       "name": "에코프로비엠",
       "market": "KRX"
@@ -357,6 +352,11 @@
       "market": "KRX"
     },
     {
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KRX"
+    },
+    {
       "code": "JPM",
       "name": "JPMorgan Chase",
       "market": "NYSE"
@@ -369,10 +369,22 @@
   ],
   "news": [
     {
-      "title": "증시 폭락에 주식 순매수 52조→3조…빚투 줄어도 가계빚 5.4조↑ - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tUHZSWFNyQjd6M0MyNnVXSzN0aTJHQnFmNzF5RjhaUEVOa1hERlp1aHI2Y3N0Nm9LVDUtQ0RmbHlmMlF3UzNTeURyX053NTZXNHhIVGowS2RwQXpzYXhlNmNHUVl0cF9UMTE00gFwQVVfeXFMUFlybGpXb0NnMkd0aGdHcGh1cG1Sd1o4TUh2a0lRVW9OT0NrUTE3cHFSUEJseG91YXNVQmRIM1F5RS01ZllnWXlLWFVlUEJIaGNrejFNMTRCSnd0UW04WVM3QlFIQ3dBSEtLT2FFX2RTOQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T01:33:22+00:00"
+      "title": "트라버스, 벤처기업 인증 획득…비수탁 지갑 사업 본격화",
+      "link": "https://www.yna.co.kr/view/AKR20260814058600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T01:39:29+00:00"
+    },
+    {
+      "title": "KB금융, '다시 쓰는 대한이 살았다' 국민 참여 영상 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260814061300002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T01:39:19+00:00"
+    },
+    {
+      "title": "[게시판] 하나은행, 광복절 나라사랑 이벤트로 신규 고객 버거세트 증정",
+      "link": "https://www.yna.co.kr/view/AKR20260814060400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T01:36:59+00:00"
     },
     {
       "title": "U.S. to use economic tactics on Iran `that have never been seen'; Navy works to relieve troubled carrier Abraham Lincoln",
@@ -507,7 +519,7 @@
       "published": "2026-08-14T00:46:08+00:00"
     },
     {
-      "title": "오늘의 증시 - MBC 뉴스",
+      "title": "오늘의 증시 - imnews.imbc.com",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80ZWhPcTFFbm5rVnF3VGZOWWkyN0x3SXNrOUJIZkpTdFRqNzZUUlB6UVNBWWNzbmZkUUstSi1xUmcwd21FQjRaYXpVdXNxaVA4R3VOV2xwMkdOaktqMmVUdEZtWjNTVTlDQ2hidklqZzlJRkRrc0Jz?oc=5",
       "source": "Google News",
       "published": "2026-08-14T00:44:05+00:00"
@@ -615,7 +627,7 @@
       "published": "2026-08-14T00:15:00+00:00"
     },
     {
-      "title": "日 증시, 美 PPI 안도에 1%대 상승 출발…69,400선 - kbthink.com",
+      "title": "日 증시, 美 PPI 안도에 1%대 상승 출발…69,400선 - KB Think",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE93eWxBQlJqS2hxSFJzRmxJRlpLbGNvdThKc2V5a0FyRjd0ZGp0TmVpY0Mxb0IySVdJR3V0X1lsWlNsTHlXTXhwR3NnV2RzMkVVbkZMTWtTWVAyeTFzakh3N1ltS0g2VVJKR2F1MGVGQ192UQ?oc=5",
       "source": "Google News",
       "published": "2026-08-14T00:13:41+00:00"
@@ -645,28 +657,16 @@
       "published": "2026-08-14T00:10:21+00:00"
     },
     {
-      "title": "CU, 소용량 '미니 간편식' 13종 순차 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260814023300030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T00:09:58+00:00"
-    },
-    {
-      "title": "[게시판] 하나은행·한국세무사회, 유언대용신탁·후견인제 활성화 협약",
-      "link": "https://www.yna.co.kr/view/AKR20260814030900002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T00:09:47+00:00"
-    },
-    {
-      "title": "[게시판] 신한운용, RWA 플랫폼 플룸과 원화 토큰화 펀드 기술검증",
-      "link": "https://www.yna.co.kr/view/AKR20260814033100008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T00:09:34+00:00"
-    },
-    {
       "title": "From Apple to Ford: How Chinese tech is becoming harder for global companies to ignore",
       "link": "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html",
       "source": "CNBC Finance",
       "published": "2026-08-14T00:09:11+00:00"
+    },
+    {
+      "title": "[해외시황] 뉴욕증시, 美물가·유가 안도감에 '상승'…S&P500 지수 사상 최고치 - 프라임경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OT0k5aS1HeTBQX0NjREE5cEk3anNqN3g2TmtXT2hXdTlYX0NLZzExaFVKZzZSLWQ4cVZrdmxEWHN2aFM1bl91QkdWWE9DVVRSTGJkSzNoNXBsNE40empmTA?oc=5",
+      "source": "Google News",
+      "published": "2026-08-13T23:56:04+00:00"
     }
   ],
   "pages": [
