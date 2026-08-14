@@ -110,7 +110,7 @@
       "change_abs": 0.0,
       "change_pct": null,
       "unit": "%",
-      "as_of_iso": "2026-08-13T23:31:24.052961+00:00",
+      "as_of_iso": "2026-08-14T01:02:11.186907+00:00",
       "source": "ecos",
       "session_key": "none",
       "expected_T_min": 60,
@@ -122,11 +122,11 @@
   },
   "BTC_KRW": {
     "envelope": {
-      "value": 89644000.0,
-      "change_abs": 2000.0,
-      "change_pct": 0.0,
+      "value": 89600000.0,
+      "change_abs": 46000.0,
+      "change_pct": 0.05,
       "unit": "KRW",
-      "as_of_iso": "2026-08-13T23:31:24.052972+00:00",
+      "as_of_iso": "2026-08-14T01:02:11.186920+00:00",
       "source": "upbit",
       "session_key": "crypto_24h",
       "expected_T_min": 60,
@@ -135,6 +135,6 @@
     },
     "yoy": null,
     "next_release": null,
-    "kimchi_premium_pct": -0.33
+    "kimchi_premium_pct": -0.31
   }
 }
