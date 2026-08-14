@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-14T05:25:18.514720+00:00",
+  "as_of": "2026-08-14T05:54:11.597995+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -369,6 +369,54 @@
   ],
   "news": [
     {
+      "title": "Trump ally Nigel Farage wins special election to return to UK parliament",
+      "link": "https://www.cnbc.com/2026/08/14/nigel-farage-reform-uk-parliament-re-election.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-14T05:48:57+00:00"
+    },
+    {
+      "title": "‘日정부 개입’ 엔화보다 4배 더 올랐다…원화값 한달새 9.4% 올라 ‘상승률 1위’",
+      "link": "https://www.mk.co.kr/news/economy/12127987",
+      "source": "매일경제·증권",
+      "published": "2026-08-14T05:43:48+00:00"
+    },
+    {
+      "title": "현대해상 상반기 순익 36% 쑥…車보험 적자에도 장기보험이 견인",
+      "link": "https://www.mk.co.kr/news/economy/12127978",
+      "source": "매일경제·증권",
+      "published": "2026-08-14T05:39:53+00:00"
+    },
+    {
+      "title": "칠곡 참외·딸기로 젤리, 벌꿀로 막걸리…서울 청년들 창업 나서",
+      "link": "https://www.yna.co.kr/view/AKR20260814096600053",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T05:33:53+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
+      "link": "https://www.yna.co.kr/view/AKR20260814097400011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T05:30:00+00:00"
+    },
+    {
+      "title": "[글로벌 증시 따라잡기] CPI 이어 PPI에도 안도…금리인상 가능성 꺾였나? - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PbHJtZGQzNEpDa0VjVEtzOUF2ZXppc0FNTmEwcU9JeHpBNk9KN2JjeHdvb0wxYnVTYXpzdEpVdi0tMWVSVS1CVzJ0di13Vzg?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T05:28:14+00:00"
+    },
+    {
+      "title": "'전국 초기 창업자 모인다' 익산서 14∼15일 스몰브랜드 캠프",
+      "link": "https://www.yna.co.kr/view/AKR20260814095700055",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T05:27:13+00:00"
+    },
+    {
+      "title": "“방치된 500조 퇴직연금”…20년 묵은 ‘30% 족쇄’ 풀 때 됐다",
+      "link": "https://www.mk.co.kr/news/economy/12127955",
+      "source": "매일경제·증권",
+      "published": "2026-08-14T05:26:08+00:00"
+    },
+    {
       "title": "외환시장 24시간 개방 한 달, 원·달러 거래량 10% 껑충",
       "link": "https://www.mk.co.kr/news/economy/12127950",
       "source": "매일경제·증권",
@@ -477,7 +525,7 @@
       "published": "2026-08-14T04:29:40+00:00"
     },
     {
-      "title": "[뉴스프레소] 뉴욕증시, 물가 안정·유가 하락에 상승… 나스닥 0.8%↑ - 머니투데이 - mt.co.kr",
+      "title": "[뉴스프레소] 뉴욕증시, 물가 안정·유가 하락에 상승… 나스닥 0.8%↑ - 머니투데이 - 머니투데이",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUZGtvTmNBYkRnd1UyOXNDVVBDb0Y4ODNkeEhUZ1ktUXR2VEVJRkhIc3kzU2tMaFI4NlIxZlNtMzBMTE5WbEU4eUhrcm1oSWdqbXhaU2RQRVZQRVV0V3MyRjZCUWNpNW5l0gFuQVVfeXFMT2Y1eERoWDdnWjNKR2ZveVZEMGE2c3M0V1lNYUJJSE5HN2hUZWxDN182QXRNN3VWcnF0X0VKYVlGLTRRY3AzUzBuQVdrNGVKOVo1bXR5M3RpNzY4TTNvTl9MWktmUG5CcUNfVFFCU2c?oc=5",
       "source": "Google News",
       "published": "2026-08-14T04:26:33+00:00"
@@ -555,7 +603,7 @@
       "published": "2026-08-14T02:41:33+00:00"
     },
     {
-      "title": "No.1 경제·증권 채널 : @HKWOWTV - 한국경제TV",
+      "title": "No.1 경제·증권 채널 : @HKWOWTV - wowtv.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRlplTVloRldUenZucjZzYXpfcEtrYVhwNGhQOU0ySmMyUXlOR2dPdk9ISS1ydEZ6UTJteU1XbTFHTnVtajVyZm53QVRpaXRzMDlOMHpOUFZrSTgxdlN0OUZjNG5MdGEtR1FVa2VfRDRmY3lQYmhPckQ3QVc0NUVEWmNSQXc2cS1lMy1oRndxWFdhUE1HVWIwd0ptaWRqRThfTWo4?oc=5",
       "source": "Google News",
       "published": "2026-08-14T02:39:36+00:00"
@@ -619,54 +667,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260814064900004",
       "source": "연합뉴스·경제",
       "published": "2026-08-14T01:52:14+00:00"
-    },
-    {
-      "title": "U.S. to use economic tactics on Iran 'that have never been seen'; Navy works to relieve troubled carrier USS Abraham Lincoln",
-      "link": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T01:52:07+00:00"
-    },
-    {
-      "title": "[삶-특집] 동북아에서 핵무장 불가능한 나라는 한국이 유일하다(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260813111451546",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:51:31+00:00"
-    },
-    {
-      "title": "서울 청년·중장년, 지역서 '새 일' 찾는다…넥스트로컬 확대",
-      "link": "https://www.yna.co.kr/view/AKR20260814035600004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:50:00+00:00"
-    },
-    {
-      "title": "금융사 돌아가면서 속였나? 주요 은행 490억 사기에 발칵 [금융가 톺아보기]",
-      "link": "https://www.mk.co.kr/news/economy/12127754",
-      "source": "매일경제·증권",
-      "published": "2026-08-14T01:49:46+00:00"
-    },
-    {
-      "title": "은행권 노사갈등 확산…금융노조 9월 총파업 예고·카뱅 2차 파업 돌입",
-      "link": "https://www.mk.co.kr/news/economy/12127752",
-      "source": "매일경제·증권",
-      "published": "2026-08-14T01:49:12+00:00"
-    },
-    {
-      "title": "[게시판] 신한은행 '신한 나라사랑카드' 신규 영상광고",
-      "link": "https://www.yna.co.kr/view/AKR20260814063600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:47:22+00:00"
-    },
-    {
-      "title": "[게시판] 한투증권, 비상장 기업 CEO 위한 상장전략 세미나",
-      "link": "https://www.yna.co.kr/view/AKR20260814062800008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:46:37+00:00"
-    },
-    {
-      "title": "현대해상, 2분기 순이익 3천918억 작년比 58.2%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260814062600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:44:20+00:00"
     }
   ],
   "pages": [
