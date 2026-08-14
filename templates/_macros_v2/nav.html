@@ -1,24 +1,39 @@
-{# 사이드바·헤더 nav 렌더 — config/nav.py 컨텍스트를 소비한다(design/22 §4-2). #}
+{# 사이드바·헤더 nav 렌더 — config/nav.py 컨텍스트를 소비한다(design/22 §4-2).
+
+   구조 계약(design/00 §5-2 반응형 개편):
+   · 아이콘은 항상 렌더한다 — 접힘(64px) 모드에서 유일하게 남는 식별 수단이다.
+   · 라벨은 <span>으로 감싼다 — 접힘 모드에서 CSS가 이것만 숨긴다(마크업 분기 없음).
+   · 1024px 미만에서 사이드바는 서랍(drawer)이 되고, 헤더의 토글 버튼이 그것을 연다.
+     스크림은 사이드바와 형제로 두어야 z축·클릭 통과를 CSS만으로 제어할 수 있다.
+#}
+
+{% macro nav_item(item, root, active, locked=False) %}
+<a class="v2-nav__item{% if locked %} v2-nav__item--locked{% endif %}" href="{{ root }}{{ item.href }}"
+   {% if item.key == active %}aria-current="page"{% endif %} title="{{ item.label }}">
+  <span class="v2-nav__icon" aria-hidden="true">{{ item.icon }}</span>
+  <span class="v2-nav__label">{{ item.label }}</span>
+  {% if locked %}<span class="v2-nav__lock" aria-hidden="true">🔒</span>{% endif %}
+</a>
+{% endmacro %}
 
 {% macro sidebar(nav, root) %}
-<nav class="v2-sidebar" aria-label="주 메뉴">
-  <div class="v2-sidebar__logo">📈 {{ site.title }}</div>
+<div class="v2-nav-scrim" data-nav-close hidden></div>
+<nav class="v2-sidebar" id="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">
+    <span class="v2-sidebar__mark" aria-hidden="true">📈</span>
+    <span class="v2-sidebar__name">{{ site.title }}</span>
+  </div>
   <div class="v2-nav">
     {% for item in nav.main_items %}
-    <a class="v2-nav__item" href="{{ root }}{{ item.href }}"
-       {% if item.key == nav.active %}aria-current="page"{% endif %}>{{ item.label }}</a>
+    {{ nav_item(item, root, nav.active) }}
     {% endfor %}
     <div class="v2-nav__divider"></div>
     {% for item in nav.locked_items %}
-    <a class="v2-nav__item v2-nav__item--locked" href="{{ root }}{{ item.href }}"
-       {% if item.key == nav.active %}aria-current="page"{% endif %}>
-      {{ item.label }}<span class="v2-nav__lock" aria-hidden="true">🔒</span>
-    </a>
+    {{ nav_item(item, root, nav.active, locked=True) }}
     {% endfor %}
   </div>
   <div class="v2-sidebar__footer">
-    <a class="v2-nav__item" href="{{ root }}{{ nav.settings_item.href }}"
-       {% if nav.settings_item.key == nav.active %}aria-current="page"{% endif %}>{{ nav.settings_item.label }}</a>
+    {{ nav_item(nav.settings_item, root, nav.active) }}
     <div class="v2-sidebar__version">{{ site.title }}</div>
   </div>
 </nav>
@@ -29,9 +44,12 @@
 {% set _locked_label = nav.locked_items | selectattr('key', 'equalto', nav.active) | map(attribute='label') | first %}
 {% set _label = _main_label or _locked_label or (nav.settings_item.label if nav.settings_item.key == nav.active else "") %}
 <header class="v2-header">
-  <div class="v2-header__context">
-    {{ _label }}
-  </div>
+  {# 서랍 토글 — 1024px 미만에서만 보인다. 좁은 화면에서 메뉴로 가는 유일한 길이라
+     검색·시계보다 앞(좌측)에 둔다. #}
+  <button type="button" class="v2-navtoggle" data-nav-toggle aria-label="메뉴 열기" aria-expanded="false" aria-controls="v2-sidebar">
+    <span class="v2-navtoggle__bars" aria-hidden="true"></span>
+  </button>
+  <div class="v2-header__context">{{ _label }}</div>
   <div class="v2-header__search" role="search">
     <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
            placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">

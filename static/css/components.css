@@ -83,17 +83,26 @@
   cursor: pointer;
   transition: background var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing);
 }
-.v2-btn--primary { background: var(--brand-primary); color: var(--text-inverse); }
+/* CTA — 꽉 찬 골드 채움 + 잉크 글자로 화면에서 가장 강한 대비를 만든다(대비 9.67:1 실측).
+   골드는 그린보다 명도가 높아 글자를 흰색으로 두면 읽히지 않는다 — 반드시 잉크색이다. */
+.v2-btn--primary { background: var(--brand-primary); color: var(--text-inverse); font-weight: 600; }
 .v2-btn--primary:hover { background: var(--brand-primary-hover); }
+.v2-btn--primary:active { background: var(--brand-primary-pressed); }
 .v2-btn--ghost { background: transparent; color: var(--text-secondary); }
-.v2-btn--ghost:hover { color: var(--brand-primary-hover); }
+.v2-btn--ghost:hover { color: var(--brand-primary-hover); border-color: var(--brand-primary); }
 
 /* ── Hero 통계(design/00 §3-2 num-display/num-lg) ── */
 .v2-stat-row { display: flex; gap: var(--space-12); margin-top: var(--space-6); flex-wrap: wrap; }
 .v2-stat { display: flex; flex-direction: column; gap: var(--space-1); }
 .v2-stat__label { font-size: var(--type-caption-size); color: var(--text-secondary); }
 .v2-stat__value { font-family: var(--font-num); font-variant-numeric: tabular-nums; color: var(--text-primary); }
-.v2-stat__value--display { font-size: var(--type-num-display-size); font-weight: var(--type-num-display-weight); line-height: var(--type-num-display-lh); }
+/* 데이터 비대칭 강조 — 화면에서 가장 중요한 단 하나의 수치는 과감히 키우고 골드를 입힌다.
+   등락 방향을 가진 값(.v2-updown)은 제외한다: 그 자리는 등락색이 의미를 지고 있고,
+   골드로 덮으면 상승·하락 정보가 사라진다.
+   tabular-nums도 해제한다 — 큰 단일 수치에서는 모든 숫자가 0의 폭을 가져 "121"처럼
+   헐거워 보인다. 자릿수 정렬이 필요한 곳은 표·리스트지 hero가 아니다. */
+.v2-stat__value--display { font-size: var(--type-num-display-size); font-weight: var(--type-num-display-weight); line-height: var(--type-num-display-lh); font-variant-numeric: proportional-nums; letter-spacing: -0.02em; }
+.v2-stat__value--display:not(.v2-updown) { color: var(--brand-primary); }
 .v2-stat__value--lg { font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); line-height: var(--type-num-lg-lh); }
 .v2-cta-row { display: flex; align-items: center; gap: var(--space-2); margin-top: var(--space-6); }
 
@@ -370,6 +379,29 @@
 .v2-fs-title { font-size: var(--type-h1-size); font-weight: var(--type-h1-weight); color: var(--text-primary); margin: 0; }
 .v2-fs-intro { margin-top: var(--space-2); }
 .v2-fs-table { margin-top: var(--space-5); }
+.v2-fs-table[hidden] { display: none; }
+/* 상태 A 검색 필드(design/06 §2-1) — 560×48 surface.sunken / border.default / radius 8px */
+.v2-fs-search {
+  display: flex; align-items: center; gap: var(--space-3);
+  margin-top: var(--space-6); max-width: 560px; height: 48px;
+  padding: 0 var(--space-4);
+  background: var(--surface-sunken); border: 1px solid var(--border-default);
+  border-radius: var(--radius-control);
+}
+.v2-fs-search:focus-within { border-color: var(--brand-primary); }
+.v2-fs-search__icon { color: var(--text-tertiary); font-size: 18px; line-height: 1; }
+.v2-fs-search__input {
+  flex: 1; min-width: 0; background: transparent; border: none; outline: none;
+  color: var(--text-primary); font-family: var(--font-kr); font-size: var(--type-body-size);
+}
+.v2-fs-search__input::placeholder { color: var(--text-tertiary); }
+.v2-fs-recent { display: flex; align-items: center; gap: var(--space-3); flex-wrap: wrap; margin-top: var(--space-4); }
+.v2-fs-recent[hidden] { display: none; }
+.v2-fs-recent__title { font-size: var(--type-caption-size); color: var(--text-tertiary); }
+.v2-fs-recent__chips { display: flex; gap: var(--space-2); flex-wrap: wrap; }
+.v2-fs-recent__code { color: var(--text-tertiary); font-size: var(--type-overline-size); }
+.v2-fs-hint { margin-top: var(--space-5); }
+.v2-fs-hint[hidden] { display: none; }
 .v2-fs-strip {
   display: flex; align-items: baseline; gap: var(--space-4); flex-wrap: wrap;
   padding: var(--space-3) 0; border-bottom: 1px solid var(--border-subtle); margin-bottom: var(--space-6);
@@ -450,8 +482,19 @@
   font-size: var(--type-caption-size); cursor: pointer; font-family: inherit;
   transition: background var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing);
 }
-.v2-filter-chip:hover { background: var(--surface-card-hover); color: var(--text-primary); }
-.v2-filter-chip[aria-pressed="true"] { background: var(--surface-selected); border-color: var(--brand-primary); color: var(--text-primary); }
+.v2-filter-chip:hover { background: var(--surface-card-hover); color: var(--text-primary); border-color: var(--border-strong); }
+/* 선택 상태 — 골드 테두리 + 활성 점. 평소엔 테두리만 있는 고스트라, 켜졌을 때의 변화가
+   확실히 읽힌다("내가 지금 이걸 제어하고 있다"는 신호). 점은 색 단독 신호가 아니라
+   aria-pressed와 배경·테두리 변화에 얹히는 보조 채널이다. */
+.v2-filter-chip[aria-pressed="true"] {
+  background: var(--surface-selected); border-color: var(--brand-primary);
+  color: var(--text-primary); font-weight: 600;
+}
+.v2-filter-chip[aria-pressed="true"]::before {
+  content: ""; width: 5px; height: 5px; border-radius: 50%;
+  background: var(--brand-primary); margin-right: var(--space-2); flex-shrink: 0;
+}
+.v2-filterbar .v2-filter-chip { display: inline-flex; align-items: center; }
 
 /* ── Asset/Portfolio 게이트(design/08 §2-1, Level 3) ── */
 .v2-gate-overlay {
@@ -817,4 +860,108 @@
 @media (prefers-reduced-motion: reduce) {
   .v2-live-dot::after, .v2-chart__pulse { animation: none !important; }
   .v2-flash--up, .v2-flash--down, .v2-flash--flat { animation: none !important; }
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+ * 밀도·모션 재편(design/00 §5-2 반응형, §10 모션)
+ *
+ * 두 가지 문제를 함께 고친다:
+ *  ① 카드 최소 높이가 hero 320px·standard 220px로 고정돼, 내용이 두 줄뿐인 카드도
+ *     220px를 차지했다. 좁은 화면에서는 이 빈 공간이 스크롤 길이로 바로 환산된다.
+ *  ② 화면이 완전히 정적이었다 — 눌러도, 올려도, 값이 바뀌어도 아무 일도 일어나지 않았다.
+ *
+ * 모션 예산은 명확히 둔다: 등장 1회(240ms), 호버 120ms, 핵심 수치 카운트업 1회(520ms).
+ * 스크롤 연동·패럴랙스·바운스는 여전히 금지다(design/00 §10-2).
+ * ══════════════════════════════════════════════════════════════════════════ */
+
+/* ── 밀도 ── 최소 높이를 내용이 정하게 하고, 하한만 남긴다 */
+.v2-card--hero { padding: clamp(var(--space-4), 2.4vw, var(--space-6)); min-height: 0; }
+.v2-card--standard { padding: clamp(var(--space-4), 2vw, var(--space-5)); min-height: 0; }
+.v2-card__header { margin-bottom: var(--space-3); flex-wrap: wrap; }
+.v2-card__title { min-width: 0; overflow-wrap: anywhere; }
+
+/* ── 카드 등장 — 아래에서 8px, 240ms, 1회(design/00 §10-2 오버레이 등장 규칙 준용) ──
+ *
+ * **JS가 클래스를 토글하는 방식을 쓰지 않는다.** 처음엔 그렇게 만들었다가 실측에서 걸렸다:
+ * 백그라운드 탭에서는 requestAnimationFrame이 돌지 않아 "보이게 하는" 콜백이 끝내 실행되지
+ * 않았고, 카드 4장이 opacity:0인 채 남았다 — 애니메이션이 빠지는 정도가 아니라 **페이지가
+ * 빈 화면**이 된다. 등장 연출 때문에 콘텐츠가 사라지는 것은 어떤 경우에도 용납되지 않는다.
+ *
+ * 그래서 CSS 애니메이션(fill-mode: both)으로 뒤집었다. JS가 죽어도, rAF가 멈춰도, 애니메이션이
+ * 지원되지 않아도 카드는 최종 상태로 보인다. JS는 --reveal-delay로 스태거만 얹는 장식이다.
+ *
+ * 서버 렌더 카드(.v2-content 직계)에만 건다 — Asset/Portfolio처럼 클라이언트가 다시 그리는
+ * 카드에 걸면 필터 칩을 누를 때마다 화면 전체가 다시 페이드인해서 조작이 굼떠 보인다. */
+[data-anim="on"] .v2-content > .v2-card,
+[data-anim="on"] .v2-content > .v2-rail > .v2-card {
+  animation: v2-card-in 240ms var(--motion-easing) both;
+  animation-delay: var(--reveal-delay, 0ms);
+}
+@keyframes v2-card-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* ── 호버 — 카드는 보더가 밝아지고 1px 뜬다. 클릭 가능한 카드만 그림자를 더한다 ── */
+.v2-card {
+  transition: border-color var(--motion-fast) var(--motion-easing),
+              transform var(--motion-fast) var(--motion-easing),
+              box-shadow var(--motion-fast) var(--motion-easing);
+}
+.v2-card:hover { border-color: var(--border-strong); }
+.v2-card--clickable:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28);
+  border-color: var(--brand-primary);
+}
+.v2-card--clickable:active { transform: translateY(0); }
+
+/* ── 인터랙티브 요소 공통 — 눌리는 느낌 ── */
+.v2-btn { transition: background var(--motion-fast) var(--motion-easing), border-color var(--motion-fast) var(--motion-easing), transform var(--motion-fast) var(--motion-easing); }
+.v2-btn:active { transform: translateY(1px); }
+.v2-filter-chip:active, .v2-mask-toggle:active, .v2-lock-btn:active { transform: translateY(1px); }
+.v2-rank-row { transition: background var(--motion-fast) var(--motion-easing); }
+
+/* 표는 좁은 화면에서 셸을 밀어내는 대신 자기 안에서 가로 스크롤한다 */
+.v2-rank-table { min-width: 560px; }
+.v2-card__body > .v2-rank-table { min-width: 0; }
+
+/* ── 좁은 화면 밀도 조정 ── */
+@media (max-width: 1023px) {
+  /* 4열 지표 그리드는 이 폭에서 열당 60px대가 된다 — 2열로 접는다. */
+  .v2-ta-metrics { grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+  .v2-hero-cols { grid-template-columns: 1fr; gap: var(--space-4); }
+  .v2-hero-col { padding-left: 0; border-left: none; padding-top: var(--space-4); border-top: 1px solid var(--border-subtle); }
+  .v2-hero-col:first-child { padding-top: 0; border-top: none; }
+  .v2-position-grid { grid-template-columns: 1fr 1fr; }
+  .v2-subgrid { gap: var(--space-4); }
+}
+
+@media (max-width: 719px) {
+  .v2-ta-metrics { grid-template-columns: repeat(2, 1fr); gap: var(--space-3); }
+  .v2-stat-row { flex-direction: column; align-items: flex-start; gap: var(--space-3); }
+  .v2-macro-groups { grid-template-columns: 1fr; }
+  /* 타일이 한 줄로 서면 차트에 줄 폭이 늘어난다 — 오히려 이 폭에서 그래프가 더 잘 읽힌다. */
+  .v2-macro-tile { grid-template-columns: minmax(0, 1fr) minmax(120px, 0.8fr); }
+  .v2-card__header { gap: var(--space-2); }
+  .v2-card__meta { white-space: normal; }
+  .v2-alloc-legend { gap: var(--space-2) var(--space-3); }
+  .v2-calendar-row { height: auto; padding: var(--space-2) 0; flex-wrap: wrap; }
+  .v2-calendar-row__date { width: auto; }
+  .v2-settings-nav { position: static; flex-direction: row; overflow-x: auto; gap: var(--space-2); padding-bottom: var(--space-2); }
+  .v2-settings-nav__item { border-left: none; border-bottom: 2px solid transparent; white-space: nowrap; }
+  .v2-settings-nav__item--active { border-left-color: transparent; border-bottom-color: var(--brand-primary); }
+  .v2-setting-row { flex-direction: column; align-items: stretch; gap: var(--space-3); }
+  .v2-setting-row__control { justify-content: flex-start; }
+}
+
+/* ── 모션 축소 — 등장·호버 변형·카운트업을 전부 끈다(색·보더 변화는 남긴다) ── */
+[data-reduce-motion="1"] .v2-content > .v2-card,
+[data-reduce-motion="1"] .v2-content > .v2-rail > .v2-card { animation: none; }
+[data-reduce-motion="1"] .v2-card--clickable:hover { transform: none; box-shadow: none; }
+@media (prefers-reduced-motion: reduce) {
+  .v2-content > .v2-card, .v2-content > .v2-rail > .v2-card { animation: none !important; }
+  .v2-card--clickable:hover { transform: none; box-shadow: none; }
+  .v2-btn:active, .v2-filter-chip:active { transform: none; }
+  .v2-sidebar { transition: none !important; }
 }

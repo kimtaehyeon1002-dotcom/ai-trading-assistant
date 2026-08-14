@@ -37,6 +37,12 @@
   <div class="v2-panel-slot" id="panel-slot">{% block panel_slot %}{% endblock %}</div>
   <script src="{{ root }}/static/js/store.js?v={{ asset_v() }}" defer></script>
   {#
+    셸 인터랙션(모바일 서랍·등장 모션)은 모든 페이지 공통이다 — store.js와 같은 원칙으로
+    전역 로드한다. 좁은 화면에서 이 스크립트가 없으면 메뉴로 가는 길이 사라지므로
+    페이지별 선택 로드로 두지 않는다.
+  #}
+  <script src="{{ root }}/static/js/shell.js?v={{ asset_v() }}" defer></script>
+  {#
     Stock Hub는 전역 오버레이 컴포넌트(design/05 §1-1 "Dashboard/News/Stock/Portfolio 등
     모든 페이지")라 base_v2.html에서 무조건 로드한다 — store.js와 동일 원칙(design/22 §5-1).
   #}
