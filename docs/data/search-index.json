@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-14T04:07:08.143983+00:00",
+  "as_of": "2026-08-14T05:25:18.514720+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -369,10 +369,130 @@
   ],
   "news": [
     {
-      "title": "[뉴스프레소] 뉴욕증시, 물가 안정·유가 하락에 상승… 나스닥 0.8%↑ - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aaGZkQVBHSGpJcUVKeFYxa2Z5LWNFZDlVOTdxTmRwQkl5RXZaYzM0MVFBWmVZU3Vvem52aEZta0JxMUxsRDJGbG9iSWstWDg?oc=5",
+      "title": "외환시장 24시간 개방 한 달, 원·달러 거래량 10% 껑충",
+      "link": "https://www.mk.co.kr/news/economy/12127950",
+      "source": "매일경제·증권",
+      "published": "2026-08-14T05:22:44+00:00"
+    },
+    {
+      "title": "부광약품 \"자회사 한국유니온제약, 회생절차 종결 신청\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814097100017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T05:17:03+00:00"
+    },
+    {
+      "title": "게임단체들 \"게임 제작비·e스포츠 대회 세액공제 필요\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814093100017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T05:15:53+00:00"
+    },
+    {
+      "title": "China built robots that can do backflips – but can they make money?",
+      "link": "https://www.cnbc.com/2026/08/14/china-humanoid-robots-unitree-ipo-tesla-optimus.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-14T05:00:47+00:00"
+    },
+    {
+      "title": "국민연금, 28일까지 기금운용 전문가 30명 모집",
+      "link": "https://www.yna.co.kr/view/AKR20260814049500530",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T05:00:03+00:00"
+    },
+    {
+      "title": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
+      "link": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-14T05:00:01+00:00"
+    },
+    {
+      "title": "캠퍼스 계단에 'ㄱㄴㄷ…'…한서대, 한글공원 조성",
+      "link": "https://www.yna.co.kr/view/AKR20260814088400063",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T04:51:41+00:00"
+    },
+    {
+      "title": "국민연금, 2분기 美주식 평가액 전분기 대비 33조원 급증",
+      "link": "https://www.yna.co.kr/view/AKR20260814079000008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T04:49:51+00:00"
+    },
+    {
+      "title": "한국화이자제약 \"RSV 백신 '아브리스보' 국내 허가\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814086200017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T04:49:21+00:00"
+    },
+    {
+      "title": "HLB제넥스, 200억원 규모 전환사채 선제 취득",
+      "link": "https://www.yna.co.kr/view/AKR20260814090600017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T04:47:45+00:00"
+    },
+    {
+      "title": "롯데카드, AI 보안 협의체 ‘프로젝트 캐노피’ 참여",
+      "link": "https://www.mk.co.kr/news/economy/12127894",
+      "source": "매일경제·증권",
+      "published": "2026-08-14T04:44:20+00:00"
+    },
+    {
+      "title": "코스피 급락에 ‘빚투’ 폭발세도 주춤…한 달에 수십조 매수했던 개미들, 지난달 급감",
+      "link": "https://www.mk.co.kr/news/economy/12127891",
+      "source": "매일경제·증권",
+      "published": "2026-08-14T04:40:17+00:00"
+    },
+    {
+      "title": "토스증권, 이번 광복절부터 공휴일에도 해외채권 원리금 지급",
+      "link": "https://www.yna.co.kr/view/AKR20260814079300008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T04:39:11+00:00"
+    },
+    {
+      "title": "스톤브릿지벤처스, 상반기 영업익 170억원…반기 기준 최대",
+      "link": "https://www.yna.co.kr/view/AKR20260814074900008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T04:37:13+00:00"
+    },
+    {
+      "title": "네이버·LG전자에 최대 20배 베팅…바이낸스 선물 출시",
+      "link": "https://www.yna.co.kr/view/AKR20260814084400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T04:33:58+00:00"
+    },
+    {
+      "title": "‘적극 행정’에 소부장 웃었다…SK하이닉스, 출연금 증여세 면제된 까닭",
+      "link": "https://www.mk.co.kr/news/economy/12127882",
+      "source": "매일경제·증권",
+      "published": "2026-08-14T04:31:21+00:00"
+    },
+    {
+      "title": "정부, 홈플러스 근로자에 실업급여·융자 등 총 778억원 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260814074300002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T04:30:01+00:00"
+    },
+    {
+      "title": "어린이 경제박사 되세요…22일 경제교실 개최",
+      "link": "https://www.mk.co.kr/news/economy/12127880",
+      "source": "매일경제·증권",
+      "published": "2026-08-14T04:29:40+00:00"
+    },
+    {
+      "title": "[뉴스프레소] 뉴욕증시, 물가 안정·유가 하락에 상승… 나스닥 0.8%↑ - 머니투데이 - mt.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUZGtvTmNBYkRnd1UyOXNDVVBDb0Y4ODNkeEhUZ1ktUXR2VEVJRkhIc3kzU2tMaFI4NlIxZlNtMzBMTE5WbEU4eUhrcm1oSWdqbXhaU2RQRVZQRVV0V3MyRjZCUWNpNW5l0gFuQVVfeXFMT2Y1eERoWDdnWjNKR2ZveVZEMGE2c3M0V1lNYUJJSE5HN2hUZWxDN182QXRNN3VWcnF0X0VKYVlGLTRRY3AzUzBuQVdrNGVKOVo1bXR5M3RpNzY4TTNvTl9MWktmUG5CcUNfVFFCU2c?oc=5",
       "source": "Google News",
-      "published": "2026-08-14T03:44:20+00:00"
+      "published": "2026-08-14T04:26:33+00:00"
+    },
+    {
+      "title": "미 인플레이션 둔화에 아시아 증시, 6월 이후 최고의 주간 성과 기대 - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOQVQ3Sjc4T0VNWGhOOVB3UVQ1UFNrRTItZ3FCMFVwUS1wd1JtczZvaWtmQXI0bzV1UjBOWnpCVHBtQTkzN0hEUjItTWZKUlNRV2JQUWF0ZUdBdzNuT0kzNkpJNUM?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T04:14:00+00:00"
+    },
+    {
+      "title": "“지방에 전세 못 얻어…이직할 것” 국책은행 직원들의 고민",
+      "link": "https://www.mk.co.kr/news/economy/12127860",
+      "source": "매일경제·증권",
+      "published": "2026-08-14T04:09:44+00:00"
     },
     {
       "title": "오늘의 증시 - MBC 뉴스",
@@ -417,6 +537,12 @@
       "published": "2026-08-14T02:51:28+00:00"
     },
     {
+      "title": "\"한국 증시 믿은 내가 바보\"…외신이 전한 코스피 개미들의 눈물 - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TamI0TmpDbnhDVllEZmRXMXlBRnNzN200bE1Xbi1McThXMmJ5bHhtclM1T1FZYk5xMEUyQm9iWDVFdWJUVTJCSjJnSm4tTHNpbE0zZGRHdkVXZE81dlFZTtIBeEFVX3lxTE1Hc1JTMUlzcHJXeHJUYmpTbW1ic2Y2Zk0tUGcxbDExWlpYZ09kbjVRNGpvWkxGdXA1Z2RGa09ka3h4M0ZBU0FaWHFJMTNOSmRFRTN5M245cjlxSEpRLWRzZ3gyWkxmWTVoM3MwZlZNOW84Z3RBYmxHOQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T02:50:03+00:00"
+    },
+    {
       "title": "국민 45% \"세제개편안, 부동산 시장에 부정적 영향줄 것\"[한국갤럽]",
       "link": "https://www.yna.co.kr/view/AKR20260814072700001",
       "source": "연합뉴스·경제",
@@ -427,6 +553,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260814075400008",
       "source": "연합뉴스·경제",
       "published": "2026-08-14T02:41:33+00:00"
+    },
+    {
+      "title": "No.1 경제·증권 채널 : @HKWOWTV - 한국경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRlplTVloRldUenZucjZzYXpfcEtrYVhwNGhQOU0ySmMyUXlOR2dPdk9ISS1ydEZ6UTJteU1XbTFHTnVtajVyZm53QVRpaXRzMDlOMHpOUFZrSTgxdlN0OUZjNG5MdGEtR1FVa2VfRDRmY3lQYmhPckQ3QVc0NUVEWmNSQXc2cS1lMy1oRndxWFdhUE1HVWIwd0ptaWRqRThfTWo4?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T02:39:36+00:00"
     },
     {
       "title": "증시 활황에 웃은 DB증권…자기자본 첫 1조원 돌파 - 비즈워치",
@@ -535,138 +667,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260814062600002",
       "source": "연합뉴스·경제",
       "published": "2026-08-14T01:44:20+00:00"
-    },
-    {
-      "title": "트라버스, 벤처기업 인증 획득…비수탁 지갑 사업 본격화",
-      "link": "https://www.yna.co.kr/view/AKR20260814058600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:39:29+00:00"
-    },
-    {
-      "title": "KB금융, '다시 쓰는 대한이 살았다' 국민 참여 영상 공개",
-      "link": "https://www.yna.co.kr/view/AKR20260814061300002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:39:19+00:00"
-    },
-    {
-      "title": "[게시판] 하나은행, 광복절 나라사랑 이벤트로 신규 고객 버거세트 증정",
-      "link": "https://www.yna.co.kr/view/AKR20260814060400002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:36:59+00:00"
-    },
-    {
-      "title": "이억원 \"실수요자 차질 없는 자금지원에 총력 다해야\" 주문",
-      "link": "https://www.yna.co.kr/view/AKR20260814047600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:30:02+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
-      "link": "https://www.yna.co.kr/view/AKR20260814056900011",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:30:01+00:00"
-    },
-    {
-      "title": "7월 금융권 가계대출 6.2조↑…'빚투' 진정 등에 증가폭 축소",
-      "link": "https://www.yna.co.kr/view/AKR20260814053200002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:30:00+00:00"
-    },
-    {
-      "title": "아센디오, 100억원 유상증자…에스투인베스트먼트에 제3자배정",
-      "link": "https://www.yna.co.kr/view/AKR20260814058300008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:29:14+00:00"
-    },
-    {
-      "title": "KCGI운용 \"사명 변경 3년 만에 공모주식형 순자산 10위권 진입\"",
-      "link": "https://www.yna.co.kr/view/AKR20260814056100008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:28:47+00:00"
-    },
-    {
-      "title": "카카오뱅크 임원진, 자사주 2만1천주 매입…\"책임경영 의지\"",
-      "link": "https://www.yna.co.kr/view/AKR20260814054300002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:28:22+00:00"
-    },
-    {
-      "title": "제이아이테크, 42억6천100만원 제3자배정 유상증자",
-      "link": "https://www.yna.co.kr/view/AKR20260814056600008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:26:31+00:00"
-    },
-    {
-      "title": "[게시판] 금결원, 전자세금 금융인증서 민간 확대…ASP 첫 적용",
-      "link": "https://www.yna.co.kr/view/AKR20260814046600002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:22:58+00:00"
-    },
-    {
-      "title": "광주은행, 다문화가정 초등학생 지원 프로그램 운영",
-      "link": "https://www.yna.co.kr/view/AKR20260814052500054",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:14:22+00:00"
-    },
-    {
-      "title": "[개장] 뉴욕증시, 생산자물가 둔화에 S&P 최고치..샌디스크 13%↑ By 알파경제 alphabiz - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oZXhvTUQ1X0NPVHdnT3gtRFpPb0Y1QTJFVUxCRWNvd3FlN21IZGJFZzUwNHRJR0NWQ3VOWFdOR3pCSThWa1I0YkZoV0p2QTFqalpvR2JMMklQcWlMckdaRGxoekVjdmhXdmF5OVltTEI?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T01:12:00+00:00"
-    },
-    {
-      "title": "국토차관 \"용산어린이정원 등 주택공급 서울시와 협의할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260814050500003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:11:57+00:00"
-    },
-    {
-      "title": "출발증시 1부 - 한국경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSEd1c3k4R0RJcVJwMHNUcDhSNVZ5RFZwWWE4ak4zeEMzelAyNS1pTWFSdlcyWmtseC1GLVNGeWpJQnR3c0Vrc2tPeVFmOXRJOHZJR2RMQVRFUWlLd2t1TEJQd3otbjRnMXNiUXdzSS1YTGZ0dnowZzFidkJlWENGX0V2dVFFOTd4UUJvZDh2XzVXWVl1ZmYyaGQ2dDFyVGV1VDJv?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T01:06:05+00:00"
-    },
-    {
-      "title": "Uber partners with China's Pony.ai for 2,000 robotaxis in Europe",
-      "link": "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T01:02:39+00:00"
-    },
-    {
-      "title": "동작구 \"500세대 미만 정비구역 권한, 자치구로 넘겨야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260814048700004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:01:19+00:00"
-    },
-    {
-      "title": "102개 대기업집단, 석 달간 계열사 75개 편입·79개 제외",
-      "link": "https://www.yna.co.kr/view/AKR20260814041100002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:00:01+00:00"
-    },
-    {
-      "title": "정부 \"경기회복 흐름 강화…물가·고용 민생부담은 지속\"",
-      "link": "https://www.yna.co.kr/view/AKR20260814035500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:00:00+00:00"
-    },
-    {
-      "title": "GC녹십자웰빙 \"'라이넥주' 통증완화 효과 동물실험서 확인\"",
-      "link": "https://www.yna.co.kr/view/AKR20260814047700017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T00:59:48+00:00"
-    },
-    {
-      "title": "앱티스, ADC 플랫폼 기술 지켰다…미국 특허심판 승소",
-      "link": "https://www.yna.co.kr/view/AKR20260814047000017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T00:53:50+00:00"
-    },
-    {
-      "title": "갤럭시 Z8, 동남아·오세아니아 공식 출시…사전판매 60%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260814044100017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T00:52:22+00:00"
     }
   ],
   "pages": [
