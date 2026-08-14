@@ -35,14 +35,14 @@
     "market": "KOSDAQ"
   },
   {
-    "code": "319400",
-    "name": "현대무벡스",
-    "market": "KOSDAQ"
-  },
-  {
     "code": "066570",
     "name": "LG전자",
     "market": "KOSPI"
+  },
+  {
+    "code": "319400",
+    "name": "현대무벡스",
+    "market": "KOSDAQ"
   },
   {
     "code": "017670",
@@ -60,6 +60,11 @@
     "market": "KOSDAQ GLOBAL"
   },
   {
+    "code": "950160",
+    "name": "코오롱티슈진",
+    "market": "KOSDAQ"
+  },
+  {
     "code": "475150",
     "name": "SK이터닉스",
     "market": "KOSPI"
@@ -70,13 +75,18 @@
     "market": "KOSDAQ"
   },
   {
+    "code": "042660",
+    "name": "한화오션",
+    "market": "KOSPI"
+  },
+  {
     "code": "001210",
     "name": "금호전기",
     "market": "KOSPI"
   },
   {
-    "code": "042660",
-    "name": "한화오션",
+    "code": "012330",
+    "name": "현대모비스",
     "market": "KOSPI"
   },
   {
@@ -90,8 +100,8 @@
     "market": "KOSDAQ"
   },
   {
-    "code": "012330",
-    "name": "현대모비스",
+    "code": "006400",
+    "name": "삼성SDI",
     "market": "KOSPI"
   },
   {
@@ -100,8 +110,8 @@
     "market": "KOSPI"
   },
   {
-    "code": "006400",
-    "name": "삼성SDI",
+    "code": "035420",
+    "name": "NAVER",
     "market": "KOSPI"
   },
   {
@@ -110,14 +120,9 @@
     "market": "KOSPI"
   },
   {
-    "code": "035420",
-    "name": "NAVER",
+    "code": "012450",
+    "name": "한화에어로스페이스",
     "market": "KOSPI"
-  },
-  {
-    "code": "332570",
-    "name": "PS일렉트로닉스",
-    "market": "KOSDAQ"
   },
   {
     "code": "240810",
@@ -125,14 +130,9 @@
     "market": "KOSDAQ GLOBAL"
   },
   {
-    "code": "064400",
-    "name": "LG씨엔에스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "012450",
-    "name": "한화에어로스페이스",
-    "market": "KOSPI"
+    "code": "332570",
+    "name": "PS일렉트로닉스",
+    "market": "KOSDAQ"
   },
   {
     "code": "011070",
@@ -140,14 +140,14 @@
     "market": "KOSPI"
   },
   {
-    "code": "042700",
-    "name": "한미반도체",
+    "code": "010120",
+    "name": "LS ELECTRIC",
     "market": "KOSPI"
   },
   {
-    "code": "950160",
-    "name": "코오롱티슈진",
-    "market": "KOSDAQ"
+    "code": "105560",
+    "name": "KB금융",
+    "market": "KOSPI"
   },
   {
     "code": "MU",
@@ -347,11 +347,6 @@
   {
     "code": "055550",
     "name": "신한지주",
-    "market": "KRX"
-  },
-  {
-    "code": "105560",
-    "name": "KB금융",
     "market": "KRX"
   },
   {

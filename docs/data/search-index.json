@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-14T05:54:11.597995+00:00",
+  "as_of": "2026-08-14T06:12:32.293309+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -37,14 +37,14 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "319400",
-      "name": "현대무벡스",
-      "market": "KOSDAQ"
-    },
-    {
       "code": "066570",
       "name": "LG전자",
       "market": "KOSPI"
+    },
+    {
+      "code": "319400",
+      "name": "현대무벡스",
+      "market": "KOSDAQ"
     },
     {
       "code": "017670",
@@ -62,6 +62,11 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
+      "code": "950160",
+      "name": "코오롱티슈진",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "475150",
       "name": "SK이터닉스",
       "market": "KOSPI"
@@ -72,13 +77,18 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "042660",
+      "name": "한화오션",
+      "market": "KOSPI"
+    },
+    {
       "code": "001210",
       "name": "금호전기",
       "market": "KOSPI"
     },
     {
-      "code": "042660",
-      "name": "한화오션",
+      "code": "012330",
+      "name": "현대모비스",
       "market": "KOSPI"
     },
     {
@@ -92,8 +102,8 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "012330",
-      "name": "현대모비스",
+      "code": "006400",
+      "name": "삼성SDI",
       "market": "KOSPI"
     },
     {
@@ -102,8 +112,8 @@
       "market": "KOSPI"
     },
     {
-      "code": "006400",
-      "name": "삼성SDI",
+      "code": "035420",
+      "name": "NAVER",
       "market": "KOSPI"
     },
     {
@@ -112,14 +122,9 @@
       "market": "KOSPI"
     },
     {
-      "code": "035420",
-      "name": "NAVER",
+      "code": "012450",
+      "name": "한화에어로스페이스",
       "market": "KOSPI"
-    },
-    {
-      "code": "332570",
-      "name": "PS일렉트로닉스",
-      "market": "KOSDAQ"
     },
     {
       "code": "240810",
@@ -127,14 +132,9 @@
       "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "064400",
-      "name": "LG씨엔에스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "market": "KOSPI"
+      "code": "332570",
+      "name": "PS일렉트로닉스",
+      "market": "KOSDAQ"
     },
     {
       "code": "011070",
@@ -142,14 +142,14 @@
       "market": "KOSPI"
     },
     {
-      "code": "042700",
-      "name": "한미반도체",
+      "code": "010120",
+      "name": "LS ELECTRIC",
       "market": "KOSPI"
     },
     {
-      "code": "950160",
-      "name": "코오롱티슈진",
-      "market": "KOSDAQ"
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KOSPI"
     },
     {
       "code": "MU",
@@ -352,11 +352,6 @@
       "market": "KRX"
     },
     {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KRX"
-    },
-    {
       "code": "JPM",
       "name": "JPMorgan Chase",
       "market": "NYSE"
@@ -368,6 +363,30 @@
     }
   ],
   "news": [
+    {
+      "title": "추미애 \"경기도 빚 3배속으로 늘어…'회색 코뿔소' 코앞\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814107900061",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T05:59:48+00:00"
+    },
+    {
+      "title": "[인사] 공정거래위원회",
+      "link": "https://www.yna.co.kr/view/AKR20260814108600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T05:57:01+00:00"
+    },
+    {
+      "title": "\"결혼 자금 날렸다\" \"국장 믿은 내가 바보\" 개미들 '비명'…전세계 놀란 韓증시 변동성 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFU0ZHZ3o3cHZaZlFQNTc0REtWX2RtZ3NneWhTSnBNQmdHN0o1QXlGTFpqVnpkbThKRV9mamZ0cFB0cHJuRlFaTWhNdE5vQmpab0tJbURNcWFFU2xNMEo1Tg?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T05:53:19+00:00"
+    },
+    {
+      "title": "제주시, 청년 자격증 응시료 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260814105500056",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T05:49:33+00:00"
+    },
     {
       "title": "Trump ally Nigel Farage wins special election to return to UK parliament",
       "link": "https://www.cnbc.com/2026/08/14/nigel-farage-reform-uk-parliament-re-election.html",
@@ -525,12 +544,6 @@
       "published": "2026-08-14T04:29:40+00:00"
     },
     {
-      "title": "[뉴스프레소] 뉴욕증시, 물가 안정·유가 하락에 상승… 나스닥 0.8%↑ - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUZGtvTmNBYkRnd1UyOXNDVVBDb0Y4ODNkeEhUZ1ktUXR2VEVJRkhIc3kzU2tMaFI4NlIxZlNtMzBMTE5WbEU4eUhrcm1oSWdqbXhaU2RQRVZQRVV0V3MyRjZCUWNpNW5l0gFuQVVfeXFMT2Y1eERoWDdnWjNKR2ZveVZEMGE2c3M0V1lNYUJJSE5HN2hUZWxDN182QXRNN3VWcnF0X0VKYVlGLTRRY3AzUzBuQVdrNGVKOVo1bXR5M3RpNzY4TTNvTl9MWktmUG5CcUNfVFFCU2c?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T04:26:33+00:00"
-    },
-    {
       "title": "미 인플레이션 둔화에 아시아 증시, 6월 이후 최고의 주간 성과 기대 - Investing.com 한국어",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOQVQ3Sjc4T0VNWGhOOVB3UVQ1UFNrRTItZ3FCMFVwUS1wd1JtczZvaWtmQXI0bzV1UjBOWnpCVHBtQTkzN0hEUjItTWZKUlNRV2JQUWF0ZUdBdzNuT0kzNkpJNUM?oc=5",
       "source": "Google News",
@@ -649,24 +662,6 @@
       "link": "https://www.yna.co.kr/view/AKR20260813156100530",
       "source": "연합뉴스·경제",
       "published": "2026-08-14T02:00:02+00:00"
-    },
-    {
-      "title": "AI 훈풍에 ICT 수출 534억달러…7월 역대 최대",
-      "link": "https://www.yna.co.kr/view/AKR20260813157300017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T02:00:02+00:00"
-    },
-    {
-      "title": "NH증권, 기준수익률 4.5% 'N2 IMA1 3호' 출시…1천200억 규모",
-      "link": "https://www.yna.co.kr/view/AKR20260814065800008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:58:51+00:00"
-    },
-    {
-      "title": "용산구, 한강변 '산호아파트 재건축' 관리처분계획인가 고시",
-      "link": "https://www.yna.co.kr/view/AKR20260814064900004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T01:52:14+00:00"
     }
   ],
   "pages": [
