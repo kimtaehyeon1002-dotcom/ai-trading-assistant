@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-14T07:18:45.037609+00:00",
+  "as_of": "2026-08-14T07:59:13.470069+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -42,24 +42,14 @@
       "market": "KOSPI"
     },
     {
-      "code": "319400",
-      "name": "현대무벡스",
-      "market": "KOSDAQ"
-    },
-    {
       "code": "017670",
       "name": "SK텔레콤",
       "market": "KOSPI"
     },
     {
-      "code": "125490",
-      "name": "한라캐스트",
+      "code": "319400",
+      "name": "현대무벡스",
       "market": "KOSDAQ"
-    },
-    {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "KOSDAQ GLOBAL"
     },
     {
       "code": "950160",
@@ -67,38 +57,8 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "475150",
-      "name": "SK이터닉스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "487400",
-      "name": "케이앤에스아이앤씨",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "001210",
-      "name": "금호전기",
-      "market": "KOSPI"
-    },
-    {
-      "code": "012330",
-      "name": "현대모비스",
-      "market": "KOSPI"
-    },
-    {
-      "code": "058610",
-      "name": "에스피지",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "388050",
-      "name": "지투파워",
+      "code": "125490",
+      "name": "한라캐스트",
       "market": "KOSDAQ"
     },
     {
@@ -107,18 +67,13 @@
       "market": "KOSPI"
     },
     {
-      "code": "034020",
-      "name": "두산에너빌리티",
-      "market": "KOSPI"
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "KOSDAQ GLOBAL"
     },
     {
-      "code": "035420",
-      "name": "NAVER",
-      "market": "KOSPI"
-    },
-    {
-      "code": "002990",
-      "name": "금호건설",
+      "code": "475150",
+      "name": "SK이터닉스",
       "market": "KOSPI"
     },
     {
@@ -127,18 +82,48 @@
       "market": "KOSPI"
     },
     {
-      "code": "240810",
-      "name": "원익IPS",
-      "market": "KOSDAQ GLOBAL"
+      "code": "042660",
+      "name": "한화오션",
+      "market": "KOSPI"
     },
     {
-      "code": "332570",
-      "name": "PS일렉트로닉스",
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "KOSPI"
+    },
+    {
+      "code": "487400",
+      "name": "케이앤에스아이앤씨",
       "market": "KOSDAQ"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market": "KOSPI"
     },
     {
       "code": "011070",
       "name": "LG이노텍",
+      "market": "KOSPI"
+    },
+    {
+      "code": "001210",
+      "name": "금호전기",
+      "market": "KOSPI"
+    },
+    {
+      "code": "035420",
+      "name": "NAVER",
+      "market": "KOSPI"
+    },
+    {
+      "code": "058610",
+      "name": "에스피지",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
       "market": "KOSPI"
     },
     {
@@ -147,8 +132,23 @@
       "market": "KOSPI"
     },
     {
-      "code": "105560",
-      "name": "KB금융",
+      "code": "388050",
+      "name": "지투파워",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "240810",
+      "name": "원익IPS",
+      "market": "KOSDAQ GLOBAL"
+    },
+    {
+      "code": "002990",
+      "name": "금호건설",
+      "market": "KOSPI"
+    },
+    {
+      "code": "042700",
+      "name": "한미반도체",
       "market": "KOSPI"
     },
     {
@@ -364,10 +364,82 @@
   ],
   "news": [
     {
+      "title": "동서발전, 하반기 신입사원 121명 입사…안전·디지털 역량 강조",
+      "link": "https://www.yna.co.kr/view/AKR20260814093300057",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T07:54:02+00:00"
+    },
+    {
+      "title": "[르포] 남양주 신규 택지 기대·우려 교차…\"교통이 관건\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814125700060",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T07:52:05+00:00"
+    },
+    {
+      "title": "국고채 금리 혼조세…3년물 연 3.796%",
+      "link": "https://www.yna.co.kr/view/AKR20260814141200008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T07:42:59+00:00"
+    },
+    {
+      "title": "SK에코플랜트 2분기 영업이익 5천336억원…작년 대비 266%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260814140200003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T07:37:33+00:00"
+    },
+    {
+      "title": "[과학스냅] 창의재단, AI협회·정보공학기술사회와 AI 협력",
+      "link": "https://www.yna.co.kr/view/AKR20260814133000017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T07:37:18+00:00"
+    },
+    {
+      "title": "코스피 2.4%↑, 7천피 턱밑까지…이번주 내내 올랐다(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260814132200008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T07:31:41+00:00"
+    },
+    {
+      "title": "U.S. to use economic tactics on Iran 'that have never been seen'; Navy works to relieve troubled carrier USS Abraham Lincoln",
+      "link": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-14T07:30:30+00:00"
+    },
+    {
+      "title": "두산건설 상반기 영업이익 727억원…작년대비 35.6%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260814136600003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T07:26:26+00:00"
+    },
+    {
+      "title": "국토장관 \"용산공원 전체 주택공급 고민\"…오세훈과 대립각(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260814050551003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T07:25:32+00:00"
+    },
+    {
+      "title": "[동정] 남재헌 해수부 차관, 경남 고수온 피해 현장 방문",
+      "link": "https://www.yna.co.kr/view/AKR20260814134900051",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T07:23:29+00:00"
+    },
+    {
+      "title": "[중국증시 마감] AI인프라·광통신·희토류 강세, 3대지수 상승에도 '온도차' - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yd0ctcm9iaDlzckY1bGFmc2h1OGJkeXVrVm9GamFHUTJnTEp5bzdRcHRKTUMzZkUtSTh1ak9pa3Jja2Fad2NodlVfSDBDTzRYb040R1IxbzJ2ZURu?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T07:22:00+00:00"
+    },
+    {
       "title": "Trump ally Nigel Farage wins special election to return to UK parliament",
       "link": "https://www.cnbc.com/2026/08/14/nigel-farage-reform-uk-parliament-re-election.html",
       "source": "CNBC Finance",
       "published": "2026-08-14T07:17:43+00:00"
+    },
+    {
+      "title": "韓총리 \"주택공급, 총리 최우선 과제로…대책 속도감 있게 실행\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814127700001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-14T07:14:11+00:00"
     },
     {
       "title": "[중국증시-마감] 반도체 강세에 상승 - 연합인포맥스",
@@ -538,10 +610,10 @@
       "published": "2026-08-14T05:57:01+00:00"
     },
     {
-      "title": "\"결혼 자금 날렸다\" \"국장 믿은 내가 바보\" 개미들 '비명'…전세계 놀란 韓증시 변동성 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GaEk4YlREaG1vempmYXZjNm0yUVUyeE83cFRveDNqWjFmT25IdUI4OGIxTW5hRGp0NlBkWGFSNUdKSmhDY0lheGY0WklNVHc?oc=5",
+      "title": "\"결혼 자금 날렸다\" \"국장 믿은 내가 바보\" 개미들 '비명'…전세계 놀란 韓증시 변동성 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFU0ZHZ3o3cHZaZlFQNTc0REtWX2RtZ3NneWhTSnBNQmdHN0o1QXlGTFpqVnpkbThKRV9mamZ0cFB0cHJuRlFaTWhNdE5vQmpab0tJbURNcWFFU2xNMEo1Tg?oc=5",
       "source": "Google News",
-      "published": "2026-08-14T05:54:51+00:00"
+      "published": "2026-08-14T05:53:19+00:00"
     },
     {
       "title": "제주시, 청년 자격증 응시료 지원",
@@ -590,78 +662,6 @@
       "link": "https://www.mk.co.kr/news/economy/12127955",
       "source": "매일경제·증권",
       "published": "2026-08-14T05:26:08+00:00"
-    },
-    {
-      "title": "외환시장 24시간 개방 한 달, 원·달러 거래량 10% 껑충",
-      "link": "https://www.mk.co.kr/news/economy/12127950",
-      "source": "매일경제·증권",
-      "published": "2026-08-14T05:22:44+00:00"
-    },
-    {
-      "title": "부광약품 \"자회사 한국유니온제약, 회생절차 종결 신청\"",
-      "link": "https://www.yna.co.kr/view/AKR20260814097100017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T05:17:03+00:00"
-    },
-    {
-      "title": "게임단체들 \"게임 제작비·e스포츠 대회 세액공제 필요\"",
-      "link": "https://www.yna.co.kr/view/AKR20260814093100017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T05:15:53+00:00"
-    },
-    {
-      "title": "China built robots that can do backflips – but can they make money?",
-      "link": "https://www.cnbc.com/2026/08/14/china-humanoid-robots-unitree-ipo-tesla-optimus.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T05:00:47+00:00"
-    },
-    {
-      "title": "국민연금, 28일까지 기금운용 전문가 30명 모집",
-      "link": "https://www.yna.co.kr/view/AKR20260814049500530",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T05:00:03+00:00"
-    },
-    {
-      "title": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
-      "link": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T05:00:01+00:00"
-    },
-    {
-      "title": "캠퍼스 계단에 'ㄱㄴㄷ…'…한서대, 한글공원 조성",
-      "link": "https://www.yna.co.kr/view/AKR20260814088400063",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T04:51:41+00:00"
-    },
-    {
-      "title": "국민연금, 2분기 美주식 평가액 전분기 대비 33조원 급증",
-      "link": "https://www.yna.co.kr/view/AKR20260814079000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T04:49:51+00:00"
-    },
-    {
-      "title": "한국화이자제약 \"RSV 백신 '아브리스보' 국내 허가\"",
-      "link": "https://www.yna.co.kr/view/AKR20260814086200017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T04:49:21+00:00"
-    },
-    {
-      "title": "HLB제넥스, 200억원 규모 전환사채 선제 취득",
-      "link": "https://www.yna.co.kr/view/AKR20260814090600017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T04:47:45+00:00"
-    },
-    {
-      "title": "롯데카드, AI 보안 협의체 ‘프로젝트 캐노피’ 참여",
-      "link": "https://www.mk.co.kr/news/economy/12127894",
-      "source": "매일경제·증권",
-      "published": "2026-08-14T04:44:20+00:00"
-    },
-    {
-      "title": "코스피 급락에 ‘빚투’ 폭발세도 주춤…한 달에 수십조 매수했던 개미들, 지난달 급감",
-      "link": "https://www.mk.co.kr/news/economy/12127891",
-      "source": "매일경제·증권",
-      "published": "2026-08-14T04:40:17+00:00"
     }
   ],
   "pages": [

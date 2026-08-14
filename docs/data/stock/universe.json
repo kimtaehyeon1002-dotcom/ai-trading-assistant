@@ -40,24 +40,14 @@
     "market": "KOSPI"
   },
   {
-    "code": "319400",
-    "name": "현대무벡스",
-    "market": "KOSDAQ"
-  },
-  {
     "code": "017670",
     "name": "SK텔레콤",
     "market": "KOSPI"
   },
   {
-    "code": "125490",
-    "name": "한라캐스트",
+    "code": "319400",
+    "name": "현대무벡스",
     "market": "KOSDAQ"
-  },
-  {
-    "code": "036930",
-    "name": "주성엔지니어링",
-    "market": "KOSDAQ GLOBAL"
   },
   {
     "code": "950160",
@@ -65,38 +55,8 @@
     "market": "KOSDAQ"
   },
   {
-    "code": "475150",
-    "name": "SK이터닉스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "487400",
-    "name": "케이앤에스아이앤씨",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "042660",
-    "name": "한화오션",
-    "market": "KOSPI"
-  },
-  {
-    "code": "001210",
-    "name": "금호전기",
-    "market": "KOSPI"
-  },
-  {
-    "code": "012330",
-    "name": "현대모비스",
-    "market": "KOSPI"
-  },
-  {
-    "code": "058610",
-    "name": "에스피지",
-    "market": "KOSDAQ"
-  },
-  {
-    "code": "388050",
-    "name": "지투파워",
+    "code": "125490",
+    "name": "한라캐스트",
     "market": "KOSDAQ"
   },
   {
@@ -105,18 +65,13 @@
     "market": "KOSPI"
   },
   {
-    "code": "034020",
-    "name": "두산에너빌리티",
-    "market": "KOSPI"
+    "code": "036930",
+    "name": "주성엔지니어링",
+    "market": "KOSDAQ GLOBAL"
   },
   {
-    "code": "035420",
-    "name": "NAVER",
-    "market": "KOSPI"
-  },
-  {
-    "code": "002990",
-    "name": "금호건설",
+    "code": "475150",
+    "name": "SK이터닉스",
     "market": "KOSPI"
   },
   {
@@ -125,18 +80,48 @@
     "market": "KOSPI"
   },
   {
-    "code": "240810",
-    "name": "원익IPS",
-    "market": "KOSDAQ GLOBAL"
+    "code": "042660",
+    "name": "한화오션",
+    "market": "KOSPI"
   },
   {
-    "code": "332570",
-    "name": "PS일렉트로닉스",
+    "code": "012330",
+    "name": "현대모비스",
+    "market": "KOSPI"
+  },
+  {
+    "code": "487400",
+    "name": "케이앤에스아이앤씨",
     "market": "KOSDAQ"
+  },
+  {
+    "code": "034020",
+    "name": "두산에너빌리티",
+    "market": "KOSPI"
   },
   {
     "code": "011070",
     "name": "LG이노텍",
+    "market": "KOSPI"
+  },
+  {
+    "code": "001210",
+    "name": "금호전기",
+    "market": "KOSPI"
+  },
+  {
+    "code": "035420",
+    "name": "NAVER",
+    "market": "KOSPI"
+  },
+  {
+    "code": "058610",
+    "name": "에스피지",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "105560",
+    "name": "KB금융",
     "market": "KOSPI"
   },
   {
@@ -145,8 +130,23 @@
     "market": "KOSPI"
   },
   {
-    "code": "105560",
-    "name": "KB금융",
+    "code": "388050",
+    "name": "지투파워",
+    "market": "KOSDAQ"
+  },
+  {
+    "code": "240810",
+    "name": "원익IPS",
+    "market": "KOSDAQ GLOBAL"
+  },
+  {
+    "code": "002990",
+    "name": "금호건설",
+    "market": "KOSPI"
+  },
+  {
+    "code": "042700",
+    "name": "한미반도체",
     "market": "KOSPI"
   },
   {
