@@ -29,19 +29,19 @@ body.v2 {
   font-family: var(--font-kr);
   font-size: var(--type-body-size);
   line-height: var(--type-body-lh);
+  /* 좌측 레일 제거(2026-08-15) — 이동은 첫 화면의 방사형 런처와 헤더 가로 내비가 맡는다.
+     화면 폭을 240px 돌려받아 카드가 그만큼 넓어진다. */
   display: grid;
-  grid-template-columns: var(--layout-sidebar-width) 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: var(--layout-header-height) 1fr;
   grid-template-areas:
-    "sidebar header"
-    "sidebar main";
+    "header"
+    "main";
   min-height: 100vh;
   min-height: 100dvh;  /* 모바일 브라우저 주소창 높이 변화 대응 */
 }
 
-body.v2[data-sidebar="collapsed"] {
-  grid-template-columns: var(--layout-sidebar-collapsed) 1fr;
-}
+
 
 /* ── 전역 오버레이 슬롯(Stock Hub 등, design/05 §1-3) ── */
 .v2-panel-slot {
@@ -58,8 +58,12 @@ body.v2[data-sidebar="collapsed"] {
 a { color: inherit; text-decoration: none; }
 
 /* ── 사이드바 (design/00 §6) ── */
-.v2-sidebar {
-  grid-area: sidebar;
+.v2-drawer {
+  position: fixed; top: 0; left: 0; bottom: 0;
+  width: min(280px, 82vw);
+  z-index: 60;
+  transform: translateX(-100%);
+  transition: transform var(--motion-slow) var(--motion-easing);
   background: var(--surface-base);
   border-right: 1px solid var(--border-subtle);
   display: flex;
@@ -67,7 +71,7 @@ a { color: inherit; text-decoration: none; }
   overflow: hidden;
 }
 
-.v2-sidebar__logo {
+.v2-drawer__logo {
   height: var(--layout-header-height);
   display: flex;
   align-items: center;
@@ -79,8 +83,8 @@ a { color: inherit; text-decoration: none; }
   white-space: nowrap;
   flex-shrink: 0;
 }
-.v2-sidebar__mark { font-size: 18px; line-height: 1; flex-shrink: 0; }
-.v2-sidebar__name { overflow: hidden; text-overflow: ellipsis; }
+.v2-drawer__mark { font-size: 18px; line-height: 1; flex-shrink: 0; }
+.v2-drawer__name { overflow: hidden; text-overflow: ellipsis; }
 
 .v2-nav { padding: var(--space-2) 0; overflow-y: auto; }
 .v2-nav__divider { height: 1px; background: var(--border-subtle); margin: var(--space-2) var(--space-3); }
@@ -130,13 +134,13 @@ a { color: inherit; text-decoration: none; }
 .v2-nav__item--locked:hover { color: var(--text-secondary); }
 .v2-nav__lock { margin-left: auto; font-size: var(--type-caption-size); color: inherit; }
 
-.v2-sidebar__footer {
+.v2-drawer__footer {
   margin-top: auto;
   border-top: 1px solid var(--border-subtle);
   padding: var(--space-2) 0;
   flex-shrink: 0;
 }
-.v2-sidebar__version {
+.v2-drawer__version {
   padding: var(--space-2) var(--space-5);
   font-size: var(--type-caption-size);
   color: var(--text-tertiary);
@@ -327,63 +331,70 @@ a { color: inherit; text-decoration: none; }
  *   <1024px  모바일: 사이드바가 서랍으로 빠지고 셸은 1컬럼이 된다
  * ══════════════════════════════════════════════════════════════════════════ */
 
-/* ── 태블릿: 아이콘 레일 ── */
-@media (max-width: 1279px) {
-  body.v2, body.v2[data-sidebar="collapsed"] {
-    grid-template-columns: var(--layout-sidebar-collapsed) 1fr;
-  }
-  .v2-sidebar__name, .v2-nav__label, .v2-nav__lock, .v2-sidebar__version { display: none; }
-  .v2-sidebar__logo { justify-content: center; padding: 0; gap: 0; }
-  .v2-nav__item { justify-content: center; margin: 0 var(--space-2); padding: 0; gap: 0; }
-  .v2-nav__item[aria-current="page"]::before { left: -8px; }
-  .v2-nav__icon { font-size: 17px; }
-  /* 3컬럼 카드는 이 폭에서 이미 좁다 — 4컬럼으로 넓힌다. */
-  .v2-span-3 { grid-column: span 4; }
+/* ── 헤더 가로 내비 ── */
+.v2-header__brand { display: inline-flex; align-items: center; gap: var(--space-2); flex-shrink: 0; }
+.v2-header__brand-mark { color: var(--brand-primary); font-family: var(--font-mono); font-size: 16px; text-shadow: var(--hud-glow-soft); }
+.v2-header__brand-name { font-weight: 700; font-size: var(--type-h3-size); white-space: nowrap; letter-spacing: 0.02em; }
+.v2-header__settings { color: var(--text-tertiary); font-size: 16px; flex-shrink: 0; padding: var(--space-1); }
+.v2-header__settings:hover { color: var(--brand-primary); }
+
+.v2-topnav { display: flex; align-items: center; gap: 2px; min-width: 0; overflow: hidden; flex: 1 1 auto; }
+.v2-topnav__item {
+  display: inline-flex; align-items: center; gap: var(--space-2);
+  height: 34px; padding: 0 var(--space-3);
+  color: var(--text-secondary); font-size: var(--type-caption-size); font-weight: 500;
+  white-space: nowrap; border-radius: var(--radius-control);
+  transition: color var(--motion-fast) var(--motion-easing), background var(--motion-fast) var(--motion-easing);
+}
+.v2-topnav__icon { font-family: var(--font-mono); color: var(--text-tertiary); }
+.v2-topnav__item:hover { color: var(--text-primary); background: var(--surface-card-hover); }
+.v2-topnav__item:hover .v2-topnav__icon { color: var(--brand-primary); }
+.v2-topnav__item[aria-current="page"] {
+  color: var(--text-primary); background: var(--surface-selected);
+  box-shadow: inset 0 -2px 0 var(--brand-primary);
+}
+.v2-topnav__item[aria-current="page"] .v2-topnav__icon { color: var(--brand-primary); }
+
+/* ── 서랍(모바일) ── */
+.v2-drawer { background: var(--surface-base); border-right: 1px solid var(--border-default); }
+
+/* ── 반응형 ──
+ * 좌측 레일이 사라져 구간이 단순해졌다. 가로 내비가 들어갈 폭이 있으면 내비를, 없으면 서랍을 쓴다.
+ *   ≥1180px  아이콘+라벨 가로 내비
+ *   960~1179 아이콘만(라벨 숨김)
+ *   <960px   가로 내비 제거 → 햄버거 서랍
+ */
+@media (max-width: 1179px) {
+  .v2-topnav__label { display: none; }
+  .v2-topnav__item { padding: 0 var(--space-2); }
+  .v2-topnav__icon { font-size: 15px; }
 }
 
-/* ── 모바일: 서랍 ── */
-@media (max-width: 1023px) {
-  body.v2, body.v2[data-sidebar="collapsed"] {
-    grid-template-columns: 1fr;
-    grid-template-areas: "header" "main";
-  }
+@media (max-width: 959px) {
+  .v2-topnav { display: none; }
   .v2-navtoggle { display: inline-flex; }
-
-  /* 서랍은 라벨을 되살린 상태로 나온다 — 아이콘 레일은 마우스 호버로 이름을 확인할 수
-     있지만 터치에는 호버가 없다. 좁은 화면일수록 라벨이 더 필요하다. */
-  .v2-sidebar {
-    position: fixed;
-    top: 0; left: 0; bottom: 0;
-    width: min(280px, 82vw);
-    z-index: 60;
-    transform: translateX(-100%);
-    transition: transform var(--motion-slow) var(--motion-easing);
-    border-right: 1px solid var(--border-default);
-  }
-  [data-nav="open"] .v2-sidebar { transform: none; }
-  .v2-sidebar__name, .v2-nav__label, .v2-nav__lock, .v2-sidebar__version { display: block; }
-  .v2-nav__lock { display: inline; }
-  .v2-sidebar__logo { justify-content: flex-start; padding: 0 var(--space-5); gap: var(--space-3); }
-  .v2-nav__item { justify-content: flex-start; margin: 0 var(--space-3); padding: 0 var(--space-3); gap: var(--space-3); height: 44px; }
-  .v2-nav__item[aria-current="page"]::before { left: -12px; }
-
-  /* 카드 폭 확보 — 4컬럼(=화면의 1/3)짜리 카드는 이 폭부터 숫자가 줄바꿈된다. */
+  .v2-header__brand-name { display: none; }
   .v2-span-3, .v2-span-4 { grid-column: span 6; }
   .v2-span-6, .v2-span-8 { grid-column: span 12; }
-  .v2-rail { display: contents; }  /* 레일을 풀어 카드들이 그리드에 직접 배치되게 한다 */
+  .v2-rail { display: contents; }
   .v2-rail > * { grid-column: span 12; }
 }
 
-/* ── 소형 모바일: 전부 1열 ── */
 @media (max-width: 719px) {
   .v2-span-3, .v2-span-4, .v2-span-6, .v2-span-8 { grid-column: span 12; }
   .v2-header__search-kbd { display: none; }
-  .v2-header__context { font-size: var(--type-body-size); }
-  /* 시계는 정보 밀도 대비 폭을 많이 먹는다 — 이 폭에서는 헤더를 검색에 양보한다. */
   .v2-header__clock { display: none; }
 }
 
 @media (max-width: 479px) {
-  .v2-header__user { display: none; }
   .v2-content { padding-bottom: var(--space-12); }
 }
+
+/* ── 런처 셸 ── 헤더가 없으므로 본문이 화면 전체를 쓴다. 세로 중앙에 놓아 첫 화면이
+   "고르는 자리"로 읽히게 한다(리포트를 읽는 자리가 아니라). */
+body.v2.v2-launcher-page {
+  grid-template-rows: 1fr;
+  grid-template-areas: "main";
+}
+.v2-launcher-page .v2-main { display: flex; align-items: center; justify-content: center; }
+.v2-launcher-page .v2-content { width: 100%; padding-top: var(--space-8); padding-bottom: var(--space-8); }

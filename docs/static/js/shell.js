@@ -1,7 +1,7 @@
 // shell.js — 셸 인터랙션(모바일 서랍) + 등장 모션. 외부 의존 0.
 //
 // design/00 §5-2 반응형 개편과 §10 모션 규칙을 함께 구현한다. 세 가지 일을 한다:
-//   1) 1024px 미만에서 사이드바 서랍 열기/닫기(포커스 가둠·Esc·스크롤 잠금 포함)
+//   1) 960px 미만에서 서랍 열기/닫기(포커스 가둠·Esc·스크롤 잠금 포함)
 //   2) 카드 등장 스태거 — 한 번만, 240ms. 스크롤 연동이 아니라 첫 렌더 1회다.
 //   3) 핵심 수치 카운트업 — 화면 최상위 숫자 1개에만. 나머지는 정적이다.
 //
@@ -11,7 +11,8 @@
   "use strict";
 
   var doc = global.document;
-  var MOBILE_MAX = 1023;          // base_v2.css의 서랍 브레이크포인트와 같은 값
+  var MOBILE_MAX = 959;           // base_v2.css의 서랍 브레이크포인트와 **같은 값이어야 한다**
+                                  // (좌측 레일 제거로 1023 → 959로 내려갔다)
   var STAGGER_MS = 40;            // 카드 간 지연
   var STAGGER_CAP = 10;           // 이 개수를 넘으면 지연을 더 주지 않는다(마지막 카드가 늦게 뜨는 것 방지)
   var COUNT_MS = 520;
@@ -36,7 +37,7 @@
     // 배경이 스크롤되면 서랍이 열린 채 본문만 움직여 방향 감각이 깨진다.
     doc.body.style.overflow = "hidden";
     lastFocus = doc.activeElement;
-    var first = doc.querySelector(".v2-sidebar .v2-nav__item");
+    var first = doc.querySelector(".v2-drawer .v2-nav__item");
     if (first) first.focus();
   }
 
@@ -74,7 +75,7 @@
       el.addEventListener("click", closeNav);
     });
     // 메뉴를 고르면 닫는다 — 같은 페이지 앵커일 수도 있으므로 이동 여부와 무관하게 닫는다.
-    var side = doc.querySelector(".v2-sidebar");
+    var side = doc.querySelector(".v2-drawer");
     if (side) {
       side.addEventListener("click", function (e) {
         var link = e.target.closest ? e.target.closest(".v2-nav__item") : null;
