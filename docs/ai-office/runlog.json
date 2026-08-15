@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-15T11:51:39.280124+09:00",
+  "updated_at": "2026-08-15T11:52:35.216803+09:00",
   "workers": {
     "Vault Sync": {
       "worker": "Vault Sync",
-      "last_run": "2026-08-15T11:50:45.259993+09:00",
+      "last_run": "2026-08-15T11:52:13.597837+09:00",
       "status": "completed",
       "items": 1,
-      "duration_ms": 21
+      "duration_ms": 2
     },
     "Asset Kiwoom": {
       "worker": "Asset Kiwoom",
@@ -38,10 +38,10 @@
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-08-15T11:50:45.719983+09:00",
+      "last_run": "2026-08-15T11:52:13.731642+09:00",
       "status": "completed",
       "items": 26,
-      "duration_ms": 1197
+      "duration_ms": 16926
     },
     "Asset Publish": {
       "worker": "Asset Publish",
@@ -57,21 +57,21 @@
       "items": 30,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-08-15T11:51:39.197651+09:00"
+      "last_run": "2026-08-15T11:52:13.730214+09:00"
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-08-15T11:50:46.918188+09:00",
+      "last_run": "2026-08-15T11:52:30.659067+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 5685
+      "duration_ms": 4501
     },
     "Translator": {
       "worker": "Translator",
-      "last_run": "2026-08-15T11:50:52.622154+09:00",
+      "last_run": "2026-08-15T11:52:35.166792+09:00",
       "status": "completed",
-      "items": 400,
-      "duration_ms": 36534
+      "items": 180,
+      "duration_ms": 0
     },
     "Publisher": {
       "worker": "Publisher",
@@ -79,14 +79,14 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-08-15T11:51:39.275618+09:00"
+      "last_run": "2026-08-15T11:52:35.216652+09:00"
     },
     "Trade Manager": {
       "worker": "Trade Manager",
-      "last_run": "2026-08-15T11:50:45.410624+09:00",
+      "last_run": "2026-08-15T11:52:13.672585+09:00",
       "status": "completed",
       "items": 62,
-      "duration_ms": 4
+      "duration_ms": 0
     },
     "Theme Analyst": {
       "worker": "Theme Analyst",
@@ -167,10 +167,10 @@
     },
     "Loop Ledger": {
       "worker": "Loop Ledger",
-      "last_run": "2026-08-15T11:50:45.667692+09:00",
+      "last_run": "2026-08-15T11:52:13.730248+09:00",
       "status": "completed",
       "items": 2,
-      "duration_ms": 51
+      "duration_ms": 1
     }
   }
 }
