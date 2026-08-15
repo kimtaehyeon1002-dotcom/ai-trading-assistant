@@ -83,17 +83,26 @@
   cursor: pointer;
   transition: background var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing);
 }
-.v2-btn--primary { background: var(--brand-primary); color: var(--text-inverse); }
+/* CTA — 꽉 찬 골드 채움 + 잉크 글자로 화면에서 가장 강한 대비를 만든다(대비 9.67:1 실측).
+   골드는 그린보다 명도가 높아 글자를 흰색으로 두면 읽히지 않는다 — 반드시 잉크색이다. */
+.v2-btn--primary { background: var(--brand-primary); color: var(--text-inverse); font-weight: 600; }
 .v2-btn--primary:hover { background: var(--brand-primary-hover); }
+.v2-btn--primary:active { background: var(--brand-primary-pressed); }
 .v2-btn--ghost { background: transparent; color: var(--text-secondary); }
-.v2-btn--ghost:hover { color: var(--brand-primary-hover); }
+.v2-btn--ghost:hover { color: var(--brand-primary-hover); border-color: var(--brand-primary); }
 
 /* ── Hero 통계(design/00 §3-2 num-display/num-lg) ── */
 .v2-stat-row { display: flex; gap: var(--space-12); margin-top: var(--space-6); flex-wrap: wrap; }
 .v2-stat { display: flex; flex-direction: column; gap: var(--space-1); }
 .v2-stat__label { font-size: var(--type-caption-size); color: var(--text-secondary); }
 .v2-stat__value { font-family: var(--font-num); font-variant-numeric: tabular-nums; color: var(--text-primary); }
-.v2-stat__value--display { font-size: var(--type-num-display-size); font-weight: var(--type-num-display-weight); line-height: var(--type-num-display-lh); }
+/* 데이터 비대칭 강조 — 화면에서 가장 중요한 단 하나의 수치는 과감히 키우고 골드를 입힌다.
+   등락 방향을 가진 값(.v2-updown)은 제외한다: 그 자리는 등락색이 의미를 지고 있고,
+   골드로 덮으면 상승·하락 정보가 사라진다.
+   tabular-nums도 해제한다 — 큰 단일 수치에서는 모든 숫자가 0의 폭을 가져 "121"처럼
+   헐거워 보인다. 자릿수 정렬이 필요한 곳은 표·리스트지 hero가 아니다. */
+.v2-stat__value--display { font-size: var(--type-num-display-size); font-weight: var(--type-num-display-weight); line-height: var(--type-num-display-lh); font-variant-numeric: proportional-nums; letter-spacing: -0.02em; }
+.v2-stat__value--display:not(.v2-updown) { color: var(--brand-primary); }
 .v2-stat__value--lg { font-size: var(--type-num-lg-size); font-weight: var(--type-num-lg-weight); line-height: var(--type-num-lg-lh); }
 .v2-cta-row { display: flex; align-items: center; gap: var(--space-2); margin-top: var(--space-6); }
 
@@ -370,6 +379,29 @@
 .v2-fs-title { font-size: var(--type-h1-size); font-weight: var(--type-h1-weight); color: var(--text-primary); margin: 0; }
 .v2-fs-intro { margin-top: var(--space-2); }
 .v2-fs-table { margin-top: var(--space-5); }
+.v2-fs-table[hidden] { display: none; }
+/* 상태 A 검색 필드(design/06 §2-1) — 560×48 surface.sunken / border.default / radius 8px */
+.v2-fs-search {
+  display: flex; align-items: center; gap: var(--space-3);
+  margin-top: var(--space-6); max-width: 560px; height: 48px;
+  padding: 0 var(--space-4);
+  background: var(--surface-sunken); border: 1px solid var(--border-default);
+  border-radius: var(--radius-control);
+}
+.v2-fs-search:focus-within { border-color: var(--brand-primary); }
+.v2-fs-search__icon { color: var(--text-tertiary); font-size: 18px; line-height: 1; }
+.v2-fs-search__input {
+  flex: 1; min-width: 0; background: transparent; border: none; outline: none;
+  color: var(--text-primary); font-family: var(--font-kr); font-size: var(--type-body-size);
+}
+.v2-fs-search__input::placeholder { color: var(--text-tertiary); }
+.v2-fs-recent { display: flex; align-items: center; gap: var(--space-3); flex-wrap: wrap; margin-top: var(--space-4); }
+.v2-fs-recent[hidden] { display: none; }
+.v2-fs-recent__title { font-size: var(--type-caption-size); color: var(--text-tertiary); }
+.v2-fs-recent__chips { display: flex; gap: var(--space-2); flex-wrap: wrap; }
+.v2-fs-recent__code { color: var(--text-tertiary); font-size: var(--type-overline-size); }
+.v2-fs-hint { margin-top: var(--space-5); }
+.v2-fs-hint[hidden] { display: none; }
 .v2-fs-strip {
   display: flex; align-items: baseline; gap: var(--space-4); flex-wrap: wrap;
   padding: var(--space-3) 0; border-bottom: 1px solid var(--border-subtle); margin-bottom: var(--space-6);
@@ -450,8 +482,19 @@
   font-size: var(--type-caption-size); cursor: pointer; font-family: inherit;
   transition: background var(--motion-fast) var(--motion-easing), color var(--motion-fast) var(--motion-easing);
 }
-.v2-filter-chip:hover { background: var(--surface-card-hover); color: var(--text-primary); }
-.v2-filter-chip[aria-pressed="true"] { background: var(--surface-selected); border-color: var(--brand-primary); color: var(--text-primary); }
+.v2-filter-chip:hover { background: var(--surface-card-hover); color: var(--text-primary); border-color: var(--border-strong); }
+/* 선택 상태 — 골드 테두리 + 활성 점. 평소엔 테두리만 있는 고스트라, 켜졌을 때의 변화가
+   확실히 읽힌다("내가 지금 이걸 제어하고 있다"는 신호). 점은 색 단독 신호가 아니라
+   aria-pressed와 배경·테두리 변화에 얹히는 보조 채널이다. */
+.v2-filter-chip[aria-pressed="true"] {
+  background: var(--surface-selected); border-color: var(--brand-primary);
+  color: var(--text-primary); font-weight: 600;
+}
+.v2-filter-chip[aria-pressed="true"]::before {
+  content: ""; width: 5px; height: 5px; border-radius: 50%;
+  background: var(--brand-primary); margin-right: var(--space-2); flex-shrink: 0;
+}
+.v2-filterbar .v2-filter-chip { display: inline-flex; align-items: center; }
 
 /* ── Asset/Portfolio 게이트(design/08 §2-1, Level 3) ── */
 .v2-gate-overlay {

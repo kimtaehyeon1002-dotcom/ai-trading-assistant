@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T11:51:33.520144+09:00",
+  "updated_at": "2026-08-15T11:51:39.280124+09:00",
   "workers": {
     "Vault Sync": {
       "worker": "Vault Sync",
@@ -46,18 +46,18 @@
     "Asset Publish": {
       "worker": "Asset Publish",
       "status": "completed",
-      "items": 0,
-      "detail": "수집 없음 · 승계 kiwoom,kis_isa,kis_foreign,bybit · 결측 없음 · 발행 O",
+      "items": 4,
+      "detail": "수집 kiwoom,kis_isa,kis_foreign,bybit · 승계 없음 · 결측 없음 · 발행 O",
       "duration_ms": 0,
       "last_run": "2026-08-15T11:51:31.927870+09:00"
     },
     "Vault Journal": {
       "worker": "Vault Journal",
       "status": "completed",
-      "items": 0,
+      "items": 30,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-08-15T11:51:32.492997+09:00"
+      "last_run": "2026-08-15T11:51:39.197651+09:00"
     },
     "News Research": {
       "worker": "News Research",
@@ -79,7 +79,7 @@
       "items": 3,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-08-15T11:51:33.520144+09:00"
+      "last_run": "2026-08-15T11:51:39.275618+09:00"
     },
     "Trade Manager": {
       "worker": "Trade Manager",
@@ -104,45 +104,45 @@
     },
     "Macro FRED": {
       "worker": "Macro FRED",
-      "last_run": "2026-08-14T08:48:58.387556+09:00",
+      "last_run": "2026-08-15T08:11:39.298560+09:00",
       "status": "completed",
       "items": 5,
-      "duration_ms": 8831
+      "duration_ms": 1520
     },
     "Macro ECOS": {
       "worker": "Macro ECOS",
-      "last_run": "2026-08-14T08:49:07.218810+09:00",
+      "last_run": "2026-08-15T08:11:40.818860+09:00",
       "status": "completed",
       "items": 1,
-      "duration_ms": 296
+      "duration_ms": 771
     },
     "Macro Upbit": {
       "worker": "Macro Upbit",
-      "last_run": "2026-08-14T08:49:07.515602+09:00",
+      "last_run": "2026-08-15T08:11:41.590061+09:00",
       "status": "completed",
       "items": 3,
-      "duration_ms": 198
+      "duration_ms": 906
     },
     "Stock KR Ranking": {
       "worker": "Stock KR Ranking",
-      "last_run": "2026-08-14T08:57:43.647662+09:00",
+      "last_run": "2026-08-15T07:09:27.037653+09:00",
       "status": "completed",
       "items": 2872,
-      "duration_ms": 1464
+      "duration_ms": 1539
     },
     "Stock US Ranking": {
       "worker": "Stock US Ranking",
-      "last_run": "2026-08-14T08:57:45.113066+09:00",
+      "last_run": "2026-08-15T07:09:28.578294+09:00",
       "status": "completed",
       "items": 503,
-      "duration_ms": 21418
+      "duration_ms": 44874
     },
     "Stock Hub 보조시세": {
       "worker": "Stock Hub 보조시세",
-      "last_run": "2026-08-14T08:58:06.542499+09:00",
+      "last_run": "2026-08-15T07:10:13.457759+09:00",
       "status": "completed",
       "items": 2,
-      "duration_ms": 701
+      "duration_ms": 369
     },
     "FS DART corpCode": {
       "worker": "FS DART corpCode",
@@ -160,10 +160,10 @@
     },
     "Macro History": {
       "worker": "Macro History",
-      "last_run": "2026-08-14T08:49:37.004219+09:00",
+      "last_run": "2026-08-15T08:11:52.442804+09:00",
       "status": "completed",
       "items": 15,
-      "duration_ms": 1286
+      "duration_ms": 889
     },
     "Loop Ledger": {
       "worker": "Loop Ledger",

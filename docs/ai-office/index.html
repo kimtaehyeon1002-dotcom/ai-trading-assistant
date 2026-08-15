@@ -14,42 +14,79 @@
   }catch(e){}})();</script>
 </head>
 <body class="v2" data-root="..">
-  <nav class="v2-sidebar" aria-label="주 메뉴">
-  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav-scrim" data-nav-close hidden></div>
+<nav class="v2-sidebar" id="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">
+    <span class="v2-sidebar__mark" aria-hidden="true">📈</span>
+    <span class="v2-sidebar__name">AI Trading Assistant</span>
+  </div>
   <div class="v2-nav">
     <a class="v2-nav__item" href="../index.html"
->Dashboard</a>
+ title="Dashboard">
+  <span class="v2-nav__icon" aria-hidden="true">◈</span>
+  <span class="v2-nav__label">Dashboard</span>
+</a>
+
     <a class="v2-nav__item" href="../macro/index.html"
->Macroeconomics</a>
+ title="Macroeconomics">
+  <span class="v2-nav__icon" aria-hidden="true">◎</span>
+  <span class="v2-nav__label">Macroeconomics</span>
+</a>
+
     <a class="v2-nav__item" href="../news/index.html"
->News</a>
+ title="News">
+  <span class="v2-nav__icon" aria-hidden="true">▤</span>
+  <span class="v2-nav__label">News</span>
+</a>
+
     <a class="v2-nav__item" href="../stock/index.html"
->Stock</a>
+ title="Stock">
+  <span class="v2-nav__icon" aria-hidden="true">▦</span>
+  <span class="v2-nav__label">Stock</span>
+</a>
+
     <a class="v2-nav__item" href="../financials/index.html"
->Financial Statements</a>
+ title="Financial Statements">
+  <span class="v2-nav__icon" aria-hidden="true">▥</span>
+  <span class="v2-nav__label">Financial Statements</span>
+</a>
+
     <a class="v2-nav__item" href="../ta/index.html"
->Technical Analysis</a>
+ title="Technical Analysis">
+  <span class="v2-nav__icon" aria-hidden="true">◨</span>
+  <span class="v2-nav__label">Technical Analysis</span>
+</a>
+
     <div class="v2-nav__divider"></div>
     <a class="v2-nav__item v2-nav__item--locked" href="../asset/index.html"
->
-      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
-    </a>
+ title="Asset">
+  <span class="v2-nav__icon" aria-hidden="true">◆</span>
+  <span class="v2-nav__label">Asset</span>
+<span class="v2-nav__lock" aria-hidden="true">🔒</span></a>
+
     <a class="v2-nav__item v2-nav__item--locked" href="../portfolio/index.html"
->
-      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
-    </a>
+ title="Portfolio">
+  <span class="v2-nav__icon" aria-hidden="true">◇</span>
+  <span class="v2-nav__label">Portfolio</span>
+<span class="v2-nav__lock" aria-hidden="true">🔒</span></a>
+
   </div>
   <div class="v2-sidebar__footer">
     <a class="v2-nav__item" href="../settings/index.html"
->Settings</a>
+ title="Settings">
+  <span class="v2-nav__icon" aria-hidden="true">⚙</span>
+  <span class="v2-nav__label">Settings</span>
+</a>
+
     <div class="v2-sidebar__version">AI Trading Assistant</div>
   </div>
 </nav>
 
   <header class="v2-header">
-  <div class="v2-header__context">
-    
-  </div>
+  <button type="button" class="v2-navtoggle" data-nav-toggle aria-label="메뉴 열기" aria-expanded="false" aria-controls="v2-sidebar">
+    <span class="v2-navtoggle__bars" aria-hidden="true"></span>
+  </button>
+  <div class="v2-header__context"></div>
   <div class="v2-header__search" role="search">
     <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
            placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
@@ -69,8 +106,8 @@
       <span class="v2-badge">위반 없음</span>
   </div>
   <div class="v2-card__body">
-      <div class="v2-macro-item__row"><span class="k">측정 시각</span><span class="v">2026-08-15 08:39 KST</span></div>
-      <div class="v2-macro-item__row"><span class="k">runlog</span><span class="v">ok — 워커 24종, updated_at 2026-08-15T08:18</span></div>
+      <div class="v2-macro-item__row"><span class="k">측정 시각</span><span class="v">2026-08-15 10:47 KST</span></div>
+      <div class="v2-macro-item__row"><span class="k">runlog</span><span class="v">ok — 워커 24종, updated_at 2026-08-15T10:23</span></div>
       <div class="v2-macro-item__row"><span class="k">workflows</span><span class="v">ok — 워크플로 6/6종 조회</span></div>
 
         <p class="v2-body">선언된 SLO(config/slo.py)를 모두 만족합니다.</p>
@@ -151,7 +188,7 @@
   <div class="v2-card__body">
     <p class="v2-body">Obsidian vault 저널 write-back (generators/vault_journal)</p>
     <div class="v2-macro-item__row"><span class="k">마지막 실행</span><span class="v">2026-08-15T11:51</span></div>
-    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">0</span></div>
+    <div class="v2-macro-item__row"><span class="k">처리 건수</span><span class="v">30</span></div>
     <div class="v2-macro-item__row"><span class="k">소요 시간</span><span class="v">0ms</span></div>
 <p class="v2-body v2-fs-sub">10_Journal/ write-back</p>  </div>
 
