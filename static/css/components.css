@@ -963,5 +963,404 @@
   .v2-content > .v2-card, .v2-content > .v2-rail > .v2-card { animation: none !important; }
   .v2-card--clickable:hover { transform: none; box-shadow: none; }
   .v2-btn:active, .v2-filter-chip:active { transform: none; }
-  .v2-sidebar { transition: none !important; }
+  .v2-drawer { transition: none !important; }
+}
+
+/* 오늘 일정 — 휴장 고지(design/01). 일정이 비었을 때 "왜 비었는가"가 먼저 읽혀야 한다 */
+.v2-sched-closed { display: flex; align-items: center; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-3); }
+.v2-sched-closed__badge { border-color: var(--accent-yellow); color: var(--accent-yellow); }
+.v2-sched-closed__next { font-size: var(--type-caption-size); color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+.v2-sched-row__note { font-size: var(--type-overline-size); color: var(--text-tertiary); margin-left: var(--space-2); }
+.v2-sched-note { margin-top: var(--space-3); padding-top: var(--space-2); border-top: 1px solid var(--border-subtle); }
+
+/* ══════════════════════════════════════════════════════════════════════════
+ * HUD 레이어 (2026-08-15) — 전술 인터페이스 형태 언어
+ *
+ * 레퍼런스의 핵심은 색이 아니라 **형태**다: 각진 컷 모서리, 코너 브래킷, 미세 눈금 레일,
+ * 얇은 발광선. 그래서 이 블록은 색보다 기하에 관한 규칙이 많다.
+ *
+ * 절제 규칙(이게 없으면 그냥 시끄러운 화면이 된다):
+ *  · 글로우는 **값이 살아 있다는 신호**로만. 모든 요소가 빛나면 위계가 사라진다.
+ *  · 브래킷은 카드당 **대각선 2개**만(좌상·우하). 4개는 프레임이 데이터보다 무거워진다.
+ *  · 주사선은 3.5% 불투명도. 여기서 더 올리면 본문 가독성을 갉아먹는다.
+ * ══════════════════════════════════════════════════════════════════════════ */
+
+/* ── 각진 패널 ── 컷 모서리는 clip-path로. 보더가 함께 잘리므로 발광 테두리는
+   ::before가 같은 clip-path를 쓰는 배경 레이어로 그린다(보더 속성으로는 컷을 못 따라간다). */
+.v2-card {
+  position: relative;
+  border: none;
+  background: var(--surface-card);
+  clip-path: polygon(
+    var(--hud-bevel) 0, 100% 0, 100% calc(100% - var(--hud-bevel)),
+    calc(100% - var(--hud-bevel)) 100%, 0 100%, 0 var(--hud-bevel)
+  );
+  box-shadow: inset 0 0 0 1px var(--hud-line-dim);
+}
+.v2-card:hover { box-shadow: inset 0 0 0 1px var(--hud-line); }
+/* 발광 테두리 — inset box-shadow로 그린다. clip-path가 그림자까지 함께 자르므로 컷 모서리를
+   그대로 따라간다. 처음엔 mask-composite로 테두리 레이어를 만들었는데, 그 방식은 마스크
+   합성이 지원되지 않으면 **카드 전체가 시안 반투명으로 덮이는** 실패 모드가 있다 —
+   장식 하나가 콘텐츠를 가리는 구조는 쓰지 않는다. */
+
+
+/* ── 코너 브래킷 ── 좌상·우하 대각선 2개. HUD의 "조준선" 모티프. */
+.v2-card::after {
+  content: "";
+  position: absolute;
+  left: 0; top: var(--hud-bevel);
+  width: 14px; height: 14px;
+  border-left: 2px solid var(--brand-primary);
+  border-bottom: none;
+  box-shadow: -1px 0 6px var(--hud-glow-color, transparent);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* ── 패널 헤더 ── 기술 라벨 + 눈금 레일. 제목이 "계기 이름"처럼 읽히게 한다. */
+.v2-card__title {
+  font-size: var(--type-h3-size);
+  letter-spacing: 0.06em;
+  display: inline-flex; align-items: center; gap: var(--space-2);
+}
+.v2-card__title::before {
+  content: "";
+  width: 6px; height: 6px;
+  background: var(--brand-primary);
+  box-shadow: var(--hud-glow-soft);
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+.v2-card__header {
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--border-subtle);
+  position: relative;
+}
+/* 헤더 밑줄 위에 얹히는 눈금 레일 — 반복 그라디언트라 DOM 비용 0 */
+.v2-card__header::after {
+  content: "";
+  position: absolute; left: 0; right: 0; bottom: -1px; height: 1px;
+  background: repeating-linear-gradient(to right,
+    var(--hud-line) 0 10px, transparent 10px 14px);
+  opacity: 0.5;
+}
+
+/* ── 패널 주사선 ── 아주 옅은 가로 줄무늬. 화면이 "발광 계기판"으로 읽히게 하는 최소 장치. */
+.v2-card--hero { background-image: repeating-linear-gradient(
+  to bottom, var(--hud-scanline) 0 1px, transparent 1px 4px); }
+
+/* ── 오버라인 = 기술 라벨 ── */
+.v2-overline { font-family: var(--font-mono); }
+
+/* ── 핵심 수치 ── 시안 글로우는 hero 1개에만. 등락색을 가진 값은 제외(방향이 정보다). */
+.v2-stat__value--display:not(.v2-updown) {
+  color: var(--brand-primary);
+  text-shadow: var(--hud-glow);
+}
+
+/* ── CTA ── 각진 시안 채움 + 글로우 */
+.v2-btn { border-radius: var(--radius-control); letter-spacing: 0.04em; }
+.v2-btn--primary { box-shadow: var(--hud-glow-soft); }
+.v2-btn--primary:hover { box-shadow: var(--hud-glow); }
+.v2-btn--ghost { border: 1px solid var(--border-default); }
+
+/* ── 필터 칩 ── 선택 시 시안 테두리 + 발광 점(레퍼런스의 토글 모티프) */
+.v2-filter-chip { border-radius: var(--radius-control); font-family: var(--font-mono); letter-spacing: 0.04em; }
+.v2-filter-chip[aria-pressed="true"] { box-shadow: inset 0 0 12px var(--hud-line-dim); }
+.v2-filter-chip[aria-pressed="true"]::before { box-shadow: var(--hud-glow-soft); border-radius: 999px; }
+
+/* ── 진행 바·게이지 ── 눈금이 새겨진 트랙 */
+.v2-goal-bar {
+  height: 14px; border-radius: 0;
+  background:
+    repeating-linear-gradient(to right, var(--hud-line-dim) 0 1px, transparent 1px 12.5%),
+    var(--surface-sunken);
+  border: 1px solid var(--border-subtle);
+}
+.v2-goal-bar__fill {
+  background: linear-gradient(to right, var(--p-ramp-4, var(--brand-primary)), var(--brand-primary));
+  box-shadow: var(--hud-glow-soft);
+  border-radius: 0;
+}
+
+/* ── 배분 바 ── 각진 세그먼트 + 세그먼트 사이 표면 갭 유지 */
+.v2-alloc-bar { border-radius: 0; border: 1px solid var(--border-subtle); background: var(--surface-sunken); }
+.v2-alloc-bar__seg:first-child, .v2-alloc-bar__seg:last-child { border-radius: 0; }
+.v2-alloc-bar__seglabel { font-family: var(--font-mono); }
+
+/* ── 마이크로 바 ── */
+.v2-weight-bar { border-radius: 0; background: var(--surface-sunken); border: 1px solid var(--border-subtle); }
+.v2-weight-bar__fill { border-radius: 0; background: var(--brand-primary); opacity: 0.8; }
+.v2-radar-row__track { border-radius: 0; background: var(--surface-sunken); }
+.v2-radar-row__bar { border-radius: 0; background: var(--p-ramp-3, var(--brand-primary)); }
+
+/* ── 라이브 점 ── HUD에서는 사각 다이아몬드가 더 어울린다 */
+.v2-live-dot { border-radius: 0; transform: rotate(45deg); }
+[data-live="on"] .v2-live-dot { box-shadow: var(--hud-glow-soft); }
+
+/* ── 사이드바 ── 활성 항목에 발광 레일 */
+.v2-nav__item[aria-current="page"]::before { box-shadow: var(--hud-glow-soft); border-radius: 0; }
+.v2-nav__icon { font-family: var(--font-mono); }
+
+/* ── 헤더 ── 하단에 눈금 레일 */
+.v2-header { position: sticky; }
+.v2-header::after {
+  content: "";
+  position: absolute; left: 0; right: 0; bottom: -1px; height: 1px;
+  background: repeating-linear-gradient(to right,
+    var(--hud-line-dim) 0 24px, var(--hud-line) 24px 26px);
+  pointer-events: none;
+}
+
+/* ── 표 ── 행 호버 시 좌측 시안 인디케이터 */
+.v2-rank-row { position: relative; }
+.v2-rank-row:hover td:first-child { box-shadow: inset 2px 0 0 var(--brand-primary); }
+
+/* ── 배지 ── 각지게 */
+.v2-badge { border-radius: 2px; font-family: var(--font-mono); letter-spacing: 0.06em; }
+.v2-badge--live, .v2-freshness-badge { border-radius: 2px; }
+
+/* ── 모션 축소 ── 글로우는 정적이라 남기고, 전환만 끈다 */
+
+/* 좁은 화면에서는 컷 모서리를 줄인다 — 카드가 작아지면 12px 컷이 헤더를 잠식한다 */
+@media (max-width: 719px) {
+  :root { --hud-bevel: 8px; }
+  .v2-card::after { width: 10px; height: 10px; }
+}
+
+/* ── 차트 HUD 처리 ──
+ * 발광은 선과 끝점에만. 면·격자까지 빛나면 값이 어디 있는지 알 수 없게 된다.
+ * drop-shadow는 stroke 색을 그대로 따라가므로 등락 방향색이 그대로 빛난다(별도 색 지정 불필요). */
+.v2-chart__line { filter: drop-shadow(0 0 4px currentColor); }
+.v2-chart__end { filter: drop-shadow(0 0 5px currentColor); }
+.v2-chart__gridline { stroke-dasharray: 2 4; shape-rendering: auto; }
+.v2-chart__ytick, .v2-chart__xtick { font-family: var(--font-mono); letter-spacing: 0.04em; }
+.v2-chart__tip {
+  border-radius: 0;
+  border-color: var(--hud-line);
+  box-shadow: 0 0 16px var(--overlay-scrim), var(--hud-glow-soft);
+  clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px);
+}
+.v2-chart__crosshair { stroke: var(--brand-primary); stroke-opacity: 0.6; }
+.v2-macro-tile { border-radius: 0; }
+.v2-macro-tile:hover { box-shadow: inset 0 0 0 1px var(--hud-line-dim); }
+
+/* 모션 축소 — 글로우(정적)는 남기고 전환만 끈다 */
+@media (prefers-reduced-motion: reduce) {
+  .v2-card { transition: none; }
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+ * 방사형 내비게이터 — Morning Report를 축으로 한 시계방향 배치
+ *
+ * 기하: 12시 방향에서 시작해 360/n 간격으로 시계방향. 각 노드는 rotate(θ)로 자리를 잡고
+ * rotate(-θ)로 되돌려 **글자는 항상 수평**을 유지한다. 스포크(살)는 되돌리지 않는 별도
+ * 요소라 중심에서 뻗는 선이 된다.
+ *
+ * 접근성: 위치는 transform이 만들 뿐 DOM 순서는 논리 순서 그대로다 — 탭 이동과 스크린리더
+ * 낭독이 화면 각도와 어긋나지 않는다.
+ *
+ * 좁은 화면에서는 원을 포기하고 격자로 되돌린다. 원형 배치는 반지름만큼의 폭이 있어야
+ * 성립하는데, 390px에서 그걸 지키면 노드가 겹치거나 글자가 잘린다.
+ * ══════════════════════════════════════════════════════════════════════════ */
+.v2-radial-wrap { display: flex; justify-content: center; }
+.v2-radial {
+  --radial-r: 190px;      /* 중심 → 노드 거리 */
+  --node-w: 132px;
+  --node-h: 48px;
+  width: 100%;
+  display: flex; justify-content: center;
+}
+.v2-radial__stage {
+  position: relative;
+  width: calc(var(--radial-r) * 2 + var(--node-w));
+  height: calc(var(--radial-r) * 2 + var(--node-h) + var(--space-6));
+  max-width: 100%;
+}
+
+/* 동심 링 — 레퍼런스의 계기 링. 점선이라 데이터 라인과 혼동되지 않는다. */
+.v2-radial__ring {
+  position: absolute; left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+.v2-radial__ring--outer {
+  width: calc(var(--radial-r) * 2); height: calc(var(--radial-r) * 2);
+  border: 1px dashed var(--hud-line-dim);
+}
+.v2-radial__ring--inner {
+  width: calc(var(--radial-r) * 0.92); height: calc(var(--radial-r) * 0.92);
+  border: 1px solid var(--hud-line-dim);
+  box-shadow: inset 0 0 24px var(--hud-line-dim);
+}
+/* 호버 시에만 링이 돈다 — 상시 회전은 데이터와 경쟁하는 배경 모션이라 금지다(design/00 §10-2).
+   조작 중에만 반응하므로 "내가 만지고 있다"는 신호가 된다. */
+.v2-radial:hover .v2-radial__ring--outer { animation: v2-radial-spin 24s linear infinite; }
+@keyframes v2-radial-spin { to { transform: translate(-50%, -50%) rotate(360deg); } }
+
+/* 스포크 — 중심에서 각 노드로 뻗는 살. 되돌림 회전이 없어 방향이 그대로 남는다. */
+.v2-radial__spoke {
+  position: absolute; left: 50%; bottom: 50%;
+  width: 1px; height: var(--radial-r);
+  transform-origin: 50% 100%;
+  transform: rotate(calc(var(--i) * (360deg / var(--n))));
+  background: linear-gradient(to top, var(--hud-line-dim), transparent 78%);
+  pointer-events: none;
+}
+
+/* 중심 코어 */
+.v2-radial__core {
+  position: absolute; left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(var(--radial-r) * 0.88);
+  height: calc(var(--radial-r) * 0.88);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: var(--space-1);
+  text-align: center;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 45%, var(--hud-line-dim), transparent 68%), var(--surface-card);
+  box-shadow: 0 0 0 1px var(--hud-line), var(--hud-glow);
+  padding: var(--space-3);
+}
+.v2-radial__core-title {
+  font-size: var(--type-h2-size); font-weight: 700; line-height: 1.2;
+  color: var(--brand-primary); text-shadow: var(--hud-glow);
+  letter-spacing: 0.02em;
+}
+.v2-radial__core-meta {
+  font-family: var(--font-mono); font-size: var(--type-overline-size);
+  color: var(--text-tertiary); letter-spacing: 0.06em;
+}
+
+/* 위성 노드 */
+.v2-radial__node {
+  position: absolute; left: 50%; top: 50%;
+  width: var(--node-w); min-height: var(--node-h);
+  /* 고정 margin으로 중심을 맞추면 라벨이 줄바꿈된 노드만 아래로 밀린다(실측 반경 184~198).
+     translate(-50%,-50%)를 회전 앞에 두면 **실제 크기와 무관하게** 상자 중심이 원주에 놓인다. */
+  transform:
+    translate(-50%, -50%)
+    rotate(calc(var(--i) * (360deg / var(--n))))
+    translateY(calc(-1 * var(--radial-r)))
+    rotate(calc(-1 * var(--i) * (360deg / var(--n))));
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 2px;
+  padding: var(--space-2);
+  background: var(--surface-card);
+  color: var(--text-secondary);
+  clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+  box-shadow: inset 0 0 0 1px var(--hud-line-dim);
+  transition: color var(--motion-fast) var(--motion-easing),
+              box-shadow var(--motion-fast) var(--motion-easing),
+              background var(--motion-fast) var(--motion-easing);
+}
+.v2-radial__node:hover, .v2-radial__node:focus-visible {
+  color: var(--text-primary);
+  background: var(--surface-card-hover);
+  box-shadow: inset 0 0 0 1px var(--brand-primary), var(--hud-glow-soft);
+}
+.v2-radial__node-icon { font-family: var(--font-mono); font-size: 15px; color: var(--brand-primary); line-height: 1; }
+.v2-radial__node-label {
+  font-size: var(--type-caption-size); font-weight: 600; text-align: center;
+  line-height: 1.25; letter-spacing: 0.02em;
+}
+.v2-radial__node--locked .v2-radial__node-icon { color: var(--text-tertiary); }
+.v2-radial__node-lock { font-size: 9px; }
+
+/* ── 중형 화면: 반지름을 줄인다 ── */
+@media (max-width: 1279px) {
+  .v2-radial { --radial-r: 158px; --node-w: 118px; }
+}
+
+/* ── 좁은 화면: 원을 포기하고 격자로 ──
+   transform·절대배치를 전부 해제한다. 부분만 풀면 노드가 겹친 채 남는다. */
+@media (max-width: 899px) {
+  .v2-radial__stage {
+    position: static; width: 100%; height: auto;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: var(--space-3);
+  }
+  .v2-radial__ring, .v2-radial__spoke { display: none; }
+  .v2-radial__core {
+    position: static; transform: none; width: auto; height: auto;
+    grid-column: 1 / -1; border-radius: 0;
+    flex-direction: row; justify-content: flex-start; gap: var(--space-3);
+    padding: var(--space-4);
+    clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+  }
+  .v2-radial__node {
+    position: static; transform: none; margin: 0; width: auto;
+    flex-direction: row; justify-content: flex-start; gap: var(--space-2);
+    padding: var(--space-3);
+  }
+  .v2-radial__node-label { text-align: left; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .v2-radial:hover .v2-radial__ring--outer { animation: none; }
+}
+
+/* ── 방사형 게이지(HUD 계기) ────────────────────────────────────────────────
+ * 텍스트만 있던 지표에 형태를 준다. 3/4 원(아래가 열린 계기)이라 눈이 0 지점을 바로 찾는다. */
+.v2-gauge { position: relative; width: 100%; max-width: 132px; aspect-ratio: 1; margin: 0 auto; }
+.v2-gauge__svg { width: 100%; height: 100%; display: block; overflow: visible; }
+.v2-gauge__track, .v2-gauge__zone, .v2-gauge__value {
+  fill: none; stroke-width: 7; stroke-linecap: butt;
+  transform-origin: 50% 50%;
+}
+.v2-gauge__track { stroke: var(--surface-sunken); }
+.v2-gauge__zone { stroke-width: 3; opacity: 0.55; }
+.v2-gauge__zone--up { stroke: var(--market-up); }
+.v2-gauge__zone--down { stroke: var(--market-down); }
+.v2-gauge__value { stroke: var(--brand-primary); filter: drop-shadow(0 0 5px currentColor); color: var(--brand-primary); }
+.v2-gauge__readout {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 2px; pointer-events: none;
+}
+.v2-gauge__num {
+  font-family: var(--font-num); font-size: var(--type-num-lg-size); font-weight: 700;
+  color: var(--text-primary); font-variant-numeric: tabular-nums; line-height: 1;
+}
+.v2-gauge__label {
+  font-family: var(--font-mono); font-size: var(--type-overline-size);
+  letter-spacing: var(--type-overline-tracking); color: var(--text-tertiary); text-transform: uppercase;
+}
+/* 게이지 묶음 — 카드 안에서 나란히 */
+.v2-gauge-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: var(--space-4); align-items: start; }
+
+/* ── 지표 미터 ── 값 하나에 방향과 크기를 함께 주는 가로 막대(중앙 0 기준) */
+.v2-meter { position: relative; height: 6px; background: var(--surface-sunken); margin-top: var(--space-2); border: 1px solid var(--border-subtle); }
+.v2-meter::before { content: ""; position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--border-strong); }
+.v2-meter__fill { position: absolute; top: 0; bottom: 0; background: var(--market-flat); }
+.v2-meter__fill.up { background: var(--market-up); }
+.v2-meter__fill.down { background: var(--market-down); }
+
+/* ── 런처(첫 화면) ── 이동만 하는 화면이라 여백이 넉넉해야 한다. 카드가 없으므로
+   방사형 내비게이터가 화면의 유일한 주인공이다. */
+.v2-launcher { display: flex; flex-direction: column; align-items: center; gap: var(--space-6); padding: clamp(var(--space-4), 4vw, var(--space-12)) 0; }
+.v2-launcher__head { text-align: center; max-width: 52ch; }
+.v2-launcher__head .v2-body { margin-top: var(--space-2); }
+.v2-launcher__head .v2-h1 { margin-top: var(--space-2); }
+
+/* 코어가 링크가 됐으므로 눌리는 반응을 준다 */
+a.v2-radial__core { text-decoration: none; transition: box-shadow var(--motion-fast) var(--motion-easing); }
+a.v2-radial__core:hover, a.v2-radial__core:focus-visible {
+  box-shadow: 0 0 0 1px var(--brand-primary), 0 0 28px var(--hud-glow-color);
+}
+
+/* ── Private 서브탭 ── Asset·Portfolio가 하나로 묶였으므로 페이지 안에서 서로 오간다 */
+.v2-subtabs { display: flex; gap: var(--space-2); margin-bottom: var(--space-4); grid-column: 1 / -1; }
+.v2-subtabs__item {
+  display: inline-flex; align-items: center; gap: var(--space-2);
+  height: 34px; padding: 0 var(--space-4);
+  font-size: var(--type-caption-size); font-weight: 600; color: var(--text-secondary);
+  background: var(--surface-card); box-shadow: inset 0 0 0 1px var(--hud-line-dim);
+  clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+}
+.v2-subtabs__item:hover { color: var(--text-primary); background: var(--surface-card-hover); }
+.v2-subtabs__item[aria-current="page"] {
+  color: var(--text-primary); background: var(--surface-selected);
+  box-shadow: inset 0 0 0 1px var(--brand-primary), var(--hud-glow-soft);
 }

@@ -16,14 +16,20 @@
 </a>
 {% endmacro %}
 
-{% macro sidebar(nav, root) %}
+{#
+  서랍(drawer) — **모바일 전용**이다. 데스크톱 좌측 레일은 제거했고(첫 화면의 방사형 런처와
+  헤더 가로 내비가 그 역할을 대신한다), 좁은 화면에서 가로 내비가 들어갈 자리가 없을 때만
+  이 서랍이 나온다.
+#}
+{% macro drawer(nav, root) %}
 <div class="v2-nav-scrim" data-nav-close hidden></div>
-<nav class="v2-sidebar" id="v2-sidebar" aria-label="주 메뉴">
-  <div class="v2-sidebar__logo">
-    <span class="v2-sidebar__mark" aria-hidden="true">📈</span>
-    <span class="v2-sidebar__name">{{ site.title }}</span>
+<nav class="v2-drawer" id="v2-drawer" aria-label="주 메뉴">
+  <div class="v2-drawer__logo">
+    <span class="v2-drawer__mark" aria-hidden="true">📈</span>
+    <span class="v2-drawer__name">{{ site.title }}</span>
   </div>
   <div class="v2-nav">
+    {{ nav_item({"key": "launcher", "label": "홈", "href": "/index.html", "icon": "⌂"}, root, nav.active) }}
     {% for item in nav.main_items %}
     {{ nav_item(item, root, nav.active) }}
     {% endfor %}
@@ -32,31 +38,93 @@
     {{ nav_item(item, root, nav.active, locked=True) }}
     {% endfor %}
   </div>
-  <div class="v2-sidebar__footer">
+  <div class="v2-drawer__footer">
     {{ nav_item(nav.settings_item, root, nav.active) }}
-    <div class="v2-sidebar__version">{{ site.title }}</div>
   </div>
 </nav>
 {% endmacro %}
 
-{% macro header(nav) %}
-{% set _main_label = nav.main_items | selectattr('key', 'equalto', nav.active) | map(attribute='label') | first %}
-{% set _locked_label = nav.locked_items | selectattr('key', 'equalto', nav.active) | map(attribute='label') | first %}
-{% set _label = _main_label or _locked_label or (nav.settings_item.label if nav.settings_item.key == nav.active else "") %}
+{#
+  방사형 내비게이터 — Morning Report를 축으로 나머지 탭을 시계방향으로 배치한다.
+
+  순서는 config/nav.py의 나열 순서를 그대로 따른다(12시부터 시계방향):
+  Macroeconomics → News → Stock → Financial Statements → Technical Analysis → Asset → Portfolio.
+  **DOM 순서 = 논리 순서**이며 위치는 CSS transform이 만든다 — 스크린리더·키보드 탭 이동은
+  화면의 각도와 무관하게 이 순서로 흐른다(원형 배치가 접근성을 깨지 않게 하는 지점).
+
+  좁은 화면에서는 원이 성립하지 않으므로 CSS가 격자로 되돌린다(components.css 참조).
+#}
+{% macro radial(nav, root, meta=None) %}
+{% set spokes = nav.main_items | rejectattr('key', 'equalto', 'morning') | list %}
+{% set nodes = spokes + (nav.locked_items | list) %}
+<nav class="v2-radial" style="--n: {{ nodes|length }}" aria-label="섹션 바로가기">
+  <div class="v2-radial__stage">
+    <div class="v2-radial__ring v2-radial__ring--outer" aria-hidden="true"></div>
+    <div class="v2-radial__ring v2-radial__ring--inner" aria-hidden="true"></div>
+    {% for item in nodes %}
+    <span class="v2-radial__spoke" style="--i: {{ loop.index0 }}" aria-hidden="true"></span>
+    {% endfor %}
+
+    {% set core = nav.main_items | selectattr('key', 'equalto', 'morning') | first %}
+    <a class="v2-radial__core" href="{{ root }}{{ core.href }}">
+      <span class="v2-overline">CORE</span>
+      <strong class="v2-radial__core-title">{{ core.label }}</strong>
+      {% if meta %}<span class="v2-radial__core-meta">{{ meta }}</span>{% endif %}
+    </a>
+
+    {% for item in nodes %}
+    <a class="v2-radial__node{% if item.locked %} v2-radial__node--locked{% endif %}"
+       style="--i: {{ loop.index0 }}" href="{{ root }}{{ item.href }}">
+      <span class="v2-radial__node-icon" aria-hidden="true">{{ item.icon }}</span>
+      <span class="v2-radial__node-label">{{ item.label }}</span>
+      {% if item.locked %}<span class="v2-radial__node-lock" aria-hidden="true">🔒</span>{% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</nav>
+{% endmacro %}
+
+{% macro header(nav, root='.') %}
+{% set _all = (nav.main_items | list) + (nav.locked_items | list) + [nav.settings_item] %}
+{% set _label = _all | selectattr('key', 'equalto', nav.active) | map(attribute='label') | first %}
 <header class="v2-header">
-  {# 서랍 토글 — 1024px 미만에서만 보인다. 좁은 화면에서 메뉴로 가는 유일한 길이라
-     검색·시계보다 앞(좌측)에 둔다. #}
-  <button type="button" class="v2-navtoggle" data-nav-toggle aria-label="메뉴 열기" aria-expanded="false" aria-controls="v2-sidebar">
+  <button type="button" class="v2-navtoggle" data-nav-toggle aria-label="메뉴 열기" aria-expanded="false" aria-controls="v2-drawer">
     <span class="v2-navtoggle__bars" aria-hidden="true"></span>
   </button>
-  <div class="v2-header__context">{{ _label }}</div>
+
+  {# 브랜드 마크가 런처로 돌아가는 유일한 상시 통로다 — 좌측 레일을 없앤 이상 이 링크가 없으면
+     하위 페이지에서 첫 화면으로 갈 방법이 사라진다. #}
+  <a class="v2-header__brand" href="{{ root }}/index.html" aria-label="홈(런처)로 이동">
+    <span class="v2-header__brand-mark" aria-hidden="true">◈</span>
+    <span class="v2-header__brand-name">{{ site.title }}</span>
+  </a>
+
+  {# 가로 내비 — 하위 페이지끼리 런처를 거치지 않고 오갈 수 있어야 한다. 좁아지면 CSS가 감춘다. #}
+  <nav class="v2-topnav" aria-label="섹션">
+    {% for item in nav.main_items %}
+    <a class="v2-topnav__item" href="{{ root }}{{ item.href }}"
+       {% if item.key == nav.active %}aria-current="page"{% endif %}>
+      <span class="v2-topnav__icon" aria-hidden="true">{{ item.icon }}</span>
+      <span class="v2-topnav__label">{{ item.label }}</span>
+    </a>
+    {% endfor %}
+    {% for item in nav.locked_items %}
+    <a class="v2-topnav__item v2-topnav__item--locked" href="{{ root }}{{ item.href }}"
+       {% if item.key == nav.active %}aria-current="page"{% endif %}>
+      <span class="v2-topnav__icon" aria-hidden="true">{{ item.icon }}</span>
+      <span class="v2-topnav__label">{{ item.label }}</span>
+    </a>
+    {% endfor %}
+  </nav>
+
+  <div class="v2-header__context" hidden>{{ _label }}</div>
   <div class="v2-header__search" role="search">
     <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
-           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+           placeholder="검색" aria-label="종목·뉴스·페이지 검색">
     <kbd class="v2-header__search-kbd">Ctrl K</kbd>
     <div class="v2-search-results" data-search-results hidden></div>
   </div>
   <div class="v2-header__clock"></div>
-  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+  <a class="v2-header__settings" href="{{ root }}{{ nav.settings_item.href }}" aria-label="Settings">⚙</a>
 </header>
 {% endmacro %}

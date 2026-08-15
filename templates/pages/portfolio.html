@@ -8,6 +8,16 @@
 #}
 {% block title %}Portfolio · {{ site.title }}{% endblock %}
 {% block content %}
+{# Private 서브탭 — 내비 최상위에서 Asset·Portfolio를 하나로 묶은 대가로,
+   두 화면 사이 이동을 페이지 안에서 보장한다(config/nav.PRIVATE_VIEWS). #}
+<nav class="v2-subtabs" aria-label="Private 화면">
+  {% for v in nav.private_views %}
+  <a class="v2-subtabs__item" href="{{ root }}{{ v.href }}"
+     {% if v.key == 'portfolio' %}aria-current="page"{% endif %}>
+    <span aria-hidden="true">{{ v.icon }}</span>{{ v.label }}
+  </a>
+  {% endfor %}
+</nav>
 
 {{ gatem.gate_modal('portfolio', 'Portfolio') }}
 

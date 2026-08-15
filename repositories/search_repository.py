@@ -16,7 +16,9 @@ _MAX_NEWS = 50
 
 
 def _pages() -> list[dict]:
-    items = [*nav.MAIN_ITEMS, *nav.LOCKED_ITEMS, nav.SETTINGS_ITEM]
+    # Private은 내비에서 하나로 묶였지만 검색에서는 Asset·Portfolio를 따로 찾을 수 있어야 한다
+    # — 묶음은 이동 편의를 위한 것이지 그 화면들이 사라진 게 아니다.
+    items = [*nav.MAIN_ITEMS, *nav.LOCKED_ITEMS, *nav.PRIVATE_VIEWS, nav.SETTINGS_ITEM]
     return [{"key": i.key, "label": i.label, "href": i.href} for i in items]
 
 

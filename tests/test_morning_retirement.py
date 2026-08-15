@@ -19,7 +19,18 @@ def test_generate_always_returns_none_but_runs_pipeline(monkeypatch):
     assert result is None
 
 
-def test_archive_is_gone():
-    """design/25: 아카이브 삭제 후 morning 디렉터리를 만들거나 참조하지 않는다."""
+def test_dated_archive_is_gone():
+    """design/25: **날짜별 아카이브**가 부활하지 않는다.
+
+    2026-08-15 경로 재편으로 docs/morning/index.html이 생겼다 — 첫 화면을 이동 전용 런처로
+    바꾸면서 Morning Report 본문을 이 경로로 옮긴 것이다. 은퇴 계약이 막으려던 것은
+    "docs/morning/YYYY-MM-DD/" 형태의 **동결 아카이브**(v1 셸 상속으로 스타일이 깨지고 죽은
+    링크를 가리키던 페이지들)이지 morning 경로 자체가 아니었으므로, 검사 대상을 그 실체로
+    좁힌다. 단일 페이지는 허용하고 날짜 디렉터리는 계속 금지한다.
+    """
     assert not hasattr(morning_gen, "list_dates")
-    assert not (DOCS_DIR / "morning").exists()
+    morning_dir = DOCS_DIR / "morning"
+    if not morning_dir.exists():
+        return
+    dated = [d.name for d in morning_dir.iterdir() if d.is_dir() and d.name[:4].isdigit()]
+    assert dated == [], f"날짜별 아카이브가 되살아났다: {dated}"

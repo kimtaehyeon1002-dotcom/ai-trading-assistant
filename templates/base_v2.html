@@ -26,9 +26,16 @@
     var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
   }catch(e){}})();</script>
 </head>
-<body class="v2" data-root="{{ root }}">
-  {{ navm.sidebar(nav, root) }}
-  {{ navm.header(nav) }}
+<body class="v2 {% block body_class %}{% endblock %}" data-root="{{ root }}">
+  {#
+    셸 크롬(서랍 + 헤더). 런처는 이 블록을 비워 **마크업 자체를 내보내지 않는다** —
+    CSS로 숨기면 헤더의 검색 입력·링크가 DOM에 남아 탭 이동과 스크린리더에 잡힌다.
+    보이지 않는 것과 없는 것은 다르다.
+  #}
+  {% block chrome %}
+  {{ navm.drawer(nav, root) }}
+  {{ navm.header(nav, root) }}
+  {% endblock %}
   <main class="v2-main">
     <div class="v2-content">
       {% block content %}{% endblock %}

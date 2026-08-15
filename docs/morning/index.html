@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark" data-updown="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Morning Report · AI Trading Assistant</title>
+  <link rel="stylesheet" href="../static/css/tokens.css?v=817c341b">
+  <link rel="stylesheet" href="../static/css/base_v2.css?v=817c341b">
+  <link rel="stylesheet" href="../static/css/components.css?v=817c341b">
+  <script>(function(){try{
+    var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
+    var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
+    var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
+  }catch(e){}})();</script>
+</head>
+<body class="v2 " data-root="..">
+  <div class="v2-nav-scrim" data-nav-close hidden></div>
+<nav class="v2-drawer" id="v2-drawer" aria-label="주 메뉴">
+  <div class="v2-drawer__logo">
+    <span class="v2-drawer__mark" aria-hidden="true">📈</span>
+    <span class="v2-drawer__name">AI Trading Assistant</span>
+  </div>
+  <div class="v2-nav">
+    <a class="v2-nav__item" href="../index.html"
+ title="홈">
+  <span class="v2-nav__icon" aria-hidden="true">⌂</span>
+  <span class="v2-nav__label">홈</span>
+</a>
+
+    <a class="v2-nav__item" href="../morning/index.html"
+aria-current="page" title="Morning Report">
+  <span class="v2-nav__icon" aria-hidden="true">◈</span>
+  <span class="v2-nav__label">Morning Report</span>
+</a>
+
+    <a class="v2-nav__item" href="../macro/index.html"
+ title="Macroeconomics">
+  <span class="v2-nav__icon" aria-hidden="true">◎</span>
+  <span class="v2-nav__label">Macroeconomics</span>
+</a>
+
+    <a class="v2-nav__item" href="../news/index.html"
+ title="News">
+  <span class="v2-nav__icon" aria-hidden="true">▤</span>
+  <span class="v2-nav__label">News</span>
+</a>
+
+    <a class="v2-nav__item" href="../stock/index.html"
+ title="Stock">
+  <span class="v2-nav__icon" aria-hidden="true">▦</span>
+  <span class="v2-nav__label">Stock</span>
+</a>
+
+    <a class="v2-nav__item" href="../financials/index.html"
+ title="Financial Statements">
+  <span class="v2-nav__icon" aria-hidden="true">▥</span>
+  <span class="v2-nav__label">Financial Statements</span>
+</a>
+
+    <a class="v2-nav__item" href="../ta/index.html"
+ title="Technical Analysis">
+  <span class="v2-nav__icon" aria-hidden="true">◨</span>
+  <span class="v2-nav__label">Technical Analysis</span>
+</a>
+
+    <div class="v2-nav__divider"></div>
+    <a class="v2-nav__item v2-nav__item--locked" href="../asset/index.html"
+ title="Private">
+  <span class="v2-nav__icon" aria-hidden="true">◆</span>
+  <span class="v2-nav__label">Private</span>
+<span class="v2-nav__lock" aria-hidden="true">🔒</span></a>
+
+  </div>
+  <div class="v2-drawer__footer">
+    <a class="v2-nav__item" href="../settings/index.html"
+ title="Settings">
+  <span class="v2-nav__icon" aria-hidden="true">⚙</span>
+  <span class="v2-nav__label">Settings</span>
+</a>
+
+  </div>
+</nav>
+
+  <header class="v2-header">
+  <button type="button" class="v2-navtoggle" data-nav-toggle aria-label="메뉴 열기" aria-expanded="false" aria-controls="v2-drawer">
+    <span class="v2-navtoggle__bars" aria-hidden="true"></span>
+  </button>
+
+  <a class="v2-header__brand" href="../index.html" aria-label="홈(런처)로 이동">
+    <span class="v2-header__brand-mark" aria-hidden="true">◈</span>
+    <span class="v2-header__brand-name">AI Trading Assistant</span>
+  </a>
+
+  <nav class="v2-topnav" aria-label="섹션">
+    <a class="v2-topnav__item" href="../morning/index.html"
+aria-current="page">
+      <span class="v2-topnav__icon" aria-hidden="true">◈</span>
+      <span class="v2-topnav__label">Morning Report</span>
+    </a>
+    <a class="v2-topnav__item" href="../macro/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◎</span>
+      <span class="v2-topnav__label">Macroeconomics</span>
+    </a>
+    <a class="v2-topnav__item" href="../news/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">▤</span>
+      <span class="v2-topnav__label">News</span>
+    </a>
+    <a class="v2-topnav__item" href="../stock/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">▦</span>
+      <span class="v2-topnav__label">Stock</span>
+    </a>
+    <a class="v2-topnav__item" href="../financials/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">▥</span>
+      <span class="v2-topnav__label">Financial Statements</span>
+    </a>
+    <a class="v2-topnav__item" href="../ta/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◨</span>
+      <span class="v2-topnav__label">Technical Analysis</span>
+    </a>
+    <a class="v2-topnav__item v2-topnav__item--locked" href="../asset/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◆</span>
+      <span class="v2-topnav__label">Private</span>
+    </a>
+  </nav>
+
+  <div class="v2-header__context" hidden>Morning Report</div>
+  <div class="v2-header__search" role="search">
+    <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
+           placeholder="검색" aria-label="종목·뉴스·페이지 검색">
+    <kbd class="v2-header__search-kbd">Ctrl K</kbd>
+    <div class="v2-search-results" data-search-results hidden></div>
+  </div>
+  <div class="v2-header__clock"></div>
+  <a class="v2-header__settings" href="../settings/index.html" aria-label="Settings">⚙</a>
+</header>
+
+  <main class="v2-main">
+    <div class="v2-content">
+
+<div class="v2-card v2-card--hero v2-span-12 " id="dash-hero">
+    <div class="v2-card__header v2-hero__header">
+    <h3 class="v2-card__title">Morning Report</h3>
+    <div class="v2-hero__header-actions">
+      <span class="v2-card__meta">2026-08-15 13:38 KST</span>
+    </div>
+  </div>
+  <div class="v2-hero-headline">미국 3대 지수 하락 마감 · 코스피 ▲ 2.42%</div>
+  <div class="v2-hero-cols">
+    <div class="v2-hero-col">
+      <div class="v2-overline">미국 증시</div>
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">S&amp;P500</span>
+        <span>
+          <span class="v2-stat__value">7,786</span>
+          <span class="v2-updown down">▼ −0.17%</span>
+        </span>
+      </div>
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">NASDAQ</span>
+        <span>
+          <span class="v2-stat__value">26,729</span>
+          <span class="v2-updown down">▼ −0.28%</span>
+        </span>
+      </div>
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">DOW</span>
+        <span>
+          <span class="v2-stat__value">53,732</span>
+          <span class="v2-updown down">▼ −0.20%</span>
+        </span>
+      </div>
+    </div>
+    <div class="v2-hero-col">
+      <div class="v2-overline">한국 증시</div>
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">KOSPI</span>
+        <span>
+          <span class="v2-stat__value">6,978</span>
+          <span class="v2-updown up">▲ +2.42%</span>
+        </span>
+      </div>
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">KOSDAQ</span>
+        <span>
+          <span class="v2-stat__value">864.65</span>
+          <span class="v2-updown up">▲ +0.38%</span>
+        </span>
+      </div>
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">코스피200 야간선물</span>
+        <span>
+          <span class="v2-stat__value">1,074</span>
+          <span class="v2-updown up">▲ +3.71%</span>
+        </span>
+      </div>
+      <div class="v2-hero-index-row">
+        <span class="v2-hero-index__label">코스닥150 야간선물</span>
+        <span>
+          <span class="v2-stat__value">1,500</span>
+          <span class="v2-updown up">▲ +1.47%</span>
+        </span>
+      </div>
+    </div>
+    <div class="v2-hero-col">
+      <div class="v2-overline">전일 핵심 뉴스</div>
+      <div class="v2-hero-news-row">
+        <span class="n">1</span>
+        <a class="t" href="https://www.yna.co.kr/view/AKR20260815032200002" target="_blank" rel="noopener noreferrer">[부고] 박세혁(금융감독원 증권거래감독팀장)씨 모친상</a>
+      </div>
+      <div class="v2-hero-news-row">
+        <span class="n">2</span>
+        <a class="t" href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBKQjVPenhmY3U0MUlaYTNlZ1pnbzlfamZrLVJIYmIzeDNtVjRiVUdaVjZjWkpFc3lndWN4UHRTOW5kNWxJc1gyZ3JjbEZWVmlwbHpHNEpfNW9FZjQyNWlkZ2JLQXFmY0FxM2FmbEFQSmM?oc=5" target="_blank" rel="noopener noreferrer">싱가포르 증시 사상 최고 랠리, ’골디락스’ 경제가 뒷받침 - Investing.com 한국어</a>
+      </div>
+      <div class="v2-hero-news-row">
+        <span class="n">3</span>
+        <a class="t" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtYzZpOFNvTXdSOXZqd2ViWU44dDBucHg5bldsd1Axa2NXM0VmVmsyeVlpZmQydWtUYzJ1UkI1SW1RemJyZjRpWjJKRGZ6OVdpdmpLV2I2dTk5QmdVeWNnWXJSMmFWdUs50gFuQVVfeXFMT1hfYWhNckp4MmVEVFhYU1g0MnhKS2JYc3NhUU1FYlNQY3FJMldCN0QzNXlVdFpuSGVydmpJd29FeDZSRTJrdEtzNnpPNnEwZ1Y0R1kwRGxSOXI1a3RfdmVycmtyQjVNTTlwdHJ4OWc?oc=5" target="_blank" rel="noopener noreferrer">&#34;신혼집 마련할 돈 날렸다&#34;...해외서도 놀란 코스피 개미 잔혹사 - 머니투데이 - 머니투데이</a>
+      </div>
+      <div class="v2-hero-news-row">
+        <span class="n">4</span>
+        <a class="t" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBQVndGdUFLZTgyVTkycFpGeGRqZXROaV91blFyUlMyQklUX3Fnd0NrRjRuV0lsZF9OemxhbGROM1VjTkVPNVc1ZHJBOGJ3TGdZM1k0RFU4SzgwUHRYTTdSQVpydEgxSFNtY1E?oc=5" target="_blank" rel="noopener noreferrer">[뉴욕증시] 경기 우려 &#39;숨고르기&#39;, 반도체 차별화…샌디스크 7%↑·AMAT 5%↓ - 서울파이낸스</a>
+      </div>
+      <div class="v2-hero-news-row">
+        <span class="n">5</span>
+        <a class="t" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwdm92NGFHX1FMWWNEcjZ4aFRGeV9CQVMzZG4tQkhuNml1OFJHV09vZ2ZmeFNqRmppdUZaREplTjVULWh1QmQzaS1TMU1VVklrSkZrUXgyVEFVYXRZ?oc=5" target="_blank" rel="noopener noreferrer">[모닝 리포트] &#34;PPI 안도·반도체 훈풍…증시 강세 지속&#34; - 뉴스핌</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-6 " id="dash-kr">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">한국 지수</h3>
+    <span class="v2-card__meta">2026-08-15 13:38 KST</span>
+  </div>
+  <div class="v2-tile-grid">
+    <div class="v2-tile">
+      <div class="v2-tile__label">KOSPI</div>
+      <div class="v2-tile__value">6,978</div>
+      <div class="v2-tile__change v2-updown up">▲ +2.42%</div>
+      <div class="v2-tile__asof">
+        08-15 13:38      </div>
+    </div>
+    <div class="v2-tile">
+      <div class="v2-tile__label">KOSDAQ</div>
+      <div class="v2-tile__value">864.65</div>
+      <div class="v2-tile__change v2-updown up">▲ +0.38%</div>
+      <div class="v2-tile__asof">
+        08-15 13:38      </div>
+    </div>
+    <div class="v2-tile">
+      <div class="v2-tile__label">코스피200 야간선물</div>
+      <div class="v2-tile__value">1,074</div>
+      <div class="v2-tile__change v2-updown up">▲ +3.71%</div>
+      <div class="v2-tile__asof">
+        08-14 04:40      </div>
+    </div>
+    <div class="v2-tile">
+      <div class="v2-tile__label">코스닥150 야간선물</div>
+      <div class="v2-tile__value">1,500</div>
+      <div class="v2-tile__change v2-updown up">▲ +1.47%</div>
+      <div class="v2-tile__asof">
+        08-14 04:40      </div>
+    </div>
+    <div class="v2-tile">
+      <div class="v2-tile__label">USD/KRW 환율</div>
+      <div class="v2-tile__value">1,412</div>
+      <div class="v2-tile__change v2-updown down">▼ −0.43%</div>
+      <div class="v2-tile__asof">
+        08-15 12:30      </div>
+    </div>
+  </div>
+<div class="v2-card__footer">야간선물 등락률은 전일 정규장 종가 대비입니다(정규장 종가 미확보 — 당일 주간 변동이 포함됩니다).</div>
+</div>
+
+<div class="v2-card v2-card--standard v2-span-6 " id="dash-us">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">미국 지수</h3>
+    <span class="v2-card__meta">2026-08-15 13:38 KST</span>
+  </div>
+  <div class="v2-tile-grid">
+    <div class="v2-tile">
+      <div class="v2-tile__label">S&amp;P500</div>
+      <div class="v2-tile__value">7,786</div>
+      <div class="v2-tile__change v2-updown down">▼ −0.17%</div>
+      <div class="v2-tile__asof">
+        08-15 13:38      </div>
+    </div>
+    <div class="v2-tile">
+      <div class="v2-tile__label">NASDAQ</div>
+      <div class="v2-tile__value">26,729</div>
+      <div class="v2-tile__change v2-updown down">▼ −0.28%</div>
+      <div class="v2-tile__asof">
+        08-15 13:38      </div>
+    </div>
+    <div class="v2-tile">
+      <div class="v2-tile__label">DOW</div>
+      <div class="v2-tile__value">53,732</div>
+      <div class="v2-tile__change v2-updown down">▼ −0.20%</div>
+      <div class="v2-tile__asof">
+        08-15 13:38      </div>
+    </div>
+    <div class="v2-tile">
+      <div class="v2-tile__label">VIX</div>
+      <div class="v2-tile__value">14.25</div>
+      <div class="v2-tile__change v2-updown down">▼ −2.60%</div>
+      <div class="v2-tile__asof">
+        08-15 13:38      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-8 " id="dash-news">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">핵심 뉴스</h3>
+    <span class="v2-card__meta">2026-08-15 13:38 KST</span>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-news-row">
+      <span class="v2-badge">속보</span>
+      <a class="v2-news-row__title" href="https://www.yna.co.kr/view/AKR20260815032200002" target="_blank" rel="noopener noreferrer">[부고] 박세혁(금융감독원 증권거래감독팀장)씨 모친상</a>
+      <span class="v2-news-row__time">08-15 13:34</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">속보</span>
+      <a class="v2-news-row__title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBKQjVPenhmY3U0MUlaYTNlZ1pnbzlfamZrLVJIYmIzeDNtVjRiVUdaVjZjWkpFc3lndWN4UHRTOW5kNWxJc1gyZ3JjbEZWVmlwbHpHNEpfNW9FZjQyNWlkZ2JLQXFmY0FxM2FmbEFQSmM?oc=5" target="_blank" rel="noopener noreferrer">싱가포르 증시 사상 최고 랠리, ’골디락스’ 경제가 뒷받침 - Investing.com 한국어</a>
+      <span class="v2-news-row__time">08-15 13:00</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">속보</span>
+      <a class="v2-news-row__title" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtYzZpOFNvTXdSOXZqd2ViWU44dDBucHg5bldsd1Axa2NXM0VmVmsyeVlpZmQydWtUYzJ1UkI1SW1RemJyZjRpWjJKRGZ6OVdpdmpLV2I2dTk5QmdVeWNnWXJSMmFWdUs50gFuQVVfeXFMT1hfYWhNckp4MmVEVFhYU1g0MnhKS2JYc3NhUU1FYlNQY3FJMldCN0QzNXlVdFpuSGVydmpJd29FeDZSRTJrdEtzNnpPNnEwZ1Y0R1kwRGxSOXI1a3RfdmVycmtyQjVNTTlwdHJ4OWc?oc=5" target="_blank" rel="noopener noreferrer">&#34;신혼집 마련할 돈 날렸다&#34;...해외서도 놀란 코스피 개미 잔혹사 - 머니투데이 - 머니투데이</a>
+      <span class="v2-news-row__time">08-15 12:56</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">한국시장</span>
+      <a class="v2-news-row__title" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yTjVTQXNYbmpUREtSc1JLLUJjNUs0VjlWbmNwVHFMbm5YUmVwa1h1WkFPUHFoUzVxak13MUowUTV1cGhna3lZMGVqMk5CSmQ3el9Tc0lFRDJzSjV6dlJQT3lWUTZ1cGc?oc=5" target="_blank" rel="noopener noreferrer">[미국증시] 국민연금 미국 주식 1550억 달러…스페이스X에 사우디·알파벳 몰려 - 자본시장뉴스</a>
+      <span class="v2-news-row__time">08-15 11:32</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">한국시장</span>
+      <a class="v2-news-row__title" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZdTlMU3NELU9zYlhYdkhiZzJhVHVxRTZvVHJHbk05OEpmSURTa1JzU2RJNC1vTlBmeDJZREM3M1Z0VWJXWVU0MTNzSTcxUjFER2tDbDI1NURpbEFkdnZqdA?oc=5" target="_blank" rel="noopener noreferrer">[해외시황] 뉴욕증시, 美소비 둔화 우려·중동 긴장에 &#39;숨고르기&#39;…나스닥 0.28%↓ - newsprime.co.kr</a>
+      <span class="v2-news-row__time">08-15 10:54</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">한국시장</span>
+      <a class="v2-news-row__title" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LaGNDTjVtUzdia011MzFYOU5kUW5sZ0dQNGEwRnFFYndJMkxTQXNmRkhoa214aGdobXhVb1hqVFFSazkwbmVrc1oxTlFXNDA?oc=5" target="_blank" rel="noopener noreferrer">[8월 둘째 주 세계경제동향 브리핑] 코스피 11%대 급반등…코스닥도 8% 상승 - v.daum.net</a>
+      <span class="v2-news-row__time">08-15 10:52</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">한국시장</span>
+      <a class="v2-news-row__title" href="https://www.yna.co.kr/view/AKR20260815020751003" target="_blank" rel="noopener noreferrer">통상 사령탑 여한구 산업부 통상교섭본부장 경질(종합)</a>
+      <span class="v2-news-row__time">08-15 10:44</span>
+    </div>
+    <div class="v2-news-row">
+      <span class="v2-badge">한국시장</span>
+      <a class="v2-news-row__title" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uVjBDU2Y4aXN1SjIxTTZ0OXZwemtYd2xVWEJvVkpORnFDMVZjOWRzd0U3MjJkRFFPMGljNWNUWjdsS0t0YnJ1a3VMdVUyQVBlTXYtaW1TUEZSdw?oc=5" target="_blank" rel="noopener noreferrer">5일 내내 오른 증시…외인·기관은 &#39;삼전닉스&#39;, 승부는 장바구니에서 갈렸다 - 파이낸셜뉴스</a>
+      <span class="v2-news-row__time">08-15 10:40</span>
+    </div>
+  </div>
+  <div class="v2-card__footer"><a href="../news/index.html">News 전체 보기 →</a></div>
+
+</div>
+
+<div class="v2-card v2-card--standard v2-span-4 " id="dash-schedule">
+    <div class="v2-card__header">
+    <h3 class="v2-card__title">오늘 일정</h3>
+  </div>
+  <div class="v2-card__body">
+    <div class="v2-sched-closed">
+      <span class="v2-badge v2-sched-closed__badge">휴장 · 주말</span>
+      <span class="v2-sched-closed__next">다음 개장 08/17(월)</span>
+    </div>
+    <div class="v2-sched-row">
+      <span class="v2-sched-row__time">05:00</span>
+      <span class="v2-sched-row__label">야간선물 세션 마감</span>
+<span class="v2-sched-row__note">전일 세션</span>    </div>
+    <p class="v2-caption v2-sched-note">주말·주요 공휴일 기준입니다. 음력 명절·대체공휴일은 반영되지 않습니다.</p>
+  </div>
+
+</div>
+
+    </div>
+  </main>
+  <div class="v2-panel-slot" id="panel-slot"></div>
+  <script src="../static/js/store.js?v=817c341b" defer></script>
+  <script src="../static/js/shell.js?v=817c341b" defer></script>
+  <script src="../static/js/stockhub.js?v=817c341b" defer></script>
+  <script src="../static/js/search.js?v=817c341b" defer></script>
+  <script src="../static/js/chart.js?v=817c341b" defer></script>
+<script src="../static/js/updown.js?v=817c341b" defer></script>
+</body>
+</html>

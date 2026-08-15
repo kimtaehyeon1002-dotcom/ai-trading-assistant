@@ -11,7 +11,8 @@ from tests.conftest import validator_for
 def test_pages_include_all_nav_items():
     pages = search_repository._pages()
     keys = {p["key"] for p in pages}
-    assert {"dashboard", "macro", "news", "stock", "financials", "ta", "asset", "portfolio", "settings"} <= keys
+    assert {"morning", "macro", "news", "stock", "financials", "ta",
+            "private", "asset", "portfolio", "settings"} <= keys
 
 
 def test_stocks_reads_missing_universe_file_as_empty(monkeypatch, tmp_path):

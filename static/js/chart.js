@@ -275,6 +275,9 @@
 
     var line = el("path", { class: "v2-chart__line", d: pathOf(cfg.values, s), fill: "none" });
     line.style.stroke = color;
+    // color도 같이 준다 — CSS의 drop-shadow(currentColor)가 이 값을 읽는다. 안 주면 상속된
+    // 텍스트 색(흰색)으로 빛나서 상승·하락 방향이 글로우에서 사라진다(실측).
+    line.style.color = color;
     svg.appendChild(line);
 
     // ⑤ 마커 — 끝점은 항상, 고·저점은 full에서만(작은 타일에 3개 점은 소음이다).
@@ -330,6 +333,7 @@
         r: full ? 3.5 : 2.8
       });
       dot.style.fill = color;
+      dot.style.color = color;
       svg.appendChild(ring); svg.appendChild(dot);
     }
 
@@ -585,4 +589,79 @@
   } else {
     initAll(doc);
   }
+})(window);
+
+/* ── 방사형 게이지(HUD 계기) ────────────────────────────────────────────────
+ * 레퍼런스의 원형 게이지. 0~100 스케일의 단일 값을 링 진행도 + 눈금으로 보여준다.
+ * 텍스트만 있던 지표(RSI·달성률·판정)에 형태를 준다 — 숫자를 읽지 않아도 "어디쯤인가"가 보인다.
+ *
+ * 마크업: <div class="v2-gauge" data-gauge='{"value":62,"min":0,"max":100,"label":"RSI",
+ *                                            "zones":[{"to":30,"tone":"down"},{"to":70},{"to":100,"tone":"up"}]}'>
+ * value가 없으면 아무것도 그리지 않는다(빈 계기를 그려 0처럼 보이게 하지 않는다).
+ */
+(function (global) {
+  "use strict";
+  var doc = global.document, NS = "http://www.w3.org/2000/svg";
+  var R = 42, C = 2 * Math.PI * R, SWEEP = 0.75;  // 3/4 원(아래가 열린 계기 모양)
+
+  function el(t, a) {
+    var n = doc.createElementNS(NS, t);
+    for (var k in a) if (a[k] != null) n.setAttribute(k, a[k]);
+    return n;
+  }
+
+  function render(host) {
+    var cfg;
+    try { cfg = JSON.parse(host.getAttribute("data-gauge")); } catch (e) { return; }
+    if (!cfg || cfg.value == null || isNaN(cfg.value)) return;
+    var min = cfg.min == null ? 0 : cfg.min, max = cfg.max == null ? 100 : cfg.max;
+    var ratio = Math.max(0, Math.min(1, (cfg.value - min) / ((max - min) || 1)));
+
+    var svg = el("svg", { class: "v2-gauge__svg", viewBox: "0 0 100 100",
+      role: "img", "aria-label": (cfg.label || "게이지") + " " + cfg.value });
+    // 3/4 원을 위해 -225도에서 시작(왼쪽 아래) — 시계방향으로 270도 진행
+    var g = el("g", { transform: "rotate(135 50 50)" });
+
+    g.appendChild(el("circle", { class: "v2-gauge__track", cx: 50, cy: 50, r: R,
+      "stroke-dasharray": (C * SWEEP) + " " + C }));
+    // 구간 색(선택) — RSI 과매도/과매수처럼 의미 있는 구간에만
+    (cfg.zones || []).forEach(function (z, i) {
+      var from = i === 0 ? min : cfg.zones[i - 1].to;
+      var a = (from - min) / ((max - min) || 1), b = (z.to - min) / ((max - min) || 1);
+      if (!z.tone) return;
+      var seg = el("circle", { class: "v2-gauge__zone v2-gauge__zone--" + z.tone, cx: 50, cy: 50, r: R,
+        "stroke-dasharray": (C * SWEEP * (b - a)) + " " + C,
+        "stroke-dashoffset": -(C * SWEEP * a) });
+      g.appendChild(seg);
+    });
+    var val = el("circle", { class: "v2-gauge__value", cx: 50, cy: 50, r: R,
+      "stroke-dasharray": (C * SWEEP * ratio) + " " + C });
+    g.appendChild(val);
+    svg.appendChild(g);
+    host.textContent = "";
+    host.appendChild(svg);
+
+    var readout = doc.createElement("div");
+    readout.className = "v2-gauge__readout";
+    var v = doc.createElement("span");
+    v.className = "v2-gauge__num";
+    v.textContent = cfg.display != null ? cfg.display : cfg.value;
+    readout.appendChild(v);
+    if (cfg.label) {
+      var l = doc.createElement("span");
+      l.className = "v2-gauge__label";
+      l.textContent = cfg.label;
+      readout.appendChild(l);
+    }
+    host.appendChild(readout);
+    host.classList.add("v2-gauge--live");
+  }
+
+  function initAll(root) {
+    var scope = root || doc;
+    Array.prototype.forEach.call(scope.querySelectorAll("[data-gauge]"), render);
+  }
+  global.TAGauge = { initAll: initAll };
+  if (doc.readyState === "loading") doc.addEventListener("DOMContentLoaded", function () { initAll(doc); });
+  else initAll(doc);
 })(window);

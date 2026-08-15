@@ -88,7 +88,7 @@ def test_v2_skeleton_page_renders_shell(monkeypatch, tmp_path):
     out = skeleton_v2.generate()
     assert tmp_path in out.parents
     html = out.read_text(encoding="utf-8")
-    assert 'class="v2-sidebar"' in html
+    assert 'class="v2-drawer"' in html
     assert 'class="v2-header"' in html
     assert 'class="v2-panel-slot"' in html
     assert "tokens.css" in html

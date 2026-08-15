@@ -20,10 +20,44 @@ class MarketSession:
 
 
 # 실측 정규장 시각: KRX 09:00–15:30 KST, NYSE/NASDAQ 09:30–16:00 ET.
+# 날짜가 고정된 한국 법정공휴일만 등재한다. 음력 기반(설날·추석·부처님오신날)과 대체공휴일은
+# 해마다 날짜가 달라 여기 넣으려면 그 해 관보를 확인해야 한다 — **확인 없이 추정해 넣지 않는다**
+# (틀린 휴장일은 없는 것보다 나쁘다: 열린 장을 닫혔다고 표시한다). 미등재분은 아래 주의 참고.
+_KR_FIXED_HOLIDAYS = ("01-01", "03-01", "05-05", "06-06", "08-15", "10-03", "10-09", "12-25")
+
 SESSIONS: dict[str, MarketSession] = {
     "kr": MarketSession(market="kr", regular_open="09:00", regular_close="15:30", pre_open="08:30"),
     "us": MarketSession(market="us", regular_open="09:30", regular_close="16:00", pre_open="09:00"),
 }
+
+
+def holiday_label(session: MarketSession, d: date) -> str | None:
+    """d가 휴장일이면 사유("주말"/"공휴일"), 영업일이면 None.
+
+    주말 판정은 확실하지만 공휴일은 등재된 것만 안다 — 음력 명절·대체공휴일이 빠져 있으므로
+    "None이면 반드시 영업일"이라고 단정할 수 없다. 호출부는 이 한계를 화면에 드러내야 한다.
+    """
+    if d.weekday() >= 5:
+        return "주말"
+    if d.strftime("%Y-%m-%d") in session.holidays or (
+        session.market == "kr" and d.strftime("%m-%d") in _KR_FIXED_HOLIDAYS
+    ):
+        return "공휴일"
+    return None
+
+
+def is_trading_day(session: MarketSession, d: date) -> bool:
+    """d가 정규장이 열리는 날인가(주말·등재 공휴일 제외)."""
+    return holiday_label(session, d) is None
+
+
+def next_trading_day(session: MarketSession, d: date, max_lookahead: int = 10) -> date | None:
+    """d **다음** 영업일. 연휴가 길어도 찾도록 여유를 두되 무한 탐색은 하지 않는다."""
+    for step in range(1, max_lookahead + 1):
+        cand = d + timedelta(days=step)
+        if is_trading_day(session, cand):
+            return cand
+    return None
 
 # KRX 야간파생시장(2025-06 개설) — 18:00 개시 ~ **익일** 05:00 마감(자정을 넘는 유일한 세션이라
 # MarketSession(open<close 전제)에 넣지 않고 별도 상수로 둔다). 야간선물 수집은 이 창 안에서만

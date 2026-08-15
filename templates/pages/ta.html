@@ -79,6 +79,9 @@
     </span>
   </div>
   <div class="v2-card__body">
+    {# 숫자 4개를 나열하던 자리 — RSI는 0~100 고정 스케일이라 게이지가 맞고, 이평 이격은
+       0을 기준으로 위/아래가 의미이므로 중앙 기준 미터가 맞다. 스케일이 없는 값(종가·추세)은
+       그대로 숫자다 — 형태가 어울리지 않는 값에 억지로 계기를 씌우지 않는다. #}
     <div class="v2-ta-metrics">
       <div>
         <div class="v2-ta-metric__label">종가</div>
@@ -89,10 +92,25 @@
         <div class="v2-ta-metric__value v2-freshness-affected v2-updown {{ preview.deviation_20d.value|signclass }}">
           {{ preview.deviation_20d.value|arrow }} {{ preview.deviation_20d.value|pctv2 }}
         </div>
+        {% if preview.deviation_20d.value is not none %}
+        {# ±10%를 양 끝으로 본 중앙 기준 미터. 범위를 넘으면 끝에서 멈춘다(막대가 카드를 넘지 않게). #}
+        {% set dev = preview.deviation_20d.value %}
+        {% set w = ([dev|abs, 10]|min) / 10 * 50 %}
+        <div class="v2-meter" title="20일 이평 대비 {{ dev|pctv2 }} (±10% 스케일)">
+          <span class="v2-meter__fill {{ dev|signclass }}"
+                style="{% if dev >= 0 %}left:50%{% else %}right:50%{% endif %};width:{{ w }}%"></span>
+        </div>
+        {% endif %}
       </div>
       <div>
         <div class="v2-ta-metric__label">RSI(14)</div>
-        <div class="v2-ta-metric__value v2-freshness-affected">{{ preview.rsi_14.value if preview.rsi_14.value is not none else "—" }}</div>
+        {% if preview.rsi_14.value is not none %}
+        <div class="v2-gauge" data-gauge='{{ {"value": preview.rsi_14.value, "min": 0, "max": 100, "label": "RSI 14", "display": preview.rsi_14.value, "zones": [{"to": 30, "tone": "down"}, {"to": 70}, {"to": 100, "tone": "up"}]}|tojson }}'>
+          <div class="v2-ta-metric__value v2-freshness-affected">{{ preview.rsi_14.value }}</div>
+        </div>
+        {% else %}
+        <div class="v2-ta-metric__value">—</div>
+        {% endif %}
         <div class="v2-ta-metric__sub">{{ preview.rsi_14.label }}</div>
       </div>
       <div>

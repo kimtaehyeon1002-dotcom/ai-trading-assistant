@@ -8,13 +8,19 @@ from __future__ import annotations
 
 import re
 
+from datetime import date
+
 from config.nav import context as nav_context
 from generators.base import render
-from generators.dashboard_v2.generate import _headline, _schedule_rows
+from generators.dashboard_v2.generate import _headline, _schedule_meta, _schedule_rows
 from models.market import Quote
 from models.news import NewsArticle
 
 _ASSET_LEAK_RE = re.compile(r"[0-9]{3}[,0-9]*원|총자산|목표금액")
+
+# 평일 영업일 고정 기준(2026-07-21 화). 테스트가 "실행한 날"에 따라 결과가 바뀌면
+# 주말에 돌릴 때만 깨지는 테스트가 된다 — 일정 로직은 반드시 명시 날짜로 검증한다.
+_WEEKDAY = date(2026, 7, 21)
 
 
 def _sample_context():
@@ -23,7 +29,7 @@ def _sample_context():
     news = NewsArticle(title="샘플 기사", link="https://example.com/1", categories=["breaking"])
     return {
         "root": ".",
-        "nav": nav_context(active="dashboard"),
+        "nav": nav_context(active="morning"),
         "generated_at": "2026-07-21 09:00 KST",
         "headline": "미국 3대 지수 상승 마감 · 코스피 ▲ 0.50%",
         "market": {"sp500": q, "nasdaq": q, "dow": q, "kospi": q, "kosdaq": q,
@@ -33,7 +39,8 @@ def _sample_context():
         "us_tiles": [("sp500", q), ("nasdaq", q), ("dow", q), ("vix", q)],
         "top_news": [news],
         "recent_news": [(news, "속보")],
-        "schedule": _schedule_rows(),
+        "schedule": _schedule_rows(_WEEKDAY),
+        "schedule_meta": _schedule_meta(_WEEKDAY),
     }
 
 
@@ -73,7 +80,7 @@ def test_headline_kospi_only_no_us_data():
 # ---------- 오늘 일정(세션 룰 기반, 정렬) ----------
 
 def test_schedule_rows_sorted_by_time_and_covers_kr_sessions():
-    rows = _schedule_rows()
+    rows = _schedule_rows(_WEEKDAY)
     times = [r["time"] for r in rows]
     assert times == sorted(times)
     labels = {r["label"] for r in rows}
@@ -81,6 +88,41 @@ def test_schedule_rows_sorted_by_time_and_covers_kr_sessions():
     assert "국내 증시 마감" in labels
     assert "야간선물 세션 개시" in labels
     assert "야간선물 세션 마감" in labels
+
+
+def test_schedule_omits_regular_session_on_saturday():
+    """토요일에 "09:00 국내 증시 개장"을 찍던 실측 결함(2026-08-15)의 회귀 방지.
+
+    금요일 18:00에 열린 야간 세션은 토요일 05:00에 실제로 끝나므로 그 행만 남는다.
+    """
+    rows = _schedule_rows(date(2026, 8, 15))  # 토요일
+    labels = [r["label"] for r in rows]
+    assert labels == ["야간선물 세션 마감"]
+
+
+def test_schedule_empty_on_sunday():
+    """일요일은 전일(토)도 휴장이라 야간 마감조차 없다 — 빈 일정이 정답이다."""
+    assert _schedule_rows(date(2026, 8, 16)) == []
+
+
+def test_schedule_omits_regular_session_on_fixed_holiday():
+    """등재된 법정공휴일(광복절 08-15)은 평일이어도 정규장 행을 만들지 않는다."""
+    holiday = date(2025, 8, 15)  # 금요일 + 광복절
+    assert holiday.weekday() < 5
+    assert [r["label"] for r in _schedule_rows(holiday)] == ["야간선물 세션 마감"]
+
+
+def test_schedule_meta_reports_closed_reason_and_next_open():
+    meta = _schedule_meta(date(2026, 8, 15))  # 토요일
+    assert meta["closed"] is True
+    assert meta["reason"] == "주말"
+    assert meta["next_open"].startswith("08/17")  # 월요일
+
+
+def test_schedule_meta_silent_on_trading_day():
+    meta = _schedule_meta(_WEEKDAY)
+    assert meta["closed"] is False
+    assert meta["next_open"] is None
 
 
 # ---------- 자산 평문 선차단(DoD 2) — 템플릿 렌더 산출물 검사 ----------
@@ -95,7 +137,7 @@ def test_rendered_dashboard_has_zero_asset_leak_patterns(tmp_path):
 def test_rendered_dashboard_is_v2_shell_with_exactly_five_cards(tmp_path):
     out = render("pages/dashboard_v2.html", _sample_context(), tmp_path / "index.html")
     html = out.read_text(encoding="utf-8")
-    assert 'class="v2-sidebar"' in html
+    assert 'class="v2-drawer"' in html
     assert 'aria-current="page"' in html
     for card_id in ("dash-hero", "dash-kr", "dash-us", "dash-news", "dash-schedule"):
         assert f'id="{card_id}"' in html, f"{card_id} 카드 누락"

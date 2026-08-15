@@ -5,7 +5,7 @@
   (design/01 §3-1 "문서 간 일관성 계약" — 관심종목 등 opt-in 카드는 여기 없음).
   design/20 Phase 4 DoD: 자산(ERP) 절대값은 이 페이지 어디에도 렌더하지 않는다.
 #}
-{% block title %}{{ site.title }}{% endblock %}
+{% block title %}Morning Report · {{ site.title }}{% endblock %}
 {% block content %}
 
 {% call cardm.card_shell('hero', span='v2-span-12', card_id='dash-hero') %}
@@ -138,12 +138,27 @@
     <h3 class="v2-card__title">오늘 일정</h3>
   </div>
   <div class="v2-card__body">
+    {# 휴장일에는 열리지 않는 장을 나열하지 않는다 — 대신 왜 비었는지를 먼저 말한다. #}
+    {% if schedule_meta.closed %}
+    <div class="v2-sched-closed">
+      <span class="v2-badge v2-sched-closed__badge">휴장 · {{ schedule_meta.reason }}</span>
+      {% if schedule_meta.next_open %}
+      <span class="v2-sched-closed__next">다음 개장 {{ schedule_meta.next_open }}</span>
+      {% endif %}
+    </div>
+    {% endif %}
     {% for s in schedule %}
     <div class="v2-sched-row">
       <span class="v2-sched-row__time">{{ s.time }}</span>
       <span class="v2-sched-row__label">{{ s.label }}</span>
+      {% if s.note %}<span class="v2-sched-row__note">{{ s.note }}</span>{% endif %}
     </div>
     {% endfor %}
+    {% if not schedule %}
+    <p class="v2-body">오늘은 표시할 세션 일정이 없습니다.</p>
+    {% endif %}
+    {# 음력 명절·대체공휴일은 목록에 없다 — 없는 것을 있는 척하지 않는다(config/calendar). #}
+    <p class="v2-caption v2-sched-note">주말·주요 공휴일 기준입니다. 음력 명절·대체공휴일은 반영되지 않습니다.</p>
   </div>
 {% endcall %}
 

@@ -31,7 +31,7 @@ def _sample_context():
 def test_rendered_trades_v2_is_v2_shell_with_expected_cards(tmp_path):
     out = render("pages/trades_v2.html", _sample_context(), tmp_path / "index.html")
     html = out.read_text(encoding="utf-8")
-    assert 'class="v2-sidebar"' in html
+    assert 'class="v2-drawer"' in html
     for card_id in ("trades-summary", "trades-by-category", "trades-history"):
         assert f'id="{card_id}"' in html, f"{card_id} 카드 누락"
     assert "삼성전자" in html

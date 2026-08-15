@@ -19,11 +19,13 @@ class NavItem:
 
 
 # 상단 일반 메뉴 6개 + 디바이더 + 잠금 그룹 2개 (design/00 §6-1)
-# icon은 사이드바가 64px로 접혔을 때 **유일하게 남는 식별 수단**이다. 비워 두면 접힘 모드에서
-# 글자만 잘려 어느 메뉴인지 알 수 없다(실측으로 확인된 결함). 좁은 화면에서 셸이 접히므로
-# 아이콘 없는 항목을 추가하지 않는다.
+# icon은 방사형 런처와 헤더 내비에서 각 섹션을 식별하는 1차 수단이다. 비워 두지 않는다.
+#
+# Asset·Portfolio는 **Private 하나로 묶는다**. 둘 다 같은 패스프레이즈 게이트 뒤에 있고
+# (design/08 §1 세션 공유) 같은 암호문을 읽는, 사용자 입장에서 하나의 영역이기 때문이다.
+# 진입점은 Asset이고 두 화면은 페이지 안에서 서로 오간다.
 MAIN_ITEMS: tuple[NavItem, ...] = (
-    NavItem("dashboard", "Dashboard", "/index.html", icon="◈"),
+    NavItem("morning", "Morning Report", "/morning/index.html", icon="◈"),
     NavItem("macro", "Macroeconomics", "/macro/index.html", icon="◎"),
     NavItem("news", "News", "/news/index.html", icon="▤"),
     NavItem("stock", "Stock", "/stock/index.html", icon="▦"),
@@ -31,12 +33,20 @@ MAIN_ITEMS: tuple[NavItem, ...] = (
     NavItem("ta", "Technical Analysis", "/ta/index.html", icon="◨"),
 )
 LOCKED_ITEMS: tuple[NavItem, ...] = (
+    NavItem("private", "Private", "/asset/index.html", icon="◆", locked=True),
+)
+
+# Private 안에서 오가는 두 화면 — 페이지 내부 서브탭이 소비한다(내비 최상위에는 노출하지 않는다).
+PRIVATE_VIEWS: tuple[NavItem, ...] = (
     NavItem("asset", "Asset", "/asset/index.html", icon="◆", locked=True),
     NavItem("portfolio", "Portfolio", "/portfolio/index.html", icon="◇", locked=True),
 )
 
 # 하단 영역(design/00 §6-5)
 SETTINGS_ITEM = NavItem("settings", "Settings", "/settings/index.html", icon="⚙")
+
+# 런처(첫 화면) — 어떤 섹션도 활성이 아니다.
+LAUNCHER_KEY = "launcher"
 
 
 def context(active: str) -> dict:
@@ -45,5 +55,6 @@ def context(active: str) -> dict:
         "active": active,
         "main_items": MAIN_ITEMS,
         "locked_items": LOCKED_ITEMS,
+        "private_views": PRIVATE_VIEWS,
         "settings_item": SETTINGS_ITEM,
     }

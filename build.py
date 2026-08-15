@@ -70,6 +70,7 @@ def run_build(target: str) -> list[Path]:
     # design/20 Phase 4: Dashboard가 v2로 치환됐다. v1 생성기(generators/dashboard)·템플릿
     # (dashboard.html)은 Phase 9 v1 셸 은퇴로 소스에서 제거됐다 — 필요 시 git 히스토리에서 복원한다.
     from generators.dashboard_v2.generate import generate as gen_dashboard
+    from generators.launcher.generate import generate as gen_launcher
 
     pages: list[Path] = []
     # vault write-back(10_Journal/)은 해당 타깃 발행 직후 수행 — 레지스트리 순회와 결합한다.
@@ -110,6 +111,8 @@ def run_build(target: str) -> list[Path]:
 
     # 공통 마무리: 대시보드 + 정적 자산 + AI Office(실행 기록 발행) + 신선도 메타(runlog 파생)
     pages.append(gen_dashboard())
+    # 첫 화면(런처)은 데이터 의존이 없어 항상 성공한다 — 모닝 리포트와 함께 매 빌드 갱신한다.
+    pages.append(gen_launcher())
     copy_static()
     runlog.note("Publisher", items=len(pages) + 1, detail="pages + static")
     pages.append(gen_office())
