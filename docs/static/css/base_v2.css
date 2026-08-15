@@ -371,7 +371,17 @@ a { color: inherit; text-decoration: none; }
 }
 
 @media (max-width: 959px) {
-  .v2-topnav { display: none; }
+  /* 상단탭을 숨기지 않는다 — 좁은 화면에서 이동 수단이 햄버거 하나로 줄면, 다른 섹션으로
+     가려고 매번 서랍을 열어야 한다. 아이콘만 남기고 **가로 스크롤**로 전부 남긴다
+     (7개 × 아이콘폭이면 390px에서도 대부분 보인다). 서랍은 라벨이 필요할 때의 보조 경로다. */
+  .v2-topnav {
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    flex: 1 1 auto;
+  }
+  .v2-topnav::-webkit-scrollbar { display: none; }
+  .v2-topnav__item { flex-shrink: 0; }
   .v2-navtoggle { display: inline-flex; }
   .v2-header__brand-name { display: none; }
   .v2-span-3, .v2-span-4 { grid-column: span 6; }
@@ -384,6 +394,8 @@ a { color: inherit; text-decoration: none; }
   .v2-span-3, .v2-span-4, .v2-span-6, .v2-span-8 { grid-column: span 12; }
   .v2-header__search-kbd { display: none; }
   .v2-header__clock { display: none; }
+  /* 검색 입력을 접어 상단탭에 폭을 넘긴다 — 이동이 검색보다 자주 쓰인다. */
+  .v2-header__search { display: none; }
 }
 
 @media (max-width: 479px) {

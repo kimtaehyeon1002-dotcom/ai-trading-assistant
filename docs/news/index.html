@@ -4,27 +4,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>News · AI Trading Assistant</title>
-  <link rel="stylesheet" href="../static/css/tokens.css?v=86005a93">
-  <link rel="stylesheet" href="../static/css/base_v2.css?v=86005a93">
-  <link rel="stylesheet" href="../static/css/components.css?v=86005a93">
+  <link rel="stylesheet" href="../static/css/tokens.css?v=5e5904a5">
+  <link rel="stylesheet" href="../static/css/base_v2.css?v=5e5904a5">
+  <link rel="stylesheet" href="../static/css/components.css?v=5e5904a5">
   <script>(function(){try{
     var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
     var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
     var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
   }catch(e){}})();</script>
 </head>
-<body class="v2" data-root="..">
+<body class="v2 " data-root="..">
   <div class="v2-nav-scrim" data-nav-close hidden></div>
-<nav class="v2-sidebar" id="v2-sidebar" aria-label="주 메뉴">
-  <div class="v2-sidebar__logo">
-    <span class="v2-sidebar__mark" aria-hidden="true">📈</span>
-    <span class="v2-sidebar__name">AI Trading Assistant</span>
+<nav class="v2-drawer" id="v2-drawer" aria-label="주 메뉴">
+  <div class="v2-drawer__logo">
+    <span class="v2-drawer__mark" aria-hidden="true">📈</span>
+    <span class="v2-drawer__name">AI Trading Assistant</span>
   </div>
   <div class="v2-nav">
     <a class="v2-nav__item" href="../index.html"
- title="Dashboard">
+ title="홈">
+  <span class="v2-nav__icon" aria-hidden="true">⌂</span>
+  <span class="v2-nav__label">홈</span>
+</a>
+
+    <a class="v2-nav__item" href="../morning/index.html"
+ title="Morning Report">
   <span class="v2-nav__icon" aria-hidden="true">◈</span>
-  <span class="v2-nav__label">Dashboard</span>
+  <span class="v2-nav__label">Morning Report</span>
 </a>
 
     <a class="v2-nav__item" href="../macro/index.html"
@@ -59,42 +65,79 @@ aria-current="page" title="News">
 
     <div class="v2-nav__divider"></div>
     <a class="v2-nav__item v2-nav__item--locked" href="../asset/index.html"
- title="Asset">
+ title="Private">
   <span class="v2-nav__icon" aria-hidden="true">◆</span>
-  <span class="v2-nav__label">Asset</span>
-<span class="v2-nav__lock" aria-hidden="true">🔒</span></a>
-
-    <a class="v2-nav__item v2-nav__item--locked" href="../portfolio/index.html"
- title="Portfolio">
-  <span class="v2-nav__icon" aria-hidden="true">◇</span>
-  <span class="v2-nav__label">Portfolio</span>
+  <span class="v2-nav__label">Private</span>
 <span class="v2-nav__lock" aria-hidden="true">🔒</span></a>
 
   </div>
-  <div class="v2-sidebar__footer">
+  <div class="v2-drawer__footer">
     <a class="v2-nav__item" href="../settings/index.html"
  title="Settings">
   <span class="v2-nav__icon" aria-hidden="true">⚙</span>
   <span class="v2-nav__label">Settings</span>
 </a>
 
-    <div class="v2-sidebar__version">AI Trading Assistant</div>
   </div>
 </nav>
 
   <header class="v2-header">
-  <button type="button" class="v2-navtoggle" data-nav-toggle aria-label="메뉴 열기" aria-expanded="false" aria-controls="v2-sidebar">
+  <button type="button" class="v2-navtoggle" data-nav-toggle aria-label="메뉴 열기" aria-expanded="false" aria-controls="v2-drawer">
     <span class="v2-navtoggle__bars" aria-hidden="true"></span>
   </button>
-  <div class="v2-header__context">News</div>
+
+  <a class="v2-header__brand" href="../index.html" aria-label="홈(런처)로 이동">
+    <span class="v2-header__brand-mark" aria-hidden="true">◈</span>
+    <span class="v2-header__brand-name">AI Trading Assistant</span>
+  </a>
+
+  <nav class="v2-topnav" aria-label="섹션">
+    <a class="v2-topnav__item" href="../morning/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◈</span>
+      <span class="v2-topnav__label">Morning Report</span>
+    </a>
+    <a class="v2-topnav__item" href="../macro/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◎</span>
+      <span class="v2-topnav__label">Macroeconomics</span>
+    </a>
+    <a class="v2-topnav__item" href="../news/index.html"
+aria-current="page">
+      <span class="v2-topnav__icon" aria-hidden="true">▤</span>
+      <span class="v2-topnav__label">News</span>
+    </a>
+    <a class="v2-topnav__item" href="../stock/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">▦</span>
+      <span class="v2-topnav__label">Stock</span>
+    </a>
+    <a class="v2-topnav__item" href="../financials/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">▥</span>
+      <span class="v2-topnav__label">Financial Statements</span>
+    </a>
+    <a class="v2-topnav__item" href="../ta/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◨</span>
+      <span class="v2-topnav__label">Technical Analysis</span>
+    </a>
+    <a class="v2-topnav__item v2-topnav__item--locked" href="../asset/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◆</span>
+      <span class="v2-topnav__label">Private</span>
+    </a>
+  </nav>
+
+  <div class="v2-header__context" hidden>News</div>
   <div class="v2-header__search" role="search">
     <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
-           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+           placeholder="검색" aria-label="종목·뉴스·페이지 검색">
     <kbd class="v2-header__search-kbd">Ctrl K</kbd>
     <div class="v2-search-results" data-search-results hidden></div>
   </div>
   <div class="v2-header__clock"></div>
-  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+  <a class="v2-header__settings" href="../settings/index.html" aria-label="Settings">⚙</a>
 </header>
 
   <main class="v2-main">
@@ -109,13 +152,13 @@ aria-current="page" title="News">
       한국시장<span class="v2-tabbar__count">30</span>
     </button>
     <button class="v2-tabbar__btn" data-tab-btn="macro" data-tabbar-of="news">
-      거시경제<span class="v2-tabbar__count">10</span>
+      거시경제<span class="v2-tabbar__count">30</span>
     </button>
     <button class="v2-tabbar__btn" data-tab-btn="breaking" data-tabbar-of="news">
-      속보<span class="v2-tabbar__count">1</span>
+      속보<span class="v2-tabbar__count">9</span>
     </button>
     <span class="v2-caption v2-tabbar__meta">
-수집 2026-08-15 17:32 KST · 오늘 수집 180건 → 게재 71건    </span>
+수집 2026-08-15 21:13 KST · 오늘 수집 215건 → 게재 114건    </span>
   </div>
 </div>
 
@@ -123,7 +166,7 @@ aria-current="page" title="News">
     <div class="v2-card__header">
     <h3 class="v2-card__title">미국시장 · 게재 30건</h3>
     <button class="v2-filter-chip" data-kw-clear hidden>필터: <span data-kw-label></span> ×</button>
-    <span class="v2-card__meta">2026-08-15 17:32 KST</span>
+    <span class="v2-card__meta">2026-08-15 21:13 KST</span>
   </div>
   <div class="v2-card__body">
     <div data-tab-panel="news" data-tab="us_market">
@@ -135,12 +178,12 @@ aria-current="page" title="News">
     <span class="v2-level-gauge__bar"></span>
   </span>
   <div class="v2-news-list-row__body">
-    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/15/ukraine-war-russia-economy-putin-oil.html" target="_blank" rel="noopener noreferrer">러시아 경제는 회의론자들을 물리쳤습니다. 균열을 숨기기가 점점 더 어려워지고 있습니다.</a>
-    <div class="v2-news-list-row__summary">러시아의 전시 경제는 예산 적자가 확대되고 분석가들이 내년에 압력이 더욱 심해질 수 있다고 경고하면서 점점 더 큰 부담을 겪고 있습니다.</div>
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/15/china-rich-tycoons-tax-overseas-investment-trust-insurance-capital-flows.html" target="_blank" rel="noopener noreferrer">중국 정부는 중국의 초부유층 사이에 혼란을 가중시키는 조세 규정을 명확히 하려는 움직임을 보이고 있다고 합니다.</a>
+    <div class="v2-news-list-row__summary">중국 정부는 역외 신탁에 대한 새로운 조세 규정의 모호성을 명확히 하기 위해 노력하고 있는 것으로 전해지고 있습니다.</div>
   </div>
   <span class="v2-news-list-row__meta">
     <span class="v2-news-list-row__source">CNBC Finance</span>
-    <span class="v2-news-list-row__time">08-15 14:00</span>
+    <span class="v2-news-list-row__time">08-15 15:11</span>
   </span>
 </div>
 <div class="v2-news-list-row lvl-l1" data-kw="관세">
@@ -152,6 +195,21 @@ aria-current="page" title="News">
   <div class="v2-news-list-row__body">
     <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/15/heatwave-champagne-harvest-climate.html" target="_blank" rel="noopener noreferrer">극심한 더위로 인해 샴페인이 사상 최초로 수확되어 그 유명한 맛이 시험대에 올랐습니다.</a>
     <div class="v2-news-list-row__summary">상징적인 프랑스 탄산음료 생산자들은 맛 프로필을 유지하는 동시에 관세 문제와 음주자 감소 문제에 직면해 있습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-15 14:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/15/ukraine-war-russia-economy-putin-oil.html" target="_blank" rel="noopener noreferrer">러시아 경제는 회의론자들을 물리쳤습니다. 균열을 숨기기가 점점 더 어려워지고 있습니다.</a>
+    <div class="v2-news-list-row__summary">러시아의 전시 경제는 예산 적자가 확대되고 분석가들이 내년에 압력이 더욱 심해질 수 있다고 경고하면서 점점 더 큰 부담을 겪고 있습니다.</div>
   </div>
   <span class="v2-news-list-row__meta">
     <span class="v2-news-list-row__source">CNBC Finance</span>
@@ -566,26 +624,71 @@ aria-current="page" title="News">
     <span class="v2-news-list-row__time">08-15 00:02</span>
   </span>
 </div>
-<div class="v2-news-list-row lvl-l1" data-kw="관세">
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="kr_market" style="display:none">
+  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l1" data-kw="">
   <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
   </span>
   <div class="v2-news-list-row__body">
-    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html" target="_blank" rel="noopener noreferrer">틈새 구리 거래가 어떻게 트럼프의 다음 관세 조치를 가늠하는 실시간 척도가 되었는지</a>
-    <div class="v2-news-list-row__summary">두 금속 거래소 간의 구리 가격 상승은 투자자들에게 미국 관세 위험의 척도를 제공하고 있습니다.</div>
+    <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12128777" target="_blank" rel="noopener noreferrer">“자동차 보험료가 30% 올랐네요”…할증 높이는 주요 원인 보니</a>
+    <div class="v2-news-list-row__summary">사고건수 할증, 누계산고건수 결정 전체 손해율의 변화에 따라 인상도올해 자동차보험료가 5년 만에 인상된 뒤 경상환자의 과잉진료를 줄일 8주룰 시행을 앞두고 자동차보험의 관심이 커진..</div>
   </div>
   <span class="v2-news-list-row__meta">
-    <span class="v2-news-list-row__source">CNBC Finance</span>
-    <span class="v2-news-list-row__time">08-14 22:24</span>
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">08-15 18:55</span>
   </span>
 </div>
+<div class="v2-news-list-row lvl-l2" data-kw="AI">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFA3cUZEczlfWmF2dThDZXJKN3RYSmNUdXdBLWwwa3hDZDhWaDktUlhqMDYtMmx2U2llRTVKNUN6bnRFcG5vTnExcXg5UnQ4d3dNSFZoZUxkM1BuWTZmbEl1WmRWWENKZVpF?oc=5" target="_blank" rel="noopener noreferrer">[주간증시전망] 코스피 7000선 돌파 시험대…AI 투자 신뢰 회복이 관건 - ebn.co.kr</a>
+    <div class="v2-news-list-row__summary">[주간증시전망] 코스피 7000선 돌파 시험대…AI 투자 신뢰 회복이 관건  ebn.co.kr</div>
   </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-15 18:24</span>
+  </span>
 </div>
-
-    <div data-tab-panel="news" data-tab="kr_market" style="display:none">
-  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12128763" target="_blank" rel="noopener noreferrer">“10년 뒤엔 지금보다 훨씬”…한국인 절반 ‘韓·日 경제 역전’ 예측</a>
+    <div class="v2-news-list-row__summary">광복 이후 최대 성취로는 ‘경제 성장’ 꼽혀 산업 경쟁력 강화 필요성도 부각“머지 않은 시점에 일본 경제 넘어설 것” 한국인 절반가량이 이같이 전망하고 있다는 조사 결과가 나와 눈..</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">매일경제·증권</span>
+    <span class="v2-news-list-row__time">08-15 17:27</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1vVGlOMExBb3ltb2U3WUFxMnlmdzlNVDNiTkY4UE5WNXJZeW5XWkJfd3VoNG9qcnROa0tmVFNtei1aTDhzVmNaTnhIYTB0eXIwbTdndi12aUp3M2RZaTZ1Z0QySW5DWmx0V1JuZDQxVdIBc0FVX3lxTE1yaGVaVC1OUTdzcXl1Z01SMUtXem5MemwzMGVyMElleTBubVpEYmVfUlB6VVo1YkJ6OU5PWmJuUkJSd29jS1dLSkw5QXJzUDVELXNna19ZUnZTNUstYjNGenJhTnJveTI1Rzg3bGlTSUFTa3M?oc=5" target="_blank" rel="noopener noreferrer">다시 ‘미장’ 향하는 개미들…‘국장’으로 발길 돌릴 해법은 - 시사저널</a>
+    <div class="v2-news-list-row__summary">다시 ‘미장’ 향하는 개미들…‘국장’으로 발길 돌릴 해법은  시사저널</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-15 17:00</span>
+  </span>
+</div>
 <div class="v2-news-list-row lvl-l1" data-kw="">
   <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
     <span class="v2-level-gauge__bar"></span>
@@ -719,6 +822,21 @@ aria-current="page" title="News">
   <span class="v2-news-list-row__meta">
     <span class="v2-news-list-row__source">Google News</span>
     <span class="v2-news-list-row__time">08-15 11:32</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZdTlMU3NELU9zYlhYdkhiZzJhVHVxRTZvVHJHbk05OEpmSURTa1JzU2RJNC1vTlBmeDJZREM3M1Z0VWJXWVU0MTNzSTcxUjFER2tDbDI1NURpbEFkdnZqdA?oc=5" target="_blank" rel="noopener noreferrer">[해외시황] 뉴욕증시, 美소비 둔화 우려·중동 긴장에 &#39;숨고르기&#39;…나스닥 0.28%↓ - newsprime.co.kr</a>
+    <div class="v2-news-list-row__summary">[해외시황] 뉴욕증시, 美소비 둔화 우려·중동 긴장에 &#39;숨고르기&#39;…나스닥 0.28%↓  newsprime.co.kr</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-15 10:54</span>
   </span>
 </div>
 <div class="v2-news-list-row lvl-l1" data-kw="">
@@ -892,8 +1010,8 @@ aria-current="page" title="News">
     <span class="v2-level-gauge__bar"></span>
   </span>
   <div class="v2-news-list-row__body">
-    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMingFBVV95cUxPWENsdnNLb3lOX3pvY29kYW9VT2UtVjBjaHdvTGZkeldZdHkwTWRsYzN1eDd1bVNEMmVXWm5HZTNpMHA1ZHZQWGIybWNtRThIYUVCNTc5c0QxLVl2SG1LdDJCT0h6UnZRN3cyalAzQ3BXSVhtSVFLMXFObjlFcDFIaXZDbjJjTDJTXzJsaHhLNS1rZ3pzSGJSZ1pMTF9ZZ9IBsgFBVV95cUxQUzFqc1lFaEZyTEM2NUY1MHM4bDY1UnRRWW4ta1l4R0xwazFmenJSNks0NDdKbkt6TzRia21hRUNOTkkxSHlielZhRVVBRG1yUFA0Vm8zemxEdlBuM194cEZZX21wYjlNelpRaUtTZG5WNTJCR3RCVzVROFU4ZHF1TkprYThNNnJERTJsckNBNzRlQXZDNkRIVWgtMUhycmpsYlJ6bzdZcUhTTVZRUmRDLXlB?oc=5" target="_blank" rel="noopener noreferrer">뉴욕증시, 소비 둔화 우려에 약세…S&amp;P500 0.2%↓ - 조선비즈 - biz.chosun.com</a>
-    <div class="v2-news-list-row__summary">뉴욕증시, 소비 둔화 우려에 약세…S&amp;amp;P500 0.2%↓ - 조선비즈  biz.chosun.com</div>
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMingFBVV95cUxPWENsdnNLb3lOX3pvY29kYW9VT2UtVjBjaHdvTGZkeldZdHkwTWRsYzN1eDd1bVNEMmVXWm5HZTNpMHA1ZHZQWGIybWNtRThIYUVCNTc5c0QxLVl2SG1LdDJCT0h6UnZRN3cyalAzQ3BXSVhtSVFLMXFObjlFcDFIaXZDbjJjTDJTXzJsaHhLNS1rZ3pzSGJSZ1pMTF9ZZ9IBsgFBVV95cUxQUzFqc1lFaEZyTEM2NUY1MHM4bDY1UnRRWW4ta1l4R0xwazFmenJSNks0NDdKbkt6TzRia21hRUNOTkkxSHlielZhRVVBRG1yUFA0Vm8zemxEdlBuM194cEZZX21wYjlNelpRaUtTZG5WNTJCR3RCVzVROFU4ZHF1TkprYThNNnJERTJsckNBNzRlQXZDNkRIVWgtMUhycmpsYlJ6bzdZcUhTTVZRUmRDLXlB?oc=5" target="_blank" rel="noopener noreferrer">뉴욕증시, 소비 둔화 우려에 약세…S&amp;P500 0.2%↓ - 조선비즈 - Chosunbiz</a>
+    <div class="v2-news-list-row__summary">뉴욕증시, 소비 둔화 우려에 약세…S&amp;amp;P500 0.2%↓ - 조선비즈  Chosunbiz</div>
   </div>
   <span class="v2-news-list-row__meta">
     <span class="v2-news-list-row__source">Google News</span>
@@ -930,6 +1048,21 @@ aria-current="page" title="News">
     <span class="v2-news-list-row__time">08-15 08:30</span>
   </span>
 </div>
+<div class="v2-news-list-row lvl-l2" data-kw="반도체">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE90MUdyZVItZ1ItUkpJcGxZV1FsMHVMRjFGYzdIOEY0aS1IUXZuRFF3WlgwSmY3UVgwdmowVTBTN2gyMTBUNlpHYXE2Z1d6RWZkc2Y5V2FnbXVzUQ?oc=5" target="_blank" rel="noopener noreferrer">투자자들 뉴욕 증시 &#39;귀환&#39;...반도체 저가 매수가 상승 주도 - 파이낸셜뉴스</a>
+    <div class="v2-news-list-row__summary">투자자들 뉴욕 증시 &#39;귀환&#39;...반도체 저가 매수가 상승 주도  파이낸셜뉴스</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-15 08:16</span>
+  </span>
+</div>
 <div class="v2-news-list-row lvl-l1" data-kw="바이오">
   <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
     <span class="v2-level-gauge__bar"></span>
@@ -945,101 +1078,41 @@ aria-current="page" title="News">
     <span class="v2-news-list-row__time">08-15 08:15</span>
   </span>
 </div>
-<div class="v2-news-list-row lvl-l1" data-kw="">
-  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
-    <span class="v2-level-gauge__bar"></span>
-    <span class="v2-level-gauge__bar"></span>
-    <span class="v2-level-gauge__bar"></span>
-  </span>
-  <div class="v2-news-list-row__body">
-    <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260814071200055" target="_blank" rel="noopener noreferrer">&#34;K-푸드·뷰티 타고 호주 간다&#34;…전주시, 무역사절단 8개사 모집</a>
-    <div class="v2-news-list-row__summary">(전주=연합뉴스) 김동철 기자 = 전북 전주시가 지역 중소기업의 새로운 해외 판로 개척을 위해 호주 멜버른에 파견할 무역사절단을 모집한다.</div>
   </div>
-  <span class="v2-news-list-row__meta">
-    <span class="v2-news-list-row__source">연합뉴스·경제</span>
-    <span class="v2-news-list-row__time">08-15 08:00</span>
-  </span>
 </div>
-<div class="v2-news-list-row lvl-l2" data-kw="AI">
+
+    <div data-tab-panel="news" data-tab="macro" style="display:none">
+  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l2" data-kw="금리|물가">
   <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
   </span>
   <div class="v2-news-list-row__body">
-    <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260814042000055" target="_blank" rel="noopener noreferrer">농진청, &#39;AI 활용 창업경진대회&#39; 수상작 18점 선정</a>
-    <div class="v2-news-list-row__summary">(전주=연합뉴스) 김진방 기자 = 농촌진흥청은 &amp;apos;제11회 농업·농촌 공공데이터+인공지능(AI) 활용 창업경진대회&amp;apos; 수상작 18점을 선정했다고 1...</div>
-  </div>
-  <span class="v2-news-list-row__meta">
-    <span class="v2-news-list-row__source">연합뉴스·경제</span>
-    <span class="v2-news-list-row__time">08-15 08:00</span>
-  </span>
-</div>
-<div class="v2-news-list-row lvl-l1" data-kw="">
-  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
-    <span class="v2-level-gauge__bar"></span>
-    <span class="v2-level-gauge__bar"></span>
-    <span class="v2-level-gauge__bar"></span>
-  </span>
-  <div class="v2-news-list-row__body">
-    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5nYjQzS1RNMnpEMXA0VFUwUGgzajQ4TVpGMTlXUlRXZ0VFYzZ5djl6WGxSRGszWmF0MWpmYW1GNThVdlBLRXlXZk9SeFNqMGNCRkFxQy1nM0wyaDJyOGRIX1Q4VDlVanY5NE53RDFVeHI?oc=5" target="_blank" rel="noopener noreferrer">[오늘의 글로벌마켓] 뉴욕증시, 소비지표 둔화에 3대지수 하락세 - 오피니언뉴스</a>
-    <div class="v2-news-list-row__summary">[오늘의 글로벌마켓] 뉴욕증시, 소비지표 둔화에 3대지수 하락세  오피니언뉴스</div>
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBCTjBHZENqMlB4WHRJU3BfdVJDenFwTUFhNVNreGQ4Xy1NcHdHREFQMGxYcEo0b1dNc041U3I4OE5kSnJueEdlNlpEV2VfQU15aU9kVzh3QkJwWm9ZdGdKejZYSFc0UFdnRkdQX1RUeEM?oc=5" target="_blank" rel="noopener noreferrer">美 물가 안정·금리 인상 기대 후퇴…증시 올랐지만 “기계적 반응” 경계 - 한양경제</a>
+    <div class="v2-news-list-row__summary">美 물가 안정·금리 인상 기대 후퇴…증시 올랐지만 “기계적 반응” 경계  한양경제</div>
   </div>
   <span class="v2-news-list-row__meta">
     <span class="v2-news-list-row__source">Google News</span>
-    <span class="v2-news-list-row__time">08-15 07:46</span>
+    <span class="v2-news-list-row__time">08-15 10:21</span>
   </span>
 </div>
-<div class="v2-news-list-row lvl-l1" data-kw="">
-  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+<div class="v2-news-list-row lvl-l3" data-kw="반도체">
+  <span class="v2-level-gauge" title="필수 — 지수·금리 등에 직접 영향">
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
   </span>
   <div class="v2-news-list-row__body">
-    <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260814061700065" target="_blank" rel="noopener noreferrer">가짜 계약서로 법원도 속였다…45억 뜯은 깡통빌라 사기극</a>
-    <div class="v2-news-list-row__summary">(부천=연합뉴스) 최은지 기자 = 2020년 서울 강남구의 한 대부업체 운영자 A(60)씨는 치밀한 대출 사기를 계획했다.</div>
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBQVndGdUFLZTgyVTkycFpGeGRqZXROaV91blFyUlMyQklUX3Fnd0NrRjRuV0lsZF9OemxhbGROM1VjTkVPNVc1ZHJBOGJ3TGdZM1k0RFU4SzgwUHRYTTdSQVpydEgxSFNtY1E?oc=5" target="_blank" rel="noopener noreferrer">[뉴욕증시] 경기 우려 &#39;숨고르기&#39;, 반도체 차별화…샌디스크 7%↑·AMAT 5%↓ - 서울파이낸스</a>
+    <div class="v2-news-list-row__summary">[뉴욕증시] 경기 우려 &#39;숨고르기&#39;, 반도체 차별화…샌디스크 7%↑·AMAT 5%↓  서울파이낸스</div>
   </div>
   <span class="v2-news-list-row__meta">
-    <span class="v2-news-list-row__source">연합뉴스·경제</span>
-    <span class="v2-news-list-row__time">08-15 07:17</span>
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-15 07:37</span>
   </span>
 </div>
-<div class="v2-news-list-row lvl-l1" data-kw="">
-  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
-    <span class="v2-level-gauge__bar"></span>
-    <span class="v2-level-gauge__bar"></span>
-    <span class="v2-level-gauge__bar"></span>
-  </span>
-  <div class="v2-news-list-row__body">
-    <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260812133500063" target="_blank" rel="noopener noreferrer">[로컬의 재발견] 한국의 실리콘밸리 찾으세요? 대전 &#39;스타트업 파크&#39; 오세요!</a>
-    <div class="v2-news-list-row__summary">[※ 편집자 주 = 저출산·고령화와 청년 유출로 지역 소멸 위기가 커지는 가운데 연합뉴스는 발상의 전환을 통해 각 지역의 숨은 자랑거리와 이야깃...</div>
-  </div>
-  <span class="v2-news-list-row__meta">
-    <span class="v2-news-list-row__source">연합뉴스·경제</span>
-    <span class="v2-news-list-row__time">08-15 07:11</span>
-  </span>
-</div>
-<div class="v2-news-list-row lvl-l1" data-kw="부동산">
-  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
-    <span class="v2-level-gauge__bar"></span>
-    <span class="v2-level-gauge__bar"></span>
-    <span class="v2-level-gauge__bar"></span>
-  </span>
-  <div class="v2-news-list-row__body">
-    <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260814042200546" target="_blank" rel="noopener noreferrer">[머니톡스] 서울로 서울로…해방의 기쁨과 함께 시작된 주택난</a>
-    <div class="v2-news-list-row__summary">(서울=연합뉴스) 윤선희 선임기자 = ＃ 1945년 서울역사는 몸살을 앓았다. 만주, 일본, 중국 등지에서 돌아온 귀환 동포와 월남민들이 매일 ...</div>
-  </div>
-  <span class="v2-news-list-row__meta">
-    <span class="v2-news-list-row__source">연합뉴스·경제</span>
-    <span class="v2-news-list-row__time">08-15 07:07</span>
-  </span>
-</div>
-  </div>
-</div>
-
-    <div data-tab-panel="news" data-tab="macro" style="display:none">
-  <div class="v2-news-list">
 <div class="v2-news-list-row lvl-l2" data-kw="유가">
   <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
     <span class="v2-level-gauge__bar"></span>
@@ -1053,6 +1126,21 @@ aria-current="page" title="News">
   <span class="v2-news-list-row__meta">
     <span class="v2-news-list-row__source">Google News</span>
     <span class="v2-news-list-row__time">08-15 05:48</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="금리">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1RamVuWlpabHNUNWhZbUVkb3E5bmx6bVloMUV2YmxMSmJzYk9LNjgxMHlqY01QR2g5aVRhbGNDZ2FwblBoMVN4YmFwRUMxaDh5Q21VUERXLW9CV01HQWNtY1BZUmtuVFEzeGVpeGcweDg?oc=5" target="_blank" rel="noopener noreferrer">금리 하락 시 유럽 증시 전망, 뱅크오브아메리카가 설명 - Investing.com 한국어</a>
+    <div class="v2-news-list-row__summary">금리 하락 시 유럽 증시 전망, 뱅크오브아메리카가 설명  Investing.com 한국어</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 21:27</span>
   </span>
 </div>
 <div class="v2-news-list-row lvl-l2" data-kw="환율">
@@ -1100,6 +1188,21 @@ aria-current="page" title="News">
     <span class="v2-news-list-row__time">08-14 17:31</span>
   </span>
 </div>
+<div class="v2-news-list-row lvl-l2" data-kw="금리">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260814141251008" target="_blank" rel="noopener noreferrer">연휴 앞두고 국고채 금리 혼조세…초장기물 하락(종합)</a>
+    <div class="v2-news-list-row__summary">(서울=연합뉴스) 강수지 기자 = 14일 국고채 금리가 혼조세를 보였다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">08-14 17:08</span>
+  </span>
+</div>
 <div class="v2-news-list-row lvl-l2" data-kw="금리|환율">
   <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
     <span class="v2-level-gauge__bar"></span>
@@ -1115,19 +1218,214 @@ aria-current="page" title="News">
     <span class="v2-news-list-row__time">08-14 14:43</span>
   </span>
 </div>
-<div class="v2-news-list-row lvl-l2" data-kw="연준|조선">
+<div class="v2-news-list-row lvl-l3" data-kw="반도체">
+  <span class="v2-level-gauge" title="필수 — 지수·금리 등에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwdm92NGFHX1FMWWNEcjZ4aFRGeV9CQVMzZG4tQkhuNml1OFJHV09vZ2ZmeFNqRmppdUZaREplTjVULWh1QmQzaS1TMU1VVklrSkZrUXgyVEFVYXRZ?oc=5" target="_blank" rel="noopener noreferrer">[모닝 리포트] &#34;PPI 안도·반도체 훈풍…증시 강세 지속&#34; - 뉴스핌</a>
+    <div class="v2-news-list-row__summary">[모닝 리포트] &#34;PPI 안도·반도체 훈풍…증시 강세 지속&#34;  뉴스핌</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 08:47</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="물가|유가">
   <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
   </span>
   <div class="v2-news-list-row__body">
-    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdDJMQnBUMGM2akE2UEY0cktrYkNDdkZTXzgxY0pRbERQV3FaUHNLanhQSGlPVEZoSFB5MUZuWEp2YzFrbXRDem10c1ZjUm4wU0JMMkotckI4RTU5QzhITUZLbDdmLUh5cDNNOV8wMFFPbDkySEpMLVVUcnJOVkU1VkJLYUVwR1k20gGcAUFVX3lxTE5UVEpXRkFPUjlXbktoMVVHTkZKc3huS3dZbFZCVjh4aDFlMDBzY1JoUnF6blE4SDJvXzU5ZzhkaTc4STk2amRZdnlaU3puSHhkX1dKcm9jU1NaXzdOeWVzaGVVakxkQXVXcjExcVlYaDl1RE5aQnhpMC1FWFJxbEVtamtQNEttOUc3bnJjZzRNeHNjQ2tNaDExY2k1SA?oc=5" target="_blank" rel="noopener noreferrer">코스피, 개장 후 ‘7000피’ 회복… 美 증시 훈풍·연준 긴축 완화 기대 - 조선비즈 - biz.chosun.com</a>
-    <div class="v2-news-list-row__summary">코스피, 개장 후 ‘7000피’ 회복… 美 증시 훈풍·연준 긴축 완화 기대 - 조선비즈  biz.chosun.com</div>
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5fTC1LdE9sUHZGUEhUaGVVSklvdjloR3lvRTNIbE8yblJMdVE3Z1RCOWJiOFNLZ0NjeURRVm5fUm91Ri11WHhWTVZGU1NTZnM?oc=5" target="_blank" rel="noopener noreferrer">뉴욕증시, 물가 완화·유가 하락에 강세...S&amp;P500 사상 최고 - v.daum.net</a>
+    <div class="v2-news-list-row__summary">뉴욕증시, 물가 완화·유가 하락에 강세...S&amp;amp;P500 사상 최고  v.daum.net</div>
   </div>
   <span class="v2-news-list-row__meta">
     <span class="v2-news-list-row__source">Google News</span>
-    <span class="v2-news-list-row__time">08-14 09:34</span>
+    <span class="v2-news-list-row__time">08-14 08:42</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="고용|유가">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260814025000008" target="_blank" rel="noopener noreferrer">IBK증권 &#34;美고용둔화, 우려할 사안 아냐…고유가는 주시해야&#34;</a>
+    <div class="v2-news-list-row__summary">(서울=연합뉴스) 황철환 기자 = 미국 고용지표 둔화세에도 뉴욕증시가 이례적으로 활기를 띠고 있지만 주식시장 입장에선 크게 우려할 상황은 아니라...</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">08-14 08:39</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l3" data-kw="AI|반도체">
+  <span class="v2-level-gauge" title="필수 — 지수·금리 등에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGM0RORUl0UktmdWlILVl6UVVUVW1zbnMyM0t0ZElKXzNUS21LSGM0bjhGVTdPYnF5UTEtSlFtajdVYkI2eGoxODljMHRtb3ZwRG9jM1ZkdUdFV2Rl?oc=5" target="_blank" rel="noopener noreferrer">[AI MY 증시전망] 코스피, 美 PPI 안도·반도체 강세에 상승 전망 - 뉴스핌</a>
+    <div class="v2-news-list-row__summary">[AI MY 증시전망] 코스피, 美 PPI 안도·반도체 강세에 상승 전망  뉴스핌</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 08:23</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="금리">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMidkFVX3lxTE42SkVoNTBkZi02UjNiellyMERSZlBub1dmZHVicmJJTkJ1LVloRW9wN1VLU0xZeUUtZXhZSFAxa29yLUhDWkhYUzVGSmlfY1Z2TVd4aHhfUWJENlFXa29RN1FVQWl2WXlDYlloZ2dWVDJyc1lBeUE?oc=5" target="_blank" rel="noopener noreferrer">[0814개장체크] 美 증시, 9월 금리 동결 기대감 확산 - 인포스탁데일리</a>
+    <div class="v2-news-list-row__summary">[0814개장체크] 美 증시, 9월 금리 동결 기대감 확산  인포스탁데일리</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 07:50</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l3" data-kw="연준|금리|반도체">
+  <span class="v2-level-gauge" title="필수 — 지수·금리 등에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260814014500008" target="_blank" rel="noopener noreferrer">[마켓뷰] &#39;인플레 압력 둔화&#39; 美훈풍…코스피 5일째 상승 이어가나</a>
+    <div class="v2-news-list-row__summary">(서울=연합뉴스) 황철환 기자 = 14일 한국 주식시장은 미국 연방준비제도(Fed·연준)의 기준금리 인상 우려 완화와 글로벌 반도체주 강세의 영...</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">08-14 07:27</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="물가|조선|유가">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMingFBVV95cUxOUmlfT2QzWE05SVZONG5WVlRSQTc0U0ZTNnRaUkZwSDBJSHpfN2dNcGEwODZfQURXYzY4b0p0MjN0NHlHU1QxaXF3MzIzbGNGcXdDUFNkdnZfWnVNSWpfSWs3REZEbHpqZ1V2YVNFSXZiUGtzcUo0UkZHSnVmS0RybVV4amF3VXluM0d1TnpqWEVub0FheE9FdzFOZ0Mwdw?oc=5" target="_blank" rel="noopener noreferrer">뉴욕증시, 물가·유가 부담 완화에 상승 마감… S&amp;P500 사상 최고 - 조선비즈 - Chosunbiz</a>
+    <div class="v2-news-list-row__summary">뉴욕증시, 물가·유가 부담 완화에 상승 마감… S&amp;amp;P500 사상 최고 - 조선비즈  Chosunbiz</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 06:31</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="GDP">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260813111400546" target="_blank" rel="noopener noreferrer">[삶-특집] &#34;한국 GDP, 뉴욕주 규모도 안된다…경제력-군사력 더 키워야&#34;</a>
+    <div class="v2-news-list-row__summary">(서울=연합뉴스) 윤근영 선임 기자= 한국은 침략당하고 또 당했다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">08-14 06:01</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="물가|환율|유가">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260813149300002" target="_blank" rel="noopener noreferrer">환율·유가 하락에 7월 수입물가 1.0%↓…두달 연속 하락</a>
+    <div class="v2-news-list-row__summary">(서울=연합뉴스) 임지우 기자 = 지난 달 원/달러 환율과 국제 유가가 하락하면서 수입 물가가 2개월 연속 하락했다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">08-14 06:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="부동산">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.yna.co.kr/view/AKR20260813151300003" target="_blank" rel="noopener noreferrer">부동산서비스업 체감경기 소폭 개선…공인중개업은 악화</a>
+    <div class="v2-news-list-row__summary">(세종=연합뉴스) 오진송 기자 = 올해 2분기 부동산서비스업의 체감경기가 소폭 개선됐지만, 여전히 부정적인 경기 인식이 우세한 것으로 나타났다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">연합뉴스·경제</span>
+    <span class="v2-news-list-row__time">08-14 06:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="물가">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tc0loaEpBWl9STU93eWhvR0ZSOUc3dUtRTGppYWpyV3VTTjlVa19SQWZQOUFFMDg1Y2JfOXVqUU5MU1F0MGVtVTdCNmJpeWZtVnJ6YTBwV3h0UQ?oc=5" target="_blank" rel="noopener noreferrer">美 증시, 물가 둔화에 일제히 상승…S&amp;P500 사상 최고 - 경북매일</a>
+    <div class="v2-news-list-row__summary">美 증시, 물가 둔화에 일제히 상승…S&amp;amp;P500 사상 최고  경북매일</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 05:58</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="물가">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9RTzNDa25LTWNVTFR3U1lnb29HeFktQmd1QUNyLVh1TVNEeURRMzJfRnZYbWN0WmRkT0NLc05aYk83VlVQOVJRa19sVlpBNWxrcnVQaEhyVDJPWnpQdVZOSGMyZ0tSamp0VFJubDFfaUI?oc=5" target="_blank" rel="noopener noreferrer">[뉴욕증시] 도매 물가마저 둔화하자 &#39;안도&#39;…강세 마감 - 연합인포맥스</a>
+    <div class="v2-news-list-row__summary">[뉴욕증시] 도매 물가마저 둔화하자 &#39;안도&#39;…강세 마감  연합인포맥스</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 05:54</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE0yd0FKY2U5Ymc4TTB1ckcxSVhxOTE0RmluaUZKSFNsT3c2NG9GNHFYalRzeWJyZmZVenN0alZqUnVEQ1pPSlRRYnVDWVNyaS1tMTBMWmpVemF3RGwtc0E?oc=5" target="_blank" rel="noopener noreferrer">[월가 레이더] 美 뉴욕증시, PPI 둔화에 S&amp;P500 7800 돌파…사상 최고치 경신 - 포커스온경제</a>
+    <div class="v2-news-list-row__summary">[월가 레이더] 美 뉴욕증시, PPI 둔화에 S&amp;amp;P500 7800 돌파…사상 최고치 경신  포커스온경제</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 05:51</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="물가|유가">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMihgFBVV95cUxObEwtTmN0X2lUWFZBeHNVazJ0eWg2a0N4dEdrVWVNYjdJTVlwZGotYUhMRW1pLUgwVGJ0a0ZzTms1Y2FwZDNoeU9leVhfTjIybGh0ZFRLazRmUjJyMlVsR1hfTWNCZFlOdGJObjNFLUNRbGJyb25IQU90WUVodGJscUVIRWVoZw?oc=5" target="_blank" rel="noopener noreferrer">[뉴욕증시] 물가 완화·유가 하락 타고 3대 지수 상승 - 글로벌이코노믹</a>
+    <div class="v2-news-list-row__summary">[뉴욕증시] 물가 완화·유가 하락 타고 3대 지수 상승  글로벌이코노믹</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 05:44</span>
   </span>
 </div>
 <div class="v2-news-list-row lvl-l2" data-kw="물가|유가">
@@ -1145,6 +1443,81 @@ aria-current="page" title="News">
     <span class="v2-news-list-row__time">08-14 05:23</span>
   </span>
 </div>
+<div class="v2-news-list-row lvl-l2" data-kw="">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YXzZ0NWtSSEZYc1N3eTF4UUx1TDkwNUJMdjNxbjFTTzRTQm8yTkFtTmNQZlBBRWRPS3drbEhkb1prY1ZiUTN1bTE3TVJfRW0xaGFBamZ2VF9IbmVo?oc=5" target="_blank" rel="noopener noreferrer">뉴욕증시, 예상 밑돈 PPI에 일제히 상승…S&amp;P500 &#39;사상 최고&#39; - 뉴스핌</a>
+    <div class="v2-news-list-row__summary">뉴욕증시, 예상 밑돈 PPI에 일제히 상승…S&amp;amp;P500 &#39;사상 최고&#39;  뉴스핌</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 05:21</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="물가">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1HaTVpZnZ4aV80WUNzYXpMVzdGTzFjcnAzQWtCWjBEbkVySTR4N0xuZW4ydFZmTnhDbWpKYjJrVmNERWNsZmg0QVBjQTJicGhGSV9lMzlnOUhYcjRJZldUUW1UeW10MFFqQ0Z1ZktSN1bSAXRBVV95cUxPdEhvNEtnaFB1dF9jTjg1M3NwRkg0S2M2X1FDbDRvb01BLXVOdmZDa25zaU1Fcm9WdTFQZmRSRHhKeXpKQXdrMDZwQXRtVGp3NEVaelVEQUVsd25aX3lzMzVFUWcxVjVyUC1vTEgxUEU1eVFkTw?oc=5" target="_blank" rel="noopener noreferrer">[뉴욕증시-1보] 도매 물가마저 둔화하자 &#39;안도&#39;…강세 마감 - 연합인포맥스</a>
+    <div class="v2-news-list-row__summary">[뉴욕증시-1보] 도매 물가마저 둔화하자 &#39;안도&#39;…강세 마감  연합인포맥스</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 05:09</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE00dmNwb3oxbGo4WnJsa3VmcWpWd0NDWmFsQ0MzU2R2OFpkTVFxY2JpNDI4TWJReHltMDhYM1JSdk5Dbl9tN2lGWHUySG9tNVJaZUd4Q1FxbXZXckQydlhWUA?oc=5" target="_blank" rel="noopener noreferrer">[속보]뉴욕증시, PPI 둔화 확인 후 일제히 상승 마감 - 아시아경제</a>
+    <div class="v2-news-list-row__summary">[속보]뉴욕증시, PPI 둔화 확인 후 일제히 상승 마감  아시아경제</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 05:06</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="물가">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ad2FXdXJWd0l5ZThtQXdKN0hFYWlkZGVKMW1nX3Z6NDY5ZEVPVmcwQmxGakxJRXk0SzExd2FMS3hOX0k2cjZSU2tHQWs0OWs?oc=5" target="_blank" rel="noopener noreferrer">뉴욕증시, 물가압력 완화에 상승…S&amp;P500 최고치 - v.daum.net</a>
+    <div class="v2-news-list-row__summary">뉴욕증시, 물가압력 완화에 상승…S&amp;amp;P500 최고치  v.daum.net</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 05:06</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="물가|유가">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZnRmOVNualVRdDJBN2ktbGdJM3E5NUhkcDRrSWpaak5Nc1hRMHhQSi1XNlI5YWE2RFBfaHJJdzJmeEwtZ3V3MXFmOXZGOVRObTM2NjBNb0hDaW4zaXg1TTVvRGRBSmdWQVAwWXI5bXBNYUhFS1Q2VW9jZU4yeF9seklxT2FVc0ZG?oc=5" target="_blank" rel="noopener noreferrer">美, 물가 안정세에 훈풍 탄 증시…고유가 악재 뚫고 랠리 계속 - 글로벌이코노믹</a>
+    <div class="v2-news-list-row__summary">美, 물가 안정세에 훈풍 탄 증시…고유가 악재 뚫고 랠리 계속  글로벌이코노믹</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">Google News</span>
+    <span class="v2-news-list-row__time">08-14 03:35</span>
+  </span>
+</div>
 <div class="v2-news-list-row lvl-l2" data-kw="유가">
   <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
     <span class="v2-level-gauge__bar"></span>
@@ -1160,41 +1533,27 @@ aria-current="page" title="News">
     <span class="v2-news-list-row__time">08-13 22:59</span>
   </span>
 </div>
-<div class="v2-news-list-row lvl-l2" data-kw="금리|물가|환율">
+  </div>
+</div>
+
+    <div data-tab-panel="news" data-tab="breaking" style="display:none">
+  <div class="v2-news-list">
+<div class="v2-news-list-row lvl-l2" data-kw="">
   <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
     <span class="v2-level-gauge__bar"></span>
   </span>
   <div class="v2-news-list-row__body">
-    <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12126922" target="_blank" rel="noopener noreferrer">엔화 구출작전 백약이 무효…아베의 유령이 내린 저주 [백석현의 환율노트]</a>
-    <div class="v2-news-list-row__summary">국가부채와 물가안정…일본경제의 근본 모순일반적으로 특정 국가의 금리가 오르면 그 국가의 통화는 강해집니다. 더 높은 금리를 받을 수 있는 자산으로 자금이 이동하기 때문입니다. 하지..</div>
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/15/rivian-tesla-self-driving-adas-fsd.html" target="_blank" rel="noopener noreferrer">나는 Tesla FSD, Rivian Autonomy+ &#39;핸즈프리&#39; 운전 시스템을 운전했습니다. 비교 방법은 다음과 같습니다.</a>
+    <div class="v2-news-list-row__summary">Rivian은 Tesla의 &#34;핸즈프리&#34; 기능을 따라잡으려고 노력하고 있지만 Elon Musk 회사에는 없는 추가 안전 가드레일을 갖추고 있습니다.</div>
   </div>
+  <span><span class="v2-tag">Tesla</span></span>
   <span class="v2-news-list-row__meta">
-    <span class="v2-news-list-row__source">매일경제·증권</span>
-    <span class="v2-news-list-row__time">08-13 18:32</span>
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-15 21:00</span>
   </span>
 </div>
-<div class="v2-news-list-row lvl-l3" data-kw="금리|AI">
-  <span class="v2-level-gauge" title="필수 — 지수·금리 등에 직접 영향">
-    <span class="v2-level-gauge__bar"></span>
-    <span class="v2-level-gauge__bar"></span>
-    <span class="v2-level-gauge__bar"></span>
-  </span>
-  <div class="v2-news-list-row__body">
-    <a class="v2-news-list-row__headline" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5HUjFOMkMyM1VFMTdlOVhkZUpvYVdVOWdkdWtmTU4yZFlSQUJMZjE0RC15T1JRVlRpa3FPMXo1MVdZRWo3T1FSdERRRE1BazFyVnlDZ2E0YjQwd9IBX0FVX3lxTE00alhtZ24tTHJwXzdBYzVGTklMa3pMeDJRY08xeEpDdDh2YTZILS1Vb0hXcWFXMGVRNXVRU1RKWkJyOUJPUXBiZEtJd0xLV3lsVnh2ZVJNVFNseHVEbXVN?oc=5" target="_blank" rel="noopener noreferrer">뉴욕증시, 금리 동결 기대감에 AI 낙관론 재개…나스닥 0.5%↑ - 경향신문</a>
-    <div class="v2-news-list-row__summary">뉴욕증시, 금리 동결 기대감에 AI 낙관론 재개…나스닥 0.5%↑  경향신문</div>
-  </div>
-  <span class="v2-news-list-row__meta">
-    <span class="v2-news-list-row__source">Google News</span>
-    <span class="v2-news-list-row__time">08-13 07:19</span>
-  </span>
-</div>
-  </div>
-</div>
-
-    <div data-tab-panel="news" data-tab="breaking" style="display:none">
-  <div class="v2-news-list">
 <div class="v2-news-list-row lvl-l1" data-kw="">
   <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
     <span class="v2-level-gauge__bar"></span>
@@ -1202,12 +1561,118 @@ aria-current="page" title="News">
     <span class="v2-level-gauge__bar"></span>
   </span>
   <div class="v2-news-list-row__body">
-    <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12128763" target="_blank" rel="noopener noreferrer">“10년 뒤엔 지금보다 훨씬”…한국인 절반 ‘韓·日 경제 역전’ 예측</a>
-    <div class="v2-news-list-row__summary">“머지 않은 시점에 일본 경제 넘어설 것” 한국인 절반가량이 이같이 전망하고 있다는 조사 결과가 나와 눈길을 끈다. 15일 뉴스1에 따르면 나우앤서베이가 지난 7일부터 10일까지 ..</div>
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/15/software-defined-vehicles-rivian-tesla.html" target="_blank" rel="noopener noreferrer">소프트웨어 정의 자동차는 얼마나 오래 지속될까요? 자동차업계는 아직 모른다</a>
+    <div class="v2-news-list-row__summary">소프트웨어로 작동하는 자동차는 자동차 제조업체에 이점을 제공하며 많은 고객은 구형 자동차가 경쟁할 수 없다고 말합니다. 그러나 일부 분석가들은 차량이 지속되지 않을 수도 있다고 우려합니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-15 21:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="M&amp;A|AI">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/a-decade-of-internal-ai-battles-is-finally-catching-up-to-google-7b3358a1?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">10년간의 내부 AI 싸움이 마침내 Google을 따라잡았습니다.</a>
+    <div class="v2-news-list-row__summary">2014년 Google이 인수한 DeepMind는 회사 AI 전략의 초석이자 만성적인 조직 마찰의 원인이기도 합니다.</div>
+  </div>
+  <span><span class="v2-tag">Alphabet</span></span>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-15 21:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="부동산">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">&#39;양날의 검&#39;: 남편은 42,000달러의 보너스를 받았습니다. Affordable Care Act 보조금이 사라질까요?</a>
+    <div class="v2-news-list-row__summary">“보너스를 반납하고 주택담보대출을 받으라는 조언을 받았습니다.”</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-15 21:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">저는 63세이고 은퇴한 CPA입니다. 저는 120만 달러의 401(k)를 갖고 있습니다. Roth 변환이 필요합니까?</a>
+    <div class="v2-news-list-row__summary">“내 한계세율이 앞으로도 크게 달라질 것이라고는 생각하지 않습니다.”</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-15 21:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l2" data-kw="국채|IPO|AI">
+  <span class="v2-level-gauge" title="주목 — 주요 종목·섹터에 직접 영향">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/this-old-school-way-of-investing-money-is-better-than-ever-even-in-the-age-of-ai-and-mega-ipos-3e1142f7?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">돈을 투자하는 이 전통적인 방식은 AI와 대규모 IPO 시대에도 그 어느 때보다 좋습니다.</a>
+    <div class="v2-news-list-row__summary">포트폴리오 구성을 위한 &#34;황금 비율&#34;(60% 주식, 40% 채권)은 다시 작동하지만 몇 가지 조정 후에는</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-15 20:30</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="실적">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.mk.co.kr/news/economy/12128789" target="_blank" rel="noopener noreferrer">“매달 20만원 그냥 나가는데”…아파트 관리비 할인카드 따져보니</a>
+    <div class="v2-news-list-row__summary">고정비·전월실적 함께 봐야매달 약 20만원씩 빠져나가는 아파트 관리비를 카드로 결제하고도 카드 혜택을 받기 위해 또 다른 소비를 해야 하는 경우가 있다. 일부 신용카드가 아파트 관..</div>
   </div>
   <span class="v2-news-list-row__meta">
     <span class="v2-news-list-row__source">매일경제·증권</span>
-    <span class="v2-news-list-row__time">08-15 17:27</span>
+    <span class="v2-news-list-row__time">08-15 20:15</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="조선">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.cnbc.com/2026/08/15/iran-rebuffs-trumps-claim-over-hormuz-amid-report-of-ship-strike.html" target="_blank" rel="noopener noreferrer">이란은 또 다른 선박이 피격됐다는 보도가 나온 가운데 호르무즈 해협에 대한 트럼프의 주장을 거부했다.</a>
+    <div class="v2-news-list-row__summary">이란 외무차관은 호르무즈가 수로가 곧 미국 영토가 될 것이라는 트럼프 대통령의 주장에 대해 &#34;이란으로 남을 것&#34;이라고 말했습니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">CNBC Finance</span>
+    <span class="v2-news-list-row__time">08-15 20:00</span>
+  </span>
+</div>
+<div class="v2-news-list-row lvl-l1" data-kw="">
+  <span class="v2-level-gauge" title="참고 — 배경·후속 보도">
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+    <span class="v2-level-gauge__bar"></span>
+  </span>
+  <div class="v2-news-list-row__body">
+    <a class="v2-news-list-row__headline" href="https://www.marketwatch.com/story/the-hindenburg-omen-keeps-flashing-should-investors-worry-about-a-stock-market-crash-a4baf770?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">&#39;힌덴부르크 징조&#39;가 계속 깜박입니다. 투자자들은 주식시장 붕괴를 걱정해야 할까요?</a>
+    <div class="v2-news-list-row__summary">월스트리트의 기술 전략가들이 모니터링하는 가장 인기 있는 지표 중에서 &#34;Hindenburg Omen&#34;은 확실히 가장 멋진 이름을 가지고 있으며 논란의 여지가 더 많은 지표 중 하나입니다.</div>
+  </div>
+  <span class="v2-news-list-row__meta">
+    <span class="v2-news-list-row__source">MarketWatch</span>
+    <span class="v2-news-list-row__time">08-15 20:00</span>
   </span>
 </div>
   </div>
@@ -1224,23 +1689,23 @@ aria-current="page" title="News">
 <div class="v2-card v2-card--standard  " id="news-briefing">
     <div class="v2-card__header">
     <span class="v2-overline">모닝 브리핑</span>
-    <span class="v2-card__meta">2026-08-15 17:32 KST</span>
+    <span class="v2-card__meta">2026-08-15 21:13 KST</span>
   </div>
   <div class="v2-card__body">
     <div class="v2-hero-news-row">
       <span class="n">1</span>
-      <a class="t" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1XaV9Gb3hVbXdMR1RScHcyZlE4UzBBRmtyYVlKVWl1MFJPRWFpcjZLWXFFRXMzOTBPTTR3T0RzYnR0T0lLVV8zc1JnR2M4ZU5sUWdERjgzRmpWcEVsUE82R0JrUWxFR05IYTFlNGxR?oc=5" target="_blank" rel="noopener noreferrer">27만전자, 164만닉스, 돌아온 외인… 불붙은 국장과 반도체 고점론 [주간 증시해설서] - 더스쿠프</a>
+      <a class="t" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBQVndGdUFLZTgyVTkycFpGeGRqZXROaV91blFyUlMyQklUX3Fnd0NrRjRuV0lsZF9OemxhbGROM1VjTkVPNVc1ZHJBOGJ3TGdZM1k0RFU4SzgwUHRYTTdSQVpydEgxSFNtY1E?oc=5" target="_blank" rel="noopener noreferrer">[뉴욕증시] 경기 우려 &#39;숨고르기&#39;, 반도체 차별화…샌디스크 7%↑·AMAT 5%↓ - 서울파이낸스</a>
     </div>
     <div class="v2-hero-news-row">
       <span class="n">2</span>
-      <a class="t" href="https://www.yna.co.kr/view/AKR20260814042000055" target="_blank" rel="noopener noreferrer">농진청, &#39;AI 활용 창업경진대회&#39; 수상작 18점 선정</a>
+      <a class="t" href="https://www.cnbc.com/2026/08/15/rivian-tesla-self-driving-adas-fsd.html" target="_blank" rel="noopener noreferrer">나는 Tesla FSD, Rivian Autonomy+ &#39;핸즈프리&#39; 운전 시스템을 운전했습니다. 비교 방법은 다음과 같습니다.</a>
     </div>
     <div class="v2-hero-news-row">
       <span class="n">3</span>
-      <a class="t" href="https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html" target="_blank" rel="noopener noreferrer">엔비디아, 2분기 말 스페이스X 지분 210억 달러 공개</a>
+      <a class="t" href="https://www.marketwatch.com/story/a-decade-of-internal-ai-battles-is-finally-catching-up-to-google-7b3358a1?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">10년간의 내부 AI 싸움이 마침내 Google을 따라잡았습니다.</a>
     </div>
   </div>
-  <div class="v2-card__footer">필수 0 · 주목 11 · 참고 69</div>
+  <div class="v2-card__footer">필수 1 · 주목 19 · 참고 89</div>
 
 </div>
 
@@ -1255,30 +1720,30 @@ aria-current="page" title="News">
       <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 100%"></span></span>
       <span class="v2-radar-row__count">6</span>
     </button>
-    <button class="v2-radar-row" data-kw-pick="관세">
-      <span class="v2-radar-row__label">관세</span>
+    <button class="v2-radar-row" data-kw-pick="AI">
+      <span class="v2-radar-row__label">AI</span>
       <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 83%"></span></span>
       <span class="v2-radar-row__count">5</span>
     </button>
-    <button class="v2-radar-row" data-kw-pick="IPO">
-      <span class="v2-radar-row__label">IPO</span>
-      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 50%"></span></span>
-      <span class="v2-radar-row__count">3</span>
-    </button>
-    <button class="v2-radar-row" data-kw-pick="AI">
-      <span class="v2-radar-row__label">AI</span>
-      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 50%"></span></span>
-      <span class="v2-radar-row__count">3</span>
-    </button>
-    <button class="v2-radar-row" data-kw-pick="바이오">
-      <span class="v2-radar-row__label">바이오</span>
-      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 50%"></span></span>
-      <span class="v2-radar-row__count">3</span>
-    </button>
     <button class="v2-radar-row" data-kw-pick="금리">
       <span class="v2-radar-row__label">금리</span>
-      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 33%"></span></span>
-      <span class="v2-radar-row__count">2</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 67%"></span></span>
+      <span class="v2-radar-row__count">4</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="관세">
+      <span class="v2-radar-row__label">관세</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 67%"></span></span>
+      <span class="v2-radar-row__count">4</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="IPO">
+      <span class="v2-radar-row__label">IPO</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 67%"></span></span>
+      <span class="v2-radar-row__count">4</span>
+    </button>
+    <button class="v2-radar-row" data-kw-pick="반도체">
+      <span class="v2-radar-row__label">반도체</span>
+      <span class="v2-radar-row__track"><span class="v2-radar-row__bar" style="width: 67%"></span></span>
+      <span class="v2-radar-row__count">4</span>
     </button>
   </div>
 
@@ -1288,13 +1753,13 @@ aria-current="page" title="News">
     </div>
   </main>
   <div class="v2-panel-slot" id="panel-slot"></div>
-  <script src="../static/js/store.js?v=86005a93" defer></script>
-  <script src="../static/js/shell.js?v=86005a93" defer></script>
-  <script src="../static/js/stockhub.js?v=86005a93" defer></script>
-  <script src="../static/js/search.js?v=86005a93" defer></script>
-  <script src="../static/js/chart.js?v=86005a93" defer></script>
-<script src="../static/js/tabs.js?v=86005a93" defer></script>
-<script src="../static/js/news-radar.js?v=86005a93" defer></script>
+  <script src="../static/js/store.js?v=5e5904a5" defer></script>
+  <script src="../static/js/shell.js?v=5e5904a5" defer></script>
+  <script src="../static/js/stockhub.js?v=5e5904a5" defer></script>
+  <script src="../static/js/search.js?v=5e5904a5" defer></script>
+  <script src="../static/js/chart.js?v=5e5904a5" defer></script>
+<script src="../static/js/tabs.js?v=5e5904a5" defer></script>
+<script src="../static/js/news-radar.js?v=5e5904a5" defer></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     if (window.TATabs) window.TATabs.init("news", "us_market");

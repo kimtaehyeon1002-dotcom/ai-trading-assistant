@@ -4,27 +4,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>매매일지 · AI Trading Assistant</title>
-  <link rel="stylesheet" href="../static/css/tokens.css?v=86005a93">
-  <link rel="stylesheet" href="../static/css/base_v2.css?v=86005a93">
-  <link rel="stylesheet" href="../static/css/components.css?v=86005a93">
+  <link rel="stylesheet" href="../static/css/tokens.css?v=5e5904a5">
+  <link rel="stylesheet" href="../static/css/base_v2.css?v=5e5904a5">
+  <link rel="stylesheet" href="../static/css/components.css?v=5e5904a5">
   <script>(function(){try{
     var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
     var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
     var m=localStorage.getItem("ta:reduceMotion");if(m==="1")document.documentElement.setAttribute("data-reduce-motion","1");
   }catch(e){}})();</script>
 </head>
-<body class="v2" data-root="..">
+<body class="v2 " data-root="..">
   <div class="v2-nav-scrim" data-nav-close hidden></div>
-<nav class="v2-sidebar" id="v2-sidebar" aria-label="주 메뉴">
-  <div class="v2-sidebar__logo">
-    <span class="v2-sidebar__mark" aria-hidden="true">📈</span>
-    <span class="v2-sidebar__name">AI Trading Assistant</span>
+<nav class="v2-drawer" id="v2-drawer" aria-label="주 메뉴">
+  <div class="v2-drawer__logo">
+    <span class="v2-drawer__mark" aria-hidden="true">📈</span>
+    <span class="v2-drawer__name">AI Trading Assistant</span>
   </div>
   <div class="v2-nav">
     <a class="v2-nav__item" href="../index.html"
- title="Dashboard">
+ title="홈">
+  <span class="v2-nav__icon" aria-hidden="true">⌂</span>
+  <span class="v2-nav__label">홈</span>
+</a>
+
+    <a class="v2-nav__item" href="../morning/index.html"
+ title="Morning Report">
   <span class="v2-nav__icon" aria-hidden="true">◈</span>
-  <span class="v2-nav__label">Dashboard</span>
+  <span class="v2-nav__label">Morning Report</span>
 </a>
 
     <a class="v2-nav__item" href="../macro/index.html"
@@ -59,42 +65,79 @@
 
     <div class="v2-nav__divider"></div>
     <a class="v2-nav__item v2-nav__item--locked" href="../asset/index.html"
- title="Asset">
+ title="Private">
   <span class="v2-nav__icon" aria-hidden="true">◆</span>
-  <span class="v2-nav__label">Asset</span>
-<span class="v2-nav__lock" aria-hidden="true">🔒</span></a>
-
-    <a class="v2-nav__item v2-nav__item--locked" href="../portfolio/index.html"
- title="Portfolio">
-  <span class="v2-nav__icon" aria-hidden="true">◇</span>
-  <span class="v2-nav__label">Portfolio</span>
+  <span class="v2-nav__label">Private</span>
 <span class="v2-nav__lock" aria-hidden="true">🔒</span></a>
 
   </div>
-  <div class="v2-sidebar__footer">
+  <div class="v2-drawer__footer">
     <a class="v2-nav__item" href="../settings/index.html"
  title="Settings">
   <span class="v2-nav__icon" aria-hidden="true">⚙</span>
   <span class="v2-nav__label">Settings</span>
 </a>
 
-    <div class="v2-sidebar__version">AI Trading Assistant</div>
   </div>
 </nav>
 
   <header class="v2-header">
-  <button type="button" class="v2-navtoggle" data-nav-toggle aria-label="메뉴 열기" aria-expanded="false" aria-controls="v2-sidebar">
+  <button type="button" class="v2-navtoggle" data-nav-toggle aria-label="메뉴 열기" aria-expanded="false" aria-controls="v2-drawer">
     <span class="v2-navtoggle__bars" aria-hidden="true"></span>
   </button>
-  <div class="v2-header__context"></div>
+
+  <a class="v2-header__brand" href="../index.html" aria-label="홈(런처)로 이동">
+    <span class="v2-header__brand-mark" aria-hidden="true">◈</span>
+    <span class="v2-header__brand-name">AI Trading Assistant</span>
+  </a>
+
+  <nav class="v2-topnav" aria-label="섹션">
+    <a class="v2-topnav__item" href="../morning/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◈</span>
+      <span class="v2-topnav__label">Morning Report</span>
+    </a>
+    <a class="v2-topnav__item" href="../macro/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◎</span>
+      <span class="v2-topnav__label">Macroeconomics</span>
+    </a>
+    <a class="v2-topnav__item" href="../news/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">▤</span>
+      <span class="v2-topnav__label">News</span>
+    </a>
+    <a class="v2-topnav__item" href="../stock/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">▦</span>
+      <span class="v2-topnav__label">Stock</span>
+    </a>
+    <a class="v2-topnav__item" href="../financials/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">▥</span>
+      <span class="v2-topnav__label">Financial Statements</span>
+    </a>
+    <a class="v2-topnav__item" href="../ta/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◨</span>
+      <span class="v2-topnav__label">Technical Analysis</span>
+    </a>
+    <a class="v2-topnav__item v2-topnav__item--locked" href="../asset/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◆</span>
+      <span class="v2-topnav__label">Private</span>
+    </a>
+  </nav>
+
+  <div class="v2-header__context" hidden></div>
   <div class="v2-header__search" role="search">
     <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
-           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+           placeholder="검색" aria-label="종목·뉴스·페이지 검색">
     <kbd class="v2-header__search-kbd">Ctrl K</kbd>
     <div class="v2-search-results" data-search-results hidden></div>
   </div>
   <div class="v2-header__clock"></div>
-  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+  <a class="v2-header__settings" href="../settings/index.html" aria-label="Settings">⚙</a>
 </header>
 
   <main class="v2-main">
@@ -103,7 +146,7 @@
 <div class="v2-card v2-card--standard v2-span-12 " id="trades-summary">
     <div class="v2-card__header">
     <h3 class="v2-card__title">매매일지 요약</h3>
-    <span class="v2-card__meta">2026-08-15 11:52 KST</span>
+    <span class="v2-card__meta">2026-08-15 21:14 KST</span>
   </div>
   <div class="v2-card__body">
     <div class="v2-stat-row">
@@ -915,11 +958,11 @@
     </div>
   </main>
   <div class="v2-panel-slot" id="panel-slot"></div>
-  <script src="../static/js/store.js?v=86005a93" defer></script>
-  <script src="../static/js/shell.js?v=86005a93" defer></script>
-  <script src="../static/js/stockhub.js?v=86005a93" defer></script>
-  <script src="../static/js/search.js?v=86005a93" defer></script>
-  <script src="../static/js/chart.js?v=86005a93" defer></script>
-<script src="../static/js/trades.js?v=86005a93" defer></script>
+  <script src="../static/js/store.js?v=5e5904a5" defer></script>
+  <script src="../static/js/shell.js?v=5e5904a5" defer></script>
+  <script src="../static/js/stockhub.js?v=5e5904a5" defer></script>
+  <script src="../static/js/search.js?v=5e5904a5" defer></script>
+  <script src="../static/js/chart.js?v=5e5904a5" defer></script>
+<script src="../static/js/trades.js?v=5e5904a5" defer></script>
 </body>
 </html>

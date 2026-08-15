@@ -18,10 +18,11 @@
 {% block content %}
 
 <div class="v2-span-12 v2-launcher">
+  {# 설명 문장 없음 — 방사형 배치가 이미 "중앙이 축이고 주변이 섹션"을 말한다.
+     그림이 하는 말을 글로 반복하면 화면만 무거워진다. #}
   <div class="v2-launcher__head">
     <span class="v2-overline">TRADING ASSISTANT</span>
     <h1 class="v2-h1">{{ site.title }}</h1>
-    <p class="v2-body">섹션을 선택하세요. 중앙은 오늘의 모닝 리포트입니다.</p>
   </div>
   {{ navm.radial(nav, root, generated_at) }}
 </div>

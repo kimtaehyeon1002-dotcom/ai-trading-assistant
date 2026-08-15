@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Asset · AI Trading Assistant</title>
-  <link rel="stylesheet" href="../static/css/tokens.css?v=3c775045">
-  <link rel="stylesheet" href="../static/css/base_v2.css?v=3c775045">
-  <link rel="stylesheet" href="../static/css/components.css?v=3c775045">
+  <link rel="stylesheet" href="../static/css/tokens.css?v=807c435d">
+  <link rel="stylesheet" href="../static/css/base_v2.css?v=807c435d">
+  <link rel="stylesheet" href="../static/css/components.css?v=807c435d">
   <script>(function(){try{
     var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
     var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
@@ -14,54 +14,144 @@
   }catch(e){}})();</script>
 </head>
 <body class="v2" data-root="..">
-  <nav class="v2-sidebar" aria-label="주 메뉴">
-  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav-scrim" data-nav-close hidden></div>
+<nav class="v2-drawer" id="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-drawer__logo">
+    <span class="v2-drawer__mark" aria-hidden="true">📈</span>
+    <span class="v2-drawer__name">AI Trading Assistant</span>
+  </div>
   <div class="v2-nav">
     <a class="v2-nav__item" href="../index.html"
->Dashboard</a>
+ title="홈">
+  <span class="v2-nav__icon" aria-hidden="true">⌂</span>
+  <span class="v2-nav__label">홈</span>
+</a>
+
+    <a class="v2-nav__item" href="../morning/index.html"
+ title="Morning Report">
+  <span class="v2-nav__icon" aria-hidden="true">◈</span>
+  <span class="v2-nav__label">Morning Report</span>
+</a>
+
     <a class="v2-nav__item" href="../macro/index.html"
->Macroeconomics</a>
+ title="Macroeconomics">
+  <span class="v2-nav__icon" aria-hidden="true">◎</span>
+  <span class="v2-nav__label">Macroeconomics</span>
+</a>
+
     <a class="v2-nav__item" href="../news/index.html"
->News</a>
+ title="News">
+  <span class="v2-nav__icon" aria-hidden="true">▤</span>
+  <span class="v2-nav__label">News</span>
+</a>
+
     <a class="v2-nav__item" href="../stock/index.html"
->Stock</a>
+ title="Stock">
+  <span class="v2-nav__icon" aria-hidden="true">▦</span>
+  <span class="v2-nav__label">Stock</span>
+</a>
+
     <a class="v2-nav__item" href="../financials/index.html"
->Financial Statements</a>
+ title="Financial Statements">
+  <span class="v2-nav__icon" aria-hidden="true">▥</span>
+  <span class="v2-nav__label">Financial Statements</span>
+</a>
+
     <a class="v2-nav__item" href="../ta/index.html"
->Technical Analysis</a>
+ title="Technical Analysis">
+  <span class="v2-nav__icon" aria-hidden="true">◨</span>
+  <span class="v2-nav__label">Technical Analysis</span>
+</a>
+
     <div class="v2-nav__divider"></div>
     <a class="v2-nav__item v2-nav__item--locked" href="../asset/index.html"
-aria-current="page">
-      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
-    </a>
-    <a class="v2-nav__item v2-nav__item--locked" href="../portfolio/index.html"
->
-      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
-    </a>
+ title="Private">
+  <span class="v2-nav__icon" aria-hidden="true">◆</span>
+  <span class="v2-nav__label">Private</span>
+<span class="v2-nav__lock" aria-hidden="true">🔒</span></a>
+
   </div>
-  <div class="v2-sidebar__footer">
+  <div class="v2-drawer__footer">
     <a class="v2-nav__item" href="../settings/index.html"
->Settings</a>
-    <div class="v2-sidebar__version">AI Trading Assistant</div>
+ title="Settings">
+  <span class="v2-nav__icon" aria-hidden="true">⚙</span>
+  <span class="v2-nav__label">Settings</span>
+</a>
+
   </div>
 </nav>
 
   <header class="v2-header">
-  <div class="v2-header__context">
-    Asset
-  </div>
+  <button type="button" class="v2-navtoggle" data-nav-toggle aria-label="메뉴 열기" aria-expanded="false" aria-controls="v2-sidebar">
+    <span class="v2-navtoggle__bars" aria-hidden="true"></span>
+  </button>
+
+  <a class="v2-header__brand" href="../index.html" aria-label="홈(런처)로 이동">
+    <span class="v2-header__brand-mark" aria-hidden="true">◈</span>
+    <span class="v2-header__brand-name">AI Trading Assistant</span>
+  </a>
+
+  <nav class="v2-topnav" aria-label="섹션">
+    <a class="v2-topnav__item" href="../morning/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◈</span>
+      <span class="v2-topnav__label">Morning Report</span>
+    </a>
+    <a class="v2-topnav__item" href="../macro/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◎</span>
+      <span class="v2-topnav__label">Macroeconomics</span>
+    </a>
+    <a class="v2-topnav__item" href="../news/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">▤</span>
+      <span class="v2-topnav__label">News</span>
+    </a>
+    <a class="v2-topnav__item" href="../stock/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">▦</span>
+      <span class="v2-topnav__label">Stock</span>
+    </a>
+    <a class="v2-topnav__item" href="../financials/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">▥</span>
+      <span class="v2-topnav__label">Financial Statements</span>
+    </a>
+    <a class="v2-topnav__item" href="../ta/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◨</span>
+      <span class="v2-topnav__label">Technical Analysis</span>
+    </a>
+    <a class="v2-topnav__item v2-topnav__item--locked" href="../asset/index.html"
+>
+      <span class="v2-topnav__icon" aria-hidden="true">◆</span>
+      <span class="v2-topnav__label">Private</span>
+    </a>
+  </nav>
+
+  <div class="v2-header__context" hidden></div>
   <div class="v2-header__search" role="search">
     <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
-           placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
+           placeholder="검색" aria-label="종목·뉴스·페이지 검색">
     <kbd class="v2-header__search-kbd">Ctrl K</kbd>
     <div class="v2-search-results" data-search-results hidden></div>
   </div>
   <div class="v2-header__clock"></div>
-  <div class="v2-header__user" aria-hidden="true">· · ·</div>
+  <a class="v2-header__settings" href="../settings/index.html" aria-label="Settings">⚙</a>
 </header>
 
   <main class="v2-main">
     <div class="v2-content">
+<nav class="v2-subtabs" aria-label="Private 화면">
+  <a class="v2-subtabs__item" href="../asset/index.html"
+aria-current="page">
+    <span aria-hidden="true">◆</span>Asset
+  </a>
+  <a class="v2-subtabs__item" href="../portfolio/index.html"
+>
+    <span aria-hidden="true">◇</span>Portfolio
+  </a>
+</nav>
 
 <div id="asset-gate-overlay" class="v2-gate-overlay">
   <div class="v2-gate-modal" role="dialog" aria-modal="true" aria-labelledby="asset-gate-title">
@@ -88,7 +178,7 @@ aria-current="page">
     <div class="v2-asset-utility__actions">
       <button type="button" class="v2-mask-toggle" id="asset-mask-toggle" aria-pressed="false">금액 가리기</button>
       <button type="button" class="v2-lock-btn" id="asset-lock-btn">즉시 잠금</button>
-      <span id="asset-generated-at">2026-08-15 11:51 KST</span>
+      <span id="asset-generated-at">2026-08-15 13:24 KST</span>
     </div>
   </div>
   <div id="asset-content" class="v2-subgrid"></div>
@@ -97,14 +187,14 @@ aria-current="page">
     </div>
   </main>
   <div class="v2-panel-slot" id="panel-slot"></div>
-  <script src="../static/js/store.js?v=3c775045" defer></script>
-  <script src="../static/js/shell.js?v=3c775045" defer></script>
-  <script src="../static/js/stockhub.js?v=3c775045" defer></script>
-  <script src="../static/js/search.js?v=3c775045" defer></script>
-  <script src="../static/js/chart.js?v=3c775045" defer></script>
-<script src="../static/js/freshness.js?v=3c775045" defer></script>
-<script src="../static/js/asset-format.js?v=3c775045" defer></script>
-<script src="../static/js/asset-gate.js?v=3c775045" defer></script>
-<script src="../static/js/asset.js?v=3c775045" defer></script>
+  <script src="../static/js/store.js?v=807c435d" defer></script>
+  <script src="../static/js/shell.js?v=807c435d" defer></script>
+  <script src="../static/js/stockhub.js?v=807c435d" defer></script>
+  <script src="../static/js/search.js?v=807c435d" defer></script>
+  <script src="../static/js/chart.js?v=807c435d" defer></script>
+<script src="../static/js/freshness.js?v=807c435d" defer></script>
+<script src="../static/js/asset-format.js?v=807c435d" defer></script>
+<script src="../static/js/asset-gate.js?v=807c435d" defer></script>
+<script src="../static/js/asset.js?v=807c435d" defer></script>
 </body>
 </html>
