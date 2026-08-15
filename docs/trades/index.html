@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>매매일지 · AI Trading Assistant</title>
-  <link rel="stylesheet" href="../static/css/tokens.css?v=0e750971">
-  <link rel="stylesheet" href="../static/css/base_v2.css?v=0e750971">
-  <link rel="stylesheet" href="../static/css/components.css?v=0e750971">
+  <link rel="stylesheet" href="../static/css/tokens.css?v=3c775045">
+  <link rel="stylesheet" href="../static/css/base_v2.css?v=3c775045">
+  <link rel="stylesheet" href="../static/css/components.css?v=3c775045">
   <script>(function(){try{
     var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
     var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
@@ -103,14 +103,14 @@
 <div class="v2-card v2-card--standard v2-span-12 " id="trades-summary">
     <div class="v2-card__header">
     <h3 class="v2-card__title">매매일지 요약</h3>
-    <span class="v2-card__meta">2026-08-14 04:40 KST</span>
+    <span class="v2-card__meta">2026-08-15 11:50 KST</span>
   </div>
   <div class="v2-card__body">
     <div class="v2-stat-row">
-      <div class="v2-stat"><span class="v2-stat__label">총 거래</span><span class="v2-stat__value v2-stat__value--lg">59</span></div>
-      <div class="v2-stat"><span class="v2-stat__label">승률</span><span class="v2-stat__value v2-stat__value--lg">50.8%</span></div>
-      <div class="v2-stat"><span class="v2-stat__label">총 손익</span><span class="v2-stat__value v2-stat__value--lg v2-updown down">-861,367</span></div>
-      <div class="v2-stat"><span class="v2-stat__label">평균 수익</span><span class="v2-stat__value v2-stat__value--lg v2-updown up">32,468</span></div>
+      <div class="v2-stat"><span class="v2-stat__label">총 거래</span><span class="v2-stat__value v2-stat__value--lg">62</span></div>
+      <div class="v2-stat"><span class="v2-stat__label">승률</span><span class="v2-stat__value v2-stat__value--lg">53.2%</span></div>
+      <div class="v2-stat"><span class="v2-stat__label">총 손익</span><span class="v2-stat__value v2-stat__value--lg v2-updown down">-787,571</span></div>
+      <div class="v2-stat"><span class="v2-stat__label">평균 수익</span><span class="v2-stat__value v2-stat__value--lg v2-updown up">31,753</span></div>
       <div class="v2-stat"><span class="v2-stat__label">평균 손실</span><span class="v2-stat__value v2-stat__value--lg v2-updown down">-63,290</span></div>
     </div>
   </div>
@@ -125,9 +125,9 @@
       <tbody>
         <tr>
           <td>단타</td>
-          <td class="num">59</td>
-          <td class="num v2-updown down">-861,367</td>
-          <td class="num">50.8%</td>
+          <td class="num">62</td>
+          <td class="num v2-updown down">-787,571</td>
+          <td class="num">53.2%</td>
         </tr>
         <tr>
           <td>스윙</td>
@@ -162,6 +162,42 @@
           <th class="num">수량</th><th class="num">손익</th><th class="num">수익률</th><th class="num">보유일</th><th>계좌</th></tr>
       </thead>
       <tbody>
+        <tr data-cat="day">
+          <td>2026-08-14</td>
+          <td><span class="v2-rank-row__name">삼천당제약</span><span class="v2-rank-row__code">000250</span></td>
+          <td><span class="v2-tag">단타</span></td>
+          <td class="num">178,064</td>
+          <td class="num">196,500</td>
+          <td class="num">3</td>
+          <td class="num v2-updown up">55,309</td>
+          <td class="num v2-updown up">+10.35%</td>
+          <td class="num">0</td>
+          <td>위탁</td>
+        </tr>
+        <tr data-cat="day">
+          <td>2026-08-14</td>
+          <td><span class="v2-rank-row__name">테스</span><span class="v2-rank-row__code">095610</span></td>
+          <td><span class="v2-tag">단타</span></td>
+          <td class="num">152,200</td>
+          <td class="num">154,800</td>
+          <td class="num">3</td>
+          <td class="num v2-updown up">7,800</td>
+          <td class="num v2-updown up">+1.71%</td>
+          <td class="num">0</td>
+          <td>위탁</td>
+        </tr>
+        <tr data-cat="day">
+          <td>2026-08-14</td>
+          <td><span class="v2-rank-row__name">두산로보틱스</span><span class="v2-rank-row__code">454910</span></td>
+          <td><span class="v2-tag">단타</span></td>
+          <td class="num">77,538</td>
+          <td class="num">81,100</td>
+          <td class="num">3</td>
+          <td class="num v2-updown up">10,688</td>
+          <td class="num v2-updown up">+4.59%</td>
+          <td class="num">0</td>
+          <td>위탁</td>
+        </tr>
         <tr data-cat="day">
           <td>2026-08-13</td>
           <td><span class="v2-rank-row__name">삼성전자</span><span class="v2-rank-row__code">005930</span></td>
@@ -879,10 +915,11 @@
     </div>
   </main>
   <div class="v2-panel-slot" id="panel-slot"></div>
-  <script src="../static/js/store.js?v=0e750971" defer></script>
-  <script src="../static/js/stockhub.js?v=0e750971" defer></script>
-  <script src="../static/js/search.js?v=0e750971" defer></script>
-  <script src="../static/js/chart.js?v=0e750971" defer></script>
-<script src="../static/js/trades.js?v=0e750971" defer></script>
+  <script src="../static/js/store.js?v=3c775045" defer></script>
+  <script src="../static/js/shell.js?v=3c775045" defer></script>
+  <script src="../static/js/stockhub.js?v=3c775045" defer></script>
+  <script src="../static/js/search.js?v=3c775045" defer></script>
+  <script src="../static/js/chart.js?v=3c775045" defer></script>
+<script src="../static/js/trades.js?v=3c775045" defer></script>
 </body>
 </html>

@@ -2,12 +2,134 @@
   "code": "006400",
   "name": "삼성SDI",
   "market": "KRX",
-  "as_of": "2026-08-13T21:37:05.138057+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-14T00:01:09.843292+00:00",
+  "source": "dart",
+  "growth": {
+    "latest_year": "2025",
+    "value": -20.04,
+    "cagr_pct": -12.97,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": 20124069515854.0
+      },
+      {
+        "year": "2023",
+        "value": 22708300498633.0
+      },
+      {
+        "year": "2024",
+        "value": 16592248884388.0
+      },
+      {
+        "year": "2025",
+        "value": 13266730679499.0
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": -12.98,
+    "own_5y_avg": 1.35,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": 8.98
+      },
+      {
+        "year": "2023",
+        "value": 7.19
+      },
+      {
+        "year": "2024",
+        "value": 2.19
+      },
+      {
+        "year": "2025",
+        "value": -12.98
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 79.28,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 75.74
+      },
+      {
+        "year": "2023",
+        "value": 70.99
+      },
+      {
+        "year": "2024",
+        "value": 88.24
+      },
+      {
+        "year": "2025",
+        "value": 79.28
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": -2274465165864.0,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": -167802006637.0
+      },
+      {
+        "year": "2023",
+        "value": -1944725201919.0
+      },
+      {
+        "year": "2024",
+        "value": -6408932417789.0
+      },
+      {
+        "year": "2025",
+        "value": -2274465165864.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": -8796.0,
+    "per": null,
+    "note": "적자 — PER 산출 불가"
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 487000.0,
+    "eps": -8796.0,
+    "bps": 354473.33,
+    "roe": -2.48,
+    "per": null,
+    "pbr": 1.37,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": 11.84
+      },
+      {
+        "year": "2023",
+        "value": 10.38
+      },
+      {
+        "year": "2024",
+        "value": 2.67
+      },
+      {
+        "year": "2025",
+        "value": -2.48
+      }
+    ],
+    "note": "적자(EPS 0 이하) — PER 산출 불가"
+  }
 }

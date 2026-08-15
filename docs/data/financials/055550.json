@@ -2,12 +2,76 @@
   "code": "055550",
   "name": "신한지주",
   "market": "KRX",
-  "as_of": "2026-08-13T21:37:05.140142+00:00",
-  "source": "none",
+  "as_of": "2026-08-14T00:01:46.806893+00:00",
+  "source": "dart",
   "growth": null,
   "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "stability": {
+    "latest_year": "2025",
+    "value": 1201.94,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2023",
+        "value": 1128.29
+      },
+      {
+        "year": "2024",
+        "value": 1157.65
+      },
+      {
+        "year": "2025",
+        "value": 1201.94
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 9472222000000.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2023",
+        "value": 268402000000.0
+      },
+      {
+        "year": "2024",
+        "value": 4362463000000.0
+      },
+      {
+        "year": "2025",
+        "value": 9472222000000.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 9812.0,
+    "per": 10.86,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 106600.0,
+    "eps": 9812.0,
+    "bps": 116505.27,
+    "roe": 8.42,
+    "per": 10.86,
+    "pbr": 0.91,
+    "roe_series": [
+      {
+        "year": "2023",
+        "value": 7.95
+      },
+      {
+        "year": "2024",
+        "value": 7.75
+      },
+      {
+        "year": "2025",
+        "value": 8.42
+      }
+    ],
+    "note": null
+  }
 }

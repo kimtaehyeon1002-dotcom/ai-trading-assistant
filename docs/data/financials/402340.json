@@ -2,12 +2,114 @@
   "code": "402340",
   "name": "SK스퀘어",
   "market": "KOSPI",
-  "as_of": "2026-08-13T21:37:05.128573+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-13T23:59:05.739208+00:00",
+  "source": "dart",
+  "growth": {
+    "latest_year": "2025",
+    "value": -25.97,
+    "cagr_pct": null,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2023",
+        "value": 2276508000000.0
+      },
+      {
+        "year": "2024",
+        "value": 1906611000000.0
+      },
+      {
+        "year": "2025",
+        "value": 1411521000000.0
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 623.26,
+    "own_5y_avg": 241.9,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2023",
+        "value": -102.78
+      },
+      {
+        "year": "2024",
+        "value": 205.21
+      },
+      {
+        "year": "2025",
+        "value": 623.26
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 9.01,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2023",
+        "value": 13.62
+      },
+      {
+        "year": "2024",
+        "value": 11.93
+      },
+      {
+        "year": "2025",
+        "value": 9.01
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 364057000000.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2023",
+        "value": 28495000000.0
+      },
+      {
+        "year": "2024",
+        "value": 150951000000.0
+      },
+      {
+        "year": "2025",
+        "value": 364057000000.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 66713.0,
+    "per": 16.74,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 1117000.0,
+    "eps": 66713.0,
+    "bps": 211691.27,
+    "roe": 31.51,
+    "per": 16.74,
+    "pbr": 5.28,
+    "roe_series": [
+      {
+        "year": "2023",
+        "value": -8.31
+      },
+      {
+        "year": "2024",
+        "value": 18.64
+      },
+      {
+        "year": "2025",
+        "value": 31.51
+      }
+    ],
+    "note": null
+  }
 }

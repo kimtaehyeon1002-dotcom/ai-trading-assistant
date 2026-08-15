@@ -1,13 +1,122 @@
 {
   "code": "LLY",
-  "name": "Lilly (Eli)",
-  "market": "US",
-  "as_of": "2026-08-13T21:37:05.310767+00:00",
-  "source": "none",
-  "growth": null,
+  "name": "Eli Lilly",
+  "market": "NYSE",
+  "as_of": "2026-08-14T00:02:11.130266+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 44.7,
+    "cagr_pct": 31.69,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 28318400000
+      },
+      {
+        "year": "2022",
+        "value": 28541400000
+      },
+      {
+        "year": "2023",
+        "value": 34124000000
+      },
+      {
+        "year": "2024",
+        "value": 45043000000
+      },
+      {
+        "year": "2025",
+        "value": 65179000000
+      }
+    ]
+  },
   "profitability": null,
   "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 16813000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2016",
+        "value": 4851000000
+      },
+      {
+        "year": "2017",
+        "value": 5615600000
+      },
+      {
+        "year": "2018",
+        "value": 5524500000
+      },
+      {
+        "year": "2019",
+        "value": 4836600000
+      },
+      {
+        "year": "2020",
+        "value": 6499600000
+      },
+      {
+        "year": "2021",
+        "value": 7365900000
+      },
+      {
+        "year": "2022",
+        "value": 7585700000
+      },
+      {
+        "year": "2023",
+        "value": 4240000000
+      },
+      {
+        "year": "2024",
+        "value": 8818000000
+      },
+      {
+        "year": "2025",
+        "value": 16813000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 22.95,
+    "per": 52.68,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 1209.0,
+    "eps": 22.95,
+    "bps": 29.5,
+    "roe": 77.78,
+    "per": 52.68,
+    "pbr": 40.98,
+    "roe_series": [
+      {
+        "year": "2021",
+        "value": 62.16
+      },
+      {
+        "year": "2022",
+        "value": 58.64
+      },
+      {
+        "year": "2023",
+        "value": 48.65
+      },
+      {
+        "year": "2024",
+        "value": 74.2
+      },
+      {
+        "year": "2025",
+        "value": 77.78
+      }
+    ],
+    "note": null
+  }
 }

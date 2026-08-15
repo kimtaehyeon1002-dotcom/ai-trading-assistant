@@ -1,173 +1,173 @@
 {
-  "code": "NVDA",
-  "name": "Nvidia",
+  "code": "WDAY",
+  "name": "Workday, Inc.",
   "market": "US",
-  "as_of": "2026-08-14T00:01:49.063900+00:00",
+  "as_of": "2026-08-14T00:02:07.055051+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2026",
-    "value": 65.47,
-    "cagr_pct": 100.05,
+    "value": 13.09,
+    "cagr_pct": 15.4,
     "judgment": "good",
     "series": [
       {
         "year": "2022",
-        "value": 26914000000
+        "value": 5139000000
       },
       {
         "year": "2023",
-        "value": 26974000000
+        "value": 6216000000
       },
       {
         "year": "2024",
-        "value": 60922000000
+        "value": 7259000000
       },
       {
         "year": "2025",
-        "value": 130497000000
+        "value": 8446000000
       },
       {
         "year": "2026",
-        "value": 215938000000
+        "value": 9552000000
       }
     ]
   },
   "profitability": {
     "latest_year": "2026",
-    "value": 60.38,
-    "own_5y_avg": 24.52,
+    "value": 7.55,
+    "own_5y_avg": -6.35,
     "judgment": "good",
     "series": [
       {
         "year": "2022",
-        "value": 37.31
+        "value": -2.26
       },
       {
         "year": "2023",
-        "value": 15.66
+        "value": -3.57
       },
       {
         "year": "2024",
-        "value": 54.12
+        "value": 2.52
       },
       {
         "year": "2025",
-        "value": 62.42
+        "value": 4.91
       },
       {
         "year": "2026",
-        "value": 60.38
+        "value": 7.55
       }
     ]
   },
   "stability": {
     "latest_year": "2026",
-    "value": 31.48,
-    "judgment": "good",
+    "value": 131.57,
+    "judgment": "neutral",
     "series": [
       {
         "year": "2022",
-        "value": 66.04
+        "value": 131.5
       },
       {
         "year": "2023",
-        "value": 86.34
+        "value": 141.47
       },
       {
         "year": "2024",
-        "value": 52.93
+        "value": 103.56
       },
       {
         "year": "2025",
-        "value": 40.68
+        "value": 98.99
       },
       {
         "year": "2026",
-        "value": 31.48
+        "value": 131.57
       }
     ]
   },
   "cashflow": {
     "latest_year": "2026",
-    "value": 102718000000,
+    "value": 2777000000,
     "judgment": "good",
     "series": [
       {
         "year": "2017",
-        "value": 1672000000
+        "value": 350626000
       },
       {
         "year": "2018",
-        "value": 3502000000
+        "value": 465727000
       },
       {
         "year": "2019",
-        "value": 3743000000
+        "value": 606658000
       },
       {
         "year": "2020",
-        "value": 4761000000
+        "value": 864598000
       },
       {
         "year": "2021",
-        "value": 5822000000
+        "value": 1268441000
       },
       {
         "year": "2022",
-        "value": 9108000000
+        "value": 1651000000
       },
       {
         "year": "2023",
-        "value": 5641000000
+        "value": 1293000000
       },
       {
         "year": "2024",
-        "value": 28090000000
+        "value": 1917000000
       },
       {
         "year": "2025",
-        "value": 64089000000
+        "value": 2192000000
       },
       {
         "year": "2026",
-        "value": 102718000000
+        "value": 2777000000
       }
     ]
   },
   "valuation": {
     "latest_year": "2026",
-    "eps": 4.9,
-    "per": 45.98,
+    "eps": 2.59,
+    "per": 79.71,
     "note": null
   },
   "triangle": {
     "latest_year": "2026",
-    "price": 225.3000030517578,
-    "eps": 4.9,
-    "bps": 6.42,
-    "roe": 76.33,
-    "per": 45.98,
-    "pbr": 35.09,
+    "price": 206.4499969482422,
+    "eps": 2.59,
+    "bps": 29.17,
+    "roe": 8.88,
+    "per": 79.71,
+    "pbr": 7.08,
     "roe_series": [
       {
         "year": "2022",
-        "value": 36.65
+        "value": 0.64
       },
       {
         "year": "2023",
-        "value": 19.76
+        "value": -6.57
       },
       {
         "year": "2024",
-        "value": 69.24
+        "value": 17.09
       },
       {
         "year": "2025",
-        "value": 91.87
+        "value": 5.82
       },
       {
         "year": "2026",
-        "value": 76.33
+        "value": 8.88
       }
     ],
     "note": null

@@ -2,12 +2,134 @@
   "code": "066570",
   "name": "LG전자",
   "market": "KOSPI",
-  "as_of": "2026-08-13T21:37:05.131520+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-13T23:59:38.635876+00:00",
+  "source": "dart",
+  "growth": {
+    "latest_year": "2025",
+    "value": 1.68,
+    "cagr_pct": 2.24,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 83467318000000.0
+      },
+      {
+        "year": "2023",
+        "value": 84227765000000.0
+      },
+      {
+        "year": "2024",
+        "value": 87728182000000.0
+      },
+      {
+        "year": "2025",
+        "value": 89200882000000.0
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 2.78,
+    "own_5y_avg": 3.79,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": 4.25
+      },
+      {
+        "year": "2023",
+        "value": 4.21
+      },
+      {
+        "year": "2024",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "value": 2.78
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 140.33,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2022",
+        "value": 145.23
+      },
+      {
+        "year": "2023",
+        "value": 156.36
+      },
+      {
+        "year": "2024",
+        "value": 160.31
+      },
+      {
+        "year": "2025",
+        "value": 140.33
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 1665152000000.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": -8978000000.0
+      },
+      {
+        "year": "2023",
+        "value": 2643712000000.0
+      },
+      {
+        "year": "2024",
+        "value": 1486224000000.0
+      },
+      {
+        "year": "2025",
+        "value": 1665152000000.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 5330.0,
+    "per": 38.74,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 206500.0,
+    "eps": 5330.0,
+    "bps": 124697.47,
+    "roe": 4.27,
+    "per": 38.74,
+    "pbr": 1.66,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": 8.28
+      },
+      {
+        "year": "2023",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "value": 2.35
+      },
+      {
+        "year": "2025",
+        "value": 4.27
+      }
+    ],
+    "note": null
+  }
 }

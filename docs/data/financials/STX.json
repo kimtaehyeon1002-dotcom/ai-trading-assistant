@@ -2,12 +2,174 @@
   "code": "STX",
   "name": "Seagate Technology",
   "market": "US",
-  "as_of": "2026-08-13T21:37:05.307954+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-14T00:02:02.377879+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2026",
+    "value": 34.06,
+    "cagr_pct": 18.2,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 11661000000
+      },
+      {
+        "year": "2023",
+        "value": 7384000000
+      },
+      {
+        "year": "2024",
+        "value": 6551000000
+      },
+      {
+        "year": "2025",
+        "value": 9097000000
+      },
+      {
+        "year": "2026",
+        "value": 12195000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2026",
+    "value": 33.57,
+    "own_5y_avg": 13.84,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 16.77
+      },
+      {
+        "year": "2023",
+        "value": -4.63
+      },
+      {
+        "year": "2024",
+        "value": 6.9
+      },
+      {
+        "year": "2025",
+        "value": 20.78
+      },
+      {
+        "year": "2026",
+        "value": 33.57
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2026",
+    "value": 360.18,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": 8105.5
+      },
+      {
+        "year": "2023",
+        "value": -730.19
+      },
+      {
+        "year": "2024",
+        "value": -619.05
+      },
+      {
+        "year": "2025",
+        "value": -1871.08
+      },
+      {
+        "year": "2026",
+        "value": 360.18
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2026",
+    "value": 3105000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2017",
+        "value": 1482000000
+      },
+      {
+        "year": "2018",
+        "value": 1747000000
+      },
+      {
+        "year": "2019",
+        "value": 1159000000
+      },
+      {
+        "year": "2020",
+        "value": 1129000000
+      },
+      {
+        "year": "2021",
+        "value": 1128000000
+      },
+      {
+        "year": "2022",
+        "value": 1276000000
+      },
+      {
+        "year": "2023",
+        "value": 626000000
+      },
+      {
+        "year": "2024",
+        "value": 664000000
+      },
+      {
+        "year": "2025",
+        "value": 818000000
+      },
+      {
+        "year": "2026",
+        "value": 3105000000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2026",
+    "eps": 13.9,
+    "per": 66.29,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2026",
+    "price": 921.3699951171875,
+    "eps": 13.9,
+    "bps": 9.46,
+    "roe": 146.93,
+    "per": 66.29,
+    "pbr": 97.4,
+    "roe_series": [
+      {
+        "year": "2019",
+        "value": 93.06
+      },
+      {
+        "year": "2020",
+        "value": 56.18
+      },
+      {
+        "year": "2021",
+        "value": 208.24
+      },
+      {
+        "year": "2022",
+        "value": 1512.84
+      },
+      {
+        "year": "2026",
+        "value": 146.93
+      }
+    ],
+    "note": null
+  }
 }

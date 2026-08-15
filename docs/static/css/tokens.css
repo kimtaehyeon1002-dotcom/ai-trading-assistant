@@ -130,7 +130,10 @@
   --type-body-strong-weight: 600;
   --type-caption-size: 12px; --type-caption-weight: 400; --type-caption-lh: 18px;
   --type-overline-size: 11px; --type-overline-weight: 600; --type-overline-lh: 14px; --type-overline-tracking: 0.4px;
-  --type-num-display-size: 32px; --type-num-display-weight: 700; --type-num-display-lh: 40px;
+  /* 핵심 수치는 과감하게 크게(비대칭 강조) — 40px/48px로 올려 hero가 확실히 주인공이 된다 */
+  /* 핵심 수치는 화면 폭을 따라 연속으로 줄어든다 — 44px 고정이면 390px 화면에서
+     통화기호 붙은 금액이 카드를 넘는다(실측). 하한 30px은 여전히 "가장 큰 숫자"다. */
+  --type-num-display-size: clamp(30px, 7vw, 44px); --type-num-display-weight: 700; --type-num-display-lh: 1.18;
   --type-num-lg-size: 24px; --type-num-lg-weight: 600; --type-num-lg-lh: 32px;
   --type-num-md-size: 16px; --type-num-md-weight: 500; --type-num-md-lh: 24px;
   --type-num-sm-size: 13px; --type-num-sm-weight: 500; --type-num-sm-lh: 20px;

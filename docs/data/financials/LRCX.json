@@ -2,12 +2,174 @@
   "code": "LRCX",
   "name": "Lam Research",
   "market": "US",
-  "as_of": "2026-08-13T21:37:05.309516+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-14T00:02:09.143573+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2026",
+    "value": 26.02,
+    "cagr_pct": 10.06,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 17227039000
+      },
+      {
+        "year": "2023",
+        "value": 17428516000
+      },
+      {
+        "year": "2024",
+        "value": 14905386000
+      },
+      {
+        "year": "2025",
+        "value": 18435591000
+      },
+      {
+        "year": "2026",
+        "value": 23232690000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2026",
+    "value": 35.29,
+    "own_5y_avg": 29.24,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 31.24
+      },
+      {
+        "year": "2023",
+        "value": 29.69
+      },
+      {
+        "year": "2024",
+        "value": 28.61
+      },
+      {
+        "year": "2025",
+        "value": 32.01
+      },
+      {
+        "year": "2026",
+        "value": 35.29
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2026",
+    "value": 88.68,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 173.89
+      },
+      {
+        "year": "2023",
+        "value": 128.76
+      },
+      {
+        "year": "2024",
+        "value": 119.51
+      },
+      {
+        "year": "2025",
+        "value": 116.45
+      },
+      {
+        "year": "2026",
+        "value": 88.68
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2026",
+    "value": 5857657000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2017",
+        "value": 2029282000
+      },
+      {
+        "year": "2018",
+        "value": 2655747000
+      },
+      {
+        "year": "2019",
+        "value": 3176013000
+      },
+      {
+        "year": "2020",
+        "value": 2126451000
+      },
+      {
+        "year": "2021",
+        "value": 3588163000
+      },
+      {
+        "year": "2022",
+        "value": 3099674000
+      },
+      {
+        "year": "2023",
+        "value": 5178938000
+      },
+      {
+        "year": "2024",
+        "value": 4652269000
+      },
+      {
+        "year": "2025",
+        "value": 6173264000
+      },
+      {
+        "year": "2026",
+        "value": 5857657000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2026",
+    "eps": 5.76,
+    "per": 58.51,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2026",
+    "price": 337.010009765625,
+    "eps": 5.76,
+    "bps": 9.89,
+    "roe": 58.26,
+    "per": 58.51,
+    "pbr": 34.08,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": 73.35
+      },
+      {
+        "year": "2023",
+        "value": 54.94
+      },
+      {
+        "year": "2024",
+        "value": 44.82
+      },
+      {
+        "year": "2025",
+        "value": 54.33
+      },
+      {
+        "year": "2026",
+        "value": 58.26
+      }
+    ],
+    "note": null
+  }
 }

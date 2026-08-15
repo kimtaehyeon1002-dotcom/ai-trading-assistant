@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Technical Analysis · AI Trading Assistant</title>
-  <link rel="stylesheet" href="../static/css/tokens.css?v=0d9f5924">
-  <link rel="stylesheet" href="../static/css/base_v2.css?v=0d9f5924">
-  <link rel="stylesheet" href="../static/css/components.css?v=0d9f5924">
+  <link rel="stylesheet" href="../static/css/tokens.css?v=3c775045">
+  <link rel="stylesheet" href="../static/css/base_v2.css?v=3c775045">
+  <link rel="stylesheet" href="../static/css/components.css?v=3c775045">
   <script>(function(){try{
     var d=localStorage.getItem("ta:theme");if(d)document.documentElement.setAttribute("data-theme",d);
     var u=localStorage.getItem("ta:updownMode");document.documentElement.setAttribute("data-updown",u||"kr");
@@ -14,42 +14,79 @@
   }catch(e){}})();</script>
 </head>
 <body class="v2" data-root="..">
-  <nav class="v2-sidebar" aria-label="주 메뉴">
-  <div class="v2-sidebar__logo">📈 AI Trading Assistant</div>
+  <div class="v2-nav-scrim" data-nav-close hidden></div>
+<nav class="v2-sidebar" id="v2-sidebar" aria-label="주 메뉴">
+  <div class="v2-sidebar__logo">
+    <span class="v2-sidebar__mark" aria-hidden="true">📈</span>
+    <span class="v2-sidebar__name">AI Trading Assistant</span>
+  </div>
   <div class="v2-nav">
     <a class="v2-nav__item" href="../index.html"
->Dashboard</a>
+ title="Dashboard">
+  <span class="v2-nav__icon" aria-hidden="true">◈</span>
+  <span class="v2-nav__label">Dashboard</span>
+</a>
+
     <a class="v2-nav__item" href="../macro/index.html"
->Macroeconomics</a>
+ title="Macroeconomics">
+  <span class="v2-nav__icon" aria-hidden="true">◎</span>
+  <span class="v2-nav__label">Macroeconomics</span>
+</a>
+
     <a class="v2-nav__item" href="../news/index.html"
->News</a>
+ title="News">
+  <span class="v2-nav__icon" aria-hidden="true">▤</span>
+  <span class="v2-nav__label">News</span>
+</a>
+
     <a class="v2-nav__item" href="../stock/index.html"
->Stock</a>
+ title="Stock">
+  <span class="v2-nav__icon" aria-hidden="true">▦</span>
+  <span class="v2-nav__label">Stock</span>
+</a>
+
     <a class="v2-nav__item" href="../financials/index.html"
->Financial Statements</a>
+ title="Financial Statements">
+  <span class="v2-nav__icon" aria-hidden="true">▥</span>
+  <span class="v2-nav__label">Financial Statements</span>
+</a>
+
     <a class="v2-nav__item" href="../ta/index.html"
-aria-current="page">Technical Analysis</a>
+aria-current="page" title="Technical Analysis">
+  <span class="v2-nav__icon" aria-hidden="true">◨</span>
+  <span class="v2-nav__label">Technical Analysis</span>
+</a>
+
     <div class="v2-nav__divider"></div>
     <a class="v2-nav__item v2-nav__item--locked" href="../asset/index.html"
->
-      Asset<span class="v2-nav__lock" aria-hidden="true">🔒</span>
-    </a>
+ title="Asset">
+  <span class="v2-nav__icon" aria-hidden="true">◆</span>
+  <span class="v2-nav__label">Asset</span>
+<span class="v2-nav__lock" aria-hidden="true">🔒</span></a>
+
     <a class="v2-nav__item v2-nav__item--locked" href="../portfolio/index.html"
->
-      Portfolio<span class="v2-nav__lock" aria-hidden="true">🔒</span>
-    </a>
+ title="Portfolio">
+  <span class="v2-nav__icon" aria-hidden="true">◇</span>
+  <span class="v2-nav__label">Portfolio</span>
+<span class="v2-nav__lock" aria-hidden="true">🔒</span></a>
+
   </div>
   <div class="v2-sidebar__footer">
     <a class="v2-nav__item" href="../settings/index.html"
->Settings</a>
+ title="Settings">
+  <span class="v2-nav__icon" aria-hidden="true">⚙</span>
+  <span class="v2-nav__label">Settings</span>
+</a>
+
     <div class="v2-sidebar__version">AI Trading Assistant</div>
   </div>
 </nav>
 
   <header class="v2-header">
-  <div class="v2-header__context">
-    Technical Analysis
-  </div>
+  <button type="button" class="v2-navtoggle" data-nav-toggle aria-label="메뉴 열기" aria-expanded="false" aria-controls="v2-sidebar">
+    <span class="v2-navtoggle__bars" aria-hidden="true"></span>
+  </button>
+  <div class="v2-header__context">Technical Analysis</div>
   <div class="v2-header__search" role="search">
     <input type="text" class="v2-header__search-input" data-search-input autocomplete="off"
            placeholder="종목·뉴스·페이지 검색" aria-label="종목·뉴스·페이지 검색">
@@ -168,7 +205,7 @@ aria-current="page">Technical Analysis</a>
 <div class="v2-card v2-card--standard v2-span-4 " id="ta-roadmap">
     <div class="v2-card__header">
     <h3 class="v2-card__title">출시 로드맵</h3>
-    <span class="v2-card__meta">2026-08-14 07:09 KST</span>
+    <span class="v2-card__meta">2026-08-14 08:49 KST</span>
   </div>
   <div class="v2-card__body">
     <div class="v2-timeline__row">
@@ -197,10 +234,11 @@ aria-current="page">Technical Analysis</a>
     </div>
   </main>
   <div class="v2-panel-slot" id="panel-slot"></div>
-  <script src="../static/js/store.js?v=0d9f5924" defer></script>
-  <script src="../static/js/stockhub.js?v=0d9f5924" defer></script>
-  <script src="../static/js/search.js?v=0d9f5924" defer></script>
-  <script src="../static/js/chart.js?v=0d9f5924" defer></script>
-<script src="../static/js/freshness.js?v=0d9f5924" defer></script>
+  <script src="../static/js/store.js?v=3c775045" defer></script>
+  <script src="../static/js/shell.js?v=3c775045" defer></script>
+  <script src="../static/js/stockhub.js?v=3c775045" defer></script>
+  <script src="../static/js/search.js?v=3c775045" defer></script>
+  <script src="../static/js/chart.js?v=3c775045" defer></script>
+<script src="../static/js/freshness.js?v=3c775045" defer></script>
 </body>
 </html>

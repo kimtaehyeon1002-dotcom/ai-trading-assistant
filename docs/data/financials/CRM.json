@@ -2,12 +2,169 @@
   "code": "CRM",
   "name": "Salesforce",
   "market": "US",
-  "as_of": "2026-08-12T21:37:21.192163+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
+  "as_of": "2026-08-14T00:02:08.444670+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2026",
+    "value": 9.58,
+    "cagr_pct": 9.82,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 26492000000
+      },
+      {
+        "year": "2023",
+        "value": 31352000000
+      },
+      {
+        "year": "2024",
+        "value": 34857000000
+      },
+      {
+        "year": "2025",
+        "value": 37895000000
+      },
+      {
+        "year": "2026",
+        "value": 41525000000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2026",
+    "value": 20.06,
+    "own_5y_avg": 7.36,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 2.07
+      },
+      {
+        "year": "2023",
+        "value": 3.29
+      },
+      {
+        "year": "2024",
+        "value": 14.38
+      },
+      {
+        "year": "2025",
+        "value": 19.01
+      },
+      {
+        "year": "2026",
+        "value": 20.06
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2026",
+    "value": 89.89,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 63.78
+      },
+      {
+        "year": "2023",
+        "value": 69.38
+      },
+      {
+        "year": "2024",
+        "value": 67.36
+      },
+      {
+        "year": "2025",
+        "value": 68.26
+      },
+      {
+        "year": "2026",
+        "value": 89.89
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2026",
+    "value": 14402000000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2017",
+        "value": 1698000000
+      },
+      {
+        "year": "2018",
+        "value": 2204000000
+      },
+      {
+        "year": "2019",
+        "value": 2803000000
+      },
+      {
+        "year": "2020",
+        "value": 3688000000
+      },
+      {
+        "year": "2021",
+        "value": 4091000000
+      },
+      {
+        "year": "2022",
+        "value": 5283000000
+      },
+      {
+        "year": "2023",
+        "value": 6313000000
+      },
+      {
+        "year": "2024",
+        "value": 9498000000
+      },
+      {
+        "year": "2025",
+        "value": 12434000000
+      },
+      {
+        "year": "2026",
+        "value": 14402000000
+      }
+    ]
+  },
   "valuation": null,
-  "triangle": null
+  "triangle": {
+    "latest_year": "2026",
+    "price": 201.3699951171875,
+    "eps": null,
+    "bps": null,
+    "roe": 12.61,
+    "per": null,
+    "pbr": null,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": 2.48
+      },
+      {
+        "year": "2023",
+        "value": 0.36
+      },
+      {
+        "year": "2024",
+        "value": 6.93
+      },
+      {
+        "year": "2025",
+        "value": 10.13
+      },
+      {
+        "year": "2026",
+        "value": 12.61
+      }
+    ],
+    "note": "EPS 미수집 — PER·PBR·BPS 산출 불가"
+  }
 }

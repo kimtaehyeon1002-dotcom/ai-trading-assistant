@@ -2,12 +2,134 @@
   "code": "034020",
   "name": "두산에너빌리티",
   "market": "KOSPI",
-  "as_of": "2026-08-13T21:37:05.135983+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-14T00:00:38.136316+00:00",
+  "source": "dart",
+  "growth": {
+    "latest_year": "2025",
+    "value": 5.08,
+    "cagr_pct": 3.42,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 15421058082388.0
+      },
+      {
+        "year": "2023",
+        "value": 17589887709510.0
+      },
+      {
+        "year": "2024",
+        "value": 16233055000000.0
+      },
+      {
+        "year": "2025",
+        "value": 17057876000000.0
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 4.47,
+    "own_5y_avg": 6.56,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": 7.17
+      },
+      {
+        "year": "2023",
+        "value": 8.34
+      },
+      {
+        "year": "2024",
+        "value": 6.27
+      },
+      {
+        "year": "2025",
+        "value": 4.47
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 129.1,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2022",
+        "value": 128.66
+      },
+      {
+        "year": "2023",
+        "value": 127.28
+      },
+      {
+        "year": "2024",
+        "value": 125.66
+      },
+      {
+        "year": "2025",
+        "value": 129.1
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 348706000000.0,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2022",
+        "value": 276373625797.0
+      },
+      {
+        "year": "2023",
+        "value": 1675037228425.0
+      },
+      {
+        "year": "2024",
+        "value": -219293000000.0
+      },
+      {
+        "year": "2025",
+        "value": 348706000000.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 132.0,
+    "per": 612.88,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 80900.0,
+    "eps": 132.0,
+    "bps": 7726.72,
+    "roe": 1.71,
+    "per": 612.88,
+    "pbr": 10.47,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": -4.5
+      },
+      {
+        "year": "2023",
+        "value": 4.77
+      },
+      {
+        "year": "2024",
+        "value": 3.38
+      },
+      {
+        "year": "2025",
+        "value": 1.71
+      }
+    ],
+    "note": null
+  }
 }

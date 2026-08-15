@@ -2,12 +2,166 @@
   "code": "PLTR",
   "name": "Palantir Technologies",
   "market": "US",
-  "as_of": "2026-08-13T21:37:05.306272+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-14T00:01:56.092637+00:00",
+  "source": "edgar",
+  "growth": {
+    "latest_year": "2025",
+    "value": 56.18,
+    "cagr_pct": 32.92,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 1541889000
+      },
+      {
+        "year": "2022",
+        "value": 1905871000
+      },
+      {
+        "year": "2023",
+        "value": 2225012000
+      },
+      {
+        "year": "2024",
+        "value": 2865507000
+      },
+      {
+        "year": "2025",
+        "value": 4475446000
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 31.59,
+    "own_5y_avg": -34.63,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": -26.66
+      },
+      {
+        "year": "2022",
+        "value": -8.46
+      },
+      {
+        "year": "2023",
+        "value": 5.39
+      },
+      {
+        "year": "2024",
+        "value": 10.83
+      },
+      {
+        "year": "2025",
+        "value": 31.59
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 19.12,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2021",
+        "value": 41.75
+      },
+      {
+        "year": "2022",
+        "value": 31.92
+      },
+      {
+        "year": "2023",
+        "value": 27.66
+      },
+      {
+        "year": "2024",
+        "value": 24.91
+      },
+      {
+        "year": "2025",
+        "value": 19.12
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 2100591000,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2018",
+        "value": -52016000
+      },
+      {
+        "year": "2019",
+        "value": -178311000
+      },
+      {
+        "year": "2020",
+        "value": -308844000
+      },
+      {
+        "year": "2021",
+        "value": 321224000
+      },
+      {
+        "year": "2022",
+        "value": 183710000
+      },
+      {
+        "year": "2023",
+        "value": 697069000
+      },
+      {
+        "year": "2024",
+        "value": 1141231000
+      },
+      {
+        "year": "2025",
+        "value": 2100591000
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 0.63,
+    "per": 284.14,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 179.00999450683594,
+    "eps": 0.63,
+    "bps": 2.86,
+    "roe": 22.0,
+    "per": 284.14,
+    "pbr": 62.59,
+    "roe_series": [
+      {
+        "year": "2021",
+        "value": -22.71
+      },
+      {
+        "year": "2022",
+        "value": -14.57
+      },
+      {
+        "year": "2023",
+        "value": 6.04
+      },
+      {
+        "year": "2024",
+        "value": 9.24
+      },
+      {
+        "year": "2025",
+        "value": 22.0
+      }
+    ],
+    "note": null
+  }
 }

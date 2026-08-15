@@ -2,12 +2,76 @@
   "code": "032830",
   "name": "삼성생명",
   "market": "KOSPI",
-  "as_of": "2026-08-13T21:37:05.137043+00:00",
-  "source": "none",
+  "as_of": "2026-08-14T00:00:56.065128+00:00",
+  "source": "dart",
   "growth": null,
   "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "stability": {
+    "latest_year": "2025",
+    "value": 440.89,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2023",
+        "value": 609.68
+      },
+      {
+        "year": "2024",
+        "value": 853.69
+      },
+      {
+        "year": "2025",
+        "value": 440.89
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 5219820000000.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2023",
+        "value": 1432421000000.0
+      },
+      {
+        "year": "2024",
+        "value": 4974703000000.0
+      },
+      {
+        "year": "2025",
+        "value": 5219820000000.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 12824.0,
+    "per": 22.73,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 291500.0,
+    "eps": 12824.0,
+    "bps": 339156.86,
+    "roe": 3.78,
+    "per": 22.73,
+    "pbr": 0.86,
+    "roe_series": [
+      {
+        "year": "2023",
+        "value": 4.59
+      },
+      {
+        "year": "2024",
+        "value": 6.9
+      },
+      {
+        "year": "2025",
+        "value": 3.78
+      }
+    ],
+    "note": null
+  }
 }

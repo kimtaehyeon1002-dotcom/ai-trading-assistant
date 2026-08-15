@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-15T01:23:47.767492+00:00",
+  "as_of": "2026-08-15T02:51:33.535655+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -97,6 +97,36 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "market": "KOSPI"
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "market": "KOSPI"
+    },
+    {
+      "code": "009830",
+      "name": "한화솔루션",
+      "market": "KOSPI"
+    },
+    {
+      "code": "015760",
+      "name": "한국전력",
+      "market": "KOSPI"
+    },
+    {
+      "code": "028260",
+      "name": "삼성물산",
+      "market": "KOSPI"
+    },
+    {
       "code": "034020",
       "name": "두산에너빌리티",
       "market": "KOSPI"
@@ -162,28 +192,13 @@
       "market": "US"
     },
     {
+      "code": "SNDK",
+      "name": "Sandisk",
+      "market": "US"
+    },
+    {
       "code": "NVDA",
       "name": "Nvidia",
-      "market": "US"
-    },
-    {
-      "code": "TSLA",
-      "name": "Tesla, Inc.",
-      "market": "US"
-    },
-    {
-      "code": "AMD",
-      "name": "Advanced Micro Devices",
-      "market": "US"
-    },
-    {
-      "code": "AVGO",
-      "name": "Broadcom",
-      "market": "US"
-    },
-    {
-      "code": "INTC",
-      "name": "Intel",
       "market": "US"
     },
     {
@@ -192,13 +207,43 @@
       "market": "US"
     },
     {
+      "code": "INTC",
+      "name": "Intel",
+      "market": "US"
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla, Inc.",
+      "market": "US"
+    },
+    {
       "code": "MSFT",
       "name": "Microsoft",
       "market": "US"
     },
     {
+      "code": "AMD",
+      "name": "Advanced Micro Devices",
+      "market": "US"
+    },
+    {
       "code": "AMZN",
       "name": "Amazon",
+      "market": "US"
+    },
+    {
+      "code": "CSCO",
+      "name": "Cisco",
+      "market": "US"
+    },
+    {
+      "code": "PLTR",
+      "name": "Palantir Technologies",
+      "market": "US"
+    },
+    {
+      "code": "META",
+      "name": "Meta Platforms",
       "market": "US"
     },
     {
@@ -212,28 +257,8 @@
       "market": "US"
     },
     {
-      "code": "STX",
-      "name": "Seagate Technology",
-      "market": "US"
-    },
-    {
-      "code": "WDC",
-      "name": "Western Digital",
-      "market": "US"
-    },
-    {
-      "code": "META",
-      "name": "Meta Platforms",
-      "market": "US"
-    },
-    {
-      "code": "PLTR",
-      "name": "Palantir Technologies",
-      "market": "US"
-    },
-    {
-      "code": "LITE",
-      "name": "Lumentum",
+      "code": "AVGO",
+      "name": "Broadcom",
       "market": "US"
     },
     {
@@ -242,18 +267,8 @@
       "market": "US"
     },
     {
-      "code": "ORCL",
-      "name": "Oracle Corporation",
-      "market": "US"
-    },
-    {
-      "code": "CSCO",
-      "name": "Cisco",
-      "market": "US"
-    },
-    {
-      "code": "MRVL",
-      "name": "Marvell Technology",
+      "code": "SMCI",
+      "name": "Supermicro",
       "market": "US"
     },
     {
@@ -262,18 +277,18 @@
       "market": "US"
     },
     {
-      "code": "LLY",
-      "name": "Lilly (Eli)",
+      "code": "STX",
+      "name": "Seagate Technology",
       "market": "US"
     },
     {
-      "code": "SMCI",
-      "name": "Supermicro",
+      "code": "MRVL",
+      "name": "Marvell Technology",
       "market": "US"
     },
     {
-      "code": "LRCX",
-      "name": "Lam Research",
+      "code": "LITE",
+      "name": "Lumentum",
       "market": "US"
     },
     {
@@ -282,13 +297,33 @@
       "market": "US"
     },
     {
-      "code": "BRK-B",
-      "name": "Berkshire Hathaway",
+      "code": "ORCL",
+      "name": "Oracle Corporation",
       "market": "US"
     },
     {
-      "code": "JPM",
-      "name": "JPMorgan Chase",
+      "code": "DELL",
+      "name": "Dell Technologies",
+      "market": "US"
+    },
+    {
+      "code": "WDAY",
+      "name": "Workday, Inc.",
+      "market": "US"
+    },
+    {
+      "code": "NFLX",
+      "name": "Netflix",
+      "market": "US"
+    },
+    {
+      "code": "CRM",
+      "name": "Salesforce",
+      "market": "US"
+    },
+    {
+      "code": "LRCX",
+      "name": "Lam Research",
       "market": "US"
     },
     {
@@ -297,8 +332,8 @@
       "market": "US"
     },
     {
-      "code": "DELL",
-      "name": "Dell Technologies",
+      "code": "BRK-B",
+      "name": "Berkshire Hathaway",
       "market": "US"
     },
     {
@@ -332,6 +367,11 @@
       "market": "KRX"
     },
     {
+      "code": "LLY",
+      "name": "Eli Lilly",
+      "market": "NYSE"
+    },
+    {
       "code": "NVO",
       "name": "Novo Nordisk",
       "market": "NYSE"
@@ -353,6 +393,54 @@
     }
   ],
   "news": [
+    {
+      "title": "[미국증시] 국민연금 미국 주식 1550억 달러…스페이스X에 사우디·알파벳 몰려 - 자본시장뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yTjVTQXNYbmpUREtSc1JLLUJjNUs0VjlWbmNwVHFMbm5YUmVwa1h1WkFPUHFoUzVxak13MUowUTV1cGhna3lZMGVqMk5CSmQ3el9Tc0lFRDJzSjV6dlJQT3lWUTZ1cGc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-15T02:32:56+00:00"
+    },
+    {
+      "title": "[8월 둘째 주 세계경제동향 브리핑] 코스피 11%대 급반등…코스닥도 8% 상승 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LaGNDTjVtUzdia011MzFYOU5kUW5sZ0dQNGEwRnFFYndJMkxTQXNmRkhoa214aGdobXhVb1hqVFFSazkwbmVrc1oxTlFXNDA?oc=5",
+      "source": "Google News",
+      "published": "2026-08-15T01:52:11+00:00"
+    },
+    {
+      "title": "통상 사령탑 여한구 산업부 통상교섭본부장 경질(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260815020751003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-15T01:44:39+00:00"
+    },
+    {
+      "title": "기술수출·신약이 끌었다…제약·바이오 2분기 '호실적'",
+      "link": "https://www.yna.co.kr/view/AKR20260814115200017",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-15T01:30:00+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
+      "link": "https://www.yna.co.kr/view/AKR20260815023800011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-15T01:30:00+00:00"
+    },
+    {
+      "title": "27만전자, 164만닉스, 돌아온 외인… 불붙은 국장과 반도체 고점론 [주간 증시해설서] - 더스쿠프",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XaV9Gb3hVbXdMR1RScHcyZlE4UzBBRmtyYVlKVWl1MFJPRWFpcjZLWXFFRXMzOTBPTTR3T0RzYnR0T0lLVV8zc1JnR2M4ZU5sUWdERjgzRmpWcEVsUE82R0JrUWxFR05IYTFlNGxR?oc=5",
+      "source": "Google News",
+      "published": "2026-08-15T01:29:31+00:00"
+    },
+    {
+      "title": "美 물가 안정·금리 인상 기대 후퇴…증시 올랐지만 “기계적 반응” 경계 - 한양경제",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBCTjBHZENqMlB4WHRJU3BfdVJDenFwTUFhNVNreGQ4Xy1NcHdHREFQMGxYcEo0b1dNc041U3I4OE5kSnJueEdlNlpEV2VfQU15aU9kVzh3QkJwWm9ZdGdKejZYSFc0UFdnRkdQX1RUeEM?oc=5",
+      "source": "Google News",
+      "published": "2026-08-15T01:21:46+00:00"
+    },
+    {
+      "title": "[뉴욕 증시] 美 소매 판매 수치 예상치 밑돌아...뉴욕 3대 지수 약세 마감 - 한양경제",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04aXdyWndGU09ldy1Bak5UMHBwSmNFQUxVYlJEck55d3F5UVdBN19yMDV4Uk1SaTdjQnlGNHg0bkctd05ueDl4UjVocDdaYkFybnJLTk4yanM1SzZzMnc4TU1UTjVaV01tcTY3YUpNSVU?oc=5",
+      "source": "Google News",
+      "published": "2026-08-15T01:18:56+00:00"
+    },
     {
       "title": "[뉴욕증시] 3대 지수 동반 하락…샌디스크 7.39%·브로드컴 5.94% - 자본시장뉴스",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CT3d0b2JzMzV2UWkyZmhMc0pwOVRwWEN1Z0tWYVR5MkhhT29Rd0JIb3hYSVdaWjlyTjR5WE1EZ3F3X2d6SFpRWm1lZ25pTnpLRENrRXJuMFhVazRXTnA4cGt3R0NvZVE?oc=5",
@@ -396,22 +484,22 @@
       "published": "2026-08-14T23:41:50+00:00"
     },
     {
-      "title": "美 소비 둔화 우려…뉴욕증시 일제히 하락 마감 - koreancenter.or.kr",
+      "title": "美 소비 둔화 우려…뉴욕증시 일제히 하락 마감 - 연합뉴스 한민족센터",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZN0duN3NjNERvWDhYMjl3YThtXy13UlY4THV0MFY4T0x3TlFFUlZuWklLWGtlREN0WkZlVUNaREpiU3Rud1RfblNjWTlHWnE2ckJRc0lIRXdIQmtEaGhLbi15MkVoUW1TdTBZQmFlUHR5OHhz?oc=5",
       "source": "Google News",
       "published": "2026-08-14T23:30:54+00:00"
-    },
-    {
-      "title": "투자자들 뉴욕 증시 '귀환'...반도체 저가 매수가 상승 주도 - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90MUdyZVItZ1ItUkpJcGxZV1FsMHVMRjFGYzdIOEY0aS1IUXZuRFF3WlgwSmY3UVgwdmowVTBTN2gyMTBUNlpHYXE2Z1d6RWZkc2Y5V2FnbXVzUQ?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T23:16:47+00:00"
     },
     {
       "title": "독립자금 댄 활명수·OSS 요원 유일한…제약보국의 역사",
       "link": "https://www.yna.co.kr/view/AKR20260814072200017",
       "source": "연합뉴스·경제",
       "published": "2026-08-14T23:15:01+00:00"
+    },
+    {
+      "title": "[주간증시전망] 코스피 한 주 11% 급등…7000선 안착 주목 - 아주경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sd3IwOVc1QmE2U0hxWk9ZY0VqTlAtSmhmT0lkbUUyWVZmUkxHN1JBcTU5Y0dvTjFYUk9Na3ptOEU5dGwxdWpJRTl5c3lCZTc3UzZpVS1YMXpwZ9IBWEFVX3lxTFB4clh5em5nbl9OWUtEb2ZyOUN4bFdsc18wcFlqRDlIME5vNEwtWmZPLWk1aTFQVnBvQ0g2dDJjdmNfS1NvN0E0Tk1TckdQR0xHdV9ZWVBXa0w?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T23:06:00+00:00"
     },
     {
       "title": "\"K-푸드·뷰티 타고 호주 간다\"…전주시, 무역사절단 8개사 모집",
@@ -442,6 +530,12 @@
       "link": "https://www.yna.co.kr/view/AKR20260814061700065",
       "source": "연합뉴스·경제",
       "published": "2026-08-14T22:17:01+00:00"
+    },
+    {
+      "title": "소비 둔화 우려에 뉴욕증시 하락…다우 0.2%↓ - 중소기업신문",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zYnNVRDRIRXN4Z19DMFA5cE5nVXRyOUs3cjlsNjl2QW1tOThQRHB6bjFmZk1nQ2JUc3VlVHM5bHhLNXA5dDVTTVhIX0lzOVdCbThSLXMya0t0QXdSOE9oM29zYVBzWXR3WW96Wg?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T22:15:53+00:00"
     },
     {
       "title": "뉴욕증시, 소비 둔화 우려에 동반 하락…반도체·AI주 약세 마감 - 산경투데이",
@@ -498,6 +592,12 @@
       "published": "2026-08-14T21:34:00+00:00"
     },
     {
+      "title": "美 소비 둔화에 최고치 멈춘 뉴욕증시 [8/15 G모닝]│Global Money Club - joongang.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IeDVUNEVEZmkzVnotTDRiTVlhMUgzbGg5V3lhRmsxQ3VXNlNoNE1vV1RNWDFrOGg4OXRVMHZDV2ZNLW5ZSThqbVZqSnRvS3FLM2pKWS1iR0t6SEU?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T21:16:16+00:00"
+    },
+    {
       "title": "美 소비 꺾이자 AI주 ‘찬바람’…뉴욕증시 3대 지수 하락 - 경북매일",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10dW5wNUVnUmhNSUUzb2pLVkhSeGRRWEZaa3FtbGMwUmVHRldINEtjZEM5eVRXMHpPcmV3RFJVYm9QRzRFaUNvdnRBTXlvUG1DekE2Y1J1bjg1dw?oc=5",
       "source": "Google News",
@@ -516,12 +616,6 @@
       "published": "2026-08-14T21:11:08+00:00"
     },
     {
-      "title": "뉴욕증시, 소비 둔화 우려에 숨고르기…S&P500 0.2%↓(종합) - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tR2lsZENkeHhlc3A4LVBvOUpuWmU0bHNZb2dLTTNaWVlOclZTYjFfYnhNZ0VaYW1Bb1VTZnB0LTNPenBNazlUWmt2dHhjdjg?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T21:09:39+00:00"
-    },
-    {
       "title": "Berkshire Hathaway boosts Alphabet to a top three holding, ups Delta and housing bets",
       "link": "https://www.cnbc.com/2026/08/14/berkshire-hathaway-boosts-alphabet-to-a-top-three-holding-ups-delta-and-housing-bets.html",
       "source": "CNBC Finance",
@@ -538,12 +632,6 @@
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5tQnNyVFhQVEVOZzFSVDcyMy1zekVqUHNrVEcxekJScEduVkpUekg5UzZscXZ5Z1BhVGdzRVg4WW9vc3VPUG1V?oc=5",
       "source": "Google News",
       "published": "2026-08-14T21:02:46+00:00"
-    },
-    {
-      "title": "[속보] 뉴욕증시, 하락⋯다우 0.20%↓ - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYaEhCS29MUE5TTDBDSkoybkc5RlA1YWhJTUp6b0R6Ql80QzhvUmFrR082WlN0dUZZZGZYUTFFc01zVUk4MmNHVXB2YU42UU9ZZDA1Vg?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T21:01:00+00:00"
     },
     {
       "title": "“무분별한 지방 분산, 실무에 악영향”…은행권 파업 ‘확대일로’",
@@ -576,7 +664,19 @@
       "published": "2026-08-14T20:44:10+00:00"
     },
     {
-      "title": "뉴욕증시, 소매판매 부진 속 하락 마감…어플라이드머티어리얼즈 5%대↓ - newspim.com",
+      "title": "[뉴욕증시] 숨 고르기 속 빅 테크 약세…마이크론, 2.3% 상승 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BYlFLU2NJQllOaGNhZXhIdGZkYUU5VFA5VVpnQTVkSmlEaU85OGRDSGFFS2RHZVVaemplbjdvQlBWMG9ZcXNmRWNVMXdvS0k?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T20:27:28+00:00"
+    },
+    {
+      "title": "[뉴욕증시] 숨 고르기 속 빅 테크 약세…마이크론, 2.3% 상승 - 파이낸셜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBEYktISGxBdE1mbU1qU2RaeFIyRDBULUxuNkpYa0lLczNpdnktVWtuNUZQaWx3c0g4S0dKWVlTbnVyQ2J0c05wLVNpbXdlWGJZUndEczQzM0dFQQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-14T20:25:46+00:00"
+    },
+    {
+      "title": "뉴욕증시, 소매판매 부진 속 하락 마감…어플라이드머티어리얼즈 5%대↓ - 뉴스핌",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50MzdhcU5DVWRqOXRyNHg0VmNmTjNhSGdMclRpUERaSnZWQTF0RGNEQTR5aXVveEtNams2ZnFwWEkyTWoydFlqTm5PMVpLcmdBU1JSeTBwbnNtaGx2?oc=5",
       "source": "Google News",
       "published": "2026-08-14T20:23:00+00:00"
@@ -592,66 +692,6 @@
       "link": "https://www.cnbc.com/2026/08/14/goldmans-latest-cash-cow-is-all-about-funding-the-ai-infrastructure-boom.html",
       "source": "CNBC Finance",
       "published": "2026-08-14T20:05:57+00:00"
-    },
-    {
-      "title": "Drone stocks rally after Trump orders tariffs on foreign-made components",
-      "link": "https://www.cnbc.com/2026/08/14/drone-stocks-trump-tariffs.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T20:04:28+00:00"
-    },
-    {
-      "title": "세계 방산 4강인데 … 신형 소총·조준경 보급은 ‘거북이’",
-      "link": "https://www.mk.co.kr/news/economy/12127952",
-      "source": "매일경제·증권",
-      "published": "2026-08-14T20:00:00+00:00"
-    },
-    {
-      "title": "Luigi Mangione pleads guilty in federal case related to UnitedHealthcare CEO killing",
-      "link": "https://www.cnbc.com/2026/08/14/luigi-mangione-pleads-guilty-brian-thompson-killing.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T19:50:11+00:00"
-    },
-    {
-      "title": "Regulators and banks step up scrutiny of prediction markets",
-      "link": "https://www.cnbc.com/2026/08/14/prediction-markets-scrutiny-mounts-from-regulators-and-banks.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T19:21:49+00:00"
-    },
-    {
-      "title": "Trump asks Supreme Court to let White House ballroom construction continue",
-      "link": "https://www.cnbc.com/2026/08/14/trump-ballroom-supreme-court-white-house.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T19:10:18+00:00"
-    },
-    {
-      "title": "16 beaten-down AI stocks that are beloved by BofA analysts",
-      "link": "https://www.marketwatch.com/story/16-beaten-down-ai-stocks-that-are-beloved-by-bofa-analysts-3423dab2?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-14T19:09:00+00:00"
-    },
-    {
-      "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
-      "link": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T19:07:11+00:00"
-    },
-    {
-      "title": "Parents putting money in ‘Trump accounts’ could get a $2,500 tax break. Here’s how.",
-      "link": "https://www.marketwatch.com/story/parents-putting-money-in-trump-accounts-could-get-a-2-500-tax-break-heres-how-fb6fb2f7?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-14T18:51:00+00:00"
-    },
-    {
-      "title": "A plan to save Social Security involves high earners paying more in taxes — without getting more in benefits",
-      "link": "https://www.marketwatch.com/story/a-plan-to-save-social-security-involves-wealthy-people-paying-more-without-getting-an-increase-in-benefits-f9d70307?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-14T18:47:00+00:00"
-    },
-    {
-      "title": "Congress changed the rules around charitable giving. You’ll now save more money if you donate earlier in the year.",
-      "link": "https://www.marketwatch.com/story/congress-changed-the-rules-around-charitable-giving-do-it-earlier-in-the-year-to-save-money-392e5de3?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-14T18:45:00+00:00"
     }
   ],
   "pages": [

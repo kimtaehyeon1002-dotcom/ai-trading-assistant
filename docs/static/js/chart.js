@@ -126,9 +126,13 @@
   // ── 스케일 ────────────────────────────────────────────────────────────────
   function build(cfg, w, h) {
     var base = PAD[cfg.variant === "full" ? "full" : "spark"];
+    // y축 라벨 자리는 화면 폭을 따라 줄인다 — 324px 차트에서 56px 고정 거터는 그리는 영역의
+    // 17%를 눈금 라벨에 내주는 셈이다(모바일 실측). 좁을수록 데이터에 폭을 돌려준다.
+    var left = base.left;
+    if (cfg.variant === "full" && w < 420) left = Math.max(36, Math.round(w * 0.12));
     // 날짜가 없으면 x축 라벨도 없다 — 그 자리를 비워 두면 차트만 그만큼 납작해진다.
     var pad = {
-      top: base.top, right: base.right, left: base.left,
+      top: base.top, right: base.right, left: left,
       bottom: hasDates(cfg) ? base.bottom : base.top
     };
     var values = cfg.values;
@@ -534,6 +538,25 @@
     var scope = root || doc;
     var nodes = scope.querySelectorAll ? scope.querySelectorAll("[data-chart]") : [];
     Array.prototype.forEach.call(nodes, mount);
+    bindViewport();
+  }
+
+  /** 뷰포트 resize에도 재측정한다 — ResizeObserver만으로는 부족하다는 걸 실측에서 확인했다:
+   *  창을 줄였을 때 컨테이너는 200px가 됐는데 차트는 150px 좌표계를 그대로 들고 있었다
+   *  (RO 콜백이 지연되는 상황이 있다). window resize는 그 상황에서도 온다. */
+  var viewportBound = false;
+  function bindViewport() {
+    if (viewportBound) return;
+    viewportBound = true;
+    var t = null;
+    global.addEventListener("resize", function () {
+      global.clearTimeout(t);
+      t = global.setTimeout(function () {
+        Array.prototype.forEach.call(doc.querySelectorAll("[data-chart]"), function (h) {
+          if (h.__chart && h.__hit && h.clientWidth && h.clientWidth !== h.__hit.w) resize(h);
+        });
+      }, 120);
+    });
   }
 
   /** 이미 마운트된 차트를 다시 그린다(마스킹 토글처럼 값 표기 규칙만 바뀔 때). */

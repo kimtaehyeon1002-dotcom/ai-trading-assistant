@@ -818,3 +818,107 @@
   .v2-live-dot::after, .v2-chart__pulse { animation: none !important; }
   .v2-flash--up, .v2-flash--down, .v2-flash--flat { animation: none !important; }
 }
+
+/* ══════════════════════════════════════════════════════════════════════════
+ * 밀도·모션 재편(design/00 §5-2 반응형, §10 모션)
+ *
+ * 두 가지 문제를 함께 고친다:
+ *  ① 카드 최소 높이가 hero 320px·standard 220px로 고정돼, 내용이 두 줄뿐인 카드도
+ *     220px를 차지했다. 좁은 화면에서는 이 빈 공간이 스크롤 길이로 바로 환산된다.
+ *  ② 화면이 완전히 정적이었다 — 눌러도, 올려도, 값이 바뀌어도 아무 일도 일어나지 않았다.
+ *
+ * 모션 예산은 명확히 둔다: 등장 1회(240ms), 호버 120ms, 핵심 수치 카운트업 1회(520ms).
+ * 스크롤 연동·패럴랙스·바운스는 여전히 금지다(design/00 §10-2).
+ * ══════════════════════════════════════════════════════════════════════════ */
+
+/* ── 밀도 ── 최소 높이를 내용이 정하게 하고, 하한만 남긴다 */
+.v2-card--hero { padding: clamp(var(--space-4), 2.4vw, var(--space-6)); min-height: 0; }
+.v2-card--standard { padding: clamp(var(--space-4), 2vw, var(--space-5)); min-height: 0; }
+.v2-card__header { margin-bottom: var(--space-3); flex-wrap: wrap; }
+.v2-card__title { min-width: 0; overflow-wrap: anywhere; }
+
+/* ── 카드 등장 — 아래에서 8px, 240ms, 1회(design/00 §10-2 오버레이 등장 규칙 준용) ──
+ *
+ * **JS가 클래스를 토글하는 방식을 쓰지 않는다.** 처음엔 그렇게 만들었다가 실측에서 걸렸다:
+ * 백그라운드 탭에서는 requestAnimationFrame이 돌지 않아 "보이게 하는" 콜백이 끝내 실행되지
+ * 않았고, 카드 4장이 opacity:0인 채 남았다 — 애니메이션이 빠지는 정도가 아니라 **페이지가
+ * 빈 화면**이 된다. 등장 연출 때문에 콘텐츠가 사라지는 것은 어떤 경우에도 용납되지 않는다.
+ *
+ * 그래서 CSS 애니메이션(fill-mode: both)으로 뒤집었다. JS가 죽어도, rAF가 멈춰도, 애니메이션이
+ * 지원되지 않아도 카드는 최종 상태로 보인다. JS는 --reveal-delay로 스태거만 얹는 장식이다.
+ *
+ * 서버 렌더 카드(.v2-content 직계)에만 건다 — Asset/Portfolio처럼 클라이언트가 다시 그리는
+ * 카드에 걸면 필터 칩을 누를 때마다 화면 전체가 다시 페이드인해서 조작이 굼떠 보인다. */
+[data-anim="on"] .v2-content > .v2-card,
+[data-anim="on"] .v2-content > .v2-rail > .v2-card {
+  animation: v2-card-in 240ms var(--motion-easing) both;
+  animation-delay: var(--reveal-delay, 0ms);
+}
+@keyframes v2-card-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* ── 호버 — 카드는 보더가 밝아지고 1px 뜬다. 클릭 가능한 카드만 그림자를 더한다 ── */
+.v2-card {
+  transition: border-color var(--motion-fast) var(--motion-easing),
+              transform var(--motion-fast) var(--motion-easing),
+              box-shadow var(--motion-fast) var(--motion-easing);
+}
+.v2-card:hover { border-color: var(--border-strong); }
+.v2-card--clickable:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28);
+  border-color: var(--brand-primary);
+}
+.v2-card--clickable:active { transform: translateY(0); }
+
+/* ── 인터랙티브 요소 공통 — 눌리는 느낌 ── */
+.v2-btn { transition: background var(--motion-fast) var(--motion-easing), border-color var(--motion-fast) var(--motion-easing), transform var(--motion-fast) var(--motion-easing); }
+.v2-btn:active { transform: translateY(1px); }
+.v2-filter-chip:active, .v2-mask-toggle:active, .v2-lock-btn:active { transform: translateY(1px); }
+.v2-rank-row { transition: background var(--motion-fast) var(--motion-easing); }
+
+/* 표는 좁은 화면에서 셸을 밀어내는 대신 자기 안에서 가로 스크롤한다 */
+.v2-rank-table { min-width: 560px; }
+.v2-card__body > .v2-rank-table { min-width: 0; }
+
+/* ── 좁은 화면 밀도 조정 ── */
+@media (max-width: 1023px) {
+  /* 4열 지표 그리드는 이 폭에서 열당 60px대가 된다 — 2열로 접는다. */
+  .v2-ta-metrics { grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+  .v2-hero-cols { grid-template-columns: 1fr; gap: var(--space-4); }
+  .v2-hero-col { padding-left: 0; border-left: none; padding-top: var(--space-4); border-top: 1px solid var(--border-subtle); }
+  .v2-hero-col:first-child { padding-top: 0; border-top: none; }
+  .v2-position-grid { grid-template-columns: 1fr 1fr; }
+  .v2-subgrid { gap: var(--space-4); }
+}
+
+@media (max-width: 719px) {
+  .v2-ta-metrics { grid-template-columns: repeat(2, 1fr); gap: var(--space-3); }
+  .v2-stat-row { flex-direction: column; align-items: flex-start; gap: var(--space-3); }
+  .v2-macro-groups { grid-template-columns: 1fr; }
+  /* 타일이 한 줄로 서면 차트에 줄 폭이 늘어난다 — 오히려 이 폭에서 그래프가 더 잘 읽힌다. */
+  .v2-macro-tile { grid-template-columns: minmax(0, 1fr) minmax(120px, 0.8fr); }
+  .v2-card__header { gap: var(--space-2); }
+  .v2-card__meta { white-space: normal; }
+  .v2-alloc-legend { gap: var(--space-2) var(--space-3); }
+  .v2-calendar-row { height: auto; padding: var(--space-2) 0; flex-wrap: wrap; }
+  .v2-calendar-row__date { width: auto; }
+  .v2-settings-nav { position: static; flex-direction: row; overflow-x: auto; gap: var(--space-2); padding-bottom: var(--space-2); }
+  .v2-settings-nav__item { border-left: none; border-bottom: 2px solid transparent; white-space: nowrap; }
+  .v2-settings-nav__item--active { border-left-color: transparent; border-bottom-color: var(--brand-primary); }
+  .v2-setting-row { flex-direction: column; align-items: stretch; gap: var(--space-3); }
+  .v2-setting-row__control { justify-content: flex-start; }
+}
+
+/* ── 모션 축소 — 등장·호버 변형·카운트업을 전부 끈다(색·보더 변화는 남긴다) ── */
+[data-reduce-motion="1"] .v2-content > .v2-card,
+[data-reduce-motion="1"] .v2-content > .v2-rail > .v2-card { animation: none; }
+[data-reduce-motion="1"] .v2-card--clickable:hover { transform: none; box-shadow: none; }
+@media (prefers-reduced-motion: reduce) {
+  .v2-content > .v2-card, .v2-content > .v2-rail > .v2-card { animation: none !important; }
+  .v2-card--clickable:hover { transform: none; box-shadow: none; }
+  .v2-btn:active, .v2-filter-chip:active { transform: none; }
+  .v2-sidebar { transition: none !important; }
+}

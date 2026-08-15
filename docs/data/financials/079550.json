@@ -2,12 +2,134 @@
   "code": "079550",
   "name": "LIG디펜스앤에어로스페이스",
   "market": "KOSPI",
-  "as_of": "2026-08-13T21:37:05.137370+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-14T00:00:58.862205+00:00",
+  "source": "dart",
+  "growth": {
+    "latest_year": "2025",
+    "value": 31.46,
+    "cagr_pct": 24.71,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 2220751868438.0
+      },
+      {
+        "year": "2023",
+        "value": 2308571092877.0
+      },
+      {
+        "year": "2024",
+        "value": 3276339508425.0
+      },
+      {
+        "year": "2025",
+        "value": 4306936127418.0
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 7.42,
+    "own_5y_avg": 7.64,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2022",
+        "value": 8.07
+      },
+      {
+        "year": "2023",
+        "value": 8.07
+      },
+      {
+        "year": "2024",
+        "value": 7.01
+      },
+      {
+        "year": "2025",
+        "value": 7.42
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 446.35,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": 222.16
+      },
+      {
+        "year": "2023",
+        "value": 262.59
+      },
+      {
+        "year": "2024",
+        "value": 395.0
+      },
+      {
+        "year": "2025",
+        "value": 446.35
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": -754084724976.0,
+    "judgment": "caution",
+    "series": [
+      {
+        "year": "2022",
+        "value": 410638981221.0
+      },
+      {
+        "year": "2023",
+        "value": 407873715237.0
+      },
+      {
+        "year": "2024",
+        "value": 454985228271.0
+      },
+      {
+        "year": "2025",
+        "value": -754084724976.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 11604.0,
+    "per": 72.13,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 837000.0,
+    "eps": 11604.0,
+    "bps": 72127.27,
+    "roe": 16.09,
+    "per": 72.13,
+    "pbr": 11.6,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": 13.15
+      },
+      {
+        "year": "2023",
+        "value": 16.63
+      },
+      {
+        "year": "2024",
+        "value": 17.51
+      },
+      {
+        "year": "2025",
+        "value": 16.09
+      }
+    ],
+    "note": null
+  }
 }
