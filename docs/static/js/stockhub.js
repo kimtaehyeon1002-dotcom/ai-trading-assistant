@@ -80,6 +80,15 @@
     }).join("");
     var newsBlock = newsRows || '<p class="v2-hub-empty">최근 관련 뉴스가 없습니다.</p>';
 
+    // 종목별 일정(실적발표일·배당기준일)은 무료 소스가 없다. 없는 것을 지어내는 대신 어느
+    // 종목을 보든 실제로 영향을 받는 거시 일정을 "시장 일정"이라 명시해 싣는다(design/04 §3-5 D).
+    var eventRows = (data.market_events || []).map(function (e) {
+      return '<div class="v2-hub-event-row">'
+        + '<span class="v2-hub-event-row__date">' + escapeHtml(e.date) + "</span>"
+        + '<span class="v2-hub-event-row__label">' + escapeHtml(e.label) + "</span></div>";
+    }).join("");
+    var eventBlock = eventRows || '<p class="v2-hub-empty">예정된 시장 일정이 없습니다.</p>';
+
     return '<div class="v2-hub-panel" role="dialog" aria-modal="false" aria-label="' + escapeHtml(data.name) + ' 종목 패널">'
       + '<div class="v2-hub-panel__header">'
       + '<div><span class="v2-hub-panel__name" tabindex="-1">' + escapeHtml(data.name) + "</span>"
@@ -87,8 +96,8 @@
       + '<button type="button" class="v2-hub-panel__close" data-hub-close aria-label="패널 닫기">✕</button>'
       + "</div>"
       + '<div class="v2-hub-panel__body">' + priceBlock + actions + "</div>"
-      + '<div class="v2-hub-section"><h3 class="v2-hub-section__title">다가오는 일정</h3>'
-      + '<p class="v2-hub-empty">등록된 일정이 없습니다.</p></div>'
+      + '<div class="v2-hub-section"><h3 class="v2-hub-section__title">다가오는 시장 일정</h3>'
+      + eventBlock + "</div>"
       + '<div class="v2-hub-section"><h3 class="v2-hub-section__title">관련 뉴스</h3>' + newsBlock + "</div>"
       + "</div>";
   }

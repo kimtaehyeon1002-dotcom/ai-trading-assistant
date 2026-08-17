@@ -9,8 +9,9 @@
 
   var doc = global.document;
   var browseEl, detailEl;
-  var searchEl, resultsEl, hintEl, noResultEl, recentEl, recentChipsEl;
-  var rows = [];
+  var searchEl, resultsEl, resultsBodyEl, hintEl, noResultEl, moreEl, recentEl, recentChipsEl;
+  var catalog = [];
+  var catalogPromise = null;
 
   var JUDGMENT_LABEL = { good: "양호", neutral: "중립", caution: "주의" };
 
@@ -174,23 +175,79 @@
   }
 
   // ── 상태 A: 검색 · 최근 조회 ──
+  // 검색 대상은 유니버스(카드 발행 대상 70여 종목)가 아니라 **전종목 명부**(listing.json,
+  // KR 전 시장 ∪ US 후보)다. 명부에는 있으나 카드가 없는 종목은 "재무 미수집" 태그를 달아
+  // 미리 알린다 — 클릭하면 "준비되지 않음" 빈 상태로 간다(design/06 §3-8).
 
-  function rowText(row) {
-    return (row.getAttribute("data-fs-name") + " " + row.getAttribute("data-fs-code")).toLowerCase();
+  var RESULT_LIMIT = 30;
+
+  function fetchJson(url) {
+    return global.fetch(url).then(function (r) { return r.ok ? r.json() : null; })
+      .catch(function () { return null; });
+  }
+
+  function domCatalog() {
+    return Array.prototype.slice.call(resultsEl.querySelectorAll("tr[data-fs-trigger]"))
+      .map(function (row) {
+        return { code: row.getAttribute("data-fs-code"), name: row.getAttribute("data-fs-name"),
+                 market: row.getAttribute("data-fs-market") };
+      });
+  }
+
+  function loadCatalog() {
+    if (catalogPromise) return catalogPromise;
+    // 서버 렌더 행(유니버스)은 명부 발행 전이거나 fetch가 실패했을 때의 폴백 데이터로 먼저 읽는다.
+    var fallback = domCatalog();
+    catalogPromise = Promise.all([
+      fetchJson(siteRoot() + "/data/stock/listing.json"),
+      fetchJson(siteRoot() + "/data/financials/index.json"),
+    ]).then(function (res) {
+      var listing = (Array.isArray(res[0]) && res[0].length) ? res[0] : fallback;
+      var cards = {};
+      (Array.isArray(res[1]) ? res[1] : fallback).forEach(function (e) {
+        if (e && e.code) cards[e.code] = true;
+      });
+      catalog = listing.filter(function (e) { return e && e.code; }).map(function (e) {
+        return { code: e.code, name: e.name || e.code, market: e.market || "",
+                 text: ((e.name || "") + " " + e.code).toLowerCase(), card: !!cards[e.code] };
+      });
+    });
+    return catalogPromise;
+  }
+
+  function resultRowHtml(e) {
+    return '<tr class="v2-rank-row" data-fs-trigger data-fs-code="' + escapeHtml(e.code)
+      + '" data-fs-name="' + escapeHtml(e.name) + '" data-fs-market="' + escapeHtml(e.market)
+      + '" tabindex="0" role="button">'
+      + '<td><span class="v2-rank-row__name">' + escapeHtml(e.name) + "</span>"
+      + '<span class="v2-rank-row__code">' + escapeHtml(e.code) + "</span></td>"
+      + "<td>" + escapeHtml(e.market)
+      + (e.card ? "" : '<span class="v2-fs-tag">재무 미수집</span>') + "</td></tr>";
   }
 
   function applyQuery(q) {
     var query = String(q || "").trim().toLowerCase();
-    var hits = 0;
-    rows.forEach(function (row) {
-      var hit = query !== "" && rowText(row).indexOf(query) !== -1;
-      row.hidden = !hit;
-      if (hit) hits++;
+    if (query === "") {
+      resultsBodyEl.innerHTML = "";
+      resultsEl.hidden = true;
+      hintEl.hidden = false;
+      noResultEl.hidden = true;
+      moreEl.hidden = true;
+      if (recentEl) recentEl.hidden = !recentChipsEl.children.length;
+      return;
+    }
+    loadCatalog().then(function () {
+      if (searchEl.value.trim().toLowerCase() !== query) return;  // 입력이 앞서갔으면 버린다
+      var hits = catalog.filter(function (e) { return e.text.indexOf(query) !== -1; });
+      resultsBodyEl.innerHTML = hits.slice(0, RESULT_LIMIT).map(resultRowHtml).join("");
+      resultsEl.hidden = hits.length === 0;
+      hintEl.hidden = true;
+      noResultEl.hidden = hits.length !== 0;
+      moreEl.hidden = hits.length <= RESULT_LIMIT;
+      moreEl.textContent = hits.length > RESULT_LIMIT
+        ? hits.length + "건 중 " + RESULT_LIMIT + "건만 표시했습니다 — 검색어를 좁혀 주세요." : "";
+      if (recentEl) recentEl.hidden = true;
     });
-    resultsEl.hidden = hits === 0;
-    hintEl.hidden = query !== "";
-    noResultEl.hidden = !(query !== "" && hits === 0);
-    if (recentEl) recentEl.hidden = query !== "" || !recentChipsEl.children.length;
   }
 
   function recentList() {
@@ -227,11 +284,10 @@
     detailEl.innerHTML = "";
   }
 
-  function universeEntry(code) {
-    for (var i = 0; i < rows.length; i++) {
-      if (rows[i].getAttribute("data-fs-code") === code) {
-        return { code: code, name: rows[i].getAttribute("data-fs-name"),
-                 market: rows[i].getAttribute("data-fs-market") };
+  function catalogEntry(code) {
+    for (var i = 0; i < catalog.length; i++) {
+      if (catalog[i].code === code) {
+        return { code: code, name: catalog[i].name, market: catalog[i].market };
       }
     }
     return { code: code, name: code, market: "" };
@@ -246,8 +302,8 @@
       recordRecent({ code: data.code || code, name: data.name, market: data.market });
       showDetail(detailHtml(data));
     }).catch(function () {
-      // 재무 데이터가 없어도 "내가 본 종목"인 것은 같다 — 유니버스 행에서 이름을 채워 칩에 남긴다.
-      recordRecent(universeEntry(code));
+      // 재무 데이터가 없어도 "내가 본 종목"인 것은 같다 — 명부에서 이름을 채워 칩에 남긴다.
+      recordRecent(catalogEntry(code));
       showDetail(noDataHtml(code));
     });
   }
@@ -267,17 +323,19 @@
     resultsEl = browseEl.querySelector("[data-fs-results]");
     hintEl = browseEl.querySelector("[data-fs-hint]");
     noResultEl = browseEl.querySelector("[data-fs-noresult]");
+    moreEl = browseEl.querySelector("[data-fs-more]");
     recentEl = browseEl.querySelector("[data-fs-recent]");
     recentChipsEl = browseEl.querySelector("[data-fs-recent-chips]");
-    rows = Array.prototype.slice.call(resultsEl.querySelectorAll("[data-fs-trigger]"));
+    resultsBodyEl = resultsEl.querySelector("tbody");
 
+    loadCatalog();   // 서버 렌더 행을 폴백으로 읽어 두는 일이 포함되므로 비우기 전에 먼저 호출한다
     renderRecent();
-    applyQuery("");  // JS가 살아 있는 동안에만 목록을 감춘다(무JS 폴백은 전체 목록)
+    applyQuery("");  // JS가 살아 있는 동안에만 목록을 감춘다(무JS 폴백은 서버 렌더 유니버스 목록)
     searchEl.addEventListener("input", function () { applyQuery(searchEl.value); });
     searchEl.addEventListener("keydown", function (e) {
       if (e.key !== "Enter") return;
       e.preventDefault();
-      var first = rows.filter(function (r) { return !r.hidden; })[0];
+      var first = resultsBodyEl.querySelector("tr[data-fs-trigger]");
       if (first) global.location.hash = "code=" + encodeURIComponent(first.getAttribute("data-fs-code"));
     });
 

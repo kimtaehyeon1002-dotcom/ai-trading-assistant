@@ -344,6 +344,11 @@
 .v2-hub-news-row:last-child { border-bottom: none; }
 .v2-hub-news-row__title { font-size: var(--type-body-size); color: var(--text-primary); display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .v2-hub-news-row__meta { font-size: var(--type-caption-size); color: var(--text-tertiary); }
+/* 시장 일정 행(design/04 §3-5 D) — 날짜 열을 고정폭 tabular로 두어 세로로 자릿수가 맞는다 */
+.v2-hub-event-row { display: flex; gap: var(--space-3); padding: var(--space-2) 0; border-bottom: 1px solid var(--border-subtle); }
+.v2-hub-event-row:last-child { border-bottom: none; }
+.v2-hub-event-row__date { flex: 0 0 82px; font-size: var(--type-caption-size); font-variant-numeric: tabular-nums; color: var(--text-tertiary); }
+.v2-hub-event-row__label { font-size: var(--type-body-size); color: var(--text-primary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .v2-hub-empty { color: var(--text-tertiary); font-size: var(--type-body-size); }
 
 /* ── 글로벌 검색 결과(design/00 §7-2, Level 2 오버레이) ── */
@@ -402,6 +407,12 @@
 .v2-fs-recent__code { color: var(--text-tertiary); font-size: var(--type-overline-size); }
 .v2-fs-hint { margin-top: var(--space-5); }
 .v2-fs-hint[hidden] { display: none; }
+/* 명부에는 있으나 재무 카드가 아직 없는 종목 — 클릭 전에 미리 알린다 */
+.v2-fs-tag {
+  margin-left: var(--space-2); padding: 2px 8px; border-radius: var(--radius-badge);
+  border: 1px solid var(--border-default); color: var(--text-tertiary);
+  font-size: var(--type-overline-size);
+}
 .v2-fs-strip {
   display: flex; align-items: baseline; gap: var(--space-4); flex-wrap: wrap;
   padding: var(--space-3) 0; border-bottom: 1px solid var(--border-subtle); margin-bottom: var(--space-6);
