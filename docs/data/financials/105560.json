@@ -2,7 +2,7 @@
   "code": "105560",
   "name": "KB금융",
   "market": "KOSPI",
-  "as_of": "2026-08-13T23:59:50.850977+00:00",
+  "as_of": "2026-08-15T04:21:16.922447+00:00",
   "source": "dart",
   "growth": null,
   "profitability": null,
@@ -47,16 +47,16 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 15410.0,
-    "per": 10.91,
+    "per": 10.93,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 168100.0,
+    "price": 168500.0,
     "eps": 15410.0,
     "bps": 160492.36,
     "roe": 9.6,
-    "per": 10.91,
+    "per": 10.93,
     "pbr": 1.05,
     "roe_series": [
       {

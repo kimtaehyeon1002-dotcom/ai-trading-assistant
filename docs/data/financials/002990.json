@@ -2,7 +2,7 @@
   "code": "002990",
   "name": "금호건설",
   "market": "KOSPI",
-  "as_of": "2026-08-13T23:59:10.653058+00:00",
+  "as_of": "2026-08-15T04:21:30.121472+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 1765.0,
-    "per": 8.14,
+    "per": 7.59,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 14370.0,
+    "price": 13400.0,
     "eps": 1765.0,
     "bps": 6863.05,
     "roe": 25.72,
-    "per": 8.14,
-    "pbr": 2.09,
+    "per": 7.59,
+    "pbr": 1.95,
     "roe_series": [
       {
         "year": "2022",

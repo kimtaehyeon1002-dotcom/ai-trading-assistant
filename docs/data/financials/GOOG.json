@@ -2,7 +2,7 @@
   "code": "GOOG",
   "name": "Alphabet Inc. (Class C)",
   "market": "US",
-  "as_of": "2026-08-14T00:01:59.880377+00:00",
+  "as_of": "2026-08-15T04:22:11.734884+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 10.81,
-    "per": 31.82,
+    "per": 31.78,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 343.94000244140625,
+    "price": 343.5400085449219,
     "eps": 10.81,
     "bps": 33.96,
     "roe": 31.83,
-    "per": 31.82,
-    "pbr": 10.13,
+    "per": 31.78,
+    "pbr": 10.12,
     "roe_series": [
       {
         "year": "2021",

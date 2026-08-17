@@ -2,7 +2,7 @@
   "code": "055550",
   "name": "신한지주",
   "market": "KRX",
-  "as_of": "2026-08-14T00:01:46.806893+00:00",
+  "as_of": "2026-08-15T04:21:56.631363+00:00",
   "source": "dart",
   "growth": null,
   "profitability": null,
@@ -47,17 +47,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 9812.0,
-    "per": 10.86,
+    "per": 10.95,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 106600.0,
+    "price": 107400.0,
     "eps": 9812.0,
     "bps": 116505.27,
     "roe": 8.42,
-    "per": 10.86,
-    "pbr": 0.91,
+    "per": 10.95,
+    "pbr": 0.92,
     "roe_series": [
       {
         "year": "2023",

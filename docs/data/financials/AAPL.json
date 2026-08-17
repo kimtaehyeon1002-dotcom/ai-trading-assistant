@@ -2,7 +2,7 @@
   "code": "AAPL",
   "name": "Apple Inc.",
   "market": "US",
-  "as_of": "2026-08-14T00:01:49.775274+00:00",
+  "as_of": "2026-08-15T04:22:04.139901+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 7.46,
-    "per": 40.92,
+    "per": 41.01,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 305.260009765625,
+    "price": 305.92999267578125,
     "eps": 7.46,
     "bps": 4.91,
     "roe": 151.91,
-    "per": 40.92,
-    "pbr": 62.17,
+    "per": 41.01,
+    "pbr": 62.31,
     "roe_series": [
       {
         "year": "2021",

@@ -2,7 +2,7 @@
   "code": "066570",
   "name": "LG전자",
   "market": "KOSPI",
-  "as_of": "2026-08-13T23:59:38.635876+00:00",
+  "as_of": "2026-08-15T04:20:25.605438+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 5330.0,
-    "per": 38.74,
+    "per": 40.34,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 206500.0,
+    "price": 215000.0,
     "eps": 5330.0,
     "bps": 124697.47,
     "roe": 4.27,
-    "per": 38.74,
-    "pbr": 1.66,
+    "per": 40.34,
+    "pbr": 1.72,
     "roe_series": [
       {
         "year": "2022",

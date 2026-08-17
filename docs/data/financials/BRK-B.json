@@ -2,7 +2,7 @@
   "code": "BRK-B",
   "name": "Berkshire Hathaway",
   "market": "US",
-  "as_of": "2026-08-14T00:02:10.432072+00:00",
+  "as_of": "2026-08-15T04:22:22.277153+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -133,7 +133,7 @@
   "valuation": null,
   "triangle": {
     "latest_year": "2025",
-    "price": 506.92999267578125,
+    "price": 504.0299987792969,
     "eps": null,
     "bps": null,
     "roe": 9.33,

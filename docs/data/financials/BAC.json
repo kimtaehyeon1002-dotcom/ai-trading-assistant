@@ -2,7 +2,7 @@
   "code": "BAC",
   "name": "Bank of America",
   "market": "NYSE",
-  "as_of": "2026-08-14T00:02:15.049552+00:00",
+  "as_of": "2026-08-15T04:22:28.438096+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -110,17 +110,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 3.81,
-    "per": 16.82,
+    "per": 16.93,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 64.08999633789062,
+    "price": 64.48999786376953,
     "eps": 3.81,
     "bps": 37.87,
     "roe": 10.06,
-    "per": 16.82,
-    "pbr": 1.69,
+    "per": 16.93,
+    "pbr": 1.7,
     "roe_series": [
       {
         "year": "2021",

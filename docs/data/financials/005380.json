@@ -2,7 +2,7 @@
   "code": "005380",
   "name": "현대차",
   "market": "KOSPI",
-  "as_of": "2026-08-13T23:59:44.460132+00:00",
+  "as_of": "2026-08-15T04:20:20.840885+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 36088.0,
-    "per": 11.6,
+    "per": 12.55,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 418500.0,
+    "price": 453000.0,
     "eps": 36088.0,
     "bps": 444444.73,
     "roe": 8.12,
-    "per": 11.6,
-    "pbr": 0.94,
+    "per": 12.55,
+    "pbr": 1.02,
     "roe_series": [
       {
         "year": "2023",

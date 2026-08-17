@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-13T23:49:38.290433+00:00",
+  "as_of": "2026-08-15T04:38:36.076275+00:00",
   "events": [
     {
       "date": "2026-01-28",
@@ -40,6 +40,46 @@
       "label": "FOMC 금리 결정",
       "source": "fomc",
       "event_at_utc": "2026-07-29T18:00:00+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "time": null,
+      "timezone": null,
+      "label": "PCE(개인소비지출 물가지수) 발표",
+      "source": "fred",
+      "series_id": "PCEPI"
+    },
+    {
+      "date": "2026-08-26",
+      "time": null,
+      "timezone": null,
+      "label": "GDP(실질 국내총생산) 발표",
+      "source": "fred",
+      "series_id": "GDP"
+    },
+    {
+      "date": "2026-09-04",
+      "time": null,
+      "timezone": null,
+      "label": "실업률 발표",
+      "source": "fred",
+      "series_id": "UNRATE"
+    },
+    {
+      "date": "2026-09-04",
+      "time": null,
+      "timezone": null,
+      "label": "비농업 고용지수 발표",
+      "source": "fred",
+      "series_id": "PAYEMS"
+    },
+    {
+      "date": "2026-09-11",
+      "time": null,
+      "timezone": null,
+      "label": "CPI(소비자물가지수) 발표",
+      "source": "fred",
+      "series_id": "CPIAUCSL"
     },
     {
       "date": "2026-09-16",

@@ -2,7 +2,7 @@
   "code": "012450",
   "name": "한화에어로스페이스",
   "market": "KOSPI",
-  "as_of": "2026-08-13T23:59:36.382505+00:00",
+  "as_of": "2026-08-15T04:20:49.235787+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2022",
     "eps": 3964.0,
-    "per": 298.94,
+    "per": 292.63,
     "note": null
   },
   "triangle": {
     "latest_year": "2022",
-    "price": 1185000.0,
+    "price": 1160000.0,
     "eps": 3964.0,
     "bps": 102309.33,
     "roe": 3.87,
-    "per": 298.94,
-    "pbr": 11.58,
+    "per": 292.63,
+    "pbr": 11.34,
     "roe_series": [
       {
         "year": "2022",

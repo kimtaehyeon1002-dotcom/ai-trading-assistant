@@ -2,7 +2,7 @@
   "code": "MRVL",
   "name": "Marvell Technology",
   "market": "US",
-  "as_of": "2026-08-14T00:02:03.258736+00:00",
+  "as_of": "2026-08-15T04:22:15.234221+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2026",
@@ -125,17 +125,17 @@
   "valuation": {
     "latest_year": "2026",
     "eps": 3.07,
-    "per": 72.37,
+    "per": 72.32,
     "note": null
   },
   "triangle": {
     "latest_year": "2026",
-    "price": 222.17999267578125,
+    "price": 222.02000427246094,
     "eps": 3.07,
     "bps": 16.45,
     "roe": 18.66,
-    "per": 72.37,
-    "pbr": 13.51,
+    "per": 72.32,
+    "pbr": 13.5,
     "roe_series": [
       {
         "year": "2022",

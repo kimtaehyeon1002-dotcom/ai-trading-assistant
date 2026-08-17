@@ -2,7 +2,7 @@
   "code": "NOW",
   "name": "ServiceNow",
   "market": "US",
-  "as_of": "2026-08-14T00:02:09.728297+00:00",
+  "as_of": "2026-08-15T04:22:24.109211+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 1.67,
-    "per": 76.2,
+    "per": 74.25,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 127.25,
+    "price": 124.0,
     "eps": 1.67,
     "bps": 12.39,
     "roe": 13.48,
-    "per": 76.2,
-    "pbr": 10.27,
+    "per": 74.25,
+    "pbr": 10.01,
     "roe_series": [
       {
         "year": "2021",

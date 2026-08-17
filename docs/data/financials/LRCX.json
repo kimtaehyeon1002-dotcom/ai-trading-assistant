@@ -2,7 +2,7 @@
   "code": "LRCX",
   "name": "Lam Research",
   "market": "US",
-  "as_of": "2026-08-14T00:02:09.143573+00:00",
+  "as_of": "2026-08-15T04:22:19.458115+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2026",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2026",
     "eps": 5.76,
-    "per": 58.51,
+    "per": 57.7,
     "note": null
   },
   "triangle": {
     "latest_year": "2026",
-    "price": 337.010009765625,
+    "price": 332.3599853515625,
     "eps": 5.76,
     "bps": 9.89,
     "roe": 58.26,
-    "per": 58.51,
-    "pbr": 34.08,
+    "per": 57.7,
+    "pbr": 33.61,
     "roe_series": [
       {
         "year": "2022",

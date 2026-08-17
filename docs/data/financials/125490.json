@@ -1,0 +1,64 @@
+{
+  "code": "125490",
+  "name": "한라캐스트",
+  "market": "KOSDAQ",
+  "as_of": "2026-08-15T04:20:38.983768+00:00",
+  "source": "dart",
+  "growth": null,
+  "profitability": {
+    "latest_year": "2025",
+    "value": 6.6,
+    "own_5y_avg": 6.6,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2025",
+        "value": 6.6
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 82.89,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2025",
+        "value": 82.89
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 4378422170.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2025",
+        "value": 4378422170.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 128.0,
+    "per": 98.36,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 12590.0,
+    "eps": 128.0,
+    "bps": 3693.69,
+    "roe": 3.47,
+    "per": 98.36,
+    "pbr": 3.41,
+    "roe_series": [
+      {
+        "year": "2025",
+        "value": 3.47
+      }
+    ],
+    "note": null
+  }
+}

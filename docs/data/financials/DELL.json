@@ -2,7 +2,7 @@
   "code": "DELL",
   "name": "Dell Technologies",
   "market": "US",
-  "as_of": "2026-08-14T00:02:05.810891+00:00",
+  "as_of": "2026-08-15T04:22:23.263530+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2026",
@@ -137,16 +137,16 @@
   "valuation": {
     "latest_year": "2026",
     "eps": 8.68,
-    "per": 56.97,
+    "per": 56.54,
     "note": null
   },
   "triangle": {
     "latest_year": "2026",
-    "price": 494.510009765625,
+    "price": 490.80999755859375,
     "eps": 8.68,
     "bps": null,
     "roe": null,
-    "per": 56.97,
+    "per": 56.54,
     "pbr": null,
     "roe_series": [
       {

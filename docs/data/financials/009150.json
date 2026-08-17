@@ -2,7 +2,7 @@
   "code": "009150",
   "name": "삼성전기",
   "market": "KOSPI",
-  "as_of": "2026-08-13T23:59:03.691299+00:00",
+  "as_of": "2026-08-15T04:20:15.393616+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -97,17 +97,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 9345.0,
-    "per": 160.83,
+    "per": 166.72,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 1503000.0,
+    "price": 1558000.0,
     "eps": 9345.0,
     "bps": 125249.65,
     "roe": 7.46,
-    "per": 160.83,
-    "pbr": 12.0,
+    "per": 166.72,
+    "pbr": 12.44,
     "roe_series": [
       {
         "year": "2022",

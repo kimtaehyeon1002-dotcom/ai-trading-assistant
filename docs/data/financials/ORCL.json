@@ -2,7 +2,7 @@
   "code": "ORCL",
   "name": "Oracle Corporation",
   "market": "US",
-  "as_of": "2026-08-14T00:02:05.226503+00:00",
+  "as_of": "2026-08-15T04:22:12.825981+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2026",
@@ -111,17 +111,17 @@
   "valuation": {
     "latest_year": "2026",
     "eps": 5.83,
-    "per": 26.8,
+    "per": 25.82,
     "note": null
   },
   "triangle": {
     "latest_year": "2026",
-    "price": 156.22000122070312,
+    "price": 150.52000427246094,
     "eps": 5.83,
     "bps": 14.5,
     "roe": 40.2,
-    "per": 26.8,
-    "pbr": 10.77,
+    "per": 25.82,
+    "pbr": 10.38,
     "roe_series": [
       {
         "year": "2021",

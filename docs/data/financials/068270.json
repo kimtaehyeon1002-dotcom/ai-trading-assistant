@@ -2,7 +2,7 @@
   "code": "068270",
   "name": "셀트리온",
   "market": "KRX",
-  "as_of": "2026-08-14T00:01:38.852764+00:00",
+  "as_of": "2026-08-15T04:21:50.037395+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 4668.0,
-    "per": 43.27,
+    "per": 43.06,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 202000.0,
+    "price": 201000.0,
     "eps": 4668.0,
     "bps": 78529.21,
     "roe": 5.94,
-    "per": 43.27,
-    "pbr": 2.57,
+    "per": 43.06,
+    "pbr": 2.56,
     "roe_series": [
       {
         "year": "2022",

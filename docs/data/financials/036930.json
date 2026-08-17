@@ -2,7 +2,7 @@
   "code": "036930",
   "name": "주성엔지니어링",
   "market": "KOSDAQ GLOBAL",
-  "as_of": "2026-08-13T23:59:34.060804+00:00",
+  "as_of": "2026-08-15T04:20:43.901487+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 781.0,
-    "per": 229.58,
+    "per": 227.66,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 179300.0,
+    "price": 177800.0,
     "eps": 781.0,
     "bps": 12919.65,
     "roe": 6.05,
-    "per": 229.58,
-    "pbr": 13.88,
+    "per": 227.66,
+    "pbr": 13.76,
     "roe_series": [
       {
         "year": "2022",

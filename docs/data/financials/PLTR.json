@@ -2,7 +2,7 @@
   "code": "PLTR",
   "name": "Palantir Technologies",
   "market": "US",
-  "as_of": "2026-08-14T00:01:56.092637+00:00",
+  "as_of": "2026-08-15T04:22:10.315848+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -129,17 +129,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 0.63,
-    "per": 284.14,
+    "per": 276.25,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 179.00999450683594,
+    "price": 174.0399932861328,
     "eps": 0.63,
     "bps": 2.86,
     "roe": 22.0,
-    "per": 284.14,
-    "pbr": 62.59,
+    "per": 276.25,
+    "pbr": 60.85,
     "roe_series": [
       {
         "year": "2021",

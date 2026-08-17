@@ -2,7 +2,7 @@
   "code": "247540",
   "name": "에코프로비엠",
   "market": "KRX",
-  "as_of": "2026-08-14T00:01:21.167586+00:00",
+  "as_of": "2026-08-15T04:21:37.621216+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 403.0,
-    "per": 284.12,
+    "per": 289.58,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 114500.0,
+    "price": 116700.0,
     "eps": 403.0,
     "bps": 8870.76,
     "roe": 4.54,
-    "per": 284.12,
-    "pbr": 12.91,
+    "per": 289.58,
+    "pbr": 13.16,
     "roe_series": [
       {
         "year": "2022",

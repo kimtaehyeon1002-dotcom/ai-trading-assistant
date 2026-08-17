@@ -1,8 +1,8 @@
 {
   "code": "LLY",
-  "name": "Eli Lilly",
-  "market": "NYSE",
-  "as_of": "2026-08-14T00:02:11.130266+00:00",
+  "name": "Lilly (Eli)",
+  "market": "US",
+  "as_of": "2026-08-15T04:22:18.462776+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -84,17 +84,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 22.95,
-    "per": 52.68,
+    "per": 51.42,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 1209.0,
+    "price": 1180.1600341796875,
     "eps": 22.95,
     "bps": 29.5,
     "roe": 77.78,
-    "per": 52.68,
-    "pbr": 40.98,
+    "per": 51.42,
+    "pbr": 40.01,
     "roe_series": [
       {
         "year": "2021",

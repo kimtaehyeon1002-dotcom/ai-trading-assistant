@@ -2,7 +2,7 @@
   "code": "AMD",
   "name": "Advanced Micro Devices",
   "market": "US",
-  "as_of": "2026-08-14T00:01:52.722481+00:00",
+  "as_of": "2026-08-15T04:22:01.616600+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -111,17 +111,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 2.65,
-    "per": 182.27,
+    "per": 194.11,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 483.010009765625,
+    "price": 514.3900146484375,
     "eps": 2.65,
     "bps": 38.51,
     "roe": 6.88,
-    "per": 182.27,
-    "pbr": 12.54,
+    "per": 194.11,
+    "pbr": 13.36,
     "roe_series": [
       {
         "year": "2021",

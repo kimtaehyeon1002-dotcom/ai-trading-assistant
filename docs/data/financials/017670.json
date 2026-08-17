@@ -2,7 +2,7 @@
   "code": "017670",
   "name": "SK텔레콤",
   "market": "KOSPI",
-  "as_of": "2026-08-13T23:59:48.473278+00:00",
+  "as_of": "2026-08-15T04:20:28.169169+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 1825.0,
-    "per": 49.92,
+    "per": 55.07,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 91100.0,
+    "price": 100500.0,
     "eps": 1825.0,
     "bps": 63034.97,
     "roe": 2.9,
-    "per": 49.92,
-    "pbr": 1.45,
+    "per": 55.07,
+    "pbr": 1.59,
     "roe_series": [
       {
         "year": "2022",

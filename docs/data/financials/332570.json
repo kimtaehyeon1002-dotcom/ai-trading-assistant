@@ -2,7 +2,7 @@
   "code": "332570",
   "name": "PS일렉트로닉스",
   "market": "KOSDAQ",
-  "as_of": "2026-08-14T00:00:03.109993+00:00",
+  "as_of": "2026-08-15T04:21:32.481878+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 394.0,
-    "per": 28.32,
+    "per": 26.75,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 11160.0,
+    "price": 10540.0,
     "eps": 394.0,
     "bps": 3204.7,
     "roe": 12.29,
-    "per": 28.32,
-    "pbr": 3.48,
+    "per": 26.75,
+    "pbr": 3.29,
     "roe_series": [
       {
         "year": "2022",

@@ -2,7 +2,7 @@
   "code": "000270",
   "name": "기아",
   "market": "KRX",
-  "as_of": "2026-08-14T00:01:43.552650+00:00",
+  "as_of": "2026-08-15T04:21:52.623405+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 19382.0,
-    "per": 7.09,
+    "per": 7.31,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 137400.0,
+    "price": 141700.0,
     "eps": 19382.0,
     "bps": 156998.45,
     "roe": 12.35,
-    "per": 7.09,
-    "pbr": 0.88,
+    "per": 7.31,
+    "pbr": 0.9,
     "roe_series": [
       {
         "year": "2022",

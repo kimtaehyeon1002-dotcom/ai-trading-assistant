@@ -4,12 +4,12 @@
   "market": "KOSPI",
   "theme": "금융",
   "quote": {
-    "close": 168100.0,
-    "change_pct": 1.27,
-    "volume": 1281602,
-    "amount": 214874477900.0,
-    "marcap": 59623008085400.0,
-    "as_of_iso": "2026-08-13T23:58:07.247419+00:00",
+    "close": 168500.0,
+    "change_pct": 0.24,
+    "volume": 951351,
+    "amount": 159988557050.0,
+    "marcap": 59764883179000.0,
+    "as_of_iso": "2026-08-15T04:19:27.003166+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:105560",

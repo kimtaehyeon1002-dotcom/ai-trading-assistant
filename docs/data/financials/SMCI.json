@@ -2,7 +2,7 @@
   "code": "SMCI",
   "name": "Supermicro",
   "market": "US",
-  "as_of": "2026-08-14T00:02:00.767784+00:00",
+  "as_of": "2026-08-15T04:22:20.483990+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 1.68,
-    "per": 23.31,
+    "per": 23.71,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 39.15999984741211,
+    "price": 39.84000015258789,
     "eps": 1.68,
     "bps": 10.09,
     "roe": 16.64,
-    "per": 23.31,
-    "pbr": 3.88,
+    "per": 23.71,
+    "pbr": 3.95,
     "roe_series": [
       {
         "year": "2021",

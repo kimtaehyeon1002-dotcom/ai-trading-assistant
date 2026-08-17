@@ -2,7 +2,7 @@
   "code": "CSCO",
   "name": "Cisco",
   "market": "US",
-  "as_of": "2026-08-14T00:01:55.556631+00:00",
+  "as_of": "2026-08-15T04:22:14.133757+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2010",
     "eps": 1.33,
-    "per": 85.32,
+    "per": 83.97,
     "note": null
   },
   "triangle": {
     "latest_year": "2010",
-    "price": 113.47000122070312,
+    "price": 111.68000030517578,
     "eps": 1.33,
     "bps": 7.58,
     "roe": 17.55,
-    "per": 85.32,
-    "pbr": 14.97,
+    "per": 83.97,
+    "pbr": 14.73,
     "roe_series": [
       {
         "year": "2021",

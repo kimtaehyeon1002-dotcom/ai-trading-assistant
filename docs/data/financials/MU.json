@@ -2,7 +2,7 @@
   "code": "MU",
   "name": "Micron Technology",
   "market": "US",
-  "as_of": "2026-08-14T00:01:47.950745+00:00",
+  "as_of": "2026-08-15T04:21:58.936107+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 7.59,
-    "per": 125.14,
+    "per": 128.02,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 949.8300170898438,
+    "price": 971.6599731445312,
     "eps": 7.59,
     "bps": 48.15,
     "roe": 15.76,
-    "per": 125.14,
-    "pbr": 19.73,
+    "per": 128.02,
+    "pbr": 20.18,
     "roe_series": [
       {
         "year": "2021",

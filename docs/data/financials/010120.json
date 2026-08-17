@@ -2,12 +2,134 @@
   "code": "010120",
   "name": "LS ELECTRIC",
   "market": "KOSPI",
-  "as_of": "2026-08-07T01:00:00.715316+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null,
-  "triangle": null
+  "as_of": "2026-08-15T04:21:22.806621+00:00",
+  "source": "dart",
+  "growth": {
+    "latest_year": "2025",
+    "value": 9.09,
+    "cagr_pct": 13.71,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 3377070215838.0
+      },
+      {
+        "year": "2023",
+        "value": 4230482628448.0
+      },
+      {
+        "year": "2024",
+        "value": 4551837252467.0
+      },
+      {
+        "year": "2025",
+        "value": 4965798552980.0
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 8.59,
+    "own_5y_avg": 7.59,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 5.55
+      },
+      {
+        "year": "2023",
+        "value": 7.68
+      },
+      {
+        "year": "2024",
+        "value": 8.56
+      },
+      {
+        "year": "2025",
+        "value": 8.59
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 131.48,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2022",
+        "value": 114.47
+      },
+      {
+        "year": "2023",
+        "value": 116.52
+      },
+      {
+        "year": "2024",
+        "value": 137.3
+      },
+      {
+        "year": "2025",
+        "value": 131.48
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 99097952392.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": -260324131765.0
+      },
+      {
+        "year": "2023",
+        "value": 101754586375.0
+      },
+      {
+        "year": "2024",
+        "value": 84903400221.0
+      },
+      {
+        "year": "2025",
+        "value": 99097952392.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 9647.0,
+    "per": 21.41,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 206500.0,
+    "eps": 9647.0,
+    "bps": 72670.61,
+    "roe": 13.27,
+    "per": 21.41,
+    "pbr": 2.84,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": 5.89
+      },
+      {
+        "year": "2023",
+        "value": 12.05
+      },
+      {
+        "year": "2024",
+        "value": 12.82
+      },
+      {
+        "year": "2025",
+        "value": 13.27
+      }
+    ],
+    "note": null
+  }
 }

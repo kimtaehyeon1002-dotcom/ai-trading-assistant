@@ -2,7 +2,7 @@
   "code": "005930",
   "name": "삼성전자",
   "market": "KOSPI",
-  "as_of": "2026-08-13T23:58:56.314300+00:00",
+  "as_of": "2026-08-15T04:20:13.000442+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 6605.0,
-    "per": 40.58,
+    "per": 41.56,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 268000.0,
+    "price": 274500.0,
     "eps": 6605.0,
     "bps": 63749.16,
     "roe": 10.36,
-    "per": 40.58,
-    "pbr": 4.2,
+    "per": 41.56,
+    "pbr": 4.31,
     "roe_series": [
       {
         "year": "2022",

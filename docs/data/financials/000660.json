@@ -2,7 +2,7 @@
   "code": "000660",
   "name": "SK하이닉스",
   "market": "KOSPI",
-  "as_of": "2026-08-13T23:58:58.648052+00:00",
+  "as_of": "2026-08-15T04:20:10.557117+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 62044.0,
-    "per": 25.68,
+    "per": 26.51,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 1593000.0,
+    "price": 1645000.0,
     "eps": 62044.0,
     "bps": 174319.29,
     "roe": 35.59,
-    "per": 25.68,
-    "pbr": 9.14,
+    "per": 26.51,
+    "pbr": 9.44,
     "roe_series": [
       {
         "year": "2022",

@@ -2,7 +2,7 @@
   "code": "NVDA",
   "name": "Nvidia",
   "market": "US",
-  "as_of": "2026-08-14T00:01:49.063900+00:00",
+  "as_of": "2026-08-15T04:22:00.148228+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2026",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2026",
     "eps": 4.9,
-    "per": 45.98,
+    "per": 45.95,
     "note": null
   },
   "triangle": {
     "latest_year": "2026",
-    "price": 225.3000030517578,
+    "price": 225.16000366210938,
     "eps": 4.9,
     "bps": 6.42,
     "roe": 76.33,
-    "per": 45.98,
-    "pbr": 35.09,
+    "per": 45.95,
+    "pbr": 35.07,
     "roe_series": [
       {
         "year": "2022",

@@ -2,7 +2,7 @@
   "code": "STX",
   "name": "Seagate Technology",
   "market": "US",
-  "as_of": "2026-08-14T00:02:02.377879+00:00",
+  "as_of": "2026-08-15T04:22:08.586587+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2026",
@@ -137,17 +137,17 @@
   "valuation": {
     "latest_year": "2026",
     "eps": 13.9,
-    "per": 66.29,
+    "per": 70.03,
     "note": null
   },
   "triangle": {
     "latest_year": "2026",
-    "price": 921.3699951171875,
+    "price": 973.4400024414062,
     "eps": 13.9,
     "bps": 9.46,
     "roe": 146.93,
-    "per": 66.29,
-    "pbr": 97.4,
+    "per": 70.03,
+    "pbr": 102.9,
     "roe_series": [
       {
         "year": "2019",

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-15T08:33:01.877139+00:00",
+  "as_of": "2026-08-17T06:50:41.558079+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -97,36 +97,6 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "080220",
-      "name": "제주반도체",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "market": "KOSPI"
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "market": "KOSPI"
-    },
-    {
-      "code": "009830",
-      "name": "한화솔루션",
-      "market": "KOSPI"
-    },
-    {
-      "code": "015760",
-      "name": "한국전력",
-      "market": "KOSPI"
-    },
-    {
-      "code": "028260",
-      "name": "삼성물산",
-      "market": "KOSPI"
-    },
-    {
       "code": "034020",
       "name": "두산에너빌리티",
       "market": "KOSPI"
@@ -192,23 +162,8 @@
       "market": "US"
     },
     {
-      "code": "SNDK",
-      "name": "Sandisk",
-      "market": "US"
-    },
-    {
       "code": "NVDA",
       "name": "Nvidia",
-      "market": "US"
-    },
-    {
-      "code": "AAPL",
-      "name": "Apple Inc.",
-      "market": "US"
-    },
-    {
-      "code": "INTC",
-      "name": "Intel",
       "market": "US"
     },
     {
@@ -217,33 +172,33 @@
       "market": "US"
     },
     {
-      "code": "MSFT",
-      "name": "Microsoft",
-      "market": "US"
-    },
-    {
       "code": "AMD",
       "name": "Advanced Micro Devices",
       "market": "US"
     },
     {
+      "code": "AVGO",
+      "name": "Broadcom",
+      "market": "US"
+    },
+    {
+      "code": "INTC",
+      "name": "Intel",
+      "market": "US"
+    },
+    {
+      "code": "AAPL",
+      "name": "Apple Inc.",
+      "market": "US"
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "market": "US"
+    },
+    {
       "code": "AMZN",
       "name": "Amazon",
-      "market": "US"
-    },
-    {
-      "code": "CSCO",
-      "name": "Cisco",
-      "market": "US"
-    },
-    {
-      "code": "PLTR",
-      "name": "Palantir Technologies",
-      "market": "US"
-    },
-    {
-      "code": "META",
-      "name": "Meta Platforms",
       "market": "US"
     },
     {
@@ -257,23 +212,8 @@
       "market": "US"
     },
     {
-      "code": "AVGO",
-      "name": "Broadcom",
-      "market": "US"
-    },
-    {
-      "code": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "market": "US"
-    },
-    {
-      "code": "SMCI",
-      "name": "Supermicro",
-      "market": "US"
-    },
-    {
-      "code": "COHR",
-      "name": "Coherent Corp.",
+      "code": "META",
+      "name": "Meta Platforms",
       "market": "US"
     },
     {
@@ -282,8 +222,13 @@
       "market": "US"
     },
     {
-      "code": "MRVL",
-      "name": "Marvell Technology",
+      "code": "WDC",
+      "name": "Western Digital",
+      "market": "US"
+    },
+    {
+      "code": "PLTR",
+      "name": "Palantir Technologies",
       "market": "US"
     },
     {
@@ -292,8 +237,8 @@
       "market": "US"
     },
     {
-      "code": "NFLX",
-      "name": "Netflix",
+      "code": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
       "market": "US"
     },
     {
@@ -302,23 +247,28 @@
       "market": "US"
     },
     {
-      "code": "DELL",
-      "name": "Dell Technologies",
+      "code": "CSCO",
+      "name": "Cisco",
       "market": "US"
     },
     {
-      "code": "WDAY",
-      "name": "Workday, Inc.",
+      "code": "MRVL",
+      "name": "Marvell Technology",
       "market": "US"
     },
     {
-      "code": "NFLX",
-      "name": "Netflix",
+      "code": "V",
+      "name": "Visa Inc.",
       "market": "US"
     },
     {
-      "code": "CRM",
-      "name": "Salesforce",
+      "code": "COHR",
+      "name": "Coherent Corp.",
+      "market": "US"
+    },
+    {
+      "code": "LLY",
+      "name": "Lilly (Eli)",
       "market": "US"
     },
     {
@@ -327,13 +277,28 @@
       "market": "US"
     },
     {
-      "code": "NOW",
-      "name": "ServiceNow",
+      "code": "SMCI",
+      "name": "Supermicro",
+      "market": "US"
+    },
+    {
+      "code": "NFLX",
+      "name": "Netflix",
       "market": "US"
     },
     {
       "code": "BRK-B",
       "name": "Berkshire Hathaway",
+      "market": "US"
+    },
+    {
+      "code": "DELL",
+      "name": "Dell Technologies",
+      "market": "US"
+    },
+    {
+      "code": "NOW",
+      "name": "ServiceNow",
       "market": "US"
     },
     {
@@ -367,11 +332,6 @@
       "market": "KRX"
     },
     {
-      "code": "LLY",
-      "name": "Eli Lilly",
-      "market": "NYSE"
-    },
-    {
       "code": "NVO",
       "name": "Novo Nordisk",
       "market": "NYSE"
@@ -387,6 +347,11 @@
       "market": "KRX"
     },
     {
+      "code": "JPM",
+      "name": "JPMorgan Chase",
+      "market": "NYSE"
+    },
+    {
       "code": "BAC",
       "name": "Bank of America",
       "market": "NYSE"
@@ -394,311 +359,311 @@
   ],
   "news": [
     {
-      "title": "“10년 뒤엔 지금보다 훨씬”…한국인 절반 ‘韓·日 경제 역전’ 예측",
-      "link": "https://www.mk.co.kr/news/economy/12128763",
+      "title": "Ferrari Luce: Polarizing EV debut becomes a $40 million collector’s item",
+      "link": "https://www.cnbc.com/2026/08/17/ferrari-luce-electric-car-autos.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-17T06:44:09+00:00"
+    },
+    {
+      "title": "[도쿄증시-마감] 실적 기대 속 혼조세 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NZjhndDdwYURZNDd1YWFHM3BmcTBKWGdGLW5EUUMtcTJSOWhMTTBpNEtDOVZLd2VLVVR4LTNuWGowLVF5b3lXeEQ1djRyTHZZLW8zTjNrMTl3cXlNbjdSNU5uN1dyYng3bW1kVHBNRVY?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T06:38:44+00:00"
+    },
+    {
+      "title": "[외환] 원/달러 환율 5.3원 내린 1,413.0원(15:30 기준가)",
+      "link": "https://www.yna.co.kr/view/AKR20260817046600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T06:34:53+00:00"
+    },
+    {
+      "title": "\"변동성 커도 증시 떠나면 안 돼… '이것' 담고 회복 기다려야\" - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FYmtob3QxOHB1YmJRMmVLRWhuOVQxUTY2SzAtYWctZnd5WTRMc21ZeEpOdUZVVTE1dHp5VElMSllPYkhDNEFlM2E4VmxRVERsR2d0bVJlUXNIZjFSbXFqMlF4SlFvVmNu0gFuQVVfeXFMUE5RVmh3d2tOc3BIanI0dGN2SU9ySEszNDZEX2w4eTRRQjdYMElaU0dQY1pwUnViQ3FPclRNRTl6Rkt3R0RZWm82VUlFRHhhRzladldFdnRia0NULS1kbVBQQ1NjUGFfREZaZmVJNVE?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T06:30:00+00:00"
+    },
+    {
+      "title": "은행 주도하던 베트남 증시, 상반기엔 달랐다... 빈홈즈 압도적 1위 - 아주경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxQXJxU01Oc3hNRzd3alZkTTRMM3ZLVWl6RjdxSG81TlJkbGJKc3luQmg3MmNDckl3SEptbG5rcDJORGd6QjlzcEpicDFuSzU3QTY5U3hhODZaUdIBWEFVX3lxTFBtX1dVWUtGdGdNZFNSbWtVRmpKdjFqbkdERjVxOTU1YUFFdEdrNzNBTkotVm51dUV5TVBuQUlqMWdoLVpjSDdlSE91elRXSl90R002YUwtQno?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T06:09:21+00:00"
+    },
+    {
+      "title": "금감원 노조 \"감독기구 지방이전은 초악수, 즉각 중단해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260817042400002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T06:04:19+00:00"
+    },
+    {
+      "title": "[연합뉴스 이 시각 헤드라인] - 15:00",
+      "link": "https://www.yna.co.kr/view/AKR20260817041500011",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T06:00:01+00:00"
+    },
+    {
+      "title": "증시 반등에 드리운 '공매도' 그림자…대차잔고 8월 들어 40조 '쑥' - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00Tm9xRW13RjhqRy1JNlBqSHY5dGZiX2hxaERUNXRuRU52R0lhdVV6WXJESFhnVlNFdi0tOGh5T0IzVE9ZYXJyNWV3aVNKSmM?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T05:31:28+00:00"
+    },
+    {
+      "title": "Japanese automakers vulnerable to one-two punch of Iran war, yen rally",
+      "link": "https://www.cnbc.com/2026/08/17/japanese-automakers-vulnerable-iran-war-yen-rally.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-17T05:18:44+00:00"
+    },
+    {
+      "title": "[주간증시전망] 물가 우려 덜었지만… FOMC 의사록·국채 입찰 변수 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVHQxMldfcWpZNS00V0VNenp0TjliejgyRlRoSm5nVkdUdUp2OVB2bFJKSm5GQnFEMi0tWVVpMXF2YXlxWVdudW9uWG9uajNlZ1RJQldoQjNIVjNRY2lFMWlBX1hJV21tWHZzUTRONThKV1VJOUx3YW5WOHN4d1Uxa3h6RE5sRzRC0gGcAUFVX3lxTE5DZElXbWdjLVE2ckRxVjNERnByUnNsZ1FON1JIWFNqLVB0cl9HUWx5eFhESWRRNVZPYlZPbURFLUlYVkVLdEpyWEtLTWNjZHFfMGViN1h2Y0dhMDlDREJ4V2RZMnZYd2RfU1ZlQ0ZjdzFzQlJOZ1BEb0NOSFVFT2RCWGdqVFdONElnTnIwb1ZvbVh0ME8zSjhmZW1Tdg?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T05:11:00+00:00"
+    },
+    {
+      "title": "청라로 본사 옮기는 하나금융 “인천시와 동반금융 확대”",
+      "link": "https://www.mk.co.kr/news/economy/12129292",
       "source": "매일경제·증권",
-      "published": "2026-08-15T08:27:51+00:00"
+      "published": "2026-08-17T05:01:47+00:00"
     },
     {
-      "title": "뉴욕증시 '엇갈린 하루': 보합 출발 후 하락 마감…변동성 심화 이면 분석 - 데일리연합",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RTTR1LUMtWlFFNTlhZ0Fhb0tPV2pBVV96YmgyMFNGLWFBaTZORDU2X2pGSlNXYlVET0NmV1h1V3VTNlRrRXVnRmxydTlVVVVKZ2xNdWROYWZkcG8?oc=5",
-      "source": "Google News",
-      "published": "2026-08-15T06:30:03+00:00"
-    },
-    {
-      "title": "서울시 이어 용산구도 \"용산공원 주택공급 검토 강력 반대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260815034500004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-15T05:45:53+00:00"
-    },
-    {
-      "title": "[동포의 창]\"한상 네트워크 활용해 韓 기업-파라과이 시장 연결\"",
-      "link": "https://www.yna.co.kr/view/AKR20260815034000371",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-15T05:32:58+00:00"
-    },
-    {
-      "title": "“교육부-예산처 장관직 걸겠다”…최교진-박홍근, 교부금 전화 담판도 결렬",
-      "link": "https://www.mk.co.kr/news/economy/12128731",
+      "title": "“구리 공급 걱정마세요”…수은, 글로벌 자원기업에 1.4조 금융지원",
+      "link": "https://www.mk.co.kr/news/economy/12129288",
       "source": "매일경제·증권",
-      "published": "2026-08-15T05:02:43+00:00"
+      "published": "2026-08-17T04:55:23+00:00"
     },
     {
-      "title": "Russia's economy has defied the skeptics. Cracks are getting harder to hide",
-      "link": "https://www.cnbc.com/2026/08/15/ukraine-war-russia-economy-putin-oil.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-15T05:00:01+00:00"
-    },
-    {
-      "title": "Extreme heat spurs earliest-ever Champagne harvest, putting its famous taste to the test",
-      "link": "https://www.cnbc.com/2026/08/15/heatwave-champagne-harvest-climate.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-15T05:00:01+00:00"
-    },
-    {
-      "title": "증시 변동성 축소·우호적 매크로 환경...외인 매수세 지속 기대감 - 데일리한국",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9INWJNR05DQk1SaVI5RHVqLUVjTWM2b0twTmpxWmJ2aXhwZmFvNGdMY3pFZUpBQ3o5RW9oaVYycGprQUdfRlNobjhJSGJWTmhqZWVXUXFaR0FzWmZSbWgzOE5OOXNQLUFJUWRCbkc5NNIBc0FVX3lxTE8xWHlHMl9TdkMwOTVrM0ItZGpFODE4Q1E2Sy1EVUpBUWZSdEV5QWRmbS1zYjZicXNlNm8wZnFTTExSa3A2Q2tFSmFLUE45Q3NHamFiYXdfX1RrUDhPVjB0b2FyLXFFRzl1R3N0UDN4LXdQWk0?oc=5",
+      "title": "아시아 증시 혼조세, 일본 GDP 실망…중국 지표·기술주 주목 - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YOTl1QUxNeWZvMUptcC1kTUp5YjJIS2s4dE9BcE12eE9qOU9fTHZJQVc5ZHZnNDhRZ0RpaXFrb09UOFhvZFU3aHV6a0tDMV9XZGhzZG8zTlZia1FOLWRyTlZsNlBfeUVmSmVzZVZJTDg?oc=5",
       "source": "Google News",
-      "published": "2026-08-15T05:00:00+00:00"
+      "published": "2026-08-17T04:28:00+00:00"
     },
     {
-      "title": "[부고] 박세혁(금융감독원 증권거래감독팀장)씨 모친상",
-      "link": "https://www.yna.co.kr/view/AKR20260815032200002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-15T04:34:42+00:00"
-    },
-    {
-      "title": "싱가포르 증시 사상 최고 랠리, ’골디락스’ 경제가 뒷받침 - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKQjVPenhmY3U0MUlaYTNlZ1pnbzlfamZrLVJIYmIzeDNtVjRiVUdaVjZjWkpFc3lndWN4UHRTOW5kNWxJc1gyZ3JjbEZWVmlwbHpHNEpfNW9FZjQyNWlkZ2JLQXFmY0FxM2FmbEFQSmM?oc=5",
+      "title": "조각투자도 '증시 데뷔'…11월 KRX 신종증권시장 열린다 - 파이낸셜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1mcjloZWFXeDh4ZEpNQjZHSTAwcUVjNmlFM3Y5OHFPMUFYOFhPSFNRZHJoSWcwak56b0o4WFQwX2hSUXNDc0VDelpKWDVRcjJBbzU4RmljaTV2Zw?oc=5",
       "source": "Google News",
-      "published": "2026-08-15T04:00:00+00:00"
+      "published": "2026-08-17T04:24:57+00:00"
     },
     {
-      "title": "\"신혼집 마련할 돈 날렸다\"...해외서도 놀란 코스피 개미 잔혹사 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtYzZpOFNvTXdSOXZqd2ViWU44dDBucHg5bldsd1Axa2NXM0VmVmsyeVlpZmQydWtUYzJ1UkI1SW1RemJyZjRpWjJKRGZ6OVdpdmpLV2I2dTk5QmdVeWNnWXJSMmFWdUs50gFuQVVfeXFMT1hfYWhNckp4MmVEVFhYU1g0MnhKS2JYc3NhUU1FYlNQY3FJMldCN0QzNXlVdFpuSGVydmpJd29FeDZSRTJrdEtzNnpPNnEwZ1Y0R1kwRGxSOXI1a3RfdmVycmtyQjVNTTlwdHJ4OWc?oc=5",
+      "title": "변동성 잦아든 증시, 우상향 시동 거나…FOMC 의사록 변수 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZaXdBd2t2bVJOZVlhM0NyWDc2NDY0SVdTVXVjOHNIQjFCNXZ2c2dMTVpUZjJ1RFlITDZoSGRCYjl3dzJiTWpDcDJtcjBLa0hUNDVqS3ZUY2Nhc0VKU294bFZWUTZYMlVa0gFuQVVfeXFMTUxSTUI5V1ZGZGhsU0NCZmctVTMxZjdJbFpRVkxZYzkwR2JqaXFySWFEemxhcmx1SHRqelhhS1p3blprRGdoRlNTc2NyUlpNV2RjaXV5Yl9PQk9hbXI0ZUw1cUdZUV8wTExFM2xHdlE?oc=5",
       "source": "Google News",
-      "published": "2026-08-15T03:56:50+00:00"
+      "published": "2026-08-17T04:13:07+00:00"
     },
     {
-      "title": "[미국증시] 국민연금 미국 주식 1550억 달러…스페이스X에 사우디·알파벳 몰려 - 자본시장뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yTjVTQXNYbmpUREtSc1JLLUJjNUs0VjlWbmNwVHFMbm5YUmVwa1h1WkFPUHFoUzVxak13MUowUTV1cGhna3lZMGVqMk5CSmQ3el9Tc0lFRDJzSjV6dlJQT3lWUTZ1cGc?oc=5",
+      "title": "정부 세제개편안 ISA '핀셋 손질'…부동산 골격은 국회논의 전망(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260816026051002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T03:58:43+00:00"
+    },
+    {
+      "title": "국민 68％ \"대미투자 협상내용 공개해야\" [개혁신당 여론조사]",
+      "link": "https://www.yna.co.kr/view/AKR20260817034200001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T03:39:06+00:00"
+    },
+    {
+      "title": "[동포의 창] 동포 청년을 '글로벌 K' 인재로…교육·취업 정책 해법 찾는다",
+      "link": "https://www.yna.co.kr/view/AKR20260817035400371",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T03:18:54+00:00"
+    },
+    {
+      "title": "No.1 경제·증권 채널 : @HKWOWTV - 한국경제TV",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM0U3RllOTFBOTGhjV3BINEVpWlktX00xdm1nZkdVMVc4aWp3N2pzT0xLeTFYWTJvZDRMcmxNWUZWUG9UNzV5U0JIUF9qZ284Qm5DUktoTzB5RkYxZFJKQmdGVHRWR2g4QlAxc0VfLWdQcHR3Wm1oNXRueC1JaThWc1ozRQ?oc=5",
       "source": "Google News",
-      "published": "2026-08-15T02:32:56+00:00"
+      "published": "2026-08-17T03:06:38+00:00"
     },
     {
-      "title": "[8월 둘째 주 세계경제동향 브리핑] 코스피 11%대 급반등…코스닥도 8% 상승 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LaGNDTjVtUzdia011MzFYOU5kUW5sZ0dQNGEwRnFFYndJMkxTQXNmRkhoa214aGdobXhVb1hqVFFSazkwbmVrc1oxTlFXNDA?oc=5",
-      "source": "Google News",
-      "published": "2026-08-15T01:52:00+00:00"
-    },
-    {
-      "title": "통상 사령탑 여한구 산업부 통상교섭본부장 경질(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260815020751003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-15T01:44:39+00:00"
-    },
-    {
-      "title": "5일 내내 오른 증시…외인·기관은 '삼전닉스', 승부는 장바구니에서 갈렸다 - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uVjBDU2Y4aXN1SjIxTTZ0OXZwemtYd2xVWEJvVkpORnFDMVZjOWRzd0U3MjJkRFFPMGljNWNUWjdsS0t0YnJ1a3VMdVUyQVBlTXYtaW1TUEZSdw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-15T01:40:51+00:00"
-    },
-    {
-      "title": "기술수출·신약이 끌었다…제약·바이오 2분기 '호실적'",
-      "link": "https://www.yna.co.kr/view/AKR20260814115200017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-15T01:30:00+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
-      "link": "https://www.yna.co.kr/view/AKR20260815023800011",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-15T01:30:00+00:00"
-    },
-    {
-      "title": "27만전자, 164만닉스, 돌아온 외인… 불붙은 국장과 반도체 고점론 [주간 증시해설서] - 더스쿠프",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XaV9Gb3hVbXdMR1RScHcyZlE4UzBBRmtyYVlKVWl1MFJPRWFpcjZLWXFFRXMzOTBPTTR3T0RzYnR0T0lLVV8zc1JnR2M4ZU5sUWdERjgzRmpWcEVsUE82R0JrUWxFR05IYTFlNGxR?oc=5",
-      "source": "Google News",
-      "published": "2026-08-15T01:29:31+00:00"
-    },
-    {
-      "title": "[뉴욕 증시] 美 소매 판매 수치 예상치 밑돌아...뉴욕 3대 지수 약세 마감 - 한양경제",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04aXdyWndGU09ldy1Bak5UMHBwSmNFQUxVYlJEck55d3F5UVdBN19yMDV4Uk1SaTdjQnlGNHg0bkctd05ueDl4UjVocDdaYkFybnJLTk4yanM1SzZzMnc4TU1UTjVaV01tcTY3YUpNSVU?oc=5",
-      "source": "Google News",
-      "published": "2026-08-15T01:18:56+00:00"
-    },
-    {
-      "title": "中, 장쩌민 탄생 100주년 기념주화 발행…금·은화 등 4종",
-      "link": "https://www.yna.co.kr/view/AKR20260815021000083",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-15T00:52:37+00:00"
-    },
-    {
-      "title": "통상 사령탑 여한구 산업부 통상교섭본부장 경질",
-      "link": "https://www.yna.co.kr/view/AKR20260815020700003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-15T00:48:37+00:00"
-    },
-    {
-      "title": "[IPO챗] 인제니아·기도산업, 다음주 코스닥 입성",
-      "link": "https://www.yna.co.kr/view/AKR20260814117900008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-15T00:00:02+00:00"
-    },
-    {
-      "title": "[다음주 경제] 올해 성장전망 얼마나 높아질까…가계부채 규모도 주목",
-      "link": "https://www.yna.co.kr/view/AKR20260815011500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T23:54:19+00:00"
-    },
-    {
-      "title": "뉴욕증시, 소비 둔화 우려에 약세…S&P500 0.2%↓ - 조선비즈 - biz.chosun.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWENsdnNLb3lOX3pvY29kYW9VT2UtVjBjaHdvTGZkeldZdHkwTWRsYzN1eDd1bVNEMmVXWm5HZTNpMHA1ZHZQWGIybWNtRThIYUVCNTc5c0QxLVl2SG1LdDJCT0h6UnZRN3cyalAzQ3BXSVhtSVFLMXFObjlFcDFIaXZDbjJjTDJTXzJsaHhLNS1rZ3pzSGJSZ1pMTF9ZZ9IBsgFBVV95cUxQUzFqc1lFaEZyTEM2NUY1MHM4bDY1UnRRWW4ta1l4R0xwazFmenJSNks0NDdKbkt6TzRia21hRUNOTkkxSHlielZhRVVBRG1yUFA0Vm8zemxEdlBuM194cEZZX21wYjlNelpRaUtTZG5WNTJCR3RCVzVROFU4ZHF1TkprYThNNnJERTJsckNBNzRlQXZDNkRIVWgtMUhycmpsYlJ6bzdZcUhTTVZRUmRDLXlB?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T23:47:00+00:00"
-    },
-    {
-      "title": "Trump family-backed crypto firm World Liberty gets conditional bank charter approval",
-      "link": "https://www.cnbc.com/2026/08/14/world-liberty-trump-occ-bank-charter-stablecoin.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T23:41:50+00:00"
-    },
-    {
-      "title": "美 소비 둔화 우려…뉴욕증시 일제히 하락 마감 - 연합뉴스 한민족센터",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZN0duN3NjNERvWDhYMjl3YThtXy13UlY4THV0MFY4T0x3TlFFUlZuWklLWGtlREN0WkZlVUNaREpiU3Rud1RfblNjWTlHWnE2ckJRc0lIRXdIQmtEaGhLbi15MkVoUW1TdTBZQmFlUHR5OHhz?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T23:30:54+00:00"
-    },
-    {
-      "title": "美 소비 둔화 우려…뉴욕증시 일제히 하락 마감 - 연합뉴스TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kc2hqYjFOWmc1ZWt3dUQyN0txbGp2OHZwYUY5VEM3YlpaRUFabl8zUHNlN3dkcEtReU9HTmVud1ctSkhHZzlBTVB4X2UwanppTFFCblk1Y0tSb29vQlppS2hlZHpremc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T23:30:00+00:00"
-    },
-    {
-      "title": "독립자금 댄 활명수·OSS 요원 유일한…제약보국의 역사",
-      "link": "https://www.yna.co.kr/view/AKR20260814072200017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T23:15:01+00:00"
-    },
-    {
-      "title": "\"K-푸드·뷰티 타고 호주 간다\"…전주시, 무역사절단 8개사 모집",
-      "link": "https://www.yna.co.kr/view/AKR20260814071200055",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T23:00:13+00:00"
-    },
-    {
-      "title": "농진청, 'AI 활용 창업경진대회' 수상작 18점 선정",
-      "link": "https://www.yna.co.kr/view/AKR20260814042000055",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T23:00:09+00:00"
-    },
-    {
-      "title": "[오늘의 글로벌마켓] 뉴욕증시, 소비지표 둔화에 3대지수 하락세 - 오피니언뉴스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nYjQzS1RNMnpEMXA0VFUwUGgzajQ4TVpGMTlXUlRXZ0VFYzZ5djl6WGxSRGszWmF0MWpmYW1GNThVdlBLRXlXZk9SeFNqMGNCRkFxQy1nM0wyaDJyOGRIX1Q4VDlVanY5NE53RDFVeHI?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T22:46:04+00:00"
-    },
-    {
-      "title": "가짜 계약서로 법원도 속였다…45억 뜯은 깡통빌라 사기극",
-      "link": "https://www.yna.co.kr/view/AKR20260814061700065",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T22:17:01+00:00"
-    },
-    {
-      "title": "[로컬의 재발견] 한국의 실리콘밸리 찾으세요? 대전 '스타트업 파크' 오세요!",
-      "link": "https://www.yna.co.kr/view/AKR20260812133500063",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T22:11:01+00:00"
-    },
-    {
-      "title": "[머니톡스] 서울로 서울로…해방의 기쁨과 함께 시작된 주택난",
-      "link": "https://www.yna.co.kr/view/AKR20260814042200546",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T22:07:01+00:00"
-    },
-    {
-      "title": "대구본부세관, 대구한의대와 'K-메디' 수출 협력 나서",
-      "link": "https://www.yna.co.kr/view/AKR20260814112200053",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T22:02:05+00:00"
-    },
-    {
-      "title": "주유소 기름값 13주째 내려…휘발유 1천864원·경유 1천847원",
-      "link": "https://www.yna.co.kr/view/AKR20260814170600003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T22:01:00+00:00"
-    },
-    {
-      "title": "[금주핫템] 바이탈뷰트 '슈퍼콜라겐'·구호 프란체스코 푸치 협업 상품",
-      "link": "https://www.yna.co.kr/view/AKR20260814105800030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T22:00:02+00:00"
-    },
-    {
-      "title": "[신상잇슈] 샘표 '차오차이 시추안 마라탕면'·'백년동안 맛있는 단백질'",
-      "link": "https://www.yna.co.kr/view/AKR20260814181200030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-14T22:00:00+00:00"
-    },
-    {
-      "title": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
-      "link": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T21:45:19+00:00"
-    },
-    {
-      "title": "Berkshire Hathaway doubles down on the U.S. housing market with a fresh bet on this stock",
-      "link": "https://www.marketwatch.com/story/berkshire-hathaway-doubles-down-on-the-u-s-housing-market-with-a-fresh-bet-on-this-stock-e5c8484a?mod=mw_rss_topstories",
+      "title": "U.S. stock futures little changed as investors ponder the Fed’s next move",
+      "link": "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "2026-08-14T21:34:00+00:00"
+      "published": "2026-08-17T03:02:00+00:00"
     },
     {
-      "title": "美 소비 꺾이자 AI주 ‘찬바람’…뉴욕증시 3대 지수 하락 - 경북매일",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10dW5wNUVnUmhNSUUzb2pLVkhSeGRRWEZaa3FtbGMwUmVHRldINEtjZEM5eVRXMHpPcmV3RFJVYm9QRzRFaUNvdnRBTXlvUG1DekE2Y1J1bjg1dw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T21:16:00+00:00"
-    },
-    {
-      "title": "뉴욕증시, 소비 둔화 우려에 숨고르기…S&P500 0.2%↓ - KBS 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CYk9XcXhjcVo4X29ZZU1yckZYX05GdjZFM3BDcTd1RFFIUTQybWtNT19qU1Rnc3hueDhnU0pCYzZCN2F5ZnFsLVh2d0UwWEdTV0QxWHNQTVBBOWs?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T21:14:00+00:00"
-    },
-    {
-      "title": "“자녀들 커서 넓은집 전세 갔더니 투기?”…‘실거주 인정해달라’ 불만 폭주",
-      "link": "https://www.mk.co.kr/news/economy/12128621",
-      "source": "매일경제·증권",
-      "published": "2026-08-14T21:11:08+00:00"
-    },
-    {
-      "title": "뉴욕증시, 소비 둔화 우려에 숨고르기…S&P500 0.2%↓(종합) - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tR2lsZENkeHhlc3A4LVBvOUpuWmU0bHNZb2dLTTNaWVlOclZTYjFfYnhNZ0VaYW1Bb1VTZnB0LTNPenBNazlUWmt2dHhjdjg?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T21:09:39+00:00"
-    },
-    {
-      "title": "Berkshire Hathaway boosts Alphabet to a top three holding, ups Delta and housing bets",
-      "link": "https://www.cnbc.com/2026/08/14/berkshire-hathaway-boosts-alphabet-to-a-top-three-holding-ups-delta-and-housing-bets.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-14T21:06:48+00:00"
-    },
-    {
-      "title": "[부동산캘린더] 내주 서울 신길동 써밋클라비온 등 3천788가구 분양",
-      "link": "https://www.yna.co.kr/view/AKR20260814142900003",
+      "title": "'K-가발로 글로벌 패션 선도'…관련 특허 경쟁력 세계 2위",
+      "link": "https://www.yna.co.kr/view/AKR20260814063700063",
       "source": "연합뉴스·경제",
-      "published": "2026-08-14T21:05:01+00:00"
+      "published": "2026-08-17T03:00:04+00:00"
     },
     {
-      "title": "[월가 레이더] 美 뉴욕증시, 소비둔화 속 숨고르기…S&P500 3주 연속 상승세 - 포커스온경제",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5tQnNyVFhQVEVOZzFSVDcyMy1zekVqUHNrVEcxekJScEduVkpUekg5UzZscXZ5Z1BhVGdzRVg4WW9vc3VPUG1V?oc=5",
+      "title": "PB 상품 판매 목표 미달하면 가맹 해지 압박…다비치안경 과징금",
+      "link": "https://www.yna.co.kr/view/AKR20260814184500002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T03:00:02+00:00"
+    },
+    {
+      "title": "금감원, 이화여대와 금융권 기후 리스크 관리 국제 콘퍼런스 개최",
+      "link": "https://www.yna.co.kr/view/AKR20260816017000002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T03:00:02+00:00"
+    },
+    {
+      "title": "경총 \"성과급은 쟁의대상 제외해야…메가특구 노동유연성 필요\"",
+      "link": "https://www.yna.co.kr/view/AKR20260817032200003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T03:00:00+00:00"
+    },
+    {
+      "title": "[주간증시전망] 불확실성 털어낸 코스피, 7000선 ‘정조준’ - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUnA0eUdDTWdzaXNFUmZfT3hYbkpkNmJNb01WbXJFTk5YdDUzdHdScDRWcUlYNVhFaXdudnQ1LUZ5emFyRTlwWGkzVXl1Tk56MVBEQ0c3OVRpeUtXTTdZb3JtVW5qWldTUVBiY3c3al92ZVk2RjZ2d2FWOXliNTNmc254eldzM21D?oc=5",
       "source": "Google News",
-      "published": "2026-08-14T21:02:46+00:00"
+      "published": "2026-08-17T03:00:00+00:00"
     },
     {
-      "title": "“무분별한 지방 분산, 실무에 악영향”…은행권 파업 ‘확대일로’",
-      "link": "https://www.mk.co.kr/news/economy/12128613",
+      "title": "미일 공동개입도 약발 끝... 日 증시 올라도 투자자는 웃지 못했다 - 매일일보",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Ib3hGbUJaS3NIdThqNXlJZzlXUDJoT05GeU93Q2g1cGQyeUpoXzRDaWh6cWJUczJINHc0eVRUcktkVUJ0bDBqRzZlcnBiSTBINFdXamtwc013eDlEc2c0ekpuVUQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T02:45:16+00:00"
+    },
+    {
+      "title": "\"연내 9% 더 오른다\" 금융사들, 日증시 전망 줄상향 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IcXlTRHFmMnZhQkxCQ1JBUVBNWEpSUjY5ZFNZbDZOWjRWNUw4MG1wbjJmUHp2VEFOSXE5anlZQlExLXQ5NXJ1VHE3aEtZbUE?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T02:42:44+00:00"
+    },
+    {
+      "title": "'그림·영화·부동산' 증시 문 연다…11월 신종증시 개설 - 노컷뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1CQXE5dnpzQ2xIcnlYOW9uSGZEZzdWZlBESXhXZ0pqbU9WY1ZJTWdOc0pXU3ltWXoyWUI3OFZjTHQ1cmI5RjhpbXZ3emRoNXJZNmc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T02:42:00+00:00"
+    },
+    {
+      "title": "카카오뱅크, 자사주 27만주 소각 추진…\"주주가치 제고\"",
+      "link": "https://www.yna.co.kr/view/AKR20260817029600002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T02:34:31+00:00"
+    },
+    {
+      "title": "亞 증시 떠받친 AI·반도체 훈풍, 닛케이 상승전환[Asia오전] - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05cEkyM3U5MFkybDl3NVFzTTRNRzZuTkJjQm5TNTc5ODhEWlJQYWdwekdUcnJrNjI4RGlySkRzcmx3OTBpMXVxVXU2ckpiNXRjY0lzQ0FEa3RQd2syRjJMZGFTbk5nUEwz0gFuQVVfeXFMTWExem5xb1JtUzNCbk11Qnd2dmtwU3F2WEZ1aFIxejNtZEpmNkNkdFVrSE5jVVB1SHhDaWdpcFo4aTNXZ2p6bXRKc0dYeGhYR1lzN3Q3alY0cHItY0dfdURqcVpzNFJPR3gzcFg1NGc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T02:31:57+00:00"
+    },
+    {
+      "title": "日 증시, 美 소비 둔화·중동 우려에 혼조…닛케이 6만9,000선 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iQWlaQzlZSVlLWEdBdkVZOTF5Q2EybUVIVVgwTXVhcHM1WW56ZWxjcDFrLTNkQXZkaTZxbFhoRGlRSkU5WExvczJjcXhhbVlaTUdQVUNZQnpub3hfaVN6RHlSUzIwSW5TSlJHcEE1SEg?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T02:22:37+00:00"
+    },
+    {
+      "title": "Japan second-quarter GDP grows 1.1% on an annualized basis, missing expectations",
+      "link": "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-17T02:21:02+00:00"
+    },
+    {
+      "title": "호르무즈 이어 홍해도 위험…한국 유조선 수에즈 운하 이용",
+      "link": "https://www.yna.co.kr/view/AKR20260817030800051",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T02:19:15+00:00"
+    },
+    {
+      "title": "동작구 상도동 214번지 신통기획 확정…1천840세대 친환경 단지로",
+      "link": "https://www.yna.co.kr/view/AKR20260816025800004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T02:15:03+00:00"
+    },
+    {
+      "title": "[게시판] 국토지리정보원, 어린이 지도 그리기 대회…10월 6일까지 접수",
+      "link": "https://www.yna.co.kr/view/AKR20260816020600003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T02:00:03+00:00"
+    },
+    {
+      "title": "미세조류 활용해 안구건조증 개선…해양수산 신기술 9건 인증",
+      "link": "https://www.yna.co.kr/view/AKR20260817019700051",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T02:00:02+00:00"
+    },
+    {
+      "title": "한강라면부터 화장품까지…코트라, 중국 칭다오서 소비재 판촉전",
+      "link": "https://www.yna.co.kr/view/AKR20260817021400003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T02:00:01+00:00"
+    },
+    {
+      "title": "국내 증시 회귀 정책에 증권사들만 노났다 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMk44UXp1Tkk1TC1obE5OdGt5R0gxVHlvd2xjM0dJeVc0N3hzMHdxUzJSeE1leFVVb0VsODV5eC13TU1CaHFjaWhqOG83bGpxRzZxRU1udHZfeGVRQ25QN3NsZ0hCNjRSelBvRmE5M1pja29CMXVTb29Ndms4anlHNlRWUmM0TTVjZzRN?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T01:52:00+00:00"
+    },
+    {
+      "title": "국내 증시 회귀 정책에 증권사들만 노났다 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUHFTQ1RyQVZXclFnY2gwRWpzNGhXNlhwa3o3T3ptLXZnNXFIMGdEcGh3TjBOdHZLUEpqQTlnX3lOVTV3QmIwM1dwMTFJdVFTZWtreHRQU3l0blJ6MlZjc00xaXprc1hWMmRNX0RxZjBRTGxNdjRLQTY5ekRIcmtqZ1ROR3hsYXNG?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T01:52:00+00:00"
+    },
+    {
+      "title": "조각투자 '증시 데뷔'…11월 증권시장 새 지평 열려 - 파이낸셜포스트",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBwY0NHYXAtRWN5d3k2YWxGbEE5SjA2UHpHeXBNWkszN0tKbDNYcnBRUEhzYTkyNTVqdHVVNDRielZpclpxX3ZtZ25SSUtLejEzSkdPWnNHNHpQU2lZcjJQQV9GVnYyeXAtMk01b1RCSHBHX0xu?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T01:47:50+00:00"
+    },
+    {
+      "title": "증시 추락에 예적금으로 ‘역머니무브’…은행권 최고 9% 특판 경쟁 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BUVRXQzZsZTRyVHVZR0dKQ0FUaDVSZVpwZVV3Vm80cVV2eWpWWmszUG8zUVZTMGQzcU5wSENXMzdFeFlRelNsM2thSWV2eU0?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T01:40:46+00:00"
+    },
+    {
+      "title": "서초구, 부동산 세제개편안 관련 구민 의견 모아 정부에 전달",
+      "link": "https://www.yna.co.kr/view/AKR20260817024700004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T01:03:22+00:00"
+    },
+    {
+      "title": "[이번주 증시] 반등 랠리 지속 기대...대형 IT주 중심 상승세 전망 - 오피니언뉴스",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmU2RtUTdHSUpBY28tQ0N0NnZSX21VYWRvTFJQTHl3azRNWGRiNXpNNXRib2hGdVZyVUJwY1k0Vi0yejM1Qkh0bnhKbExnSjNKbW1henp4RmxJVUhTcVBRb2t2YkZ4SWMzN1BjdnQ4ZjJtUQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T01:00:00+00:00"
+    },
+    {
+      "title": "김밥 한끼도 부담스러워지겠네…쌀·계란값 오르자 한 줄 4000원 육박",
+      "link": "https://www.mk.co.kr/news/economy/12129237",
       "source": "매일경제·증권",
-      "published": "2026-08-14T21:00:46+00:00"
+      "published": "2026-08-17T00:56:46+00:00"
     },
     {
-      "title": "[뉴욕증시] 이란 전쟁 장기화 우려 확산…약세 마감 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmRkMyb2hMM0VPelpsUFNPR2dGbDA4bUpiUkozNEF2UUxNSk5tRWV6c3lWVW1CVlNmNGljdEtsaU5Gd2pqNEJ0NDVIbHh1a1pfTGpUaWcyVGZXSFB3N010dEFNNzlDVUQzVzVvWVRCdk8?oc=5",
-      "source": "Google News",
-      "published": "2026-08-14T20:59:06+00:00"
+      "title": "LH, 신규 아파트 승강기 에어컨 의무화…침수 감지 기능도 도입",
+      "link": "https://www.yna.co.kr/view/AKR20260817022800003",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T00:33:58+00:00"
     },
     {
-      "title": "뉴욕증시, 소비 부진·유가 상승에 하락…S&P 0.17%↓[뉴욕마감] - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5fVzZTZV9hRnoyeU0wc0lOYUJmNmpVeEowTnhWZUdYV2R2SF9mdG1hZjQyb2tTTGdIc0QzNGVDSEJ3cWxtMjlqUEp2MnZoTHM?oc=5",
+      "title": "증시 호황, 중형 증권사까지 온기…대형사와 실적격차는 '울상' - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yNEc1TzBubUh2d2lOZjJfTmZNWENLTEN3bUpPV21BMU05bWthNmRFY1kweFk3Uk1OMnppOHlOTWRBOG1aWXpDdXF6LVNvejFwZFRGX0h0V3ltbmlTYVJ0X2ZvWlJXTGhR0gFuQVVfeXFMT05Mc3VUbEJ0TGJxS0FESGMwNm9nOEN0NzdSZlRnX2hSM2NqblI1MjNRVnptSEVfMnoxV1pJVDFRZy1aR0lkcGZKTVV3anljZC1iYkdudWN5WG96RmRsR1dBRVFLUEdKdkhvUzBlWmc?oc=5",
       "source": "Google News",
-      "published": "2026-08-14T20:48:01+00:00"
+      "published": "2026-08-17T00:19:07+00:00"
+    },
+    {
+      "title": "강남구, 9월 18일 '부동산 세금 설명회'…8·3 개편안 분석",
+      "link": "https://www.yna.co.kr/view/AKR20260817021900004",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T00:17:37+00:00"
+    },
+    {
+      "title": "“3년간 360만원 넣고 1000만원 넘게 벌었다”…월소득도 50만원 껑충, 뭐길래",
+      "link": "https://www.mk.co.kr/news/economy/12129221",
+      "source": "매일경제·증권",
+      "published": "2026-08-17T00:13:31+00:00"
+    },
+    {
+      "title": "충북도, '사회연대경제 일경험 사업' 참여 기업·청년 모집",
+      "link": "https://www.yna.co.kr/view/AKR20260814142600064",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-17T00:10:03+00:00"
+    },
+    {
+      "title": "증권사들 日증시 눈높이 상향…씨티 \"닛케이 연말 9만 갈 것\" - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VZFRfbS1CYzZHa2hEd0tycDZiY3ZwdjZoMGlsSXVHZUUwYS13N2t0czBYTVl0S1F0aU1wQmtKWEtWckZaeXR1aklxSXN1aC12WVZmWnNkd0lxQQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-17T00:00:09+00:00"
     }
   ],
   "pages": [
     {
-      "key": "dashboard",
-      "label": "Dashboard",
-      "href": "/index.html"
+      "key": "morning",
+      "label": "Morning Report",
+      "href": "/morning/index.html"
     },
     {
       "key": "macro",
@@ -724,6 +689,11 @@
       "key": "ta",
       "label": "Technical Analysis",
       "href": "/ta/index.html"
+    },
+    {
+      "key": "private",
+      "label": "Private",
+      "href": "/asset/index.html"
     },
     {
       "key": "asset",

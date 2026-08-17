@@ -2,7 +2,7 @@
   "code": "AMZN",
   "name": "Amazon",
   "market": "US",
-  "as_of": "2026-08-14T00:01:54.406245+00:00",
+  "as_of": "2026-08-15T04:22:05.675170+00:00",
   "source": "edgar",
   "growth": {
     "latest_year": "2025",
@@ -111,17 +111,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 7.17,
-    "per": 36.98,
+    "per": 36.63,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 265.1300048828125,
+    "price": 262.6499938964844,
     "eps": 7.17,
     "bps": 37.95,
     "roe": 18.89,
-    "per": 36.98,
-    "pbr": 6.99,
+    "per": 36.63,
+    "pbr": 6.92,
     "roe_series": [
       {
         "year": "2021",

@@ -2,11 +2,134 @@
   "code": "012330",
   "name": "현대모비스",
   "market": "KOSPI",
-  "as_of": "2026-08-05T22:06:55.015859+00:00",
-  "source": "none",
-  "growth": null,
-  "profitability": null,
-  "stability": null,
-  "cashflow": null,
-  "valuation": null
+  "as_of": "2026-08-15T04:20:59.139980+00:00",
+  "source": "dart",
+  "growth": {
+    "latest_year": "2025",
+    "value": 6.78,
+    "cagr_pct": 5.6,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 51906293000000.0
+      },
+      {
+        "year": "2023",
+        "value": 59254361000000.0
+      },
+      {
+        "year": "2024",
+        "value": 57236995000000.0
+      },
+      {
+        "year": "2025",
+        "value": 61118127000000.0
+      }
+    ]
+  },
+  "profitability": {
+    "latest_year": "2025",
+    "value": 5.49,
+    "own_5y_avg": 4.66,
+    "judgment": "neutral",
+    "series": [
+      {
+        "year": "2022",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "value": 3.87
+      },
+      {
+        "year": "2024",
+        "value": 5.37
+      },
+      {
+        "year": "2025",
+        "value": 5.49
+      }
+    ]
+  },
+  "stability": {
+    "latest_year": "2025",
+    "value": 43.05,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 46.55
+      },
+      {
+        "year": "2023",
+        "value": 44.1
+      },
+      {
+        "year": "2024",
+        "value": 44.4
+      },
+      {
+        "year": "2025",
+        "value": 43.05
+      }
+    ]
+  },
+  "cashflow": {
+    "latest_year": "2025",
+    "value": 3124745000000.0,
+    "judgment": "good",
+    "series": [
+      {
+        "year": "2022",
+        "value": 1019667000000.0
+      },
+      {
+        "year": "2023",
+        "value": 3540744000000.0
+      },
+      {
+        "year": "2024",
+        "value": 2048614000000.0
+      },
+      {
+        "year": "2025",
+        "value": 3124745000000.0
+      }
+    ]
+  },
+  "valuation": {
+    "latest_year": "2025",
+    "eps": 40861.0,
+    "per": 13.39,
+    "note": null
+  },
+  "triangle": {
+    "latest_year": "2025",
+    "price": 547000.0,
+    "eps": 40861.0,
+    "bps": 548711.84,
+    "roe": 7.45,
+    "per": 13.39,
+    "pbr": 1.0,
+    "roe_series": [
+      {
+        "year": "2022",
+        "value": 6.58
+      },
+      {
+        "year": "2023",
+        "value": 8.42
+      },
+      {
+        "year": "2024",
+        "value": 8.8
+      },
+      {
+        "year": "2025",
+        "value": 7.45
+      }
+    ],
+    "note": null
+  }
 }

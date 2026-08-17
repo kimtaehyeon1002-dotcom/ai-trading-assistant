@@ -4,12 +4,12 @@
   "market": "KRX",
   "theme": "바이오",
   "quote": {
-    "close": 1564000.0,
-    "change_pct": 0.97,
-    "volume": 55792,
-    "amount": 86750897500.0,
-    "marcap": 72399047364000.0,
-    "as_of_iso": "2026-08-13T23:58:07.249881+00:00",
+    "close": 1548000.0,
+    "change_pct": -1.02,
+    "volume": 29916,
+    "amount": 46418943500.0,
+    "marcap": 71658392148000.0,
+    "as_of_iso": "2026-08-15T04:19:27.005411+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:207940",

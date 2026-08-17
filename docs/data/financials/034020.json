@@ -2,7 +2,7 @@
   "code": "034020",
   "name": "두산에너빌리티",
   "market": "KOSPI",
-  "as_of": "2026-08-14T00:00:38.136316+00:00",
+  "as_of": "2026-08-15T04:21:03.771157+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2025",
     "eps": 132.0,
-    "per": 612.88,
+    "per": 625.76,
     "note": null
   },
   "triangle": {
     "latest_year": "2025",
-    "price": 80900.0,
+    "price": 82600.0,
     "eps": 132.0,
     "bps": 7726.72,
     "roe": 1.71,
-    "per": 612.88,
-    "pbr": 10.47,
+    "per": 625.76,
+    "pbr": 10.69,
     "roe_series": [
       {
         "year": "2022",

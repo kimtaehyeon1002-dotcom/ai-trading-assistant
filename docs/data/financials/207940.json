@@ -2,7 +2,7 @@
   "code": "207940",
   "name": "삼성바이오로직스",
   "market": "KRX",
-  "as_of": "2026-08-14T00:01:32.032351+00:00",
+  "as_of": "2026-08-15T04:21:46.865177+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
@@ -101,17 +101,17 @@
   "valuation": {
     "latest_year": "2024",
     "eps": 15221.0,
-    "per": 102.75,
+    "per": 101.7,
     "note": null
   },
   "triangle": {
     "latest_year": "2024",
-    "price": 1564000.0,
+    "price": 1548000.0,
     "eps": 15221.0,
     "bps": 153214.84,
     "roe": 9.93,
-    "per": 102.75,
-    "pbr": 10.21,
+    "per": 101.7,
+    "pbr": 10.1,
     "roe_series": [
       {
         "year": "2022",

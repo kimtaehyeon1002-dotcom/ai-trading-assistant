@@ -1,135 +1,130 @@
 {
-  "code": "006400",
-  "name": "삼성SDI",
+  "code": "001210",
+  "name": "금호전기",
   "market": "KOSPI",
-  "as_of": "2026-08-15T04:20:41.428505+00:00",
+  "as_of": "2026-08-15T04:21:06.181258+00:00",
   "source": "dart",
   "growth": {
     "latest_year": "2025",
-    "value": -20.04,
-    "cagr_pct": -12.97,
+    "value": -16.61,
+    "cagr_pct": -1.23,
     "judgment": "caution",
     "series": [
       {
         "year": "2022",
-        "value": 20124069515854.0
+        "value": 46015093156.0
       },
       {
         "year": "2023",
-        "value": 22708300498633.0
+        "value": 53372993650.0
       },
       {
         "year": "2024",
-        "value": 16592248884388.0
+        "value": 53171559352.0
       },
       {
         "year": "2025",
-        "value": 13266730679499.0
+        "value": 44337718233.0
       }
     ]
   },
   "profitability": {
     "latest_year": "2025",
-    "value": -12.98,
-    "own_5y_avg": 1.35,
-    "judgment": "caution",
+    "value": -2.67,
+    "own_5y_avg": -13.26,
+    "judgment": "good",
     "series": [
       {
         "year": "2022",
-        "value": 8.98
+        "value": -25.62
       },
       {
         "year": "2023",
-        "value": 7.19
+        "value": -15.42
       },
       {
         "year": "2024",
-        "value": 2.19
+        "value": -9.32
       },
       {
         "year": "2025",
-        "value": -12.98
+        "value": -2.67
       }
     ]
   },
   "stability": {
     "latest_year": "2025",
-    "value": 79.28,
-    "judgment": "good",
+    "value": 204.26,
+    "judgment": "caution",
     "series": [
       {
         "year": "2022",
-        "value": 75.74
+        "value": 381.44
       },
       {
         "year": "2023",
-        "value": 70.99
+        "value": 640.11
       },
       {
         "year": "2024",
-        "value": 88.24
+        "value": 273.96
       },
       {
         "year": "2025",
-        "value": 79.28
+        "value": 204.26
       }
     ]
   },
   "cashflow": {
     "latest_year": "2025",
-    "value": -2274465165864.0,
-    "judgment": "caution",
+    "value": 3755831370.0,
+    "judgment": "neutral",
     "series": [
       {
         "year": "2022",
-        "value": -167802006637.0
+        "value": -9391850927.0
       },
       {
         "year": "2023",
-        "value": -1944725201919.0
+        "value": -2632804934.0
       },
       {
         "year": "2024",
-        "value": -6408932417789.0
+        "value": -1618304871.0
       },
       {
         "year": "2025",
-        "value": -2274465165864.0
+        "value": 3755831370.0
       }
     ]
   },
-  "valuation": {
-    "latest_year": "2025",
-    "eps": -8796.0,
-    "per": null,
-    "note": "적자 — PER 산출 불가"
-  },
+  "valuation": null,
   "triangle": {
     "latest_year": "2025",
-    "price": 516000.0,
-    "eps": -8796.0,
-    "bps": 354473.33,
-    "roe": -2.48,
+    "price": 6490.0,
+    "eps": null,
+    "bps": null,
+    "roe": -38.91,
     "per": null,
-    "pbr": 1.46,
+    "pbr": null,
     "roe_series": [
       {
         "year": "2022",
-        "value": 11.84
+        "value": -131.66
       },
       {
         "year": "2023",
-        "value": 10.38
+        "value": -256.6
       },
       {
         "year": "2024",
-        "value": 2.67
+        "value": -155.27
       },
       {
         "year": "2025",
-        "value": -2.48
+        "value": -38.91
       }
     ],
-    "note": "적자(EPS 0 이하) — PER 산출 불가"
+    "note": "EPS 미수집 — PER·PBR·BPS 산출 불가"
   }
 }
