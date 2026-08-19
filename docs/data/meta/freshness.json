@@ -1,89 +1,89 @@
 {
-  "generated_at": "2026-08-19T19:58:43.028876+09:00",
+  "generated_at": "2026-08-19T22:30:30.429755+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
-      "last_built": "2026-08-19T19:58:12.419215+09:00",
+      "last_built": "2026-08-19T22:30:11.828983+09:00",
       "expected_T_min": 30,
       "items": 1,
       "duration_ms": 7
     },
     "Asset Kiwoom": {
       "status": "completed",
-      "last_built": "2026-08-19T19:58:37.604115+09:00",
+      "last_built": "2026-08-19T22:30:27.816408+09:00",
       "expected_T_min": 1440,
       "items": 2,
-      "duration_ms": 132
+      "duration_ms": 141
     },
     "Asset KIS 위탁": {
       "status": "completed",
-      "last_built": "2026-08-19T19:58:37.745784+09:00",
+      "last_built": "2026-08-19T22:30:27.958204+09:00",
       "expected_T_min": 720,
       "items": 8,
-      "duration_ms": 1011
+      "duration_ms": 977
     },
     "Asset KIS ISA": {
       "status": "completed",
-      "last_built": "2026-08-19T19:58:38.756297+09:00",
+      "last_built": "2026-08-19T22:30:28.935214+09:00",
       "expected_T_min": 720,
       "items": 9,
-      "duration_ms": 577
+      "duration_ms": 591
     },
     "Asset BYBIT": {
       "status": "completed",
-      "last_built": "2026-08-19T19:58:39.326491+09:00",
+      "last_built": "2026-08-19T22:30:29.527667+09:00",
       "expected_T_min": 720,
       "items": 4,
-      "duration_ms": 588
+      "duration_ms": 600
     },
     "Data Officer": {
       "status": "completed",
-      "last_built": "2026-08-19T19:58:12.860816+09:00",
+      "last_built": "2026-08-19T22:30:12.315546+09:00",
       "expected_T_min": 30,
       "items": 26,
-      "duration_ms": 906
+      "duration_ms": 1094
     },
     "Asset Publish": {
       "status": "completed",
-      "last_built": "2026-08-19T19:58:40.036619+09:00",
+      "last_built": "2026-08-19T22:30:30.199178+09:00",
       "expected_T_min": 720,
       "items": 4,
       "duration_ms": 0
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-08-19T19:58:42.949118+09:00",
+      "last_built": "2026-08-19T22:30:30.343695+09:00",
       "expected_T_min": 30,
-      "items": 32,
+      "items": 0,
       "duration_ms": 0
     },
     "News Research": {
       "status": "completed",
-      "last_built": "2026-08-19T19:58:13.773847+09:00",
+      "last_built": "2026-08-19T22:30:13.412559+09:00",
       "expected_T_min": 30,
       "items": 180,
-      "duration_ms": 2615
+      "duration_ms": 2285
     },
     "Translator": {
       "status": "completed",
-      "last_built": "2026-08-19T19:58:16.402215+09:00",
+      "last_built": "2026-08-19T22:30:15.716084+09:00",
       "expected_T_min": 30,
       "items": 400,
-      "duration_ms": 20979
+      "duration_ms": 11870
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-08-19T19:58:43.028876+09:00",
+      "last_built": "2026-08-19T22:30:30.422253+09:00",
       "expected_T_min": 30,
       "items": 4,
       "duration_ms": 0
     },
     "Trade Manager": {
       "status": "completed",
-      "last_built": "2026-08-19T19:58:12.512722+09:00",
+      "last_built": "2026-08-19T22:30:11.943235+09:00",
       "expected_T_min": null,
       "items": 67,
-      "duration_ms": 4
+      "duration_ms": 6
     },
     "Theme Analyst": {
       "status": "completed",
@@ -164,10 +164,10 @@
     },
     "Loop Ledger": {
       "status": "completed",
-      "last_built": "2026-08-19T19:58:12.813321+09:00",
+      "last_built": "2026-08-19T22:30:12.266666+09:00",
       "expected_T_min": 30,
       "items": 2,
-      "duration_ms": 46
+      "duration_ms": 48
     }
   }
 }
