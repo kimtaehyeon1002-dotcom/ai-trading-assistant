@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-08-22T03:02:10.841840+09:00",
+  "updated_at": "2026-08-22T04:40:19.218945+09:00",
   "workers": {
     "Vault Sync": {
       "worker": "Vault Sync",
-      "last_run": "2026-08-22T03:01:35.540617+09:00",
+      "last_run": "2026-08-22T04:40:05.953373+09:00",
       "status": "completed",
       "items": 1,
-      "duration_ms": 6
+      "duration_ms": 93
     },
     "Asset Kiwoom": {
       "worker": "Asset Kiwoom",
-      "last_run": "2026-08-22T03:02:05.815221+09:00",
+      "last_run": "2026-08-22T04:40:16.717432+09:00",
       "status": "completed",
       "items": 2,
       "duration_ms": 140
     },
     "Asset KIS 위탁": {
       "worker": "Asset KIS 위탁",
-      "last_run": "2026-08-22T03:02:05.955222+09:00",
+      "last_run": "2026-08-22T04:40:16.858440+09:00",
       "status": "completed",
       "items": 8,
-      "duration_ms": 993
+      "duration_ms": 934
     },
     "Asset KIS ISA": {
       "worker": "Asset KIS ISA",
-      "last_run": "2026-08-22T03:02:06.948793+09:00",
+      "last_run": "2026-08-22T04:40:17.793435+09:00",
       "status": "completed",
       "items": 9,
-      "duration_ms": 601
+      "duration_ms": 531
     },
     "Asset BYBIT": {
       "worker": "Asset BYBIT",
-      "last_run": "2026-08-22T03:02:07.549793+09:00",
+      "last_run": "2026-08-22T04:40:18.324436+09:00",
       "status": "completed",
       "items": 4,
-      "duration_ms": 604
+      "duration_ms": 603
     },
     "Data Officer": {
       "worker": "Data Officer",
-      "last_run": "2026-08-22T03:01:36.206615+09:00",
+      "last_run": "2026-08-22T04:40:06.584880+09:00",
       "status": "completed",
       "items": 26,
-      "duration_ms": 1201
+      "duration_ms": 1135
     },
     "Asset Publish": {
       "worker": "Asset Publish",
@@ -49,29 +49,29 @@
       "items": 4,
       "detail": "수집 kiwoom,kis_isa,kis_foreign,bybit · 승계 없음 · 결측 없음 · 발행 O",
       "duration_ms": 0,
-      "last_run": "2026-08-22T03:02:08.222305+09:00"
+      "last_run": "2026-08-22T04:40:19.004944+09:00"
     },
     "Vault Journal": {
       "worker": "Vault Journal",
       "status": "completed",
-      "items": 32,
+      "items": 0,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-08-22T03:02:10.765335+09:00"
+      "last_run": "2026-08-22T04:40:19.137945+09:00"
     },
     "News Research": {
       "worker": "News Research",
-      "last_run": "2026-08-22T03:01:37.409235+09:00",
+      "last_run": "2026-08-22T04:40:07.721977+09:00",
       "status": "completed",
       "items": 180,
-      "duration_ms": 2482
+      "duration_ms": 2325
     },
     "Translator": {
       "worker": "Translator",
-      "last_run": "2026-08-22T03:01:39.908774+09:00",
+      "last_run": "2026-08-22T04:40:10.066533+09:00",
       "status": "completed",
       "items": 400,
-      "duration_ms": 25570
+      "duration_ms": 6431
     },
     "Publisher": {
       "worker": "Publisher",
@@ -79,14 +79,14 @@
       "items": 4,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-08-22T03:02:10.841840+09:00"
+      "last_run": "2026-08-22T04:40:19.217944+09:00"
     },
     "Trade Manager": {
       "worker": "Trade Manager",
-      "last_run": "2026-08-22T03:01:35.858615+09:00",
+      "last_run": "2026-08-22T04:40:06.223881+09:00",
       "status": "completed",
       "items": 67,
-      "duration_ms": 5
+      "duration_ms": 4
     },
     "Theme Analyst": {
       "worker": "Theme Analyst",
@@ -167,10 +167,10 @@
     },
     "Loop Ledger": {
       "worker": "Loop Ledger",
-      "last_run": "2026-08-22T03:01:36.158615+09:00",
+      "last_run": "2026-08-22T04:40:06.537882+09:00",
       "status": "completed",
       "items": 2,
-      "duration_ms": 48
+      "duration_ms": 47
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-21T18:02:10.856844+00:00",
+  "as_of": "2026-08-21T19:40:19.233943+00:00",
   "stocks": [
     {
       "code": "000660",
@@ -359,10 +359,100 @@
   ],
   "news": [
     {
+      "title": "Tesla recalls 3 million vehicles in China over doorhandle safety, driver monitoring",
+      "link": "https://www.cnbc.com/2026/08/21/tesla-recalls-cars-in-china-over-doorhandle-safety-driver-monitoring.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T19:29:48+00:00"
+    },
+    {
+      "title": "As GOP warns data centers put Ohio Senate seat at risk, Husted defends energy policy",
+      "link": "https://www.cnbc.com/2026/08/21/jon-husted-data-centers-ohio-senate.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T19:23:10+00:00"
+    },
+    {
+      "title": "Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin",
+      "link": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T19:21:21+00:00"
+    },
+    {
+      "title": "Most Americans aren't anti-vaccine. They're uncertain — and that's a growing public health challenge",
+      "link": "https://www.cnbc.com/2026/08/21/why-vaccination-rates-are-falling-in-the-us.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T19:14:56+00:00"
+    },
+    {
+      "title": "Former JPMorgan exec takes on Social Security advisory role",
+      "link": "https://www.marketwatch.com/story/former-jpmorgan-exec-takes-on-social-security-advisory-role-d0cf6e4f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-21T19:11:00+00:00"
+    },
+    {
+      "title": "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
+      "link": "https://www.marketwatch.com/story/its-truly-a-tragedy-my-daughter-hasnt-spoken-to-me-for-4-years-but-it-has-nothing-to-do-with-politics-86c4bcf6?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-21T19:00:00+00:00"
+    },
+    {
+      "title": "텍사스가 새 금융거점?…\"월가, 맘다니 피해 '욜스트리트'로\"",
+      "link": "https://www.yna.co.kr/view/AKR20260822003000075",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-21T18:57:45+00:00"
+    },
+    {
+      "title": "An overlooked AI winner names a new CFO — plus, Nvidia's key earnings loom",
+      "link": "https://www.cnbc.com/2026/08/21/an-overlooked-ai-winner-taps-new-cfo-as-street-awaits-nvidia.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T18:55:05+00:00"
+    },
+    {
+      "title": "Supreme Court allows Trump to continue White House ballroom construction for now",
+      "link": "https://www.cnbc.com/2026/08/21/supreme-court-trump-white-house-ballroom.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T18:43:05+00:00"
+    },
+    {
+      "title": "Ken Griffin says Citadel unwound more than 80% of risk tied to Situational Awareness portfolio",
+      "link": "https://www.cnbc.com/2026/08/21/citadel-situational-awareness-ken-griffin.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T18:34:28+00:00"
+    },
+    {
+      "title": "Why some of America's biggest brands are losing ground in China",
+      "link": "https://www.cnbc.com/2026/08/21/us-brands-china-competition.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T18:31:41+00:00"
+    },
+    {
+      "title": "Trump, Vance and Bessent try to calm the bond market with ‘alternative facts’",
+      "link": "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-21T18:29:00+00:00"
+    },
+    {
       "title": "Trump tariff deadline looms as Canada says it's working to resolve 'trade issues' with U.S.",
       "link": "https://www.cnbc.com/2026/08/21/trump-canada-tariffs-trade-deal-deadline.html",
       "source": "CNBC Finance",
-      "published": "2026-08-21T17:45:20+00:00"
+      "published": "2026-08-21T18:23:43+00:00"
+    },
+    {
+      "title": "The Treasury, the Fed and the threat to your money",
+      "link": "https://www.marketwatch.com/story/the-treasury-the-fed-and-the-threat-to-your-money-774442ad?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-21T18:15:00+00:00"
+    },
+    {
+      "title": "U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May",
+      "link": "https://www.cnbc.com/2026/08/21/strait-hormuz-central-command-centcom-oil-iran-war.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T18:11:41+00:00"
+    },
+    {
+      "title": "My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair?",
+      "link": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-21T18:00:00+00:00"
     },
     {
       "title": "Kalshi traders think the bitcoin rally could end the year near current levels",
@@ -389,10 +479,10 @@
       "published": "2026-08-21T17:25:21+00:00"
     },
     {
-      "title": "U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May",
-      "link": "https://www.cnbc.com/2026/08/21/strait-hormuz-central-command-centcom-oil-iran-war.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-21T17:14:24+00:00"
+      "title": "유럽증시, 경제 회복력 신호에 주목하며 일제히 상승… 8월 유로존 PMI 52.1 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvenAtclB1REx5UVl6NDZkZ0ZzOG53amhHR3M0WFM5NVJpYXhpeXFqUTBKOG93bTVWX3JKUXUwRFBERXhiMzZYVGJiZ3hUYU5WX1AtZ1hELUU4YUst?oc=5",
+      "source": "Google News",
+      "published": "2026-08-21T17:20:00+00:00"
     },
     {
       "title": "5 things to know about the Chinese e-commerce juggernaut Shein ahead of its IPO",
@@ -425,12 +515,6 @@
       "published": "2026-08-21T16:38:00+00:00"
     },
     {
-      "title": "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
-      "link": "https://www.marketwatch.com/story/its-truly-a-tragedy-my-daughter-hasnt-spoken-to-me-for-4-years-but-it-has-nothing-to-do-with-politics-86c4bcf6?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-21T16:31:00+00:00"
-    },
-    {
       "title": "Energy sector is in focus because of Iran, AI and California. Here are hedge funds' top plays",
       "link": "https://www.cnbc.com/2026/08/21/energy-sector-is-in-focus-because-of-iran-ai-and-california-here-are-hedge-funds-top-plays.html",
       "source": "CNBC Finance",
@@ -443,18 +527,6 @@
       "published": "2026-08-21T16:27:00+00:00"
     },
     {
-      "title": "Most Americans aren't anti-vaccine. They're uncertain — and that's a growing public health challenge",
-      "link": "https://www.cnbc.com/2026/08/21/why-vaccination-rates-are-falling-in-the-us.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-21T16:25:13+00:00"
-    },
-    {
-      "title": "Ken Griffin says Citadel unwound more than 80% of risk tied to Situational Awareness portfolio",
-      "link": "https://www.cnbc.com/2026/08/21/citadel-situational-awareness-ken-griffin.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-21T16:18:39+00:00"
-    },
-    {
       "title": "‘We are committed Christians’: Our son and daughter-in-law cut us out of their lives after a political argument. Should we change our $3 million will?",
       "link": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -465,12 +537,6 @@
       "link": "https://www.marketwatch.com/story/states-are-coming-after-prediction-markets-and-setting-up-a-costly-legal-battle-over-who-gets-to-regulate-them-f9ab9a37?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "2026-08-21T16:14:00+00:00"
-    },
-    {
-      "title": "Why some of America's biggest brands are losing ground in China",
-      "link": "https://www.cnbc.com/2026/08/21/us-brands-china-competition.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-21T16:08:01+00:00"
     },
     {
       "title": "Broadcom debt deal expected to reach upwards of $70 billion, sources say",
@@ -513,6 +579,12 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZWVuN3gzVFY4ZlIwbmExZ2sxWWJjM2tKWjIyTVJXWGF0QkJKUjhYT1dSdldrbEtoZEhNOXFoZjRZbndJbUpUUE9mbnJNRkxRd1VTNmFWckNlTUVRa0RmbWlkMDBsS1NyemlPN1ZHNzJ2UVNwQnYwd1FmWVJmNlZuU1VnandQYkRxVnfSAZ4BQVVfeXFMTlkzbUh3OFJ3UXhHUmFtZ0N3a0Ewc0VZYVUzaGhSbXZHZUcwTWxob0haajFwTS1XRmNVaWZrZjZsaUxPSUFGeFViSnZlWTZVQ0JRNnZvWDhTUEptaVZncmJ1dlNKRGVSNFFXLUdLcnUzbk5oZXM3dl9zNDhiLThUY3lIOTk0Rlo5R21rYzNNbjZpVExKdTZBNnlhb3NiT1E?oc=5",
       "source": "Google News",
       "published": "2026-08-21T14:27:00+00:00"
+    },
+    {
+      "title": "뉴욕증시, 저가 매수에 상승 출발 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wLWhnQXk3UUcwRzZraTFBMC03VVFWeDNNcUJIR1NjMHp6a25vWG4tQUxEYUE1RWZWQTZQdWdWNEtoUXNwLTN2amtLaDVRZ0F3RjJvUHBmNFBJQXlnUmh3SdIBYEFVX3lxTE0wLWhnQXk3UUcwRzZraTFBMC03VVFWeDNNcUJIR1NjMHp6a25vWG4tQUxEYUE1RWZWQTZQdWdWNEtoUXNwLTN2amtLaDVRZ0F3RjJvUHBmNFBJQXlnUmh3SQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-21T14:04:08+00:00"
     },
     {
       "title": "Social Security union says it needs $3 billion and another 20,000 workers to fix long wait times and ‘ghost offices’",
@@ -585,78 +657,6 @@
       "link": "https://www.cnbc.com/2026/08/21/new-york-san-francisco-tech-talent-cbre.html",
       "source": "CNBC Finance",
       "published": "2026-08-21T10:36:07+00:00"
-    },
-    {
-      "title": "“대출 좀 받아가세요”…5대 은행, 디에이치 방배 잔금대출 한도 3배로",
-      "link": "https://www.mk.co.kr/news/economy/12133543",
-      "source": "매일경제·증권",
-      "published": "2026-08-21T10:33:03+00:00"
-    },
-    {
-      "title": "[올댓차이나] 中 증시, 자원주 강세에 상승 마감…창업판 1.43%↑ - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qMV9pZThrVWdmX0RNbDYtRjdBRFR0TFdpX2pIdVdDS2dTZEVQQWRxVUF0ZHZIdkdNbXVOUVFyeHZYbUpscE5GWC0tck9BUVlIbDVzWnBwN2J3YmdJazVVZNIBeEFVX3lxTE14YllaT2oyN1JWLWdtM1kxYmtHV3VQZGZ1NmxjVXYtRUE0bGh5ank2c2J6TnkwNmVtUWFjak5PVXZGQVl2aXNqeXBpbTl0eWpDV0JnZG1aeTBGYjdENmZIWDVaLW5xN2wtZVI5cnh0a2RsTHoySHhxeA?oc=5",
-      "source": "Google News",
-      "published": "2026-08-21T10:19:14+00:00"
-    },
-    {
-      "title": "NATO member Romania scrambles F-16 fighter jets to destroy drone near critical European gas project",
-      "link": "https://www.cnbc.com/2026/08/21/romania-russia-ukraine-drone-gas-nato.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-21T10:15:18+00:00"
-    },
-    {
-      "title": "[亞증시-종합] 中·臺·홍콩 증시 상승…日 하락 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PaXVfVTFJSlBrUmJhTWQ0T1dETUpvSDFYYnBObUpUXzVnc1ZyNGhIS1I3X0x5dzdvQ2Mtd1Z6Vnc5UkV4SUtUV3hOQXJqMi1ERDRHbWQ1LVhna3J6dTZBNTNweFNzTllOeEVaVXdUZjE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-21T10:13:44+00:00"
-    },
-    {
-      "title": "석유제품 최고가 동결 … 휘발유 1784원",
-      "link": "https://www.mk.co.kr/news/economy/12133514",
-      "source": "매일경제·증권",
-      "published": "2026-08-21T10:01:00+00:00"
-    },
-    {
-      "title": "석유 최고가격제 다시 동결…휘발유 1천784원·경유 1천773원",
-      "link": "https://www.yna.co.kr/view/AKR20260821143900003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-21T10:00:00+00:00"
-    },
-    {
-      "title": "UBS, 영국 주식 수익 성장 전망 상향…증시 우호적 환경 지속 - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91MkNPQjVBeS0wV3VxNy12RTVtODNJZWhkdlpSTlZnd19PcVNNMUJwYzdZdmJoQ1ppM1NQM2Q4bWRPamd1dHdRN244ZG9kOFU2NE9Pdnc1Tk12a0UtaGNseTFfTWRfc0R1ajZCX0N3b3Y?oc=5",
-      "source": "Google News",
-      "published": "2026-08-21T09:37:00+00:00"
-    },
-    {
-      "title": "[중국증시-마감] 정부의 경기부양책 예고에 상승 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQZXlLWDlWbF9aSlJFTmZJbkp1d1d1Z2REQkZIVUFmaHllR2xjTS1SN1ZFUnpXcFdhUUI4ci1KNjVKVEVodUg4bFRoX29DbVJadGk4cFZ2QTZyVC1COWRZc3JEdWFKVUkzVkhxWWxTTmU?oc=5",
-      "source": "Google News",
-      "published": "2026-08-21T09:20:53+00:00"
-    },
-    {
-      "title": "100조 넘보는 '미래기금' 신설…교육교부금 연동 55년만에 폐지(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260821070752002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-21T09:14:55+00:00"
-    },
-    {
-      "title": "인지디스플레 \"NEXVINA에 168억원 출자\"",
-      "link": "https://www.yna.co.kr/view/AKR20260821162800008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-21T09:12:06+00:00"
-    },
-    {
-      "title": "Samsung plans up to $80 billion in shareholder returns after SK Hynix buyback",
-      "link": "https://www.cnbc.com/2026/08/21/samsung-shareholder-return-package-sk-hynix-buyback-ai-chip-boom.html",
-      "source": "CNBC Finance",
-      "published": "2026-08-21T09:08:18+00:00"
-    },
-    {
-      "title": "‘사이드카 81번’ 울린 현기증 증시에…美장투로 갈아타는 개미들 - 서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBCUEIxSnlnUnVhSEx0dmFyaGl5MHVLVWE5NXJjYkI2NDJWU0l6UFdtRUxzWG1IRzhYQmRzaU1jNWpkOUpEaW5xWVhfVU9TMFZ3dlE?oc=5",
-      "source": "Google News",
-      "published": "2026-08-21T09:02:39+00:00"
     }
   ],
   "pages": [
