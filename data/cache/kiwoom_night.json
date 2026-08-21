@@ -1,17 +1,17 @@
 {
   "kospi_night": {
-    "price": 1082.25,
-    "change_pct": 6.49,
-    "ref_price": 1016.25,
+    "price": 1099.7,
+    "change_pct": 1.61,
+    "ref_price": 1082.25,
     "base_kind": "prev_close",
-    "as_of": "2026-08-20T11:11:00.612161+00:00"
+    "as_of": "2026-08-21T18:01:35.537615+00:00"
   },
   "kosdaq_night": {
-    "price": 1477.0,
-    "change_pct": 3.07,
-    "ref_price": 1433.0,
+    "price": 1395.6,
+    "change_pct": -5.51,
+    "ref_price": 1477.0,
     "base_kind": "prev_close",
-    "as_of": "2026-08-20T11:11:00.612161+00:00"
+    "as_of": "2026-08-21T18:01:35.537615+00:00"
   },
   "day_close": {
     "trading_day": "2026-08-17",
@@ -20,9 +20,5 @@
       "kospi_night": 1098.9,
       "kosdaq_night": 1487.5
     }
-  },
-  "last_skip": {
-    "reason": "야간 세션 아님(창 18:00~05:00 KST, 현재 07:32) — 조회해도 마감 스냅샷만 나온다",
-    "at": "2026-08-20T22:32:01.833613+00:00"
   }
 }
