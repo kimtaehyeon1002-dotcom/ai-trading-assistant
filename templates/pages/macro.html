@@ -134,7 +134,9 @@
           <span class="v v2-updown {{ item.yoy.change_pct|signclass }}">{{ item.yoy.change_pct|arrow }} {{ item.yoy.change_pct|pctv2 }}</span>
         </div>
         {% endif %}
-        {% if item.consensus %}
+        {# 필드명이 어긋난 항목은 줄 자체를 생략한다 — 빈칸 렌더 금지. `is defined`가 필요한
+           이유는 Jinja 기본 Undefined가 `is not none`을 통과해 버리기 때문이다(base.py _missing 주석). #}
+        {% if item.consensus and item.consensus.value is defined and item.consensus.value is not none %}
         <div class="v2-macro-item__consensus">예상 {{ item.consensus.value }} ({{ item.consensus.as_of }} 등록)</div>
         {% endif %}
         {% if item.next_release %}
