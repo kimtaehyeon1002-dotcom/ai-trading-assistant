@@ -4,14 +4,50 @@
   "market": "US",
   "theme": "인공지능",
   "quote": {
-    "close": 589.8499755859375,
-    "change_pct": -0.86,
-    "volume": 8731600,
-    "amount": 5150334046.826172,
+    "close": 549.9000244140625,
+    "change_pct": 0.75,
+    "volume": 13663800,
+    "amount": 7513723953.588867,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.004045+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517330+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "META",
-  "related_news": []
+  "related_news": [
+    {
+      "title": "트럼프는 지난 6월 메타(Meta) 같은 이름을 팔고 버크셔해서웨이(Berkshire Hathaway)를 인수하는 등 포트폴리오를 개편했다.",
+      "link": "https://www.cnbc.com/2026/08/22/trump-reshuffled-his-portfolio-in-june-selling-names-like-meta-and-buying-berkshire-hathaway.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-22T18:57:46+00:00"
+    },
+    {
+      "title": "Meta는 법정에 등장한 최신 거대 기술 기업입니다. Yvonne Gonzalez Rogers 판사를 만나보세요",
+      "link": "https://www.cnbc.com/2026/08/22/meet-yvonne-gonzalez-rogers-judge-taking-on-meta.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-22T12:12:03+00:00"
+    },
+    {
+      "title": "더 이상 둠 스크롤이나 인스타그램 스토리가 없나요? 메타 시험에서 패배하면 우리가 알고 있는 소셜 미디어가 종료될 수 있습니다.",
+      "link": "https://www.cnbc.com/2026/08/21/meta-social-media-lawsuit-trial-instagram-facebook.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T12:11:14+00:00"
+    }
+  ],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

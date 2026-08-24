@@ -1,0 +1,34 @@
+{
+  "code": "950260",
+  "name": "인제니아테라퓨틱스(Reg.S)",
+  "market": "KOSDAQ",
+  "theme": null,
+  "quote": {
+    "close": 15770.0,
+    "change_pct": -13.97,
+    "volume": 23348887,
+    "amount": 415286175615.0,
+    "marcap": 779741452390.0,
+    "as_of_iso": "2026-08-23T07:39:14.515147+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:950260",
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
+}

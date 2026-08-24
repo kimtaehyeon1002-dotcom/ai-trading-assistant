@@ -4,14 +4,31 @@
   "market": "KOSDAQ",
   "theme": null,
   "quote": {
-    "close": 60900.0,
-    "change_pct": -7.31,
-    "volume": 1939941,
-    "amount": 120359405850.0,
-    "marcap": 2791510388100.0,
-    "as_of_iso": "2026-08-11T22:28:52.040701+00:00",
+    "close": 53300.0,
+    "change_pct": -7.79,
+    "volume": 2654919,
+    "amount": 146833927150.0,
+    "marcap": 2443144559700.0,
+    "as_of_iso": "2026-08-23T07:39:14.516218+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:347850",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

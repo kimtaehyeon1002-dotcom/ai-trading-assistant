@@ -4,14 +4,31 @@
   "market": "US",
   "theme": "인공지능",
   "quote": {
-    "close": 495.3999938964844,
-    "change_pct": -0.3,
-    "volume": 16205200,
-    "amount": 8028055981.091309,
+    "close": 483.239990234375,
+    "change_pct": 0.43,
+    "volume": 22489200,
+    "amount": 10867680788.378906,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.003849+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517156+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "MSFT",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

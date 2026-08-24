@@ -4,14 +4,31 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 222.02000427246094,
-    "change_pct": -0.07,
-    "volume": 14437700,
-    "amount": 3205458215.6845093,
+    "close": 237.0399932861328,
+    "change_pct": -5.57,
+    "volume": 25467400,
+    "amount": 6036792325.015259,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.004641+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517598+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "MRVL",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

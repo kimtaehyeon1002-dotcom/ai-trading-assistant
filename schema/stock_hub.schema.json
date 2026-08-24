@@ -4,7 +4,7 @@
   "title": "docs/data/stock/hub/<code>.json 컨테이너 (design/05, design/20 Phase 7)",
   "description": "Stock Hub 전역 패널이 소비하는 종목 단건 요약. 유니버스에 포함된 종목만 이 파일이 존재한다 — 없으면(404) 유니버스 밖 종목으로 판정한다(design/21 §8).",
   "type": "object",
-  "required": ["code", "name", "market", "theme", "quote", "tradingview_symbol", "related_news"],
+  "required": ["code", "name", "market", "theme", "quote", "tradingview_symbol", "related_news", "market_events"],
   "properties": {
     "code": { "type": "string" },
     "name": { "type": "string" },
@@ -38,6 +38,21 @@
           "link": { "type": "string" },
           "source": { "type": "string" },
           "published": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "market_events": {
+      "description": "다가오는 **시장** 일정(FOMC 등). 종목별 일정(실적발표일·배당기준일)은 무료 소스가 없어 싣지 않는다 — 종목 고유 일정인 척하지 않고 시장 일정임을 표시단에서 명시한다(design/04 §3-5 D).",
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["date", "label", "source"],
+        "properties": {
+          "date": { "type": "string" },
+          "label": { "type": "string" },
+          "source": { "type": "string" }
         },
         "additionalProperties": false
       }

@@ -14,6 +14,9 @@ log = get_logger("collectors.us_ranking")
 
 _memo: list[dict] | None = None
 _memo_done = False
+# 배치 다운로드 인덱스의 마지막 거래일(YYYY-MM-DD). collect()의 반환 시그니처를 바꾸지 않으려고
+# 부수 저장소로 둔다 — history_collector.dates()와 동일한 패턴이다(design/28 §3-1).
+_trade_date: str | None = None
 
 # FDR가 클래스 주식 심볼의 점(.)을 생략해 반환한다(예: "BRK.B" → "BRKB"). Yahoo는 대시 형식만
 # 인식하므로 교정한다(2026-07-21 실측: "BRKB"/"BFB"는 Yahoo 조회 실패, "BRK-B"/"BF-B"가 정상).
@@ -43,6 +46,11 @@ def collect() -> list[dict] | None:
         log.warning("US 랭킹 수집 실패: %s", exc)
         _memo = None
         return None
+
+    # 거래일은 이미 받아온 인덱스에 있다 — 종전에는 iloc[-1]만 쓰고 인덱스를 버렸다.
+    global _trade_date
+    if len(df.index):
+        _trade_date = df.index[-1].strftime("%Y-%m-%d")
 
     rows: list[dict] = []
     for raw, symbol in zip(names, symbols):
@@ -102,3 +110,12 @@ def collect_quotes(symbols: list[str]) -> dict[str, dict]:
         except Exception:  # noqa: BLE001 - 심볼 단위 스킵
             continue
     return out
+
+
+def trade_date() -> str | None:
+    """직전 collect()가 받은 배치의 마지막 거래일(YYYY-MM-DD, ET 기준). 미수집이면 None.
+
+    design/28 §3-1: US는 KR과 달리 거래일 확정에 추가 호출이 필요 없다 — yfinance 배치 응답의
+    인덱스가 곧 거래일이기 때문이다.
+    """
+    return _trade_date

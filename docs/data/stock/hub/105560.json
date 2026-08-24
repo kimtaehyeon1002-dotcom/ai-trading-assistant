@@ -4,14 +4,38 @@
   "market": "KOSPI",
   "theme": "금융",
   "quote": {
-    "close": 168500.0,
-    "change_pct": 0.24,
-    "volume": 951351,
-    "amount": 159988557050.0,
-    "marcap": 59764883179000.0,
-    "as_of_iso": "2026-08-15T04:19:27.003166+00:00",
+    "close": 164300.0,
+    "change_pct": 2.69,
+    "volume": 1165965,
+    "amount": 189799334500.0,
+    "marcap": 58275194696200.0,
+    "as_of_iso": "2026-08-23T07:39:14.515761+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:105560",
-  "related_news": []
+  "related_news": [
+    {
+      "title": "KB금융, 신종자본증권 수요예측서 5천200억원 수요 확보",
+      "link": "https://www.yna.co.kr/view/AKR20260821139600008",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-21T07:34:47+00:00"
+    }
+  ],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

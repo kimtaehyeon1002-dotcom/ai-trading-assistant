@@ -4,14 +4,31 @@
   "market": "NYSE",
   "theme": "금융",
   "quote": {
-    "close": 64.48999786376953,
-    "change_pct": 0.62,
-    "volume": 21844600,
-    "amount": 1408758207.3349,
+    "close": 61.689998626708984,
+    "change_pct": -0.27,
+    "volume": 33353600,
+    "amount": 2057583538.1958008,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.005704+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.519065+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "BAC",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

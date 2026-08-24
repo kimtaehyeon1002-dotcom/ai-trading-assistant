@@ -1,17 +1,34 @@
 {
   "code": "055550",
   "name": "신한지주",
-  "market": "KRX",
+  "market": "KOSPI",
   "theme": "금융",
   "quote": {
-    "close": 107400.0,
-    "change_pct": 0.75,
-    "volume": 692324,
-    "amount": 74129271450.0,
-    "marcap": 50418955668600.0,
-    "as_of_iso": "2026-08-15T04:19:27.005606+00:00",
+    "close": 104100.0,
+    "change_pct": 2.97,
+    "volume": 1345887,
+    "amount": 139272048950.0,
+    "marcap": 48869769879900.0,
+    "as_of_iso": "2026-08-23T07:39:14.516371+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:055550",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

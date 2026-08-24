@@ -4,14 +4,31 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 159.8000030517578,
-    "change_pct": 0.01,
-    "volume": 13742400,
-    "amount": 2196035561.9384766,
+    "close": 165.11000061035156,
+    "change_pct": -0.63,
+    "volume": 14300700,
+    "amount": 2361188585.7284546,
     "marcap": null,
-    "as_of_iso": "2026-08-12T08:02:00.823107+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.518350+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "XOM",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

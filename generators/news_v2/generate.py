@@ -10,7 +10,7 @@ from pathlib import Path
 
 from datetime import timedelta
 
-from calculators import news_entities, news_keywords, news_levels
+from calculators import news_keywords, news_levels
 from calculators.news_categories import TAB_LABELS, primary_category
 from config import nav
 from config.settings import DOCS_DIR
@@ -88,7 +88,8 @@ def _render_page(ctx: dict, out: Path) -> Path:
 
 def generate() -> Path:
     articles = pipelines.get_news()
-    news_entities.assign(articles)
+    # 관련종목 태깅(news_entities)은 파이프라인이 저장 전에 이미 부여했다 — 여기서 다시 부르면
+    # 같은 계산을 두 번 할 뿐이고, 저장 시점과 표시 시점이 갈리는 원인이 된다.
     news_levels.assign_levels(articles)
     news_keywords.assign(articles)  # 행의 data-kw와 레이더 집계가 같은 값을 쓰도록 먼저 부여
 

@@ -4,14 +4,31 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 1048.22998046875,
-    "change_pct": -1.22,
-    "volume": 2538900,
-    "amount": 2661351097.4121094,
+    "close": 1039.280029296875,
+    "change_pct": 3.73,
+    "volume": 2744000,
+    "amount": 2851784400.390625,
     "marcap": null,
-    "as_of_iso": "2026-07-28T09:20:23.597354+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.518008+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "GS",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

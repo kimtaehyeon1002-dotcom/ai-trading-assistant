@@ -4,14 +4,62 @@
   "market": "US",
   "theme": "반도체",
   "quote": {
-    "close": 225.16000366210938,
-    "change_pct": -0.06,
-    "volume": 75504000,
-    "amount": 17000480916.503906,
+    "close": 214.72000122070312,
+    "change_pct": -0.98,
+    "volume": 98545600,
+    "amount": 21159711352.29492,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.003559+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.516753+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "NVDA",
-  "related_news": []
+  "related_news": [
+    {
+      "title": "[주간 증시 전망] 글로벌 금리 상승에 흔들린 증시…엔비디아 실적이 '분수령' - 뉴스웍스",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBJTmhqelRRMmNTVC1RX19TTmZQbFFtNkw3cVVUOVJrZjRxTjlVV0p0LTdIRmpiVTZIR1hlZHVjRllrbW5zM3ZsdjF5U0ZvR0tEcU5tOHpyUEw2Y3F5ZmYtLTREektLNi1TTXg4emhLc9IBc0FVX3lxTE5PcDVWMmVqYWVrQUhrZ011OENicEhabElQRE1ZS2hGYlRZT0VWV1drNFZGNm1JYThsUDZlZmpaZUJVcEY3OWFTaU9Ra3VKOXhnMlNoY24zOGFvb1ZYM0hUblg3eEZBZ1lMY2FIQUV5X2tvVTQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-23T05:00:00+00:00"
+    },
+    {
+      "title": "증시 향방, 엔비디아·잭슨홀 변수...금리도 주목 - YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaSXZGUXUwb0ZPNU5FQVN3UmhXSDRUQzVKcl84MXdGZVNJVDQwUk8tRklYUllWSnNvWElMSDQ5czBiRW9KZVV0aWVGcGt1R3hzQTZnY0ZZRmFRNnVwNnc?oc=5",
+      "source": "Google News",
+      "published": "2026-08-23T04:00:00+00:00"
+    },
+    {
+      "title": "엔비디아·잭슨홀에 쏠린 눈…코스피 7000 안착 시험대 [주간 증시 전망] - 파이낸셜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wSWJSalZoYTVzZkR2TlRLbUxYSzN3OHQzaHVyeUExSWsxLV9yVndHeEd3aE1qM1Z3c1gyOFp6Y3lrRldVM19aVGRQZ3kzTGZFOGpWYnd2R0s2QQ?oc=5",
+      "source": "Google News",
+      "published": "2026-08-23T03:59:56+00:00"
+    },
+    {
+      "title": "[주간증시전망] 주주환원에 달아오른 코스피, ‘엔비디아’로 날개 달까 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQjZJUVFnZDlOcGlqQ1MycDEzY09GeFF0cWpZUHBtZjNiUFV1eFRxZXN1Q2ZwNTR6Ry1vSmQ2Y1BjWmJwVVkyZTY1TWN4NFNrVmdQdXViM25QNEJTTU9sd3JsRHpEb1owREQ3RGRBTzF1czl4NEp5RkRWZEJYQTBCOFlDQ1hVRm1Z?oc=5",
+      "source": "Google News",
+      "published": "2026-08-23T03:00:00+00:00"
+    },
+    {
+      "title": "주주환원으로 불씨 살린 코스피…엔비디아·금리가 다음 고비 [주간증시] - 에너지경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xaWg3UEFRbENSNkZTVklGaFZVYm5EdHdXeS1ZMnNkc3VSTjJCQVBYcTN2RVdaN2FXdW5iT3M4bFd6WW9BdGU0UkJiRHBIWTE4WlpfcndYZmk5SnRzSUE?oc=5",
+      "source": "Google News",
+      "published": "2026-08-23T01:02:43+00:00"
+    }
+  ],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

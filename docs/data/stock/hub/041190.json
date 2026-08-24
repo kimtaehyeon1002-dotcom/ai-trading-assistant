@@ -1,0 +1,34 @@
+{
+  "code": "041190",
+  "name": "우리기술투자",
+  "market": "KOSDAQ",
+  "theme": null,
+  "quote": {
+    "close": 5920.0,
+    "change_pct": 19.96,
+    "volume": 23185071,
+    "amount": 137700407340.0,
+    "marcap": 497280000000.0,
+    "as_of_iso": "2026-08-23T07:39:14.516496+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:041190",
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
+}

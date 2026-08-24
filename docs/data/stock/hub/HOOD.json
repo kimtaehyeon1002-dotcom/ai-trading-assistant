@@ -4,14 +4,31 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 94.91000366210938,
-    "change_pct": -6.57,
-    "volume": 24356300,
-    "amount": 2311656522.1954346,
+    "close": 108.12999725341797,
+    "change_pct": 13.7,
+    "volume": 50228800,
+    "amount": 5431240006.04248,
     "marcap": null,
-    "as_of_iso": "2026-07-27T10:28:32.313784+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517648+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "HOOD",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

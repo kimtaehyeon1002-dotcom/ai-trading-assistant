@@ -82,6 +82,27 @@ def test_build_universe_merges_top30_theme_and_watchlist_dedup():
     assert len(universe) < total_theme_codes + 3  # 삼성전자·NVDA 중복 제거 확인
 
 
+def test_build_listing_keeps_all_rows_not_just_top30():
+    """명부는 TOP30 컷이 없다 — 유니버스에서 잘리는 종목도 검색은 돼야 한다."""
+    kr_rows = [_row(f"{i:06d}", f"종목{i}", "KOSPI", 1000 - i) for i in range(50)]
+    listing = stock_repository.build_listing(kr_rows, None)
+    assert len(listing) == 50
+    assert listing[0]["code"] == "000000"  # 거래대금 내림차순
+    assert {"code", "name", "market"} == set(listing[0])
+
+
+def test_build_listing_sorts_kr_then_us_and_dedups():
+    kr_rows = [_row("000660", "SK하이닉스", "KOSPI", 100), _row("005930", "삼성전자", "KOSPI", 300)]
+    us_rows = [_row("NVDA", "NVIDIA", "US", 100), _row("005930", "중복", "US", 999)]
+    listing = stock_repository.build_listing(kr_rows, us_rows)
+    assert [e["code"] for e in listing] == ["005930", "000660", "NVDA"]
+    assert listing[0]["name"] == "삼성전자"  # US 중복 행이 KR 이름을 덮어쓰지 않는다
+
+
+def test_build_listing_handles_none():
+    assert stock_repository.build_listing(None, None) == []
+
+
 def test_build_universe_handles_all_none():
     """수집 실패(kr/us/watchlist 전부 None)여도 예외 없이 테마 종목만으로 유니버스를 구성한다."""
     universe = stock_repository.build_universe(None, None, None)

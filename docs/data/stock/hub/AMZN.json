@@ -4,14 +4,31 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 262.6499938964844,
-    "change_pct": -0.94,
-    "volume": 27184900,
-    "amount": 7140113819.076538,
+    "close": 258.6300048828125,
+    "change_pct": -0.57,
+    "volume": 35652900,
+    "amount": 9220909701.086426,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.003898+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517226+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "AMZN",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

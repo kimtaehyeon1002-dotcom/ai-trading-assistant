@@ -4,14 +4,44 @@
   "market": "US",
   "theme": "2차전지",
   "quote": {
-    "close": 342.2699890136719,
-    "change_pct": 0.68,
-    "volume": 45375100,
-    "amount": 15530534978.494263,
+    "close": 362.8599853515625,
+    "change_pct": 5.14,
+    "volume": 58979800,
+    "amount": 21401409364.038086,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.003607+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.516681+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "TSLA",
-  "related_news": []
+  "related_news": [
+    {
+      "title": "테슬라, 도어 핸들 안전과 운전자 모니터링 문제로 중국에서 300만 대의 차량을 리콜",
+      "link": "https://www.cnbc.com/2026/08/21/tesla-recalls-cars-in-china-over-doorhandle-safety-driver-monitoring.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T19:29:48+00:00"
+    },
+    {
+      "title": "Tesla의 주가는 회사가 로봇택시 추진을 준비하면서 급등합니다.",
+      "link": "https://www.marketwatch.com/story/tesla-stocks-jumps-as-the-company-gets-ready-for-a-robotaxi-push-c680f87f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-21T17:07:00+00:00"
+    }
+  ],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

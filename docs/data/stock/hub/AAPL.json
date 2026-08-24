@@ -4,14 +4,44 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 305.92999267578125,
-    "change_pct": 0.22,
-    "volume": 28186700,
-    "amount": 8623156924.554443,
+    "close": 309.3500061035156,
+    "change_pct": -0.63,
+    "volume": 46768100,
+    "amount": 14467712020.44983,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.003800+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.516911+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "AAPL",
-  "related_news": []
+  "related_news": [
+    {
+      "title": "재무부, 연준, 그리고 돈에 대한 위협",
+      "link": "https://www.marketwatch.com/story/the-treasury-the-fed-and-the-threat-to-your-money-774442ad?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-21T18:15:00+00:00"
+    },
+    {
+      "title": "분석가에 따르면 올해 남은 기간 동안 보유할 AI 하드웨어 주식 6개",
+      "link": "https://www.marketwatch.com/story/6-ai-hardware-stocks-to-own-for-the-remainder-of-the-year-according-to-an-analyst-ec0bad4e?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-21T16:27:00+00:00"
+    }
+  ],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

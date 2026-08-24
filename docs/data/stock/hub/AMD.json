@@ -4,14 +4,38 @@
   "market": "US",
   "theme": "반도체",
   "quote": {
-    "close": 514.3900146484375,
-    "change_pct": 6.5,
-    "volume": 25481000,
-    "amount": 13107171963.256836,
+    "close": 473.25,
+    "change_pct": 0.81,
+    "volume": 14310600,
+    "amount": 6772491450.0,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.003655+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517547+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "AMD",
-  "related_news": []
+  "related_news": [
+    {
+      "title": "AMD는 아주 저렴한 AI 칩에 투자하고 있지만 자금 조달은 큰 의문점입니다.",
+      "link": "https://www.marketwatch.com/story/amd-is-betting-on-dirt-cheap-ai-chips-but-financing-them-is-a-major-question-mark-986afa99?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-20T11:00:00+00:00"
+    }
+  ],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

@@ -4,14 +4,31 @@
   "market": "KRX",
   "theme": "2차전지",
   "quote": {
-    "close": 369500.0,
-    "change_pct": 1.09,
-    "volume": 243455,
-    "amount": 88824353500.0,
-    "marcap": 86463000000000.0,
-    "as_of_iso": "2026-08-15T04:19:27.005267+00:00",
+    "close": 343500.0,
+    "change_pct": -4.05,
+    "volume": 248966,
+    "amount": 86092738000.0,
+    "marcap": 80379000000000.0,
+    "as_of_iso": "2026-08-23T07:39:14.518604+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:373220",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

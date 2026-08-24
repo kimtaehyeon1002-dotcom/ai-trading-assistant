@@ -4,14 +4,31 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 150.52000427246094,
-    "change_pct": -3.65,
-    "volume": 21832100,
-    "amount": 3286167785.2767944,
+    "close": 146.47000122070312,
+    "change_pct": 3.1,
+    "volume": 19567800,
+    "amount": 2866095689.8864746,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.004451+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517957+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "ORCL",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

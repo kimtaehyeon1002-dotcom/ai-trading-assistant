@@ -4,14 +4,44 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 971.6599731445312,
-    "change_pct": 2.3,
-    "volume": 27772200,
-    "amount": 26985135106.16455,
+    "close": 966.780029296875,
+    "change_pct": -0.77,
+    "volume": 21741600,
+    "amount": 21019344684.960938,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.003510+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.516856+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "MU",
-  "related_news": []
+  "related_news": [
+    {
+      "title": "마이크론 CEO: AI는 호황과 불황의 메모리 산업의 방정식을 '완전히 바꿔 놓았습니다'",
+      "link": "https://www.cnbc.com/2026/08/20/micron-ceo-ai-changed-memory-industry.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-20T22:51:36+00:00"
+    },
+    {
+      "title": "Micron의 500억 달러 규모의 Boise 증설이 어떻게 고향을 재편하고 있습니까?",
+      "link": "https://www.cnbc.com/2026/08/20/micron-boise-chip-fab-expansion.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-20T16:07:24+00:00"
+    }
+  ],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

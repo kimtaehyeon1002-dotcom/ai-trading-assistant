@@ -4,14 +4,31 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 1641.1099853515625,
-    "change_pct": 7.39,
-    "volume": 20839600,
-    "amount": 34200075650.73242,
+    "close": 1596.0799560546875,
+    "change_pct": -0.28,
+    "volume": 7530100,
+    "amount": 12018641677.087402,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.003460+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517015+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "SNDK",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

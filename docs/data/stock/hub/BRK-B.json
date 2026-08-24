@@ -4,14 +4,44 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 504.0299987792969,
-    "change_pct": -0.57,
-    "volume": 3961400,
-    "amount": 1996664437.1643066,
+    "close": 495.82000732421875,
+    "change_pct": -0.21,
+    "volume": 4625000,
+    "amount": 2293167533.8745117,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.005071+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.518454+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "BRK-B",
-  "related_news": []
+  "related_news": [
+    {
+      "title": "트럼프는 지난 6월 메타(Meta) 같은 이름을 팔고 버크셔해서웨이(Berkshire Hathaway)를 인수하는 등 포트폴리오를 개편했다.",
+      "link": "https://www.cnbc.com/2026/08/22/trump-reshuffled-his-portfolio-in-june-selling-names-like-meta-and-buying-berkshire-hathaway.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-22T18:57:46+00:00"
+    },
+    {
+      "title": "워렌 버핏 주목: 주식에 대한 주도권을 쥐고 있는 사람은 아벨이 아니라 버핏이다",
+      "link": "https://www.cnbc.com/2026/08/22/warren-buffett-not-greg-abel-appears-to-still-be-calling-the-shots-on-stocks.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-22T12:06:37+00:00"
+    }
+  ],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

@@ -16,7 +16,7 @@ from __future__ import annotations
 
 import importlib.util
 
-from calculators import news_categories, news_translate
+from calculators import news_categories, news_entities, news_translate
 from collectors import (
     dart_collector,
     ecos_collector,
@@ -37,6 +37,7 @@ from models.market import Quote
 from models.news import NewsArticle
 from repositories import (
     fs_repository,
+    history_repository,
     macro_repository,
     market_repository,
     news_counters,
@@ -81,6 +82,12 @@ def get_news() -> list[NewsArticle]:
         fallback=merged,
     )
     translation_cache.save_from(merged)
+    # 관련종목 태깅은 **저장 전에** 해야 한다. 종전에는 news 생성기가 저장 뒤에 붙여서
+    # 저장소(news_articles.json)의 impact_tags가 늘 비어 있었고, 그 저장소를 읽는
+    # get_stock()이 Stock Hub의 "관련 뉴스"를 **전 종목 0건**으로 발행했다(실측: 191개 전부).
+    # 뉴스 페이지만 보면 태그가 정상이라 드러나지 않던 결함이다 — 태깅은 한 소비처의 표시
+    # 로직이 아니라 기사의 속성이므로 파이프라인이 채워야 한다(번역과 같은 위치).
+    news_entities.assign(merged)
     news_repository.save(merged)
     return news_categories.assign(merged)
 
@@ -194,6 +201,23 @@ def _watchlist_rows() -> list[dict]:
     return cached.get("databases", {}).get("watchlist", [])
 
 
+
+def _record_ranking_history(kr_rows: list[dict] | None, us_rows: list[dict] | None) -> None:
+    """거래일 스냅샷을 히스토리 원장에 축적한다(design/28 Phase A).
+
+    발행물과 달리 이 원장은 재생성이 불가능하므로 랭킹 발행 직후, 다른 어떤 작업보다 먼저
+    쓴다 — 뒤따르는 Hub 조립이 실패해도 그날의 과거는 남아야 한다. 마감 전 실행에서는 아무것도
+    쓰지 않고 조용히 지나간다(실패가 아니라 정상 흐름이므로 runlog에 에러로 남기지 않는다).
+    """
+    kr_date = krx_ranking_collector.trade_date() if history_repository.kr_gate_open() else None
+    if history_repository.should_record_kr(kr_date):
+        history_repository.record("kr", kr_rows, kr_date)
+
+    us_date = us_ranking_collector.trade_date()
+    if history_repository.should_record_us(us_date):
+        history_repository.record("us", us_rows, us_date)
+
+
 def get_stock() -> dict:
     """KR/US 랭킹 + 유니버스 + Stock Hub 엔트리까지의 데이터 조립.
 
@@ -208,9 +232,16 @@ def get_stock() -> dict:
     body = stock_repository.build(kr_rows, us_rows)
     stock_repository.persist(body)
 
+    _record_ranking_history(kr_rows, us_rows)
+
     universe = stock_repository.build_universe(kr_rows, us_rows, _watchlist_rows())
     save_json(DOCS_DIR / "data" / "stock" / "universe.json",
               [{"code": c, "name": n, "market": m} for c, n, m in universe])
+
+    # 검색 명부(전종목)는 유니버스와 별도 발행물이다 — Financial Statements 검색이 TOP30 컷에
+    # 걸리지 않게 한다. 수집은 위 kr_rows/us_rows 재사용이라 추가 호출이 없다.
+    save_json(DOCS_DIR / "data" / "stock" / "listing.json",
+              stock_repository.build_listing(kr_rows, us_rows))
 
     # S&P500 후보 밖 US 테마·watchlist 종목(예: TSM, NVO)은 배치 랭킹에 없으므로 보조 조회한다.
     us_covered = {r["code"] for r in (us_rows or [])}
@@ -221,8 +252,12 @@ def get_stock() -> dict:
         "Stock Hub 보조시세", lambda: us_ranking_collector.collect_quotes(missing_us), fallback={},
     )
 
+    # 시장 일정은 macro가 이미 발행한 캘린더를 재사용한다 — Stock이 FOMC 일정을 다시 수집하면
+    # 같은 사실의 출처가 둘이 되고 서로 어긋날 수 있다(발행물을 단일 진실로 삼는다).
+    calendar = load_json(DOCS_DIR / "data" / "macro" / "calendar.json", default={}) or {}
     hub_entries = stock_repository.build_hub_entries(
-        kr_rows, us_rows, universe, supplementary, load_store())
+        kr_rows, us_rows, universe, supplementary, load_store(),
+        calendar_events=calendar.get("events"))
     stock_repository.persist_hub(hub_entries)
 
     return {"body": body, "universe": universe}
@@ -351,6 +386,24 @@ def get_financials() -> dict:
     _fs_build_kr(kr_entries)
     _fs_build_us(us_entries)
 
-    save_json(DOCS_DIR / "data" / "financials" / "index.json",
-              [{"code": e["code"], "name": e["name"], "market": e["market"]} for e in universe])
+    save_json(DOCS_DIR / "data" / "financials" / "index.json", _fs_published_cards())
     return {"universe": universe}
+
+
+def _fs_published_cards() -> list[dict]:
+    """발행 디렉터리에 **실제로 존재하는** 카드 목록.
+
+    유니버스를 그대로 적으면 실제와 어긋난다 — 유니버스는 거래대금 순위에 따라 매일 바뀌는데
+    지난 발행분은 지워지지 않고 남기 때문이다(실측 2026-08-17: 유니버스 71 vs 파일 162).
+    검색 화면이 이 목록으로 "재무 미수집" 표시를 결정하므로, 있는 카드를 없다고 하면 그대로
+    거짓말이 된다. 디렉터리를 읽는 편이 유일하게 정직하다.
+    """
+    out: list[dict] = []
+    for path in sorted((DOCS_DIR / "data" / "financials").glob("*.json")):
+        if path.stem == "index":
+            continue
+        body = load_json(path, default=None)
+        if isinstance(body, dict) and body.get("code"):
+            out.append({"code": body["code"], "name": body.get("name") or body["code"],
+                        "market": body.get("market") or ""})
+    return out

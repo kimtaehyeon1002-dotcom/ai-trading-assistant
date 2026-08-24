@@ -1,11 +1,18 @@
-// financials.js — Financial Statements 상태 A(목록)/상태 B(분석) 전환(design/06, Phase 7).
+// financials.js — Financial Statements 상태 A(검색)/상태 B(분석) 전환(design/06, Phase 7).
 // #code=<종목코드> 해시로 상태를 전환한다(페이지 이동 없이, design/06 §1-1). 유니버스에는 있지만
 // 재무 데이터가 없는 종목은 "준비되지 않음" 빈 상태를 보여준다(design/06 §3-8). 외부 라이브러리 0.
+//
+// 상태 A는 유니버스 전체를 나열하지 않는다(design/06 §1-1·§2-1) — 검색어에 맞는 행만 그린다.
+// 검색 대상은 전종목 명부(data/stock/listing.json)이고, 서버가 렌더해 둔 유니버스 표는 그 명부를
+// 받지 못했을 때의 폴백 데이터다. 검색 전 빈 화면을 막는 것은 "최근 조회" 칩이다(§9-3).
 (function (global) {
   "use strict";
 
   var doc = global.document;
   var browseEl, detailEl;
+  var searchEl, resultsEl, resultsBodyEl, hintEl, noResultEl, moreEl, recentEl, recentChipsEl;
+  var catalog = [];
+  var catalogPromise = null;
 
   var JUDGMENT_LABEL = { good: "양호", neutral: "중립", caution: "주의" };
 
@@ -168,6 +175,104 @@
       + '<p class="v2-hub-empty">이 종목의 재무 데이터가 아직 준비되지 않았습니다.</p>';
   }
 
+  // ── 상태 A: 검색 · 최근 조회 ──
+  // 검색 대상은 유니버스(카드 발행 대상 70여 종목)가 아니라 **전종목 명부**(listing.json,
+  // KR 전 시장 ∪ US 후보)다. 명부에는 있으나 카드가 없는 종목은 "재무 미수집" 태그를 달아
+  // 미리 알린다 — 클릭하면 "준비되지 않음" 빈 상태로 간다(design/06 §3-8).
+
+  var RESULT_LIMIT = 30;
+
+  // 명부·카드목록은 매일 갱신되는 발행물이다 — 브라우저 캐시가 어제 것을 그대로 주면
+  // "재무 미수집" 표시가 실제와 어긋난다(실측으로 확인). live.js와 같은 재검증 규약을 쓴다.
+  function fetchJson(url) {
+    return global.fetch(url, { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; })
+      .catch(function () { return null; });
+  }
+
+  function domCatalog() {
+    return Array.prototype.slice.call(resultsEl.querySelectorAll("tr[data-fs-trigger]"))
+      .map(function (row) {
+        return { code: row.getAttribute("data-fs-code"), name: row.getAttribute("data-fs-name"),
+                 market: row.getAttribute("data-fs-market") };
+      });
+  }
+
+  function loadCatalog() {
+    if (catalogPromise) return catalogPromise;
+    // 서버 렌더 행(유니버스)은 명부 발행 전이거나 fetch가 실패했을 때의 폴백 데이터로 먼저 읽는다.
+    var fallback = domCatalog();
+    catalogPromise = Promise.all([
+      fetchJson(siteRoot() + "/data/stock/listing.json"),
+      fetchJson(siteRoot() + "/data/financials/index.json"),
+    ]).then(function (res) {
+      var listing = (Array.isArray(res[0]) && res[0].length) ? res[0] : fallback;
+      var cards = {};
+      (Array.isArray(res[1]) ? res[1] : fallback).forEach(function (e) {
+        if (e && e.code) cards[e.code] = true;
+      });
+      catalog = listing.filter(function (e) { return e && e.code; }).map(function (e) {
+        return { code: e.code, name: e.name || e.code, market: e.market || "",
+                 text: ((e.name || "") + " " + e.code).toLowerCase(), card: !!cards[e.code] };
+      });
+    });
+    return catalogPromise;
+  }
+
+  function resultRowHtml(e) {
+    return '<tr class="v2-rank-row" data-fs-trigger data-fs-code="' + escapeHtml(e.code)
+      + '" data-fs-name="' + escapeHtml(e.name) + '" data-fs-market="' + escapeHtml(e.market)
+      + '" tabindex="0" role="button">'
+      + '<td><span class="v2-rank-row__name">' + escapeHtml(e.name) + "</span>"
+      + '<span class="v2-rank-row__code">' + escapeHtml(e.code) + "</span></td>"
+      + "<td>" + escapeHtml(e.market)
+      + (e.card ? "" : '<span class="v2-fs-tag">재무 미수집</span>') + "</td></tr>";
+  }
+
+  function applyQuery(q) {
+    var query = String(q || "").trim().toLowerCase();
+    if (query === "") {
+      resultsBodyEl.innerHTML = "";
+      resultsEl.hidden = true;
+      hintEl.hidden = false;
+      noResultEl.hidden = true;
+      moreEl.hidden = true;
+      if (recentEl) recentEl.hidden = !recentChipsEl.children.length;
+      return;
+    }
+    loadCatalog().then(function () {
+      if (searchEl.value.trim().toLowerCase() !== query) return;  // 입력이 앞서갔으면 버린다
+      var hits = catalog.filter(function (e) { return e.text.indexOf(query) !== -1; });
+      resultsBodyEl.innerHTML = hits.slice(0, RESULT_LIMIT).map(resultRowHtml).join("");
+      resultsEl.hidden = hits.length === 0;
+      hintEl.hidden = true;
+      noResultEl.hidden = hits.length !== 0;
+      moreEl.hidden = hits.length <= RESULT_LIMIT;
+      moreEl.textContent = hits.length > RESULT_LIMIT
+        ? hits.length + "건 중 " + RESULT_LIMIT + "건만 표시했습니다 — 검색어를 좁혀 주세요." : "";
+      if (recentEl) recentEl.hidden = true;
+    });
+  }
+
+  function recentList() {
+    return (global.TAStore && global.TAStore.fsRecent) ? global.TAStore.fsRecent() : [];
+  }
+
+  function renderRecent() {
+    if (!recentEl) return;
+    var list = recentList();
+    recentChipsEl.innerHTML = list.map(function (r) {
+      return '<button type="button" class="v2-theme-chip" data-fs-trigger data-fs-code="'
+        + escapeHtml(r.code) + '">' + escapeHtml(r.name)
+        + '<span class="v2-fs-recent__code">' + escapeHtml(r.code) + "</span></button>";
+    }).join("");
+    recentEl.hidden = !list.length || (searchEl && searchEl.value.trim() !== "");
+  }
+
+  function recordRecent(entry) {
+    if (global.TAStore && global.TAStore.pushFsRecent) global.TAStore.pushFsRecent(entry);
+    renderRecent();
+  }
+
   function showDetail(html) {
     browseEl.hidden = true;
     detailEl.hidden = false;
@@ -182,14 +287,26 @@
     detailEl.innerHTML = "";
   }
 
+  function catalogEntry(code) {
+    for (var i = 0; i < catalog.length; i++) {
+      if (catalog[i].code === code) {
+        return { code: code, name: catalog[i].name, market: catalog[i].market };
+      }
+    }
+    return { code: code, name: code, market: "" };
+  }
+
   function open(code) {
     var url = siteRoot() + "/data/financials/" + encodeURIComponent(code) + ".json";
     global.fetch(url).then(function (res) {
       if (!res.ok) throw new Error("not found");
       return res.json();
     }).then(function (data) {
+      recordRecent({ code: data.code || code, name: data.name, market: data.market });
       showDetail(detailHtml(data));
     }).catch(function () {
+      // 재무 데이터가 없어도 "내가 본 종목"인 것은 같다 — 명부에서 이름을 채워 칩에 남긴다.
+      recordRecent(catalogEntry(code));
       showDetail(noDataHtml(code));
     });
   }
@@ -205,10 +322,37 @@
     detailEl = doc.getElementById("fs-detail");
     if (!browseEl || !detailEl) return;
 
+    searchEl = browseEl.querySelector("[data-fs-search]");
+    resultsEl = browseEl.querySelector("[data-fs-results]");
+    hintEl = browseEl.querySelector("[data-fs-hint]");
+    noResultEl = browseEl.querySelector("[data-fs-noresult]");
+    moreEl = browseEl.querySelector("[data-fs-more]");
+    recentEl = browseEl.querySelector("[data-fs-recent]");
+    recentChipsEl = browseEl.querySelector("[data-fs-recent-chips]");
+    resultsBodyEl = resultsEl.querySelector("tbody");
+
+    loadCatalog();   // 서버 렌더 행을 폴백으로 읽어 두는 일이 포함되므로 비우기 전에 먼저 호출한다
+    renderRecent();
+    applyQuery("");  // JS가 살아 있는 동안에만 목록을 감춘다(무JS 폴백은 서버 렌더 유니버스 목록)
+    searchEl.addEventListener("input", function () { applyQuery(searchEl.value); });
+    searchEl.addEventListener("keydown", function (e) {
+      if (e.key !== "Enter") return;
+      e.preventDefault();
+      var first = resultsBodyEl.querySelector("tr[data-fs-trigger]");
+      if (first) global.location.hash = "code=" + encodeURIComponent(first.getAttribute("data-fs-code"));
+    });
+
     doc.addEventListener("click", function (e) {
       var trigger = e.target.closest("[data-fs-trigger]");
       if (!trigger) return;
       global.location.hash = "code=" + encodeURIComponent(trigger.getAttribute("data-fs-code"));
+    });
+    doc.addEventListener("keydown", function (e) {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      var row = e.target.closest ? e.target.closest("tr[data-fs-trigger]") : null;
+      if (!row) return;
+      e.preventDefault();
+      global.location.hash = "code=" + encodeURIComponent(row.getAttribute("data-fs-code"));
     });
     global.addEventListener("hashchange", onHashChange);
 

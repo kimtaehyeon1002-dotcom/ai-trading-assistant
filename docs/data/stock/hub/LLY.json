@@ -4,14 +4,31 @@
   "market": "US",
   "theme": "바이오",
   "quote": {
-    "close": 1180.1600341796875,
-    "change_pct": -2.25,
-    "volume": 2272100,
-    "amount": 2681441613.659668,
+    "close": 1255.4000244140625,
+    "change_pct": 0.88,
+    "volume": 2497300,
+    "amount": 3135110480.9692383,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.004873+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517902+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "LLY",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

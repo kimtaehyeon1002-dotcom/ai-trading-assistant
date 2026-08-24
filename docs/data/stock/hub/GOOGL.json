@@ -4,14 +4,31 @@
   "market": "US",
   "theme": "인공지능",
   "quote": {
-    "close": 345.8999938964844,
-    "change_pct": -0.13,
-    "volume": 17753300,
-    "amount": 6140866361.642456,
+    "close": 344.82000732421875,
+    "change_pct": 1.22,
+    "volume": 20803700,
+    "amount": 7173531986.37085,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.003996+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517444+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "GOOGL",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

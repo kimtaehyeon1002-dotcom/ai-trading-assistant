@@ -1,17 +1,53 @@
 {
   "code": "JPM",
   "name": "JPMorgan Chase",
-  "market": "NYSE",
+  "market": "US",
   "theme": "금융",
   "quote": {
-    "close": 362.8399963378906,
-    "change_pct": -0.07,
-    "volume": 5058000,
-    "amount": 1835244701.4770508,
+    "close": 351.5799865722656,
+    "change_pct": 0.01,
+    "volume": 8073400,
+    "amount": 2838445863.5925293,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.005655+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.518058+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "JPM",
-  "related_news": []
+  "related_news": [
+    {
+      "title": "전 JPMorgan 임원이 사회 보장 자문 역할을 맡습니다.",
+      "link": "https://www.marketwatch.com/story/former-jpmorgan-exec-takes-on-social-security-advisory-role-d0cf6e4f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-21T19:11:00+00:00"
+    },
+    {
+      "title": "트럼프 행정부, 전 JPMorgan Chase 임원 Matt Zames를 사회 보장 기관에 조언",
+      "link": "https://www.cnbc.com/2026/08/21/jpmorgan-matt-zames-social-security-administration.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T15:10:31+00:00"
+    },
+    {
+      "title": "JPMorgan의 Sullivan은 미국 채권 개입은 '신용 카드로 모기지 지불'과 같다고 말합니다.",
+      "link": "https://www.cnbc.com/2026/08/21/us-bond-intervention-shifting-problem-future-jpmorgan.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T02:48:10+00:00"
+    }
+  ],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

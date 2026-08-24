@@ -4,14 +4,31 @@
   "market": "NYSE",
   "theme": "바이오",
   "quote": {
-    "close": 45.88999938964844,
-    "change_pct": -1.78,
-    "volume": 10836300,
-    "amount": 497277800.38604736,
+    "close": 46.7400016784668,
+    "change_pct": 1.3,
+    "volume": 10892200,
+    "amount": 509101446.28219604,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.005508+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.518887+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "NVO",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

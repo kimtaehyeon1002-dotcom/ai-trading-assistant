@@ -4,14 +4,31 @@
   "market": "KOSPI",
   "theme": "인공지능",
   "quote": {
-    "close": 228000.0,
-    "change_pct": 0.66,
-    "volume": 750112,
-    "amount": 170768122000.0,
-    "marcap": 35790889380000.0,
-    "as_of_iso": "2026-08-15T04:19:27.003068+00:00",
+    "close": 222000.0,
+    "change_pct": 1.14,
+    "volume": 987136,
+    "amount": 217448570500.0,
+    "marcap": 34849023870000.0,
+    "as_of_iso": "2026-08-23T07:39:14.515455+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:035420",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

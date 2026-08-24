@@ -4,14 +4,31 @@
   "market": "KRX",
   "theme": "자동차",
   "quote": {
-    "close": 141700.0,
-    "change_pct": 3.13,
-    "volume": 771767,
-    "amount": 108962687510.0,
-    "marcap": 55321521816600.0,
-    "as_of_iso": "2026-08-15T04:19:27.005557+00:00",
+    "close": 130900.0,
+    "change_pct": -0.15,
+    "volume": 667262,
+    "amount": 87242505050.0,
+    "marcap": 51105061438200.0,
+    "as_of_iso": "2026-08-23T07:39:14.519001+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:000270",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

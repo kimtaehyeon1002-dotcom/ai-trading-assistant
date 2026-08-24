@@ -4,14 +4,31 @@
   "market": "KOSDAQ GLOBAL",
   "theme": null,
   "quote": {
-    "close": 177800.0,
-    "change_pct": -0.84,
-    "volume": 1264896,
-    "amount": 225427761800.0,
-    "marcap": 8264343313800.0,
-    "as_of_iso": "2026-08-15T04:19:27.002626+00:00",
+    "close": 168600.0,
+    "change_pct": -4.91,
+    "volume": 800850,
+    "amount": 136230262150.0,
+    "marcap": 7836717000600.0,
+    "as_of_iso": "2026-08-23T07:39:14.516574+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:036930",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

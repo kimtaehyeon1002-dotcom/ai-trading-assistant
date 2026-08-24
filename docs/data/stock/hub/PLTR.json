@@ -4,14 +4,31 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 174.0399932861328,
-    "change_pct": -2.78,
-    "volume": 23985400,
-    "amount": 4174418854.96521,
+    "close": 179.94000244140625,
+    "change_pct": 3.44,
+    "volume": 40986600,
+    "amount": 7375128904.064941,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.004192+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517392+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "PLTR",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

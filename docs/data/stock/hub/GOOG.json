@@ -4,14 +4,31 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 343.5400085449219,
-    "change_pct": -0.12,
-    "volume": 10911700,
-    "amount": 3748605511.239624,
+    "close": 341.75,
+    "change_pct": 1.05,
+    "volume": 15336300,
+    "amount": 5241180525.0,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.004360+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517699+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "GOOG",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

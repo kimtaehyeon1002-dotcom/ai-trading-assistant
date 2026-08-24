@@ -1,0 +1,34 @@
+{
+  "code": "282620",
+  "name": "기도산업",
+  "market": "KOSDAQ",
+  "theme": null,
+  "quote": {
+    "close": 18580.0,
+    "change_pct": -34.58,
+    "volume": 8884438,
+    "amount": 213377898070.0,
+    "marcap": 108891936060.0,
+    "as_of_iso": "2026-08-23T07:39:14.515510+00:00",
+    "session_key": "none"
+  },
+  "tradingview_symbol": "KRX:282620",
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
+}

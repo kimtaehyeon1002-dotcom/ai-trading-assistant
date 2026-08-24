@@ -4,14 +4,31 @@
   "market": "KOSPI",
   "theme": null,
   "quote": {
-    "close": 206500.0,
-    "change_pct": -3.5,
-    "volume": 752430,
-    "amount": 154914006500.0,
-    "marcap": 30975000000000.0,
-    "as_of_iso": "2026-08-15T04:19:27.003214+00:00",
+    "close": 187000.0,
+    "change_pct": -6.12,
+    "volume": 916678,
+    "amount": 172683803950.0,
+    "marcap": 28050000000000.0,
+    "as_of_iso": "2026-08-23T07:39:14.515867+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:010120",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

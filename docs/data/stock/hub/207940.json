@@ -4,14 +4,31 @@
   "market": "KRX",
   "theme": "바이오",
   "quote": {
-    "close": 1548000.0,
-    "change_pct": -1.02,
-    "volume": 29916,
-    "amount": 46418943500.0,
-    "marcap": 71658392148000.0,
-    "as_of_iso": "2026-08-15T04:19:27.005411+00:00",
+    "close": 1551000.0,
+    "change_pct": -1.46,
+    "volume": 44704,
+    "amount": 69165846000.0,
+    "marcap": 71797265001000.0,
+    "as_of_iso": "2026-08-23T07:39:14.518743+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:207940",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

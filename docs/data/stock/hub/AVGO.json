@@ -4,14 +4,38 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 392.989990234375,
-    "change_pct": -5.94,
-    "volume": 29432900,
-    "amount": 11566835083.569336,
+    "close": 368.45001220703125,
+    "change_pct": 1.21,
+    "volume": 19000300,
+    "amount": 7000660766.937256,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.003703+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517494+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "AVGO",
-  "related_news": []
+  "related_news": [
+    {
+      "title": "소식통에 따르면 브로드컴의 부채 거래 규모는 700억 달러 이상에 달할 것으로 예상됩니다.",
+      "link": "https://www.cnbc.com/2026/08/21/broadcom-debt-deal-expected-to-reach-upwards-of-70-billion-sources.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-21T15:59:25+00:00"
+    }
+  ],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

@@ -4,14 +4,31 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 116.01000213623047,
-    "change_pct": 2.43,
-    "volume": 22037500,
-    "amount": 2556570422.077179,
+    "close": 103.69999694824219,
+    "change_pct": 0.1,
+    "volume": 44377000,
+    "amount": 4601894764.572144,
     "marcap": null,
-    "as_of_iso": "2026-08-13T08:02:58.683390+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.517750+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "WMT",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

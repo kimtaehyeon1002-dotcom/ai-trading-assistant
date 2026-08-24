@@ -4,14 +4,31 @@
   "market": "US",
   "theme": null,
   "quote": {
-    "close": 973.4400024414062,
-    "change_pct": 5.65,
-    "volume": 5239300,
-    "amount": 5100144204.79126,
+    "close": 850.0,
+    "change_pct": -0.03,
+    "volume": 2843500,
+    "amount": 2416975000.0,
     "marcap": null,
-    "as_of_iso": "2026-08-15T04:19:27.004094+00:00",
+    "as_of_iso": "2026-08-23T07:39:14.518292+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "STX",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

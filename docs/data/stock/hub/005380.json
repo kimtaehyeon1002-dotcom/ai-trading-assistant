@@ -4,14 +4,31 @@
   "market": "KOSPI",
   "theme": "자동차",
   "quote": {
-    "close": 453000.0,
-    "change_pct": 8.24,
-    "volume": 1203960,
-    "amount": 537907833750.0,
-    "marcap": 92755267998000.0,
-    "as_of_iso": "2026-08-15T04:19:27.002140+00:00",
+    "close": 415000.0,
+    "change_pct": -0.6,
+    "volume": 373056,
+    "amount": 154434939250.0,
+    "marcap": 84974472890000.0,
+    "as_of_iso": "2026-08-23T07:39:14.516165+00:00",
     "session_key": "none"
   },
   "tradingview_symbol": "KRX:005380",
-  "related_news": []
+  "related_news": [],
+  "market_events": [
+    {
+      "date": "2026-09-16",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "FOMC 금리 결정",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-12-09",
+      "label": "FOMC 금리 결정 (경제전망 포함)",
+      "source": "fomc"
+    }
+  ]
 }

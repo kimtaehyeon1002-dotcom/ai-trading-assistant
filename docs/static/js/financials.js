@@ -2,8 +2,9 @@
 // #code=<종목코드> 해시로 상태를 전환한다(페이지 이동 없이, design/06 §1-1). 유니버스에는 있지만
 // 재무 데이터가 없는 종목은 "준비되지 않음" 빈 상태를 보여준다(design/06 §3-8). 외부 라이브러리 0.
 //
-// 상태 A는 유니버스 전체를 나열하지 않는다(design/06 §1-1·§2-1) — 서버가 렌더한 표 행을 초기에
-// 전부 감추고, 검색어에 맞는 행만 드러낸다. 검색 전 빈 화면을 막는 것은 "최근 조회" 칩이다(§9-3).
+// 상태 A는 유니버스 전체를 나열하지 않는다(design/06 §1-1·§2-1) — 검색어에 맞는 행만 그린다.
+// 검색 대상은 전종목 명부(data/stock/listing.json)이고, 서버가 렌더해 둔 유니버스 표는 그 명부를
+// 받지 못했을 때의 폴백 데이터다. 검색 전 빈 화면을 막는 것은 "최근 조회" 칩이다(§9-3).
 (function (global) {
   "use strict";
 
@@ -181,8 +182,10 @@
 
   var RESULT_LIMIT = 30;
 
+  // 명부·카드목록은 매일 갱신되는 발행물이다 — 브라우저 캐시가 어제 것을 그대로 주면
+  // "재무 미수집" 표시가 실제와 어긋난다(실측으로 확인). live.js와 같은 재검증 규약을 쓴다.
   function fetchJson(url) {
-    return global.fetch(url).then(function (r) { return r.ok ? r.json() : null; })
+    return global.fetch(url, { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; })
       .catch(function () { return null; });
   }
 
