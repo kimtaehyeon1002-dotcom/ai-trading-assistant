@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-26T12:04:18.112783+00:00",
+  "as_of": "2026-08-26T13:31:06.656063+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -344,10 +344,148 @@
   ],
   "news": [
     {
+      "title": "카카오뱅크, 31일 예정한 총파업 취소…\"노사 간 공감대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260826188000002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-26T13:26:47+00:00"
+    },
+    {
+      "title": "Meta settles social media addiction trial with California, other states",
+      "link": "https://www.cnbc.com/2026/08/26/meta-social-media-trial-settlement.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-26T13:26:33+00:00"
+    },
+    {
+      "title": "Canada unveils retaliatory tariffs on about $20 billion of U.S. goods",
+      "link": "https://www.cnbc.com/2026/08/25/canada-trump-tariffs-trade-carney-leblanc.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-26T13:24:25+00:00"
+    },
+    {
+      "title": "China's short-drama producers flood the market with cheap bets — and let audiences pick the winners",
+      "link": "https://www.cnbc.com/2026/08/26/short-drama-china-production-ai-entertainment-economics.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-26T13:20:34+00:00"
+    },
+    {
+      "title": "Amazon service Bezos once called 'artificial artificial intelligence' is shutting down",
+      "link": "https://www.cnbc.com/2026/08/25/amazon-service-that-jeff-bezos-called-artificial-ai-is-shutting-down.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-26T13:15:24+00:00"
+    },
+    {
+      "title": "There’s so much betting against long-term bonds that a turnaround could catch investors off guard, says Citadel Securities",
+      "link": "https://www.marketwatch.com/story/wall-streets-massive-bet-against-long-term-bonds-is-a-recipe-for-a-painful-bearish-unwind-says-citadel-securities-430dc145?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-26T13:15:00+00:00"
+    },
+    {
+      "title": "Iran says the U.S. is standing in the way of Hormuz deal amid talks with Oman",
+      "link": "https://www.cnbc.com/2026/08/26/us-iran-war-trump-hormuz.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-26T13:13:53+00:00"
+    },
+    {
+      "title": "Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July",
+      "link": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-26T13:08:28+00:00"
+    },
+    {
+      "title": "Mark Walter's TWG Global blasts 'attacks,' insists 'no fraud' amid federal probe",
+      "link": "https://www.cnbc.com/2026/08/26/mark-walter-twg-guggenheim-lakers.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-26T13:06:55+00:00"
+    },
+    {
+      "title": "김윤덕 \"용산 어린이정원에 주택공급 논의된 적 없다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260826186000001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-26T13:06:51+00:00"
+    },
+    {
+      "title": "주병기 \"공정위 현장 조사 거부한 쿠팡 형사 고발할 것\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260826158051001",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-26T13:06:05+00:00"
+    },
+    {
+      "title": "캐나다 증시, 2027년 최고치 앞두고 잠시 하락 전망 - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PZ0lMT0JvSlo5Q01QX3VQZ3VPQ1NOV2pia1JSdkJJcWIxOTUzSVI0TzRndmhFMFByVVdJNUNmOGI3WXhBTTM3alA4dFM2R0tKWVZyTmdXN1pCdGNyUGlnWjFCZGRPazlUQmR5RFUwVUw1RFhGZ1kw?oc=5",
+      "source": "Google News",
+      "published": "2026-08-26T13:06:00+00:00"
+    },
+    {
+      "title": "S&P 500 is expected to reach fresh highs this year — but Barclays warns of risks",
+      "link": "https://www.marketwatch.com/story/s-p-500-is-expected-to-reach-fresh-highs-this-year-but-barclays-warns-of-risks-abc86282?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-26T13:04:00+00:00"
+    },
+    {
+      "title": "Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.",
+      "link": "https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-26T13:01:00+00:00"
+    },
+    {
+      "title": "Dollar and bond markets 'on edge' ahead of Jackson Hole as Bessent's market intervention piles pressure on Warsh",
+      "link": "https://www.cnbc.com/2026/08/26/jackson-hole-warsh-bessent-bonds-treasury-dollar.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-26T13:00:11+00:00"
+    },
+    {
       "title": "Medical device maker Boston Scientific is being hit by a cyberattack. The shares are falling",
       "link": "https://www.cnbc.com/2026/08/26/medical-device-maker-boston-scientific-is-being-hit-by-a-cyber-attack-the-shares-are-falling.html",
       "source": "CNBC Finance",
-      "published": "2026-08-26T11:56:29+00:00"
+      "published": "2026-08-26T12:58:56+00:00"
+    },
+    {
+      "title": "Consumer spending posts smallest increase in seven months. Economy getting weaker?",
+      "link": "https://www.marketwatch.com/story/consumer-spending-posts-smallest-increases-in-14-months-is-the-economy-getting-weaker-1580cec6?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-26T12:58:00+00:00"
+    },
+    {
+      "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+      "link": "https://www.cnbc.com/2026/08/26/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-26T12:55:38+00:00"
+    },
+    {
+      "title": "U.S. inflation rises again and stays well above Fed’s target. Rate hike might be in play.",
+      "link": "https://www.marketwatch.com/story/u-s-inflation-rises-in-july-and-stays-well-above-feds-target-b4e6109c?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-26T12:38:00+00:00"
+    },
+    {
+      "title": "비거주 1주택 종부세 기본공제 12억원 유력…개편 전 수준으로(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260826117651002",
+      "source": "연합뉴스·경제",
+      "published": "2026-08-26T12:37:39+00:00"
+    },
+    {
+      "title": "The renter generation: Young Americans, shut out of homeownership, brace to rent forever",
+      "link": "https://www.marketwatch.com/story/the-renter-generation-young-americans-shut-out-of-homeownership-brace-to-rent-forever-43be0585?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-26T12:30:00+00:00"
+    },
+    {
+      "title": "뉴욕증시 프리뷰, 美 주가지수 선물 보합…PCE·엔비디아 실적 앞두고 관망 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kazRLVGlTc3Vsd0V5RWpoTHczUFBTTE5rNDRObzhLT2w3bkh0cHpQblJvMkJZWnJOd3B6b2EzWHpFWTZFVE43QXdYT3pIUVJSa0hwQXlGUVdOSnhL?oc=5",
+      "source": "Google News",
+      "published": "2026-08-26T12:24:00+00:00"
+    },
+    {
+      "title": "Wall Street’s biggest optimist says he ‘wouldn’t jump into the AI trade right now’",
+      "link": "https://www.marketwatch.com/story/wall-streets-biggest-optimist-says-i-wouldnt-jump-into-the-ai-trade-right-now-18110306?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "2026-08-26T12:16:00+00:00"
+    },
+    {
+      "title": "Hyundai has grown more than any automaker in the U.S. — and it's not done yet",
+      "link": "https://www.cnbc.com/2026/08/26/hyundai-sales-us-investment.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-26T12:00:01+00:00"
     },
     {
       "title": "Callaway Golf’s apology for ad showing woman being shoved to the ground exposes a major industry blind spot",
@@ -374,12 +512,6 @@
       "published": "2026-08-26T11:15:00+00:00"
     },
     {
-      "title": "There’s so much betting against long-term bonds that a turnaround could catch investors off guard, says Citadel Securities",
-      "link": "https://www.marketwatch.com/story/wall-streets-massive-bet-against-long-term-bonds-is-a-recipe-for-a-painful-bearish-unwind-says-citadel-securities-430dc145?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-26T11:07:00+00:00"
-    },
-    {
       "title": "박현주 \"트럼프 흉악…미국 참 얌전, 탄핵 얘기 안 해\"",
       "link": "https://www.yna.co.kr/view/AKR20260826176500002",
       "source": "연합뉴스·경제",
@@ -390,12 +522,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00SE1xVjdfdWV4aGZMcjBhSHZvNXNpYV9WalpiZHVDV2J4dktYTm9NWGMzTDIzUk1NTFVwQWFLUG16WUtTZ3ByOEh4bVdsSnFoU2FZUDRDaURVREEwWU5oX0VtdU96VE5kQmcxSzBFX3I?oc=5",
       "source": "Google News",
       "published": "2026-08-26T10:19:35+00:00"
-    },
-    {
-      "title": "Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.",
-      "link": "https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-08-26T10:16:00+00:00"
     },
     {
       "title": "Am I too old for Roth conversions? I’m 84 and my wife is 77. We have $8 million saved.",
@@ -516,132 +642,6 @@
       "link": "https://www.mk.co.kr/news/economy/12137029",
       "source": "매일경제·증권",
       "published": "2026-08-26T08:55:48+00:00"
-    },
-    {
-      "title": "국토장관 \"'용산 불가론'만 고수해선 안돼\"…서울시에 요청",
-      "link": "https://www.yna.co.kr/view/AKR20260826166200003",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-26T08:51:52+00:00"
-    },
-    {
-      "title": "샤브올데이 \"여름 신메뉴 확대 후 일매출·방문객 동반 상승\"",
-      "link": "https://www.yna.co.kr/view/AKR20260826163400030",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-26T08:38:50+00:00"
-    },
-    {
-      "title": "특허법원, 세계지식재산기구와 업무협약…\"조정 절차 연계 추진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260826162600063",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-26T08:38:26+00:00"
-    },
-    {
-      "title": "답답한 박스권 장세에 증시 자금회전 반토막 - 매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBZQU5YbWlaVkpyLTh3RUx2bU45aWVabzNackR4ME5BNEp2U0tSMjM5VFNNc1hCZDZOT3B0ZzZfVWJlNjdrTlhzT1lmdk92VFRldnc?oc=5",
-      "source": "Google News",
-      "published": "2026-08-26T08:36:25+00:00"
-    },
-    {
-      "title": "주병기 \"공정위 현장 조사 거부한 쿠팡 형사 고발할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260826158000001",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-26T08:27:42+00:00"
-    },
-    {
-      "title": "글로벌 바이오 콘퍼런스 개막…\"바이오는 생명 지키는 핵심\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260826026151017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-26T08:25:46+00:00"
-    },
-    {
-      "title": "[포토] 우리銀-기보, 전략산업에 1조원 공급협력",
-      "link": "https://www.mk.co.kr/news/economy/12136954",
-      "source": "매일경제·증권",
-      "published": "2026-08-26T08:22:59+00:00"
-    },
-    {
-      "title": "[표] 외국환율고시표",
-      "link": "https://www.mk.co.kr/news/economy/12136955",
-      "source": "매일경제·증권",
-      "published": "2026-08-26T08:22:59+00:00"
-    },
-    {
-      "title": "새단장한 '네이버 현대카드' … 최대 15% 포인트 적립 혜택",
-      "link": "https://www.mk.co.kr/news/economy/12136951",
-      "source": "매일경제·증권",
-      "published": "2026-08-26T08:22:58+00:00"
-    },
-    {
-      "title": "서민 급전대출 비상 … 카드론 평균 금리 14% 넘겨",
-      "link": "https://www.mk.co.kr/news/economy/12136952",
-      "source": "매일경제·증권",
-      "published": "2026-08-26T08:22:58+00:00"
-    },
-    {
-      "title": "한화생명, 순익 11% 해외서 올렸다",
-      "link": "https://www.mk.co.kr/news/economy/12136950",
-      "source": "매일경제·증권",
-      "published": "2026-08-26T08:22:57+00:00"
-    },
-    {
-      "title": "하나은행도 당했다…'외부인 사기' 24억원 규모 금융사고",
-      "link": "https://www.yna.co.kr/view/AKR20260826160900002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-26T08:22:28+00:00"
-    },
-    {
-      "title": "'금통위 경계' 국고채 금리 하락폭 축소…3년물 연 3.816%(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260826151251008",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-26T08:12:49+00:00"
-    },
-    {
-      "title": "카카오 노조 \"인적분할 반대\"…주총 부결 추진(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260826132551017",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-26T08:10:31+00:00"
-    },
-    {
-      "title": "[오늘의증시] 코스피 6800선 회복…반도체 반등·유가 안정에 1% 상승 - 경인방송 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE84OW51c0NjSlhxb3BURm8zNF90Wkt6ajY3Wm9STTV1RExHcFZQM2NDTkVXRllxejJiNklLd2JnaVVEWDdrc1NlUXpZTUFwUERpMFEtWjFUamZWZzBDWW96T2xEbV_SAWhBVV95cUxQMzhudXVHaGpHY0pxbW1Id3JZMWV4NVByalE0N181ZkVEanJtTFlqYkxEOHE3MG92MzJxTHVJNHFYV3dHVzBOZDJ1TXJEQlBRdW5hX1VjQl8tNjNmR0lCdDB5NmRSbk9wMg?oc=5",
-      "source": "Google News",
-      "published": "2026-08-26T08:10:01+00:00"
-    },
-    {
-      "title": "오늘의 증시 - MBC 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA0WkdveXlhcEtyMjhZT0oxLXhPd1FIQk1yc0t1aE9UVWVTVm5kMHRxb1VRY0tyeTVScHNyMUJ0cWJnZWdaM0xDYV9PVW1XbEcwYnV1RExLX0xlbzFERk9fd0hJZFRnZG82TzJvblVLZmJRMEs1R0pyUtIBeEFVX3lxTE52TlNZSUdQVmI1QTlCcUZELW5yQnE3NC1LQXEtdU51UGRoMW5LN2lRRXZ1eTlJa3RXN2RMd1VFZVo2dkx5SnN1RURyNnNaZnJndDluNlRoTTN5ZnJ6N2M0NE1QQllBcHI5R3VDeHJyWGttVVBybUVFXw?oc=5",
-      "source": "Google News",
-      "published": "2026-08-26T08:05:18+00:00"
-    },
-    {
-      "title": "“딱 1석 잡아라”…고려아연·영풍MBK, 국민연금 표심 놓고 감사위원 표결 ‘여론전’",
-      "link": "https://www.mk.co.kr/news/economy/12136912",
-      "source": "매일경제·증권",
-      "published": "2026-08-26T08:02:30+00:00"
-    },
-    {
-      "title": "전남광주 국도·국지도 8개 지구 예타 통과…사업비 1조8천억",
-      "link": "https://www.yna.co.kr/view/AKR20260826155100054",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-26T08:02:07+00:00"
-    },
-    {
-      "title": "네이버파이낸셜, 비금융데이터로 중저신용자 대출심사한다",
-      "link": "https://www.yna.co.kr/view/AKR20260826153900002",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-26T07:55:55+00:00"
-    },
-    {
-      "title": "[뉴욕증시 전략] 7월 PCE·엔비디아 실적 앞두고 관망…반도체주 강세 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mMGxodXNPMmlISjlOQmFXTXVHdU1kamNRLVY1aXZqT3Nfd3JQYUduelg4MzZQNUFoLTFSNWdLeUo0MzRFd3ZwbVFDS2w5YVU?oc=5",
-      "source": "Google News",
-      "published": "2026-08-26T07:55:17+00:00"
-    },
-    {
-      "title": "김윤덕-오세훈, 용산공원 개발 합의 못해…대안으로 탄천 부상(종합3보)",
-      "link": "https://www.yna.co.kr/view/AKR20260826078753004",
-      "source": "연합뉴스·경제",
-      "published": "2026-08-26T07:49:48+00:00"
     }
   ],
   "pages": [
