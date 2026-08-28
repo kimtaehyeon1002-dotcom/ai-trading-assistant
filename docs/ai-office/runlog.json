@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T04:40:44.208575+09:00",
+  "updated_at": "2026-08-29T04:40:54.587008+09:00",
   "workers": {
     "Vault Sync": {
       "worker": "Vault Sync",
@@ -54,10 +54,10 @@
     "Vault Journal": {
       "worker": "Vault Journal",
       "status": "completed",
-      "items": 0,
+      "items": 32,
       "detail": "10_Journal/ write-back",
       "duration_ms": 0,
-      "last_run": "2026-08-29T04:40:35.349818+09:00"
+      "last_run": "2026-08-29T04:40:46.362089+09:00"
     },
     "News Research": {
       "worker": "News Research",
@@ -79,7 +79,7 @@
       "items": 4,
       "detail": "pages + static",
       "duration_ms": 0,
-      "last_run": "2026-08-29T04:40:44.207573+09:00"
+      "last_run": "2026-08-29T04:40:54.584008+09:00"
     },
     "Trade Manager": {
       "worker": "Trade Manager",
