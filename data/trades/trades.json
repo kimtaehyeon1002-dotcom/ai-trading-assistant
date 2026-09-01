@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-08-31",
+    "ticker": "000250",
+    "name": "삼천당제약",
+    "buy_price": 188207.14,
+    "sell_price": 162400.0,
+    "quantity": 2.0,
+    "holding_days": 0,
+    "account_type": "위탁",
+    "broker": "kiwoom",
+    "memo": "",
+    "category": "day",
+    "pnl": -51614.28,
+    "profit_pct": -13.71
+  },
+  {
     "date": "2026-08-19",
     "ticker": "034020",
     "name": "두산에너빌리티",
