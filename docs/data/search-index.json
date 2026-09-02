@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-01T13:05:20.335581+00:00",
+  "as_of": "2026-09-02T02:58:54.100196+00:00",
   "stocks": [
     {
       "code": "005930",
@@ -344,304 +344,304 @@
   ],
   "news": [
     {
-      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
-      "link": "https://www.cnbc.com/2026/09/01/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
-      "source": "CNBC Finance",
-      "published": "2026-09-01T12:59:37+00:00"
-    },
-    {
-      "title": "Suddenly Wall Street is getting a bit nervous. Here are two ways to prepare for turbulence.",
-      "link": "https://www.marketwatch.com/story/suddenly-wall-street-is-getting-a-bit-nervous-here-are-two-ways-to-prepare-for-potential-turbulence-a5c0e430?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-09-01T12:53:00+00:00"
-    },
-    {
-      "title": "OneRail launches AI platform with Nvidia for retailers to make faster delivery decisions",
-      "link": "https://www.cnbc.com/2026/09/01/onerail-nvidia-ai-delivery-platform.html",
-      "source": "CNBC Finance",
-      "published": "2026-09-01T12:50:57+00:00"
-    },
-    {
-      "title": "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries",
-      "link": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html",
-      "source": "CNBC Finance",
-      "published": "2026-09-01T12:25:05+00:00"
-    },
-    {
-      "title": "Tehran urges return to June deal, oil prices rise as Trump vows to hit Iran 'hard'",
-      "link": "https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html",
-      "source": "CNBC Finance",
-      "published": "2026-09-01T12:22:42+00:00"
-    },
-    {
-      "title": "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
-      "link": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-09-01T12:15:00+00:00"
-    },
-    {
-      "title": "Lake America? Trump’s Lake Ontario name change creates map mayhem for Apple and Google.",
-      "link": "https://www.marketwatch.com/story/lake-america-trumps-lake-ontario-name-change-creates-map-mayhem-for-apple-and-google-eb4c0122?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-09-01T12:13:00+00:00"
-    },
-    {
-      "title": "Toyota's hybrid RAV4 is in demand as dealers wait for more supply",
-      "link": "https://www.cnbc.com/2026/09/01/toyota-rav4-dealer-inventory.html",
-      "source": "CNBC Finance",
-      "published": "2026-09-01T12:00:01+00:00"
-    },
-    {
-      "title": "Here’s what’s worth streaming in September 2026 on Netflix, Hulu, HBO Max and more",
-      "link": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-september-2026-on-netflix-hulu-hbo-max-and-more-a702e7dd?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-09-01T12:00:00+00:00"
-    },
-    {
-      "title": "Bessent reportedly tells Russia it won't get economic relief until it ends Ukraine war",
-      "link": "https://www.cnbc.com/2026/09/01/bessent-russia-ukraine-war-sanctions-war-g20-.html",
-      "source": "CNBC Finance",
-      "published": "2026-09-01T11:35:54+00:00"
-    },
-    {
-      "title": "Morgan Stanley sees a 43% surge for Robinhood — without help from crypto",
-      "link": "https://www.marketwatch.com/story/morgan-stanley-sees-a-43-surge-for-robinhood-without-help-from-crypto-906389d9?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-09-01T11:34:00+00:00"
-    },
-    {
-      "title": "‘I’m leaving money on the table’: I’m 64 and my husband is 70. Should I take spousal benefits or wait for my own?",
-      "link": "https://www.marketwatch.com/story/im-leaving-money-on-the-table-im-64-and-my-husband-is-70-should-i-take-spousal-benefits-or-wait-for-my-own-2490f5cd?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-09-01T11:30:00+00:00"
-    },
-    {
-      "title": "Why Dell’s stock stands to gain from developments at Nvidia and SpaceX",
-      "link": "https://www.marketwatch.com/story/why-dells-stock-stands-to-gain-from-developments-at-nvidia-and-spacex-7978fcaf?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-09-01T11:26:00+00:00"
-    },
-    {
-      "title": "2분기 주요국 증시 호황에 국내기관 해외증권투자 ‘역대 최대’ - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByY2RPYmJWOTV5OEFHOFV3bEJtRmx5UUhURjlhbmh4Z0dTMHJXZnRiRkg3ZHVreXlvMHllbTZMZXF1cXRqNDJCQVpfcUM3M1VlM3Jud0NxS0dzZ9IBX0FVX3lxTE04dVB0TXgyYnVJNVVfeTdyTEtUZzg4NmQwS3VYMmJsdG5tdUw2OEZTUGlDcU1nY1RaZ0Fwc2huajhEc2d6ODBPdWp4VEx5dzh5bVNaMmtHYlMtZmFNbnNj?oc=5",
+      "title": "글로벌 국채금리 급등과 증시·환율 영향까지 이시각 주요뉴스 - 연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02cjNsTFJvQmhUZzJPOGZrOWZ5SWZzVFVuam1mRUd4RVRucTlTNWhpV3VQTVJqQzUzZDhWaExya1VHeFJ1cWJqTDhDbzNTVXJ1aWNYVlNYdHBPcTRZRmdxcUhLakI1MTVvbFo4NmZJWGzSAXRBVV95cUxPc1FBVERwRkkySF8zRjN3cUwzdVZ3N2l4MjVRaGY5ZEM3RmRhY0FIMmFWZWNFRjFpalBxUUFJMkFNbFNwUXh6RDJxSFkxaWdGYjh1bEFVWjJLZ0J5TkNvNjFDaVZGZGxLRVVzQnV1WUdla25vcw?oc=5",
       "source": "Google News",
-      "published": "2026-09-01T11:18:00+00:00"
+      "published": "2026-09-02T02:49:58+00:00"
     },
     {
-      "title": "[인도증시] 유가·국채 수익률 상승에 소폭 하락...4~6월 성장률이 낙폭 제한 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Qbi1pTmJBNENMeGJqc1pMMC01V0Jzc29ScEZwQzdsZTZ2SkVMbnBGX1YtdW9ycnFnckh2TUxVVkpNUW1CSkp5OXRidmNkYVl3Zm1DNUUzM0VNdXpk?oc=5",
+      "title": "법원 \"예능프로 각본도 저작물…유튜브 올리면 사용료 내야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260902091200004",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:48:17+00:00"
+    },
+    {
+      "title": "국고채 금리 일제히 상승…3년물 장중 연 3.914%",
+      "link": "https://www.yna.co.kr/view/AKR20260902089900008",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:45:33+00:00"
+    },
+    {
+      "title": "광주경총, AI중소기업에 커피차·영화 관람 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260902088400054",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:44:50+00:00"
+    },
+    {
+      "title": "국힘 \"李정부 청년정책은 '먹고 떨어져'식…청년과 함께 싸울것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260902083900001",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:41:38+00:00"
+    },
+    {
+      "title": "이형일 \"물가는 가장 큰 미션…추석물가대책 추가 발표 노력\"",
+      "link": "https://www.yna.co.kr/view/AKR20260902085000002",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:40:03+00:00"
+    },
+    {
+      "title": "이형일 \"경제 부총리 리더십 가져야…핵심사안 靑과 수시조율\"",
+      "link": "https://www.yna.co.kr/view/AKR20260902086200002",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:40:01+00:00"
+    },
+    {
+      "title": "이형일 \"거주 중심 주택시장이 정부 방향…합리적 요구면 반영\"",
+      "link": "https://www.yna.co.kr/view/AKR20260902088100002",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:40:00+00:00"
+    },
+    {
+      "title": "이형일 \"상속세제만으로 '주가 누르기' 해소 가능한지 고민\"",
+      "link": "https://www.yna.co.kr/view/AKR20260902087800002",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:40:00+00:00"
+    },
+    {
+      "title": "손보협회, 통합민원지원센터 개소…민원 처리 전문성 강화",
+      "link": "https://www.yna.co.kr/view/AKR20260902088300002",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:37:22+00:00"
+    },
+    {
+      "title": "출발증시 2부 - 한국경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczNFUnV0M2FQMGhRSDB4Y2JTSGp4aUpHRUpHT0dMTktKdUFVU1NoSm5SYkFhRE9kb2E1QTNXeERuQTViaGh3djdXNU1WQkpYWmgwN2MxeE1oYzhDNmhSVWRsTFNVT3JlT214MDNqMWE2OFBfcUFrVDE3QVpzWkRrN2hobjRmdUJHSDV4RE9TcDVYd0MyZ3I3QVIyQThUSGhlMFk4?oc=5",
       "source": "Google News",
-      "published": "2026-09-01T11:15:00+00:00"
+      "published": "2026-09-02T02:37:07+00:00"
     },
     {
-      "title": "New Apple CEO John Ternus’s first big challenge: Leading when his old boss is still in the building",
-      "link": "https://www.marketwatch.com/story/new-apple-ceo-john-ternuss-first-big-challenge-leading-when-his-old-boss-is-still-in-the-building-32be88f7?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-09-01T11:01:00+00:00"
+      "title": "\"김성수 대법관 후보, 전세 3억5천에 도곡렉슬 43평 장기거주\"",
+      "link": "https://www.yna.co.kr/view/AKR20260902072100001",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:34:19+00:00"
     },
     {
-      "title": "Apple enters John Ternus era as AI challenges and memory crunch intensify",
-      "link": "https://www.cnbc.com/2026/09/01/apple-enters-ternus-era-as-ai-challenges-and-memory-crunch-intensify.html",
+      "title": "전쟁발 인플레이션 우려에…글로벌 국채 쇼크",
+      "link": "https://www.mk.co.kr/news/economy/12142169",
+      "source": "매일경제·증권",
+      "published": "2026-09-02T02:33:36+00:00"
+    },
+    {
+      "title": "진주시, 미국 애틀랜타와 문화·경제 협력 강화 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260902086800052",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:30:53+00:00"
+    },
+    {
+      "title": "되살아난 중동 리스크…유가·국채금리 급등에 세계증시 '덜컹'",
+      "link": "https://www.yna.co.kr/view/AKR20260902082500008",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:30:43+00:00"
+    },
+    {
+      "title": "Japanese green tea giant Ito En surges 8%, defying a broad market sell-off",
+      "link": "https://www.cnbc.com/2026/09/02/japan-green-tea-ito-en-surges-earnings.html",
       "source": "CNBC Finance",
-      "published": "2026-09-01T11:00:01+00:00"
+      "published": "2026-09-02T02:24:30+00:00"
     },
     {
-      "title": "Livestream shopping is gaining steam in the U.S., thanks to apps like TikTok and Whatnot",
-      "link": "https://www.cnbc.com/2026/09/01/tiktok-whatnot-livestream-shopping.html",
+      "title": "\"지역경제 활성화\"…전주시, 민생·복지 중심 3차 추경",
+      "link": "https://www.yna.co.kr/view/AKR20260902080700055",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:22:12+00:00"
+    },
+    {
+      "title": "비트코인, 7만7000달러선 하회…美 증시 약세·금리 인상 우려 By Bloomingbit - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1NV0pOTUJVMHRGczlQSS16Mms0YTlJRXowN2VDbU9uUk1jbWhEU05DeV9CeXN3MHdxVkU1RXpMZktWS3Jzc0F1Tl9CLWROc1ZrbkhQeXVBTnEtM0wxaFAzZmI4TEktVjZhOVpKbndoZHpVeDQ?oc=5",
+      "source": "Google News",
+      "published": "2026-09-02T02:16:00+00:00"
+    },
+    {
+      "title": "서울시 야간경제 '한강 밤핑' 1만1천명 몰려…카드소비 5.9%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260902045300004",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:15:02+00:00"
+    },
+    {
+      "title": "동대문 전농동 재개발 신통기획 확정…1천800세대 주거단지",
+      "link": "https://www.yna.co.kr/view/AKR20260902052000004",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:15:02+00:00"
+    },
+    {
+      "title": "관내 균형발전 도모…서울시 '상생발전형 사전협상+' 설명회",
+      "link": "https://www.yna.co.kr/view/AKR20260902069700004",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:15:01+00:00"
+    },
+    {
+      "title": "국민의힘 부산의원들 \"산은·금융위·금감원, 부산으로 와야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260902081100051",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:13:45+00:00"
+    },
+    {
+      "title": "신한금융 지분 5% 넘게 산 美 자산운용사…\"밸류업 긍정 평가\"",
+      "link": "https://www.yna.co.kr/view/AKR20260902079300002",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:12:27+00:00"
+    },
+    {
+      "title": "Australia posts second-quarter growth of 2.1%, beating expectations",
+      "link": "https://www.cnbc.com/2026/09/02/australia-gdp-q2-middle-east-rba.html",
       "source": "CNBC Finance",
-      "published": "2026-09-01T11:00:01+00:00"
+      "published": "2026-09-02T02:11:57+00:00"
     },
     {
-      "title": "Used cars under $20,000 tend to sell quickly — but there are tradeoffs for buyers",
-      "link": "https://www.cnbc.com/2026/09/01/used-cars-under-20000-sell-quickly-tradeoffs.html",
+      "title": "미트박스, 주당 2.0주 무상증자 결정",
+      "link": "https://www.yna.co.kr/view/AKR20260902077900008",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:03:26+00:00"
+    },
+    {
+      "title": "[게시판] KT&G, 전남광주 북구청과 도시환경 개선 추진 MOU 체결",
+      "link": "https://www.yna.co.kr/view/AKR20260902068100030",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:03:13+00:00"
+    },
+    {
+      "title": "[게시판] 농식품부, '농촌공간계획 숏폼 공모전' 수상작 발표",
+      "link": "https://www.yna.co.kr/view/AKR20260902049700030",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:02:43+00:00"
+    },
+    {
+      "title": "[게시판] LS증권, 사내 업무형 AI 플랫폼 구축 착수",
+      "link": "https://www.yna.co.kr/view/AKR20260902076500008",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:02:27+00:00"
+    },
+    {
+      "title": "롯데카드 앱에서 노란우산 가입…중기중앙회와 업무협약",
+      "link": "https://www.yna.co.kr/view/AKR20260902035900030",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:02:10+00:00"
+    },
+    {
+      "title": "농식품부, 임산부 친환경농산물 꾸러미 확대…품질관리 강화",
+      "link": "https://www.yna.co.kr/view/AKR20260902064500030",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:01:27+00:00"
+    },
+    {
+      "title": "가로림만 해상교량 예타 '고배'…태안군 \"멈추지 않는다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260902075100063",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:00:43+00:00"
+    },
+    {
+      "title": "검역본부, 베트남산 수입 금지 식물 4.3t 유통 일당 적발",
+      "link": "https://www.yna.co.kr/view/AKR20260902074600030",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:00:21+00:00"
+    },
+    {
+      "title": "제30회 직업능력의 달 기념식…삼성중공업 김승태 은탑산업훈장",
+      "link": "https://www.yna.co.kr/view/AKR20260901166800530",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:00:04+00:00"
+    },
+    {
+      "title": "상의·기획예산처·GCC, 한국형 자발적 탄소시장 글로벌 연계",
+      "link": "https://www.yna.co.kr/view/AKR20260901168800003",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:00:03+00:00"
+    },
+    {
+      "title": "미국 시카고 인근 한국 민관합작 초대형 물류센터 운영 시작",
+      "link": "https://www.yna.co.kr/view/AKR20260902059700051",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:00:02+00:00"
+    },
+    {
+      "title": "[게시판] 산업부, 제3회 '경제자유구역의 날' 개최",
+      "link": "https://www.yna.co.kr/view/AKR20260902052100003",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T02:00:01+00:00"
+    },
+    {
+      "title": "aT·경복궁면세점, 수산식품 수출확대 협약…인천공항에 홍보관",
+      "link": "https://www.yna.co.kr/view/AKR20260902069400030",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T01:54:26+00:00"
+    },
+    {
+      "title": "[양주소식] 일자리센터 '인공지능 역량 강화 과정' 교육생 모집",
+      "link": "https://www.yna.co.kr/view/AKR20260902073100060",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T01:50:23+00:00"
+    },
+    {
+      "title": "성남시, 건축조례 개정 추진…이행강제금·일조권 규제 완화",
+      "link": "https://www.yna.co.kr/view/AKR20260902072600061",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T01:48:51+00:00"
+    },
+    {
+      "title": "\"치킨집 맛을 가정에서도…식품업계, 냉동 간편식 확대",
+      "link": "https://www.yna.co.kr/view/AKR20260902063700030",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T01:48:01+00:00"
+    },
+    {
+      "title": "카카오게임즈, AI 백엔드 기업 '백엔드엑스'에 전략 투자",
+      "link": "https://www.yna.co.kr/view/AKR20260902067600017",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T01:45:59+00:00"
+    },
+    {
+      "title": "신한증권, 日 UMI벤처스와 한일 딥테크 펀드 조성 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260902071800008",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T01:44:36+00:00"
+    },
+    {
+      "title": "전남광주 8월 소비자물가 3.2% 상승…경유 20% 올라",
+      "link": "https://www.yna.co.kr/view/AKR20260902069000054",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T01:38:33+00:00"
+    },
+    {
+      "title": "한은 대구경북본부, 대학생·일반인 대상 '금요강좌' 개최",
+      "link": "https://www.yna.co.kr/view/AKR20260902070000053",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T01:37:50+00:00"
+    },
+    {
+      "title": "우상향하던 금값, 글로벌 금리 상승에 다시 우하향",
+      "link": "https://www.yna.co.kr/view/AKR20260902069100008",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T01:37:48+00:00"
+    },
+    {
+      "title": "하동 말차, 글로벌 티 브랜드 '차지코리아'와 공급 협약",
+      "link": "https://www.yna.co.kr/view/AKR20260902068900052",
+      "source": "연합뉴스·경제",
+      "published": "2026-09-02T01:34:58+00:00"
+    },
+    {
+      "title": "Trump says U.S. is not forcing Iran to negotiate after fresh round of strikes",
+      "link": "https://www.cnbc.com/2026/09/02/us-iran-war-trump-hormuz-irgc-jordan-bahrain.html",
       "source": "CNBC Finance",
-      "published": "2026-09-01T11:00:01+00:00"
+      "published": "2026-09-02T01:34:27+00:00"
     },
     {
-      "title": "삼전·닉스, 자사주 13조어치 샀다···‘증시 버팀목’ 효과 지속될까 - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91RTZmUHJSa3U1Q0lkaU9NaFh2UkpTTEpRRGNEd2Y5UHRqSndfOVVrdThQdjRoZGJsNGZ6OWNGcmdHcERocG8wN2IzSmlVanZmWmhJa3ZwN1VIZ9IBX0FVX3lxTE9WQnlxV2x2RWtWN1FnaGpjRFVWWUdyclV4emoyM2E1VlR1SkYxcDdRRExpZklSVVg5N1RubGhZLXFzbVJIUnc5MHIxbXZ0XzZvR3R4SEItYWRncEV3NVFv?oc=5",
+      "title": "저축은행 실적 개선됐다지만…전국 79개사 순익 50%는 2개사서 나와",
+      "link": "https://www.mk.co.kr/news/economy/12142060",
+      "source": "매일경제·증권",
+      "published": "2026-09-02T01:27:42+00:00"
+    },
+    {
+      "title": "하나증권, 증시 거래대금 25% 급감에도...증권사 실적 체력은 ‘한 단계 업’ - 녹색경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42cTRzMTFDOHJ5SHN0cXJrTmJkbko0UktyejhUTGFrM0Vkc1NSdmY5aFo3WHBKUXJkNE91SGJvc0ZYMGRub29LdUhPMXg4aFhEUDBRWmJDWHNab1A0RzU5OGI3ZkZ4Y2F1?oc=5",
       "source": "Google News",
-      "published": "2026-09-01T11:00:00+00:00"
+      "published": "2026-09-02T01:22:03+00:00"
     },
     {
-      "title": "India rejects court order to uphold decades-old water-sharing treaty with Pakistan",
-      "link": "https://www.cnbc.com/2026/09/01/india-hague-ruling-pakistan-water-treaty.html",
-      "source": "CNBC Finance",
-      "published": "2026-09-01T10:58:31+00:00"
-    },
-    {
-      "title": "Are rising bond rates really so bad? Maybe not, say these experts",
-      "link": "https://www.marketwatch.com/story/are-rising-bond-rates-really-so-bad-maybe-not-say-these-exports-1af9e683?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-09-01T10:53:00+00:00"
-    },
-    {
-      "title": "Euro zone inflation is back above 3%. Higher interest rates are likely to follow",
-      "link": "https://www.cnbc.com/2026/09/01/euro-zone-inflation-rate-hike.html",
-      "source": "CNBC Finance",
-      "published": "2026-09-01T10:50:27+00:00"
-    },
-    {
-      "title": "영국 증시 ’존재감 상실’ 위기…Webull UK CEO 경고 - Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hNE5XQmFRRFRMaUs2eVd3QzRwdUFTcmdiOWREU2lFa0FWekYzS05Xb1NxRm82b1VLRjV2c2VFazdpLXdsNlFtUlU5RURsWm5PbXR3T3M2SmIwM3g4ZENoZ3VuM0E1cmRBNE1wRkh1YW8?oc=5",
-      "source": "Google News",
-      "published": "2026-09-01T10:42:00+00:00"
-    },
-    {
-      "title": "한국거래소, 14일 개장 애프터마켓서 ETF·ETN 거래 제외",
-      "link": "https://www.yna.co.kr/view/AKR20260901190000008",
-      "source": "연합뉴스·경제",
-      "published": "2026-09-01T10:36:09+00:00"
-    },
-    {
-      "title": "상호금융 가계대출 목표치 배분 완료…새마을금고·신협도 늘어(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260901185051002",
-      "source": "연합뉴스·경제",
-      "published": "2026-09-01T10:15:11+00:00"
-    },
-    {
-      "title": "‘Neither of us attended college’: At 62, how can we afford to put our granddaughter through college?",
-      "link": "https://www.marketwatch.com/story/her-life-was-very-challenging-before-we-got-custody-at-62-how-can-we-afford-to-put-our-granddaughter-through-college-b9d550bb?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "2026-09-01T10:15:00+00:00"
-    },
-    {
-      "title": "[부고] 채병서(케이뱅크 전무·커뮤니케이션실장)씨 부친상",
-      "link": "https://www.yna.co.kr/view/AKR20260901187500002",
-      "source": "연합뉴스·경제",
-      "published": "2026-09-01T10:09:16+00:00"
-    },
-    {
-      "title": "“주식 접고 3% 이자 받겠다”…두 달새 정기예금에 몰린 돈 56조",
-      "link": "https://www.mk.co.kr/news/economy/12141674",
+      "title": "‘지역 밀착’ 역할 확대하는 새마을금고…금융 넘어 지역문제 해결도",
+      "link": "https://www.mk.co.kr/news/economy/12142051",
       "source": "매일경제·증권",
-      "published": "2026-09-01T10:02:30+00:00"
-    },
-    {
-      "title": "“6000밑은 안 갈 것”…전문가 7인 ‘비중 축소’ 없었다 [머니닥터 시장진단] - 매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15RUNSclIzV2MwOHpDOUhBTjhjMWliWVVrZGJYM2VXLUZWWUEyV2FwUFpldFlsbU9hVFFZMGVKT3ZFUmFXZ09xR1puOEhjc0ZxTGc?oc=5",
-      "source": "Google News",
-      "published": "2026-09-01T09:59:37+00:00"
-    },
-    {
-      "title": "상호금융 가계대출 목표치 배분 완료…새마을금고·신협도 늘어",
-      "link": "https://www.yna.co.kr/view/AKR20260901185000002",
-      "source": "연합뉴스·경제",
-      "published": "2026-09-01T09:51:08+00:00"
-    },
-    {
-      "title": "[중국증시-마감] 기술주 약세에 하락…방어주 강세 - 연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wc25walppcTVlWk9BRV95V3lMZE5RWEd1NVBCdlZLRXljeTZ3dzJUc1lFWENac3BYMGNrLVQzbnRNZHRhN3RWQVJENUJ6VEc2S1dPNUhuWnRERC1PWW9oT0dXMGdTSVMzNWFlcUdhb2o?oc=5",
-      "source": "Google News",
-      "published": "2026-09-01T09:37:10+00:00"
-    },
-    {
-      "title": "한일 경제안보대화 도쿄서 개최…\"AI·반도체 육성 협력 모색\"",
-      "link": "https://www.yna.co.kr/view/AKR20260901165100001",
-      "source": "연합뉴스·경제",
-      "published": "2026-09-01T09:26:05+00:00"
-    },
-    {
-      "title": "신학기 수협은행장, 최초 연임 도전한다…총 6명 출사표",
-      "link": "https://www.mk.co.kr/news/economy/12141664",
-      "source": "매일경제·증권",
-      "published": "2026-09-01T09:23:19+00:00"
-    },
-    {
-      "title": "네이버, 사우디 기업과 현지 예약·결제 통합서비스 구축 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260901184500017",
-      "source": "연합뉴스·경제",
-      "published": "2026-09-01T09:15:17+00:00"
-    },
-    {
-      "title": "연준과 싸우지 말라는데…9월 금리 인상시 美 증시 운명은?[오미주] - 머니투데이 - mt.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zMDFtT0hUMVZXMUZRMV9ZS1djeW9ienc0RG5DSHZrTmtfQkJDekZzU1REbWNCUTJzRi1QVjhrT2tCRUMtSVhkM0ZWWVhfS2lGakY4cy1HOWJEOUQ2TVpyV3ZVTlhheERB0gFuQVVfeXFMUFliZ0R1eVpLSDRwbnR1ZUVxdjh3M3JhakxKeGttZ215OUEyMHAzMW5BcTdWUWpwWWNqZVI2ZE9BblNhZ2NJODRIOU14MkFLckpGZGVMZ2ZmRWVSWEllYWtqaGtQSFFvTzI4ZWRtWkE?oc=5",
-      "source": "Google News",
-      "published": "2026-09-01T09:05:00+00:00"
-    },
-    {
-      "title": "조여오는 금리...증시가 재미가 없네 [9/1 G프터눈]｜Global Money Club - 중앙일보",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TaUdONUxVcUIyUVkyY1JHb1FkRmJDOXVZQVVyWjBCZnRmMG9xcUFXSWF4Q0p0TkxCbFRsR1NTRzNzRUZBZEJwZFQ2ckZZZVBxaGZGVzhaM3k0ejA?oc=5",
-      "source": "Google News",
-      "published": "2026-09-01T09:04:12+00:00"
-    },
-    {
-      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
-      "link": "https://www.yna.co.kr/view/AKR20260901174300011",
-      "source": "연합뉴스·경제",
-      "published": "2026-09-01T09:00:01+00:00"
-    },
-    {
-      "title": "[뉴스&분석] 내년 821조 슈퍼예산 … 2030년엔 '1천조' 넘긴다",
-      "link": "https://www.mk.co.kr/news/economy/12141652",
-      "source": "매일경제·증권",
-      "published": "2026-09-01T08:59:03+00:00"
-    },
-    {
-      "title": "비거주 1주택 종부세 '원복'…기본공제 현행 12억원 유지",
-      "link": "https://www.mk.co.kr/news/economy/12141649",
-      "source": "매일경제·증권",
-      "published": "2026-09-01T08:59:01+00:00"
-    },
-    {
-      "title": "유한양행, 글로벌 제약사에 원료의약품 공급…1천311억원 규모",
-      "link": "https://www.yna.co.kr/view/AKR20260901182500017",
-      "source": "연합뉴스·경제",
-      "published": "2026-09-01T08:56:43+00:00"
-    },
-    {
-      "title": "[포토] 25번째 생일 맞은 신한금융지주",
-      "link": "https://www.mk.co.kr/news/economy/12141641",
-      "source": "매일경제·증권",
-      "published": "2026-09-01T08:54:05+00:00"
-    },
-    {
-      "title": "불붙은 인뱅 2위 경쟁…토뱅, 케뱅 턱밑 추격",
-      "link": "https://www.mk.co.kr/news/economy/12141639",
-      "source": "매일경제·증권",
-      "published": "2026-09-01T08:54:04+00:00"
-    },
-    {
-      "title": "[표] 당좌거래정지",
-      "link": "https://www.mk.co.kr/news/economy/12141640",
-      "source": "매일경제·증권",
-      "published": "2026-09-01T08:54:04+00:00"
-    },
-    {
-      "title": "\"주식 접고 3% 이자 받겠다\" 2달새 56조 몰린 정기예금",
-      "link": "https://www.mk.co.kr/news/economy/12141637",
-      "source": "매일경제·증권",
-      "published": "2026-09-01T08:54:03+00:00"
-    },
-    {
-      "title": "[표] 외국환율고시표",
-      "link": "https://www.mk.co.kr/news/economy/12141635",
-      "source": "매일경제·증권",
-      "published": "2026-09-01T08:54:02+00:00"
-    },
-    {
-      "title": "대출비교 1천만번 했는데…갈아탄건 3천건",
-      "link": "https://www.mk.co.kr/news/economy/12141636",
-      "source": "매일경제·증권",
-      "published": "2026-09-01T08:54:02+00:00"
-    },
-    {
-      "title": "AI·메가프로젝트에 21조 … 국가대표 15개 분야 '총력전'",
-      "link": "https://www.mk.co.kr/news/economy/12141632",
-      "source": "매일경제·증권",
-      "published": "2026-09-01T08:53:46+00:00"
-    },
-    {
-      "title": "108조 지출 구조조정에도… 나랏빚 1500조 넘어",
-      "link": "https://www.mk.co.kr/news/economy/12141633",
-      "source": "매일경제·증권",
-      "published": "2026-09-01T08:53:46+00:00"
-    },
-    {
-      "title": "0~12세에 최대 月30만원…지방서 첫 출산때 1500만원 지급",
-      "link": "https://www.mk.co.kr/news/economy/12141629",
-      "source": "매일경제·증권",
-      "published": "2026-09-01T08:53:00+00:00"
+      "published": "2026-09-02T01:19:22+00:00"
     }
   ],
   "pages": [
