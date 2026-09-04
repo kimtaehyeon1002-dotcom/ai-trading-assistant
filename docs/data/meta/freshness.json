@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T00:48:35.885253+09:00",
+  "generated_at": "2026-09-05T00:48:43.107223+09:00",
   "sources": {
     "Vault Sync": {
       "status": "completed",
@@ -52,9 +52,9 @@
     },
     "Vault Journal": {
       "status": "completed",
-      "last_built": "2026-09-05T00:48:35.787253+09:00",
+      "last_built": "2026-09-05T00:48:43.010224+09:00",
       "expected_T_min": 30,
-      "items": 0,
+      "items": 33,
       "duration_ms": 0
     },
     "News Research": {
@@ -73,7 +73,7 @@
     },
     "Publisher": {
       "status": "completed",
-      "last_built": "2026-09-05T00:48:35.879253+09:00",
+      "last_built": "2026-09-05T00:48:43.099221+09:00",
       "expected_T_min": 30,
       "items": 4,
       "duration_ms": 0
