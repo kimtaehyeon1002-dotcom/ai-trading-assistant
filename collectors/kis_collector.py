@@ -20,9 +20,12 @@
 """
 from __future__ import annotations
 
+import hashlib
+import json
 import time
 
 from config.settings import (
+    CACHE_DIR,
     KIS_ACCOUNT_FOREIGN,
     KIS_ACCOUNT_ISA,
     KIS_APP_KEY,
@@ -55,6 +58,15 @@ _DOMESTIC_TR_ID = "TTTC8434R"
 # 먼저 조회한 계좌의 토큰을 다른 계좌가 물려받아, 그 계좌에는 유효하지 않은 토큰으로 요청하게 된다
 # (증상이 '계좌번호 오류'로 나타나 원인 추적이 어렵다).
 _memo_tokens: dict[str, dict] = {}
+
+# 프로세스 **간** 토큰 캐시. 위 _memo_tokens는 프로세스 메모리라 파이썬이 끝나면 사라지고,
+# 그러면 24시간짜리 토큰을 매 실행마다 새로 발급받게 된다 — KIS가 발급할 때마다 카카오톡
+# 알림을 보내므로 사용자에게 그대로 보인다(실측: 데스크톱 sync 3개 동시 실행 × 앱키 2개 = 6건).
+#
+# CACHE_DIR(=cache/)은 .gitignore의 `/cache/`에 걸려 커밋되지 않는다. data/cache/는 반대로
+# 데스크톱→CI 전달용으로 **커밋되는** 경로이므로 토큰을 절대 그쪽에 두면 안 된다.
+# CI(asset.yml)는 실행마다 러너가 새로 생겨 이 파일이 없다 — 거기서는 종전대로 매번 발급받는다.
+_TOKEN_CACHE_FILE = CACHE_DIR / "kis_token.json"
 
 
 def _foreign_credentials() -> tuple[str, str]:
@@ -106,16 +118,59 @@ def _sum_field(rows: list[dict], *candidates: str) -> float | None:
     return round(total, 2) if found else None
 
 
+def _cache_id(app_key: str) -> str:
+    """캐시 파일 안에서 앱키를 가리키는 식별자 — 앱키 평문을 파일에 남기지 않으려고 해시를 쓴다."""
+    return hashlib.sha256(app_key.encode()).hexdigest()[:16]
+
+
+def _load_disk_tokens() -> dict:
+    """토큰 캐시 파일 읽기. 없거나 깨졌으면 빈 캐시로 취급한다(발급으로 복구되므로 치명적이지 않다)."""
+    try:
+        data = json.loads(_TOKEN_CACHE_FILE.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except FileNotFoundError:
+        return {}
+    except (OSError, ValueError) as exc:
+        log.warning("KIS 토큰 캐시 읽기 실패(새로 발급받는다): %s", exc)
+        return {}
+
+
+def _store_token(app_key: str, token: str, expires_at: float) -> None:
+    """메모리·디스크 양쪽에 저장. 디스크 쓰기가 실패해도 이번 실행은 계속한다(다음 실행이 재발급)."""
+    _memo_tokens[app_key] = {"token": token, "expires_at": expires_at}
+    try:
+        _TOKEN_CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        store = _load_disk_tokens()
+        store[_cache_id(app_key)] = {"token": token, "expires_at": expires_at}
+        _TOKEN_CACHE_FILE.write_text(json.dumps(store, indent=2), encoding="utf-8")
+    except OSError as exc:
+        log.warning("KIS 토큰 캐시 저장 실패(다음 실행에서 재발급): %s", exc)
+
+
 def _get_token(app_key: str, app_secret: str) -> str | None:
     """OAuth2 접근토큰 — 앱키별로 캐시하고 만료 전까지 재사용한다.
 
     KIS는 토큰 발급을 **앱키당 1분에 1회**로 제한하므로(EGW00133), 재사용이 선택이 아니라
-    필수다. 캐시 키가 앱키인 덕에 계좌별 앱키가 서로의 토큰을 덮어쓰지 않는다."""
+    필수다. 캐시 키가 앱키인 덕에 계좌별 앱키가 서로의 토큰을 덮어쓰지 않는다.
+
+    캐시는 메모리 → 디스크 → 발급 순으로 본다. 디스크 계층이 없으면 프로세스가 끝날 때마다
+    24시간짜리 토큰을 버리고 새로 받게 되고, 발급 때마다 카카오톡 알림이 간다.
+    만료 60초 전부터는 새로 받는다 — 요청 도중 만료되는 경계를 피하기 위한 여유다."""
     if not (app_key and app_secret):
         return None
+    now = time.time()
+
     cached = _memo_tokens.get(app_key)
-    if cached and cached["expires_at"] > time.time() + 60:
+    if cached and cached["expires_at"] > now + 60:
         return cached["token"]
+
+    on_disk = _load_disk_tokens().get(_cache_id(app_key))
+    if on_disk and on_disk.get("expires_at", 0) > now + 60 and on_disk.get("token"):
+        _memo_tokens[app_key] = on_disk          # 같은 실행 안의 다음 호출은 메모리에서 끝낸다
+        left_h = (on_disk["expires_at"] - now) / 3600
+        log.info("KIS 토큰 재사용(캐시) — 잔여 %.1f시간, 발급 생략", left_h)
+        return on_disk["token"]
+
     try:
         import requests
 
@@ -128,7 +183,8 @@ def _get_token(app_key: str, app_secret: str) -> str | None:
         if not token:
             return None
         expires_in = int(body.get("expires_in", 86400))
-        _memo_tokens[app_key] = {"token": token, "expires_at": time.time() + expires_in}
+        _store_token(app_key, token, now + expires_in)
+        log.info("KIS 토큰 신규 발급 — 유효 %.1f시간(캐시 저장됨)", expires_in / 3600)
         return token
     except Exception as exc:  # noqa: BLE001
         log.warning("KIS 토큰 발급 실패: %s", exc)
